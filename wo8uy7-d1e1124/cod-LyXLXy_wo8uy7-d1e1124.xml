@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="200-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1124"><!-- l1d18q1 -->
+            <head xml:id="wo8uy7-d1e1124-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1124-d1e111">
+      ⁋ Distinct. xviii. Questio vnica. 
+      <lb ed="#L" n="47"/>Irca
+      distin<lb ed="#L" n="48" break="no"/>ctionem. xviii. quero. Utrum 
+      <lb ed="#L" n="49"/>donum dicat proprietatem
+      perso<lb ed="#L" n="50" break="no"/>nalem.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e122">
+      ⁋ Quod non. quia donum 
+      <lb ed="#L" n="51"/>conuenit filio. ergo non est proprie 
+      <lb ed="#L" n="52"/>tas personalis spiritus sanctus antecedens patet per 
+      <lb ed="#L" n="53"/>illud esa. filius datus est etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e131">
+      ⁋ Preterea
+      nul<lb ed="#L" n="54" break="no"/>lus respectus dei ad creaturas est proprietas per 
+      <!--403.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 200-v -->
+               <lb ed="#L" n="55"/>sonalis cuiuscumque persone. sed donum importat 
+      <lb ed="#L" n="56"/>respectum dei ad creaturam. quia secundum magistrum in
+      lit<lb ed="#L" n="57" break="no"/>ter spiritus sanctus non dicitur donum nisi quia potest creature
+      do<lb ed="#L" n="58" break="no"/>nari. et non quia datur patri vel filio. ergo donum non di 
+      <lb ed="#L" n="59"/>cit proprietatem personalem cuiuscumque persone
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e153">
+      ⁋ In op 
+      <lb ed="#L" n="60"/>positum. <ref xml:id="wo8uy7-d1e1124-Rd1e157">Aug. patet de tri. c. xiiii.</ref> et <ref xml:id="wo8uy7-d1e1124-Rd1e160">magister
+      alle<lb ed="#L" n="61" break="no"/>gat in littera</ref> spiritus sanctus quam non trinitas: sed in trinitate 
+      <lb ed="#L" n="62"/>intelligitur proprie dit spiritus sanctus elatiue dicitur cum et ad  
+      <lb ed="#L" n="63"/>patrem et ad filium refertur. sed ipse respectus non
+      appa<lb ed="#L" n="64" break="no"/>ret in hoc nomine. apparet autem cum dicitur donum 
+      <lb ed="#L" n="65"/>dei. donum enim est patris et filii. quia et a patre pro 
+      <lb ed="#L" n="66"/>cedit et filio. Et infert magister. Ecce hiis ver 
+      <lb ed="#L" n="67"/>bis aprte ostenditur eadem relatione dici spiritus sanctus et 
+      <lb ed="#L" n="68"/>donum. Donum autem quia procedit a patre et filio. proprie 
+      <lb ed="#L" n="69"/>tas ergo qua dicitur spiritus sanctus vel donum processio ipsa est 
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e184">
+               <lb ed="#L" n="70"/>⁋ Circa istam questionem primo videndum est. Utrum 
+      <lb ed="#L" n="71"/>itus ancts vere possit dici donum. Secundo cui vel quibus 
+      <lb ed="#L" n="72"/>donetur. Tertio vtrum sic esse donum sit proprietas
+      con<lb ed="#L" n="73" break="no"/>stitutiui spiritum sanctum
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e195">
+      ⁋ Circa primum dico quo spiritus sanctu potest dici 
+      <lb ed="#L" n="74"/>donum per rationem probari non potest sed tantum per auc. quia ad l 
+      <lb ed="#L" n="75"/>sunt auc. sanctorum quas magister adducit in li 
+      <lb ed="#L" n="76"/>tera
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e204">
+      ⁋ Circa secundum videtur esse opinione magistri. qi spiritus sanct 
+      <lb ed="#L" n="77"/>non datur patri nec filio sed tantum creature. quia dicit quod 
+      <lb ed="#L" n="78"/>us sacti no datur nisi ex tempore. sed manifestum ets spiritus sanctus snon 
+      <lb ed="#L" n="79"/>dari filio nec patri ex tempore. ergo etc. hoc etiam 
+      <lb ed="#L" n="80"/>probat per augustinum. patet de trini. ca. xviii. vbi
+      di<lb ed="#L" n="81" break="no"/>cit sitim spiritus sanctus procedit et non ex tempore sed ab eternitate pro 
+      <lb ed="#L" n="82"/>cedit. sed quia sic procedebat vt esset donabilis. iam do 
+      <lb ed="#L" n="83"/>num erat antequaem esset cui daretur Item <ref xml:id="wo8uy7-d1e1124-Rd1e221">aug. v. de trini. 
+        <lb ed="#L" n="84"/>ca. v.</ref> 
+               <quote xml:id="wo8uy7-d1e1124-Qd1e226" source="http://scta.info/resource/adt-l5-d1e759" synch="48-60">Eoipso quo daturus erat eum deus iam donum 
+      <lb ed="#L" n="85"/>erat etiam antequam daretur</quote>. ergo non fuit datus patri vel fi 
+      <lb ed="#L" n="86"/>lio.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e234">
+      ⁋ Contra istam opinionem potest argui per bea 
+      <lb ed="#L" n="87"/>tum Aug. ve. de tri. ca. xvii. vbi ostendens quare in 
+      <lb ed="#L" n="88"/>s inctus non dicitur filius dicit. <quote xml:id="wo8uy7-d1e1124-Qd1e240" source="http://scta.info/resource/adt-l5-d1e753" synch="91-98">Exiit non quomodo natus 
+      <lb ed="#L" n="89"/>sed quodo datus</quote>. et ideo non dicitur filius. quia neque natus 
+      <lb ed="#L" n="90"/>est sicut vnigenitus neque factus vt per dei gratiam 
+      <lb ed="#L" n="91"/>in adoptione nasceretur sicut nos. Ex qua auc. 
+      <lb ed="#L" n="92"/>potest haberi quod per ho spiritus sanctus non dicitur filius. quia exit 
+      <lb ed="#L" n="93"/>vel procedit a patre. non quomodo natus sec quo 
+      <lb ed="#L" n="94"/>modo datus. sed ab eterno fuit distinctus a
+      fi<lb ed="#L" n="95" break="no"/>lio. ergo ab eterno exiit a patre quomodo datus. 
+      <lb ed="#L" n="96"/>sed non fuit ab eterno datus creature. nec
+      si<lb ed="#L" n="97" break="no"/>biipsi. ergo ab eterno fuit datus patri vel filio. 
+      <lb ed="#L" n="98"/>breterea vbi est impensio amoris et
+      repen<lb ed="#L" n="99" break="no"/>sio. ibi est aliqua datio. sed secundum Rich. pater amo 
+      <lb ed="#L" n="100"/>rem impendit filio. et filius rependit. ergo ibi
+      ali<lb ed="#L" n="101" break="no"/>quid filio datur a patre. et econuerso. et tamen non ni 
+      <lb ed="#L" n="102"/>spiritus sanctus rgo.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e274">
+      ⁋ Ideo pro auctoritate beati
+      Au<lb ed="#L" n="103" break="no"/>gustini et magistri potest dici quod donum vel datum 
+      <lb ed="#L" n="104"/>dicitur duplicit. Uno modo pro producto virtute 
+      <lb ed="#L" n="105"/>amoris alicuius obiecti quod non vt produci: 
+      <lb ed="#L" n="106"/>tur tali modo habet rationem similitudinis
+      re<lb ed="#L" n="107" break="no"/>spectu obiecti amati. Aliter accipitur donum pro
+      ali<lb ed="#L" n="108" break="no"/>quo libere alicui. collato et quasi in possessionem vel 
+      <lb ed="#L" n="109"/>domfinum ipsius translato Primo modo accipiendo donum vel 
+      <!--404.xml-->
+      <pb ed="#L" n="201-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>batum vel dari. potest dici quod spiritus sanctus datur 
+      <lb ed="#L" n="2"/>patri a filio. et econuerso filio a patre. quia sicut
+      ta<lb ed="#L" n="3" break="no"/>ctum est supra dist. xiii. sicut videmus in nobis 
+      <lb ed="#L" n="4"/>per intellecto aliquo obiecto intellectus format 
+      <lb ed="#L" n="5"/>similitudinem illius obiecti. quod est quasi declaratiuum 
+      <lb ed="#L" n="6"/>non notitie sed obiecti praecogniti. et voluntas creata 
+      <lb ed="#L" n="7"/>diligens aliquod obiectum amato gratum et
+      acce<lb ed="#L" n="8" break="no"/>ptum dat si potest. et si non habet producit aliquid tale 
+      <lb ed="#L" n="9"/>si potest. ita est aliquo modo in diuinis. quamuis multum 
+      <lb ed="#L" n="10"/>disimiliter. quia pater habens diuinam esentiam que formaliter ex 
+      <lb ed="#L" n="11"/>omni modo est ipsa intellectio absoluta. et realiter est 
+      <lb ed="#L" n="12"/>ipse pater. quae pater intelligit tam se quam essentiam pro 
+      <lb ed="#L" n="13"/>ducit aliquid vtute illius intellectois tanquam yma 
+      <lb ed="#L" n="14"/>ginem et similitudinem suipsius. que ymago verbum dicitur 
+      <lb ed="#L" n="15"/>et est realiter verbum tanquam ymago et similitudo patris 
+      <lb ed="#L" n="16"/>declaratiuum. Sic quia ipsa divina essentia est forma 
+      <lb ed="#L" n="17"/>liter et realiter amor et dilectio absoluta quae pater 
+      <lb ed="#L" n="18"/>diligit se et essentiam et filium. et econuerso filius
+      dili<lb ed="#L" n="19" break="no"/>git eam essentiam et se et patrem virtute illius amoris 
+      <lb ed="#L" n="20"/>quo pater diligit filium. producendo spiumsanctum 
+      <lb ed="#L" n="21"/>dat eum filio tanquam donum sibi gratissimum et
+      acce<lb ed="#L" n="22" break="no"/>ptum. et econuerso filius producendo idem donum 
+      <lb ed="#L" n="23"/>dat ipsum patri. et ita datur tam patri quam filio
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e348">
+      ⁋ Et 
+      <lb ed="#L" n="24"/>hoc intendit richardus de impensione amoris et 
+      <lb ed="#L" n="25"/>repensione. Et isto modo potest dici quod spiritus sancuns 
+      <lb ed="#L" n="26"/>est nexus patris et filii per modum doni dilectum et 
+      <lb ed="#L" n="27"/>redilectum vnientis. Sic etiam potest dici quod est com 
+      <lb ed="#L" n="28"/>munio vtriusque tamquam donum vtrique datum mutuo. 
+      <lb ed="#L" n="29"/>sic etiam est spiritus vtriusque. Secundo modo
+      accipi<lb ed="#L" n="30" break="no"/>endo dari. spiritus sanctus non datur patri et filio. quia 
+      <lb ed="#L" n="31"/>spiritus sanctus non libere sed mere naturaliter communica 
+      <lb ed="#L" n="32"/>tur vel confertur patri et filio. ita enim naturaliter secundu 
+      <lb ed="#L" n="33"/>quod naturaliter opponitur libertati producitur spiritus
+      san<lb ed="#L" n="34" break="no"/>ctus sicut filius. non tamen violenter vel coacte produ 
+      <lb ed="#L" n="35"/>citur sicut nec filius
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e378">
+      ⁋ Circa secundum spiritus sanctus 
+      <lb ed="#L" n="36"/>non datur nisi tantum creature rationali. quia aliquo modo 
+      <lb ed="#L" n="37"/>spiritus sanctus improprie loquendo tranffertur in domfernium 
+      <lb ed="#L" n="38"/>creature ratoalis quando datur sibi illo modo loquendo 
+      <lb ed="#L" n="39"/>proportionabiliter quo loquitur scriptura facra. Io 
+      <lb ed="#L" n="40"/>sue. x.c. Stetit sol in medio celi et non festiauit 
+      <lb ed="#L" n="41"/>occumbere spacio vnius dici non fuit ante nec postea 
+      <lb ed="#L" n="42"/>tam longa dies obediente domino voci hominis. Similiter 
+      <lb ed="#L" n="43"/>Exodi. xxxv. caua. dixit domins moysi. dimitte me vt 
+      <lb ed="#L" n="44"/>irascatur furor meus contra eos et deleam eos. Ecce 
+      <lb ed="#L" n="45"/>quod cum obedientia debeatur habenti ptantem et domfinum 
+      <lb ed="#L" n="46"/>sic ptantem et dominium aliquo modo isti sancti su 
+      <lb ed="#L" n="47"/>per dominum habuerunt. quia scilicet deus ex bneplacito 
+      <lb ed="#L" n="48"/>suo paratus erat facere quicquid isti rationabiliter vo 
+      <lb ed="#L" n="49"/>luerunt. Et isto modo quia sola creatura rationalis 
+      <lb ed="#L" n="50"/>dominari potespiritus sanctus et quand ilibere vti dominio. soli creature 
+      <lb ed="#L" n="51"/>rationali dari potes iritus sanctus Et isto modo accipiendo dari 
+      <lb ed="#L" n="52"/>loquitur scriptura sacra et frequenter beatus augu. 
+      <lb ed="#L" n="53"/>sic accipit dari. et raro primo modo.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e420">
+      ⁋ Si dicatur contr prie 
+      <lb ed="#L" n="54"/>dicta primo quia secundum omns pater nihil recipit a
+      fi<lb ed="#L" n="55" break="no"/>lio. ergo nihil datur patri a filio ergo spiritus sanctus non datur 
+      <!--404.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 201-r -->
+               <lb ed="#L" n="56"/>patri a filio.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e436">
+      ⁋ Preterea. dictum est prius. quod si
+      spiritus<lb ed="#L" n="57" break="no"/>sanctus non procederet a filio adhuc distingueretur 
+      <lb ed="#L" n="58"/>ab eo. sed si non procederet ab eo non esset donum. 
+      <lb ed="#L" n="59"/>et per consequens non esset persona. quia non essentia nec pater 
+      <lb ed="#L" n="60"/>nec filius.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e447">
+      ⁋ Preterea. secundum dicta spiritus sanctus non 
+      <lb ed="#L" n="61"/>esset amor. sed esset aliquod productum virtute
+      amo<lb ed="#L" n="62" break="no"/>ris. quod videtur esse contra sctos dicentes spicum scantum 
+      <lb ed="#L" n="63"/>esse amorem patris et filii.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e456">
+      ⁋ Ad primum istorum dico 
+      <lb ed="#L" n="64"/>quod recipere per modum informationis vel
+      productio<lb ed="#L" n="65" break="no"/>nis. vel per modum indigentie nullo modo competit pa 
+      <lb ed="#L" n="66"/>tri. et ideo proprie loquendo pater nihil recipit a 
+      <lb ed="#L" n="67"/>filio nec aliquid habet a filio. Uocando tamen recipere 
+      <lb ed="#L" n="68"/>pro aliquid sibi dari. sic non est inconueniens patre 
+      <lb ed="#L" n="69"/>aliquid recipere. sed sic non vtuntur sancti isto ver 
+      <lb ed="#L" n="70"/>bo recipere
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e474">
+      ⁋ Ad secundum dico quod dictum est prius quod 
+      <lb ed="#L" n="71"/>isto modo si spiritus sanctus non procederet a filio ad ¬ 
+      <lb ed="#L" n="72"/>huc distingueretur ab eo. quia scilicet filius non tantum distin 
+      <lb ed="#L" n="73"/>guitur a spiritu sancto per spirationem actiuam. sed etiam per 
+      <lb ed="#L" n="74"/>filiationem. sequitur tamen spiritus sanctus non procedit a
+      fi<lb ed="#L" n="75" break="no"/>lio. ergo spiritus sanctus non distinguitur a filio. quamuis ista 
+      <lb ed="#L" n="76"/>osequentia non sit omnibus nota.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e491">
+      ⁋ Ad tertium dico 
+      <lb ed="#L" n="77"/>quod propter auctoritates oportet tenere quod spiritus san 
+      <lb ed="#L" n="78"/>ctus sit amor. et ibi accipitur amor notionaliter 
+      <lb ed="#L" n="79"/>oro ipsomet spiritu sancto. cum hoc tamen stat quod sit veraci 
+      <lb ed="#L" n="80"/>ter donum donatum amato ab amante. Circa
+      ter<lb ed="#L" n="81" break="no"/>tium dico quod accipiendo donum primo modo magis 
+      <lb ed="#L" n="82"/>proprie debet dici quod donum est ipsemet spiritus sanctus 
+      <lb ed="#L" n="83"/>quam quod sit proprietas spiritus sancti. Cuius ratio est. quia sicut ver 
+      <lb ed="#L" n="84"/>bum ad filium. ita donum illo modo dictum ad spritumsctantum 
+      <lb ed="#L" n="85"/>sed verbum est filius. et non proprie proprietas fili. ergo 
+      <lb ed="#L" n="86"/>similiter donum est spiritus sanctus. et non proprietas
+      spiritus<lb ed="#L" n="87" break="no"/>sancti.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e517">
+      ⁋ Si dicatur quod quamuis donum non est proprietas 
+      <lb ed="#L" n="88"/>spiritus sancti. tamen esse donum est proprietas spiritus sancti. Dico 
+      <lb ed="#L" n="89"/>quod non. sicut esse spitunsscntum non est proprietas spiritus sancti. 
+      <lb ed="#L" n="90"/>et sicut esse filium non est proprietas filii. tamen dari vel do 
+      <lb ed="#L" n="91"/>nari est proprietas spiritus sancti. quia sicut donum nullo modo 
+      <lb ed="#L" n="92"/>distinguitur a spiritu sancto. ita dari nullo modo
+      distin<lb ed="#L" n="93" break="no"/>guitur a spirari. et ideo sicut spirari est proprietas spiritus s 
+      <lb ed="#L" n="94"/>ancti. ita dari est proprietas spiritus sancti. Sed accipiendo 
+      <lb ed="#L" n="95"/>bonum et dari. secundo modo: sic dico quod donum est
+      spiritus<lb ed="#L" n="96" break="no"/>sancti. quia illud idem est quod est datum pri a filio et
+      ecom<lb ed="#L" n="97" break="no"/>uerso. et postea libere donatum vel datum creatur 
+      <lb ed="#L" n="98"/>re rationali.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e543">
+      ⁋ Sed si quaeritur vtrum dari illo modo sit
+      proprie<lb ed="#L" n="99" break="no"/>tas constitutiva spirius sancti.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e548">
+      ⁋ Respondeo. dico quod proprietas 
+      <lb ed="#L" n="100"/>alicuius dupliciter accipitur. Uno modo pro aliquo
+      rea<lb ed="#L" n="101" break="no"/>li sibi soli realiter competenti. sicut prnitas illa quae est 
+      <lb ed="#L" n="102"/>deus est proprietas patris. quia soli pri realiter conuenit. 
+      <lb ed="#L" n="103"/>Alio modo pro aliquo praedicabili vere de illo solo. sicut 
+      <lb ed="#L" n="104"/>risibile est proprietas hominis. quia de solo homine et vniversaliter prae 
+      <lb ed="#L" n="105"/>dicatur. Primo modo dico quod dari creature rationali no 
+      <lb ed="#L" n="106"/>est proprietas spiritus sancti. quia non est aliqua res vna vere 
+      <lb ed="#L" n="107"/>conueniens spirituisco. Secundo modo dico quod dari dupliciter 
+      <lb ed="#L" n="108"/>accipitur. Uno modo large. alio modo stricte. secundum quod 
+      <lb ed="#L" n="109"/>dicitur aliquid dari quod est neccessario datum primo modo. et isto 
+      <lb ed="#L" n="110"/>secundo modo dari est proprietas spiritus sancti. quia nihil illo 
+      <!--405.xml-->
+      <pb ed="#L" n="201-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>modo datur nisi solus spiritus sanctus. quia nulla res est 
+      <lb ed="#L" n="2"/>ab eterno et neccessario data. Primo modo non est 
+      <lb ed="#L" n="3"/>proprietas spiritus sancti. quia large accipiendo dari fil 
+      <lb ed="#L" n="4"/>us est datus. Ueruntmen quamuis dari vno modo dictum 
+      <lb ed="#L" n="5"/>sit proprietas spiritus sancti. hoc est soli spiritusisacto conueniens. 
+      <lb ed="#L" n="6"/>non est tamen proprietas constitutiua spiritus scit. quia nihil est 
+      <lb ed="#L" n="7"/>constitutiuum spiritus sancti nisi reale dari et sic dictum. 
+      <lb ed="#L" n="8"/>quamuis praedicetur de solo spiritu sancto. non est tamen aliquid re 
+      <lb ed="#L" n="9"/>aliter conueniens spirituisco nec intrinsecum spuisco. 
+      <lb ed="#L" n="10"/>et ideo illa proprietas non est constitutiua spiritus saci.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e602">
+      ⁋ Et 
+      <lb ed="#L" n="11"/>si dicatur quod proprietas persone non distinguitur realiter a 
+      <lb ed="#L" n="12"/>persona divina. sed illud quod praedicatur vere de persona
+      di<lb ed="#L" n="13" break="no"/>uina et non distinguitur ab ea. nec conuenit alicui 
+      <lb ed="#L" n="14"/>alii. vere est proprietas constitutiua ipsius. ergo omnis 
+      <lb ed="#L" n="15"/>proprietas persone est constitutiua eiusdem.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e615">
+      ⁋ Ad istud 
+      <lb ed="#L" n="16"/>dico quod secundum opinionem quae ponit quod conceptus non habet 
+      <lb ed="#L" n="17"/>esse nisi esse obiectiuum vel fictum in anima. sic talis pro 
+      <lb ed="#L" n="18"/>prietas cuiusmodi est dari. nec est idem realiter cum 
+      <lb ed="#L" n="19"/>persona. nec distinguitur realiter ab eadem. quia non est res 
+      <lb ed="#L" n="20"/>sed tantum ens rationis potens significare et suppone 
+      <lb ed="#L" n="21"/>re pro re extra animam. Si teneatur opinio quod conce 
+      <lb ed="#L" n="22"/>ptus est aliqua vera qualitas mentis. sic illa proprietas 
+      <lb ed="#L" n="23"/>distinguitur realiter a persona. quamuis importet personas 
+      <lb ed="#L" n="24"/>et supponat pro eadem. ratione cuius dicitur proprietas. quia tamen 
+      <lb ed="#L" n="25"/>non est res intrinseca persone cuius est proprietas. ideo 
+      <lb ed="#L" n="26"/>non est proprietas constitutiua ipsius.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e642">
+      ⁋ Ad auctoritatem 
+      <lb ed="#L" n="27"/>dico et similiter ad magistrum quod accipiunt dari secundem 
+      <lb ed="#L" n="28"/>modo. quod ex hoc patet. quia accipiunt dari secundum quod 
+      <lb ed="#L" n="29"/>aliquid est donabile anteque detur. sed spiritus sanctus non 
+      <lb ed="#L" n="30"/>est donabilis patri vel filio anteque donetur. sed 
+      <lb ed="#L" n="31"/>donabilis est creature anteque det. Et ideo
+      acci<lb ed="#L" n="32" break="no"/>piunt dari secundo modo. et sic concedo quod non datur patri ne 
+      <lb ed="#L" n="33"/>que filio
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e660">
+      ⁋ Et si queratur an donum importem aliquem 
+      <lb ed="#L" n="34"/>respectum rei vel rationis ad creaturam proprium 
+      <lb ed="#L" n="35"/>siunitus
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e667">
+      ⁋ Dico quod nullum respectum realem dei ad creatu 
+      <lb ed="#L" n="36"/>ram importat. quia nullus est respectus realis dei ad creatu 
+      <lb ed="#L" n="37"/>ram. nec est respectum rationis propim spiritus sanctus portat. quia nul 
+      <lb ed="#L" n="38"/>lus est respectus rationis. sicut commniter homines imaginantur 
+      <lb ed="#L" n="39"/>dei ad creaturam. Ueruntamen propter auctoritate sactorum loquen 
+      <lb ed="#L" n="40"/>tium deum referri ad creaturam. sicut magitr allegat 
+      <lb ed="#L" n="41"/>augu. in littera. est aduertendum quod scienti frequenter
+      vo<lb ed="#L" n="42" break="no"/>causat nomina respectiua nomina connotatiua. et similiter philosophus 
+      <lb ed="#L" n="43"/>sic accipit. volens quod aliqua nomina sunt ad aliquid e co 
+      <lb ed="#L" n="44"/>notant aliquid praeter id quod principaliter significant. 
+      <lb ed="#L" n="45"/>ideo dicunt aliquid referri quando tale nome connotatiuum 
+      <lb ed="#L" n="46"/>de eo praedicatur. quamuis talenomen nihil nisi abso 
+      <lb ed="#L" n="47"/>lutum significet. et per consequens non significet aliquem re 
+      <lb ed="#L" n="48"/>spectu qui quocumque modo differt ab omnibus abso 
+      <lb ed="#L" n="49"/>lutis. Et ideo quia haoc est vera. deus est refugium. de 
+      <lb ed="#L" n="50"/>us est domins et sic de aliis. dicit beatus augustinus 
+      <lb ed="#L" n="51"/>referri. et refugium relatiue dici. hoc est. hoc nomen 
+      <lb ed="#L" n="52"/>refugium est nomen relatiuum. hoc est connotatiuum 
+      <lb ed="#L" n="53"/>Et si quaer tur vlterius. an aliquod nomen tale relatiui 
+      <lb ed="#L" n="54"/>seu connotatiuum vere dicatur de spiritu sancto et non de alia 
+      <lb ed="#L" n="55"/>persona. sic vere dicitur quod filius est incarnatus et nulla alia 
+      <!--405.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 201-v -->
+               <lb ed="#L" n="56"/>persona est incarnata
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e722">
+      ⁋ Dico quod nullum nomen di 
+      <lb ed="#L" n="57"/>cens praecise deum et connotans creaturam vel econue 
+      <lb ed="#L" n="58"/>so et non connotans proprietatem personalem spiritus sancti 
+      <lb ed="#L" n="59"/>scilicet spirationem passiuam est proprium illo modo spirituisco 
+      <lb ed="#L" n="60"/>Ueruntamen aliquod tale nome connotans etiam proprie 
+      <lb ed="#L" n="61"/>tatem spiritus sancti potest esse proprium sibi. Et hoc modo 
+      <lb ed="#L" n="62"/>donum est nomen proprium spiritus sancti secundum modum supra 
+      <lb ed="#L" n="63"/>expositum.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e740">
+      ⁋ Per praedicta respondeo ad formam quae 
+      <lb ed="#L" n="64"/>stionis quando queritur. an donum dicat proprietatem per 
+      <lb ed="#L" n="65"/>sonalem spiritus sancti. Quod donum triplicitur accipi pos 
+      <lb ed="#L" n="66"/>vel significatiue et personaliter. vel materialiter pro 
+      <lb ed="#L" n="67"/>isto nomine donum. vel simplicitur pro conceptu
+      cor<lb ed="#L" n="68" break="no"/>respondente nomini. siue conceptus sit
+      subiecti<lb ed="#L" n="69" break="no"/>ue in anima siue solum obiectiue. Similiter proprietas 
+      <lb ed="#L" n="70"/>personalis dupliciter potest accipi. Uel pro aliquo 
+      <lb ed="#L" n="71"/>solum vni persone conuenienti. siue per praedicationem 
+      <lb ed="#L" n="72"/>siue per realem inexistentiam. Uel pro aliquo proprio 
+      <lb ed="#L" n="73"/>persone intrinseco. Accipiendo donum primo et per 
+      <lb ed="#L" n="74"/>sonaliter. hoc est pro re que est donum. sic donum no 
+      <lb ed="#L" n="75"/>dicit proprietate personalem. sed est ipsa persona spiritus sci 
+      <lb ed="#L" n="76"/>nec plus dicit. vel est propretas personalis spiritus snctit 
+      <lb ed="#L" n="77"/>quam spiritus sanctus. Accipiendo autem donum secundo modo vel 
+      <lb ed="#L" n="78"/>tertio et proprietate personalem primo modo. sic
+      ma<lb ed="#L" n="79" break="no"/>gis debet dici quod donum est proprietas personalis 
+      <lb ed="#L" n="80"/>spiritus sancti. non tamen constitutiua quam quod dicat proprietatem 
+      <lb ed="#L" n="81"/>personalem. Sed accipiendo proprietate personalem 
+      <lb ed="#L" n="82"/>secundo modo. et donum secundo modo vel tertio. sic
+      do<lb ed="#L" n="83" break="no"/>num non dicit proprietatem personalem nec est
+      proprie<lb ed="#L" n="84" break="no"/>tas personalis. quia donum nec secundo modo nec tertio 
+      <lb ed="#L" n="85"/>est intrinsecum nec idem realiter cum propraetate 
+      <lb ed="#L" n="86"/>spiritus sancti. quamuis vere praedicatur de spiritu sancto: non 
+      <lb ed="#L" n="87"/>pro se sed pro spiritu sancto.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e795">
+      ⁋ Ad primum principale 
+      <lb ed="#L" n="88"/>patet. quod quando dicitur Esa. ix. quod filius datus est nobis 
+      <lb ed="#L" n="89"/>ibi accipitur dari large. non stricte pro illo quod est 
+      <lb ed="#L" n="90"/>necessario et ab eterno datum primo modo. et ideo 
+      <lb ed="#L" n="91"/>sic large sumptum nullo modo est proprium spiritui sancto 
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e807">
+               <lb ed="#L" n="92"/>⁋ Ad secundum patet. quod donum non importat respectum 
+      <lb ed="#L" n="93"/>sed vno modo acceptum est nome relatiuum vel 
+      <lb ed="#L" n="94"/>connotatiuum. et tale potest esse proprietas perso 
+      <lb ed="#L" n="95"/>nalis primo modo accipiendo proprietatem
+      person<lb ed="#L" n="96" break="no"/>lem. non tamen potest esse proprietas constitutiua. nec 
+      <lb ed="#L" n="97"/>proprietas personalis secundo modo accipiendo pro 
+      <lb ed="#L" n="98"/>prietatem personalem.
+    </p>
+            <p xml:id="wo8uy7-d1e1124-d1e825">
+      ⁋ Et si dicatur. quod secundum dicta plu 
+      <lb ed="#L" n="99"/>res sint proprietates personales in diuinis quam tres. 
+      <lb ed="#L" n="100"/>qui spiritus sanctus habebit tres proprietates personales 
+      <lb ed="#L" n="101"/>Respodeo et dico quod accipiedo proprietatem
+      perso<lb ed="#L" n="102" break="no"/>nalem pro aliquo intrinseco. persone diuine. sic non 
+      <lb ed="#L" n="103"/>sunt nisi tres proprietates personales. quia sicut pate 
+      <lb ed="#L" n="104"/>bit postea. etia isto modo accipiendo proprietatem 
+      <lb ed="#L" n="105"/>personalem. innascibilitas non est proprietas persona 
+      <lb ed="#L" n="106"/>lis patris. quocumque modo distincta a paternitate 
+      <lb ed="#L" n="107"/>sed accipiendo proprietatem personalem pro omni proprio
+      pri<lb ed="#L" n="108" break="no"/>dicabili de aliqua persona plures sunt quam tres. Nec 
+      <lb ed="#L" n="109"/>hoc sancti negat. sed magis in suis
+      auctorita<lb ed="#L" n="110" break="no"/>tibus concedunt.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

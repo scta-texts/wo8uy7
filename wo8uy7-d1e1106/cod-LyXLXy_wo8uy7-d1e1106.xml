@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="198-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1106"><!-- l1d17q8 -->
+            <head xml:id="wo8uy7-d1e1106-Hd1e108">Quaestio 8</head>
+            <p xml:id="wo8uy7-d1e1106-d1e111">
+      Questio. viii. 
+      <!--398.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 198-r -->
+               <lb ed="#L" n="56"/>Preterea quero de 
+      <lb ed="#L" n="57"/>terminis augmenti charitatis. Utrum 
+      <lb ed="#L" n="58"/>sit dare. summam cui repugnet
+      au<lb ed="#L" n="59" break="no"/>gramentari:
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e129">
+      ⁋ Quod sic. quia secundum philosophum primo de anima. omnium 
+      <lb ed="#L" n="60"/>natura constantium determinata est ratio
+      magnitu<lb ed="#L" n="61" break="no"/>dinis et augmenti. ergo in omni augmentabili est dare 
+      <lb ed="#L" n="62"/>statum vltra quem non poest augmentari.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e138">
+      ⁋ Preterea. 
+      <lb ed="#L" n="63"/>ecundum commen. iii. phi. comen. lc. vbi est processus ad for 
+      <lb ed="#L" n="64"/>mam tamen contingit esse in actu quantum contingit esse 
+      <lb ed="#L" n="65"/>in potentia. ergo contingit dare summam charitatem 
+      <lb ed="#L" n="66"/>vltra quam non est alia potentia. quia ibi est processus ad 
+      <lb ed="#L" n="67"/>formam. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e151">
+      ⁋ Ad oppositum secundum philosophum i de anima 
+      <lb ed="#L" n="68"/>si apponerentur combustibilia. ignis cresceret in 
+      <lb ed="#L" n="69"/>infinitum. sed qua ratione ignis potest crescere in
+      infi<lb ed="#L" n="70" break="no"/>nitum. charitas potest crescere in infinitum. ergo non est
+      da<lb ed="#L" n="71" break="no"/>re charitatem summam qua non possit fieri maior 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e163">
+               <lb ed="#L" n="72"/>⁋ Ad. q. dicitur a multis doctoribus: quod potest fieri 
+      <lb ed="#L" n="73"/>charitas sumna qua non potest deus facere
+      ma<lb ed="#L" n="74" break="no"/>iorem.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e172">
+      ⁋ Ista conclusio probatur ab aliquibus prime 
+      <lb ed="#L" n="75"/>sic. accepta aliqua gratia determinata. puta 
+      <lb ed="#L" n="76"/>a. quero ascendendo. aut est status ad aliquam supre 
+      <lb ed="#L" n="77"/>nam et haber propositum. aut non. sed procedi poterit in
+      in<lb ed="#L" n="78" break="no"/>finitum. et tunc sequitur quod quanto aliqua magis
+      exce<lb ed="#L" n="79" break="no"/>dit a tanto est perfectior et per consequens aliqua quae in infinitum 
+      <lb ed="#L" n="80"/>excedit est in infinitum perfectior. et ita erit in se
+      in<lb ed="#L" n="81" break="no"/>tensiue infinita. et cum ipsa ab intellectu diuino 
+      <lb ed="#L" n="82"/>videatur sicut vnum creabile potest vna creatione crea 
+      <lb ed="#L" n="83"/>ri.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e194">
+      ⁋ Ab ista ratione habent euidentiam due alie quarum 
+      <lb ed="#L" n="84"/>vna accipitur a philosopho. iii. phi. c. de infinito. quod quantum 
+      <lb ed="#L" n="85"/>contingit esse in potentia. tantum contingit esse in actu. et ita 
+      <lb ed="#L" n="86"/>eundo ad formam non est procedere in infinitum. et ideo ne 
+      <lb ed="#L" n="87"/>cesse fuit in forma quacunque perfecta ponere
+      termi<lb ed="#L" n="88" break="no"/>num qualitercunque possibilem.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e207">
+      ⁋ Secundo arguitur sic. 
+      <lb ed="#L" n="89"/>quantamcumque realitatem potest deus creare tantam potest 
+      <lb ed="#L" n="90"/>creare subiectum includit praedicatum. ponatur ergo in esse 
+      <lb ed="#L" n="91"/>quod tantam creet quantam potest creare. ergo non potest maio 
+      <lb ed="#L" n="92"/>rem creare haber ergo propositum quod summa creabilis potest 
+      <lb ed="#L" n="93"/>creari.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e220">
+      ⁋ Ad eandem conclusionem arguunt alii sic pri 
+      <lb ed="#L" n="94"/>mo secundum philosophum. iii de anima. omnium natura constantium etc 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e225">
+               <lb ed="#L" n="95"/>⁋ Secundo sic. quantacumque perfectio potest fieri succer 
+      <lb ed="#L" n="96"/>siue in eadem charitate tanta potest fieri simul. sed  
+      <lb ed="#L" n="97"/>non est possibile simul esse aliquam charitatem perfecti 
+      <lb ed="#L" n="98"/>onis infinite. ergo nec successiue. maior patet. quia si no 
+      <lb ed="#L" n="99"/>aut hoc est ex parte recipientis. aut ex parte dei. aut ex 
+      <lb ed="#L" n="100"/>parte charitatis. Non ex parte dei. quia deus simul totam 
+      <lb ed="#L" n="101"/>virtutem suam habet. nec ex parte recipientis. quia tota cha 
+      <lb ed="#L" n="102"/>ritas que necessaria est respectu dei ex parte dei 
+      <lb ed="#L" n="103"/>potest esse simul in quacumque creatura spirituali. 
+      <lb ed="#L" n="104"/>licet ea que est per cognitionem et meritum non
+      si<lb ed="#L" n="105" break="no"/>mul sit que respectu deinon est necessaria licet 
+      <lb ed="#L" n="106"/>quandoque sit congrua
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e255">
+      ⁋ Nec est ex parte ipsius
+      cha<lb ed="#L" n="107" break="no"/>ritatis. quia ei quod importat infinitatem graduum in sua 
+      <lb ed="#L" n="108"/>natura non repugnat posse esse secundum talem infinitatem 
+      <lb ed="#L" n="109"/>in actu. sed charitas si est augmentabilis: in infinitum¬. 
+      <!--399.xml-->
+      <pb ed="#L" n="198-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>importat infinitatem graduum in sua natura. 
+      <lb ed="#L" n="2"/>ergo ex nulla repugnat quin deus tantam simul possit 
+      <lb ed="#L" n="3"/>facere quantamcunque potest eam facere successiuam. 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e277">
+               <lb ed="#L" n="4"/>⁋ Tertio sic. quia deus per ydeas rerum cognoscet 
+      <lb ed="#L" n="5"/>res secundum esse illud quod absolute important. puta al 
+      <lb ed="#L" n="6"/>bedinem cognoscit per suam ydeam non secundum vnum gradum 
+      <lb ed="#L" n="7"/>intensi et remissi. sed secundum totum quod potest natura albe 
+      <lb ed="#L" n="8"/>dinis importare. sed si charitas potest augeri in in 
+      <lb ed="#L" n="9"/>finitum. natura eius secundum esse et absolute accepta 
+      <lb ed="#L" n="10"/>importat infinitam perfectionem graduum. ergo deus per 
+      <lb ed="#L" n="11"/>ydeam charitatis cognoscit quandam naturam
+      cre<lb ed="#L" n="12" break="no"/>atam infinite perfectionis. quod est inconueniens.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e299">
+      ⁋ Pre 
+      <lb ed="#L" n="13"/>terea illud quod est proprium ei quod est perfectum per essentiam 
+      <lb ed="#L" n="14"/>non conuenit ei quod est perfectum per participationem. sed esse 
+      <lb ed="#L" n="15"/>infinitum secundum formam et perfectionem est proprium ei quod est 
+      <lb ed="#L" n="16"/>perfectum per essentiam scilicet deo. ergo habere infinitatem 
+      <lb ed="#L" n="17"/>secundum perfectionem non conuenit charitati vel
+      alteri<lb ed="#L" n="18" break="no"/>creature.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e315">
+      ⁋ Quinto sequeretur quod esset dare
+      ma<lb ed="#L" n="19" break="no"/>iorem charitatem charitate christi. quod est inconueniens. 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e320">
+               <lb ed="#L" n="20"/>⁋ Sexto. quia sicut qualibet creatura in esse
+      substantia<lb ed="#L" n="21" break="no"/>li est limitata. ita quod secundum illam speciem non potest esse ma 
+      <lb ed="#L" n="22"/>ior. ita in quolibet esse est limitata ita quod non
+      conti<lb ed="#L" n="23" break="no"/>git in eadem specie transcendere.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e331">
+      ⁋ Contra istam 
+      <lb ed="#L" n="24"/>opinionem potest argui sic. quia non est negandus talis 
+      <lb ed="#L" n="25"/>processus in infinitum nisi ad eum sequitur infinitas 
+      <lb ed="#L" n="26"/>aliqua in creatura. nam secundum omnes opinantes secundum
+      praedi<lb ed="#L" n="27" break="no"/>ctam opinionem propter istam causam negant talem 
+      <lb ed="#L" n="28"/>processum in infinitum. sed propter istam causam non oportet ne 
+      <lb ed="#L" n="29"/>gare. ergo etc. Assumptum probatur. quia vltra omnem ignem 
+      <lb ed="#L" n="30"/>datum potest deus facere ignem maiorem. et tamen non potest 
+      <lb ed="#L" n="31"/>facere ignem infinitum. ergo eodem modo quamuis possit sem 
+      <lb ed="#L" n="32"/>per facere maiorem charitatem in infinitum. non
+      se<lb ed="#L" n="33" break="no"/>quitur eum posse facere charitatem infinitam. Qui au 
+      <lb ed="#L" n="34"/>tem deus possit facere omni igni ignem maiorem
+      vide<lb ed="#L" n="35" break="no"/>tur manifestum. quia quocumque dato potest deus facere 
+      <lb ed="#L" n="36"/>vnum alium ignem. et potest ex illis duobus ignibus face 
+      <lb ed="#L" n="37"/>re vnum
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e365">
+      ⁋ Quod si dicatur quod deus potest facere ignem
+      infi<lb ed="#L" n="38" break="no"/>nitum. eadem ratione potest facere charitatem infinitam. 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e370">
+               <lb ed="#L" n="39"/>⁋ Preterea impossibile est deum facere tot
+      indiui<lb ed="#L" n="40" break="no"/>dua eiusdem rationis quin possit facere plura. et tamen non 
+      <lb ed="#L" n="41"/>potest facere infinita indiuidua simul. ergo eadem ratio 
+      <lb ed="#L" n="42"/>ne quamuis deus non posset facere tantam charitatem quin 
+      <lb ed="#L" n="43"/>posset facere maiorem. non sequitur eam posse facere 
+      <lb ed="#L" n="44"/>infinitam. Assumptum patet. quia quibuscumque indiuiduis 
+      <lb ed="#L" n="45"/>in certo numero datis. adhuc potest deus vnum aliud 
+      <lb ed="#L" n="46"/>indiuiduum eiusdem rationis cum illis facere: quod probo 
+      <lb ed="#L" n="47"/>qui accipio certum numerum aliquorum indiuiduorum 
+      <lb ed="#L" n="48"/>eiusdem rationis. tunc si sit contradictio deum facere
+      ali<lb ed="#L" n="49" break="no"/>quod aliud indiuiduum eiusdem rationis. aut hoc est. 
+      <lb ed="#L" n="50"/>qui non est aliud indiuiduum factibile. aut quia deus 
+      <lb ed="#L" n="51"/>non potest facere alia. aut quia prioribus indiuiduis
+      re<lb ed="#L" n="52" break="no"/>pugnat aliquod aliud indiuiduum eiusdem rationis. et 
+      <lb ed="#L" n="53"/>ideo non potest fieri simul cum illis. Primum non potest dari 
+      <lb ed="#L" n="54"/>quia cuiuslibet speciei sunt infinita indiuidua
+      pos<lb ed="#L" n="55" break="no"/>sibilia fieri successiue. quia etiam secundum philophos cuiusli 
+      <!--399.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 198-v -->
+               <lb ed="#L" n="56"/>bet speciei de istis generabilibus et corruptibilibus 
+      <lb ed="#L" n="57"/>sunt infinita indiuidua futura. ergo quocumque cer 
+      <lb ed="#L" n="58"/>to numero indiuiduorum dato adhuc est aliquod in 
+      <lb ed="#L" n="59"/>diuiduum eiusdem rationis factibile. Nec secundum potest 
+      <lb ed="#L" n="60"/>dari. quia cum sit causa prima. nihil est factibile quin
+      pos<lb ed="#L" n="61" break="no"/>sit fieri a deo. multa etiam sunt que a solo deo sunt 
+      <lb ed="#L" n="62"/>factibilia. et tamen in infinitum possunt multiplica 
+      <lb ed="#L" n="63"/>ri. Nec tertium impedit. quia quibuscumque datis non
+      re<lb ed="#L" n="64" break="no"/>pugnat eis aliquod aliud. cum sit eiusdem rationis cum 
+      <lb ed="#L" n="65"/>eis. et per consequens non est contradictio priora:
+      indiui<lb ed="#L" n="66" break="no"/>dua et illud aliud factibile esse simul. Similiter 
+      <lb ed="#L" n="67"/>maior est repugnantia albedinis ad
+      nigredi<lb ed="#L" n="68" break="no"/>nem quam vnius indiuidui ad quodcunque indiuiduum 
+      <lb ed="#L" n="69"/>eiusdem rationis. sed posita albedine non repugnat 
+      <lb ed="#L" n="70"/>quamcumque nigredinem esse in rerum natura. quamuis si 
+      <lb ed="#L" n="71"/>bi repugnet nigredinem esse in eodem subiecto cum 
+      <lb ed="#L" n="72"/>ea. ergo positis quibuscumque indiuiduis in certo
+      nu<lb ed="#L" n="73" break="no"/>mero non repugnat eis aliud indiuiduum eiusdem 
+      <lb ed="#L" n="74"/>rationis esse in rerum natura illis non destructis. ergo 
+      <lb ed="#L" n="75"/>inpossibile est dare aliquem certum numerum indi 
+      <lb ed="#L" n="76"/>uiduorum alicuius speciei: quin posset deus
+      face<lb ed="#L" n="77" break="no"/>re plura indiuidua. ergo eodem modo impossibile 
+      <lb ed="#L" n="78"/>est facere tam magnam charitatem quin deus
+      pos<lb ed="#L" n="79" break="no"/>sit facere maiore.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e468">
+      ⁋ Si dicatur quod non est simile de 
+      <lb ed="#L" n="80"/>multis quae distinctis factionibus sunt factibilia 
+      <lb ed="#L" n="81"/>et de vno quod est vnica factione factibile.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e475">
+      ⁋ hoc 
+      <lb ed="#L" n="82"/>non sufficit. quia sicut ponis multa ex vna parte: 
+      <lb ed="#L" n="83"/>ita pono multa ex alia parte et sicut dicis quod non 
+      <lb ed="#L" n="84"/>possit accipi maximus numerus sed omni numero 
+      <lb ed="#L" n="85"/>potest fieri maior et possunt fieri alia. ita dico quod 
+      <lb ed="#L" n="86"/>non est dare maximam charitatem. sed quacumque
+      chari<lb ed="#L" n="87" break="no"/>tate facta potest fieri vna alia maior. et
+      quantacum<lb ed="#L" n="88" break="no"/>que fiat semper erit finita sicut quotcumque fiant sem 
+      <lb ed="#L" n="89"/>per sunt finita.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e495">
+      ⁋ Preterea tanta est perfectio in 
+      <lb ed="#L" n="90"/>duobus quando sunt separata et non vnita quanta esset si 
+      <lb ed="#L" n="91"/>essent vnita. sicut tanta est perfectio in duabus aquis 
+      <lb ed="#L" n="92"/>quando non sunt vnite sicut quando faciunt vnam. vel saltem 
+      <lb ed="#L" n="93"/>tanta perfectio est in duobus quanta est in vno illorum 
+      <lb ed="#L" n="94"/>et medietate alterius si facerent vnum. et hoc tantum 
+      <lb ed="#L" n="95"/>valet ad propositum meum sicut primum. Sed deus non 
+      <lb ed="#L" n="96"/>potest facere tot charitates quin posset facere
+      plu<lb ed="#L" n="97" break="no"/>res. sicut non posset facere tot animas quin posset ad  
+      <lb ed="#L" n="98"/>huc facere vnam aliam animam: non destruendo aliquam 
+      <lb ed="#L" n="99"/>aliam animarum prius creatarum. sed faciendo semper 
+      <lb ed="#L" n="100"/>plures charitates in infinitum vel non posse
+      fa<lb ed="#L" n="101" break="no"/>cere tot charitates quin possit facere plures non 
+      <lb ed="#L" n="102"/>infert perfectionem infinitam posse fieri a deo simul 
+      <lb ed="#L" n="103"/>ergo non posse facere charitatem tantam quin 
+      <lb ed="#L" n="104"/>deus possit facere maiorem non infert deum
+      pos<lb ed="#L" n="105" break="no"/>se facere infinitam charitatem.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e532">
+      ⁋ Ideo dico quod 
+      <lb ed="#L" n="106"/>propter infinitatem vitandam non oportet nega 
+      <lb ed="#L" n="107"/>re talem processum in infinitum. sicut propter
+      in<lb ed="#L" n="108" break="no"/>finitatem vnitatum non oportet negare quod deus non 
+      <lb ed="#L" n="109"/>possit facere tot indiuidua alicuius spei quin pos 
+      <lb ed="#L" n="110"/>sit facere plura. Cuius ratio est. quia si ponatur 
+      <!--400.xml-->
+      <pb ed="#L" n="199-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>talis processus in infinitum. semper illud quod  
+      <lb ed="#L" n="2"/>ponetur in actu erit finitum. sicut posito quod deus 
+      <lb ed="#L" n="3"/>non possit facere tot indiuidua quin possit face 
+      <lb ed="#L" n="4"/>re plura. semper illa quae faceret essent finita. et ideo 
+      <lb ed="#L" n="5"/>semper faciendo plura numquam faceret infinita sed
+      fi<lb ed="#L" n="6" break="no"/>nita.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e566">
+      ⁋ Ideo circa istam. q. primo distinguam de 
+      <lb ed="#L" n="7"/>augmentatione. Secundo ponam aliquas conclusiones. 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e571">
+               <lb ed="#L" n="8"/>⁋ Dico ergo quod augmentatio est duplex quedam est
+      ex<lb ed="#L" n="9" break="no"/>tensiua. quedam intensiua. Augmentatio extensiua est 
+      <lb ed="#L" n="10"/>duplex. Una per additionem partis ad partem
+      facien<lb ed="#L" n="11" break="no"/>tis per se vnum cum ista. et distincte ab ea loco et situ 
+      <lb ed="#L" n="12"/>sicut quando aqua additur aqui. vel quando alicuius totius
+      pri<lb ed="#L" n="13" break="no"/>mo dealbatur vna pars postea alia vel quocunque 
+      <lb ed="#L" n="14"/>alio modo. Alia est augmentatio extensiua per
+      rarefa<lb ed="#L" n="15" break="no"/>ctionem quando substantia aliqua vel qualitas rarefit. quia 
+      <lb ed="#L" n="16"/>in tali augmentatione dico quod vel tota quantitas 
+      <lb ed="#L" n="17"/>praecedens corrumpitur et fit noua. vel quantitas non 
+      <lb ed="#L" n="18"/>est res alia absoluta informans substantiam sicut 
+      <lb ed="#L" n="19"/>homines communiter ymaginantur. et ita non est ibi additio 
+      <lb ed="#L" n="20"/>quantitatis ad quatitatem tamquam partis ad parten sicut 
+      <lb ed="#L" n="21"/>est in aliis. Alia est augmentatio intensiua quae est per ad  
+      <lb ed="#L" n="22"/>ditionem partis ad parte facientis per se vnum cum ea et in 
+      <lb ed="#L" n="23"/>distincta ab ea loco et situ. sicut quando album secundum se to 
+      <lb ed="#L" n="24"/>tum fit albius quam prius.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e610">
+      ⁋ Circa secundum dico quod prima 
+      <lb ed="#L" n="25"/>conclusio erit ista. quod augmentatio extensiua primo 
+      <lb ed="#L" n="26"/>modo dicta procedit in infinitum. ita quod quaecumque forma 
+      <lb ed="#L" n="27"/>augmentabili data: potest fieri maior a deo Cuius ratio 
+      <lb ed="#L" n="28"/>dependet ex tribus propositionibus. quarum prima est ista 
+      <lb ed="#L" n="29"/>quod deus potest creare in infinitum indiuidua eiusdem 
+      <lb ed="#L" n="30"/>rationis. ita quod quocumque indiuiduo dato potest deus fa 
+      <lb ed="#L" n="31"/>tere aliud indiuiduum eiusdem rationis cum eo. Et hoc 
+      <lb ed="#L" n="32"/>saltem verum est quando secundum omnes in eadem specie possunt esse 
+      <lb ed="#L" n="33"/>plura indiuidua eiusdem rationis. hoc patet quia non est 
+      <lb ed="#L" n="34"/>maior impotentia in deo ad continuandum in
+      infini<lb ed="#L" n="35" break="no"/>tum indiuidua eiusdem rationis successiue quam in
+      natu<lb ed="#L" n="36" break="no"/>ra sed si deus conseruaret corpora celestia in eodem sta 
+      <lb ed="#L" n="37"/>tum in quo sunt in infinitum continuaretur generatio 
+      <lb ed="#L" n="38"/>llorum generabilium et corruptibilium. ergo deus potest fa 
+      <lb ed="#L" n="39"/>cere etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e645">
+      ⁋ Secunda propositio est ista. quod quocumque
+      indiui<lb ed="#L" n="40" break="no"/>duo posito potest deus facere aliud indiuiduum
+      eius<lb ed="#L" n="41" break="no"/>dem rationis illo non destructo hoc patet. quia quando aliqua non 
+      <lb ed="#L" n="42"/>habent formalem repugnantiam adinuice. ad
+      positio<lb ed="#L" n="43" break="no"/>nem vnius in rerum natura non sequitur destructio alte 
+      <lb ed="#L" n="44"/>ius sed indiuidua eiusdem rationis non habent formalem
+      re<lb ed="#L" n="45" break="no"/>pugnantiam inter se. ergo ad positionem vnius non sequitur 
+      <lb ed="#L" n="46"/>destructio alterius Similiter si aliquo indiuiduo po 
+      <lb ed="#L" n="47"/>sito non possit fieri aliud indiuiduum eiusdem rationis 
+      <lb ed="#L" n="48"/>nisi ipsum destrueretur hoc maxime esset verum de sum 
+      <lb ed="#L" n="49"/>mo indiuiduo in illa specie si esset aliquod summum. sed si 
+      <lb ed="#L" n="50"/>esset summum indiuiduum in aliqua specie adhuc
+      compate<lb ed="#L" n="51" break="no"/>retur secum aliud indiuiduum eiusdem rationis. quia aliter
+      se<lb ed="#L" n="52" break="no"/>queretur quod posita charitate christi: cum illa sit summa 
+      <lb ed="#L" n="53"/>secundum alios. non posset fieri alia charitas. quod est
+      er<lb ed="#L" n="54" break="no"/>rationeum. immo stante charitate christi posset deus assu 
+      <lb ed="#L" n="55"/>mere vnam aliam naturam. et dare sibi tantam charita 
+      <!--400.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 199-r -->
+               <lb ed="#L" n="56"/>tem quantam habet christus. ergo quocumque indiuiduo posito ad  
+      <lb ed="#L" n="57"/>huc potest deus facere aliud indiuiduum eiusdem
+      ratio<lb ed="#L" n="58" break="no"/>nis non destructo primo.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e695">
+      ⁋ Tertia propositio est ista. quod 
+      <lb ed="#L" n="59"/>quaecumque sunt eiusdem rationis sunt equaliter vnibilia. sicut 
+      <lb ed="#L" n="60"/>quicumque aquae sunt sibi equaliter vnibiles. hoc patet. quia 
+      <lb ed="#L" n="61"/>quicquid potest competere alicui indiuiduo cosimile 
+      <lb ed="#L" n="62"/>potest competere omni indiuiduo eiusdem rationis. sicut si 
+      <lb ed="#L" n="63"/>homo potest esse albus qualibet homo per potentiam diuinam potest 
+      <lb ed="#L" n="64"/>esse albus. ergo cum posse vniri competit aqui et igni. impos 
+      <lb ed="#L" n="65"/>sibile est fieri aliquam aquam vel ignem quin per diuinam 
+      <lb ed="#L" n="66"/>potentiam possit vniri alteri. Similiter vnibilitas
+      con<lb ed="#L" n="67" break="no"/>petit alicui primo et non competit primo isti
+      indiui<lb ed="#L" n="68" break="no"/>duo nec illi. ergo communi. et ita nulli indiuiduo
+      repu<lb ed="#L" n="69" break="no"/>gnat⁋ Ex istis sequitur quod deus non potest facere aliquam 
+      <lb ed="#L" n="70"/>talem formam quin posset facere maiorem quia quacumque 
+      <lb ed="#L" n="71"/>data posset deus facere aliud indiuiduum
+      eiusdem<lb ed="#L" n="72" break="no"/>rationis cum illo. et illud vnire cum priore. et per consequens
+      to<lb ed="#L" n="73" break="no"/>tum resultans erit maius. Unde non video quando quaecumque 
+      <lb ed="#L" n="74"/>aqua facta finita posset deus facere vnam guttam aqu  
+      <lb ed="#L" n="75"/>et pori vnire.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e734">
+      ⁋ Secunda conclusio debet esse de
+      augmen<lb ed="#L" n="76" break="no"/>tatione extensiua secundo modo dicta. sed illam reputo
+      fo<lb ed="#L" n="77" break="no"/>re neutram. quia ad neutram parten potest haberi ratio sufficiens 
+      <lb ed="#L" n="78"/>quin possit solui. Dico tamen tamquam probabile quod illa au 
+      <lb ed="#L" n="79"/>gmentatio non procedit in infinitum. sed quantitas alicua 
+      <lb ed="#L" n="80"/>vel substantia potest fieri ita rara quod non posset
+      fie<lb ed="#L" n="81" break="no"/>ri rarior. quia incoueniens videtur quod vna faba fieret 
+      <lb ed="#L" n="82"/>ita magna quod circumscriptiue occuparet tantum lo 
+      <lb ed="#L" n="83"/>cum quantus esset si essent mille mundi. sed si non esset dare 
+      <lb ed="#L" n="84"/>statum raritatis ipsius posset deus tantum eam
+      rareface<lb ed="#L" n="85" break="no"/>re quod tantum locum occuparet. ergo etc. Assumptum patet. quia 
+      <lb ed="#L" n="86"/>si non sit dare statum. ergo adhuc potest fieri maior. et ac 
+      <lb ed="#L" n="87"/>cipiendo illam quantitatem adhuc iterum potest fieri ma 
+      <lb ed="#L" n="88"/>ior. et ita posset totiens addi quod deueniret ad quan 
+      <lb ed="#L" n="89"/>titatem tot mundorum.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e768">
+      ⁋ Si dicatur quod illa ratio non
+      va<lb ed="#L" n="90" break="no"/>let. quia posset fieri additio in infinitum. et tamen non 
+      <lb ed="#L" n="91"/>deueniret ad quantitatem vnius pedis. sicut patet per 
+      <lb ed="#L" n="92"/>additionem in infinitum partium eiusdem proportionis 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e777">
+               <lb ed="#L" n="93"/>⁋ Sed hoc non valet. quia quamuis non possit procedi
+      ta<lb ed="#L" n="94" break="no"/>li modo in infinitum. tamen tantum posset addi quod
+      excede<lb ed="#L" n="95" break="no"/>ret. quia posset addi medietas simul et iterum alia 
+      <lb ed="#L" n="96"/>et sic excederet. ergo eodem modo posset ita rarefieri: 
+      <lb ed="#L" n="97"/>quod oporteret ponere statum vel quod tandem deueniret 
+      <lb ed="#L" n="98"/>ad tantam quantitatem immo maiorem incomparabiliter 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e793">
+               <lb ed="#L" n="99"/>⁋ Tertia conclusio erit ista. quod quaelibet forma
+      au<lb ed="#L" n="100" break="no"/>gmentabilis intensiue quae potest esse separata a
+      subie<lb ed="#L" n="101" break="no"/>cto potest augeri in infinitum ita quod quaecumque forma ta 
+      <lb ed="#L" n="102"/>li data potest deus facere maiorem. quia aliud
+      indiui<lb ed="#L" n="103" break="no"/>duum eiusdem rationis potest facere et illud vnire priori. 
+      <lb ed="#L" n="104"/>et per consequens totum resultans erit intensius quam primum. et 
+      <lb ed="#L" n="105"/>iterum deus potest creare aliud indiuiduum eiusdem ratio 
+      <lb ed="#L" n="106"/>nis et illud priori vnire. et sic in infinitum.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e813">
+      ⁋ Sed  
+      <lb ed="#L" n="107"/>vtrum posset talem formam augmentare in eodem 
+      <lb ed="#L" n="108"/>subiecto post est magis dubium. Et posset
+      pro<lb ed="#L" n="109" break="no"/>babiliter teneri quod non. quia posset dici quod sicut il 
+      <lb ed="#L" n="110"/>lud subiectum determinat sibi aliquas qualitates: 
+      <!--401.xml-->
+      <pb ed="#L" n="199-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et aliquas non potest recipere. ita determinat
+      si<lb ed="#L" n="2" break="no"/>bi certam quantitatem vltra quam non potest recipere. 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e835">
+               <lb ed="#L" n="3"/>⁋ Et sic esset dicendum ad. q. quod si charitas non sit 
+      <lb ed="#L" n="4"/>separabilis a subiecto quod potest fieri tanta quod deus non 
+      <lb ed="#L" n="5"/>potest facere maiorem. Si autem sit separabilis sicut est 
+      <lb ed="#L" n="6"/>albedo. non potest fieri tanta quin possit fieri maior. 
+      <lb ed="#L" n="7"/>quia posset deus tantam charitatem creare et vnire
+      prio<lb ed="#L" n="8" break="no"/>ri. Posset etiam probabiliter teneri quod deus non pos 
+      <lb ed="#L" n="9"/>set facere tantam charitatem in anima quin possit etiam 
+      <lb ed="#L" n="10"/>facere in eadem maiorem. quia aliquando aliqua forme eius 
+      <lb ed="#L" n="11"/>dem rationis possunt esse in eodem subiecto. non est contradi 
+      <lb ed="#L" n="12"/>ctio quascumque formas eiusdem speciei esse in eodem 
+      <lb ed="#L" n="13"/>subiecto. ergo quibuscumque datis non est contradictio 
+      <lb ed="#L" n="14"/>illas esse in eodem subiecto primo. et ita quaecumque cha 
+      <lb ed="#L" n="15"/>ritate data non est contradictio: quin deus faciendo 
+      <lb ed="#L" n="16"/>nouam augmentaret priorem.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e868">
+      ⁋ Ad argumenta pro
+      pri<lb ed="#L" n="17" break="no"/>ma opinione Siue deus possit facere maiorem charita 
+      <lb ed="#L" n="18"/>tem in anima quaecumque data siue non. dico quod argumenta 
+      <lb ed="#L" n="19"/>non concludunt. quia equaliter probant quod deus potest tot 
+      <lb ed="#L" n="20"/>indiuidua alicuius speciei facere quod non posset face 
+      <lb ed="#L" n="21"/>re plura eiusdem speciei et quod posset facere vnam aquan 
+      <lb ed="#L" n="22"/>ita magnam quod non posset facere maiorem quae reputo 
+      <lb ed="#L" n="23"/>inconuenientia.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e887">
+      ⁋ Ideo ad primum argumentum dico 
+      <lb ed="#L" n="24"/>tenendo opinione vltimam. quod vltra. a. potest proce 
+      <lb ed="#L" n="25"/>di in infinitum. ita quod non sit status. Et quando dicitur quod 
+      <lb ed="#L" n="26"/>quanto aliqua charitas excedit. a. tanto est perfecti 
+      <lb ed="#L" n="27"/>or concedo. sed non sequitur. ergo quae in infinitum excedit est 
+      <lb ed="#L" n="28"/>in infinitum perfectior. quia implicatur quod aliqua
+      cha<lb ed="#L" n="29" break="no"/>ritas in infinitum excedat. a. quod est manifeste
+      fal<lb ed="#L" n="30" break="no"/>sum. quia quaecumque accipiatur illa est finita. et tantum
+      fini<lb ed="#L" n="31" break="no"/>te excedit. a. Unde sicut deus potest facere plura 
+      <lb ed="#L" n="32"/>indiuidua. et plura in infinitum. et tamen semper faciet fi 
+      <lb ed="#L" n="33"/>nita et numquam infinita. ita potest deus facere maiorem 
+      <lb ed="#L" n="34"/>charitatem et maiorem et sic in infinitum. et tamen semper 
+      <lb ed="#L" n="35"/>faciet finitam
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e916">
+      ⁋ Si dicatur qualibet charitate fin 
+      <lb ed="#L" n="36"/>ta potest fieri maior secundum praedicta. sed nulla charitas 
+      <lb ed="#L" n="37"/>finita est maior omni finita charitate. sed tantum
+      infini<lb ed="#L" n="38" break="no"/>ta charitas est maior omni charitate finita. ergo potest 
+      <lb ed="#L" n="39"/>fieri charitas infinita.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e927">
+      ⁋ Respondeo conceden 
+      <lb ed="#L" n="40"/>do praemissas. sed discursus nihil valet. Sicut non 
+      <lb ed="#L" n="41"/>sequitur post omnem diem potest deus facere aliquem diem 
+      <lb ed="#L" n="42"/>sed nullus dies distans finite potest fieri post omnem 
+      <lb ed="#L" n="43"/>diem. sed tantum dies distans infinite. ergo potest facere ali 
+      <lb ed="#L" n="44"/>quem diem distantem in infinitum post omnem diem. tamen 
+      <lb ed="#L" n="45"/>in isto secundo discursu est vna propositio falsa. In primo 
+      <lb ed="#L" n="46"/>quaelibet potest verificari saltem pro charitate creata 
+      <lb ed="#L" n="47"/>vel increata. Uud vniversaliter in omnibus talibus est fallacia fi 
+      <lb ed="#L" n="48"/>gure dictionis: eo quod commutatur vnus modus sup 
+      <lb ed="#L" n="49"/>ponendi in alium. Nam in ista propositione. omni
+      charita<lb ed="#L" n="50" break="no"/>te finita potest fieri charitas maior. charitas a 
+      <lb ed="#L" n="51"/>parte praedicati supponit confuse tantum propter signum
+      di<lb ed="#L" n="52" break="no"/>stributiuum praecedens a parte subiecti. sed quando infertur in 
+      <lb ed="#L" n="53"/>conclusione. ergo charitas infinita potest fieri maior 
+      <lb ed="#L" n="54"/>omni charitate finita: supponit subiectum deter 
+      <lb ed="#L" n="55"/>minate et non confuse tantum.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e964">
+      ⁋ Si proteruiatur. quando est 
+      <!--401.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 199-v -->
+               <lb ed="#L" n="56"/>fallacia figure dictionis ex commutatione vnius 
+      <lb ed="#L" n="57"/>modi in alium: terminus debet habere illas diuersas 
+      <lb ed="#L" n="58"/>suppositiones
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e980">
+      ⁋ hec proteruia non valet. quia suf 
+      <lb ed="#L" n="59"/>ficit quod idem terminus habeat tales diuersos modos 
+      <lb ed="#L" n="60"/>supponendi vel sint diuersi quorum vnus denotetur 
+      <lb ed="#L" n="61"/>ex modo arguendi esse inferior et alius superior. et ita 
+      <lb ed="#L" n="62"/>est in proposito nam ex modo arguendi denotatur quod 
+      <lb ed="#L" n="63"/>charitas infinita est inferior ad charitatem Dico 
+      <lb ed="#L" n="64"/>ergo quod hec est vera. omni charitate finita potest fieri 
+      <lb ed="#L" n="65"/>charitas maior. quia quaelibet singularis est vera. Sed 
+      <lb ed="#L" n="66"/>hec est simpliciter falsa. aliqua charitas finita potest 
+      <lb ed="#L" n="67"/>fieri maior omni charitate finita. Similiter hec est vera 
+      <lb ed="#L" n="68"/>omni charitate finita potest fieri charitas finita 
+      <lb ed="#L" n="69"/>maior. quia quaelibet singularis est vera Nam quaecunque 
+      <lb ed="#L" n="70"/>charitate finita data: adhuc potest sibi addi alia 
+      <lb ed="#L" n="71"/>charitas finita. et sic tota resultans erit maior. 
+      <lb ed="#L" n="72"/>et tamen hec est simplicitur falsa. aliqua charitas
+      fini<lb ed="#L" n="73" break="no"/>ta potest fieri maior omni charitate finita. quia quaelibet 
+      <lb ed="#L" n="74"/>singularis. est falsa. Nam quaecumque charitate demon 
+      <lb ed="#L" n="75"/>strata hec est falsa. hec charitas potest fieri maior 
+      <lb ed="#L" n="76"/>omni charitate finita. E vniversaliter sicut non sequitur. post 
+      <lb ed="#L" n="77"/>quemlibet diem potest fieri dies. ergo aliqua dies potest fi 
+      <lb ed="#L" n="78"/>eri post omnem diem. Similiter non sequitur. post quanli 
+      <lb ed="#L" n="79"/>bet diuisionem continui potest fieri diuisio. ergo aliqua di 
+      <lb ed="#L" n="80"/>uisio potest fieri post omnem diuisionem. Similiter non se 
+      <lb ed="#L" n="81"/>quitur. omnis homo est aliquod animal. ergo aliquod animal est omnis 
+      <lb ed="#L" n="82"/>homo. ita non sequitur. omnis charitas potest fieri
+      chari<lb ed="#L" n="83" break="no"/>tas finita maior. ergo aliqua charitas finita potest 
+      <lb ed="#L" n="84"/>fieri maior omni charitate finita.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1039">
+      ⁋ Si dicatur. 
+      <lb ed="#L" n="85"/>deus videt quodlibet factibile. ergo si omni chari 
+      <lb ed="#L" n="86"/>tate data potest fieri maior in infinitum. videt hoc. et 
+      <lb ed="#L" n="87"/>per consequens videt charitatem in infinitum maiorem. et per 
+      <lb ed="#L" n="88"/>consequens videt charitatem infinitam.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1051">
+      ⁋ Respondeo co 
+      <lb ed="#L" n="89"/>cedendo quod deus videt quodlibet factibile et vide 
+      <lb ed="#L" n="90"/>hoc est certitudinaliter cognoscit quod charitas potest 
+      <lb ed="#L" n="91"/>fieri maior in infinitum. hoc est quod non est dare
+      ali<lb ed="#L" n="92" break="no"/>quam charitatem creatam quin ea possit fieri maior. 
+      <lb ed="#L" n="93"/>sed ex hoc non sequitur quod videt aliquam in infinitum 
+      <lb ed="#L" n="94"/>maiorem. quia nulla talis est factibilis: nec per consequens 
+      <lb ed="#L" n="95"/>visibilis a deo. Unde istud argumentum multo evi 
+      <lb ed="#L" n="96"/>dentius probat quod deus possit facere infinita simul quam 
+      <lb ed="#L" n="97"/>quod possit facere infinitam charitatem. Cuius ratio est. 
+      <lb ed="#L" n="98"/>qui deus videt infinita factibilia eiusdem rationis 
+      <lb ed="#L" n="99"/>qui infinita sunt ab eo factibilia. sed deus non videtur 
+      <lb ed="#L" n="100"/>infinitam charitatem. quia nulla talis est. nec est aliqua quae 
+      <lb ed="#L" n="101"/>sit in infinitum maior minima charitate creata 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1082">
+               <lb ed="#L" n="102"/>⁋ Ad rationem etiam dico quod philosophus negaret talem 
+      <lb ed="#L" n="103"/>processum et poneret terminum in omni tali processu. 
+      <lb ed="#L" n="104"/>que non causatur ex infinitate partium alicuius totius vni 
+      <lb ed="#L" n="105"/>et ideo nec auc. sua nec commentatoris est in hac 
+      <lb ed="#L" n="106"/>parte recipienda. Si dicatur quod auct. fundatur in 
+      <lb ed="#L" n="107"/>ratione quae non est neganda. Unde aliqui dicunt philosophum 
+      <lb ed="#L" n="108"/>fundari in ista ratione. videlicet quod in
+      quibus<lb ed="#L" n="109" break="no"/>cunque permanentibus sicut post aliquod infi 
+      <lb ed="#L" n="110"/>mum esse vnum factibile vnica factione ita etiam si esset 
+      <!--402.xml-->
+      <pb ed="#L" n="200-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>factibile vnum infinitorum aliqua factione esset 
+      <lb ed="#L" n="2"/>factibile vnica factione et ita posset fieri summum 
+      <lb ed="#L" n="3"/>Ex hoc ergo quod charitas. vel gratia est quoddam 
+      <lb ed="#L" n="4"/>permanens. etiam secundum quemcumque gradum sequitur quod 
+      <lb ed="#L" n="5"/>si proceditur in infinitum quaelibet illorumgraduum est per 
+      <lb ed="#L" n="6"/>se factibilis et ita quantumcumque contingit esse in po 
+      <lb ed="#L" n="7"/>tentia. tantam simul contingit esse in actu. quia possibili 
+      <lb ed="#L" n="8"/>tas ad talem formam non est ad aliquid in fieri tantum sed 
+      <lb ed="#L" n="9"/>ad aliquid in facto esse Et istum intellectum tangit con 
+      <lb ed="#L" n="10"/>men. iiii. phi. quod omnes potentie quae sunt in maioratione 
+      <lb ed="#L" n="11"/>quantitatis sunt vnius potentie determinate vel de 
+      <lb ed="#L" n="12"/>monstrate. hoc est vna potentia est ad suprimum actum in 
+      <lb ed="#L" n="13"/>quo continentur omnes actus ad quos sunt ille potentie 
+      <lb ed="#L" n="14"/>multe. quarum vna reducitur in actum post alium. Sed 
+      <lb ed="#L" n="15"/>in diuisione continui potentie multe non sunt
+      per<lb ed="#L" n="16" break="no"/>tes vnius potentie determinate vel demonstrate 
+      <lb ed="#L" n="17"/>id est. non est ibi aliquis vnus actus in quo continentur 
+      <lb ed="#L" n="18"/>omnes actus terminantes potentias ordinate
+      redu<lb ed="#L" n="19" break="no"/>cibilis ad actum illum. et ideo non sunt partes vnius
+      po<lb ed="#L" n="20" break="no"/>tentie determinate vel demonstrate. Unde videtur 
+      <lb ed="#L" n="21"/>dicere: quod in quibuscumque actibus ordinatis qualibet 
+      <lb ed="#L" n="22"/>actus secundum quecunque gradum est per se factibilis. ibi 
+      <lb ed="#L" n="23"/>supimum in potentia potest simul esse in actu. quia vnica 
+      <lb ed="#L" n="24"/>potentia potest reduci in actum
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1163">
+      ⁋ In quibus autem tantum
+      na<lb ed="#L" n="25" break="no"/>tum est esse in fieri sunt multe potentie ordinate et non 
+      <lb ed="#L" n="26"/>potest aliquid vnum terminare summum possibile in 
+      <lb ed="#L" n="27"/>actu quantum contingit esse in potentia. sed vltra
+      quod<lb ed="#L" n="28" break="no"/>cumque possibile fieri. potest fieri aliquid maius. sed non 
+      <lb ed="#L" n="29"/>vnica factione.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1176">
+      ⁋ Ad aliud dico quod primum
+      argu<lb ed="#L" n="30" break="no"/>mentum est falsum. scilicet quod in quibuscumque permanentibus 
+      <lb ed="#L" n="31"/>potest fieri minimum et maximum vnica factione. immo  
+      <lb ed="#L" n="32"/>dico quod veraciter loquendo sicut in quibuscumque
+      per<lb ed="#L" n="33" break="no"/>manentibus diuisibilibus. in infinitum. cuius modi 
+      <lb ed="#L" n="34"/>sunt omnia continua. et etiam omnes qualitates ad quas 
+      <lb ed="#L" n="35"/>potest esse motus secundum multos non est dare minimum 
+      <lb ed="#L" n="36"/>quin quocumque dato potest fieri minus per diuinam po 
+      <lb ed="#L" n="37"/>tentiam. ita non potest dari maximum. quin quocunque 
+      <lb ed="#L" n="38"/>magno dato potest fieri maius
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1198">
+      ⁋ Et si dicatur quod quo 
+      <lb ed="#L" n="39"/>cumque dato illud potest fieri vna factione: concedo. 
+      <lb ed="#L" n="40"/>sicut quacumque diuisione continui data illa redu 
+      <lb ed="#L" n="41"/>ci ad actum vnica actione. Et quando dicitur: quod
+      possibili<lb ed="#L" n="42" break="no"/>tas ad talem formam non est possibilitas ad aliquid in 
+      <lb ed="#L" n="43"/>fieri tantum: sed ad aliquid in facto esse. Dico quod
+      intelli<lb ed="#L" n="44" break="no"/>gendo possibilitatem ad aliquid in facto esse. ita quod 
+      <lb ed="#L" n="45"/>possibilitas possit simpliciter reduci ad actum ita quod 
+      <lb ed="#L" n="46"/>non remaneat quaecumque possibilitas vlterior. sic non 
+      <lb ed="#L" n="47"/>est hec possibilitas ad aliquid in facto esse. et ideo
+      num<lb ed="#L" n="48" break="no"/>quam deuenietur ad aliquod infinitum nec ad aliquid tantum 
+      <lb ed="#L" n="49"/>in actu quantum cotingit esse in potentia. quia numquam 
+      <lb ed="#L" n="50"/>possibilitas ista finietur quin semper remanebit po 
+      <lb ed="#L" n="51"/>tentia ad aliquid fiendum. Et per hoc respondeo ad  
+      <lb ed="#L" n="52"/>commen. quod in proposito non omnes iste potentie sunt
+      per<lb ed="#L" n="53" break="no"/>tes vnius potentie demonstrate vel determinate 
+      <lb ed="#L" n="54"/>secundum suum modum loquendi. et ideo dico quod non est aliquis 
+      <lb ed="#L" n="55"/>vnus actus continens omnes illos actus ad quos sunt il¬ 
+      <!--402.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 200-r -->
+               <lb ed="#L" n="56"/>le potentie multe. nec possunt ille potentie redu 
+      <lb ed="#L" n="57"/>ci simul in actum. non plus quam in diuisione continua 
+      <lb ed="#L" n="58"/>Unde sicut deus non potest facere tot indiuidua albe 
+      <lb ed="#L" n="59"/>dinis vel charitatis vel hominis quin posset adhuc 
+      <lb ed="#L" n="60"/>facere plura. et per consequens non poterit omnes potentias 
+      <lb ed="#L" n="61"/>quibus dicuntur aliqua possibilia fieri reducere ad 
+      <lb ed="#L" n="62"/>actum. ita non poterit facere aliquam vnam
+      albedi<lb ed="#L" n="63" break="no"/>nem vel charitatem quae contineat omnem albedinem vel 
+      <lb ed="#L" n="64"/>charitatem quae potest facere per se vnum cum alia forma 
+      <lb ed="#L" n="65"/>eiusdem rationis.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1265">
+      ⁋ Ad secundum dico quod maior de
+      vir<lb ed="#L" n="66" break="no"/>tute sermonis et vera. quia de virtute sermonis non 
+      <lb ed="#L" n="67"/>potest esse nisi propositio equiualens sensui diuisionis ta 
+      <lb ed="#L" n="68"/>lis propositionis. quantam charitatem possibile est deum 
+      <lb ed="#L" n="69"/>creare tantam possibile est eum creare Et quando dicitur 
+      <lb ed="#L" n="70"/>ponatur ergo in esse quod ita creet quantum potest creare. Di 
+      <lb ed="#L" n="71"/>co quod nec propositio talis de possibili in sensu
+      diuifi<lb ed="#L" n="72" break="no"/>onis. etiam equiualens sensui diuisionis nec debet po 
+      <lb ed="#L" n="73"/>ni in esse. sed tantum in sensu compositionis. Unde hec est vera 
+      <lb ed="#L" n="74"/>videns potest esse cecus. et tamen hec est impossibilis.
+      vi<lb ed="#L" n="75" break="no"/>dens est cecus. Ueruntamen si praedicta propositio ponitur in 
+      <lb ed="#L" n="76"/>esse. debet sic poni in esse. quantam deus creat tantam 
+      <lb ed="#L" n="77"/>creat. et hec similiter est vera. vel saltem possibilis et 
+      <lb ed="#L" n="78"/>sic nihil est ad propositum.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1297">
+      ⁋ Ueruntamen si secundum modum con 
+      <lb ed="#L" n="79"/>munem loquendi accipitur praedicta propositio vt sit equiua 
+      <lb ed="#L" n="80"/>lens isti. hec est possibilis. deus creat tantam
+      cha<lb ed="#L" n="81" break="no"/>ritatem quantam potest creare. et sic dico quod est falsa: sicut 
+      <lb ed="#L" n="82"/>hec est falsa. hec est possibilis. deus creat tot quot 
+      <lb ed="#L" n="83"/>potest creare et ita argumentum probat equaliter quod est 
+      <lb ed="#L" n="84"/>dare certum terminum creabilium vltra quem non
+      po<lb ed="#L" n="85" break="no"/>test deus creare. quod reputo manifeste falsum. 
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1315">
+               <lb ed="#L" n="86"/>⁋ Ad argumenta alterius doctoris. Ad primum: quod 
+      <lb ed="#L" n="87"/>secundum opinionem primam: verum est quod omnium constantium 
+      <lb ed="#L" n="88"/>etc. Ueruntamen sed veritatem non potest fieri tanta aqua 
+      <lb ed="#L" n="89"/>finita. quin deus posset de nouo aliam creare et eam 
+      <lb ed="#L" n="90"/>illi vnire. et sic de aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1328">
+      ⁋ Ad secundum dico quod ma 
+      <lb ed="#L" n="91"/>ior est falsa. sicut enim deus non poest creare tot
+      charita<lb ed="#L" n="92" break="no"/>tes quin possit creare plures. et per consequens non potest
+      fa<lb ed="#L" n="93" break="no"/>cere tantam perfectionem quin possit facere maiorem. quia 
+      <lb ed="#L" n="94"/>plus perfectionis est in multis charitatibus quam in pau 
+      <lb ed="#L" n="95"/>cis ceteris paribus. ita non potest facere tam perfectam 
+      <lb ed="#L" n="96"/>charitatem quin possit facere perfectiorem. Et quando dicitur 
+      <lb ed="#L" n="97"/>aut hoc est ex parte dei etc. Dico quod hoc est ex parte cha 
+      <lb ed="#L" n="98"/>ritatis. quia nulla potest fieri charitas cui repu 
+      <lb ed="#L" n="99"/>gnet vniri alteri charitati a deo creabili. Et 
+      <lb ed="#L" n="100"/>quando dicitur quod ei quod importat infinitatem
+      gra<lb ed="#L" n="101" break="no"/>duum etc. Dico quod si tale importans vnum esset
+      in<lb ed="#L" n="102" break="no"/>tegratum ex illis verum esset. sed nulla caritas vna 
+      <lb ed="#L" n="103"/>est factibilis a deo integrata ex tlibus infinitis 
+      <lb ed="#L" n="104"/>caritatibus et ideo repugnat eis esse simul. Unde 
+      <lb ed="#L" n="105"/>idem argumentum equaliter probat. quod possunt esse
+      infi<lb ed="#L" n="106" break="no"/>nite caritates. quia si non aut est ex parte dei et 
+      <lb ed="#L" n="107"/>hoc non quia iste habet totam virtutem suam 
+      <lb ed="#L" n="108"/>infinitam simul. Aut ex parte charitatis et hoc 
+      <lb ed="#L" n="109"/>non quia infinita sunt indiuidua charitatis facti 
+      <lb ed="#L" n="110"/>hilia. nec ex parte recipientis per rationem suam 
+      <!--403.xml-->
+      <pb ed="#L" n="200-v"/>
+               <cb ed="#L" n="a"/>
+            </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1380">
+               <lb ed="#L" n="1"/>⁋ Ad tertium dico quod quamuis deus cognoscit omnia 
+      <lb ed="#L" n="2"/>siue per ydeas siue non. hoc nihil ad propositum 
+      <lb ed="#L" n="3"/>tamen non cognoscit infinitum factibile. nec
+      cogno<lb ed="#L" n="4" break="no"/>scit aliquod vnum possibile integrari ex omnibus
+      il<lb ed="#L" n="5" break="no"/>lis quae potest facere: immo nihil tale est ab ipso
+      facti<lb ed="#L" n="6" break="no"/>bile quin potest esse pars vnius alterius. et ideo non 
+      <lb ed="#L" n="7"/>cognoscit aliquam naturam infinite perfectionis. quia 
+      <lb ed="#L" n="8"/>nulla talis est. sed cognoscit naturas creatas in 
+      <lb ed="#L" n="9"/>finitas. et ita probat argumentum quod deus potest face 
+      <lb ed="#L" n="10"/>re infinita in actu simul
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1404">
+      ⁋ Ad quartum dico: quod 
+      <lb ed="#L" n="11"/>esse infinitum in perfectione conuenit soli deo. et ideo 
+      <lb ed="#L" n="12"/>nulla creatura habet infinitam perfectionem nec hoc 
+      <lb ed="#L" n="13"/>sequitur ex hoc quod charitas potest sic in infinitum au 
+      <lb ed="#L" n="14"/>geri. sed hoc sequitur scilicet quod infinite charitates sunt 
+      <lb ed="#L" n="15"/>a deo creabiles successiue: quarum quaelibet potest al 
+      <lb ed="#L" n="16"/>teri vniri successiue. et facere per se vnum cum eam 
+      <lb ed="#L" n="17"/>quarum tamen quelibet erit finita et nulla infinita. 
+      <lb ed="#L" n="18"/>Ad quintum potest dici: quod si capacitas subiecti 
+      <lb ed="#L" n="19"/>non impediat non est contradictio quod esset aliqua cha 
+      <lb ed="#L" n="20"/>ritans maior charitate christi. quia non est ibi contradi 
+      <lb ed="#L" n="21"/>ctio quod deus faceret equalem charitatem
+      charita<lb ed="#L" n="22" break="no"/>ti christi et illam vniret charitati christi. Ueruntamen de po 
+      <lb ed="#L" n="23"/>tentia dei ordinata non potest esse aliqua charitas 
+      <lb ed="#L" n="24"/>maior charitate christi.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1437">
+      ⁋ Ad vltimum concedo. quod 
+      <lb ed="#L" n="25"/>omnis creatura secundum omnem perfectionem est
+      limita<lb ed="#L" n="26" break="no"/>ta. et ideo quia quelibet charitas est limitata. nulli 
+      <lb ed="#L" n="27"/>charitati repugnat quod sit ea aliqua maior. sed  
+      <lb ed="#L" n="28"/>magis conuenit sibi ex hoc quod est limitata quod potest 
+      <lb ed="#L" n="29"/>fieri alia maior ea.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1451">
+      ⁋ Ad primum principale patet quod 
+      <lb ed="#L" n="30"/>auc. philosophi non est recipienda in hac parte. quia ipse po 
+      <lb ed="#L" n="31"/>nit satis paruum terminum talium augmentabilium 
+      <lb ed="#L" n="32"/>Unde ponit quod esset contradictio quod aqua
+      augere<lb ed="#L" n="33" break="no"/>tur ad quantitatem sphere istorum inferiorum gene 
+      <lb ed="#L" n="34"/>rabilium et corruptibilium. quod tamen non est ponen 
+      <lb ed="#L" n="35"/>dum. quia posset deus facere vnum alium mundum: immo 
+      <lb ed="#L" n="36"/>credo quod non posset facere tot mundos finitos 
+      <lb ed="#L" n="37"/>quin posset facere plures. nec esset contradictio: quod 
+      <lb ed="#L" n="38"/>ex omnibus illis aquis faceret vnam aquam.
+    </p>
+            <p xml:id="wo8uy7-d1e1106-d1e1473">
+      ⁋ Ad  
+      <lb ed="#L" n="39"/>ecundum eodem modo quod ipse posuit quod processus ad  
+      <lb ed="#L" n="40"/>vnam formam habet statum. et ideo quantum contingit 
+      <lb ed="#L" n="41"/>esse in potentia: tamen contingit esse in actu. quia ex 
+      <lb ed="#L" n="42"/>omnibus illis posuit posse constitui vnam formam 
+      <lb ed="#L" n="43"/>Nunc autem dicendum est in proposito: quod ex omnibus 
+      <lb ed="#L" n="44"/>charitatibus talibus quas potest deus creare
+      succes<lb ed="#L" n="45" break="no"/>siue et augmentare charitatem. potest fieri vna
+      cha<lb ed="#L" n="46" break="no"/>ritas. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

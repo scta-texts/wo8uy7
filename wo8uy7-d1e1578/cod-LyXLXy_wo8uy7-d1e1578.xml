@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="247-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1578"><!-- l1d35q2 -->
+            <head xml:id="wo8uy7-d1e1578-Hd1e108">Quaestio 2</head>
+            <p xml:id="wo8uy7-d1e1578-d1e111">
+      Questio secunda. 
+      <lb ed="#L" n="72"/>Secundo quero. 
+      <lb ed="#L" n="73"/>⁋ Utrum deus intelligat omnia alia a se di 
+      <lb ed="#L" n="74"/>tincte
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e120">
+      ⁋ Quod non. quia vnius intellectionis est 
+      <lb ed="#L" n="75"/>vnum per se obiectum. sed intellectio diuina est vna intel 
+      <lb ed="#L" n="76"/>lectio. ergo ipsius est vnum obiectum. sed alia a deo sunt 
+      <lb ed="#L" n="77"/>multa. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e129">
+      ⁋ Preterea nihil appreheditur ab aliqua 
+      <lb ed="#L" n="78"/>potentia nisi quod continetur sub eius obiecto adequato 
+      <lb ed="#L" n="79"/>sed obiectum adequatum intellectus diuini est diuina essen 
+      <lb ed="#L" n="80"/>tia. et nihil aliud a deo continetur per se sub essentia 
+      <lb ed="#L" n="81"/>diuina tamquam sub communi per praedicationem. ergo nihil aliter 
+      <lb ed="#L" n="82"/>a deo ab intellectu diuino apprehendit.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e142">
+      ⁋
+      Preter<lb ed="#L" n="83" break="no"/>ea. omnis cognitio fit per assimiliationem cognoscentis 
+      <lb ed="#L" n="84"/>ad cognitum. sed deus non assimulatur alicui alteri a se. ergo 
+      <lb ed="#L" n="85"/>etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e152">
+      ⁋ Ad oppositum in persalmo dicitur qui intelligit omnia 
+      <lb ed="#L" n="86"/>opera eorum. ergo eadem ratione intelligit omnia alia.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e157">
+      ⁋
+      Cir<lb ed="#L" n="87" break="no"/>ca istam. q. primo videndum est. Utrum per rationem naturalem 
+      <lb ed="#L" n="88"/>possit ostendi quod deus intelligat omnia a se. Secundo an 
+      <lb ed="#L" n="89"/>hoc secundum veritate fidei sit tenendum. Tertio quid est pri 
+      <lb ed="#L" n="90"/>mum obiectum diuini intellectus.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e168">
+      ⁋ Circa primum est 
+      <lb ed="#L" n="91"/>opiniones commen. quod non tantum non possit probari deum intelli 
+      <lb ed="#L" n="92"/>gere omnia alia a se: immo etiam quod nec intelligit alia 
+      <lb ed="#L" n="93"/>a se. Et istum errorem imponit ipse philosopho. xii. metha. 
+      <lb ed="#L" n="94"/>commen. pve. Pro isto errore innuuntur aliqua rationes. 
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e179">
+               <lb ed="#L" n="95"/>⁋ Prima est talis intellectum est perfectio intelligentis. 
+      <lb ed="#L" n="96"/>sed nihil aliud a deo potest esse perfectio dei. quia tunc esset 
+      <lb ed="#L" n="97"/>deus de se imperfectus. ergo nihil aliud est intellectum a deo 
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e188">
+               <lb ed="#L" n="98"/>⁋ Secunda quia quando intellectus intelligit aliquid aliud. 
+      <lb ed="#L" n="99"/>sua actio non est sua substantia. et per consequens perficitur per 
+      <lb ed="#L" n="100"/>suam actionem. sed deus per nihil quod non est sua substantia 
+      <lb ed="#L" n="101"/>poteo perfici. ergo actio sua est substantia. et per consequens non intel 
+      <lb ed="#L" n="102"/>ligit aliquid aliud a se.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e201">
+      ⁋ Tertio quia quando aliquid ne 
+      <lb ed="#L" n="103"/>cessario intelligit aliud a se: suum esse necessario est 
+      <lb ed="#L" n="104"/>per esse alterius sed deus non est per esse cuiuscumque alterius 
+      <lb ed="#L" n="105"/>ergo non necessario intelligit aliquid aliud a se. 
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e211">
+               <lb ed="#L" n="106"/>⁋ Preterea. omne quod intelligit aliud a se 
+      <lb ed="#L" n="107"/>transmutatur in aliud. sed deus est
+      intransmu<lb ed="#L" n="108" break="no"/>tabilis. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e220">
+      ⁋ Preterea. ignobilitatis est 
+      <lb ed="#L" n="109"/>intelligere vilia. ergo cum deus infinite sit nobilitatis 
+      <!--497.xml-->
+      <pb ed="#L" n="247-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>deus non intelligit vilia. et per consequens nihil aliud a se. 
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e233">
+               <lb ed="#L" n="2"/>⁋ Preterea per philosophum. iii de anima. In separatis a
+      ma<lb ed="#L" n="3" break="no"/>teria intellectus et intellectum sunt idem. sed deus est maxime 
+      <lb ed="#L" n="4"/>separatus a materia. ergo in eo intellectus et intellectum sunt 
+      <lb ed="#L" n="5"/>ide. ergo non intelligit aliud a se.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e244">
+      ⁋ Preterea si intelli 
+      <lb ed="#L" n="6"/>git res alias a se. aut habet de ipsis scientiam vniversalem au 
+      <lb ed="#L" n="7"/>particularem. Non vniversalem. quia talis est in potentia cognoscens 
+      <lb ed="#L" n="8"/>sed deus nullo modo est in potentia Nec particulare. quia per ¬ 
+      <lb ed="#L" n="9"/>ticularia sunt infinita. et infinita nullo modo determi 
+      <lb ed="#L" n="10"/>nantur per scientiam ergo nullam scientiam habet.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e257">
+      ⁋ Ista opinioe est ma 
+      <lb ed="#L" n="11"/>nifeste falsa et conclusio auc. sacre scripture. sicut patet in lodi 
+      <lb ed="#L" n="12"/>numerabilibus Aliqua tamen nituntur hoc probare rationibus 
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e264">
+               <lb ed="#L" n="13"/>⁋ Unde arguunt aliqui sic. quando aliquid perfecte cognoscitur 
+      <lb ed="#L" n="14"/>virtus eius perfecte cognoscitur. sed virtus alicuius rei non co 
+      <lb ed="#L" n="15"/>gnoscitur perfecte nisi cognoscantur ad quam virtus se
+      ex<lb ed="#L" n="16" break="no"/>tendat sed virtus diuiua se extendit ad omnia et deus perfe 
+      <lb ed="#L" n="17"/>cte cognoscit seipsum. ergo et alia
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e278">
+      ⁋ Sed illa ratio propter 
+      <lb ed="#L" n="18"/>duo est insufficiens. Primo quia non sufficienter probatur 
+      <lb ed="#L" n="19"/>quod quae perfecte cognoscit aliquam virtutem perfecte
+      cogno<lb ed="#L" n="20" break="no"/>icit omnia ad quam illa virtus se extendit. quia probatum est
+      per<lb ed="#L" n="21" break="no"/>us quod illud quod est causa potest perfecte cognosci nullo effe 
+      <lb ed="#L" n="22"/>ctu cognito. quia probatum est quod ex notitia incomplexa 
+      <lb ed="#L" n="23"/>vnius rei non haber sufficientur notitia incomplexa alteri 
+      <lb ed="#L" n="24"/>rei. Patet etiam de sensu quod perfecte cognoscit suum
+      ob<lb ed="#L" n="25" break="no"/>iectum. et per consequens virtutem eius. quia suum obiectum et virtus 
+      <lb ed="#L" n="26"/>illius obiecti nullo modo differunt. et tamen non ortet sensum
+      co<lb ed="#L" n="27" break="no"/>gnoscere aliquid ad quod se extendit illa virtus. et
+      se<lb ed="#L" n="28" break="no"/>cundo est insufficiens. quia non est sufficientur probatum quod deus 
+      <lb ed="#L" n="29"/>et causa omnium. nec potest sufficientur probari. maxime quod sit 
+      <lb ed="#L" n="30"/>cam efficiens.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e309">
+      ⁋ Aliter probant alii sic. Primum agens est 
+      <lb ed="#L" n="31"/>per se agens. quia omni causa per accidens prior est aliqua causa per se. in 
+      <lb ed="#L" n="32"/>phi. sed omne agens per se agit propter finem. Ex hoc argui 
+      <lb ed="#L" n="33"/>tur dupliciter.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e318">
+      ⁋ Primo sic. omne agens naturale
+      praeci<lb ed="#L" n="34" break="no"/>se consideratum ex necessitate et eque ageret si ad 
+      <lb ed="#L" n="35"/>nullum ageret sicut si esset independenter ages. ergo si non 
+      <lb ed="#L" n="36"/>agit nisi propter finem. hoc est quia dependem ab agente amam 
+      <lb ed="#L" n="37"/>te finem. tale autem a quo depedet tota natura in 
+      <lb ed="#L" n="38"/>agendo non videtur esse nisi principium efficiens. ergo.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e331">
+      ⁋ Pre 
+      <lb ed="#L" n="39"/>terea. si primum agens agit propter finem. aut ergo finis il 
+      <lb ed="#L" n="40"/>le mouet efficies vt amatus actu voluntatis. aut 
+      <lb ed="#L" n="41"/>vt tantum naturaliter amatus. si vt amatus actu volunta 
+      <lb ed="#L" n="42"/>tis haber propositum. si tantum amatus naturaliter. hoc est falsum 
+      <lb ed="#L" n="43"/>qui non naturaliter amat alium finem a se vt graue centrum 
+      <lb ed="#L" n="44"/>et materia formam. tunc enon esset aliqua modo ad finem. quia 
+      <lb ed="#L" n="45"/>inclinatus ad ipsum. Si autem tantum naturaliter amat finem 
+      <lb ed="#L" n="46"/>est ipse. hoc nihil est nisi ipsum esse ipsum. hoc enim non est salua 
+      <lb ed="#L" n="47"/>re rationem causae in ipso. Iste primum efficiens dirigit effe 
+      <lb ed="#L" n="48"/>ctum suum ad fine. ergo vel naturaliter dirigit vel cognoscen 
+      <lb ed="#L" n="49"/>do et amando finem illum. Non naturaliter. quia non comn 
+      <lb ed="#L" n="50"/>scens nihil dirigit nisi in virtute cognoscentis. sapiet 
+      <lb ed="#L" n="51"/>eanium est prima ordinatio est metha. sed primum efficiens in 
+      <lb ed="#L" n="52"/>nullius virtute dirigit. sicut nec causat. tunc enim non 
+      <lb ed="#L" n="53"/>esset primum. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e366">
+      ⁋ Tertio sic. aliquid causatur
+      contigen<lb ed="#L" n="54" break="no"/>ter. ergo prima causa contigenter causat. ergo volens. probatio prime 
+      <lb ed="#L" n="55"/>consequentie. quaelibet causa secunda causat inquantum mouetur a 
+      <!--497.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 247-v -->
+               <lb ed="#L" n="56"/>prima. ergo si prima necessario mouet quaelibet alia ne 
+      <lb ed="#L" n="57"/>cessario mouetur et quaelibet necessario causat. ergo si alicuo 
+      <lb ed="#L" n="58"/>ecunda contingenter mouet et prima contingenter meuebat 
+      <lb ed="#L" n="59"/>qui non causat causa secunda nisi in vitute causae prime inquantum mon 
+      <lb ed="#L" n="60"/>uetur ab ipsa. probatio secunde consequentie. nullum est prin 
+      <lb ed="#L" n="61"/>cipium cotigetur operandi nisi voluntas vel aliquid
+      con<lb ed="#L" n="62" break="no"/>comitans voluntatem. quia quodlibet aliud agit ex
+      ne<lb ed="#L" n="63" break="no"/>cessitate nature. et ita non contigentur.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e397">
+      ⁋ Iste rationes 
+      <lb ed="#L" n="64"/>sunt probabiles praeter tertiam. Tame quie vellicet tenere co 
+      <lb ed="#L" n="65"/>trarium posset respondere eis. Unde in istis rationibus 
+      <lb ed="#L" n="66"/>supponuntur aliqua quae oporteret probare. Primum est quod 
+      <lb ed="#L" n="67"/>primum efficiens est simpliciter primum ens. Secundo oporte 
+      <lb ed="#L" n="68"/>ret probare quod primum efficiens producit per
+      cognitio<lb ed="#L" n="69" break="no"/>nem illius quod producit. et quod cognitio sua proporia non sus 
+      <lb ed="#L" n="70"/>ficit Uerutamen primum probant sic. quia primum efficiens non 
+      <lb ed="#L" n="71"/>est vniuocum respectu naturarum effectarum sed equiuo 
+      <lb ed="#L" n="72"/>cum. ergo eminentius et nobilius ens eis. ergo primum efficiens 
+      <lb ed="#L" n="73"/>est eminentissimum. Sed ista ratio non vitur concludere suf 
+      <lb ed="#L" n="74"/>ficientur. quia quamuis probetur quod primum efficiens est nobilius 
+      <lb ed="#L" n="75"/>omni effectu. tamen non probat quod est nobilius omni alio este. quia 
+      <lb ed="#L" n="76"/>non probatur sufficietur quod omne ens est efficiens vel
+      effe<lb ed="#L" n="77" break="no"/>ctus alicuius efficientis. Unde ad primam rationem
+      dice<lb ed="#L" n="78" break="no"/>rent ipsi. vel quod primum efficiens non est deus. vel quod agit 
+      <lb ed="#L" n="79"/>propt finem et ideo cognoscit finem propter quem agit. sed non 
+      <lb ed="#L" n="80"/>oportet quod cognoscat illud quod facit Et hoc posset con 
+      <lb ed="#L" n="81"/>firmari. quia sicut agens. naturale non cognoscit fi 
+      <lb ed="#L" n="82"/>nem nec ipsum quod agit propter finem. nec effectum quem
+      pro<lb ed="#L" n="83" break="no"/>ducit ita posset aliquis dicere quod primum efficiens dicitur 
+      <lb ed="#L" n="84"/>agere propter finem. non quia cognoscit effectum quem pro 
+      <lb ed="#L" n="85"/>ducit. sed quia cognoscit ipsum sine. Sed istud non est mu 
+      <lb ed="#L" n="86"/>tum probabile. Ideo probabilius posset dici quod ratio non 
+      <lb ed="#L" n="87"/>sufficientur concludit. quia non sufficientur probatur quod deus sit 
+      <lb ed="#L" n="88"/>primum efficiens. Et eodem modo posset responderi ad  
+      <lb ed="#L" n="89"/>secundum argumentum. Sed tertium argumentum non valet 
+      <lb ed="#L" n="90"/>qui si argumentum concluderet possent philosophi
+      conuin<lb ed="#L" n="91" break="no"/>ci quod oporteret eos ponere primam causam contingeni 
+      <lb ed="#L" n="92"/>causare quod non credo esse verum Nec credo quod per reti 
+      <lb ed="#L" n="93"/>nem posset hoc probari quod prima causa contigentur causat. Sed 
+      <lb ed="#L" n="94"/>de hoc patebit postea magis.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e468">
+      ⁋ Ideo quantum ad  
+      <lb ed="#L" n="95"/>istum articulum dico quod nullo modo potest per ratione proba in 
+      <lb ed="#L" n="96"/>ri quod deus nihil aliud a se intelligat. Secundo quod nec 
+      <lb ed="#L" n="97"/>potest probari per rationem quod intelligat omnia alia a se. Ter 
+      <lb ed="#L" n="98"/>tio quod potest probabiliter probari quod intelligit aliquod 
+      <lb ed="#L" n="99"/>aliud a se. quam quam contrusi proteruientem non sufficientur.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e481">
+      ⁋ Pri 
+      <lb ed="#L" n="100"/>mum ostendo sic. Si posset probari quod deus non
+      intelli<lb ed="#L" n="101" break="no"/>git aliud a se. hoc non esset nisi propter summam nobili 
+      <lb ed="#L" n="102"/>tatem et excessum in nobilitate respectu cuiuscumque 
+      <lb ed="#L" n="103"/>alterius. sed per hoc non potest probari. quia non est de ratione intelle 
+      <lb ed="#L" n="104"/>ctionis nec quod sit perfectior nec imperfectior nec
+      equa<lb ed="#L" n="105" break="no"/>lis obiecto. ergo cum maxima nobilitate intellectio 
+      <lb ed="#L" n="106"/>nis stat ignobilitas obiecti. ergo quantumcunt 
+      <lb ed="#L" n="107"/>que intellectio diuina sit nobilissima poterit et 
+      <lb ed="#L" n="108"/>le respectu obiecti ignobilis.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e503">
+      ⁋ Si dicatur: quod 
+      <lb ed="#L" n="109"/>deratione intellectionis est dependere a sue 
+      <lb ed="#L" n="110"/>subiecto. sed omnis dependentia repugnat dee 
+      <!--498.xml-->
+      <pb ed="#L" n="248-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>hoc non valet. quia non potest probari quod omnis intellectio 
+      <lb ed="#L" n="2"/>intelligentie mouentis celum dependet a celo. et tamen
+      il<lb ed="#L" n="3" break="no"/>la intelligentia mouet celum.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e523">
+      ⁋ Preterea in nobis non 
+      <lb ed="#L" n="4"/>semper intellectio causatur ab obiecto sen aliquando causatur 
+      <lb ed="#L" n="5"/>ab obiecto aliquando non. ergo non est deratione intellectionis 
+      <lb ed="#L" n="6"/>vel causari vel depedere ab obiecto. ergo poterit esse 
+      <lb ed="#L" n="7"/>intellectio quamuis non dependeat ab obiecto. 
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e534">
+               <lb ed="#L" n="8"/>⁋ Secudum probo. quia si posset probari quod deus
+      intelli<lb ed="#L" n="9" break="no"/>git omnia alia a se. hoc maxime esset per hoc quod deus est causa 
+      <lb ed="#L" n="10"/>mnium aliorum. sed per hoc non potest probari. quia numquam potest pro 
+      <lb ed="#L" n="11"/>bari per rationem causalitatis quod causa cognoscat. effectum 
+      <lb ed="#L" n="12"/>alique immediatum. sed nec potest probari. quod deus est causa 
+      <lb ed="#L" n="13"/>omnium tamquam effectuum immediatorum. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e550">
+      ⁋ Tertium 
+      <lb ed="#L" n="14"/>patet. probabiliter potest ostendi quod deus est causa immediata 
+      <lb ed="#L" n="15"/>alicuius effectus. sed deus est intelligens cuius est causa immedi 
+      <lb ed="#L" n="16"/>ata. ergo intelligit aliquem effectum. maior est probabilis: 
+      <lb ed="#L" n="17"/>qui probabile est quod aliquid sic dependeat a primo quod 
+      <lb ed="#L" n="18"/>posito per impossibile quod primum destrueretur sequeretur 
+      <lb ed="#L" n="19"/>destructio mediate vel immediate illius. sed omne ta 
+      <lb ed="#L" n="20"/>le habet esse respectu alterius. ergo etc. minor etiam est proba 
+      <lb ed="#L" n="21"/>bilis. quia non est probabile quod primum efficiens non cogno 
+      <lb ed="#L" n="22"/>scat illud quod producit. tunc enim produceret et nesci 
+      <lb ed="#L" n="23"/>ret quod produceret. Sic ergo dico quod neutra pars potest 
+      <lb ed="#L" n="24"/>ostendi sufficienter.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e577">
+      ⁋ Circa secundum nolo multum
+      in<lb ed="#L" n="25" break="no"/>morari quia est planum quod sic ex veritate sacre: scriptu 
+      <lb ed="#L" n="26"/>re.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e584">
+      ⁋ Ad primam ratione pro errore commen. dico quod ista 
+      <lb ed="#L" n="27"/>propositio est falsa de virtute sermonis. intellectum est perfe 
+      <lb ed="#L" n="28"/>ctio intelligentis. tum quia etiam in nobis lapis non est
+      per<lb ed="#L" n="29" break="no"/>fectio homois. et tamen intelligitur ab homine. Tum quia deus in 
+      <lb ed="#L" n="30"/>telligit se. et tamen proprie loquendo deus non est perfectio 
+      <lb ed="#L" n="31"/>suiipius. sed est idem omnibus modis cum deo.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e597">
+      ⁋ Ideo dico: 
+      <lb ed="#L" n="32"/>quod quando intellectio causatur ab obiecto. tunc obiectum 
+      <lb ed="#L" n="33"/>intellectum est perfectio intelligentis. non formaliter et
+      pro<lb ed="#L" n="34" break="no"/>prie loquendo sed effectiue. hoc estidictum. causat
+      perfectio<lb ed="#L" n="35" break="no"/>nem intelligentis scilicet ipsam intellectionem. Qando autem
+      in<lb ed="#L" n="36" break="no"/>tellectio non est causata. sicut est in deo. tunc vel intellectum 
+      <lb ed="#L" n="37"/>est ipsamet intellectio vel est aliquid natum ab eo causari 
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e613">
+               <lb ed="#L" n="38"/>⁋ Ad secundum dico quod si per actionem intelligitur aliqua 
+      <lb ed="#L" n="39"/>operatio. maior est simpliciter fmula. nec est probata.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e620">
+      ⁋ Ad 
+      <lb ed="#L" n="40"/>tertium dico quod maior est falsa nisi de intellectione 
+      <lb ed="#L" n="41"/>casata ab obiecto. qualis non est intellectio diuina 
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e627">
+               <lb ed="#L" n="42"/>⁋ Ad quartum dico quod maior est falsa. nisi de no 
+      <lb ed="#L" n="43"/>uo intelligat aliquid aliud a se.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e635">
+      ⁋ Ad quintum
+      di<lb ed="#L" n="44" break="no"/>co quod intelligere vilia non intellectione causata a
+      vili<lb ed="#L" n="45" break="no"/>bus non est vile nec ignobile. et ita est de deo. 
+      <lb ed="#L" n="46"/>Similiter inte lligere vilia et per talem intellectionem
+      impe<lb ed="#L" n="47" break="no"/>diri ab intellectione nobiliorum vel etiam inclinari pe 
+      <lb ed="#L" n="48"/>intellectionem talem ad faciendum aliquod vile est vile. sed 
+      <lb ed="#L" n="49"/>neutrum potest deo competere.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e651">
+      ⁋ Ad sextum dico quod in 
+      <lb ed="#L" n="50"/>tentio philosophi est. iii de anima. quod in separatis a materia
+      in<lb ed="#L" n="51" break="no"/>tellectus et intellectum sunt idem accipiendo intellectum 
+      <lb ed="#L" n="52"/>pro intellectione. quia in illis secundum eum intellectus intellectio 
+      <lb ed="#L" n="53"/>et intellectum sunt idem. quia ipsemet intellectus est vna in 
+      <lb ed="#L" n="54"/>tellectio. et ipsa intellectio est intellecta et non alia et 
+      <lb ed="#L" n="55"/>tellectione. Non tamen vult quod omne intellectum sit idem 
+      <!--498.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 248-r -->
+               <lb ed="#L" n="56"/>cum intelligente
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e675">
+      ⁋ Et si dicatur quod ita est in nobis: quod ali 
+      <lb ed="#L" n="57"/>quod intellectum est idem cum intelligente. et aliquod non. ergo per 
+      <lb ed="#L" n="58"/>de non distinguitur ab intellectu separato. Ad hoc
+      dice<lb ed="#L" n="59" break="no"/>dum est quod si philosophus ponit quod intellectus possibilis recipit 
+      <lb ed="#L" n="60"/>de nouo intellectione. tunc nullum intellectum est idem 
+      <lb ed="#L" n="61"/>cum intellectione qua intelligitur. Aliter tamen est in aliis. Sed quae 
+      <lb ed="#L" n="62"/>fuit mens philosophi de intellectu possibili patebit 
+      <lb ed="#L" n="63"/>alias.
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e693">
+      ⁋ Ad vltimam dico quod deus est cognitio parti 
+      <lb ed="#L" n="64"/>cularis de omnibus partibus nec est inconueniens omnia infini 
+      <lb ed="#L" n="65"/>ta comprehendi ab infinito
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e700">
+      ⁋ Ad primum principale di 
+      <lb ed="#L" n="66"/>co quod non est semper vnius intellectionis est tantum vnum obiectum 
+      <lb ed="#L" n="67"/>sed frequenter vnius intellectionis sunt plura obiecta si 
+      <lb ed="#L" n="68"/>cut est in proposito
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e709">
+      ⁋ Ad secundum in sequenti. q. patebit 
+    </p>
+            <p xml:id="wo8uy7-d1e1578-d1e713">
+               <lb ed="#L" n="69"/>⁋ Ad tertium dico quod tali assimilatione qualis requi 
+      <lb ed="#L" n="70"/>ritur inter intellectionem et obiectum deus assimi 
+      <lb ed="#L" n="71"/>latur cuilibet alteri a se. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

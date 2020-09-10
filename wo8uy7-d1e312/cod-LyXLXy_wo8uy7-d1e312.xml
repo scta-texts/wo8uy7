@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="83-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e312"><!-- l1d2q2 -->
+            <head xml:id="wo8uy7-d1e312-Hd1e108">Quaestio 2</head>
+            <p xml:id="wo8uy7-d1e312-d1e111">
+      Questio secunda dist. ii 
+      <lb ed="#L" n="88"/>Supposito quod 
+      per<lb ed="#L" n="89" break="no"/>fectiones attributales non
+      distinguan<lb ed="#L" n="90" break="no"/>tur ex natura rei a diuina essentia cum 
+      <lb ed="#L" n="91"/>quam sunt idem realiter. Quero. vtrum sint realiter ipsa 
+      <lb ed="#L" n="92"/>essentia diuina.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e124">
+      ⁋ Uidetur quod sic. quia intellectus est 
+      <lb ed="#L" n="93"/>realiter ipsa diuina essentia. et similiter voluntas. et 
+      <lb ed="#L" n="94"/>iste sunt perfectiones attributales. ergo etc. Ma 
+      <lb ed="#L" n="95"/>ior est manifesta. quia aliter deus non esset realiter
+      in<lb ed="#L" n="96" break="no"/>telligens et volens. quod est manifeste seultum.  Minor. 
+      <lb ed="#L" n="97"/>patet. quia ista attribuuntur deo et creaturis.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e137">
+      ⁋ Ad  
+      <lb ed="#L" n="98"/>oppositum. perfectiones attributales sunt plures 
+      <lb ed="#L" n="99"/>ergo si nullo modo distinguantur ex natura rei a diui 
+      <lb ed="#L" n="100"/>na essentia et sint realiter ipsa diuina essentia
+      sequi<lb ed="#L" n="101" break="no"/>tur quod diuina essentia sit plurificabilis.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e148">
+      ⁋ Ad istam 
+      <lb ed="#L" n="102"/>questionem est opinio multorum et omnium praeter illos quae 
+      <lb ed="#L" n="103"/>ponunt distinctionem ex natura rei. quod perfectiones 
+      <lb ed="#L" n="104"/>attributales sunt ipsa diuina essentia realiter 
+      <lb ed="#L" n="105"/>sed inter se et ab essentia diuina distinguntur solum 
+      <lb ed="#L" n="106"/>ratione. Aliqui autem ponunt quod hoc non est possibile 
+      <lb ed="#L" n="107"/>nisi secundum quod intellectus comparat ipsam diuinam
+      esen<lb ed="#L" n="108" break="no"/>tiam ad aliqua realiter distincta in creaturis. Unde 
+      <lb ed="#L" n="109"/>dicunt quod omnis pluralitas secundum rationem requirit tria. 
+      <!--169.xml-->
+      <pb ed="#L" n="83-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>scilicet rem circa quam est talis pluralitas. vt funda 
+      <lb ed="#L" n="2"/>mentum talium rationum. ne intellectus apprehendens 
+      <lb ed="#L" n="3"/>talia sit vanus. Secundo quod talis diuersitas non
+      con<lb ed="#L" n="4" break="no"/>uenit rei in suo esse reali. sed secundum quod cadit in ap 
+      <lb ed="#L" n="5"/>prehensione intellectus. ideo requiritur
+      appreheu<lb ed="#L" n="6" break="no"/>sio eius ab intellectu. et tertio requiritur aliqua rea 
+      <lb ed="#L" n="7"/>lis diuersitas ad quam illud vnum comparetur. quia 
+      <lb ed="#L" n="8"/>ratio vnius secundum quod consideratur in se non est nisi vna 
+      <lb ed="#L" n="9"/>Unde licet ista differentia attributorum continea 
+      <lb ed="#L" n="10"/>tur virutualiter in essentia diuina omnium perfectiones 
+      <lb ed="#L" n="11"/>comprehendente. non tamen potest reduci in aliquam 
+      <lb ed="#L" n="12"/>operationem intellectus. nisi accipiatur in
+      com<lb ed="#L" n="13" break="no"/>paratione ad diuersa. non autem accipiuntur attribum 
+      <lb ed="#L" n="14"/>ta secundum talem operationem propter habitudinem cause 
+      <lb ed="#L" n="15"/>agentis. sed secundum habitudinem eminentie.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e208">
+      ⁋ Quod autem 
+      <lb ed="#L" n="16"/>non possint ideo plura distingui ratione nisi per
+      com<lb ed="#L" n="17" break="no"/>parationem ad plura extra se. probatur sic primo 
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e215">
+               <lb ed="#L" n="18"/>⁋ Illud quod secundum se est vnum simplicissimum si
+      conside<lb ed="#L" n="19" break="no"/>retur per se tantum. sicut est vnum simplicissimum. ita 
+      <lb ed="#L" n="20"/>habet considerari secundum vnam simplicissimam rationem. ergo si 
+      <lb ed="#L" n="21"/>debeant considerari in eo plura ratione hoc erit illud 
+      <lb ed="#L" n="22"/>considerando in comparationem ad plura extra se. 
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e228">
+               <lb ed="#L" n="23"/>⁋ Secundo quia ista distinctio attributorum. aut acci 
+      <lb ed="#L" n="24"/>pitur ex parte ipsorum attributorum sed se et absolute 
+      <lb ed="#L" n="25"/>acceptorum. aut ex compratione intellectus ea ad inuicem 
+      <lb ed="#L" n="26"/>operatu. primum non potest dari quia quae ex seipsis et secundum nam suam 
+      <lb ed="#L" n="27"/>absolute sumptam sunt diuersa realiter et nam sua sunt 
+      <lb ed="#L" n="28"/>diuersa. talis autem diuersitas non potest esse in deo 
+      <lb ed="#L" n="29"/>inter absoluta qualia sunt attributa. ergo nec 
+      <lb ed="#L" n="30"/>secundum potest dari. quia illud quod praesupponit distin 
+      <lb ed="#L" n="31"/>ctione attributorum secundum rationem non potest esse ratio 
+      <lb ed="#L" n="32"/>talis distinctionis. quia causa non praesupponit illud  
+      <lb ed="#L" n="33"/>cuius est causa. sed econuerso. Sed comparatio 
+      <lb ed="#L" n="34"/>attributorum ad inuicem per operationem intellectus 
+      <lb ed="#L" n="35"/>ea ad inuicem comparantis praesupponit distinctio 
+      <lb ed="#L" n="36"/>nem attributorum que comparantur. ergo distinctio 
+      <lb ed="#L" n="37"/>attributorum secundum rationem non potest prouenire ex eorum 
+      <lb ed="#L" n="38"/>comparatione ad inuicem.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e265">
+      ⁋ Tertio quia in creaturs 
+      <lb ed="#L" n="39"/>ratio generis et ratio differentie que solum ratione differi 
+      <lb ed="#L" n="40"/>accipiuntur a diuersis rebus in comparatione ad  
+      <lb ed="#L" n="41"/>diuersas res. ergo a simili differentia rationis inter
+      ar<lb ed="#L" n="42" break="no"/>tributa accipitur ex comparatione ad diuersas res. 
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e276">
+               <lb ed="#L" n="43"/>⁋ Quarto quia sicut attributa differunt in deo
+      so<lb ed="#L" n="44" break="no"/>la ratione. ita et ydee. nec differunt nisi in hoc quod idee 
+      <lb ed="#L" n="45"/>dicunt formas rerum extra repraesentatiuas secundum
+      quem<lb ed="#L" n="46" break="no"/>dam gradum limitatum et determinatum secundum quod in 
+      <lb ed="#L" n="47"/>deo considerantur diuerse imitabilitates quo essen 
+      <lb ed="#L" n="48"/>tia divina a creaturis est imitabilis. attributa vero 
+      <lb ed="#L" n="49"/>important perfectiones omnium entium absolute et sine 
+      <lb ed="#L" n="50"/>limitatione. sed in hoc conueniunt. quia hincinde 
+      <lb ed="#L" n="51"/>non est nisi differentia rationis: sed differentia rationis 
+      <lb ed="#L" n="52"/>inter ydeas accipitur ex comparatione ad
+      diuer<lb ed="#L" n="53" break="no"/>sas creaturas secundum diuersos gradus
+      imitabili<lb ed="#L" n="54" break="no"/>tatis. igitur et differentia rationis inter attributa 
+      <lb ed="#L" n="55"/>accipietur ex comparatione dei ad diuersas perfe 
+      <!--169.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 83-v -->
+               <lb ed="#L" n="56"/>ctiones in creaturis repertas. prout accipiuntur 
+      <lb ed="#L" n="57"/>absolute et absque limitatione. sicut est iustitia et 
+      <lb ed="#L" n="58"/>sapientia. et sic de aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e320">
+      ⁋ Alii autem ponunt eandem 
+      <lb ed="#L" n="59"/>conclusionem. quod attributa sunt ipsa diuina essentia 
+      <lb ed="#L" n="60"/>realiter sola ratione distincta. Sed illa distinctio non 
+      <lb ed="#L" n="61"/>accipitur ex comparatione ad aliqua diuersa realiter 
+      <lb ed="#L" n="62"/>in creaturis. Sicut distinctio rationis ydearum non 
+      <lb ed="#L" n="63"/>potest poni nisi ex comparatione ad diuersa in crea 
+      <lb ed="#L" n="64"/>turis.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e337">
+      ⁋ Quia sicut ratio ydealis non est in deo 
+      <lb ed="#L" n="65"/>nisi quia sit in creatura aliquid correspondens. ita non 
+      <lb ed="#L" n="66"/>dicetur esse in deo bonitas vel sapientia. nisi quia 
+      <lb ed="#L" n="67"/>est bonitas vel sapientia in creatura. quod est ma 
+      <lb ed="#L" n="68"/>nifeste falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e348">
+      ⁋ Preterea. eque absolutum quid a
+      re<lb ed="#L" n="69" break="no"/>spectu ad creaturas est bonitas vel sapientia. si 
+      <lb ed="#L" n="70"/>cut ipsa substantia vel spiritus. ergo sicut non est substanti 
+      <lb ed="#L" n="71"/>vel spiritus ex respectu ad creaturas. ita nec
+      sa<lb ed="#L" n="72" break="no"/>piens vel bonus. Dicunt ergo quod attributa differunt 
+      <lb ed="#L" n="73"/>per solos respectus rationis non ad extra. sed ad intra 
+      <lb ed="#L" n="74"/>sicut persone diuine distinguntur per relationes
+      rea<lb ed="#L" n="75" break="no"/>les non ad extra sed ad intra
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e366">
+      ⁋ Cotra istas
+      opi<lb ed="#L" n="76" break="no"/>niones primo arguam in generali contra
+      conclusio<lb ed="#L" n="77" break="no"/>nem quam tenent. quod attributa diuina sunt realiter 
+      <lb ed="#L" n="78"/>ipsa diuina essentia et sola ratione distinguuntur.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e375">
+      ⁋ Secundo 
+      <lb ed="#L" n="79"/>arguo contra eas in speciali.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e380">
+      ⁋ Contra primum
+      ar<lb ed="#L" n="80" break="no"/>guo sic. si iste rationes attributales sunt distincte 
+      <lb ed="#L" n="81"/>in deo. aut sunt in deo formaliter et subiective. aut 
+      <lb ed="#L" n="82"/>sunt in deo tantum obiectiue. Si primo modo. et omne
+      ta<lb ed="#L" n="83" break="no"/>le est praeter operationem intellectus. et ex natura rei 
+      <lb ed="#L" n="84"/>ergo iste distincte rationes attributales sunt ex na 
+      <lb ed="#L" n="85"/>tura rei in deo. et per consequens sunt distincte ex natu 
+      <lb ed="#L" n="86"/>ra rei. quod negant. Si secundo modo. et illud quod tantum
+      ha<lb ed="#L" n="87" break="no"/>bet esse obiectiuum non est realiter diuina essentia 
+      <lb ed="#L" n="88"/>igitur ille distincte rationes non sunt ipsa diuina essentia 
+      <lb ed="#L" n="89"/>Similiter isto modo sunt praecise in ipso intellectu. et non in 
+      <lb ed="#L" n="90"/>essentia. quia secundum eos intellectus est habere aliquid in esse 
+      <lb ed="#L" n="91"/>obiectiuo. et non essentie nisi sub ratione intellectus. ergo 
+      <lb ed="#L" n="92"/>secundum istos magis debet dici quod intellectus format 
+      <lb ed="#L" n="93"/>istas rationes circa seipsum quam circa essentiam.
+      Simi<lb ed="#L" n="94" break="no"/>liter isto modo ipsemet creature sunt in deo. similiter 
+      <lb ed="#L" n="95"/>tunc non esset in deo ex natura rei. nec sapientia nec 
+      <lb ed="#L" n="96"/>bonitas etc
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e419">
+      ⁋ Confirmatur ista ratio. quia illa quae conti 
+      <lb ed="#L" n="97"/>nentur sub praemis diuidentibus alsquod commune. magis 
+      <lb ed="#L" n="98"/>distinguntur quam que continentur sub secundis
+      diuidenti<lb ed="#L" n="99" break="no"/>bus. sed ens primo diuiditur in ens reale. et ens ratio 
+      <lb ed="#L" n="100"/>nis secundum istos. ergo ens reale et ens rationis magis 
+      <lb ed="#L" n="101"/>distinguntur quam duo entia realia. ergo nihil quod 
+      <lb ed="#L" n="102"/>est praecise habens esse obiectiuum est realiter aliquod ests 
+      <lb ed="#L" n="103"/>reale. et per consequens si ista attributa habent tantum esse obie 
+      <lb ed="#L" n="104"/>ctiuum. et per consequens sunt entia rationis. non possunt esse realiter 
+      <lb ed="#L" n="105"/>ipsa essentia diuina.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e442">
+      ⁋ Preterea. aut intellectus for 
+      <lb ed="#L" n="106"/>mat istas rationes attributales. aut inuenit eas in 
+      <lb ed="#L" n="107"/>re. si primo modo. et non format eas in esse reali. quia 
+      <lb ed="#L" n="108"/>tunc essent realiter producte. ergo format eas praecise in 
+      <lb ed="#L" n="109"/>esse rationis. ergo sunt praecise entia rationis ergo non sunt 
+      <lb ed="#L" n="110"/>aliqua res extra animam. si inuenit eas in re. ergo intelle¬ 
+      <!--170.xml-->
+      <pb ed="#L" n="84-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ctus nihil plus facit ad rationes attributales. quam 
+      <lb ed="#L" n="2"/>ad ipsam diuinam esentiam.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e466">
+      ⁋ Tertio sic. quando dicitur alia 
+      <lb ed="#L" n="3"/>est ratio sapientie et alia est ratio bonitatis. aut ratio ib 
+      <lb ed="#L" n="4"/>supponit pro re extra animam. aut pro aliquo ente rati 
+      <lb ed="#L" n="5"/>nis. Si primo modo. ergosi sit alia ratio sapientie et alia ratio 
+      <lb ed="#L" n="6"/>bonitatis. esset neccessario alia res sapientie et alia res 
+      <lb ed="#L" n="7"/>bonitatis. et ita erunt distincte res. Si secundo modo 
+      <lb ed="#L" n="8"/>ergo ratio sapientie non est realiter in deo. nec est realiter 
+      <lb ed="#L" n="9"/>deus. ergo ista attributa non sunt realiter ipsa divina est 
+      <lb ed="#L" n="10"/>sentia.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e486">
+      ⁋ Si dicitur ad istas rationes quod ille rationes
+      attri<lb ed="#L" n="11" break="no"/>butales sunt in deo ex natura rei. sed non sunt 
+      <lb ed="#L" n="12"/>distincte nisi per operationem intellectus. et ideo sunt 
+      <lb ed="#L" n="13"/>realiter ipsa diuina essentia. sed solum per operationem in 
+      <lb ed="#L" n="14"/>tellectus distinguuntur. Unde in deo ex natura
+      re<lb ed="#L" n="15" break="no"/>est bonitas et sapientia. sed bonitas illa non distingui 
+      <lb ed="#L" n="16"/>tur a sapientia ex natura rei. sed tantum per operationem
+      in<lb ed="#L" n="17" break="no"/>tellectus. ita quod intellectus causat istam distincto 
+      <lb ed="#L" n="18"/>nem. et reducit eam de potentia ad actum.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e506">
+      ⁋ Contra 
+      <lb ed="#L" n="19"/>quando aliqua omnimode vniformiter se habent an actum 
+      <lb ed="#L" n="20"/>intellectus et post. vel semper distinguuntur vel numqua 
+      <lb ed="#L" n="21"/>sed sapientia diuina et bonitas semper vniformiter 
+      <lb ed="#L" n="22"/>se habent ante actum intellectus et post. nulla enim varia 
+      <lb ed="#L" n="23"/>tio causatur in eis ex hoc solo quod intelliguntur. ergo si 
+      <lb ed="#L" n="24"/>nullo modo distinguuntur ante operatione
+      intelle<lb ed="#L" n="25" break="no"/>ctus nec post
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e524">
+      ⁋ Si dicitur quod quamuis realiter vniformi 
+      <lb ed="#L" n="26"/>se habeant. non tamen secundum rationem. quia aduenit eis per
+      oper<lb ed="#L" n="27" break="no"/>tionem intellectus respectus rationis. et per illos
+      respe<lb ed="#L" n="28" break="no"/>ctus rationis distinguuntur. Contra sicut potest
+      respe<lb ed="#L" n="29" break="no"/>ctus rationis aduenire ex comparatione sapientie ad
+      bo<lb ed="#L" n="30" break="no"/>nnitatem. ita potest aduenire respectus rationis ex
+      con<lb ed="#L" n="31" break="no"/>paratione essentie ad essentiam. et ita non aliter distin 
+      <lb ed="#L" n="32"/>gueretur sapientia a bonitate per actum intellectus. quam essen 
+      <lb ed="#L" n="33"/>tia ab essentia. vel sapientia a sapientia
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e544">
+      ⁋ Preterea aut 
+      <lb ed="#L" n="34"/>isti respectus rationis sunt omnino eiusdem rationis. aut 
+      <lb ed="#L" n="35"/>non. si sic. ergo non plus distinguitur ratio sapientie a ratione 
+      <lb ed="#L" n="36"/>bonitatis quam a ratione sapientie. quia ipsius sapientiae erum 
+      <lb ed="#L" n="37"/>duo respectus. vel plures respectus rationis. immo  
+      <lb ed="#L" n="38"/>ratio bonitatis erit ratio sapientie. quia non est maior ratio quod 
+      <lb ed="#L" n="39"/>vnus respectus facit rationem sapientie quam alius: exquo 
+      <lb ed="#L" n="40"/>respectus sunt omnino eiusdem rationis. et ante istos re 
+      <lb ed="#L" n="41"/>spectus inter sapientiam et bonitatem nulla penit 
+      <lb ed="#L" n="42"/>est distinctio si non sint omnino eiusdem rationis. ergo 
+      <lb ed="#L" n="43"/>in fundamentis non est omnino identitas. vel in
+      ter<lb ed="#L" n="44" break="no"/>minis. quia diuersitas relationis rationis non potest 
+      <lb ed="#L" n="45"/>aliundem consurgere. Ista est directe contra secundam opi 
+      <lb ed="#L" n="46"/>nionem. quamuis non ita directe conclusio primam
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e576">
+      ⁋ Prete rea 
+      <lb ed="#L" n="47"/>isti respectus rationis siue sint ad intra siue ad extra. 
+      <lb ed="#L" n="48"/>nullam facient distinctionem rationis circa sapientiam 
+      <lb ed="#L" n="49"/>et bonitatem. sicut nec relationes reales circa essen 
+      <lb ed="#L" n="50"/>tiam diuinam faciunt aliquam distinctionem realem 
+      <lb ed="#L" n="51"/>in essentia diuina. quia ipsa realiter non distinguitur. erg 
+      <lb ed="#L" n="52"/>sicut sole relationes reales diuine vel persone co 
+      <lb ed="#L" n="53"/>stitute per eas distinguntur realitur et non ipsa diuina 
+      <lb ed="#L" n="54"/>essentia. sole relationes rationis vel aggregata ex 
+      <lb ed="#L" n="55"/>ipsis et sapientia diuina et diuina voluntate distinguum 
+      <!--170.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 84-r -->
+               <lb ed="#L" n="56"/>tur secundum rationem. et non illa bonitas et sapientia quae prece 
+      <lb ed="#L" n="57"/>dunt omnem actum intellectus. Sed illi respectus rationis 
+      <lb ed="#L" n="58"/>non sunt realiter deus. quia quicqud est realiter deus. est 
+      <lb ed="#L" n="59"/>vna res. et per consequens illi respectus essent vere et non
+      re<lb ed="#L" n="60" break="no"/>spectus rationis. Similiter eadem ratione aggregata ex illis 
+      <lb ed="#L" n="61"/>relationibus rationis et sapientia quae deus est et bonitate 
+      <lb ed="#L" n="62"/>quae deus est. non sunt realiter deus. ergo nihil quod est rea 
+      <lb ed="#L" n="63"/>liter deus distinguitur secundum rationem ab aliquo quod est rea 
+      <lb ed="#L" n="64"/>liter deus. et per consequens attributa non sunt realiter diuina 
+      <lb ed="#L" n="65"/>essentia. et tamen distincta inter se secundum rationem.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e626">
+      ⁋ Preter 
+      <lb ed="#L" n="66"/>eam. quaero quid est intellectum causare distinctione illarum 
+      <lb ed="#L" n="67"/>rationum. Aut hoc est praecise intelligere illam rem. siue vno 
+      <lb ed="#L" n="68"/>actu siue pluribus ita quod nihil intelligatur nisi res 
+      <lb ed="#L" n="69"/>ipsa. Aut hoc est comprare eandem rem ad seipsam. Au 
+      <lb ed="#L" n="70"/>comprare eandem rem ad aliam vel alias res. Aut
+      for<lb ed="#L" n="71" break="no"/>mare aliquid vel aliqua quae non sunt ibi ex natura rei 
+      <lb ed="#L" n="72"/>sed tantum per opus intellectus. Non primo modo. quia per hoc semper quod 
+      <lb ed="#L" n="73"/>eadem res praecise. et nihil aliud intelligeretur. nulla 
+      <lb ed="#L" n="74"/>multitudo ibi causatur nisi forte quantum ad actum
+      in<lb ed="#L" n="75" break="no"/>telligendi si pluribus actibus intelligatur. ergo in deo 
+      <lb ed="#L" n="76"/>numquam erit multitudo attributorum quae sint plura
+      ar<lb ed="#L" n="77" break="no"/>tributa et tamen realiter ipse deus. Similiter eadem ratione in sorte 
+      <lb ed="#L" n="78"/>et in qualibet re quam possum intelligere possum
+      cau<lb ed="#L" n="79" break="no"/>sare talia multa. quod est absurdum. Nec secundo mo 
+      <lb ed="#L" n="80"/>quia per talem comparationem non causatur nisi forte respe 
+      <lb ed="#L" n="81"/>ctus rationis secundum istos. sed respectus rationis non est realiter 
+      <lb ed="#L" n="82"/>ipse deus. Nec tertio modo propter idem. Similiter eodem mo 
+      <lb ed="#L" n="83"/>potest compari quaelibet res ad seipsam et ad alias res 
+      <lb ed="#L" n="84"/>sicut essentia diuina. ergo omnem talem distinctionem quan 
+      <lb ed="#L" n="85"/>potest intellectus facere circa diuinam esentiam. potest
+      fa<lb ed="#L" n="86" break="no"/>cere circa omnem rem equaliter. Si dicitur quarto modo ha 
+      <lb ed="#L" n="87"/>betur propositum quod sunt ibi multa: quorum nullum est ex 
+      <lb ed="#L" n="88"/>natura rei. et per consequens nullum illorum est realiter ipse de 
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e678">
+               <lb ed="#L" n="89"/>⁋ Preterea. accipio istas distinctas rationes attribu 
+      <lb ed="#L" n="90"/>tales secundum propriam rationem sapientie et propriam rationem boni 
+      <lb ed="#L" n="91"/>tatis. et quaero. aut ratio sapientie aliquo modo distinguitur. 
+      <lb ed="#L" n="92"/>ab ipsa sapientia quae est ibi ex natura rei. aut nullo modo 
+      <lb ed="#L" n="93"/>si sic. et non nisi ratione. ergo alia est ratio sapientie. et alia est 
+      <lb ed="#L" n="94"/>ratio illius rationis et erit processus in infinitum. Similiter si 
+      <lb ed="#L" n="95"/>aliquo modo distinguitur. aut illa ratio est ibi ex natu 
+      <lb ed="#L" n="96"/>ra rei. et ita erit distinctio ex natura rei. aut non 
+      <lb ed="#L" n="97"/>est ibi ex natura rei. et per consequens ratio attributalis no 
+      <lb ed="#L" n="98"/>est in deo ex natura rei. et per consequens non est realiter deus 
+      <lb ed="#L" n="99"/>si nullo modo distinguitur. ergo idem est dicere. alia est ratio sa 
+      <lb ed="#L" n="100"/>pientie a ratione bonitatis et dicere. alia est sapientia a 
+      <lb ed="#L" n="101"/>bonitate quod est absurdum
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e709">
+      ⁋ Contra primam opinio 
+      <lb ed="#L" n="102"/>nem quando aliqua distinguntur solum per respectum ad extra 
+      <lb ed="#L" n="103"/>impossibile est intelligere illa sine illis extra. patet. quia 
+      <lb ed="#L" n="104"/>non potest intelligi puctus quod sit principium et finis
+      nis<lb ed="#L" n="105" break="no"/>intelligantur iste medietates rerum. quarum rerum est 
+      <lb ed="#L" n="106"/>principium et finis. sed potest dici quod deus est sapiens sine sa 
+      <lb ed="#L" n="107"/>pientia creature. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e725">
+      ⁋ Preterea secundum omnem 
+      <lb ed="#L" n="108"/>habitudinem causalitatis et eminentie. potest essen 
+      <lb ed="#L" n="109"/>tia diuina comparari ad albedinem. quia continm 
+      <lb ed="#L" n="110"/>albedinem causaliter et eminenter sicut sapientiam. 
+      <!--171.xml-->
+      <pb ed="#L" n="84-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et ita albedo perficitur in esse suo et benesse sicut et
+      sa<lb ed="#L" n="2" break="no"/>pientia. ergo propter talem compationem non plus dicetur 
+      <lb ed="#L" n="3"/>deus sapientia quam albedo.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e747">
+      ⁋ Contra secundam opinionem 
+      <lb ed="#L" n="4"/>qui omnia sua argumenta equaliter probant quod attribum 
+      <lb ed="#L" n="5"/>ta non distinguantur per operatione intellectus. sicut 
+      <lb ed="#L" n="6"/>per respectus ad extra. patet inductiue
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e757">
+      ⁋ Sicutur enim 
+      <lb ed="#L" n="7"/>in deo non est bonitas vel sapientia per respectum ad  
+      <lb ed="#L" n="8"/>creaturam. ita nec per operatione intellectus non plus 
+      <lb ed="#L" n="9"/>quam deitas vel essentia.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e766">
+      ⁋ Confirmatur. quia omnis perfectio 
+      <lb ed="#L" n="10"/>simpliciter est independens ab operatione intellect 
+      <lb ed="#L" n="11"/>sicut a respectu ad creaturam quamcumque. sed sapientia divina 
+      <lb ed="#L" n="12"/>est perfectio simpliciter. ergo non dependet ab operatione
+      in<lb ed="#L" n="13" break="no"/>tellectus.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e777">
+      ⁋ Preterea. eque absolutum quid est sapientia 
+      <lb ed="#L" n="14"/>quae est in deo et similiter bonitas. sicut illa quae est in
+      crea<lb ed="#L" n="15" break="no"/>tura. sed ista que est in creatura non includit
+      ali<lb ed="#L" n="16" break="no"/>quos respectus. ergo nec illa que est realiter impse deus 
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e786">
+               <lb ed="#L" n="17"/>⁋ Preterea distinctio rationis non preexigitur
+      disti<lb ed="#L" n="18" break="no"/>ctioni reali personarum. sed secundum istos distinctio attri 
+      <lb ed="#L" n="19"/>butorum est fundamentum et presupponitur distinctio 
+      <lb ed="#L" n="20"/>ni personarum. ergo non distinguuntur sola ratione.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e797">
+      ⁋ Ideo 
+      <lb ed="#L" n="21"/>dico aliter ad questionem quod perfectio attributalis 
+      <lb ed="#L" n="22"/>potest accipi dupliciter. Uno modo pro aliqua perfectione
+      sim<lb ed="#L" n="23" break="no"/>pliciter quae est ipse deus realiter. Alio modo pro aliquo 
+      <lb ed="#L" n="24"/>praedicabili vere de deo et de omnibus tribus personis 
+      <lb ed="#L" n="25"/>coniunctim et diuisim
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e810">
+      ⁋ Primo modo dico quod non sunt 
+      <lb ed="#L" n="26"/>plures perfectiones attributales. sed tantum est ibi vna 
+      <lb ed="#L" n="27"/>perfectio indistincta re et ratione. quae proprie et de virtu 
+      <lb ed="#L" n="28"/>te: sermonis non debet dici esse in deo vel in divina 
+      <lb ed="#L" n="29"/>essentia sed est omnibus modis ipsa diuina essentia. 
+      <lb ed="#L" n="30"/>Secundo modo dico quod non sunt nisi conceptus quidam 
+      <lb ed="#L" n="31"/>vel signa quae possunt praedicari vere de deo et magis
+      pro<lb ed="#L" n="32" break="no"/>prie debent dici conceptus attributales vel nomina 
+      <lb ed="#L" n="33"/>attributalia quam perfectiones atrributales. quia
+      pro<lb ed="#L" n="34" break="no"/>prie perfectio non est nisi res aliqua. et tales conceptus 
+      <lb ed="#L" n="35"/>non sunt proprie res. vel non sunt perfectio. vel saltem 
+      <lb ed="#L" n="36"/>non sunt perfectiones simpliciter. Isti autem conceptus
+      at<lb ed="#L" n="37" break="no"/>tributales vel nomina attributalia quedam impor 
+      <lb ed="#L" n="38"/>tant ipsam diuinam essentiam absolute et
+      affirma<lb ed="#L" n="39" break="no"/>tiue. quedam connotatiue connotando aliquid aliud. et 
+      <lb ed="#L" n="40"/>quedam negatiue. prima sunt sicut intellectus et 
+      <lb ed="#L" n="41"/>voluntas etc. Secunda sunt sicut praedestinans creans 
+      <lb ed="#L" n="42"/>vel creatiuum. tertia sunt sicut incorruptibile et 
+      <lb ed="#L" n="43"/>immortale⁋ Et isto modosiunt plura attributa
+      praedica<lb ed="#L" n="44" break="no"/>bilia de divina essentia. Et sic intelligendo quaonem 
+      <lb ed="#L" n="45"/>dico quod perfectiones attributales quae possunt improprie 
+      <lb ed="#L" n="46"/>dici perfectiones attributales quia important
+      perfe<lb ed="#L" n="47" break="no"/>ctionem simpliciter. scilicet ipsam diuinam esentiam. non sunt 
+      <lb ed="#L" n="48"/>tamen realiter ipsa diuina essentia. quia sunt praecise vel
+      con<lb ed="#L" n="49" break="no"/>ceptus vel nomina. Sed nec conceptus plures nec no 
+      <lb ed="#L" n="50"/>mina sunt diuina essentia. ergo talia attributa non 
+      <lb ed="#L" n="51"/>sunt realiter ipsa diuina essentia. Quod autem nomina non 
+      <lb ed="#L" n="52"/>sint diuina essentia est manifestum. quod nec etiam con 
+      <lb ed="#L" n="53"/>ceptus patet. quia conceptus non habet esse sine actu
+      intel<lb ed="#L" n="54" break="no"/>lectus. sed quicqud est realiter essentia divina non
+      depen<lb ed="#L" n="55" break="no"/>det realiter ab actu intellectus. sicut nec ipsa di¬ 
+      <!--171.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 84-v -->
+               <lb ed="#L" n="56"/>uina essentia. ergo nullus talis conceptus est realiter divina 
+      <lb ed="#L" n="57"/>essentia.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e889">
+      ⁋ Preterea vbicumque est aliqua multitudo. ibi 
+      <lb ed="#L" n="58"/>est aliqua distinctio. sed attributa secundum omnes sunt plura. 
+      <lb ed="#L" n="59"/>ergo aliquae modo distinguuntur inter se et etiam ab essentia cum 
+      <lb ed="#L" n="60"/>essentia non ponatur attributum secundum eos. aut ergo
+      disti<lb ed="#L" n="61" break="no"/>guuntur ex natura rei. aut sola ratione. si ex natura 
+      <lb ed="#L" n="62"/>rei. aut igitur formaliter et hoc improbatum est prius. aut 
+      <lb ed="#L" n="63"/>sicut res distincte et hoc negant omnes. Similiter tunc
+      ha<lb ed="#L" n="64" break="no"/>beretur propositum. quod attributa non sunt realiter essentia 
+      <lb ed="#L" n="65"/>divina. Nec potest dici secundo modo. quod distinguuntur inter 
+      <lb ed="#L" n="66"/>se et ab essentia divina sola ratione sicut probatum est contra 
+      <lb ed="#L" n="67"/>praecedentes opiniones. Et adhuc probo sic. nihil quod 
+      <lb ed="#L" n="68"/>realiter est divina essentia distinguitur ratione a quocunq 
+      <lb ed="#L" n="69"/>quod est realiter essentia diuina. ergo attributa non
+      disti<lb ed="#L" n="70" break="no"/>guuntur ratione inter se et a divina essentia si sint realiter 
+      <lb ed="#L" n="71"/>divina essentia. consequentia est manifesta. Antecedens probatur
+      pri<lb ed="#L" n="72" break="no"/>mo sic. Idem vel distinctum sunt passiones imme 
+      <lb ed="#L" n="73"/>diate conuenientes illi cui conueniunt et per consequens sibi 
+      <lb ed="#L" n="74"/>conueniunt omni alio circumscripto. ergo si aliquid
+      quocum<lb ed="#L" n="75" break="no"/>que modo distinguatur ab aliquo. vtroque illorum existente 
+      <lb ed="#L" n="76"/>modo sibi conueniente. semper distinguitur ab eo omni alio 
+      <lb ed="#L" n="77"/>circumscripto et secundum se. ergo si vnum attributum
+      distin<lb ed="#L" n="78" break="no"/>guitur ratione ab alio vtroque illorum posito. circumscri 
+      <lb ed="#L" n="79"/>pta omni operatione intellectus distincuitur. sed si vttunque 
+      <lb ed="#L" n="80"/>illorum sit divina essentia realiter vtrumque illorum erit
+      mo<lb ed="#L" n="81" break="no"/>sibi conuenienti omni operatione intellectus circumscripta 
+      <lb ed="#L" n="82"/>et per consequens distinguitur ex natura rei et non sola ratione 
+      <lb ed="#L" n="83"/>Ans patet. quia sicut vnumquoque se habet ad ests. ita se habet 
+      <lb ed="#L" n="84"/>ad vnum. et per consequens ad esse distinctum vel indistinctum 
+      <lb ed="#L" n="85"/>ergo sicut vnumquoque quod est realiter extra animam est seipso
+      in<lb ed="#L" n="86" break="no"/>mediate formaliter ens. et non per aliquod extriniecum. 
+      <lb ed="#L" n="87"/>ita erit vere vnum et seipso et immediate et formaliter 
+      <lb ed="#L" n="88"/>distinctum a quocumque existente consimiliter extra animam a 
+      <lb ed="#L" n="89"/>quo distinguitur quoquo modo. et non per aliud
+      extrin<lb ed="#L" n="90" break="no"/>secum. et per consequens circumscripta omni operatione intellectus 
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e963">
+               <lb ed="#L" n="91"/>⁋ Tertio sic. identitas vel distinctio consequitur ipsa 
+      <lb ed="#L" n="92"/>extrema ipsis positum in esse. ergo si extrema illa in nul 
+      <lb ed="#L" n="93"/>lo penitus varientur ante operationem intellectus et post 
+      <lb ed="#L" n="94"/>semper vniformitet distinguuntur. sed sapientia et bonitas 
+      <lb ed="#L" n="95"/>omnina in nullo penitus variantur per operationem int elle 
+      <lb ed="#L" n="96"/>ctus. ergo ipsa per intellectum non distinguuntur.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e979">
+      ⁋ Si dicitur 
+      <lb ed="#L" n="97"/>quod aliquo modo variantur. quia secundum esse intellectum. quia 
+      <lb ed="#L" n="98"/>modo sunt intellecta et prius non. Contra illo modo
+      pos<lb ed="#L" n="99" break="no"/>sent variari realiter. quia actus intelligendi realiter
+      distin<lb ed="#L" n="100" break="no"/>cti possunt ad ipsos terminari. et tamen propter hoc non di 
+      <lb ed="#L" n="101"/>cerentur distingui realiter
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e992">
+      ⁋ Preterea nihil distinguitur 
+      <lb ed="#L" n="102"/>realiter ab aliquo nisi sit res et non ratio vel saltem alte 
+      <lb ed="#L" n="103"/>rum distinctorum debet esse res. ergo nihil distinguitur ab 
+      <lb ed="#L" n="104"/>aliquo secundum rationem. nisi sit ratio vel alterum sit ratio. 
+      <lb ed="#L" n="105"/>ergo saltem alterum attributorum erit ratio. et per consequens illud  
+      <lb ed="#L" n="106"/>non est realiter divina essentia. Confirmatur. quia nihil
+      re<lb ed="#L" n="107" break="no"/>ale est idem sibiipsi vel alteri rei secundum rationem. quia nihil 
+      <lb ed="#L" n="108"/>est dictum quod homo et asinus sunt idem secundum rationem et non rea 
+      <lb ed="#L" n="109"/>itur. vel quod homo et homo sunt idem secundum rationem. ergo eodem 
+      <lb ed="#L" n="110"/>modo nihil reale est distinctum secundum rationem ab aliquo 
+      <!--172.xml-->
+      <pb ed="#L" n="85-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>reali. consequentia est plana. quia quicqud est idem secundum rationem 
+      <lb ed="#L" n="2"/>potest esse distinctum secundum rationem. et econuerso. Assum 
+      <lb ed="#L" n="3"/>ptum patet. quia sicut nullum ens rationis est idem realiter 
+      <lb ed="#L" n="4"/>cuicumque enti rationis. ita nihil reale potest esse idem 
+      <lb ed="#L" n="5"/>secundum rationem cuicumque enti reali.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1031">
+      ⁋ Confirmatur. quia 
+      <lb ed="#L" n="6"/>sicut ens rationis se habet ad esse idem vel distinctum 
+      <lb ed="#L" n="7"/>realiter. ita ens reale se habet ad esse idem vel distinctum 
+      <lb ed="#L" n="8"/>secundum rationem. ergo sicut nullum ens rationis est idem vel
+      di<lb ed="#L" n="9" break="no"/>stinctum realiter a quocumque ente rationis. ita nihil re 
+      <lb ed="#L" n="10"/>ale est idem vel distinctum secundum rationem a quocumque re 
+      <lb ed="#L" n="11"/>ali. ergo essentia diuina nec est eadem nec distin 
+      <lb ed="#L" n="12"/>cta secundum rationem a quocumque reali. et per consequens a 
+      <lb ed="#L" n="13"/>nullo quod est realiter ipsa diuina essentia. Et 
+      <lb ed="#L" n="14"/>eodem modo sapientia quae realiter deus est non distinguitur 
+      <lb ed="#L" n="15"/>secundum rationem a bonitate quae deus est.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1055">
+      ⁋ Et ideo dico quod 
+      <lb ed="#L" n="16"/>attributa diuina quae sunt plura. non sunt realiter 
+      <lb ed="#L" n="17"/>essentia diuina. Sed attributa quae sunt conceptus 
+      <lb ed="#L" n="18"/>si conceptus sint tantum entia rationis. tunc illa
+      attribu<lb ed="#L" n="19" break="no"/>ta distinguntur inter se sola ratione. quia sunt plura 
+      <lb ed="#L" n="20"/>entia rationis. sicut plura entia realia distinguntur rea 
+      <lb ed="#L" n="21"/>liter. sed ab essentia diuina distinguuntur sicut entia 
+      <lb ed="#L" n="22"/>rationis ab ente reali. et ideo non sunt realiter nec forma 
+      <lb ed="#L" n="23"/>liter ipsa essentia diuina. praedicantur tamen vere de ipsa 
+      <lb ed="#L" n="24"/>essentia diuina. quia pro ipsa vere supponunt. Si 
+      <lb ed="#L" n="25"/>autem conceptus sint aliqua entia. sicut aliqui ponunt 
+      <lb ed="#L" n="26"/>quod sint quedam qualitates mentis. tunc attributa
+      di<lb ed="#L" n="27" break="no"/>stinguntur re. et inter se. et ab essentia diuina. quae tamen 
+      <lb ed="#L" n="28"/>vere praedicantur de ipsa essentia diuina. quia pro ipsa 
+      <lb ed="#L" n="29"/>vere supponunt. sicut voces vere praedicantur de 
+      <lb ed="#L" n="30"/>aliis a quibus distinguntur realiter. Et esset quantum 
+      <lb ed="#L" n="31"/>ad hoc dicendum per omnia eodem modo de conceptibus e 
+      <lb ed="#L" n="32"/>de vocibet. Si aut attributa diffienr quaidam nomina
+      ar<lb ed="#L" n="33" break="no"/>tributalia. tunc distinguntur realiter inter se et ab 
+      <lb ed="#L" n="34"/>essentia. Si queritur per quid distinguntur. Respon 
+      <lb ed="#L" n="35"/>deo. quod siue sint entia rationis siue realia seipsis sue 
+      <lb ed="#L" n="36"/>maliter distinguntur. causaliter autem distinguntur in 
+      <lb ed="#L" n="37"/>illud a quo causantur illo modo quo nata sunt cau 
+      <lb ed="#L" n="38"/>sari
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1108">
+      ⁋ Et ex hoc patet quod non est bene dictum. quod
+      attri<lb ed="#L" n="39" break="no"/>buta distinguntur per respectus rationis. Tum quia sicut 
+      <lb ed="#L" n="40"/>alias patebit. tales respectus rationis non sunt po 
+      <lb ed="#L" n="41"/>nendi. tum quia si ponerentur non distinguerent ipsa at 
+      <lb ed="#L" n="42"/>tributa. quia essent quadam totaliter accidentalia attri 
+      <lb ed="#L" n="43"/>butis. et nullo modo de essentia attributorum. et per 
+      <lb ed="#L" n="44"/>consequens. nec per illos distinguntur formaliter. quia essent 
+      <lb ed="#L" n="45"/>quadam extrinseca. nec etiam causaliter. quia non sunt causae attri 
+      <lb ed="#L" n="46"/>butorum.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1128">
+      ⁋ Secundo patet. quia non est bene dictum quod attri 
+      <lb ed="#L" n="47"/>buta distinguntur. quia intellectus non potest totaliter di 
+      <lb ed="#L" n="48"/>uinam essentiam apprehendere. et ideo particulatim eam
+      apprae<lb ed="#L" n="49" break="no"/>pendit. quia diuina essentia non est sic particulati ap 
+      <lb ed="#L" n="50"/>prehensibilis sed vel totaliter appreheditur vel
+      ni<lb ed="#L" n="51" break="no"/>bil. Nec potest apprehendi sub vna ratione reali quae sit 
+      <lb ed="#L" n="52"/>realiter deus et non sub alia. sed praecise apprehenduntur quaee 
+      <lb ed="#L" n="53"/>dam praedicabilia de diuina essentia quae non particulant 
+      <lb ed="#L" n="54"/>nec realiter sunt ipsa diuina essentia. sed propter illa
+      ap<lb ed="#L" n="55" break="no"/>prehensa dicitur diuina essentia apprehendi non imme 
+      <!--172.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 85-r -->
+               <lb ed="#L" n="56"/>diate sed quasi mediate. Uel secundum aliam opinionem ipsa 
+      <lb ed="#L" n="57"/>attributa sunt quadam intentiones communes deo at aliis. 
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1161">
+               <lb ed="#L" n="58"/>⁋ Tertio patet. quod non est bene dictum quod attributa 
+      <lb ed="#L" n="59"/>distinguntur per connotata. Tum quia non omnia
+      attribu<lb ed="#L" n="60" break="no"/>ta sunt connotatiua. sicut patebit in. q. de vniuoca 
+      <lb ed="#L" n="61"/>tione entis. Tum quia attributa connotatiua non
+      di<lb ed="#L" n="62" break="no"/>stinguntur per connotata. quia illa connotata non sunt 
+      <lb ed="#L" n="63"/>nisi quadam significata per ipsa connotativa. Sed nunc 
+      <lb ed="#L" n="64"/>est ita. quod signa non distinguntur per signata sua. quoa 
+      <lb ed="#L" n="65"/>siue significent siue non. semper equaliter remanent di 
+      <lb ed="#L" n="66"/>stincta. tanta enim et equalis distinctio esset inter hanc 
+      <lb ed="#L" n="67"/>vocem homo: et hanc vocem animal. supposito quod nihil si 
+      <lb ed="#L" n="68"/>gnificarent vel quod significarent idem quod substantia 
+      <lb ed="#L" n="69"/>et accidens quanta est modo. Et ita non est bene dictum 
+      <lb ed="#L" n="70"/>quod distinguuntur per fua significata. sed seipsis
+      distin<lb ed="#L" n="71" break="no"/>guuntur. eodem modo est de connotatiuis siue sint 
+      <lb ed="#L" n="72"/>conceptus siue voces quod non distinguuntur per sua con 
+      <lb ed="#L" n="73"/>notata. quia supposito quod non connotarent equaliter
+      di<lb ed="#L" n="74" break="no"/>stinguerentur. sicut si connotarent. Ista opinio con 
+      <lb ed="#L" n="75"/>cordat cum dictis tam antiquorum quam modernorum 
+      <lb ed="#L" n="76"/>quamuis eam negent in diuersis locis. Ipsi enim dicunt 
+      <lb ed="#L" n="77"/>in diuersis locis quod talia diuersa ratione quae tamen sunt 
+      <lb ed="#L" n="78"/>vna res distinguuntur. quia vnum dicit aliquid in
+      re<lb ed="#L" n="79" break="no"/>cto et aliud in obliquo. ita quod important diuersa 
+      <lb ed="#L" n="80"/>in obliquo. et tamen idem inrecto. Et illo modo possunt omnia 
+      <lb ed="#L" n="81"/>distingui. et similiter ponunt aliqua quod attributa
+      distin<lb ed="#L" n="82" break="no"/>stinguuntur. quia sapientia vel iustitia aliquid connotat in 
+      <lb ed="#L" n="83"/>obliquo. quod aliud attributum non connotat. sed conno 
+      <lb ed="#L" n="84"/>tat aliquid aliud. Ista autem non possunt verificari de 
+      <lb ed="#L" n="85"/>aliquo quod est divina essentia. quia ipsa non importat 
+      <lb ed="#L" n="86"/>aliquid in obliquo vel in recto sed magis importatur 
+      <lb ed="#L" n="87"/>Sed nec significat in recto vel in obliquo se magis 
+      <lb ed="#L" n="88"/>significatur. Eodem mododo iustitia quae est ipsa divina essen 
+      <lb ed="#L" n="89"/>tia. ipsa non connotat. quia rei ex non est connotare nisi 
+      <lb ed="#L" n="90"/>forte ex institutione. ergo est aliquid aliud a diuina 
+      <lb ed="#L" n="91"/>essentia. et a diuina sapientia. vel a diuina
+      boni<lb ed="#L" n="92" break="no"/>tate quod vocatur attributum importans vel
+      si<lb ed="#L" n="93" break="no"/>gnificans vel connotans aliquid aliud. et illa 
+      <lb ed="#L" n="94"/>sic importantia vel significantia vel connotan 
+      <lb ed="#L" n="95"/>tia que ex hoc ipso non sunt diuina essentia voce 
+      <lb ed="#L" n="96"/>attributa.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1248">
+      ⁋ Ad primam rationem pro primo modo 
+      <lb ed="#L" n="97"/>ponendi dico quod illud quod est vnum simplicissimum 
+      <lb ed="#L" n="98"/>secundum se potest considerari sub diuersis rationibus 
+      <lb ed="#L" n="99"/>quamuis iste rationes non sint respectiue vel conno 
+      <lb ed="#L" n="100"/>tatiue. sicut sunt ratio principii et finis que con 
+      <lb ed="#L" n="101"/>ueniunt puncto et dextrum et sinistrum que
+      conue<lb ed="#L" n="102" break="no"/>niunt columne. quia possunt esse quidam conceptus 
+      <lb ed="#L" n="103"/>communes praedicabiles in quid de illo vno
+      sim<lb ed="#L" n="104" break="no"/>plicissimo Si tamen intelligeret illa opinio quod 
+      <lb ed="#L" n="105"/>non essent aliqua distincta realiter ad quae diuina 
+      <lb ed="#L" n="106"/>essentia posset comparari. vel quibus et diuine 
+      <lb ed="#L" n="107"/>essentie possent esse aliqua communia. nullo
+      mo<lb ed="#L" n="108" break="no"/>do possent attributa distingui et esse attributam 
+      <lb ed="#L" n="109"/>nec seipsis nec quibuscumque aliis. sic concedo. quia 
+      <lb ed="#L" n="110"/>sicut dictum est alias. a re simplici non possunt for 
+      <!--173.xml-->
+      <pb ed="#L" n="85-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mari diuersi conceptus simplices et proprii
+      praedica<lb ed="#L" n="2" break="no"/>biles in quid. Per idem ad aliud dico quod ista
+      disti<lb ed="#L" n="3" break="no"/>ctio attributorum proprie loquendo et de virtute sermdmo 
+      <lb ed="#L" n="4"/>nis. accipitur ex parte ipsorum attributorum absolute 
+      <lb ed="#L" n="5"/>et secundum se. nec ex hoc sequitur quod distinguuntur realiter 
+      <lb ed="#L" n="6"/>qui non sunt realiter in deo. et ita ex distinctione illorum 
+      <lb ed="#L" n="7"/>nulla sequitur distinctio realis in deo. concedo tamen 
+      <lb ed="#L" n="8"/>quod si non essent aliqua distincta realiter vel in deo vel 
+      <lb ed="#L" n="9"/>extra non possent attributa dici distincta. Sed 
+      <lb ed="#L" n="10"/>si essent et importarent aliquid quod est realiter divina
+      essen<lb ed="#L" n="11" break="no"/>tia essent pure svnonima. Et ita concedo quod omnia 
+      <lb ed="#L" n="12"/>attributa. vel connotant aliqua distincta realiter. vel 
+      <lb ed="#L" n="13"/>sunt communia aliquibus distinctis realiter.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1316">
+      ⁋ Ad tertium 
+      <lb ed="#L" n="14"/>concedo quod sicut ratio generis et differentie non possunt 
+      <lb ed="#L" n="15"/>distingui nisi essent diuerse res. quae tamen rationes non 
+      <lb ed="#L" n="16"/>dicunt respectus ad illas. ita attributa non
+      disti<lb ed="#L" n="17" break="no"/>guerentur et manerent attributa distincta nisi ali 
+      <lb ed="#L" n="18"/>que res distuinicte importarentur. non tamen oportet quod im 
+      <lb ed="#L" n="19"/>portent respectus ad res illas.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1332">
+      ⁋ Sicunt animal non 
+      <lb ed="#L" n="20"/>importat respectum ad hominem nec ad asinum. quam 
+      <lb ed="#L" n="21"/>uis: importat tam asinum quam hominem.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1340">
+      ⁋ Ad quartum 
+      <lb ed="#L" n="22"/>dico sicut alias patebit. quod ydee non distinguuntur 
+      <lb ed="#L" n="23"/>in deo sicut attributa. quia ydee sunt ipse res
+      pro<lb ed="#L" n="24" break="no"/>ducibiles a deo nec praedicantur de deo sicut ipsa
+      ar<lb ed="#L" n="25" break="no"/>tributa vere de deo praedicantur.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1351">
+      ⁋ Ad primam rationem 
+      <lb ed="#L" n="26"/>alterius modi ponendi dico quod ipsa sapientia non que 
+      <lb ed="#L" n="27"/>est attributum. sed importata per attributum. vere 
+      <lb ed="#L" n="28"/>et realiter sine omni comparatione ad extra sine omni opera 
+      <lb ed="#L" n="29"/>tione intellectus praiuia est ipse deus. Sapientia tamen est 
+      <lb ed="#L" n="30"/>est attributum non est realiter in deo et illa quae est attri 
+      <lb ed="#L" n="31"/>butum non posset esse. nisi esset aliqua alia res distin 
+      <lb ed="#L" n="32"/>cta realiter. Supposito tamen quod illud attributum
+      sa<lb ed="#L" n="33" break="no"/>pientia nec esset nec esse posset. nihilominus deus 
+      <lb ed="#L" n="34"/>eset vere sapiens. et eadem sapientia quae nunc est sapiens. 
+      <lb ed="#L" n="35"/>Ista tamen propositio quam modo formamus. scilicet deus est
+      sapi<lb ed="#L" n="36" break="no"/>ens non esset vera si illa propositio in qua praedicatur illa sa 
+      <lb ed="#L" n="37"/>pientia que deus est illa esset tunc vera sicut nunc. sicut 
+      <lb ed="#L" n="38"/>supposito per impossibile. quod nullum animal esset
+      possi<lb ed="#L" n="39" break="no"/>bile nec videretur etiam a divino intellectu nisi solus 
+      <lb ed="#L" n="40"/>homo. hoc posito illa realiter esset tunc homo animal sicut nunc est 
+      <lb ed="#L" n="41"/>qui natura hominis in hoc in nullo variatur. et tamen illa 
+      <lb ed="#L" n="42"/>propositio homo est animal in qua praedicaretur genus de specie non 
+      <lb ed="#L" n="43"/>esset vera. quia tunc animal non esset genus ad hominem. Si tamen 
+      <lb ed="#L" n="44"/>praedicaretur illud animal quod est homo de facto illa tunc esset 
+      <lb ed="#L" n="45"/>ita vera sicut nunc est. sed esset alia propositio propter alietatem 
+      <lb ed="#L" n="46"/>termini. quia in vna praedicatur vnum communius in alia minus 
+      <lb ed="#L" n="47"/>commune. et ideo dico quod deus non est sapiens. quia est causa sapientie 
+      <lb ed="#L" n="48"/>create. nec quia continet eminenter sapientiam creatam. sed 
+      <lb ed="#L" n="49"/>seipso omni alio circumscripto simpliciter est sapiens et 
+      <lb ed="#L" n="50"/>ipsa sapientia. Ista tamen propositio deus est sapiens in quae praedicatur 
+      <lb ed="#L" n="51"/>vnum attributum non esset vera. nisi esset aliqua sapientia cre 
+      <lb ed="#L" n="52"/>ata vel in re vel in intellectu divino. et ita illud at 
+      <lb ed="#L" n="53"/>tributum non esset si non esset aliqua distinctio realis 
+      <lb ed="#L" n="54"/>possibilis. illa tamen sapientia quae deus est nihil minus esset. 
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1416">
+               <lb ed="#L" n="55"/>⁋ Ad secundum concedo quod sapientia est quid ita absolutum 
+      <!--173.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 85-v -->
+               <lb ed="#L" n="56"/>a respecum ad creaturas sicut ipsa deitas vel
+      essen<lb ed="#L" n="57" break="no"/>tia. et ideo non plus est sapiens vel minus ex re 
+      <lb ed="#L" n="58"/>spectu ad creaturas quam est de respectu ad crea 
+      <lb ed="#L" n="59"/>turas. Ista tamen attributa que non sunt deus 
+      <lb ed="#L" n="60"/>ipse. sed quedam vere praedicabilia de deo non essent ni 
+      <lb ed="#L" n="61"/>n essent aliqua creature vel in actu vel in potentia. 
+      <lb ed="#L" n="62"/>sicut si nulla esset creatura nec in re nec in
+      cogni<lb ed="#L" n="63" break="no"/>tione divina. deus vere esset ens. et tamen haec commune ens tunc 
+      <lb ed="#L" n="64"/>non esset. quia nihil est commune. nisi vel in re vel in
+      cogni<lb ed="#L" n="65" break="no"/>xione divina sint aliqua plura quaebus sit commune.
+    </p>
+            <p xml:id="wo8uy7-d1e312-d1e1449">
+      ⁋ Ad ar 
+      <lb ed="#L" n="66"/>gumentum principale dico quod intellectus realiter est 
+      <lb ed="#L" n="67"/>deus et similiter voluntas realiter est deus. quia in istis de vir 
+      <lb ed="#L" n="68"/>tute sermonis. intellectus et voluntas non possunt habere 
+      <lb ed="#L" n="69"/>nisi supponem personalem. sed quando accipitur intellectus est 
+      <lb ed="#L" n="70"/>voluntas vt sunt attributa. dico quod illa est distin 
+      <lb ed="#L" n="71"/>guenda. eo quod intellectus et voluntas possunt habere
+      suppo<lb ed="#L" n="72" break="no"/>sitionem personalem vel simplicem vel materiale. Se 
+      <lb ed="#L" n="73"/>personalem. sic est simpliciter falsa. quia nullus intellectus nec 
+      <lb ed="#L" n="74"/>diuinus nec creatus est attributum. sed intellectus divinus 
+      <lb ed="#L" n="75"/>est omnibus modois ipsa essentia divina nec plus
+      distini<lb ed="#L" n="76" break="no"/>ctus ab essentia quam essentia ab essentia. Similiter quaelibet 
+      <lb ed="#L" n="77"/>intellectus creatus realiter distinguitur ab essentia divina 
+      <lb ed="#L" n="78"/>nec sibi competere potest. secundo modo et tertio ista est vera 
+      <lb ed="#L" n="79"/>intellectus et voluntas sunt attributa. quia tunc fit supe 
+      <lb ed="#L" n="80"/>positio pro ipsis conceptibus vel nominibus et tam conceptus 
+      <lb ed="#L" n="81"/>quam nomina iunt attributa. quia de deo praedicabiles eit 
+      <lb ed="#L" n="82"/>praedicabilia de omnibus personis coniunctim et diuisim. Et 
+      <lb ed="#L" n="83"/>si eodem modo supponerent in ista propositione intellectus 
+      <lb ed="#L" n="84"/>et voluntas sunt realiter divina essentia scilicet si supponerent 
+      <lb ed="#L" n="85"/>simpliciter vel materialiter illa esset simpliciter falsa. quia nec 
+      <lb ed="#L" n="86"/>illi conceptus nec illa nomina sunt realiter divina essentia 
+      <lb ed="#L" n="87"/>quamuis supponant pro ea.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

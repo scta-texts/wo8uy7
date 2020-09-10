@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e773"><!-- l1d8q7 -->
+            <head xml:id="wo8uy7-d1e773-Hd1e108">Quaestio 7</head>
+            <p xml:id="wo8uy7-d1e773-d1e111">
+      Questio. vii. 
+      <lb ed="#L" n="18"/>Secundo 
+      princi<lb ed="#L" n="19" break="no"/>paliter quero de
+      immutabilita<lb ed="#L" n="20" break="no"/>te dei. Utrum solus deus sit
+      immu<lb ed="#L" n="21" break="no"/>tabilis.
+    </p>
+            <p xml:id="wo8uy7-d1e773-d1e122">
+      ⁋ Quod non videtur primo quia 
+      <lb ed="#L" n="22"/>deus est mutabilis. ergo non solus deus est immi 
+      <lb ed="#L" n="23"/>tabilis. antecedens patet. quia omne quod est in aliquo loco in quo 
+      <lb ed="#L" n="24"/>prius non fuit est mutabile secundum locum. deus in prin 
+      <lb ed="#L" n="25"/>cipio mundi fuit in aliquo loco in quo prius no 
+      <lb ed="#L" n="26"/>fuit. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e773-d1e135">
+      ⁋ Ad oppositum est magister in
+      litte<lb ed="#L" n="27" break="no"/>ra.
+    </p>
+            <p xml:id="wo8uy7-d1e773-d1e140">
+      ⁋ Difficultates istius. q. habet locum versus 
+      <lb ed="#L" n="28"/>fine primi libri: et in principio secundi. ideo pertranseo 
+      <lb ed="#L" n="29"/>breuitur circa eam. Et dico quod mutatio dupliciter accitur. 
+      <lb ed="#L" n="30"/>scilicet stricte et large. Targe et improprie dicitur aliquid mu 
+      <lb ed="#L" n="31"/>tari quod habet esse post non esse vel econuerso. et 
+      <lb ed="#L" n="32"/>ista mutatio vocatur a damasceno versio. Aliter 
+      <lb ed="#L" n="33"/>accipitur mutari vel mutatio stricte. et hoc ad  
+      <lb ed="#L" n="34"/>huc dupliciter. vel stricte vel strictissime. Pri 
+      <lb ed="#L" n="35"/>mo modo dicitur aliquid mutari. quando recipit aliquid quod 
+      <lb ed="#L" n="36"/>prius non habuit. vel non habet aliquid quod prius 
+      <lb ed="#L" n="37"/>habuit et isto modo si materia crearetur sub forma 
+      <lb ed="#L" n="38"/>ipsa materia dicitur mutari. quia modo est vere sub
+      for<lb ed="#L" n="39" break="no"/>ma. et prius non fuit sub ea. Similiter si totum
+      composi<lb ed="#L" n="40" break="no"/>tum annihilaretur ipsa materia diceretur mutari. non 
+      <lb ed="#L" n="41"/>tantum. quia non est postquam prius fuit sed etiam quia non habet
+      for<lb ed="#L" n="42" break="no"/>mam quam prius habuit. Secundo modo dicitur aliquid
+      muta<lb ed="#L" n="43" break="no"/>ri quando aliquid manens secundum suam essentiam habet aliquid 
+      <lb ed="#L" n="44"/>in se informans ipsum quod prius non habuit. vel eco 
+      <lb ed="#L" n="45"/>uerso. ita quod subiectum manens prius est sub forma 
+      <lb ed="#L" n="46"/>et postea sub priuatione vel econuerso.
+    </p>
+            <p xml:id="wo8uy7-d1e773-d1e185">
+      ⁋ Ex hiis 
+      <lb ed="#L" n="47"/>ad. q. dico quod deus est immutabilis primo modo. quia est ne 
+      <lb ed="#L" n="48"/>cesse esse. si enim non esset necesse esse: necessario est 
+      <lb ed="#L" n="49"/>set aliquid prius eo quod posset facere ipsum esse post non 
+      <lb ed="#L" n="50"/>esse. et per consequens ipsum non esset deus. Similiter quod sit immuta 
+      <lb ed="#L" n="51"/>bilis secundo modo patet ex hoc quod est immutabilis primo 
+      <lb ed="#L" n="52"/>modo. Similiter quod sit immutabilis tertio modo patet. quia ens 
+      <lb ed="#L" n="53"/>simpliciter infinitum non potest perfici. sed deus est ens 
+      <lb ed="#L" n="54"/>infinitum simplicitur. siue hoc possit ratione natura 
+      <!--334.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 166-r -->
+               <lb ed="#L" n="55"/>li probari siue non. ergo non potest perfici quocumque
+      acciden<lb ed="#L" n="56" break="no"/>te. et per consequens nullo modo mutari a prieuatione ad for 
+      <lb ed="#L" n="57"/>mam nec econuerso et sic patet affirmatiua exponens 
+      <lb ed="#L" n="58"/>praedicte exclusiue.
+    </p>
+            <p xml:id="wo8uy7-d1e773-d1e220">
+      ⁋ Sed de negatiua exponei 
+      <lb ed="#L" n="59"/>te est magis dubium. Et dico quod nihil aliud a deo 
+      <lb ed="#L" n="60"/>est immutabile primo modo: quamuis hoc non possit ratione 
+      <lb ed="#L" n="61"/>naturali probari. sicut patebit versus finem primi. 
+      <lb ed="#L" n="62"/>sed hoc est sola fide tenendum. quia deus in principio 
+      <lb ed="#L" n="63"/>creationis mundi omnia produxit: ita quod nihil ante 
+      <lb ed="#L" n="64"/>fuit in rerum natura praeter deum. Sed loquendo
+      se<lb ed="#L" n="65" break="no"/>cundo modo et tertio modo de mutabili et immutabili 
+      <lb ed="#L" n="66"/>Dico quod aliqua creatura est immutabilis. quia
+      ali<lb ed="#L" n="67" break="no"/>qua creatura est quae nullius potest esse receptiua. sed 
+      <lb ed="#L" n="68"/>tantum potest recipi in aliquo. ergo illa neutro illorum mo 
+      <lb ed="#L" n="69"/>dorum est mutabilis. antecedens patet. quia aliter esset proces 
+      <lb ed="#L" n="70"/>sus in infinitum. Nam accipio istam creaturam puta 
+      <lb ed="#L" n="71"/>a. si. a. potest mutari. ergo poest aliquid alterius rationis re 
+      <lb ed="#L" n="72"/>cipere. et quero de illo sicut de priori si potest
+      reci<lb ed="#L" n="73" break="no"/>pere aliquid vel non. si non habetur propositum si 
+      <lb ed="#L" n="74"/>sic. quero de illo alio recepto sicut de priori. et 
+      <lb ed="#L" n="75"/>ita vel erit processus in infinitum vel stabitur ad
+      ali<lb ed="#L" n="76" break="no"/>quid quod nihil potest recipere. nec per consequens potest
+      mu<lb ed="#L" n="77" break="no"/>tari secundo modo vel tertio modo.
+    </p>
+            <p xml:id="wo8uy7-d1e773-d1e264">
+      ⁋ Ad
+      argumen<lb ed="#L" n="78" break="no"/>tum primum dico quod deus est in loco in quo prius non 
+      <lb ed="#L" n="79"/>fuit per nouam productionem loci. et ita deus non
+      muta<lb ed="#L" n="80" break="no"/>tur. sed illa maior generaliter accepta est falsa.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

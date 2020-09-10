@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="76-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e282"><!-- l1d1q6 -->
+            <head xml:id="wo8uy7-d1e282-Hd1e108">Quaestio 6</head>
+            <p xml:id="wo8uy7-d1e282-d1e111">
+               <lb ed="#L" n="16"/>⁋ Questio sexta distinctionis prime. 
+      <lb ed="#L" n="17"/>Sexto quero utru 
+      <lb ed="#L" n="18"/>voluntas contingenter et libere fruatur
+      fi<lb ed="#L" n="19" break="no"/>ne vltimo.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e122">
+      ⁋ Quod non. quia voluntas 
+      natu<lb ed="#L" n="20" break="no"/>raliter inclinatur ad volendum finem vlti 
+      <lb ed="#L" n="21"/>mum. sicut vnumquoque naliter inclinatur in suam perfectionem 
+      <lb ed="#L" n="22"/>ergo non potest in oppositum. quia in quocumque fuerit oppo 
+      <lb ed="#L" n="23"/>situm illius ad quod namliter inclinatur violentatur. sed volunta 
+      <lb ed="#L" n="24"/>non potest violetari. ergo etc. Ad oppositum. voluntas est 
+      <lb ed="#L" n="25"/>receptiva volitionis et nolitionis respecum cuiuscumque 
+      <lb ed="#L" n="26"/>obiecti. sed nullius est receptiua nisi cuius est actiua. ergo 
+      <lb ed="#L" n="27"/>actiue potest in volitionem respecum cuiuscumque obiect 
+      <lb ed="#L" n="28"/>et etiam in nolitionem. ergo libere et contingenter.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e144">
+      ⁋ Ad 
+      <lb ed="#L" n="29"/>quionem dicitur quod voluntas non neccessario fruitur fine vltimo 
+      <lb ed="#L" n="30"/>poiseno in vniversali Secundo quod nec fine vltimo ostenso in par 
+      <lb ed="#L" n="31"/>ticulari sed obscure. Tertio quod nec fine vltimo onso 
+      <lb ed="#L" n="32"/>clare in particulari.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e155">
+      ⁋ Primum probatur primo sic.
+      Ne<lb ed="#L" n="33" break="no"/>cessitas namlis non stat cum libertate. quia nam et voluntas 
+      <lb ed="#L" n="34"/>sunt principia actiua habentia oppositum modum prin 
+      <lb ed="#L" n="35"/>cipiandi. ergo cum modo principiandi voluntatis non stat mo 
+      <lb ed="#L" n="36"/>dus principiandi nature. sed voluntas libere vult finem 
+      <lb ed="#L" n="37"/>ergo non potest neccesitate namli velle finem. nec per consequens aliquod 
+      <lb ed="#L" n="38"/>modo neccessaria. Assumptum scilicet quod voluntas libere velit 
+      <lb ed="#L" n="39"/>finem probatur. quia eadem est potentia quae vult finem et illud 
+      <lb ed="#L" n="40"/>quod est ad finem. ergo eundem modum agendi habet. quia diuer 
+      <lb ed="#L" n="41"/>si modi operandi arguunt diuersas potentias.
+      li<lb ed="#L" n="42" break="no"/>bere autem operatur circa ea quae sunt ad finem. ergo circa
+      fi<lb ed="#L" n="43" break="no"/>nem.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e182">
+      ⁋ Preterea secundum beatum augustinum id est retracta. 
+      <lb ed="#L" n="44"/>c. ix. nihil est tam in ptante voluntatis quam ipsa voluntas 
+      <lb ed="#L" n="45"/>quod non intelligitur nisi quantum ad actu elicitum si ergo 
+      <lb ed="#L" n="46"/>actus voluntatis sit in ptante voluntatis mediante 
+      <lb ed="#L" n="47"/>actu alter. s potentie. multofortius est in ptante
+      volun<lb ed="#L" n="48" break="no"/>tatis immediate. sed in ptante voluntatis est vell 
+      <lb ed="#L" n="49"/>vel non velle finem mediante actu intellectus. quia in 
+      <lb ed="#L" n="50"/>ptante voluntatis est auertere intellectum a conside 
+      <lb ed="#L" n="51"/>ratione finis. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e202">
+      ⁋ Confirmatur ista ratio. quia 
+      <lb ed="#L" n="52"/>illud quod non impeditum necessitatur ad agendi 
+      <lb ed="#L" n="53"/>de necessitate remouet probibens actionem si potest 
+      <lb ed="#L" n="54"/>ergo si voluntas non impedita. necessitata ex na 
+      <!--154.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 76-r -->
+               <lb ed="#L" n="55"/>tura sua ad agendum de necessitate. remouet
+      ne<lb ed="#L" n="56" break="no"/>cessario omne prohibens illam volitionem si potest.
+      prohi<lb ed="#L" n="57" break="no"/>bens autem hanc volitionem est non consideratio finis. 
+      <lb ed="#L" n="58"/>et hanc potest voluntas remouere faciendo intellectum 
+      <lb ed="#L" n="59"/>stare in consideratione finis. ergo voluntas de necessi 
+      <lb ed="#L" n="60"/>tate faciet intellectum stare in consideratione finis 
+      <lb ed="#L" n="61"/>haior patet. quia quod ex se necessitatur ad agendum 
+      <lb ed="#L" n="62"/>numquam prohibetur: nisi per aliquod repugnans vincens vir 
+      <lb ed="#L" n="63"/>tute eius actiuam. sic patet de graui. prohibetur enim a 
+      <lb ed="#L" n="64"/>descensu propter aliquid repugnans vincens eius in 
+      <lb ed="#L" n="65"/>clinationem. et pari necessitate remouet impedimen 
+      <lb ed="#L" n="66"/>tum si potest.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e243">
+      ⁋ Item arguitur secundo sic. omne agens de ne 
+      <lb ed="#L" n="67"/>cessitate. agit secundum vltimum potentie sue. quia sicut non 
+      <lb ed="#L" n="68"/>est in ptante eius actio. ita nec modus agendi scilicet 
+      <lb ed="#L" n="69"/>intense vel non intense agere. ergo voluntas de necess 
+      <lb ed="#L" n="70"/>tate volet semper finem intensissime. et quantum potest cuius 
+      <lb ed="#L" n="71"/>oppositum experimur.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e256">
+      ⁋ Tertio sic. potentia libera 
+      <lb ed="#L" n="72"/>per participationem non magis tendit in obiectum
+      perfe<lb ed="#L" n="73" break="no"/>ctu quam in aliud obiectum. ergo nec potentia libera per 
+      <lb ed="#L" n="74"/>essentiam. Non est autem differentia inter finem volitum et alia 
+      <lb ed="#L" n="75"/>volita. nisi ex parte obiecti perfectioris. TAtecedens patet. 
+      <lb ed="#L" n="76"/>qui visus quae est potentia libera per participatione. quia 
+      <lb ed="#L" n="77"/>tinus actus eius subest imperio voluntatis. non 
+      <lb ed="#L" n="78"/>magis neccessario videt pulcrum quam minus pulerum. et ideo 
+      <lb ed="#L" n="79"/>ab vtroque equaliter auertit. et vtrumque eque
+      contingen<lb ed="#L" n="80" break="no"/>ter videt.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e278">
+      ⁋ Secundo quod dicitur quod non neccessario fruitur
+      si<lb ed="#L" n="81" break="no"/>ne in particulari obscure apprehenso. patet ex probatio 
+      <lb ed="#L" n="82"/>ne tertii.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e285">
+      ⁋ Tertium probatur scilicet quod voluntas etiam
+      ele<lb ed="#L" n="83" break="no"/>uata per caritatem non necessario fruitur vltio fine 
+      <lb ed="#L" n="84"/>clare viso
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e293">
+      ⁋ Primo sic. quando principium elicitiuum non 
+      <lb ed="#L" n="85"/>necessario elicit. habens illud principium non ne 
+      <lb ed="#L" n="86"/>cessario agit. sed principium elicitiuum eodem modo se 
+      <lb ed="#L" n="87"/>habens quo prius quando eliciebat contingenter actum 
+      <lb ed="#L" n="88"/>nullo modo elicit necessario. ergo nec agens habens 
+      <lb ed="#L" n="89"/>illud principium necessario aget. Uoluntas autem 
+      <lb ed="#L" n="90"/>habens eandem caritatem quam modo habet. contingeni 
+      <lb ed="#L" n="91"/>prius eliciebat actum fruendi. ergo modo non neccessari 
+      <lb ed="#L" n="92"/>elicit actum illum. cum nulla talis sit facta mutatio 
+      <lb ed="#L" n="93"/>ex parte eius. hoc patet in raptu pauli. si prius
+      ha<lb ed="#L" n="94" break="no"/>buit equalem caritate cum ea quam habuit in raptu il 
+      <lb ed="#L" n="95"/>lo. nulla erat mutatio ex parte voluntatis: nec prin 
+      <lb ed="#L" n="96"/>cipii elicitiui. nlla ergo necessitas eliciendi tunc ma 
+      <lb ed="#L" n="97"/>gis quam nunc. nec per consequens necessitas agend 
+      <lb ed="#L" n="98"/>Uel formatur sic ratio. necessitas agendi non potest esse 
+      <lb ed="#L" n="99"/>nisi per aliquid intrinsecum actio principio. Per hoc 
+      <lb ed="#L" n="100"/>autem quod intellectus modo videt obiectum. nihil nouum 
+      <lb ed="#L" n="101"/>est intrinsecum principio actio in fruitione. ergo nec 
+      <lb ed="#L" n="102"/>noua necessitas agendi. Maior probatur. alioqui 
+      <lb ed="#L" n="103"/>necessitas agendi non esset per rationem principii actiui 
+      <lb ed="#L" n="104"/>et ita per nichil. vel per principium extrinsecum. et per
+      con<lb ed="#L" n="105" break="no"/>sequens per illud esset agere. Minor patet. quia visio 
+      <lb ed="#L" n="106"/>vel non est causa fruitionis vel non principalis. sed
+      ne<lb ed="#L" n="107" break="no"/>cessitas agendi non est nisi per aliquid principio
+      acti<lb ed="#L" n="108" break="no"/>uo principali intrinsecum. Nam secundarium non dat acti 
+      <lb ed="#L" n="109"/>uitatem principali. sicut nec determinat ipsum ad agen¬ 
+      <!--155.xml-->
+      <pb ed="#L" n="76-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dum. sed econuerso principale agens ex se secundum modum 
+      <lb ed="#L" n="2"/>sui vtitur secundario. ita quod si nihil in principali exclu 
+      <lb ed="#L" n="3"/>dat contingentiam. tota actio erit contingens.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e363">
+      ⁋ Item 
+      <lb ed="#L" n="4"/>aut finis mouet. aut potentia mouet. Si fiuis 
+      <lb ed="#L" n="5"/>patet. quod non est necessitas. quia ille finis ad nullum 
+      <lb ed="#L" n="6"/>actum creatum neccessario mouet. Si voluntas. et illa 
+      <lb ed="#L" n="7"/>non habet differentiam ex parte obiecti nisi approximationem 
+      <lb ed="#L" n="8"/>maiorem vel minorem. tunc arguo. Diuersa
+      appro<lb ed="#L" n="9" break="no"/>ximatio passi ad agens non causat necessitatem: sed 
+      <lb ed="#L" n="10"/>ntum intensiorem actionem. sicut patet de calido
+      respe<lb ed="#L" n="11" break="no"/>ctu calefactibilium plus et minus approximatorum. 
+      <lb ed="#L" n="12"/>Diuersa autem praesentia obiecti. puta visi et non
+      vis<lb ed="#L" n="13" break="no"/>non videtur esse nisi diuersa approximatio eius cir 
+      <lb ed="#L" n="14"/>ca quod debet esse actus voluntatis ad voluntatem. ergo illud 
+      <lb ed="#L" n="15"/>non diuersificat neccesitatem: et non neccesitatem. sed tantum facit 
+      <lb ed="#L" n="16"/>intensiorem et minus intensum actum.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e394">
+      ⁋ Quuis conclusio 
+      <lb ed="#L" n="17"/>nes vt credo sint tenende. tamen rationes non videntur pro 
+      <lb ed="#L" n="18"/>bare sufficientur. Ideo arguo contra eas. Contra prim 
+      <lb ed="#L" n="19"/>mam cuius virtus stat in hoc quod eadem potentia non habet 
+      <lb ed="#L" n="20"/>diuersum modum principiandi. Arguo. quia ista
+      propo<lb ed="#L" n="21" break="no"/>sitio si intelligat quod eadem res operatiua indistincta 
+      <lb ed="#L" n="22"/>omni modo ex parte rei. non habet respectu distinctorum 
+      <lb ed="#L" n="23"/>distinctos modos principiandi. est simpliciter falsa 
+      <lb ed="#L" n="24"/>quia voluntas diuina neccessario est principium spirandi 
+      <lb ed="#L" n="25"/>spiritus sancti secundum istos. et ipsa eadem est principium cream 
+      <lb ed="#L" n="26"/>di creaturas contigentur.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e418">
+      ⁋ Itam dicerent illi de alia 
+      <lb ed="#L" n="27"/>opinione. quod eadem voluntas est principium
+      natura<lb ed="#L" n="28" break="no"/>le et neccessarium volendi finem vltimum. et eadem est prin 
+      <lb ed="#L" n="29"/>cipium contingens et liberum volendi ea quae sunt ad
+      fi<lb ed="#L" n="30" break="no"/>ne.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e429">
+      ⁋ Si dicatur. quod principiare cotigentur et neccessario 
+      <lb ed="#L" n="31"/>potest competere eidem respectu diuersorum. non autem prin 
+      <lb ed="#L" n="32"/>cipiare naturaliter et libere.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e436">
+      ⁋ hoc non valet. quia non 
+      <lb ed="#L" n="33"/>plus repugnant principiare naturaliter et libere di 
+      <lb ed="#L" n="34"/>uersa quam pricipiare neccessario et contingenter diuersa. 
+      <lb ed="#L" n="35"/>Similiter hoc dato habentur propositum quod non est inconueniens 
+      <lb ed="#L" n="36"/>quin voluntas neccessario feratur in finem. et tamen contingentur in 
+      <lb ed="#L" n="37"/>illud quod est ad finem. ita quod ex talibus modonis
+      principiam<lb ed="#L" n="38" break="no"/>di diuersis non potest oppositum probari. quamuis secundum 
+      <lb ed="#L" n="39"/>istos in vtrumque ferretur libere.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e455">
+      ⁋ Preterea. sicut
+      post<lb ed="#L" n="40" break="no"/>ea declarabit intellectus et voluntas nullo modo
+      di<lb ed="#L" n="41" break="no"/>stinguuntur ex parte rei. et tamen secundum istum intellectus 
+      <lb ed="#L" n="42"/>neccessario causat intellectionem. et contingentur et
+      li<lb ed="#L" n="43" break="no"/>bere voluntas causat volitionem.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e466">
+      ⁋ Preterea. quod non 
+      <lb ed="#L" n="44"/>tantum idem principium possit esse causa diuersorum specie 
+      <lb ed="#L" n="45"/>ita quod aliquorum sit causa naturalis et aliquorum
+      libe<lb ed="#L" n="46" break="no"/>ra. sed quod respectu eorundem specie potest esse causa natura 
+      <lb ed="#L" n="47"/>lis et libera videtur. quia voluntas secundum istum doctorem 
+      <lb ed="#L" n="48"/>contingentur et libere causat dilectionem suiipsius in 
+      <lb ed="#L" n="49"/>seipsa. et ipsa eadem voluntas naturaliter et neccessario 
+      <lb ed="#L" n="50"/>causat dilectionem suiipius in alia voluntate.
+      As<lb ed="#L" n="51" break="no"/>sumptum patet. quia secundum istum doctorem. obiectum est causa per 
+      <lb ed="#L" n="52"/>tialis: non tantum actus intelligendi: sed etiam actus volendi. 
+      <lb ed="#L" n="53"/>sed obiectum distinctum a voluntate modo non causat il 
+      <lb ed="#L" n="54"/>lum actum illius voluntatis contingentur et libere. quia tunc il 
+      <lb ed="#L" n="55"/>le actus esset in ptante sua. et per consequens posset non diligi 
+      <!--155.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 76-v -->
+               <lb ed="#L" n="56"/>ab illa voluntate secundum libitum suum. quod est manifesto 
+      <lb ed="#L" n="57"/>falsum. ergo necessario causatur ab ea. Si dicatur quod vo 
+      <lb ed="#L" n="58"/>luntas non causat volitionem in alia voluntate im 
+      <lb ed="#L" n="59"/>mediate. sed tantum mediante actu cognoscendi. hoc 
+      <lb ed="#L" n="60"/>non sufficit. quia non videtur de intentione istius
+      docto<lb ed="#L" n="61" break="no"/>ris quod actus intelligendi sit precise causa effecti 
+      <lb ed="#L" n="62"/>ia actus volendi. et cum aliquid aliud a voluntate 
+      <lb ed="#L" n="63"/>est causa actiua partialis actus volendi. ergo 
+      <lb ed="#L" n="64"/>illa causa partialis erit obiectum. similiter hoc dato. saltem 
+      <lb ed="#L" n="65"/>haber propositum quod voluntas est causa contingens et libera 
+      <lb ed="#L" n="66"/>actus diligendi seipsam. et quod eadem voluntas est causa 
+      <lb ed="#L" n="67"/>naturalis et neccessaria. vel actus volendi in alia
+      volun<lb ed="#L" n="68" break="no"/>tate: vel actus intelligendi vel speciei intelligibilis 
+      <lb ed="#L" n="69"/>si requiritur ante intellectionem. Et quodcumque istorum 
+      <lb ed="#L" n="70"/>detur. haber propositum quod idem respectu vnius potest esse 
+      <lb ed="#L" n="71"/>principium namle. et respectu alterius liberum. Si 
+      <lb ed="#L" n="72"/>dicatur quod obiectum non est causa effectiua proprie et per se 
+      <lb ed="#L" n="73"/>sed quodam spaciali modo causandi. Ista responsio est contra 
+      <lb ed="#L" n="74"/>principia istius doctoris qui probat quod obiectum est 
+      <lb ed="#L" n="75"/>partialis causa intellectionis per hoc quod non potest poni in 
+      <lb ed="#L" n="76"/>tellco sine obiecto. ergo videtur ponere quod obiectum 
+      <lb ed="#L" n="77"/>est proprie causa. Similiter eque faciliter posset poni quod
+      ca<lb ed="#L" n="78" break="no"/>lor non causat effectiue proprie. sed quodam speciali 
+      <lb ed="#L" n="79"/>modo causandi.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e553">
+      ⁋ Preterea secunda ratio non concludit. quia dice 
+      <lb ed="#L" n="80"/>rent leuitur ad beatum augustinum quod intelligit de acti 
+      <lb ed="#L" n="81"/>voluntatis respecium eorum que sunt ad fine. non autem 
+      <lb ed="#L" n="82"/>de actu volendi respecum finis.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e562">
+      ⁋ Preterea confirma 
+      <lb ed="#L" n="83"/>tio illa non videtur concludere. quia non est inconueniens 
+      <lb ed="#L" n="84"/>quod aliquid sit in ptante voluntatis mediante actu
+      ali<lb ed="#L" n="85" break="no"/>quo. et tamen quod immediate non sit i sua ptante. quin 
+      <lb ed="#L" n="86"/>si illud aliud ponatur neccessario tendat in illum actum 
+      <lb ed="#L" n="87"/>Assumptum patet. quia voluntate tendente in aliquod antecedens 
+      <lb ed="#L" n="88"/>neccessario tendit in consequens scitum esse consequens. ita quod stante 
+      <lb ed="#L" n="89"/>prima volitione et actu illo intellectus. voluntas
+      ne<lb ed="#L" n="90" break="no"/>cessitatur ad secundam. nec potest non elicere secundam ni 
+      <lb ed="#L" n="91"/>si destruat primam. Et ita dicerent alii. quod stante intel 
+      <lb ed="#L" n="92"/>lectione finis voluntas necessitatur ad volendum
+      fi<lb ed="#L" n="93" break="no"/>nem. ita quod non potest non velle finem nisi destruat
+      in<lb ed="#L" n="94" break="no"/>tellectionem finis. Si dicatur quod quamuis stante vna 
+      <lb ed="#L" n="95"/>volitione neccessario sequatur alia volitio. tamen haec non est 
+      <lb ed="#L" n="96"/>ossibile de intellectione. quia non est similis ordo
+      vo<lb ed="#L" n="97" break="no"/>litionis ad intellectiones seu intellectionis ad voli 
+      <lb ed="#L" n="98"/>tionem. qualis est vnius volitionis ad aliam.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e599">
+      ⁋ Contra. hoc 
+      <lb ed="#L" n="99"/>non sufficit. quia voluntas poterit sic disponi quod habet 
+      <lb ed="#L" n="100"/>aliquem actum in sua ptante. quod nulla fcaua variatione 
+      <lb ed="#L" n="101"/>praeuialilli actui. potest libere illum actum elicere vel non 
+      <lb ed="#L" n="102"/>elicere. et sola intellectione de nouo superueniente 
+      <lb ed="#L" n="103"/>voluntas neccessario eliciet illum actum. ergo non est incon 
+      <lb ed="#L" n="104"/>ueniens quod aliquis actus sit in ptante voluntatis
+      me<lb ed="#L" n="105" break="no"/>diante actu intellectus posito in esse cum ceteris 
+      <lb ed="#L" n="106"/>disponibus. et tamen propter intellectionem de nouo super 
+      <lb ed="#L" n="107"/>ienientem non sit simpliciter in ptante voluntatuis. Assum 
+      <lb ed="#L" n="108"/>pratum patet. quia ponatur quod aliquis velit efficacitur sanita 
+      <lb ed="#L" n="109"/>tem. sed ignoret an potio amara sit neccessario requi 
+      <lb ed="#L" n="110"/>sita ad sanitatem consequendam vel non. hoc posito 
+      <!--156.xml-->
+      <pb ed="#L" n="77-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ille poterit libere velle habere potionem amaram et 
+      <lb ed="#L" n="2"/>non velle. ipso autem incipiente credere quod nullo mo 
+      <lb ed="#L" n="3"/>poterit habere sanitatem sine potione amara. stante 
+      <lb ed="#L" n="4"/>illa credulitate et volitione efficaci priori sanitatis. 
+      <lb ed="#L" n="5"/>neccessario sequetur volitio potionis amare. et ita ne 
+      <lb ed="#L" n="6"/>cessario. sicut ad praesentiam ignis sequitur calor in
+      li<lb ed="#L" n="7" break="no"/>gno. Ex isto patet quod illa propositio. quod illud quod non impe 
+      <lb ed="#L" n="8"/>ditum necessitatur ad agendum de neccessitate
+      remo<lb ed="#L" n="9" break="no"/>uet prohibens actionem si potest. non est vniversaliter vera. quia 
+      <lb ed="#L" n="10"/>sicut declaratum est. voluntas habens certamen. qui 
+      <lb ed="#L" n="11"/>nullo modo potest consequi sanitatem sine potione 
+      <lb ed="#L" n="12"/>amara. et habens volitionem efficacem sanitatis. neces 
+      <lb ed="#L" n="13"/>sitatur ad volendum potionem amaram. ita quod illisstam 
+      <lb ed="#L" n="14"/>tibus non potest non velle potionem amaram. et tamen 
+      <lb ed="#L" n="15"/>non necessitatur ad amouendum omne prohibens. quia pro 
+      <lb ed="#L" n="16"/>hibens illam volitionem est nolitio sanitatis. et tamen 
+      <lb ed="#L" n="17"/>illam potest libere amouere vel non amouere Ido 
+      <lb ed="#L" n="18"/>dico quod illa propositio vera est de causa tonli. quals causa totalis potest esse 
+      <lb ed="#L" n="19"/>creatura. ita quod si aliqua creatura omni alia
+      creatu<lb ed="#L" n="20" break="no"/>ra circumscripta neccestatur ad agendum. reouet omne pro 
+      <lb ed="#L" n="21"/>hibens si potest. non autem est vera de causa partiali. ita quod vna 
+      <lb ed="#L" n="22"/>creatura conuenit cum alia ad causandum. quamuis
+      ali<lb ed="#L" n="23" break="no"/>quando sit proposito va. Per hoc patet ad probationem illius propositi 
+      <lb ed="#L" n="24"/>nis quando accipitur quod illud quod ex se necessitatur ad  
+      <lb ed="#L" n="25"/>agendum numquam prohibetur nisi per aliquod repugnans
+      vi<lb ed="#L" n="26" break="no"/>ces virtutem eius actiuam. ista propositio non est vera nisi de 
+      <lb ed="#L" n="27"/>causa totali. ita quod vna creatura sufficit sine alia. 
+      <lb ed="#L" n="28"/>sicut patet per exemplum de graui. Unde sicut causa partialis 
+      <lb ed="#L" n="29"/>impeditur per solam non assistentiam alterius causae partialis 
+      <lb ed="#L" n="30"/>ita aliquando causa vna partialis alia sibi assistente neccessario 
+      <lb ed="#L" n="31"/>causat. neccesitate tamen conditioata. videlibet si non velit
+      de<lb ed="#L" n="32" break="no"/>struere aliam causam concurrentem. et eadem amota aliquando 
+      <lb ed="#L" n="33"/>contingentur causat. Ex isto patet quod non tantum idem respectum 
+      <lb ed="#L" n="34"/>diuersorum potest habere diuersos mos causandi. sed idem 
+      <lb ed="#L" n="35"/>respecum eiusdem diuersis temporibus et aliter dispositum. po 
+      <lb ed="#L" n="36"/>test habere diuersos modos causandi. sicut voluntas
+      ca<lb ed="#L" n="37" break="no"/>rens volitione efficaci sanitatis. vel carens opinione 
+      <lb ed="#L" n="38"/>firma quae opinatur se non posse consequi sanitatem sine 
+      <lb ed="#L" n="39"/>potione amara. contingenter appetit potionem ama 
+      <lb ed="#L" n="40"/>ram. et tamen posita volitione efficaci sanitatis. et firma 
+      <lb ed="#L" n="41"/>opinione intellectus quod non potest aliter consequi sanitatem. non 
+      <lb ed="#L" n="42"/>simpliciter contingenter vult potionem amaram sed neccess 
+      <lb ed="#L" n="43"/>tali scilicet necessitate. quod non potest non velle nisi
+      ve<lb ed="#L" n="44" break="no"/>lit destruere vel volitione efficacem sanitatis. vel 
+      <lb ed="#L" n="45"/>illam opinionem intellectus
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e732">
+      ⁋ Sed ontra praedicta potest
+      in<lb ed="#L" n="46" break="no"/>stari sicut instant ist contrusioalios. quia impossibile est
+      extre<lb ed="#L" n="47" break="no"/>mum respicere aliud extremum quecumque neccessitate. quin 
+      <lb ed="#L" n="48"/>tanta neccesitate respiciat quodcumque neccessario requi 
+      <lb ed="#L" n="49"/>situm inter illa extrema. alioquin neccessarium
+      depende<lb ed="#L" n="50" break="no"/>ret neccessario a non neccessario. ergo qua neccesitate voluntas 
+      <lb ed="#L" n="51"/>tendit in potionem amaram. ea neccesstate tendit in 
+      <lb ed="#L" n="52"/>volitionem sanitatis. sine qua non tendit in potionem 
+      <lb ed="#L" n="53"/>amaram
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e753">
+      ⁋ Preterea. quicquid neccessario quiescit in aliquo 
+      <lb ed="#L" n="54"/>sibi praesente. neccessario tenet illud sibi praesens. si habet et 
+      <lb ed="#L" n="55"/>potest. ergo si voluntas neccessario tendit in potionem ama 
+      <!--156.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 77-r -->
+               <lb ed="#L" n="56"/>ram et quiescit in ea. necessario tenet eam si potest. 
+      <lb ed="#L" n="57"/>sed non sine volitione sanitatis. ergo neccessario tenet
+      vo<lb ed="#L" n="58" break="no"/>litionem sanitatis
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e773">
+      ⁋ Ad primum istorum dico quod aneden eft 
+      <lb ed="#L" n="59"/>verum quando illud extremum est causa vtriusque. et extremi. 
+      <lb ed="#L" n="60"/>et requisiti. et neccesitate absoluta respicit extremum 
+      <lb ed="#L" n="61"/>ita quod namliter non potest poni nisi ponatur illud aliud ex 
+      <lb ed="#L" n="62"/>tremum. quando autem non est causa vtriusque. tunc non est
+      proprie<lb ed="#L" n="63" break="no"/>extremum ita quod illud requisitum sit medium. vel si sit causa 
+      <lb ed="#L" n="64"/>vtriusque et potest simpliciter ex puris naturalibus potest 
+      <lb ed="#L" n="65"/>sine illo alio extremo. tunc non oporteret. Et ita 
+      <lb ed="#L" n="66"/>est in proposito quod voluntas est causa. et volitionis sani 
+      <lb ed="#L" n="67"/>tatis. et volitionis potionis amare. et ex puris natu 
+      <lb ed="#L" n="68"/>ralibus potest fieri sine vtraque. Et quando dicitur. neccessarium non 
+      <lb ed="#L" n="69"/>dependet a non neccessario. Dico quod neccessarium simpliciter 
+      <lb ed="#L" n="70"/>non potest dependere a non neccessario. sed illo modo nulla 
+      <lb ed="#L" n="71"/>creatura est neccessaria. nec aliquis effectus sic neccessario 
+      <lb ed="#L" n="72"/>dependet a quacumque causa. Non est tamen inconueniens 
+      <lb ed="#L" n="73"/>aliquem effectum neccessario elici ab aliqua causa. ita quod non 
+      <lb ed="#L" n="74"/>sit pro tunc simpliciter in sua ptante nisi mediante alio 
+      <lb ed="#L" n="75"/>non neccessario. quod scilicet est in sua ptante.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e812">
+      ⁋ Ad secundum
+      di<lb ed="#L" n="76" break="no"/>co quod quando aliquid neccessario tendit vel quaescit in aliquo 
+      <lb ed="#L" n="77"/>neccessario tenet se in illo si potest. quando nulla alia causa quae 
+      <lb ed="#L" n="78"/>est in sua ptante concurrit. quando aut concurrit aliqua causa 
+      <lb ed="#L" n="79"/>que est in sua ptante non oportet
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e823">
+      ⁋ Per praedicta resposon 
+      <lb ed="#L" n="80"/>derent alii ad aliam rationem. concededo quod consideratione 
+      <lb ed="#L" n="81"/>finis exnte equali. semper equaliter voluntas
+      appete<lb ed="#L" n="82" break="no"/>ret finem. sicut volitione sanitatis existente equali equali 
+      <lb ed="#L" n="83"/>ter appetitur potio amara. si opinio firma sit equa 
+      <lb ed="#L" n="84"/>lis. Unde illa propositio. omne agens de
+      neces<lb ed="#L" n="85" break="no"/>sitate agit secundum vltimum sue potentie. est vera de 
+      <lb ed="#L" n="86"/>causa agente necessario omni alio circumscripto 
+      <lb ed="#L" n="87"/>et de causa agente necessario nullo concurrente 
+      <lb ed="#L" n="88"/>quod sit in sua potestate. non autem de agente ne 
+      <lb ed="#L" n="89"/>cessario quando concurrit aliquid quod est in sua 
+      <lb ed="#L" n="90"/>potestate.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e849">
+      ⁋ Ad aliud argumentum dicerent
+      fa<lb ed="#L" n="91" break="no"/>ciliter. quod non est simile. quia potentia libera per
+      par<lb ed="#L" n="92" break="no"/>ticipationem equaliter secundum indifferentiam et contin 
+      <lb ed="#L" n="93"/>gentiam respicit omnia sua obiecta. quia si non 
+      <lb ed="#L" n="94"/>non tantum esset libera per participationem. sed
+      respe<lb ed="#L" n="95" break="no"/>ctu alicuius esset libera per essentiam. sed
+      poten<lb ed="#L" n="96" break="no"/>tia libera per essentiam non sic equaliter secundum
+      indif<lb ed="#L" n="97" break="no"/>ferentiam et contingentiam respicit omnia sua 
+      <lb ed="#L" n="98"/>obiecta. sed aliqua contingenter et aliqua
+      ne<lb ed="#L" n="99" break="no"/>cessario.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e871">
+      ⁋ Per predicta patet quod rationes pro 
+      <lb ed="#L" n="100"/>tertio articulo non sufficienter concludunt. quia posset 
+      <lb ed="#L" n="101"/>dici quod visio diuine essentie est causa partialis fruitio 
+      <lb ed="#L" n="102"/>nis. quae posita necessario voluntas elicit fruitionem 
+      <lb ed="#L" n="103"/>et sine ea tantum contingenter. Et ita quod quantum ad primam 
+      <lb ed="#L" n="104"/>rationem diceretur. quod habens idem principium elicitiuum. sem per 
+      <lb ed="#L" n="105"/>eodem modo elicit. nisi concurrat aliquod aliud
+      eliciti<lb ed="#L" n="106" break="no"/>uum in vno tempore et non in alio. Si aut aliud
+      principi<lb ed="#L" n="107" break="no"/>um elicitiuum concurrat. non oportet. Sicut voluntas 
+      <lb ed="#L" n="108"/>neccessario elicit actum appetendi potionem amaram
+      com<lb ed="#L" n="109" break="no"/>currentibus volitione efficaci sanitatis et opinione
+      fir<lb ed="#L" n="110" break="no"/>ma se non posse consequitursanitatem sine potione 
+      <!--157.xml-->
+      <pb ed="#L" n="77-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>umara. et illis non percurrentibus. non neccessario
+      eli<lb ed="#L" n="2" break="no"/>cit. Per idem ad aliud. quod neccesitas agendi potest esse 
+      <lb ed="#L" n="3"/>per aliud principium actim concurrens. Et si dicatur quod vnum 
+      <lb ed="#L" n="4"/>principium actiuum non tribuit alteri modum agendi 
+      <lb ed="#L" n="5"/>licut nec tribuit sibi actiuitatem. ergo idem principium 
+      <lb ed="#L" n="6"/>actiuum respectu eiusdem semper habebit eundem modum 
+      <lb ed="#L" n="7"/>agendi. Dico quod sicut vna causa partialis non tribuit
+      al<lb ed="#L" n="8" break="no"/>teri actitatem quasi vna recipiat aliquid ab alia et tamen 
+      <lb ed="#L" n="9"/>sine illa non potest agere. ita aliquando vna causa partialis 
+      <lb ed="#L" n="10"/>non tribuit alteri modum agendi. quasi illa aliquid
+      re<lb ed="#L" n="11" break="no"/>cipiat ab ea. et tamen cum illa potest agere vno modo et si 
+      <lb ed="#L" n="12"/>ne alia alio modo. nec est causa alia quaerenda. nisi quia na 
+      <lb ed="#L" n="13"/>tura illarum causarum partialium est talis. Sed vnde constat nol 
+      <lb ed="#L" n="14"/>quod natura illarum est talis. hoc est per experientiam. quia experi 
+      <lb ed="#L" n="15"/>mur quod libere et contingenter an volitionem efficacen 
+      <lb ed="#L" n="16"/>sanitatis possumus appetere potionem amaram vel 
+      <lb ed="#L" n="17"/>non appetere. non autem stante illa volitione cum firma 
+      <lb ed="#L" n="18"/>opinione aliter non posse consequi. Si tamen concederetur quod ideo 
+      <lb ed="#L" n="19"/>principium actiuum respecum effectus eiusdem speciei. semper 
+      <lb ed="#L" n="20"/>haberet eundem modum agendi. adhuc argumenta
+      p<lb ed="#L" n="21" break="no"/>dicta non concluderent. quia tunc oporteret dicere quod 
+      <lb ed="#L" n="22"/>cum sit manifestum per experientiam quod aliquando ad actum 
+      <lb ed="#L" n="23"/>aliquem intellectus et actum voluntatis. sequitur neccessario 
+      <lb ed="#L" n="24"/>et namliter aliquias actus voluntatis. et quod ille actus causatur
+      suffi<lb ed="#L" n="25" break="no"/>cienter ab illis actibus praecedentibus sine actiuitate 
+      <lb ed="#L" n="26"/>voluntatis. et ita esset ibi noua neccessitas agendi. non 
+      <lb ed="#L" n="27"/>in principio actiuo quod prius contingenter agebat. sed 
+      <lb ed="#L" n="28"/>vno nouo principio actiuo quod est causa sufficiens ef 
+      <lb ed="#L" n="29"/>fectus actus ponendi sine neccesstate illius principii praece 
+      <lb ed="#L" n="30"/>dentis contingenter agentus. Per praedicta posset dici 
+      <lb ed="#L" n="31"/>ad vltimum quamuis non secundum intentionem illorum conlusi quos 
+      <lb ed="#L" n="32"/>arguit quod diuersa talis praesentia obiecti cogniti. pu 
+      <lb ed="#L" n="33"/>ta visi et non visi. non est tantum diuersa approximatio. 
+      <lb ed="#L" n="34"/>sed est praesentia vnius causae partialis. cum quae voluntas est nata 
+      <lb ed="#L" n="35"/>agere neccessario. et sine illa vel nihil agere vel conti 
+      <lb ed="#L" n="36"/>gentur. vel est praesentia vnius causae sufficientur sine actiui 
+      <lb ed="#L" n="37"/>tate veritatis. sicut credo secundum veritatem ponendum est 
+      <lb ed="#L" n="38"/>altero dictorum modorum. de volitione sanitatis et opi 
+      <lb ed="#L" n="39"/>nione firma. quod non potest haberi sanitas sine potione 
+      <lb ed="#L" n="40"/>amara. respectu volitionis potionis amare.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e991">
+      ⁋ Ad 
+      <lb ed="#L" n="41"/>quonem primo praemittam aliquas distinctiones. Secundo
+      po<lb ed="#L" n="42" break="no"/>nam conclusiones. Prima distinctio est de contingenti 
+      <lb ed="#L" n="43"/>quod dupliciter accipitur ad praesens frui aliquo contingenter 
+      <lb ed="#L" n="44"/>sicut et producere aliquid contigenter. Uno modo quod 
+      <lb ed="#L" n="45"/>simpliciter potest frui et non frui. vel producere et non produ 
+      <lb ed="#L" n="46"/>cere. Isto modo quicqud producit quemcumque effectum 
+      <lb ed="#L" n="47"/>producit contingenter. quia potest deus facere quod non pro 
+      <lb ed="#L" n="48"/>ducat. Alio modo accipitur pro illo quod producit aliquem 
+      <lb ed="#L" n="49"/>effectum. et nullo variato ex parte sua. nec ex parte 
+      <lb ed="#L" n="50"/>cuiuslibet alterius. habet in ptate sua ita non produce 
+      <lb ed="#L" n="51"/>re sicut producere. ita quod ex natura sua ad neutrum 
+      <lb ed="#L" n="52"/>determinatur. et eodem modo dicendum est de contingen 
+      <lb ed="#L" n="53"/>ter frui. et isto secundo modo intelligitur quaeo.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1022">
+      ⁋ Secunda di 
+      <lb ed="#L" n="54"/>stinctio est de libere frui. quia libertas vno modo 
+      <lb ed="#L" n="55"/>distinguitur a coactione. et sic accipitur impropriissi 
+      <!--157.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 77-v -->
+               <lb ed="#L" n="56"/>me. quia isto modo libertas potest competere intellectui 
+      <lb ed="#L" n="57"/>Alio modo opponitur seuituti creature rationalis. et hoc 
+      <lb ed="#L" n="58"/>vel seuituti culpe. vel seuituti pene. Et hoc modo  
+      <lb ed="#L" n="59"/>beati sunt liberiores quam viatores. quia magis liberi 
+      <lb ed="#L" n="60"/>a seuitute culpe et pene. Alio modo opponitur necs 
+      <lb ed="#L" n="61"/>tati secundum quod neccessitas opponitur contingenti secundo modo 
+      <lb ed="#L" n="62"/>dicto in pori dis. et sic libertas est quadam indiffe 
+      <lb ed="#L" n="63"/>rentia et contingentia. et distinguitur contra principium actiuum 
+      <lb ed="#L" n="64"/>naturale. et sic vtuntur philosophi libertate et voluntate. et 
+      <lb ed="#L" n="65"/>isto modo distinguuntur principia actiua. ii. phi. et ip 
+      <lb ed="#L" n="66"/>meth. hoc etiam patet per damas. quae probat quod bruta tnon 
+      <lb ed="#L" n="67"/>habent liberum arbitrium. quia magis aguntur quam agunt. 
+      <lb ed="#L" n="68"/>aut ergo intelligit quod aguntur secundum substantias eorum. et nihil 
+      <lb ed="#L" n="69"/>ad propositum. quia illo modo homines et angeli non haberent 
+      <lb ed="#L" n="70"/>liberum arbitrium. quia aguntur illo modo. aut intelligit 
+      <lb ed="#L" n="71"/>de actibus eorum. et tunc quod aguntur. aut quia actus eorum 
+      <lb ed="#L" n="72"/>sunt ab extrinseco et non ab intrinseco. et hoc non. quia 
+      <lb ed="#L" n="73"/>poterit poensi quod appetitus sensitiuus causat in seipse 
+      <lb ed="#L" n="74"/>effectiue actus suos sicut ponitur de intellectu vel 
+      <lb ed="#L" n="75"/>de graui. vel quocumque alio mouente se. Aut
+      intel<lb ed="#L" n="76" break="no"/>ligit quod ideo non habent liberum arbitrium. quia aguntur et 
+      <lb ed="#L" n="77"/>qui non habent actus in sua prante. nec dominum super 
+      <lb ed="#L" n="78"/>actus suos. sed hoc non est sine indifferentia et
+      contingen<lb ed="#L" n="79" break="no"/>tia. ideo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1087">
+      ⁋ Tertia distinctio est. quod sicut secundum ansel 
+      <lb ed="#L" n="80"/>mum est quedam affectio commodi. et quedam affectio 
+      <lb ed="#L" n="81"/>iusti. ita est quoddam nolle incommodi. et quoddam 
+      <lb ed="#L" n="82"/>nolle intusti. et hoc verum quando velle et nolle elicitur secundum 
+      <lb ed="#L" n="83"/>dictamen rationis
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1098">
+      ⁋ Quarta distinctio est. quod sicut 
+      <lb ed="#L" n="84"/>quoddam est velle respecum incomplexi. et hoc proprie
+      voca<lb ed="#L" n="85" break="no"/>tur amor. et quoddam est respecum complexi large
+      ac<lb ed="#L" n="86" break="no"/>cipiendo complexum. sicut velle habere beatitudine. vel 
+      <lb ed="#L" n="87"/>velle esse. vel aliquid tale. Ita est quoddam nolle 
+      <lb ed="#L" n="88"/>respecum incomplexi et potest vocari odium vel detesta 
+      <lb ed="#L" n="89"/>tio. et est quoddam nolle respectum complexi. sic nolle 
+      <lb ed="#L" n="90"/>esse vel nolle habere diuitias. vel nolle habere honoret 
+      <lb ed="#L" n="91"/>et tamen non odit propter hoc diuitias nec honores. 
+      <lb ed="#L" n="92"/>nisi accipiendo large odire
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1120">
+      ⁋ Prima ergo conclusio erit: 
+      <lb ed="#L" n="93"/>quod voluntas contingentur et libere modo exposito fruitur 
+      <lb ed="#L" n="94"/>fine vltimo ostenso in vniversali. quia scilicet diligere
+      beatitudi<lb ed="#L" n="95" break="no"/>nem potest et non diligere. et potest appetere sibi 
+      <lb ed="#L" n="96"/>beatitudinem et non appetere. Ista conclusio persuadetur 
+      <lb ed="#L" n="97"/>primo sic. Illud potest esse nolitum a voluntate. quod 
+      <lb ed="#L" n="98"/>potest intellectus dictare esse nolendum. sed
+      intelle<lb ed="#L" n="99" break="no"/>ctus potest credere nullam beatitudinem possibilem. 
+      <lb ed="#L" n="100"/>qui potest credere tantum statum quem de fcto videmus 
+      <lb ed="#L" n="101"/>esse sibi possibilem. ergo potest nolle omne illud quod 
+      <lb ed="#L" n="102"/>isti statui quem videmus repugnat. et per consequens potest 
+      <lb ed="#L" n="103"/>nolle beatitudinem.  Maior est manifesta. quia quam 
+      <lb ed="#L" n="104"/>uis sicut alias declarabitur voluntas non
+      necessa<lb ed="#L" n="105" break="no"/>conformetur iudicio rationis. potest tamen conformari
+      iu<lb ed="#L" n="106" break="no"/>dicio rationis tam recto quam erroneo.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1153">
+      ⁋ Confirmatur 
+      <lb ed="#L" n="107"/>ista ratio. quia potest nolle illud in quo credit se 
+      <lb ed="#L" n="108"/>non posse quaetari. sed potest credere non posse quaeta 
+      <lb ed="#L" n="109"/>ri in quocumque sibi possibili. ergo potest nolle omne
+      si<lb ed="#L" n="110" break="no"/>bi possibile. et certum est quod potest nolle omne 
+      <!--158.xml-->
+      <pb ed="#L" n="78-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sibi impossibile. ergo quodlibet potest nolle.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1174">
+      ⁋ Preterea.
+      quai<lb ed="#L" n="2" break="no"/>cumque potest efficacitur velle anedes. potest velle consequens scitum 
+      <lb ed="#L" n="3"/>vel opinatum esse consequens. sed aliquis potest efficacitur velle 
+      <lb ed="#L" n="4"/>non esse. et potest scire euidenter. quod non esse beatm est consequens 
+      <lb ed="#L" n="5"/>ad non esse. ergo potest velle non esse beatus. et per consequens nollo 
+      <lb ed="#L" n="6"/>beatitudine. Assumptum patet. quia multi vtentes ratione 
+      <lb ed="#L" n="7"/>tam fideles credentes vitam futuram. quam infideles nul 
+      <lb ed="#L" n="8"/>lam vitam futuram credentes: interfecert seipsos. et ex 
+      <lb ed="#L" n="9"/>posuerunt se morti. ergo volebant non esse.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1194">
+      ⁋ Confir 
+      <lb ed="#L" n="10"/>matur ratio. quia aliqua fideles credentes se posse consed 
+      <lb ed="#L" n="11"/>beatitudinem si non peccarent. elegerit peccare. scien 
+      <lb ed="#L" n="12"/>tes se vel credentes propter tale peccatum penam eternam 
+      <lb ed="#L" n="13"/>habituros. quod non esset nisi tunc habuissent nolle re 
+      <lb ed="#L" n="14"/>spectu beatitudinis. non in communi tantum. sed etiam in particu 
+      <lb ed="#L" n="15"/>lari.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1210">
+      ⁋ Secunda conclusio est. quod aliquis potest nolle
+      beatitudi<lb ed="#L" n="16" break="no"/>nem in particulari. Et potest probari per rationes praecedentes 
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1215">
+               <lb ed="#L" n="17"/>⁋ Tertia conclusio est quod aliquis potest nolle beatitudinem 
+      <lb ed="#L" n="18"/>in particulari creditam esse possibilem. ita quod potest nolle 
+      <lb ed="#L" n="19"/>habere beatitudinem. hec conclusio persuadetur. quia quicquid 
+      <lb ed="#L" n="20"/>potest esse dictatum a recta ratione potest cadere sub actu 
+      <lb ed="#L" n="21"/>voluntatis. sed recta ratio potest dictare quod iste
+      carebi<lb ed="#L" n="22" break="no"/>semper beatitudine. ergo potest velle carere semper beatitudine. ergo 
+      <lb ed="#L" n="23"/>potest nolle eam
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1233">
+      ⁋ Cofirmatur. quia damnatus tam pena
+      sen<lb ed="#L" n="24" break="no"/>sus quam pena damni posset si relinquaretur se conforma 
+      <lb ed="#L" n="25"/>re diuine voluntati tam scite quam credite in volito. sed 
+      <lb ed="#L" n="26"/>voluntas diuina vult istum semper carere beatitudine. ergo 
+      <lb ed="#L" n="27"/>potest hoec esse volitum a voluntate tali. et per consequens eadem 
+      <lb ed="#L" n="28"/>ratione a voluntate viatoris.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1246">
+      ⁋ Preterea quicumque vult 
+      <lb ed="#L" n="29"/>efficacitur aliquid. vult omne illud sine quo credit nul 
+      <lb ed="#L" n="30"/>lo modo se posse consequi illud volitum. sed aliquis fidelis 
+      <lb ed="#L" n="31"/>credit se nllo modo posse consequi beatitudinem sine bo 
+      <lb ed="#L" n="32"/>na vita. et tamen non vult bonam vitam et sanctam
+      serua<lb ed="#L" n="33" break="no"/>re. ergo non vult efficacitur beatitudinem. et per consequens eadem 
+      <lb ed="#L" n="34"/>ratione potest nolle eam
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1263">
+      ⁋ Quarta conclusio est. quod videns di 
+      <lb ed="#L" n="35"/>uinam essentiam: et carens fruitione beatifica. potest
+      nol<lb ed="#L" n="36" break="no"/>le illam fruitionem. hoc probatur. quia sicut prius dictum est 
+      <lb ed="#L" n="37"/>quaelibet voluntas potest se conformare voluntati diuine 
+      <lb ed="#L" n="38"/>in volito. sed deus potest velle ipsum semper et pro semper carere 
+      <lb ed="#L" n="39"/>fruitione beatifica. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1276">
+      ⁋ Preterea. quicquid potest esse
+      vo<lb ed="#L" n="40" break="no"/>litum vel nolitum pro vno tempore. et pro semper. sed voluntas 
+      <lb ed="#L" n="41"/>talis potest nolle habere beatitudinem pro aliquo tempore de 
+      <lb ed="#L" n="42"/>terminato. puta quandiu deus vult eam non habere fruitio 
+      <lb ed="#L" n="43"/>nem beatificam. ergo potest nolle eam simpliciter.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1287">
+      ⁋ Quinta conclusio 
+      <lb ed="#L" n="44"/>est. quod talis videns diuinam essentiam. carens per
+      poten<lb ed="#L" n="45" break="no"/>tiam diuinam absolutam dilectione dei de quo pate 
+      <lb ed="#L" n="46"/>bit in. iiii. potest nolle deum. hoc probatur vel persuadetur 
+      <lb ed="#L" n="47"/>sic. omne incommodum potest esse obiectum nolitionis. siue 
+      <lb ed="#L" n="48"/>sit vere incommodum siue estimatum. sicut omne commodum 
+      <lb ed="#L" n="49"/>siue verum siue estimatum potest esse obiectum
+      volitio<lb ed="#L" n="50" break="no"/>nis. sed deus potest esse tale incommodum saltem
+      estima<lb ed="#L" n="51" break="no"/>tum. ergo deus potest esse obiectum nolitionis. Assumptum patet 
+      <lb ed="#L" n="52"/>qui talis posset pruniri a deo tam pena damni quam pe 
+      <lb ed="#L" n="53"/>na sensus.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1311">
+      ⁋ Confirmatur. quia christus non obstante quod 
+      <lb ed="#L" n="54"/>fuerit beatus: fuit punitus et suscepit penas
+      cor<lb ed="#L" n="55" break="no"/>porales. sed omne punitiuum vel afflictiuum alicuius potest 
+      <!--158.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 78-r -->
+               <lb ed="#L" n="56"/>esse incommodum illi. vel verum vel estimatum. ergo deus 
+      <lb ed="#L" n="57"/>potest habere rationem incommodi veri vel estimati.
+      Con<lb ed="#L" n="58" break="no"/>tra praedicta sunt multa dubia de quibus patebit 
+      <lb ed="#L" n="59"/>in quarto libro in materia de beatitudine. ideo 
+      <lb ed="#L" n="60"/>transeo pro nunc.
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1335">
+      ⁋ Ex praedictis potest responderi ad for 
+      <lb ed="#L" n="61"/>mam quaestionis quod finis vltimus potest accipi dupliciter 
+      <lb ed="#L" n="62"/>vel pro beatitudine creata possibili voluntati. vel ura 
+      <lb ed="#L" n="63"/>obiecto illius beatitudinis Primo modo non est lici 
+      <lb ed="#L" n="64"/>tum voluntati frui vltimo fine proprie loquendo de 
+      <lb ed="#L" n="65"/>frui. potest tamen contingenter et libere frui. quia potest non 
+      <lb ed="#L" n="66"/>frui ex hoc ipso quod est illicitum: et potest frui. quia si
+      volun<lb ed="#L" n="67" break="no"/>tas potest frui aliquo creato minus bono. multo
+      sor<lb ed="#L" n="68" break="no"/>tius bono summo creato sibi possibili. Si autem 
+      <lb ed="#L" n="69"/>accipiatur frui large pro actu appetendi. sic dico quod 
+      <lb ed="#L" n="70"/>finem vltimum siue ondatur in generali siue in particulari 
+      <lb ed="#L" n="71"/>siue in via siue in patria. potest absolute voluntas 
+      <lb ed="#L" n="72"/>cum velle vel non velle vel nolle
+    </p>
+            <p xml:id="wo8uy7-d1e282-d1e1364">
+      ⁋ Et sub hoc sensu 
+      <lb ed="#L" n="73"/>posite sunt conclusiones praecedentes. loquendo de fine 
+      <lb ed="#L" n="74"/>secundo modo. sic dico quod in via potest esse obiectum
+      voli<lb ed="#L" n="75" break="no"/>tionis et nolitionis. Si autem ostendatur nude et cla 
+      <lb ed="#L" n="76"/>re. et deus suspendat actiuitatem voluntatis respectus 
+      <lb ed="#L" n="77"/>volitionis potest non esse obiectum volitionis. Si autem 
+      <lb ed="#L" n="78"/>non suspendat actiuitatem voluntatis. sed relinquat eam 
+      <lb ed="#L" n="79"/>sue nature. sic est magis dubitandum. de quo dice 
+      <lb ed="#L" n="80"/>tur in. iiii. li⁋ Ad argumentum principale dico quod 
+      <lb ed="#L" n="81"/>voluntas non naturaliter inclinatur in finem nisi accipien 
+      <lb ed="#L" n="82"/>do inclinationem naturalem quod sit secundum communem cursum 
+      <lb ed="#L" n="83"/>Et de tali inclinatione non est verum. quod quicquid fit
+      con<lb ed="#L" n="84" break="no"/>inclinationem violentatur. Et quando dicitur quod vnum quodque nam 
+      <lb ed="#L" n="85"/>turaliter inclinatur in propriam perfectionem. Ista est ne 
+      <lb ed="#L" n="86"/>ganda stricte accipiendo incliationem. nisi quando illud 
+      <lb ed="#L" n="87"/>perfectibile est actiuum naturale. cuiusmodi non 
+      <lb ed="#L" n="88"/>est voluntas. Et hec de prima distinctione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

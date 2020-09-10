@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="245-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1511"><!-- l1d32q2 -->
+            <head xml:id="wo8uy7-d1e1511-Hd1e108">Quaestio 2</head>
+            <p xml:id="wo8uy7-d1e1511-d1e111">
+      Questio secunda. 
+      <lb ed="#L" n="35"/>Secundo quero. 
+      <lb ed="#L" n="36"/>Utrum pater et filius diligant spi 
+      <lb ed="#L" n="37"/>ritu sancto.
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e120">
+      ⁋ Quod non. quia sicut in deo 
+      <lb ed="#L" n="38"/>idem est esse et sapere ita in deo idem 
+      <lb ed="#L" n="39"/>est esse et diligere. ergo sicut ex ista pater est
+      sapi<lb ed="#L" n="40" break="no"/>ens sapientia genita sequitur ista pater est sa 
+      <lb ed="#L" n="41"/>pientia genita. ita ex ista pater diligit spiritu 
+      <lb ed="#L" n="42"/>sancto sequitur ista. pater est spiritus sanctus 
+      <lb ed="#L" n="43"/>sed ista est falsa. ergo et antecedens. Ad oppositum est
+      magi<lb ed="#L" n="44" break="no"/>ster in littera.
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e138">
+      ⁋ Circa istam. q. sunt multe opi 
+      <lb ed="#L" n="45"/>quas non intendo recitare. Dico tamen ad questi 
+      <lb ed="#L" n="46"/>onem breuiter quod si diligere esset purum essentiale 
+      <lb ed="#L" n="47"/>et dum praedicatur de aliquo denotaretur importatum 
+      <lb ed="#L" n="48"/>per praedicatum esse illud quod importatur per subiectum 
+      <lb ed="#L" n="49"/>vel aliquid sibi vnitum. vel aliquid eius. sicut pars 
+      <lb ed="#L" n="50"/>vel constituens. vel sicut accidens. sicut est de sapere 
+      <lb ed="#L" n="51"/>tunc esset hec absolute falsa. pater et filius
+      dili<lb ed="#L" n="52" break="no"/>gunt se spiritusancto. sicut hec est absolute
+      fal<lb ed="#L" n="53" break="no"/>sa. pater sapit sapientia genita. Et ideo cum ista 
+      <lb ed="#L" n="54"/>a saunctis concedatur et alia non. oportet dicere quod 
+      <!--492.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 245-r -->
+               <lb ed="#L" n="55"/>diligere non est purum essentiale sicut sapere. et
+      pro<lb ed="#L" n="56" break="no"/>pter hoc addi potest sibi ablatius qui non importat idem 
+      <lb ed="#L" n="57"/>omnino importato per subiectum. nec vnitum sibi 
+      <lb ed="#L" n="58"/>nec constituens ipsum. nec partem. nec accidens eit 
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e177">
+               <lb ed="#L" n="59"/>⁋ Sed tunc est dubium quid per istam denotatur.
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e183">
+      ⁋ Et di 
+      <lb ed="#L" n="60"/>cut aliqui quod iste ablatiuus construitur in ratione 
+      <lb ed="#L" n="61"/>effectus formalis. Unde dicitur quod cum res communiter 
+      <lb ed="#L" n="62"/>denominentur a suis formis. sicut albus ab
+      albedi<lb ed="#L" n="63" break="no"/>ne. et homo ab humanitate. omne illud a quo
+      ali<lb ed="#L" n="64" break="no"/>quid denominatur quantum ad hoc habet rationem forme. 
+      <lb ed="#L" n="65"/>contingit autem aliquid denominari ab illo quod ab 
+      <lb ed="#L" n="66"/>ipso procedit. scilicet a termino actionis quae est effectus 
+      <lb ed="#L" n="67"/>eius. sicut dicitur quod arbor floret floribus et isto mo 
+      <lb ed="#L" n="68"/>do secundum quod diligere notionaliter sumitur concedi 
+      <lb ed="#L" n="69"/>tur quod pater et filius diligunt se et nos spiritusancto 
+      <lb ed="#L" n="70"/>qui sic diligere nihil aliud est quam spirare amorem 
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e209">
+               <lb ed="#L" n="71"/>⁋ Sed ista opinio non est conueniens Nam quod 
+      <lb ed="#L" n="72"/>primo dicit de effectu formali non est proprie dictum 
+      <lb ed="#L" n="73"/>qui non est effectus formalis talis. sicut enim ni 
+      <lb ed="#L" n="74"/>hil est dicere quod est effectus effectiuus ita nec est 
+      <lb ed="#L" n="75"/>effectus formalis. sed sicut contingit dicere quod
+      ali<lb ed="#L" n="76" break="no"/>quis est effectus efficientis non effectualis nec
+      ef<lb ed="#L" n="77" break="no"/>fectiuus ita est aliquis effectus forme non forma 
+      <lb ed="#L" n="78"/>lis effectus. Unde effectus forme est totum
+      con<lb ed="#L" n="79" break="no"/>positum. et ideo non est verum quod dicitur ab istis. quod 
+      <lb ed="#L" n="80"/>esse album est effectus formalis albedinis. et quod 
+      <lb ed="#L" n="81"/>esse animatum est effectus formalis anime. potest tamen 
+      <lb ed="#L" n="82"/>concedi quod totum compositum est effectus forme. quia 
+      <lb ed="#L" n="83"/>hoc non est aliud quam dicere quod anima vel forma est pars 
+      <lb ed="#L" n="84"/>totius compositi.
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e242">
+      ⁋ Similit quod dicitur quod ome a 
+      <lb ed="#L" n="85"/>quo denominatur aliquid habet rationem forme. Uel 
+      <lb ed="#L" n="86"/>est simplicitur falsum vel impropriissime dictum. tunc 
+      <lb ed="#L" n="87"/>enim oporteret dicere quod creatura habet rationem 
+      <lb ed="#L" n="88"/>forme respectu dei. quia deus dicitur creatiuus et non 
+      <lb ed="#L" n="89"/>nisi creature est creatius. ergo creatura est forma 
+      <lb ed="#L" n="90"/>dei.
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e258">
+      ⁋ Similiter quod dicitur principaliter nou 
+      <lb ed="#L" n="91"/>est verum. quia si diligere secundum quod sumitur
+      notiona<lb ed="#L" n="92" break="no"/>liter non sit nisi spirare amorem ergo si pater diligit 
+      <lb ed="#L" n="93"/>filium spiritusancto. pater spiraret filium spiritut sanctsa ct onequns 
+      <lb ed="#L" n="94"/>est manifeste falsum. ergo etc. Similiter si
+      dilige<lb ed="#L" n="95" break="no"/>re secundum quod sumitur notionaliter se habet ad
+      pa<lb ed="#L" n="96" break="no"/>tre et ad filium sicut florere ad arborem. ergo sicut 
+      <lb ed="#L" n="97"/>non conceditur quod arbor floret se floribus. ita non 
+      <lb ed="#L" n="98"/>est concedendum quod pater diligit sies spiritum sanctum.
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e278">
+      ⁋ Ideo 
+      <lb ed="#L" n="99"/>potest dici ad questionem quod diligere secundum quod sumiter 
+      <lb ed="#L" n="100"/>notionaliter non est simpliciter idem quod spi 
+      <lb ed="#L" n="101"/>rare. quia tunc sicut hec est falsa. pater et filius 
+      <lb ed="#L" n="102"/>spirant se spiritusancto. sic esset hec falsa. pas 
+      <lb ed="#L" n="103"/>et filius diligunt se spiritusancto. Sed dilige 
+      <lb ed="#L" n="104"/>re isto modo includit diligere quod est
+      omni<lb ed="#L" n="105" break="no"/>bus modis diuina essentia. et similiter spirare 
+      <lb ed="#L" n="106"/>ita quod ista pater et filius diligunt se
+      spiritusan<lb ed="#L" n="107" break="no"/>cto equiualet isti. pater et filius diligunt se amore 
+      <lb ed="#L" n="108"/>absoluto et essentiali. et sic diligendo
+      produ<lb ed="#L" n="109" break="no"/>cunt spiritumsanctum tanquam amorem vtriusque. vni scilicet 
+      <!--493.xml-->
+      <pb ed="#L" n="245-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>impensum et alteri repensum. et ita diligunt se 
+      <lb ed="#L" n="2"/>amore impenso et repenso. et aliquo modo sicut
+      di<lb ed="#L" n="3" break="no"/>cit iohan. in epistola sua. diligamus inuicem non 
+      <lb ed="#L" n="4"/>tantum lingua et verbo. sed opere et veritate. Ita potest 
+      <lb ed="#L" n="5"/>aliquo modo proportionabiliter dici quod pater et
+      fi<lb ed="#L" n="6" break="no"/>lius diliguntise spiritusancto. quoniam vnus
+      alte<lb ed="#L" n="7" break="no"/>ri impendit et alteri alter rependit. et magis
+      pro<lb ed="#L" n="8" break="no"/>prie quam possumus nos dicere nos diligere opere et 
+      <lb ed="#L" n="9"/>veritate pro quanti spiritus sanctus est formaliter amor et
+      di<lb ed="#L" n="10" break="no"/>lectio. non sic autem opus est amor et propter hoc pater 
+      <lb ed="#L" n="11"/>et filius diligum fie spiritus sanctus non tantum tanquam quodam signo 
+      <lb ed="#L" n="12"/>amoris. sed etiam diligunt pies spiritus sanctus anquam amore vero 
+      <lb ed="#L" n="13"/>vere ab eis producto. vni eorum impenso et alteri 
+      <lb ed="#L" n="14"/>repenso.
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e341">
+      ⁋ Sed circa predicta est dubium
+      pue<lb ed="#L" n="15" break="no"/>rile. quomodo scilicet in diuinis est aliquid quod nec est 
+      <lb ed="#L" n="16"/>purum notionale nec purum essentiale. cum tamen non 
+      <lb ed="#L" n="17"/>sit formaliter persona. quia si diligere esset in
+      propo<lb ed="#L" n="18" break="no"/>sito formaliter persona. sequeretur quod pater et 
+      <lb ed="#L" n="19"/>filius essent personi spiritum sanctum
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e355">
+      ⁋ Ad illud dico quod non 
+      <lb ed="#L" n="20"/>est intelligendum quod tale quod nec est purum essenti 
+      <lb ed="#L" n="21"/>ale nec purum notionale nec persona sit aliquid ext 
+      <lb ed="#L" n="22"/>stens in diuinis. sed est aliquod signum quod non est reali 
+      <lb ed="#L" n="23"/>in deo. et vocatur sic. quia in diffinitione sua
+      exprimen<lb ed="#L" n="24" break="no"/>te quid nominis ponitur aliquid quod praecise significat
+      ali<lb ed="#L" n="25" break="no"/>quod commune tribus personis. et ponit aliquid quod 
+      <lb ed="#L" n="26"/>est notionale
+    </p>
+            <p xml:id="wo8uy7-d1e1511-d1e373">
+      ⁋ Ad argumentum principale patet quod 
+      <lb ed="#L" n="27"/>non est simile de sapere et diligere. quia secundum vsum
+      san<lb ed="#L" n="28" break="no"/>ctorum sapere non potest accipi nisi pure essentialiter 
+      <lb ed="#L" n="29"/>hoc est non significat nec supponit nisi pro
+      ali<lb ed="#L" n="30" break="no"/>quo communi tribus. Sed diligere secundum vsum potest 
+      <lb ed="#L" n="31"/>accipi sic et aliter. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="204-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1172"><!-- l1d20q1 -->
+            <head xml:id="wo8uy7-d1e1172-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1172-d1e111">
+               <lb ed="#L" n="83"/>⁋ Distinctio. vicesime. Questio vnica. 
+      <lb ed="#L" n="84"/>CIrca distinctio 
+      <lb ed="#L" n="85"/>nem vicesimam quaero
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e120">
+      ⁋ Utrum perso 
+      <lb ed="#L" n="86"/>ne diuine sint equales secundum poten 
+      <lb ed="#L" n="87"/>tiam.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e127">
+      ⁋ Quod non. quia non minoris
+      po<lb ed="#L" n="88" break="no"/>tentie est producere diuinam
+      perso<lb ed="#L" n="89" break="no"/>nam quam creaturam. sed si vna persona 
+      <lb ed="#L" n="90"/>posset producerecreaturam et non alia non essent
+      equa<lb ed="#L" n="91" break="no"/>les secundum potentiam. ergo multo magis cum vna persona 
+      <lb ed="#L" n="92"/>possit producere personam diuinam et alia non possit 
+      <lb ed="#L" n="93"/>eam producere. diuine persone non erunt equales secundum po 
+      <lb ed="#L" n="94"/>tentiam.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e145">
+      ⁋ Preterea. illa persona quae non est omipotens 
+      <lb ed="#L" n="95"/>non est equalis secundum potentiam persone omipotenti. sed fi 
+      <lb ed="#L" n="96"/>lius non est omipotens. et pater est omipotens. ergo etc. 
+      <lb ed="#L" n="97"/>Assumptum patet. quia sequitur. filius est nullipotens. 
+      <lb ed="#L" n="98"/>ergo non habet potentiam generandi. ergo eodem modo 
+      <lb ed="#L" n="99"/>sequitur affirmatiue. filius est omipotes. ergo habet
+      po<lb ed="#L" n="100" break="no"/>tentiam generandi. per regulam illam. quod pro eisdem fit
+      dis<lb ed="#L" n="101" break="no"/>tributio in affirmatiua et in negatiua. et per consequens 
+      <lb ed="#L" n="102"/>ad eadem contingit descendere. sed hec est falsa. fi 
+      <lb ed="#L" n="103"/>ius habet potentiam generandi. ergo hec est
+      fal<lb ed="#L" n="104" break="no"/>sa. filius est. omipotens.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e170">
+      ⁋ Confirmatur. quia sequitur 
+      <lb ed="#L" n="105"/>arguendo a superiori ad inferius. filius nullam
+      ha<lb ed="#L" n="106" break="no"/>bet potentiam. ergo filius non habet potentiam gene 
+      <lb ed="#L" n="107"/>randi. ergo similiter sequitur. filius habet oimpotentiam. ergo fed 
+      <lb ed="#L" n="108"/>lius habet potentiam generandi. consequens est falsum. ergo 
+      <lb ed="#L" n="109"/>antecedens. et certum est quod pat habet oipotentiam. ergo pat 
+      <!--411.xml-->
+      <pb ed="#L" n="204-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et filius non sunt equales secundum potentiam.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e192">
+      ⁋ Ad
+      op<lb ed="#L" n="2" break="no"/>positum est magitur in littera. et probat per auctoritates beati 
+      <lb ed="#L" n="3"/>Augustini.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e199">
+      ⁋ Circa istam questionem est sic proceden 
+      <lb ed="#L" n="4"/>dum. primo dadus est intellectus quaestionis. Se 
+      <lb ed="#L" n="5"/>cundo respondendum est ad questionem. Tertio
+      v<lb ed="#L" n="6" break="no"/>dendum est quo rationes beati augustini concludant 
+      <lb ed="#L" n="7"/>per quas probat personas divinas esse equales secundum po 
+      <lb ed="#L" n="8"/>tentiam.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e212">
+      ⁋ Circa primum dico quod non debet esse intelle 
+      <lb ed="#L" n="9"/>ctus quaonis supponendo potentiam esse aliquid re 
+      <lb ed="#L" n="10"/>ale distinctum quocumque modo a divina essentia et diui 
+      <lb ed="#L" n="11"/>nis personis siue secundum rem siue secundum rationem. et querere 
+      <lb ed="#L" n="12"/>an secundum illud persone dicantur equales. sed debet esse 
+      <lb ed="#L" n="13"/>intellectus questionis supponendo quod persone 
+      <lb ed="#L" n="14"/>diuine aliquid possunt. hoc est possunt in aliquem 
+      <lb ed="#L" n="15"/>actum querere an possint in eadem vel inequalia. et 
+      <lb ed="#L" n="16"/>hoc secundum numerum vel secundum perfectionem. ita quod aliquando 
+      <lb ed="#L" n="17"/>dicuntur aliqua secundum potentiam equalia. et tamen nulla 
+      <lb ed="#L" n="18"/>est equalitas nisi inter effectus eorum que dicuntu 
+      <lb ed="#L" n="19"/>equalia secundum rationem.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e238">
+      ⁋ Circa secundum dico quod mihi
+      vi<lb ed="#L" n="20" break="no"/>detur quod in ista questione secundum quod tractant eam
+      do<lb ed="#L" n="21" break="no"/>ctores in ista distinctione magis est difficultas 
+      <lb ed="#L" n="22"/>vocalis quam realis. qui enim dicunt quod potentia de qua 
+      <lb ed="#L" n="23"/>est hic questio est commune ad potentiam generandi et 
+      <lb ed="#L" n="24"/>spirandi et creandi. ita quod potentia sit idem quod  
+      <lb ed="#L" n="25"/>potentia productiua siue ad extra siue ad intra. habent 
+      <lb ed="#L" n="26"/>dicere consequenter quod pater et filius non sunt equales 
+      <lb ed="#L" n="27"/>secundum potentiam sed extensionem. quia hoc non est aliud 
+      <lb ed="#L" n="28"/>quam dicere quod quecumque producibilia potest
+      produce<lb ed="#L" n="29" break="no"/>re pater: eadem potest producere filius. Uel si pater po 
+      <lb ed="#L" n="30"/>test producere aliquod producibile quod potest produce 
+      <lb ed="#L" n="31"/>re filius. eodem modo filius possit producere aliquod  
+      <lb ed="#L" n="32"/>producibile quod non poterit producere pater. quorum 
+      <lb ed="#L" n="33"/>vtrumque est falsum. quia filius non potest producere omne 
+      <lb ed="#L" n="34"/>producibile a patre. nec etiam potest aliquid producere 
+      <lb ed="#L" n="35"/>quod non sit producibile a patre. Et eodem modo proportio 
+      <lb ed="#L" n="36"/>nabiliter dicendum est de patre et spiritusco. Et eodem 
+      <lb ed="#L" n="37"/>modo dicendum est. si omipotens includat poten 
+      <lb ed="#L" n="38"/>tiam quamcumque productiuam siue ad intra siue ad extra. 
+      <lb ed="#L" n="39"/>qued filius non est omnipotens. quia tunc equiualeret illi.
+      fi<lb ed="#L" n="40" break="no"/>lius potest producere omne productiuum vel producibusre 
+      <lb ed="#L" n="41"/>quod est manifeste falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e288">
+      ⁋ Et hoc patet quod opinio 
+      <lb ed="#L" n="42"/>non valet. quie ponit quod potentia generandi pertinet ad  
+      <lb ed="#L" n="43"/>omnipotentiam patris et non ad omnipotentiam filii. Cuius 
+      <lb ed="#L" n="44"/>ratio est. quia quando dico omnipotentia. intelligitur signum 
+      <lb ed="#L" n="45"/>distributiuum cum distribuibili. Et tunc quaero an siut 
+      <lb ed="#L" n="46"/>distributio pro potentia aut pro obiecto potentie. et 
+      <lb ed="#L" n="47"/>siue sic siue sic quicqud sibi addatur pro eisdem fit di 
+      <lb ed="#L" n="48"/>stributio. ergo pro eisdem fit distributio quando dicitur
+      oipoten<lb ed="#L" n="49" break="no"/>tia patris. et quando dicitur omnipotentia filii. et ita potentia ge 
+      <lb ed="#L" n="50"/>nerandi vel pertinet ad potentiam vtriusque vel
+      neu<lb ed="#L" n="51" break="no"/>trius. Qui aut dicunt quod potentia in proposito ac 
+      <lb ed="#L" n="52"/>cipitur praecise pro potentia effectiua vel causatiua 
+      <lb ed="#L" n="53"/>quae est solum respectu factibilium ad extra habent dicere 
+      <lb ed="#L" n="54"/>quod tres persone sunt equales secundum potentiam. 
+      <lb ed="#L" n="55"/>quia quicquid tale est factibile ab vna persona¬ 
+      <!--411.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 204-v -->
+               <lb ed="#L" n="56"/>et ab alia. et ita perfecte ab vna sicut ab alia 
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e331">
+               <lb ed="#L" n="57"/>⁋ Ideo respondens ad formam quaestionis. Dico quod ex 
+      <lb ed="#L" n="58"/>quo loquendum est vt auctores et sancti. aucto 
+      <lb ed="#L" n="59"/>res sancti non intelligunt illam equalitatem nisi pe 
+      <lb ed="#L" n="60"/>nes obiecta factibilia ad extra. et quicquid est
+      fa<lb ed="#L" n="61" break="no"/>ctibile ab vna persona et a qualibet. Dico
+      abso<lb ed="#L" n="62" break="no"/>lute quod persone diuine sunt equales secundum potentiam 
+      <lb ed="#L" n="63"/>sRatio autem quare sancti sic vtebantur fuit ista. 
+      <lb ed="#L" n="64"/>qui ipsi loquebantur contra hereticos volentes fi 
+      <lb ed="#L" n="65"/>lium non esse omnipotentem: sed esse impotentiorem patre 
+      <lb ed="#L" n="66"/>et imperfectiorem et minorem. et ideo sancti oipotentiam 
+      <lb ed="#L" n="67"/>que necessario conuenit cuilibet perfectissimo: cui 
+      <lb ed="#L" n="68"/>libet persone attribuebant. et ideo quia potentia ge 
+      <lb ed="#L" n="69"/>nerandi vel spirandi non conuenit cuilibet
+      perfectis<lb ed="#L" n="70" break="no"/>simo: quia aliquis poterit esse perfectissimus. et si non 
+      <lb ed="#L" n="71"/>possit generare vel spirare. ideo talem potentiam 
+      <lb ed="#L" n="72"/>non comprehendebant sub potentia. nec sub
+      omnipoten<lb ed="#L" n="73" break="no"/>tia. quando dicebant quod persone diuine sunt equales secundum 
+      <lb ed="#L" n="74"/>potentiam. et quod quaelibet persona est omipotens.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e373">
+      ⁋ Istud 
+      <lb ed="#L" n="75"/>patet per magistrum in littera vbi dicit sic.
+      Scien<lb ed="#L" n="76" break="no"/>dum est quod non est omnipotentior pater filio. nec pater 
+      <lb ed="#L" n="77"/>vel filius spiritu sancto. nec maiorem potentiam habent duo 
+      <lb ed="#L" n="78"/>vel tres simul quam singulus eorum. Et sequitur quod au 
+      <lb ed="#L" n="79"/>gustinus rationibus et auctoritatibus probabiliter 
+      <lb ed="#L" n="80"/>astruit in libro contra maximinum. quae dicebat
+      pa<lb ed="#L" n="81" break="no"/>trem potentiorem et meliorem filio. Ex quo patet. quod san 
+      <lb ed="#L" n="82"/>cti asserentes equalitatem secundum omnipotentiam et potentiam 
+      <lb ed="#L" n="83"/>de personis diuinis loquebantur contra hereticos 
+      <lb ed="#L" n="84"/>dicentes potentiorem patre esse et meliorem filio. qua 
+      <lb ed="#L" n="85"/>si aliquid posset ad extra pater quod non posset filius 
+      <lb ed="#L" n="86"/>hoc etiam patet per beatum Augustinum libro tertio 
+      <lb ed="#L" n="87"/>contra maximinum. et magister allegat in littera di 
+      <lb ed="#L" n="88"/>cens.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e406">
+      ⁋ Sed forte diceres. scilicet maximine heretice. ess 
+      <lb ed="#L" n="89"/>ipso pater maior est quia de nullo genitus. genuit tamen 
+      <lb ed="#L" n="90"/>equalem.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e413">
+      ⁋ Ad quod cito respondebo: immo ido non est 
+      <lb ed="#L" n="91"/>pater maior filio. quia equalem sibi genuit originis 
+      <lb ed="#L" n="92"/>enim est quaestio illa quaes de quo genitus sit. equalitatis 
+      <lb ed="#L" n="93"/>autem qualis aut quantus sit. vult dicere quod quando quaeri 
+      <lb ed="#L" n="94"/>tur. an pater sit equalis filio. non est quaestio de origine. 
+      <lb ed="#L" n="95"/>an filius sit a patre. sed est quaestio qualis aut
+      quan<lb ed="#L" n="96" break="no"/>tus sit filius. hoc est an sit ita perfectus et omnia 
+      <lb ed="#L" n="97"/>alia potens sicut patur. quia penes talia attenditur 
+      <lb ed="#L" n="98"/>equalitas. non penes hoc quod sit vnus ab alio. Et ideo 
+      <lb ed="#L" n="99"/>dicit beatus Augustinus. Nec cum dicitur filius a patre 
+      <lb ed="#L" n="100"/>genitus ostenditur inequalitas substanti. sed ordo nature. non 
+      <lb ed="#L" n="101"/>quo alter esset prior altero. sed quo alter ex altero est 
+      <lb ed="#L" n="102"/>Ex quo patet. quod quaestio principalis est de equalitate 
+      <lb ed="#L" n="103"/>secundum potentiam. ex qua sequitur equalitas vel
+      inequali<lb ed="#L" n="104" break="no"/>tas secundum perfectionem. et similiter propter dicta hereticorum 
+      <lb ed="#L" n="105"/>Et ideo dicit magister non secundum hoc quod genuit patr et 
+      <lb ed="#L" n="106"/>filius genitus est vel spiritus sacuns. ab vtroque procedit 
+      <lb ed="#L" n="107"/>equalitas ibi exit. quia non secundum hoc aliqua persona 
+      <lb ed="#L" n="108"/>alii equalis vel inequalis dicitur
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e455">
+      ⁋ Circa tertium scien 
+      <lb ed="#L" n="109"/>dum. quod beatus augustinus libro tertio cotra
+      maxi<lb ed="#L" n="110" break="no"/>minum probat equalitatem filii ad patrem. Primo per 
+      <!--412.xml-->
+      <pb ed="#L" n="205-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>auc. saluatoris. Iohis. xvi. omnia quae habet pater. mea 
+      <lb ed="#L" n="2"/>sunt. sed omnipotentiam habet pater. ergo omnipotentiam habet filius. et per 
+      <lb ed="#L" n="3"/>consequens est patri equalis secundum potentiam. Secundo arguit 
+      <lb ed="#L" n="4"/>per rationem. si piater non genuit filium sibi equalem. aut hoc 
+      <lb ed="#L" n="5"/>fuit quia noluit. vel quia non potuit. si detur primum fuit 
+      <lb ed="#L" n="6"/>inuidus. si detur secundum ergo fuit impotens. quorum vtrum 
+      <lb ed="#L" n="7"/>que est inconueniens.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e484">
+      ⁋ Tertio arguit per simile. quia pat 
+      <lb ed="#L" n="8"/>carnalis si posset generaret filium sibi equalem. ergo
+      mul<lb ed="#L" n="9" break="no"/>tomagis pater eternus si posset generaret filium sibi equa 
+      <lb ed="#L" n="10"/>lem. sed hominem non generare filium sibi equalem argum 
+      <lb ed="#L" n="11"/>it impotentiam. ergo et deum illud non posse argu 
+      <lb ed="#L" n="12"/>it impotentiam in eodem.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e498">
+      ⁋ Iste rationes partim 
+      <lb ed="#L" n="13"/>tenent per auctoritatem. partim per propositiones 
+      <lb ed="#L" n="14"/>naturaliter notas. partim simpliciter fundantur in 
+      <lb ed="#L" n="15"/>auctoritate que sic est intelligenda. quod omnia quae habet pater 
+      <lb ed="#L" n="16"/>quae non habere ponit imperfectionem in non habente habet 
+      <lb ed="#L" n="17"/>filius. et ideo quia non habere omnipotentiam de qua loquitur 
+      <lb ed="#L" n="18"/>beatus Aug. ponit in non habente imperfectionem. ideo 
+      <lb ed="#L" n="19"/>eam habet filius. Unde Augu. non intendit aliud probare 
+      <lb ed="#L" n="20"/>de filio. nisi cuius carentia non potest esse sine imperfectione 
+      <lb ed="#L" n="21"/>et ideo quia carentia potentie generandi non ponitin ca 
+      <lb ed="#L" n="22"/>rente imperfectionem non potest ex auctoritate saluatoris 
+      <lb ed="#L" n="23"/>potentia generandi concludi de filio. Secunda ratio et 
+      <lb ed="#L" n="24"/>tertia fundantur in auctoritate quam concessit maximinus 
+      <lb ed="#L" n="25"/>scilicet quod deus pater genuit filium naturalem et in propositione 
+      <lb ed="#L" n="26"/>naturaliter nota. quia numquam tanta perfectio repugnat 
+      <lb ed="#L" n="27"/>formaliter filio naturali quamn ta est in patre naturali. 
+      <lb ed="#L" n="28"/>sed quod filius naturalis est imperfectior patre. vel est ex 
+      <lb ed="#L" n="29"/>impotentia patris. quia non potest statim deducere filium 
+      <lb ed="#L" n="30"/>ad perfectionem equalem quam habet vel ex nolitione qua 
+      <lb ed="#L" n="31"/>non vult habere filium sibi equalem vel parem. et ideo non 
+      <lb ed="#L" n="32"/>adhibet omnem diligentiam et virtutem quam potvt
+      fili<lb ed="#L" n="33" break="no"/>us perfectus producatur. Ex istis arguit beatus aug. 
+      <lb ed="#L" n="34"/>qui ex quo etiam secundum maximinum. pater genuit filium na 
+      <lb ed="#L" n="35"/>turalem. ideo filio non repugnat formaliter tanta perfe 
+      <lb ed="#L" n="36"/>ctio quanta est in patre. et per consequens carentia tante perfectio 
+      <lb ed="#L" n="37"/>nis non potest competere ex se. ergo aliunde. et certum est 
+      <lb ed="#L" n="38"/>quod non nisi ex patre. sed ex patre non potuit sibi competere 
+      <lb ed="#L" n="39"/>nisi vel propter impotentiam patris. quia non fuit potens 
+      <lb ed="#L" n="40"/>sibi dare perfectionem sibi non repugnantem ex
+      natu<lb ed="#L" n="41" break="no"/>ra. Uel propter inuidiam patris. quia noluit habere filium 
+      <lb ed="#L" n="42"/>sibi equalem. cui tamen non repugnat equalis perfectio. 
+      <lb ed="#L" n="43"/>Et ita ex dictis patet quod scient solum loquebantur de
+      equali<lb ed="#L" n="44" break="no"/>tate secundum potentiam quam consequitur equalitas secundum
+      perfe<lb ed="#L" n="45" break="no"/>ctionem. et talis est equalitas secundum potentiam quae respi 
+      <lb ed="#L" n="46"/>cit factibilia exra et eodem modo de tali omipotentia lo 
+      <lb ed="#L" n="47"/>quebantur et non de alia. Et ratio ad hoc mouit eos. quia 
+      <lb ed="#L" n="48"/>de tali potentia et omnipotentia loquebantur tam philosophi quam 
+      <lb ed="#L" n="49"/>heretici contra quos sancti disputabant.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e581">
+      ⁋ Sed  
+      <lb ed="#L" n="50"/>praedicta sunt aliqua dubia. Primum quid sit ista
+      equali<lb ed="#L" n="51" break="no"/>tas. an sit aliquod absolutum vel respectus quidam 
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e588">
+               <lb ed="#L" n="52"/>⁋ Secudum quia videtur quod potentia generandi sit secundum se 
+      <lb ed="#L" n="53"/>quedam potentia. et per consequens quicumque caret illa
+      poten<lb ed="#L" n="54" break="no"/>tia. aliqua potentia caret. et ita filius non haberet omipo 
+      <lb ed="#L" n="55"/>tentiam. Assumptum patet quia omnipotentia est ad omne id  
+      <!--412.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 205-r -->
+               <lb ed="#L" n="56"/>quod non includit contradictionem. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e608">
+      ⁋ Tertium
+      du<lb ed="#L" n="57" break="no"/>bium est cum sit haec quedam distributio cum dicitur
+      oimpo<lb ed="#L" n="58" break="no"/>tentia quid distribuitur. et pro quo fit distributio. 
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e615">
+               <lb ed="#L" n="59"/>⁋ Ad primum istorum dico quod ista equalitas non est aliquod 
+      <lb ed="#L" n="60"/>tale absolutum vel respectus. sicut hominis communiter yma 
+      <lb ed="#L" n="61"/>ginantur. immo stricte et de virtute serumonis loquen 
+      <lb ed="#L" n="62"/>do equalitatem potentie esse in diuinis personis non 
+      <lb ed="#L" n="63"/>debet aliter intelligi quam quod concretum equalitatis vere
+      praedi<lb ed="#L" n="64" break="no"/>catur de divinis personis. vt haec sit simpliciter vera. persone 
+      <lb ed="#L" n="65"/>sunt equales. et ita dico proportionabiliter quod sub tali 
+      <lb ed="#L" n="66"/>intellectu potentiam esse in deo hoc est quod hoc sit
+      sim<lb ed="#L" n="67" break="no"/>pliciter vera. deus poest creare vel producere. 
+      <lb ed="#L" n="68"/>et sic intelligunt sancti quando dicunt equalitatem esse in 
+      <lb ed="#L" n="69"/>divinis. et potentiam et etnitatem et incorruptibilita 
+      <lb ed="#L" n="70"/>tem et huiusmodi. quia deus vere est eternus creatiuus. 
+      <lb ed="#L" n="71"/>et sic de aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e646">
+      ⁋ Ad secundum dico quod accipiendo po 
+      <lb ed="#L" n="72"/>tentiam sicut sci accipiunt. sic potentia generandi non 
+      <lb ed="#L" n="73"/>est potentia. sicut nec potentia generandi est perfectio 
+      <lb ed="#L" n="74"/>Et si dicatur quod secundum beatum Aug. sequitur si pater non
+      po<lb ed="#L" n="75" break="no"/>test generare filium sibi equalem. ergo est impotens. ergo posse 
+      <lb ed="#L" n="76"/>generare est simpliciter posse. Dico quod consequentia est bona. quod 
+      <lb ed="#L" n="77"/>si piater non potest generare filium sibi equalem. ergo est
+      impo<lb ed="#L" n="78" break="no"/>tens. sed ex hoc non sequitur quod posse generare est posse. 
+      <lb ed="#L" n="79"/>sicut modo loquimur. sicut bene sequitur. pater non est deus. ergo 
+      <lb ed="#L" n="80"/>est impotens. vel ergo non est omipotens. et tamen ex hoc no 
+      <lb ed="#L" n="81"/>sequitur quod deus est quoddam posse.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e671">
+      ⁋ Ad probationem 
+      <lb ed="#L" n="82"/>dico quod omnipotentia sicut modo loquimur non respicit 
+      <lb ed="#L" n="83"/>omne illud quod non includit contradictionem. hoc est
+      di<lb ed="#L" n="84" break="no"/>ctum quod omnipotens non potest efficere omne illud quod non in 
+      <lb ed="#L" n="85"/>cludit contradictionem. quia non potest efficere deum.
+      omnipo<lb ed="#L" n="86" break="no"/>tens tamen potest efficere omne factibile quod non includit 
+      <lb ed="#L" n="87"/>contradictionem. et omne aliud a deo quod non includit contra 
+      <lb ed="#L" n="88"/>dictionem.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e689">
+      ⁋ Ad tertium dicitur quod fit haec distributio pri 
+      <lb ed="#L" n="89"/>mo pro potentia per equiualentiam. quia primum distributum 
+      <lb ed="#L" n="90"/>hic est potentia. quae est terminus vniversalis secundum equiualenu 
+      <lb ed="#L" n="91"/>tiam. Et secundario fit distributio pro obiecto 
+      <lb ed="#L" n="92"/>possibili. Sed quia hoc non est logice dictum. nolo 
+      <lb ed="#L" n="93"/>insistere ad improbandum. Sed dico quod
+      omnipo<lb ed="#L" n="94" break="no"/>tentia est vnum nomen equiualens vni signo distri 
+      <lb ed="#L" n="95"/>butiuo et suo distribuibili cum vno alio termino 
+      <lb ed="#L" n="96"/>in recto. quia omnipotens idem est quod potens
+      fa<lb ed="#L" n="97" break="no"/>cere omnia factibilia. ita quod hoc factibile vel
+      factibi<lb ed="#L" n="98" break="no"/>lia distribuuntur. et non potentia. nec secundum potentiam vniversalis 
+      <lb ed="#L" n="99"/>nec secundum praedicationem nec secundum causalitatem. nec secundum perfe 
+      <lb ed="#L" n="100"/>ctionem. quia si essent duo dii omipotentes de vtroque
+      di<lb ed="#L" n="101" break="no"/>ceretur quod esset omipotens. et tamen neutrius potentia. 
+      <lb ed="#L" n="102"/>contineret potentiam alterius per talem superequiua 
+      <lb ed="#L" n="103"/>lentiam perfectionalem.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e724">
+      ⁋ Ad primum principale dico 
+      <lb ed="#L" n="104"/>quod accipiendo potentiam illo modo quo
+      loqui<lb ed="#L" n="105" break="no"/>mur ad presens posse producere diuinam
+      per<lb ed="#L" n="106" break="no"/>sonam nec est minoris potentie. nec maioris. 
+      <lb ed="#L" n="107"/>nec equalis quam posse producere creaturam. quia 
+      <lb ed="#L" n="108"/>non est posse. sicut nec posse esse deum est
+      pos<lb ed="#L" n="109" break="no"/>se.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e740">
+      ⁋ hoc est posse producere diuinam personam non 
+      <lb ed="#L" n="110"/>est posse efficere aliquod factibile. tamen tale 
+      <!--413.xml-->
+      <pb ed="#L" n="205-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>posse bene infert maximam potentiam
+      compe<lb ed="#L" n="2" break="no"/>tere illi quod potest producere creaturam. ita 
+      <lb ed="#L" n="3"/>intelligere omnia et esse deum infert maximam
+      poten<lb ed="#L" n="4" break="no"/>tentiam competere illi.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e760">
+      ⁋ Ad secundum dico quod filius est 
+      <lb ed="#L" n="5"/>omipotens. sed ex hoc non sequitur quod habet potentiam 
+      <lb ed="#L" n="6"/>generandi. Et quando dicitur. sequitur est nulli potens. ergo non 
+      <lb ed="#L" n="7"/>habet potentiam generandi concedo. sed ex hoc non 
+      <lb ed="#L" n="8"/>sequitur aliam consequentiam esse bonam. nisi hic argueretur a 
+      <lb ed="#L" n="9"/>superiori ad inferius. quod non est verum. sicut nec hoc 
+      <lb ed="#L" n="10"/>arguitur a superiori ad inferius. pater est nullipotens. 
+      <lb ed="#L" n="11"/>ergo pater non est filius. et ideo non sequitur affirmatiue. 
+      <lb ed="#L" n="12"/>peitur est omnipotens. ergo pater est filius.
+    </p>
+            <p xml:id="wo8uy7-d1e1172-d1e780">
+      ⁋ Per hoc ad
+      confir<lb ed="#L" n="13" break="no"/>matione. quia hic non arguitur a superiori ad inferius 
+      <lb ed="#L" n="14"/>filius nullam habet potentiam. ergo non habet potentiam gene 
+      <lb ed="#L" n="15"/>randi. quia potentia generandi non est inferius ad dis 
+      <lb ed="#L" n="16"/>tributum in anecedente. quamuis illa consequentia sit bona et
+      tene<lb ed="#L" n="17" break="no"/>at per aliam propositionem scilicet istam. illud quod nullam
+      ha<lb ed="#L" n="18" break="no"/>bet potentiam non est deus. et per consequens non potest 
+      <lb ed="#L" n="19"/>generare deum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="154-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e682"><!-- l1d7q3 -->
+            <head xml:id="wo8uy7-d1e682-Hd1e108">Quaestio 3</head>
+            <p xml:id="wo8uy7-d1e682-d1e111">
+               <lb ed="#L" n="4"/>Questio tertia. 
+      <lb ed="#L" n="5"/>Tertio quero utrum 
+      <lb ed="#L" n="6"/>potentia generandi possit communicari filio 
+      <lb ed="#L" n="7"/>a patre. Et videtur quod sic. omnis perfectio 
+      <lb ed="#L" n="8"/>simpliciter communicatur filio a patre. sed generatio est perfe 
+      <lb ed="#L" n="9"/>ctio simpliciter. ergo etc. Maior est manifesta. quia
+      ali<lb ed="#L" n="10" break="no"/>esset aliqua perfectio simpliciter in patre que non esset in filio 
+      <lb ed="#L" n="11"/>Minor patet. quia agere est perfectio smplicitr. ergo multo 
+      <lb ed="#L" n="12"/>fortius generare erit perfectio simpliciter. cum agere sit 
+      <lb ed="#L" n="13"/>commune deo a creaturis. et generare sit proprium soli deo. 
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e135">
+               <lb ed="#L" n="14"/>⁋ Ad questionem dicitur quod potentia gnerandi non potest 
+      <lb ed="#L" n="15"/>communicari filio. ita quod generet alium filium. quia non possunt 
+      <lb ed="#L" n="16"/>esse plures filii in divinis.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e144">
+      ⁋ Et probatur hoc per quattuor 
+      <lb ed="#L" n="17"/>rationes. quarum prima sumitur ex parte relationum 
+      <lb ed="#L" n="18"/>quibus persone distinguntur. quia non possunt esse plures 
+      <lb ed="#L" n="19"/>filiationes nisi secundum materialem earum distinctionem 
+      <lb ed="#L" n="20"/>qui forme vnius speciei non multiplicantur nisi secundum ma 
+      <lb ed="#L" n="21"/>teriam quae non est in divinis. ideo in divinis non potest 
+      <lb ed="#L" n="22"/>esse nisi tantum vna filiatio. et filiatio subsistens non 
+      <lb ed="#L" n="23"/>posset esse nisi vna. Secunda ratio sumitur ex parte pro 
+      <lb ed="#L" n="24"/>cessionum. quia deus omnia intelligit et vult vno sim 
+      <lb ed="#L" n="25"/>plici actu. Unde non potest esse nisi vna persona proce 
+      <lb ed="#L" n="26"/>dens per modum verbi quod est filius. et vna tantum per modum 
+      <lb ed="#L" n="27"/>amoris quae est spiritus sanctus
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e170">
+      ⁋ Tertia sumitur ex modo 
+      <lb ed="#L" n="28"/>procedendi. quia persone procedut naturaliter. natura autem 
+      <lb ed="#L" n="29"/>determinatur ad vnum.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e178">
+      ⁋ Quarta sumitur ex perfectione 
+      <lb ed="#L" n="30"/>diuinarum personarum. ex hoc enim est perfectus filius. quia 
+      <lb ed="#L" n="31"/>tota filiatio divina in eo continetur.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e185">
+      ⁋ Sed iste rationes 
+      <lb ed="#L" n="32"/>non valent. Prima non. quia arguit ex falsis. hec ei 
+      <lb ed="#L" n="33"/>falsa est. quod forme vnius speciei non multiplicantur 
+      <lb ed="#L" n="34"/>nisi secundum materiam. patet enim hoc esse falsum de multis 
+      <lb ed="#L" n="35"/>intellectionibus in eodem angelo saltem successiue. et 
+      <lb ed="#L" n="36"/>etiam de multis habitibus voluntatis obiectorum
+      eiusdem<lb ed="#L" n="37" break="no"/>speciei simul. nam voluntas simul in diuersis habitibus
+      affi<lb ed="#L" n="38" break="no"/>citur ad diuersa obiecta eiusdem speciei.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e203">
+      ⁋ Preterea 
+      <lb ed="#L" n="39"/>sicut patebit in secundo plures angeli sunt in eadem 
+      <lb ed="#L" n="40"/>specie vel saltem esse possunt per diuinam potentiam. et tamen 
+      <lb ed="#L" n="41"/>carent materia etiam secundum eos.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e212">
+      ⁋ Preterea si forme 
+      <lb ed="#L" n="42"/>multiplicantur vel distinguuntur secundum materiam. aut 
+      <lb ed="#L" n="43"/>tanquam per principium distinctiuum intrinsecum aut ex 
+      <lb ed="#L" n="44"/>trinsecum non primo modo certum est. quia materia non est 
+      <lb ed="#L" n="45"/>intrinseca ipsi forme. Si tamquam per principium distin 
+      <lb ed="#L" n="46"/>ctiuum extrinsecum. ergo ex multiplicatione numerali 
+      <lb ed="#L" n="47"/>formarum non potest arguere multiplicationem nume 
+      <lb ed="#L" n="48"/>ralem materie. quia cum vnitate principii distinctionis 
+      <lb ed="#L" n="49"/>extrinseci stat multiplicitas distinctorum. et
+      ma<lb ed="#L" n="50" break="no"/>xime numeralis. quameuis aliquando tale extrinsecum non 
+      <lb ed="#L" n="51"/>possit esse vnum et alia plusa.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e236">
+      ⁋ Preterea secundum istos primum 
+      <lb ed="#L" n="52"/>principium indinduationis est quantitas. ergo quantitates prime 
+      <lb ed="#L" n="53"/>distinguuntur numeraliter et seipsis distinguuntur. sed quantita 
+      <lb ed="#L" n="54"/>tes sunt forme. ergo aliqua forme seipsis et non per materiam 
+      <!--310.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 154-r -->
+               <lb ed="#L" n="55"/>distinguntur. Ex hoc arguo vltra. quandocunque aliqua 
+      <lb ed="#L" n="56"/>forme seipsis primo distinguntur. ille forme possunt di 
+      <lb ed="#L" n="57"/>stingui circumscripto omni eo quod non est intrinsecum 
+      <lb ed="#L" n="58"/>alicui earum. et maxime a quo possunt separari: sed
+      quantita<lb ed="#L" n="59" break="no"/>tes seipsis distinguuntur numeraliter et possunt seprari 
+      <lb ed="#L" n="60"/>a materia. ergo omni materia circumscripta adhuc
+      di<lb ed="#L" n="61" break="no"/>stinguerentur. ergo non distinguntur per materiam.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e267">
+      ⁋ Pre 
+      <lb ed="#L" n="62"/>terea. forma existens in actu. aut est de se hec aut 
+      <lb ed="#L" n="63"/>non. si sic. ergo non indiuidua per materiam. et per consequens nec 
+      <lb ed="#L" n="64"/>multiplicatur per materiam si non sit de se hec. et
+      cer<lb ed="#L" n="65" break="no"/>tum est quod est vna. ergo est de se vna aliqua vnitate
+      mi<lb ed="#L" n="66" break="no"/>nori quam sit vnitas numeralis. quod isti neganti⁋
+      Con<lb ed="#L" n="67" break="no"/>firmatur. quia forma non est in actu per materiam. sed ma 
+      <lb ed="#L" n="68"/>gis econuerso secundum istos. ergo nec habet vnitatem realem 
+      <lb ed="#L" n="69"/>a materia. et tamen aliqua vnitas immediate sequitur
+      for<lb ed="#L" n="70" break="no"/>mam in actu. et non vnitas numeralis. quia per te vni 
+      <lb ed="#L" n="71"/>tas numeralis non est nisi per materiam. ergo est aliqua 
+      <lb ed="#L" n="72"/>alia vnitas realis praeter vnitatem numeralem. Prima 
+      <lb ed="#L" n="73"/>consequentia patet secundum istos. quia vnumquoque sic se habet ad vnita 
+      <lb ed="#L" n="74"/>tem sicut ad entitatem. ergo sicut forma non est ens actu per 
+      <lb ed="#L" n="75"/>materiam. ita nec est vna per materiam.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e301">
+      ⁋ Si dicatur 
+      <lb ed="#L" n="76"/>quod forma est aliquo modo in actu per materiam inquantum 
+      <lb ed="#L" n="77"/>materia sustentat formam. et ita aliquo modo forma 
+      <lb ed="#L" n="78"/>indiuiduatur per materiam.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e310">
+      ⁋ Contra. verius materia 
+      <lb ed="#L" n="79"/>est in actu per formam quam econuerso. Similiter secundum commen. 
+      <lb ed="#L" n="80"/>icet phi. etiam forma sustentat materiam. ergo non plus
+      in<lb ed="#L" n="81" break="no"/>diuiduatur forma per materiam quam econuerio. Simili 
+      <lb ed="#L" n="82"/>ter vtrumque est in actu per agens extrinsecum tanquam 
+      <lb ed="#L" n="83"/>per causam quae est causa vtriusque. et tamen quia est extrinsecum. no 
+      <lb ed="#L" n="84"/>dicitur quod est causa indiuiduans. illo modo quo nunc loqui 
+      <lb ed="#L" n="85"/>mur de causa indiuiduationis. ergo eodem modo cum
+      mate<lb ed="#L" n="86" break="no"/>ria sit extrinseca forme. nullo modo forma est
+      indi<lb ed="#L" n="87" break="no"/>uidualis per materiam.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e332">
+      ⁋ Si dicatur quod quamuis sit extrin 
+      <lb ed="#L" n="88"/>seca forme sicut efficies tamen determinata forma requi 
+      <lb ed="#L" n="89"/>rit determinatam materiam. non sic requirit
+      determina<lb ed="#L" n="90" break="no"/>tum agens. hoc non valet. tum quia determinata forma 
+      <lb ed="#L" n="91"/>potest esse in diuersis materiis. saltem per diuinam po 
+      <lb ed="#L" n="92"/>tentiam. ergo non est ex natura forme quod determinata 
+      <lb ed="#L" n="93"/>forma sit in determinata materia. sed ex limitatio 
+      <lb ed="#L" n="94"/>ne vel imperfectione agentis vel alicuius alterius. tum 
+      <lb ed="#L" n="95"/>qui anima intellectiua in nutritione informat
+      diuer<lb ed="#L" n="96" break="no"/>sas materias. ergo non plus ex natura forme vel
+      ma<lb ed="#L" n="97" break="no"/>terie. determinata forma requirit determinatam
+      ma<lb ed="#L" n="98" break="no"/>teriam. quam determinata materia determinatam formam 
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e358">
+               <lb ed="#L" n="99"/>⁋ Secunda ratio non valet. quia si propter hoc quod deus intelligit 
+      <lb ed="#L" n="100"/>vno actu simplici et omnia vult vno actu simplici 
+      <lb ed="#L" n="101"/>non potest esse nisi vna persona procedens per modum ver 
+      <lb ed="#L" n="102"/>bi etc. eadem ratione. quia omnia intelligit et vult vno actu 
+      <lb ed="#L" n="103"/>simplici. ita scilicet quod actus intelligendi et actus volendi 
+      <lb ed="#L" n="104"/>est vnus actus simplex et indistinctus. non potest esse
+      nisi<lb ed="#L" n="105" break="no"/>vna persona procedens per modum illius actus.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e376">
+      ⁋ Si dica 
+      <lb ed="#L" n="106"/>tur quod quamuis sint vnus actus. quia tamen actus intelligendi et 
+      <lb ed="#L" n="107"/>actus volendi distinguntur ratione. ideo erunt due persone
+      pro<lb ed="#L" n="108" break="no"/>cedentes.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e385">
+      ⁋ Contra. ex distinctione principii elicitiui 
+      <lb ed="#L" n="109"/>non formaliter arguitur maior distinctio in principia 
+      <!--311.xml-->
+      <pb ed="#L" n="154-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tis quam sit in principio. quameuis aliquando sit maior. ergo 
+      <lb ed="#L" n="2"/>ex distinctione rationis inter actum intelligendi et vo 
+      <lb ed="#L" n="3"/>lendi non potest argui nisi distinctio rationis inter
+      per<lb ed="#L" n="4" break="no"/>sonam procedentem per modum verbi et personam procedentem 
+      <lb ed="#L" n="5"/>per modum amoris.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e408">
+      ⁋ Preterea sicut secundum istos actus 
+      <lb ed="#L" n="6"/>intelligendi et volendi distinguuntur ratione. ita
+      na<lb ed="#L" n="7" break="no"/>tura et actus intelligendi distinguntur ratione. ergo 
+      <lb ed="#L" n="8"/>si propter distinctionem rationis ex vna parte oportet ponere 
+      <lb ed="#L" n="9"/>distinctas personas. ita propter distinctionem ex alia 
+      <lb ed="#L" n="10"/>parte oporteret ponere distinctas.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e421">
+      ⁋ Tertia ratio non 
+      <lb ed="#L" n="11"/>valet. quia ex detminatione nature non potest argui 
+      <lb ed="#L" n="12"/>nisi necitas in producto. si principium sit simpliciter im 
+      <lb ed="#L" n="13"/>mutabile non dependens in producendo. non aut potest 
+      <lb ed="#L" n="14"/>argui vnitas producti. ergo non potest argui ex illo 
+      <lb ed="#L" n="15"/>medio. nisi quod filius neccessario producitur. non quod plures
+      fi<lb ed="#L" n="16" break="no"/>lii non producantur. Preterea alias probatum est quod natura 
+      <lb ed="#L" n="17"/>non determinatur ad vnum plus quam voluntas. immo
+      mi<lb ed="#L" n="18" break="no"/>nus quam voluntas creata. quia natura sine omni
+      diuer<lb ed="#L" n="19" break="no"/>sitate potest in plura. voluntas autem respectu actu 
+      <lb ed="#L" n="20"/>um exteriorum non potest plura nisi praeuia aliqua diuer 
+      <lb ed="#L" n="21"/>sitate. Quarta ratio non valet. quia illo posito non 
+      <lb ed="#L" n="22"/>essent magis perfecte duo filii quam vnus filius. sed nec 
+      <lb ed="#L" n="23"/>plures persone maiorem perfectionem includunt quam vna 
+      <lb ed="#L" n="24"/>Aliter dico ad quaone quod magis tenendum est propter 
+      <lb ed="#L" n="25"/>auctoritate sacre scripture quod filius non potest generare. quam pro 
+      <lb ed="#L" n="26"/>pter rationem. Ad hoc tamen adduco aliquis persuasiones. 
+      <lb ed="#L" n="27"/>Primo sic. Impossibile est in eodem fundamento 
+      <lb ed="#L" n="28"/>esse plures relationes omnino eiusdem rationis nisi propter 
+      <lb ed="#L" n="29"/>diuersitatem absolutorum in terminis. patet inductiue 
+      <lb ed="#L" n="30"/>sedin diuinis non sunt diuersa absoluta. ergo 
+      <lb ed="#L" n="31"/>nec diuerse relationes scilicet diuerse filiatio 
+      <lb ed="#L" n="32"/>nes vel diuerse paternitates.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e471">
+      ⁋ Preterea idem 
+      <lb ed="#L" n="33"/>agens vel producens naturale et totale non potest 
+      <lb ed="#L" n="34"/>producere de eodem nisi vnum vnius rationis. nec esse 
+      <lb ed="#L" n="35"/>principium productiuum nisi vnius omnino eiusdem rationis. 
+      <lb ed="#L" n="36"/>ergo essentia non potest esse tale principium productiuum
+      plu<lb ed="#L" n="37" break="no"/>rium filiorum.
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e484">
+      ⁋ Preterea quando aliqua sunt omnino eiusdem
+      ratio<lb ed="#L" n="38" break="no"/>nis nihil est compossibile vni quin aliquid simile sit con 
+      <lb ed="#L" n="39"/>possibile alteri. sicut nihil est compossibile isti calo 
+      <lb ed="#L" n="40"/>ri vel asino. quin aliquid simile sit vel fuerit
+      compossibi<lb ed="#L" n="41" break="no"/>le alteri omnino eiusdem rationis. sed si filius generaret. et 
+      <lb ed="#L" n="42"/>illi tunc paternitati esset compossibilis. filiatio. ergo aliqua
+      fi<lb ed="#L" n="43" break="no"/>liatio esset compossibilis primo patri vel prime prrnitati 
+      <lb ed="#L" n="44"/>et per consequens primus pater esset filius. quod est impossibile. quia non 
+      <lb ed="#L" n="45"/>esset tunc primus pater. Thulta alia dubia et instantie 
+      <lb ed="#L" n="46"/>multe patebunt postea. de quaibus transeo modo.  
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e506">
+               <lb ed="#L" n="47"/>⁋ Ad argumentum principale dico quod perfectio sim 
+      <lb ed="#L" n="48"/>liciter accipitur. vel pro aliqua perfectione quae est simpliciter sum 
+      <lb ed="#L" n="49"/>ma et infinita carens et impossibilis omni
+      imperfectioni<lb ed="#L" n="50" break="no"/>et isto modo generatio est perfectio simpliciter. Uel quia est 
+      <lb ed="#L" n="51"/>in quolibet simpliciter perfecto. vel vere competit cui 
+      <lb ed="#L" n="52"/>libet simpliciter perfecto. hoc est omni supposito simpliciter per 
+      <lb ed="#L" n="53"/>fecto. et isto modo nulla relatio in divinis est perfecto 
+      <lb ed="#L" n="54"/>simpliciter
+    </p>
+            <p xml:id="wo8uy7-d1e682-d1e526">
+      ⁋ Et si dicatur quod secundum primum modum
+      aliquaperfe<lb ed="#L" n="55" break="no"/>ctio simpliciter esset in patre quae non esset in filio. Respondeo. 
+      <!--311.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 154-v -->
+               <lb ed="#L" n="56"/>dupliciter. Uno modo concedo sic accipiendo
+      perfe<lb ed="#L" n="57" break="no"/>ctionem simpliciter nec est inconueniens. Aliter potest 
+      <lb ed="#L" n="58"/>dici quod non sequitur. paternitas est perfectio simpliciter 
+      <lb ed="#L" n="59"/>et paternitas non est in filio. ergo aliqua perfectio 
+      <lb ed="#L" n="60"/>simplicitur non est in filio. sicut non sequitur.
+      pater<lb ed="#L" n="61" break="no"/>nitas non est in filio. paternitas est essentia vel 
+      <lb ed="#L" n="62"/>deus. ergo essentia vel deus non est in filio. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

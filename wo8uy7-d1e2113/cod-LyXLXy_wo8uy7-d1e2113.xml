@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18(22)</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18(22)</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="331-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e2113"><!-- l2q18(22) -->
+            <head xml:id="wo8uy7-d1e2113-Hd1e108">Quaestio 18(22)</head>
+            <p xml:id="wo8uy7-d1e2113-d1e111">
+               <lb ed="#L" n="81"/>UTrum in celo sit 
+      <lb ed="#L" n="82"/>materiam eiusdem rationis cum materia 
+      <lb ed="#L" n="83"/>istorum inferiorum
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e120">
+      ⁋ Et dicitur communiter quod non 
+      <lb ed="#L" n="84"/>quod probatur multipliciter. Primo sic. Quod 
+      <lb ed="#L" n="85"/>materia istorum inferiorum est in potentia formaliter ad  
+      <lb ed="#L" n="86"/>aliam formam quam non habet et prauatur ea et habet
+      ap<lb ed="#L" n="87" break="no"/>petitum ad eam. et ideo vnumquoque tale est generabile 
+      <lb ed="#L" n="88"/>et corruptibile. si ergo sit materia in celo eiusdem ratio 
+      <lb ed="#L" n="89"/>nis: tunc illa materia haberet omnes istas proprieta 
+      <lb ed="#L" n="90"/>tes. et per consequens materia celi posset recipere aliam for 
+      <lb ed="#L" n="91"/>mam. et sic esset corruptibilis.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e140">
+      ⁋ Item omni potentie 
+      <lb ed="#L" n="92"/>passiue correspondet potentia activa naturalis. si ergo 
+      <lb ed="#L" n="93"/>sit materia eiusdem etc. Cum omnis potentia materie 
+      <lb ed="#L" n="94"/>ad formam in istis inferioribus potest reduci ad actum 
+      <lb ed="#L" n="95"/>per agens naturale creatum. ergo posset corrumpere
+      ce<lb ed="#L" n="96" break="no"/>sum: quod est filatum.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e153">
+      ⁋ Item in cuius natura est intrinsecum 
+      <lb ed="#L" n="97"/>quod est causa transmutationis et corruptionis: illud non 
+      <lb ed="#L" n="98"/>habet causam sufficientem intra se intransmutabilitatis: sed 
+      <lb ed="#L" n="99"/>si materia celi sit eiusdem rationis cum materia istorum 
+      <lb ed="#L" n="100"/>inferiorum c cum illa sit causa transmutationis et
+      corru<lb ed="#L" n="101" break="no"/>ptionis )o sequitur quod ibi erit similiter. et sic celum non esset 
+      <lb ed="#L" n="102"/>intransmutabile: quod videtur flcstum. saltem secundum substantiam. lie 
+      <lb ed="#L" n="103"/>forte sit transmutabile secundum locum.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e172">
+      ⁋ Iste. vii.
+      meta<lb ed="#L" n="104" break="no"/>phisice dicit philosophus. quod matria est qua res potest esse vel non 
+      <lb ed="#L" n="105"/>esse. Si ergo materia celi sit eiusdem rationis cum mate 
+      <lb ed="#L" n="106"/>ria istorum inferiorum: sequitur quod celum potest non esse
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e181">
+      ⁋ Item 
+      <lb ed="#L" n="107"/>secundo de generatione. Que habent eandem materiam sunt 
+      <lb ed="#L" n="108"/>ad inuicem transmutabilia: corpora celestia et ista in 
+      <lb ed="#L" n="109"/>feriora non sunt ad inuicem transmutabilia. ergo etc. 
+      <!--665.xml-->
+      <pb ed="#L" n="331-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>qui de corpe celesti non potest fieri aliquod corpus corru 
+      <lb ed="#L" n="2"/>partibile.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e201">
+      ⁋ Quod autem celum habeat materiam probatur: tum quia 
+      <lb ed="#L" n="3"/>celum est ens in actu. et per consequens vel est actus vel habens
+      a<lb ed="#L" n="4" break="no"/>ctum. non autem est actus: quia tunc esset natura intelligibi 
+      <lb ed="#L" n="5"/>lis. quod falsum est: quia est compositum et diuisibile: et ta 
+      <lb ed="#L" n="6"/>lis natura non est intellectualis: ergo est habens actum et 
+      <lb ed="#L" n="7"/>potentiam. et sic componitur materia et forma. Tum quia 
+      <lb ed="#L" n="8"/>celum est sensibile: et per consequens materiale. Tum quia philosophus 
+      <lb ed="#L" n="9"/>primo de celo dicit quod celum est compositum ex tota 
+      <lb ed="#L" n="10"/>materia sua: et ideo est incorruptibile
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e221">
+      ⁋ Contra ista pro 
+      <lb ed="#L" n="11"/>bo quod in corporibus celestibus non oportet ponere materiam 
+      <lb ed="#L" n="12"/>alterius rationis ab istis inferioribus. quia accipio duas 
+      <lb ed="#L" n="13"/>stellas. Quero aut distiguntur specieaut non. si non sed 
+      <lb ed="#L" n="14"/>sunt eiusdem speciei: ergo materia in eis est eiusdem rationis. ergo 
+      <lb ed="#L" n="15"/>materia vnius stelle est in potentia ad formam alterius 
+      <lb ed="#L" n="16"/>stelle et appetitus naturalis esset priuatio: sicut tum ar 
+      <lb ed="#L" n="17"/>guis de materia in istis inferioribus. et per consequens potest ma 
+      <lb ed="#L" n="18"/>teria vnius stelle formam alterius recipere: ex quae est in po 
+      <lb ed="#L" n="19"/>tentia naturali ad illam. et per consequens vna stella esset
+      cor<lb ed="#L" n="20" break="no"/>ruptibilis ab alia: sicut tum arguis in istis inferiori 
+      <lb ed="#L" n="21"/>bus. Si autem stelle non sint eiusdem speciei: tunc aut ma 
+      <lb ed="#L" n="22"/>teria in eis est eiusdem rationis aut diuerse. si eiusd: tunc 
+      <lb ed="#L" n="23"/>sicut prius. Si autem sit materia alterius rationis in eis. erg 
+      <lb ed="#L" n="24"/>quot sunt stelle tot sunt materie alterius rationis: et sic 
+      <lb ed="#L" n="25"/>erunt quasi infinite materie alterius rationis: quod videtur incon 
+      <lb ed="#L" n="26"/>ueniens. Si dicas quod licet in stellis sit materia
+      eius<lb ed="#L" n="27" break="no"/>dem rationis tamen nullum agens natur ale creatum potest destruen 
+      <lb ed="#L" n="28"/>vel spoliare stellam forma sua. ideo non sequitur quod stella 
+      <lb ed="#L" n="29"/>vel aliquod corpus celeste sit corruptibile: licet in eis sip 
+      <lb ed="#L" n="30"/>materia eiusdem rationis. Contra eodem modo dicam
+      ego<lb ed="#L" n="31" break="no"/>si ponatur matria eiusdem rationis in celestibus et in istis
+      in<lb ed="#L" n="32" break="no"/>ferioribus quod nullum agens naturale potest spoliare
+      a<lb ed="#L" n="33" break="no"/>liquod corpus celeste forma sua in isto casu plusquam in 
+      <lb ed="#L" n="34"/>alio: et ideo propter corruptibilitatem vel incorruptibili 
+      <lb ed="#L" n="35"/>tatem non debet ponere materiam alterius rationis hoc et ibi. 
+      <lb ed="#L" n="36"/>ergo etc. Item siue orbes differant secundum speciem siue non: ce 
+      <lb ed="#L" n="37"/>lum tamen est diuisibile in partes eiusdem rationis saltem per
+      poten<lb ed="#L" n="38" break="no"/>tiam divinam potest diuidi: et tunc in istis partibus diuisis est 
+      <lb ed="#L" n="39"/>matria eiusdem rationis. ergo materia vnius partis est in
+      poten<lb ed="#L" n="40" break="no"/>tia naturali: et habet appetitum naturalem et priuationem 
+      <lb ed="#L" n="41"/>ad formam alterius partis. et per consequens potest illam formam
+      re<lb ed="#L" n="42" break="no"/>cipere. ergo cum identitate rationis stat incorruptibilitas 
+      <lb ed="#L" n="43"/>sicut cum diuersitate. Si dicas quod licet celum sit
+      diuisi<lb ed="#L" n="44" break="no"/>bile: tamen vna pars non potest actu seprari ab alia. et ideo 
+      <lb ed="#L" n="45"/>non possunt ibi esse nec sunt multa indiuidua eiusdem speciei 
+      <lb ed="#L" n="46"/>Contra. nullus christianus debet negare quin deus possit
+      di<lb ed="#L" n="47" break="no"/>uidere celum in duas medietates: ex quo est quantum et 
+      <lb ed="#L" n="48"/>diuisibile sicut agens creatum potest diuidem lapidem vel li 
+      <lb ed="#L" n="49"/>gnum. et per consequens vna medietas potest separari ab alia et 
+      <lb ed="#L" n="50"/>lic duo ert indiuidua eiusde speciei. Unde ponem quod deus 
+      <lb ed="#L" n="51"/>non potest facere duo indiuidua in eadem specie in corporibus 
+      <lb ed="#L" n="52"/>celestibus vel in angelis est potius dictum pagani quam christia 
+      <lb ed="#L" n="53"/>ni. Si dicas quod licet possint de fcto esse per diinam po 
+      <lb ed="#L" n="54"/>tentiam duo indinuidua eiusdem speciei: quia tamen forma celi 
+      <lb ed="#L" n="55"/>non potest causari a creatura: sed a solo deo. non potest vna pars 
+      <lb ed="#L" n="56"/>nec alia corrumpi etiam facta diuisione celi dicto 
+      <!--665.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 331-v -->
+               <lb ed="#L" n="57"/>modo.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e332">
+      ⁋ Contra. eodem modo dicam ego ponendo
+      mate<lb ed="#L" n="58" break="no"/>riam eiusdem rationis vtrobique. quia licet matria sit eiusde ratio 
+      <lb ed="#L" n="59"/>nis: quia tamen non est in ptante creature creare nouam for 
+      <lb ed="#L" n="60"/>mam celi. sed hoc potest fieri a solo deo. ideo non est in ptam 
+      <lb ed="#L" n="61"/>te agentis creati corrumpere aliquam partem celi vel 
+      <lb ed="#L" n="62"/>formam. quia cuius est corrumpere vnam formam
+      natura<lb ed="#L" n="63" break="no"/>liter eius est creare aliam formam.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e348">
+      ⁋ Ad quaestionem ergo re 
+      <lb ed="#L" n="64"/>spondeo primo quod in celo est materia. et hoc pono
+      pro<lb ed="#L" n="65" break="no"/>pter dicta sctorum et doctorum quae dicunt quod deus
+      crea<lb ed="#L" n="66" break="no"/>uit in principio materiam ex qua formabantur corpora 
+      <lb ed="#L" n="67"/>celestia et alia. tamen secundum intentionem philosophi et commentato 
+      <lb ed="#L" n="68"/>ris in celo non est materia distincta a forma. quia 
+      <lb ed="#L" n="69"/>abo dicunt frequenter quod celum non habet materiam
+      omni<lb ed="#L" n="70" break="no"/>no: et quod non habet materiam generabilem et corruptibilem 
+      <lb ed="#L" n="71"/>situm tamen locale: quia tantum habet potentiam ad vbi: et illa 
+      <lb ed="#L" n="72"/>materia quae est subiectum accidentium existentium in
+      ce<lb ed="#L" n="73" break="no"/>lo est forma substantialis. Unde sed intentionem philosophi 
+      <lb ed="#L" n="74"/>vel oportet ponere quantitatem celi et alia accidentia eius 
+      <lb ed="#L" n="75"/>subiectiue in forma celi substantiali vel quod sint sine sub 
+      <lb ed="#L" n="76"/>iecto.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e380">
+      ⁋ Secundo dico quod in celestibus et in istis infe 
+      <lb ed="#L" n="77"/>rioribus est materia eiusdem rationis omnino. licet haec pars non 
+      <lb ed="#L" n="78"/>possit demonstrari sic: nec alia tamen potest persuaderi. 
+      <lb ed="#L" n="79"/>Primo sic. quia si non sunt eiusdem rationis. aut hoc est propter 
+      <lb ed="#L" n="80"/>nobilitatem forme celi. aut pro pter
+      incorruptibili<lb ed="#L" n="81" break="no"/>tatem: non propter primum. quia secundum illos de opinione
+      con<lb ed="#L" n="82" break="no"/>traria forma celestis est ignobilior anima
+      intelle<lb ed="#L" n="83" break="no"/>ctiua. sicut secundum eos generatum inanimatum est ignobilius 
+      <lb ed="#L" n="84"/>animato. et tamen haec non obstante materia informata anima 
+      <lb ed="#L" n="85"/>intellectiua est eiusdem rationis cum materia
+      informa<lb ed="#L" n="86" break="no"/>ta aliis formis corporalibus. ergo nobilitas forme 
+      <lb ed="#L" n="87"/>non impedit: nec propter secundum. quia non est repugnantia 
+      <lb ed="#L" n="88"/>nec inconueniens quod ex duobus corruptibilibus fiat 
+      <lb ed="#L" n="89"/>vnum compositum corruptibile. Exemplum. materia
+      pri<lb ed="#L" n="90" break="no"/>ma est incorruptibilis et anima intellectiva. similiter et cum 
+      <lb ed="#L" n="91"/>ista duo faciut vnum compositum corruptibile. ergo 
+      <lb ed="#L" n="92"/>eodem modo non obstante quod materia celi sit incorru 
+      <lb ed="#L" n="93"/>ptibilis et forma similiter: adhuc tamen possunt facere vnum 
+      <lb ed="#L" n="94"/>opositum corruptibile. ergo incorruptibilitas forme 
+      <lb ed="#L" n="95"/>non impedit quin sit materia eiusdem rationis haoc et ibi etc. 
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e424">
+               <lb ed="#L" n="96"/>⁋ Ite incorruptibilitas celi non est incorruptibili 
+      <lb ed="#L" n="97"/>tas simpliciter et absolute sed secundum quid. potest enim deus
+      de<lb ed="#L" n="98" break="no"/>struere celum et corrumpere simpliciter. igitur est tantum
+      incor<lb ed="#L" n="99" break="no"/>ruptibile. quia non potest corrumpi ab agente creato. quia 
+      <lb ed="#L" n="100"/>super formam non potest agens creatum nec distruere nec 
+      <lb ed="#L" n="101"/>ponstruere: sed equalitur est celum incorruptibile ab
+      agen<lb ed="#L" n="102" break="no"/>te creato si in celo ponatur materia eiusdem rationis 
+      <lb ed="#L" n="103"/>cum istis inferioribus. sicut si ponatur materia alterius 
+      <lb ed="#L" n="104"/>rationis. quia quantumcumque materia sit eiusdem rationis haec et ibi 
+      <lb ed="#L" n="105"/>dummodo agens non habeat virtutem productiuam vel corru 
+      <lb ed="#L" n="106"/>ptiuam respectu corporis celestis: vel virtute
+      separa<lb ed="#L" n="107" break="no"/>tiuam sicut habet respectu compositi ex matria et anima intel 
+      <lb ed="#L" n="108"/>lectiua numquam diceretur celum incorruptibile. ideo tota 
+      <lb ed="#L" n="109"/>causa est quare celum non est corruptibile ab agente crea 
+      <lb ed="#L" n="110"/>to sen a solo deo. quia solus deus et nullum agens creatum 
+      <lb ed="#L" n="111"/>habet virtutem corruptiuam vel productiuam rectum forme 
+      <lb ed="#L" n="112"/>corporis celestis vel virtutem separatiuam sicut tota ratio 
+      <!--666.xml-->
+      <pb ed="#L" n="332-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quare ignis est corruptibilis ab agente creato 
+      <lb ed="#L" n="2"/>est: quia non solus deus: sed agens creatum habet virtutem
+      pro<lb ed="#L" n="3" break="no"/>ductiuam et corruptiuam rectum forme ignis: licet
+      ma<lb ed="#L" n="4" break="no"/>teria eius sit incorruptibilis ab agente cerato: ergo quod 
+      <lb ed="#L" n="5"/>maturia sit eiusdem rationis vel alterius nihil facit ad  
+      <lb ed="#L" n="6"/>corruptibilitatem vel incorruptibilitatem. Item non 
+      <lb ed="#L" n="7"/>magis neccessario correspondet potentie passiue naturali 
+      <lb ed="#L" n="8"/>potentia actiua naturalis rectum corruptionis qua 
+      <lb ed="#L" n="9"/>rectum productonis: quia secundum fidem est dare aliquam
+      poten<lb ed="#L" n="10" break="no"/>tiam passiuam naturalem quam non potest agens creatum
+      re<lb ed="#L" n="11" break="no"/>ducere ad actum: nec potest producere formam ad qua 
+      <lb ed="#L" n="12"/>ordinatur talis potentia naturalis. ergo est etiam dare 
+      <lb ed="#L" n="13"/>aliquam potentiam passiuam naturalem ad corrupto 
+      <lb ed="#L" n="14"/>quam non potest agens creatum rducere ad actum: nec potest 
+      <lb ed="#L" n="15"/>producere formam ad quam ordinatur talis potentia 
+      <lb ed="#L" n="16"/>naturalis. igitur est dare aliquam potentiam passiuam 
+      <lb ed="#L" n="17"/>naturalem ad corruptionem quam non potest agens crea 
+      <lb ed="#L" n="18"/>tum reducere ad actum: nec potest corrumpere formam re 
+      <lb ed="#L" n="19"/>spectu cuius corruptionis est illa potentia. maior patet 
+      <lb ed="#L" n="20"/>minor probatur: quia ista materia prima est in potentia. 
+      <lb ed="#L" n="21"/>naturali passiua rectum anime intellective sicut rectum
+      for<lb ed="#L" n="22" break="no"/>me ignis: et tamen quaelibet christianus habet dicere quod ista po 
+      <lb ed="#L" n="23"/>tentia passiua non potest reduci ad actum per agens crea 
+      <lb ed="#L" n="24"/>tum: sed per potentiam diinam tantum: ergo licet in celo materia sit 
+      <lb ed="#L" n="25"/>in potentia passiua ad recipiendum aliam sormam. et si 
+      <lb ed="#L" n="26"/>est in potentia passiua ad corruptionem forme qua 
+      <lb ed="#L" n="27"/>habet. non ergo oportet: quod illi potentie passiue correspondeat 
+      <lb ed="#L" n="28"/>potentia actiua naturalis et creata plus rectum
+      cor<lb ed="#L" n="29" break="no"/>ruptionis quam productonis: et ideo si agens creatum posset 
+      <lb ed="#L" n="30"/>producere vnam formam corporis celestis posset cor 
+      <lb ed="#L" n="31"/>rumpere aliam: et aliter non. cum ergo non negetur materia eius 
+      <lb ed="#L" n="32"/>de rationis hoec et ibi: nisi quia tunc matria celi esset in
+      poten<lb ed="#L" n="33" break="no"/>tia passiua ad generationem vnius forme et corruptio 
+      <lb ed="#L" n="34"/>nem alterius. et hoc non impedit sicut est probatum: ergo ibi 
+      <lb ed="#L" n="35"/>ponenda est materia eiusdem rationis. Ideo dico quod in
+      cor<lb ed="#L" n="36" break="no"/>poribus celestibus et in istis inferioribus est matria
+      to<lb ed="#L" n="37" break="no"/>taliter eiusdem rationis: quia sicut matria hoc est in potentia 
+      <lb ed="#L" n="38"/>naturali ad aliam formam et appetit eam et prauatur ea 
+      <lb ed="#L" n="39"/>et quantum ad omns tales contraditiones: ita est materia ibi 
+      <lb ed="#L" n="40"/>cum istis conditionibus simpliciter et absolute rectum dei: lic 
+      <lb ed="#L" n="41"/>non rectum agentis creati: et in hoc est differentia inter materia 
+      <lb ed="#L" n="42"/>hoc et ibi: quia materia hoc est in potentia ad alias
+      for<lb ed="#L" n="43" break="no"/>mas quae possunt produci per agens naturale creatum et ad  
+      <lb ed="#L" n="44"/>aliquas quae non possunt creari nisi a solo deo: puta forme 
+      <lb ed="#L" n="45"/>intellectiue. sed materia celi est in potentia ad for 
+      <lb ed="#L" n="46"/>mas multas: quarum nulla per agens naturale pro 
+      <lb ed="#L" n="47"/>duci potest in illa materia sed solum a deo possunt ista fie 
+      <lb ed="#L" n="48"/>ri: et hoc dico de communi lege. quia posito certo casu pos 
+      <lb ed="#L" n="49"/>sibili posset materia celi recipere aliquam formam 
+      <lb ed="#L" n="50"/>ab agente creato sicut increato. nam cum materia celi 
+      <lb ed="#L" n="51"/>est eiusdem rationis: cum materia hoc est in potentia non 
+      <lb ed="#L" n="52"/>tantum ad illas formas quae solum possunt causari a solo deo: sed 
+      <lb ed="#L" n="53"/>etiam ab agente creato. vt puta a forma ignis 
+      <lb ed="#L" n="54"/>aeris etc. posito ergo quod deus in materia celi indu 
+      <lb ed="#L" n="55"/>ceret formam ignis sicut est possibile. quia non include 
+      <lb ed="#L" n="56"/>ret contradictionem si aqua tunc esset approximata et 
+      <!--666.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 332-r -->
+               <lb ed="#L" n="57"/>esset maioris virtutis in agendo quam ignis corrumpe 
+      <lb ed="#L" n="58"/>ret formam ignis et induceret formam aque in materia 
+      <lb ed="#L" n="59"/>quae primo erat sub forma celi. et ideo materia celi sim 
+      <lb ed="#L" n="60"/>plicitur est in potentia ad multas formas quas potest 
+      <lb ed="#L" n="61"/>agens creatum inducere: sed nullam talium potest induce 
+      <lb ed="#L" n="62"/>re in materiam celi nisi prius inducatur a deo aliqua
+      ta<lb ed="#L" n="63" break="no"/>lis forma quae potest per agens creatum produci. sic ergo
+      vide<lb ed="#L" n="64" break="no"/>tur mihi quod in celo sit materia eiusdem rationis cum 
+      <lb ed="#L" n="65"/>stis inferioribus. et hoc quia pluralitas nunquam est po 
+      <lb ed="#L" n="66"/>nenda sine neccesstate sicut sepre dictum est. nunc autem 
+      <lb ed="#L" n="67"/>deo apparet neccesitas ponendi materiam alterius rati 
+      <lb ed="#L" n="68"/>nis hic et ibi. quia omnia quae possunt saluari per diuersitatem 
+      <lb ed="#L" n="69"/>materie secundum rationem possunt equebene vel melius
+      salua<lb ed="#L" n="70" break="no"/>i secundum vnitatem rationis.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e628">
+      ⁋ Sed dubium est vtrum
+      ma<lb ed="#L" n="71" break="no"/>eria celi informetur anima intellectiva. Dicosecundum philosophum 
+      <lb ed="#L" n="72"/>per illa materia non est informata anima intellectiua 
+      <lb ed="#L" n="73"/>rer ipse ponit quod intelligentie sunt in corporibus cele 
+      <lb ed="#L" n="74"/>tibus sicut motores tantum et non sicut forme vel
+      perfectio<lb ed="#L" n="75" break="no"/>les. tamen non potest probari ratione naturali: quin materia 
+      <lb ed="#L" n="76"/>teli sit informata anima intellectiva. quia non plus repu 
+      <lb ed="#L" n="77"/>nat nature intellectuali informare illam
+      mate<lb ed="#L" n="78" break="no"/>iam quam materiam nostram et posset deus facere
+      natu<lb ed="#L" n="79" break="no"/>ama intellectualem perfectiorem nostra: et illa posset infor 
+      <lb ed="#L" n="80"/>mare materiam celi sine aliqua repugnantia. et ita 
+      <lb ed="#L" n="81"/>posset teneri contra philosophum quod celum esset animatum. quia 
+      <lb ed="#L" n="82"/>tamen sancti dicunt contrarium: ideo teneo cum eis quod celum est inanima 
+      <lb ed="#L" n="83"/>tum: et similiter quod pluralitas non est ponenda sine neccessta 
+      <lb ed="#L" n="84"/>te: nunc aut non apparet neccess ponendi celum animatum 
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e661">
+               <lb ed="#L" n="85"/>⁋ Contra ista sunt aliqua dubia primo quod in celo ma 
+      <lb ed="#L" n="86"/>teria est causa intrinseca incorruptibilitatis: sed in istis
+      in<lb ed="#L" n="87" break="no"/>ferioribus non: sed est causa corruptibilitatis. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e670">
+      ⁋ Item 
+      <lb ed="#L" n="88"/>corpus celeste est incorruptibile ex parte forme et 
+      <lb ed="#L" n="89"/>materie: ita quod vtraque est causa intrinseca
+      incorru<lb ed="#L" n="90" break="no"/>ptibilitatis eius. sed si esset materia eiusdem rationis leoc 
+      <lb ed="#L" n="91"/>et ibi esset corruptibile ratione materie quae appete 
+      <lb ed="#L" n="92"/>ret aliam formam sicut est aliquod corpus hoc inferius 
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e683">
+               <lb ed="#L" n="93"/>⁋ Item contra hoc quod ponitur celum esse incorruptibile 
+      <lb ed="#L" n="94"/>qui virtus creata non potest super materiam nec formam ei 
+      <lb ed="#L" n="95"/>constructiue vel destructiue. quia per istam rationem potest pro 
+      <lb ed="#L" n="96"/>bari quod homo sit incorruptibilis. quia super formam hominis 
+      <lb ed="#L" n="97"/>non poest agens naturale nec super eius materiam. quia 
+      <lb ed="#L" n="98"/>tam matria quam forma eius est incorruptibilis.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e700">
+      ⁋ Item 
+      <lb ed="#L" n="99"/>contra hoc quod ponitur secundum philosophum celum esse inanimatum 
+      <lb ed="#L" n="100"/>qui tertio de anima reprehendit. dicentes celum non esse
+      anima<lb ed="#L" n="101" break="no"/>tum. et. viii. metha. commento vltimo. dicit
+      commen<lb ed="#L" n="102" break="no"/>tator quod intelligentie abstractiue attribuuntur ce 
+      <lb ed="#L" n="103"/>lo sicut anima corpori.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e713">
+      ⁋ Istem contra hoc quod ponitur hominem 
+      <lb ed="#L" n="104"/>posse habere animam intellectiuam. quia in materia exte 
+      <lb ed="#L" n="105"/>sa oportet ponere formam substectalem extensam. sed anima
+      intelle<lb ed="#L" n="106" break="no"/>ctiua non potest extendi. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e722">
+      ⁋ Ad primum istorum de 
+      <lb ed="#L" n="107"/>materia dico quod in corpore celesti non est causa intrinse 
+      <lb ed="#L" n="108"/>ca incorruptibilitatis. sed est in eo causa intrinseca
+      cor<lb ed="#L" n="109" break="no"/>ruptionis. et illa est materia eiusdem rationis hoc et ibi 
+      <lb ed="#L" n="110"/>quae et potest recipere formam quam non habet. Unde est in
+      poten<lb ed="#L" n="111" break="no"/>tia contradictionis respectu cuiuslibet forme. sed illa 
+      <lb ed="#L" n="112"/>potentia non potest reduci ad actum per agens creatum 
+      <!--667.xml-->
+      <pb ed="#L" n="332-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sed solum per agens increatum quod totum potest destruere 
+      <lb ed="#L" n="2"/>et sic potest dici habere causam intrinsec am incorruptibilita 
+      <lb ed="#L" n="3"/>qui non potest corrumpi ab agente creato.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e751">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="4"/>dico quod nec corruptibilitas nec incorruptibili 
+      <lb ed="#L" n="5"/>tas conueniunt praecise alicui per materiam vel formam et 
+      <lb ed="#L" n="6"/>illud commune dictum philosophi quod materia est causa corruptionis 
+      <lb ed="#L" n="7"/>est falsum de virtute secumonis: quia matria non dicitur causa
+      cor<lb ed="#L" n="8" break="no"/>ruptionis: nisi quia vna potest habere diuersas formas suc 
+      <lb ed="#L" n="9"/>cessiue: sic vna forma potest informare diuersas ma 
+      <lb ed="#L" n="10"/>terias successiue: ergo eodem modo forma est causa intrinse 
+      <lb ed="#L" n="11"/>ca corruptionis sicut et materia: et ita incorruptibil 
+      <lb ed="#L" n="12"/>tas celi ex parte materie et ex parte forme. ex parte 
+      <lb ed="#L" n="13"/>matrie: quia quandiu est sub ista forma celi non potest pati 
+      <lb ed="#L" n="14"/>ab aliquo agente creato. ex parte forme: quia a nullo 
+      <lb ed="#L" n="15"/>agente creato potest corrumpi vel produci forma cele 
+      <lb ed="#L" n="16"/>ustis. Et ista incorruptibilitas est tantum secundum quid: quia per 
+      <lb ed="#L" n="17"/>potentiam diuinam potest ista materia pati ab alia for 
+      <lb ed="#L" n="18"/>ma inducenda. et hoc forma potest corrumpi simpliciter.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e786">
+      ⁋ Ad 
+      <lb ed="#L" n="19"/>aliud dico quod in homine praeter animam intellectiuam est 
+      <lb ed="#L" n="20"/>ponere aliam formam scilicet sesitiuam super quam potest agens 
+      <lb ed="#L" n="21"/>naturale corrumpendo et producendo: et ideo non sequitur 
+      <lb ed="#L" n="22"/>quod homo esset incorruptibilis sicut celum: sed si anima
+      intelle<lb ed="#L" n="23" break="no"/>ctiua immediate informaret materiam primam si illa 
+      <lb ed="#L" n="24"/>materia non posset recipere ab agente creato aliquid 
+      <lb ed="#L" n="25"/>repugnans ipsi intellectiue: tunc illud compositum non 
+      <lb ed="#L" n="26"/>posset corrumpi ab agente creato: et tunc esset
+      incorru<lb ed="#L" n="27" break="no"/>patibile sicut modo est celum: tamen stat cum hoc quod potest corri 
+      <lb ed="#L" n="28"/>pi ab agenti increato puta a deo
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e810">
+      ⁋ Ad aliud di 
+      <lb ed="#L" n="29"/>co quod priobus et commentator intelligunt quod intelligentia 
+      <lb ed="#L" n="30"/>coniungitur celo sicut motrix non sic forma: nec sicut for 
+      <lb ed="#L" n="31"/>ma informans. et sic potest dici ad omns auctoritates.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e820">
+      ⁋ Ad 
+      <lb ed="#L" n="32"/>aliud dico quod in homine anima intellectiua non extendit 
+      <lb ed="#L" n="33"/>sed est vna alia forma extensa in homine: et si non esset ali 
+      <lb ed="#L" n="34"/>quae alia forma extensa posset tamen anima intellectiua in 
+      <lb ed="#L" n="35"/>formare extensiue materiam extensam per quantitate 
+      <lb ed="#L" n="36"/>nec est inconueniens quod materia prima sit immediatum 
+      <lb ed="#L" n="37"/>subiectum extensionis sicut nec est incoueniens quod forma 
+      <lb ed="#L" n="38"/>sit subiectum quantitatis.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e838">
+      ⁋ Ad primam opinionem dico 
+      <lb ed="#L" n="39"/>quod materia celi est in potentia contradictionis ad omnem 
+      <lb ed="#L" n="40"/>formam quam non habet et caret et prauatur omni forma et
+      ap<lb ed="#L" n="41" break="no"/>petit omnem formam: et tamen ex omnibus istis non sequitur quod 
+      <lb ed="#L" n="42"/>possit corrumpi per agens creatum: sed tantum per deum cuius causa 
+      <lb ed="#L" n="43"/>dicta est prius.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e851">
+      ⁋ Ad aliud dico quod simpliciter
+      loquen<lb ed="#L" n="44" break="no"/>do falsum est: quia materia hominis est in pura potentia. 
+      <lb ed="#L" n="45"/>passiua rectum forme intellectiue: et tamen isti potentie 
+      <lb ed="#L" n="46"/>passiue non correspondet potentia actiua naturalis 
+      <lb ed="#L" n="47"/>ita quod anima possit produci per aliquam potentiam natura 
+      <lb ed="#L" n="48"/>lem: sed de hoc alias.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e864">
+      ⁋ Ad aliud patet quo materia est 
+      <lb ed="#L" n="49"/>causa intransmutabilitatis et incorruptibilitatis. et rectum 
+      <lb ed="#L" n="50"/>cuius agentim et rectum cuius non.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e871">
+      ⁋ Ad aliud dico quod secundum 
+      <lb ed="#L" n="51"/>philosophum in celo non est materia: et ideo secundum eum illa quae coue 
+      <lb ed="#L" n="52"/>niunt in materia sunt adinuicem transmutabilia: tamen sed 
+      <lb ed="#L" n="53"/>catholicos ibi est materia. Et tunc supposito pri 
+      <lb ed="#L" n="54"/>dicta si intelligitur de transmutatione possibili quae potest 
+      <lb ed="#L" n="55"/>reduci ad actum per potentiam creatam: sic est falsa: si 
+      <!--667.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 332-v -->
+               <lb ed="#L" n="56"/>per potentiam increatam: sic est vera quia deus potest
+      fa<lb ed="#L" n="57" break="no"/>cere asinum de corpore celesti si vellet etc
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e895">
+      ⁋ Ad ali 
+      <lb ed="#L" n="58"/>ud dico quod opinio philosophi fuit quod in celo non est
+      mate<lb ed="#L" n="59" break="no"/>ria distincta a forma substantiali et quantitate: ideo secundum 
+      <lb ed="#L" n="60"/>opinionem suam propositio accepta fuit vera: sed
+      ca<lb ed="#L" n="61" break="no"/>tholici qui ponunt ibi materiam et potentiam passiuam 
+      <lb ed="#L" n="62"/>quaenon potest reduci ad actum per agens creatum deberent 
+      <lb ed="#L" n="63"/>illam propositionem generaliter sumptam negare et philosophum similiter 
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e912">
+               <lb ed="#L" n="64"/>⁋ Ad aliud dico secundu philosophum quod celum est actus: quia con 
+      <lb ed="#L" n="65"/>cludit formam substantialem et quantitatem.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e919">
+      ⁋ Ad aliu 
+      <lb ed="#L" n="66"/>dico secundum philosophum quod celum est sensibile et non habet mate 
+      <lb ed="#L" n="67"/>riam.
+    </p>
+            <p xml:id="wo8uy7-d1e2113-d1e926">
+      ⁋ Ad aliud quando dicitur quod celum componitur ex tota 
+      <lb ed="#L" n="68"/>materia sua dico quod philosophus aliquando accipit materiam 
+      <lb ed="#L" n="69"/>pro partibus integralibus vt semicirculus est pars circu 
+      <lb ed="#L" n="70"/>li et manus est pars hominis: et sic celum habet materiam et est 
+      <lb ed="#L" n="71"/>compositum ex tota materia sua et ex omnibus partibus 
+      <lb ed="#L" n="72"/>integralibus et non accipit materiam pro altera parte 
+      <lb ed="#L" n="73"/>compositi.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

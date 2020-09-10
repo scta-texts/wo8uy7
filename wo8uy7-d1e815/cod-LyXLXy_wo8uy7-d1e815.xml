@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="169-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e815"><!-- l1d9q3 -->
+            <head xml:id="wo8uy7-d1e815-Hd1e108">Quaestio 3</head>
+            <p xml:id="wo8uy7-d1e815-d1e111">
+      Questio. iii. 
+      <lb ed="#L" n="58"/>grtio quero. 
+      <lb ed="#L" n="59"/>Utrum generatio filii sit eternam.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e118">
+      Quod 
+      <lb ed="#L" n="60"/>non. quia nihil posterius alio est illi 
+      <lb ed="#L" n="61"/>coeternum. sed filius est posterior 
+      <lb ed="#L" n="62"/>patre. ergo non est sibi coeternus. Maior probatur 
+      <lb ed="#L" n="63"/>quia prius et posterius non sunt simul. ergo omne prius alio 
+      <lb ed="#L" n="64"/>aliquando est quando posterius non est. et per consequens non sunt commune 
+      <lb ed="#L" n="65"/>terna.  Minor patet. quia omne generatum est
+      poste<lb ed="#L" n="66" break="no"/>rius generante.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e136">
+      ⁋ Preterea. sicut generatio se
+      ha<lb ed="#L" n="67" break="no"/>bet ad esse: ita corruptio ad non esse. sed
+      impossi<lb ed="#L" n="68" break="no"/>bile est aliquid corrumpi et eternaliter durare in non 
+      <lb ed="#L" n="69"/>esse. ergo impossibile est aliquid generari et
+      eterna<lb ed="#L" n="70" break="no"/>iter durare in esse. ergo si filius fuerit genitus. non 
+      <lb ed="#L" n="71"/>fuerit eternus.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e149">
+      ⁋ Ad oppositum in simbolo. eter 
+      <lb ed="#L" n="72"/>nus pater eternus filius etc.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e155">
+      ⁋ In ista quaestione 
+      <lb ed="#L" n="73"/>conclusio est certa secundum veritatem fidei. quod
+      genera<lb ed="#L" n="74" break="no"/>tio filii est eterna. quia impossibile est aliquid realiter 
+      <lb ed="#L" n="75"/>idem cum diuina essentia esse non eternum. sed tam 
+      <lb ed="#L" n="76"/>filius quam generatio filii est realiter diuina essentia 
+      <lb ed="#L" n="77"/>ergo est eterna. nec est in aliquo difficile
+      vide<lb ed="#L" n="78" break="no"/>re quomo productum possit esse concuum producenti. 
+      <lb ed="#L" n="79"/>cum etiam in creaturis agens creatum quod non agit per 
+      <lb ed="#L" n="80"/>motum producat in primo instanti. et per consequens si eterna 
+      <lb ed="#L" n="81"/>liter esset eternaliter produceret. sicut determinat 
+      <lb ed="#L" n="82"/>beatus Augustinus. vi. de trini. c. i.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e179">
+      ⁋ Ueruntamen haec 
+      <lb ed="#L" n="83"/>est vna difficultas communis. etiam multis aliis quaestio 
+      <lb ed="#L" n="84"/>nibus. et est an debeat concedi aliqua alia priori 
+      <lb ed="#L" n="85"/>tas ibi. ita quod quamuis pater non sit prior duratione
+      fi<lb ed="#L" n="86" break="no"/>lio possit concedi quod vere est prior aliqua alia
+      prio<lb ed="#L" n="87" break="no"/>ritate. et quantum ad hoc inter multos doctores et 
+      <lb ed="#L" n="88"/>sequaces eorum est discordia. et magis in verbis 
+      <lb ed="#L" n="89"/>quam in re. omnes enim in hoc concordant quod pater est prin 
+      <lb ed="#L" n="90"/>cipium filii quia generat filium. quod a patre est filius. quod 
+      <lb ed="#L" n="91"/>filius originatur a patre. et sic concordant in multis pro 
+      <lb ed="#L" n="92"/>positionibus aliis consimilibus: sed in hoc discordant. quod ali 
+      <lb ed="#L" n="93"/>qui illorum dicunt quod ista non sufficiunt ad hoc quod conce 
+      <lb ed="#L" n="94"/>datur prioritas vel posterioritas in diuinis. secundum rem. 
+      <lb ed="#L" n="95"/>Alii autem dicunt quod sic. et ideo quantum ad istum articulum 
+      <lb ed="#L" n="96"/>magis est intendendum auctoritatibus et modo
+      loquen<lb ed="#L" n="97" break="no"/>di sanctorum quam rationi. quia ad neutram partem potest ratio
+      suffi<lb ed="#L" n="98" break="no"/>ciens inueniri
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e216">
+      ⁋ Ideo dico quod vere et realiter pater est 
+      <lb ed="#L" n="99"/>prior filio origine. quia hoc non est aliud dicere quam quod a 
+      <lb ed="#L" n="100"/>patre est filius. vel quod patr producit filium. nec aliquid 
+      <lb ed="#L" n="101"/>aliud est per hoc intelligendum. Sed dico quod in
+      proposi<lb ed="#L" n="102" break="no"/>to excludendo alias significationes huius nominis 
+      <lb ed="#L" n="103"/>prius. de quo post dicetur principium et prius. similiter
+      ge<lb ed="#L" n="104" break="no"/>nerans et prius vel producens et prius. vel sunt nomina 
+      <lb ed="#L" n="105"/>simpliciter svnonima. vel se habent sicut superius et inferius. 
+      <lb ed="#L" n="106"/>et ideo ita realiter et ita vere sicut conceditur quod pati 
+      <lb ed="#L" n="107"/>est principium et generans et producens filium. ita debet 
+      <lb ed="#L" n="108"/>concedi quod pater est prior filio. nec quantum ad rem 
+      <lb ed="#L" n="109"/>aliquid aliud importatur per vnum quam per reliquum 
+      <!--342.xml-->
+      <pb ed="#L" n="170-r"/>
+               <cb ed="#L" n="a"/>
+            </p>
+            <p xml:id="wo8uy7-d1e815-d1e249">
+               <lb ed="#L" n="1"/>⁋ Sed adhuc remaneat vna difficultas. an 
+      <lb ed="#L" n="2"/>scilicet concesso quod pater sit prior filio realiter sicut 
+      <lb ed="#L" n="3"/>ealiter producit filium: debeat concedi quod pater 
+      <lb ed="#L" n="4"/>it in aliquo signo: non quidem nature nec
+      dura<lb ed="#L" n="5" break="no"/>tionis. sed tamen originis in quo non sit filius.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e262">
+      ⁋ Et 
+      <lb ed="#L" n="6"/>dicunt aliqui quod sicut sunt instantia temporis: ita sunt 
+      <lb ed="#L" n="7"/>instantia vel signa nature et originis. Unde 
+      <lb ed="#L" n="8"/>dicunt quod iste est processus: quod in primo instanti
+      ori<lb ed="#L" n="9" break="no"/>ginis sunt omnia essentialia: puta essentia. intel 
+      <lb ed="#L" n="10"/>lectus. et voluntas. actus intelligendi. actus
+      volen<lb ed="#L" n="11" break="no"/>di. in secundo instanti vel signo originis pater ge 
+      <lb ed="#L" n="12"/>nerat filium. et in tertio signo producit spiritumsan 
+      <lb ed="#L" n="13"/>ctum. et totus iste ordo originis completur in primo 
+      <lb ed="#L" n="14"/>instanti nature. et in secundo instanti nature
+      intel<lb ed="#L" n="15" break="no"/>lectus diuinus et voluntas feruntur respectu ob 
+      <lb ed="#L" n="16"/>iectorum secundariorum: ita quod iste est ordo quod essen 
+      <lb ed="#L" n="17"/>tialia sunt prius notionibus. et notionalia sunt prio 
+      <lb ed="#L" n="18"/>ra essentialibus respectibus ad extra.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e293">
+      ⁋ Istam
+      de<lb ed="#L" n="19" break="no"/>clarantur in diuersis locis a subtili doctore. Sed 
+      <lb ed="#L" n="20"/>quantumcumque aliqua istorum possunt bene intelligi sic 
+      <lb ed="#L" n="21"/>intelligendo scilicet quod essentia est prior
+      generatio<lb ed="#L" n="22" break="no"/>ne. quia est communior vel aliquo modo tali consimili. tamen 
+      <lb ed="#L" n="23"/>modus loquendi est simplicitur falsus: vel nimis 
+      <lb ed="#L" n="24"/>abusiuus.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e310">
+      ⁋ Et ideo contra istam opinionem arguo 
+      <lb ed="#L" n="25"/>sic. quando dicitur quod signa talia originis et nature sunt 
+      <lb ed="#L" n="26"/>ibi. ita quod in primo instanti vel signo sit vnum
+      or<lb ed="#L" n="27" break="no"/>dinatorum et in alio aliud. quero: quid sunt illa
+      si<lb ed="#L" n="28" break="no"/>gnra. aut sunt entia realia. aut entia rationis. non 
+      <lb ed="#L" n="29"/>entia realia. quia nihil est reale in diuinis nisi 
+      <lb ed="#L" n="30"/>aliquod absolutum vel relatio vel persona. ergo dico 
+      <lb ed="#L" n="31"/>re quod pater in primo signo vel instanti originis ha 
+      <lb ed="#L" n="32"/>bet essentialia: est dicere quod pater in patre vel in 
+      <lb ed="#L" n="33"/>essentia: vel in relatione: vel in aliquo absoluto 
+      <lb ed="#L" n="34"/>habet essentialia: quod nihil est ad propositum. Si 
+      <lb ed="#L" n="35"/>autem illa instantia vel signa sunt tantum entia rationis.
+      Con<lb ed="#L" n="36" break="no"/>tra. circumscripto omni ente rationis pater est prior
+      ori<lb ed="#L" n="37" break="no"/>ginefilio. ergo circumscriptis omnibus talibus
+      instan<lb ed="#L" n="38" break="no"/>tibus vel signis pater est prior filio. ergo illa instantia 
+      <lb ed="#L" n="39"/>vel signa frustra ponuntur.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e345">
+      ⁋ Preterea quando dicitur 
+      <lb ed="#L" n="40"/>quod essentialia sunt in primo signo originis. aut l 
+      <lb ed="#L" n="41"/>signo supponit ibi pro ente reali. aut pro ente ro 
+      <lb ed="#L" n="42"/>nis. si pro ente reali. aut pro ente creato. aut incre 
+      <lb ed="#L" n="43"/>ato. non pro ente creato. certum est: quia illa essentia 
+      <lb ed="#L" n="44"/>lia erant quando nullum ens creatum erat. Si pro ente 
+      <lb ed="#L" n="45"/>increato. aut pro absoluto. aut pro respectiuo. Si 
+      <lb ed="#L" n="46"/>pro absoluto et in quolibet absoluto in quo est pater 
+      <lb ed="#L" n="47"/>est filius. ergo sicut pater est in primo signo originis. ita
+      fi<lb ed="#L" n="48" break="no"/>lius erit in primo signo originis: quod tamen non
+      conce<lb ed="#L" n="49" break="no"/>dunt. Si pro respectiuo hoc esset dicere: quod essentia 
+      <lb ed="#L" n="50"/>lia essent in aliquo respectu. et ita magis sequeretur 
+      <lb ed="#L" n="51"/>quod respectus esset prior essentialibus quam ecouerso. 
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e374">
+               <lb ed="#L" n="52"/>⁋ Preterea quandocumque aliqua ordinata quorum vnum 
+      <lb ed="#L" n="53"/>est in vno signo vel instanti et aliud in alio: quamuis re 
+      <lb ed="#L" n="54"/>pugnet posteriori esse in primo instanti. tamen non repu 
+      <lb ed="#L" n="55"/>gnat priori esse simul cumposteriori in secundo instanti. patet 
+      <!--342.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 170-r -->
+               <lb ed="#L" n="56"/>de ordinatis in tempore. quamuis enim prius et posterius 
+      <lb ed="#L" n="57"/>non sunt simul in primo instanti durationis. tamen
+      po<lb ed="#L" n="58" break="no"/>terunt esse simul in secundo instanti durationis. ergo 
+      <lb ed="#L" n="59"/>quamuis pater et filius non possunt esse simul in primo signo 
+      <lb ed="#L" n="60"/>originis. tamen poterunt esse simul in secundo signo
+      ori<lb ed="#L" n="61" break="no"/>ginis. ergo pater et filius erunt simul origine. saltem in 
+      <lb ed="#L" n="62"/>aliquo instanti. puta in secundo instanti. sed nihil est 
+      <lb ed="#L" n="63"/>in secundo instanti originis nisi originatum. quia esse in 
+      <lb ed="#L" n="64"/>secundo instanti originis est esse originatum. quia esse 
+      <lb ed="#L" n="65"/>ab alio. ergo essentialia vere originarentur.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e413">
+      ⁋ Preter 
+      <lb ed="#L" n="66"/>ea. inter quecumque est ordo originis aliquid illorum 
+      <lb ed="#L" n="67"/>vere originatur. ergo si essentialia sint in primo signo 
+      <lb ed="#L" n="68"/>originis. et notionalia in secundo. tunc paternitas esset 
+      <lb ed="#L" n="69"/>in secundo signo originis. et per consequens vel aliquod
+      essen<lb ed="#L" n="70" break="no"/>tiale vere originaretur vel paternitas quorum vtrumque 
+      <lb ed="#L" n="71"/>est manifeste falsum. quia tunc pater haberet aliquid  
+      <lb ed="#L" n="72"/>vere originatum
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e431">
+      ⁋ Si dicatur quod quamuis essentialia 
+      <lb ed="#L" n="73"/>sint priora notionalibus. non tamen sunt essentialia in per 
+      <lb ed="#L" n="74"/>mo signo originis: et notionalia in secundo. Con 
+      <lb ed="#L" n="75"/>tra. iste doctor alibi dicit sic. In primo signo ori 
+      <lb ed="#L" n="76"/>ginis pater intelligit formaliter. et tunc etiam potest habere 
+      <lb ed="#L" n="77"/>actum volendi formaliter in secundo signo originis 
+      <lb ed="#L" n="78"/>gignit filium. non tamen tunc vniversalie istam gignitionem volitione 
+      <lb ed="#L" n="79"/>sequente illam gignitionem. sed volitione habita in 
+      <lb ed="#L" n="80"/>primo signo originis. ergo patet manifeste quod in primo 
+      <lb ed="#L" n="81"/>signo originis est manifeste intellectio et
+      voli<lb ed="#L" n="82" break="no"/>tio. secundum istum doctorem. et in secundo signo est ipsa
+      gig<lb ed="#L" n="83" break="no"/>nitio.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e457">
+      ⁋ Ideo dico aliter ad istam difficultate. cir 
+      <lb ed="#L" n="84"/>ca quam sic procedam. Primo videndum est quot sunt 
+      <lb ed="#L" n="85"/>modi prioritatis et posterioritatis. Secundo quot 
+      <lb ed="#L" n="86"/>modi istorum possunt reperiri in diuinis. Tertio qualis 
+      <lb ed="#L" n="87"/>modus loquendi est seruandus in diuersis locis 
+      <lb ed="#L" n="88"/>prioritatis. Quarto inferuntur aliqua conclusiones. 
+      <lb ed="#L" n="89"/>Quinto ponuntur alique obiectiones et soluuntur 
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e474">
+               <lb ed="#L" n="90"/>⁋ Circa primum dico quod multi sunt modi
+      priorita<lb ed="#L" n="91" break="no"/>tis et posterioritatis. sicut patet ex libro
+      praedica<lb ed="#L" n="92" break="no"/>mentorum. et v. metha. c. de priori et posteriori. quos 
+      <lb ed="#L" n="93"/>longum esset distinguere et numerare. tamen inter alios 
+      <lb ed="#L" n="94"/>isti dicuntur magis esse famosi et noti. scilicet prius 
+      <lb ed="#L" n="95"/>duratione. prius natura. prius causalitate. prius communt 
+      <lb ed="#L" n="96"/>tate. prius dignitate. et prius secundum locum.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e492">
+      ⁋ Prius secundum 
+      <lb ed="#L" n="97"/>durationem est propriissime prius. sicut dicit philosophus 
+      <lb ed="#L" n="98"/>in libro praedicamentorum
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e499">
+      ⁋ Prius natura est illud 
+      <lb ed="#L" n="99"/>quod potest esse sine posteriori. sed non econuerso. propter 
+      <lb ed="#L" n="100"/>quod dicit philosophus. v. metha. Alia vero semper sunt pora 
+      <lb ed="#L" n="101"/>secundum naturam. et substantiam quecumque cotingit esse sine 
+      <lb ed="#L" n="102"/>aliis. et illa non contingit esse sine illis. et isto modo 
+      <lb ed="#L" n="103"/>ecundum intentionem philosophi materia est prior natura
+      for<lb ed="#L" n="104" break="no"/>na. et subiectum est prius natura accidente. saltem 
+      <lb ed="#L" n="105"/>separabili. et si secundum intentionem philosophi sit aliquod
+      acci<lb ed="#L" n="106" break="no"/>des in intelligentiis vel in corporibus celestibus. 
+      <lb ed="#L" n="107"/>vel in quocumque alio subiecto sine quo subiectum 
+      <lb ed="#L" n="108"/>esse non potest. Dicendum est secundum philosophum. quod illud
+      sub<lb ed="#L" n="109" break="no"/>iectum non est prius natura illo accidente. Isto etiam 
+      <lb ed="#L" n="110"/>modo partes sunt priores toto ille scilicet quae possunt esse 
+      <!--343.xml-->
+      <pb ed="#L" n="170-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sine toto. non econuerso.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e536">
+      ⁋ Prius causalitate 
+      <lb ed="#L" n="2"/>est omnis causa respectu sui causati nec tantum est prius 
+      <lb ed="#L" n="3"/>causalitate. sed etiam isto modo est prius producti 
+      <lb ed="#L" n="4"/>uitate. et patet distinctio istius modi a preceden 
+      <lb ed="#L" n="5"/>tibus modis. quia secundum philosophum aliquando causa et causatum 
+      <lb ed="#L" n="6"/>sunt simul duratione: et etiam causa non est prior 
+      <lb ed="#L" n="7"/>natura causato. quia non potest esse sine causato. et secundum 
+      <lb ed="#L" n="8"/>rei veritatem isto modo. scilicet productiuitate pater 
+      <lb ed="#L" n="9"/>est prior filio: et tamen nec duratione nec natura 
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e556">
+               <lb ed="#L" n="10"/>⁋ Prius communitate est illud a quo non conuertitur 
+      <lb ed="#L" n="11"/>consequentia sed hoc potest intelligi multipliciter. Uno mo 
+      <lb ed="#L" n="12"/>qui ad affrmationem alicuius de alio sequitur affir 
+      <lb ed="#L" n="13"/>matio alterius de eodem vniversaliter et generaliter. sed non 
+      <lb ed="#L" n="14"/>econuerso. et illa semper se habent sicut superius 
+      <lb ed="#L" n="15"/>et inferius. et hoc vel per se vel aliquo modo per
+      ac<lb ed="#L" n="16" break="no"/>cidens: quamuis necessario. et ista communitas numquam est 
+      <lb ed="#L" n="17"/>inter res secundum quod res distinguuntur a signis et
+      com<lb ed="#L" n="18" break="no"/>ceptibus: sed est inter concemptus et inter signa. vel 
+      <lb ed="#L" n="19"/>inter rem et conceptum et signum. et isto modo conceptus 
+      <lb ed="#L" n="20"/>animalis est prior conceptu hominis. et hec vox animal ex in 
+      <lb ed="#L" n="21"/>stitutione est prior hac voce homo. et ita est de co 
+      <lb ed="#L" n="22"/>lorato respectu albi. et de homine respectu hominis 
+      <lb ed="#L" n="23"/>albi: et de multis talibus. Aliter contingit quando ad  
+      <lb ed="#L" n="24"/>vnum respectu alicuius praedicati sequitur aliud re 
+      <lb ed="#L" n="25"/>spectu eiusdem: et maxime respectu esse. et isto modo 
+      <lb ed="#L" n="26"/>substantia est prior accidente. quia sequitur. accidens est. 
+      <lb ed="#L" n="27"/>ergo. substantia est. et non sequitur ecouerso. similiter pars est 
+      <lb ed="#L" n="28"/>prior toto. quia sequitur. totum est. ergo pars est. sed non 
+      <lb ed="#L" n="29"/>econuerso. Sed iste modus non videtur differre a se 
+      <lb ed="#L" n="30"/>cundo modo. puta a priori natura. nisi iste modus 
+      <lb ed="#L" n="31"/>magis generaliter assumatur. scilicet respectu aliquorum 
+      <lb ed="#L" n="32"/>aliorum praedicatorum quam respectu esse.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e608">
+      ⁋ Prius digni 
+      <lb ed="#L" n="33"/>tate est omne perfectius respectu imperfectioris. et hoc 
+      <lb ed="#L" n="34"/>siue ex natura rei siue ex voluntate humana. sicut 
+      <lb ed="#L" n="35"/>rex est prior commite: et comes milite.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e618">
+      ⁋ Prius secundum 
+      <lb ed="#L" n="36"/>locum contigit dupliciter. vel per comparationem ad  
+      <lb ed="#L" n="37"/>aliquid vnum quod naturaliter est primum. aut ad ali 
+      <lb ed="#L" n="38"/>quid vnum quod statueretur primum. primo modo ignis 
+      <lb ed="#L" n="39"/>est prior aere. et aer aqua. et aqua terra. Secundo modo 
+      <lb ed="#L" n="40"/>idem respectu eiusdem potest esse prius et posterius
+      pro<lb ed="#L" n="41" break="no"/>pter diuersa quae statuutur prima. et hoc dicit ari. 
+      <lb ed="#L" n="42"/>v. metha. vbi dicit hoc quidem supple dicitur prius secundum 
+      <lb ed="#L" n="43"/>locum inexistendo propinquius aut natura alicui lo 
+      <lb ed="#L" n="44"/>co determinato aut medio aut vltimo. aut
+      si<lb ed="#L" n="45" break="no"/>cut euenit.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e642">
+      ⁋ Preter istos. modos est vnus
+      mo<lb ed="#L" n="46" break="no"/>dus prioritatis quo aliqua dicuntur ordinari secundum 
+      <lb ed="#L" n="47"/>prius et posterius precise. propter aliqua habentia 
+      <lb ed="#L" n="48"/>ordine inter se quorum illa sunt. sicut passiones 
+      <lb ed="#L" n="49"/>partis et totius possunt dici ordinari si que sint 
+      <lb ed="#L" n="50"/>tales. hoc patet per philosophum. v. metha. vbi dicit sic. 
+      <lb ed="#L" n="51"/>Amplius priora dicuntur priorum passiones vt
+      recti<lb ed="#L" n="52" break="no"/>tudo lenitate. hec enim linee passio secundum se est. illa 
+      <lb ed="#L" n="53"/>vero superficiei. et eodem modo si aliqua duo or 
+      <lb ed="#L" n="54"/>dinantur sicut causa et causatum. si causa habeat 
+      <lb ed="#L" n="55"/>aliquos alios effectus: et similiter causatum habeat 
+      <!--343.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 170-v -->
+               <lb ed="#L" n="56"/>alios effectus. effectus cause possunt dici priores effe 
+      <lb ed="#L" n="57"/>ctibus causati isto modo
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e677">
+      ⁋ Circa secundum dico quod prim 
+      <lb ed="#L" n="58"/>et secundus nullo modo possunt reperiri in deo per respectum 
+      <lb ed="#L" n="59"/>ad intra. sed tertius modus. puta prius causalita 
+      <lb ed="#L" n="60"/>te extendendo causalitatem ad productiuitatem
+      ar<lb ed="#L" n="61" break="no"/>tribuitur patri respectu filii et spiritus sancti. et ista
+      prio<lb ed="#L" n="62" break="no"/>ritas vocatur prioritas originis. quia filius realit ori 
+      <lb ed="#L" n="63"/>ginatur a patre. Quartus modus scilicet praoritas
+      communi<lb ed="#L" n="64" break="no"/>tatis. que est non conuertibilis consequene aliquo modo in 
+      <lb ed="#L" n="65"/>diuinis inuenitur. et ista est prioritas essentie re 
+      <lb ed="#L" n="66"/>spectu notionalium et respectu personarum. quia for 
+      <lb ed="#L" n="67"/>maliter sequitur. a est pater. ergo a est essentia. sed non 
+      <lb ed="#L" n="68"/>sequitur econtra: quia non sequitur. filius est essentia. ergo 
+      <lb ed="#L" n="69"/>filius est pater. eodem modo bene sequitur. filiatio est pater 
+      <lb ed="#L" n="70"/>nitas. ergo filiatio est essentia. quamuis antecedens sit falsum 
+      <lb ed="#L" n="71"/>et non sequitur econuerso. filiatio est essentia. ergo
+      filia<lb ed="#L" n="72" break="no"/>tio est paternitas. Similiter sequitur. paternitas est in 
+      <lb ed="#L" n="73"/>patre. ergo essentia est in patre. nec tamen sequitur econ 
+      <lb ed="#L" n="74"/>uerso formaliter. instantia patet. nam non sequitur essen 
+      <lb ed="#L" n="75"/>tia: est in filio. ergo paternitas est in filio. Quintus 
+      <lb ed="#L" n="76"/>modus prioritatis non repitur in diuinis. quia ni 
+      <lb ed="#L" n="77"/>hil est quod habeat perfectionem vel dignitate
+      re<lb ed="#L" n="78" break="no"/>spectu alterius. et hoc proprie loquendo. quia nn hil 
+      <lb ed="#L" n="79"/>est in diuinis imperfectum vel indignum. Sextus 
+      <lb ed="#L" n="80"/>modus non est in diuinis. quia nihi in diuinis est 
+      <lb ed="#L" n="81"/>in loco proprie loquendo. et illo modo quo deus est 
+      <lb ed="#L" n="82"/>in loco sunt omnia in eodem loco. Septimus modus 
+      <lb ed="#L" n="83"/>reperitur in deo. quia potest dici quod paternitas est prior 
+      <lb ed="#L" n="84"/>filiatione. et tamen nullo praedictorum modorum. sicut patet 
+      <lb ed="#L" n="85"/>inductiue non duratione. nec natura. nec origine 
+      <lb ed="#L" n="86"/>nec causalitate. quia filiatio non originatur a pater 
+      <lb ed="#L" n="87"/>nitate. nec communitate. nec dignitate nec loco. ma 
+      <lb ed="#L" n="88"/>nifestum est. ergo tantum prior filiatione. quia est proprietas 
+      <lb ed="#L" n="89"/>patris qui est prior generatione filio. Circa ter Teruitum 
+      <lb ed="#L" n="90"/>tium dico quod ordinata secundum prius et posterius sunt 
+      <lb ed="#L" n="91"/>in duplici differentia aliqua enim dicuntur ordinata. quia 
+      <lb ed="#L" n="92"/>eis correspondent aliqua extrinseca ordinata 
+      <lb ed="#L" n="93"/>ita quod vnum correspondet vni: et alterum alteri. et 
+      <lb ed="#L" n="94"/>isto modo prius et posterius secundum tempus et locum 
+      <lb ed="#L" n="95"/>ordinantur. quia scilicet alia pars loci vel alius locus
+      cor<lb ed="#L" n="96" break="no"/>respondet priori et alius posteriori. et in talibus est 
+      <lb ed="#L" n="97"/>proprius modus loquendi: dicendo quod prius est in 
+      <lb ed="#L" n="98"/>aliquo priori in quo non est posterius. et est
+      ratio<lb ed="#L" n="99" break="no"/>nalis quaestio. an sit prius sic vel sic tale vel tale 
+      <lb ed="#L" n="100"/>in illo priori. Et de originatis secundum tempus et
+      du<lb ed="#L" n="101" break="no"/>ratione praecise debent concedi distincta instantia 
+      <lb ed="#L" n="102"/>vel signa. de aliis autem debent concedi distincta 
+      <lb ed="#L" n="103"/>loca. Aliqua autem sunt originata quibus nullus 
+      <lb ed="#L" n="104"/>ordo extrinsecus penitus correspondet. isto
+      mo<lb ed="#L" n="105" break="no"/>do deus est prior creatura. etiam posito quod nullum 
+      <lb ed="#L" n="106"/>tempus esset ymaginabile vel locus. immo omni 
+      <lb ed="#L" n="107"/>alio a deo a creatura circumscripto. Isto modo 
+      <lb ed="#L" n="108"/>ordinantur partes et totum. et vniversaliter ordinata secundum natu 
+      <lb ed="#L" n="109"/>ram et causalitatem et dignitatem et communitatem. et de ta 
+      <lb ed="#L" n="110"/>libus non est proprius modus loquendi: quod illud quod 
+      <!--344.xml-->
+      <pb ed="#L" n="171-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est prius est in aliquo priori in quo non est poste 
+      <lb ed="#L" n="2"/>rius. nec est rationalis. q. querere de particulari. 
+      <lb ed="#L" n="3"/>vtrum sit in priori vel non. immo si recipiatur talis mo 
+      <lb ed="#L" n="4"/>dus loquendi: de virtute sermonis debet con 
+      <lb ed="#L" n="5"/>cedi: quod posterius est in illo priori
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e812">
+      ⁋ Probatio isti 
+      <lb ed="#L" n="6"/>materia est prior natura ipsa forma. tunc dico: quod 
+      <lb ed="#L" n="7"/>forma est in illo priori et materia non est in illo
+      prio<lb ed="#L" n="8" break="no"/>ri. probatio istius. quia lued priori ibi est vnum
+      adiecti<lb ed="#L" n="9" break="no"/>uum. tunc quero de suo substantiuo. aut suum
+      sub<lb ed="#L" n="10" break="no"/>stantiuum est aliquid importans respectum realem 
+      <lb ed="#L" n="11"/>aut tantum importans ens rationis si primo modo. quero 
+      <lb ed="#L" n="12"/>aut importat rem creatam aut increatam. non
+      incre<lb ed="#L" n="13" break="no"/>atam manifestum est. quia tunc valet istam: materia est 
+      <lb ed="#L" n="14"/>in illo priori deo. vel in alio priori aggregato ex 
+      <lb ed="#L" n="15"/>deo et aliquo alio. Si importet rem creatam
+      que<lb ed="#L" n="16" break="no"/>ro. aut rem de genere substantie. aut rem de
+      gene<lb ed="#L" n="17" break="no"/>re accidentis. et patet inductiue quod non potest dari 
+      <lb ed="#L" n="18"/>aliqua res nisi materia. et tunc valebit istam.
+      ma<lb ed="#L" n="19" break="no"/>teria est in illo priori quod est materia. vel in illa
+      pris<lb ed="#L" n="20" break="no"/>ori natura scilicet materia. sicut ex parte alia quando dici 
+      <lb ed="#L" n="21"/>tur: quod aliquid est prius alio tempore dicitur quod prius est in prio 
+      <lb ed="#L" n="22"/>ri tempore in quo tempore non est posterius. Sed isto dato
+      ma<lb ed="#L" n="23" break="no"/>nifestum est quod forma est in illo priori. quia est in materia 
+      <lb ed="#L" n="24"/>et materia non est in illo priori. quia materia non est in ma 
+      <lb ed="#L" n="25"/>teria. Similiter totum est prius perfectione et di 
+      <lb ed="#L" n="26"/>gnitate qualibet parte. et tamen non potest dari aliquod 
+      <lb ed="#L" n="27"/>pus in quo sit totum et nondum sit pars: quamuis possit 
+      <lb ed="#L" n="28"/>dari aliquod prius perfectione in quo sit pars et 
+      <lb ed="#L" n="29"/>in eo non sit totum puta ipsmmet totum. quia pars est 
+      <lb ed="#L" n="30"/>intoto.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e869">
+      ⁋ Si dicatur quod substantiuum corresposon 
+      <lb ed="#L" n="31"/>dens illi adiectiuo priori importat precise ens ra 
+      <lb ed="#L" n="32"/>tionis.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e876">
+      ⁋ Contra hoc nihil est. quia tunc non est aliud  
+      <lb ed="#L" n="33"/>dicere: quam quod prius est in aliquo ente rationis in quo 
+      <lb ed="#L" n="34"/>non est posterius. sicut prius tempore est in tempore in quo 
+      <lb ed="#L" n="35"/>non est posterius: quod est satis absurdum de se. tum quia 
+      <lb ed="#L" n="36"/>aliqua ordinantur secundum perfectionem. et eodem modo sed 
+      <lb ed="#L" n="37"/>causalitatem omni ente rationis circumscripto. etiam 
+      <lb ed="#L" n="38"/>si ens rationis ita includeret contradictionem: sicut 
+      <lb ed="#L" n="39"/>chymera. tum quia nulla talia entia rationis quorum 
+      <lb ed="#L" n="40"/>vnum sit prius alio possunt inueniri: ita quod vnum 
+      <lb ed="#L" n="41"/>necessario correspondeat vni enti reali et aliud 
+      <lb ed="#L" n="42"/>alteri. tumn quia sicut quando aliqua ordinantur secundum tempus 
+      <lb ed="#L" n="43"/>ibi est dare vnum tempus prius alio: ita si aliqua or 
+      <lb ed="#L" n="44"/>dinentur secundum causalitatem vel dignitatem. propter 
+      <lb ed="#L" n="45"/>talia entia rationis oportet dicere quod vnum ens
+      ratio<lb ed="#L" n="46" break="no"/>nis sit perfectius alio: et quod vnum causa alterius sed omnia 
+      <lb ed="#L" n="47"/>ista inutiliter et frustra ponuntur.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e912">
+      ⁋ Preterea
+      ali<lb ed="#L" n="48" break="no"/>qua eadem possunt diuersis modis prioritatis et 
+      <lb ed="#L" n="49"/>posterioritatis ordinari. sicut idem respectu
+      eius<lb ed="#L" n="50" break="no"/>dem potest esse prius a natura et posterius perfectione 
+      <lb ed="#L" n="51"/>sicut pars est prius natura toto et posterior
+      perfe<lb ed="#L" n="52" break="no"/>ctione. ergo oporteret dare talia diuersa priora in 
+      <lb ed="#L" n="53"/>quorum vno esset pars et in alio totum. et tunc totum 
+      <lb ed="#L" n="54"/>esset in aliquo signo vel instanti in quo non esset 
+      <lb ed="#L" n="55"/>pars. que omnia lut absurda.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e932">
+      ⁋ Confirmatur. quia si 
+      <!--344.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 171-r -->
+               <lb ed="#L" n="56"/>totum sit in aliquo priori. tunc quaero. aut pars est in il 
+      <lb ed="#L" n="57"/>lo priori aut non. si sic. ergo frustra ponitur quod to 
+      <lb ed="#L" n="58"/>tum est in aliquo priori in quo est pars. si non. ergo totum 
+      <lb ed="#L" n="59"/>est sine partibus. et per consequens totum non est. Eodem modo 
+      <lb ed="#L" n="60"/>potest argui de materia et forma. et sic de multis 
+      <lb ed="#L" n="61"/>aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e954">
+      ⁋ Circa quartum ex praedictis possunt inferri
+      ali<lb ed="#L" n="62" break="no"/>que conclusiones.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e959">
+      ⁋ Una quod aliquibus eisdem competunt 
+      <lb ed="#L" n="63"/>diuersi modi prioritatis. sicut idem respectu
+      eius<lb ed="#L" n="64" break="no"/>dem potest esse prius duratione. natura. causalitate 
+      <lb ed="#L" n="65"/>et dignitate. patet de celo respectu alicuius infe 
+      <lb ed="#L" n="66"/>rioris producti ab eo.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e970">
+      ⁋ Secunda conclusio sequitur
+      si<lb ed="#L" n="67" break="no"/>cut prius dictum est. quod idem respectu eiusdem
+      diuer<lb ed="#L" n="68" break="no"/>sis modis prioritatis et posterioritatis potest esse 
+      <lb ed="#L" n="69"/>prius et posterius. patet de materia et forma. toto 
+      <lb ed="#L" n="70"/>et parte
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e981">
+      ⁋ Tertia conclusio sequitur quod essentia
+      diui<lb ed="#L" n="71" break="no"/>na et intellectio diuina et volitio. quia idem sunt to 
+      <lb ed="#L" n="72"/>taliter est prior qualibet persona diuina et qualibet 
+      <lb ed="#L" n="73"/>relatione. et hoc prioritate consequenia. quia est illud a quo 
+      <lb ed="#L" n="74"/>non conuertitur consequentia non tamen est prior origine proprie li 
+      <lb ed="#L" n="75"/>quendo.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e995">
+      ⁋ Quarta conclusio sequitur quod notitia 
+      <lb ed="#L" n="76"/>actualis creaturarum est prior aliqua prioritate 
+      <lb ed="#L" n="77"/>quaelibet persona diuina et qualibet relatione. Ista 
+      <lb ed="#L" n="78"/>conclusio patet. quia sequitur. a est pater. ergo a intelligit 
+      <lb ed="#L" n="79"/>vel est intellectio creature. et non sequitur econuer 
+      <lb ed="#L" n="80"/>so. quia non sequitur. filius intelligit creaturam. ergo 
+      <lb ed="#L" n="81"/>filius est pater.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1011">
+      ⁋ Quinta conclusio sequitur. quod
+      spira<lb ed="#L" n="82" break="no"/>tio actiua est prior tam generatione actiua quam pas 
+      <lb ed="#L" n="83"/>siua. quia impossibile est generationem actiuam esse
+      si<lb ed="#L" n="84" break="no"/>ne spiratione actiua. quia necessario omne generans 
+      <lb ed="#L" n="85"/>spirat. et non econuerso. quod autem sit prior generatio 
+      <lb ed="#L" n="86"/>ne passiua. patet: quia spiratio actiua inuenitur in
+      pa<lb ed="#L" n="87" break="no"/>tre qui est prior filio: in quo filio solo inuenitur genera 
+      <lb ed="#L" n="88"/>tio passiua. et dictum est prius et probatum per philosophum v. 
+      <lb ed="#L" n="89"/>metha. quod aliquid est prius alio. quia est prius respe 
+      <lb ed="#L" n="90"/>ctu alterius cuius est aliud. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1033">
+      ⁋ Sexta conclusio 
+      <lb ed="#L" n="91"/>quod tam generatio activa quam passiua generatio est prior 
+      <lb ed="#L" n="92"/>spiratione passiua. quia generatio actiua et generatio 
+      <lb ed="#L" n="93"/>passiua sunt proprietates patris et filii. quorum 
+      <lb ed="#L" n="94"/>vterque est prior spiritu sancto: cuius proprietas est
+      spira<lb ed="#L" n="95" break="no"/>tio passiua.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1046">
+      ⁋ Circa quintum sciendum quod contra
+      pri<lb ed="#L" n="96" break="no"/>dicta potest multiplicitur obiici.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1051">
+      ⁋ Primo contra hoc 
+      <lb ed="#L" n="97"/>quod dicitur quod prius natura est illud quod potest esse si 
+      <lb ed="#L" n="98"/>ne alio et non econuerso. hoc videtur falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1058">
+      ⁋ Tum 
+      <lb ed="#L" n="99"/>qui tunc ex prioritate naturali alicuius respectu al 
+      <lb ed="#L" n="100"/>terius nunquam posset probari sine petitione prino 
+      <lb ed="#L" n="101"/>pii separabilitas prioris a posteriori. et ita semper 
+      <lb ed="#L" n="102"/>esset fallacia petitionis principii in illo modo 
+      <lb ed="#L" n="103"/>arguendi. a est prius natura ipso b. ergo deus potest 
+      <lb ed="#L" n="104"/>facere a sine b. quae tamen modus arguendi est modus 
+      <lb ed="#L" n="105"/>arguendi doctorum.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1077">
+      ⁋ Tum quia secundum philosophum deus non esset e 
+      <lb ed="#L" n="106"/>prius natura quocumque corpore celesti. quia secundum eum 
+      <lb ed="#L" n="107"/>contradictio est quod deus sit et corpus celeste non 
+      <lb ed="#L" n="108"/>sit.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1086">
+      ⁋ Tum quia secundum rei veritatem nullum absolutum esset  
+      <lb ed="#L" n="109"/>prius natura quocumque alio absoluto. quia omne
+      ab<lb ed="#L" n="110" break="no"/>solutum indifferenter potest esse sine alio per potentiam 
+      <!--345.xml-->
+      <pb ed="#L" n="171-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>diuinam.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1102">
+      ⁋ Secundo potest obiici contra hoc quod dicitur quod 
+      <lb ed="#L" n="2"/>non sint talia signa vel instantia originis et
+      na<lb ed="#L" n="3" break="no"/>ture. quia vbicumque est simultas opposita prioritati 
+      <lb ed="#L" n="4"/>et posterioritati: ibi inter prius et posterius potest re 
+      <lb ed="#L" n="5"/>periri praoritas et posteritas secundum aliquod signum 
+      <lb ed="#L" n="6"/>sed de aliquibus dicitur quod sunt simul natura. ergo quando ali 
+      <lb ed="#L" n="7"/>quid est prius natura alio: est in aliquo signo in 
+      <lb ed="#L" n="8"/>quo non est posterius. maior probaturin suo con 
+      <lb ed="#L" n="9"/>trario. ideo enim quia in prioritate perfectionis et causa 
+      <lb ed="#L" n="10"/>litatis non sunt talia signa. non conceditur quod aliqua 
+      <lb ed="#L" n="11"/>sunt simul causalitate et perfectione. ergo vbicumque 
+      <lb ed="#L" n="12"/>est ponere talem simultate: ibi est ponere talia 
+      <lb ed="#L" n="13"/>signa vel instantia.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1131">
+      ⁋ Tertio potest obiic contrsi hoc 
+      <lb ed="#L" n="14"/>quod dicitur quod essentia diuina est prior persona. quia
+      vbi<lb ed="#L" n="15" break="no"/>cumque est ordo realis ibi est relatio realis. ergo si est 
+      <lb ed="#L" n="16"/>sentia diuina est realiter prior persona diuina:
+      se<lb ed="#L" n="17" break="no"/>quitur quod realiter refertur ad personam.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1142">
+      ⁋ Quarto 
+      <lb ed="#L" n="18"/>obiicitur contra hoc quod dicitur: quod intellectio et volitio 
+      <lb ed="#L" n="19"/>est prior persona vel proprietate personali.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1149">
+      ⁋ Primo 
+      <lb ed="#L" n="20"/>qui omnis actus suppositi praesupponit suppositum a 
+      <lb ed="#L" n="21"/>quo elicitur: sed intelligere et velle sunt actus sup 
+      <lb ed="#L" n="22"/>positi patris. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1159">
+      ⁋ Confirmatur. quia pater prius 
+      <lb ed="#L" n="23"/>intelligit quam filius. ergo si intellectio praesupponeretur 
+      <lb ed="#L" n="24"/>in patre ante generationem filii: filius non posset 
+      <lb ed="#L" n="25"/>intelligere.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1168">
+      ⁋ Preterea si intellectio est prior
+      fi<lb ed="#L" n="26" break="no"/>lio. et intellectio non potest esse respectu alicuius ob 
+      <lb ed="#L" n="27"/>iecti nisi respectu filii. ergo illa intellectio est
+      respe<lb ed="#L" n="28" break="no"/>ctu filii non existentis.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1177">
+      ⁋ Quinto obiicitur conclusio ilud 
+      <lb ed="#L" n="29"/>quod dicitur quod intellectio creature est prior persona.
+      pri<lb ed="#L" n="30" break="no"/>mo secundum augustinum. patet de tri. xiiii. verbum natum est 
+      <lb ed="#L" n="31"/>de omnibus que sunt in scientia dei. ergo si notitia cre 
+      <lb ed="#L" n="32"/>aturarum praesupponitur in patre productione
+      verbi<lb ed="#L" n="33" break="no"/>sequitur quod verbum nascitur de creaturis prius no 
+      <lb ed="#L" n="34"/>tis a patre.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1193">
+      ⁋ Preterea quando in aliquo sunt duo or 
+      <lb ed="#L" n="35"/>dines. scilicet nature et originis. ordo originis potest 
+      <lb ed="#L" n="36"/>compleri in primo gradu ordinis nature. sicut de 
+      <lb ed="#L" n="37"/>ordine nature et durationis. sed intellectus
+      diui<lb ed="#L" n="38" break="no"/>nus comparatur in primo instanti nature ad
+      essen<lb ed="#L" n="39" break="no"/>tiam diuinam sicut ad obiectum primarium. et in secundo 
+      <lb ed="#L" n="40"/>instanti nature comparatur ad creaturam. sicut ad  
+      <lb ed="#L" n="41"/>obiectum secundarium. ergo prius natura est essentia 
+      <lb ed="#L" n="42"/>diuina intellectui diuino paterno quam creature 
+      <lb ed="#L" n="43"/>sed intellectus diuinus habens essentiam diuinam 
+      <lb ed="#L" n="44"/>sibi praesentem potest esse productiuus verbi. ergo in illo
+      pri<lb ed="#L" n="45" break="no"/>ori produceretur verbum. et per consequens ante notitiam 
+      <lb ed="#L" n="46"/>creature.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1222">
+      ⁋ Preterea nullum essentiale
+      inclu<lb ed="#L" n="47" break="no"/>dens respectu ad extra est prius persona. sed no 
+      <lb ed="#L" n="48"/>titia creature est vnum essentiale includens
+      re<lb ed="#L" n="49" break="no"/>spectum ad extra. ergo non est prior persona.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1231">
+      ⁋ Ad 
+      <lb ed="#L" n="50"/>primum istorum dico quod accipiendo prius natura secundum 
+      <lb ed="#L" n="51"/>quod distinguitur ab aliis modis prioritatis. potest
+      di<lb ed="#L" n="52" break="no"/>ci quod salua reuerentia doctoris. talis modus
+      ar<lb ed="#L" n="53" break="no"/>guendi. a. est prius natura ipso. b. ergo. a. potest esse si 
+      <lb ed="#L" n="54"/>ne. bet non probat sufficienter: sed quando consequens est 
+      <lb ed="#L" n="55"/>pubium: deberet antecedens probari. quia intelligenti si¬ 
+      <!--345.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 171-v -->
+               <lb ed="#L" n="56"/>gnificatum termini antecedens est eque dubium sicut consequens 
+      <lb ed="#L" n="57"/>Ueruntamen in vno casu potest teneri illud
+      argumen<lb ed="#L" n="58" break="no"/>tum: vt accipiatur ista propositio quando aliquid est prius 
+      <lb ed="#L" n="59"/>naturaliter aliquo. ita quod per potentiam creatam 
+      <lb ed="#L" n="60"/>potest esse sine eo. et per consequens sine quocumque eiusdem rati 
+      <lb ed="#L" n="61"/>nis vel eiusdem generis diuisim. tunc potest esse sine 
+      <lb ed="#L" n="62"/>quolibet coniunctim per potentiam diuinam. si ista 
+      <lb ed="#L" n="63"/>propositio concedatur. ex prioritate nature potest
+      pro<lb ed="#L" n="64" break="no"/>bari separabilitas prioris a posteriori sine
+      peti<lb ed="#L" n="65" break="no"/>tione principii. et isto modo ex prioritate nature 
+      <lb ed="#L" n="66"/>materie respectu forme. quia scilicet naturaliter hec 
+      <lb ed="#L" n="67"/>materia potest esse sine hac forma et sine illa
+      for<lb ed="#L" n="68" break="no"/>ma. et sic de qualibet diuisim: sine petitione prin 
+      <lb ed="#L" n="69"/>cipii. infertur quod per potentiam diuinam materia potest 
+      <lb ed="#L" n="70"/>esse sine omni forma. Utrum tamen ista propositio sit 
+      <lb ed="#L" n="71"/>viversalis vera. alias dicetur
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1289">
+      ⁋ Ad aliam probationem
+      conce<lb ed="#L" n="72" break="no"/>do. quod philosophus habet concedere. quod deus non est prior 
+      <lb ed="#L" n="73"/>natura corpore celesti. accipiedo prius natura vt 
+      <lb ed="#L" n="74"/>distinguitur contra omnes alios modos prioritatis. 
+      <lb ed="#L" n="75"/>Ueruntamen prius natura accipitur pro priori
+      digni<lb ed="#L" n="76" break="no"/>tate et perfectione. et sic est concededum quod deus est por 
+      <lb ed="#L" n="77"/>natura omni corpore
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1305">
+      ⁋ Ad aliam probationem dico quod 
+      <lb ed="#L" n="78"/>concessa illa propositione quod omne absolutum creatum 
+      <lb ed="#L" n="79"/>potest esse sine quocumque alio per potentiam diuinam 
+      <lb ed="#L" n="80"/>nihil est prius natura alio absoluto simplicitur et 
+      <lb ed="#L" n="81"/>absolute loquendo. nisi solus deus. quia nullum est 
+      <lb ed="#L" n="82"/>absolutum excepto deo. quin sine illo quodcumque aliud 
+      <lb ed="#L" n="83"/>poterit esse per potentiam diuinam. Ueruntamen
+      na<lb ed="#L" n="84" break="no"/>turaliter loquendo aliquid est prior natura alio. quia 
+      <lb ed="#L" n="85"/>per naturam hoc potest esse sine illo. et sic loquitur 
+      <lb ed="#L" n="86"/>philosophus. et isto modo materia est prius natura
+      for<lb ed="#L" n="87" break="no"/>ma. quia naturaliter hec materia potest esse sine ista 
+      <lb ed="#L" n="88"/>forma. et non econuerso.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1331">
+      ⁋ Si dicatur quod secundum istum 
+      <lb ed="#L" n="89"/>quamuis hec materia esset prior natura hac forma. 
+      <lb ed="#L" n="90"/>tamen materia absolute non est prior forma
+      absolu<lb ed="#L" n="91" break="no"/>te. quia impossibile est per naturam quod sit materia 
+      <lb ed="#L" n="92"/>quin sit forma. Dico quod sicut ex frequenter dictis 
+      <lb ed="#L" n="93"/>potest patere. hec est simplicitur concededa. materia 
+      <lb ed="#L" n="94"/>est prior natura forma. quia habet multas singula 
+      <lb ed="#L" n="95"/>res veras. et tamen hec indiffinita non potest esse vera 
+      <lb ed="#L" n="96"/>materia est. nisi hec indiffinita sit vera forma 
+      <lb ed="#L" n="97"/>est. sed ex hoc non sequitur quod materia non sit prior 
+      <lb ed="#L" n="98"/>forma. sed de hoc conceptu communi ad omnes materias 
+      <lb ed="#L" n="99"/>non potest praedicari esse existere. nisi de hoc communi ad  
+      <lb ed="#L" n="100"/>omnes formas praedicetur esse existere. nisi per
+      po<lb ed="#L" n="101" break="no"/>tentiam diuinam. et ideo potest concedi. quod iste conceptus 
+      <lb ed="#L" n="102"/>non est prior natura illo conceptu. sed iste conceptus 
+      <lb ed="#L" n="103"/>non est de essentia rei. sicut frequenter dictum est 
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1366">
+               <lb ed="#L" n="104"/>⁋ Ad illud quod secundo obiicitur dico quod proprie loque 
+      <lb ed="#L" n="105"/>do nunquam est simultas aliquorum duorum nisi propter 
+      <lb ed="#L" n="106"/>aliquod tertium idem correspondes vtrique illorum. qua 
+      <lb ed="#L" n="107"/>dicutur esse simul. sicut aliqua dicuntur esse
+      si<lb ed="#L" n="108" break="no"/>mul: quia sunt in eodem loco. aliqua quia sunt 
+      <lb ed="#L" n="109"/>in eodem tempore. et ideo non est proprie concedendum 
+      <lb ed="#L" n="110"/>quod aliqua sunt simul perfectione vel causalitate 
+      <!--346.xml-->
+      <pb ed="#L" n="172-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vel origine. et ideo in talibus non sunt proprie instam 
+      <lb ed="#L" n="2"/>tia vel signa
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1395">
+      ⁋ Et quando dicitur quod conceditur aliqua 
+      <lb ed="#L" n="3"/>sunt simul natura. Dico quod hoc non est nisi propter 
+      <lb ed="#L" n="4"/>tempus connotatum per talem simultatem. Unde illa 
+      <lb ed="#L" n="5"/>dicuntur esse simul natura quorum vnum non potest esse 
+      <lb ed="#L" n="6"/>in quocumque tempore nisi in eodem sit alterum. et ita 
+      <lb ed="#L" n="7"/>tunc connotatur per simultatem nature. sicut per 
+      <lb ed="#L" n="8"/>prioritatem nature. et ideo non assignabuntur alia 
+      <lb ed="#L" n="9"/>instantia quam instantia temporis. Unde sicut aliquid est 
+      <lb ed="#L" n="10"/>prius natura alio. quia potest esse simpliciter in ali 
+      <lb ed="#L" n="11"/>quo tempore vel instanti. alio non existente in eodem 
+      <lb ed="#L" n="12"/>tempore vel instanti. et ita prius natura dicit
+      ali<lb ed="#L" n="13" break="no"/>quod tempus vel instans posse correspondere vni 
+      <lb ed="#L" n="14"/>quamuis non correspondeat alteri. ita simul natura 
+      <lb ed="#L" n="15"/>connotat omne instans correspondens vni
+      corre<lb ed="#L" n="16" break="no"/>spondere alteri necessario. et hoc loquendo de po 
+      <lb ed="#L" n="17"/>tentia creature. et ideo nulla instantia connotat 
+      <lb ed="#L" n="18"/>nisi temporis. et ideo nunquam dicuntur aliqua esse si 
+      <lb ed="#L" n="19"/>mul natura quantumcunque vnum sit in alio. dummodo  
+      <lb ed="#L" n="20"/>naturaliter vnum possit esse in aliquo instanti te 
+      <lb ed="#L" n="21"/>poris. alio non existente in eodem
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1439">
+      ⁋ Ad tertiam ob 
+      <lb ed="#L" n="22"/>iectionem dico quod essentia non refertur relatione 
+      <lb ed="#L" n="23"/>realiter differente ad personam. quamuis sit ibi ordo 
+      <lb ed="#L" n="24"/>realis qualis dictus est. quomodo autem possit 
+      <lb ed="#L" n="25"/>esse ordo realis sine reali relatione patebit alias 
+      <lb ed="#L" n="26"/>quando ostendetur quod deus realiter est creator si 
+      <lb ed="#L" n="27"/>ne omni relaxione reali tali.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1456">
+      ⁋ Ad quartam obie 
+      <lb ed="#L" n="28"/>ctionem dico quod actus quando constituit
+      supposi<lb ed="#L" n="29" break="no"/>tum: non est posterior supposito. sed magis
+      econuer<lb ed="#L" n="30" break="no"/>so non est tamen actus talis prior. nec causalitate
+      pro<lb ed="#L" n="31" break="no"/>prie loquendo. nec natura. nec tempore. sed tantum qua 
+      <lb ed="#L" n="32"/>dam prioritate consequentie. quia sequitur. a est suppositum 
+      <lb ed="#L" n="33"/>ergo a est actus iste. et non econuerso.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1472">
+      ⁋ Ad
+      confir<lb ed="#L" n="34" break="no"/>mationem dico quod non debet proprie concedi quod pater 
+      <lb ed="#L" n="35"/>prius intelligit quam filius. Unde talis modus lo 
+      <lb ed="#L" n="36"/>quendi est abusiuus. vel simplicitur falsus sub isto 
+      <lb ed="#L" n="37"/>tamen intellectu pater intelligit a se. filius non
+      in<lb ed="#L" n="38" break="no"/>telligit a se. potest concedi et sub nullo alio. et ita 
+      <lb ed="#L" n="39"/>potest concedi quod pater prius creat quam filius. sed ex hoc 
+      <lb ed="#L" n="40"/>non sequitur quin filius posset vere intelligere et
+      crea<lb ed="#L" n="41" break="no"/>re
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1492">
+      ⁋ Ad aliud concedo. quod intellectio est respectu 
+      <lb ed="#L" n="42"/>filii. sed ex hoc non sequitur quod sit respectu filii no 
+      <lb ed="#L" n="43"/>existentis. quia impossibile est quod filius sit non
+      exi<lb ed="#L" n="44" break="no"/>stens
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1501">
+      ⁋ Et si dicatur quod intellectio sit prior filio. et 
+      <lb ed="#L" n="45"/>per consequens filius non est in illo priori. et ita pro tunc 
+      <lb ed="#L" n="46"/>filius est non existens. et per consequens si tunc intellectio sit 
+      <lb ed="#L" n="47"/>respectu filii. est respectu filii non existentis.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1510">
+      ⁋ Ad 
+      <lb ed="#L" n="48"/>illud et omnia consimilia patet responsio per praedicta 
+      <lb ed="#L" n="49"/>quia quando dicitur quod si intellectio sit prior filio. ergo fili 
+      <lb ed="#L" n="50"/>non erit in illo priori. patet per praedicta quod consequentia non 
+      <lb ed="#L" n="51"/>valet. quia filius poterit esse in illo priori. quia nihil 
+      <lb ed="#L" n="52"/>potest esse prius nisi ista intellectio. et est
+      conceden<lb ed="#L" n="53" break="no"/>dum quod filius est in ista intellectione sicut est in 
+      <lb ed="#L" n="54"/>essentia diuina. posito etiam quod filius non esset in 
+      <lb ed="#L" n="55"/>ista intellectione. et per consequens non esset in isto priori. 
+      <!--346.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 172-r -->
+               <lb ed="#L" n="56"/>adhuc non valet argumentum. quia quando infertur quod si non 
+      <lb ed="#L" n="57"/>est in illo priori. ergo tunc est non existens. consequentia non
+      va<lb ed="#L" n="58" break="no"/>let. quia tunc non potest signari nisi instans. et dictum est quod 
+      <lb ed="#L" n="59"/>nullum est instans nisi temporis. et ita denotaret quod filius 
+      <lb ed="#L" n="60"/>esset in aliquo instanti temporis non existens: quod est ma 
+      <lb ed="#L" n="61"/>nifeste falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1549">
+      ⁋ Et si dicatur quod tunc idem esset quod in illo 
+      <lb ed="#L" n="62"/>priori iste concederentur. quia tunc non est vel non est ex 
+      <lb ed="#L" n="63"/>stens. Respondeo et dico quod tunc non potest
+      significa<lb ed="#L" n="64" break="no"/>re idem quod in illo priori nisi de nouo institueretur 
+      <lb ed="#L" n="65"/>ad significandum. et tunc nihil est ad propositum. dato 
+      <lb ed="#L" n="66"/>etiam quod idem significaret tunc est fallacia
+      consequen<lb ed="#L" n="67" break="no"/>tis in arguendo a negatiua ad affirmatiuam: sicut 
+      <lb ed="#L" n="68"/>non sequitur. filius non est in illo priori. ergo est in illo priori 
+      <lb ed="#L" n="69"/>non existens: sicut non sequitur. asinus non est in lapide 
+      <lb ed="#L" n="70"/>ergo est in lapide non existens. et per consequens ponitur quod asinus 
+      <lb ed="#L" n="71"/>tam sit in lapide quam quod sit non existens. et ita quando
+      po<lb ed="#L" n="72" break="no"/>sterius non est in illo quod est prius. omnes negatiue possunt 
+      <lb ed="#L" n="73"/>concedi: quod non existit in illo priori. et non est in illo
+      pri<lb ed="#L" n="74" break="no"/>ori et sic de aliis. sed omnes affirmatiue sunt simplici 
+      <lb ed="#L" n="75"/>ter false. scilicet quod in illo priori est non existens. vel in illo 
+      <lb ed="#L" n="76"/>priori est sub opposito tali vel tali. quia scilicet in omnibus 
+      <lb ed="#L" n="77"/>illis implicatur illud esse in illo priori quod tamen est falsum 
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1587">
+               <lb ed="#L" n="78"/>⁋ Ad quintam obiectionem dico: quod intellectio
+      cre<lb ed="#L" n="79" break="no"/>ature est eadem omnino essentie diuine. et ideo sicut
+      co<lb ed="#L" n="80" break="no"/>ceditur quod essentia diuina est prior persona prioritate 
+      <lb ed="#L" n="81"/>tali consequeni: ita debet concedi: quod intellectio
+      creatu<lb ed="#L" n="82" break="no"/>re est prior. quia ita est eadem intellectio creature essen 
+      <lb ed="#L" n="83"/>tie diuine: sicut essentia essentie.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1603">
+      ⁋ Ad primum in 
+      <lb ed="#L" n="84"/>contrarium dico: quod non est de intentione beati
+      augusti<lb ed="#L" n="85" break="no"/>ni: quod filius nascatur de omnibus quae sunt in notitia patris 
+      <lb ed="#L" n="86"/>obiectiue. sed quia nascitur de scientia dei patris in qua 
+      <lb ed="#L" n="87"/>sunt omnia alia obiectiue: quod autem illa glosa non sit ex 
+      <lb ed="#L" n="88"/>torta potest patere: quia beatus augi. ibidem ponit 
+      <lb ed="#L" n="89"/>quod omnia quae sunt in patre sunt in filio. ita quod omnia qua 
+      <lb ed="#L" n="90"/>nouit pater nouit filius. et quod omnia quae sunt in filio 
+      <lb ed="#L" n="91"/>sunt nata de hiis quae sunt in patre. et tamen
+      manife<lb ed="#L" n="92" break="no"/>stum est: quod creature cognite a filio non sunt nate de 
+      <lb ed="#L" n="93"/>creaturis cognitis a patre. Utrobique ergo
+      intel<lb ed="#L" n="94" break="no"/>ligit quod filius qui nouit omnia quae nouit pater nascitur 
+      <lb ed="#L" n="95"/>de scientia dei patris. in qua pater nouit omnia. 
+      <lb ed="#L" n="96"/>et eadem quae nouit filius. Quod autem hec sit intentio 
+      <lb ed="#L" n="97"/>beati augustini patet. quia dicit ibidem sic. Nouit omnia 
+      <lb ed="#L" n="98"/>quae nouit pater. sed ei nosse de patre est sicut esse 
+      <lb ed="#L" n="99"/>nosse enim et esse ibi vnum est. et sequitur. Uerbum 
+      <lb ed="#L" n="100"/>hoc vere veritas est. quoniam quicquid est in ea scientia 
+      <lb ed="#L" n="101"/>de qua est genitum. et in ipso est. quod autem in ea non est. 
+      <lb ed="#L" n="102"/>in ipso non est. quod est sic intelligendum. quod quicquio 
+      <lb ed="#L" n="103"/>est obiectiue in scientia de qua nascitur verbum 
+      <lb ed="#L" n="104"/>hoc est obiectiue in scientia verbi quod nascitur 
+      <lb ed="#L" n="105"/>qui quicquid gignitur ab ista scientia. illud cogno 
+      <lb ed="#L" n="106"/>scitur et est in verbo obiectiue et sic est intelli 
+      <lb ed="#L" n="107"/>gendum illud quod sequitur. nouit itaque deus pater 
+      <lb ed="#L" n="108"/>omnia in se ipso. nouit et in filio. sed in se ipso tam 
+      <lb ed="#L" n="109"/>quam seipsum. et in filio tanquam verbum suum. quod verbum 
+      <lb ed="#L" n="110"/>natum est de omnibus biis quae sunt in seipso. omnia 
+      <!--347.xml-->
+      <pb ed="#L" n="172-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>similiter nouit et filius in se scilicet tanquam ea que na 
+      <lb ed="#L" n="2"/>ta sunt de hiis quae pater nouit in seipo. in patre 
+      <lb ed="#L" n="3"/>scilicet tanquam ea de quibus nata sunt que ipse filius
+      no<lb ed="#L" n="4" break="no"/>uit in ipso. Qualiter autem ista auctoritas sit
+      in<lb ed="#L" n="5" break="no"/>telligenda postea magis apparebit
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1681">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="6"/>quando dicitur quod quando in aliquo sunt ordines etc. ista pro 
+      <lb ed="#L" n="7"/>positio non est vera propter falsam implicationem 
+      <lb ed="#L" n="8"/>qui implicatur ibi quod vterque ordinum haberet tales 
+      <lb ed="#L" n="9"/>gradus qui essent signa vel instantia. et ideo quando di 
+      <lb ed="#L" n="10"/>citur quod intellectus diuinus in primo instanti na 
+      <lb ed="#L" n="11"/>ture comparatur ad essentiam suam. et in secundo ad  
+      <lb ed="#L" n="12"/>creaturam. hoc est simplicitur falsum. quia non sunt ta 
+      <lb ed="#L" n="13"/>lia instantia nature. nec est talis ordo inter
+      in<lb ed="#L" n="14" break="no"/>tellectionem diuine essentie et intellectionem crea 
+      <lb ed="#L" n="15"/>ture. sed est eadem omnibus modis. Ueruntamen inter 
+      <lb ed="#L" n="16"/>ipsam essentiam diuinam cognitam et creaturam cogni 
+      <lb ed="#L" n="17"/>tam est ordo. nec oportet quod sit consimilis inter in 
+      <lb ed="#L" n="18"/>tellectionem et intellectionem qualis est inter ol 
+      <lb ed="#L" n="19"/>iecta. sicut nec requiritur tanta distinctio quanta 
+      <lb ed="#L" n="20"/>potest reperiri inter obiecta.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1716">
+      ⁋ Ad vltimum dico 
+      <lb ed="#L" n="21"/>quod nullum essentiale diuinum includit aliquem
+      respe<lb ed="#L" n="22" break="no"/>ctum ad creaturam. Utrum autem aliquis conceptus vel 
+      <lb ed="#L" n="23"/>nomen significans aliquid essentiale deo. significet 
+      <lb ed="#L" n="24"/>etiam respectum ad creaturam vel connotet aliquam 
+      <lb ed="#L" n="25"/>creaturam. non est cura ad presens. quia hoc posito 
+      <lb ed="#L" n="26"/>nihil est ad propositum. cum nihil tale possit esse re 
+      <lb ed="#L" n="27"/>aliter diuina essentia.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1734">
+      ⁋ Ad primum principale 
+      <lb ed="#L" n="28"/>nego maiorem quod nihil posterius alio est illi commun 
+      <lb ed="#L" n="29"/>ternum.
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1741">
+      ⁋ Ad probationem dico quod prius et posteri. 
+      <lb ed="#L" n="30"/>duratione non sunt simul. tamen prius et posterius 
+      <lb ed="#L" n="31"/>secundum originem possunt esse simul
+    </p>
+            <p xml:id="wo8uy7-d1e815-d1e1749">
+      ⁋ Ad aliud dico 
+      <lb ed="#L" n="32"/>quod non vniuersaliter omni modo sicut corruptio 
+      <lb ed="#L" n="33"/>se habet ad non esse. ita generatio se habet ad  
+      <lb ed="#L" n="34"/>esse. sed si habeat veritatem. precise habet
+      veri<lb ed="#L" n="35" break="no"/>tatem de generatione alicuius de nouo de
+      genera<lb ed="#L" n="36" break="no"/>tione autem que est productio alicuius sine omni 
+      <lb ed="#L" n="37"/>nonesse precedente non habet veritatem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="230-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1396"><!-- l1d29q1 -->
+            <head xml:id="wo8uy7-d1e1396-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1396-d1e111">
+               <lb ed="#L" n="43"/>Questio vnica. 
+      <lb ed="#L" n="44"/>Diistin. xxix. 
+      <lb ed="#L" n="45"/>Irca distinctio 
+      <lb ed="#L" n="46"/>xxix. quero. Utrum principium 
+      <lb ed="#L" n="47"/>dicatur vniuoce de omnibus illi 
+      <lb ed="#L" n="48"/>in deo de quibus vere praedicatur.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e127">
+               <lb ed="#L" n="49"/>Quod sic. quia hoc est vera praedicatio si 
+      <lb ed="#L" n="50"/>ne omni distinctione. pater est prin 
+      <lb ed="#L" n="51"/>cipium fili. ergo nullus terminus est haec equocus. et per 
+      <lb ed="#L" n="52"/>consequens quaelibet est vniuocus. ergo dicitur de omnibus
+      vniuo<lb ed="#L" n="53" break="no"/>ce de quibus praedicatur.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e140">
+      Preterea nihil dicitur equmoce de 
+      <lb ed="#L" n="54"/>illis que sunt vna res. sed omnia que sunt in deo. 
+      <lb ed="#L" n="55"/>sunt vna res. quia vna essentia. ergo nihil dicitur de illis 
+      <!--463.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 230-v -->
+               <lb ed="#L" n="56"/>equiuoce sed vniuoce.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e156">
+      ⁋ Ad oppositum. omne
+      vniuo<lb ed="#L" n="57" break="no"/>cum est vniversale. sed nihil est vniversale ad illa quae sunt in deo 
+      <lb ed="#L" n="58"/>ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e164">
+      ⁋ Pic primo videndum est de hoc termino vni 
+      <lb ed="#L" n="59"/>uocum. secundo ad propositum
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e169">
+      ⁋ Circa primum dico sicut d 
+      <lb ed="#L" n="60"/>ctum est supra. dist. ii. Uniuocum dupliciter accipitur 
+      <lb ed="#L" n="61"/>vel stricte vel large. vniuocum stricte sumptum 
+      <lb ed="#L" n="62"/>est aliquod signum voluntarie institutum vna institu 
+      <lb ed="#L" n="63"/>tione ad significandum omnia quae sub aliquo vno com 
+      <lb ed="#L" n="64"/>ceptu continentur. et pro eodem tempore pro quo et quandocumque sui 
+      <lb ed="#L" n="65"/>tali conceptu continentur. et isto modo vniuocum non dicitur 
+      <lb ed="#L" n="66"/>de conceptu. quia conceptus siue intentio anime non ad pla 
+      <lb ed="#L" n="67"/>citum. sed naturaliter est signum illorum quorum est signum 
+      <lb ed="#L" n="68"/>tamen vniuocum sic dictum potest accipi stricte et stricti 
+      <lb ed="#L" n="69"/>us et forte strictissime. sicut alibi tactum est.
+      Uni<lb ed="#L" n="70" break="no"/>uocum large sumptum non tantum dicitur de signo volunta 
+      <lb ed="#L" n="71"/>rio instituto. sed etiam de conceptu cui correspondet
+      ta<lb ed="#L" n="72" break="no"/>le signum. et tunc idem est conceptum esse vniuocum 
+      <lb ed="#L" n="73"/>ad plura. et conceptum esse praedicabilem de pluribus 
+      <lb ed="#L" n="74"/>et ideo querere de vniuocatione conceptus. non est 
+      <lb ed="#L" n="75"/>nisi querere de vnitate conceptus.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e206">
+      ⁋ Sed tunc est 
+      <lb ed="#L" n="76"/>dubium. quae est via ad cognoscendum vniuocationem 
+      <lb ed="#L" n="77"/>alicuius.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e213">
+      ⁋ Dicendum quod loquendo de vniuocatione 
+      <lb ed="#L" n="78"/>conceptus duplici via potest cognosci vnitas eius. 
+      <lb ed="#L" n="79"/>vno modo per experientiam quando scilicet intellectus expe 
+      <lb ed="#L" n="80"/>ritur in se quod habet conceptum vnum. itam quod potest
+      forma<lb ed="#L" n="81" break="no"/>re in mente vnam propositionem habentem vnum praedicatum 
+      <lb ed="#L" n="82"/>vel vnum subiectum et non plura quod pro illis
+      sup<lb ed="#L" n="83" break="no"/>ponit. quando autem non potest experiri in mente sine 
+      <lb ed="#L" n="84"/>omni lingua et ydeomate. non potest experiri se 
+      <lb ed="#L" n="85"/>habere vnum conceptum.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e233">
+      ⁋ Aliter potest hoc
+      de<lb ed="#L" n="86" break="no"/>duci per naturalem argumentationem. arguendo con 
+      <lb ed="#L" n="87"/>tra negantes vnitatem conceptus. scilicet per hoc quod 
+      <lb ed="#L" n="88"/>manifestum est aliquid intelligi aliquo modo a 
+      <lb ed="#L" n="89"/>et non in se. vel non cognitione propria nec
+      equi<lb ed="#L" n="90" break="no"/>ualenti. tunc enim oportet necessario habere vnum 
+      <lb ed="#L" n="91"/>conceptum dictum de illo et de aliquo quod in se 
+      <lb ed="#L" n="92"/>vel cognitione propria vel equiualenti cognoscitur 
+      <lb ed="#L" n="93"/>sed quod iste conceptus sit praecise vniuocus illi et isti 
+      <lb ed="#L" n="94"/>et non aliis est impossibile vel valde difficile pro 
+      <lb ed="#L" n="95"/>bare contra negantem. nec est forte facile per
+      ex<lb ed="#L" n="96" break="no"/>perientiam certam cognoscere. hoc tamen
+      po<lb ed="#L" n="97" break="no"/>test euidenter cognosci quod quando aliquis format 
+      <lb ed="#L" n="98"/>in mente vnam propositionem que habet simplex prim 
+      <lb ed="#L" n="99"/>dicatum. quod vtique est vniuocum omnibus illis 
+      <lb ed="#L" n="100"/>pro quibus supponit et quando pro eis supponit. non tamen 
+      <lb ed="#L" n="101"/>semper potest euidenter cognosci an supponat
+      pro<lb ed="#L" n="102" break="no"/>istis ita quod non pro aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e272">
+      ⁋ Sed loquendo de
+      vni<lb ed="#L" n="103" break="no"/>uoco stricte sumpto. quod est voluntarie
+      insti<lb ed="#L" n="104" break="no"/>tutum. Dicendum quod debet cognosci an sit
+      vni<lb ed="#L" n="105" break="no"/>uocum ista via. videre scilicet an illud habeat
+      ali<lb ed="#L" n="106" break="no"/>quam diffinitionem exprimentem quid nominis vel non 
+      <lb ed="#L" n="107"/>Si non habet diffinitionem exprimentem quid nominis. 
+      <lb ed="#L" n="108"/>sed potest habere diffinitionem exprimentem quid 
+      <lb ed="#L" n="109"/>rei est vniuocum. Si autem habet diffinitionem 
+      <lb ed="#L" n="110"/>exprimentem quid nominis. tunc aut aliqua 
+      <!--464.xml-->
+      <pb ed="#L" n="231-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vna diffinitio ipsius non continens aliquod equiuocum 
+      <lb ed="#L" n="2"/>icitur de omnibus de quibus verificatur nomen. et runc: est nomen 
+      <lb ed="#L" n="3"/>vniuocum aut non et tunc est equiuocum. Qualiter autem 
+      <lb ed="#L" n="4"/>illud positum in diffinitione exprimente quid nominis de 
+      <lb ed="#L" n="5"/>beat cognosci ansit vniuocum vel non. recurrendum est 
+      <lb ed="#L" n="6"/>ad eandem artem. Et potest ista ars applicari modo suo 
+      <lb ed="#L" n="7"/>quamuis non totaliter consimiliter non tantum nominibus
+      cathegoreu<lb ed="#L" n="8" break="no"/>matiu. sed etiam sincathegoreumatiu et verbis et omni 
+      <lb ed="#L" n="9"/>perti onstonis. Sed qualiter diuersimode causa breuitatis 
+      <lb ed="#L" n="10"/>omitto.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e321">
+      ⁋ Exhis dico ad quaestionem quod si intelligatur 
+      <lb ed="#L" n="11"/>quaetio de conceptu correspondente huic noni principium. an 
+      <lb ed="#L" n="12"/>sict correspondeat sibi vnus conceptus vel possit correspondere 
+      <lb ed="#L" n="13"/>sic est magis dubium quia non reputo quod aliquis
+      pos<lb ed="#L" n="14" break="no"/>sit doceri de hac propositione. sed si debet sciri oportet quod sciatur 
+      <lb ed="#L" n="15"/>per experientiam. ideo pertranseo de hoc et relinquo experientie 
+      <lb ed="#L" n="16"/>cuiuslibet. Sed loquendo de hoc nomine principium. Dico 
+      <lb ed="#L" n="17"/>quod hoc nomen principium non dicitur vniuoce de omnibus de 
+      <lb ed="#L" n="18"/>quibus dicitur in deo. quia sicut inductiue patet. nulla potest 
+      <lb ed="#L" n="19"/>dari diffinitio exprimens quid nominis conueniens
+      cui<lb ed="#L" n="20" break="no"/>libet de quo dicitur. Nam quando dicitur deus est principium crea 
+      <lb ed="#L" n="21"/>ture si loco istius nominis principium. diffinitio
+      expri<lb ed="#L" n="22" break="no"/>mens quid nominis ipsius ponatur. dicetur sic. deus producit 
+      <lb ed="#L" n="23"/>creaturam de nihilo. vel si dicatur sic. deus producit 
+      <lb ed="#L" n="24"/>creaturam. et similiter sic. pater producit filium. aliter diffinietur 
+      <lb ed="#L" n="25"/>producere in vna propositione et in alia. Similiter si dicatur 
+      <lb ed="#L" n="26"/>sic. essentia est principium generandi. aliter diffinietur quam sic 
+      <lb ed="#L" n="27"/>essentia generat filium. Et ita patet quod si in diuersis propositio 
+      <lb ed="#L" n="28"/>nibus poneretur diffinitio exprimens quid nominis
+      loco<lb ed="#L" n="29" break="no"/>istius nominis principium. conferuando semper quod propositiones sint 
+      <lb ed="#L" n="30"/>vere alia diffinitio talis poneretur in vna propositione quamt 
+      <lb ed="#L" n="31"/>in alia.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e369">
+      ⁋ Ad primum principale dicendum quod hoc non est 
+      <lb ed="#L" n="32"/>vera sine omni distinctione. pater est principium filum. quamuis 
+      <lb ed="#L" n="33"/>sine distinctione frequint concedatur a scientis. Unde sicut 
+      <lb ed="#L" n="34"/>multe propositiones de virtute secumois false conceduntur 
+      <lb ed="#L" n="35"/>ab auctoribus. quae tamen sed intellectum quem ipsi habue 
+      <lb ed="#L" n="36"/>runt sunt vere. ita multe propositiones quae de virtute sermonis 
+      <lb ed="#L" n="37"/>sunt distinguende conceduntur ab eis sine distinctione 
+      <lb ed="#L" n="38"/>Et tamen sciendum est quod aliquando dictio aliud et aliud
+      signi<lb ed="#L" n="39" break="no"/>ficat. sine hoc quod aliqua propositio sit distinguenda. sicut in 
+      <lb ed="#L" n="40"/>alio loco declaraui.
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e391">
+      ⁋ Ad secundum dicendum quod aliquod 
+      <lb ed="#L" n="41"/>potest equiuoce dici de ill quae sunt vna res quando simul cum hoc 
+      <lb ed="#L" n="42"/>quod sunt vna res sunt plures res. sicut est de personis
+      di<lb ed="#L" n="43" break="no"/>uinis vel quando non sunt idem formaliter. sicut est de essentia 
+      <lb ed="#L" n="44"/>et persona
+    </p>
+            <p xml:id="wo8uy7-d1e1396-d1e402">
+      ⁋ Argumentum in oppositum non concludit 
+      <lb ed="#L" n="45"/>quamuis conclusio sit vera et quare non concludit
+      ta<lb ed="#L" n="46" break="no"/>etum est prius 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

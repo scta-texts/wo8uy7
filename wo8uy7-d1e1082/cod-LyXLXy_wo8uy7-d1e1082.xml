@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="192-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1082"><!-- l1d17q6 -->
+            <head xml:id="wo8uy7-d1e1082-Hd1e108">Quaestio 6</head>
+            <p xml:id="wo8uy7-d1e1082-d1e111">
+      Questio sexta. 
+      <lb ed="#L" n="8"/>CIrca idem tertio 
+      <lb ed="#L" n="9"/>quero. Utrum in augmentatione 
+      <lb ed="#L" n="10"/>charitatis aliquid realiter differens 
+      <lb ed="#L" n="11"/>a priori sibi adueniat.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e122">
+      ⁋ Quod non 
+      <lb ed="#L" n="12"/>qui si sibi aliquid adueniret: sequens esset
+      compo<lb ed="#L" n="13" break="no"/>sitius quam praecedens quia maiorem pluralitatem includeret 
+      <lb ed="#L" n="14"/>consequens est falsum. quia quanto aliquid est simplicius tanto 
+      <lb ed="#L" n="15"/>est perfectius. ergo si charitas praecedens esset simplicior 
+      <lb ed="#L" n="16"/>esset perfectior.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e135">
+      ⁋ Preterea secundum auctorem sex principio 
+      <lb ed="#L" n="17"/>rum forma est in simplici inuariabili esse consistens 
+      <lb ed="#L" n="18"/>ergo nullo modo composita est et per consequens priori charitati 
+      <lb ed="#L" n="19"/>nihil realiter differens aduenit.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e144">
+      ⁋ Ad
+      oppo<lb ed="#L" n="20" break="no"/>situm. impossibile est aliquam formami aliquo
+      sub<lb ed="#L" n="21" break="no"/>iecto augmentari nisi illud subiectum mutetur. erg 
+      <lb ed="#L" n="22"/>quando charitas augmentatur in homine oportet quod homo mute 
+      <lb ed="#L" n="23"/>tur. ergo vel aliquod nonuum recipit quod prius non habuit 
+      <lb ed="#L" n="24"/>vel aliquid perdit quod prius habuit. sed non pardit aliquid  
+      <lb ed="#L" n="25"/>quod prius habuit. ergo aliquid nonuum recipit quod prius 
+      <lb ed="#L" n="26"/>non habuit. et per consequens prime charitati aliquid realiter 
+      <lb ed="#L" n="27"/>differens aduenit de nouo.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e165">
+      ⁋ Ad istam. q. est vna 
+      <lb ed="#L" n="28"/>opinio: quod quelibet forma quando augmentatur non vni 
+      <lb ed="#L" n="29"/>tur alicui de nouo realiter differenti. sed depuratur et 
+      <lb ed="#L" n="30"/>separatur a suo contrario magis quam prius: et hoc est eam
+      in<lb ed="#L" n="31" break="no"/>tendi vel augmentari.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e176">
+      ⁋ Pro ista opinione videntur esse 
+      <lb ed="#L" n="32"/>aliqua auc
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e181">
+      ⁋ Prima est philosophi iii tho. vbi vult quod illud 
+      <lb ed="#L" n="33"/>est albius quod est nigro impemixtius. ergo aliquid esse albius 
+      <lb ed="#L" n="34"/>est minus permisceri cum nigro.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e188">
+      ⁋ Preterea in
+      praedica<lb ed="#L" n="35" break="no"/>mentis attribuit susceptionem magis et minus
+      pri<lb ed="#L" n="36" break="no"/>cise illis quae habent contrarietatem. Unde ante illam
+      pro<lb ed="#L" n="37" break="no"/>prietatem de susceptione magis et minus praemittit
+      pro<lb ed="#L" n="38" break="no"/>prietatem de habere contrarium. ergo videtur secundum eum quod nihil 
+      <lb ed="#L" n="39"/>suscipit magis nisi quod minus permiscetur 
+      <lb ed="#L" n="40"/>cum suo contrario.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e204">
+      ⁋ Preterea secundum philosophum et commen. x. 
+      <lb ed="#L" n="41"/>metha. medium componitur ex extremis. ergo non est inco 
+      <lb ed="#L" n="42"/>ueniens extrema simul concurrere in eodem. et per 
+      <lb ed="#L" n="43"/>consequens per talem accessum intenditur.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e213">
+      ⁋ Contra. aliquid 
+      <lb ed="#L" n="44"/>uscepit magis et minus quod non habet contrarium. patet 
+      <lb ed="#L" n="45"/>de lumine. ergo minus permisceri cum suo contrario non 
+      <lb ed="#L" n="46"/>est ipsum intedi. Et hoc idem patet. quia per actum sciendi 
+      <lb ed="#L" n="47"/>et per actum veritatis generatur et augmentatur
+      habi<lb ed="#L" n="48" break="no"/>tus intellectualis et virtuosus. et tamen nihil est ibi 
+      <lb ed="#L" n="49"/>contrarium. quia quero a quo causaretur. non ab actu 
+      <lb ed="#L" n="50"/>sciendi nec ab actu virtutis. manifestum est. nec ab 
+      <lb ed="#L" n="51"/>actu erroris nec ab actu viciso. quia nullus est ibi. 
+      <lb ed="#L" n="52"/>Aliter enim non possit aliquas esse bonus moraliter nisi 
+      <lb ed="#L" n="53"/>primo esset viciosus. immo simul acquireret vtrunque. ha 
+      <lb ed="#L" n="54"/>bitum quod est impossibile.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e240">
+      ⁋ Preterea ex ista opinin 
+      <!--387.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 192-v -->
+               <lb ed="#L" n="55"/>sequeretur quod numquam aliqua forma augmentatur nisi etiam 
+      <lb ed="#L" n="56"/>forma contraria augmentetur.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e253">
+      ⁋ Probatio. quia volo 
+      <lb ed="#L" n="57"/>quod calor augmentetur. tunc secundum istam opinine calorem
+      au<lb ed="#L" n="58" break="no"/>gmentari est ipsum minus permisceri cum frigore. sed sed 
+      <lb ed="#L" n="59"/>tur. calor minus permiscetur cum frigore. ergo frigus mi 
+      <lb ed="#L" n="60"/>nus permiscetur cum calore. ergo frigus augmentatur. si 
+      <lb ed="#L" n="61"/>nihil aliud sit formam augmentari nisi minus permi 
+      <lb ed="#L" n="62"/>sceri cum suo contrario. ergo de primo ad vltimum sequitur 
+      <lb ed="#L" n="63"/>calor augmentatur. ergo frigus augmentatur.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e271">
+      ⁋ Si di 
+      <lb ed="#L" n="64"/>catur quod frigus minus permiscetur cum calore. quia frigus 
+      <lb ed="#L" n="65"/>est minus. et calor est maior. et ideo calor augmentatur et 
+      <lb ed="#L" n="66"/>non frigus:
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e280">
+      ⁋ Responsio concedit propositum. quod non 
+      <lb ed="#L" n="67"/>est idem formam augmentari et minus permisceri cum suo 
+      <lb ed="#L" n="68"/>contrario. sed siue magis permisceat siue minus. illa 
+      <lb ed="#L" n="69"/>forma augmentatur quae est maior et illa minuitur quae est 
+      <lb ed="#L" n="70"/>minor. ergo permixtio cum suo contrario totaliter
+      acci<lb ed="#L" n="71" break="no"/>dit augmentationi forme.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e293">
+      ⁋ Preterea si
+      augmen<lb ed="#L" n="72" break="no"/>tari non est aliud quam minus permisceri cum suo contrario 
+      <lb ed="#L" n="73"/>ergo non est vera augmentatio sed secundum apparentiam tantum. quia 
+      <lb ed="#L" n="74"/>in rei veritate non est maior forma quam prius. sed secundum 
+      <lb ed="#L" n="75"/>istam opinione apparet maior propter absentiam sui
+      com<lb ed="#L" n="76" break="no"/>trarii. et quand est absens non impedit apparentiam 
+      <lb ed="#L" n="77"/>ipsius.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e309">
+      ⁋ Alia est opiniones aliquorum dicentium quod alique 
+      <lb ed="#L" n="78"/>forme augmentantur per veram additionem et aliqua non 
+      <lb ed="#L" n="79"/>Ideo dicunt quod charitas non augmentatur per addi 
+      <lb ed="#L" n="80"/>tionem. Primum declarant sic. si augmentum et
+      dimi<lb ed="#L" n="81" break="no"/>nutio in formis quae intenduntur et remittuntur accidit 
+      <lb ed="#L" n="82"/>vno modo non ex parte ipsius forme secundum se considerate. sed 
+      <lb ed="#L" n="83"/>ex diuersa participatione subiecti. et sic non fit au 
+      <lb ed="#L" n="84"/>gmentatio per additionem forme ad formam. quia si
+      es<lb ed="#L" n="85" break="no"/>set talis additio. hoc non esset nisi vel ex parte
+      ip<lb ed="#L" n="86" break="no"/>sius forme vel ex parte ipsius subiecti. non ex parte 
+      <lb ed="#L" n="87"/>forme. quia talis additio vel subtractio variat 
+      <lb ed="#L" n="88"/>speciem. si ex parte subiecti. hoc non potest esse. nisi vel 
+      <lb ed="#L" n="89"/>quia aliqua pars subiecti recipit formam quam prius 
+      <lb ed="#L" n="90"/>non habebat. vel quia aliud aliquod subiectum additur 
+      <lb ed="#L" n="91"/>pticipans eandem formam. et patet quod neutrum potest dici 
+      <lb ed="#L" n="92"/>Alio modo accidit augmentatio. quia quadam acciden 
+      <lb ed="#L" n="93"/>tia augmentantur secundum se ipsa. et in illis potest fieri ad  
+      <lb ed="#L" n="94"/>ditio. augetur enim motus per hoc quod aliquid ei additur. vel 
+      <lb ed="#L" n="95"/>secundum tempus in quo est. vel secundum viam per quam est. et ita manet 
+      <lb ed="#L" n="96"/>ibi eadem species propter vnitatem termini. augetur 
+      <lb ed="#L" n="97"/>etiam nihilominus motus per intensionem secundum
+      participa<lb ed="#L" n="98" break="no"/>tionem subiecti. inquantum scilicet idem motus potest magis 
+      <lb ed="#L" n="99"/>vel minus expedite aut prompte fieri. Similiter 
+      <lb ed="#L" n="100"/>et scientia potest augeri secundum seipsam per additionem 
+      <lb ed="#L" n="101"/>cum aliquis plures conclusiones geometrie addis 
+      <lb ed="#L" n="102"/>cit. augetur in eo habitus eiusdem scientie secundum speciem 
+      <lb ed="#L" n="103"/>Augetur nihilominus scientia in aliquo per
+      parti<lb ed="#L" n="104" break="no"/>cipationem subiecti per intensionem. provt scilicet ex 
+      <lb ed="#L" n="105"/>peditius et clarius vnus homo se habet alio in 
+      <lb ed="#L" n="106"/>eisdem conclusionibus considerandis.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e375">
+      ⁋
+      Secun<lb ed="#L" n="107" break="no"/>dum declarant specialiter de charitate. quia 
+      <lb ed="#L" n="108"/>vna charitas non additur alteri. quia si sic vna
+      di<lb ed="#L" n="109" break="no"/>stingueretur ab alia. sed hoc est impossibile. quia 
+      <!--388.xml-->
+      <pb ed="#L" n="193-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>non distinguitur secundum speciem. quia illa est penes
+      oppo<lb ed="#L" n="2" break="no"/>sita. sed vtriusque charitas est idem obiectum. nec
+      distin<lb ed="#L" n="3" break="no"/>guuntur secundum numerum. quia distinctio numeralis in 
+      <lb ed="#L" n="4"/>formis non est nisi secundum distinctionem subiectorum. se 
+      <lb ed="#L" n="5"/>idem numero est subiectum vtriusque. Ex ista ratione patet 
+      <lb ed="#L" n="6"/>manifeste quod secundum istum nullo modo est additio formi 
+      <lb ed="#L" n="7"/>ad formam in augmentatione charitatis.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e406">
+      ⁋
+      Con<lb ed="#L" n="8" break="no"/>tra istam opinionem. Uidetur sibiipsi contradicere. quia 
+      <lb ed="#L" n="9"/>per idem argumentum per quod probat charitatem non au 
+      <lb ed="#L" n="10"/>gmentari per additionem. probo nullam aliam
+      forma<lb ed="#L" n="11" break="no"/>augmentari per additione. quia si scientia addatur
+      sci<lb ed="#L" n="12" break="no"/>entie sicut ipse dicit. igitur scientia addita
+      disti<lb ed="#L" n="13" break="no"/>guitur ab illa cui additur aut distinguitur ab ea secundum 
+      <lb ed="#L" n="14"/>speciem. et tunc non est augmentatio. nec ipse hoc ponit 
+      <lb ed="#L" n="15"/>quod distinguitur specie. Aut numeraliter. sed hoc est im 
+      <lb ed="#L" n="16"/>possibile quia distinctio numeralis forme secundum eum 
+      <lb ed="#L" n="17"/>non est nisi per distinctionem subiecti sed subiectum hoc 
+      <lb ed="#L" n="18"/>est vnum et idem. igitur etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e432">
+      ⁋ hoc confirmatur. quia secundum eum 
+      <lb ed="#L" n="19"/>prius vbi loquitur de habitibus dicit quod distinctio 
+      <lb ed="#L" n="20"/>in formis est duplex. quedam enim est secundum specien 
+      <lb ed="#L" n="21"/>alia secundum numerum. Distinctio quidem secundum speciem. in 
+      <lb ed="#L" n="22"/>habitibus est secundum distinctinonem obiectorum. Distinctio 
+      <lb ed="#L" n="23"/>vero secundum numerum est secundum distinctionem subiecti. 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e445">
+               <lb ed="#L" n="24"/>⁋ Ex isto arguo sic. si scientia addita distiguitur. 
+      <lb ed="#L" n="25"/>a scientia cui additur. aut ergo distinguitur secundum diuer 
+      <lb ed="#L" n="26"/>sitatem subiectorum. et per consequens specie. et per consequens esset
+      au<lb ed="#L" n="27" break="no"/>gmentatio. Aut distinguitur secundum distinctionem sub 
+      <lb ed="#L" n="28"/>iecti. et tunc vna mens rationalis adderetur alteri. 
+      <lb ed="#L" n="29"/>quod est impossibile.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e461">
+      ⁋ Preterea non est maior ratio quod 
+      <lb ed="#L" n="30"/>vna forma augmentetur per additionem quam alia. ergo vel 
+      <lb ed="#L" n="31"/>quelibet augmentabitur per additione vel nulla 
+      <lb ed="#L" n="32"/>sed non nulla. ergo quaelibet Ad istud dicitur quod non est se 
+      <lb ed="#L" n="33"/>mile de omni forma. propter quod dicitur: quod illud secundum 
+      <lb ed="#L" n="34"/>quod sortitur aliquid specie oportet esse fixum et stans et quasi 
+      <lb ed="#L" n="35"/>indiuisibile. quecumque enim ad illud attingunt sub 
+      <lb ed="#L" n="36"/>specie continentur. quecumque autem recedunt ab illo vel 
+      <lb ed="#L" n="37"/>in plues vel minus pertinent ad aliam speciem vel perfecti 
+      <lb ed="#L" n="38"/>orem vel imperfectiorem. Unde dicit philosophus. viii. metha. quod 
+      <lb ed="#L" n="39"/>species rerum sunt sicut numeri. in quibus additio 
+      <lb ed="#L" n="40"/>vel diminutio variat speciem. si ergo aliqua forma 
+      <lb ed="#L" n="41"/>vel quaecumque res secundum seipsam vel aliquid sui sortiatur 
+      <lb ed="#L" n="42"/>ratione speciei: necesse est quod secundum se considerata habet
+      ratio<lb ed="#L" n="43" break="no"/>nem determinatam quae neque in plus excedere neque in 
+      <lb ed="#L" n="44"/>minus deficere possit. et huiusmodi sunt qualitates qust 
+      <lb ed="#L" n="45"/>non dicuntur in ordine ad aliud. Alia sunt quae reci 
+      <lb ed="#L" n="46"/>piunt speciem ex aliquo ad quod ordinantur. et illa 
+      <lb ed="#L" n="47"/>possunt secundum seipsa diuersificari in plus vel in mi 
+      <lb ed="#L" n="48"/>nus. et nihilominus sunt eadem specie propter
+      vni<lb ed="#L" n="49" break="no"/>tatem eius ad quod ordinantur. sicut est de motu et 
+      <lb ed="#L" n="50"/>sanitate Contra quando dicitur quod aliquid sortitur specien 
+      <lb ed="#L" n="51"/>secundum se vel aliquid et aliquid sui in ordine ad aliud  
+      <lb ed="#L" n="52"/>aut intelligit quod sortitur speciem ab illo
+      intrinse<lb ed="#L" n="53" break="no"/>ce. vel extrinsece. si primo modo. sic quelibet res 
+      <lb ed="#L" n="54"/>sortitur speciem secundum seipsam vel aliquid sui intrin 
+      <lb ed="#L" n="55"/>scum. et no secundum aliquid extrinsece. si secundo modo 
+      <!--388.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 193-r -->
+               <lb ed="#L" n="56"/>sic nulla res sortiretur specieciem secundum aliquid sui. quia non 
+      <lb ed="#L" n="57"/>est aliqua res creata: quin ab aliquo dependeat et 
+      <lb ed="#L" n="58"/>ad aliquid ordinatur.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e533">
+      ⁋ Preterea. tanta est distinctio 
+      <lb ed="#L" n="59"/>inter scientiam et obiectum quanta est inter aliquam qua 
+      <lb ed="#L" n="60"/>litatem et suam causam. ergo non plus sortitur scientia spe 
+      <lb ed="#L" n="61"/>ciem ab obiecto: quam qualitas a sua causa
+      extrinse<lb ed="#L" n="62" break="no"/>ca.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e545">
+      ⁋ Confirmat. quia scientia minus dependet ab ob 
+      <lb ed="#L" n="63"/>iecto quam albedo a sua causa. ergo minus sortitur 
+      <lb ed="#L" n="64"/>ab obiecto suo speciem. Atecedens patet. quia obiectum scientie 
+      <lb ed="#L" n="65"/>frequenter est ens rationis. vel non est ens reale.
+      si<lb ed="#L" n="66" break="no"/>cut saltem scientia de rosa non existente. ergo illud
+      ob<lb ed="#L" n="67" break="no"/>iectum non est causa ipsius. et per consequens scientia non
+      depen<lb ed="#L" n="68" break="no"/>det ab eo totaliter.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e561">
+      ⁋ Confirmatur. quia notitia
+      sim<lb ed="#L" n="69" break="no"/>plex non sic specificatur a suo obiecto. tum quia potest 
+      <lb ed="#L" n="70"/>esse sine eo. tum quia de eodem subiecto possunt esse 
+      <lb ed="#L" n="71"/>distincte notitie secundum speciem. sicut probatum est prius 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e570">
+               <lb ed="#L" n="72"/>⁋ Preterea. quando aliqua sic se habet quod vtrumque est 
+      <lb ed="#L" n="73"/>secundum se in specie sua. scilicet non plus vnum fortitur spe 
+      <lb ed="#L" n="74"/>ciem ab aliquo totaliter extrinseco quam aliud. sed scientia 
+      <lb ed="#L" n="75"/>est per se in specie sicut albedo. et obiectum est sibi 
+      <lb ed="#L" n="76"/>totaliter extrinsecum. sicut subiectum albi est
+      ex<lb ed="#L" n="77" break="no"/>trinsecum albedini. ergo non plus scientia sortitur spe 
+      <lb ed="#L" n="78"/>ciem suam ab obiecto quam albedo a suo subiecto vel 
+      <lb ed="#L" n="79"/>ab aliqua causa extrinseca.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e590">
+      ⁋ Si dicatur. quod
+      scien<lb ed="#L" n="80" break="no"/>tia non est per se in specie sicut nec motus est ma 
+      <lb ed="#L" n="81"/>nifeste falsum. quia quandocumque aliqua vna res non est 
+      <lb ed="#L" n="82"/>per se in specie. oportet quod sit in specie per reductio: 
+      <lb ed="#L" n="83"/>nem. sed quicquid est in specie per reductionem est 
+      <lb ed="#L" n="84"/>intrinsecum alicui existenti per se in specie. sine 
+      <lb ed="#L" n="85"/>quo illud per se existens in specie esse non potest. ergo 
+      <lb ed="#L" n="86"/>cum scientia sit vna res. et si non sit per se in genere vel 
+      <lb ed="#L" n="87"/>in specie: sed per reductionem oportet quod sit intrin 
+      <lb ed="#L" n="88"/>seca alicui quod non possit esse sine scientia. quod patet
+      in<lb ed="#L" n="89" break="no"/>ductiue esse falsum. Et eodem modo potest argui de 
+      <lb ed="#L" n="90"/>motu si sit vna res totaliter alia a termino motus 
+      <lb ed="#L" n="91"/>et econuerso.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e619">
+      ⁋ Confirmatur ista ratio. quia quando sunt 
+      <lb ed="#L" n="92"/>aliqua res realiter distincte. quarum vtraque potest in 
+      <lb ed="#L" n="93"/>differenter esse sine alia. non est maior ratio quare 
+      <lb ed="#L" n="94"/>vna sit per se in genere quam alia. nisi alia propter ali 
+      <lb ed="#L" n="95"/>quid aliud per reductionem sit in genere. sed sic se
+      ha<lb ed="#L" n="96" break="no"/>hbent scientia et obiectum. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e632">
+      ⁋ Ex istis patet. quod inconue 
+      <lb ed="#L" n="97"/>nienter est dictum quod aliquid sortitur speciem secundum se vel 
+      <lb ed="#L" n="98"/>aliquid sui: et aliquid sortitur speciem ab alio. Et eodem 
+      <lb ed="#L" n="99"/>modo patet. quod est male dictu quod propter praedictam dissi 
+      <lb ed="#L" n="100"/>militudinem aliquid augmentatur per additionem et 
+      <lb ed="#L" n="101"/>aliquid non.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e646">
+      ⁋ Preterea. quod ibi accipit quod scientia
+      au<lb ed="#L" n="102" break="no"/>gmentatur propter additionem et non charitas. quis 
+      <lb ed="#L" n="103"/>scilicet scientia augmentatur per hoc quod est plurium
+      conclu<lb ed="#L" n="104" break="no"/>sionum. et hoc improbatum est prius. vbi probatum est 
+      <lb ed="#L" n="105"/>quod scita vna conclusione et postea discatur alia scientia 
+      <lb ed="#L" n="106"/>addita est alterius speciei a prima. nec possunt facere 
+      <lb ed="#L" n="107"/>vnam scientiam numero.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e662">
+      ⁋ hoc confirmatur per istum. quia 
+      <lb ed="#L" n="108"/>dicit quod scientia specificatur ab obiecto. sed istarum 
+      <lb ed="#L" n="109"/>scientiarum sunt distincta obiecta secundum speciem secundum 
+      <lb ed="#L" n="110"/>eum. igitur ille scientie distinguntur specie. Si dicatur 
+      <!--389.xml-->
+      <pb ed="#L" n="193-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod scientia non specificatur a quocumque obiecto. 
+      <lb ed="#L" n="2"/>qui non ab obiecto materiali. sed ab obiecto for 
+      <lb ed="#L" n="3"/>mali. obiectum autem formale hic est idem. Contra non 
+      <lb ed="#L" n="4"/>potest hic dici vnum obiectum materiale et aliud for 
+      <lb ed="#L" n="5"/>male nisi virtute obiecti vnius cognoscatur
+      reli<lb ed="#L" n="6" break="no"/>quum. sed ista vnitas obiecti formalis non sufficit 
+      <lb ed="#L" n="7"/>ad vnitatem scientie specificam. quia si sic cum
+      virtu<lb ed="#L" n="8" break="no"/>te principiorum cognoscantur conclusiones. idem
+      ha<lb ed="#L" n="9" break="no"/>bitus secundum specie esset habitus principiorum et
+      conclu<lb ed="#L" n="10" break="no"/>sionum quod est contra philosophum. vi. ethi. et id et posterio 
+      <lb ed="#L" n="11"/>rum et ii. qui ponit quod intellectus quae est habitus princi 
+      <lb ed="#L" n="12"/>piorum. et scientia quae est habitus conclusionum
+      distin<lb ed="#L" n="13" break="no"/>guuntur. Similiter tunc scientia subalterna et sub 
+      <lb ed="#L" n="14"/>alternata essent eiusdem speciei.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e708">
+      ⁋ Si dicatur: quod 
+      <lb ed="#L" n="15"/>obiectum formale est hic subiectum ex cuius
+      vnita<lb ed="#L" n="16" break="no"/>te scientia dicitur vna. quantumcumque conclusiones 
+      <lb ed="#L" n="17"/>sunt diuerse. Contra. si propter vnitatem subiecti 
+      <lb ed="#L" n="18"/>est vnitas scientie: cum idem possit esse subiectum
+      prin<lb ed="#L" n="19" break="no"/>cipiorum et conclusionum. sequeretur vt prius quod idem 
+      <lb ed="#L" n="20"/>eset habitus principiorum et conclusionum.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e724">
+      ⁋ Preterea 
+      <lb ed="#L" n="21"/>sequeretur quod eadem esset notitia inconplexa subie 
+      <lb ed="#L" n="22"/>cti et complexa conclusionis. et ita illa notitia incon 
+      <lb ed="#L" n="23"/>plexa et complexa non distinguerentur specie. quod est 
+      <lb ed="#L" n="24"/>contra philosophum et commen. iii de anima. consequentia patet. quia si
+      no<lb ed="#L" n="25" break="no"/>titia inconplexa subiecti et complexa conclusionis 
+      <lb ed="#L" n="26"/>distinguuntur specie oportet quod habeant distincta
+      ob<lb ed="#L" n="27" break="no"/>iecta. quia per istum actus non distinguuntur nisi per
+      obie<lb ed="#L" n="28" break="no"/>cta. aut ergo habent distincta obiecta formalia 
+      <lb ed="#L" n="29"/>aut materialia. Si materialia ergo distinctio ob 
+      <lb ed="#L" n="30"/>iectorum materialium esset causa distinctionis
+      speci<lb ed="#L" n="31" break="no"/>fice notitiarum. Si habeant distincta obiecta 
+      <lb ed="#L" n="32"/>formalia: certum est quod subiectum est obiectum notitie 
+      <lb ed="#L" n="33"/>incomplexe formale. ergo non obiectum notitie
+      comple<lb ed="#L" n="34" break="no"/>xe formale. sed aliquid aliud. Preterea quod dicit ibi 
+      <lb ed="#L" n="35"/>quod illud secundum quod sortitur aliquid speciem oportet esse fixum et 
+      <lb ed="#L" n="36"/>prmanens et quasi indiuisibile est manifeste falsum 
+      <lb ed="#L" n="37"/>qui forma etiam substantialis non est indiuisibilis nec 
+      <lb ed="#L" n="38"/>quantitas secundum istum. et tamen secundum istum ab istis aliquid per 
+      <lb ed="#L" n="39"/>se sortitur speciem.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e768">
+      ⁋ Preterea conclusio illum modum ponendi
+      au<lb ed="#L" n="40" break="no"/>gmentationem sine additione arguo primo sic. 
+      <lb ed="#L" n="41"/>Qndecumque aliquid est natum denominare alterum. si omnis 
+      <lb ed="#L" n="42"/>res importata per aliquid alterum eorum eodem modo in se 
+      <lb ed="#L" n="43"/>habeat eodemmodo denominabitur sed nunc est ita quod subie 
+      <lb ed="#L" n="44"/>ctum denominatur a qualitate. et si non fiat ibi addi 
+      <lb ed="#L" n="45"/>tio. subiectum eodem modo se habet in se. et similiter
+      qua<lb ed="#L" n="46" break="no"/>litas. ergo semper vniformiter denominabitur. ergo non dicetur 
+      <lb ed="#L" n="47"/>primo minus tale et postea magis tale propter talem 
+      <lb ed="#L" n="48"/>formam.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e790">
+      ⁋ Confirmatur. quia ad hoc quod dicatur magis tale 
+      <lb ed="#L" n="49"/>requiritur aliqua variatio vel a parte subiecti vel a 
+      <lb ed="#L" n="50"/>parte forme. Si dicatur quod hic est variatio quia subie 
+      <lb ed="#L" n="51"/>ctum primo minus participat formam et postea magis 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e800">
+               <lb ed="#L" n="52"/>⁋ Contra impossibile est transire de contradicto 
+      <lb ed="#L" n="53"/>rio in contradictorium sine motu locali vel
+      produ<lb ed="#L" n="54" break="no"/>ctione alicuius rei vel destructione. sed in
+      proposi<lb ed="#L" n="55" break="no"/>to omnia remauent in eodem situ et loco. ergo vel oportet 
+      <!--389.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 193-v -->
+               <lb ed="#L" n="56"/>quod hic aliquid destruatur vel producatur. et certum est 
+      <lb ed="#L" n="57"/>quod nihil destruitur nisi ponatur quod aliquid producatur 
+      <lb ed="#L" n="58"/>ergo aliquid hic producitur. et non aliquid a parte
+      subie<lb ed="#L" n="59" break="no"/>cti. ergo aliquid a parte forme
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e826">
+      ⁋ Alia est opinio. quod 
+      <lb ed="#L" n="60"/>forma non suscipit magis et minus proptet esse suum 
+      <lb ed="#L" n="61"/>in subiecto. sed est gradualiter vnum: quod cum magis 
+      <lb ed="#L" n="62"/>et minus suscipit per crementum et decrementum. il 
+      <lb ed="#L" n="63"/>lud fit per partium appositionem vel subtractionem. 
+      <lb ed="#L" n="64"/>secundum quas illud secundum quod dicitur aliquid magis vel mi 
+      <lb ed="#L" n="65"/>nus dicitur in se magis vel minus. ita quod quaelibet for 
+      <lb ed="#L" n="66"/>ma secundum quam aliquid dicitur magis vel minus. in sua 
+      <lb ed="#L" n="67"/>natura habet partes vel paucas vel multas. secundum 
+      <lb ed="#L" n="68"/>quas potest diuersimode in diuersis gradibus si 
+      <lb ed="#L" n="69"/>stere inter terminos. et dicitur in se secundum illas partes ma 
+      <lb ed="#L" n="70"/>gna vel parua. et subiectum maius vel minus. aliter 
+      <lb ed="#L" n="71"/>enim secundum nullam formam diceretur aliquid magis vel 
+      <lb ed="#L" n="72"/>minus omnino. Et considerande sunt iste partes in 
+      <lb ed="#L" n="73"/>formis simplicibus secundum quantitatem spiritualis vir 
+      <lb ed="#L" n="74"/>tutis in perfectione secundum naturam rei in se. et in vigo 
+      <lb ed="#L" n="75"/>re eius ex comparatione ad opus proprium. et hoc per 
+      <lb ed="#L" n="76"/>similitudinem ad quantitatem mobilis acceptam secundum 
+      <lb ed="#L" n="77"/>rationem continui vel discreti. Et quemadmodum 
+      <lb ed="#L" n="78"/>ibi quod maius est mobile continet quod minus est 
+      <lb ed="#L" n="79"/>pluries vel semel et aliquam eius partem secundum partes 
+      <lb ed="#L" n="80"/>mobilis. consimiliter maius in virtute continet 
+      <lb ed="#L" n="81"/>in se minus secundum partes perfectionis. Et quemadmodum 
+      <lb ed="#L" n="82"/>in longitudine extensa corporaliter sunt infiniti
+      gra<lb ed="#L" n="83" break="no"/>dus in potentia signandi ratione quorum est motus
+      lo<lb ed="#L" n="84" break="no"/>calis. sic in caliditate extensa virtualitur inter sum 
+      <lb ed="#L" n="85"/>mum et primum sunt infiniti gradus in potentia si 
+      <lb ed="#L" n="86"/>gnandi. et ideo omnis translatio alterationis est secundum 
+      <lb ed="#L" n="87"/>motum continuum calefactibilis acquirendo sibi ca 
+      <lb ed="#L" n="88"/>lorem secundum plus quousque cesset motus. Quales autem 
+      <lb ed="#L" n="89"/>sunt iste partes dicit iste alibi. quia vult quod non differunt 
+      <lb ed="#L" n="90"/>realiter: sed ratione tantum. vbi vult. quod qualis compositio est 
+      <lb ed="#L" n="91"/>in scientia talis est in aliis formis recipientibus inten 
+      <lb ed="#L" n="92"/>sionem et remissionem.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e900">
+      ⁋ De scientia dicit sic. in quastione 
+      <lb ed="#L" n="93"/>quadam qua querit. Utrum scientia sit aliquid compositum 
+      <lb ed="#L" n="94"/>in intellectu illa compositione que est ex diuersis 
+      <lb ed="#L" n="95"/>secundum rem in nullo conuenientibus. cuiusmodi est il 
+      <lb ed="#L" n="96"/>la que est ex materia et forma. Et patet. quod scientia non 
+      <lb ed="#L" n="97"/>est composita. quia est forma accidentalis non habens 
+      <lb ed="#L" n="98"/>materiam ex qua sed in qua tantum. Sed dubitatio est 
+      <lb ed="#L" n="99"/>Utrum sit composita ex pluribus partibus formali 
+      <lb ed="#L" n="100"/>bus
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e920">
+      ⁋ Et est dicendu. quod omnis forma que per motum 
+      <lb ed="#L" n="101"/>educitur de potentia ad actum. partes habet in quibus 
+      <lb ed="#L" n="102"/>successiue est aliquid et aliquid sibi acquiritur differns 
+      <lb ed="#L" n="103"/>secundum completum et incompletum. Sed istarum partium 
+      <lb ed="#L" n="104"/>diuersitas triplicitur potest intelligi. aut secundum rationem 
+      <lb ed="#L" n="105"/>aut secundum intensionem. aut secundum rem. Primo modo 
+      <lb ed="#L" n="106"/>partes habet omnis forma acquisita per motum intensio 
+      <lb ed="#L" n="107"/>nis. sed ex talibus partibus talis forma non est
+      di<lb ed="#L" n="108" break="no"/>cenda esse composita. quia tales partes non manent
+      di<lb ed="#L" n="109" break="no"/>stincte ab inuicem secundum suos gradus in quibus
+      na<lb ed="#L" n="110" break="no"/>te essent stare in diuersis nisi secundum rationem tantum. 
+      <!--390.xml-->
+      <pb ed="#L" n="194-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et semper minus intenso manente in magis in 
+      <lb ed="#L" n="2"/>tenso virtute solum. ita quod forma non habet partes 
+      <lb ed="#L" n="3"/>differentes re aut intensiue inquantum huiusmodi. sed ratio 
+      <lb ed="#L" n="4"/>ne tantum. et ideo scientia non est composita quamquaem partes succes 
+      <lb ed="#L" n="5"/>siue acquirantur et nate sint sibi succedere. Secundo 
+      <lb ed="#L" n="6"/>modo partes habet omnis species quae est sub genere. et sic sci 
+      <lb ed="#L" n="7"/>entia est composita ex genere et differentia Tertio modo
+      per<lb ed="#L" n="8" break="no"/>tes formales secundum rem differentes habere aliquid in 
+      <lb ed="#L" n="9"/>se duplicitur contingit intelligere vel quod partes huiusmodi 
+      <lb ed="#L" n="10"/>sunt eiusdem rationis in toto. vel alterius et alterius 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e972">
+               <lb ed="#L" n="11"/>⁋ Primo modo linea est composita ex diuersis partibus. 
+      <lb ed="#L" n="12"/>et talis compositio nullo modo est in scientia. quia non est 
+      <lb ed="#L" n="13"/>nisi in simplici anima.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e981">
+      ⁋ Ista opinion videtur includo 
+      <lb ed="#L" n="14"/>re contradictionem in hoc quod ponit quod quaelibet talis 
+      <lb ed="#L" n="15"/>forma augmentatur per acquisitionem partis. et tamen quod par 
+      <lb ed="#L" n="16"/>tes non realiter distinguantur. quia impossibile est
+      ali<lb ed="#L" n="17" break="no"/>quid succedere alteri quod est idem realiter cum illo Sed  
+      <lb ed="#L" n="18"/>per te vna pars succedit alteri. ergo ista pars non est 
+      <lb ed="#L" n="19"/>realiter illa et vtraque illarum partium est. ergo realiter
+      di<lb ed="#L" n="20" break="no"/>stinguitur hec pars ab illa Si dicatur quod neutra ista 
+      <lb ed="#L" n="21"/>rum partium est in actu. sed tantum in potentia. hoc non
+      va<lb ed="#L" n="22" break="no"/>let. quia taliter esse in potentia qualiter ista pars est in 
+      <lb ed="#L" n="23"/>potentia non obstat distinctioni reali istius ab
+      il<lb ed="#L" n="24" break="no"/>lo quod eodem modo est in potentia. ergo cum hec pars non sit 
+      <lb ed="#L" n="25"/>illa realiter. quia vtraque est potentia in toto quod est in 
+      <lb ed="#L" n="26"/>actu ista pars realiter distinguitur ab illa. Assumptum 
+      <lb ed="#L" n="27"/>patet. tum quia manifestum est quod duo pedes vnius hominis 
+      <lb ed="#L" n="28"/>distinguuntur. et tamen non sunt in actu separato. tum quia secundum 
+      <lb ed="#L" n="29"/>istum sicut realiter due partes linee eiusdem rationis 
+      <lb ed="#L" n="30"/>distinguuntur realiter. et tamen non plus sunt in actu 
+      <lb ed="#L" n="31"/>quam quecumque alie partes eiusdem rationis.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1024">
+      ⁋ Preterea. 
+      <lb ed="#L" n="32"/>quaecumque differunt ratione tantum et non realiter impossibile est separa 
+      <lb ed="#L" n="33"/>ri realiter: ita quod vnum sit realiter et aliud non sit. sed vna 
+      <lb ed="#L" n="34"/>istarum partium potest realiter separari ab alia. sicut patet in 
+      <lb ed="#L" n="35"/>diminutione. et etiam vna istarum partium fuit quando 
+      <lb ed="#L" n="36"/>alia non fuit. ergo iste partes non differunt ratione tantum. 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1037">
+               <lb ed="#L" n="37"/>⁋ Preterea. dicit quod sicut in quantitate molis
+      il<lb ed="#L" n="38" break="no"/>lud quod est maius continet minus: ita in quantitate 
+      <lb ed="#L" n="39"/>virtutis. Ex isto arguo sic. inter continens realiter 
+      <lb ed="#L" n="40"/>et contentum realiter est realis distinctio. aliter enim idem 
+      <lb ed="#L" n="41"/>contineret se. sed per te maius continet minus. ergo
+      dist<lb ed="#L" n="42" break="no"/>guitur ab illo realiter.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1053">
+      ⁋ Preterea. nullum totum
+      re<lb ed="#L" n="43" break="no"/>ale est idem cum parte sua. sed hic est quoddam totum reale. 
+      <lb ed="#L" n="44"/>ergo illud non est idem realiter cum parte sua. et multo magi 
+      <lb ed="#L" n="45"/>alia pars non erit eadem realiter cum illa
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1062">
+      ⁋ Preterea 
+      <lb ed="#L" n="46"/>omne totum reale est perfectius sua parte. sed idem non est perfe 
+      <lb ed="#L" n="47"/>ctius se. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1069">
+      ⁋ Preterea. impossibile est illud quod 
+      <lb ed="#L" n="48"/>aliquando non est idem realiter cum aliquo vnquam esse idem
+      rea<lb ed="#L" n="49" break="no"/>liter cum eodem. sed ista pars aliquando non fuit eadem realiter 
+      <lb ed="#L" n="50"/>cum alia parte. quia quando ista pars erat et alia non erat. 
+      <lb ed="#L" n="51"/>non erat eadem realiter cum ea. ergo numquam poterit esse
+      ea<lb ed="#L" n="52" break="no"/>dem realiter cum ea
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1082">
+      ⁋ Preterea probatum est prius quod impos 
+      <lb ed="#L" n="53"/>sibile est aliquod reale a quocumque reali differre ratione 
+      <lb ed="#L" n="54"/>sed vtraque istarum partium est aliquod reale. ergo nullo modo 
+      <lb ed="#L" n="55"/>distinguitur ratione et certum est quod aliquo modo differunt. cum 
+      <!--390.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 194-r -->
+               <lb ed="#L" n="56"/>sint partes. ergo realiter distinguntur.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1101">
+      ⁋ Preterea. 
+      <lb ed="#L" n="57"/>ista opinio coincidit cum priori: quam tamen improbat. 
+      <lb ed="#L" n="58"/>qui si non sit additio alicuius realiter diuersi. ergo 
+      <lb ed="#L" n="59"/>non est realiter additio. quia nihil additur sibi. ergo 
+      <lb ed="#L" n="60"/>non est realis augmentatio per additionem.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1112">
+      ⁋
+      Preter<lb ed="#L" n="61" break="no"/>ea. impossibile est aliquid habere latitudinem rea 
+      <lb ed="#L" n="62"/>lem nisi aliquid distinguatur in eo realiter ab alio.
+      er<lb ed="#L" n="63" break="no"/>go si hec forma habeat in essentia sua latitudi 
+      <lb ed="#L" n="64"/>nem realem aliquid in ea realiter distinguitur ab alio in 
+      <lb ed="#L" n="65"/>eodem
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1125">
+      ⁋ Ideo dico aliter ad quaestione. quod
+      augmenta<lb ed="#L" n="66" break="no"/>tione cuiuslibet forme vere aliquid reale differens 
+      <lb ed="#L" n="67"/>realiter a priori addatur. quod etiam postquam additur reali 
+      <lb ed="#L" n="68"/>ter distinguitur ab eodem et facit per se vnum cum eo. 
+      <lb ed="#L" n="69"/>hoc patet. quia impossibile est esse realem transmutatio 
+      <lb ed="#L" n="70"/>nem sine reali acquisitione alicuius noui vel destru 
+      <lb ed="#L" n="71"/>ctione alicuius antiqui. vel reali acquisitione
+      no<lb ed="#L" n="72" break="no"/>ua alicuius praexistentis. sed in tali augmentatione 
+      <lb ed="#L" n="73"/>est vera et realis transmutatio alicuius subiecti 
+      <lb ed="#L" n="74"/>ergo oportet quod ibi aliquid de nouo producatur vel
+      de<lb ed="#L" n="75" break="no"/>struatur. vel quod aliquid praexistens de nouo acquiratur. 
+      <lb ed="#L" n="76"/>sed manifestum est. quod nihil praexistens acquiritur de 
+      <lb ed="#L" n="77"/>nouo nec aliquid destruitur. quia tunc non esset
+      augmen<lb ed="#L" n="78" break="no"/>tatio sed diminutio. si nullo acquisito aliquid deper 
+      <lb ed="#L" n="79"/>deretur. ergo aliquid neccessario de nouo producitur. Et exte 
+      <lb ed="#L" n="80"/>do hic produci aliquid de nouo ad habere esse quo 
+      <lb ed="#L" n="81"/>forma de nouo producitur. quia de nouo habet esse 
+      <lb ed="#L" n="82"/>quamuis non generetur
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1164">
+      ⁋ Ideo dico quod sicut in
+      augmen<lb ed="#L" n="83" break="no"/>tatione quantitatiua de qua loquitur philosophus id est de
+      ge<lb ed="#L" n="84" break="no"/>neratione. nihil augmentatur nisi per aduentum ali 
+      <lb ed="#L" n="85"/>cuius realis distincti a priori et remanentis cum eo 
+      <lb ed="#L" n="86"/>ita est in augmentatione qualitatis. quod cum non possit 
+      <lb ed="#L" n="87"/>saluari per motum localem nec per coexistentiam cum
+      ma<lb ed="#L" n="88" break="no"/>iori loco. oportet quod aliquid realiter addatur priori de nouo. 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1180">
+               <lb ed="#L" n="89"/>⁋ Quia si queratur. Unde est quod vna forma
+      augmenta<lb ed="#L" n="90" break="no"/>tur et alia non.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1187">
+      ⁋ Dico quod nulla est ratio nisi quia ista 
+      <lb ed="#L" n="91"/>natura est talis et alia est talis. Uued vniversaliter qualibet 
+      <lb ed="#L" n="92"/>natura siue sit perfecta siue imperfecta. si potest face 
+      <lb ed="#L" n="93"/>re per se vnum cum alia natura eiusdem rationis sine ma 
+      <lb ed="#L" n="94"/>iori extensione quantitatiua. in illa natura potest esse 
+      <lb ed="#L" n="95"/>augmentatio. quae autem non potest. non potest augmentari et 
+      <lb ed="#L" n="96"/>ita perfectio vel imperfectio accidit. Similiter est de. 
+      <lb ed="#L" n="97"/>pinquitate vel distantia ad substantiam.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1206">
+      ⁋ Sed contra per 
+      <lb ed="#L" n="98"/>dicta et pro praedictis opiniones arguitur multiplicit 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1211">
+               <lb ed="#L" n="99"/>⁋ Primo sic. secundum auctorem. vi. principiorum. forma est 
+      <lb ed="#L" n="100"/>compositio adueniens in simplici et inuariabili essen 
+      <lb ed="#L" n="101"/>tia consistens. ergo non habet tales partes realiter distin 
+      <lb ed="#L" n="102"/>ctas. quia si sic. componeretur ex eis.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1222">
+      ⁋ Preterea. in
+      in<lb ed="#L" n="103" break="no"/>diuiduis eiusdem rationis non est ordo essentialis. ergo 
+      <lb ed="#L" n="104"/>vnum indiuiduum non est secundum suam essentiam perfectius 
+      <lb ed="#L" n="105"/>altero indiuiduo eiusdem rationis. sed si aliquid
+      essen<lb ed="#L" n="106" break="no"/>tiale et perfectum adueniret sibi. vnum esset perfectius 
+      <lb ed="#L" n="107"/>essentialiter alio
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1235">
+      ⁋ Preterea. illud adueniens aut est 
+      <lb ed="#L" n="108"/>essentiale nature seu forme specifice. aut
+      acci<lb ed="#L" n="109" break="no"/>dentale. si essentiale. ergo praexistens sine illo non esset 
+      <lb ed="#L" n="110"/>per se in specie illa. Si accidentale. ergo non facit per se 
+      <!--391.xml-->
+      <pb ed="#L" n="194-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vnum cum illo. et per consequens non augmentat ipsum.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1253">
+      ⁋
+      Pre<lb ed="#L" n="2" break="no"/>terea potest argui sic. augmentatio et generatio sunt 
+      <lb ed="#L" n="3"/>mutationes disprate. ergo potest esse augmentatio sine 
+      <lb ed="#L" n="4"/>generatione. et per consequens potest forma augmentari
+      si<lb ed="#L" n="5" break="no"/>ne generatione et productione alicuius. ergo non oportet ali 
+      <lb ed="#L" n="6"/>quid nouum addi.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1266">
+      ⁋ Preterea conclusio illud quod dicitur quod 
+      <lb ed="#L" n="7"/>qualibet forma quae potest fieri vnum cum alia eiusdem
+      ratio<lb ed="#L" n="8" break="no"/>nis potest augmentari. Contra. si hoc sit verum. ergo for 
+      <lb ed="#L" n="9"/>ma substantialis potest augeri. quia vna pars forme facit 
+      <lb ed="#L" n="10"/>per se vnum cum alia. similiter vna pars materie facit per se 
+      <lb ed="#L" n="11"/>vnum cum alia parte materie. et tamen non potest augmenta 
+      <lb ed="#L" n="12"/>ri
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1283">
+      ⁋ Similiter si aliqua res corporea condenlatur. si il 
+      <lb ed="#L" n="13"/>lud corpus sit album. patet ad sensum quod illud
+      cor<lb ed="#L" n="14" break="no"/>pus est albius quam prius. et per consequens augmentatur albedo. 
+      <lb ed="#L" n="15"/>et tamen nihil nouum aduenit sibi.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1292">
+      ⁋ Preterea et quo 
+      <lb ed="#L" n="16"/>vna pars quantitatis facit per se vnum cum alia parte 
+      <lb ed="#L" n="17"/>quantitatis. non videtur ratio maior quod propter talem
+      vni<lb ed="#L" n="18" break="no"/>tatem sit qualitas augmentabilis et non quantitas 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1301">
+               <lb ed="#L" n="19"/>⁋ Ad primum istorum dico: quod auc. vi. principiorum
+      lo<lb ed="#L" n="20" break="no"/>quitur de compositione extensiua volens quod propter ad 
+      <lb ed="#L" n="21"/>uentum forme de qua loquitur non est maior ettensio 
+      <lb ed="#L" n="22"/>tamen certum est quod est aliqua compositio. quia manifestum est 
+      <lb ed="#L" n="23"/>quod forma adueniens subiecto et informans
+      compo<lb ed="#L" n="24" break="no"/>nit cum ipso.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1317">
+      ⁋ Ad secundum quod in indiuiduis eiusdem 
+      <lb ed="#L" n="25"/>rationis non est vniuersaliter necessario ordo essen 
+      <lb ed="#L" n="26"/>tialis: quin possint aliqua indiuidua esse sine or 
+      <lb ed="#L" n="27"/>dine secundum perfectius et imperfectius. cuius oppositum est 
+      <lb ed="#L" n="28"/>veiveritert verum in indiuiduis alterius rationis secundum opinin philosoph 
+      <lb ed="#L" n="29"/>qui secundum eum quecumque indiuidua alterius speciei accipi 
+      <lb ed="#L" n="30"/>untur: necessario alterum eorum est perfectius et alterum 
+      <lb ed="#L" n="31"/>imperfectius
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1335">
+      ⁋ Non sic est de quibuscumque indiuiduis 
+      <lb ed="#L" n="32"/>eiusdem rationis. quia quamuis aliqua indiuidua eiusdem 
+      <lb ed="#L" n="33"/>rationis se habeant sicut perfectius et imperfectius. ali 
+      <lb ed="#L" n="34"/>qua tamen non sic se habent. sed sunt eque perfctam.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1344">
+      ⁋ Ad  
+      <lb ed="#L" n="35"/>aliud dico quod accipiendo naturam specificam pro 
+      <lb ed="#L" n="36"/>aliquo communi ad plura indiuidua. sic illud
+      adue<lb ed="#L" n="37" break="no"/>niens proprie loquendo nec est essentiale nec acci 
+      <lb ed="#L" n="38"/>dentale speciei. si tamen per accidentale intelligatur omne il 
+      <lb ed="#L" n="39"/>lud quod non est intrinsecum alicui. Dico quod illud
+      ad<lb ed="#L" n="40" break="no"/>ueniens sicut omne indiuiduum est accidentale. quia 
+      <lb ed="#L" n="41"/>illud adueniens est vnum indiuiduum illius speciei. et 
+      <lb ed="#L" n="42"/>ideo sequitur quod non facit per se vnum cum natura tali spe 
+      <lb ed="#L" n="43"/>cifica. nec augmentat eam. sed tamen facit per se vnum 
+      <lb ed="#L" n="44"/>cum illo primo. et respectu illius est accidentale. 
+      <lb ed="#L" n="45"/>hoc est extrinsecum. sicut vna pars semper est extrin 
+      <lb ed="#L" n="46"/>eca alteri parti.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1374">
+      ⁋ Ad quartum dico quod generatio 
+      <lb ed="#L" n="47"/>multiplicitur capitur. Aliquando stricte pro productione 
+      <lb ed="#L" n="48"/>alicuius compositi per se existentis. ita quod totum produ 
+      <lb ed="#L" n="49"/>citur
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1383">
+      ⁋ Aliquando accipitur large pro productione alicuius 
+      <lb ed="#L" n="50"/>secundum totum sui quod natum est esse terminus formalis 
+      <lb ed="#L" n="51"/>generationis.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1390">
+      ⁋ Aliquando accipitur largissime pro
+      pro<lb ed="#L" n="52" break="no"/>ductione cuiuscumque noui. Primo modo potest
+      augmen<lb ed="#L" n="53" break="no"/>tatio esse sine generatione. immo nunquam est cum tali 
+      <lb ed="#L" n="54"/>generatione. nec econuerso. nisi forte deus produce 
+      <lb ed="#L" n="55"/>ret primo vnam partem qualitatis. et postea deus in eo 
+      <!--391.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 194-v -->
+               <lb ed="#L" n="56"/>dem instanti in quo produceretur aliquod compositum. deus 
+      <lb ed="#L" n="57"/>causaret illa qualitate praexistente in illo composi 
+      <lb ed="#L" n="58"/>to vnam qualitatem de nouo faciendo in eodem. sed hoc 
+      <lb ed="#L" n="59"/>non est possibile secundum viam philosophi. ideo diceret quod
+      gene<lb ed="#L" n="60" break="no"/>ratio sic dicta et augmentatio nunquam compatiuntur 
+      <lb ed="#L" n="61"/>se. Secundo etiam modo non sunt neccessario simul nec 
+      <lb ed="#L" n="62"/>possunt esse. quia talis generatio nullam partem for 
+      <lb ed="#L" n="63"/>me que nata est esse terminus formalis
+      genera<lb ed="#L" n="64" break="no"/>tionis praesupponit. sed augmentatio praesupponit 
+      <lb ed="#L" n="65"/>aliquam forme parten praecedere. Tertio modo genera et 
+      <lb ed="#L" n="66"/>tio et augmentatio compatiuntur se. nec hoc negat 
+      <lb ed="#L" n="67"/>philosophus. immo secundum philosophum impossibile est esse
+      augmenta<lb ed="#L" n="68" break="no"/>tionem sine tali generatione. quamuis econuerso talis 
+      <lb ed="#L" n="69"/>generatio possit esse sine tali augmentatione. 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1438">
+               <lb ed="#L" n="70"/>⁋ Sed nunquam per diuinam potentiam potest esse
+      augmen<lb ed="#L" n="71" break="no"/>tatio sine tali generatione. Dico quod hoc non
+      inclu<lb ed="#L" n="72" break="no"/>dit contradictionem. quod deus vnam albedinem preexi: 
+      <lb ed="#L" n="73"/>stente. vel sine subiecto vel in aliquo subiecto 
+      <lb ed="#L" n="74"/>vniat albedini existenti in aliquo subiecto.
+      pro<lb ed="#L" n="75" break="no"/>pter quam vnionem illud album dicetur magis album 
+      <lb ed="#L" n="76"/>quam prius. quod esse non posset sine augmentatione for 
+      <lb ed="#L" n="77"/>me.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1458">
+      ⁋ Ad quintum dico quod philosophus poneret quod forma 
+      <lb ed="#L" n="78"/>substantialis non potest augmentari. quia impossibile 
+      <lb ed="#L" n="79"/>est quod forme substantiali non mutate secundum se nec lo 
+      <lb ed="#L" n="80"/>calit nec aliquno modo addatur alia forma substan 
+      <lb ed="#L" n="81"/>tialis. nisi illud totum sit maius extensiue quam
+      praece<lb ed="#L" n="82" break="no"/>dens. hoc diceret philosophus. Diceret etiam quod non est 
+      <lb ed="#L" n="83"/>possibile duas partes forme substantialis esse in 
+      <lb ed="#L" n="84"/>eodem situ. Si tamen per diuinam potentiam due partes
+      for<lb ed="#L" n="85" break="no"/>me substantialis possunt fieri sic quod faciant per se 
+      <lb ed="#L" n="86"/>vnum. et nullo modo distingantur loco vel situ. Dico 
+      <lb ed="#L" n="87"/>quod per potentiam diuinam potest forma substantialis
+      au<lb ed="#L" n="88" break="no"/>geri. et ita etiam materia prima hoc posito. Nec
+      con<lb ed="#L" n="89" break="no"/>tra istum modum ponendi est aliqua auc. recipienda 
+      <lb ed="#L" n="90"/>cum ipse negaret talem potentiam diuinam in isto: sicut 
+      <lb ed="#L" n="91"/>in multis aliis negauit
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1491">
+      ⁋ Ad sextum dico quod quan 
+      <lb ed="#L" n="92"/>tumcumque corpus album condesetur. non tamen albedo
+      au<lb ed="#L" n="93" break="no"/>gmentatur. nec est in veritate illud corpus albius 
+      <lb ed="#L" n="94"/>tunc quam prius. quamuis forte propter maiorem propinquitatem 
+      <lb ed="#L" n="95"/>partium albedinis posset illa albedo aliquo modo for 
+      <lb ed="#L" n="96"/>tius mouere visum. et sic aliquo modo albius ap 
+      <lb ed="#L" n="97"/>parere. sicut duo calida appropinquata vehe 
+      <lb ed="#L" n="98"/>mentius calefaciunt quam distincta. et duo lumina ap 
+      <lb ed="#L" n="99"/>proximata magis illuminant aliquod medium vel il 
+      <lb ed="#L" n="100"/>luminabile eis approximatum quam si distarenta 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1514">
+               <lb ed="#L" n="101"/>⁋ Ad vltimum dico quod vnitas non sufficit ad sul 
+      <lb ed="#L" n="102"/>ceptionem magis et minus nisi vnita faciant per se 
+      <lb ed="#L" n="103"/>vnum. et sint indistincta loco et subiecto. quod non 
+      <lb ed="#L" n="104"/>est verum in additione quantitatis ad quantitatem 
+      <lb ed="#L" n="105"/>siue quantitas sit aliqua res absoluta a substantia 
+      <lb ed="#L" n="106"/>et qualitate siue non.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1530">
+      ⁋ Ad primum pro prima opinio
+      di<lb ed="#L" n="107" break="no"/>co quod non accipit ibi impermixtione proprie. sed
+      improprie<lb ed="#L" n="108" break="no"/>pro maiori recessu et distantia. et maiori
+      dissimili<lb ed="#L" n="109" break="no"/>tudine. quia albius magis dissimilatur nigredini quam 
+      <lb ed="#L" n="110"/>minus album.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1541">
+      ⁋ Ad secundum dico quod quamuis maius et 
+      <!--392.xml-->
+      <pb ed="#L" n="195-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>minus philosophus attribuat praecise illis gradibus
+      qui<lb ed="#L" n="2" break="no"/>bus conuenit habere contrarium. non tamen attribuit 
+      <lb ed="#L" n="3"/>magis et minus praecise illis speciebus quai habent co 
+      <lb ed="#L" n="4"/>traria. quia lux suscipit magis et minus. non tamen habe 
+      <lb ed="#L" n="5"/>contrarium. et sic de multis aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1561">
+      ⁋ Ad tertium 
+      <lb ed="#L" n="6"/>dico quod non debet concedi de virtute sermonis quod 
+      <lb ed="#L" n="7"/>estper medium componatur ex extremis. nec hoc vuli 
+      <lb ed="#L" n="8"/>phsophus. sed quod medium est minus dissimile vtrique extre 
+      <lb ed="#L" n="9"/>mo quam vnum extremum alteri.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1572">
+      ⁋ Ad primum quod innui 
+      <lb ed="#L" n="10"/>tur pro secunda opinione. Dico quod illa additis fit 
+      <lb ed="#L" n="11"/>ex parte forme. non tamen talis additio variat
+      spe<lb ed="#L" n="12" break="no"/>cie. nisi quando illud additum est alterius rationis ab illo 
+      <lb ed="#L" n="13"/>cui additur. In proposito autem illud cui additur et quod 
+      <lb ed="#L" n="14"/>additur sunt eiusdem rationis.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1585">
+      ⁋ Ad secundum dico quod
+      il<lb ed="#L" n="15" break="no"/>le due caliditates quarum vna est addita alteri. 
+      <lb ed="#L" n="16"/>solo numero differunt Et quando dicitur. quod distinctio nume 
+      <lb ed="#L" n="17"/>ralis non est nisi penes distinctionem subiectorum 
+      <lb ed="#L" n="18"/>Dico quod est falsum quia possunt duo accidentia sine omni 
+      <lb ed="#L" n="19"/>subiecto distingui numeraliter. Ueruntamen natura 
+      <lb ed="#L" n="20"/>liter quando aliqua accidentia nata sunt fieri vnum 
+      <lb ed="#L" n="21"/>accidens numero. si sic distinguuntur quod sunt duo
+      in<lb ed="#L" n="22" break="no"/>diuidua nec facientia vnum indiuiduum. tume sem 
+      <lb ed="#L" n="23"/>per distinguuntur subiecto. sed sic non est in proposito. 
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1608">
+               <lb ed="#L" n="24"/>⁋ Ad primum principale dico quod extendendo compo 
+      <lb ed="#L" n="25"/>sitione ad compositionem ex pluribus partibus eiusdem 
+      <lb ed="#L" n="26"/>rationis. caliditas sequens est compositior
+      calidita<lb ed="#L" n="27" break="no"/>te praecedente. Nec est vniversaliter verum quod quanto aliquid est 
+      <lb ed="#L" n="28"/>simplicius tanto est perfectius. quia in multis compositio 
+      <lb ed="#L" n="29"/>ra sunt simpliciter perfectiora simplicibus. illud patet. quia 
+      <lb ed="#L" n="30"/>compositum est simpliciter perfectius vtraque parte. et ita 
+      <lb ed="#L" n="31"/>est in proposito.
+    </p>
+            <p xml:id="wo8uy7-d1e1082-d1e1628">
+      ⁋ Ad secundum principale patet prius.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

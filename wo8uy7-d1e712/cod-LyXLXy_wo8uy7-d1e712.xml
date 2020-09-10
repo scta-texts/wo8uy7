@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="157-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e712"><!-- l1d8q2 -->
+            <head xml:id="wo8uy7-d1e712-Hd1e108">Quaestio 2</head>
+            <p xml:id="wo8uy7-d1e712-d1e111">
+      Questio secunda. 
+      <lb ed="#L" n="44"/>Ad declarationem 
+      <lb ed="#L" n="45"/>predictorum queram istas breues que 
+      <lb ed="#L" n="46"/>tiones. Primo ergo quero. Utrum ali 
+      <lb ed="#L" n="47"/>quod simpliciter simplex possit esse in 
+      <lb ed="#L" n="48"/>genere.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e124">
+      ⁋ Quod non. quia genus significat partem rei. 
+      <lb ed="#L" n="49"/>per Comme. vii. meth. commento iii. Genus dicitur pars
+      for<lb ed="#L" n="50" break="no"/>me. et ideo dicitur quod genus est pars formarum specierum 
+      <lb ed="#L" n="51"/>hoc idem etiam dicit philosophus ibidem quod genus est pars 
+      <lb ed="#L" n="52"/>forme.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e135">
+      ⁋ Preterea secundum philosophum. v. meth. c. de genere 
+      <lb ed="#L" n="53"/>Senus est materia. g illud in quo non est mate 
+      <lb ed="#L" n="54"/>ria non est in genere. sed simpliciter simplex non habet 
+      <!--317.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 157-v -->
+               <lb ed="#L" n="55"/>materiam.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e151">
+      ⁋ Preterea Commen. ibidem commen. xxxiii. 
+      <lb ed="#L" n="56"/>dicit quod tertius modus generis dicitur de materia 
+      <lb ed="#L" n="57"/>genus enim est illud quod recipit differentias et quali 
+      <lb ed="#L" n="58"/>tates. et tale est materia. sed nec in angelis. nec 
+      <lb ed="#L" n="59"/>in accidentibus est materia. ergo talia propter suam 
+      <lb ed="#L" n="60"/>simplicitatem non sunt in genere.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e165">
+      ⁋ Preterea. quod 
+      <lb ed="#L" n="61"/>est simpliciter simplex in nullo vniuocatur cum alio. quia 
+      <lb ed="#L" n="62"/>se toto differt a quolibet. sed tale non est in
+      ge<lb ed="#L" n="63" break="no"/>nere. ergo nullum simpliciter simplex potest esse in genere. 
+      <lb ed="#L" n="64"/>Ad oppositum. angeli sunt in genere substantie. 
+      <lb ed="#L" n="65"/>ex tamen simplices
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e178">
+      ⁋ Ad questionem dico quod simpliciter 
+      <lb ed="#L" n="66"/>simplex est in genere. ita scilicet quod est simplex per caren 
+      <lb ed="#L" n="67"/>tiam cuiuslibet compositionis intrinsece. Cuius ratio est 
+      <lb ed="#L" n="68"/>quia omnis conceptus praedicabilis in quid de plu 
+      <lb ed="#L" n="69"/>ribus differentibus plus quam solo numero.
+      haben<lb ed="#L" n="70" break="no"/>tibus certam proportionem secundum perfectionem inter
+      se<lb ed="#L" n="71" break="no"/>quorum nullum est pars essentialis alicuius per se vni 
+      <lb ed="#L" n="72"/>us est conceptus generis. sed de simplicibus. pu 
+      <lb ed="#L" n="73"/>ta de angelis praedicatur aliquis conceptus in quid et 
+      <lb ed="#L" n="74"/>angeli plus differunt quam solo numero. supponem. 
+      <lb ed="#L" n="75"/>do quod non omns sint simpliciter eiusdem rationis. hoc est 
+      <lb ed="#L" n="76"/>similium. et nullus eorum natus est esse pars essen 
+      <lb ed="#L" n="77"/>tialis cuiuscumque per se vnius. et habent certam pro 
+      <lb ed="#L" n="78"/>portionem secundum perfectionem inter se. ergo etc. Ihaiore 
+      <lb ed="#L" n="79"/>declaro
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e211">
+      ⁋ Ad cuius eiudentiam sciendum quod sicut 
+      <lb ed="#L" n="80"/>declaratum est quamuis aliquis conceptus. puta con 
+      <lb ed="#L" n="81"/>ceptus entis praedicatur de deo et aliqua creatura 
+      <lb ed="#L" n="82"/>in quid. quia tamen ista contenta non habet certam
+      pro<lb ed="#L" n="83" break="no"/>portionem secundum perfectionem inter se. ideo non est
+      ge<lb ed="#L" n="84" break="no"/>nus. Similiter quamuis anima praedicetur in quid de multis anima 
+      <lb ed="#L" n="85"/>bus et similiter forma de omnibus formis substantialibus 
+      <lb ed="#L" n="86"/>et materia de omnibus materialibus. quia tamen omnia 
+      <lb ed="#L" n="87"/>ista sunt nata esse partes essentiales aliquo quorum 
+      <lb ed="#L" n="88"/>quodlibet est per se vnum. ideo illi conceptus non sunt 
+      <lb ed="#L" n="89"/>genera nec etiam species. Similiter quamuis aliquid predicatur in 
+      <lb ed="#L" n="90"/>quid de anima intellectiua et de angelo. illud non 
+      <lb ed="#L" n="91"/>esset genus propter eandem rationem. sed quando omnes iste 
+      <lb ed="#L" n="92"/>conditiones concurrunt. tunc tale praedicet: bile est ge 
+      <lb ed="#L" n="93"/>nus. quia ista ratione circumscripta. non potest assignari. 
+      <lb ed="#L" n="94"/>quare plus vnus talis conceptus sit genus quam alius 
+      <lb ed="#L" n="95"/>Per primum distinguitur a conceptu speciei et conceptu 
+      <lb ed="#L" n="96"/>denominatiuo
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e250">
+      ⁋ Per secundum a conceptu entis. et a 
+      <lb ed="#L" n="97"/>quolibet conceptu praedicabili de deo et de
+      crea<lb ed="#L" n="98" break="no"/>tura. et per tertium a conceptum predicabili de 
+      <lb ed="#L" n="99"/>quacunque parte essentiali cuiuscunque creature 
+      <lb ed="#L" n="100"/>ex per hoc conceptus predicabilis in quid de 
+      <lb ed="#L" n="101"/>deo et anima intellectiua non est genus quin 
+      <lb ed="#L" n="102"/>sit etiam vniuocum deo et anime intellectiue 
+      <lb ed="#L" n="103"/>Et hec etiam esset ratio quod nullus conceptus 
+      <lb ed="#L" n="104"/>predicabilis de eo in quid est conceptus gene 
+      <lb ed="#L" n="105"/>ris. Minor est manifesta. quia non plus repu 
+      <lb ed="#L" n="106"/>gnat angelis habere conceptum predicabilem 
+      <lb ed="#L" n="107"/>de eis in quid quam deo et creaturis. immo
+      ali<lb ed="#L" n="108" break="no"/>quis est conceptus communis predicabilis 
+      <lb ed="#L" n="109"/>in quid de deo et creaturis. non pro se. sed  
+      <!--318.xml-->
+      <pb ed="#L" n="158-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>pro deo. et pro angelis. et sic patet minor quantum ad  
+      <lb ed="#L" n="2"/>primam partem. alie partes sunt manifeste
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e292">
+      ⁋ Contra 
+      <lb ed="#L" n="3"/>istam rationem potest instari. quia secundum hoc qualitati et 
+      <lb ed="#L" n="4"/>quantitati esset aliquod genus commune. quia de ipsis
+      praedica<lb ed="#L" n="5" break="no"/>tur aliquid in quid. et differunt plus quam solo numero etc. 
+      <lb ed="#L" n="6"/>ergo ille conceptus sic de eis praedicabilis erit con 
+      <lb ed="#L" n="7"/>ceptus generis
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e305">
+      ⁋ Preterea. sequitur quod quelibet 
+      <lb ed="#L" n="8"/>due species habent vnum genus praecise commune eis: proba. 
+      <lb ed="#L" n="9"/>tio. quia causa quare ab istis speciebus quibuscumque 
+      <lb ed="#L" n="10"/>demonstratis abstrahitur vnum genus. quod non ab 
+      <lb ed="#L" n="11"/>strahitur ab istis speciebus et ab aliis speciebus. quia 
+      <lb ed="#L" n="12"/>iste species vel magis proprie loquendo indiuidua 
+      <lb ed="#L" n="13"/>istarum specierum. habet certam proportionem vel
+      con<lb ed="#L" n="14" break="no"/>uenientiam inter se. qualem non habent cum aliis
+      spe<lb ed="#L" n="15" break="no"/>ciebus. vel indiuiduis aliarum specierum. sed demon 
+      <lb ed="#L" n="16"/>stratis indiuiduis duarum specierum quarumcumque 
+      <lb ed="#L" n="17"/>illa indiuidua habent aliquam determinatam co 
+      <lb ed="#L" n="18"/>uenientiam vel proportionem inter se. qualem non
+      ha<lb ed="#L" n="19" break="no"/>bent cum quibuscumque indiuiduis aliarum specierum 
+      <lb ed="#L" n="20"/>ergo est aliquis conceptus abstrahibilis praecise 
+      <lb ed="#L" n="21"/>ab istis. et eadem ratione a quibuscumque indiuiduis 
+      <lb ed="#L" n="22"/>quarumcunque duarum suecierum. et ex hoc vltra sequi 
+      <lb ed="#L" n="23"/>tur quod respectu substantie et quantitatis potest abstra 
+      <lb ed="#L" n="24"/>hi conceptus generis. quia habet certam conuenientiam 
+      <lb ed="#L" n="25"/>inter se. qualem non habent cum qualitate. ergo ab eis 
+      <lb ed="#L" n="26"/>aliquis conceptus determinatus abstrahi potest
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e350">
+      ⁋ Ad  
+      <lb ed="#L" n="27"/>primum istorum posset dici. si vna opinio quae
+      recita<lb ed="#L" n="28" break="no"/>bitur in quarto esset vera quod genus est in dupli 
+      <lb ed="#L" n="29"/>ci differentia quadam enim sunt genera que significant res 
+      <lb ed="#L" n="30"/>simplicitur et absolute sine omni connotatione. et si ita 
+      <lb ed="#L" n="31"/>esset. tunc posset dici quod sunt tantum tria genera
+      ge<lb ed="#L" n="32" break="no"/>neralissima. puta substantia quaelitas et respectus. secundum po 
+      <lb ed="#L" n="33"/>nentes respectus alios. quia omnis res alia a deo: vel est 
+      <lb ed="#L" n="34"/>substantia: vel est qualitas: vel est respectus. Alio modo
+      di<lb ed="#L" n="35" break="no"/>citur genus omne praedicabile primo modo dicendi 
+      <lb ed="#L" n="36"/>per se et in abstracto de alio. et isto modo possunt dici 
+      <lb ed="#L" n="37"/>decem genera generalissima scilicet tria pria et septem alia 
+      <lb ed="#L" n="38"/>que tamen sunt connotatiua. scilicet quantitas et relatio. et 
+      <lb ed="#L" n="39"/>sic de aliis. Nec illud debet reputari ita abfur 
+      <lb ed="#L" n="40"/>dum. cum etiam multi doctores dicant quod respectus 
+      <lb ed="#L" n="41"/>numquam distinguitur a fundamento realiter. et ita non sic 
+      <lb ed="#L" n="42"/>sunt decem gnera distinctas res importantia. quomo 
+      <lb ed="#L" n="43"/>genus substectie et qualitatis important distinctas res.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e389">
+      ⁋ Sed 
+      <lb ed="#L" n="44"/>tunc est dubium. quia non videtur quod respectus qui
+      ponere<lb ed="#L" n="45" break="no"/>tur distinctum praedicamentum tanquam importans simpliciter 
+      <lb ed="#L" n="46"/>rem distinctam sit aliquod illorum decem generum
+      genera<lb ed="#L" n="47" break="no"/>lissimorum. quae ponit philosophus et auctores et doctores. 
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e400">
+               <lb ed="#L" n="48"/>⁋ Ad istud posset dici. quod ille numerus
+      praedicamen<lb ed="#L" n="49" break="no"/>torum est concessus tanquam famosus. quameuis tunc secundum 
+      <lb ed="#L" n="50"/>rei veritatem non esset verus numerus praedicamento 
+      <lb ed="#L" n="51"/>rum. Posset tamen dici quod per genus relationis
+      in<lb ed="#L" n="52" break="no"/>telligitur illud genus generalissimum. ita quod communiter lo 
+      <lb ed="#L" n="53"/>quendo genus relationis comprehendit propter si 
+      <lb ed="#L" n="54"/>milem modum predicandi: et illud genus generalissimum 
+      <lb ed="#L" n="55"/>et alia que ponuntur in genere relationis. Et ita 
+      <!--318.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 158-r -->
+               <lb ed="#L" n="56"/>esub genere relationis compraehendetur vnum genus 
+      <lb ed="#L" n="57"/>generalissimum. accipiendo genus generalissimum pro
+      communisi<lb ed="#L" n="58" break="no"/>mo aliquo importante praecise res distinctas ab
+      omni<lb ed="#L" n="59" break="no"/>bus importatis per alia genera generalissma.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e435">
+      ⁋ Ad se Ad secundam dicitur pri 
+      <lb ed="#L" n="60"/>cundum posset dici multipliciter. Uno modo concedendo 
+      <lb ed="#L" n="61"/>conclusionem. Uidetur tamen argumentum valere
+      ma<lb ed="#L" n="62" break="no"/>gis conclusio opinantes contrarium. quam conmame. quia sicut secundum eos 
+      <lb ed="#L" n="63"/>idem non potest conuenire cum aliquo realiter et differre 
+      <lb ed="#L" n="64"/>ab eodem realiter nisi per aliud et aliud. eadem ratione 
+      <lb ed="#L" n="65"/>idem non potest differre realiter ab vno plus et minus 
+      <lb ed="#L" n="66"/>quam ab alio nisi per aliud et aliud. sicut homo non potest 
+      <lb ed="#L" n="67"/>plus distingui a boue quam ab asino. nisi propter 
+      <lb ed="#L" n="68"/>aliud et aliud vel propter aliam et aliam realitatem. 
+      <lb ed="#L" n="69"/>Probatio istius. quia minus differret ab asino quam 
+      <lb ed="#L" n="70"/>a boue. ergo per principia eorum magis conuenit cum asino 
+      <lb ed="#L" n="71"/>quam cum boue. ergo in aliquo conuenit cum asino in quo 
+      <lb ed="#L" n="72"/>non conuenit cum boue. tunc quero. aut magis
+      con<lb ed="#L" n="73" break="no"/>uenit cum asino quam cum boue seipso. et hoc non est 
+      <lb ed="#L" n="74"/>possibile. quia tunc eadem ratione seipso conueniret cum 
+      <lb ed="#L" n="75"/>asino. et qua ratione seipso conueniret cum asino eadem 
+      <lb ed="#L" n="76"/>ratione cum distinguatur ab asino seipso distinguitur. 
+      <lb ed="#L" n="77"/>ab asino. quia si per aliud distinguitur. ergo non seipo 
+      <lb ed="#L" n="78"/>conueniret primo. sed per aliud per quod non
+      distingui<lb ed="#L" n="79" break="no"/>tur. ergo non potest seipso primo plus conuenire 
+      <lb ed="#L" n="80"/>cum asino quam cum boue. Si autem conueniunt in
+      ali<lb ed="#L" n="81" break="no"/>quo magis homo et asinus. vel homo et equus (non 
+      <lb ed="#L" n="82"/>curo de terminis quam homo et bos. quero de
+      il<lb ed="#L" n="83" break="no"/>lo aut est animalitas vel realitas a qua accipitur 
+      <lb ed="#L" n="84"/>genus vel a qua accipitur differentia
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e492">
+      ⁋ Non realitas a qua 
+      <lb ed="#L" n="85"/>genus accipitur. quia per illam non distinguitur a boue. sed  
+      <lb ed="#L" n="86"/>in illa conuenit cum boue et cum equo et cum aliis. Si 
+      <lb ed="#L" n="87"/>autem sit realitas a qua accipitur differentia aut ergo illa qua 
+      <lb ed="#L" n="88"/>homo distinguitur ab omni animali. puta a boue et 
+      <lb ed="#L" n="89"/>ab equo. vel aliqua qua distinguitur a boue et non 
+      <lb ed="#L" n="90"/>ab equo.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e508">
+      ⁋ Si primo modo. ergo in illa realitate 
+      <lb ed="#L" n="91"/>homo et equus non conueniunt. sicut nec in illa com 
+      <lb ed="#L" n="92"/>ueniunt homo et bos cum homo distinguatur per illam 
+      <lb ed="#L" n="93"/>ab vtroque et per consequens ab equo. et per idem non possunt 
+      <lb ed="#L" n="94"/>aliqua conuenire et distingui. si secundo modo. ergo alia est 
+      <lb ed="#L" n="95"/>realitas praeter realitate a qua accipitur genus. et 
+      <lb ed="#L" n="96"/>realitatem a qua accipitur differentia quam homo differret a bo 
+      <lb ed="#L" n="97"/>ue. in qua coueniunt homo et equus. et ita erunt tres 
+      <lb ed="#L" n="98"/>Eodem mo mdo arguo quod homo plus conuenit cum
+      bo<lb ed="#L" n="99" break="no"/>ue quam cum capra. ergo in aliqua realitate alia sieut 
+      <lb ed="#L" n="100"/>prius. Et vltur plus conteit cum cap quam cum musea. et sic
+      pro<lb ed="#L" n="101" break="no"/>cedendo per omnes species animalis et omnium quae sunt in genere substantia. sequi 
+      <lb ed="#L" n="102"/>tur quod erunt tot realitates in qualibet specie. quot sunt 
+      <lb ed="#L" n="103"/>species in genere subseantia. quod est satems absurdum. Et vltra hoc etiam 
+      <lb ed="#L" n="104"/>sequitur quod tot sunt gnera superiora ad quanlibet speciem ssubstant 
+      <lb ed="#L" n="105"/>quot sunt species in genere substantie. minus ergo 
+      <lb ed="#L" n="106"/>esset absurdum concedere conclusionem quod essent tot 
+      <lb ed="#L" n="107"/>genera propter solos conceptus distinctos. quam con 
+      <lb ed="#L" n="108"/>cedere tot genera cum tot realitatibus in
+      quo<lb ed="#L" n="109" break="no"/>libet indiuiduo et in qualibet specie. quia par 
+      <lb ed="#L" n="110"/>uum inconueniens videtur. respectiue quod aliquis 
+      <!--319.xml-->
+      <pb ed="#L" n="158-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>videns praecise bouens et asinos. abstrahit vnum conce 
+      <lb ed="#L" n="2"/>ptum communem eis: predicabilem in quid de eis. et ali 
+      <lb ed="#L" n="3"/>videns praecise boues et equos abstrahit vnum alium 
+      <lb ed="#L" n="4"/>conceptum consimilem. et alius videns praecise bouens 
+      <lb ed="#L" n="5"/>et capras abstrahit adhuc vnum alium conceptum 
+      <lb ed="#L" n="6"/>consimilem. et sic de mille apprehendentibus
+      diuer<lb ed="#L" n="7" break="no"/>sa indiuidua. ita quod quilibet praecise apprehendat 
+      <lb ed="#L" n="8"/>aliqua indiuidua bouis. et nullus comprehendit
+      ali<lb ed="#L" n="9" break="no"/>quod indiuiduum eiusdem speciei spaialissime: cum quocumque 
+      <lb ed="#L" n="10"/>indiuiduo apprehenso ab alio. excepto indiui 
+      <lb ed="#L" n="11"/>duo bouis. tunc enim quaelibet illorum posset
+      abstrahe<lb ed="#L" n="12" break="no"/>re aliquem conceptum communem omnibus apphensis ab eo 
+      <lb ed="#L" n="13"/>et per consequens quaelibet illorum esset communis bobus. cum boues 
+      <lb ed="#L" n="14"/>apprehendantur a quolibet illorum et non videtur
+      in<lb ed="#L" n="15" break="no"/>coueniens quin quilibet illorum abstrahit conceptum 
+      <lb ed="#L" n="16"/>distinctum. sicut apprehensa a quibus debet abstra 
+      <lb ed="#L" n="17"/>here sunt distincta. et per consequens tot erunt conceptus 
+      <lb ed="#L" n="18"/>distincti quot sunt abstrahentes. et ita erunt mil 
+      <lb ed="#L" n="19"/>le conceptus communes et praedicabiles in quid de bobus 
+      <lb ed="#L" n="20"/>et tamen quilibet illorum continebitur sub animali. nec tamen 
+      <lb ed="#L" n="21"/>erunt conceptus subalterni. et hoc minus est
+      in<lb ed="#L" n="22" break="no"/>conueniens quam ponere tot realitates in quolibet 
+      <lb ed="#L" n="23"/>indiuiduo. et similiter simul cum hoc tot genera quot 
+      <lb ed="#L" n="24"/>sunt species.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e613">
+      ⁋ Et si istud esset verum posset dici pre 
+      <lb ed="#L" n="25"/>intentione. aristotelis et aliorum philosophorum et auctorum. 
+      <lb ed="#L" n="26"/>Uno modo quod ipsi loquuntur de illis generibus
+      quo<lb ed="#L" n="27" break="no"/>rum diuisio est necessaria ad inuestigandum
+      dis<lb ed="#L" n="28" break="no"/>finitionem alicuius speciei. quia illa genera sunt pauca 
+      <lb ed="#L" n="29"/>et sunt subalterna. et sic non a quibuscumque specieb 
+      <lb ed="#L" n="30"/>propter determinatam conuenientiam potest abstrahi 
+      <lb ed="#L" n="31"/>conceptus generis sic dictus. sicut ad habendum 
+      <lb ed="#L" n="32"/>diffinitionem hominis non oportet diuidere animal 
+      <lb ed="#L" n="33"/>in omnia genera quocumque modo contenta. sed quia differen 
+      <lb ed="#L" n="34"/>hominis qua distinguitur ab omni animali nota est 
+      <lb ed="#L" n="35"/>sufficeret diuidere animal per differentiam hominis et
+      ne<lb ed="#L" n="36" break="no"/>gationem vel per priuationem illius dicere. dicendo omne 
+      <lb ed="#L" n="37"/>animal aut est rationale aut est irrationale. hic 
+      <lb ed="#L" n="38"/>enim per hoc non habetur aliqua differentia positiua nisi
+      so<lb ed="#L" n="39" break="no"/>la differentia hominis. sed habetur differentia positiua hominis 
+      <lb ed="#L" n="40"/>ex vna parte. et negatiua vel priuatiua eiusdem ex 
+      <lb ed="#L" n="41"/>alia parte. Ex isto modo diuiditur genus substantie 
+      <lb ed="#L" n="42"/>in substantiam corpoream et incorpoream. cum tamen
+      for<lb ed="#L" n="43" break="no"/>te secundum rei veritate illius que est incorporea non 
+      <lb ed="#L" n="44"/>sit aliqua differentia positiua et essentialis. propter 
+      <lb ed="#L" n="45"/>simplicitatem ipsius.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e661">
+      ⁋ Alit posset dici sicut innuit 
+      <lb ed="#L" n="46"/>bocti. in li. diuisionum. IMulte diuisiones ma 
+      <lb ed="#L" n="47"/>gis sunt a necessitate quam a natura. et eodem modo 
+      <lb ed="#L" n="48"/>multa dicuntur genera magis a necessitate quam 
+      <lb ed="#L" n="49"/>a natura. quod sic potest intelligi. quia multe species 
+      <lb ed="#L" n="50"/>hoc est multa indiuidua specierum sunt nobis 
+      <lb ed="#L" n="51"/>ignota. nec nobis innotescunt nisi in conceptibus 
+      <lb ed="#L" n="52"/>communibus transcendentibus que sunt communes substam 
+      <lb ed="#L" n="53"/>tiis et accidentibus: quorum aliqui sunt communes et ab 
+      <lb ed="#L" n="54"/>soluti. et aliqui connotatiui. et in conceptibus ne 
+      <lb ed="#L" n="55"/>gatiuis et connotatiuis propriis. et tunc quia iste res 
+      <!--319.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 158-v -->
+               <lb ed="#L" n="56"/>a quibus deberent abstrahi conceptus generum 
+      <lb ed="#L" n="57"/>non sunt note in se. sed aliqua accidentia earum.
+      vel<lb ed="#L" n="58" break="no"/>aliqua alia ad ipsas pertinentia sunt in se nota. ideo 
+      <lb ed="#L" n="59"/>genera earum dicuntur aliqui conceptus connotati 
+      <lb ed="#L" n="60"/>ui illorum accidentium et proprietatum. et quia multorum 
+      <lb ed="#L" n="61"/>indiuiduorum diuersarum specierum non cognoscimus 
+      <lb ed="#L" n="62"/>in se diuersa accidentia et proprietates propter quas pos 
+      <lb ed="#L" n="63"/>lemus sic abstrahere conceptus distinctos. ideo 
+      <lb ed="#L" n="64"/>dicimus multa esse eiusdem generis et non diuerso 
+      <lb ed="#L" n="65"/>rum generum. et aliqua alia esse diuersorum generum. 
+      <lb ed="#L" n="66"/>Uerbi gratia. nullam substantiam incorpoream nec corpoream 
+      <lb ed="#L" n="67"/>inanimata. nec animal aliquod cognoscimus in se vel 
+      <lb ed="#L" n="68"/>cognitione propria. tamen accidentia illorum cognoscimus. 
+      <lb ed="#L" n="69"/>sicut qualitates sensibiles. operationes earum et mot 
+      <lb ed="#L" n="70"/>et huiusmodi. ideo secundum ista accipimus genera et diui 
+      <lb ed="#L" n="71"/>dimus. quia omnia habentia quantitatem ponimus ex vna 
+      <lb ed="#L" n="72"/>parte et dicimus esse in eodem genere subalterno. et omnia 
+      <lb ed="#L" n="73"/>non habentia quantitatem ponimus ex alia parte. et dicie 
+      <lb ed="#L" n="74"/>mus non esse in eodem genere subalterno cum praimis. sed  
+      <lb ed="#L" n="75"/>tantum eiusdem generis generalissimi. Postea habentium 
+      <lb ed="#L" n="76"/>quantitatem videmus aliqua habere motum aliquem es 
+      <lb ed="#L" n="77"/>principio intrinseco quo non habent alia. et illa
+      poni<lb ed="#L" n="78" break="no"/>mus ex vna parte. et alia ex alia parte. Postea
+      vi<lb ed="#L" n="79" break="no"/>demus aliqua moueri aliquo motu locali ad pre 
+      <lb ed="#L" n="80"/>sentiam alicuius ad modum quo nos possumus moue 
+      <lb ed="#L" n="81"/>ri. ad praesentiam talium. et alia non et illa ponimus ex 
+      <lb ed="#L" n="82"/>vna parte. et alia ex alia. et sic semper per diuersa 
+      <lb ed="#L" n="83"/>accidentia quae apprehendimus dicimus aliqua esse in 
+      <lb ed="#L" n="84"/>eodem genere et non in alio. et si cognosceremus
+      mul<lb ed="#L" n="85" break="no"/>ta quantumcumque diuersarum specierum. et plus differentium 
+      <lb ed="#L" n="86"/>quam multa quae dicimus differre genere et non apprehendere 
+      <lb ed="#L" n="87"/>mus diuersa accidentia in eis. sed omnia accidentia 
+      <lb ed="#L" n="88"/>essent similia in eis. non diceremus illa esse in
+      diuer<lb ed="#L" n="89" break="no"/>sis generibus. sed magis diceremus quod essent eiusdem 
+      <lb ed="#L" n="90"/>generis. et ita genera quae nos habemus sunt magis a 
+      <lb ed="#L" n="91"/>necessitate. propter defectum verorum generum quae non 
+      <lb ed="#L" n="92"/>habemus quam a natura. hoc est quam sint veraciter. si 
+      <lb ed="#L" n="93"/>cut a naturrerum possent accipi. si ipse res
+      pos<lb ed="#L" n="94" break="no"/>sent in se a nobis apprehendi⁋ Aliter forte
+      dice<lb ed="#L" n="95" break="no"/>rent aliqui quod non ab omnibus determinatam 
+      <lb ed="#L" n="96"/>conuenientiam habentibus potest abstrahi
+      con<lb ed="#L" n="97" break="no"/>ceptus distinctus. sed aliqui conuenientia sufficit 
+      <lb ed="#L" n="98"/>et aliqua non. et ideo non est tanta conuenientia inter 
+      <lb ed="#L" n="99"/>substantias et qualitates quod possit abstrahi ab eis vnus 
+      <lb ed="#L" n="100"/>conceptus qui sit communis omnibus. et eodem modo de qui 
+      <lb ed="#L" n="101"/>buscumque accidentibus distinctorum generum genera 
+      <lb ed="#L" n="102"/>lissimorum. Similiter inter istas duas species vel indiui 
+      <lb ed="#L" n="103"/>dua istarum specierum aliquibus demonstratis non est talis 
+      <lb ed="#L" n="104"/>conuenientia quod possit abstrahi ab eis aliquis
+      co<lb ed="#L" n="105" break="no"/>ceptus precise comunis illis. Pro isto tamen 
+      <lb ed="#L" n="106"/>modo dicendi nulla potest ratio assignari. sed si 
+      <lb ed="#L" n="107"/>verus est tantum erit notus per experientiam et 
+      <lb ed="#L" n="108"/>nullo alio modo.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e807">
+      ⁋ Aliter posset dici quod nullus 
+      <lb ed="#L" n="109"/>conceptus nisi ad placitum institutus potest abstrahi 
+      <lb ed="#L" n="110"/>nisi praecise conceptus speciei specialissime. et conceptus 
+      <!--320.xml-->
+      <pb ed="#L" n="159-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>entis. et ita conceptus generis non erit vnus
+      na<lb ed="#L" n="2" break="no"/>turaliter abstractus. sicut est conceptus entis et com 
+      <lb ed="#L" n="3"/>ceptus speciei specialissime. sed semper erunt
+      equiuoca<lb ed="#L" n="4" break="no"/>tiones in genere nisi imponatur aliquis conceptus
+      con<lb ed="#L" n="5" break="no"/>notatiuus aliquorum accidentium eiusdem speciei in illis 
+      <lb ed="#L" n="6"/>quaebus debet esse genus.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e833">
+      ⁋ Aliter posset dici sicut 
+      <lb ed="#L" n="7"/>tactum est in praecedenti quone quod ab indiuiduis di 
+      <lb ed="#L" n="8"/>uersarum specierum plius differntibus non potest abstrahi 
+      <lb ed="#L" n="9"/>aliquis conceptus praedicabilis in quid. nisi etiam 
+      <lb ed="#L" n="10"/>praedicetur in quid de indinduis magis conuenientibus cum 
+      <lb ed="#L" n="11"/>illis quam ipse conueniunt inter se. sicut si homo. et 
+      <lb ed="#L" n="12"/>musca plus differunt quam homo et bos et equus et 
+      <lb ed="#L" n="13"/>capra et plusquam bos et equus et capra et
+      musca<lb ed="#L" n="14" break="no"/>nullus conceptus communis quidditatiuus potest abstrahi 
+      <lb ed="#L" n="15"/>ab homine et musca. quin erit quidditatiuus boui equo 
+      <lb ed="#L" n="16"/>et capre. et sic de aliis. Ei sic patet maxime quod non 
+      <lb ed="#L" n="17"/>a quabuscumque indiuiduis diuersarum specierum potest 
+      <lb ed="#L" n="18"/>abstrahi genus distinctum.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e862">
+      ⁋ Siam praedicta in ista quae 
+      <lb ed="#L" n="19"/>stione dico non asserendo. sed recitando tantum. et hoc vera 
+      <lb ed="#L" n="20"/>vt vera. falsa vt falsa. erronea vt erronea. et ab 
+      <lb ed="#L" n="21"/>surda vt absurda. que tamen sint vera. et que 
+      <lb ed="#L" n="22"/>falsa. et que erronea. et que absurda. relinquo 
+      <lb ed="#L" n="23"/>eis discutiendum.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e875">
+      ⁋ hoc solum assero quod nihil 
+      <lb ed="#L" n="24"/>est in re nec res. nec realitas quae sit quocumque modo 
+      <lb ed="#L" n="25"/>genus vel commune per praedicationem ex natura rei plus 
+      <lb ed="#L" n="26"/>quamaliud. et quod genus non est de essentia et intraneita 
+      <lb ed="#L" n="27"/>te rei cuius est genus.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e887">
+      ⁋ Ad primum principale dico 
+      <lb ed="#L" n="28"/>quod genus non est pars rei cuiuscumque proprie loquendo. sed 
+      <lb ed="#L" n="29"/>pro tanto dicunt auctores et philosophus quod est pars. quia est pars 
+      <lb ed="#L" n="30"/>diffinitionis. et hoc vel diffinitionis proprie dicte. vel 
+      <lb ed="#L" n="31"/>diffinitionis date per additamentum. Et quod hoc sit inten 
+      <lb ed="#L" n="32"/>tio philosophi. et commen. patet per ipsos vbi allegatur. Unde 
+      <lb ed="#L" n="33"/>philosophus in noua translatione dicit sic. Amplius autem 
+      <lb ed="#L" n="34"/>quae sunt ratione. hoc est pars dicitur de illis quae sunt in
+      diffini<lb ed="#L" n="35" break="no"/>tione. quia vnumquodque eorum est pars diffinitionis. et 
+      <lb ed="#L" n="36"/>hoc est quod dicit in antiqua translatione. etiam est pars 
+      <lb ed="#L" n="37"/>et etiam in illa quae sunt in diffinitione. Et si dicatur quod 
+      <lb ed="#L" n="38"/>philosophus vult in anteiqua translatione. quod illa que sunt in 
+      <lb ed="#L" n="39"/>diffinitione sunt partes speciei et diffiniti. et non tantum.
+      dif<lb ed="#L" n="40" break="no"/>finitionis. Unde dicit in noua translatione.
+      Am<lb ed="#L" n="41" break="no"/>plius quae sunt in ratione. vnumquodque et hoc partes
+      toti<lb ed="#L" n="42" break="no"/>us propter quod genus speciei. et pars dicitur. Similiter in alia 
+      <lb ed="#L" n="43"/>transsantione dicit. est etiam pars. etiam et illa que sunt 
+      <lb ed="#L" n="44"/>in diffinitione quasignificant vnamquamque rerum sunt
+      in<lb ed="#L" n="45" break="no"/>partes totius. Et ideo dicitur quod genus est pars forme.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e929">
+      ⁋ Ex 
+      <lb ed="#L" n="46"/>istis videtur quod illa quae sunt indiffinitione non tantum sunt 
+      <lb ed="#L" n="47"/>partes diffinitionis. sed etiam sunt partes speciei et
+      for<lb ed="#L" n="48" break="no"/>me et totius.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e938">
+      ⁋ Respondeo quod philosophus improprie loquitur 
+      <lb ed="#L" n="49"/>de parte et extensiue. intelligendo per parte illud quod 
+      <lb ed="#L" n="50"/>vere est pars diffinitionis. et significat vnam partem 
+      <lb ed="#L" n="51"/>rei cui competit diffinitio. vel significat totam 
+      <lb ed="#L" n="52"/>rem habentem partem significatiuam per al am partem 
+      <lb ed="#L" n="53"/>diffinitionis. si sit diffinitio proprie dicta. vel
+      signi<lb ed="#L" n="54" break="no"/>ficat rem illam cui competit diffinitio. quae tamen res 
+      <lb ed="#L" n="55"/>aliquo modo componitur cum alio si sit diffinitio proprie 
+      <!--320.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 159-r -->
+               <lb ed="#L" n="56"/>dicta. Ista tamen magis patebunt in questione
+      se<lb ed="#L" n="57" break="no"/>quenti. Unde dicit philosophus. quod genus est pars speciei. 
+      <lb ed="#L" n="58"/>Aliter autem species est pars gener. hoc non potest esse
+      ve<lb ed="#L" n="59" break="no"/>rum accipiendo proprie partem. ergo accipit partem im 
+      <lb ed="#L" n="60"/>proprie. sed quae ratione dicitur quod species est pars generis
+      im<lb ed="#L" n="61" break="no"/>proprie. eadem ratione genus erit pars speciei
+      improprie<lb ed="#L" n="62" break="no"/>Eodem modo dico quod genus est pars totius improprie. hoc est 
+      <lb ed="#L" n="63"/>pars diffiniti vel alicuius rei extra. est tamen proprie pars 
+      <lb ed="#L" n="64"/>diffinitionis. nec propter aliud dicitur pars speciei vel 
+      <lb ed="#L" n="65"/>totius rei vel forme. Eodem modo accipiendum est 
+      <lb ed="#L" n="66"/>dictum commem. quando dicit ibidem
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e986">
+      ⁋ Illa ex quibus
+      co<lb ed="#L" n="67" break="no"/>ponimus diffinitiones significates quidditatem 
+      <lb ed="#L" n="68"/>cuiuslibet rei. Dicuntur etiam partes diffiniti et 
+      <lb ed="#L" n="69"/>diffinitionis. quia scilicet sunt proprie partes diffinitionis 
+      <lb ed="#L" n="70"/>et dicuntur improprie et metaphorice partes
+      diffini<lb ed="#L" n="71" break="no"/>ti. quia significant partes quas significat diffinitum. quando 
+      <lb ed="#L" n="72"/>est diffinitio proporie dicta. et ideo subdit dicens. et 
+      <lb ed="#L" n="73"/>ideo genus dicitur pars forme id est ideo dicitur quod genus est pars 
+      <lb ed="#L" n="74"/>formarum specierum. et hoc potest expoioni intelligendo per 
+      <lb ed="#L" n="75"/>formas specierum ipsas diffinitiones. quae possunt dici in 
+      <lb ed="#L" n="76"/>proprie forme propter praedicationem. quia praedicatum quo 
+      <lb ed="#L" n="77"/>dammodo habet rationem forme respectu subiecti. Quod 
+      <lb ed="#L" n="78"/>autem nec diffinitio nec genus nec differentia sit proprie for 
+      <lb ed="#L" n="79"/>ma satis innuit Commen. ibidem. Unde dicit sic 
+      <lb ed="#L" n="80"/>forma speciei diuiditur in genus et differentiam. hic est autem 
+      <lb ed="#L" n="81"/>quintus modus supple. quo aliquid dicitur pars alterius. 
+      <lb ed="#L" n="82"/>quia forma secundum quod est genus et differentia differt a formis 
+      <lb ed="#L" n="83"/>secundum quod sunt forme. illas enim esse genus aut differentiam est 
+      <lb ed="#L" n="84"/>accidens quod accidit eis. Ex hoc patet quod aliter dicitur forma 
+      <lb ed="#L" n="85"/>de illis quae vere sunt forme. et de genere et differentia et 
+      <lb ed="#L" n="86"/>ita improprie et equiuoce dicitur forma de genere et differentia 
+      <lb ed="#L" n="87"/>et eadem ratione cum genus et differentia non dicantur partes. 
+      <lb ed="#L" n="88"/>nisi quia sunt forme. sequitur quod improprie et equiuoce 
+      <lb ed="#L" n="89"/>dicitur pars de eis. et hoc satis patet. quia sicut ostensum est 
+      <lb ed="#L" n="90"/>prius. dist. ii. Commen. expresse dicit in. vii. meth. quod 
+      <lb ed="#L" n="91"/>nullum vniversalium est pars substantie. nec per consequens aliquod 
+      <lb ed="#L" n="92"/>genus est pars substantie. Et si queratur de quibus 
+      <lb ed="#L" n="93"/>formis intelligit commen. quando dicit quod illas semper 
+      <lb ed="#L" n="94"/>formas esse genus aut differentiam est accidens quod 
+      <lb ed="#L" n="95"/>accidit eis. Potest dici pro ista auctoritate et multis 
+      <lb ed="#L" n="96"/>aliis auctoritatibus. et maxime ipsius commen. per 
+      <lb ed="#L" n="97"/>duas propositiones. quarum vna dicta est frequenter 
+      <lb ed="#L" n="98"/>prius. scilicet quod commen. et philosophus et alii frequenter per 
+      <lb ed="#L" n="99"/>propositiones que secundum se sunt actus exercitati in 
+      <lb ed="#L" n="100"/>telligunt actus signatos. sicut dictum est de istis 
+      <lb ed="#L" n="101"/>homo primo est risibilis. color est obiectum ade 
+      <lb ed="#L" n="102"/>quatum visus. et sic de consimilibus.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e1067">
+      ⁋ Secunda  
+      <lb ed="#L" n="103"/>propositio est quod frequenter in talibus per illas 
+      <lb ed="#L" n="104"/>intelligunt nomina rerum. et hoc aliquando abstracta 
+      <lb ed="#L" n="105"/>vel concreta. et aliquando determinate hec vel illa. 
+      <lb ed="#L" n="106"/>vel intelligunt conceptus correspondentes. sicut 
+      <lb ed="#L" n="107"/>si dicatur quod qualitas accidentaliter praedicatur de
+      subie<lb ed="#L" n="108" break="no"/>cto. hoc est concretum significans qualitatem 
+      <lb ed="#L" n="109"/>accidentaliter predicatur de subiecto. quia hec 
+      <lb ed="#L" n="110"/>est per accidens. homo est qualis. vel homo 
+      <!--321.xml-->
+      <pb ed="#L" n="159-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est albus. et ita de aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e1096">
+      ⁋ Per hoc respondeo 
+      <lb ed="#L" n="2"/>ad comme. quod de concretr significantibus formas 
+      <lb ed="#L" n="3"/>vel res accidentaliter praedicatur esse genus vel differentiam ita 
+      <lb ed="#L" n="4"/>quod hec sit per accidens. animal est genus. et hec similiter. rationa 
+      <lb ed="#L" n="5"/>le differentia et si ita esset de abstractis non esset contusi praedicta 
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e1108">
+               <lb ed="#L" n="6"/>⁋ Ad secundum principale dico quod genus non est proprie 
+      <lb ed="#L" n="7"/>materia sed dicitur materia metaphorice. quia sic ma 
+      <lb ed="#L" n="8"/>terie praexistenti aduenit forma et facit vnum cum ea 
+      <lb ed="#L" n="9"/>ita generi aduenit differentia siue essentialis siue
+      ac<lb ed="#L" n="10" break="no"/>cidentalis non curo ad praesens. et facit vnam
+      diffinitio<lb ed="#L" n="11" break="no"/>nem cum ea proprie dictam vel per additamentum. Per 
+      <lb ed="#L" n="12"/>idem patet ad consmnem. quod genus dicitur materia. quia in
+      diffi<lb ed="#L" n="13" break="no"/>nitione quasi recipit differentia scilicet essentiales et qualitates. 
+      <lb ed="#L" n="14"/>hoc est differentias accidentales.
+    </p>
+            <p xml:id="wo8uy7-d1e712-d1e1130">
+      ⁋ Ad vltimum patet prius quod
+      sim<lb ed="#L" n="15" break="no"/>liciter simplex potest vniuocari in aliquono obstante 
+      <lb ed="#L" n="16"/>sua simplicitate.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

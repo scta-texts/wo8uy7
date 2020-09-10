@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="129-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e501"><!-- l1d3q6 -->
+            <head xml:id="wo8uy7-d1e501-Hd1e108">Quaestio 6</head>
+            <p xml:id="wo8uy7-d1e501-d1e111">
+      Questio. vi. 
+      <lb ed="#L" n="100"/>UTrum prima no 
+      <lb ed="#L" n="101"/>titia intellectus primitate generationis 
+      <lb ed="#L" n="102"/>sit notitia intuitiua alicuius
+      singu<lb ed="#L" n="103" break="no"/>laris.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e122">
+      ⁋ Quod non. singulare sub propria 
+      <lb ed="#L" n="104"/>ratione singularis non intelligitur. ergo eius notitia in 
+      <lb ed="#L" n="105"/>tuitiua non est prima. Antecedens patet per philosophum quia 
+      <lb ed="#L" n="106"/>intellectus est vniuersalium. et sensus singularium. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e131">
+               <lb ed="#L" n="107"/>⁋ Ad oppositum dictum est prius quod omnem notitiam 
+      <lb ed="#L" n="108"/>vniuersalem singulare praecedit. et quod omnis
+      noti<lb ed="#L" n="109" break="no"/>tia rei abstractiua presupponit intuitiuam. 
+      <!--261.xml-->
+      <pb ed="#L" n="129-v"/>
+               <cb ed="#L" n="a"/>
+            </p>
+            <p xml:id="wo8uy7-d1e501-d1e147">
+               <lb ed="#L" n="1"/>⁋ Ad questionem dicitur quod singulare in rebus
+      mate<lb ed="#L" n="2" break="no"/>rialibus intellectus noter directe et primo cognoscere 
+      <lb ed="#L" n="3"/>non potest. Cuius ratio est. quia principium singiaritatis 
+      <lb ed="#L" n="4"/>in rebus materialibus est materia indiudualis 
+      <lb ed="#L" n="5"/>intellectus autem intelligit abstrahendo speciem 
+      <lb ed="#L" n="6"/>intelligibilem ab huiusmodi materia. quod autem a
+      ma<lb ed="#L" n="7" break="no"/>teria induiduali abstrahitur est vniversale. ergo intellect 
+      <lb ed="#L" n="8"/>directe non est cognoscitiuus nisi vniversalium. Indire 
+      <lb ed="#L" n="9"/>cte autem et per quandam reflexionem potest cognoscere 
+      <lb ed="#L" n="10"/>singulare. quia etiam postquam species intelligibiles 
+      <lb ed="#L" n="11"/>abstraxerit. non potest eas intelligere actu nisi
+      com<lb ed="#L" n="12" break="no"/>uertendo se ad fantasmata in quibus species intell 
+      <lb ed="#L" n="13"/>gibiles intelligit. vt dicitur. ii de anima
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e179">
+      ⁋ Aliter ponit 
+      <lb ed="#L" n="14"/>eadem conclusio quod scilicet intellectus linea recta non pe 
+      <lb ed="#L" n="15"/>test intelligere singulare. sed tantum linea reflexa. 
+      <lb ed="#L" n="16"/>per hunc modum. quod primo a singulari in
+      fantasma<lb ed="#L" n="17" break="no"/>te abstrahitur vniversale. et est quasi linea recta. puta al 
+      <lb ed="#L" n="18"/>a in b. et ab illo vniversali vlterius protenditur in
+      intelle<lb ed="#L" n="19" break="no"/>ctum. vt a be in c. et tunc quando intellectus immutatur ad  
+      <lb ed="#L" n="20"/>actum intelligendi. protrahitur quasi linea recta ab 
+      <lb ed="#L" n="21"/>a in c. vt sit a be vna linea recta. Deinde
+      post<lb ed="#L" n="22" break="no"/>quam intellectus immutatus est ad actum intelligendi 
+      <lb ed="#L" n="23"/>ab vniversali existente in fantasmate. actu suo
+      intelligen<lb ed="#L" n="24" break="no"/>di terminato in illud vniversale vt in obiectum. protrahi 
+      <lb ed="#L" n="25"/>tur quasi quedam linea reflexa a c in b. postquam autem 
+      <lb ed="#L" n="26"/>vlterius illam speciem primo intellectam in fantasmate 
+      <lb ed="#L" n="27"/>secundum rationem vniversalis intelligit secundum rationem sue
+      designa<lb ed="#L" n="28" break="no"/>tionis et singularitatis quam habet in ipso
+      fantasma<lb ed="#L" n="29" break="no"/>te protrahitur quasi quedam linea reflexa a b in a. 
+      <lb ed="#L" n="30"/>vt sit totum hoc quasi vna linea reflexa eb a.
+      vt<lb ed="#L" n="31" break="no"/>silineam hanc componamus linee praecedenti. tunc illo 
+      <lb ed="#L" n="32"/>erit linea vna circumflexa. complens actum intelli 
+      <lb ed="#L" n="33"/>gendi reuertentem in illud a quo incepit. Sic qura 
+      <lb ed="#L" n="34"/>dicunt isti quod singulare non intelligitur primo et
+      di<lb ed="#L" n="35" break="no"/>recte⁋ hec conclusio probatur multipliciter. Primo iet 
+      <lb ed="#L" n="36"/>phi. Pueri appellant primo omns homines patres etc. 
+      <lb ed="#L" n="37"/>quod non esset verum nisi vniversale esset primo intellectum. Item 
+      <lb ed="#L" n="38"/>primo phi. Ule quidem secundum rationem est notius.
+      singu<lb ed="#L" n="39" break="no"/>lare vo secundum sensum. Et assignat causam dicens. ratio 
+      <lb ed="#L" n="40"/>vero vniversalium est. sensus autem singularium. ergo secundum 
+      <lb ed="#L" n="41"/>philosophum intellectus non est nisi vniversalium. et hoc
+      intelligen<lb ed="#L" n="42" break="no"/>do primo et directe.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e244">
+      ⁋ Item consequente. ibidem commen. xlix 
+      <lb ed="#L" n="43"/> Comprehensibile ab intellectum est vniversale. et comphensi 
+      <lb ed="#L" n="44"/>bile a sensu est particulare.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e251">
+      ⁋ Idem dicit commen. 
+      <lb ed="#L" n="45"/>xl viii.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e256">
+      ⁋ Item ii de anima. comme i iest Cognitio vniversalis 
+      <lb ed="#L" n="46"/>debet praecedere semper cognitionem propriam. ergo cognito 
+      <lb ed="#L" n="47"/>vniversalis est prior omni alia.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e263">
+      ⁋ Item consequene. licet. causa diuer 
+      <lb ed="#L" n="48"/>sitatis inter sensum et intellectum acquirendo
+      vl<lb ed="#L" n="49" break="no"/>timam perfectionem est in hoc quod motor in sensu est 
+      <lb ed="#L" n="50"/>extrinsecus. et in intellectu intrinsecus quoniam sensus 
+      <lb ed="#L" n="51"/>in actum non mouetur nisi motu qui dicitur comphensio a 
+      <lb ed="#L" n="52"/>rebus particularibus sensibilibus. et iste sunt exra 
+      <lb ed="#L" n="53"/>animam. intellectus autem mouetur ad vltimam perfe 
+      <lb ed="#L" n="54"/>ctionem a rebus vniversalibus. et iste sunt in anima. Ex isti 
+      <lb ed="#L" n="55"/>auctoritate patet quod vltima perfectio sensus quae est actus 
+      <!--261.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 129-v -->
+               <lb ed="#L" n="56"/>sensus elicitus est respectum particularium. et actus 
+      <lb ed="#L" n="57"/>secundus intellectus quem vocat commen. vltimam
+      perfe<lb ed="#L" n="58" break="no"/>ctionem intellectus est respectum vniversalium. ergo illa 
+      <lb ed="#L" n="59"/>primo intelligitur
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e298">
+      ⁋ Idem videtur dicere commen. lix. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e302">
+               <lb ed="#L" n="60"/>⁋ Item. iii. de anima. commen. v. Intellectus
+      materi<lb ed="#L" n="61" break="no"/>lis differt a materia prima in hoc quod iste est in pi 
+      <lb ed="#L" n="62"/>tentia omns intellectiones formarum vniversalium.
+      Pri<lb ed="#L" n="63" break="no"/>ma autem materia est in potentia omns iste forme 
+      <lb ed="#L" n="64"/>sensibiles. Et sequitur. Causa autem propter quam iste 
+      <lb ed="#L" n="65"/>intellectus est distinguens et cognoscens. primi 
+      <lb ed="#L" n="66"/>autem materia neque distinguens neque cognoscens 
+      <lb ed="#L" n="67"/>qui materia prima recipit formas diuersas scilicet in 
+      <lb ed="#L" n="68"/>diuiduales. intellectus autem recipit formas vniversales 
+      <lb ed="#L" n="69"/>ergo ex ista auctoritate patet quod intellectus non recipit 
+      <lb ed="#L" n="70"/>a materia formam indiuidualem sicut materia facit 
+      <lb ed="#L" n="71"/>qui tunc non esset distinguens neque cognoscens. 
+      <lb ed="#L" n="72"/>Item consemene. ix. Intellectus comphendit formam 
+      <lb ed="#L" n="73"/>per se et comprhendit indiuiduum mediante sensu. 
+      <lb ed="#L" n="74"/>ergo indiuiduum non est primum apprehensum ab in 
+      <lb ed="#L" n="75"/>tellectu.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e339">
+      ⁋ Istem comme. commen. x. dicit quod in ment 
+      <lb ed="#L" n="76"/>est proportio quae estintentionis ad intentionem. scilicet in 
+      <lb ed="#L" n="77"/>diuidualis ad vniversalem. sicut proportio virtutis com 
+      <lb ed="#L" n="78"/>prehendentis alteram illarum ad virtutem
+      comphen<lb ed="#L" n="79" break="no"/>dentem alteram. ergo sicut intellectus non est sensus 
+      <lb ed="#L" n="80"/>nec econuerso. ita intentio comphensa ab
+      intel<lb ed="#L" n="81" break="no"/>ctu non est intentio comprhensa a sensu nec
+      ecom<lb ed="#L" n="82" break="no"/>uerso.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e357">
+      ⁋ Istem philosophus subidem. et Commen videntur pone 
+      <lb ed="#L" n="83"/>re quod indiuduum non intelligitur nisi per lineam
+      sphe<lb ed="#L" n="84" break="no"/>rale: vel reflexam. Item consemene. xxxvi. quidditas
+      in<lb ed="#L" n="85" break="no"/>tellecti non est quidditas indiuidui singularis. nec 
+      <lb ed="#L" n="86"/>spiritualis nec corporalis.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e368">
+      ⁋ Preterea philosophus. iii de anima 
+      <lb ed="#L" n="87"/>omnia quae sunt quodammodo est anima. aut enim que sunt 
+      <lb ed="#L" n="88"/>sunt sensibilia aut intelligibilia. est autem scientia 
+      <lb ed="#L" n="89"/>quodammodo sensibilia sensus autem sensibilia. sed 
+      <lb ed="#L" n="90"/>si intellectus intelligeret singularia primo. iti 
+      <lb ed="#L" n="91"/>esset sensibilia sicut intelligibilia.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e381">
+      ⁋ Istem consequentea. 
+      <lb ed="#L" n="92"/>Si res essent separate sicut posuit plato non in 
+      <lb ed="#L" n="93"/>digeremus intellectu agente. ergo si singularia in 
+      <lb ed="#L" n="94"/>telligeremus non indigeremus intellectu agente 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e390">
+               <lb ed="#L" n="95"/>⁋ Item prius ordine nature est color quam haec color 
+      <lb ed="#L" n="96"/>licet in rerum existentia color non possit seprari a colore 
+      <lb ed="#L" n="97"/>singulari. ergo prius ordine nature similitudo hu 
+      <lb ed="#L" n="98"/>ius coloris repraesentat colorem quam hunc colorem. ergo 
+      <lb ed="#L" n="99"/>prius intelligitur.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e404">
+      ⁋ Contra conclusionem principalem istius 
+      <lb ed="#L" n="100"/>opinionis argutum est prius et maxime contra primum 
+      <lb ed="#L" n="101"/>modum dicendi cum ipsi ponant quod nihil est in rerum 
+      <lb ed="#L" n="102"/>natura extra animam nisi singulare.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e413">
+      ⁋ Preterea ratio 
+      <lb ed="#L" n="103"/>sua non valet. quia non plus intellectus intelligit 
+      <lb ed="#L" n="104"/>abstrahendo speciem intelligibilem a materia. quam ab 
+      <lb ed="#L" n="105"/>strahendo speciem intelligibilem a forma extra. quia 
+      <lb ed="#L" n="106"/>ita repugnat intellectui recipere aliquid tali modo 
+      <lb ed="#L" n="107"/>quo est forma sicut repugnat sibi recipere aliquid 
+      <lb ed="#L" n="108"/>materialiter.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e429">
+      ⁋ Preterea quero de illo abstracto 
+      <lb ed="#L" n="109"/>quando intellectus debet intelligere terram vel
+      asinum<lb ed="#L" n="110" break="no"/>aut est aliqua vera res extra animam aut tantum ens 
+      <!--262.xml-->
+      <pb ed="#L" n="130-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in anima. Si sit vera res extra animam. sic est il 
+      <lb ed="#L" n="2"/>la terra vel illa. ergo est vere singulare. et per 
+      <lb ed="#L" n="3"/>consequens vere singulare intelligitur. Si sit tantum ens in 
+      <lb ed="#L" n="4"/>anima. aut ergo praecedit actum intelligendi. aut non 
+      <lb ed="#L" n="5"/>si non. ergo non est primum intellectum quod iste negat. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e453">
+               <lb ed="#L" n="6"/>⁋ Si dicatur quod illud abstractum est aliquid
+      repraesnta<lb ed="#L" n="7" break="no"/>tum per speciem intelligibilem praecedente actum intel 
+      <lb ed="#L" n="8"/>ligendi.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e462">
+      ⁋ Contra. isto modo posset dici quod per
+      spe<lb ed="#L" n="9" break="no"/>ciem sensibilem haberetur vniversale. Probo. quia si per specie 
+      <lb ed="#L" n="10"/>intelligibilem repraentaretur aliquid vniversale. aut hoc est. quia 
+      <lb ed="#L" n="11"/>illa species est similitudo praecise ipsorum singularium inter 
+      <lb ed="#L" n="12"/>se similium. aut quia est aliquid aliud a parte rei cuius 
+      <lb ed="#L" n="13"/>illa species est primo similitudo.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e475">
+      ⁋ Si dicatur primo modo. 
+      <lb ed="#L" n="14"/>sic ipsa species sensibilis est similitudo omnium singula 
+      <lb ed="#L" n="15"/>rium. et per consequens ita poterit repraesentare vniversale sicut species 
+      <lb ed="#L" n="16"/>intelligibilis. Secundum non potest dari. quia nihil secundum 
+      <lb ed="#L" n="17"/>eum est a parte rei nisi singulare.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e487">
+      ⁋ Si dicatur 
+      <lb ed="#L" n="18"/>quod species sensibilis est praecise similitudo vnius
+      singula<lb ed="#L" n="19" break="no"/>ris et non alterius. non sic species intelligibilis.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e494">
+      ⁋
+      Con<lb ed="#L" n="20" break="no"/>tra. quandocunque aliqua sunt similima. quicqud assimila 
+      <lb ed="#L" n="21"/>tur vni illorum equaliter assimilatur alteri. sed alique 
+      <lb ed="#L" n="22"/>albedines possunt esse vel sunt simillime. ergo 
+      <lb ed="#L" n="23"/>species sensibilis equaliter assimilatur vni et alteri. et 
+      <lb ed="#L" n="24"/>ita erit vna similitudo vnius sicut alterius. Pre 
+      <lb ed="#L" n="25"/>terea. quod dicit quod illud quod abstrahitur a
+      mate<lb ed="#L" n="26" break="no"/>ria indiuiduali est vniuersale. quero quam ab 
+      <lb ed="#L" n="27"/>stractionem intelligit. aut scilicet intelligendo vnum 
+      <lb ed="#L" n="28"/>non intelligendo aliud. aut intelligendo vnum
+      co<lb ed="#L" n="29" break="no"/>mune ad multa. Si primo modo. sic est
+      manife<lb ed="#L" n="30" break="no"/>ste fltum. quia hec albedo singularissima abstrahi 
+      <lb ed="#L" n="31"/>tur a materia indiuiduali. quia hec albedo intelli 
+      <lb ed="#L" n="32"/>gitur non intellecta materia.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e525">
+      ⁋ Simimiliter sensus 
+      <lb ed="#L" n="33"/>isto modo abstrahit a materia. quia sentit hanc 
+      <lb ed="#L" n="34"/>albedinem non sentiendo materiam. ergo sentiret 
+      <lb ed="#L" n="35"/>et abstraheret vniuersale. Si secundo modo et 
+      <lb ed="#L" n="36"/>abstractum tali modo est vniuersale et per se
+      com<lb ed="#L" n="37" break="no"/>mune ad illa a quibus abstrahitur. sequitur quod 
+      <lb ed="#L" n="38"/>nihil intelligit nisi vnum comune ad omns mate 
+      <lb ed="#L" n="39"/>rias. et ita vniuersale ad aliquas formas vel ad  
+      <lb ed="#L" n="40"/>aliqua composita non intelligeret vel saltem non 
+      <lb ed="#L" n="41"/>primo. sed tantum per quandam reflexionem.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e547">
+      ⁋ Preterea. 
+      <lb ed="#L" n="42"/>quod dicit quod intellectus praecise cognoscit singulare 
+      <lb ed="#L" n="43"/>per quandam reflexionem. Contra. aut habet actum 
+      <lb ed="#L" n="44"/>distinctum ab actu quo intelligit ipsum
+      vniuersa<lb ed="#L" n="45" break="no"/>le. aut non. si non. Contra. actus quo intelligit 
+      <lb ed="#L" n="46"/>vniuersale precedit actum quo intelligit singula 
+      <lb ed="#L" n="47"/>re. per te. ergo est alius. Si sic. quero a quo
+      cau<lb ed="#L" n="48" break="no"/>satur. aut precise a fantasmate. vel aliquo in parte 
+      <lb ed="#L" n="49"/>sensitiua vel a specie intelligibili. vel ab actu 
+      <lb ed="#L" n="50"/>auo intelligitur vniversale. Si primo modo. et positum cau 
+      <lb ed="#L" n="51"/>sis sufficientibus potest poni effectus. ergo
+      circumscri<lb ed="#L" n="52" break="no"/>bendo intellectione vniversalis posset poni cognito 
+      <lb ed="#L" n="53"/>singularis. et ita non repugnaret intellectui quin 
+      <lb ed="#L" n="54"/>notitia singularis esset prima. Si detur secundum et 
+      <lb ed="#L" n="55"/>aibil causat nisi quando est. ita quod semper causa et 
+      <!--262.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 130-r -->
+               <lb ed="#L" n="56"/>effectus pro aliquo instanti sunt simul. ergo simul 
+      <lb ed="#L" n="57"/>essent iste due intentiones: quod alibi negat
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e591">
+      ⁋
+      Con<lb ed="#L" n="58" break="no"/>tra secundum modum ponendi primo. quia tunc sequeretur quod 
+      <lb ed="#L" n="59"/>etiam singulare sentitur per lineam reflexam. quia primo
+      pri<lb ed="#L" n="60" break="no"/>tenditur quedam linea recta: a sensibili ad speciem 
+      <lb ed="#L" n="61"/>sensibile. quasi ab a in b. et postea immutatur sensus 
+      <lb ed="#L" n="62"/>ad cognoscendum singulare. et reflectitur quasi a 
+      <lb ed="#L" n="63"/>b in a. et ita tales reflexiones nihil valent ni 
+      <lb ed="#L" n="64"/>si idem esset bis cognitum.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e609">
+      ⁋ Preterea. hoc repugnat 
+      <lb ed="#L" n="65"/>dictis propriis. quia quando dicit quod a singulari in
+      fan<lb ed="#L" n="66" break="no"/>tasmate abstrahitur vniversale. et deinde immutatur intelle 
+      <lb ed="#L" n="67"/>ctus ad actum intelligendi. postea reflectitur intel 
+      <lb ed="#L" n="68"/>ligendo vniversale illud. quaero aut quando abstrahitur vniversale a sin 
+      <lb ed="#L" n="69"/>gulari in fantasmate est aliqua immutatio a parte 
+      <lb ed="#L" n="70"/>sensus vel intellectus. vel nulla. si nulla. ergo non 
+      <lb ed="#L" n="71"/>lus modo abstrahitur quam prius. et ita nulla est ibi ta 
+      <lb ed="#L" n="72"/>lis linea recta. cum linea numquam sit sine
+      distinctio<lb ed="#L" n="73" break="no"/>ne partium et punctorum secundum eum. Aut si sit aliqua
+      muta<lb ed="#L" n="74" break="no"/>tio. et non a parte sensus. quia tunc vniversale esset in sensu et 
+      <lb ed="#L" n="75"/>in parte sensitiua. Similiter quero ad quam formam est 
+      <lb ed="#L" n="76"/>talis mutatio in parte sensitiua. et patet inductiue 
+      <lb ed="#L" n="77"/>quod nulla potest dari. Si autem sit aliqua mutatio a
+      par<lb ed="#L" n="78" break="no"/>te intellectus et non ad actum intelligendi. quia ponis 
+      <lb ed="#L" n="79"/>quod ista mutatio sequitur nec per consequens ad habitum. er 
+      <lb ed="#L" n="80"/>ad aliquid preuium vtrique et illud vocatur species. ergo 
+      <lb ed="#L" n="81"/>vere habens ponere speciem intelligibilem preuiam 
+      <lb ed="#L" n="82"/>actui quod tum negas.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e652">
+      ⁋ Preterea. quod dicis quod postqua 
+      <lb ed="#L" n="83"/>intellectus immutatus est ad actum intelligendi ab 
+      <lb ed="#L" n="84"/>vniversali existente in fantasmate. actu suo intelligendi 
+      <lb ed="#L" n="85"/>terminato in illud vniversale vt in obiectum. protrahitur 
+      <lb ed="#L" n="86"/>quasi quadam linea reflexa. a c in b. Ex isto sequitur 
+      <lb ed="#L" n="87"/>quod vniversale nunquam intelligitur nisi per reflexionem. quia mum quam 
+      <lb ed="#L" n="88"/>intelligitur vniversale nisi quando sic terminatur actus intel 
+      <lb ed="#L" n="89"/>ligendi in illud sicut in obiectum. sed parte quando sic ter 
+      <lb ed="#L" n="90"/>minatur actus intelligendi in vniversale sicut in obiectum 
+      <lb ed="#L" n="91"/>est quedam linea reflexa. ergo nunquam intelligitur vniversale 
+      <lb ed="#L" n="92"/>nisi per lineam reflexam. quod negatur.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e676">
+      ⁋ Ideo dico aliter 
+      <lb ed="#L" n="93"/>ad questionem. Et primo quod singulare intelligitur. 
+      <lb ed="#L" n="94"/>Secundo quod prima notitia singularis est intuitiua. 
+      <lb ed="#L" n="95"/>Tertio quod singulare primo intelligitur
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e685">
+      ⁋ Primum 
+      <lb ed="#L" n="96"/>patet. quia si singulare non posset intelligi. aut hoc esst 
+      <lb ed="#L" n="97"/>ratione perfectionis intellectus. aut imperfectionis. Noit 
+      <lb ed="#L" n="98"/>ratione imperfectionis. quia sensus est imperfectior intel 
+      <lb ed="#L" n="99"/>lectu et tamen apprehendit singulare.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e696">
+      ⁋ Nec ratione perfe 
+      <lb ed="#L" n="100"/>ctionis. quia si sic. aut hoc esset. quia non potest
+      intelli<lb ed="#L" n="101" break="no"/>gere aliquid ita imperfectum sicut est singulare mi 
+      <lb ed="#L" n="102"/>teriale. aut quia non potest immutari ab aliquo
+      mate<lb ed="#L" n="103" break="no"/>riali. aut quia nihil recipit materialiter. Primum non 
+      <lb ed="#L" n="104"/>impedit. quia vniversale abstractum a materialibus non est
+      per<lb ed="#L" n="105" break="no"/>fectius ipso singulari. Nec secundum impedit. quia ab
+      eo<lb ed="#L" n="106" break="no"/>dem potest poni immutari ad cognitionem singularis 
+      <lb ed="#L" n="107"/>sicut ad cognitionem vniversalis. si enim immutetur praecise 
+      <lb ed="#L" n="108"/>ab intellectu agente ad cognitionem vniversalis. ita potest 
+      <lb ed="#L" n="109"/>equae faciliter poni quod immutatur praecise ab intellectu 
+      <lb ed="#L" n="110"/>agente ad cognitionem singularis. et si potest determi¬ 
+      <!--263.xml-->
+      <pb ed="#L" n="130-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>siari per speciem intelligibilem vel per fantasma ad
+      in<lb ed="#L" n="2" break="no"/>telligendum determinate hoc vniversale et non aliud. ita 
+      <lb ed="#L" n="3"/>potest poni determinari per speciem intelligibilem 
+      <lb ed="#L" n="4"/>et per fantasma ad intelligendum hoc singlare et 
+      <lb ed="#L" n="5"/>non illud. sicut etiam post intellectionem vniuersaliter 
+      <lb ed="#L" n="6"/>dererminatur ad intelligendum hoc ingulare et non 
+      <lb ed="#L" n="7"/>aliud. cum tamen ipsa cognitio illius vniuersalis 
+      <lb ed="#L" n="8"/>equaliter respiciat omnia singularia. Nec tertium 
+      <lb ed="#L" n="9"/>impedit. tum quia non plus repugnat huic singulari 
+      <lb ed="#L" n="10"/>immaterialiter recipi in intellectu quam vniuersali 
+      <lb ed="#L" n="11"/>Tum quia cognitio singularis sequens post
+      cogni<lb ed="#L" n="12" break="no"/>tionem vniversalis recipitur immaterialiter. ergo non repugnat 
+      <lb ed="#L" n="13"/>ibi primo recipi immaterialiter.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e757">
+      ⁋ Confirmatur. quia 
+      <lb ed="#L" n="14"/>vniversale recipitur immaterialiter. quia species intelligibilis 
+      <lb ed="#L" n="15"/>vel cognitio per quam recipitur est immaterialis. quia 
+      <lb ed="#L" n="16"/>nihil est realiter in intellectu nisi species
+      intelligi<lb ed="#L" n="17" break="no"/>bilis. vel actus intelligendi vel habitus secundum istos. et 
+      <lb ed="#L" n="18"/>secundum communiter loquentes. ergo nihil recipitur in 
+      <lb ed="#L" n="19"/>intellectu nisi quia aliquod istorum quod est aliquo 
+      <lb ed="#L" n="20"/>modo repraesentatiuum illius recipitur. sicut obiectum 
+      <lb ed="#L" n="21"/>dicitur recipi in intellectu. quia actus intelligendi quot 
+      <lb ed="#L" n="22"/>est illius obiecti dicitur recipi in intellectu. et per 
+      <lb ed="#L" n="23"/>consequens non recipitur immaterialiter in intellectu.
+      nisi<lb ed="#L" n="24" break="no"/>qui aliquod illorum est immateriale. sed ipsa
+      cogni<lb ed="#L" n="25" break="no"/>tio singularis ita poterit esse immaterialis. sicut 
+      <lb ed="#L" n="26"/>cognitio vniversalis. ergo propter hoc non repugnat sibi peri 
+      <lb ed="#L" n="27"/>mo recipi vel cognosci ab intellectu.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e790">
+      ⁋ Confir 
+      <lb ed="#L" n="28"/>matur secundo quia non plus repugnat singulari
+      ma<lb ed="#L" n="29" break="no"/>teriali immaterialiter recipi quam vniversali recipi
+      singula<lb ed="#L" n="30" break="no"/>riter. sed vniversale recipitur singuiariter in intellectu 
+      <lb ed="#L" n="31"/>qui intellectio sua et etiam species intelligibilis per 
+      <lb ed="#L" n="32"/>quam recipitur est simpliciter singularis
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e804">
+      ⁋ Preterea anima 
+      <lb ed="#L" n="33"/>separata potest intelligere singulare. ergo eadem 
+      <lb ed="#L" n="34"/>ratione coniuncta
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e811">
+      ⁋ Secudum probo. quia notitia
+      singu<lb ed="#L" n="35" break="no"/>laris aliqua potest esse intuitiua. quia aliter nuila 
+      <lb ed="#L" n="36"/>veritas contingens posset euidenter cognosci ab
+      in<lb ed="#L" n="37" break="no"/>tellectu. sed notitia intuitiua rei non est
+      poste<lb ed="#L" n="38" break="no"/>tior notitia abstractiua. ergo notitia intuitiua rei 
+      <lb ed="#L" n="39"/>ingularis est simpliciter prima.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e824">
+      ⁋ Tertium probo quod
+      no<lb ed="#L" n="40" break="no"/>titia singularis sensibilis est simpliciter prima in
+      intel<lb ed="#L" n="41" break="no"/>lectu pro statu isto. ita quod illud idem singulare quod 
+      <lb ed="#L" n="42"/>primo sentitur a sensu. illud idem et sub eadem ratione 
+      <lb ed="#L" n="43"/>primo intelligitur intuitiue ab intellectu. quia de 
+      <lb ed="#L" n="44"/>ratione potentiarum ordinatarum est quod quicqud et sub 
+      <lb ed="#L" n="45"/>eadem ratione potest potentia inferior potest et
+      su<lb ed="#L" n="46" break="no"/>perior. patet quia idem subeadem ratione est sensatum 
+      <lb ed="#L" n="47"/>sensu particulari et ymaginatum sensu interiori 
+      <lb ed="#L" n="48"/>Similiter idem sub eadem ratione est cognitum a
+      sen<lb ed="#L" n="49" break="no"/>su et appetitum a potentia appetitiua ita quod idem 
+      <lb ed="#L" n="50"/>sub eadem ratione est cognitum ab intellectu et voli 
+      <lb ed="#L" n="51"/>tum a voluntate. ergo illud idem quod est primo sen 
+      <lb ed="#L" n="52"/>satum a sensu erit intellectum ab intellectu. et sub 
+      <lb ed="#L" n="53"/>oadem ratione
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e857">
+      ⁋ Si dicitur quod virtus superior potest in 
+      <lb ed="#L" n="54"/>illud in quod potest virtus inferior sed emine 
+      <lb ed="#L" n="55"/>tiori modo. quia illud quod cognoscit sensus ma 
+      <!--263.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 130-v -->
+               <lb ed="#L" n="56"/>terialiter et concrete. quod est cognoscere singula 
+      <lb ed="#L" n="57"/>re directe. hoc cognoscit inteliectus
+      immateria<lb ed="#L" n="58" break="no"/>liter et in abstracto. quod est cognoscere vniversale
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e877">
+      ⁋
+      Con<lb ed="#L" n="59" break="no"/>tra. quando cognitum a potentia iuperiori est simplicit 
+      <lb ed="#L" n="60"/>imperfectius cognito a potentia inferiori. tunc
+      su<lb ed="#L" n="61" break="no"/>perior potentia non cognoscit modo eminentiori 
+      <lb ed="#L" n="62"/>illud quod cognoscitur a potentia inferiori. sed vniversali 
+      <lb ed="#L" n="63"/>est simplicit imperfectius et posterius ipso singi 
+      <lb ed="#L" n="64"/>lari. ergo intellectus non cognoscit obiectum
+      sen<lb ed="#L" n="65" break="no"/>sus modo eminentiori.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e895">
+      ⁋ Preterea. sensus non tantum co 
+      <lb ed="#L" n="66"/>gnoscit album quod est concretum. sed albedinem. quod secundum 
+      <lb ed="#L" n="67"/>philosophum secundo de anima. color est per se visibilis. ergo 
+      <lb ed="#L" n="68"/>si cognoscere aliquid in abstracto est
+      cognosce<lb ed="#L" n="69" break="no"/>re vniversale. sensus cognosceret vniversale.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e907">
+      ⁋ Preterea. cogno 
+      <lb ed="#L" n="70"/>scere hanc albedinem que significatur nomine
+      abitra<lb ed="#L" n="71" break="no"/>cto. non est plus cognoscere vniversale: quam cognoscere 
+      <lb ed="#L" n="72"/>hoc album quod signiricatur in nomine concreto. Et ideo il 
+      <lb ed="#L" n="73"/>le est absurdus et fatuus modus loquendi.
+      dice<lb ed="#L" n="74" break="no"/>re quod cognoscere aliquid concrete est cognoscere 
+      <lb ed="#L" n="75"/>singulare. et cognoscere in abstracto est
+      cogno<lb ed="#L" n="76" break="no"/>scere vniversale. quia concretum et abstractum sunt coditiones 
+      <lb ed="#L" n="77"/>et proprietates vocum vel signorum. vel forte conce 
+      <lb ed="#L" n="78"/>ptuum. quorum cognitio non pertinet ad multos ser 
+      <lb ed="#L" n="79"/>sus particulares. nisi valde per accidens et non ad 
+      <lb ed="#L" n="80"/>omnes. et tamen omnes habent cognoscere singularia 
+      <lb ed="#L" n="81"/>Et ideo iste non est intelligibilis modus
+      loquen<lb ed="#L" n="82" break="no"/>di. cognoscere aliquid vt significatur nomine concreto 
+      <lb ed="#L" n="83"/>et cognoscere idem vt significatur nomine abstracto. 
+      <lb ed="#L" n="84"/>niii intelligendo quod contingit aliquid significari 
+      <lb ed="#L" n="85"/>vtroque nomine. et hoc praecise pertinet ad intellectum 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e944">
+               <lb ed="#L" n="86"/>⁋ Preterea. probatum est prius quod non repugnat
+      sin<lb ed="#L" n="87" break="no"/>gulari intelligi immaterialiter. quia non est impossibile 
+      <lb ed="#L" n="88"/>quod cognitio illius singularis sit immaterialis
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e953">
+      ⁋ Et 
+      <lb ed="#L" n="89"/>hoc confirmatur. quia sicut materia indiuidualis
+      re<lb ed="#L" n="90" break="no"/>pugnat intellectui. ita materia vniversalis quae est communis 
+      <lb ed="#L" n="91"/>ad materias indiuiduales istorum generabilium 
+      <lb ed="#L" n="92"/>et corruptibilium repugnat intellectui. ergo repu 
+      <lb ed="#L" n="93"/>gnat intellectui cognoscere materialiter quocumque 
+      <lb ed="#L" n="94"/>istorum modorum. ergo qua ratione singulare
+      materia<lb ed="#L" n="95" break="no"/>le non potest primo cognosci ab intelleciu. nec vniversale 
+      <lb ed="#L" n="96"/>materiale quod est commune ad materialia singuiaria 
+      <lb ed="#L" n="97"/>poterit primo cognosci ab intellectu.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e975">
+      ⁋ Ad primu 
+      <lb ed="#L" n="98"/>argumentum alterius opinionis dico quod
+      argumen<lb ed="#L" n="99" break="no"/>tum est contra opinionem omnium. quia probat quod vniversale prius 
+      <lb ed="#L" n="100"/>sentitur quam singulare. quia sicut pueri primo
+      appel<lb ed="#L" n="101" break="no"/>lant omnes viros patres et postea determinant vnum 
+      <lb ed="#L" n="102"/>quodque. ita videmus experimentaliter. quod agnus
+      vi<lb ed="#L" n="103" break="no"/>dens ouem sequitur omnem ouem tanquam matrem. et postea 
+      <lb ed="#L" n="104"/>discernit hanc ouem ab illa. et sequitur hanc determi 
+      <lb ed="#L" n="105"/>natam. ergo quae ratione puer propter hoc cognosceret vniversale 
+      <lb ed="#L" n="106"/>ante singulare. eadem ratione agnus primo cognosceret 
+      <lb ed="#L" n="107"/>vniversale quam singulare
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e999">
+      ⁋ Preterea. pueri vt communiter prio 
+      <lb ed="#L" n="108"/>appellant omnes viros patres. et sic omnes feminas 
+      <lb ed="#L" n="109"/>matres. posterius autem determinant vnumquoque
+      ho<lb ed="#L" n="110" break="no"/>rum. etiam anteque habeant vsum rationis. et per consequens anteque 
+      <!--264.xml-->
+      <pb ed="#L" n="131-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>habeant notitiam intellectualem. ergo tantum faciunt
+      ta<lb ed="#L" n="2" break="no"/>lia per notitiam sensitiuam. ergo notitia sensitiua primo 
+      <lb ed="#L" n="3"/>esset vniversalis
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1021">
+      ⁋ Similiter idem experimentum est de furi 
+      <lb ed="#L" n="4"/>osis et fatuis et aliis carentibus vsu rationis. quod
+      eo<lb ed="#L" n="5" break="no"/>dem modo procedunt in tali cognitione sicut pueri 
+      <lb ed="#L" n="6"/>et tamen non cognoscunt vniversale. Similiter idem patet de
+      ha<lb ed="#L" n="7" break="no"/>bentibus notitiam intellectualem tam vniuersalis 
+      <lb ed="#L" n="8"/>quam singularis. quia frequenter aliquis intelligens 
+      <lb ed="#L" n="9"/>hominem in communi. et post intelligendo hunc hominem 
+      <lb ed="#L" n="10"/>siue per reflexionem. siue alio modo non curo modo 
+      <lb ed="#L" n="11"/>vocat multos homines eodem nomine. posterius autem 
+      <lb ed="#L" n="12"/>determinat vnum ob ab alio. et tamen tunc cognoscit 
+      <lb ed="#L" n="13"/>singulare. ergo causa istius diuersitatis non est. quia 
+      <lb ed="#L" n="14"/>primo intelligit vniversale et postea singulare. sed aliqua 
+      <lb ed="#L" n="15"/>alia erit causa.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1051">
+      ⁋ Ideo dico quod primo intelligitur 
+      <lb ed="#L" n="16"/>singulare sicut primo sentitur singulare. tamen aliqua 
+      <lb ed="#L" n="17"/>cognitio singularis tam sensitiua quam intellectiua 
+      <lb ed="#L" n="18"/>siue partialiter siue totaliter est sufficies ad discernem 
+      <lb ed="#L" n="19"/>dum apphensum ab alio.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1062">
+      ⁋ Et aliqua non est
+      suffi<lb ed="#L" n="20" break="no"/>ciens ad disernendum. nisi forte a paucis. et
+      ali<lb ed="#L" n="21" break="no"/>quando vna res potest discerni a paucioribus et alia 
+      <lb ed="#L" n="22"/>a pluribus. Uerbi gratia. Agnus per notitiam sensi 
+      <lb ed="#L" n="23"/>tiuam discernit ouem a lupo et a boue et asino. 
+      <lb ed="#L" n="24"/>et tamen non discernit hanc ouem ab illa. Similiter aliquando 
+      <lb ed="#L" n="25"/>statim discernit ouem albam a nigra. et tamen vnam 
+      <lb ed="#L" n="26"/>ouem albam non discernit ab alia oue alba. et tam 
+      <lb ed="#L" n="27"/>dem vltimo discernit matrem ab omni alia. Sminia 
+      <lb ed="#L" n="28"/>illa nobis innotescunt per effectus. quia videmus quod 
+      <lb ed="#L" n="29"/>agnus primo sequitur omnem ouem et non bouem nec 
+      <lb ed="#L" n="30"/>asinum. postea quod sequitur omnem ouem talis vel talis
+      con<lb ed="#L" n="31" break="no"/>loris. postea quod sequitur ouem hanc determinatam. 
+      <lb ed="#L" n="32"/>hoc autem non contigeret nisi variaretur ipsius
+      cogni<lb ed="#L" n="33" break="no"/>tio sensitiua. cum cognitio sensitiua sit principium 
+      <lb ed="#L" n="34"/>motus progressiui in talibus. Et ratio huius est. quia 
+      <lb ed="#L" n="35"/>potentia apphensiua creata non potest discernere 
+      <lb ed="#L" n="36"/>vnam ab alia. nisi propter aliquam dissimilitudinem ali 
+      <lb ed="#L" n="37"/>quorum dissimilium apprehensorum. siue sit
+      dissimili<lb ed="#L" n="38" break="no"/>tudo in qualitatibus siue in figuris. siue in situ in 
+      <lb ed="#L" n="39"/>ter aliqua talia inter quae est talis dissimilitudo. Et 
+      <lb ed="#L" n="40"/>ideo quia non statim cognoscit distincte omnia talia 
+      <lb ed="#L" n="41"/>non potest statim discernere vnum ab alio. Similiter 
+      <lb ed="#L" n="42"/>quamuis aliquando habeat distinctam notitiam de vno 
+      <lb ed="#L" n="43"/>singulari. tamen de alio singulari quo debet primum 
+      <lb ed="#L" n="44"/>singulare discernere non habet distinctam notitiam 
+      <lb ed="#L" n="45"/>et ideo poterit esse tanta similitudo multis inter 
+      <lb ed="#L" n="46"/>illa quod notitia distincta vnius et notitia confusa. 
+      <lb ed="#L" n="47"/>alterius non est sufficiens ad discernendum vnum 
+      <lb ed="#L" n="48"/>singulare ab alio. et tamen semper cognoscitur
+      singula<lb ed="#L" n="49" break="no"/>re. Qualiter autem notitia ista differt a notitia ap 
+      <lb ed="#L" n="50"/>prehensiua. vel an sit eadem simpliciter alias patebit 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1132">
+               <lb ed="#L" n="51"/>⁋ Si dicatur quod hoc est contrsi processum philosophid st phpi. quae
+      di<lb ed="#L" n="52" break="no"/>cit quod nobis manifestissima sunt et certa confusa 
+      <lb ed="#L" n="53"/>magis.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1141">
+      ⁋ Secundo dicit quod ex vniversalibus in singulare 
+      <lb ed="#L" n="54"/>oportet deuenire. Similiter ad hoc videtur esse ratio 
+      <lb ed="#L" n="55"/>sua. Uidetur enim sic arguere. sicut totum se habet 
+      <!--264.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 131-r -->
+               <lb ed="#L" n="56"/>ad sensum. ita vniversale est quoddam totum se habens ad  
+      <lb ed="#L" n="57"/>intellectum. sed totum est notius secundum sensum. ergo vniversale 
+      <lb ed="#L" n="58"/>secundum intellectum. Similiter commem. consemene. x. dicit quod oportet 
+      <lb ed="#L" n="59"/>nos procedere de rebus vniversalibus ad particulares 
+      <lb ed="#L" n="60"/>Similiter ibidem. necesse est vt vniversale intelligibil vniversaliter 
+      <lb ed="#L" n="61"/>sit notius particulari quod est sub illo.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1167">
+      ⁋ Ad ista 
+      <lb ed="#L" n="62"/>dico quod equiuocatio est de communibus. et similiter est 
+      <lb ed="#L" n="63"/>equiuocatio de notitia magis vniversalis.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1174">
+      ⁋ Unde dico 
+      <lb ed="#L" n="64"/>quod comuneest duplex. Quoddam est commune per praedicatio ¬ 
+      <lb ed="#L" n="65"/>nem essentialem. quia scilicet de pluribus predicatur in 
+      <lb ed="#L" n="66"/>quid et per se primo modo quam aliud. et isto modo animal est 
+      <lb ed="#L" n="67"/>communius quod homo. et corpus quam animal. Aliud est com 
+      <lb ed="#L" n="68"/>munius non per praedicationem in quid et per se primo 
+      <lb ed="#L" n="69"/>modo. sed per praedicationem denominatiua et quasi 
+      <lb ed="#L" n="70"/>per se secundo modo. et isto modo motus localis est 
+      <lb ed="#L" n="71"/>quid communius quam color vel coloratum. quia in pluribus 
+      <lb ed="#L" n="72"/>inuenitur motus localis quam color. quia omne
+      colora<lb ed="#L" n="73" break="no"/>tum potest moueri localiter. et non omne mobile
+      loca<lb ed="#L" n="74" break="no"/>liter est coloratum Sic etiam potest dici quod lucidum 
+      <lb ed="#L" n="75"/>est communius quam coloratum. quia in pluribus inuenitur. 
+      <lb ed="#L" n="76"/>Similiter equiuocatio est de notitia vniversalioris. quialque 
+      <lb ed="#L" n="77"/>dam est notitia complexa et quedam incomplexa. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1208">
+               <lb ed="#L" n="78"/>⁋ Similiter aliquod incomplexum esse prius notum alio. 
+      <lb ed="#L" n="79"/>potest intelligi dupliciter. vel quia hoc potest esse prius 
+      <lb ed="#L" n="80"/>notum. quia est potentia propinqua ad notitiam alteri 
+      <lb ed="#L" n="81"/>us. vel quia necessario est notum ante notitiam alte 
+      <lb ed="#L" n="82"/>rius. ita quod sequatur. aliquid est notum. ergo hoc es 
+      <lb ed="#L" n="83"/>notum et non ecouerso.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1224">
+      ⁋ Per hoc respondendo ad
+      ar<lb ed="#L" n="84" break="no"/>gumenta dico quod intentio philosophi et commen. ibidem est 
+      <lb ed="#L" n="85"/>dare ordinem libri phi. ad alios libros naturales 
+      <lb ed="#L" n="86"/>qui scilicet illa complexa de quibus tractatur in libro phi 
+      <lb ed="#L" n="87"/>sicorum sunt de vniversalibus vel primo modo vel secundo 
+      <lb ed="#L" n="88"/>modo. et talia vniversalia sunt prius nota. quamuis sint ali 
+      <lb ed="#L" n="89"/>qua propria. et hoc loquendo de prius noto primo modo 
+      <lb ed="#L" n="90"/>et ideo vt in pluribus et communitati hominium sunt
+      faci<lb ed="#L" n="91" break="no"/>lius nota. et ideo quia in tradendo scientiam aliquam. 
+      <lb ed="#L" n="92"/>procedendum est eo ordine quo communitas
+      audi<lb ed="#L" n="93" break="no"/>torum facilius et melius potest eam addiscere. Ideo. 
+      <lb ed="#L" n="94"/>in scientia naturali incipiendum est ordine doctrine 
+      <lb ed="#L" n="95"/>ab vniversalioribus tam primo modo quam secundo quamuis ali 
+      <lb ed="#L" n="96"/>quibus vel forte multis aliqua particularia sunt 
+      <lb ed="#L" n="97"/>faciliora et notiora quam magis vniversalia. Uerbi gratia. 
+      <lb ed="#L" n="98"/>quicumque potest apprehendere aliquid sensibile
+      po<lb ed="#L" n="99" break="no"/>test habere aliquam notitiam de motu. quia
+      con<lb ed="#L" n="100" break="no"/>gnitio cuiuscumque sensibilis sufficit ad notitiam 
+      <lb ed="#L" n="101"/>motus. Similiter cognitio albediins et nigredinis 
+      <lb ed="#L" n="102"/>sufficit ad notitiam coloris. vniversaliter quaecumque due species 
+      <lb ed="#L" n="103"/>coloris sufficiunt ad notitiam coloris. et ita quaecumque 
+      <lb ed="#L" n="104"/>apprehendit aliquas duas species coloris est in
+      poten<lb ed="#L" n="105" break="no"/>tia propinqua ad habendum notitiam de colore. et 
+      <lb ed="#L" n="106"/>tamen a multis potest haberi notitia coloris. sine 
+      <lb ed="#L" n="107"/>potentia propinqua ad notitiam istarum specierum 
+      <lb ed="#L" n="108"/>determinatarum vel illarum. sicut patet in aliis. quia 
+      <lb ed="#L" n="109"/>omnes homines habent notitiam de animali et de proprie 
+      <lb ed="#L" n="110"/>tatibus animali communibus. et tamen de multis 
+      <!--265.xml-->
+      <pb ed="#L" n="131-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>animalibus non habent potentiam propinquam vt co 
+      <lb ed="#L" n="2"/>gnoscant ea. Sicut homines in vna praecise regione 
+      <lb ed="#L" n="3"/>morantes nullam notitiam scientificam possunt habere 
+      <lb ed="#L" n="4"/>de animalibus que praecise inueniuntur in alia regione 
+      <lb ed="#L" n="5"/>et ita est de aliis in alia regione respectu anima 
+      <lb ed="#L" n="6"/>ium que praecise inueniuntur in ista regione. et illa 
+      <lb ed="#L" n="7"/>communitas hominium potest habere notitiam proprie 
+      <lb ed="#L" n="8"/>tatum animalis. et tamen nullus vel cum maxima
+      dif<lb ed="#L" n="9" break="no"/>ficultate potest habere notitiam propriam de multi 
+      <lb ed="#L" n="10"/>animalibus speciealibus. er tamen vnus homo vel plures 
+      <lb ed="#L" n="11"/>ita faciliter possunt scire proprietates alicuius speciei 
+      <lb ed="#L" n="12"/>animalis. cuius indiuidua et actus eorum tota die vident 
+      <lb ed="#L" n="13"/>sicut possunt habere notitiam de aniali et de suis
+      com<lb ed="#L" n="14" break="no"/>munibus proprietatibus. Patet enim quod homo ita 
+      <lb ed="#L" n="15"/>potest habere notitiam alicuius determinati
+      ani<lb ed="#L" n="16" break="no"/>malis quantum ad multa sibi propria. sicut quantum ad  
+      <lb ed="#L" n="17"/>communia animali. et ideo scientia ista quae est de
+      vniuer<lb ed="#L" n="18" break="no"/>salibus siue vno modo siue alio. quantum ad multa 
+      <lb ed="#L" n="19"/>est facilior communitati quam scientia specialium. et tamen vtraque 
+      <lb ed="#L" n="20"/>notitia incipit a notitia singularium. sed notitia 
+      <lb ed="#L" n="21"/>vniuersalium in diuersis hominibus incipit a
+      noti<lb ed="#L" n="22" break="no"/>tia diuersorum singularium. sicut studentium in ale 
+      <lb ed="#L" n="23"/>mania. notitia vniuersalium incipit a notitia sin 
+      <lb ed="#L" n="24"/>gularium que ibi inueniuntur. et forte multa eorum 
+      <lb ed="#L" n="25"/>non inueniuntur in italia. et econuerso est de
+      studen<lb ed="#L" n="26" break="no"/>te in italia vel francia. et sic de aliis regionibus 
+      <lb ed="#L" n="27"/>sed notitia de homine vel de asino oportet quod incipiat 
+      <lb ed="#L" n="28"/>a notitia singularium speciei humane vel asimine. 
+      <lb ed="#L" n="29"/>et multi possunt attingere ad notitiam
+      scienti<lb ed="#L" n="30" break="no"/>ficam proprietatum animalis qui non possunt attingere 
+      <lb ed="#L" n="31"/>ad notitiam proprietatum specialium leonis vel
+      vrsi<lb ed="#L" n="32" break="no"/>et sic de aliis. Et ideo ordine doctrine quantum ad  
+      <lb ed="#L" n="33"/>communitatem homnim prius incipiendum est a notitia 
+      <lb ed="#L" n="34"/>animalis et suarum proprietatum. quam a notitia leonis 
+      <lb ed="#L" n="35"/>vel vrsi. et sic de aliis. et tamen in quolibet homine
+      no<lb ed="#L" n="36" break="no"/>titia cuiuscumque vniversalis praesupponit notitiam alicuius 
+      <lb ed="#L" n="37"/>singulatis vel aliquorum singularium. sed in diuer 
+      <lb ed="#L" n="38"/>sis hominibus aliquando non precedunt notitie eorundem 
+      <lb ed="#L" n="39"/>singularium sed diuersorum. quamuis vniversale principium
+      sci<lb ed="#L" n="40" break="no"/>tum sit idem. Et hec est intentio Commen. comen. v. 
+      <lb ed="#L" n="41"/>primi phi. vbi dicit sic. Indiuiduum compositum licet 
+      <lb ed="#L" n="42"/>non sit principium in doctrina demonstratiua. tamen 
+      <lb ed="#L" n="43"/>est principium acquisitionis vniversalis quod est principium 
+      <lb ed="#L" n="44"/>doctrine demonstratiue. quia complexum de singulari 
+      <lb ed="#L" n="45"/>non est principium demonstrandi. et tamen sine illo non pos 
+      <lb ed="#L" n="46"/>set haberi demonstratio. et ita semper notitia
+      sin<lb ed="#L" n="47" break="no"/>gularis praesupponitur quamuis notitia diuersorum in 
+      <lb ed="#L" n="48"/>diuersis. Dico ergo ad primam auctoritatem quod sicut patet 
+      <lb ed="#L" n="49"/>per Commen. per consusa intelligit composita et hoc siue 
+      <lb ed="#L" n="50"/>sint composita proprie ex partibus essentialibus 
+      <lb ed="#L" n="51"/>realiter distinctis facientibus vnum. siue sint com 
+      <lb ed="#L" n="52"/>posita illo modo quo diffinitum ex partibus dis 
+      <lb ed="#L" n="53"/>sinientibus siue illo modo quo vniversale componitur ex 
+      <lb ed="#L" n="54"/>sunis contentis. quos tres modos compositionis ponit 
+      <lb ed="#L" n="55"/>commnen. consequene. v. quamuis tamen primus modus compositio 
+      <!--265.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 131-v -->
+               <lb ed="#L" n="56"/>nis sit proprie compositio. et duo alii sunt modi 
+      <lb ed="#L" n="57"/>compositonis tantum metaphorice loquendo. et de
+      tali<lb ed="#L" n="58" break="no"/>bus confusis dico quod sunt notiora et certa magis 
+      <lb ed="#L" n="59"/>primo modo loquendo de notiore et hoc loquendo 
+      <lb ed="#L" n="60"/>vel de notitia complexa vel incomplexa. non tamen oportet 
+      <lb ed="#L" n="61"/>quod sint notiora secundo modo quia possibile est quod prima 
+      <lb ed="#L" n="62"/>apprehensio etiam sensitiua sit distincta respectu 
+      <lb ed="#L" n="63"/>partium distincte et non tantum respectu totius confuse 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1435">
+               <lb ed="#L" n="64"/>⁋ Ad secundam auctoritate dico quod similiter oportet ex vniversalibus in 
+      <lb ed="#L" n="65"/>singularia prouenire. quia vniversalia facilius cognoscuntur 
+      <lb ed="#L" n="66"/>modo exposito. et hoc dupliciter. quia facilius cogno 
+      <lb ed="#L" n="67"/>scuntur proprietates vniversales de vniversalibus. quam eedem proprie 
+      <lb ed="#L" n="68"/>tates vniversales de contentis sub illis vniversalibus. Similiter 
+      <lb ed="#L" n="69"/>facilius cognoscuntur proprietates vniversales de vniversalibus 
+      <lb ed="#L" n="70"/>quam proprietates proprie de contentis. et hoc modo ex 
+      <lb ed="#L" n="71"/>posito. et frequenter notitia proprietatum vniversalium de 
+      <lb ed="#L" n="72"/>vniversalibus. iuuat ad notitiam proprietatum de contentis 
+      <lb ed="#L" n="73"/>sub illis vniversalibus.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1459">
+      ⁋ Ad tertiam auctoritate dico per idem 
+      <lb ed="#L" n="74"/>quod sicut totum secundum sensum est notius. quia pauciora 
+      <lb ed="#L" n="75"/>sufficiunt ad notitiam totius vt totum discernatur ab 
+      <lb ed="#L" n="76"/>alio toto. quam ad discernendum vnam partem vnius 
+      <lb ed="#L" n="77"/>ab alia. sicut aliquando minor propinquatas sufficit. et 
+      <lb ed="#L" n="78"/>sic est de quibusdam aliis. ita est de vniversalioribus quod 
+      <lb ed="#L" n="79"/>multa sunt quae diuisim sufficiunt ad notitiam vniversalioris 
+      <lb ed="#L" n="80"/>et tamen non sufficiunt. vel nulla vel aliqua ad notitiam 
+      <lb ed="#L" n="81"/>minus vniversalis.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1479">
+      ⁋ Per praedicta respondeo ad omnes aucto 
+      <lb ed="#L" n="82"/>ritates consequense. quod intelligit quod vniversalia a communitate
+      faci<lb ed="#L" n="83" break="no"/>lius cognoscuntur.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1486">
+      ⁋ Ad secundum dico quod vniversale est
+      no<lb ed="#L" n="84" break="no"/>tius secundum rationem. quia sola ratio potest apprehendere vniversale et 
+      <lb ed="#L" n="85"/>nullo modo sensus. sed singulare est notius apud  
+      <lb ed="#L" n="86"/>sensum. quia singulare prius cognoscitur a sensu quam 
+      <lb ed="#L" n="87"/>ab intellectu et hoc intelligendo de singulari
+      sen<lb ed="#L" n="88" break="no"/>sibili. quia secus est de singulari praecise intelligibium 
+      <lb ed="#L" n="89"/>li de quo dictum est in prima quaone prologi.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1503">
+      ⁋ Per 
+      <lb ed="#L" n="90"/>idem ad aliud concedo quod vniversale est comprehesibil est ab 
+      <lb ed="#L" n="91"/>intellectu et singulare a sensu. et cum hoc stat quod 
+      <lb ed="#L" n="92"/>non tantum vniversale sit comphensibile ab intellectu. sed et 
+      <lb ed="#L" n="93"/>singulare.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1514">
+      ⁋ Propter quod aduertendum quod philosophus et 
+      <lb ed="#L" n="94"/>consequenie. frequenter dicunt quod sensus est particularium. 
+      <lb ed="#L" n="95"/>et intellectus vniversalium. vt innuant differentia inter sensum 
+      <lb ed="#L" n="96"/>et intellectum. Nunc autem ita est quod ita contingit ar 
+      <lb ed="#L" n="97"/>guere intellectum differre a sensu. si sensus sit pri 
+      <lb ed="#L" n="98"/>cise apphensiuus singularium et intellectus sit apprer 
+      <lb ed="#L" n="99"/>hensiuus et singularium et vniversalium. sicut si
+      intelle<lb ed="#L" n="100" break="no"/>ctus esset praecise apphensiuus vniversalium et non singu 
+      <lb ed="#L" n="101"/>larium. sicut sensus est singularium non vniversalium. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1534">
+               <lb ed="#L" n="102"/>⁋ Ad aliud dico quod cognitio vniversalis debet praecedere 
+      <lb ed="#L" n="103"/>propriam propter causam iam dictam.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1541">
+      ⁋ Ad aliud dico quod 
+      <lb ed="#L" n="104"/> Commetator intelligit de vltima perfectione
+      in<lb ed="#L" n="105" break="no"/>tellectus que est notitia complexa et verum est quod 
+      <lb ed="#L" n="106"/>illa non est immediate a motore extrinseco. sed  
+      <lb ed="#L" n="107"/>est immediate a motore intrinseco. quia ad istam 
+      <lb ed="#L" n="108"/>notitiam causandam concurrunt praecise immediate 
+      <lb ed="#L" n="109"/>notitia incomplexa terminorum. vel formatio pro 
+      <lb ed="#L" n="110"/>positionis. vel habitus intelligibilis acquisitus 
+      <!--266.xml-->
+      <pb ed="#L" n="132-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et actibus praecedentibus que omnia sunt intrinseca. 
+      <lb ed="#L" n="2"/>vel etiam potest concurrere notitia alicuius
+      comple<lb ed="#L" n="3" break="no"/>ti que etiam erit in intellectu. Unde dicit consmen. 
+      <lb ed="#L" n="4"/>ibidem causam esse istius depositionis in nobis. in 
+      <lb ed="#L" n="5"/>scientia sensibilium est eadem causa in esse solum in sen 
+      <lb ed="#L" n="6"/>sibilibus ipsis. Et similiter est intelligendum quod dispo 
+      <lb ed="#L" n="7"/>sitio existens in nobis in scientia vniuersalium est in 
+      <lb ed="#L" n="8"/>nobis. quia est in virtute rationali.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1583">
+      ⁋ Ex qua
+      auctori<lb ed="#L" n="9" break="no"/>tate patet quod intelligit de scientia quae est notitia
+      con<lb ed="#L" n="10" break="no"/>plexa. vel si intelligat tam de perfectione complexa 
+      <lb ed="#L" n="11"/>quam incomplexa. patet quod non intelligit vniversaliter de omni 
+      <lb ed="#L" n="12"/>notitia inconplexa. sed tantum de illa quae potest habe 
+      <lb ed="#L" n="13"/>ri in abidentia intelligibilis. quandocunque scilicet placet 
+      <lb ed="#L" n="14"/>voluntati. Unde dicit ibi. mouentia virtute rationa 
+      <lb ed="#L" n="15"/>nalem sunt intra animam et habita a nobis semper 
+      <lb ed="#L" n="16"/>in actu. ideo homo in eis potest intelligere cum 
+      <lb ed="#L" n="17"/>voluerit. et ita patet quod non intelligit de notitia 
+      <lb ed="#L" n="18"/>intuitiua singularis. quia illam non potest habere cum 
+      <lb ed="#L" n="19"/>voluerit. sed requiritur existentia rei quae debet cognosci. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1609">
+               <lb ed="#L" n="20"/>⁋ Et si dicatur quod ipse intelligit quod solum intentiones 
+      <lb ed="#L" n="21"/>vniuersales possunt mouere intellectum. et per 
+      <lb ed="#L" n="22"/>consequens iste sole primo intelliguntur. quia 
+      <lb ed="#L" n="23"/>dicit sic. intellectus mouetur ad vltimam perfectio 
+      <lb ed="#L" n="24"/>nem a rebus vniversalibus et illa sunt in anima. Respon 
+      <lb ed="#L" n="25"/>sio quod per vniversalia intelligit habitus de vniversalibus. quae mo 
+      <lb ed="#L" n="26"/>uent ad vltimam perfectionem ad notitiam
+      scientifi<lb ed="#L" n="27" break="no"/>cam que est de solis vniversalibus. que notitie. incom 
+      <lb ed="#L" n="28"/>plexe mouent intellectum ad scientiam propositionum vni 
+      <lb ed="#L" n="29"/>uersalium. Nec est ista intentio extorta. sed satis 
+      <lb ed="#L" n="30"/>posset probari per philosophum et consmen. in diuersis locis. quia 
+      <lb ed="#L" n="31"/>satis videtur esse de intentione eorum quod nihil reale est 
+      <lb ed="#L" n="32"/>in anima. nisi vel habitus. vel actus. vel passio 
+      <lb ed="#L" n="33"/>vel si secundum aliquos ponatur species. non plus poterit 
+      <lb ed="#L" n="34"/>species dici vniversalis quam actus vel habitus. ergo sicut dicit 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1645">
+               <lb ed="#L" n="35"/>⁋ Commen. vniversale est in anima et mouet et nihil mo 
+      <lb ed="#L" n="36"/>uet nisi reale. oportet quod illud vniversale quod hic nominatisit 
+      <lb ed="#L" n="37"/>actus vel habitus. passio vel species si ponatur 
+      <lb ed="#L" n="38"/>species. et eque bene poterit dici quod habitus sit vniversale 
+      <lb ed="#L" n="39"/>sicut quod species et sic intelligit Commen. commen. lix 
+      <lb ed="#L" n="40"/>vbi dicit quod mouens scientem de prima perfectione in 
+      <lb ed="#L" n="41"/>secundam. est aliquid compulatum cum anima compulatio. 
+      <lb ed="#L" n="42"/>ne in esse. Ex quo patet quod illud quod mouet animam 
+      <lb ed="#L" n="43"/>ad actum secundum est aliquid reale existens in anima et 
+      <lb ed="#L" n="44"/>sicut patet in eodem commen. ipse intelligit de actu 
+      <lb ed="#L" n="45"/>secundo qui est notitia scientifica. ad quam mouet 
+      <lb ed="#L" n="46"/>ipse habitus. et tamen postea dicit. quod illa quae mouent 
+      <lb ed="#L" n="47"/>vniversalia sunt. ergo non est inconuenies dicere quod iste 
+      <lb ed="#L" n="48"/>per vniversalia intelligit habitus intellectuales. et ita 
+      <lb ed="#L" n="49"/>etiam per vniversalia potest intelligere quosdam actus quorum 
+      <lb ed="#L" n="50"/>vtrique possunt dici vniversales. quia sunt respecium obiectorum 
+      <lb ed="#L" n="51"/>vniversalium. Ad aliud dico quod Commen. per formas in 
+      <lb ed="#L" n="52"/>diuiduales intelligit formas eiusdem rationis cum 
+      <lb ed="#L" n="53"/>formis existentibus in ipsis sensibilibus. et ideo ma 
+      <lb ed="#L" n="54"/>teria. quia recipit tales formas non est
+      distinguens<lb ed="#L" n="55" break="no"/>neque cognoscens. et ideo non potest recipere formas 
+      <!--266.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 132-r -->
+               <lb ed="#L" n="56"/>vniversales. nec subiectiue et proprie. nec improprie et ob 
+      <lb ed="#L" n="57"/>iectiue. Si dicatur secundum Comme. consemtenem. vi. quod virtus 
+      <lb ed="#L" n="58"/>rationalis distinguit intentiones vniversales non
+      indiuidu<lb ed="#L" n="59" break="no"/>ales. Dico quod hoc est intelligendum praecise quia non
+      distin<lb ed="#L" n="60" break="no"/>guunt intellectiones vniversales praecise sed et vniversales et
+      indindu<lb ed="#L" n="61" break="no"/>ales.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1712">
+      ⁋ Ad aliud dico quod intentio Commen.
+      ibiden<lb ed="#L" n="62" break="no"/>non est dicere quo intellectus intelligit
+      singula<lb ed="#L" n="63" break="no"/>re et vniuersale diuersimode. sed quomodo
+      in<lb ed="#L" n="64" break="no"/>tellectus diuersimode intelligit indiuiduum et 
+      <lb ed="#L" n="65"/>formam substantialem indiuidui. Unde dicit ibidem 
+      <lb ed="#L" n="66"/>hoc indiuiduum est aliquid et intentio per quam hoc 
+      <lb ed="#L" n="67"/>indiuiduum est ens scilicet quidditas et forma eius est 
+      <lb ed="#L" n="68"/>aliud. Et sequitur. quod hoc accidit in omnibus composi 
+      <lb ed="#L" n="69"/>tis ex materia et forma. sed non in omnibus ad 
+      <lb ed="#L" n="70"/>excipiendum res absiractas et vniversaliter res simplices 
+      <lb ed="#L" n="71"/>et non compositas. sed nunc est ita quod in rebus sim 
+      <lb ed="#L" n="72"/>plicibus inuenitur singulare et vniversale. et magis commune 
+      <lb ed="#L" n="73"/>et minus commune. sicut patet in mathematicis. de 
+      <lb ed="#L" n="74"/>quibus intelligit Commen. et in aliis actibus et 
+      <lb ed="#L" n="75"/>substantiis simplicibus. ergo patet quod intentionis 
+      <lb ed="#L" n="76"/>sue est dicere quomodo diuersimode intellectus 
+      <lb ed="#L" n="77"/>intelligit indiuiduum compositum ex materia et 
+      <lb ed="#L" n="78"/>forma. et ipsam formam que est pars sua. et ita est
+      sin<lb ed="#L" n="79" break="no"/>gularis sicut ipsum indiuiduum. Ideo dico quod intentio 
+      <lb ed="#L" n="80"/>philosophi. et Commen. est loqui de duobus obiectis ap 
+      <lb ed="#L" n="81"/>prehensibilibus ab eadem potentia. quorum vnum
+      re<lb ed="#L" n="82" break="no"/>gulariter potest perfecte apprehendi ab illa poten 
+      <lb ed="#L" n="83"/>tia. et aliud non potest etiam sufficienter approxima 
+      <lb ed="#L" n="84"/>to. quantum est ex parte sua. nisi aliud concurrat 
+      <lb ed="#L" n="85"/>praeter ista quae sunt sufficientia ad primam
+      apphensio<lb ed="#L" n="86" break="no"/>nem alterius obiecti. vel apphensio vnius ne 
+      <lb ed="#L" n="87"/>cessario praesupponit apprehensionem alterius. quod 
+      <lb ed="#L" n="88"/>nec est pars sua. nec econuerso. Exemplum primi est 
+      <lb ed="#L" n="89"/>de sensu communi qui potest in diuersa obiecta
+      diuer<lb ed="#L" n="90" break="no"/>sorum sensuum particularium. et tamen potest aliquando in 
+      <lb ed="#L" n="91"/>vnum obiectum vnius sensus et non in aliud propter 
+      <lb ed="#L" n="92"/>defectum alterius sensus. et ideo oportet neccessario 
+      <lb ed="#L" n="93"/>quod sensus communis feratur in illa obiecta per
+      di<lb ed="#L" n="94" break="no"/>uersas potentias. ita quod diuersas virtutes dicat 
+      <lb ed="#L" n="95"/>adiuersas potentias. vel quod feratur in ea per diuersas 
+      <lb ed="#L" n="96"/>dispones. Et hoc potest intelligi dupliciter. vel quod 
+      <lb ed="#L" n="97"/>illa diuersa dispositio sit diuersus. actus
+      cogno<lb ed="#L" n="98" break="no"/>scendi. ita quod habeat diuersos actus cognoscendi. 
+      <lb ed="#L" n="99"/>respectu illorum a diuersis causatos. vel quod illa 
+      <lb ed="#L" n="100"/>diuersa dispositio sit aliquid aliud praeter obiectum 
+      <lb ed="#L" n="101"/>cognoscendum et potentiam cognoscendam.
+      Uerbi<lb ed="#L" n="102" break="no"/>gratia. sensus communis cognoscedo vnum obiectum 
+      <lb ed="#L" n="103"/>non est sufficiens ad cognoscendum aliud obiectum 
+      <lb ed="#L" n="104"/>etiam quantumcumque aliud obiectum sit in se sufficiens 
+      <lb ed="#L" n="105"/>et approximatum omni approximatone requisita 
+      <lb ed="#L" n="106"/>a parte obiecti. Sed praeter ista requiritur actus 
+      <lb ed="#L" n="107"/>cognoscendi sensus particularis. qui nec est obie 
+      <lb ed="#L" n="108"/>ctum nec potentia cognoscens que habet
+      cogno<lb ed="#L" n="109" break="no"/>scere alietatem istorum obiectorum. et tunc quando dicit 
+      <lb ed="#L" n="110"/>commem. quod cognoscit aliqua virtute vel per dispo¬ 
+      <!--267.xml-->
+      <pb ed="#L" n="132-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sitionem diuersam. lvper non dicit circumstantiam 
+      <lb ed="#L" n="2"/>alicuius informantis illam potentiam vel alicuius 
+      <lb ed="#L" n="3"/>existentis in ea. sed magis dicit circumstantiam 
+      <lb ed="#L" n="4"/>cause extrinsece. Et ita dicit Comme. quod dispo 
+      <lb ed="#L" n="5"/>sitio diuersa est per quam intelligit. quemadmodum 
+      <lb ed="#L" n="6"/>sensus communis aprehedit alietatem inter sensibilia 
+      <lb ed="#L" n="7"/>per disponem diuersam scilicet per sensus particulares. hoc 
+      <lb ed="#L" n="8"/>est per actus cognoscendi iporum sensuum
+      particula<lb ed="#L" n="9" break="no"/>rium. qui sunt vere cause efficientes actus illiur 
+      <lb ed="#L" n="10"/>sensus communis. per istam propositionem omne absolutum
+      ne<lb ed="#L" n="11" break="no"/>cessario requisitum ad esse alicuius habet rationem 
+      <lb ed="#L" n="12"/>cause respectu illius in aliquo genere cause. vel est 
+      <lb ed="#L" n="13"/>causa cause. Et de ista diuersa dispone
+      intelli<lb ed="#L" n="14" break="no"/>git Comme. et philosophus. et non de prima. nisi quando
+      praesup<lb ed="#L" n="15" break="no"/>ponit istam secundam. Exemplum secundi est de
+      vniuer<lb ed="#L" n="16" break="no"/>sali et singulari sensibili. quia sicut frequenter dictum 
+      <lb ed="#L" n="17"/>est. nec vniversale est de essentia singularis nec econuer 
+      <lb ed="#L" n="18"/>so. et tamen vniversale non potest intelligi nisi presupposita 
+      <lb ed="#L" n="19"/>cognitione singularis sensitiua. et ideo intelligit 
+      <lb ed="#L" n="20"/>vniversale et singulare et alietatem inter illa per aliam
+      virtu<lb ed="#L" n="21" break="no"/>tem vel disponem diuersam. et illa dispositio
+      di<lb ed="#L" n="22" break="no"/>uersa est sensus et actus cognoscendi sensus per 
+      <lb ed="#L" n="23"/>quem intelligit singulare sensibile et per seipsum 
+      <lb ed="#L" n="24"/>intelligit vniversale. et eodem modo est de indiuiduo et 
+      <lb ed="#L" n="25"/>de forma quae est pars eius substantialis. quia forma 
+      <lb ed="#L" n="26"/>substantialis nullo modo potest cognosci. nisi praesumposi 
+      <lb ed="#L" n="27"/>ta notitia singularis. quod tamen indiuiduum non est 
+      <lb ed="#L" n="28"/>pars forme. ideo necesse est quod intellectus compr 
+      <lb ed="#L" n="29"/>hendat ista. vel per diuersas virtutes. vel per dispon 
+      <lb ed="#L" n="30"/>sitionem diuersam. et illa dispositio diuersa erit: 
+      <lb ed="#L" n="31"/>actus sentiendi. per quem tanquam per causam
+      respicien<lb ed="#L" n="32" break="no"/>tem illud idem pro obiecto intellectus intelligit ipsum 
+      <lb ed="#L" n="33"/>indiuiduum. et postea per seipsum nullo alio actu co 
+      <lb ed="#L" n="34"/>gnoscendi respectu illius forme concurrente
+      cogno<lb ed="#L" n="35" break="no"/>scit ipsam formam. Et hoc expresse innuit commem. 
+      <lb ed="#L" n="36"/>dicens sic. Cum determinatum suerit quod entia sen 
+      <lb ed="#L" n="37"/>sibilia diuiduntur in duplex esse. scilicet in hoc
+      singula<lb ed="#L" n="38" break="no"/>re et in suam formam. necesse est vt virtus
+      experi<lb ed="#L" n="39" break="no"/>mentatiua s comphensiua comprehendat ea. aut 
+      <lb ed="#L" n="40"/>per duas virtutes aut per vnam. sed duabus disponnibus 
+      <lb ed="#L" n="41"/>diuersis. Cum duabus autem virtutibus erit cum com 
+      <lb ed="#L" n="42"/>prehenderit vtrumque istorum per se scilicet formam singula 
+      <lb ed="#L" n="43"/>rem et indiuiduum singulare per vnam vero virtutem 
+      <lb ed="#L" n="44"/>et dispositionem diuersam erit. quando
+      compraehende<lb ed="#L" n="45" break="no"/>rit alietatem que est inter has duas intentiones. 
+      <lb ed="#L" n="46"/>Et sequitur. Comprehendit enim semper intellectus 
+      <lb ed="#L" n="47"/>formam per se. et comprehendit indiuiduum mediante 
+      <lb ed="#L" n="48"/>sensu. ergo per illam disponnem diuersam intelligit 
+      <lb ed="#L" n="49"/>ipsum actum sentiendi. per quam tanquam per causam efficietem 
+      <lb ed="#L" n="50"/>intelligit ipsum indiuiduum et hoc est intelligendi 
+      <lb ed="#L" n="51"/>de prima apphensione ipsius indiuidui sensibilis 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1938">
+               <lb ed="#L" n="52"/>⁋ Si dicatur quod hec auctoritatas est ad oppositum. primo 
+      <lb ed="#L" n="53"/>qui dicit quod sensibile diuiditur in duplex esse. scilice 
+      <lb ed="#L" n="54"/>in singulare et suam formam. sed nihil diuiditur in seipsum 
+      <lb ed="#L" n="55"/>ergo per singulare et suam formam non intelligit totum in 
+      <lb ed="#L" n="56"/>diuiduum et suam partem. sed intelligit vniversale et ingula 
+      <!--267.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 132-v -->
+            </p>
+            <p xml:id="wo8uy7-d1e501-d1e1958">
+               <lb ed="#L" n="57"/>⁋ Preterea dicit quod quando comprehendit vtrumque istorum 
+      <lb ed="#L" n="58"/>per se. tunc comprehendit ea duabus virtutibus. sed
+      cer<lb ed="#L" n="59" break="no"/>tum est quod comprehendit formam per intellectum. ergo quando con 
+      <lb ed="#L" n="60"/>prehendit per seipsum singulare comprehendit ipsum pre 
+      <lb ed="#L" n="61"/>cise per sensum. et per consequens non comprehendit singulare 
+      <lb ed="#L" n="62"/>ante vniversale vel ante formam. sed iste videtur esse processus 
+      <lb ed="#L" n="63"/>quod primo anima comprhendit singulare per sensum. et 
+      <lb ed="#L" n="64"/>postea vniversale per intellectum et deinde comphendit per 
+      <lb ed="#L" n="65"/>intellectum alietatem inter singulare et suam formam 
+      <lb ed="#L" n="66"/>vel vniversale. Unde dicit consequene. necesse est vt anima compr 
+      <lb ed="#L" n="67"/>hendat has duas intentiones per virtutem diuersam 
+      <lb ed="#L" n="68"/>et comprhendit alietatem esse per vnicam virtutem. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e1987">
+               <lb ed="#L" n="69"/>⁋ Ad primum istorum dico quod ista sensibilia non proprie 
+      <lb ed="#L" n="70"/>diuiduntur in tale duplex esse. sed intelligit quod entia 
+      <lb ed="#L" n="71"/>sensibilia sunt quedam singularia et non tantum sunt 
+      <lb ed="#L" n="72"/>singularia sed etiam habent formam substantialem et accidentia 
+      <lb ed="#L" n="73"/>sensibilia per se. per que intelligit ipsam materiam. 
+      <lb ed="#L" n="74"/>vel potius per indiuiduum et per materiam intelligit 
+      <lb ed="#L" n="75"/>consequentie. et etiam philosophus ipsamet accidentia sensibilia. et 
+      <lb ed="#L" n="76"/>tunc intelligendum est quod entia intelligibilia quae sunt 
+      <lb ed="#L" n="77"/>vere indiuidua et singularia in genere substantiaehabent ad 
+      <lb ed="#L" n="78"/>cidentia per se sensibilia. propter quae ipsa subiecta
+      di<lb ed="#L" n="79" break="no"/>cuntur sentiri. saltem per accidens et habent formas substam 
+      <lb ed="#L" n="80"/>tiales et ille forme substantiales non possunt cognosci
+      nisi<lb ed="#L" n="81" break="no"/>praesupposita notitia sensibilis inquantum sensibile 
+      <lb ed="#L" n="82"/>est. et tamen neutrum est pars alterius. nec 
+      <lb ed="#L" n="83"/>essentiale alteri. Et ideo necesse est quod anima 
+      <lb ed="#L" n="84"/>comprehendat has duas intentiones. vel per 
+      <lb ed="#L" n="85"/>duas virtutes vel per dispositionem diuersam 
+      <lb ed="#L" n="86"/>modo exposito. Et quod ista sit eorum intentio videtur sa 
+      <lb ed="#L" n="87"/>tis euidens. quia nisi loquantur de perse sensibili
+      ni<lb ed="#L" n="88" break="no"/>hil valet ad propositum eorum loqui de sensu. Similiter 
+      <lb ed="#L" n="89"/>ipsa materia substantialis non plus est sensibilis quam for 
+      <lb ed="#L" n="90"/>ma substantialis. ergo non cognoscitur sensu. nec fac ad  
+      <lb ed="#L" n="91"/>notitiam forme. sed magis econuerso. Similiter hoc dicit 
+      <lb ed="#L" n="92"/>philosophus. quia dicit quod sensitiuo calidum et frigidum
+      iudi<lb ed="#L" n="93" break="no"/>cat super anima. quorum ratio quidem est caro. ergo
+      intel<lb ed="#L" n="94" break="no"/>ligit de per se sensibilibus.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2046">
+      ⁋ Si dicatur quod philosophus vult 
+      <lb ed="#L" n="95"/>quod illa forma quam iudicat intellectus est hoc in hoc. 
+      <lb ed="#L" n="96"/>ergo per illa duo opposita obiecta. quorum
+      alie<lb ed="#L" n="97" break="no"/>tas debet apprehendi ab intellectu intelligit
+      sor<lb ed="#L" n="98" break="no"/>mam et illud in quo est forma. sed forma non est in 
+      <lb ed="#L" n="99"/>accidentibus sed in materia substantiali.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2060">
+      ⁋
+      Respon<lb ed="#L" n="100" break="no"/>deo quod loquitur de forma substantiali quae vere est in 
+      <lb ed="#L" n="101"/>materia substantiali. sed praeter illam materiam sunt
+      acciden<lb ed="#L" n="102" break="no"/>tia per se sensibilia a sensu. quorum cognitio
+      praesup<lb ed="#L" n="103" break="no"/>ponitur cognitioni ipsius forme substantialis. et inter illa 
+      <lb ed="#L" n="104"/>primo iudicat intellectus alietatem. Et si diceretur 
+      <lb ed="#L" n="105"/>quod omnia accidentia sensibilia sunt in forma sicut in 
+      <lb ed="#L" n="106"/>subiecto primo. tunc propter hec per materiam
+      intellige<lb ed="#L" n="107" break="no"/>ret ipsa accidentia ipsius materie quae sunt per se
+      sen<lb ed="#L" n="108" break="no"/>sibilia.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2082">
+      ⁋ Ad secundum dico quod commen. intelligit de
+      pri<lb ed="#L" n="109" break="no"/>mis cognitionibus ipsorum sensibilium et ipsius
+      for<lb ed="#L" n="110" break="no"/>me. quia quando anima primo comprehendit sensibile singula 
+      <lb ed="#L" n="111"/>re. comprehendit illud per sensum et postea
+      comprehen<lb ed="#L" n="112" break="no"/>dit formam per intellectum. Sed quando comprehendit alie 
+      <!--268.xml-->
+      <pb ed="#L" n="133-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tatem. tunc necessario iudicat per vnam virtutem. quia 
+      <lb ed="#L" n="2"/>sola vna virtus est iudicatiua illius alietatis. quia 
+      <lb ed="#L" n="3"/>sola vna virtus comprehendit vtrumque extremum
+      illiu<lb ed="#L" n="4" break="no"/>alietatis. scilicet intellectus et non sensus. et ideo non est 
+      <lb ed="#L" n="5"/>talis processus. quod primo singulare sentitur. et postea 
+      <lb ed="#L" n="6"/>intelligitur forma. et tertio iudicatur alietas esse in 
+      <lb ed="#L" n="7"/>ter illa. quia omnis virtus cognitiua alietatis inter
+      ali<lb ed="#L" n="8" break="no"/>qua. ita praesupponit notitiam vnius sicut alterius. 
+      <lb ed="#L" n="9"/>et ita est cognitiua vnius sicut alterius. ergo si
+      in<lb ed="#L" n="10" break="no"/>tellectus non iudicaret alietatem inter sensibile. et 
+      <lb ed="#L" n="11"/>formam nisi praesupposita notitia forme. oportet quod
+      eo<lb ed="#L" n="12" break="no"/>dem modo praesupponat notitiam ipsius singularis. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2126">
+               <lb ed="#L" n="13"/>⁋ Similit qua ratione intellectus posset iudicare il 
+      <lb ed="#L" n="14"/>lam alietatem inter vniversale et singulare. quia habet notitiam 
+      <lb ed="#L" n="15"/>forme. eadem ratione sensus posset iudicare illam alie 
+      <lb ed="#L" n="16"/>tatem. quia habet notitiam alterius extremi. quod est 
+      <lb ed="#L" n="17"/>manifeste falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2139">
+      ⁋ Est ergo iste processus quod
+      sen<lb ed="#L" n="18" break="no"/>sus primo sentit singulare sensibile. Secundo intel 
+      <lb ed="#L" n="19"/>lectus intelligit illud idem singulare sensibile. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2146">
+               <lb ed="#L" n="20"/>⁋ Tertio intellectus intelligit formam vel vniversale et 
+      <lb ed="#L" n="21"/>differentiam.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2153">
+      ⁋ Quarto iudicat inter illa. quia preco 
+      <lb ed="#L" n="22"/>gnouit vtruque. sensus autem: quia non precognoscit 
+      <lb ed="#L" n="23"/>vtrumque sed alterum tantum. ideo non iudicat illam alietatem. 
+      <lb ed="#L" n="24"/>Ad aliud principale dico quod proportio est quantum 
+      <lb ed="#L" n="25"/>ad aliqua. quia sicut sensus non est intellectus. nec 
+      <lb ed="#L" n="26"/>econuerso. ita intentio vniuersalis non est particu. 
+      <lb ed="#L" n="27"/>laris. nec econuerso in multis aliis est dissimile. 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2170">
+               <lb ed="#L" n="28"/>⁋ Ad aliud dico quod magis est intentio philosophi et
+      commen<lb ed="#L" n="29" break="no"/>quod vniversale intelligatur et similiter forma linea spherali vel 
+      <lb ed="#L" n="30"/>reflexa quam singulare. de philosopho patet. quia dicit sicut sensiti 
+      <lb ed="#L" n="31"/>uo ei calidum et frigidu iudicat super anima quorum rati 
+      <lb ed="#L" n="32"/>quedam est caro huiusmodi intelligit de cognitione sen 
+      <lb ed="#L" n="33"/>sibilis extra. in cuius materia est forma de
+      no<lb ed="#L" n="34" break="no"/>titia illius forme vel vniuersalis. alio autem aut 
+      <lb ed="#L" n="35"/>etiam abstractiue. aut sicut circumflexa se habi 
+      <lb ed="#L" n="36"/>ad seipsam. cum extensa fuerit carnis esse discernit 
+      <lb ed="#L" n="37"/>ergo vult quod quando iudicat vel discernit carnis esse lec 
+      <lb ed="#L" n="38"/>facit quasi linea circumflexa. Similiter de commentatore 
+      <lb ed="#L" n="39"/>hoc patet quai dicit. neccess est vt forma experimentetur per 
+      <lb ed="#L" n="40"/>aliam virtutem a specie a sensu. et hoc erit ex hac
+      vir<lb ed="#L" n="41" break="no"/>tute aut per disponem sphericalem linee et recte. scicie 
+      <lb ed="#L" n="42"/>cum intellexerit formam primam existentem in hac re
+      sin<lb ed="#L" n="43" break="no"/>gulari. aut disponem secundum similitudinem linee spheri 
+      <lb ed="#L" n="44"/>calis. scilicet quando fuerit reuersa. querendo intelligere 
+      <lb ed="#L" n="45"/>et quidditatem illius formare. Deinde quidditatem 
+      <lb ed="#L" n="46"/>illius quidditatis. et hoc erit cum inuenit quidditate 
+      <lb ed="#L" n="47"/>in quidditate. et non cessabit quousque perueniat ad 
+      <lb ed="#L" n="48"/>simplicem quidditatem in illa re. ergo patet manifeste quod 
+      <lb ed="#L" n="49"/>vult intellectum intelligere tali linea spherica 
+      <lb ed="#L" n="50"/>li. quando intelligit illud obiectum quod non est obiectum 
+      <lb ed="#L" n="51"/>sensus. Unde immediate ante illam auctoritatem dicit 
+      <lb ed="#L" n="52"/>determinatum est quod comprhensum virtuturs
+      yma<lb ed="#L" n="53" break="no"/>ginatiue et sensibilis idem est. Deinde dicit similiter philosophus 
+      <lb ed="#L" n="54"/>et experimentatur per aliud etc. Ex quo patet quod in litter 
+      <lb ed="#L" n="55"/>sequenti loquitur de obiecto intellectus quod non est 
+      <lb ed="#L" n="56"/>obiectum sensus. et illi attribuunt intelligi aliqua et 
+      <!--268.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 133-r -->
+               <lb ed="#L" n="57"/>linea sphericali. Ex ergo ista eorum intentio. quod
+      intel<lb ed="#L" n="58" break="no"/>lectus primo intelligit singulare scilicet illud idem quod 
+      <lb ed="#L" n="59"/>primo est sensatum a sensu dicente Commentatore co 
+      <lb ed="#L" n="60"/>mento. xxxix. intentio intellecta eadem est cum re quan 
+      <lb ed="#L" n="61"/>sensus comprehendit cum sensato. et sic intelligendum 
+      <lb ed="#L" n="62"/>est commune dictum Commentatoris et philosophi. quod sicut sensi 
+      <lb ed="#L" n="63"/>bilia ad sensum. sic fantasmata ad intellectum 
+      <lb ed="#L" n="64"/>vocans fantasmata sicut patebit in secundo ipsamet 
+      <lb ed="#L" n="65"/>singularia sensibilia fantasiata. et sic sensibilia 
+      <lb ed="#L" n="66"/>sunt primo apprehensa ab intellectu et habita ista 
+      <lb ed="#L" n="67"/>apprehensione rei singularis intellectus quasi linea 
+      <lb ed="#L" n="68"/>recta abstrahit et intelligit vnum conceptum communen 
+      <lb ed="#L" n="69"/>quidditatiuum. non quia sit de quidditate rei sed iudicat 
+      <lb ed="#L" n="70"/>quidditatem et est hic quasi linea recta. quia non aliquidem 
+      <lb ed="#L" n="71"/>bis intellectum. postea inuestigando inquirit an il 
+      <lb ed="#L" n="72"/>lud singulare sensibile. vel in quo est illud singu 
+      <lb ed="#L" n="73"/>lere sicut accidens in subiecto habeat aliquam forma 
+      <lb ed="#L" n="74"/>substantialem. et concludit quod sic. quasi linea reflexa quia iam illud 
+      <lb ed="#L" n="75"/>idem quod primo fuit cognitum. est modo secundo co 
+      <lb ed="#L" n="76"/>gnitum in ista notitia complexa. et ita quasi
+      intelle<lb ed="#L" n="77" break="no"/>ctus redit ad illud idem quod primo intellexerit. 
+      <lb ed="#L" n="78"/>postea adhuc inquirit intellectus an illa forma sit 
+      <lb ed="#L" n="79"/>simplex an composita. et si substantia composita adhuc inqua 
+      <lb ed="#L" n="80"/>rit de forma sua. et sic quinousque perueniat ad formam 
+      <lb ed="#L" n="81"/>simplicem et quidditatem simplice quia consemenem. in isto con 
+      <lb ed="#L" n="82"/>nento. et commento praecedente. per quidditatem. formam in 
+      <lb ed="#L" n="83"/>mam intelligit substantialem seu essentialem. quae est pars rei. es 
+      <lb ed="#L" n="84"/>haoc idem intelligit in. vii. meth. in diuersis commenter. 
+      <lb ed="#L" n="85"/>Uerbi gratia. Intectus intelligit primo hanc albedi 
+      <lb ed="#L" n="86"/>nem primo sensatam. et similiter hunc colorem. et sic de aliis 
+      <lb ed="#L" n="87"/>accidentibus hominis postea abstrahit multos
+      concoptus<lb ed="#L" n="88" break="no"/>sicut conceptum entis conceptum qualitatis et habet multos
+      con<lb ed="#L" n="89" break="no"/>ceptus connotatiuos. sicut dependere esse in alio sub 
+      <lb ed="#L" n="90"/>stare alii. et sic de aliis multis deinde incipit inquan 
+      <lb ed="#L" n="91"/>rere. an homo componatur ex materia et forma et
+      conclu<lb ed="#L" n="92" break="no"/>dit quod sic. et quod est in homine aliqua forma vel quidditas in 
+      <lb ed="#L" n="93"/>formans materiam. et ita illud idem intelligit quod prius. 
+      <lb ed="#L" n="94"/>postea inquirit vtrum illa forma informans
+      mate<lb ed="#L" n="95" break="no"/>riam sit simplex et vnica. vel habeat quidditatem hoc est 
+      <lb ed="#L" n="96"/>formam. et si inueniat quod in illa forma vel quiddita 
+      <lb ed="#L" n="97"/>te est quidditas vel forma. puta quod
+      circumscriben<lb ed="#L" n="98" break="no"/>do manm primam adhuc in residuo est vna anima informan 
+      <lb ed="#L" n="99"/>corporeitatem si sint tamlaes secunde forme. adhuc inquarit 
+      <lb ed="#L" n="100"/>an illa anima contieat duas. quarum vna sit in alia. puta 
+      <lb ed="#L" n="101"/>quod adhuc est anima intellectiva in sensitiva vel in aliqua alia. 
+      <lb ed="#L" n="102"/>quirit sic continue procedendo quousque perueniat ad quid  
+      <lb ed="#L" n="103"/>ditatem et formam simplicem quae praecise est in materia 
+      <lb ed="#L" n="104"/>extendendo nome materie ad formam
+      substan<lb ed="#L" n="105" break="no"/>tialeium suscipientem aliam formam substantialem 
+      <lb ed="#L" n="106"/>et non est receptiua alicuius alterius forme. nec
+      co<lb ed="#L" n="107" break="no"/>ponitur ex diuersis et hoc est quod dicit commentator 
+      <lb ed="#L" n="108"/>quod primo intelligit qauidditatem carnis. hoc est 
+      <lb ed="#L" n="109"/>intelligendum post primam comprehensionem que 
+      <lb ed="#L" n="110"/>est respectu eiusdem respecum cuius est isensus et
+      in<lb ed="#L" n="111" break="no"/>telligit quidditatem carnis non in se sed in conceptu 
+      <lb ed="#L" n="112"/>communi. vel proprio composito vel connotatiuo. Deinde 
+      <!--269.xml-->
+      <pb ed="#L" n="133-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quarit intelligere quidditatem illius quidditatis. et hoc 
+      <lb ed="#L" n="2"/>erit dum inueniat quidditatem in quidditate. et no 
+      <lb ed="#L" n="3"/>cessabit quousque perueniat ad formam simplicem 
+      <lb ed="#L" n="4"/>Et ita dico quod per quidditatem intelligit formam est 
+      <lb ed="#L" n="5"/>vere est pars rei que intelligitur non in se pro sta 
+      <lb ed="#L" n="6"/>tum isto sed in aliquo conceptu.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2383">
+      ⁋ Ad aliud dico quod 
+      <lb ed="#L" n="7"/>anima potest dici quoddammodo omnia per intellectum. sed 
+      <lb ed="#L" n="8"/>non praecise. quia est quoddammodo sensibilia non tantum per 
+      <lb ed="#L" n="9"/>intellectum sed etiam per sensum. Similiter dico quod fre 
+      <lb ed="#L" n="10"/>quenter philosophus accipit intellectum pro scientia quae praecise 
+      <lb ed="#L" n="11"/>est vniversalium. et etiam frequenter expremit ipsum nomine 
+      <lb ed="#L" n="12"/>scientie.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2399">
+      ⁋ Ad aliud dico quod duplici de ca ponitur in 
+      <lb ed="#L" n="13"/>tellectus agens. ponitur enim vt sit causa effectiua
+      in<lb ed="#L" n="14" break="no"/>tellectionis cuiuscumque. quia sicut teneo intellectus 
+      <lb ed="#L" n="15"/>agens nullo modo distinguitur ab intellectu possi 
+      <lb ed="#L" n="16"/>bili. sed idem intellectus habet diuersas
+      denomina<lb ed="#L" n="17" break="no"/>tiones. ponitur etiam intellectus agens non tantum vt cau 
+      <lb ed="#L" n="18"/>set intentionem. sed etiam vt causet aliquomodo
+      impro<lb ed="#L" n="19" break="no"/>prie ipsua vniversalia abstracta: illo modo quo habent cau 
+      <lb ed="#L" n="20"/>sari sed hoc non est realiter. nisi causando intentio 
+      <lb ed="#L" n="21"/>nem talium abstractorum. secundum vnam opinionem. modo  
+      <lb ed="#L" n="22"/>dico quod si quidditates essent separate sicut ponit pla 
+      <lb ed="#L" n="23"/>to. non indigeremus intellectu agente propter istam 
+      <lb ed="#L" n="24"/>secundam causam. indigeremus tamen propter primam causam 
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2428">
+               <lb ed="#L" n="25"/>⁋ Ad vltimum dico quod color non est prior ordine na 
+      <lb ed="#L" n="26"/>ture quam huiusmodi color secundum quod color supponit pro ill 
+      <lb ed="#L" n="27"/>lo communi. quia ille nonest in rerum natura.
+    </p>
+            <p xml:id="wo8uy7-d1e501-d1e2437">
+      ⁋ Ad argu 
+      <lb ed="#L" n="28"/>mentum principale patet quod intellectus est vniversalium 
+      <lb ed="#L" n="29"/>sed non precise.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

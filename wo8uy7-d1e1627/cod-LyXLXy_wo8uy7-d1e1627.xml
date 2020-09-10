@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="254-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1627"><!-- l1d35q6 -->
+            <head xml:id="wo8uy7-d1e1627-Hd1e108">Quaestio 6</head>
+            <p xml:id="wo8uy7-d1e1627-d1e111">
+      Questio sexta. 
+      <lb ed="#L" n="22"/>Exto quero utrum 
+      <lb ed="#L" n="23"/>ideme in mente diuina sint practice an 
+      <lb ed="#L" n="24"/>speculatiue
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e120">
+      ⁋ Quod sint practice
+      vide<lb ed="#L" n="25" break="no"/>tur. quia omnis idea in mente artificis est practica. cum 
+      <lb ed="#L" n="26"/>ars sit habitus practicus. sed idee diuine sunt immente 
+      <lb ed="#L" n="27"/>artificis increati. ergo etc
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e129">
+      ⁋ Ad oppositum quod sint spe 
+      <lb ed="#L" n="28"/>culatiue videtur. quia in intellectu pure speculatiuo et 
+      <lb ed="#L" n="29"/>nullo modo practico non est idea practica. sed intelle 
+      <lb ed="#L" n="30"/>ctus diuinus est tantum speculatiuus et nullo modo practi 
+      <lb ed="#L" n="31"/>cus. ergo etc. maior est manifesta. minorem probo. quia intel 
+      <lb ed="#L" n="32"/>lectus qui non potest dirigere voluntatem non est practicus 
+      <lb ed="#L" n="33"/>sed intellectus diuinus nullo modo potest dirigere
+      volun<lb ed="#L" n="34" break="no"/>tatem diuinam: cum ipsa voluntas non possit dirigi. sicut 
+      <lb ed="#L" n="35"/>nec potest errare. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e149">
+      ⁋ Ad istam. q. dico primo: quod 
+      <lb ed="#L" n="36"/>ista. q. videtur esse nulla. quia speculatiuum et practicum
+      vi<lb ed="#L" n="37" break="no"/>dentur esse dicere cognitionum praecise et non quorumcumque 
+      <lb ed="#L" n="38"/>obiectorum. et ideo cum ideec sicut supra ostensum e no 
+      <lb ed="#L" n="39"/>sint cognitiones sec res cognite idee non erunt pra 
+      <lb ed="#L" n="40"/>ctice nec speculatiue
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e163">
+      ⁋ Ex eodem sequitur: quod non est 
+      <lb ed="#L" n="41"/>conueniens modus loquendi dicere quod aliqua sint
+      prin<lb ed="#L" n="42" break="no"/>cipia practica. et aliqua conclusiones practice. Istud 
+      <lb ed="#L" n="43"/>potest declarari. quia quando sunt aliquae dicere opposite. si vna 
+      <lb ed="#L" n="44"/>diferentia conuenit aliquibus in vno aliquo genere et non 
+      <lb ed="#L" n="45"/>omnibus alia differentia competit aliis eiusdem generis. ergo si 
+      <lb ed="#L" n="46"/>practicum conuenit aliquibus principiis et aliquibus
+      com<lb ed="#L" n="47" break="no"/>clusionibus et non omnibus. speculatiuum etiam competet 
+      <lb ed="#L" n="48"/>aliquibus principiis et aliquibus conclusionibus. sed hoc non est 
+      <lb ed="#L" n="49"/>verum quia principia non sunt speculatiua sed
+      specula<lb ed="#L" n="50" break="no"/>bilia tantum. ergo etc. Quod autem in prologo dixi quod aliqua princi 
+      <lb ed="#L" n="51"/>pia sunt practica et aliqua speculativa. vsus fui communi 
+      <lb ed="#L" n="52"/>mo loquendi qui sic debet intelligi quod ista dicantur
+      princi<lb ed="#L" n="53" break="no"/>pia speculatiua quae sunt obiecta scientie speculatiue 
+      <lb ed="#L" n="54"/>et ista practica quae sunt obiecta scientie practice sed hoc est 
+      <!--511.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 254-v -->
+               <lb ed="#L" n="55"/>improprie loqui. Et ita patet quod ista. q. non habet
+      difficulta<lb ed="#L" n="56" break="no"/>tem nisi ex difficultate. q. quae queritur. an scientia dei re 
+      <lb ed="#L" n="57"/>spectu factibilium sit practica vel speculativa. Et 
+      <lb ed="#L" n="58"/>ideo de ipsa est aliquid modo videndum.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e211">
+      ⁋ Ad quauam dicitur quod 
+      <lb ed="#L" n="59"/>scientia dei non est practica: quod probatur per talem rationem. quia 
+      <lb ed="#L" n="60"/>duo sunt de ratione notitie practice. scilicet conformitas 
+      <lb ed="#L" n="61"/>ad praxim quam conformitatem habet ex obiecto circa 
+      <lb ed="#L" n="62"/>quod est. et prioritas eius naturalis ad eandem praxim. sed
+      in<lb ed="#L" n="63" break="no"/>tellectus diuinus comprando cognitionem eius ad actum 
+      <lb ed="#L" n="64"/>voluntatis eius non habet coguitionem dictatiuam de ali 
+      <lb ed="#L" n="65"/>quo faciendo. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e229">
+      ⁋ Sed opinio ista videtur insufficiens 
+      <lb ed="#L" n="66"/>quantum ad duo. primum quia praecise arguit quod intellectus di 
+      <lb ed="#L" n="67"/>uinus non habet notitiam practicam dictatiuam de facien 
+      <lb ed="#L" n="68"/>do: sicut patet manifeste ex processu eiusdem in eadem. q. 
+      <lb ed="#L" n="69"/>sed praeter illam cognitionem practicam est vna alia quae est 
+      <lb ed="#L" n="70"/>simpliciter practica. quia sicut ostensum est prius. logica. re 
+      <lb ed="#L" n="71"/>thorica. gramatica et artes mechanice sunt sim 
+      <lb ed="#L" n="72"/>pliciter practice. et tamen non sunt dictatiue. sed dictamen de 
+      <lb ed="#L" n="73"/>exercitio illarum notitiarum practicarum non pertinet 
+      <lb ed="#L" n="74"/>ad istas artes. sed ad prudentiam pertinet Quod autem ad  
+      <lb ed="#L" n="75"/>prudentiam pertineat patet. quia omnis actus impratus quai virtuose 
+      <lb ed="#L" n="76"/>elici potest ad prudentiam pertinet. sed omnis talis actus potest 
+      <lb ed="#L" n="77"/>elici virtuose. patet inductiue. ergo etc. maior patet per ari. 
+      <lb ed="#L" n="78"/>vi. ethi. vbi vult quod in arte peccans est eligibilior 
+      <lb ed="#L" n="79"/>circa autem prudentiam minus. Ex quo patet quod virtuose 
+      <lb ed="#L" n="80"/>agere non pertinet ad artem sed ad prudentiam. Similitervere 
+      <lb ed="#L" n="81"/>tus moralis secundum ari. vi. ethi. numquam est sine prudentia. 
+      <lb ed="#L" n="82"/>ergo nec actus virtuosus sine actu prudentie. Similiter 
+      <lb ed="#L" n="83"/>prudentie est imprare et principari exercitio artium. et 
+      <lb ed="#L" n="84"/>scientiarum speculatiuarum in aliis. sicut patet per philosophum. x.li 
+      <lb ed="#L" n="85"/>bro ethi. quod prudentia praecipit quas quam artem debet
+      ex<lb ed="#L" n="86" break="no"/>ercere et quam scientiam debet audire. ergo multo
+      ma<lb ed="#L" n="87" break="no"/>gis habet imprare actus propositos. et per consequens habet de eis dicta 
+      <lb ed="#L" n="88"/>re. et ita patet quod tales non sunt dictatiue. et tamen vere sunt 
+      <lb ed="#L" n="89"/>practice secundum philosophum. vi. ethi. ergo probare quod deus non habet 
+      <lb ed="#L" n="90"/>scientiam practicam dictatiuam non est probare eum non ha 
+      <lb ed="#L" n="91"/>bere scientiam practicam.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e288">
+      ⁋ Et si obiiciatur quod secundum ari. 
+      <lb ed="#L" n="92"/>vi. ethi. Ars est habitus cum vera ratione factiuus. ergo ars 
+      <lb ed="#L" n="93"/>de faciendis habet dictare vere. et per consequens est vere dicta 
+      <lb ed="#L" n="94"/>tiua.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e297">
+      ⁋ Respondeo quod non omnis vera ratio est dictamen 
+      <lb ed="#L" n="95"/>sic notitia quae scio hominem componi ex corpore et anima 
+      <lb ed="#L" n="96"/>non est dictamen. quamuis sit ratio vera. et ita est de arte quod 
+      <lb ed="#L" n="97"/>est habitus cum vera ratione factiuus. et tamen non dictatuus. 
+      <lb ed="#L" n="98"/>nec habet dictare vtrum debeat fieri vel non.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e308">
+      ⁋
+      Se<lb ed="#L" n="99" break="no"/>cundo viditur opiniones sufficiens. quia praecise probat quod notitia 
+      <lb ed="#L" n="100"/>dei respectu factibilium non habet illas duas
+      circum<lb ed="#L" n="101" break="no"/>stantias scilicet consormitatem et prioritatem respectu
+      vo<lb ed="#L" n="102" break="no"/>litionis diuine intrinsece. et non probat quod non habet illas 
+      <lb ed="#L" n="103"/>duas conditiones respectu operationis ad extra. qua 
+      <lb ed="#L" n="104"/>tamen potest dici praxis. et per consequens non probat quin respe 
+      <lb ed="#L" n="105"/>ctu alicuius praxis habeat illas duas conditiones et per 
+      <lb ed="#L" n="106"/>consequens non sufficienter probat quod non sit practica. 
+      <lb ed="#L" n="107"/>Quod autem actio quae deus producit aliquid extra sit
+      pra<lb ed="#L" n="108" break="no"/>xis potest probari per descriptionem istius quam pouit de 
+      <lb ed="#L" n="109"/>praxi. quia iste actus productivus est actus alterius poten¬ 
+      <!--512.xml-->
+      <pb ed="#L" n="255-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tie quam intellectus naturaliter posterior intellectione: 
+      <lb ed="#L" n="2"/>natus elici conformiter intentioni recte ad hoc quod sit rectus. 
+      <lb ed="#L" n="3"/>ergo iste actus vere est praxis
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e348">
+      ⁋ Confirmatur. iste actus secundum 
+      <lb ed="#L" n="4"/>istos non est actus intellectus nisi effectiue. non forma 
+      <lb ed="#L" n="5"/>liter. sed talis actus intellectus potest esse praxis etiam secundum eos 
+      <lb ed="#L" n="6"/>ergo etc. Si dicatur quod actus quae est primo praxis est actus 
+      <lb ed="#L" n="7"/>voluntatis. et quia actus voluntatis diuine non est
+      pra<lb ed="#L" n="8" break="no"/>xis. ideo nullus actus sequens erit praxis. Istud non 
+      <lb ed="#L" n="9"/>sufficit. quia siue actus voluntatis sit praxis siue non 
+      <lb ed="#L" n="10"/>tali actuicontingenter elicito ab agente
+      cognoscen<lb ed="#L" n="11" break="no"/>te vere competit omnis particula posita in diffinitione 
+      <lb ed="#L" n="12"/>praxis. sicut patet inductiue. quia est actus alterius potentie 
+      <lb ed="#L" n="13"/>quam intellectus. quia secundum eos est actus immediate voluntatis 
+      <lb ed="#L" n="14"/>et est naturaliter posterior intellectione. manifestum est. 
+      <lb ed="#L" n="15"/>et est natus elici conformiter intellectioni recte ad hoc vt 
+      <lb ed="#L" n="16"/>sit rectus. quia numquam retributio diuina esset recta vel 
+      <lb ed="#L" n="17"/>iusta nisi ratio recta hoc dictaret. ergo talis actus vere erit: 
+      <lb ed="#L" n="18"/>praxis
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e383">
+      ⁋ Ideo dico aliter ad istum articulum quod no 
+      <lb ed="#L" n="19"/>titia diuina respectu factibilium ab eo est
+      practi<lb ed="#L" n="20" break="no"/>ca. quia quantumcumque volitio diuina quae est ipse deus realiter 
+      <lb ed="#L" n="21"/>secundum omnes. et vt credo non plus distinguitur a diuina
+      es<lb ed="#L" n="22" break="no"/>sentia quam deitas distinguitur a deitate non sit vere 
+      <lb ed="#L" n="23"/>praxis. quia non est actus in potestate voluntatis. tamen in po 
+      <lb ed="#L" n="24"/>testate voluntatis diuine est producere creaturam 
+      <lb ed="#L" n="25"/>contingentur et omnia alia facere circa creaturas est in 
+      <lb ed="#L" n="26"/>potestate voluntatis diuine. et ista productio potest 
+      <lb ed="#L" n="27"/>aliquo modo dicipraxis. quia scilicet contingentur est a
+      volun<lb ed="#L" n="28" break="no"/>tate diuina. et per consequens notitia sibi correspondens 
+      <lb ed="#L" n="29"/>vere practica potest dici.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e409">
+      ⁋ Per illud posset dici ad  
+      <lb ed="#L" n="30"/>formam. q. quod idee in mente divina proprie loquendo nec 
+      <lb ed="#L" n="31"/>sunt practice nec speculatiue. Ueruntamen secundum istum 
+      <lb ed="#L" n="32"/>modum loquendi quo dico quod idee in mente artifiquae 
+      <lb ed="#L" n="33"/>creati sunt practice. quia scilicet notitia agendorum per il 
+      <lb ed="#L" n="34"/>las ideas est practica. Ita potest dici quod idee in men 
+      <lb ed="#L" n="35"/>te divina sunt practice. quia notitia agendorum per illas 
+      <lb ed="#L" n="36"/>ideas est practica.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e427">
+      ⁋ Se coclusio praedicta potest obiici
+      pri<lb ed="#L" n="37" break="no"/>mo quia dictum est prius quod actus voluntatis elicitus est
+      pri<lb ed="#L" n="38" break="no"/>mo praxis. ergo nullus actus est praxis nisi actus a
+      volun<lb ed="#L" n="39" break="no"/>tate elicitus sit praxis. sed volitio diuina non est pra 
+      <lb ed="#L" n="40"/>xis. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e438">
+      ⁋ Preterea. si productio creature. remu 
+      <lb ed="#L" n="41"/>neratio meritorum. conseruatio. gubernatio etc. 
+      <lb ed="#L" n="42"/>huiusmodi sunt praxes. Quero. aut ista sunt realiter deus 
+      <lb ed="#L" n="43"/>aut sunt realiter creature. Si deus. ergo deus est vere pra 
+      <lb ed="#L" n="44"/>xis. et per consequens volitio diuina est praxis. Si sunt cre 
+      <lb ed="#L" n="45"/>ature. ergo creature sunt praxes sed non est maior ratio 
+      <lb ed="#L" n="46"/>quod vna creatura est praxis diuina quam alia. ergo quaelibet 
+      <lb ed="#L" n="47"/>creatura est praxis diuina. et per hoc asinus et omnes sub 
+      <lb ed="#L" n="48"/>stantie essent praxes diuine quod est absurdum
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e458">
+      ⁋ Pre 
+      <lb ed="#L" n="49"/>terea. quod volitio diuina sit praxis videtur. quia
+      di<lb ed="#L" n="50" break="no"/>ctum est prius et modo innuitur quod omnis actus existens in
+      pote<lb ed="#L" n="51" break="no"/>state voluntatis est vere praxis.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e468">
+      ⁋ Similiter ex eodem
+      me<lb ed="#L" n="52" break="no"/>dio arguitur quod tunc aliqua speculatio esset vere praxis 
+      <lb ed="#L" n="53"/>e hoc est absurdum. quod probatur. quia ex omnibus praxibus genera 
+      <lb ed="#L" n="54"/>tur habitus practicus. sed ex multis praemis
+      specula<lb ed="#L" n="55" break="no"/>tionibus non potest generari habitus practicus. ergo nulla 
+      <!--512.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 255-r -->
+               <lb ed="#L" n="56"/>speculatio est actus practicus.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e488">
+      ⁋ Preterea. si
+      specu<lb ed="#L" n="57" break="no"/>latio esset praxis. quia est in potestate voluntatis. ergo
+      pos<lb ed="#L" n="58" break="no"/>sem ego facere quod geometria esset practica¬. 
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e495">
+               <lb ed="#L" n="59"/>⁋ Preterea manifestum est quod aliqua speculatio non est 
+      <lb ed="#L" n="60"/>praxis. et tamen omnis speculatio est in potestate volun 
+      <lb ed="#L" n="61"/>tatis.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e504">
+      ⁋ Similiter tunc esset in potestate mea quod specu 
+      <lb ed="#L" n="62"/>latio esset praxis et non esset praxis Et eodem modo  
+      <lb ed="#L" n="63"/>speculatio posset esse praxis et non esse praxis ad 
+      <lb ed="#L" n="64"/>placitum voluntatis.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e513">
+      ⁋ Ad primum dico quod quando dictum est 
+      <lb ed="#L" n="65"/>bus quod actus voluntatis est primo praxis. ibi non
+      fie<lb ed="#L" n="66" break="no"/>bat sermo nisi de voluntate habente actum elici 
+      <lb ed="#L" n="67"/>tum receptum in se in sua potestate. quia non fiebat ibi 
+      <lb ed="#L" n="68"/>sermo nisi de voluntate nostra quae habet primo actum proprium 
+      <lb ed="#L" n="69"/>in sua potenstate quem elicit contingentur. et in talibus 
+      <lb ed="#L" n="70"/>est vniversaliter verum quod actus voluntatis receptus in ea est primo 
+      <lb ed="#L" n="71"/>praxis. sed sic non est de voluntate diuina. quia ipse
+      a<lb ed="#L" n="72" break="no"/>ctus ibi non est receptus in voluntate. sed est ipsa volun 
+      <lb ed="#L" n="73"/>tas indistinctus ab ea re. et ratione. et ideo sicut ipsamet vo 
+      <lb ed="#L" n="74"/>luntas non potest esse primo praxis. ita nec ipse actus
+      vo<lb ed="#L" n="75" break="no"/>luntatis potest esse praxis.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e539">
+      ⁋ Ad secundum dico quod ita 
+      <lb ed="#L" n="76"/>proprie et ita vere. creatio. conseruatio.
+      remunera<lb ed="#L" n="77" break="no"/>tio etc. huiusmodi sunt vere praxes. sicut edificatio et
+      ta<lb ed="#L" n="78" break="no"/>les actus imperati a voluntate sunt praxes.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e549">
+      ⁋ Et quando 
+      <lb ed="#L" n="79"/>quaritur aut ista sunt realiter deus. aut sunt realiter creatu 
+      <lb ed="#L" n="80"/>re. Dico sicut tactum est prius de nominibus connotatiuis qua 
+      <lb ed="#L" n="81"/>non important praecise vnam rem. sed significant aliquam rem. 
+      <lb ed="#L" n="82"/>et aliquam connotant de nulla re proprie praedicantur. sicut ne 
+      <lb ed="#L" n="83"/>gatio. cecitas et huiusmodi non sunt res. Ueruntamen concre 
+      <lb ed="#L" n="84"/>tum correspondens talibus absolutim vere de aliqua re
+      pri<lb ed="#L" n="85" break="no"/>dicatur. Et ideo magis proprie debet dici quod creans est res quam 
+      <lb ed="#L" n="86"/>quod creatio est res. Et ita proportionabiliter debet dici 
+      <lb ed="#L" n="87"/>quod praxis aliqua non est res. sed res praedicatur de nomine con 
+      <lb ed="#L" n="88"/>creto correspondente istinoni abstracto praxis. 
+      <lb ed="#L" n="89"/>Ueruntamen aliquo modo et forte improprie de talibus
+      ab<lb ed="#L" n="90" break="no"/>solutis praedicantur plura simul sumpta et nullum eorum per se 
+      <lb ed="#L" n="91"/>sumptum ad modum nonis collectiui. sicut tactum est prim 
+      <lb ed="#L" n="92"/>us in materia de relationibus
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e582">
+      ⁋ Ueruntamen intelligen 
+      <lb ed="#L" n="93"/>dum est quod hoc praxis particularitur recipit praedicationem 
+      <lb ed="#L" n="94"/>alicuius supponentis determinate pro aliqua re. Unde hoc 
+      <lb ed="#L" n="95"/>est vera quod aliqua praxis vere est vna res. sicut dilectio. et 
+      <lb ed="#L" n="96"/>vivelitlr actus voluntatis contigenter elicitus. et ita hoc nomen 
+      <lb ed="#L" n="97"/>oraxis esset commune vel quasi equiuocum. quia equiualeret in si 
+      <lb ed="#L" n="98"/>gnificando tam non i absoluto quam connotatiuo. Aliter 
+      <lb ed="#L" n="99"/>posset dici quod sicut conceditur quod ambulare est praxis. quia 
+      <lb ed="#L" n="100"/>contigenter imparatur a voluntate. ita posset concedi quod quaeli 
+      <lb ed="#L" n="101"/>bet creatur a est quadam praxis divina. quia quaelibet creatur a 
+      <lb ed="#L" n="102"/>est quadam effectus contigentur productus a voluntate
+      divina<lb ed="#L" n="103" break="no"/>Et ideo haec magis est difficultas vocalis quam realis. et secundum di 
+      <lb ed="#L" n="104"/>uersam expositionem significationis nominis 
+      <lb ed="#L" n="105"/>diuersimode consequenter est respondendum.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e613">
+      ⁋ Ad  
+      <lb ed="#L" n="106"/>aliud dico quod volitio divina diuersimode accipitur 
+      <lb ed="#L" n="107"/>Uno modo pro ipso actu existente realiter eodem cum di 
+      <lb ed="#L" n="108"/>uina essentia. et ista volitio diuina non est praxis 
+      <lb ed="#L" n="109"/>qui non est in potestate voluntatis. sed tanta
+      necessita<lb ed="#L" n="110" break="no"/>te est illa volitio quanta est ipsa voluntas. quia est omni¬ 
+      <!--513.xml-->
+      <pb ed="#L" n="255-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>bus modis ipsa voluntas. Aliter accipitur volitio 
+      <lb ed="#L" n="2"/>diuina. vt sit idem quod velle creaturam esse vel velle 
+      <lb ed="#L" n="3"/>remunerare. vel huiusmodi aliquid. et sic non praecise
+      di<lb ed="#L" n="4" break="no"/>cit voluntatem diuinam. sed etiam connotat creaturam in 
+      <lb ed="#L" n="5"/>esse reali. et sic est idem quod creatio vel conseruatio 
+      <lb ed="#L" n="6"/>vel aliquid huiusmodi. et sicut est in potenstate sua. sicut
+      con<lb ed="#L" n="7" break="no"/>tingenter creat conseruat et huiusmodi.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e648">
+      ⁋ Ad aliud  
+      <lb ed="#L" n="8"/>dico quod speculatio quae est in potenstate voluntatis est 
+      <lb ed="#L" n="9"/>vere praxis. sic dictum est prius
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e655">
+      ⁋ Ad primum in contra 
+      <lb ed="#L" n="10"/>rium dico quod hec est falsa simpliciter. omnibus praxibus genera 
+      <lb ed="#L" n="11"/>tur habitus practicus. cuius ratio est. quia speculatiuum et 
+      <lb ed="#L" n="12"/>practicum non sunt dicere opposite habituum intelle 
+      <lb ed="#L" n="13"/>ctualium. et ideo non semper ex praxibus que sunt in intelle 
+      <lb ed="#L" n="14"/>ctu generatur habitus practicus
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e668">
+      ⁋ Et si dicatur quod sal 
+      <lb ed="#L" n="15"/>tem ex praxibus quae sunt in intellectu generatur habitus 
+      <lb ed="#L" n="16"/>practicus et nullo modo speculatiuus. Dicendum quod non 
+      <lb ed="#L" n="17"/>semper ex praximbus quae sunt in intellectu generatur habitus 
+      <lb ed="#L" n="18"/>practicus. cuius ratio est. quia habitus practicus generatur ex 
+      <lb ed="#L" n="19"/>actibus practicis. sed aliqua actus intelligibiles quae sunt 
+      <lb ed="#L" n="20"/>praxes sunt speculatiui et aliqua sunt practici. et ideo 
+      <lb ed="#L" n="21"/>ex aliquibus talibus praxibus generatur habitus practi 
+      <lb ed="#L" n="22"/>cus. et ex aliquibus generatur habitus speculatiuus 
+      <lb ed="#L" n="23"/>Ad cuius intellectum sciendum est quod differentiam est inter actum 
+      <lb ed="#L" n="24"/>practicum et praxim. Nam praxis est operatio existens 
+      <lb ed="#L" n="25"/>in potestate voluntatis: quia omnis talis actus potest
+      eli<lb ed="#L" n="26" break="no"/>ci virtuose et viciose. loquendo de actu
+      volunta<lb ed="#L" n="27" break="no"/>tis nostre de quo est modo sermo. sed actus practicus est 
+      <lb ed="#L" n="28"/>ille quae habet pro obiecto saltem partiali praxim. vel
+      ali<lb ed="#L" n="29" break="no"/>quod operabile contingenter a voluntate. Nam multi 
+      <lb ed="#L" n="30"/>sunt actus intelligendi existentes in nostra potestate 
+      <lb ed="#L" n="31"/>qui non habent praxim nec aliquod operabile a nobis
+      pro<lb ed="#L" n="32" break="no"/>pbiecto partiali. sicut actus considerandi geometri 
+      <lb ed="#L" n="33"/>calia et similiter considerandi deum. et actus speculandi me 
+      <lb ed="#L" n="34"/>thaphisicalia sunt in potestate nostra. et possunt vir 
+      <lb ed="#L" n="35"/>tuose et viciose secundum diuersas circumstantias finis 
+      <lb ed="#L" n="36"/>et aliorum elici et impari a voluntate. non sunt tamen ideo pra 
+      <lb ed="#L" n="37"/>ctici. sed tamen vere sunt praxes. Et ideo ex eis non gene 
+      <lb ed="#L" n="38"/>ratur habitus practicus sed tantum speculatiuus. Quod autem ta 
+      <lb ed="#L" n="39"/>lis speculatio sit vere praxis. patet. quia omnis operatio 
+      <lb ed="#L" n="40"/>secundum electionem hominis est vere praxis. sed talis operatio 
+      <lb ed="#L" n="41"/>potest esse secundum electionem homois. ergo vere potest esse praxis 
+      <lb ed="#L" n="42"/>maior patet per commen id est ethi. in principio vbi
+      descri<lb ed="#L" n="43" break="no"/>omnes praxim dicit sic. Praxis quam consueuerunt trans 
+      <lb ed="#L" n="44"/>ferre in actum est secundum electionem homoinis energia. id est 
+      <lb ed="#L" n="45"/>operatio. minor patet. quia potest aliquis considerare et
+      de<lb ed="#L" n="46" break="no"/>liberare an sit speculandum vel aliquid aliud extra 
+      <lb ed="#L" n="47"/>operandum. et potest postea habita deliberatione et 
+      <lb ed="#L" n="48"/>concluso quod sit speculandum vel studendum etc. elige 
+      <lb ed="#L" n="49"/>re vel praeponere studium vel speculationem operi
+      ex<lb ed="#L" n="50" break="no"/>teriori et postea potest illum actum elicere. et per consequens ta 
+      <lb ed="#L" n="51"/>lis speculatio potest esse operatio secundum homois electionem 
+      <lb ed="#L" n="52"/>ergo tunc vere erit praxis.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e754">
+      ⁋ Ad secundum dico quod non 
+      <lb ed="#L" n="53"/>sequitur. omnis operatio existens in potestate voluntatis 
+      <lb ed="#L" n="54"/>est praxis. ergo ego possum face re quod geometria est 
+      <lb ed="#L" n="55"/>practica. sed sequitur quod ego facere possum quod aliquis 
+      <!--513.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 255-v -->
+               <lb ed="#L" n="56"/>actus geometrie. puta iste quem possum contingen 
+      <lb ed="#L" n="57"/>ter elicere sit vere praxis. quamuis non possit ille 
+      <lb ed="#L" n="58"/>actus esse practicus
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e776">
+      ⁋ Ad aliud dico quod manifestum 
+      <lb ed="#L" n="59"/>est quod aliqua speculatio diuina non est praxis quia illa 
+      <lb ed="#L" n="60"/>non est in potestate voluntatis. sed de speculationibus 
+      <lb ed="#L" n="61"/>nostris non est ita manifestum. Unde quae dicunt quod omnis 
+      <lb ed="#L" n="62"/>speculatio nostra sit in potestate voluntatis. habent di 
+      <lb ed="#L" n="63"/>cere nisi errent. quod omnis speculatio nostra potest esse
+      pra<lb ed="#L" n="64" break="no"/>xis. Sed quia reputo quod aliqua speculatio non sit in po 
+      <lb ed="#L" n="65"/>testate nostra. qui autem sit illa dicetur in quarto. Ideo 
+      <lb ed="#L" n="66"/>dico quod est aliqua speculatio humana quae non potest esse 
+      <lb ed="#L" n="67"/>praxis. et ideo dico quod non omnis speculatio est in pote 
+      <lb ed="#L" n="68"/>state nostra nisi forte meritorie vel demeritorie. 
+      <lb ed="#L" n="69"/>Sed de illo modo habendi aliquid in potestate
+      volun<lb ed="#L" n="70" break="no"/>tatis non est modo sermo.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e805">
+      ⁋ Ad aliud quod innuitur dico 
+      <lb ed="#L" n="71"/>in ptante mea est quod speculatio sit praxis. vel non sit 
+      <lb ed="#L" n="72"/>praxis. quia si contigentur et ex imprio voluntatis speculor 
+      <lb ed="#L" n="73"/>tunc illa speculatio est praxis. Si non speculor. vel 
+      <lb ed="#L" n="74"/>si non speculor ex imprio voluntatis tunc non est praxis 
+      <lb ed="#L" n="75"/>et eodem modo eadem speculatio quando primo elicitur ante 
+      <lb ed="#L" n="76"/>omnem actum voluntatis non est praxis. quando postea
+      eli<lb ed="#L" n="77" break="no"/>citur vel continuatur ex iperio voluntatis tunc vere erit pra 
+      <lb ed="#L" n="78"/>xis. nec est haoc magis incoueniens de speculatione quam de 
+      <lb ed="#L" n="79"/>aliis praxibus. sed de aliis est hoc possibile secundum istos 
+      <lb ed="#L" n="80"/>sic arguentes. Nam secundum istos numquam est actus voluntatis 
+      <lb ed="#L" n="81"/>praxis nisi sit elicitus. sed in potenstate voluntatis est eli 
+      <lb ed="#L" n="82"/>cere illum actum vel non elicere. Similiter secundu istos actus 
+      <lb ed="#L" n="83"/>appetitus sensitiui quatenus praecedit actum
+      intelle<lb ed="#L" n="84" break="no"/>ctus non est praxis hoc enim modo communis est voluntati et 
+      <lb ed="#L" n="85"/>brutis. nec respectu illorum actuum est aliqua
+      cogni<lb ed="#L" n="86" break="no"/>tio practica. nisi quia aliquo modo est moderatiua il 
+      <lb ed="#L" n="87"/>lorum actuum. et isti actus consequuntur intellectionem mo 
+      <lb ed="#L" n="88"/>deratiuam vt sunt per ipsam moderati.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e847">
+      ⁋ Ex istis
+      ver<lb ed="#L" n="89" break="no"/>bis eorum patet manifeste quod actus appetitus sensitiui 
+      <lb ed="#L" n="90"/>quae praecedit actum intelligendi non est praxis. sed actus
+      ap<lb ed="#L" n="91" break="no"/>petitus sensitiui sequens actum intelligendi cuius mo 
+      <lb ed="#L" n="92"/>di est ille actus intelligendi moderatiuus vere est
+      pra<lb ed="#L" n="93" break="no"/>xis. sed ille idem actus quae praecessit actum intelligendi potest 
+      <lb ed="#L" n="94"/>postea moderari per intellectum et voluntatem. ergo idem 
+      <lb ed="#L" n="95"/>actus primo non est praxis et postea est praxis et eque fa 
+      <lb ed="#L" n="96"/>ciliter potest hoc dici de actu intellectus qui potest praecedere 
+      <lb ed="#L" n="97"/>actu voluntatis. et tunc non est praxis. Et potest sequae imperium 
+      <lb ed="#L" n="98"/>voluntatis et tunc est praxis. Et hoc posset confirmari. quia 
+      <lb ed="#L" n="99"/>actus intelligendi magis est in potestate voluntatis quam
+      a<lb ed="#L" n="100" break="no"/>ctus appetitus sensitiui. et per consequens magis potest dici 
+      <lb ed="#L" n="101"/>praxis.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e878">
+      ⁋ Et si dicatur. quod praxis debet esse posterior  
+      <lb ed="#L" n="102"/>naturaliter intellectione.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e883">
+      ⁋ Dico quod hoc est verum. quia omnis 
+      <lb ed="#L" n="103"/>praxis vel est actus voluntatis elicitus vel imparatus. et ita 
+      <lb ed="#L" n="104"/>vnus actus voluntatis est posterior alio actu. sicut actus 
+      <lb ed="#L" n="105"/>quo speculor diuina est posterior actu dictandi 
+      <lb ed="#L" n="106"/>quo intellectus meus dictauit quod modo debeat specu 
+      <lb ed="#L" n="107"/>ari divina. nunc actus speculandi divina est praxis et 
+      <lb ed="#L" n="108"/>non practicus sed actus dictandi est practicus 
+      <lb ed="#L" n="109"/>et forte non est pro tunc praxis. quamuis possit esse 
+      <lb ed="#L" n="110"/>praxis. quia potest esse imperatus a veluntate: 
+      <!--514.xml-->
+      <pb ed="#L" n="256-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quamuis non oportet quod sit impatus
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e913">
+      ⁋ Et si adhuc arguatur 
+      <lb ed="#L" n="2"/>quod omnis habitus cuius finis est praxis est practicus. sed  
+      <lb ed="#L" n="3"/>speculatio potest esse finis scientie speculative. ergo si. spe 
+      <lb ed="#L" n="4"/>culatio est praxis scientia speculatiua erit practica 
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e922">
+               <lb ed="#L" n="5"/>⁋ Ad illud patet per dicta in prologo. vbi dictum est quod 
+      <lb ed="#L" n="6"/>idem potest esse finis quae est causa finalis proprie scientie specula 
+      <lb ed="#L" n="7"/>tiue et practice. et ita praxis: vere potest esse finis 
+      <lb ed="#L" n="8"/>scientie speculatiue. et ideo hec est falsa quod omnis scientia cuius 
+      <lb ed="#L" n="9"/>finis est praxis est practica sed solum illa scientia est practi 
+      <lb ed="#L" n="10"/>cum cuius obiectum saltem partiale est praxis. vel aliquid 
+      <lb ed="#L" n="11"/>operabile ab habente praxim. et hoc non est verum de scientia 
+      <lb ed="#L" n="12"/>speculatiua quia scientia speculatiua non habet aliquo 
+      <lb ed="#L" n="13"/>tale pro obiecto partiali. vel saltem non est directiua 
+      <lb ed="#L" n="14"/>magis quam notitia incomplexa talis operabilis vel pra 
+      <lb ed="#L" n="15"/>xis.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e948">
+      ⁋ Si dicatur quod secundum philosophum ii. metha. finis
+      spe<lb ed="#L" n="16" break="no"/>culatiue est veritas. practice autem opus. ergo opus 
+      <lb ed="#L" n="17"/>non est finis speculatiue. et per consequens nec praxis est
+      fi<lb ed="#L" n="18" break="no"/>nis speculatiue.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e957">
+      ⁋ Dicendu quod finis speculatime 
+      <lb ed="#L" n="19"/>propter quem secundum rectam rationem procedit addiscens scientiam 
+      <lb ed="#L" n="20"/>et veritas. et non aliquod opus habentis scientiam tamquam co 
+      <lb ed="#L" n="21"/>gnitum a scientie secundum rectam rationem. sed secundum rectam rationem 
+      <lb ed="#L" n="22"/>acquirens scientiam practicam debet intendere opus tamquam
+      fi<lb ed="#L" n="23" break="no"/>nem et tamquam obiectum illius scientie. ita quod procedentibus et 
+      <lb ed="#L" n="24"/>intendentibus debitum finem ipsius speculatiue veri 
+      <lb ed="#L" n="25"/>tas est finis. et non est aliquod opus vel praxis obiectum 
+      <lb ed="#L" n="26"/>sed practice idem est sinis et obiectum. ita quod praxis et 
+      <lb ed="#L" n="27"/>sit finis et obiectum saltem partiale.
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e979">
+      ⁋ Ad
+      argumen<lb ed="#L" n="28" break="no"/>tum principale patet quomodo idea est practica. quia non proprie 
+      <lb ed="#L" n="29"/>loquendo sed improprie
+    </p>
+            <p xml:id="wo8uy7-d1e1627-d1e986">
+      ⁋ Ad argumentum in oppositum 
+      <lb ed="#L" n="30"/>quod intellectus diuinus non est tantum speculatiuus. sed etiam 
+      <lb ed="#L" n="31"/>peacticus. Et quando dicitur quod non potest dirigere actum
+      volun<lb ed="#L" n="32" break="no"/>tatis dico quod non potest dirigere voluntatem in actu in 
+      <lb ed="#L" n="33"/>trinseco tamen in producendo aliquid ad extra potest
+      dirige<lb ed="#L" n="34" break="no"/>re. non quia voluntas possit errare. sed quia voluntas con 
+      <lb ed="#L" n="35"/>tingenter potest efficere quicquid efficit extra. et etiam 
+      <lb ed="#L" n="36"/>seipum dirigit in dirigendo voluntatem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

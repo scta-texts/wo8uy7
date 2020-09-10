@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="179-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e894"><!-- l1d12q1 -->
+            <head xml:id="wo8uy7-d1e894-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e894-d1e111">
+      ⁋ Distinctionis. xii. Questio i. 
+      <lb ed="#L" n="26"/>CIrca
+      distin<lb ed="#L" n="27" break="no"/>ctione duodecimam quaero
+      pri<lb ed="#L" n="28" break="no"/>mo
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e120">
+      ⁋ Utrum pater et filius 
+      <lb ed="#L" n="29"/>sint vnum principium spirans 
+      <lb ed="#L" n="30"/>tusanctus.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e127">
+      ⁋ Quod non. quia quaelibet
+      ter<lb ed="#L" n="31" break="no"/>minus suppones pro aliquo 
+      <lb ed="#L" n="32"/>in diuinis: supponit pro essentia vel pro persona vel 
+      <lb ed="#L" n="33"/>pro aliqua relatione. cum quodlibet quod est in deo vel sit 
+      <lb ed="#L" n="34"/>essentia vel persona vel relatio. et hoc formaliter: ergo 
+      <lb ed="#L" n="35"/>si hec sit vera. pri et filius sunt vnum principium spirans 
+      <lb ed="#L" n="36"/>s sactus praedicatum vel supponit pro essentia vel pro
+      persona<lb ed="#L" n="37" break="no"/>vel pro relatione. Primum non potest dari. quia essentia 
+      <lb ed="#L" n="38"/>non est principium spirans spiritum sanctum Nec secundum quia quacumque 
+      <lb ed="#L" n="39"/>persona data hec est falsa. pater et filius sunt hec persona 
+      <lb ed="#L" n="40"/>spiran spiritum sanctum Nec tertium propter idem. quia quacumque re 
+      <lb ed="#L" n="41"/>latione data: hec est falsa pri et filius sunt hec relatio 
+      <lb ed="#L" n="42"/>spiran spiritum sanctum
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e156">
+      ⁋ Preterea principium ibi: aut dicit
+      ali<lb ed="#L" n="43" break="no"/>quid essentiale: aut aliquid notionale. Non essen 
+      <lb ed="#L" n="44"/>tiale. quia predicatum non praedicatur de aliquo essenti 
+      <lb ed="#L" n="45"/>ali sicut dictum est. nec notionale. quia illud non pos 
+      <lb ed="#L" n="46"/>set esse nisi persona cum relatio non sit principium spi 
+      <lb ed="#L" n="47"/>rans.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e170">
+      ⁋ Preterea multiplicato priori multipli 
+      <lb ed="#L" n="48"/>catur posterius. sed paternitas et filiatio sunt priores 
+      <lb ed="#L" n="49"/>spiratione actiua. ergo cum paternitas et filiatio sunt 
+      <lb ed="#L" n="50"/>plures relationes: spirationes actiue erunt plures 
+      <lb ed="#L" n="51"/>et per consequens pater et filius non sunt vnum principium
+      spri<lb ed="#L" n="52" break="no"/>rans sed plura principia spirantia
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e183">
+      ⁋ Ad oppo 
+      <lb ed="#L" n="53"/>situm est determinatio ecclesie <ref xml:id="wo8uy7-d1e894-Rd1e187">extra de summa 
+      <lb ed="#L" n="54"/>tri. et fi. cau.</ref> et ponitur in libro vbi dicitur sic. fatemur 
+      <!--360.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 179-r -->
+               <lb ed="#L" n="55"/>quod spiritus sanctus eternaliter ex patre et filio. non tanquam 
+      <lb ed="#L" n="56"/>ex duobus principiis: sed tanquam ex vno
+      princi<lb ed="#L" n="57" break="no"/>pio. non duabus spirationibus sed vnica
+      spiratio<lb ed="#L" n="58" break="no"/>ne procedit.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e208">
+      ⁋ In ista quaestione sunt due difficulta 
+      <lb ed="#L" n="59"/>tes. vna realis scilicet an in patre et filio precise sit 
+      <lb ed="#L" n="60"/>vna spiratio. Alia est partim realis et partim gra 
+      <lb ed="#L" n="61"/>maticalis. an scilicet tales propositiones debeant
+      con<lb ed="#L" n="62" break="no"/>cedi. pater et filius sunt vnus spirator. pater et 
+      <lb ed="#L" n="63"/>filius sunt vnum principium spirans. et sic de consimi 
+      <lb ed="#L" n="64"/>libus. Primo ergo videndum est de prima
+      diffi<lb ed="#L" n="65" break="no"/>cultate. secundo de secunda.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e226">
+      ⁋ Circa primum sciendum 
+      <lb ed="#L" n="66"/>quod difficultatem facit hoc quod videtur quod quantumcunque 
+      <lb ed="#L" n="67"/>fundamentum relationis sit vnum. si tamen relata sunt 
+      <lb ed="#L" n="68"/>distincta oportet quod relationes sint distincte. 
+      <lb ed="#L" n="69"/>ita quod non tantum ex distinctione fundamenti et
+      termi<lb ed="#L" n="70" break="no"/>ni sequitur distinctio relationis sed etiam ex distin 
+      <lb ed="#L" n="71"/>ctione relati. Assumptum potest probari.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e242">
+      ⁋ Primo 
+      <lb ed="#L" n="72"/>qui si eadem forma secundum numerum esset similis in duo 
+      <lb ed="#L" n="73"/>bus subiectis distinctis localiter. illa forma pos 
+      <lb ed="#L" n="74"/>set esse ratio agendi vni illorum subiectorum. quamuis 
+      <lb ed="#L" n="75"/>non esset ratio agendi alteri propter indebitam
+      di<lb ed="#L" n="76" break="no"/>stantiam illius alterius agentis ad omne passiuum 
+      <lb ed="#L" n="77"/>ergo illo casu posito respectus de genere
+      actio<lb ed="#L" n="78" break="no"/>nis vere esset istius agentis et non illius. ergo si 
+      <lb ed="#L" n="79"/>aliud agens incipiat habere passum sibi appro 
+      <lb ed="#L" n="80"/>ximatum. et si incipiat agere. illud agens habe esn 
+      <lb ed="#L" n="81"/>bit nouum respectu de genere actionis. et per consequens 
+      <lb ed="#L" n="82"/>erunt duo respectus propter diuersitatem supposi 
+      <lb ed="#L" n="83"/>torum non obstante vnitate fundamenti.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e271">
+      ⁋ Preterea. 
+      <lb ed="#L" n="84"/>si eadem albedo secundum numerum esset in duobus
+      sub<lb ed="#L" n="85" break="no"/>iectis. vnum illorum esset simile alteri et non vnica 
+      <lb ed="#L" n="86"/>similitudine. ergo distinctis. ergo non obstante 
+      <lb ed="#L" n="87"/>vnitate sundamenti. respectus erit alius. Assum 
+      <lb ed="#L" n="88"/>ptum patet. quia si hoc album sit simile. ergo aliqua
+      si<lb ed="#L" n="89" break="no"/>militudine que sit a. tunc arguo sic. A est rela 
+      <lb ed="#L" n="90"/>tio. ergo sibi correspondet aliqua relatio. igitur 
+      <lb ed="#L" n="91"/>sunt due similitudines et tamen fundamentum est idem 
+      <lb ed="#L" n="92"/>et terminus primus est idem.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e294">
+      ⁋ Preterea. si idem corpus 
+      <lb ed="#L" n="93"/>esset in distinctis locis. idem corpus haberet di 
+      <lb ed="#L" n="94"/>stinctos respectus vbiales et tamen simpliciter idem.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e301">
+      ⁋ Ex 
+      <lb ed="#L" n="95"/>istis potest argui sic. pluralitas relationis depen 
+      <lb ed="#L" n="96"/>det ex relatis. sed in proposito supposita relata
+      spi<lb ed="#L" n="97" break="no"/>ratione actiua sunt plura. ergo non obstante vnitate. 
+      <lb ed="#L" n="98"/>fundamenti spirationes actiue erunt plures.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e312">
+      ⁋ Sed 
+      <lb ed="#L" n="99"/>istis non obstantibus dico quod est vnica spiratio 
+      <lb ed="#L" n="100"/>activa. quamuis hoc per rationem euidenter probari non possit. 
+      <lb ed="#L" n="101"/>sed hoc sequitur ex veritate fidei qua dicitur. quod tantum 
+      <lb ed="#L" n="102"/>tres sunt persone in diuinis. pater et filius et spiritus san 
+      <lb ed="#L" n="103"/>ctus. quia sicut post patebit quaelibet relatio diuin 
+      <lb ed="#L" n="104"/>que a qualibet relatione diuina realiter distinguitur. 
+      <lb ed="#L" n="105"/>constituit suppositum distinctum. sed si essent due 
+      <lb ed="#L" n="106"/>spirationes actiue realiter distinguerentur inter se 
+      <lb ed="#L" n="107"/>ergo multo fortius distinguerentur a paternitate 
+      <lb ed="#L" n="108"/>et filiatione. et certum est quod quelibet illarum
+      distin<lb ed="#L" n="109" break="no"/>gueretur realiter a spiratione passiua. ergo essent quinque 
+      <!--361.xml-->
+      <pb ed="#L" n="179-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>relationes diuine realiter distincte. et per consequens qui 
+      <lb ed="#L" n="2"/>qued supposita diuina distincta realiter.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e349">
+      ⁋ Ideo
+      di<lb ed="#L" n="3" break="no"/>co quod numquam relatio multiplicatur nisi ex multipli 
+      <lb ed="#L" n="4"/>catione fundamenti absoluti vel ex multiplica 
+      <lb ed="#L" n="5"/>tione termini. sed fundamentum spirationis actiue 
+      <lb ed="#L" n="6"/>est vnicum puta diuina essentia. et terminus est vnus 
+      <lb ed="#L" n="7"/>scilitus sanctus cstins spiratio actiua est vnica
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e362">
+      ⁋ Ad rationes 
+      <lb ed="#L" n="8"/>in contrarium facile esset respondere si illa opinio 
+      <lb ed="#L" n="9"/>esset vera quae ponit quod actio passio distantia simi 
+      <lb ed="#L" n="10"/>litudo dissimilitudo et huiusmodi non important ali 
+      <lb ed="#L" n="11"/>quas relationes. tales sicut ponentes eas yma 
+      <lb ed="#L" n="12"/>ginantur. quia tunc non essent plures relationes. sed tantum 
+      <lb ed="#L" n="13"/>plures denominationes propter diuersa
+      signifi<lb ed="#L" n="14" break="no"/>cata vel connotata.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e380">
+      ⁋ Si tamen teneretur opinio con 
+      <lb ed="#L" n="15"/>munis posset dici ad primum et ad tertium quod est ibi 
+      <lb ed="#L" n="16"/>distinctio terminorum. et illa sufficit.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e388">
+      ⁋ Ad secum 
+      <lb ed="#L" n="17"/>dum difficilius est respondere. potest tamen dici: quod si eadem 
+      <lb ed="#L" n="18"/>albedo numero esset in diuersis subiectis: nulla
+      es<lb ed="#L" n="19" break="no"/>set ibi relatio similitudinis. Qui nec secundum
+      vlti<lb ed="#L" n="20" break="no"/>mam nec primam opinionem sentiunt. dicant sicut pla 
+      <lb ed="#L" n="21"/>cet.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e401">
+      ⁋ Circa secundum dicitur communiter quod pater et filius sunt 
+      <lb ed="#L" n="22"/>vnus spirator et vnum prircipium. Unde dicitur quod quia
+      spi<lb ed="#L" n="23" break="no"/>rans est adiectiuum spirator vero substantiuum ideo pas 
+      <lb ed="#L" n="24"/>sumus dicere quod pater et filius sunt duo spirantes
+      pro<lb ed="#L" n="25" break="no"/>pter pluralitatem suppositorum. non autem duo spira 
+      <lb ed="#L" n="26"/>tores propter vnam spiratione. nam adiectiua non 
+      <lb ed="#L" n="27"/>habent pluralitatem nisi secundum supposita.
+      substanti<lb ed="#L" n="28" break="no"/>ua vero a seipsis secundum formam significatam. Sed ratio 
+      <lb ed="#L" n="29"/>ista non videtur sufficiens. quia terminus numeralis sicut 
+      <lb ed="#L" n="30"/>et alii termini adiectiui additi aliis. semper
+      deno<lb ed="#L" n="31" break="no"/>tantur competere illis pro quibus illi termini quibus 
+      <lb ed="#L" n="32"/>undduntur supponunt. et ideo quia respectu
+      creatura<lb ed="#L" n="33" break="no"/>rum adiectiuum et substantiuum supponunt pro diuer 
+      <lb ed="#L" n="34"/>sis. ideo diuersimode de eis verificantur tales ter 
+      <lb ed="#L" n="35"/>mini importantens pluralitatem Uerbi gratia. pona 
+      <lb ed="#L" n="36"/>tur quod sortes sit musicus et gramaticus tunc hec 
+      <lb ed="#L" n="37"/>sit vera. due scientie sunt in sorte. quia ille scientie sunt 
+      <lb ed="#L" n="38"/>due. et huius causa est. quia hoc substantiuum scientia: siue 
+      <lb ed="#L" n="39"/>numero singulari: siue in numero plurali
+      suppo<lb ed="#L" n="40" break="no"/>nit pro forma quae multiplicatur. et ideo vere contingit 
+      <lb ed="#L" n="41"/>dicere quod sunt due scientie. sed sciens siue in numero 
+      <lb ed="#L" n="42"/>singulari siue in numero plurali supponit pro sub 
+      <lb ed="#L" n="43"/>iecto scientie quod subiectum non multiplicatur. et ideo 
+      <lb ed="#L" n="44"/>hec est simplicitur falsa. sortes est duo scientes. sed si 
+      <lb ed="#L" n="45"/>sciens et scientia pro eodem supponerent. non plus ve 
+      <lb ed="#L" n="46"/>rificaretur terminus importans pluralitatem de vno 
+      <lb ed="#L" n="47"/>quam de alio. sed in proposito spirans et spirator pro
+      eo<lb ed="#L" n="48" break="no"/>dem supponunt. ergo per istam rationem sicut vere potest
+      conce<lb ed="#L" n="49" break="no"/>di quod pater et filius sunt vnus spirator: ita potest 
+      <lb ed="#L" n="50"/>concedi quod pater et filius sunt vnus spirans. As 
+      <lb ed="#L" n="51"/>sumptum probo. quia quero pro quo supponit
+      spira<lb ed="#L" n="52" break="no"/>tor. non pro essentia nec pro persona. quia secundum istos pro 
+      <lb ed="#L" n="53"/>nullo alio potest supponere. non pro essentia. quia ter 
+      <lb ed="#L" n="54"/>minus semper verificatur de illo pro quo supponit 
+      <lb ed="#L" n="55"/>sed hec non est vera. essentia est spirator vel spiratrix 
+      <!--361.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 179-v -->
+               <lb ed="#L" n="56"/>ergo non supponit pro essentia. si pro persona. et pre 
+      <lb ed="#L" n="57"/>persona supponit spirans. ergo pro eodem supponunt 
+      <lb ed="#L" n="58"/>ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e490">
+      ⁋ Ex isto potest argui sic dicendo. pater et 
+      <lb ed="#L" n="59"/>filius sunt duo principia. praedicatum supponit pro 
+      <lb ed="#L" n="60"/>supposito. et supposita sunt duo. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e497">
+      ⁋ Ad 
+      <lb ed="#L" n="61"/>istud respondetur. quod in ista pater et filius sunt vnum 
+      <lb ed="#L" n="62"/>principium. lid principium supponit pro persona. 
+      <lb ed="#L" n="63"/>sed non habet suppositionem determinata sed confi 
+      <lb ed="#L" n="64"/>sam pro duabus personis simul. et ideo sic arguendo 
+      <lb ed="#L" n="65"/>siue principium supponat pro persona patris siue 
+      <lb ed="#L" n="66"/>pro persona filii. pater et filius non sunt vnum princi 
+      <lb ed="#L" n="67"/>pium spiritus sancti. ergo pater et filius non sunt vnum
+      sup<lb ed="#L" n="68" break="no"/>positum. est fallacia figure dictionis.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e517">
+      ⁋ Sed ista 
+      <lb ed="#L" n="69"/>responsio non valet. quia terminus nunquam habet
+      sup<lb ed="#L" n="70" break="no"/>positionem confusam nisi ratione alicuius signi vniversalis. vel 
+      <lb ed="#L" n="71"/>ratione alicuius sincathegoreumatis. sed hic nullum 
+      <lb ed="#L" n="72"/>tale est signum nec sincathegoreumata tale ergo 
+      <lb ed="#L" n="73"/>non habet hic suppositionem confusam.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e530">
+      ⁋ Preterea  
+      <lb ed="#L" n="74"/>quantumcunque terminus habet suppositionem confu 
+      <lb ed="#L" n="75"/>sam nunquam verificatur de pluribus sub compulatione 
+      <lb ed="#L" n="76"/>acceptis. nec de termino plurali. Unde hec est 
+      <lb ed="#L" n="77"/>simpliciter fula. omnes homines sunt animal. similiter hoc est fula. 
+      <lb ed="#L" n="78"/>sortes et plato sunt homo. etiam si homo haberet
+      sup<lb ed="#L" n="79" break="no"/>positionem confusam. ergo eodem modo hec erit fula. pater et 
+      <lb ed="#L" n="80"/>filius sunt principium spiritus sancti. si praedicatum praecise 
+      <lb ed="#L" n="81"/>supponeret pro persona. ex quo pater non est filius 
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e551">
+               <lb ed="#L" n="82"/>⁋ Preterea. terminus eandem suppositionem habet in 
+      <lb ed="#L" n="83"/>numero singulari et in numero plurali. ergo si hec sit 
+      <lb ed="#L" n="84"/>vera pater et filius sunt principium spiritus sancti. quia
+      praedica<lb ed="#L" n="85" break="no"/>tum supponit pro duabus personis confuse. ergo equaliter 
+      <lb ed="#L" n="86"/>vel multo fortius hec est vera. pater et filius sunt prin 
+      <lb ed="#L" n="87"/>cipia spiritus sancti. quia praedicatum supponit pro duabus 
+      <lb ed="#L" n="88"/>personis confuse
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e569">
+      ⁋ Ideo dico aliter ad quaestionem
+      cir<lb ed="#L" n="89" break="no"/>ca quam sic est procedendum.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e574">
+      ⁋ Primo videndum est 
+      <lb ed="#L" n="90"/>de talibus affirmatiuis. et pri et filius sunt vnum
+      prin<lb ed="#L" n="91" break="no"/>cipium spirans. vnus spirator. vnus spirans. et de similibus 
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e581">
+               <lb ed="#L" n="92"/>⁋ Secundo de negatiuis eisdem correspondentibus. 
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e586">
+               <lb ed="#L" n="93"/>⁋ Tertio mouebo aliqua dubia et soluam.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e591">
+      ⁋ Circa prim 
+      <lb ed="#L" n="94"/>mum dico quod omnes tales affirmatiue de virtute
+      ser<lb ed="#L" n="95" break="no"/>modis sunt concedende. cuius ratio est. quia quando ex aliquo 
+      <lb ed="#L" n="96"/>vno omnino eodem et duobus oppositis. constituuntur 
+      <lb ed="#L" n="97"/>duo distincta realiter. si alterum oppositorum relatiue 
+      <lb ed="#L" n="98"/>praedicatur de vno illorum constitutorum. reliquum opposi 
+      <lb ed="#L" n="99"/>torum praedicabitur de reliquo. sed accipiendo praecise duo 
+      <lb ed="#L" n="100"/>constituta ex essentia diuina et spiratione actiua et 
+      <lb ed="#L" n="101"/>spiratione passiua. de constituto ex essentia et spira 
+      <lb ed="#L" n="102"/>tione passiua contigit vere dicere quod istud constitutum 
+      <lb ed="#L" n="103"/>spiratur. ergo de constituto ex essentia et spiratione activa 
+      <lb ed="#L" n="104"/>contigit vere dicere. istud spirat. sed illud constitutum est 
+      <lb ed="#L" n="105"/>vnicum et non plura. sicut essentia est vnica. et illa spi 
+      <lb ed="#L" n="106"/>ratio actio est vnica. ergo haec est vnum spirans. et per consequens 
+      <lb ed="#L" n="107"/>vnus spirator. sed tam pater quam filius est illud vnicum
+      costi<lb ed="#L" n="108" break="no"/>tutum ex essentia et spiratione actiua. ergo pater et filius vere 
+      <lb ed="#L" n="109"/>sunt vnus spirator. et vnum principium spirans spictum 
+      <lb ed="#L" n="110"/>secantum. sed de ista. pater et filius sunt vnus spirans est magis 
+      <!--362.xml-->
+      <pb ed="#L" n="180-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dubium. quia si praedicatum hic quia est masculini
+      gene<lb ed="#L" n="2" break="no"/>ris ex vsu loquentium non possit supponere nisi 
+      <lb ed="#L" n="3"/>propersona. sic est hec neganda. quia pater et filius non sunt 
+      <lb ed="#L" n="4"/>vna persona spirans. si aut praedicatum de virtute se 
+      <lb ed="#L" n="5"/>monis posset supponere pro omni illo quod spirat 
+      <lb ed="#L" n="6"/>siue sit persona formaliter siue non sit formaliter
+      perso<lb ed="#L" n="7" break="no"/>na cuiusmodi est tale constitutum ex essentia et spi 
+      <lb ed="#L" n="8"/>ratione actione circumsceribendo tam paternitatem quam 
+      <lb ed="#L" n="9"/>filiationem. et sic est simpliciter concedenda
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e657">
+      ⁋ Confirma 
+      <lb ed="#L" n="10"/>tur ista responsio. quia semper constituens a quo consti 
+      <lb ed="#L" n="11"/>tutum non distinguitur realiter praedicatur vere de
+      consti<lb ed="#L" n="12" break="no"/>tuto. sicut quia nec paternitas nec essentia differt rea 
+      <lb ed="#L" n="13"/>liter a pre vere cotingit dicere quod et patet est essen 
+      <lb ed="#L" n="14"/>tia et paternitas. sed spirare non differt realiter a con 
+      <lb ed="#L" n="15"/>stituto ex essentia et spiratione. ergo de illo constitu 
+      <lb ed="#L" n="16"/>to contingit vere dicere quod est spirans. sed sicut prius 
+      <lb ed="#L" n="17"/>dictum est tam pater quam filius est illud constitutum. ergo etc. 
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e677">
+               <lb ed="#L" n="18"/>⁋ Circa secundum posset probabiliter dici quod de virtu 
+      <lb ed="#L" n="19"/>te sermonis ex quo principium spiras. spirator et 
+      <lb ed="#L" n="20"/>huiusmodi: non tantum supponit pro tali constituto sen etiam pro 
+      <lb ed="#L" n="21"/>persona. quia aliter non verificaretur de persona. et semper 
+      <lb ed="#L" n="22"/>tales propositiones sunt vere. ex hoc quod tales
+      termi<lb ed="#L" n="23" break="no"/>ni importantes pluralitatem verificantur de illis pro 
+      <lb ed="#L" n="24"/>quibus termini quibus adduntur supponunt. posset in 
+      <lb ed="#L" n="25"/>quam probabiliter dici quod tales de virtute sermonis 
+      <lb ed="#L" n="26"/>posset concedi. quia tamen communiter in terminis de
+      quo<lb ed="#L" n="27" break="no"/>cumque praedicatur terminus importans vnitatem. de
+      eis<lb ed="#L" n="28" break="no"/>dem negatur pluralitas. sicut si hec est vera sortes et 
+      <lb ed="#L" n="29"/>sortes albus sunt vnum. hec est vera. sortes et sortes 
+      <lb ed="#L" n="30"/>albus non sunt plura.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e708">
+      ⁋ Ideo propter hereticos 
+      <lb ed="#L" n="31"/>et occasionem deceptonis simplicium. sancti et ecculsia 
+      <lb ed="#L" n="32"/>concedentes quod pater et filius sunt vnum principium spiritus sanctus
+      ne<lb ed="#L" n="33" break="no"/>gant tales. pri et filius sunt duo principi spiritus sanctus
+      Lamen<lb ed="#L" n="34" break="no"/>aliquando in dictis sanctorum inueniuntur tales propositio 
+      <lb ed="#L" n="35"/>nes sicut dicit hilarius. spiritus sanctus a patre et fi 
+      <lb ed="#L" n="36"/>lio auctoribus est confitendus etc. vbi videtur loqui 
+      <lb ed="#L" n="37"/>de virtute sermonis. Alii sancti autem ne ostenda 
+      <lb ed="#L" n="38"/>tur aliqua distinctio in spiratione actione negant 
+      <lb ed="#L" n="39"/>tales propositiones.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e730">
+      ⁋ Ideo dico simpliciter cum
+      determi<lb ed="#L" n="40" break="no"/>natione eculalie: quod pater et silius sunt vnum principium 
+      <lb ed="#L" n="41"/>tsusinceus non duo principia. et spirant vnica spiratione non 
+      <lb ed="#L" n="42"/>duabus spirationibus.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e739">
+      ⁋ Tertio sunt aliqua dubia 
+      <lb ed="#L" n="43"/>mouenda. Primum quia non videtur quod prtri et filius sint 
+      <lb ed="#L" n="44"/>vnum principium spirans spiritus sanctus quia sed beatum augustinum 
+      <lb ed="#L" n="45"/>tres persone sunt vnum principium creature. sicut 
+      <lb ed="#L" n="46"/>pater et filius sunt vnum principium spiritsncti sta propositio 
+      <lb ed="#L" n="47"/>tres persone sunt vnum principium ceeature non potest es 
+      <lb ed="#L" n="48"/>se vera. nisi secundum quod praedicatum supponit pro essentia 
+      <lb ed="#L" n="49"/>ergo nec ista. pater et filius sunt vnum principium spiritus sanctu potest esse 
+      <lb ed="#L" n="50"/>vera. nisi secundum quod praedicatum supponit pro essentia. sed 
+      <lb ed="#L" n="51"/>isto modo est hec simpliciter falsa. sicut hec est simpliciter
+      fal<lb ed="#L" n="52" break="no"/>sa. pater et filius sunt vna essentia spirans spiritus sanctus er 
+      <lb ed="#L" n="53"/>ista omnino est falsa.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e765">
+      ⁋ Secundum dubium est. quia vide 
+      <lb ed="#L" n="54"/>tur quod spirare non praedicatur de tali constituto ex 
+      <lb ed="#L" n="55"/>essentia et spiratione actione. quia secundum philosophum actus 
+      <!--362.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 180-r -->
+               <lb ed="#L" n="56"/>sunt suppositorum. sed tale constitutum non est super 
+      <lb ed="#L" n="57"/>positum. ergo non spirat.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e784">
+      ⁋ Tertium. quia non videtur ratio 
+      <lb ed="#L" n="58"/>valere. quia nihil potest constitui ex essentia et spira 
+      <lb ed="#L" n="59"/>tione actiua circumscribendo paternitatem et filia 
+      <lb ed="#L" n="60"/>tione. quia nihil potest constitui ex extremis
+      circum<lb ed="#L" n="61" break="no"/>scribendo medium: sed paternitas est quasi medi um 
+      <lb ed="#L" n="62"/>inter essentiam et spirationem actiuam. quia est
+      poste<lb ed="#L" n="63" break="no"/>rior essentia et prior spiratione. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e800">
+      ⁋ Quar 
+      <lb ed="#L" n="64"/>tum dubium est. an secundum praedicta debeat concedi de 
+      <lb ed="#L" n="65"/>vitutem sermonis. quod pater spirat et filius spirat 
+      <lb ed="#L" n="66"/>et videtur quod non. quia dictum fuit in. v. distinctione 
+      <lb ed="#L" n="67"/>quod aliqua sunt vocabula que non possunt praedica 
+      <lb ed="#L" n="68"/>ri de aliquibus nisi quibus immediate conueniunt. 
+      <lb ed="#L" n="69"/>cuiusmodi sunt generare et spirare et huiusmodi 
+      <lb ed="#L" n="70"/>ergo cum non immediate et primo spirare coueniat 
+      <lb ed="#L" n="71"/>patri nec filio. videtur quod nullo modo potest de eo
+      ve<lb ed="#L" n="72" break="no"/>re praedicari.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e822">
+      ⁋ Ad primum istorum dico quod quantum ad  
+      <lb ed="#L" n="73"/>aliquid est simile de patre et filio respectu spiritus 
+      <lb ed="#L" n="74"/>sancti. et de tribus personis respectu creature. et 
+      <lb ed="#L" n="75"/>quantum ad aliquid est dissimile. Est enim simile quantum 
+      <lb ed="#L" n="76"/>ad hoc. quod sicut vere et simplicitur contingit dice 
+      <lb ed="#L" n="77"/>re. tres persone sunt vnum principium creature. ita 
+      <lb ed="#L" n="78"/>cotingit vere dicere. quod pater et filius sunt vnum 
+      <lb ed="#L" n="79"/>principium spiritus sancti. Est autem dissimile quantum 
+      <lb ed="#L" n="80"/>ad hoc. quod sicut dico tres persone sunt vnum
+      prin<lb ed="#L" n="81" break="no"/>cipium creature. non potest ista verificari nisi secundum quod 
+      <lb ed="#L" n="82"/>principium ibi supponit pro essentia diuina. ita 
+      <lb ed="#L" n="83"/>quod si pro quocumque alio supponeret non posset
+      pro<lb ed="#L" n="84" break="no"/>pter hoc verificari. et ideo distinguendo in diui 
+      <lb ed="#L" n="85"/>nis principium quo et principium quod. non potest illa 
+      <lb ed="#L" n="86"/>verificari nisi secundum quod supponit pro principio quo 
+      <lb ed="#L" n="87"/>non pro principio quod. quod quidem quod distinguatur a 
+      <lb ed="#L" n="88"/>quo. et ideo iste est sensus pater et filius et
+      spiritusi<lb ed="#L" n="89" break="no"/>sanctus. sunt vnum principium creature. hoc est sunt 
+      <lb ed="#L" n="90"/>vna essentia quae est principium creature. et quae est
+      ve<lb ed="#L" n="91" break="no"/>re creans creaturam. sed si dico pater et filius sunt 
+      <lb ed="#L" n="92"/>vnum principium spiritus sancti. principium ibi non tantum
+      suppo<lb ed="#L" n="93" break="no"/>nit pro essentia diuina. vt iste sit sensus. pater et 
+      <lb ed="#L" n="94"/>filius sunt vna essentia quae est principium spiritus sancti. scilice 
+      <lb ed="#L" n="95"/>elicitiuum. sed etiam supponit pro aliquo quod non est 
+      <lb ed="#L" n="96"/>idem formaliter cum diuina essentia. sicut dictum est. 
+      <lb ed="#L" n="97"/>qui pater et filius sunt vnum constitutum ex diuina essen 
+      <lb ed="#L" n="98"/>tia et spiratione actiua. quod quidem est vere spirans 
+      <lb ed="#L" n="99"/>sprimtunsctantum. ita quod non tantum est quo. sed etiam est vere quod 
+      <lb ed="#L" n="100"/>Ex isto patet. quod aliquo modo aliter concedi potest quod  
+      <lb ed="#L" n="101"/>pater et filius sunt vnus spirator. et non omni modo
+      consi<lb ed="#L" n="102" break="no"/>mili potest concedi quod tres persone sunt vnus creator. 
+      <lb ed="#L" n="103"/>qui ista. pater et filius sunt vnus spirator habet 
+      <lb ed="#L" n="104"/>duas causas veritatis veras. videlicet quod patr et filius 
+      <lb ed="#L" n="105"/>sunt vna diuina essentia. quae est principium
+      eliciti<lb ed="#L" n="106" break="no"/>uum productionis spiritus sancti. et pater et filius sunt 
+      <lb ed="#L" n="107"/>vnum vere spirans spusctantum. quod non est formaliter 
+      <lb ed="#L" n="108"/>diuina essentia. sicut nec pater est formaliter diutra 
+      <lb ed="#L" n="109"/>essentia quamuis realiter. Sed ista. tres persone funt 
+      <lb ed="#L" n="110"/>vnus creator: non habet nisi vnam causam veritatis 
+      <!--363.xml-->
+      <pb ed="#L" n="180-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>veram. videlicet quod tres persone diuine sunt vna 
+      <lb ed="#L" n="2"/>essentia diuina que est principium creature. Ista 
+      <lb ed="#L" n="3"/>autem tres persone sunt vnum creans creaturam quod no 
+      <lb ed="#L" n="4"/>est formaliter diuina essentia est simplicitur falsa 
+      <lb ed="#L" n="5"/>qui illud vnum non posset esse nisi aliquae persona vel 
+      <lb ed="#L" n="6"/>aliqua relatio vel constitutum ex diuina essentia et spi 
+      <lb ed="#L" n="7"/>ratione actiua. et quodcunque illorum daretur non erit 
+      <lb ed="#L" n="8"/>verum dicere. quod tres persone sunt ipsum. sicut non est 
+      <lb ed="#L" n="9"/>verum dicere quod tres sunt vnus pater.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e933">
+      ⁋ Ad secundum 
+      <lb ed="#L" n="10"/>dico quod non est verum. nec est intentio ari quod actus 
+      <lb ed="#L" n="11"/>sunt praecise suppositorum. sed quod omnes actus reales 
+      <lb ed="#L" n="12"/>sunt praecise singularium. et concedo quod illud constitutum 
+      <lb ed="#L" n="13"/>vere est singulare. quamuis non sit formaliter aliquod 
+      <lb ed="#L" n="14"/>suppositum.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e946">
+      ⁋ Ad tertium dico quod quando inter extrema 
+      <lb ed="#L" n="15"/>est aliquod medium receptiuum vnius extremi et rece 
+      <lb ed="#L" n="16"/>ptum in altero extremo potest concedi quod ex extremis 
+      <lb ed="#L" n="17"/>non fit vnum praecise non concurrente medio. si autem sit 
+      <lb ed="#L" n="18"/>medium aliquo alio modo non oportet. Nunc autem po 
+      <lb ed="#L" n="19"/>nendo quod spiratio actiua sit aliquo modo posterior 
+      <lb ed="#L" n="20"/>prnitate. non est tali modo posterior. et ideo non ob 
+      <lb ed="#L" n="21"/>stante quod esset aliquo modo posterior. sed vere aliquo 
+      <lb ed="#L" n="22"/>modo constitue ret vnum cum diuina essentia. quamuis
+      il<lb ed="#L" n="23" break="no"/>lud constitutum non constitueret paternitas. et hoc 
+      <lb ed="#L" n="24"/>qui illud constitutum vere reperitur in aliquo in quo 
+      <lb ed="#L" n="25"/>non repritur paternitas. videlicet in filio. et ipsum 
+      <lb ed="#L" n="26"/>est aliquid realiter a quo tamen paternitas realiter
+      di<lb ed="#L" n="27" break="no"/>stinguitur
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e977">
+      ⁋ Aliter deficit argumentum. quia procedit 
+      <lb ed="#L" n="28"/>ex falsa imaginatione. videlicet quod paternitas sit prior 
+      <lb ed="#L" n="29"/>spiratione activa et non econuerso. quia spiratio activa 
+      <lb ed="#L" n="30"/>vno modo prioritatis est prior ipsa paternitate sicu 
+      <lb ed="#L" n="31"/>essentia est prior qualibet relatione. sicut enim essentia 
+      <lb ed="#L" n="32"/>est prior omni relatione prioritate communitatis vel consequente 
+      <lb ed="#L" n="33"/>qui sequitur quacumque relatione demonstrata hec
+      re<lb ed="#L" n="34" break="no"/>latio est filiatio. ergo hec relatio est essentia. et tamen 
+      <lb ed="#L" n="35"/>econuerso non sequitur consequentia formali. quia non sequitur 
+      <lb ed="#L" n="36"/>formaliter. hec relatio est essentia. ergo est filius. quia 
+      <lb ed="#L" n="37"/>paternitas est essentia. et tamen non est filius. ita est de 
+      <lb ed="#L" n="38"/>spiratione actiua. quia ipsa est prior paternitate et etiam 
+      <lb ed="#L" n="39"/>filiatione prioritate cuiusdam communitatis et consequente. quia in 
+      <lb ed="#L" n="40"/>quocumque est paternitas in eodem est spiratio actio 
+      <lb ed="#L" n="41"/>sed non ecouerso. et sequitur in hac persona est paternitas 
+      <lb ed="#L" n="42"/>ergo in hac persona est spiratio actiua. et non econ 
+      <lb ed="#L" n="43"/>uerso. et ita activa spiratio necessario est prior pa 
+      <lb ed="#L" n="44"/>ternitate tali prioritate. et ideo posito quod aliqua alia 
+      <lb ed="#L" n="45"/>prioritate prnitas esset prior spiratione actiua.
+      ta<lb ed="#L" n="46" break="no"/>lis prioritas non obstaret quin spiratio actiua cum 
+      <lb ed="#L" n="47"/>essentia diuina posset constituere aliquid per se vnum. 
+      <lb ed="#L" n="48"/>ad cuius tamen constitutionem non concurrat paternitas. 
+      <lb ed="#L" n="49"/>sicut tam essentia diuina quam spiratio actiua vere 
+      <lb ed="#L" n="50"/>sunt in filio in quo non est paternitas tali mo 
+      <lb ed="#L" n="51"/>essendi in. vt vere dicatur quod filius est paternitas. 
+      <lb ed="#L" n="52"/>sicut vere dicitur quod filius est essentia diuina et
+      spi<lb ed="#L" n="53" break="no"/>ratio actiua
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e1037">
+      ⁋ Si dicatur quod ex isto sequitur quod sunt 
+      <lb ed="#L" n="54"/>upposita quattuor in diuinis. quia tanta est
+      distin<lb ed="#L" n="55" break="no"/>ctio iuter essentiam diuinam et spirationem actiuam 
+      <!--363.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 180-v -->
+               <lb ed="#L" n="56"/>quanta est inter essentiam diuinam et spirationem pas 
+      <lb ed="#L" n="57"/>siuam. vel inter essentiam diuinam et paternitate. ergo 
+      <lb ed="#L" n="58"/>qua ratione constitutum vnum est suppositum et aliud  
+      <lb ed="#L" n="59"/>et ita erunt quatuor
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e1059">
+      ⁋ Respondeo negando consequentiam 
+      <lb ed="#L" n="60"/>quia quamuis tanta sit distinctio inter essentiam diuinam 
+      <lb ed="#L" n="61"/>et spirationem actiuam. quanta est in ter essentiam 
+      <lb ed="#L" n="62"/>diuinam et spirationem passiuam. vel inter essentiam 
+      <lb ed="#L" n="63"/>diuinam et paternitatem. ipsa tamen paternitas distin 
+      <lb ed="#L" n="64"/>guitur realiter a filiatione. nec est eadem realiter cum dua 
+      <lb ed="#L" n="65"/>bus relationibus realiter distinctis. sed spiratio 
+      <lb ed="#L" n="66"/>actiua est eadem realiter tam cum paternitate quam cum 
+      <lb ed="#L" n="67"/>filiatione. et ideo non constituit suppositum distinctu 
+      <lb ed="#L" n="68"/>ab eis. quameuis constituat aliquod vnum quod non est for 
+      <lb ed="#L" n="69"/>maliter pater nec filius: sicut ipsa spiratio actiua 
+      <lb ed="#L" n="70"/>non est formaliter nec paternitas nec filiatio 
+      <lb ed="#L" n="71"/>Eodem modo quia spiratio passiua distinguitur rea 
+      <lb ed="#L" n="72"/>liter a paternitate et filiatione. ideo constituit
+      sup<lb ed="#L" n="73" break="no"/>positum realiter distinctum a duobus suppositis com 
+      <lb ed="#L" n="74"/>stitutis per paternitatem et filiationem. sed spiratio a 
+      <lb ed="#L" n="75"/>ctiua quia differt realiter a spiratione passiua et 
+      <lb ed="#L" n="76"/>non distinguitur realiter a paternitate et filiatio 
+      <lb ed="#L" n="77"/>ne. ideo constituit duo supposita distincta a
+      sup<lb ed="#L" n="78" break="no"/>posito constituto per spirationem passiuam. sed non
+      co<lb ed="#L" n="79" break="no"/>stitutum realiter distinctum a superpositis
+      constitu<lb ed="#L" n="80" break="no"/>tis paternitate et filiatione.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e1107">
+      ⁋ Ad quartum dico 
+      <lb ed="#L" n="81"/>quod potest concedi quod tam pater quam filius spirat Et quando 
+      <lb ed="#L" n="82"/>dicitur: quod dictum fuit quod talia vocabula non
+      praedican<lb ed="#L" n="83" break="no"/>tur nisi de illis quibus immediate conueniunt. Dicen 
+      <lb ed="#L" n="84"/>dum quod fuit dictum: quod talia denotat distinctionem 
+      <lb ed="#L" n="85"/>realem. et ideo propter aliquid de quo praedicantur quod non 
+      <lb ed="#L" n="86"/>est formaliter aliud: nec ipsum constituit nec ecom 
+      <lb ed="#L" n="87"/>uerso. non possunt inferri tali competere. quia dictum fuit 
+      <lb ed="#L" n="88"/>quod nihil dicitur esse idem vel diuersum ab alio propter 
+      <lb ed="#L" n="89"/>aliquid sibi extrinsecum. Ueruntamen sicut aliquid dicitur 
+      <lb ed="#L" n="90"/>distingui ab alio propter aliquod sibi intrinsecum 
+      <lb ed="#L" n="91"/>quod distinguitur ab illo. ita talia vocabula ratione 
+      <lb ed="#L" n="92"/>intrinseci possunt sibi competere. et ideo quia tale constitu 
+      <lb ed="#L" n="93"/>tum est intrinsecum tam patri quam filio. ita quod constitui 
+      <lb ed="#L" n="94"/>cum relationibus oppositis tam patrem quam filium: potest 
+      <lb ed="#L" n="95"/>concedi quod quia illud constitutum primo spirat. quia tam 
+      <lb ed="#L" n="96"/>pater quam filius spirat per se quamuis non primo. Non sic 
+      <lb ed="#L" n="97"/>autem est de essentia. quia pater non constituit essentiam 
+      <lb ed="#L" n="98"/>sed magis econuerso. et ideo ex hoc quod pater spirat 
+      <lb ed="#L" n="99"/>non potest inferri formaliter quod essentia spirat
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e1151">
+      ⁋ Ad  
+      <lb ed="#L" n="100"/>primum principale dico quod aliquis terminus in diuinis 
+      <lb ed="#L" n="101"/>non supponit primo pro essentia: nec pro persona nec 
+      <lb ed="#L" n="102"/>pro relatione. sed pro aliquo constituto ex essentia et re 
+      <lb ed="#L" n="103"/>latione ita quod non est formaliter aliqua persona: quamuis 
+      <lb ed="#L" n="104"/>sit realiter due persone. et ideo in ista propositione. pater et 
+      <lb ed="#L" n="105"/>filius sunt vnum principium spirans spiritus sanctus praedicatum non 
+      <lb ed="#L" n="106"/>supponit pro essentia nec pro persona nec pro relati 
+      <lb ed="#L" n="107"/>one primo. sed pro vno constituto quod est realiter pa 
+      <lb ed="#L" n="108"/>ter et filius quamuis non formaliter.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e1173">
+      ⁋ Ex isto patet quod 
+      <lb ed="#L" n="109"/>aliter potest ista verificari. deus spirat. quam ista. deus 
+      <lb ed="#L" n="110"/>creat. vel deus generat. quia in ista deus spirat. 
+      <!--364.xml-->
+      <pb ed="#L" n="181-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>deus supponit primo pro hoc deo. puta pro vno ta 
+      <lb ed="#L" n="2"/>li constituto ex essentia et spiratione actiua: quod non 
+      <lb ed="#L" n="3"/>est formaliter nec essentia nec aliqua relatio nec 
+      <lb ed="#L" n="4"/>persona. sed in ista deus creat subiectum non
+      suppo<lb ed="#L" n="5" break="no"/>nit primo pro aliquo quod non est formaliter essentia 
+      <lb ed="#L" n="6"/>nec aliqua persona. sicut argutum est supra dis. 
+      <lb ed="#L" n="7"/>iiii.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e1202">
+      ⁋ Ad secundum dico quod principium ibi dicit
+      ali<lb ed="#L" n="8" break="no"/>quid notionale. quia sicut spiratio actio est
+      ali<lb ed="#L" n="9" break="no"/>quid notionale quia non est communis tribus personis. itai 
+      <lb ed="#L" n="10"/>illud constitutum ex essentia et spiratione actio 
+      <lb ed="#L" n="11"/>ne est aliquid notionale. quia non est commune tribus per 
+      <lb ed="#L" n="12"/>sonis.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e1216">
+      ⁋ Et quando dicitur quod illud notionale non pos 
+      <lb ed="#L" n="13"/>set esse nisi persona vel. relatio.
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e1221">
+      ⁋ Dico quod est rea 
+      <lb ed="#L" n="14"/>liter. est relatis et persona licet non formaliter. et 
+      <lb ed="#L" n="15"/>hoc sufficit
+    </p>
+            <p xml:id="wo8uy7-d1e894-d1e1228">
+      ⁋ Ad tertium dico quod maior non est 
+      <lb ed="#L" n="16"/>niversaliter vera. quia aliquando contingit prius
+      multi<lb ed="#L" n="17" break="no"/>plicari quamuis posterius non multiplicetur. quia 
+      <lb ed="#L" n="18"/>sunt instantie quasi infinite. patet quod respectu vnius 
+      <lb ed="#L" n="19"/>effectus sunt plures cause. tam in eodem genere 
+      <lb ed="#L" n="20"/>cause quam in diuersis generibus cause. Similiter 
+      <lb ed="#L" n="21"/>aliquando receptibilia eiusdem accidentis secundum spe 
+      <lb ed="#L" n="22"/>ciem distinguuntur specie. et ita est in multis tali 
+      <lb ed="#L" n="23"/>bus. Ad minorem dico: quod paternitas et filiatio 
+      <lb ed="#L" n="24"/>quamuis essent priores aliqua prioritate spiratione 
+      <lb ed="#L" n="25"/>actiua. tamen alia prioritate sunt posteriores. quia prio 
+      <lb ed="#L" n="26"/>ritate communitatis vel consequentie sicut dictum est 
+      <lb ed="#L" n="27"/>et ideo quamuis esset aliqua prioritas paternitatis 
+      <lb ed="#L" n="28"/>et filiationis ad spirationem actiuam. illa tamen non ob 
+      <lb ed="#L" n="29"/>staret quin paternitas et filiatio possent esse re 
+      <lb ed="#L" n="30"/>lationes plures et spiratio actiua vna. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

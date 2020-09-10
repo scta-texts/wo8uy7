@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12(14)</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12(14)</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e2040"><!-- l2q12(14) -->
+            <head xml:id="wo8uy7-d1e2040-Hd1e108">Quaestio 12(14)</head>
+            <p xml:id="wo8uy7-d1e2040-d1e111">
+      Questio. xiiii. 
+      <lb ed="#L" n="40"/>UTrum angelus 
+      intel<lb ed="#L" n="41" break="no"/>ligat alia a se per essentiam suam vel per 
+      <lb ed="#L" n="42"/>loperationes. Quod per essentiam probatur: quia si 
+      <lb ed="#L" n="43"/>non hoc non potest esse nisi quadrupliciter: aut quia vna 
+      <lb ed="#L" n="44"/>res non potest esse ratio cognoscendi aliam: aut quia ratio co 
+      <lb ed="#L" n="45"/>gnoscendi debet esse perfectior cognito: aut quia vna 
+      <lb ed="#L" n="46"/>cognitio non potest esse nisi vnius rei: aut quia vna 
+      <lb ed="#L" n="47"/>ratio non potest esse infinitorum. Non propter primum 
+      <lb ed="#L" n="48"/>tum quia subiectum est ratio cognoscendi passionem. tum 
+      <lb ed="#L" n="49"/>qui species rei est ratio cognoscendi rem absolutam: nec
+      pro<lb ed="#L" n="50" break="no"/>pter secundum quia in absentia obiecti perfectorum
+      intel<lb ed="#L" n="51" break="no"/>lectus potest illud inte lligere quod est imperfectius 
+      <lb ed="#L" n="52"/>puta per speciem. nec propter tertium: quia sicut non repu 
+      <lb ed="#L" n="53"/>gnat vni cause effectiue plura producem: ita (vt 
+      <lb ed="#L" n="54"/>videtur) non repugnat vni rationi plura represen¬ 
+      <!--615.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 306-v -->
+               <lb ed="#L" n="55"/>tare et esse ratio cognoscendi plura. Nec propi 
+      <lb ed="#L" n="56"/>quartum: quia non magis potest concludi infinitas in ratio 
+      <lb ed="#L" n="57"/>cognoscendi ex hoc quod est ratio cognoscendi infinita 
+      <lb ed="#L" n="58"/>quam potest concludi infinitas in causa ex infinitate effectuum 
+      <lb ed="#L" n="59"/>producibilium ab ea: quia ratio congnoscendi non est
+      ma<lb ed="#L" n="60" break="no"/>ior perfectio vel magis perfecta quam ratio producendi. sed  
+      <lb ed="#L" n="61"/>ex infinitate effectuum non arguitur infinitas in causa 
+      <lb ed="#L" n="62"/>qui inte lectus potest causare infinitas intellecti 
+      <lb ed="#L" n="63"/>ones et voluntas infinitas volitiones. nam secundum Au 
+      <lb ed="#L" n="64"/>gustinum tertio de trinitate caplo. xiii. in actibus 
+      <lb ed="#L" n="65"/>reflexis est processus in infinitum. ergo etc. Si dicas 
+      <lb ed="#L" n="66"/>quod intellectus est causa partialis respectu actus su 
+      <lb ed="#L" n="67"/>et voluntas similiter. et ideo non sequitur infinitas. Contra 
+      <lb ed="#L" n="68"/>coformiter dico de ratione cognoscendi quod est caus 
+      <lb ed="#L" n="69"/>et ratio partialis repraesentandi infinita. ergo etc.
+      Confir<lb ed="#L" n="70" break="no"/>matur. non magis repugnat deo concurrere cum 
+      <lb ed="#L" n="71"/>illa ratione ad repraesentandum infinita quam cum causa secunda 
+      <lb ed="#L" n="72"/>ad producendum infinita: sed primum potest. ergo et secundum 
+      <lb ed="#L" n="73"/>Ad oppositum posita potentia sufficiente et ratione re 
+      <lb ed="#L" n="74"/>praesentandi potest potentia exire in actum nisi volun 
+      <lb ed="#L" n="75"/>tas impediat. ergo posito intellectu angelico cum 
+      <lb ed="#L" n="76"/>sua essentia solum sine omni alio si non impediat impe 
+      <lb ed="#L" n="77"/>rium voluntatis potest omnia intelligere quod fal 
+      <lb ed="#L" n="78"/>sum est. ergo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

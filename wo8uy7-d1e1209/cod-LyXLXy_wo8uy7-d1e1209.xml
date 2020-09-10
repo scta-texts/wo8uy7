@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="206-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1209"><!-- l1d22q1 -->
+            <head xml:id="wo8uy7-d1e1209-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1209-d1e111">
+               <lb ed="#L" n="63"/>⁋ Distinc. xxii. Questio vnica. 
+      <lb ed="#L" n="64"/>Irca distinctio 
+      <lb ed="#L" n="65"/>ine. xxii. quaero. An viator possit 
+      <lb ed="#L" n="66"/>aliquod nomen imponere ad  
+      <lb ed="#L" n="67"/>distincte significandum divinam 
+      <lb ed="#L" n="68"/>essentiam.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e127">
+      Quod non. quia nullum
+      no<lb ed="#L" n="69" break="no"/>men imponitur nisi cognito. sed 
+      <lb ed="#L" n="70"/>viator non potest dtum distincte cognoscere. ergo nec 
+      <lb ed="#L" n="71"/>nomen ab eo impositum poterit eum distincte si 
+      <lb ed="#L" n="72"/>gnificare. Preterea secundum philosophum primo periar. vocens sunt 
+      <lb ed="#L" n="73"/>note earum passionum quae sunti anima. sed deus non est passio. 
+      <lb ed="#L" n="74"/>anima. ergo vox non eum distincte significat.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e143">
+      ⁋ Ad 
+      <lb ed="#L" n="75"/>oppositum illud quod significat deum et nihil aliud  
+      <lb ed="#L" n="76"/>distincte deum significat. sed multa nomina deum si 
+      <lb ed="#L" n="77"/>gnificant et nihil aliud. patet de hoc nomine deus. ergo 
+      <lb ed="#L" n="78"/>multa nomina distincte deum significant. et illa sunt 
+      <lb ed="#L" n="79"/>imposita a viatore. ergo et c
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e156">
+      ⁋ Circa istam questionem 
+      <lb ed="#L" n="80"/>primo videndum est quid nomen primo significat 
+      <lb ed="#L" n="81"/>secundo de proposito principali
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e164">
+      ⁋ Circa primum 
+      <lb ed="#L" n="82"/>videtur aliquibus quod vox primo significat conceptum 
+      <lb ed="#L" n="83"/>mentis et non rem extra animam
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e171">
+      ⁋ hoc probatur prime 
+      <lb ed="#L" n="84"/>auctoritate Aristo. sicut allegatum est in
+      arguen<lb ed="#L" n="85" break="no"/>do ad principale
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e178">
+      ⁋ Preterea voces sunt inuente 
+      <lb ed="#L" n="86"/>ad exprimendum conceptum mentis. sed illud prie 
+      <lb ed="#L" n="87"/>significant propter quod exprimendum sunt inuente 
+      <lb ed="#L" n="88"/>ergo primo significant conceptum mentis.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e187">
+      ⁋
+      Pre<lb ed="#L" n="89" break="no"/>terea secundum priscianum nihil aliud est esse partem 
+      <lb ed="#L" n="90"/>orastonis quam mentis conceptum significare. ergo omnis 
+      <lb ed="#L" n="91"/>pars orationis significat conceptum mentis. 
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e196">
+               <lb ed="#L" n="92"/>⁋ Preterea illud per vocem significatur quod prolata 
+      <lb ed="#L" n="93"/>voce primo apprehenditur. sed prolata hac voce 
+      <lb ed="#L" n="94"/>homo primo appreheditur conceptus mentis et non 
+      <lb ed="#L" n="95"/>res. quia non plus vna res quam alia. ergo conceptus 
+      <lb ed="#L" n="96"/>mentis primo per vocem significatur
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e209">
+      ⁋ Contra istam 
+      <lb ed="#L" n="97"/>opinionem voces sunt significatiue ad
+      placi<lb ed="#L" n="98" break="no"/>tum. ergo quod imponens intendit primo
+      signi<lb ed="#L" n="99" break="no"/>ficare per vocem. illud vox primo significat. sed 
+      <lb ed="#L" n="100"/>imponens potest intendere significare primo et 
+      <lb ed="#L" n="101"/>per vocem ipsam rem extra. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e223">
+      ⁋ Si
+      di<lb ed="#L" n="102" break="no"/>catur quod imponens non potest intendere aliud 
+      <lb ed="#L" n="103"/>significare per vocem nisi cognitum. et nihil 
+      <lb ed="#L" n="104"/>potest esse cognitum sine conceptum mentis. et 
+      <lb ed="#L" n="105"/>ideo primo significabit conceptum mentis. hec 
+      <lb ed="#L" n="106"/>proteruia nihil valet. Tum quia aliquid potest
+      co<lb ed="#L" n="107" break="no"/>gnosci sine conceptum mentis. nisi per conceptum 
+      <lb ed="#L" n="108"/>mentis intelligat ipsam cognitione. sicut patet in 
+      <lb ed="#L" n="109"/>notitia intuitiua rei singularis. Tum quia. non 
+      <!--415.xml-->
+      <pb ed="#L" n="206-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sequitur non potest aliquid cognosci sine conceptu 
+      <lb ed="#L" n="2"/>mentis et imponens cognoscit. ergo imponens impo 
+      <lb ed="#L" n="3"/>nit conceptum. sicut non sequitur nihil potest primo 
+      <lb ed="#L" n="4"/>cognosci sine notitia sensitiua. et impon es non 
+      <lb ed="#L" n="5"/>imponit nisi cognoscendo. ergo tunc imponit
+      noti<lb ed="#L" n="6" break="no"/>tie sensitiue.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e262">
+      ⁋ Preterea secundum philosophum in diuersis loqu 
+      <lb ed="#L" n="7"/>diffinitio significat quidditatem rei. sed quidditas 
+      <lb ed="#L" n="8"/>rei non est conceptus mentis. ergo talis vox non primo 
+      <lb ed="#L" n="9"/>significat conceptum mentis. Si dicis quod philosophus loquitur 
+      <lb ed="#L" n="10"/>de diffinitone in mente quod illa sgnificat quiddita 
+      <lb ed="#L" n="11"/>tem. non sic autem diffinitio in voce. Contra. dicit quod 
+      <lb ed="#L" n="12"/>est oro vel sermo indicans quid est esse rei. ergo ipsa 
+      <lb ed="#L" n="13"/>vox secundum eum significat quidditatem rei.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e280">
+      ⁋ Ideo dico 
+      <lb ed="#L" n="14"/>quod quedam nomina primo significant res ex. et quedam 
+      <lb ed="#L" n="15"/>significant primo conceptus mentis. et quedam
+      si<lb ed="#L" n="16" break="no"/>gnificant primo ipsas voces significatiuas. et 
+      <lb ed="#L" n="17"/>est antiqua distinctio quod nomina quadam sunt prime
+      impo<lb ed="#L" n="18" break="no"/>sitionis. quedam sunt nomina secunde impositionis. No 
+      <lb ed="#L" n="19"/>mina secundeimpositionis sunt nomina illa quae imponunt 
+      <lb ed="#L" n="20"/>ad significandum nomina ipsa vel voces
+      significa<lb ed="#L" n="21" break="no"/>tiuas. vel proprietates et conditiones vocum
+      signifi<lb ed="#L" n="22" break="no"/>catiuarum cuiusmodi sunt ista. nomen. verbum.
+      par<lb ed="#L" n="23" break="no"/>ticipium. casus. figura. numerus etc. Nomina prime 
+      <lb ed="#L" n="24"/>imponis quedam sunt nomina prime intentionis. et est 
+      <lb ed="#L" n="25"/>dam nomina secunde intentionis. Prima sunt illa quod 
+      <lb ed="#L" n="26"/>significant veras res. sicut homo animal albedo. 
+      <lb ed="#L" n="27"/>nigredo linea et huiusmodi. Secunda sunt illa quae
+      signi<lb ed="#L" n="28" break="no"/>ficant conceptus mentis. sicut genus species vniversale et 
+      <lb ed="#L" n="29"/>huiusmodi. hoc patet illud primo significatur per vocem
+      pro<lb ed="#L" n="30" break="no"/>quo vox primo ratione institutonis supponit. sed
+      no<lb ed="#L" n="31" break="no"/>mina prime intentionis ex ratione institutionis
+      sup<lb ed="#L" n="32" break="no"/>ponunt pro rebus. et nomina secunde impositionis pro nominibus 
+      <lb ed="#L" n="33"/>vel vocibus. sicut patet inductiue. et nomina secunde inten 
+      <lb ed="#L" n="34"/>tionis pro conceptibus. ergo instituuntur ad illa primo 
+      <lb ed="#L" n="35"/>significandum. Maior patet. quia illud primo
+      signifi<lb ed="#L" n="36" break="no"/>catur per vocem pro quo imponens vtitur illa voce. sed ma 
+      <lb ed="#L" n="37"/>nifestum est quod hoc est illud pro quo vox primo
+      suppo<lb ed="#L" n="38" break="no"/>nit. Unde vtimur illa voce homo principaliter pro hominibus 
+      <lb ed="#L" n="39"/>Ex isto oritur quod vox quecumque ratione institutionis habet 
+      <lb ed="#L" n="40"/>primo supponem personalem. quia ratione institutionis
+      sup<lb ed="#L" n="41" break="no"/>ponit primo pro suis significatur. tamen ratione alicuius ad  
+      <lb ed="#L" n="42"/>iuncti potest supponere pro aliquibus aliis. Et ideo 
+      <lb ed="#L" n="43"/>dictum aliquorum sophistarum dicentium quod
+      supposi<lb ed="#L" n="44" break="no"/>tio personalis est pro suppositum. et suppositio simplex 
+      <lb ed="#L" n="45"/>est pro primo significato est simpliciter falsum. quia
+      sup<lb ed="#L" n="46" break="no"/>posito personalis est pro primo significato. quia eadem 
+      <lb ed="#L" n="47"/>sunt singularia et significata. nec potest aliqua ratio 
+      <lb ed="#L" n="48"/>dari. quare terminus non supponit primo et semper quantum 
+      <lb ed="#L" n="49"/>est ex institutionis ratione pro suo significato. cum
+      in<lb ed="#L" n="50" break="no"/>tentio principalis imponentium sit vti terminis pro 
+      <lb ed="#L" n="51"/>suis significatis. et ideo dicit Ari. primo Elencorum. 
+      <lb ed="#L" n="52"/>quod quia non possumus nobiscum portare res ad dispu 
+      <lb ed="#L" n="53"/>tationem. ideo vtimur vocibus pro rebus quas
+      signi<lb ed="#L" n="54" break="no"/>ficant
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e371">
+      ⁋ Ad primum alterius opinionis dico quod non est 
+      <lb ed="#L" n="55"/>intentio philosophi quod voces primo significant passiones 
+      <!--415.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 206-v -->
+               <lb ed="#L" n="56"/>anime sed quod passiones anime et voces sunt quadam
+      signa<lb ed="#L" n="57" break="no"/>ordinata. ita quod voces instituuntur ad significam 
+      <lb ed="#L" n="58"/>dum non ipsas passiones anime. sed res ipsas quarum 
+      <lb ed="#L" n="59"/>sunt ille passiones. et aliquo modo ille passiones 
+      <lb ed="#L" n="60"/>sunt signa illarum rerum. Quare autem vox sic
+      signi<lb ed="#L" n="61" break="no"/>ficans plura eque primo non sit equiuoca sicut alia. di 
+      <lb ed="#L" n="62"/>ctum est prius
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e397">
+      ⁋ Ad secundum dico quod voces sunt inuem 
+      <lb ed="#L" n="63"/>te ad exprimendum res. et ad exprmendum conceptus 
+      <lb ed="#L" n="64"/>et passiones mentis. et ideo aliqua significant res et 
+      <lb ed="#L" n="65"/>aliqua conceptus mentis. sicut iste voces. homo animal et 
+      <lb ed="#L" n="66"/>huiusmodi sunt inuente ad exprimendum res. Alie autem 
+      <lb ed="#L" n="67"/>sunt inuente ad exprimendum ipsum mentis conceptum 
+      <lb ed="#L" n="68"/>et non tantum intellectiones et obiecta talium
+      intelle<lb ed="#L" n="69" break="no"/>ctionum. sed aliqua sunt inuente ad exprimendum men 
+      <lb ed="#L" n="70"/>tis affectiones tristitias et delectationes et huiusmodi 
+      <lb ed="#L" n="71"/>quae sunt actus voluntatis et passiones consequentes.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e419">
+      ⁋ Ad  
+      <lb ed="#L" n="72"/>tertium dico quod mentis conceptus aliquando vocatur omne 
+      <lb ed="#L" n="73"/>coguitum ab intellectu. isto modo omnis pars
+      oronis<lb ed="#L" n="74" break="no"/>significat mentis conceptum. hoc est significat aliquid  
+      <lb ed="#L" n="75"/>quod mens concipit.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e431">
+      ⁋ Ad quartum dico quod non est vniversali 
+      <lb ed="#L" n="76"/>verum quod illud primo per vocem significatur quod primo 
+      <lb ed="#L" n="77"/>apphenditur ipsa voce prolata. sed illud pro quo ipsa 
+      <lb ed="#L" n="78"/>vox profertur primo ex ratione institutionis. et hoc est pro 
+      <lb ed="#L" n="79"/>quo supponit quantum est ex se. quamuis ratione adium 
+      <lb ed="#L" n="80"/>cti possit supponere pro aliquo alio. et huiusmodi pro 
+      <lb ed="#L" n="81"/>quo terminus prolatus quantum est vox ex ratione insti 
+      <lb ed="#L" n="82"/>tutionis semper supponit. est res et non conceptus 
+      <lb ed="#L" n="83"/>Quare autem conceptus primo appreheditur. ratio est 
+      <lb ed="#L" n="84"/>ista. quia terminus non instituitur ad significandum 
+      <lb ed="#L" n="85"/>res quarum est conceptus. et ideo quia quacumque re intel 
+      <lb ed="#L" n="86"/>ecta potest haberi conceptus. et habito conceptu. non propter 
+      <lb ed="#L" n="87"/>hoc potest statim et faciliter haberi cognitio
+      rei<lb ed="#L" n="88" break="no"/>ideo primo et communius habetur conceptus prolata voce 
+      <lb ed="#L" n="89"/>quam quecumque res singularis. Ueruntamen a quocumque ap 
+      <lb ed="#L" n="90"/>prehendente conceptum ad prolationem vocis prmo 
+      <lb ed="#L" n="91"/>aliqua res singularis intelligebatur ante cognitionem 
+      <lb ed="#L" n="92"/>illius conceptus.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e470">
+      ⁋ Circa secundum principale dicunt 
+      <lb ed="#L" n="93"/>aliqua quod secundum philosophum voces sunt signa intentionum. et 
+      <lb ed="#L" n="94"/>intetiones sunt similitudines rerum. ideo voces
+      re<lb ed="#L" n="95" break="no"/>feruntur ad res significandas mediante conceptione 
+      <lb ed="#L" n="96"/>intellectus. et ideo secundum quod aliquid a nobis
+      intelle<lb ed="#L" n="97" break="no"/>ctu cognosci potest. sic a nobis significari potest et 
+      <lb ed="#L" n="98"/>nominari. sed deus in hac vita non potest a nobis
+      vi<lb ed="#L" n="99" break="no"/>deri per suam esentiam. sed cognoscitur a nobis ex creaturis 
+      <lb ed="#L" n="100"/>secundum habitudinem principii et per modum excellentie et 
+      <lb ed="#L" n="101"/>remotionis. et ideo potest nominari a nobis ex crea 
+      <lb ed="#L" n="102"/>turis. non tamen nome significans ipsum exprimet divinam 
+      <lb ed="#L" n="103"/>essentiam secundum quod est. sicut hoc nomen homo expremit 
+      <lb ed="#L" n="104"/>sua significatione essentiam hominis secundum quod est.
+      signifi<lb ed="#L" n="105" break="no"/>ficat enim eius diffinitionem declarantem eius essen 
+      <lb ed="#L" n="106"/>tiam. ratio enim quam significat nomen est eius
+      dif<lb ed="#L" n="107" break="no"/>finitio. vt dicitur. iii. metha
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e505">
+      ⁋ Contra istam
+      opi<lb ed="#L" n="108" break="no"/>nionem primo quomodo intelligat philosophus quod
+      vo<lb ed="#L" n="109" break="no"/>ces sunt note passionum non intentionum dictum. 
+      <lb ed="#L" n="110"/>est prius. secundo quod dicit quod non cognoscitur nisi¬ 
+      <!--416.xml-->
+      <pb ed="#L" n="207-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>secundum habitudinem principii et per modum excellentie et 
+      <lb ed="#L" n="2"/>remotionis. et quod eodem modo potest nominari a no 
+      <lb ed="#L" n="3"/>bis. ergo nullum nomen imponimus deo nisi quod si 
+      <lb ed="#L" n="4"/>gnificat habitudinem dei tanquam principii ad crea 
+      <lb ed="#L" n="5"/>turam vel per modum excellentie et remotionis. sed  
+      <lb ed="#L" n="6"/>consequens est falsum. ergo et antecedens. falsitas consequentis patet. quia 
+      <lb ed="#L" n="7"/>si sic. deus non diceretur bonus. nisi quia principium 
+      <lb ed="#L" n="8"/>bonitatis creature vel excellentior bonitate
+      cre<lb ed="#L" n="9" break="no"/>ata. vel quia non est bonitas creata. Sed hoc
+      posi<lb ed="#L" n="10" break="no"/>to non esset aliqua ratio quare aliqua nomina
+      diceren<lb ed="#L" n="11" break="no"/>tur de deo. et aliqua non. quia possum dicere quod deus 
+      <lb ed="#L" n="12"/>est bonus. quia principium bonitatis create. vel
+      ex<lb ed="#L" n="13" break="no"/>cellentior ea. vet quia non est ea. ita dicam quod deus est an 
+      <lb ed="#L" n="14"/>gelus. quia est principium angeli vel excellentior an 
+      <lb ed="#L" n="15"/>gelo. vel quia non est angelus. et eodem modo de asino. 
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e553">
+               <lb ed="#L" n="16"/>⁋ Preterea quod dicit quod nomen significans deum non 
+      <lb ed="#L" n="17"/>expermit diuinam esentiam secundum quod est
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e560">
+      ⁋ Contra hoc ap 
+      <lb ed="#L" n="18"/>guo ex dictis suis. postea dicit quod nomina
+      signifi<lb ed="#L" n="19" break="no"/>cant deum secundum quod intellectus noster cognoscit ipsum. 
+      <lb ed="#L" n="20"/>intellectus aut noitr cum cognoscat deum ex creatu 
+      <lb ed="#L" n="21"/>ris sic cognoscit secundum quod creature ipsum repraesentant 
+      <lb ed="#L" n="22"/>Ex illo arguo sic. illud per nomen exprimitur secundum istum 
+      <lb ed="#L" n="23"/>quod per creaturam repraesentatur. sed per creaturam
+      repraesen<lb ed="#L" n="24" break="no"/>tatur diuina essentia. vt est hec diuina essentia 
+      <lb ed="#L" n="25"/>ergo essentia diuina sic per nomen exprimitur. Sed ad  
+      <lb ed="#L" n="26"/>illud videtur respondere ibidem quod creatura imperfecte 
+      <lb ed="#L" n="27"/>deum repraesentat. et quod non repraesentat omnem rationem in deo. 
+      <lb ed="#L" n="28"/>nec rationem absolutam divine essentie secundum ipsam perfe 
+      <lb ed="#L" n="29"/>ctionem nature in diuina essentia
+      perfectionaliter<lb ed="#L" n="30" break="no"/>contentam. Sed illud nihil valet. tum quia non 
+      <lb ed="#L" n="31"/>sequitur repraesentat diuinam essentiam imperfecte. ergo 
+      <lb ed="#L" n="32"/>non repraesentat diuinam esentiam distincte. sicut non se 
+      <lb ed="#L" n="33"/>quitur. aliquis cognoscit aliquod simplex imperfecte. 
+      <lb ed="#L" n="34"/>ergo non videt istud distincte. sicut alibi onsum est. 
+      <lb ed="#L" n="35"/>Et huius ratio est. quia cognoscere vel repraesentare aliquid 
+      <lb ed="#L" n="36"/>distincte non est aliud quam cognoscere vel repraesentare
+      quodli<lb ed="#L" n="37" break="no"/>libet intrinsecum illi. Tum quia omnis ratio quae est realis in 
+      <lb ed="#L" n="38"/>diuina essentia est illa vnica essentia absolute 
+      <lb ed="#L" n="39"/>vel persona vel relatio. et ita impossibile est aliquid 
+      <lb ed="#L" n="40"/>assimilari vel repraesentare aliquam rationem existentem 
+      <lb ed="#L" n="41"/>in deo nisi assimiletur vel repraesntet diuinam esentiam 
+      <lb ed="#L" n="42"/>secundum quod est. vel personam vel relationem.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e617">
+      ⁋ Et si dicas 
+      <lb ed="#L" n="43"/>sicut dicit alibi quod in deo est inuenire distinctio 
+      <lb ed="#L" n="44"/>nem rationum. quae realiter et vere in ipso sunt que
+      quiden<lb ed="#L" n="45" break="no"/>sunt vnum re. et differunt ratione. et ideo potest vna 
+      <lb ed="#L" n="46"/>ratio repraesentari alia non repraesentata. Istud non valet. 
+      <lb ed="#L" n="47"/>qui supra ostensum est quod illud principium illius est 
+      <lb ed="#L" n="48"/>manifeste falsum. scilicet quod aliqua possunt esse vnum re 
+      <lb ed="#L" n="49"/>aliter et differre ratione
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e636">
+      ⁋ Preterea quod postea di 
+      <lb ed="#L" n="50"/>cit quod hoc nomen homo expromit sua significatione 
+      <lb ed="#L" n="51"/>essentiam hominis secundum quod est. significat enim eius
+      diffi<lb ed="#L" n="52" break="no"/>nitionem declarantem essentiam eius. Istud non 
+      <lb ed="#L" n="53"/>est verum. quia hoc nomen homo significat primo 
+      <lb ed="#L" n="54"/>essentiam hominis et non diffinitionem. sed hoc nomen 
+      <lb ed="#L" n="55"/>homo et diffinitio hominis idem significant. 
+      <!--416.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 207-r -->
+               <lb ed="#L" n="56"/>et neutrum est significatiuum alterius
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e660">
+      ⁋ Ideo ali 
+      <lb ed="#L" n="57"/>ter ad istum articulum dico quod viator potest
+      im<lb ed="#L" n="58" break="no"/>ponere nomen ad distincte significandum deum vel 
+      <lb ed="#L" n="59"/>diuinam essentiam. hoc patet. quia quicumque potest 
+      <lb ed="#L" n="60"/>vere intelligere aliquid esse distinctum ab alio.
+      po<lb ed="#L" n="61" break="no"/>test instituere nomen ad illud distincte
+      signifi<lb ed="#L" n="62" break="no"/>candum. sed viator potest vere intelligere et scire 
+      <lb ed="#L" n="63"/>deum esse distinctum ab omni alio ergo etc
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e678">
+      ⁋ Preterea 
+      <lb ed="#L" n="64"/>si viator non posset instituere nomen ad distincte 
+      <lb ed="#L" n="65"/>significandum diuinam essentiam. hoc non esset
+      nis<lb ed="#L" n="66" break="no"/>qui non potest deum distincte intelligere. Sed hoc 
+      <lb ed="#L" n="67"/>non obstat quia vox aliqua potest aliquid distincte 
+      <lb ed="#L" n="68"/>significare quod nunquam fuit distincte
+      intelle<lb ed="#L" n="69" break="no"/>ctum. patet de hac voce homo. que distincte 
+      <lb ed="#L" n="70"/>significat hominem futurum etiam sine noua imposi 
+      <lb ed="#L" n="71"/>tione
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e698">
+      ⁋ Si dicatur quod non precise significat illum 
+      <lb ed="#L" n="72"/>homine. hoc non obstat. quia distincte significat 
+      <lb ed="#L" n="73"/>ipsum et omns alios
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e705">
+      ⁋ Preterea sicut tactum est in 
+      <lb ed="#L" n="74"/>arguendo ad oppositum. illud per nomen distincte 
+      <lb ed="#L" n="75"/>significatur quod praecise significatur et nihil aliud si 
+      <lb ed="#L" n="76"/>gnificatur nec per ipsum connotatur. sed hoc est
+      possi<lb ed="#L" n="77" break="no"/>bile viatori. quia potest imponere a ad significam 
+      <lb ed="#L" n="78"/>dum diuinam essentiam. et nihil aliud nec aliquid aliud 
+      <lb ed="#L" n="79"/>connotando. sicut hoc nomen deitas non connotat 
+      <lb ed="#L" n="80"/>aliquid in creaturis.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e723">
+      ⁋ Preterea potest aliquis im 
+      <lb ed="#L" n="81"/>ponere hoc nomen a ad significandum quodcum 
+      <lb ed="#L" n="82"/>que animal quod occurrit sibi cras hoc facto di 
+      <lb ed="#L" n="83"/>stincte significat illud animal. et significabit 
+      <lb ed="#L" n="84"/>apud omns volentes vti voce sicut imposita est 
+      <lb ed="#L" n="85"/>quantuncumque illud imponens non distincte
+      intelli<lb ed="#L" n="86" break="no"/>gat. nec forte distincte intelliget quando sibi 
+      <lb ed="#L" n="87"/>occurret. Dico ergo quod aliquod nomen distincte 
+      <lb ed="#L" n="88"/>aliquid significare potest intelligi. vno modo quod 
+      <lb ed="#L" n="89"/>non significet aliquid aliud nec connotet. nec det 
+      <lb ed="#L" n="90"/>intelligere ex vi institutionis aliquid aliud. et 
+      <lb ed="#L" n="91"/>isto modo potest deus distincte significari quam 
+      <lb ed="#L" n="92"/>tumcumque deus non sic concipiatur a nobis. Secundo mo 
+      <lb ed="#L" n="93"/>potest aliquid intelligi significare aliquid
+      di<lb ed="#L" n="94" break="no"/>stincte. quia significat illud et non aliud siue conno 
+      <lb ed="#L" n="95"/>tet aliud siue non. et sic similiter potest distincte
+      signifi<lb ed="#L" n="96" break="no"/>cari. Tertio modo potest intelligi aliquid distincte 
+      <lb ed="#L" n="97"/>significari quando ex vi institutionis et communi vsu
+      vtenti<lb ed="#L" n="98" break="no"/>am nihil aliud ad prolationem vocis occurrit rea 
+      <lb ed="#L" n="99"/>liter. et sic non potest aliqua vox distincte deum 
+      <lb ed="#L" n="100"/>significare viatori. quia prolata quacumque voce si 
+      <lb ed="#L" n="101"/>gnificatiua intelligenti significationem
+      vodali<lb ed="#L" n="102" break="no"/>quid aliud occurrit scilicet conceptus communis deo et 
+      <lb ed="#L" n="103"/>aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e776">
+      ⁋ Sed isto modo non intelligitur questio proposita 
+      <lb ed="#L" n="104"/>Si dicatur quod nomen non expremit rem nisi
+      intelligen<lb ed="#L" n="105" break="no"/>ti. ergo sicut res intelligitur ita per vocem expremitur. sed  
+      <lb ed="#L" n="106"/>res que deus est non distincte intelligitur.
+      er<lb ed="#L" n="107" break="no"/>go etc
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e787">
+      ⁋ Preterea omns quod alicui
+      significa<lb ed="#L" n="108" break="no"/>tur sub eadem ratione intelligi potest ab
+      eo<lb ed="#L" n="109" break="no"/>dem. ergo si vox potest deum sub ratione
+      dei<lb ed="#L" n="110" break="no"/>tatis significare viatori. viator poterit deum 
+      <!--417.xml-->
+      <pb ed="#L" n="207-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>distincte intelligere et sub propria ratione deitatis 
+      <lb ed="#L" n="2"/>consequens est falsum. Assumptum probatur. quia sub eadem 
+      <lb ed="#L" n="3"/>ratione potest aliquid diligi qua significatur. ergo sul 
+      <lb ed="#L" n="4"/>eadem ratione intelligi. consequentia tenet. quia nihil est ama 
+      <lb ed="#L" n="5"/>tum nisi cognitum. ergo nihil est distincte amatum 
+      <lb ed="#L" n="6"/>nisi distincte cognitum. sed deus non potest distin 
+      <lb ed="#L" n="7"/>cte cognosci. ergo nec distincte diligi. ergo nec
+      di<lb ed="#L" n="8" break="no"/>stincte significari.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e820">
+      ⁋ Ad primum istorum concedo quod no 
+      <lb ed="#L" n="9"/>men non expreimit rem nisi intelligenti. et ideo intel 
+      <lb ed="#L" n="10"/>ligenti distincte expremit rem. quamuis intellectus non 
+      <lb ed="#L" n="11"/>eam distincte intelligat. quia exprimere rem
+      distin<lb ed="#L" n="12" break="no"/>cte intelligenti non est nisi vocem apud
+      intelligen<lb ed="#L" n="13" break="no"/>tem significare talem rem et non aliam. et quod intelli 
+      <lb ed="#L" n="14"/>gens hoc cognoscat. hoc autem est possibile. quamuis 
+      <lb ed="#L" n="15"/>intelligens non distincte illam rem intelligat. sicut 
+      <lb ed="#L" n="16"/>patet. aliquis videns solem non distincte videt nec in 
+      <lb ed="#L" n="17"/>telligit solem. quia non videt distincte quicqud est ips 
+      <lb ed="#L" n="18"/>us solis. et tamen ista vox sol apde eum distincte
+      signi<lb ed="#L" n="19" break="no"/>ficat solem. quia significat sibi illam rem quam videt 
+      <lb ed="#L" n="20"/>confuse. ita est de nomine significante alicui diuinam 
+      <lb ed="#L" n="21"/>essentiam quam tamen non intelligit in se. quia non intelli 
+      <lb ed="#L" n="22"/>git eam in se sine conceptu medio.
+    </p>
+            <p xml:id="wo8uy7-d1e1209-d1e853">
+      ⁋ Ad secundum con 
+      <lb ed="#L" n="23"/>cedo quod aliquid potest ita distincte amari sicut
+      signi<lb ed="#L" n="24" break="no"/>ficari. et ideo concedo quod aliquid potest distinctius 
+      <lb ed="#L" n="25"/>amari quam cognosci. quia distincte amo deum et
+      appe<lb ed="#L" n="26" break="no"/>to beatitudinem particularem quae mihi dabitur. et tamen 
+      <lb ed="#L" n="27"/>illam non ita distincte intelligo. sed tantum in quodam 
+      <lb ed="#L" n="28"/>conceptu. Et quando dicitur quod nihil est amatum nisi
+      cogni<lb ed="#L" n="29" break="no"/>tum concedo. sed ex hoc non sequitur. quod nihil est
+      distin<lb ed="#L" n="30" break="no"/>cte amatum nisi distincte cognitum. quia aliquid potest 
+      <lb ed="#L" n="31"/>distinctius amari quam cognosci. Unde sicut res 
+      <lb ed="#L" n="32"/>non potest intelligi nisi intelligatur conceptus. et tamen 
+      <lb ed="#L" n="33"/>potest eadem res appeti vel diligi. quamuis non
+      appe<lb ed="#L" n="34" break="no"/>tatur vel diligatur conceptus. ita potest res distincte 
+      <lb ed="#L" n="35"/>diligi. quamuis non distincte intelligatur. Per praedi 
+      <lb ed="#L" n="36"/>cta patet ad argumenta principalia 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

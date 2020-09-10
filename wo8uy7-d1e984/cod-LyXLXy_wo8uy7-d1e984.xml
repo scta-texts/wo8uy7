@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="185-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e984"><!-- l1d15q1 -->
+            <head xml:id="wo8uy7-d1e984-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e984-d1e111">
+      ⁋ Distincti. xv. Questio vnica 
+      <lb ed="#L" n="91"/>CIrca
+      distin<lb ed="#L" n="92" break="no"/>ctionem decimamquintam quaero. 
+      <lb ed="#L" n="93"/>Utrum quaelibet personam pos 
+      <lb ed="#L" n="94"/>sit mittere et mitti.
+    </p>
+            <p xml:id="wo8uy7-d1e984-d1e122">
+      ⁋ Quod 
+      <lb ed="#L" n="95"/>sic. mittere est commune
+      tri<lb ed="#L" n="96" break="no"/>bus secundum magistrum in litter 
+      <lb ed="#L" n="97"/>ra. ergo et mitti. consequentia platet. quia si mitti non esset con 
+      <lb ed="#L" n="98"/>mune tribus personis. hoc non esset nisi quia dicit 
+      <lb ed="#L" n="99"/>relationem realem persone misse ad aliquam perso 
+      <lb ed="#L" n="100"/>nam producentem sed hoc est falsum. quia tunc 
+      <lb ed="#L" n="101"/>mittere diceret consimilem respectum correla 
+      <lb ed="#L" n="102"/>rium. et per consequens non esset commune.
+      U<lb ed="#L" n="103" break="no"/>tina consequentia patet. quia mittere et mitti
+      vni<lb ed="#L" n="104" break="no"/>uersaliter dicunt relationes oppositas. ergo si 
+      <lb ed="#L" n="105"/>mittere non includit producere nec correlati 
+      <lb ed="#L" n="106"/>uum includet correlatiuum.
+    </p>
+            <p xml:id="wo8uy7-d1e984-d1e151">
+      ⁋ Ad oppositum. 
+      <lb ed="#L" n="107"/>Augustinus. iiii. de trini. c. xvii. pater cum ex
+      ten<lb ed="#L" n="108" break="no"/>pore a. quoquam percipitur. non dicitur missus. non 
+      <!--374.xml-->
+      <pb ed="#L" n="186-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>enim habet de quo sit aut a quo procedat.
+    </p>
+            <p xml:id="wo8uy7-d1e984-d1e167">
+      ⁋ Ad  
+      <lb ed="#L" n="2"/>istam quaestionem communiter dicitur quod mitti importat
+      re<lb ed="#L" n="3" break="no"/>spectum rationis tam ad missum quam ad mittentem.
+      con<lb ed="#L" n="4" break="no"/>notando tamen respectum realem ipsius. Et penes
+      il<lb ed="#L" n="5" break="no"/>lud secundum diuersificantur opiniones aliquae. Quidam enim 
+      <lb ed="#L" n="6"/>dicunt quod mitti connotat respectum realem
+      perso<lb ed="#L" n="7" break="no"/>ne misse ad personam mittentem. et econuerso
+      mit<lb ed="#L" n="8" break="no"/>tere connotat respectum realem persone mittentis 
+      <lb ed="#L" n="9"/>ad personam missam. et hii habent dicere consequen 
+      <lb ed="#L" n="10"/>ter quod mittere praecise competit duabus personis. quia 
+      <lb ed="#L" n="11"/>tantum due sunt persone habentes reales relationes 
+      <lb ed="#L" n="12"/>per modum producentis. et quod mitti similiter praecise con 
+      <lb ed="#L" n="13"/>uenit duabus personis. Qui autem dicunt quod mitti 
+      <lb ed="#L" n="14"/>connotat respectum realem non quidem ad omnem mit 
+      <lb ed="#L" n="15"/>tentem sed ad aliquem distincte. mittere autem non
+      con<lb ed="#L" n="16" break="no"/>notat respectu realem mittentis persone ad personam 
+      <lb ed="#L" n="17"/>missam. sed connotat eundem respectum realem quem con 
+      <lb ed="#L" n="18"/>notat mitti. dicunt quod mittere est commune. mitti autem 
+      <lb ed="#L" n="19"/>tantum est proprium duabus personis. Et quia difficultas 
+      <lb ed="#L" n="20"/>est de significatis vocabulorum quibus est vtendum 
+      <lb ed="#L" n="21"/>sicut auctores vtuntur. et magister dicit. et videtur 
+      <lb ed="#L" n="22"/>esse intentio beati augustini quod mittere est commune et mitti 
+      <lb ed="#L" n="23"/>est proprium duabus personis. Ideo istam partem teneo 
+      <lb ed="#L" n="24"/>non tamen quod important aliquos respectus rationis. quia 
+      <lb ed="#L" n="25"/>dico quod nec per mittere nec per mitti quicumque respe 
+      <lb ed="#L" n="26"/>ctus rationis importantur. quia persona realiter mittit 
+      <lb ed="#L" n="27"/>et realiter mittitur. sicut filius realiter incarnatur. et 
+      <lb ed="#L" n="28"/>pater realiter misit filium suum in carnem. sed propter 
+      <lb ed="#L" n="29"/>nullum respectum rationis importatum per tale posset
+      di<lb ed="#L" n="30" break="no"/>ci realiter tale vel tale. et ideo nullum istorum
+      impor<lb ed="#L" n="31" break="no"/>tat quemcumque respectum rationis. quia sicut post
+      pate<lb ed="#L" n="32" break="no"/>bit. dei ad creaturam nullus est respectus rationis. vel si 
+      <lb ed="#L" n="33"/>esset aliquas non esset importatus per talia nomina mitte 
+      <lb ed="#L" n="34"/>re creare dominari etc.
+    </p>
+            <p xml:id="wo8uy7-d1e984-d1e242">
+      ⁋ Ideo dico quod mitti
+      impor<lb ed="#L" n="35" break="no"/>tat tam creaturam quam personam procedentem realiter ab 
+      <lb ed="#L" n="36"/>alia persona. vt quid nominis ipsius mitti sit totum istud 
+      <lb ed="#L" n="37"/>mitti est personam aliquam ab alia productam per nouam 
+      <lb ed="#L" n="38"/>suam existentiam in aliqua creatura rationali secundum de 
+      <lb ed="#L" n="39"/>terminatum modum existendi in ea manifestari
+      pro<lb ed="#L" n="40" break="no"/>duci. Quid nominis ipsius mittere est personam aliquam 
+      <lb ed="#L" n="41"/>productam per nouam existentiam in aliqua creatura 
+      <lb ed="#L" n="42"/>rationali secundum determinatum modum existendi mani 
+      <lb ed="#L" n="43"/>festare produci. et sicut alias dictum est in istis nec 
+      <lb ed="#L" n="44"/>in similibus ponitur aliquid respectum rationis impor 
+      <lb ed="#L" n="45"/>tans.
+    </p>
+            <p xml:id="wo8uy7-d1e984-d1e268">
+      ⁋ Ad argumentum principale dico quod non sequitur 
+      <lb ed="#L" n="46"/>mitti importat aliquem respectum realem ad
+      ali<lb ed="#L" n="47" break="no"/>quam personam mittente. ergo mittere importat re 
+      <lb ed="#L" n="48"/>spectum realem ad personam productam. quamuis
+      voca<lb ed="#L" n="49" break="no"/>bula sic possent imponi quod sic significarent. et
+      il<lb ed="#L" n="50" break="no"/>lo posito. neutrum esset commune tribus personis. sed  
+      <lb ed="#L" n="51"/>sic non sunt nomina imposita. sed sunt
+      imposi<lb ed="#L" n="52" break="no"/>ta. vt mitti importet respectum productonis rea 
+      <lb ed="#L" n="53"/>lem ad aliquam personam mittentem. non ad omnem. 
+      <lb ed="#L" n="54"/>et mittere importet eundem respectum non quidem 
+      <lb ed="#L" n="55"/>illius persone que mittit: sed illius que mittitur 
+      <!--374.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 186-r -->
+               <lb ed="#L" n="56"/>ita tamen quod manifestet illum respectum aliquo mo 
+      <lb ed="#L" n="57"/>do per creaturam faciendo aliquid circa creatu 
+      <lb ed="#L" n="58"/>ram. et aliquid operando quod aliqua persona
+      mani<lb ed="#L" n="59" break="no"/>festetur per talem operationem hoc est mitti. et sic 
+      <lb ed="#L" n="60"/>tenet argumentum magistri quod si aliqua persona 
+      <lb ed="#L" n="61"/>mitteret et non alia. quod operaretur aliquid quod alia 
+      <lb ed="#L" n="62"/>non operaretur. Ex isto patet quomodo eadem perso 
+      <lb ed="#L" n="63"/>na potest mittere se. quia operando aliquid circa 
+      <lb ed="#L" n="64"/>creaturam potest manifestare quod ipsamet procedit. 
+      <lb ed="#L" n="65"/>et hoc est mitti. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10(12)</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10(12)</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="299-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e2015"><!-- l2q10(12) -->
+            <head xml:id="wo8uy7-d1e2015-Hd1e108">Quaestio 10(12)</head>
+            <p xml:id="wo8uy7-d1e2015-d1e111">
+      Questio. xii. 
+      <lb ed="#L" n="34"/>⁋ UTrum tempus ha 
+      <lb ed="#L" n="35"/>beat esse reale extra animam a motu. et 
+      <lb ed="#L" n="36"/>a qualibet re primanente realiter distincti 
+      <lb ed="#L" n="37"/>Quod sic. probatur primo sic. Quia illa quorum partes non 
+      <lb ed="#L" n="38"/>sunt non faciunt vnum per se in genere neque distinguuntur 
+      <lb ed="#L" n="39"/>realiter. sed motus et tempus sunt huiusmodi. ergo etc. Item instans 
+      <lb ed="#L" n="40"/>realiter differt a tempore. probatur: quia instans est: tempus vero 
+      <lb ed="#L" n="41"/>non. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e131">
+      ⁋ Confirmatur. quia instans corrumpitur.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e134">
+      ⁋ Item 
+      <lb ed="#L" n="42"/>tempus habet esse solum in anima. motus vero in re extra animam. 
+      <lb ed="#L" n="43"/>ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e141">
+      ⁋ hic est opinio gandensis. quod tam motus qua 
+      <lb ed="#L" n="44"/>tempus possunt considerari tripliciter. Uno modo vt partes conti 
+      <lb ed="#L" n="45"/>nuantur adinuicem sine distinctione. vtrumque tamen habet 
+      <lb ed="#L" n="46"/>esse in re ex. Alio modo vt partes distinguuntur ini 
+      <lb ed="#L" n="47"/>se. et sic tantum habent esse in anima. Tertio modo vt partes co 
+      <lb ed="#L" n="48"/>tinuantur et distinguntur. et sic sunt parti in re extra 
+      <lb ed="#L" n="49"/>et partim in anima. quare gandensem
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e158">
+      ⁋ Contra. motus est 
+      <lb ed="#L" n="50"/>fluxus: sed non est continuus fluxus in motu nisi sit 
+      <lb ed="#L" n="51"/>a priori in posterius. cum ergo impossibile sit habere
+      flu<lb ed="#L" n="52" break="no"/>xum continuum nisi sit continue a priori in posterius
+      impos<lb ed="#L" n="53" break="no"/>sibile est habere motum sine priori et posteriori. sed
+      vbi<lb ed="#L" n="54" break="no"/>cunque est prius et posterius: ibi est distinctio. ergo 
+      <!--601.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 299-v -->
+               <lb ed="#L" n="55"/>impossibile est habere motum continuum sine distinctio 
+      <lb ed="#L" n="56"/>one. ergo dicere motum continuum esse sine distincto 
+      <lb ed="#L" n="57"/>ne est dicere contradictionem. Item impossibile est
+      per<lb ed="#L" n="58" break="no"/>cipere motum sine fluxu: quia fluxus est de essentia 
+      <lb ed="#L" n="59"/>successiuorum: et impossibile est prcipere fluxum
+      si<lb ed="#L" n="60" break="no"/>ne priori et posteriori. ergo etc. Si dicas quod fluxus 
+      <lb ed="#L" n="61"/>distinguitur a motu. contra: ex hoc sequeretur quod
+      mo<lb ed="#L" n="62" break="no"/>tus sit quid permanens: quia si circumsceribatur fluxus et 
+      <lb ed="#L" n="63"/>prius et posterius a motu: quicquid remanebit
+      eri<lb ed="#L" n="64" break="no"/>prmanens. ergo etc. Item conclusiohoc quod ponit quod motus et 
+      <lb ed="#L" n="65"/>tempus tertio modo considerata parti sunt in anima et pat 
+      <lb ed="#L" n="66"/>tim in re extra. quia quantum ad formale sunt in anima et 
+      <lb ed="#L" n="67"/>quantum ad materiale sunt in re extra. quia aut sun 
+      <lb ed="#L" n="68"/>quantum ad illud quod sunt in anima tantum obiectiue vel sub 
+      <lb ed="#L" n="69"/>iectiue. si primo modo ergo tantum figmenta vel respectus 
+      <lb ed="#L" n="70"/>rationis. non secundo modo patet discurrendo per singu 
+      <lb ed="#L" n="71"/>la quae sunt subiectiue in anima. ergo oportet quod sint in re ex 
+      <lb ed="#L" n="72"/>tra subiectiue: et obiectiue in anima. si ergo in re sit pri 
+      <lb ed="#L" n="73"/>us et posterius quae sunt formale in istis successiuis 
+      <lb ed="#L" n="74"/>sequitur quod successiua sunt in re quo ad
+      materia<lb ed="#L" n="75" break="no"/>le et formale. Item secundum illam opinionem tempus non 
+      <lb ed="#L" n="76"/>est plus parti in anima et parti in re extra quam linea 
+      <lb ed="#L" n="77"/>vel superficies et corpus. quia possum considerare in li 
+      <lb ed="#L" n="78"/>nea continuationem partium et discretionem et vnam
+      per<lb ed="#L" n="79" break="no"/>tem priorem et aliam posteriorem sicut tum ponis de 
+      <lb ed="#L" n="80"/>motu et tempore. ergo linea equaliter habet esse in anima parti et 
+      <lb ed="#L" n="81"/>parti in re extra: sicut tempus vel motus.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e236">
+      ⁋ Ad quaestio 
+      <lb ed="#L" n="82"/>nem igitur primo probo quod tempus non est aliquid
+      absolu<lb ed="#L" n="83" break="no"/>tum distinctum realiter a rebus permanentibus et a
+      mo<lb ed="#L" n="84" break="no"/>tu. quia si deus faceret aliud celum nobilius isto iam fa 
+      <lb ed="#L" n="85"/>cto: cuius motus esset velocior: tunc tempus non esset 
+      <lb ed="#L" n="86"/>istius celi iam facti: sed potius illius celi nouitur creati et 
+      <lb ed="#L" n="87"/>istud celum iam factum non perderet aliquid absolutum per 
+      <lb ed="#L" n="88"/>hoc quod aliud celum crearetur quia eundem motum quem prius 
+      <lb ed="#L" n="89"/>habuit modo haberet et omnia absoluta: vt patet. Item 
+      <lb ed="#L" n="90"/>omne absolutum habens distinctas partes a re permanem 
+      <lb ed="#L" n="91"/>te si sit accidens est in aliquo subiectiue si ergo tem 
+      <lb ed="#L" n="92"/>pus sit huiusmodi quaero in quo habet esse subiectiue non 
+      <lb ed="#L" n="93"/>in mobili: probatur. quia si sic aut vna pars temporis est 
+      <lb ed="#L" n="94"/>in vna parte mobilis: et alia in alia parte aut pluret 
+      <lb ed="#L" n="95"/>partes temporis in vna parte mobilis et alia in alia. non prim 
+      <lb ed="#L" n="96"/>mo modo. Tum quia non est maior ratio quare vna pars esset in 
+      <lb ed="#L" n="97"/>vna parte et alia in alia partequam econuerso: vt patet. tum quod 
+      <lb ed="#L" n="98"/>tempus esset totum simul: quia omns partes temporis essent simul 
+      <lb ed="#L" n="99"/>in omnibus partibus mobilis. Nec secundo modo. tum quia 
+      <lb ed="#L" n="100"/>duo accidentia essent in eodem subiecto. tum quia 
+      <lb ed="#L" n="101"/>tunc tempus esset res permanens: quia haberet plures
+      par<lb ed="#L" n="102" break="no"/>tes actu existentes.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e284">
+      ⁋ Si dicas quod partes temporis licet 
+      <lb ed="#L" n="103"/>non sint simul: tamen habent esse in quodam fieri et ordine qua 
+      <lb ed="#L" n="104"/>tenus compulantur ad aliquod instans.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e291">
+      ⁋ Contra. si vni 
+      <lb ed="#L" n="105"/>pars totius non est totum non est. ergo multomagis si nul 
+      <lb ed="#L" n="106"/>la pars totius est totum non est: sed nulla pars temporis 
+      <lb ed="#L" n="107"/>est. ergo etc. nec valet si dicatur quod anima facit tempus esse 
+      <lb ed="#L" n="108"/>quoddam totum: quia anima per suam considerationem non
+      pos<lb ed="#L" n="109" break="no"/>set alicui dare esse reale extra animam. nec potest 
+      <!--602.xml-->
+      <pb ed="#L" n="300-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>poni tempus esse quoddam totum distinctum a rebus per 
+      <lb ed="#L" n="2"/>manentibus propter ordinem partium temporis: nec propter 
+      <lb ed="#L" n="3"/>continuationem ad instans. non propter primum: quia
+      il<lb ed="#L" n="4" break="no"/>lud quod non est non potest habere ordinem positiuum. partes 
+      <lb ed="#L" n="5"/>autem temporis praeter res permanentes non sunt. nec secundum 
+      <lb ed="#L" n="6"/>propter eandem rationem: quia cum partes temporis sint pu 
+      <lb ed="#L" n="7"/>rum nihil non possunt positiue continuari ad aliquod 
+      <lb ed="#L" n="8"/>ens positiuum: quia nihil non potest continuari alicui 
+      <lb ed="#L" n="9"/>enti: nec facere aliquod totum nec vnum. Item instans 
+      <lb ed="#L" n="10"/>non dicit aliquod absolutum distinctum realiter a rebui 
+      <lb ed="#L" n="11"/>permanentibus. ergo nec tempus. consequentia patet: quia si
+      indiuisibi<lb ed="#L" n="12" break="no"/>le non dicit aliquod absolutum positiuum a rebus prma 
+      <lb ed="#L" n="13"/>nentibus: nec diuisibile. antecedens probatur: quia in genere ab 
+      <lb ed="#L" n="14"/>soluto non potest poni. patet discurrendo: quia nec in
+      ge<lb ed="#L" n="15" break="no"/>nere quantitatis nec qualitatis: nec substantie nec per 
+      <lb ed="#L" n="16"/>se nec per reductionem. Item si sic. in quolibet tempore 
+      <lb ed="#L" n="17"/>etiam minimo si posset dari essent infinita abso 
+      <lb ed="#L" n="18"/>luta instantia destructa. et sic deus non posset cre 
+      <lb ed="#L" n="19"/>are vnam partem temporis nisi deftrueret infinita
+      ab<lb ed="#L" n="20" break="no"/>soluta: quia infinita instantia quae sunt in quolibet tem 
+      <lb ed="#L" n="21"/>pore. nec posset deus de potentia sua absoluta 
+      <lb ed="#L" n="22"/>conseruare vnum ens absolutum per aliquod tempus sicut 
+      <lb ed="#L" n="23"/>nec aliquod instans. nec duo absoluta simul quae omnia sunt 
+      <lb ed="#L" n="24"/>absurda. Item duo abhsoluta sine contradictone
+      pos<lb ed="#L" n="25" break="no"/>sunt simul manere saltem in rerum natura: licet non in eodem 
+      <lb ed="#L" n="26"/>subiecto: sed duo instantia non. ergo etc
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e367">
+      ⁋ Ideo dico 
+      <lb ed="#L" n="27"/>quantum ad istum articulum quod nec tempus nec aliquod suc 
+      <lb ed="#L" n="28"/>cessiuum dicit aliquam rem absolutam vel respectiuam 
+      <lb ed="#L" n="29"/>distinctam a rebus permanentibus. et hoc est intentio philosophi 
+      <lb ed="#L" n="30"/>quarto phisicorum caplo de tempore. vbi probat quod tam tempus 
+      <lb ed="#L" n="31"/>quam instans non sunt. et concludunt rationes sue verum
+      quam<lb ed="#L" n="32" break="no"/>tum probant: scilicet quod non dicunt aliquid positiuum distin 
+      <lb ed="#L" n="33"/>ctum a rebus permanentibus: quia secundum eum cuius partes non sunt 
+      <lb ed="#L" n="34"/>ipsum totum non est: sed tempus est huiusmodi: quia partes temporis 
+      <lb ed="#L" n="35"/>vltra res permanentes non sunt aliquid positiuum: sed 
+      <lb ed="#L" n="36"/>pure negationes et nihil. similiter de instanti dicit quod 
+      <lb ed="#L" n="37"/>dne ens positiuum potest durare per tempus: sed instans
+      vi<lb ed="#L" n="38" break="no"/>differt a re permanente non poest. ergo etc. Secundo
+      vi<lb ed="#L" n="39" break="no"/>dendum est quid est tempus vbi sciendum quod secundum philosophum 
+      <lb ed="#L" n="40"/>quarto phisicorum tempus est numerus motus secundum prius et 
+      <lb ed="#L" n="41"/>posterius. ideo ad sciendum quid est tempus et quo est men 
+      <lb ed="#L" n="42"/>sura: oportet scire quo numerus mensuratur per vnitatem 
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e404">
+               <lb ed="#L" n="43"/>⁋ Circa quod notandum est quod vnitas accipitur
+      tri<lb ed="#L" n="44" break="no"/>plicitur. vno modo pro omni eo quod denominatur vnum ab vni 
+      <lb ed="#L" n="45"/>tate. Alio modo accipitur pro omni illo quod denominat ali 
+      <lb ed="#L" n="46"/>quid esse vnum modo quo dicimus quod equus est vnus 
+      <lb ed="#L" n="47"/>et quod canis est vnus. primo modo accipitur pro vnitate 
+      <lb ed="#L" n="48"/>reali quae est pars numeri numerati. et sic nulla vni 
+      <lb ed="#L" n="49"/>tas vna mensurat numerum: quia non est maior ratio 
+      <lb ed="#L" n="50"/>quare vna vnitas talis mensuret numerum quam alia: 
+      <lb ed="#L" n="51"/>et ad mensurandum numerum quattuor equorum
+      suffi<lb ed="#L" n="52" break="no"/>cit accipere vnum equum post alium. et sic vltra quous 
+      <lb ed="#L" n="53"/>que deuenitur ad vltimum equum. et tunc ex omnibus vnita 
+      <lb ed="#L" n="54"/>tibus habetur numerus quaternarius. et sic mensuratur nu 
+      <lb ed="#L" n="55"/>merus per vnitatem quae est pars numeri et denominatur 
+      <!--602.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 300-r -->
+               <lb ed="#L" n="56"/>ab vnitate non determinata: puta per accipere vnum 
+      <lb ed="#L" n="57"/>equum et applicare alteri: et post eudem applicare 
+      <lb ed="#L" n="58"/>tertio et quarto. et sic deinceps: quia hoc non est necesse: sed 
+      <lb ed="#L" n="59"/>posset sic fieri. Secundo modo accipitur vnitas pro illo 
+      <lb ed="#L" n="60"/>quod denominat aliquid esse vnum modo praedicto. et ista 
+      <lb ed="#L" n="61"/>vnitas est tantum quadam conceptus inanima habens tamen esse 
+      <lb ed="#L" n="62"/>obiectiue et nullo modo subiectiue. et ista vnitas 
+      <lb ed="#L" n="63"/>potest mensurare omnes numeros per hoc quod potest de
+      quo<lb ed="#L" n="64" break="no"/>libet vna praedicari et quodlibet vnum denominare. et si 
+      <lb ed="#L" n="65"/>tut dicitur de vnitate ita dicendum est de numero: 
+      <lb ed="#L" n="66"/>qui quadam numerus est denominatus a numero et dicitur a 
+      <lb ed="#L" n="67"/>philosopho quarto phisicorum numerus numeratus. alius est 
+      <lb ed="#L" n="68"/>numerus denominans numerum numeratum. et dicitur ab 
+      <lb ed="#L" n="69"/>eodem numerus quo numeramus. primus numerus 
+      <lb ed="#L" n="70"/>est in re extra: quia est ipse res numerate. secundus est 
+      <lb ed="#L" n="71"/>tantum obiectiue in anima: sicut quadam conceptus
+      ab<lb ed="#L" n="72" break="no"/>stractus a rebus numeratis.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e479">
+      ⁋ Ex istis sequitur vna 
+      <lb ed="#L" n="73"/>conclusio quod alio modo est aliquid mensura multitu 
+      <lb ed="#L" n="74"/>dinis et magnitudinis. nam illud quod est
+      mensu<lb ed="#L" n="75" break="no"/>ra multitudinis non oportet quod sit aliquid distinctum ab 
+      <lb ed="#L" n="76"/>omnibus partibus multitudinis: quia vnumquoque mensu 
+      <lb ed="#L" n="77"/>rans multitudinem est vnum quod est pars
+      multi<lb ed="#L" n="78" break="no"/>tudinis: et non vnum determinatum. sed accipiendo 
+      <lb ed="#L" n="79"/>vnum post aliud quousque deuenitur ad totam
+      aggre<lb ed="#L" n="80" break="no"/>gationem numeri vel multitudinis: sed magnitudo 
+      <lb ed="#L" n="81"/>aliquando mensuratur per vnum distinctum realiter a tota 
+      <lb ed="#L" n="82"/>magnitudine et ab omnibus eius partibus. Exemplum 
+      <lb ed="#L" n="83"/>quando per vlnam mensuratur pannus quo ad quantitatem.
+      a<lb ed="#L" n="84" break="no"/>liquando autem mensuratur tota magnitudo per
+      magnitu<lb ed="#L" n="85" break="no"/>dinem siue per vnam partem determinatam
+      magnitu<lb ed="#L" n="86" break="no"/>dinis. et sic distinguitur a tota magnitudine. sicut 
+      <lb ed="#L" n="87"/>pars integralis a toto. et hoc. quando. quantitas partis 
+      <lb ed="#L" n="88"/>est notior quantitate totius.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e516">
+      ⁋ Ulterius notandum est 
+      <lb ed="#L" n="89"/>secundum commentatorem quarto phisicorum commentoc licet quod 
+      <lb ed="#L" n="90"/>tempus: motus et omne continuum tam permanens quam successi 
+      <lb ed="#L" n="91"/>uum potest dici continuum et discretum non quod in rere
+      conti<lb ed="#L" n="92" break="no"/>nuatio et discretio aliquorum siue sint
+      permanen<lb ed="#L" n="93" break="no"/>tia siue successiua: sit aliquid absolutum vel respe 
+      <lb ed="#L" n="94"/>ctiuum a partibus continuatis et discretis distinctum 
+      <lb ed="#L" n="95"/>sed quod continuatio et discretio sint conceptus vel
+      vo<lb ed="#L" n="96" break="no"/>ces significantes partes continuatas et discretas 
+      <lb ed="#L" n="97"/>connotando diuersas negationes. Nam continua 
+      <lb ed="#L" n="98"/>tio significat ipsas partes continuatas connotam 
+      <lb ed="#L" n="99"/>do negationes medii inter partes continuatas 
+      <lb ed="#L" n="100"/>qui ille partes sunt continuate inter quas non est 
+      <lb ed="#L" n="101"/>aliquod medium interceptum.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e547">
+      ⁋ Sed discretio
+      signi<lb ed="#L" n="102" break="no"/>ficat easdem partes cum negatione vnius ab alia: pu 
+      <lb ed="#L" n="103"/>ta quod partes discrete sic se habent quod vna non 
+      <lb ed="#L" n="104"/>est alia. et hoc est verum tam in successiuis quam in prma 
+      <lb ed="#L" n="105"/>nentibus
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e558">
+      ⁋ Sed differentia est inter continuationem succel 
+      <lb ed="#L" n="106"/>siuorum et permanentium: quia in permanentibus partes
+      conti<lb ed="#L" n="107" break="no"/>nuate ratione quarum est continuatio faciunt per se vnum sed  
+      <lb ed="#L" n="108"/>in successiuis non faciunt per se vnum positiuum: quia in 
+      <lb ed="#L" n="109"/>illis est continuatio ratione affirmationis et negationis 
+      <lb ed="#L" n="110"/>quae non faciunt per se vnum per hoc scilicet quod duo contradictoria ex 
+      <!--603.xml-->
+      <pb ed="#L" n="300-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>trin seca sic se habent. maxime ad motum
+      acquisiti<lb ed="#L" n="2" break="no"/>uum: quia secundum contradictorium continue succedens primo coexi 
+      <lb ed="#L" n="3"/>stit omnibus partibus cum quibus coexistebat primum contradicto 
+      <lb ed="#L" n="4"/>rium et cum hoc pluribus sicut dictum est supra de motu. 
+      <lb ed="#L" n="5"/>Ita quod tunc est motus continuus quando quaelibet affirmato 
+      <lb ed="#L" n="6"/>quae est de essentia motus succedit sue negationi sine 
+      <lb ed="#L" n="7"/>interceptione medii. Alia differentia est: quia in permanenti 
+      <lb ed="#L" n="8"/>bus potest intelligi continuatio sine discretione: et econ 
+      <lb ed="#L" n="9"/>uerso. licet in re continuatio non potest esse sine
+      discre<lb ed="#L" n="10" break="no"/>tione: sed in successiuis non potest intelligi fluxus sine 
+      <lb ed="#L" n="11"/>discretione: quia non potest intelligi fluxus sine priori et 
+      <lb ed="#L" n="12"/>posteriori quae neccessario includut discretionem: sed
+      econ<lb ed="#L" n="13" break="no"/>tra discreto potest bene intelligi in successiuis sine 
+      <lb ed="#L" n="14"/>continuatione.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e608">
+      ⁋ Tunc dico quod tempus potest accipi tribus 
+      <lb ed="#L" n="15"/>modis vt rationem habet mensure. et duobus vt non habet ratio 
+      <lb ed="#L" n="16"/>nem mensure. ita quod in vniuerso potest accipi quinque 
+      <lb ed="#L" n="17"/>modis
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e617">
+      ⁋ Primo accipitur propriissime et strictissime 
+      <lb ed="#L" n="18"/>pro motu velocissimo maxime noto: siue sit motus 
+      <lb ed="#L" n="19"/>octaue sphere: siue none: siue solis: siue lune: qua 
+      <lb ed="#L" n="20"/>sit nobis maxime notus. et hoc quod tali motu mensu 
+      <lb ed="#L" n="21"/>ramus alios motus inferiores. sicut per motum solis men 
+      <lb ed="#L" n="22"/>suramus motus inferiores. et per motum lune similiter. quia 
+      <lb ed="#L" n="23"/>sic mensurari non est aliud quam certificari per vnum 
+      <lb ed="#L" n="24"/>motum de alio motu. Alio modo accipitur tempus lar 
+      <lb ed="#L" n="25"/>ge pro motu aliquo inferiori: per cuius notitiam
+      pos<lb ed="#L" n="26" break="no"/>sumus deuenire in notitiam alicuius motus superioris 
+      <lb ed="#L" n="27"/>et sic quaelibet motus inferior potest dici tempus. quia quaelibet 
+      <lb ed="#L" n="28"/>potest dici mensura alicuius alterius motus. sic enim per 
+      <lb ed="#L" n="29"/>motus nostros proprios et opera nostra mensuramus motus 
+      <lb ed="#L" n="30"/>superiores: puta motum solis: sicut patet per experientiam 
+      <lb ed="#L" n="31"/>et per consequens talis motus potest dici tempus. Tertio modo  
+      <lb ed="#L" n="32"/>potest dici tempus motus ymaginatus: siue conceptus qui tam 
+      <lb ed="#L" n="33"/>tum habet esse obiectiue in anima et nullo modo
+      subiecti<lb ed="#L" n="34" break="no"/>ue. et per istum motum mensuramus alios motus in re exr 
+      <lb ed="#L" n="35"/>qui viso motu in re certificamur statim per motum in 
+      <lb ed="#L" n="36"/>anima de quantitate eius ad motum quo artifex expartus per 
+      <lb ed="#L" n="37"/>quantitate ymaginatam congnoscit statim quantitatem rer 
+      <lb ed="#L" n="38"/>ex. sicut dicit. Io. Exemplum huius. quando aliquis non
+      vi<lb ed="#L" n="39" break="no"/>dens solem. primo: quia est sub nube: videns tamen alium mo 
+      <lb ed="#L" n="40"/>tum scit statim vtrum sit longior vel breuior per motum 
+      <lb ed="#L" n="41"/>in anima: et etiam cecus per motum ymaginatum in anima mo 
+      <lb ed="#L" n="42"/>surat motum solis vel alicuius alterius. et de isto tempore 
+      <lb ed="#L" n="43"/>dicitur quarto phisicorum a commentatore quod impossibile est 
+      <lb ed="#L" n="44"/>tempus percipi nisi congnoscamus nos esse in aliquo esse 
+      <lb ed="#L" n="45"/>transmutabili percipiendo autem nos esse in aliquo esse 
+      <lb ed="#L" n="46"/>transmutabili percipimus motum: et percipiendo motum 
+      <lb ed="#L" n="47"/>prcipimus tempus et istis tribus modis accipiendo tempus 
+      <lb ed="#L" n="48"/>motus est motus tempus: quia sic est mensura. Sed quarto 
+      <lb ed="#L" n="49"/>modo accipitur tempus vt est numerus. et hoc potest esse duplic 
+      <lb ed="#L" n="50"/>ter: vel quia est numerus numeratus. et sic prius et posterius 
+      <lb ed="#L" n="51"/>in motu extra respectum non habent rationem mensure. vnde pri 
+      <lb ed="#L" n="52"/>us et posterius in motu siue pars prior et posterior pos 
+      <lb ed="#L" n="53"/>sunt considerari vel vt habentirionem mensure respe 
+      <lb ed="#L" n="54"/>ctu alterius motus: quia ducunt in cognitionem alterius 
+      <lb ed="#L" n="55"/>motus vel praecise: vt sunt partes distincte vnius mot 
+      <!--603.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 300-v -->
+               <lb ed="#L" n="56"/>primo modo non distinguitur a tempore: et secundo modo
+      distin<lb ed="#L" n="57" break="no"/>guitur saltem penes connotata. Alio modo accipitur
+      ten<lb ed="#L" n="58" break="no"/>pus pro numero quo numeramus pro priori et posteriori 
+      <lb ed="#L" n="59"/>in motu ymaginato in anima. et hoc potest esse
+      duplu<lb ed="#L" n="60" break="no"/>citer sicut praecedenti modo dictum est vel vt sunt men 
+      <lb ed="#L" n="61"/>sura vel vt tantum sunt partes distinctei tali motu.
+      pri<lb ed="#L" n="62" break="no"/>mo modo non distinguitur a tempore tertio modo accepto. 
+      <lb ed="#L" n="63"/>secundo modo differt penes connotata: quia primo modo con 
+      <lb ed="#L" n="64"/>notat aliquid in anima: secundo modo non. et sic patet quod isti 
+      <lb ed="#L" n="65"/>duo modoi non distinguntur realiter a tribus modis pri 
+      <lb ed="#L" n="66"/>mis: sed tantum penes connotata. Et ex istis patet quod acc 
+      <lb ed="#L" n="67"/>piendo tempus vt habet ratiom mensure applicati ad aliquid 
+      <lb ed="#L" n="68"/>mensurabile per cuius noticiam deuenitur in notitiam al 
+      <lb ed="#L" n="69"/>terius: sic non differt a motu. et hoc siue accipiatur
+      pri<lb ed="#L" n="70" break="no"/>mo modo siue secundo modo siue tertio modo supra dicto 
+      <lb ed="#L" n="71"/>tamen differt tempus a motu: sicut vna verga differt ab vel 
+      <lb ed="#L" n="72"/>na: quia vlna et vrga quantum ad quid rei nullo modo
+      diffe<lb ed="#L" n="73" break="no"/>runt: sed solum quantum ad quid nominis: quia in diffinitione indi 
+      <lb ed="#L" n="74"/>causate quid nominis vlne debet poni pannus et certificatio 
+      <lb ed="#L" n="75"/>de quantitate panni: quia vlna connotat pannum et
+      certi<lb ed="#L" n="76" break="no"/>ficationem quantitatis eius: et eodem modo est de tempore quod non 
+      <lb ed="#L" n="77"/>differt a motu secundum quid rei: sed solum secundum quid nominis: quia 
+      <lb ed="#L" n="78"/>tempus est numerus et mensura vt prius dictum est. Modo  
+      <lb ed="#L" n="79"/>tam mensura quam numerus siue sit numerus numeratus siue 
+      <lb ed="#L" n="80"/>numerus quo numeramus non possunt esse sine actu anime men 
+      <lb ed="#L" n="81"/>surantur vel numerantum. et per consequens connotant actum anime. et 
+      <lb ed="#L" n="82"/>ideo licet in diffinitione expri: mente quid rei temporis non opi 
+      <lb ed="#L" n="83"/>ponere actum anime: tamen in diffinitione exprimente quid 
+      <lb ed="#L" n="84"/>nominis oportet ponere actum anime: cuius ratio est: quia in
+      diffi<lb ed="#L" n="85" break="no"/>tione exprimente quid nominis debet poni quicquid connotatur 
+      <lb ed="#L" n="86"/>per nomen. et datur intelligi per illud nomen sicut datur intel 
+      <lb ed="#L" n="87"/>ligi per philosophum secundo posteriorum: nunc autem hoc nomen tempus 
+      <lb ed="#L" n="88"/>vel conceptus temporis connotat actum anime numerantum et re 
+      <lb ed="#L" n="89"/>plicant per mensuram. licet enim aliquando mensura sit in re: 
+      <lb ed="#L" n="90"/>et realis tamen replicatio mensure respectu mensura 
+      <lb ed="#L" n="91"/>ti est solum per animam: et ideo in diffinitione exprimente quid 
+      <lb ed="#L" n="92"/>nominis temporis debet poni aliquid existens in anima: et hoc
+      di<lb ed="#L" n="93" break="no"/>uersimode: quia aliquando debet poni aliquid existens tantum in 
+      <lb ed="#L" n="94"/>anima subiectiue: puta actus anime. aliquando aliquid existens 
+      <lb ed="#L" n="95"/>in animo obiectiue et subiectiue. Exeplum primi si dis 
+      <lb ed="#L" n="96"/>finitur tempus vt competit motui primo modo et secundo
+      su<lb ed="#L" n="97" break="no"/>pradco sic in eius diffinitione exprimente quid nominis 
+      <lb ed="#L" n="98"/>debet poni motus realis et actus anime mensurantur et nume 
+      <lb ed="#L" n="99"/>rantum per replicationem mensure super mensuratum. Ex 
+      <lb ed="#L" n="100"/>emplum secundi. in diffinitione exprimente quid nominis temporu 
+      <lb ed="#L" n="101"/>vt praedicatur de motu tertio modo supra dco debet
+      po<lb ed="#L" n="102" break="no"/>ni eius motus ymaginatus quae tantum habet esse in anima obio 
+      <lb ed="#L" n="103"/>ctiue et actus anime quae est in anima subiectiue. In istis 
+      <lb ed="#L" n="104"/>semper ponitur actus anime tanquam aliquid connotatum per 
+      <lb ed="#L" n="105"/>nome non tanquam principale significatum. Et sic po 
+      <lb ed="#L" n="106"/>nitur motus in eius diffinitione: et hoc vel realis vel tantum 
+      <lb ed="#L" n="107"/>ymaginatus. Quod autem plures particule ponan 
+      <lb ed="#L" n="108"/>tur in diffinitione significante quid nominis quam quid rei 
+      <lb ed="#L" n="109"/>patet per philosophum secundo posteriorum et septimo
+      menta<lb ed="#L" n="110" break="no"/>phisice. et patet in exeplis. Si enim album diffiniatur 
+      <!--604.xml-->
+      <pb ed="#L" n="301-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>secundum quid rei nihil debet poni in eius diffinitione nisi tam 
+      <lb ed="#L" n="2"/>tum albedo eodem modo in diffinitione exprimente quid  
+      <lb ed="#L" n="3"/>rei creationis actionis non debet poni nisi deus: sed  
+      <lb ed="#L" n="4"/>in diffinitione exprimente quid nominis vtriusque debet plus 
+      <lb ed="#L" n="5"/>poni: quia in diffinitione albi debet poni subiectum quod 
+      <lb ed="#L" n="6"/>connotatur per album. et in tali diffinitione creationis
+      a<lb ed="#L" n="7" break="no"/>ctionis debet poni creatura quae connotatur per illud no 
+      <lb ed="#L" n="8"/>men. et istud est generaliter verum in omnibus connota 
+      <lb ed="#L" n="9"/>tiuis quae principaliter significant vnum: et connotant 
+      <lb ed="#L" n="10"/>aliud quod plus debet poni in diffinitione quid nominis eo 
+      <lb ed="#L" n="11"/>rum quam quid rei: quia in diffinitione exprimente quid rei ta 
+      <lb ed="#L" n="12"/>lium: tantum debet poni principale significatum eorum: sed 
+      <lb ed="#L" n="13"/>in diffinitione exprimente quid nominis debet poni quicquio 
+      <lb ed="#L" n="14"/>connotatur per nomen: sed in diffinitione talium nominum 
+      <lb ed="#L" n="15"/>quae non sunt connotatiua: sed praecise significant vnum 
+      <lb ed="#L" n="16"/>nihil connotando: nihil plus debet poni in
+      diffini<lb ed="#L" n="17" break="no"/>tione exprimente quid nominis quam quid rei.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e872">
+      ⁋ Ex istis patet 
+      <lb ed="#L" n="18"/>ad quaestionem vtrum tempus habeat esse extra animam: quia 
+      <lb ed="#L" n="19"/>aut quaritur de tempore quantum: ad suum principale
+      significa<lb ed="#L" n="20" break="no"/>tum: aut quantum ad suum significatum totale. Si primo 
+      <lb ed="#L" n="21"/>modo patet ex supra dictum: quia tempus primo modo secundo modo et 
+      <lb ed="#L" n="22"/>quarto est tantum in re extra: et haberet esse si nulla anima 
+      <lb ed="#L" n="23"/>esset quia illis modis tantum significat motus reales 
+      <lb ed="#L" n="24"/>et partes eorum puta affirmationes et negationes quo 
+      <lb ed="#L" n="25"/>omnia sunt ex natura rei et in re: tamen bene habet esse in 
+      <lb ed="#L" n="26"/>anima quando aliquid mensuratur per tales motus sicut
+      cogni<lb ed="#L" n="27" break="no"/>tum in cognoscente: sed nullum esse habet per animam quod esse 
+      <lb ed="#L" n="28"/>non haberet si anima non esset. si autem accipiatur tertio et 
+      <lb ed="#L" n="29"/>quinto modis: sic tempus tantum est in anima: quia sic tantum 
+      <lb ed="#L" n="30"/>est motus ymaginatus: partes eius quae tantum habent 
+      <lb ed="#L" n="31"/>esse in anima obiectiue: et nullo modo subiectiue. 
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e905">
+               <lb ed="#L" n="32"/>⁋ Si autem quaras de significato totali siue de to 
+      <lb ed="#L" n="33"/>to: quod connotatur per nomen sic est partim in anima et 
+      <lb ed="#L" n="34"/>partim in re extra non quod componatur ex ente in anima 
+      <lb ed="#L" n="35"/>et ente in re extra. sicut nec creatio actio
+      compo<lb ed="#L" n="36" break="no"/>nitur ex deo a creatura: nec album ex albedine et 
+      <lb ed="#L" n="37"/>subiecto: sed quia in diffinitione exprimente quid nominis 
+      <lb ed="#L" n="38"/>ponitur aliquid in re puta motus realis tanquam
+      prin<lb ed="#L" n="39" break="no"/>cipale significatum et actus anime tanquam connotatum 
+      <lb ed="#L" n="40"/>et sic est partim in anima et partim in re ex: sed hoc est 
+      <lb ed="#L" n="41"/>verum de tempore vt competit motui primo modo et se 
+      <lb ed="#L" n="42"/>cundo modo dictis. vt autem competit tertio modo dcto 
+      <lb ed="#L" n="43"/>sic est quo ad significatum principale in anima: quia isic 
+      <lb ed="#L" n="44"/>significa motum ymaginatum et connotat actum anime me 
+      <lb ed="#L" n="45"/>surantis. et similiter connotat actum realem extra
+      mensu<lb ed="#L" n="46" break="no"/>ratum. et sic aliquid connotatum per tempus sic acceptum est 
+      <lb ed="#L" n="47"/>in anima et aliquid in re extra
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e942">
+      ⁋ Quod motus circunscri 
+      <lb ed="#L" n="48"/>pto omni accidente realiter et formaliter sibi
+      inhe<lb ed="#L" n="49" break="no"/>rente sit tempus proprie dictum. probatur: quia secundum philosophum il 
+      <lb ed="#L" n="50"/>lud est tempus per quod mensuramus motum: sed per primum 
+      <lb ed="#L" n="51"/>motum nobis maxime manifestum mensuramus 
+      <lb ed="#L" n="52"/>alios motus patet istud ad sensum. et similiter secundum phi 
+      <lb ed="#L" n="53"/>losophum quarto metaphisice. in omni genere
+      il<lb ed="#L" n="54" break="no"/>lud per quod certificatur quis de quantitate omnium aliorum 
+      <lb ed="#L" n="55"/>in illo genere illud est mensura aliorum. Nunc au 
+      <!--604.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 301-r -->
+               <lb ed="#L" n="56"/>tem quantitates motuum aliorum inferiorum sunt non 
+      <lb ed="#L" n="57"/>bis ignote de quibus certificamur per primum
+      mo<lb ed="#L" n="58" break="no"/>tum nobis maxime notum. ergo ille motus
+      suffi<lb ed="#L" n="59" break="no"/>cit ad rationem temporis abisque omni alio accidente 
+      <lb ed="#L" n="60"/>quia in genere successiuorum non potest dari
+      ali<lb ed="#L" n="61" break="no"/>quid primum quod possit esse mensura omnium
+      succes<lb ed="#L" n="62" break="no"/>siuorum: nisi primus motus nobis maxime
+      mani<lb ed="#L" n="63" break="no"/>festus. et si aliquid sit mobile cuius motus sit 
+      <lb ed="#L" n="64"/>nobis ignotus: ille motus non habet rationem temn 
+      <lb ed="#L" n="65"/>poris: quia non mensure. si enim deus crearet aliquod 
+      <lb ed="#L" n="66"/>mobile velocius et vniformius motum quam aliquod 
+      <lb ed="#L" n="67"/>mobile nunc factum mouetur si ille motus esset no 
+      <lb ed="#L" n="68"/>bis manifestus ille motus diceretur propriissime 
+      <lb ed="#L" n="69"/>tempus sine omni alio accidente addito. vnde mirum 
+      <lb ed="#L" n="70"/>est de illis qui ponunt quod tempus est quoddam
+      acci<lb ed="#L" n="71" break="no"/>dens inherens motui primi mobilis quod primo 
+      <lb ed="#L" n="72"/>mensurat motum primi mobilis: et secundario omns 
+      <lb ed="#L" n="73"/>alios motus. quia illud accidens ex quo est
+      suc<lb ed="#L" n="74" break="no"/>cessiuum oportet necessario quod habeat mensuram sicut 
+      <lb ed="#L" n="75"/>habent durationem quae non potest esse mensura
+      su<lb ed="#L" n="76" break="no"/>ipsius: quia mensura et mensuratum distinguntur
+      rea<lb ed="#L" n="77" break="no"/>liter sicut supra diectum est. ergo habet aliud tempus pro 
+      <lb ed="#L" n="78"/>mensura: et erit processus in infinitum: vel stabit ad  
+      <lb ed="#L" n="79"/>aliquem motum qui poterit esse mensura aliorum sine 
+      <lb ed="#L" n="80"/>omni accidente sibi inherente.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1023">
+      ⁋ Istem frustra fit per 
+      <lb ed="#L" n="81"/>plura quod potest fieri per pauciora: nunc autem per primum 
+      <lb ed="#L" n="82"/>motum nobis maxime manifestum sine omni alio ad  
+      <lb ed="#L" n="83"/>dito possumus alios motus mensurare. ergo
+      fru<lb ed="#L" n="84" break="no"/>stra ponitur aliquod tale accidens. Item non plus 
+      <lb ed="#L" n="85"/>repugnat primo motui mensurare alios motus quam 
+      <lb ed="#L" n="86"/>quantitati continue alias quantitates: cum ergo quantitas 
+      <lb ed="#L" n="87"/>prmanens sit mensura alterius quantitatis per seipsam 
+      <lb ed="#L" n="88"/>non per aliam quantitatem vel qualitatem sibi inherentem 
+      <lb ed="#L" n="89"/>quia qualitas maior potest esse in minori quantitate: et 
+      <lb ed="#L" n="90"/>minor in maiori: vt patet de albedine. ergo pri 
+      <lb ed="#L" n="91"/>mus motus potest mensurare alios motus sine 
+      <lb ed="#L" n="92"/>aliquo accidente sibi inherente. Item nullum 
+      <lb ed="#L" n="93"/>accidens mensurat suum subiectum: quia subiectum po 
+      <lb ed="#L" n="94"/>test esse idem et accidens variari secundum magis et
+      mi<lb ed="#L" n="95" break="no"/>nus: vt patet in condensatione et rarefactione. vbi ea 
+      <lb ed="#L" n="96"/>dem est substantia numero in raro et denso: et tamen 
+      <lb ed="#L" n="97"/>quantitas variatur. et sic est semper equalis substantia 
+      <lb ed="#L" n="98"/>et inequalis quantitas: et per consequens quantitas non
+      mensu<lb ed="#L" n="99" break="no"/>rat substantiam: ergo si tempus sit accidens motus sicut 
+      <lb ed="#L" n="100"/>ipsi ymaginantur non mensurat primum motum. Item 
+      <lb ed="#L" n="101"/>quarto phisicorum dicit philosophus quod motus primus est 
+      <lb ed="#L" n="102"/>mensura omnium motuum. Quod autem tempus conueniat
+      mo<lb ed="#L" n="103" break="no"/>tui inferiori respectu alterius siue sit primus
+      mo<lb ed="#L" n="104" break="no"/>tus siue alius patet. quia cuicumque competit diffinitio 
+      <lb ed="#L" n="105"/>et diffinitum: sed motui inferiori et etiam motui 
+      <lb ed="#L" n="106"/>ymaginato competit diffinitio temporis. Patet quia 
+      <lb ed="#L" n="107"/>diffinitio temporis est mensurare motum vel est 
+      <lb ed="#L" n="108"/>illud per cuius noticiam deuenitur in cognitionem 
+      <lb ed="#L" n="109"/>quantitatis motus. nunc autem per vnum motum inferiorem 
+      <lb ed="#L" n="110"/>et etiam ymaginatum deuenimus iu cognitionem quanti 
+      <!--605.xml-->
+      <pb ed="#L" n="301-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tatis alterius motus. ergo talis motus inferior siue 
+      <lb ed="#L" n="2"/>realis siue ymaginatus est tempus. et potest vnus 
+      <lb ed="#L" n="3"/>motus esse mesura et mensuratus respectu
+      eiusdem<lb ed="#L" n="4" break="no"/>motus: vt si vnus motus sit vni homoi notior alio 
+      <lb ed="#L" n="5"/>motu: potest ille per cognitionem primi motus deuenire 
+      <lb ed="#L" n="6"/>in cognitione secundi motus. et tunc illi est primus mo 
+      <lb ed="#L" n="7"/>tus tempus. sed si alteri sit primus motus ignotus: et
+      se<lb ed="#L" n="8" break="no"/>cundus notus: potest ille per cognitionem secundi motus 
+      <lb ed="#L" n="9"/>deuenire in cognitione primi motus. et tunc illi erit 
+      <lb ed="#L" n="10"/>secundus motus tempus: et non primus. et sic idem motus potest 
+      <lb ed="#L" n="11"/>esse mensura et mensuratum respectu eiusdem. sic erg 
+      <lb ed="#L" n="12"/>ex praedictis patet quid est tempus
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1123">
+      ⁋ Sed dubium est quo 
+      <lb ed="#L" n="13"/>rum est tempus.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1128">
+      ⁋ Respondeo tempus est primo mensura mot 
+      <lb ed="#L" n="14"/>quod probatur. quia mensura et mensuratum sunt vnigenia 
+      <lb ed="#L" n="15"/>quarto metaphisice. Nunc autem tempus est idem cum primo 
+      <lb ed="#L" n="16"/>motu quae est mensura aliorum motuum. ergo tempus est 
+      <lb ed="#L" n="17"/>primo mensura omnium motuum. Secundo est mensura
+      du<lb ed="#L" n="18" break="no"/>rationis cuiuscumque rei permanentis. quod probatur. quia du 
+      <lb ed="#L" n="19"/>ratio includit successionem. quia duratio rei
+      signi<lb ed="#L" n="20" break="no"/>ficat ipsam rem durantem connotando successione co 
+      <lb ed="#L" n="21"/>existentem actu vel potentia. omne autem successiuum est 
+      <lb ed="#L" n="22"/>realiter motus. ergo duratio cuiuslitetrei includit 
+      <lb ed="#L" n="23"/>motum quae primo mensuratur per tempus. ergo omnis duratio rati 
+      <lb ed="#L" n="24"/>ne connotati mensuratur. et hoc scudario.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1155">
+      ⁋ Iste quan 
+      <lb ed="#L" n="25"/>cumque aliqua sic se habent: quod vnum dicitur breuius. et aliud 
+      <lb ed="#L" n="26"/>longius. illa mensurantur tempore. quia illa sunt passio. 
+      <lb ed="#L" n="27"/>nes temporis. sed duratio vnius rei dicitur breuior vel 
+      <lb ed="#L" n="28"/>longior duratione alterius rei. ergo etc. quia duratio 
+      <lb ed="#L" n="29"/>non dicitur breuior vel longior: nisi quia coexistit
+      bre<lb ed="#L" n="30" break="no"/>uiori vel longiori. Tertio quaes mensuratur tempore.
+      pro<lb ed="#L" n="31" break="no"/>batur sicut de duratione. dicitur enim aliquid quiescere. quia 
+      <lb ed="#L" n="32"/>existit sub forma acquisita sine motu maiori vel 
+      <lb ed="#L" n="33"/>miori tempore. et hoc est coexistere maiori vel minori 
+      <lb ed="#L" n="34"/>successioi in motu.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1179">
+      ⁋ Quarto dico quod substantia rei
+      per<lb ed="#L" n="35" break="no"/>manentis circumscribedo durationem non mensura 
+      <lb ed="#L" n="36"/>tur tempore. quod probatur. quia quando aliquid mensuratur aliqua 
+      <lb ed="#L" n="37"/>mensura: ipsum manens idem semper habet eandem mensuram 
+      <lb ed="#L" n="38"/>realiter vel per equiualentiam. Exemplum quantitas aliem 
+      <lb ed="#L" n="39"/>mensurata per vlnam. sic quod nec augeatur nec minuatur 
+      <lb ed="#L" n="40"/>si primo mensuretur per vlnam semper mensurabitur per vlnam 
+      <lb ed="#L" n="41"/>vel per eandem realiter vel per equiualentiam. quia tantum valet 
+      <lb ed="#L" n="42"/>vna vlna ad mensurandum illam quantitatem sicut alia
+      vl<lb ed="#L" n="43" break="no"/>na. ideo sufficit vna per equiualentiam. Sed substantia rel 
+      <lb ed="#L" n="44"/>permanentis si mensuretur tempore potest manere eadem di 
+      <lb ed="#L" n="45"/>uersis temporibus. quia potest coexistere maiori tempori et
+      mi<lb ed="#L" n="46" break="no"/>nori. et sic mensuraretur tempore magno et peruo. et pe 
+      <lb ed="#L" n="47"/>consequens tempus peruum esset idem tempori magno per equalentia 
+      <lb ed="#L" n="48"/>vel realiter vtrumque est incouenies. ergo substantia rei
+      perma<lb ed="#L" n="49" break="no"/>nentis nullo modo mensuratur tempore. sed tantum eius duratio 
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1214">
+               <lb ed="#L" n="50"/>⁋ Sed conr ista sunt multa dubia. Primo videtur quod 
+      <lb ed="#L" n="51"/>tempus sit distinctum a rebus permanentibus. quia vna species 
+      <lb ed="#L" n="52"/>distinguitur realiter ab alia: sed tempus est vna species quanti 
+      <lb ed="#L" n="53"/>tatis per philosophum in praedicamentis dicentem amplius
+      pri<lb ed="#L" n="54" break="no"/>ter hec locus et tempus. ergo est species distincta a
+      re<lb ed="#L" n="55" break="no"/>bus permanentibus.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1230">
+      ⁋ Item: v. metaphisice. tempus est 
+      <!--605.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 301-v -->
+               <lb ed="#L" n="56"/>per se quantum non per accidens sicut album musicum. sed non quanti 
+      <lb ed="#L" n="57"/>prmanens. ergo successiuum.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1243">
+      ⁋ Item in eodem quanto. puum 
+      <lb ed="#L" n="58"/>et magnum: breue et longum sunt passiones quantitat 
+      <lb ed="#L" n="59"/>et distingunt tempori. ergo est quantitas. sed non permanens 
+      <lb ed="#L" n="60"/>ergo successiua.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1252">
+      ⁋ Item tempus est mensura motus erg 
+      <lb ed="#L" n="61"/>est notius motu. sed non ratione negationum in motu 
+      <lb ed="#L" n="62"/>qui ille sunt ignote et non sunt causae notitie
+      affirma<lb ed="#L" n="63" break="no"/>tionum: sed magis econtra. nec ratione affirmationum. quia 
+      <lb ed="#L" n="64"/>ille mensurantur tempore. ergo haec est ratione alicuius positiui 
+      <lb ed="#L" n="65"/>quod tempus includit pter illa.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1266">
+      ⁋ Item. v. phisicorum sed 
+      <lb ed="#L" n="66"/>commentatorem aliqua attribuutur numero sicut partes 
+      <lb ed="#L" n="67"/>aliqua sicut accidentia. et eodem modo tempori attribuuntur ali 
+      <lb ed="#L" n="68"/>qua vt accidena: puta successiue esse tale cuius vna 
+      <lb ed="#L" n="69"/>pars praecedit: alia sequitur: sed talia non attribuuntur 
+      <lb ed="#L" n="70"/>tempori vt permanens est. ergo vt successiuum.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1279">
+      ⁋ Item veridetur 
+      <lb ed="#L" n="71"/>quod instans dicat aliquid absolutum distinctum a rebus 
+      <lb ed="#L" n="72"/>permanentibus. quia instans raptim transit et non manet 
+      <lb ed="#L" n="73"/>idem in toto tempore. Aliter enim posset motus esse in eo 
+      <lb ed="#L" n="74"/>dem instanti. sed res permanens permanet tota eadem in 
+      <lb ed="#L" n="75"/>toto tempore. ergo instans est aliud a rebus permanentibus. ex 
+      <lb ed="#L" n="76"/>quo est res aliqua. quia alias essent fatua quaestio de in 
+      <lb ed="#L" n="77"/>stanti.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1297">
+      ⁋ Item instans est continuatiuum quantitatis secundum 
+      <lb ed="#L" n="78"/>philosophum: non permanentur. patet discurrendo per singulas 
+      <lb ed="#L" n="79"/>species quantitatis. ergo successiuum et non permanens. ergo est 
+      <lb ed="#L" n="80"/>aliud a parmanentibus.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1306">
+      ⁋ Item secundum philosophum iiii phisicorum 
+      <lb ed="#L" n="81"/>nihil est in actu de tempore nisi instans quod est aliud  
+      <lb ed="#L" n="82"/>a tempore. quia nec tempus nec pars temporis secundum philosophum. sed tempus 
+      <lb ed="#L" n="83"/>et pars temporis per te non differunt a rebus prmanentibus. ergo cum in 
+      <lb ed="#L" n="84"/>stans sit aliud a tempore distinguitur realiter a rebus per 
+      <lb ed="#L" n="85"/>manentibus.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1319">
+      ⁋ Item mutatio subita mensuratur in 
+      <lb ed="#L" n="86"/>stanti: sicut motus tempore. ergo differunt realiter per te a muta 
+      <lb ed="#L" n="87"/>tione: sicut mensura a mensurato. sed mutatio etiam 
+      <lb ed="#L" n="88"/>per te non differt a re permanente. ergo instans realiter dicere 
+      <lb ed="#L" n="89"/>a re permanente. quia differt a mutatione.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1330">
+      ⁋ Item nu 
+      <lb ed="#L" n="90"/>lum permanens distinguit inter praeteritum et futurum. sed 
+      <lb ed="#L" n="91"/>instans distinguit secundum philosophum. ergo non est res perma 
+      <lb ed="#L" n="92"/>nens.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1340">
+      ⁋ Item quod motus distinguitur realiter a tempore et econ 
+      <lb ed="#L" n="93"/>uerso. probatur. quia vna quantitas non est eadem alteri nisi 
+      <lb ed="#L" n="94"/>partes earum sint equales secundum quantitatem et proportionem 
+      <lb ed="#L" n="95"/>vt si a est idem be partes a sunt eiusdem quodtitatis 
+      <lb ed="#L" n="96"/>proportionis cum partibus b. ergo si tempus et motus sini 
+      <lb ed="#L" n="97"/>idem partes motus et temporis sunt eedem et equales modo 
+      <lb ed="#L" n="98"/>praedicto. hoc est falsum. probatur: quia si motus celi esset 
+      <lb ed="#L" n="99"/>velocior intantum quod motus qui nunc est in duabus
+      ho<lb ed="#L" n="100" break="no"/>ris fieret in vna hora: tunc omnes partes motus essent 
+      <lb ed="#L" n="101"/>cedem sicut nunc: et tamen non essent equales partibus temporis: 
+      <lb ed="#L" n="102"/>quia partes motus nunc per positum fiunt in duabus horis: 
+      <lb ed="#L" n="103"/>tunc autem si velocior esset motus secundum casum fierent 
+      <lb ed="#L" n="104"/>in vna hora: et per consequens in medietate temporis. ergo si tempus et 
+      <lb ed="#L" n="105"/>motus sint ide: sequitur quod motus qui nunc est equalis et 
+      <lb ed="#L" n="106"/>idem duabus horis: esset tunc equalis et idem vni hore 
+      <lb ed="#L" n="107"/>et sic pars esset equalis et eadem toti suo: quia
+      ten<lb ed="#L" n="108" break="no"/>pus quod est nunc equale et idem toti motui esset 
+      <lb ed="#L" n="109"/>equale et idem parti. quia idem est motus tunc et 
+      <lb ed="#L" n="110"/>nunc. Item quarto phisicorum ad idem tempus non est 
+      <!--606.xml-->
+      <pb ed="#L" n="302-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>motus sed consequens motum: et est idem apud omnes motus. 
+      <lb ed="#L" n="2"/>non autem tempus: ergo non sunt idem.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1392">
+      ⁋ Iste tempus et motus ha 
+      <lb ed="#L" n="3"/>bent proprietates distinctas: ergo distinguntur. assumptum 
+      <lb ed="#L" n="4"/>probat: quia motus dicitur velox et tardus tempus autem non 
+      <lb ed="#L" n="5"/>ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1401">
+      ⁋ Item quarto phisicorum sed comentatorem tempus 
+      <lb ed="#L" n="6"/>est accidens motus: et sequitur naturaliter motum: sed ni 
+      <lb ed="#L" n="7"/>hil praecedit seipsum naturaliter: nec est accidens 
+      <lb ed="#L" n="8"/>suiipsius
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1410">
+      ⁋ Ite comentator quarto phisicorum sicut 
+      <lb ed="#L" n="9"/>motus sequitur spacium: ita tempus motu. motus autem et 
+      <lb ed="#L" n="10"/>spacium non sunt eadem realiter: ergo nec tempus et motus 
+      <lb ed="#L" n="11"/>Item commentator in eodem sicut spacium est causa non 
+      <lb ed="#L" n="12"/>esse motus: ita motus est causa non esse temporis: sed nihi 
+      <lb ed="#L" n="13"/>est causa non esse suiipsius. ergo. Item commentator ibide 
+      <lb ed="#L" n="14"/>tempus non est motus: sed numerus motus
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1426">
+      ⁋ Ite quod tempus 
+      <lb ed="#L" n="15"/>non sit primus motus probatur: quia tunc si essent plu 
+      <lb ed="#L" n="16"/>res celi: essent tunc plura tempora. quod habet philosophus pro inco 
+      <lb ed="#L" n="17"/>uenienti.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1435">
+      ⁋ Item si sic: tunc non posset esse tempus nisi 
+      <lb ed="#L" n="18"/>esset primus motus. consequens est falsum: quia si omnia corpora 
+      <lb ed="#L" n="19"/>celestia starent et cessarent a motu: adhuc posset 
+      <lb ed="#L" n="20"/>esse motus inferior. puta in rota figuli. et per consequens 
+      <lb ed="#L" n="21"/>esset tempus quod apparet verum in tempore iosue quando non 
+      <lb ed="#L" n="22"/>fuit motus celi: et tunc fuit tempus: quia motus inferior 
+      <lb ed="#L" n="23"/>qui tunc pugnabat populus ifrael et vicebat.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1452">
+      ⁋ Ite 
+      <lb ed="#L" n="24"/>secundum philosophum quarto phisicorum. tempus est passio motus: sed 
+      <lb ed="#L" n="25"/>passio non est idem realiter cum eo cuius est passio. ergo 
+      <lb ed="#L" n="26"/>etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1461">
+      ⁋ Item contrs hoc ponitur: quia tempus habet esse aliquo modo 
+      <lb ed="#L" n="27"/>totaliter in anima: scilicet accipiendo tempus pro motu
+      yma<lb ed="#L" n="28" break="no"/>ginato: quia simultas partium repugnat tempori. ergo 
+      <lb ed="#L" n="29"/>vbi sunt omnes partes temporis simul. ibi non est tempus sed
+      ten<lb ed="#L" n="30" break="no"/>pus in anima habet omnes partes simul. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1472">
+      ⁋ Quod autem simul 
+      <lb ed="#L" n="31"/>tas partium repugnat tempori: patet. quia tempus necessario 
+      <lb ed="#L" n="32"/>habet priorem et posteriorem. Item instans quod est conti 
+      <lb ed="#L" n="33"/>nuatiuum temporis praeteriti cum futuro est extra animam 
+      <lb ed="#L" n="34"/>ergo tempus est extra animam.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1483">
+      ⁋ Istem tempus est passio entis 
+      <lb ed="#L" n="35"/>realis: quia est passio motus celestis extra animam 
+      <lb ed="#L" n="36"/>ergo non habet tantum esse in anima obiectiue.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1490">
+      ⁋ Item quod tempus in 
+      <lb ed="#L" n="37"/>anima non sit mensura: probatur. quia nihil idem conuenit 
+      <lb ed="#L" n="38"/>enti reali et rationis: sed mensurare competit motui
+      pri<lb ed="#L" n="39" break="no"/>mo quae est extra animam respectu aliorum motuum.
+      er<lb ed="#L" n="40" break="no"/>go hoc non competit existenti in anima.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1501">
+      ⁋ Item quam tempus 
+      <lb ed="#L" n="41"/>non sit numerus numeratus in motu: probatur. quia tunc 
+      <lb ed="#L" n="42"/>quot sunt numeri numerati in motu tot essent
+      mo<lb ed="#L" n="43" break="no"/>tus. et per consequens tot tempora.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1511">
+      ⁋ Item quarto phisicorum commen 
+      <lb ed="#L" n="44"/>tator essentiale est tempori mensurare et accidentale 
+      <lb ed="#L" n="45"/>mensurari: sed numerus numeratus mensuratur: et non 
+      <lb ed="#L" n="46"/>mensurat. cum ergo in diffinitione rei ponatur illud tantum 
+      <lb ed="#L" n="47"/>quod est ei essentiale et non accidentale: sequitur quod 
+      <lb ed="#L" n="48"/>in diffinitione temporis non debet poni numerus numeratus 
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1524">
+               <lb ed="#L" n="49"/>⁋ Item si sic: tunc equaliter linea et superficies essent 
+      <lb ed="#L" n="50"/>tepus sicut motus: quia ita conuenit numerare partes li 
+      <lb ed="#L" n="51"/>nee sicut motus. hoc autem falsum est. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1533">
+      ⁋ Item quod mo 
+      <lb ed="#L" n="52"/>tus inferior non sit tempus. probatur. quia tempus est idem vbi 
+      <lb ed="#L" n="53"/>que et apud omnes: motus autem inferior non. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1540">
+      ⁋ Item 
+      <lb ed="#L" n="54"/>quod res permanentes quantum ad substantiam mensurantur 
+      <lb ed="#L" n="55"/>tempore: probatur. quia quodlibet aliud a deo. habet mensurari. 
+      <!--606.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 302-r -->
+               <lb ed="#L" n="56"/>ergo substantia rei permanentur habet mensuram: sed non aliam 
+      <lb ed="#L" n="57"/>quam tempus. ergo etc. proter quod commentator dicit quarto
+      phi<lb ed="#L" n="58" break="no"/>sicorum quod tempus est mensura per accidens permanentium 
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1560">
+               <lb ed="#L" n="59"/>⁋ Ad primum istorum dico quod itentio philosophi est quod tempus non 
+      <lb ed="#L" n="60"/>sit alia res a rebus permanentibus. et hoc probant rationes 
+      <lb ed="#L" n="61"/>quas facit ad probandum tempus non esse. concludunt enim quod 
+      <lb ed="#L" n="62"/>tempus non sit alia res a rebus permanetibus. et ideo illas 
+      <lb ed="#L" n="63"/>rationes non soluit.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1573">
+      ⁋ Si dicas quod omnes ille soluuntur per hoc 
+      <lb ed="#L" n="64"/>quod partes successiuorum habent esse in quodam ordine et fieri 
+      <lb ed="#L" n="65"/>et fluxu per hoc quod vna pars succedit alteri: et abe
+      conti<lb ed="#L" n="66" break="no"/>nuantur ad instans.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1583">
+      ⁋ Contra: instans non potest dare ess 
+      <lb ed="#L" n="67"/>parti praeterite et future: et de praesenti nihil est: nisi
+      in<lb ed="#L" n="68" break="no"/>stans. ergo nullo modo potest dare esse. quod non parti praeterite 
+      <lb ed="#L" n="69"/>patet: tum quia illud quod non est ens non fit ens: quia sibi sud 
+      <lb ed="#L" n="70"/>cedit ens. Aliter ei negatio cui succedit affirma 
+      <lb ed="#L" n="71"/>tio esset ests: tum quia indiuisibile succedens cuicumque non 
+      <lb ed="#L" n="72"/>dat sibi maiorem etitatem quam si non succederet: quia in 
+      <lb ed="#L" n="73"/>nullo genere cause: quia nec finalis nec formalis nec 
+      <lb ed="#L" n="74"/>efficient. cum ergo accipiatur tempus praeteritum cui nihil suo 
+      <lb ed="#L" n="75"/>cedit esset noens. ergo eodem modo quando indiuisibile suo 
+      <lb ed="#L" n="76"/>cedit est non ens. tum tertio: quia si instans succedens 
+      <lb ed="#L" n="77"/>tempori praeterito immediate posset sibi dare entitatem
+      qua<lb ed="#L" n="78" break="no"/>re instans sibi succedens mediate puta per vnum annum 
+      <lb ed="#L" n="79"/>non potest dare entitate tempori praeterito mediate:
+      pu<lb ed="#L" n="80" break="no"/>ta instans quod est nunc non potest dare entitatem tempori potest 
+      <lb ed="#L" n="81"/>terito quod fuit ante annum. ergo non est rationabilit dictum 
+      <lb ed="#L" n="82"/>quod totum tempus praeteritum habet esse per instans praesens.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1620">
+      ⁋ Si
+      di<lb ed="#L" n="83" break="no"/>cas quod quaelibet pars temporis praeteriti habet esse per instans possun 
+      <lb ed="#L" n="84"/>immediate sequens illam partem.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1627">
+      ⁋ Contra quae ratione instans 
+      <lb ed="#L" n="85"/>immediate sequens daret sibi entitatem eadem ratione 
+      <lb ed="#L" n="86"/>instans non succedens immediate: sed nihil praecedens 
+      <lb ed="#L" n="87"/>vel sequens mediate daret sibi non entitatem et 
+      <lb ed="#L" n="88"/>per consequens praeteritum tempus esset compositum ex ente et non 
+      <lb ed="#L" n="89"/>ente. de parte temporis futura videtur manifestum quod
+      in<lb ed="#L" n="90" break="no"/>stans non dat sibi entitatem aliquam cum instans pre 
+      <lb ed="#L" n="91"/>sens transeat anteque sit pars futura: ergo partes praete 
+      <lb ed="#L" n="92"/>rite et future ratione instantis praesentis non componunt 
+      <lb ed="#L" n="93"/>nec faciunt aliquod vnum per se.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1649">
+      ⁋ his visis respondeo ad 
+      <lb ed="#L" n="94"/>philosophum in praedicamentis: quod non dicit tanquam verum de 
+      <lb ed="#L" n="95"/>opinione sua: sed tanquam famosum et de opinione 
+      <lb ed="#L" n="96"/>aliorum. et ideo dicit amplius praeter hec locus et tempus. et 
+      <lb ed="#L" n="97"/>quato phisicorum. vbi exquisite determinat de tempore secundum opi 
+      <lb ed="#L" n="98"/>nionem suam probat quod tempus non est aliquid aliud a re 
+      <lb ed="#L" n="99"/>bus permanentibus: et illas rationes non soluit: 
+      <lb ed="#L" n="100"/>qui sunt pro eius opinione. Aliter potest dici quod 
+      <lb ed="#L" n="101"/>non accipit ibi quantitatem stricte pro illis quae tantum 
+      <lb ed="#L" n="102"/>sunt in genere quantitatis: sed large. Unde videtur 
+      <lb ed="#L" n="103"/>ibi distinguere inter illa quae sunt in genere
+      quanti<lb ed="#L" n="104" break="no"/>tatis per se: et inter illa quae sunt in genere quantitas 
+      <lb ed="#L" n="105"/>per accidens. large loquendo accipit ibi
+      quantita<lb ed="#L" n="106" break="no"/>tem pro omni eo quod habet partes distinctas. et sic est tempus potes 
+      <lb ed="#L" n="107"/>esse quantitas. sicut etiam secundum eum ibidem numerus potest esse 
+      <lb ed="#L" n="108"/>quantitas: vt numerus decem angelorum: quia ille numer 
+      <lb ed="#L" n="109"/>habet partes distinctas per quas vnus numerus dicitur maior vel 
+      <lb ed="#L" n="110"/>mior alio. et sic quantitas potest transferri ad substantiam 
+      <!--607.xml-->
+      <pb ed="#L" n="302-v"/>
+               <cb ed="#L" n="a"/>
+            </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1695">
+               <lb ed="#L" n="1"/>⁋ Ad aliud dico quod tempus dicitur quantum: sicut
+      mo<lb ed="#L" n="2" break="no"/>tus dicitur quantus: quia includit partes distinctas: et in 
+      <lb ed="#L" n="3"/>cludit multas affirmationes et negationes: et
+      eo<lb ed="#L" n="4" break="no"/>dem modo tempus. sed quomo dicitur tempus magis quantum 
+      <lb ed="#L" n="5"/>quam mutatum esse.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1708">
+      ⁋ Respondeo quod tempus et motus neccessario 
+      <lb ed="#L" n="6"/>includunt multas partes sine quibus non possunt
+      intelli<lb ed="#L" n="7" break="no"/>gi. sed mutatum non includit neccessario talem
+      multitu<lb ed="#L" n="8" break="no"/>dinem partium.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1718">
+      ⁋ Ad aliud dico quod philosophus. iii. v. et.
+      vi<lb ed="#L" n="9" break="no"/>metaphisice. distinguit inter passiones et accidena 
+      <lb ed="#L" n="10"/>ideo dicitur quod magnum et peruum non sunt passiones quanti 
+      <lb ed="#L" n="11"/>qui includunt distinctione partium sicut facit quantum. 
+      <lb ed="#L" n="12"/>sed sunt passiones temporis et motus: quia praedicantur 
+      <lb ed="#L" n="13"/>de eis secundo modo dicendi per se et non primo. et ideo 
+      <lb ed="#L" n="14"/>passio in proposito accipitur pro illo quod praedicatur de 
+      <lb ed="#L" n="15"/>alio secundo modo dicendi per se et non primo. et non acci 
+      <lb ed="#L" n="16"/>pitur motus pro aliquo accidente formaliter
+      inheren<lb ed="#L" n="17" break="no"/>te alicui. et sic praedicantur magnum et pruum de primo 
+      <lb ed="#L" n="18"/>motu: quia connotant aliud quam motus: et non sunt
+      ac<lb ed="#L" n="19" break="no"/>cidentia formaliter inherentia motui.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1744">
+      ⁋ Ad aliud
+      di<lb ed="#L" n="20" break="no"/>co. quod tempus est notius motu sicut mensura
+      men<lb ed="#L" n="21" break="no"/>surato: non tantum ratione negationum: neque praecise ratione
+      af<lb ed="#L" n="22" break="no"/>firmationum: sed ratione vtrorumque. quia primus motus qui est 
+      <lb ed="#L" n="23"/>tempus vno modo acceptum est notior quantum ad eius 
+      <lb ed="#L" n="24"/>affirmationes et negationes quam aliquis motus infe 
+      <lb ed="#L" n="25"/>rior quantum ad affirmationes et negationes.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1760">
+      ⁋ Et hec 
+      <lb ed="#L" n="26"/>est distinctio realis inter mensuram et mensuratum 
+      <lb ed="#L" n="27"/>quia affirmationes et negationes mensure distiguntur 
+      <lb ed="#L" n="28"/>ab affirmationibus et negationibus mensurati
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1769">
+      ⁋ Ad  
+      <lb ed="#L" n="29"/>aliud dico quod commentator accipit accidenaia equiuoce 
+      <lb ed="#L" n="30"/>nam vno modo accipitur accidens pro aliquo accidente
+      for<lb ed="#L" n="31" break="no"/>maliter inherente alicui. Alio modo pro aliquo
+      praedi<lb ed="#L" n="32" break="no"/>ca. ili de aliquo secundo modo dicendi per se
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1780">
+      ⁋ Primo modo 
+      <lb ed="#L" n="33"/>tempus non habet accidens: sed tantum secundo modo praedicto 
+      <lb ed="#L" n="34"/>Probatur istud per exemplum suum de numeris. quia si nume 
+      <lb ed="#L" n="35"/>rus nihil aliud sit a rebus numeratis. tunc non ha 
+      <lb ed="#L" n="36"/>bet accidena alia sibi realiter inherentia. vt distingui 
+      <lb ed="#L" n="37"/>tur a rebus numeratim. tamen sibi competunt aliqua
+      praedica<lb ed="#L" n="38" break="no"/>bilia secundo modo dicendi per se. et hoc vt est numerus
+      proprie<lb ed="#L" n="39" break="no"/>quae non conueniunt alicui parti eius.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1798">
+      ⁋ Si dicas quod sub 
+      <lb ed="#L" n="40"/>ectum habens passiones est per se in genere. et similiter 
+      <lb ed="#L" n="41"/>passiones sunt per se in genere.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1806">
+      ⁋ Dico quod hoc est felsum 
+      <lb ed="#L" n="42"/>tam de subiecto quam de passione sic accepta. Et
+      di<lb ed="#L" n="43" break="no"/>co vlterius quod idem potest esse subiectum vnius passionis 
+      <lb ed="#L" n="44"/>et passio alterius subiecti: sicut est de tempore et quantitate 
+      <lb ed="#L" n="45"/>ptinua et multis aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1817">
+      ⁋ Ad aliud de instanti di 
+      <lb ed="#L" n="46"/>co. quod instans non dicit aliquod absolutum distinctum 
+      <lb ed="#L" n="47"/>a rebus permanentibus. quia si sic deus non posset conserua 
+      <lb ed="#L" n="48"/>re aliquem effectum per aliquod tempus non corrumpendo in 
+      <lb ed="#L" n="49"/>finita absoluta quod videtur inconueniens. Dico tunc 
+      <lb ed="#L" n="50"/>quod instans quantum ad quid rei non significat aliud nisi 
+      <lb ed="#L" n="51"/>partes forme successiu acquisitas per motum. quarum 
+      <lb ed="#L" n="52"/>vna ante aliam acquiritur in infinitum sicut prius dictum est 
+      <lb ed="#L" n="53"/>de motu. Unde si sit aliqua pars forme acquisita per
+      mo<lb ed="#L" n="54" break="no"/>tum. tunc quaelibet pars acquerenda post istam partotet est instans 
+      <lb ed="#L" n="55"/>ita quod instans nihil aliud est realiter nisi quaelibet pars 
+      <!--607.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 302-v -->
+               <lb ed="#L" n="56"/>forme cum sua negatione. et sicut post istam formam 
+      <lb ed="#L" n="57"/>acquisitam non est dare primam parte nec primam nega 
+      <lb ed="#L" n="58"/>ionem expellendam: ita nec est dare primum instans 
+      <lb ed="#L" n="59"/>post instans modo praesens. et sicut non est dare ali 
+      <lb ed="#L" n="60"/>quam partem immediate sequentem istam partem imme 
+      <lb ed="#L" n="61"/>diate acquisitam: ita non est dare aliquod instans
+      imme<lb ed="#L" n="62" break="no"/>diate sequens instans praesens. quia quaecunque pars detur ad  
+      <lb ed="#L" n="63"/>huc ante illam fuit alia et alia pars in infinitum 
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1865">
+               <lb ed="#L" n="64"/>⁋ Quantum ergo ad quid rei non significa instans nisi affir 
+      <lb ed="#L" n="65"/>mationes et negationes intrinsecas motui: ita quod vnum 
+      <lb ed="#L" n="66"/>instans significat vnam affirmationem et aliud eius
+      nega<lb ed="#L" n="67" break="no"/>tionem sibi oppositam: et sic deinceps. et sic in quo 
+      <lb ed="#L" n="68"/>libet motu sunt infinite affirmationes et negati 
+      <lb ed="#L" n="69"/>vones. et in quolibet tempore quod est idem cum illo motu 
+      <lb ed="#L" n="70"/>sunt infinita instantia. Sed quantum ad quid nominis
+      si<lb ed="#L" n="71" break="no"/>gnificat et connotat affirmationes et negationes ex 
+      <lb ed="#L" n="72"/>trinsecas motui: scilicet extrema contrdictionis extrinse 
+      <lb ed="#L" n="73"/>ce. Instans ergo quantum ad quid nominis significat affirma 
+      <lb ed="#L" n="74"/>tiones et negationes in motu et connotat coexistenti 
+      <lb ed="#L" n="75"/>as illarum partium ene vna parte contradictionis
+      extrinse<lb ed="#L" n="76" break="no"/>ce: ita quod non cum alia. puta si sint aliqua contradictoria 
+      <lb ed="#L" n="77"/>extrinseca sibi successiua. verbi gratia: a sedet a non 
+      <lb ed="#L" n="78"/>sedet. et quod sit pars forme aliqua acquisita per motum: tunc 
+      <lb ed="#L" n="79"/>pars illa acquirenda post illam parte acquisitam cum 
+      <lb ed="#L" n="80"/>sua negatione debet coexistere vni parti illius contradicti 
+      <lb ed="#L" n="81"/>onis a sedet etc. ita quod non alteri. non sic quod tam affir 
+      <lb ed="#L" n="82"/>matio illius partis acquirende quam sua negatio coexi 
+      <lb ed="#L" n="83"/>stant vni parti contradictonis extrinsece: quia hoc est im 
+      <lb ed="#L" n="84"/>possibile quia tunc contradictoria essent simul in eodem in 
+      <lb ed="#L" n="85"/>stanti: sed quod negatio illius partis coexistat cum 
+      <lb ed="#L" n="86"/>prima parte illius contradictionis extrinsece: ita quod non 
+      <lb ed="#L" n="87"/>potest coexistere secunde parti: et affirmatio istius
+      per<lb ed="#L" n="88" break="no"/>tis acquirende ita coexistit secunde parti
+      contradi<lb ed="#L" n="89" break="no"/>ctionis extrisece a non sedet quod non potest coexistere 
+      <lb ed="#L" n="90"/>parti prime. et ideo tam affirmatio quam negatio ita coexi 
+      <lb ed="#L" n="91"/>stunt vni parti contradictionis quod non alteri. et si affirmato 
+      <lb ed="#L" n="92"/>vel negatio istius partis acquirende coexisteret
+      vtri<lb ed="#L" n="93" break="no"/>quod parti contradictionis extrinsece: tunc non esset motus 
+      <lb ed="#L" n="94"/>ibi. sicut prius patuit in quaestione de motu. et si non 
+      <lb ed="#L" n="95"/>sit motus tunc non esset tempus quod est idem cum illo mo 
+      <lb ed="#L" n="96"/>tu. et per consequens nec instans.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e1939">
+      ⁋ Nec potest dici quod instans 
+      <lb ed="#L" n="97"/>tantum affirmationem in motu significet et non
+      nega<lb ed="#L" n="98" break="no"/>tionem sibi oppositam quantum ad quid rei. quia tunc se 
+      <lb ed="#L" n="99"/>queretur quod omnia instantia alicuius temporis quantum ad
+      to<lb ed="#L" n="100" break="no"/>tum quid rei simul manerent et essent idem instans nunc 
+      <lb ed="#L" n="101"/>secundum quid rei quod fuit in principio mundi hoc est 
+      <lb ed="#L" n="102"/>falsum. ergo etc. consequentia probatur. quia quaelibet pars
+      posi<lb ed="#L" n="103" break="no"/>tiua in motu acquisitiuo vbi partes simul manent 
+      <lb ed="#L" n="104"/>non manet cum illa parte contradictionis extrinsece: 
+      <lb ed="#L" n="105"/>cum qua manet sua negatio propter contradictionem in 
+      <lb ed="#L" n="106"/>clusam. tamen potest post esse suum acquisitum manere cum 
+      <lb ed="#L" n="107"/>infinitis extremis contradictionum succedentium 
+      <lb ed="#L" n="108"/>sibi continue: et sicut potest vna affirmatio manere 
+      <lb ed="#L" n="109"/>ita alia. et per consequens instantia in quocumque mo 
+      <lb ed="#L" n="110"/>tum acquisitiuo possunt simul manere. ergo ad hoc quod 
+      <!--608.xml-->
+      <pb ed="#L" n="303-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>saluemus quod instans non maneat sed raptim trans 
+      <lb ed="#L" n="2"/>eat: oportet quod dicat quantum ad quid rei tam
+      af<lb ed="#L" n="3" break="no"/>firmationes motus quam negationes. Dico ergo ad  
+      <lb ed="#L" n="4"/>primum. quod instans nihil aliud positiuum dicit a
+      re<lb ed="#L" n="5" break="no"/>bus permanentibus quantum ad quid rei. sed bene dicit 
+      <lb ed="#L" n="6"/>negationes vltra res permanentes. sed quantum ad quid 
+      <lb ed="#L" n="7"/>nominis connotat affirmationes et negationes
+      extri<lb ed="#L" n="8" break="no"/>secas motui vel tempori. et connotat coexistentiam partis 
+      <lb ed="#L" n="9"/>forme ita cum vna parte contradictionis quod non cum alia modo 
+      <lb ed="#L" n="10"/>praedicto. et propter tale connotatione possunt multa
+      ve<lb ed="#L" n="11" break="no"/>rificari de instanti: quae non possunt verificari de re per 
+      <lb ed="#L" n="12"/>manente. Et illud est gnaliter verum quando quid nominis 
+      <lb ed="#L" n="13"/>alicuius exprimit multa: quae non expremit quid rei. modo 
+      <lb ed="#L" n="14"/>quando quid nominis alicuius exprimit multa quae non expremit 
+      <lb ed="#L" n="15"/>quid rei multa possunt verificari de tali re ratione quid nominis 
+      <lb ed="#L" n="16"/>quae non possunt verificari ratione quid rei. sic est in proposito. 
+      <lb ed="#L" n="17"/>ergo etc. Alio modo dici potest quod instans significat parten 
+      <lb ed="#L" n="18"/>forme acquisite per motum: et nihil plus quantum ad quid  
+      <lb ed="#L" n="19"/>rei. et connotat coexistentiam eius cum vna parte
+      co<lb ed="#L" n="20" break="no"/>tradictionis sic quod non cum altera. et hoc loquendo
+      ge<lb ed="#L" n="21" break="no"/>neraliter de quacumque contradictione siue intrinseca
+      mo<lb ed="#L" n="22" break="no"/>tui siue extrinseca. Et si istud generaliter
+      intelli<lb ed="#L" n="23" break="no"/>gatur: tunc nec tempus nec instans est in motu
+      augmen<lb ed="#L" n="24" break="no"/>tationis nec alterationis. nec vbicumque sunt tantum 
+      <lb ed="#L" n="25"/>motus acquisitiui. quia in illis pars acquisita manet. et 
+      <lb ed="#L" n="26"/>potest manere cum quibuscumque contradictoriis tam
+      intrin<lb ed="#L" n="27" break="no"/>secis motui quam extrinsecis. excepto suo solo
+      com<lb ed="#L" n="28" break="no"/>tradictorio. quia gum suo contradictorio non potest manere 
+      <lb ed="#L" n="29"/>sed tunc tantum motus localis potest dici tempus. quia in eo 
+      <lb ed="#L" n="30"/>solo potest esse instans: siue ponatur vbi acquisitum per 
+      <lb ed="#L" n="31"/>motu localem: siue tantum locus semper mobile quod mouetur 
+      <lb ed="#L" n="32"/>localiter manet sub illo positiuo acquisito cum co 
+      <lb ed="#L" n="33"/>existentia vnius partis contradictionis tantum: siue sint 
+      <lb ed="#L" n="34"/>contradictoria intrinseca motui: siue extrinseca. dum 
+      <lb ed="#L" n="35"/>modo sibi continue succedant. Si enim mobile quod 
+      <lb ed="#L" n="36"/>mouetur localiter maneat sub aliquo vbi determina 
+      <lb ed="#L" n="37"/>to vel aliquo loco. ita quod conexistat vtrique parti com 
+      <lb ed="#L" n="38"/>tradictionis sub illo vbi vel loco: tunc non mouetur 
+      <lb ed="#L" n="39"/>sed quaescit. ita quod secundum istam viam instans nihil est nisi 
+      <lb ed="#L" n="40"/>illud positiuum quod acquiritur per motum localem siue 
+      <lb ed="#L" n="41"/>sit vbi siue pars spacii: quod tamen sic coexistit vni parti 
+      <lb ed="#L" n="42"/>contradictionis quod non alteri. et aliter non dicitur instas 
+      <lb ed="#L" n="43"/>qui hoc nomen instans vel conceptus connotat alte 
+      <lb ed="#L" n="44"/>ram partem cuiuscumque contradictionis cum negatione
+      al<lb ed="#L" n="45" break="no"/>terius partis. quia connotat coexistentiam cum vna parte sic 
+      <lb ed="#L" n="46"/>quod non cum alia. Et hoc est verum si ponatur motus
+      lo<lb ed="#L" n="47" break="no"/>calis simul acquisitiuus et deparditiuus sic scilicet quod vnum 
+      <lb ed="#L" n="48"/>vbi vel vnus locus acquiritur. alius deperditur 
+      <lb ed="#L" n="49"/>Si autem ponatur motus localis tantum acquisitiuus per 
+      <lb ed="#L" n="50"/>potentiam diuinam scilicet si deus faceret corpus
+      reti<lb ed="#L" n="51" break="no"/>nere primum vbi quando acquirit secundum: et sic deinceps 
+      <lb ed="#L" n="52"/>tunc instans significat partem forme per motum acquisite 
+      <lb ed="#L" n="53"/>cum coexistentia vnius partis contradictonis. ita quod cum alia 
+      <lb ed="#L" n="54"/>siue pluribus partibus. et sic est in motu
+      augmenta<lb ed="#L" n="55" break="no"/>tionis et alterationis vbi sunt tantum motus acqui¬ 
+      <!--608.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 303-r -->
+               <lb ed="#L" n="56"/>sitiui. et tunc possunt secundum istam viam poni tres species. scilicet 
+      <lb ed="#L" n="57"/>motus augmentationis et alterationis et instans 
+      <lb ed="#L" n="58"/>in illis motibus. sicut et in aliis. Sed alia via 
+      <lb ed="#L" n="59"/>apparet melior ponendo quod non est instans
+      nisi<lb ed="#L" n="60" break="no"/>vbi est motus acquisitiuus et deparditiuus: ita quod 
+      <lb ed="#L" n="61"/>semper sic vnum acquiritur aliud deperditur: quia secundum il 
+      <lb ed="#L" n="62"/>lam viam melius saluatur quod instans raptim transit quod tam 
+      <lb ed="#L" n="63"/>tum coexistit vni parti contradictonis: ita quod non 
+      <lb ed="#L" n="64"/>alii.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2124">
+      ⁋ Ad septimum dicitur quod instans est cotinua 
+      <lb ed="#L" n="65"/>tiuum: vt iam dictum est: sed per hoc non concluditur quod realiter 
+      <lb ed="#L" n="66"/>differat a parmanentibus.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2131">
+      ⁋ Ad aliud dico quod in 
+      <lb ed="#L" n="67"/>stans dicitur indiuisibile: quia tantum coexistit vni par 
+      <lb ed="#L" n="68"/>ti contradictionis et non alteri: sed quando alteri tunc 
+      <lb ed="#L" n="69"/>non est instans: sed illud quod est instans est
+      diuisibi<lb ed="#L" n="70" break="no"/>le in infinitum ex quo acquiritur per motum: et si esset 
+      <lb ed="#L" n="71"/>indiuisibile et cotinuatiuum duarum partium temporis. ex hoc 
+      <lb ed="#L" n="72"/>non sequitur quod differt a partibus continuatiuis. Exem 
+      <lb ed="#L" n="73"/>plum ex hoc quod punctus continuat duas partes 
+      <lb ed="#L" n="74"/>linee: non sequitur quod punctus differt a linea: quia tunc 
+      <lb ed="#L" n="75"/>posset probari quod linea componeretur ex puctis: et eo 
+      <lb ed="#L" n="76"/>dem modo in proposito si instans dicat aliud a par 
+      <lb ed="#L" n="77"/>tibus motus et temporis posset probari quod tempus compone 
+      <lb ed="#L" n="78"/>retur ex instantibus.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2161">
+      ⁋ Dico tamen quod instans non continu 
+      <lb ed="#L" n="79"/>at proprie partes temporis: quia illa quae nihil sunt non pos 
+      <lb ed="#L" n="80"/>sunt per aliquod ens continuari. dicitur tamen a philosopho. conti 
+      <lb ed="#L" n="81"/>nuare partes temporis: quia illud quod immediate
+      prece<lb ed="#L" n="82" break="no"/>dit instans praesens conexistebat multis extremis
+      contra<lb ed="#L" n="83" break="no"/>dictonis: sed instans praesens tantum coexistit vni parti
+      com<lb ed="#L" n="84" break="no"/>tradictionis: ita quod non alii et non est alia continua 
+      <lb ed="#L" n="85"/>tioibi
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2179">
+      ⁋ Ad aliud dico quod mutatio subita non 
+      <lb ed="#L" n="86"/>mensuratur instanti: et si differret a partibus mo 
+      <lb ed="#L" n="87"/>tus et temporis: quia mutatio subita est indiuisibilis 
+      <lb ed="#L" n="88"/>et nullum tale mensuratur: quia mensura certificat de 
+      <lb ed="#L" n="89"/>quantitate mensurati: et ideo si mensuratum non sit
+      quan<lb ed="#L" n="90" break="no"/>tum non mensuratur: tamen bene potest aliquis certificari. 
+      <lb ed="#L" n="91"/>de perfectione alicuius indiuisibilis per accessum et re 
+      <lb ed="#L" n="92"/>cessum ad aliquod indiuisibile. et si tunc ex
+      cognitoe<lb ed="#L" n="93" break="no"/>vnius indiuisibilis et aliorum duorum quorum vtrunque 
+      <lb ed="#L" n="94"/>accedit ad illud indiuisibile potest cognosci quod vnum 
+      <lb ed="#L" n="95"/>indiuisibile accedens sit perfectius alio: et tunc illud 
+      <lb ed="#L" n="96"/>indiuisibile per cuius cognitionem principaliter scitu 
+      <lb ed="#L" n="97"/>hoc potest dici mensura perfectionis respectu aliorum 
+      <lb ed="#L" n="98"/>Et ideo si ex cognitione instantis et aliarum duarum 
+      <lb ed="#L" n="99"/>mutationum potest sciri quod vna mutatio est
+      perfe<lb ed="#L" n="100" break="no"/>ctior alia: tunc primum instans dicitur mensura per 
+      <lb ed="#L" n="101"/>fectionis respectu illarum mutationum et aliter non. 
+      <lb ed="#L" n="102"/>et eodem modo de deo si ex cognitione dei
+      intuiti<lb ed="#L" n="103" break="no"/>ua et cognitione aliarum rerum: non ex sola
+      cogni<lb ed="#L" n="104" break="no"/>tione dei: quia mensura et mensuratum necessario 
+      <lb ed="#L" n="105"/>prius cognoscuntur secundum suas essentias quam secundum quod 
+      <lb ed="#L" n="106"/>sunt mensure. Nec sufficit ad cognoscendum 
+      <lb ed="#L" n="107"/>quantitatem mensurati solum cognoscere meu 
+      <lb ed="#L" n="108"/>suram. Si inquam ex tali cognitone potest
+      co<lb ed="#L" n="109" break="no"/>gnosci quod vna creatura est perfectior alia: tunc 
+      <lb ed="#L" n="110"/>deus est mensura creature. mensura inquam 
+      <!--609.xml-->
+      <pb ed="#L" n="303-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>perfectionis et aliter nullo modo debet concedi men 
+      <lb ed="#L" n="2"/>sura creaturarum: nisi per eius cognitionem intuitiuam 
+      <lb ed="#L" n="3"/>et aliarum creaturarum posset cognosci vna
+      crea<lb ed="#L" n="4" break="no"/>tura esse perfectior: quia vna plus accedit ad perfectionem 
+      <lb ed="#L" n="5"/>dei quam alia. et isto modo dicunt verum quae dicut quod albe 
+      <lb ed="#L" n="6"/>do in genere colorum est mensura aliorum mensura
+      in<lb ed="#L" n="7" break="no"/>quam perfectionis: quia cognita albedine rubedine et 
+      <lb ed="#L" n="8"/>nigredine potest aliquis scire quod rubedo est
+      perfecti<lb ed="#L" n="9" break="no"/>or color nigredine. aut econuerso: quia plus acce 
+      <lb ed="#L" n="10"/>dit ad perfectionem albedinis quam nigredo. et eodem 
+      <lb ed="#L" n="11"/>modo est de instanti et mutatione si per cognitionem in 
+      <lb ed="#L" n="12"/>stantis et duarum mutationum posset quis cognosce 
+      <lb ed="#L" n="13"/>re quod vna mutatio est perfectior alia: quia plus acce 
+      <lb ed="#L" n="14"/>dit ad perfectionem instantis: tunc instans potest dici men 
+      <lb ed="#L" n="15"/>sura perfectionis respectu aliarum mutationum et ali 
+      <lb ed="#L" n="16"/>ter non. Tame aliter potest dici quod instans est mensura 
+      <lb ed="#L" n="17"/>mutationis: non quia dicit aliquam rem absolutam super 
+      <lb ed="#L" n="18"/>ipsam et res permanentes: sed quia mutatio proprie dicaua 
+      <lb ed="#L" n="19"/>vt significa rem connotando negationem immediate
+      praece<lb ed="#L" n="20" break="no"/>dente conexistit vni parti contrdictionis: ita quod non alii 
+      <lb ed="#L" n="21"/>nec duabus simul
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2288">
+      ⁋ Ad aliud dico quod instans dicitur
+      distin<lb ed="#L" n="22" break="no"/>guere inter praeteritum et futurum. non quia distinguita 
+      <lb ed="#L" n="23"/>rebus permanentibus et impermanentibus: puta vbi pum 
+      <lb ed="#L" n="24"/>ctus distinguit inter vna partem et aliam non est punctus 
+      <lb ed="#L" n="25"/>alius a partibus linee: sed propter hoc dicitur distinguere 
+      <lb ed="#L" n="26"/>et compulare: quia medio modo se habet inter praeteritum et 
+      <lb ed="#L" n="27"/>futurum. et hoc quia illud est praeteritum quod coexistebat 
+      <lb ed="#L" n="28"/>multis extremis contradictionum: et nunc non coexistit 
+      <lb ed="#L" n="29"/>futurum autem est quod conexistet aliquibus contradictoriis et 
+      <lb ed="#L" n="30"/>modo non conexistit: sed instans praesens sic modo coexistit 
+      <lb ed="#L" n="31"/>vni parti contradictionis et prius non conexistebat illi nec 
+      <lb ed="#L" n="32"/>alicui alteri. et ideo dicitur distinguere et compulare. 
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2314">
+               <lb ed="#L" n="33"/>⁋ Ad aliud dico quod partes temporis et motus: vt motus 
+      <lb ed="#L" n="34"/>est tempus sunt eedem siue sit motus velox siue tardus: 
+      <lb ed="#L" n="35"/>qui eedem affirmationes et negationes sunt de
+      essen<lb ed="#L" n="36" break="no"/>tia motus siue sit tardior siue velocior: sed ille mo 
+      <lb ed="#L" n="37"/>tus non habet rationem temporis respectu sui: sicut nec ali 
+      <lb ed="#L" n="38"/>quis motus respectu alterius. et alius motus vel
+      rea<lb ed="#L" n="39" break="no"/>lis vel ymaginatiuus habet rationem temporis respectu il 
+      <lb ed="#L" n="40"/>lius motus: respectu cuius est velocitas vel tat 
+      <lb ed="#L" n="41"/>ditas. et tunc dico quod si sit motus tardior primo: et 
+      <lb ed="#L" n="42"/>postea fiat velocior in duplo: tunc velocior fit in 
+      <lb ed="#L" n="43"/>duplo minori tempore quam tardus: quia motus alius
+      di<lb ed="#L" n="44" break="no"/>stinctus ab isto motu veloci et tardo modo
+      pre<lb ed="#L" n="45" break="no"/>dicto qui regularis est et vniformis est tempus et 
+      <lb ed="#L" n="46"/>mensura respectu primi motus. et quia motus iste cu 
+      <lb ed="#L" n="47"/>ius vna medietas est tardior et alia velocior in 
+      <lb ed="#L" n="48"/>duplo quo ad partem motus tardiorem coexistit 
+      <lb ed="#L" n="49"/>maiori successioni in duplo motus vniformis. et 
+      <lb ed="#L" n="50"/>quo ad partem motus velociorem coexistit
+      mino<lb ed="#L" n="51" break="no"/>ri successioni in duplo motus vniformis. ideo 
+      <lb ed="#L" n="52"/>pars velocior motus fit in duplo minori tempe 
+      <lb ed="#L" n="53"/>re quam tardior. Et ex hoc non sequitur quod pars sit equa 
+      <lb ed="#L" n="54"/>lis toti: quia pars illa motus vniformis quae
+      men<lb ed="#L" n="55" break="no"/>surat tanquam tepus partem motus velociorem est 
+      <!--609.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 303-v -->
+               <lb ed="#L" n="56"/>minor quam ipsa tota successio: etiam quam alia pars 
+      <lb ed="#L" n="57"/>successionis eiusdem mensurantis partem motus 
+      <lb ed="#L" n="58"/>tardiorem. et per consequens nec pars temporis mensuram 
+      <lb ed="#L" n="59"/>tis predictu motum est eadem toti nec equalis to 
+      <lb ed="#L" n="60"/>ti
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2384">
+      ⁋ Si dicas quod si motus primus mensuret aliquem 
+      <lb ed="#L" n="61"/>motum vniforme inferiore puta motum solis per 
+      <lb ed="#L" n="62"/>vnum diem vel per vnam reuolutionem si fiat alia reuo 
+      <lb ed="#L" n="63"/>lutio vel motus in duplo velocior non mensura 
+      <lb ed="#L" n="64"/>bit nisi medietatem alterius motus vniformis. 
+      <lb ed="#L" n="65"/>ex quae est velocior prima reuolutione in duplo: et 
+      <lb ed="#L" n="66"/>tamen affirmationes et negationes quae sunt in secunda 
+      <lb ed="#L" n="67"/>reuolutione fuerunt in prima et tamen prima reuolu 
+      <lb ed="#L" n="68"/>tio fuit tempus duplum respectu secunde reuolutionis: et 
+      <lb ed="#L" n="69"/>per consequens idem est duplum ad se respectu suiip 
+      <lb ed="#L" n="70"/>sius.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2408">
+      ⁋ Ad illud dico quod tempus accipitur duplici 
+      <lb ed="#L" n="71"/>ter vel pro motu ymaginato quae tantum habet esse 
+      <lb ed="#L" n="72"/>obiectiue in anima vel pro motu reali. primo modo 
+      <lb ed="#L" n="73"/>accipiendo sic est tempus idem apud omns per equiua 
+      <lb ed="#L" n="74"/>lentiam: quia eodem modo mensurarem ego alios motus 
+      <lb ed="#L" n="75"/>per conceptum tuum. si esset in me sicut mensuro per 
+      <lb ed="#L" n="76"/>conceptum meum: et tum econuerso per meum sicut per tuu 
+      <lb ed="#L" n="77"/>si accipitur secundo modo aut igitur pro motu primo 
+      <lb ed="#L" n="78"/>velocissimo et regulatissimo aut pro motu infe 
+      <lb ed="#L" n="79"/>riori. primo modo est idem tempus apud omns: quia 
+      <lb ed="#L" n="80"/>omns possunt per illum motum mensurare alios
+      mo<lb ed="#L" n="81" break="no"/>tus inferinores tanquam per mensuram. secundo modo ad 
+      <lb ed="#L" n="82"/>cipiendo motum sic non est idem apud omnes realiter 
+      <lb ed="#L" n="83"/>licet forte sit idem equiualenter
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2440">
+      ⁋ Contra.
+      com<lb ed="#L" n="84" break="no"/>mentator quarto phisicorum dicit quod non possumus 
+      <lb ed="#L" n="85"/>praecipere tempus nisi percipiendo motum primum.
+      er<lb ed="#L" n="86" break="no"/>go non possumus mensurare per alium motum.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2449">
+      ⁋ Respon 
+      <lb ed="#L" n="87"/>deo secundum philosophum et commentatorem quarto phisicorum 
+      <lb ed="#L" n="88"/>motus primus est velocissimus et regulatissimus 
+      <lb ed="#L" n="89"/>ita quod secundum eum impossibile est dare motum velocio 
+      <lb ed="#L" n="90"/>rem et regulatiorem. et ideo ymaginando aliquem 
+      <lb ed="#L" n="91"/>vniforme et velocissimum habeo quendam conce 
+      <lb ed="#L" n="92"/>ptum motus quie soli primo motui conuenit. et ideo 
+      <lb ed="#L" n="93"/>secundum istam viam ille motus ymaginatus solum est conm 
+      <lb ed="#L" n="94"/>munis primo motui: et ideo quaecunque fingit sic com 
+      <lb ed="#L" n="95"/>ceptus motus: percipit motum primum: quia ille 
+      <lb ed="#L" n="96"/>conceptus in nullo alio saluatur. Et ideo ymagi 
+      <lb ed="#L" n="97"/>nando illum conceptum percipitur primus motus 
+      <lb ed="#L" n="98"/>in communi. Unde theologi habent dicere quod deus po 
+      <lb ed="#L" n="99"/>test facere alium motu ita regularem et vniformen 
+      <lb ed="#L" n="100"/>sicut est primus motus iam factus et forte
+      motu<lb ed="#L" n="101" break="no"/>velociorem licet non forte magis vniformem. et si 
+      <lb ed="#L" n="102"/>sic esset in mensurando motus realis per
+      mo<lb ed="#L" n="103" break="no"/>tum in anima non plus percipitur primus motus iam fa 
+      <lb ed="#L" n="104"/>ctus quam alius factus a deo de nouo: quia motus 
+      <lb ed="#L" n="105"/>ymaginatus equaliter saluaretur in vtroque. ideo 
+      <lb ed="#L" n="106"/>dico quod tempus vt est motus in anima est idem
+      a<lb ed="#L" n="107" break="no"/>pud omns per equiualentiam modo supra dicto 
+      <lb ed="#L" n="108"/>et hoc sufficit ad intentionem philosophi.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2499">
+      ⁋ Ad  
+      <lb ed="#L" n="109"/>aliud dico quod accipiendo tempus secundum quid
+      no<lb ed="#L" n="110" break="no"/>minis inquantum dicit mensuram: sic tempus non est 
+      <!--610.xml-->
+      <pb ed="#L" n="304-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>velox vel tardum: quia mensura abstrahit a veloci et 
+      <lb ed="#L" n="2"/>tardo. et hoc loquendo de tempore in anima vel in re extram 
+      <lb ed="#L" n="3"/>quia motus in anima quantum est tempus regularis est et vni 
+      <lb ed="#L" n="4"/>formis. vnde quia velocitas et tarditas impediunt 
+      <lb ed="#L" n="5"/>rationem mensurandi: quia de ratione mensure duratio 
+      <lb ed="#L" n="6"/>nis est quod sit vniformis et regularis: ideo velocitas 
+      <lb ed="#L" n="7"/>et tarditas non conueniunt motui vi habet rationem temporis 
+      <lb ed="#L" n="8"/>qui vt sic habet rationem mensure. tamen accipiendo tempus secundum 
+      <lb ed="#L" n="9"/>quid rei: sic est omnino idem cum motum. et sic bene potest 
+      <lb ed="#L" n="10"/>concedi quod tempus sit velox et tardum sicut motus: quia 
+      <lb ed="#L" n="11"/>ista competunt sibi inquantum habet partes sibi inuicem 
+      <lb ed="#L" n="12"/>succedentes
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2538">
+      ⁋ Ad aliam auctoritatem et consimiles 
+      <lb ed="#L" n="13"/>quae dicunt tempus esse passionem et accidens motus.
+      dicen<lb ed="#L" n="14" break="no"/>dum quod accipiunt passionem et accidens non pro aliquo 
+      <lb ed="#L" n="15"/>accidente de genere accidentis formaliter
+      inheren<lb ed="#L" n="16" break="no"/>te motui vel mobili: sed pro aliquo predicato
+      vel<lb ed="#L" n="17" break="no"/>conceptu praedicabili de motu in secundo modo dicendi 
+      <lb ed="#L" n="18"/>per se non in primo modo. et hoc est generaliter verum quando 
+      <lb ed="#L" n="19"/>praedicatum connotat aliquid quod non connotat subiectum. 
+      <lb ed="#L" n="20"/>et sic tempus est passio et accidens motus: quia tempus vltra 
+      <lb ed="#L" n="21"/>motum connotat aliquid quod non est de essentia
+      mo<lb ed="#L" n="22" break="no"/>tus. Et ideo ratione connotati praedicatur de motu secundo 
+      <lb ed="#L" n="23"/>modo dicendi per se: non primo modo
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2564">
+      ⁋ hoc modo
+      crea<lb ed="#L" n="24" break="no"/>tiuum dicitur passio dei: non quod sit aliquod accidens for 
+      <lb ed="#L" n="25"/>maliter inherens deo: sed quia connotat aliquid quod non 
+      <lb ed="#L" n="26"/>est de essentia dei. Et ita in talibus dicitur
+      sub<lb ed="#L" n="27" break="no"/>iectum praecedere praedicatum sicut pars totum: quia
+      praedi<lb ed="#L" n="28" break="no"/>catum significat totum quod subiectum et plus: et ideo 
+      <lb ed="#L" n="29"/>non potest intelligi sine subiecto. Et sic dicuntur ac 
+      <lb ed="#L" n="30"/>cidere et sequi ad talia.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2582">
+      ⁋ Ad aliud dico quod
+      mo<lb ed="#L" n="31" break="no"/>tus non sequitur quantitatem spacii: ita quod sit aliquod
+      ac<lb ed="#L" n="32" break="no"/>cidens inherens quantitati spacii: sed quia est ipsum vbi quod 
+      <lb ed="#L" n="33"/>successiue acquiritur supra quantitate spacii cum
+      ne<lb ed="#L" n="34" break="no"/>gationibus illorum vbi: et hoc ponendo talem respectum: 
+      <lb ed="#L" n="35"/>ed non ponendo respectum vbi: quia tunc est ipsamet 
+      <lb ed="#L" n="36"/>quantitas spacii cum negationibus partium spacii: et hoc 
+      <lb ed="#L" n="37"/>quantum ad suum significatum totale: sicut prius dictum 
+      <lb ed="#L" n="38"/>est. ita nec tempus sequitur motum sicut aliquid sibi
+      in<lb ed="#L" n="39" break="no"/>herens: sed sicut aliquid quod vltra motum connotat 
+      <lb ed="#L" n="40"/>rationem mensure quantum ad suum significatum totale. 
+      <lb ed="#L" n="41"/>Et ideo sequitur sicut aliquid praedicatur de eo secundo modo 
+      <lb ed="#L" n="42"/>dicendi per se et non primo modo. sicut motus
+      suppo<lb ed="#L" n="43" break="no"/>sito quod significet partem spacii cum negationibus 
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2614">
+               <lb ed="#L" n="44"/>⁋ Ad aliud dico quod siue accipiatur tempus pro motu 
+      <lb ed="#L" n="45"/>in anima siue pro re extra:semper est vnum et idem per 
+      <lb ed="#L" n="46"/>equiualentiam: licet sint plura realiter et forma 
+      <lb ed="#L" n="47"/>liter: quia tantum valet vnum quantum omnia: et si essent 
+      <lb ed="#L" n="48"/>plures celi adhuc idem tempus esset per
+      equiualen¬<lb ed="#L" n="49" break="no"/>tiam: et ita possem mensurare per vnum illorum si essent 
+      <lb ed="#L" n="50"/>mihi noti sicut per omns: sed tunc essent plura tempora 
+      <lb ed="#L" n="51"/>realiter et formaliter. et sic intelligit philosophus.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2634">
+      ⁋ Ad 
+      <lb ed="#L" n="52"/>aliud dico quod si nullus primus motus esset non 
+      <lb ed="#L" n="53"/>esset tempus quod idem esset cum motum reali mensurans 
+      <lb ed="#L" n="54"/>alios motus inferiores. et sic intelligut docto 
+      <lb ed="#L" n="55"/>res tempus non esse post iudicium: sed tamen bene potest 
+      <!--610.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 304-r -->
+               <lb ed="#L" n="56"/>esse motus in anima mensurans alios motus vel exi: 
+      <lb ed="#L" n="57"/>stentes actu vel possibiles esse. et sic fuisset
+      ten<lb ed="#L" n="58" break="no"/>pus iosue si omnia corpora celestia stetissent sicut 
+      <lb ed="#L" n="59"/>stetit sol adhuc per motum ymaginatum posset quis 
+      <lb ed="#L" n="60"/>mensurare motus inferiores. et hoc modo
+      bea<lb ed="#L" n="61" break="no"/>ti mensurabunt post iudicium penas damnatorum sed 
+      <lb ed="#L" n="62"/>magis et minus per motum ymaginatum.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2667">
+      ⁋ Ad aliud  
+      <lb ed="#L" n="63"/>quo tempus est passio motus patuit prius. Dico tamen 
+      <lb ed="#L" n="64"/>quod aliter hec est vera tempus est motus realiter vel 
+      <lb ed="#L" n="65"/>idem cum motum: et aliter hec tempus est passio motus: 
+      <lb ed="#L" n="66"/>sicut hec aliter est vera album est sortes et aliter 
+      <lb ed="#L" n="67"/>hec. album est passio sortis. nam primo modo tam 
+      <lb ed="#L" n="68"/>tempus quam album habet suppositionem personalem 
+      <lb ed="#L" n="69"/>quia tepus tunc supponit pro motu et album pro
+      sor<lb ed="#L" n="70" break="no"/>te sicut hic. album potest esse nigrum tam subiectum 
+      <lb ed="#L" n="71"/>quam predicatum supponunt personaliter puta pro
+      sub<lb ed="#L" n="72" break="no"/>iecto quod potest vtrumque recipere. et sic subiectum 
+      <lb ed="#L" n="73"/>et predicatum in omnibus significant idem omnio hino 
+      <lb ed="#L" n="74"/>inde. nec distinguntur realiter nec formaliter: quia 
+      <lb ed="#L" n="75"/>aliter nunquam essent ille propositiones vere: et ideo 
+      <lb ed="#L" n="76"/>in talibus semper predicatur idem de se: sed quando dico 
+      <lb ed="#L" n="77"/>tempus est passio motus. album est passio sortis ibi 
+      <lb ed="#L" n="78"/>vtrumque vel habet suppositionem simplicem vel ma 
+      <lb ed="#L" n="79"/>teriale. primo modo supponit pro conceptu. secundo 
+      <lb ed="#L" n="80"/>modo pro voce quae vox et conceptus significant vnum 
+      <lb ed="#L" n="81"/>principaliter et connotant aliud. Et ratione con 
+      <lb ed="#L" n="82"/>notati possunt predicari secundo modo per se. et
+      for<lb ed="#L" n="83" break="no"/>te quando dico album est passio sortis: luer album po 
+      <lb ed="#L" n="84"/>test habere suppositionem significatiua. et sic est 
+      <lb ed="#L" n="85"/>vera. et tunc supponit pro albedine quae est passio 
+      <lb ed="#L" n="86"/>sortis: sed secundum istam suppositionem hec est falsa.
+      sor<lb ed="#L" n="87" break="no"/>tes est albus sicut hec sortes est albedo. Et est 
+      <lb ed="#L" n="88"/>notandum quod in accidentibus terminus conceptus 
+      <lb ed="#L" n="89"/>potest habere quadruplicem suppositionem: sci.
+      licet<lb ed="#L" n="90" break="no"/>personalem simplicem materialem et significatiuam. 
+      <lb ed="#L" n="91"/>Exemplum de albo. primo modo supponit pro
+      sub<lb ed="#L" n="92" break="no"/>iecto. secundo modo pro conceptu. tertio modo pro voce 
+      <lb ed="#L" n="93"/>et quarto modo pro suo significato: sed in terminis 
+      <lb ed="#L" n="94"/>substantialibus suppositio personalis et
+      significa<lb ed="#L" n="95" break="no"/>tiua sunt eedem: quia idem est in illis significatum quod 
+      <lb ed="#L" n="96"/>etiam est suppositum exemplum de homine
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2743">
+      ⁋ Ad aliud  
+      <lb ed="#L" n="97"/>dico quia repugnat tempori habere partes simul 
+      <lb ed="#L" n="98"/>in respectu extra: sed quantum ad partes simul intel 
+      <lb ed="#L" n="99"/>lectas et apprehensas hoc non repugnat: immo est
+      ne<lb ed="#L" n="100" break="no"/>cessarium ad hoc quod aliquis mesuret per partes tempo 
+      <lb ed="#L" n="101"/>ris. quia mensura est notior mensurato: aliter non duce 
+      <lb ed="#L" n="102"/>ret in eius cognitionem. et ideo tempus habet tantum partes simul 
+      <lb ed="#L" n="103"/>obiectiue in anima et non subiectiue in re extra.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2761">
+      ⁋ Ad  
+      <lb ed="#L" n="104"/>aliud dico quod instans eodem modo habet esse in 
+      <lb ed="#L" n="105"/>anima vel in re extra sicut tempus et motus.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2768">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="106"/>dico quod passio realis potest accipi duplicitur. vno 
+      <lb ed="#L" n="107"/>modo pro accidente formaliter inherente alicui. alio mo 
+      <lb ed="#L" n="108"/>pro praedicabili quod supponit pro re. primo modo tempus in anima 
+      <lb ed="#L" n="109"/>non est passio realis. secundo modo est passio realis vt patet 
+      <lb ed="#L" n="110"/>per praedcam.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2782">
+      ⁋ Et sicut patet etiam quod aliquid potest dici vniuoce 
+      <!--611.xml-->
+      <pb ed="#L" n="304-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>de ente in anima et extra. Quia inta possumus per quan 
+      <lb ed="#L" n="2"/>titatem in anima mensurare sicut per quantitatem extra. 
+      <lb ed="#L" n="3"/>et similiter per motum. et licet aliquid dicat vniuoce de ent 
+      <lb ed="#L" n="4"/>in anima et extra: non tamen primo modo dicendi per se: sed secundo 
+      <lb ed="#L" n="5"/>modo sicut risibile. ita praedicatur vniuoce de omnibus 
+      <lb ed="#L" n="6"/>hominibus sicut homo. non tamen primo modo dicendi per 
+      <lb ed="#L" n="7"/>se: sed secundo modo. sic est in proposito de motu in anima 
+      <lb ed="#L" n="8"/>et extra: quia mensurare sic vtrique conuenit vniuoce 
+      <lb ed="#L" n="9"/>tamen in secundo modo dicendi per se. et hoc propter connotatu 
+      <lb ed="#L" n="10"/>permensuram sicut patet ex dictis. sed vniuocum sic acce 
+      <lb ed="#L" n="11"/>ptum accipitur large pro aliquo praedicato quod non
+      va<lb ed="#L" n="12" break="no"/>riatur in pluribus: licet ille non sit de ratione formali
+      eo<lb ed="#L" n="13" break="no"/>rum de quibus predicatur
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2819">
+      ⁋ Ad aliud dico quod
+      accipien<lb ed="#L" n="14" break="no"/>do tempus pro numero numerato in quocumque motu 
+      <lb ed="#L" n="15"/>locali: sic sunt tot tempora quot motus: tamen accipiendo 
+      <lb ed="#L" n="16"/>tempus sicut accipit philous pro numero quo numeram 
+      <lb ed="#L" n="17"/>et mensuramus omnes alios motus hoc potest esse dupliciu 
+      <lb ed="#L" n="18"/>vel pro primo motu velocissimo celi: et isto modo 
+      <lb ed="#L" n="19"/>est vnum tempus numero omnium: quia omnes possunt per
+      illu<lb ed="#L" n="20" break="no"/>motum mesurare omns alios motus. Alio modo potest 
+      <lb ed="#L" n="21"/>accipi pro motu in anima. et sic est vnum tempus per equiua 
+      <lb ed="#L" n="22"/>lentiam modo praedicto.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2841">
+      ⁋ Ad aliud dico quod licet
+      nume<lb ed="#L" n="23" break="no"/>rus numeratus mensuretur per partes suas siue per suas 
+      <lb ed="#L" n="24"/>vnitates: sicut patet ex dictis: tamen potest esse
+      mensi<lb ed="#L" n="25" break="no"/>ra aliorum motuum.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2850">
+      ⁋ Ad aliud dico quod licet in
+      quantita<lb ed="#L" n="26" break="no"/>te continua sit nuerus numeratus: tamen alio. modo quam in 
+      <lb ed="#L" n="27"/>motu et tempore: quia in quantitate continua sic est numer 
+      <lb ed="#L" n="28"/>numeratus quod partes numerate faciunt vnum per se: i 
+      <lb ed="#L" n="29"/>partes motus et temporis non. quia componuntur ex affirma 
+      <lb ed="#L" n="30"/>tionibus et negatonibus quae non faciunt per se vnum.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2863">
+      ⁋ Ad 
+      <lb ed="#L" n="31"/>aliud negatur minor.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2868">
+      ⁋ Ad aliud dico quod non quaelibet 
+      <lb ed="#L" n="32"/>res mensuratur tempore vel instanti: sed solum quae habet duratio 
+      <lb ed="#L" n="33"/>nem: et adhuc res permanens non mensuratur nisi quantum 
+      <lb ed="#L" n="34"/>ad suam durationem. verbi gratia: substantia angeli
+      ve<lb ed="#L" n="35" break="no"/>sortis non mensuratur: sed tantum duratio angeli vel
+      sor<lb ed="#L" n="36" break="no"/>tis. et ideo quia mutatio non habet proprie durationem: ide 
+      <lb ed="#L" n="37"/>non mensuratur.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2885">
+      ⁋ Ad primum principale dicitur quod
+      il<lb ed="#L" n="38" break="no"/>lud tempus cuius partes non sunt simul non est aliquid vnum 
+      <lb ed="#L" n="39"/>per se in genere: et ideo nec motus nec tempus sunt per se in ali 
+      <lb ed="#L" n="40"/>quo genere: quia vtrumque quantum ad quid rei includit
+      affi<lb ed="#L" n="41" break="no"/>mationes et negationes: quia non sunt simul nec esse pos 
+      <lb ed="#L" n="42"/>sunt propter contradictionem nec faciunt per se vnum. tamen 
+      <lb ed="#L" n="43"/>quantum ad illud quod positiuum est in tempore possunt
+      pa<lb ed="#L" n="44" break="no"/>tes eius esse simul et facere per se vnum in genere.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2903">
+      ⁋ Ad 
+      <lb ed="#L" n="45"/>aliud dico quod instans potest manere quantum ad quid rer 
+      <lb ed="#L" n="46"/>et multa immo infinita simul: quia si deus faceret solum 
+      <lb ed="#L" n="47"/>motum alterationis qui esset solum acquisitiuus: tunc illius 
+      <lb ed="#L" n="48"/>forme omnes partes manerent: sed instantia in illo
+      mo<lb ed="#L" n="49" break="no"/>tum ponendo ibi instantia non sunt realiter nisi
+      pa<lb ed="#L" n="50" break="no"/>tes forme: licet connotarent aliud sicut prius dem est 
+      <lb ed="#L" n="51"/>et ideo licet non posset manere quantum ad suum
+      significa<lb ed="#L" n="52" break="no"/>tum totale: quia affirmatio et negatio quae sunt eius par 
+      <lb ed="#L" n="53"/>tes non possunt simul manere: tamen quantum ad illud quod est 
+      <lb ed="#L" n="54"/>positiuum in suo significato potest manere: tamen in 
+      <lb ed="#L" n="55"/>stans in motu locali nihil manet de facto nec 
+      <!--611.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 304-v -->
+               <lb ed="#L" n="56"/>quantum ad quid nominis: nec quantum ad quid rei. quia sicut 
+      <lb ed="#L" n="57"/>mobile semper acquirit vnum vbi ita depardit aliud. tamen 
+      <lb ed="#L" n="58"/>de potentia dei absoluta posset manere in motu 
+      <lb ed="#L" n="59"/>locali sicut in alio motu. De istis quere supra. 
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2944">
+               <lb ed="#L" n="60"/>⁋ Ad confirmationem dico quod instans nec corrum 
+      <lb ed="#L" n="61"/>pitur in se nec in alio: quia nihil proprie corrumpitur
+      ni<lb ed="#L" n="62" break="no"/>si quod habet durationem. instans non habet durationem. et 
+      <lb ed="#L" n="63"/>go etc. sed proprie desinit esse: quia nuncest et post non 
+      <lb ed="#L" n="64"/>erit.
+    </p>
+            <p xml:id="wo8uy7-d1e2015-d1e2957">
+      ⁋ Ad aliud dico quod esse temporis quantum ad quid no 
+      <lb ed="#L" n="65"/>minis completur per animam: quia in diffinitione eius
+      indi<lb ed="#L" n="66" break="no"/>cante quid nominis ponitur actus anime vel accipit ibi 
+      <lb ed="#L" n="67"/>tempus promotu in anima. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

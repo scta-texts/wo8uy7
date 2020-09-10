@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="240-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1450"><!-- l1d30q4 -->
+            <head xml:id="wo8uy7-d1e1450-Hd1e108">Quaestio 4</head>
+            <p xml:id="wo8uy7-d1e1450-d1e111">
+      Questio quarta. 
+      <lb ed="#L" n="86"/>Quarto quero 
+      <lb ed="#L" n="87"/>Utrum secundum rei veritate quiecumque fue 
+      <lb ed="#L" n="88"/>rit intentio philosophi respectus debeat 
+      <lb ed="#L" n="89"/>poni distingui a parte rei ab abso 
+      <lb ed="#L" n="90"/>lutis
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e124">
+      ⁋ Quod non. quia frustra fit per plura quod potest fieri 
+      <lb ed="#L" n="91"/>per pauciora. sed omnia possumus saluare sine talibus 
+      <lb ed="#L" n="92"/>rebus que possumus saluare per eas. sicut patet 
+      <lb ed="#L" n="93"/>in praecedentibus. q. ergo frustra ponerentur.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e133">
+      ⁋ Ad 
+      <lb ed="#L" n="94"/>oppositum. paternitas est in deo a non est forma 
+      <lb ed="#L" n="95"/>iter essentia. et manifestum est paternitatem esse 
+      <lb ed="#L" n="96"/>relationem. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e142">
+      ⁋ Ad istam questionem teneo
+      pro<lb ed="#L" n="97" break="no"/>pter dicta sanctorum quod paternitas vere et realiter 
+      <lb ed="#L" n="98"/>est in deo. et quod paternitas non est formaliter diui 
+      <lb ed="#L" n="99"/>na essentia. sicut declaratum est distinctione se 
+      <lb ed="#L" n="100"/>cunda. quia secundum beatum augustinum. pater non est eo pa 
+      <lb ed="#L" n="101"/>ter quo deus. et manifestum est quod loquitur de illo 
+      <lb ed="#L" n="102"/>a parte rei quo realiter pater est deus. et quo
+      re<lb ed="#L" n="103" break="no"/>aliter pater est pater. et ita non potest hoc saluari propter 
+      <lb ed="#L" n="104"/>distinctionem terminorum. maxime quia talis
+      disti<lb ed="#L" n="105" break="no"/>ctio terminorum numquam sufficit vbi est omimoda
+      idem<lb ed="#L" n="106" break="no"/>titas a parte rei. sicut est prius declaratum. et ideo in crea 
+      <lb ed="#L" n="107"/>turis numquam posset poni relatio distinctum
+      praedica<lb ed="#L" n="108" break="no"/>mentum ab absolutis nisi a parte rei essent plura
+      di<lb ed="#L" n="109" break="no"/>stincta realiter. ergo oportet quod a parte rei in diuinis sint 
+      <!--483.xml-->
+      <pb ed="#L" n="240-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>aliqua absoluta distincta realiter vel aliqua
+      re<lb ed="#L" n="2" break="no"/>lationes distincte realiter. sed non conceduntur in diui 
+      <lb ed="#L" n="3"/>nis plura distincta absoluta realiter. ergo oportet quod sint 
+      <lb ed="#L" n="4"/>ibi plures relationes distincte realiter.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e189">
+      ⁋ Sed 
+      <lb ed="#L" n="5"/>cundo dico quod nulla relatio quae vocatur ab aliquibus re 
+      <lb ed="#L" n="6"/>spectus intrinsecus adueniens est ponendus esse
+      ali<lb ed="#L" n="7" break="no"/>quid a parte rei praeter absoluta. Et ideo similitudo est 
+      <lb ed="#L" n="8"/>dissimilitudo. duplum et dimidium et huiusmodi quae neces 
+      <lb ed="#L" n="9"/>sario competunt in praedicatione ipsis absolutis
+      po<lb ed="#L" n="10" break="no"/>sitis in esse non important res quasque alias sed impor 
+      <lb ed="#L" n="11"/>tant res absolutas Unde similitudo non importat 
+      <lb ed="#L" n="12"/>plus nisi quod sint duo alba simul existentia vel duo ni 
+      <lb ed="#L" n="13"/>gra vel duo calida. et sic de aliis qualitatibus 
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e211">
+               <lb ed="#L" n="14"/>⁋ Item de paternitate et filiatione dico quod
+      paterni<lb ed="#L" n="15" break="no"/>tas in creaturis non importat plus nisi istum hominem 
+      <lb ed="#L" n="16"/>qui genuit et istum hominem qui genitus est. quia istis posit 
+      <lb ed="#L" n="17"/>et omni alio circumscripto vere iste est pater et iste est 
+      <lb ed="#L" n="18"/>filius
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e224">
+      ⁋ Ad hoc etiam ponendum mouet me ista ratio 
+      <lb ed="#L" n="19"/>qui non video quin quando per potentiam creature potest vtra 
+      <lb ed="#L" n="20"/>que duarum rerum demonstratarum existere smi illa alia 
+      <lb ed="#L" n="21"/>re totaliter et realiter distincta ab vtraque earum et a du 
+      <lb ed="#L" n="22"/>abus simul acceptis quin per potentiam diuinam possunt ille 
+      <lb ed="#L" n="23"/>due res realiter existere sine illa alia re realiter et to 
+      <lb ed="#L" n="24"/>taliter distincta ab vtraque istarum et ab anbabus simul 
+      <lb ed="#L" n="25"/>acceptis sed per potentiam creature potest hec albedo 
+      <lb ed="#L" n="26"/>existere sine tali re quae ponitur relatio. similiter illud al 
+      <lb ed="#L" n="27"/>bum. ergo per potentiam diuinam possunt illa duo esse alba si 
+      <lb ed="#L" n="28"/>ne omni tali re. sed hoc posito ista duo alba sunt
+      si<lb ed="#L" n="29" break="no"/>milia. ergo etc. Eodem modo arguo de paternitate et
+      fi<lb ed="#L" n="30" break="no"/>liatione. quod sequeretur quod sorte existente primo pa 
+      <lb ed="#L" n="31"/>tre platonis. et platone existente filio sortis pos 
+      <lb ed="#L" n="32"/>set deus conseruare sortem et platonem sicut prius. et 
+      <lb ed="#L" n="33"/>tamen quod sortes non esset pater platonis et tunc non sequi 
+      <lb ed="#L" n="34"/>tur. sortes genuit platonem. et sortes est. et ploso est. ergo 
+      <lb ed="#L" n="35"/>sortes est pater platonis. quod tamen videtur
+      inconueni<lb ed="#L" n="36" break="no"/>ens. quia nihil plus importatur per sortem esse patrem
+      plato<lb ed="#L" n="37" break="no"/>nis nisi sortem genuisse plsonem et vtrumque existere 
+      <lb ed="#L" n="38"/>actualiter. Similiter qua ratione in sorte est talis relatio. 
+      <lb ed="#L" n="39"/>postquam ploso est. eadem ratione in sole et ita sequeretur so 
+      <lb ed="#L" n="40"/>lem mutari quandocumque sol causat aliquid hic inferius 
+      <lb ed="#L" n="41"/>Tertio propter idem dico quod actio et passio non im 
+      <lb ed="#L" n="42"/>portant tales res. quia tunc omne agens in agendo vere 
+      <lb ed="#L" n="43"/>pateretur. cuius necessitatem non video. et maxime 
+      <lb ed="#L" n="44"/>cum quaelibet talis respectus est posterior effectu: nec 
+      <lb ed="#L" n="45"/>videtur esse ponendus aliquis talis respectus De quando 
+      <lb ed="#L" n="46"/>et positione et habitu et vbi dico quod totaliter
+      fru<lb ed="#L" n="47" break="no"/>tra ponerentur et sine necessitate.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e289">
+      ⁋ Sed de aliqua 
+      <lb ed="#L" n="48"/>bus respectibus speciealibus est specialis difficultas 
+      <lb ed="#L" n="49"/>Unde si aliqui respectus sunt ponendi. sunt isti. scilicet vnio 
+      <lb ed="#L" n="50"/>nature humane ad diuina. vnio materie ad
+      for<lb ed="#L" n="51" break="no"/>mam et econuerso. vnio accidentis ad subiectum. 
+      <lb ed="#L" n="52"/>vnio vnius partis cotinui ad aliam.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e302">
+      ⁋ Unde pro omnibus 
+      <lb ed="#L" n="53"/>istis est vna ratio solum quae est ista. impossibile est
+      contradi<lb ed="#L" n="54" break="no"/>ctoria successiue verificari de eodem nisi propter 
+      <lb ed="#L" n="55"/>motum localem alicuius. vel propter transitionem temporis 
+      <!--483.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 240-v -->
+               <lb ed="#L" n="56"/>vel propter productionem vel destructionem alicuius 
+      <lb ed="#L" n="57"/>Ista patet. quia etiam secundum sanctos impossibile esset quod 
+      <lb ed="#L" n="58"/>deus non eset primo creans et postea creans. nisi sal 
+      <lb ed="#L" n="59"/>tem creatura post non esse haberet esse. eodem modo im 
+      <lb ed="#L" n="60"/>possibile est deum primo non esse annihilantem et postea 
+      <lb ed="#L" n="61"/>annihilantem. nisi creatura primo esset et postea non est 
+      <lb ed="#L" n="62"/>set. et ita patet inductiue illa propositio. sed possibile est 
+      <lb ed="#L" n="63"/>primo naturam non esse vnitam et postea vnitam vel econ 
+      <lb ed="#L" n="64"/>uerso sine omni motu locali. ergo oportet quod ibi sit produ 
+      <lb ed="#L" n="65"/>ctio alicuius noui vel destructio. cum transitio temporis 
+      <lb ed="#L" n="66"/>non sufficit. sed manifestum est quod nullum absolutum ortet 
+      <lb ed="#L" n="67"/>produci nec corrumpi. ergo etc
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e343">
+      ⁋ Eodem modo modo posset deus 
+      <lb ed="#L" n="68"/>facere: quod vna forma praesente similiter eidem materie
+      pri<lb ed="#L" n="69" break="no"/>mo non informaret materiam. et postea informaret. 
+      <lb ed="#L" n="70"/>sicut facit duo corpora esse simul in eodem loco. et per consequens 
+      <lb ed="#L" n="71"/>forma vnius materie ita praesens est materie alterius 
+      <lb ed="#L" n="72"/>forme sicut materie proprie. et tamen vnam materiam
+      in<lb ed="#L" n="73" break="no"/>format tunc et non aliam. et per consequens contradictoria ve 
+      <lb ed="#L" n="74"/>rificarentur de illa forma successiue sine omni
+      mu<lb ed="#L" n="75" break="no"/>tatione locali et non propter transitionem temporis. ergo 
+      <lb ed="#L" n="76"/>oportet aliquod nouum habere. et non absolutum. ergo aliquid pre 
+      <lb ed="#L" n="77"/>ter absolutum Eodem modo modo potest argui de subiecto 
+      <lb ed="#L" n="78"/>et accidente et sic posset videri posse argui de com 
+      <lb ed="#L" n="79"/>tinuatione vnius partis cum alia. sed ibi ratio non
+      conclu<lb ed="#L" n="80" break="no"/>dit sicut alias forte videbitur.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e375">
+      ⁋ Ideo dico quod
+      so<lb ed="#L" n="81" break="no"/>la ista ratio posset memouere ad ponendum illos re 
+      <lb ed="#L" n="82"/>spectus. Ueruntamen philosophum non moueret. quia ipse
+      nega<lb ed="#L" n="83" break="no"/>ret omns minores assumptas. nec possent per
+      rao<lb ed="#L" n="84" break="no"/>nem probari. Sed tunc est dubium. an possent aliqua vie 
+      <lb ed="#L" n="85"/>dari ad negandum etiam omnes illos respectus
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e388">
+      ⁋ Dico 
+      <lb ed="#L" n="86"/>quod quantum ad primam difficultatem. de relationibus in 
+      <lb ed="#L" n="87"/>diuinis posset per istam viam responderi siue sit vera 
+      <lb ed="#L" n="88"/>siue falsa. siue etiam ista via sit erronea siue non. 
+      <lb ed="#L" n="89"/>quod etiam in diuinis nulla est talis relatio distincta 
+      <lb ed="#L" n="90"/>quocumque modo ab omnibus absolutis. non plus quam
+      cre<lb ed="#L" n="91" break="no"/>atio vel aliquod tale est realiter distinctum quocumque 
+      <lb ed="#L" n="92"/>modo ex natura rei ab omnibus absolutis. et tamen pos 
+      <lb ed="#L" n="93"/>set concedi quod deus realiter est pater et deus realiter 
+      <lb ed="#L" n="94"/>est filius. sicut conceditur quod deus realiter est creans. sed secundum 
+      <lb ed="#L" n="95"/>istam viam oportet ponere quod in deo essent tria absoluta 
+      <lb ed="#L" n="96"/>realiter distincta quae non essent formaliter diuina
+      es<lb ed="#L" n="97" break="no"/>sentia. et quod vnum eorum realiter esset pater et non filius et 
+      <lb ed="#L" n="98"/>aliquod illorum absolutorum realiter esset filius et non pater. ita 
+      <lb ed="#L" n="99"/>tamen quod pater non plus importaret aliquid praeter illud abso 
+      <lb ed="#L" n="100"/>lutum a parte rei. quam creans importat aliquid a
+      par<lb ed="#L" n="101" break="no"/>te rei praeter deum qua creat. Et forte talis
+      responde<lb ed="#L" n="102" break="no"/>et ad omns auctoritates augustini. quod
+      augusti<lb ed="#L" n="103" break="no"/>nus loquitur de illis quae nobis sunt nota. quod quicquid 
+      <lb ed="#L" n="104"/>dicitur in diuinis ad se competit singularitur omni 
+      <lb ed="#L" n="105"/>bus personis et diceret quod tali absoluto nullum no 
+      <lb ed="#L" n="106"/>men est impositum. tamen tali absoluto competit hoc nomen 
+      <lb ed="#L" n="107"/>pater quod est nobis notum. et ideo dicit quod illa quae
+      dicum<lb ed="#L" n="108" break="no"/>tur ad aliquid non competunt singulis personis in
+      sin<lb ed="#L" n="109" break="no"/>gulari vt dicatur tres persone esse vna persona quia quan 
+      <lb ed="#L" n="110"/>tum ad multa eodem modo dicerent de patre et de per 
+      <!--484.xml-->
+      <pb ed="#L" n="241-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sona.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e453">
+      ⁋ Quantum ad secundam difficultatem de
+      vni<lb ed="#L" n="2" break="no"/>one nature humane ad verbum dicerent forte ali 
+      <lb ed="#L" n="3"/>qui. quod sicut secundum alios propter solum respectum
+      infor<lb ed="#L" n="4" break="no"/>mante naturam humanam potest dici quod deus est homo. ita 
+      <lb ed="#L" n="5"/>forte dicerent quod propter aliquam formam absolutam 
+      <lb ed="#L" n="6"/>multo perfectiore quam foret talis respectus et multo 
+      <lb ed="#L" n="7"/>magis conueniente cum diuina natura informantem 
+      <lb ed="#L" n="8"/>naturam humanam posset deus dici esse homo veracit 
+      <lb ed="#L" n="9"/>et hoc non esset aliud quam dicere quod humana natura est 
+      <lb ed="#L" n="10"/>vnita verbo vel deo
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e475">
+      ⁋ Sed de duabus aliis
+      diffi<lb ed="#L" n="11" break="no"/>cultatibus esset forte magis difficile. nisi quis
+      di<lb ed="#L" n="12" break="no"/>ceret quod deus non posset facere formam esse praesentem
+      in<lb ed="#L" n="13" break="no"/>time inaterie nisi informaret eam nec accidens 
+      <lb ed="#L" n="14"/>esse totaliter in eodem loco cum subiecto nisi informa 
+      <lb ed="#L" n="15"/>ret ipsum.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e488">
+      ⁋ Sed conrodictam opinione probatur quod etiam omnes re 
+      <lb ed="#L" n="16"/>lationes dicunt accidentia talia informantia
+      vni<lb ed="#L" n="17" break="no"/>ta quibus competunt per beatum augustinum. v. de tri. 
+      <lb ed="#L" n="18"/>ca. v. In rebus creatis quod non secundum substantiam dicitur 
+      <lb ed="#L" n="19"/>restat vt secundum accidens dicatur. ergo relatio est accidens 
+      <lb ed="#L" n="20"/>in creatura. et hoc est certum de relatione quae potest amit 
+      <lb ed="#L" n="21"/>ti manente fundamento
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e504">
+      ⁋ Item ambro. i. tri. c. v. 
+      <lb ed="#L" n="22"/>si prius erat deus et postea pri generationis accessione 
+      <lb ed="#L" n="23"/>mutatus est. Auertat deus hanc amentiam. ergo per solum 
+      <lb ed="#L" n="24"/>accessionem relationis. realis fieret mutatio in per 
+      <lb ed="#L" n="25"/>sona diuina secundum eum. hoc non esset nisi illa relatio. 
+      <lb ed="#L" n="26"/>esset aliqua res alia a fundamento. quia fundamen 
+      <lb ed="#L" n="27"/>tum praexistit.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e521">
+      ⁋ Ite hilis: patet de tri. Nasci quod non 
+      <lb ed="#L" n="28"/>erat. iam non tantum nasci est sed seipsum demutare
+      nascen<lb ed="#L" n="29" break="no"/>do et loquitur de natiuitate filii dei. ergo nasci dicit 
+      <lb ed="#L" n="30"/>relationem nouam.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e530">
+      ⁋ Ad primum istorum et ad omnia ista 
+      <lb ed="#L" n="31"/>dico quod quando relatio potest aduenire alicui propter 
+      <lb ed="#L" n="32"/>mutationem in altero. sicut creans potest praedicari de 
+      <lb ed="#L" n="33"/>deo de nouo propter solam mutatione in creatura tunc 
+      <lb ed="#L" n="34"/>emper talis relatio dicitur secundu accidens. hoc est competit illi cui 
+      <lb ed="#L" n="35"/>competit propter mutabilitatem illius cui competit. et 
+      <lb ed="#L" n="36"/>hoc proptet mutabilitatem large vel stricte sumptam 
+      <lb ed="#L" n="37"/>et illo modo intelligit augustinus. ve. de tri.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e548">
+      ⁋ Per 
+      <lb ed="#L" n="38"/>idem ad aliud quod cum sed amub. pater non possit incipere 
+      <lb ed="#L" n="39"/>esse pater propter mutationem alicuius extrinseci. portet quod 
+      <lb ed="#L" n="40"/>incipinat esse pater propter mutationem alicuius
+      intrinse<lb ed="#L" n="41" break="no"/>ci.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e559">
+      ⁋ Ad hilis. quod nasci quod non erat necessario
+      di<lb ed="#L" n="42" break="no"/>cit nouitatem nati quantum ad substantiam. quia illud quod 
+      <lb ed="#L" n="43"/>prius secundum substantiam suam erat non dicitur nasci. et ita talis 
+      <lb ed="#L" n="44"/>noua denominatio non potest esse sine nouitate
+      substam<lb ed="#L" n="45" break="no"/>tie. et tamen ex hoc non sequitur quod illa noua denominatio 
+      <lb ed="#L" n="46"/>sit aliqua res noua in ista substantia et eodem modo 
+      <lb ed="#L" n="47"/>est de relatione.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e575">
+      ⁋ Ad argumentum principale patet 
+      <lb ed="#L" n="48"/>quod non possumus saluare omnia sine omnibus respectibus 
+      <lb ed="#L" n="49"/>tamen sine omni relatione quae ponitur de genere relatio. 
+      <lb ed="#L" n="50"/>nis. et sine omni actione et passione tali. et sine quando. 
+      <lb ed="#L" n="51"/>vbi. positione. et habitu: possumus saluare omnia. non 
+      <lb ed="#L" n="52"/>tamen sine paternitate in deo. nec sine respectu
+      vni<lb ed="#L" n="53" break="no"/>onis.
+    </p>
+            <p xml:id="wo8uy7-d1e1450-d1e591">
+      ⁋ Ad argumentum in oppositum dico quod non 
+      <lb ed="#L" n="54"/>sequitur. ita est ponendum in deo. ergo ita est ponendum in
+      cre<lb ed="#L" n="55" break="no"/>atura. Nec debemus omnia ponere in creatura quae 
+      <!--484.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 241-r -->
+               <lb ed="#L" n="56"/>ponimus in deo. sic enim deberemus ponere quod
+      re<lb ed="#L" n="57" break="no"/>latio est vera res in creatura et tantum distincta for 
+      <lb ed="#L" n="58"/>maliter sicut ponimus in deo. et eodem modo debere 
+      <lb ed="#L" n="59"/>remus ponere quod sicut in deo tres relationes rea 
+      <lb ed="#L" n="60"/>liter distincte sunt vna essentia: ita in
+      creatu<lb ed="#L" n="61" break="no"/>ris omnes relationes in eodem fundammento sunt
+      rea<lb ed="#L" n="62" break="no"/>liter distincte: et tamen realiter ipsum fundamentum. que 
+      <lb ed="#L" n="63"/>tamen sunt absurda. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

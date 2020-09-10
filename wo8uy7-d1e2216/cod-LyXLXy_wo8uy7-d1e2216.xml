@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6(3)</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6(3)</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="348-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e2216"><!-- l3q6(3) -->
+            <head xml:id="wo8uy7-d1e2216-Hd1e108">Quaestio 6(3)</head>
+            <p xml:id="wo8uy7-d1e2216-d1e111">
+      Questio. iii. 
+      <lb ed="#L" n="26"/>Trum beata virgo 
+      <lb ed="#L" n="27"/>debeat dici parens christi secundum naturam 
+      <lb ed="#L" n="28"/>humanam. hic sunt quattuor facienda. pri 
+      <lb ed="#L" n="29"/>mo videndum vtrum beatam virgo actiue operabatur in
+      con<lb ed="#L" n="30" break="no"/>ceptione christi. Secundo per quem modum operabatur. Tertio 
+      <lb ed="#L" n="31"/>vtrum praecise propter illa operationem debet dici mater christ 
+      <lb ed="#L" n="32"/>Quarto vtrum ipsa sola debeat dici matur christi vel non 
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e129">
+               <lb ed="#L" n="33"/>⁋ Quantum ad primum est opinio communis quod miter habet tantum 
+      <lb ed="#L" n="34"/>rationem receptiui amministratio materiam et semen 
+      <lb ed="#L" n="35"/>viri habet rationem actiui: illud est de intentione philosophi in li 
+      <lb ed="#L" n="36"/>bro de animalibus. hoc conclusio probatur sic. sicut pri se habe 
+      <lb ed="#L" n="37"/>ad actiuitatem: sic miciter ad passibilitatem: sed pater est 
+      <lb ed="#L" n="38"/>solum principium actiuum: igitur mater est solum principium 
+      <lb ed="#L" n="39"/>passiuum.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e147">
+      ⁋ Ite de beata virgine arguitur spaialiter 
+      <lb ed="#L" n="40"/>qui virtus finita agit in tempore et non in instanti: et per consequens 
+      <lb ed="#L" n="41"/>non potest coagere virtuti infinite cuius est agere in 
+      <lb ed="#L" n="42"/>instanti: sed corpus christi fuit formatum in vtero vginis 
+      <lb ed="#L" n="43"/>in instanti. ergo etc
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e158">
+      ⁋ Ite si sic: tunc christus descendisset de 
+      <lb ed="#L" n="44"/>adam secundum rationem seminalem. probatur: quia creatura non 
+      <lb ed="#L" n="45"/>inducit formam substantiale nisi per virtutem seminalem 
+      <lb ed="#L" n="46"/>Si ergo beatam virgo egisset in inductione forme
+      sub<lb ed="#L" n="47" break="no"/>tantialis egisset secundum rationem seialem. Contra ista ari 
+      <lb ed="#L" n="48"/>stoteles et omnes philosophi videntur dicere oppositum. nam 
+      <lb ed="#L" n="49"/>potentie vegetatiue sunt actiue secundum omnes. patet secundo 
+      <lb ed="#L" n="50"/>de anima vbi ostendit quod preter calorem naturale in
+      au<lb ed="#L" n="51" break="no"/>gmento est alia potentia actiua scilicet potentia vege 
+      <lb ed="#L" n="52"/>tatiua: sed in beatam vergine fuit potentia vegentatiua 
+      <lb ed="#L" n="53"/>ergo etc. Ideo dico aliter quod moiter aliquo modo se habet acti 
+      <lb ed="#L" n="54"/>ue respectu prolis: quia quando est generatio vniuoca veri¬ 
+      <!--698.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 348-r -->
+               <lb ed="#L" n="55"/>simile est quod forma substantialis inducens formam et 
+      <lb ed="#L" n="56"/>forma inducta sint eiusdem rationis: nunc autem generatio 
+      <lb ed="#L" n="57"/>hominis est vniuoca et forma substantialis viri et mu 
+      <lb ed="#L" n="58"/>lieris sunt eiusdem rationis: igitur cum in generatione prolis 
+      <lb ed="#L" n="59"/>non sit alia forma substantialis eiusdem rationis cum for 
+      <lb ed="#L" n="60"/>ma generata nisi forma mostris: ergo generatio forme
+      sub<lb ed="#L" n="61" break="no"/>stantialis et eius inductio est attribuenda mostri. et per 
+      <lb ed="#L" n="62"/>consequens mater se habet actiue in generatione prolis. Si
+      di<lb ed="#L" n="63" break="no"/>cas quod pater in generatione prolis solum se habet actiue. Con 
+      <lb ed="#L" n="64"/>tra. pater non plus facit quam vnus ignis generatus in 
+      <lb ed="#L" n="65"/>tertio generato: puta si vnus ignis generet alium et 
+      <lb ed="#L" n="66"/>secundus tertium: sic pater non plus facit nisi quod decidit 
+      <lb ed="#L" n="67"/>semen: et semen post est causa actiua: ideo quantum ad
+      indu<lb ed="#L" n="68" break="no"/>ctionem forme substantialis mater est causa
+      princi<lb ed="#L" n="69" break="no"/>palior quam pater. Si dicas quod istud argumentum equa 
+      <lb ed="#L" n="70"/>liter concludit. Contra te. quia omnes forme actie
+      eius<lb ed="#L" n="71" break="no"/>dem rationis possunt habere effectus eiusdem rationis: sed in patre et ma 
+      <lb ed="#L" n="72"/>tre sunt forme eiusdem rationis: sed illa quae est in matre 
+      <lb ed="#L" n="73"/>est inductiua forme in materia prolis sine patre. igi 
+      <lb ed="#L" n="74"/>tur eodem modo forma substantialis patris potest hoc
+      face<lb ed="#L" n="75" break="no"/>re sine mostre. Respondeo ad inductionem forme substam 
+      <lb ed="#L" n="76"/>tialis secundum communem cursum quae modo est concurrunt acciden 
+      <lb ed="#L" n="77"/>tia tanquam dispiones neccessario requisite puta calor na 
+      <lb ed="#L" n="78"/>turalis et qualitates nobis ignote. et si omnes dispo 
+      <lb ed="#L" n="79"/>sitiones et omnia accidentia essent equalia in patre quae sunt in 
+      <lb ed="#L" n="80"/>matre posset patr agere quod agit mater: et quia non est 
+      <lb ed="#L" n="81"/>sic: ideo non potest pri sic agere.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e250">
+      ⁋ Ad primum pro illa
+      o<lb ed="#L" n="82" break="no"/>pinione dico quod philosophus intelligit quod seme habet rationem 
+      <lb ed="#L" n="83"/>actiui quantum ad aliquas transmutationes: sed non quantum 
+      <lb ed="#L" n="84"/>ad vltimatam inductionem forme: sed quantum ad
+      mul<lb ed="#L" n="85" break="no"/>tas alterationes praecedentes.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e261">
+      ⁋ Ad aliud dico quod si 
+      <lb ed="#L" n="86"/>omnia accidentia essent in patre quae sunt in monstre
+      argu<lb ed="#L" n="87" break="no"/>mentum concluderet verum: quia patri haberet actiuitate re 
+      <lb ed="#L" n="88"/>spectu forme substantialis prolis: sed non est sic. sed 
+      <lb ed="#L" n="89"/>in matre est aliquod accidentale et calor naturalis 
+      <lb ed="#L" n="90"/>matris et sperma eius concurrens cum eius forma 
+      <lb ed="#L" n="91"/>cuius ratione potest dici habere rationem actiui: sed in patre non 
+      <lb ed="#L" n="92"/>est aliquid sic
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e279">
+      ⁋ Ad aliud dico quod virtus finita potest 
+      <lb ed="#L" n="93"/>coagere infinite: quia quando effectus producitur potest
+      produ<lb ed="#L" n="94" break="no"/>ci in instanti sicut in tempore: tunc virtus finita potest 
+      <lb ed="#L" n="95"/>agere in instanti sicut in tempore.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e288">
+      ⁋ Circa aliud argu 
+      <lb ed="#L" n="96"/>mentum sunt tria facienda. Primo videndum est 
+      <lb ed="#L" n="97"/>quid est semen et ratio seminalis. Secundo que est 
+      <lb ed="#L" n="98"/>necessitas ponendi rationem seminalem. Tertio 
+      <lb ed="#L" n="99"/>quomodo se habet respectu formationis corpo 
+      <lb ed="#L" n="100"/>ris christi
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e301">
+      ⁋ Quantum ad primum dicit Iohes quod
+      ra<lb ed="#L" n="101" break="no"/>tio seminalis non ponitur propter creationem
+      vitan<lb ed="#L" n="102" break="no"/>dam: nec vt saluetur naturalitas generationis 
+      <lb ed="#L" n="103"/>Non ponitur propter ista: quia aut pars
+      for<lb ed="#L" n="104" break="no"/>me generandem precedit aut non. Non propter 
+      <lb ed="#L" n="105"/>primum: quia quero de illam parte acquisita de nouo 
+      <lb ed="#L" n="106"/>quere Ioh. et concludit quod generato sit natura 
+      <lb ed="#L" n="107"/>lis ex sola inclinatione principii passiui: sicut 
+      <lb ed="#L" n="108"/>grauitas inquantum principium passiuum facit 
+      <lb ed="#L" n="109"/>motum naturalem: et non inquantum principium 
+      <!--699.xml-->
+      <pb ed="#L" n="348-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>actiuum quaere Ioh. in secundo. distinctione viii. in materia de ratio 
+      <lb ed="#L" n="2"/>nibus seminalibus 
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e334">
+      ⁋ Contra iohannem sunt multa
+      du<lb ed="#L" n="3" break="no"/>bia. primo contra hoc quod dicit quod naturalitas gratioationnis 
+      <lb ed="#L" n="4"/>saluatur per solam inclinationem passiui ita quod potentia. 
+      <lb ed="#L" n="5"/>debet principium naturalis violenta vel neutra per compa 
+      <lb ed="#L" n="6"/>rationem ad actum quem recipit: quia impossibile est idem 
+      <lb ed="#L" n="7"/>rectum oppositorum habere inclinationem naturalem: sed po 
+      <lb ed="#L" n="8"/>tentia passiua equaliter inclinatur ad opposita et non 
+      <lb ed="#L" n="9"/>plus ad vnum quam ad aliud: igitur non habet talem
+      inclina<lb ed="#L" n="10" break="no"/>tionem. probatur: quia de celo a mundo dicit philosophus quod
+      quic<lb ed="#L" n="11" break="no"/>quid naturaliter est in vno loco violenter recedit ab 
+      <lb ed="#L" n="12"/>illo. et hoc est verum: quia habet inclinationem actiuam ad vnum 
+      <lb ed="#L" n="13"/>oppositorum et non ad aliud: quia inclinatio semper
+      ar<lb ed="#L" n="14" break="no"/>guit potentiam actiuam in illo in quo est. Si dicas quod 
+      <lb ed="#L" n="15"/>non habet inclinationem rectum forme determinate: sed rectum 
+      <lb ed="#L" n="16"/>forme indeterminate et in communi. Contra quaero quidam est ista 
+      <lb ed="#L" n="17"/>inclinatio autem est aliquid absolutum aut aliquid
+      re<lb ed="#L" n="18" break="no"/>spectiuum: aut nihil. Si nihil addit super ipsam ma 
+      <lb ed="#L" n="19"/>teriam: ergo materia est in potentia neutra rectum cuius 
+      <lb ed="#L" n="20"/>cumque forme: et hoc est: quia habet inclinationem actiuam ad 
+      <lb ed="#L" n="21"/>vnum oppositorum et non ad aliud: quia inclinatio semper 
+      <lb ed="#L" n="22"/>arguit potentiam passiuam in illo in quo est. Si autem 
+      <lb ed="#L" n="23"/>addit aliquid absolutum super essentiam materie: tunc 
+      <lb ed="#L" n="24"/>sequitur quod materia semper habet inclinationem naturalem 
+      <lb ed="#L" n="25"/>vel numquam: quia quantumcumque materia existit sub vna for 
+      <lb ed="#L" n="26"/>ma semper inclinatur ad aliam: ergo si habet tantum vnam
+      inclina<lb ed="#L" n="27" break="no"/>tionem naturalem indeterminate illa semper maneret: sed 
+      <lb ed="#L" n="28"/>hoc est falsum: quia quando inducitur vna forma tunc non
+      ma<lb ed="#L" n="29" break="no"/>net inclinatio ad illam: quia inclinatio sicut desiderium 
+      <lb ed="#L" n="30"/>est semper rectum non habiti. Si dicas quod habet diuersas in 
+      <lb ed="#L" n="31"/>clinationes ad diuersas formas determinate. hoc est contra 
+      <lb ed="#L" n="32"/>te: quia tu ponis quod ad nullam formam inclinatur
+      deter<lb ed="#L" n="33" break="no"/>minate: quia alitur violenter quiesceret sub vna forma 
+      <lb ed="#L" n="34"/>per te. et hoc ponis differentiam inter quietem violentam et quie 
+      <lb ed="#L" n="35"/>tam materie. sub forma in primo tuo. Si inclinatio 
+      <lb ed="#L" n="36"/>addat respectum aut ergo addit vnum respectum aut 
+      <lb ed="#L" n="37"/>plures. Si tantum vnum respectum ad formam in communi. Con 
+      <lb ed="#L" n="38"/>tra. iste rectus si sit realis habet teminum realem et vnum 
+      <lb ed="#L" n="39"/>numero sicut respectus est vnum numero: sed forma in communi 
+      <lb ed="#L" n="40"/>est tantum ens rationis: ergo non potest esse tantum vnus rectus
+      rea<lb ed="#L" n="41" break="no"/>lis nec rationis sicut patet alibi: sed si sint plures respectus 
+      <lb ed="#L" n="42"/>secundum pluralitatem formarum. Contra. hoc est contra te: quia tun 
+      <lb ed="#L" n="43"/>dicis quod materia non habet inclinationem ad aliquam for 
+      <lb ed="#L" n="44"/>mam determinate: sed si ponantur tot rectus determinati 
+      <lb ed="#L" n="45"/>quot sunt determinate inducende. sequitur ergo etc. Similiter 
+      <lb ed="#L" n="46"/>quaerendum est de illo rectum aut erit realis aut rationis. 
+      <lb ed="#L" n="47"/>non primo modo: quia terminus non est realis. nec secundo 
+      <lb ed="#L" n="48"/>modo quia non causatur per actum intellectus. Si dicas quod 
+      <lb ed="#L" n="49"/>materia non inclinatur secundum se: sed per aliquam dispositi 
+      <lb ed="#L" n="50"/>onem additam. Quero: aut illa dispositio est
+      acti<lb ed="#L" n="51" break="no"/>ua aut passiua. si actiua habetur propositum quod numquam 
+      <lb ed="#L" n="52"/>aliquod passiuum inclinatur ad aliud nisi quando idem est 
+      <lb ed="#L" n="53"/>actiuum et passiuum: quia semper inclinatio sonat in acti 
+      <lb ed="#L" n="54"/>uitatem. Contra: essentialiorem inclinationem et ordinem 
+      <lb ed="#L" n="55"/>habet receptiuum rectum actus sui: et similiter actiuum quam illud  
+      <!--699.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 348-v -->
+               <lb ed="#L" n="56"/>quod nec est actiuum nec passiuum. Secundum dubium est 
+      <lb ed="#L" n="57"/>de ratione illius opinionis: quia extrinsecum agens non pri 
+      <lb ed="#L" n="58"/>us natura agit quam intrinsecum. si ponatur puta ratio se 
+      <lb ed="#L" n="59"/>minalis hoc patet: quia causa nobilior siue sit eiusdem rationis 
+      <lb ed="#L" n="60"/>siue alterius non prius agit quam ignobilior: quia omnes 
+      <lb ed="#L" n="61"/>cause simul agunt.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e472">
+      ⁋ Tertium est: quia videtur quod in elemen 
+      <lb ed="#L" n="62"/>tis sit poneda ratio seminalis: quia Aug. ponit rationes 
+      <lb ed="#L" n="63"/>seminales vt quodlibet non fiat ex quolibet: sed
+      de<lb ed="#L" n="64" break="no"/>terminatum ex determinato. si ergo elementum requirit 
+      <lb ed="#L" n="65"/>determinatum principium a quo habet esse: determinatum 
+      <lb ed="#L" n="66"/>elementum a quo potest generari: ita quod non potest ex alio 
+      <lb ed="#L" n="67"/>generari: tunc in elementis esset ratio seminalis sicut in aliis 
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e488">
+               <lb ed="#L" n="68"/>⁋ Quartum dubium est de descriptione seminis quam
+      de<lb ed="#L" n="69" break="no"/>dit: quia videtur quod vnum semen non semper intendatur propter 
+      <lb ed="#L" n="70"/>alterum: quia semen tritici est triticum: ita quod verum
+      tri<lb ed="#L" n="71" break="no"/>ticum generatur ex vero tritico sicut ex semine secundum au 
+      <lb ed="#L" n="72"/>gustinum. et tamen triticum non intenditur propter aliud. Quin 
+      <lb ed="#L" n="73"/>tum dubium est de hoc quod dicit quod semen non est princi 
+      <lb ed="#L" n="74"/>pium actiuum generationis: quia est imperfectius hoc est contra eum 
+      <lb ed="#L" n="75"/>dicit enim in tertio quod pater habet rationem actiui et mater 
+      <lb ed="#L" n="76"/>similiter: et pater habet rationem actiui principalis: et hoc non 
+      <lb ed="#L" n="77"/>est nisi ratione seminis: quia nihil aliud facit pater 
+      <lb ed="#L" n="78"/>nisi decidit semen: ergo non est contra rationem agentis
+      princi<lb ed="#L" n="79" break="no"/>palis esse imperfectius ipso producto.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e517">
+      ⁋ Ideo mihi 
+      <lb ed="#L" n="80"/>videtur quod semen stricte sumptum sicut loquitur
+      augu<lb ed="#L" n="81" break="no"/>stinus in diuersis locis de semine est corpus deter 
+      <lb ed="#L" n="82"/>minate speciei ex quo per causas naturales secundum communem 
+      <lb ed="#L" n="83"/>cursum nature natum est corpus consimilis speciei pro 
+      <lb ed="#L" n="84"/>duci: ita quod non ab alio corpore alterius speciei. Quia 
+      <lb ed="#L" n="85"/>autem sit corpus determinate speciei patet: quia non ex 
+      <lb ed="#L" n="86"/>quolibet fit quodlibet sed determinatum ex determina 
+      <lb ed="#L" n="87"/>to. tum quia secundum augustinum triticum fit ex tritico et non 
+      <lb ed="#L" n="88"/>ex alio grano quod autem ex semine per causas natura 
+      <lb ed="#L" n="89"/>les natum est aliquod generari partet: quia ideo christus dicitur
+      de<lb ed="#L" n="90" break="no"/>scendisse de adam non secundum rationes seminales quia non 
+      <lb ed="#L" n="91"/>secundum communem cursum nature: nec habuit christus de fa 
+      <lb ed="#L" n="92"/>cto rationem seminis in eius productione. Quod autem 
+      <lb ed="#L" n="93"/>corpus generatum ex semine sit consimile et
+      produ<lb ed="#L" n="94" break="no"/>ctiuum consimilis patet inductiue: quia triticum est
+      se<lb ed="#L" n="95" break="no"/>men respectu tritici: et non dicitur nisi sicut pater et 
+      <lb ed="#L" n="96"/>filius. quod autem aliquando sit pars generandi patet de se 
+      <lb ed="#L" n="97"/>mine in pomo: sed non est semen respectu poni sed 
+      <lb ed="#L" n="98"/>respectu arboris: et ideo non est de ratione seminis quod 
+      <lb ed="#L" n="99"/>sit imperfectius producto ex semine: neque quod
+      in<lb ed="#L" n="100" break="no"/>tendatur propter aliud: nec est de ratione seminis quod 
+      <lb ed="#L" n="101"/>sit proximum ex quo producitur vltimo generatum 
+      <lb ed="#L" n="102"/>nec est medium: sed est primum. Unde si sint
+      mul<lb ed="#L" n="103" break="no"/>ta agentia ordinata et multe actiones ad
+      pro<lb ed="#L" n="104" break="no"/>ductionem alicuius compositi determinate spe 
+      <lb ed="#L" n="105"/>ciei sicut in generatione tritici: quia ibi sunt mul 
+      <lb ed="#L" n="106"/>te actiones solum illud quod est primum habet rationem 
+      <lb ed="#L" n="107"/>seminis respectu vltimi generati et non secundum re 
+      <lb ed="#L" n="108"/>spectu alicuius medii et ideo quamuis in generatione 
+      <lb ed="#L" n="109"/>tritici sunt multe generationes et
+      corruptio<lb ed="#L" n="110" break="no"/>nes mediorum: tamen triticum non est semen eorum 
+      <!--700.xml-->
+      <pb ed="#L" n="349-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>generatorum mediorum quae differunt forte secundum speciem: quia 
+      <lb ed="#L" n="2"/>semen non immediate respicit multa diuersarum
+      specie<lb ed="#L" n="3" break="no"/>rum: sed illa quae sunt eiusdem speciei. ideo triticum quod est pri 
+      <lb ed="#L" n="4"/>mum agens creatum in toto isto cressu est semen tri 
+      <lb ed="#L" n="5"/>tici vltimo geniti et non rectum alicuius intermedum 
+      <lb ed="#L" n="6"/>Sciendum quod semen est principium productiuum alicuius 
+      <lb ed="#L" n="7"/>andiuidui deteriate speciei ita vnius indiuidui quod non 
+      <lb ed="#L" n="8"/>alterius sicut triticum est semen tritici: quia sic est
+      semen<lb ed="#L" n="9" break="no"/>tritici quod non rectum alterius. et semen hominis ita est
+      pro<lb ed="#L" n="10" break="no"/>ductiuum hominis et non asini: et aliquando semen et illud cu 
+      <lb ed="#L" n="11"/>ius est semen sunt eiusdem speciei sicut triticum cum 
+      <lb ed="#L" n="12"/>tritico: et aliquando alterius sicut homo et semen hominis 
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e619">
+               <lb ed="#L" n="13"/>⁋ Quantum ad secundum articulum dico quod necessitas 
+      <lb ed="#L" n="14"/>ponendi rationem seminalem secundum intentionem
+      augustini<lb ed="#L" n="15" break="no"/>non est vt vitetur creatio: quia creatio non debet vitari: 
+      <lb ed="#L" n="16"/>sed conceditur in principio secundi: nec ponitur propter genera 
+      <lb ed="#L" n="17"/>litatem generationis: quia si materia esset separata ab omni 
+      <lb ed="#L" n="18"/>forma substantiali et accidentali et staret nuda est 
+      <lb ed="#L" n="19"/>set in potentia ad formam substantialem: et tunc esset 
+      <lb ed="#L" n="20"/>vera generatio: et tamen certum est quod ibi esset sola
+      ma<lb ed="#L" n="21" break="no"/>teria: ergo potest saluari generatio sine ratione seminali. 
+      <lb ed="#L" n="22"/>quatem si ex quolibet potest fieri quodlibet: tunc non esset ratio 
+      <lb ed="#L" n="23"/>seminalis poneda secundum augustinum super gene. et tamen 
+      <lb ed="#L" n="24"/>generatio esset naturalis sicut nunc est. vnde quia augu 
+      <lb ed="#L" n="25"/>stinus vidit vnum corpus ex isto et non ex alio sicut
+      tri<lb ed="#L" n="26" break="no"/>ticum ex tritico et non ex ordeo: ideo ponit distincta 
+      <lb ed="#L" n="27"/>seina et distinctas rationes seiales vt corpus deterinate 
+      <lb ed="#L" n="28"/>speciei generetur ex corpore deterinate speciei. Sed dubium 
+      <lb ed="#L" n="29"/>est tunc quo saluabitur naturalitas generatonis.
+      vbi<lb ed="#L" n="30" break="no"/>sciendum quod naturale accipitur multus modis. vno modo 
+      <lb ed="#L" n="31"/>vt distinguitur contra artem de quo secundo phisicorum dicitur 
+      <lb ed="#L" n="32"/>quod principium actiuum diuiditur in agens a natura et a 
+      <lb ed="#L" n="33"/>voluntate: et sic omne agens non liberum dicitur
+      natura<lb ed="#L" n="34" break="no"/>le: et hoc modo agens violentum dicitur naturale: quia non est 
+      <lb ed="#L" n="35"/>liberum puta motus grauis sursum dicitur naturalis: quia 
+      <lb ed="#L" n="36"/>est a natura vt distinguitur contruao compositum. Exemplum: quando 
+      <lb ed="#L" n="37"/>vnum graue eleuat aliud minus graue sicut patet in li 
+      <lb ed="#L" n="38"/>bra librante duo grauia vbi magis graue descendit 
+      <lb ed="#L" n="39"/>et minus graue ascendit: ibi enim est motus violentus 
+      <lb ed="#L" n="40"/>qui minus grauis sursum et est motus naturalis: quia est 
+      <lb ed="#L" n="41"/>a causa naturaliter agente: quia ab alio graui naturali 
+      <lb ed="#L" n="42"/>ter descendente. secundo modo accipitur natura vt
+      distin<lb ed="#L" n="43" break="no"/>guitur conctusi consuetudinem vel doctrinam: et sic habitus 
+      <lb ed="#L" n="44"/>generati non dicuntur esse a natura quia sunt acquisiti ex 
+      <lb ed="#L" n="45"/>actibus consuetudinis: vt patet secundo ethicorum.
+      Ter<lb ed="#L" n="46" break="no"/>tio accipitur prout distinguitur contusio violentum. et sic dici 
+      <lb ed="#L" n="47"/>tur aliquid esse in potentia triplicitur: scilicet naturali 
+      <lb ed="#L" n="48"/>violenta et neutra. Esse in potentia naturali est ha 
+      <lb ed="#L" n="49"/>bere inclinationem naturalem ad illud ad quod est in 
+      <lb ed="#L" n="50"/>potentia licut graue est in potentia naturali ad esse 
+      <lb ed="#L" n="51"/>deorsum quando est sursum: quia habet inclinationem natu 
+      <lb ed="#L" n="52"/>ralem ad esse deorsum: et est principium actiuum
+      suffi<lb ed="#L" n="53" break="no"/>ciens illius motus remoto impedimento. Esse 
+      <lb ed="#L" n="54"/>autem in potentia violenta est habere inclinationem 
+      <lb ed="#L" n="55"/>naturalem in contrarium sicut graue quando est deorsum 
+      <!--700.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 349-r -->
+               <lb ed="#L" n="56"/>est in potentia violenta ad esse sursum: quia habet scli 
+      <lb ed="#L" n="57"/>nationem naturalem ad deorsum. Esse in potentia 
+      <lb ed="#L" n="58"/>neutra est quando aliquid nec inclinatur ad hoc nec ad eius 
+      <lb ed="#L" n="59"/>oppositum sicut superficies est in potentia neutra re 
+      <lb ed="#L" n="60"/>spectu albedinis: quia non plus quantum est de se incli 
+      <lb ed="#L" n="61"/>natur ad esse albedinis quam non esse eius: sed solum est in 
+      <lb ed="#L" n="62"/>potentia receptiua sine aliqua actiuitate: ideo est 
+      <lb ed="#L" n="63"/>in potentia neutra. Toqundo autem de potentia
+      na<lb ed="#L" n="64" break="no"/>turali quae distinguitur conclusio violentum: sic dico quod numquam 
+      <lb ed="#L" n="65"/>est aliquid in potentia naturali nisi quando idem est
+      acti<lb ed="#L" n="66" break="no"/>uum et passiuum respectu illius cuius est in poten 
+      <lb ed="#L" n="67"/>tia naturali: quia ex hoc quod est in potentia ad aliquid  
+      <lb ed="#L" n="68"/>quod potest recipere est passiuum: et ex hoc quod est in
+      po<lb ed="#L" n="69" break="no"/>tentia naturali est actiuum: quia ex hoc quod est in
+      po<lb ed="#L" n="70" break="no"/>tentia naturali ad aliquid habet inclinationem natu 
+      <lb ed="#L" n="71"/>ralem. ad illud. inclinatio autem naturalis non est ni 
+      <lb ed="#L" n="72"/>si quadam motus qui non est sine actiuitate. Preterea 
+      <lb ed="#L" n="73"/>potentia pure passiua non plus inclinatur ad vnam 
+      <lb ed="#L" n="74"/>formam quam ad suum contrarium: sed potentia naturalis vt
+      di<lb ed="#L" n="75" break="no"/>stinguitur contra violentum inclinatur determinate 
+      <lb ed="#L" n="76"/>ad vnum ita quod non ad eius contrarium: quia inclinari 
+      <lb ed="#L" n="77"/>ad eius contrarium non potest nisi violenter: quia illud est
+      vio<lb ed="#L" n="78" break="no"/>lentum quod habet contrariam inclinationem vel
+      natura<lb ed="#L" n="79" break="no"/>lem inclinationem ad contrarium sicut graue naturali 
+      <lb ed="#L" n="80"/>ter inclinatur deorsum violenter sursum. Preterea 
+      <lb ed="#L" n="81"/>nil est violentum nisi quando contra naturalem inclina 
+      <lb ed="#L" n="82"/>tionem aliquid fit in eo quod violentatur: et ideo quia
+      vo<lb ed="#L" n="83" break="no"/>luntas non habet inclinationem naturalem ad aliquid  
+      <lb ed="#L" n="84"/>quod fit in ea plus quam ad eius oppositum: ideo
+      volun<lb ed="#L" n="85" break="no"/>tas non potest violentari: quia violenter mouetur
+      ali<lb ed="#L" n="86" break="no"/>quid quod mouetur contra inclinationem naturalem in eo 
+      <lb ed="#L" n="87"/>igitur quod est in potentia naturali prout distingui 
+      <lb ed="#L" n="88"/>tur contra violentum habet inclinationem naturalem 
+      <lb ed="#L" n="89"/>determinate ad vnum contrarium: ita quod non ad aliud 
+      <lb ed="#L" n="90"/>qui ad aliud non mouetur nisi violenter: ergo non natu 
+      <lb ed="#L" n="91"/>raliter mouetur ad aliud. Quarto modo dicitur
+      natu<lb ed="#L" n="92" break="no"/>rale vt distinguitur contra supernaturale. et sic mo 
+      <lb ed="#L" n="93"/>tus grauis sursum dicitur supernalis: quia potest fieri per 
+      <lb ed="#L" n="94"/>agens supernaturale. Quinto modo dicitur naturale 
+      <lb ed="#L" n="95"/>vt distinguitur contra principium motus per accidens. 
+      <lb ed="#L" n="96"/>de quo habetur secundo phisicorum quod medicus est causa sa 
+      <lb ed="#L" n="97"/>nitatis per accidens rectum suupsius. et sic dicitur natura 
+      <lb ed="#L" n="98"/>de omni quod est per se: et primo principium motus alicuius to 
+      <lb ed="#L" n="99"/>tius modo illius cuius est pars siue sit principium
+      a<lb ed="#L" n="100" break="no"/>ctiuum siue passiuum. Ad propositum dico quod generatio 
+      <lb ed="#L" n="101"/>est naturalis. primo modo vt natura distinguitur com 
+      <lb ed="#L" n="102"/>tra artem et voluntatem propter naturalitatem agentis 
+      <lb ed="#L" n="103"/>qui agens non agit per arte siue libere. Secundo modo estat 
+      <lb ed="#L" n="104"/>dicitur gnatio naturalis: quia non est ex actibus
+      consuetu<lb ed="#L" n="105" break="no"/>dinis. Tertio modo accipiendo naturam prout
+      disti<lb ed="#L" n="106" break="no"/>guitur contusio violentum et prout potentia diuiditur in potentiam 
+      <lb ed="#L" n="107"/>naturalem et violentam et neutram et vocando potentiam 
+      <lb ed="#L" n="108"/>naturalem quae proprie distinguitur contusio violentum sic non 
+      <lb ed="#L" n="109"/>dicitur generatio naturalis quod patet: quia aliquid
+      di<lb ed="#L" n="110" break="no"/>citur esse in potentia. naturali: quod est actiuum et passiuum 
+      <!--701.xml-->
+      <pb ed="#L" n="349-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>respectu eiusdem: nunc autem materia est in potentia 
+      <lb ed="#L" n="2"/>passiua solum respectu forme et non actiua. igitui 
+      <lb ed="#L" n="3"/>materia non est in potentia naturali distincta contra 
+      <lb ed="#L" n="4"/>violentum. Confirmatur: quia quando aliquid est in potentia 
+      <lb ed="#L" n="5"/>naturali vt distinguitur contrai violentum ad vnam formam 
+      <lb ed="#L" n="6"/>illud est violenter sub alia forma aliter non
+      acci<lb ed="#L" n="7" break="no"/>peretur potentia naturalis vt distinguitur contra violentum 
+      <lb ed="#L" n="8"/>qui quando aliquid est sic naturaliter sub aliqua forma est 
+      <lb ed="#L" n="9"/>violenter sub opposito illius forme: sed quando aliquid est 
+      <lb ed="#L" n="10"/>violenter sub vna forma est naturaliter prout
+      disti<lb ed="#L" n="11" break="no"/>guitur contusio violentum sub eius opposito: sed quando aliquid ex 
+      <lb ed="#L" n="12"/>istit sub aliqua forma naturali: et postea sub alia 
+      <lb ed="#L" n="13"/>ita quod prima corrumpatur: tunc sub opposito prime for 
+      <lb ed="#L" n="14"/>me existit: igitur violenter existit sub secunda. Ista pa 
+      <lb ed="#L" n="15"/>tent de graui: sed materia non plus habet inclinationem ad  
+      <lb ed="#L" n="16"/>vnam formam quam ad aliam: nec plus violenter existit 
+      <lb ed="#L" n="17"/>sub vna forma quam sub alia: sed precise respectu cu 
+      <lb ed="#L" n="18"/>iuslibet forme et sui non esse est in potentia neutur 
+      <lb ed="#L" n="19"/>Et ideo accipiendo potentiam naturalem pro omni
+      poten<lb ed="#L" n="20" break="no"/>tia distincta contrsi violentum siue sit naturalis proprie 
+      <lb ed="#L" n="21"/>siue non proprie: sed neutra potest concedi quod materia est 
+      <lb ed="#L" n="22"/>in potentia naturali ad formam hoc est in potentia 
+      <lb ed="#L" n="23"/>neutra: quia pure passiua et recepta nec est in po 
+      <lb ed="#L" n="24"/>tentia violenta naturali proprie opposita violento 
+      <lb ed="#L" n="25"/>quo superficies est in potentia neutra ad
+      albedi<lb ed="#L" n="26" break="no"/>nem et eius oppositum: nec est materia aliter in poten 
+      <lb ed="#L" n="27"/>tia ad formam. Toquendo de materia quarto modo sic 
+      <lb ed="#L" n="28"/>dicitur generatio naturalis et supernaturalis: sed dicitur
+      su<lb ed="#L" n="29" break="no"/>pernaturalis vt forma genita est ab agente super 
+      <lb ed="#L" n="30"/>naturali puta a deo: sed forma potest esse a deo
+      dupli<lb ed="#L" n="31" break="no"/>citer vel secundum communem cursum nature quo effectus pro 
+      <lb ed="#L" n="32"/>ductus a causa secunda dicitur immediate a deo tanquam a causa
+      per<lb ed="#L" n="33" break="no"/>tiali: et sic est in proposito. Alio modo est a deo conclusio
+      co<lb ed="#L" n="34" break="no"/>munem cursum nature: et tunc est a deo sicut a causa ton 
+      <lb ed="#L" n="35"/>tali: et sic non est in proposito: sed generato dicitur naturalis 
+      <lb ed="#L" n="36"/>qui forma causatur ab agente creato naturali. Qui 
+      <lb ed="#L" n="37"/>to modo dicitur naturalis siue forma producatur totaliter a 
+      <lb ed="#L" n="38"/>deo siue partialiter a deo at partialiter ab agente crea 
+      <lb ed="#L" n="39"/>to: quia producitur ab aliquo principio intriseco: quod 
+      <lb ed="#L" n="40"/>acit vnum cum eo licet sit principium passiuum et non acti 
+      <lb ed="#L" n="41"/>uum puta materia. Ex istis patet necessitas ponen 
+      <lb ed="#L" n="42"/>di rationes seminales: quia non quodlibet generatur ex quo 
+      <lb ed="#L" n="43"/>libet: sed deterinatum ex deterinato: et quando aliquid
+      eius<lb ed="#L" n="44" break="no"/>dem rationis fit ex alio eiusdem rationis: ita quod secundum communem 
+      <lb ed="#L" n="45"/>cursum nature non potest fieri ab aliquo alterius rationis 
+      <lb ed="#L" n="46"/>sicut triticum fit ex tritico: si tamen fiat mediante alio 
+      <lb ed="#L" n="47"/>alterius rationis: et hoc secundum communem cursum nature sic semenfit 
+      <lb ed="#L" n="48"/>ex arbore et arbor fit ex seine et iterum semen ex illa 
+      <lb ed="#L" n="49"/>arbore: tunc illud quod est semen est semen rectum illius quod 
+      <lb ed="#L" n="50"/>est alterius rationis a seintie: et rectum illius quod est eiusdem 
+      <lb ed="#L" n="51"/>rationis cum seinte sicut semen arboris est semen arboris
+      causa<lb ed="#L" n="52" break="no"/>te ab eo: quia arbor est alterius rationis a seine et est semen 
+      <lb ed="#L" n="53"/>alterius seinis producti ab arbore producta a primo se 
+      <lb ed="#L" n="54"/>mine: et illud secundum semen est eiusdem rationis cum primo: sed 
+      <lb ed="#L" n="55"/>hoc numquam est nisi mediante alio alterius rationis sicut est in 
+      <!--701.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 349-v -->
+               <lb ed="#L" n="56"/>proposito arbor media inter duo seina. Ex istis potest 
+      <lb ed="#L" n="57"/>patere in quibus et rectum quorum est ponenda ratio seina 
+      <lb ed="#L" n="58"/>lis quia est ponenda in illis et rectum illorum rectum
+      quo<lb ed="#L" n="59" break="no"/>rum vnum indiuiduum est natum causari ab alio secundum communem 
+      <lb ed="#L" n="60"/>cursum nature: et ita generari ex illo quod non ex alio 
+      <lb ed="#L" n="61"/>alterius rationis: ideo poneda est in animalibus et plantis et 
+      <lb ed="#L" n="62"/>huiusmodi viuentibus quae producunt alia similia sibi in specie 
+      <lb ed="#L" n="63"/>qui illa producta non possunt secundum communem cursum nature 
+      <lb ed="#L" n="64"/>produci ab aliquo alterius speciei: et ideo in elementis non 
+      <lb ed="#L" n="65"/>est ponenda: quia non tantum vnum elementum potest generari ab 
+      <lb ed="#L" n="66"/>vno sed a multis sicut ignis potest generari ex aqua aere 
+      <lb ed="#L" n="67"/>et terra: et propter illud non tantum seinalis ratio est ponem 
+      <lb ed="#L" n="68"/>da in illis in quibus cessante actione principalis agen 
+      <lb ed="#L" n="69"/>tis producitur aliquid mediante seine: vt in animalibus
+      simili<lb ed="#L" n="70" break="no"/>bus sed etiam in aliis generatis in quibus deterinatum indiui 
+      <lb ed="#L" n="71"/>duum potest tantum generari ex deterinato vnius alicuius specie 
+      <lb ed="#L" n="72"/>ita quod non alterius
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1009">
+      ⁋ Quatum ad tertium articulum 
+      <lb ed="#L" n="73"/>quo se habet semen rectum formationis corporis christi potest di 
+      <lb ed="#L" n="74"/>ci quod christus aliquo modo fuit productus ex ratione seminali 
+      <lb ed="#L" n="75"/>qui ibi fuerunt rationes seiales ad formandum corpus 
+      <lb ed="#L" n="76"/>ex quibus corpus eius potuit naturaliter fuisse
+      for<lb ed="#L" n="77" break="no"/>matum sicut est aliud corpus: quia tamen iste rationes semi 
+      <lb ed="#L" n="78"/>nales non concurrebant ad agendum secundum communem et vsi 
+      <lb ed="#L" n="79"/>tatum cursum nature propter haoc defecerunt ab ista 
+      <lb ed="#L" n="80"/>denominatione rationes seminales: vnde formaliter fuit ibi 
+      <lb ed="#L" n="81"/>vel potuit fuisse semen eiusdem dispositionis per omnia 
+      <lb ed="#L" n="82"/>sicut est semen hominis. et fuit semen beate virgis: quia 
+      <lb ed="#L" n="83"/>tamen illud corpus non fuit formatum secundum communem et vsita 
+      <lb ed="#L" n="84"/>tum cursum nature: ideo dicunt sancti quod christus non fuit
+      pro<lb ed="#L" n="85" break="no"/>ductus secundum rationem seminalem. Alia est dissimilitudo 
+      <lb ed="#L" n="86"/>qui ad productionem aliorum hominum concurrunt semen de 
+      <lb ed="#L" n="87"/>cisum ab homine et alia multa accidentia: quia non 
+      <lb ed="#L" n="88"/>fuerunt necesse potuerunt hic: sed si ibi fuerit semen 
+      <lb ed="#L" n="89"/>similis dispositonis cum semine hominis. fuit immediate 
+      <lb ed="#L" n="90"/>causatum a deo non ab hominne
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1051">
+      ⁋ Ex istis patere potest 
+      <lb ed="#L" n="91"/>quod beatam virgo operabatur in formatione corporis
+      xpi<lb ed="#L" n="92" break="no"/>nam in eius formatione fuit administratio ma 
+      <lb ed="#L" n="93"/>terie: et ad istam beata virgo operabatur per 
+      <lb ed="#L" n="94"/>virtutem nutritiuam conuertendo alimentum in 
+      <lb ed="#L" n="95"/>sanguinem et alia huiusmodi ex quibus
+      forma<lb ed="#L" n="96" break="no"/>batur corpus christi. fuit etiam ibi delatio
+      mate<lb ed="#L" n="97" break="no"/>rie ad locum conuenientem generationi: et illa fu 
+      <lb ed="#L" n="98"/>it miraculosa. et illa solum fuit a spiritusancto. et 
+      <lb ed="#L" n="99"/>ideo quantum ad illam delationem et multas alias 
+      <lb ed="#L" n="100"/>transmutationes que ibi fuerunt beata virgo 
+      <lb ed="#L" n="101"/>nihil fecit. Tertio fuit ibi inductio forme
+      sub<lb ed="#L" n="102" break="no"/>stantialis naturalis: et respectu istius
+      operaba<lb ed="#L" n="103" break="no"/>tur virgo cum spiritum sancto tanquam vna causa 
+      <lb ed="#L" n="104"/>totalis: quia illa educitur de potentia
+      mate<lb ed="#L" n="105" break="no"/>rie: et ideo respectu vnius potuit beata virgo 
+      <lb ed="#L" n="106"/>habere actiuitatem sicut respectu
+      inductio<lb ed="#L" n="107" break="no"/>nis alterius forme habet alia mater. Quarto 
+      <lb ed="#L" n="108"/>fuit inductio anime intellectiue et quantum ad il 
+      <lb ed="#L" n="109"/>lam nihil fecit beata virgo: quia illa non edu 
+      <lb ed="#L" n="110"/>citur de potentia materie: et ideo respectu illius 
+      <!--702.xml-->
+      <pb ed="#L" n="350-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nulla forma creanta habet actiuitatem.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1107">
+      ⁋ Sed tunc 
+      <lb ed="#L" n="2"/>est dubium vtrum beata virgo vere est mater dei 
+      <lb ed="#L" n="3"/>posito quod nihil operaretur in formatione corporis 
+      <lb ed="#L" n="4"/>christi sed tantum adminstraret materiam. dico quod sic: quia 
+      <lb ed="#L" n="5"/>tunc mater diceret totum istud: scilicet substantiam
+      vni<lb ed="#L" n="6" break="no"/>tam vita sensitiua ministrans materiam alteri indi 
+      <lb ed="#L" n="7"/>uiduo eiusdem rationis secundum communem et vsitatum cursum na 
+      <lb ed="#L" n="8"/>ture talem materiam transferendo de loco disconueni 
+      <lb ed="#L" n="9"/>ente ad locum conuenientem generationi: et hoc sine actio 
+      <lb ed="#L" n="10"/>ne siue passione. Et quod sic debeat dici mater
+      or<lb ed="#L" n="11" break="no"/>quod habeat rationem animalis: et quod locus generationis sit 
+      <lb ed="#L" n="12"/>determinatus. et ideo terra non potest dici mater: 
+      <lb ed="#L" n="13"/>non obstante quod ministrat materiam generationi. 
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1136">
+               <lb ed="#L" n="14"/>⁋ Sed debet ne sola virgo dici parens christi: Di 
+      <lb ed="#L" n="15"/>co quod sic: quia non est aliquid aliud dandum quod
+      de<lb ed="#L" n="16" break="no"/>beat dici parens christi nisi spiritus sanctus: sed spiritus 
+      <lb ed="#L" n="17"/>sanctus non potest dici parens christi. ergo etc. Assum 
+      <lb ed="#L" n="18"/>ptum patet: quia ad rationem paternitatis requiritur 
+      <lb ed="#L" n="19"/>quod ab aliquo animali viuente procedat per motum 
+      <lb ed="#L" n="20"/>sed spiritus sanctus non est animal nec potest concurre 
+      <lb ed="#L" n="21"/>re in formatione istius corporis nisi libere: nec secundum con 
+      <lb ed="#L" n="22"/>munem et vsitatum cursum nature concurrebat. ergo 
+      <lb ed="#L" n="23"/>spiritus sanctus non potest dici prarens. et per consequens sola 
+      <lb ed="#L" n="24"/>virgo debet dici parens
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1162">
+      ⁋ Contra ista sunt
+      mul<lb ed="#L" n="25" break="no"/>ta dubia. Primo enim videtur quod beata vergo nihil 
+      <lb ed="#L" n="26"/>actiue operabatur: quia inducens formam est nobilius 
+      <lb ed="#L" n="27"/>quam preparans. ergo cum inductio forme naturalis in 
+      <lb ed="#L" n="28"/>corpore christi deputetur beate virgini et prepara 
+      <lb ed="#L" n="29"/>tio tantum spiui sancto. sequitur quod beata virgo erit no 
+      <lb ed="#L" n="30"/>bilior spiritui sancto. quod nullus posuit.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1178">
+      ⁋ Secundum du 
+      <lb ed="#L" n="31"/>bium est de semine et ratione seminali: vtrum sit acti 
+      <lb ed="#L" n="32"/>ua vel passiua: et vtrum sit substantia vel accidens 
+      <lb ed="#L" n="33"/>quod sit ratio actiua videtur: quia vbicunque philosophus loquitur 
+      <lb ed="#L" n="34"/>de semine computat ipsum inter causas mouentes 
+      <lb ed="#L" n="35"/>et agentes.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1191">
+      ⁋ Tertium dubium est: quia videtur quod ratio 
+      <lb ed="#L" n="36"/>eminalis est ponenda vt vitetur creatio. si enim 
+      <lb ed="#L" n="37"/>forma creetur: sequitur quod forma est per se termi 
+      <lb ed="#L" n="38"/>nus productonis. quod probatur: quia omne quod per se crea 
+      <lb ed="#L" n="39"/>tur est per se terminus productonis forma per se creatur 
+      <lb ed="#L" n="40"/>per te. ergo etc. et per consequens totum non fit per se: quod est contra 
+      <lb ed="#L" n="41"/>philosophum. vii. metaphisice. qui ponit quod totum
+      compo<lb ed="#L" n="42" break="no"/>situm generatur per se
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1209">
+      ⁋ Preterea secundum commentato 
+      <lb ed="#L" n="43"/>rem. xii. metaphisice. numerus potentiarum in
+      ma<lb ed="#L" n="44" break="no"/>teria est secundum numerum formarum. ergo necesse est esse 
+      <lb ed="#L" n="45"/>in materia aliquid quod habet rationem entis antequem for 
+      <lb ed="#L" n="46"/>ma generetur: sed nihil tale potest poni nisi in materia 
+      <lb ed="#L" n="47"/>ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1223">
+      ⁋ Preterea tunc etiam essent datores formarum 
+      <lb ed="#L" n="48"/>quod est comrphilosophum ibidem
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1228">
+      ⁋ Preterea. viii. metaphisice 
+      <lb ed="#L" n="49"/>extrahens formam non largitur multitudinem: sed perfectio 
+      <lb ed="#L" n="50"/>nem igitur aliquid forme generande praecedit
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1235">
+      ⁋ Quarti 
+      <lb ed="#L" n="51"/>dubium est quod non videtur quod generatio debeat dici natu 
+      <lb ed="#L" n="52"/>ralis propter solam passiuam potentiam.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1242">
+      ⁋ Primo sic: quia 
+      <lb ed="#L" n="53"/>aliter non differrent naturalia ab artificialibus: quia i 
+      <lb ed="#L" n="54"/>illis est principium passiuum non violentum. igitur forma 
+      <lb ed="#L" n="55"/>artificialis debet dici naturalis sicut alia forma¬ 
+      <!--702.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 350-r -->
+            </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1257">
+               <lb ed="#L" n="56"/>⁋ Preterea ii. phisicorum. si ars nauifactiua esset a li 
+      <lb ed="#L" n="57"/>gno sicut est ab arte: eodem modo staret nauis a
+      na<lb ed="#L" n="58" break="no"/>tura sicut modo ab arte: sed si esset in ligno: tunc esset
+      princi<lb ed="#L" n="59" break="no"/>pium actiuum in ligno sicut modo quando fit ab arte
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1268">
+      ⁋ Preter 
+      <lb ed="#L" n="60"/>ea violentum est illud cuius principium est ab exa non con 
+      <lb ed="#L" n="61"/>ferente vim passiuo: sed si materia sit solum passiua 
+      <lb ed="#L" n="62"/>tunc non confert vim: ergo violenter retinet omnem forma 
+      <lb ed="#L" n="63"/>quam recipit.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1280">
+      ⁋ Quitum dubium est: quia videtur quod in ma 
+      <lb ed="#L" n="64"/>teria sit alia inclinatio ad formam quae potest haberi sine
+      a<lb ed="#L" n="65" break="no"/>ctiuitate. quod probatur: quia primo phisicorum matria ap 
+      <lb ed="#L" n="66"/>petit formam quando caret ea: sed nil imperfectum habet actiui 
+      <lb ed="#L" n="67"/>tatem rectum sue perfectionis. Item primo metaphisice 
+      <lb ed="#L" n="68"/>omnes homines natura scire desiderant: et tamen non omns 
+      <lb ed="#L" n="69"/>homines agunt semper ad sciendum. igitur.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1296">
+      ⁋ Ad primum istorum 
+      <lb ed="#L" n="70"/>dico quod spiritus sancuns plus egit quam beatam vergo: quia si spius 
+      <lb ed="#L" n="71"/>sanctus praeprauit materiam et induxit formam cum beatam
+      ver<lb ed="#L" n="72" break="no"/>gine sic causa partialis et similiter non est vniversaliter verum quod indu 
+      <lb ed="#L" n="73"/>cens formam sit nobilius quam praeparans: quia idem potest esse pre 
+      <lb ed="#L" n="74"/>parans et inducens. Nec est perfectius quam effectus maxi 
+      <lb ed="#L" n="75"/>me causa partialis. patet de sole licet sit verum de causa totali 
+      <lb ed="#L" n="76"/>sicut alias dictum est
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1314">
+      ⁋ Ad aliud dico quod ratio seminalis 
+      <lb ed="#L" n="77"/>alia est actiua et alia passiua: quod autem sit actiua est 
+      <lb ed="#L" n="78"/>de intentione augustini super gene. In illo inquat grano 
+      <lb ed="#L" n="79"/>ex quo esi inquat granum ex quo potest generari arbor est gratia 
+      <lb ed="#L" n="80"/>humorum ex quo potest conuerti in ramos. et per consequens potest 
+      <lb ed="#L" n="81"/>habere rationem actiui. Quod vere habeat rationem receptiui 
+      <lb ed="#L" n="82"/>patet etiam: quia quoddam est semen maris et quoddam se 
+      <lb ed="#L" n="83"/>men feie. feire autem semen potest habere rationem passiui. patet 
+      <lb ed="#L" n="84"/>etiam: quia semen quantum ad aliquid sui corrumpitur: quod autem 
+      <lb ed="#L" n="85"/>corrumpitur se habet in rationem passiui. ergo habet rationem actiui et 
+      <lb ed="#L" n="86"/>passiui. Sed est ne substantia ante accidens: dico quod potest potenst 
+      <lb ed="#L" n="87"/>forma substantialis seins vel accidentalis: et quod corrumpitur in 
+      <lb ed="#L" n="88"/>inductione forme principalis
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1343">
+      ⁋ Ad tertium dico de 
+      <lb ed="#L" n="89"/>terimo productionis quod quantum ad omnia talia est
+      negan<lb ed="#L" n="90" break="no"/>dus philosophus quia ipse errauit. dicit enim quod forma substantialis 
+      <lb ed="#L" n="91"/>non est producibilis a deo: sed a causis secundis per edu 
+      <lb ed="#L" n="92"/>ctionem de potentia materie. Et nullo modo a deo 
+      <lb ed="#L" n="93"/>christiani vero habent dicere contrarium. ideo secundum philosophum compositum 
+      <lb ed="#L" n="94"/>per se est terminus productonis: quia secundum eum non potest produ 
+      <lb ed="#L" n="95"/>ci nisi compositum. christiani autem quae dicunt quod forma potest 
+      <lb ed="#L" n="96"/>fieri a deo per se sine matria et in materia: et quod de facto 
+      <lb ed="#L" n="97"/>sit ab agente non requirente neccessario materiam in sua 
+      <lb ed="#L" n="98"/>actione cuiusmodi est deus: et ab agente requirente nec 
+      <lb ed="#L" n="99"/>rio materiam in sua actione: cuiusmodi est causa
+      crea<lb ed="#L" n="100" break="no"/>ta: habent dicere quod forma est per se terminus producto 
+      <lb ed="#L" n="101"/>nis vt est a deo: siue ab agente non requirente ma 
+      <lb ed="#L" n="102"/>teriam: et compositum est per se terminus productionis vt 
+      <lb ed="#L" n="103"/>forma sit ab agente neccessario requirente materiam 
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1378">
+               <lb ed="#L" n="104"/>⁋ Ad aliud dico quod potentia materie non est
+      a<lb ed="#L" n="105" break="no"/>lia res media inter materiam puram et formam 
+      <lb ed="#L" n="106"/>substantialem: quia potest deus facere mate 
+      <lb ed="#L" n="107"/>riam sine omni alia re differente ab ea: et tamen non 
+      <lb ed="#L" n="108"/>potest eam facere sine potentia sua: sed philosophus et 
+      <lb ed="#L" n="109"/>sancti sic loquentes dicunt illud quantum ad illam 
+      <lb ed="#L" n="110"/>denominationem extrinsecam: sic scilicet quod quot sunt forme 
+      <!--703.xml-->
+      <pb ed="#L" n="350-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>inducende in materia tot denominationes
+      extrin<lb ed="#L" n="2" break="no"/>secas habere potest materia. puta quia in materia 
+      <lb ed="#L" n="3"/>potest induci forma asini bouis etc. ideo materia
+      di<lb ed="#L" n="4" break="no"/>uersa denominatione extrinseca dicitur esse in
+      poten<lb ed="#L" n="5" break="no"/>tia ad formam bouis et asini. et si esset vnum nomen 
+      <lb ed="#L" n="6"/>ompositum et conceptus ad significandum materiam
+      vi<lb ed="#L" n="7" break="no"/>potest recipere formam asini et aliud nomen vel
+      con<lb ed="#L" n="8" break="no"/>ceptus vt potest recipere formam bouis. tunc illi conce 
+      <lb ed="#L" n="9"/>ptus vel voces dicerentur potentie materie et
+      di<lb ed="#L" n="10" break="no"/>stincte potentie secundum distinctionem formarum. Exem 
+      <lb ed="#L" n="11"/>plum in aliis sol habet potentiam producendi plam 
+      <lb ed="#L" n="12"/>tam et vermem: et iste potentie a parte solis non
+      distin<lb ed="#L" n="13" break="no"/>guntur sed sunt diuersi conceptus vel voces
+      de<lb ed="#L" n="14" break="no"/>nominantes diuersimode solem sine omni distinctione 
+      <lb ed="#L" n="15"/>a parte sui. puta vermificatiua. et hoc nomen: vel
+      con<lb ed="#L" n="16" break="no"/>ceptus significat solem et connotat vermen produci 
+      <lb ed="#L" n="17"/>bilem a sole. et hoc nomen vel conceptus
+      plantifica<lb ed="#L" n="18" break="no"/>tiua significat eundem solem connotando plantam pro 
+      <lb ed="#L" n="19"/>ducibilem a sole. et hec potentia vermificatiua et 
+      <lb ed="#L" n="20"/>plantificatiua solum distinguuntur non propter aliquam 
+      <lb ed="#L" n="21"/>distinctionem in sole sed tantum sicut distincti conceptus 
+      <lb ed="#L" n="22"/>connotatiui vel voces. Eodem modo est de
+      poten<lb ed="#L" n="23" break="no"/>tia materie si essent distincta nomina vel conceptr 
+      <lb ed="#L" n="24"/>impositi ad significandum materiam vt est
+      rece<lb ed="#L" n="25" break="no"/>ptibilis diuersarum formarum dicerentur distincte 
+      <lb ed="#L" n="26"/>potentie in materia non propter aliquam distinctio 
+      <lb ed="#L" n="27"/>nem in materia sed quia sunt diuersi conceptus vel 
+      <lb ed="#L" n="28"/>voces significantes materiam principaliter
+      conno<lb ed="#L" n="29" break="no"/>tando diuersas formas. et isto modo potest saluari 
+      <lb ed="#L" n="30"/>numerus potentiarum in materia respectu
+      nu<lb ed="#L" n="31" break="no"/>meri formarum. et propter ignorantiam istius multi 
+      <lb ed="#L" n="32"/>decipiuntur in istis et in aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1472">
+      ⁋ Ad aliud dico 
+      <lb ed="#L" n="33"/>quod philosophus non ponit datores formarum. tum quia non po 
+      <lb ed="#L" n="34"/>nit deum agere aliquid immediate in istis inferiori 
+      <lb ed="#L" n="35"/>bus. tum quia non ponit deum posse producere aliquid 
+      <lb ed="#L" n="36"/>sine materia sicut nec agens creatum. ideo ipsi no 
+      <lb ed="#L" n="37"/>habent ponere datores formarum. nos autem
+      christia<lb ed="#L" n="38" break="no"/>ni ponimus quod est vnus dator formarum propter 
+      <lb ed="#L" n="39"/>causas oppositas. tum quia deus agit immediate in 
+      <lb ed="#L" n="40"/>omni actione creature. tum quia potest producere aliquid 
+      <lb ed="#L" n="41"/>sine materia. Unde agens naturale producit
+      for<lb ed="#L" n="42" break="no"/>nam tanquam terminum per se. quia non potest producere per 
+      <lb ed="#L" n="43"/>se sine materia: sed necessario praesupponit formam 
+      <lb ed="#L" n="44"/>in materia. et si posset per se producere sicut deus 
+      <lb ed="#L" n="45"/>tunc forma per se terminaret eius productionem. 
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1504">
+               <lb ed="#L" n="46"/>⁋ Ad aliud dico quod verum est quod extrahens de po 
+      <lb ed="#L" n="47"/>centia ad actum non largitur multitudinem de
+      obie<lb ed="#L" n="48" break="no"/>ctiua potentia sed subiectiua. quia idem homo quae 
+      <lb ed="#L" n="49"/>orius fuit in potentia nunc est in actu: sed forma 
+      <lb ed="#L" n="50"/>que nunc est in materia est alia res a materia quae 
+      <lb ed="#L" n="51"/>perfuit. ideo loquendo de subiectiua potentia sic 
+      <lb ed="#L" n="52"/>largitur multitudinem. quia forma nunc inducta in 
+      <lb ed="#L" n="53"/>materia et post non: largitur ei multitudinem.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1524">
+      ⁋ Ad  
+      <lb ed="#L" n="54"/>aliud dico quod de ratione nature est quod possit esse prin 
+      <lb ed="#L" n="55"/>cipium per se motus illius in quo est actiuum vel 
+      <!--703.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 350-v -->
+               <lb ed="#L" n="56"/>passiuum: et non de ratione nature est quod recipiatur in
+      ali<lb ed="#L" n="57" break="no"/>quo sed quod causet motum eius in quo est actiue vel 
+      <lb ed="#L" n="58"/>passiue: sed ars non est principium eius in quo est 
+      <lb ed="#L" n="59"/>per se. patet de medicina. ii. phisicorum. vnde dif 
+      <lb ed="#L" n="60"/>ferentia est in hoc quod natura est principium actiuum 
+      <lb ed="#L" n="61"/>vel passiuum motus et quientis sed forma
+      artifi<lb ed="#L" n="62" break="no"/>cialis non. quia nullius est principium. Unde agens 
+      <lb ed="#L" n="63"/>naturale producit totum compositum et non formam 
+      <lb ed="#L" n="64"/>tanquam terminum per se. quia non potest producere per se 
+      <lb ed="#L" n="65"/>sine materia: sed necessario producit formam in ma 
+      <lb ed="#L" n="66"/>teria.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1561">
+      ⁋ Ad aliud dico quod illud est violentum quando 
+      <lb ed="#L" n="67"/>passum non confert vim: sed confert ad contrarium 
+      <lb ed="#L" n="68"/>qui habet actiuam inclinationem ad contrarium. patet 
+      <lb ed="#L" n="69"/>de graui quod sursum quiescit violenter. sed mate 
+      <lb ed="#L" n="70"/>ria non habeti inclinationem ad vnam formam 
+      <lb ed="#L" n="71"/>nec ad oppositam.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1574">
+      ⁋ Ad aliund dico quod
+      appeti<lb ed="#L" n="72" break="no"/>tus. Uno modo accipitur vt distinguitur
+      com<lb ed="#L" n="73" break="no"/>tra puram potentiam neutram et violentam. Alio modo 
+      <lb ed="#L" n="74"/>vt distinguitur contra potentiam naturalem et violen 
+      <lb ed="#L" n="75"/>tam
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1585">
+      ⁋ Primo modo materia non appetit formam vt 
+      <lb ed="#L" n="76"/>distinguitur contra puram potentiam neutram et
+      violen<lb ed="#L" n="77" break="no"/>tam: sic materia non diligit formam nec habet incli 
+      <lb ed="#L" n="78"/>nationem actiuam ad formam. Unde sicut in materia 
+      <lb ed="#L" n="79"/>non est vera delectatio sic nec verus appetitus. 
+      <lb ed="#L" n="80"/>Secundo modo accipiendo sic est potentia neutra 
+      <lb ed="#L" n="81"/>receptiua forme qua caret: per quam nata est
+      per<lb ed="#L" n="82" break="no"/>fici. et sic intelligit commentator. vel sub aliis ver 
+      <lb ed="#L" n="83"/>bis potest dici quod appetitus non distinguitur contra 
+      <lb ed="#L" n="84"/>potentiam neutram violentam et naturale. Alio modo 
+      <lb ed="#L" n="85"/>vt est potentia neutra modo predicto. applica 
+      <lb ed="#L" n="86"/>ad propositum.
+    </p>
+            <p xml:id="wo8uy7-d1e2216-d1e1611">
+      ⁋ Ad aliud dico quod omnes homines natu 
+      <lb ed="#L" n="87"/>ra scire desiderant non actu elicito sed quia omnes ho 
+      <lb ed="#L" n="88"/>mines habent intellectum qui est in potentia ad  
+      <lb ed="#L" n="89"/>actum sciendi sicut ad suam perfectionem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

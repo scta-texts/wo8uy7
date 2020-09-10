@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3(4)</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3(4)</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1930"><!-- l2q3(4) -->
+            <head xml:id="wo8uy7-d1e1930-Hd1e108">Quaestio 3(4)</head>
+            <!-- #3 in ordinatio list -->
+            <p xml:id="wo8uy7-d1e1930-d1e113">
+      Questio. iiii. 
+      <lb ed="#L" n="49"/>⁋ UTrum deus sit
+      pri<lb ed="#L" n="50" break="no"/>ma causa et immediata omnium.
+    </p>
+            <p xml:id="wo8uy7-d1e1930-d1e120">
+      Quod non: 
+      <lb ed="#L" n="51"/>qui ab vno non procedit nisi vnum. Quod 
+      <lb ed="#L" n="52"/>non sit immediata causa. probatur quia tunc omnis effe 
+      <lb ed="#L" n="53"/>ctus potest demonstrari per eum tanquam per causam immedia 
+      <lb ed="#L" n="54"/>tam: et sic omnia media superfluerent. Item multa 
+      <!--568.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 283-r -->
+               <lb ed="#L" n="55"/>non possunt fieri sine subiectis: sicut est de
+      re<lb ed="#L" n="56" break="no"/>latione: sed creatura fit sine subiecto. ergo etc.
+      Qp<lb ed="#L" n="57" break="no"/>positum. deus continet causalitatem
+      cuiusli<lb ed="#L" n="58" break="no"/>bet cause secunde. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

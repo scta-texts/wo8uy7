@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="174-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e846"><!-- l1d10q2 -->
+            <head xml:id="wo8uy7-d1e846-Hd1e108">Quaestio 2</head>
+            <p xml:id="wo8uy7-d1e846-d1e111">
+      Que ii. 
+      <lb ed="#L" n="39"/>Secundo quero 
+      <lb ed="#L" n="40"/>Utrum spiritussanctus libere
+      pro<lb ed="#L" n="41" break="no"/>ducatur
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e120">
+      ⁋ Quod non arguitur. quicquid li 
+      <lb ed="#L" n="42"/>bere producitur: producitur
+      contingen<lb ed="#L" n="43" break="no"/>ter. sed spiritussanctus nol pducitur contingentur. quia tunc 
+      <lb ed="#L" n="44"/>esset contingens. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e129">
+      ⁋ Ad oppositum. voluntas est 
+      <lb ed="#L" n="45"/>potentia libera. ergo illud cuius principium productiuum 
+      <lb ed="#L" n="46"/>est voluntas producitur libere. huiusmodi ets spiritus sanctus sicut di 
+      <lb ed="#L" n="47"/>ctum est in. q. praecedenti. igitur etc.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e138">
+      ⁋ Ad. q. communiter
+      re<lb ed="#L" n="48" break="no"/>spondetur: quod spiritus sanctus libere producitur. et hoc 
+      <lb ed="#L" n="49"/>distinguendo liberum contra naturale: vt filius
+      pro<lb ed="#L" n="50" break="no"/>ducitur naturaliter non libere. econuerso
+      spiritus<lb ed="#L" n="51" break="no"/>sanctus producitur libere non naturaliter. Nec
+      ob<lb ed="#L" n="52" break="no"/>stat quod spiritussanctus necessario producitur. quia
+      ne<lb ed="#L" n="53" break="no"/>cessitas stat cum libertate. Unde aliquae primo probant 
+      <lb ed="#L" n="54"/>quod necessitas staticum libertate respectu eiusdem. 
+      <!--350.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 174-r -->
+               <lb ed="#L" n="55"/>Secundo ostendunt in quo consistit ratio libertatis. 
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e165">
+               <lb ed="#L" n="56"/>⁋ Primum probat per beatum augustinum in enche 
+      <lb ed="#L" n="57"/>ca. viii. lxxxiii. vel. lxxii. Sic inquit oportebat 
+      <lb ed="#L" n="58"/>fieri prius hominem. vt bene velle possit et male. nec 
+      <lb ed="#L" n="59"/>gratis sibene: nec impune si male. postea vero sic 
+      <lb ed="#L" n="60"/>erit vt male velle non possit. nec ideo libero
+      care<lb ed="#L" n="61" break="no"/>bit arbitrio. quippe liberius erit quod omnino non potest 
+      <lb ed="#L" n="62"/>seruire peccato. et subdit quasi pro probatione. Ne 
+      <lb ed="#L" n="63"/>que enim culpanda est voluntas: aut voluntas non est aut 
+      <lb ed="#L" n="64"/>libera dicenda non est qua beati sic esse volumus vt esse 
+      <lb ed="#L" n="65"/>miseri non solum non velimus. sed nequaquam velle
+      possi<lb ed="#L" n="66" break="no"/>mus.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e191">
+      ⁋ Preterea anselmus de libero arbitrio. 
+      <lb ed="#L" n="67"/>c. i. qui sic habet quod decet et expedit vt hoc amit 
+      <lb ed="#L" n="68"/>tere non queat: liberior est quam ille qui sic habet hoc 
+      <lb ed="#L" n="69"/>ipsum vt possit perdere. et ex hoc concludit liberior 
+      <lb ed="#L" n="70"/>est igitur voluntas quae a rectitudine declinare
+      ne<lb ed="#L" n="71" break="no"/>quit.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e204">
+      ⁋ Preterea probatur per rationem. Primo quia
+      vo<lb ed="#L" n="72" break="no"/>luntas diuina necessario vult bonitatem suam. et tamen 
+      <lb ed="#L" n="73"/>in volendo eam est libera. igitur etc. minor probatur. quia po 
+      <lb ed="#L" n="74"/>tentia operans circa vnum obiectum non absolute 
+      <lb ed="#L" n="75"/>sed in ordine ad aliud est operatiua circa vtrumque
+      ob<lb ed="#L" n="76" break="no"/>iectum. sicut arguit philosophus secundo de anima de sensu communi 
+      <lb ed="#L" n="77"/>sed voluntas diuina refert ad finem omnia alia. ergo opera 
+      <lb ed="#L" n="78"/>tur circa omnia alia. sed circa illud quod est ad fine li 
+      <lb ed="#L" n="79"/>bere operatur et contingenter. ergo libere vult
+      boni<lb ed="#L" n="80" break="no"/>tatem suam.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e226">
+      ⁋ Preterea secundo probatur idem propter quid 
+      <lb ed="#L" n="81"/>etprimo sic. actio circa finem vltimum est perfectissima 
+      <lb ed="#L" n="82"/>in tali actione necessitas in agendo est perfectionis 
+      <lb ed="#L" n="83"/>ergo necessitas in ea non tollit. sed magis ponit quod est 
+      <lb ed="#L" n="84"/>perfectionis. cuiusmodi est libertas
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e237">
+      ⁋ Preterea  
+      <lb ed="#L" n="85"/>coditio intrinseca ipsius potentie vel absolute vel 
+      <lb ed="#L" n="86"/>in ordine ad actum perfectum non repugnat perfectioni 
+      <lb ed="#L" n="87"/>in operando. nunc autem libertas vel est conditio
+      in<lb ed="#L" n="88" break="no"/>trinseca voluntatis absolute vel saltem in ordine 
+      <lb ed="#L" n="89"/>ad actum volendi. igitur ipsa libertas potest stare cum 
+      <lb ed="#L" n="90"/>conditione perfecta possibili in operando. talis conditio 
+      <lb ed="#L" n="91"/>est necessitas. et specialiter vbi ipsa est possibilis. est 
+      <lb ed="#L" n="92"/>autem semper possibilis vbi neutrum extremum requirit 
+      <lb ed="#L" n="93"/>contingentiam in operatione quae est medium inter extrema 
+      <lb ed="#L" n="94"/>sic est in proposito. igitur etc.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e261">
+      ⁋ Circa secundum dicitur quod cum 
+      <lb ed="#L" n="95"/>dicitur voluntatem necessario velle. necessitas potest de 
+      <lb ed="#L" n="96"/>terminare actum volendi vt terminatur ad
+      obie<lb ed="#L" n="97" break="no"/>ctum. et sic est verum et manifestum intelligendo de bo 
+      <lb ed="#L" n="98"/>nitate diuina. Aut potest necessitas
+      determina<lb ed="#L" n="99" break="no"/>re: actum vt egreditur a voluntate. et hoc potest intelli 
+      <lb ed="#L" n="100"/>gi duplicitur. Uno modo vt sit necessitas prima ad  
+      <lb ed="#L" n="101"/>voluntatem. et voluntas intelligatur cadere sub
+      ne<lb ed="#L" n="102" break="no"/>cessitate tamquam impellente in actum et figente in actu 
+      <lb ed="#L" n="103"/>si sic esset voluntas ageretur et non ageret nec staret 
+      <lb ed="#L" n="104"/>tin tali actu libertas alio modo intelligitur necessi 
+      <lb ed="#L" n="105"/>tas concomitans. ita quod ipsa intelligatur cadere sub 
+      <lb ed="#L" n="106"/>voluntate sic quod voluntas propter firmitatem liberta 
+      <lb ed="#L" n="107"/>tis sue sibiipsi necessitate imponit in eliciendo 
+      <lb ed="#L" n="108"/>actum. et in perseuerando siue figendo. se in 
+      <lb ed="#L" n="109"/>actu. et ideo concomitatur eum necessitas nature 
+      <!--351.xml-->
+      <pb ed="#L" n="174-v"/>
+               <cb ed="#L" n="a"/>
+            </p>
+            <p xml:id="wo8uy7-d1e846-d1e304">
+               <lb ed="#L" n="1"/>⁋ Aliter dicit doctor cuius opinio ad primi 
+      <lb ed="#L" n="2"/>articulum erat recitata. Si inquit queratur.
+      Un<lb ed="#L" n="3" break="no"/>de est quod voluntas licet sit necessario agens non 
+      <lb ed="#L" n="4"/>tamen naturaliter agens. cum non possit natura
+      ma<lb ed="#L" n="5" break="no"/>gis esse determinata ad agendum quam quod sit
+      neces<lb ed="#L" n="6" break="no"/>sitata ad agere. Declarat sic. omne inquit natu 
+      <lb ed="#L" n="7"/>rale agens vel est omnino primum. vel si est posterius 
+      <lb ed="#L" n="8"/>est ab aliquo priori naturaliter determinatum 
+      <lb ed="#L" n="9"/>ad agendum. sed voluntas numquam potest esse agens omni 
+      <lb ed="#L" n="10"/>non primum. sed nec potest esse determinata naturaliter 
+      <lb ed="#L" n="11"/>ab alio agente superiori quia ipsamet est tale actiui 
+      <lb ed="#L" n="12"/>quod se ipsam determinat ad agendum. sic
+      intelligen<lb ed="#L" n="13" break="no"/>do quod si voluntas aliquid necessario velit. puta. a. 
+      <lb ed="#L" n="14"/>non tamen illud velle naturaliter causatur a causan 
+      <lb ed="#L" n="15"/>te voluntatem etiam si naturaliter causaret volun 
+      <lb ed="#L" n="16"/>tatem. sed posito actu primo quo voluntas est volun 
+      <lb ed="#L" n="17"/>tas. si ipsa sibi relinqueretur. et si posset contingenter 
+      <lb ed="#L" n="18"/>habere vel non habere hoc velle. tamen seipsam de 
+      <lb ed="#L" n="19"/>terminaret ad hoc velle
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e348">
+      ⁋ Snde etiam dicitur quod natu 
+      <lb ed="#L" n="20"/>rale agens non potest magis determinari quam quod
+      ne<lb ed="#L" n="21" break="no"/>cessitetur⁋ Respondetur quod licet necessarium sit
+      sumn<lb ed="#L" n="22" break="no"/>ptum determinatum quo ad conclusionem in determi 
+      <lb ed="#L" n="23"/>natiuis ad vtrumlibet. tamen aliquod necessarium alio 
+      <lb ed="#L" n="24"/>modo est determinatum quam aliud: sicut ignem esse cali 
+      <lb ed="#L" n="25"/>dum vel celum esse rotundum est determinatum a causam 
+      <lb ed="#L" n="26"/>te vel dante esse celi et rotunditatem. sed graue est deter 
+      <lb ed="#L" n="27"/>minatum ad descensum non habito necessario ab 
+      <lb ed="#L" n="28"/>ipso generante actum descendendi. sed tamen habito 
+      <lb ed="#L" n="29"/>ab ipso principio naturaliter determinatiuo ad
+      de<lb ed="#L" n="30" break="no"/>scendendum. Uoluntas autem creata si necessario 
+      <lb ed="#L" n="31"/>vult aliquid non est sic determinata a creante ad il 
+      <lb ed="#L" n="32"/>lud velle sicut graue ad descensum sed tantum a cre: 
+      <lb ed="#L" n="33"/>ante habet principium determinatiuum sui ad vel 
+      <lb ed="#L" n="34"/>le. Si dicatur. si descensus grauis causetur a graui 
+      <lb ed="#L" n="35"/>tate intrinseca: tunc graue mouet se. qualiter igi 
+      <lb ed="#L" n="36"/>tur non eque libere sicut voluntas mouet se ad 
+      <lb ed="#L" n="37"/>illud velle respectu cuius ipsa voluntas est necessa 
+      <lb ed="#L" n="38"/>ria ratio causandi. Respondet. illa causatio gra 
+      <lb ed="#L" n="39"/>uitatis respectu descensus est naturalis: et iste 
+      <lb ed="#L" n="40"/>libera. quia hoc est hoc: et illud est illud
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e396">
+      ⁋ Preuiter ergo 
+      <lb ed="#L" n="41"/>dicit quod esse et modus essendi. agere et modus age 
+      <lb ed="#L" n="42"/>di sunt immediata. Unde sicut non est alia ratio quare 
+      <lb ed="#L" n="43"/>hoc habet talem modum essendi nisi quia est tale ens. 
+      <lb ed="#L" n="44"/>sic non est alia ratio quare hoc habet talem modum age 
+      <lb ed="#L" n="45"/>di puta libere. nisi quia est tale principium actiuum. 
+      <lb ed="#L" n="46"/>scilicet liberum. Sic ergo tenetur quod spirius sanctus necessario 
+      <lb ed="#L" n="47"/>producitur et libere. sed tamen non naturaliter.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e414">
+      ⁋ Sed sa 
+      <lb ed="#L" n="48"/>ua reuerentia quorumcumque. magis videtur hic esse
+      diffi<lb ed="#L" n="49" break="no"/>cultas de verbis quam de re. quia supposito quod omnis 
+      <lb ed="#L" n="50"/>actio voluntatis sit libera. et quod produci libere non 
+      <lb ed="#L" n="51"/>sit aliud quam produci a voluntate. non est alia questio 
+      <lb ed="#L" n="52"/>querere vtrum libertas stet cum necessitate: quam
+      quae<lb ed="#L" n="53" break="no"/>rere vtrum voluntas possit aliquid necessario vel 
+      <lb ed="#L" n="54"/>le. vel querere vtrum voluntas possit esse alicuius 
+      <lb ed="#L" n="55"/>principium necessario actiuum seu productiuum. et tamen 
+      <!--351.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 174-v -->
+               <lb ed="#L" n="56"/>hec non faciunt magnam difficultatem supponendo 
+      <lb ed="#L" n="57"/>quod voluntas potest aliquid necessario velle
+      maxi<lb ed="#L" n="58" break="no"/>me diuina.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e447">
+      ⁋ Arguendo tamen contra praedictam opi 
+      <lb ed="#L" n="59"/>nionem: primo ostendam quod secundum vsum auctorum libertas 
+      <lb ed="#L" n="60"/>secundum quod distinguitur contra principium naturale acti 
+      <lb ed="#L" n="61"/>uum est quedam contigentia vel indterntia. ex quo se 
+      <lb ed="#L" n="62"/>quitur quod libertas non stat cum necessitate. Secun 
+      <lb ed="#L" n="63"/>do arguam in speciali contra modum saluandi aliter 
+      <lb ed="#L" n="64"/>libertatem in voluntate quam in alio principio necessa 
+      <lb ed="#L" n="65"/>rio actiuo.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e465">
+      ⁋ Primum non potest ratione probari. sicu 
+      <lb ed="#L" n="66"/>nec significata vocabulorum. et ideo arguo per auc. 
+      <lb ed="#L" n="67"/>primo per. auc. philosophi ii. phisicorum vbi distinguens prin 
+      <lb ed="#L" n="68"/>cipia actiua. distinguit ea in naturam et
+      intelle<lb ed="#L" n="69" break="no"/>ctum. tunc quero. aut intendit distinguere
+      intel<lb ed="#L" n="70" break="no"/>lectum respectu cuiuslibet sue operationis a
+      prin<lb ed="#L" n="71" break="no"/>cipio actiuo naturali aut non. si sic. ergo intellectus 
+      <lb ed="#L" n="72"/>respectu nullius est principium actiuum naturale. quod 
+      <lb ed="#L" n="73"/>est manifeste falsum. etiam secundum istos. si enim hoc esset 
+      <lb ed="#L" n="74"/>verum. filius in diuinis non magis produceretur natu 
+      <lb ed="#L" n="75"/>liter quam spiritus sanctus quod isti negant. Si non. ergo opor 
+      <lb ed="#L" n="76"/>tet quod hoc sit. quia aliter est principium aliquorum
+      acti<lb ed="#L" n="77" break="no"/>uum et aliter aliorum. sed non potest dari talis differentia nisi 
+      <lb ed="#L" n="78"/>quia aliquos actus habet in sua potestate: et
+      ali<lb ed="#L" n="79" break="no"/>quos non. et ita intellectus ibi distinguitur a natu 
+      <lb ed="#L" n="80"/>ra respectu operationum respectu quarum
+      contingen<lb ed="#L" n="81" break="no"/>ter se habet
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e503">
+      ⁋ Preterea. ix. metha. distinguit 
+      <lb ed="#L" n="82"/>philosophus inter potentias rationales et irrationales. quia rati 
+      <lb ed="#L" n="83"/>nales valet ad opposita. Ex hoc arguo sic. omnis 
+      <lb ed="#L" n="84"/>potentia quae valet ad opposita contingenter agit. sed 
+      <lb ed="#L" n="85"/>potentia rationalis valet ad opposita. ergo contingente 
+      <lb ed="#L" n="86"/>agit: sed potentia rationalis et potentia libera secundum istos 
+      <lb ed="#L" n="87"/>idem sunt. Unde dicunt sic. Diuisio principii actiu 
+      <lb ed="#L" n="88"/>diuersis nonibus exprimitur. non solum apud di 
+      <lb ed="#L" n="89"/>uersos sec etiam apud aristotelem: vt patet in secundo 
+      <lb ed="#L" n="90"/>phi. vbi premissit secundum propositum: et non secundum propos 
+      <lb ed="#L" n="91"/>tum. subdit quod ab intellectu et natura. et in. ix. me 
+      <lb ed="#L" n="92"/>tha. rationales et irrationales potentie per ista. non 
+      <lb ed="#L" n="93"/>secundum propositum. et natura et potentiairrationalis
+      in<lb ed="#L" n="94" break="no"/>telligitur principium quod communiter dicimus naturam. per 
+      <lb ed="#L" n="95"/>alia tria intelligitur aliud principium actiuum in quo 
+      <lb ed="#L" n="96"/>concurrunt actus extrinseci intellectus et voluntas. 
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e538">
+               <lb ed="#L" n="97"/>⁋ Ex isto patet quod philosophus per secundum propositum: intellectum et 
+      <lb ed="#L" n="98"/>potentiam rationalem: intelligit principium liberum seu 
+      <lb ed="#L" n="99"/>principium actiuum distinctum contra principum actiuum 
+      <lb ed="#L" n="100"/>naturale. ergo respectu cuiuscumque aliquid est princi 
+      <lb ed="#L" n="101"/>pium actiuum. et respectu eiusdem non dicitur poten 
+      <lb ed="#L" n="102"/>tia rationalis actiua. respectu eiusdem dicetur 
+      <lb ed="#L" n="103"/>principium actiuum naturale. secundum quod principium 
+      <lb ed="#L" n="104"/>actiuum naturale distinguitur contra principium 
+      <lb ed="#L" n="105"/>actiuum liberum. sed omne principium actiuum re 
+      <lb ed="#L" n="106"/>spectu cuius necessario agit. respectu illius non 
+      <lb ed="#L" n="107"/>potest dici potentia rationalis. quia respectu illius non 
+      <lb ed="#L" n="108"/>potest dici potentia valens ad opposita. ideo
+      re<lb ed="#L" n="109" break="no"/>spectu illius dicetur naturale principium actiui 
+      <lb ed="#L" n="110"/>Et ita apud philosophos idem sunt principium actiuum 
+      <!--352.xml-->
+      <pb ed="#L" n="175-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>naturale: et principium actiuum necessarium seu ne 
+      <lb ed="#L" n="2"/>cessario. hoc patet per philosophum et commen. it. metha. 
+      <lb ed="#L" n="3"/>commen. ix. vbi philosophus distinguens inter potentias 
+      <lb ed="#L" n="4"/>rationales et irrationales. subdit. tales
+      quiden<lb ed="#L" n="5" break="no"/>potentias necesse est quando actiuum et passiuum
+      ap<lb ed="#L" n="6" break="no"/>propinquant. hoc quidem facere illud vero pati 
+      <lb ed="#L" n="7"/>illas vero non necesse. Ubi dicit commen. Poten 
+      <lb ed="#L" n="8"/>tie quae sunt sine ratione quando agens appropinquat 
+      <lb ed="#L" n="9"/>passo et non est illic aliquod impediens
+      extrin<lb ed="#L" n="10" break="no"/>secum. necesse est vt agens agat et patiens pa 
+      <lb ed="#L" n="11"/>tiatur et subdit. Alie vero potentie. scilicet que 
+      <lb ed="#L" n="12"/>sunt cum ratione non est necesse quando
+      appropin<lb ed="#L" n="13" break="no"/>quant suis agendis vt agant. Ex isto patet quod philosophus 
+      <lb ed="#L" n="14"/>et commen. non ponunt potentiam realem respectu ali 
+      <lb ed="#L" n="15"/>cuius actionis. nisi quam habet agens in sua
+      po<lb ed="#L" n="16" break="no"/>testate quod possit agere et non agere. ergo si idem sunt 
+      <lb ed="#L" n="17"/>potentia rationalis et libera: respectu nullius dicitur po 
+      <lb ed="#L" n="18"/>tentia libera nisi respectu cuius est indifferens 
+      <lb ed="#L" n="19"/>et contingenter se habet.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e619">
+      ⁋ Preterea hec videtur 
+      <lb ed="#L" n="20"/>esse intentio damas. in sententiis suis. c. xl. vbi 
+      <lb ed="#L" n="21"/>dicit: quod illa quae sunt in potestate nostra. si
+      facia<lb ed="#L" n="22" break="no"/>mus ea vel si non faciamus sunt obiecta liberi 
+      <lb ed="#L" n="23"/>arbitrii. ergo potentia non est libera respectu
+      ali<lb ed="#L" n="24" break="no"/>quorum nisi quai habet in sua potestate si faciat et 
+      <lb ed="#L" n="25"/>non faciat. Unde dicit damas. sic. ECorum quae fiunt 
+      <lb ed="#L" n="26"/>hec quidem sunt in nobis. hec autem non in nobis. 
+      <lb ed="#L" n="27"/>In nobis quidem sunt quae nos sumus liberi
+      arbi<lb ed="#L" n="28" break="no"/>trii facere et non facere. hoc est opera quae per nos
+      vo<lb ed="#L" n="29" break="no"/>luntarie aguntur. et sequitur. et simpliciter
+      supple<lb ed="#L" n="30" break="no"/>sunt in nobis quae sequitur laus vel vituperatio et 
+      <lb ed="#L" n="31"/>lex. Principaliter autem et in nobis sunt illa opera 
+      <lb ed="#L" n="32"/>de quibus cosiliamur. consilium autem est eorum quae pari 
+      <lb ed="#L" n="33"/>ter contingunt. Ex isto patet quod illa dicuntur esse in 
+      <lb ed="#L" n="34"/>nobis quae sunt in nostra potestate. sed respectu ta 
+      <lb ed="#L" n="35"/>lium est indteara. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e656">
+      ⁋ Preterea omnem actionem li 
+      <lb ed="#L" n="36"/>beram consequitur laus vel vituperium. sed solam operatio 
+      <lb ed="#L" n="37"/>nem elicitam contingenter consequitur laus vel
+      vitu<lb ed="#L" n="38" break="no"/>perium. igitur sola dicetur libere elicita.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e665">
+      ⁋ Contra se 
+      <lb ed="#L" n="39"/>cundum primo quod dicitur quod voluntas non potest esse agens 
+      <lb ed="#L" n="40"/>omnino primum videtur esse falsum. quia secundum beatum 
+      <lb ed="#L" n="41"/>augustinum voluntas diuina est prima causa omnium 
+      <lb ed="#L" n="42"/>Similiter probatum est prius: quod voluntas diuina et intel 
+      <lb ed="#L" n="43"/>lectus et essentia diuina nullo modo distinguum 
+      <lb ed="#L" n="44"/>tur. ergo si deus est agens primum: voluntas erit agens 
+      <lb ed="#L" n="45"/>primum.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e683">
+      ⁋ Preterea quod dicitur: quod aliter determinatur 
+      <lb ed="#L" n="46"/>graue ad descensum et voluntas aliter ad hoc vel 
+      <lb ed="#L" n="47"/>le si necessario velit non est verum. quia quandocunque sunt 
+      <lb ed="#L" n="48"/>duo actiua necessaria respectu actuum suorum quae 
+      <lb ed="#L" n="49"/>omnino vniformiter a suis causis producuntur et 
+      <lb ed="#L" n="50"/>dependent. et ab eisdem causis etiam vniformiter de 
+      <lb ed="#L" n="51"/>pedent actus illorum principiorum necessariorum actiuo 
+      <lb ed="#L" n="52"/>rum: non aliter determinatur vnum illorum principiorum
+      a<lb ed="#L" n="53" break="no"/>ctiuorum ad suum actum quam reliquum ad suum. si enim aliter 
+      <lb ed="#L" n="54"/>determinaretur vnum quam reliquum: eque faciliter dicere 
+      <lb ed="#L" n="55"/>tur quod aliter determinatur calor ad calefaciendum: et 
+      <!--352.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 175-r -->
+               <lb ed="#L" n="56"/>sol ad illuminandum. et ita eque saluaretur
+      liber<lb ed="#L" n="57" break="no"/>tas in sole respectu illuminationis. et non in ea 
+      <lb ed="#L" n="58"/>lore respectu calefactionis sicut saluatur libertas 
+      <lb ed="#L" n="59"/>in voluntate respectu illius actus necessario
+      elici<lb ed="#L" n="60" break="no"/>ti et in graui respectu descensus necessario eli 
+      <lb ed="#L" n="61"/>citi: sed graue si causetur a solo deo. sicut possibile 
+      <lb ed="#L" n="62"/>est. equaliter dependet a deo sicut voluntas. quia 
+      <lb ed="#L" n="63"/>neutrius est causa naturalis sed libera. Similiter
+      vni<lb ed="#L" n="64" break="no"/>formiter dependet descensus grauis a deo a ta 
+      <lb ed="#L" n="65"/>lis voluntatis. quia deus neutrius est causa natura 
+      <lb ed="#L" n="66"/>lis sed libera. Similiter non plus oportet quod deus sit causa
+      im<lb ed="#L" n="67" break="no"/>mediata et partialis vnius quam alterius: nec aliter de 
+      <lb ed="#L" n="68"/>pendet vnus actus a deo quam potest alius dependere. ergo ex 
+      <lb ed="#L" n="69"/>parte actuum in comparatione ad deum vel ad aliam cau 
+      <lb ed="#L" n="70"/>sam quancumque: non est diuersitas. ergo diuersitas est ex 
+      <lb ed="#L" n="71"/>parte illorum principiorum actiuorum immediatorum. sed
+      di<lb ed="#L" n="72" break="no"/>uersitas nature non sufficit. quia talis diuersitas 
+      <lb ed="#L" n="73"/>nature potest reperiri inter solem et ignem. ergo requiritur
+      di<lb ed="#L" n="74" break="no"/>uersitas ex ea parte. quia vnum habet actum in sua po 
+      <lb ed="#L" n="75"/>testate et aliud non.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e758">
+      ⁋ Ideo dico ad istam
+      quaestio<lb ed="#L" n="76" break="no"/>nem quod proprie accipiendo libertatem quod non aliter pro 
+      <lb ed="#L" n="77"/>ducitur libere spiritus sanctus quam filius. quia illud proprie 
+      <lb ed="#L" n="78"/>fit libere quod fit sponte. Unde libertas et spon 
+      <lb ed="#L" n="79"/>taneitas videntur non posse distingui. et ideo sicut 
+      <lb ed="#L" n="80"/>non debet concedi quod pater sponte producit
+      spiri<lb ed="#L" n="81" break="no"/>tumsanctum. ita non est concedendum quod libere 
+      <lb ed="#L" n="82"/>producit spiritumsanctum. Ueruntamen ista respon 
+      <lb ed="#L" n="83"/>sio per rationem probari non potest. quia hoc esset probare
+      signi<lb ed="#L" n="84" break="no"/>ficatum vocabuli. manifestum est enim quod omnes concedunt 
+      <lb ed="#L" n="85"/>quod spiritus sanctus producitur necessario. et quod producitur 
+      <lb ed="#L" n="86"/>aliquo modo mediante voluntate. vel salte eius
+      pro<lb ed="#L" n="87" break="no"/>ductio aliquo modo pertinet ad voluntatem.
+      qua<lb ed="#L" n="88" break="no"/>liter tamen hoc sit intelligendum prius patet. Et ideo
+      di<lb ed="#L" n="89" break="no"/>cendo quod significatum libertatis est omne illud quod 
+      <lb ed="#L" n="90"/>producitur quocumque modo mediante voluntate
+      si<lb ed="#L" n="91" break="no"/>ue necessario siue contingenter. concedendum est: quod 
+      <lb ed="#L" n="92"/>spiritus sanctus producitur libere. Eodem momodo si liberum 
+      <lb ed="#L" n="93"/>sit idem omnino quod voluntarium. tunc si voluntas
+      cre<lb ed="#L" n="94" break="no"/>ata aliquid faceret necessario: adhuc esset
+      conceden<lb ed="#L" n="95" break="no"/>dum quod faceret libere. quia voluntarie et tamen
+      necessa<lb ed="#L" n="96" break="no"/>rio Si autem intelligatur quod liberum sit idem quod
+      contin<lb ed="#L" n="97" break="no"/>gens vel indifferens sicut mihi videtur esse de intentione autorum 
+      <lb ed="#L" n="98"/>sic dico quod si voluntas aliquid velit necessario: non 
+      <lb ed="#L" n="99"/>vult illud libere. et ideo spiritus sanctus non producitur
+      li<lb ed="#L" n="100" break="no"/>bere sicut non contingenter. et isto modo libertas non 
+      <lb ed="#L" n="101"/>stat cum necessitate respectu eiusdem. sed quicquid
+      ne<lb ed="#L" n="102" break="no"/>essario producitur non libere producitur nec video 
+      <lb ed="#L" n="103"/>quin libertas quae non excludit necessitatem ita
+      pos<lb ed="#L" n="104" break="no"/>sit competere intellectui respectu saltem alicuius
+      a<lb ed="#L" n="105" break="no"/>ctus intelligendi. sicut voluntati respectu actus
+      ne<lb ed="#L" n="106" break="no"/>cessario eliciti. et ideo non video quod deus magis libere 
+      <lb ed="#L" n="107"/>diligat essentiam suam quam intelligit essentia suam.
+      ni<lb ed="#L" n="108" break="no"/>si aliter imponendo vocabula ad significandum
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e832">
+      ⁋ Ad  
+      <lb ed="#L" n="109"/>primum alterius opinionis dico quod a tali voluntate quae e 
+      <lb ed="#L" n="110"/>male agere non potest non est neganda libertas quin sit 
+      <!--353.xml-->
+      <pb ed="#L" n="175-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>simpliciter libera quamuis illum actum non eliciat
+      li<lb ed="#L" n="2" break="no"/>bere quem elicit necessario. et ita eius libertas non 
+      <lb ed="#L" n="3"/>minuitur: quamuis talem actum non eliciat pro tunc Unde 
+      <lb ed="#L" n="4"/>non intendunt sancti quod voluntas respectu illius actus 
+      <lb ed="#L" n="5"/>quem necessario habet libere operetur. sed quod simpliciter 
+      <lb ed="#L" n="6"/>est libera et liberius quam prius. quia minus potest quantum 
+      <lb ed="#L" n="7"/>ad actus multos imperatos impediria causis
+      ex<lb ed="#L" n="8" break="no"/>trinsecis per talem confirmationem in bono quam ante. 
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e863">
+               <lb ed="#L" n="9"/>⁋ hoc potest confirmari per vnam congruentiam et per au 
+      <lb ed="#L" n="10"/>ctoritatem. Per congruentiam. quia eadem voluntas
+      ha<lb ed="#L" n="11" break="no"/>bens primo in sua potestate actus contrarios. scilicet 
+      <lb ed="#L" n="12"/>bonum et malum si postea firmetur in vno illorum. non 
+      <lb ed="#L" n="13"/>magis diceretur liberior respectu illius: quam dicere 
+      <lb ed="#L" n="14"/>tur liberior respectu alterius si firmetur in alio com 
+      <lb ed="#L" n="15"/>trario. sed voluntas damnati firmatur in aliquo
+      ma<lb ed="#L" n="16" break="no"/>lo. et tamen propter talem firmationem non est liberior 
+      <lb ed="#L" n="17"/>respectu illius actus quam ante. ergo quando bonus firmatis 
+      <lb ed="#L" n="18"/>in aliquo bono quod necessario habet: non dicetur 
+      <lb ed="#L" n="19"/>liberior respectu illius actus. ergo intelligunt sancti 
+      <lb ed="#L" n="20"/>quod sit liberior voluntas beati qui peccare non potest. 
+      <lb ed="#L" n="21"/>qui ad actus importatos indecentes et non
+      exper<lb ed="#L" n="22" break="no"/>dientes ei minus cogi potest quam prius: immo nullo modo 
+      <lb ed="#L" n="23"/>potest cogi. ad quos tamen ante saltem ad multos
+      co<lb ed="#L" n="24" break="no"/>gi potuit
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e900">
+      ⁋ Secundo per auctoritas Augustini. v. de
+      ci<lb ed="#L" n="25" break="no"/>uitate dei. ca. x.t vbi vult: quod sicut non minus
+      di<lb ed="#L" n="26" break="no"/>citur deus omnipotens quamuis non possit mori nec 
+      <lb ed="#L" n="27"/>falli: ita non minus dicitur voluntas libera: quam 
+      <lb ed="#L" n="28"/>uis necesse sit eam velle quod vult. ergo non minus potest 
+      <lb ed="#L" n="29"/>dici libera quamuis velit hoc necessario. dum tamen
+      pro<lb ed="#L" n="30" break="no"/>pter hoc minus possit ad alia cogi. non dico ad  
+      <lb ed="#L" n="31"/>actus elicitos. sed ad actus imperatos bene
+      co<lb ed="#L" n="32" break="no"/>gitur homo. non sunt tunc imperati.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e920">
+      ⁋ Per idem 
+      <lb ed="#L" n="33"/>ac ansel. dico: quod non intelligit quod libere velit
+      il<lb ed="#L" n="34" break="no"/>lud quod necessario vult. sed quod voluntas quae a
+      recti<lb ed="#L" n="35" break="no"/>tudine declinare nequit est liberior. quia iam non potest 
+      <lb ed="#L" n="36"/>seruire peccato. et ita a seruitute quae opponitur
+      li<lb ed="#L" n="37" break="no"/>bertati est liberior. et ideo eoipso quod a seruitute 
+      <lb ed="#L" n="38"/>peccati est liberior. est etiam a coactione quantum 
+      <lb ed="#L" n="39"/>ad actus alios ab actibus volendi et nolendi
+      li<lb ed="#L" n="40" break="no"/>berior. et propter hoc posse peccare nec est liber 
+      <lb ed="#L" n="41"/>tas nec pars libertatis. sed magis minuit liber 
+      <lb ed="#L" n="42"/>tatem. non tamen minuit libertatem a coactione quantum 
+      <lb ed="#L" n="43"/>ad actus intrinsecos volendi et nolendi. ergo
+      mi<lb ed="#L" n="44" break="no"/>nuit aliam libertatem de qua loquitur ansel. ibidem 
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e949">
+               <lb ed="#L" n="45"/>⁋ Si dicatur quod potestas peccandi non minuit 
+      <lb ed="#L" n="46"/>nec auget libertatem. Contra hoc est expresse
+      an<lb ed="#L" n="47" break="no"/>selmus ibidem dicens sic. potestas peccandi quae 
+      <lb ed="#L" n="48"/>addita voluntati eius minuit libertatem et si dema 
+      <lb ed="#L" n="49"/>tur auget. nec est libertas nec parslibertatis 
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e963">
+               <lb ed="#L" n="50"/>⁋ Ex isto sequitur quod libertas voluntatis
+      secun<lb ed="#L" n="51" break="no"/>dum modum loquendi ansel. potest minui et tamen nec 
+      <lb ed="#L" n="52"/>conditio voluntarii nec voluntas ipsa potest minui 
+      <lb ed="#L" n="53"/>sicut nec potest augeri. ergo intelligit de alia
+      liber<lb ed="#L" n="54" break="no"/>tate quam de illa qua voluntas quicquid vult
+      volun<lb ed="#L" n="55" break="no"/>tarie vult. et ita non est auctoritas ad oppositum 
+      <!--353.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 175-v -->
+            </p>
+            <p xml:id="wo8uy7-d1e846-d1e985">
+               <lb ed="#L" n="56"/>⁋ Ad aliud dico quod voluntas diuina necessa 
+      <lb ed="#L" n="57"/>rio vult bonitatem suam non tamen libere sed ita natura 
+      <lb ed="#L" n="58"/>liter sicut naturaliter intelligit bonitatem suam¬ 
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e994">
+               <lb ed="#L" n="59"/>⁋ Ad probationem dico quod innuit ymaginationem 
+      <lb ed="#L" n="60"/>alsam. scilicet quod potentia volitiua operatur circa di 
+      <lb ed="#L" n="61"/>uinam essentiam quasi eliciendo aliquam volitionem 
+      <lb ed="#L" n="62"/>quocunque modo distinctam ex natura rei ab illa 
+      <lb ed="#L" n="63"/>voluntate. hoc enim est simpliciter falsum. hoc tamen 
+      <lb ed="#L" n="64"/>posito argumentum non valet. quia non sequitur: eadem 
+      <lb ed="#L" n="65"/>potentia et sub ratione eiusdem potentie operatur cir 
+      <lb ed="#L" n="66"/>ca hoc et circa illud. ergo si libere operatur circa hoc 
+      <lb ed="#L" n="67"/>operatur circa illud. sicut non sequitur. eadem poten 
+      <lb ed="#L" n="68"/>tia operatur circa hoc et circa illud. et operatur 
+      <lb ed="#L" n="69"/>circa hoc necessario. ergo operatur circa illud neces 
+      <lb ed="#L" n="70"/>sario. Unde sicut isti negant istam secundam consequentiam 
+      <lb ed="#L" n="71"/>ita nego ego primam.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e1025">
+      ⁋ Ad aliud dico quod necessi 
+      <lb ed="#L" n="72"/>tas non tollit perfectionem. et ideo non tollit
+      li<lb ed="#L" n="73" break="no"/>bertatem: quamuis repugnet libertati respectu eius 
+      <lb ed="#L" n="74"/>respectu cuius est necessitas. Unde illa ratio 
+      <lb ed="#L" n="75"/>et sequens procedunt ex falsa ymaginatione. yma 
+      <lb ed="#L" n="76"/>ginantur enim ac si libertas esset vnum aliquid re 
+      <lb ed="#L" n="77"/>ale distinctum aliquo modo ex natura rei a
+      vo<lb ed="#L" n="78" break="no"/>luntate vel non omnino idem cum voluntate: quod tamen non 
+      <lb ed="#L" n="79"/>est verum. sed est vnum nomen connotatiuum
+      impor<lb ed="#L" n="80" break="no"/>tans ipsam voluntatem vel naturam
+      intellectua<lb ed="#L" n="81" break="no"/>lem connotando aliquid contingenter posse 
+      <lb ed="#L" n="82"/>fieri ab eadem. et ideo repugnat essentie diuine
+      re<lb ed="#L" n="83" break="no"/>spectu suiipsius. hoc est. impossibile est quod vere 
+      <lb ed="#L" n="84"/>predicetur de essentia vel voluntate respectu 
+      <lb ed="#L" n="85"/>suiipsius sic dicendo. scilicet voluntas libere vult se 
+      <lb ed="#L" n="86"/>vel essentiam diuinam.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e1060">
+      ⁋ Per hoc ad vltimum 
+      <lb ed="#L" n="87"/>dico: quod non est sic conditio intrinseca potentie 
+      <lb ed="#L" n="88"/>sed est vnum nomen vel conceptus quod non 
+      <lb ed="#L" n="89"/>potest verificari de natura nisi sit perfecta. et hoc  
+      <lb ed="#L" n="90"/>in ordine ad aliud. non ad quodcumque sed in
+      or<lb ed="#L" n="91" break="no"/>dine ad illud respectu cuius contingenter se ha 
+      <lb ed="#L" n="92"/>bet.
+    </p>
+            <p xml:id="wo8uy7-d1e846-d1e1076">
+      ⁋ Ad argumentum principale concedo quod 
+      <lb ed="#L" n="93"/>voluntas est potentia libera. non tamen respectu 
+      <lb ed="#L" n="94"/>cuiuscumque. sed respectu illius ad quod contingenter 
+      <lb ed="#L" n="95"/>se habet.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

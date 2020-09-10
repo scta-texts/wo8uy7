@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="263-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1718"><!-- l1d40q1 -->
+            <head xml:id="wo8uy7-d1e1718-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1718-d1e111">
+      Dist. xl. Questio vnica. 
+      <lb ed="#L" n="77"/>Irca
+      distin<lb ed="#L" n="78" break="no"/>ctione quadragesimam quaero. 
+      <lb ed="#L" n="79"/>Utrum possibile est aliquem per 
+      <lb ed="#L" n="80"/>destinatum damnari. et
+      praesci<lb ed="#L" n="81" break="no"/>tum saluari
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e124">
+      ⁋ Quod non. quia quando 
+      <lb ed="#L" n="82"/>aliqua opposita sic se habent quod 
+      <lb ed="#L" n="83"/>impossibile est vnum succedere alteri. si vnum inem im 
+      <lb ed="#L" n="84"/>possibile est alterum inesse. sicut quia habitus non potest suc 
+      <lb ed="#L" n="85"/>cedere priuationi. si priuatio inem impossibile est
+      habi<lb ed="#L" n="86" break="no"/>tum inesse. sed esse praedestinatum et damnari sunt huiusmodi. ergo
+      in<lb ed="#L" n="87" break="no"/>possibile est quod damnari succedat illi quod est esse praede ¬t 
+      <lb ed="#L" n="88"/>stinatum. ergo si aliquis est praedestinatus impossibile est quod 
+      <lb ed="#L" n="89"/>damnetur. Eodem modo modo potest argui de praescito. quia impossi 
+      <lb ed="#L" n="90"/>bile est quod saluari succedat illi quod est praescitum esse. ergo 
+      <lb ed="#L" n="91"/>etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e148">
+      ⁋ Ad oppositum. nullus saluabitur neccessario. ergo qua 
+      <lb ed="#L" n="92"/>libet saluabitur contingenter. ergo potest non saluari. et per consequens 
+      <lb ed="#L" n="93"/>potest damnari. Et eodem modo de praescito.
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e155">
+      ⁋ Circa istam 
+      <lb ed="#L" n="94"/>questionem primo videndum est de re. secundo de logica¬ 
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e161">
+               <lb ed="#L" n="95"/>⁋ Circa primum tenendum est quod quaecumque est praedestinatus est 
+      <lb ed="#L" n="96"/>contingenter praedestinatus. ita quod potest non praedestinari. 
+      <lb ed="#L" n="97"/>et per consequens potest damnari. quia potest non saluari. hoc patet 
+      <lb ed="#L" n="98"/>qui cuiuslibet saluatio dependet a voluntate
+      di<lb ed="#L" n="99" break="no"/>uina contingentur causante. ergo in ptante dei est con 
+      <lb ed="#L" n="100"/>ferre cuicumque vitam eternam vel non conferre. ergo quaecum 
+      <lb ed="#L" n="101"/>que potest non saluari.
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e179">
+      ⁋ Preterea nulli adulto con 
+      <lb ed="#L" n="102"/>fertur vita eterna nisi propter aliquod opus merito 
+      <lb ed="#L" n="103"/>rium. sed omne opus meritorium est in potestate
+      me<lb ed="#L" n="104" break="no"/>rentis. ergo talis potest non mereri. et per consequens potest non 
+      <lb ed="#L" n="105"/>saluari. Et eodem modo est de prescito quia nullus 
+      <lb ed="#L" n="106"/>damnatur pena perpetua. et hoc pena sensus nisi pro 
+      <lb ed="#L" n="107"/>pter suum demeritum. sed omne demeritum est 
+      <lb ed="#L" n="108"/>in potestate demerentis. ergo potest non
+      deme<lb ed="#L" n="109" break="no"/>reri. et per consequens potest non damnari. 
+      <!--529.xml-->
+      <pb ed="#L" n="263-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et per consequens potest saluari.
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e208">
+      ⁋ Et si arguatur contra 
+      <lb ed="#L" n="2"/>istud quod omne immutabile est neccessarium. sed praedestinatio 
+      <lb ed="#L" n="3"/>diuina est immutabilis. ergo est necessaria. et per consequens qua 
+      <lb ed="#L" n="4"/>cumque praedestinatur necessario praedestinatur. et vltra eg 
+      <lb ed="#L" n="5"/>non poest non praedestinari. et per consequens non potest damnari 
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e219">
+               <lb ed="#L" n="6"/>⁋ Dicedum est quod omne immutabile reale est necessa 
+      <lb ed="#L" n="7"/>riu. sed loquendo de immutabili complexo eo modo quo 
+      <lb ed="#L" n="8"/>potest aliquod complexum mutari a veritate in
+      falsita<lb ed="#L" n="9" break="no"/>tem et econuerso. et aliquod complexum non potest mutari 
+      <lb ed="#L" n="10"/>Sic dicendum est quod non omne immutabile est necessarium 
+      <lb ed="#L" n="11"/>qui est aliquod complexum quod non potest esse primo: verum. et 
+      <lb ed="#L" n="12"/>postea fecultum nec econuerso. et tamen non est necessarium sed 
+      <lb ed="#L" n="13"/>contigens. et causa est quia quantumcumque sit vel fuerit verum
+      pos<lb ed="#L" n="14" break="no"/>sibile est quod non sit verum et quod numquam fuerit verum. sicut hoc 
+      <lb ed="#L" n="15"/>est vera. deus scit quod iste saluabitur. et deus sciuit quod 
+      <lb ed="#L" n="16"/>iste saluabitur. et tamen possibile est quod numquam sciuerit quod 
+      <lb ed="#L" n="17"/>iste saluabitur. Et impossibile est quod hoc sit primo vera. 
+      <lb ed="#L" n="18"/>iste saluabitur. et post sit falsa vel econuerso. et per 
+      <lb ed="#L" n="19"/>consequens est illo modo immutabilis. et tamen non est necessaria sed 
+      <lb ed="#L" n="20"/>simpliciter contingens.
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e254">
+      ⁋ Quantum ad secundum de
+      logica<lb ed="#L" n="21" break="no"/>Dico quod quamuis nec ista propositio. praedestinatus potest
+      dam<lb ed="#L" n="22" break="no"/>nari. nec ista. praescitus potest saluari. sit distinguenda 
+      <lb ed="#L" n="23"/>secundum compositionem et diuisionem. quia non possunt fieri
+      di<lb ed="#L" n="24" break="no"/>uerse punctuationes retentis eisdem dictionibus et 
+      <lb ed="#L" n="25"/>eodem ordine dictionum. ex quibus possunt diuersi
+      sen<lb ed="#L" n="26" break="no"/>sus generari. sed tales sunt simpliciter vere. tamen tales
+      propositio<lb ed="#L" n="27" break="no"/>nes. possibile est praedestinatum damnari. et possibile 
+      <lb ed="#L" n="28"/>est praescitum saluari. sunt distinguende secundum compositio 
+      <lb ed="#L" n="29"/>ne et diuisionem. et in sensu composito sunt simpliciter fmle 
+      <lb ed="#L" n="30"/>quia talis sensus exprimitur per istam propositionem. hoc est possibil 
+      <lb ed="#L" n="31"/>praedestinatus est damnatus. In sensu diuiso non
+      deno<lb ed="#L" n="32" break="no"/>tatur nisi quod praedicatum possibiliter inem illi pro quo sup 
+      <lb ed="#L" n="33"/>ponit subiectum. pro quo tamen potest numquam supposuisse 
+      <lb ed="#L" n="34"/>et hoc est verum. quia an beatitudinem subiectum istius
+      propositio<lb ed="#L" n="35" break="no"/>nis. aliquas praedestinatus potest damnari supponit pro pe 
+      <lb ed="#L" n="36"/>tro. et de petro fuit verum dicere quod petrus potest
+      dam<lb ed="#L" n="37" break="no"/>nari. tamen quantumcumque hoc praedicatum praedestinatus
+      suppo<lb ed="#L" n="38" break="no"/>nat pro petro. potuit tamen nunquam supponere pro
+      pe<lb ed="#L" n="39" break="no"/>tro. et ideo non possunt iste due propositiones. petrus est
+      praedesti<lb ed="#L" n="40" break="no"/>natus. perrus damnatur successiue verificari
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e300">
+      ⁋ Ex 
+      <lb ed="#L" n="41"/>istis patet solutio. q. quod hoc sit distinguenda secundum
+      compo<lb ed="#L" n="42" break="no"/>sitione et diuisione. possibile est praedenstinatum
+      sal<lb ed="#L" n="43" break="no"/>luari
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e310">
+      ⁋ Ad primum principale dico quod de talibus op 
+      <lb ed="#L" n="44"/>positis qua respiciunt futura contigentia. non est verum 
+      <lb ed="#L" n="45"/>quod si vnum inem impossibile est aliud inesse. quantumcumque 
+      <lb ed="#L" n="46"/>vnum non possit alteri succedere. sed in creaturis no 
+      <lb ed="#L" n="47"/>potest simile inueniri. et isto modo est de istis oppositum. pote 
+      <lb ed="#L" n="48"/>destinari. damnari. praesciri. saluari
+    </p>
+            <p xml:id="wo8uy7-d1e1718-d1e323">
+      ⁋ Et si quaeratu 
+      <lb ed="#L" n="49"/>iuxta praedicta an sit possibile numerum praedestinatorum 
+      <lb ed="#L" n="50"/>augeri vel minui. et eodem modo de numero praescitorum. 
+      <lb ed="#L" n="51"/>potest dici quod in sensu composito vtraque est falsa. nam hoc 
+      <lb ed="#L" n="52"/>est impossibilis numerus praedestinatorum est auctus Tunc 
+      <lb ed="#L" n="53"/>enim significatur quod numerus praedestinatorum est primo 
+      <lb ed="#L" n="54"/>minor et postea maior. et hoc est impossibile. quia succes 
+      <lb ed="#L" n="55"/>siua verificatio talium oppositorum nullo modo potest 
+      <!--529.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 263-v -->
+               <lb ed="#L" n="56"/>poni. Et eodem modo est de ista. possibile est numerum prm 
+      <lb ed="#L" n="57"/>destinatorum minui. et sic vniformiter est de alia
+      di<lb ed="#L" n="58" break="no"/>cendum. Sed in sensu diuiso potest concedi. quia tunc non 
+      <lb ed="#L" n="59"/>denotatur plus nisi quod praeter illos quae nunc sunt
+      praedesti<lb ed="#L" n="60" break="no"/>nati posset aliquis saluari. tamen ex hoc ipso quod ponetur 
+      <lb ed="#L" n="61"/>ille saluari concedendum esset quod fuit ab etno de nu 
+      <lb ed="#L" n="62"/>mero praedestinatorum. et quod iste non fuerit numerus sed 
+      <lb ed="#L" n="63"/>alius. sicut ex hoc ipso quod vnum ponitur. quodlibet sibi 
+      <lb ed="#L" n="64"/>repugnans est negandum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

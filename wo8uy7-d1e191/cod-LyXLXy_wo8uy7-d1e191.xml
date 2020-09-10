@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="56-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e191"><!-- l1prolq11 -->
+            <head xml:id="wo8uy7-d1e191-Hd1e108">Quaestio 11</head>
+            <p xml:id="wo8uy7-d1e191-d1e111">
+               <lb ed="#L" n="107"/>Deinde quero utrum 
+      <lb ed="#L" n="108"/>notitia practica et speculatiua distinguuntur 
+      <lb ed="#L" n="109"/>per fines an per obiecta. Quod per fines probatur. quia secundo 
+      <!--116.xml-->
+      <pb ed="#L" n="57-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>methaphisice. Finis speculatiue veritas. pra 
+      <lb ed="#L" n="2"/>ctice autem opus. ergo etc. Contra Auicenna est metha 
+      <lb ed="#L" n="3"/>phisice dicit quod scientie practice sunt de operibus 
+      <lb ed="#L" n="4"/>nostris non autem speculatiue.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e135">
+      ⁋ Ad istam quaestionem 
+      <lb ed="#L" n="5"/>dicunt aliqui quod scientia speculatiua et practica
+      di<lb ed="#L" n="6" break="no"/>stinguuntur penes fines suos. Distinguitur tamen de 
+      <lb ed="#L" n="7"/>fine. quia quidam est finis scientie. et quidam scientis. 
+      <lb ed="#L" n="8"/>ffinis scientie est ille ad quem ordinatur scientia. 
+      <lb ed="#L" n="9"/>finis scientis est ille ad que sciens ordinat sci 
+      <lb ed="#L" n="10"/>entiam. Similiter finis scientie est duplex scilicet per se 
+      <lb ed="#L" n="11"/>et per accidens. principalis et secundarius. setinis 
+      <lb ed="#L" n="12"/>per se scientie est ad quem ex natura sua habet ordina 
+      <lb ed="#L" n="13"/>ri. Einis per accidens scientie siue non principalis 
+      <lb ed="#L" n="14"/>est ille ad quem non ordinatur per se. sed potest
+      or<lb ed="#L" n="15" break="no"/>dinari ex intentione scientis. A fine scientis quem 
+      <lb ed="#L" n="16"/>scilicet ipse sciens intendit. non dicitur scientia nec speculati 
+      <lb ed="#L" n="17"/>ua nec practica. sed a fine scientie per se et
+      principa<lb ed="#L" n="18" break="no"/>li: et non a fine non principali dicitur scientia
+      specula<lb ed="#L" n="19" break="no"/>tiua vel practica. quia illa scientia que ex se ordi 
+      <lb ed="#L" n="20"/>natur ad cognitionem veri est speculatiua. illa quae 
+      <lb ed="#L" n="21"/>ordinatur ad operationem boni est practica.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e174">
+      ⁋
+      Di<lb ed="#L" n="22" break="no"/>titur igitur quod scientia practica distinguitur a
+      specu<lb ed="#L" n="23" break="no"/>latiua penes finem scientie per se et principalem. 
+      <lb ed="#L" n="24"/>quia finis practiee est opus. sefinis autem specula 
+      <lb ed="#L" n="25"/>tiue est veritas. hoc probatur. quia vnusquisque effectus 
+      <lb ed="#L" n="26"/>distinguitur per suam causam nobiliorem: sed inter omns 
+      <lb ed="#L" n="27"/>causas. causa finalis est nobilissima cum sit car 
+      <lb ed="#L" n="28"/>sa causarum secundum auicenuam. ergo notitia practica 
+      <lb ed="#L" n="29"/>habet distingui ab alia penes finem snum.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e194">
+      ⁋
+      Pre<lb ed="#L" n="30" break="no"/>terea vna scientia distinguitur ab alia. vel per
+      sub<lb ed="#L" n="31" break="no"/>iectum vel per finem. sed notitia practica non
+      dist<lb ed="#L" n="32" break="no"/>guitur a speculatiua per subiectum. quia de eodem sul 
+      <lb ed="#L" n="33"/>iecto possunt esse et scientia speculatiua et pract 
+      <lb ed="#L" n="34"/>ca. ergo penes fines.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e208">
+      ⁋ Preterea sicut principit 
+      <lb ed="#L" n="35"/>tinim speculabilibus. ita finis in operabilibus. ii. ph 
+      <lb ed="#L" n="36"/>sicorum. sed scientia speculatiua distinguitur ab alia per 
+      <lb ed="#L" n="37"/>sua principia. ergo etc. hoc patet per philosophum ii
+      me<lb ed="#L" n="38" break="no"/>taphisice. et iii. de anima. Ubi dicit. Differt autem  
+      <lb ed="#L" n="39"/>speculatiua fine. Similiter dicit intellectus qui propter 
+      <lb ed="#L" n="40"/>aliquid ratiocinatur practicus est. Contra istam 
+      <lb ed="#L" n="41"/>opinionem ostendo quod practica non distinguitur a spe 
+      <lb ed="#L" n="42"/>culatiua fine id est per causam finalem. ita scilicet quod habeat 
+      <lb ed="#L" n="43"/>distinctam causam finalem a causa finali speculatiue: sed 
+      <lb ed="#L" n="44"/>idem simpliciter potest esse causa fiualis vtriusque. hoc probo. prim 
+      <lb ed="#L" n="45"/>mo sic. idem est finis scientie et scientis: sed idem potest esse fi 
+      <lb ed="#L" n="46"/>nis scientur propter quem acquirit scientiam tam speculatiuam quam 
+      <lb ed="#L" n="47"/>practica. ergo etc. minor patet. quia idem est finis agentum 
+      <lb ed="#L" n="48"/>hoc est intentus ab agente. et actionis sue seu forme 
+      <lb ed="#L" n="49"/>facte. quia omnis finis cuiuscumque actionis est finis in 
+      <lb ed="#L" n="50"/>tentus ab isto. agente. aut superiore dirigente illud  
+      <lb ed="#L" n="51"/>agens inferius sicut in naturalibus idem est finis
+      agen<lb ed="#L" n="52" break="no"/>tium inferiorum et itelligentie dirigentis. et a
+      quocu<lb ed="#L" n="53" break="no"/>que intendatur. sequitur quod idem sit finis agentis. hoc est 
+      <lb ed="#L" n="54"/>intentus ab agente et actionis sue.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e254">
+      ⁋ Preterea finis 
+      <lb ed="#L" n="55"/>numquam respicit formam nec materiam nisi mediante 
+      <!--116.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 57-r -->
+               <lb ed="#L" n="56"/>agente: inquantum. scilicet mouet efficiens ad agendum. hod 
+      <lb ed="#L" n="57"/>est inquantum intenditur ab agente: ergo non est causa finalis 
+      <lb ed="#L" n="58"/>nisi quia intenditur ab agente: ergo idem est finis agentir scilicet 
+      <lb ed="#L" n="59"/>intentus et forme.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e274">
+      ⁋ Proptrea illud non est causa
+      essen<lb ed="#L" n="60" break="no"/>tialis alicuius rei a quo non dependet. nec in esse 
+      <lb ed="#L" n="61"/>nec in fieri. sed a tali quod non mouet efficiens ad
+      agen<lb ed="#L" n="62" break="no"/>dum non dependet res quocumque modo. Quod non in esse 
+      <lb ed="#L" n="63"/>patet: quia sine illo est res in rerum natura. quod non in fic 
+      <lb ed="#L" n="64"/>ri. patet quia nihilominus erit res.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e287">
+      ⁋ Propterea illud a 
+      <lb ed="#L" n="65"/>quo res dependet essentialiter: ita quod sine illo res 
+      <lb ed="#L" n="66"/>non haberet esse reale. videtur esse causa essentialis 
+      <lb ed="#L" n="67"/>illius rei. sed a fine scientur dependet ipsa scientia realiter et 
+      <lb ed="#L" n="68"/>essentialiter: quia sine illo simplicitur non foret. sicut
+      po<lb ed="#L" n="69" break="no"/>natur: quod aliquis non addisceret scientiam speculatiuam 
+      <lb ed="#L" n="70"/>nisi propter lucrum: vel propter aliquid tale: nisi ille tunc 
+      <lb ed="#L" n="71"/>hoc intenderet. simplicitur nihil foret illa scientia: ergo 
+      <lb ed="#L" n="72"/>illud habet rationem cause: et non nisi rationem cause
+      fina<lb ed="#L" n="73" break="no"/>etc.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e309">
+      ⁋ Propterea per quod contingit respondere ad quam 
+      <lb ed="#L" n="74"/>stionem factam propter quid habet rationem cause finalis: sed per 
+      <lb ed="#L" n="75"/>finem scientis contigit respondere ad quaestionem factam 
+      <lb ed="#L" n="76"/>propter quid. sicut si quaeratur propter quid est ista scientia. contingis 
+      <lb ed="#L" n="77"/>respondere per finem scienter. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e320">
+      ⁋ Ideo aliter dico 
+      <lb ed="#L" n="78"/>ad quaestione. et primo distinguo de fine: quia accipitur 
+      <lb ed="#L" n="79"/>vno modo pro aliquo acquirendo per aliquam opeationem 
+      <lb ed="#L" n="80"/>sicut sanitas est finis deambulationis. et iste finis 
+      <lb ed="#L" n="81"/>est amatus: et desideratus amore concupiscentie. 
+      <lb ed="#L" n="82"/>llius est finis amatus amore amicitie: propter quem 
+      <lb ed="#L" n="83"/>nis primus producitur: quia eni homo diligit seipsum
+      concu<lb ed="#L" n="84" break="no"/>scit sibiipsi sanitatem. et ideo ad illam habendam
+      opera<lb ed="#L" n="85" break="no"/>Similiter: quia aliquis diligit deum summe propter se. ideo 
+      <lb ed="#L" n="86"/>igit propter deum. et ita deus est finis omnium actuum 
+      <lb ed="#L" n="87"/>primus finis est prior in intentione. et vltimus in 
+      <lb ed="#L" n="88"/>tecutione: quia realiter est effectus: et communiter
+      ignobi<lb ed="#L" n="89" break="no"/>illo fine: ad quem est saltem agente qui intendit 
+      <lb ed="#L" n="90"/>ed secundus finis vt communiter est praexistens ipsi opera 
+      <lb ed="#L" n="91"/>et si secundum rectam operationem itendatur non est igno 
+      <lb ed="#L" n="92"/>pr illo quod est ad finem. nec est effectus: nec acqui 
+      <lb ed="#L" n="93"/>prie loquendo per ipsam operationem.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e358">
+      ⁋ secundo
+      di<lb ed="#L" n="94" break="no"/>co. quod finis scientie proprie loquendo est illud quod est 
+      <lb ed="#L" n="95"/>amatum ab addiscente. siue amore amicitie siue 
+      <lb ed="#L" n="96"/>amore concupiscentie: secundum diuersos modos
+      acci<lb ed="#L" n="97" break="no"/>piendi finem ipsum quae mouet ad discendum: et ita ad  
+      <lb ed="#L" n="98"/>acquirendum scientiam. Et ideo idem est simplicitur finis 
+      <lb ed="#L" n="99"/>quie est causa finalis scientur et scientie. non tamen ita: quod causa fina 
+      <lb ed="#L" n="100"/>lis scientie sit causa finalis scientur. sed quod illud quod efficiens 
+      <lb ed="#L" n="101"/>intendit et amat: propter quod agit ad acquirendum scientiam 
+      <lb ed="#L" n="102"/>est causa finalis ipsius scientie. Non tamen est causa finalis
+      scien<lb ed="#L" n="103" break="no"/>tis: sed est intentum et amatum a sciente. Uerbi
+      gra<lb ed="#L" n="104" break="no"/>tia. Aliquis addiscit scientiam propter amorem amicitie 
+      <lb ed="#L" n="105"/>ad seipsum: et concupiscit ipsam scientiam sibi propter ali 
+      <lb ed="#L" n="106"/>quodlucrum acquisibile per ipsam scientiam. tunc dico quod ipse 
+      <lb ed="#L" n="107"/>met est causa finalis illius scientie: quia est amatus amore 
+      <lb ed="#L" n="108"/>amicitie. et realiter ipsa scientia non produceretur in effectum 
+      <lb ed="#L" n="109"/>et ita ipsemet amatus a seipso est causa finalis scientie. quia 
+      <lb ed="#L" n="110"/>ipse solus est: ad cuius esse sic amatum sequitur scientia: et ita 
+      <!--117.xml-->
+      <pb ed="#L" n="57-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ipsemet habet rationem alicuius cause. quia est ad cuius esse 
+      <lb ed="#L" n="2"/>sequitur aliud. et tamen ipsemet non est causa suipius. 
+      <lb ed="#L" n="3"/>et ipsemet non dependet sic a seipso.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e410">
+      ⁋ Similiter ipsum 
+      <lb ed="#L" n="4"/>lucrum vel aliquid tale est causa finalis aliquo modo 
+      <lb ed="#L" n="5"/>ipsius scientie. quia est per quod respondetur ad questionem fa 
+      <lb ed="#L" n="6"/>ctam propter quid. Si enim aliquasquaerat. quare addiscit 
+      <lb ed="#L" n="7"/>vel quare scientia producitur. conuenienter respondetur
+      pro<lb ed="#L" n="8" break="no"/>pter lucrum per ipsum acquirendum. et tamen illud lucrum 
+      <lb ed="#L" n="9"/>non est causa finalis ipsius scientis. quia ipse sciens non 
+      <lb ed="#L" n="10"/>dependet ab eo essentialiter. sed tantum desideratum et 
+      <lb ed="#L" n="11"/>concupitum a sciente propter quod agit ad
+      acquiren<lb ed="#L" n="12" break="no"/>dum scientiam
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e432">
+      ⁋ hoc poterit declarari. quia sicut in 
+      <lb ed="#L" n="13"/>agentibus naturaliter illud est causa finalis quod
+      in<lb ed="#L" n="14" break="no"/>tenditur a natura. ita in voluntariis illud est cau 
+      <lb ed="#L" n="15"/>sa finalis quod intenditur a voluntate. sed lucrum 
+      <lb ed="#L" n="16"/>vel aliquid tale est intentum a voluntate. propter quod 
+      <lb ed="#L" n="17"/>producitur scientia. ergo illud vere erit causa finalis scientie 
+      <lb ed="#L" n="18"/>et non scientis.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e448">
+      ⁋ Preterea illud quod intenditur 
+      <lb ed="#L" n="19"/>a voluntate diuina in causando vere habet rationem 
+      <lb ed="#L" n="20"/>cause finalis. non dei sed scientie vel effectus. ergo
+      ea<lb ed="#L" n="21" break="no"/>dem ratione illud quod intenditur a voluntate creata 
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e457">
+               <lb ed="#L" n="22"/>⁋ Et per istum modum potest poni quod deus est causa 
+      <lb ed="#L" n="23"/>finalis omnium. quia ipse semper amatur. Et propter ipsum 
+      <lb ed="#L" n="24"/>omnia fiunt saltem seipo. et etiam in naturalibus idem est 
+      <lb ed="#L" n="25"/>simpliciter finis agentis naturalis et agentis supremi 
+      <lb ed="#L" n="26"/>dirigentis. Propter tamen communia dicta potest distingui 
+      <lb ed="#L" n="27"/>de fine scientie. vnus est qui simpliciter potest esse cau 
+      <lb ed="#L" n="28"/>sa finalis proprie dicta. propter quem ipsa scientia
+      acqui<lb ed="#L" n="29" break="no"/>ritur. et qui mouet agens ad agendum. et de illo lo 
+      <lb ed="#L" n="30"/>cutus sum prius. Alius est finis scientie. qui secundum
+      re<lb ed="#L" n="31" break="no"/>ctam rationem debet intendi ab agente quod
+      libe<lb ed="#L" n="32" break="no"/>re agit. et isto modo finis scientie practice est opu 
+      <lb ed="#L" n="33"/>vel operari. et finis speculatiue est considerare. quia 
+      <lb ed="#L" n="34"/>rationabiliter addiscens vel in maiori parte vel sem 
+      <lb ed="#L" n="35"/>per debet istos fines intendere. si tamen de facto non 
+      <lb ed="#L" n="36"/>faciat non erunt cause finales. quia ipse scientie in nullo 
+      <lb ed="#L" n="37"/>dependebunt ab eis. sed alia intenta erunt cause 
+      <lb ed="#L" n="38"/>finales.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e496">
+      ⁋ Si dicitur quod non est de ratione cause final 
+      <lb ed="#L" n="39"/>actualiter intendi sed quod sit apta nata intendi. hoc 
+      <lb ed="#L" n="40"/>non valet. quia de ratione eius est causare actualiter si 
+      <lb ed="#L" n="41"/>effectus erit. et ita cum non possit actualiter causare 
+      <lb ed="#L" n="42"/>nisi actualiter intendatur non est causa finalis vel fi 
+      <lb ed="#L" n="43"/>nis nisi actualiter intendatur. Si dicatur quod hoc est 
+      <lb ed="#L" n="44"/>ontua philosophum iii. de anima. et vi. methaphsop. et id est
+      meta<lb ed="#L" n="45" break="no"/>phisice. Preterea vnius rei est vna causa finalis
+      essen<lb ed="#L" n="46" break="no"/>tialis. sed si omne tale intentum esset causa fiualis 
+      <lb ed="#L" n="47"/>essent plures cause finales. cum talia plura
+      pos<lb ed="#L" n="48" break="no"/>sint intendi.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e521">
+      ⁋ Ad omns auctoritates respondeo quod procedunt 
+      <lb ed="#L" n="49"/>de fine qui secundum rectam rationem saltem vt in pluribus 
+      <lb ed="#L" n="50"/>debet intendi si omnia essent conuenienter ordinata 
+      <lb ed="#L" n="51"/>et ideo quasi ex natura sua habet quod sit ordinabilis 
+      <lb ed="#L" n="52"/>ad talem finem. si tamen non actualiter intendatur non est 
+      <lb ed="#L" n="53"/>vere et proprie causa finalis.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e534">
+      ⁋ Ad aliud
+      respon<lb ed="#L" n="54" break="no"/>deo quod sicut non est inconueniens. quia eiusdem rei sint 
+      <lb ed="#L" n="55"/>plures cause efficientes proprie dicte. quarum que 
+      <!--117.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 57-v -->
+               <lb ed="#L" n="56"/>libet est sufficiens inter causas secundas sicut calor 
+      <lb ed="#L" n="57"/>potest produci ab igne sine sole: et a sole sine igne. 
+      <lb ed="#L" n="58"/>ita non est inconueniens quod eiusdem rei sint plures 
+      <lb ed="#L" n="59"/>cause finales. ita quod quaelibet illarum sit sufficiens 
+      <lb ed="#L" n="60"/>in illo ordine causandi. Et ideo eiusdem scientie 
+      <lb ed="#L" n="61"/>secundum speciem possunt esse plures cause finales. Et 
+      <lb ed="#L" n="62"/>eodem modo sicut aliquod efficiens potest esse
+      effe<lb ed="#L" n="63" break="no"/>ctiuum plurium effectuum specie distinctorum ita ea 
+      <lb ed="#L" n="64"/>dem causa finalis potest esse causa finalis plurium 
+      <lb ed="#L" n="65"/>scientiarum et plurium effectuum specie distinctorum 
+      <lb ed="#L" n="66"/>Tertio dico quod aliqua distingui per aliqua potest in 
+      <lb ed="#L" n="67"/>telligi multipliciter. vel tanquam per aliqua intrinseca 
+      <lb ed="#L" n="68"/>vel tanquam per aliqua extrinseca. Exemplum primi. sicut 
+      <lb ed="#L" n="69"/>aliqua puta homo et asinus distinguuntur per suas 
+      <lb ed="#L" n="70"/>formas substantiales. Secundo modo contingit
+      du<lb ed="#L" n="71" break="no"/>plicitur. vel tanquam per aliqua quae sunt causa distinctionis 
+      <lb ed="#L" n="72"/>ipsorum. quia sunt cause ipsorum quae sunt distincta. et tunc 
+      <lb ed="#L" n="73"/>distinctiuum vel est limitatum et proprium. vel
+      illimi<lb ed="#L" n="74" break="no"/>tatum et commune. sicut aliquid est causa illimitata et aliquid  
+      <lb ed="#L" n="75"/>limitata. vel tanquam per aliqua sibi propria. sicut aliqua 
+      <lb ed="#L" n="76"/>distinguuntur per suas proprietates. vel per sua subie 
+      <lb ed="#L" n="77"/>cta scilicet quia necessario est aliud subiectum vnius. et 
+      <lb ed="#L" n="78"/>aliud alterius. vel per effectus sibi propositios. Ex his 
+      <lb ed="#L" n="79"/>respondeo ad questione quod iste scientie seipis distinguum. 
+      <lb ed="#L" n="80"/>tur intrinsece et formaliter. sed per fines vel per
+      fin<lb ed="#L" n="81" break="no"/>distinguuntur causaliter. sicut causaliter distinguum 
+      <lb ed="#L" n="82"/>tur per causam efficientem. Sed per subiecta scientie nullo 
+      <lb ed="#L" n="83"/>praedictorum modorum distinguuntur necessario. quia 
+      <lb ed="#L" n="84"/>nec formaliter et intrinsece nec causaliter neccessario. nec 
+      <lb ed="#L" n="85"/>tanquam per aliqua sibi propria. sed isto vltimo modo distinguuntur 
+      <lb ed="#L" n="86"/>per obiecta. hoc est perconclusiones scitas. Primum patet 
+      <lb ed="#L" n="87"/>qui iste scientie sunt forme simplices. sicut alias decla 
+      <lb ed="#L" n="88"/>rabitur de omnibus accidentibus: sed forme simplices non 
+      <lb ed="#L" n="89"/>possunt distingui intrinsece et formaliter nisi scipsis 
+      <lb ed="#L" n="90"/>ergo etc. Secudum patet. quia ab eodem causaliter habet res esse 
+      <lb ed="#L" n="91"/>et distinctum esse a quolibet alio. ergo cum quaelibet scientia 
+      <lb ed="#L" n="92"/>sicut quaelibet alia res habeat esse suum a causa finali sua. se 
+      <lb ed="#L" n="93"/>quitur quod ab ea habet esse distinctum. Et ideo dico quod po 
+      <lb ed="#L" n="94"/>sito quod scientia speculatiua et practica habeant ean 
+      <lb ed="#L" n="95"/>dem causam sinalem per illam distinguuntur causaliter. quia il 
+      <lb ed="#L" n="96"/>la in illo genere causandi est causa distinctionis ea 
+      <lb ed="#L" n="97"/>rum. Et isto modo omnes res create distinguuntur per deum 
+      <lb ed="#L" n="98"/>qui est causa distinctionis omnium. Et si dicitur quod nulla
+      distin<lb ed="#L" n="99" break="no"/>guuntur per illud in quo conueniunt. Respondeo quod verum 
+      <lb ed="#L" n="100"/>est tanquam per sibi proprium. tamen causaliter quando causa est
+      illimi<lb ed="#L" n="101" break="no"/>tata vel simpliciter vel secundum quid. non est inconueniens 
+      <lb ed="#L" n="102"/>quin per illud distinguantur in quo conueniunt illo modo 
+      <lb ed="#L" n="103"/>quo conueniunt in illo
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e651">
+      ⁋ Uerutmen sciendum quod
+      acci<lb ed="#L" n="104" break="no"/>piendo finem pro illo quae secundum rectam rationem debet esse finis 
+      <lb ed="#L" n="105"/>modo exposito sic distinguuntur per fines tanquam per 
+      <lb ed="#L" n="106"/>aliqua propria. quia alius est finis vnius et alterius. Isto 
+      <lb ed="#L" n="107"/>modo intelligit philosophus. iii de anima et ii metaphisice 
+      <lb ed="#L" n="108"/>et vbique vbi dicit eas distingui per fines. tamen sicut 
+      <lb ed="#L" n="109"/>dictum est. iste non sunt semper cause finales proprie 
+      <lb ed="#L" n="110"/>dicte
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e669">
+      ⁋ Tertium patet. quod enim non distinguantur per sub 
+      <!--118.xml-->
+      <pb ed="#L" n="58-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>iectum formaliter et intrinsece manifestum est. quia 
+      <lb ed="#L" n="2"/>subiectum nec est ipsa scientia. nec de essentia eius. 
+      <lb ed="#L" n="3"/>Quod nec distinguuntur causaliter per illa patet. quia aliquando 
+      <lb ed="#L" n="4"/>et fere semper pro statu isto ipsum subiectum cum si 
+      <lb ed="#L" n="5"/>ens rationis secundum vnam opinionem in nullo genere causae est 
+      <lb ed="#L" n="6"/>causm scientie. vel saltem possibile est quod deus sit causa
+      praeci<lb ed="#L" n="7" break="no"/>se scientie. et per consequens subiectum nullo modo causabit 
+      <lb ed="#L" n="8"/>Quod nec distinguantur per subiecta tanquam per aliqua 
+      <lb ed="#L" n="9"/>sibi propria patet. quia idem simpliciter potest esse subiectum 
+      <lb ed="#L" n="10"/>notitie speculatiue et notitie practice. Nam de 
+      <lb ed="#L" n="11"/>subiecto quod habet aliquas passiones quae sunt in po 
+      <lb ed="#L" n="12"/>testate nostra et aliquas que non sunt in ptante nostra 
+      <lb ed="#L" n="13"/>potest esse notitia speculatiua qua sciuntur ille
+      pas<lb ed="#L" n="14" break="no"/>siones que non sunt in ptante nostra de illo subiecto 
+      <lb ed="#L" n="15"/>et etiam notitia practica qua sciuntur alie
+      passio<lb ed="#L" n="16" break="no"/>nes que sunt in ptante nostra de illo eodem sub 
+      <lb ed="#L" n="17"/>iecto. sed aliquod subiectum est huiusmodi sicut patet: quia 
+      <lb ed="#L" n="18"/>terra multas habet passiones quae non sunt in ptante nra 
+      <lb ed="#L" n="19"/>sicut terra est rotunda. frigida. sicca. guis. et
+      hu<lb ed="#L" n="20" break="no"/>iusmodi. ita quod omns ille conclusiones si tamen sini 
+      <lb ed="#L" n="21"/>demonstrabiles sunt simpliciter speculatiue et
+      sciun<lb ed="#L" n="22" break="no"/>tur scientia naturali. Similiter habet aliquas passiones quae 
+      <lb ed="#L" n="23"/>sunt in ptante nostra. vel signata illarum passionum 
+      <lb ed="#L" n="24"/>sunt in ptante nostra. sicut quod terra est arabilis. 
+      <lb ed="#L" n="25"/>potest sic vel sic coli et sic de aliis. et de istis est no 
+      <lb ed="#L" n="26"/>titia practica sicut agricultura et vniuersaliter ex 
+      <lb ed="#L" n="27"/>hoc ipso quod ens naturale est materia formarum 
+      <lb ed="#L" n="28"/>artificialium. idem est subiectum notitie specula 
+      <lb ed="#L" n="29"/>tiue quia est ens naturale. et notitie practice. quia 
+      <lb ed="#L" n="30"/>materia formarum artificialium. et isto modo de
+      ho<lb ed="#L" n="31" break="no"/>mine et de anima intellectiua et de multis talibus 
+      <lb ed="#L" n="32"/>potest esse notitia speculatiua et practica. ergo
+      pe<lb ed="#L" n="33" break="no"/>nes subiecta tanquam per aliqua sibi propria non di 
+      <lb ed="#L" n="34"/>stinguuntur. Si dicitur quod conclusiones practice non re 
+      <lb ed="#L" n="35"/>soluuntur in principia speculatiua. ergo de eodem 
+      <lb ed="#L" n="36"/>non possunt esse iste due notitie. Respondeo quod non est in 
+      <lb ed="#L" n="37"/>conueniens conclusiones practicas salte mediate 
+      <lb ed="#L" n="38"/>vel particularitur deduci ex principiis speculabi 
+      <lb ed="#L" n="39"/>libus. Uerbi gratia. ex isto pure speculabili scilicet
+      te<lb ed="#L" n="40" break="no"/>ra est dura accipiuntur multa practica. propter hoc 
+      <lb ed="#L" n="41"/>enim oportet quod aretur vel frangatur aliquo duro ad hoc 
+      <lb ed="#L" n="42"/>quod sit apta ad actiones quis agricultor habet
+      exerce<lb ed="#L" n="43" break="no"/>re circa eam. Similiter quia homo est talis vel talis condi 
+      <lb ed="#L" n="44"/>tionis. oportet quod ad conseruationem sanitatis talis vel 
+      <lb ed="#L" n="45"/>talis adhibeatur medicina. Et vniversaliter ex hoc ipso quod 
+      <lb ed="#L" n="46"/>in ptante nostra est habere operationes etiam circa pure 
+      <lb ed="#L" n="47"/>speculabilia. et circa rectam rationem secundum variationem 
+      <lb ed="#L" n="48"/>ipsorum entium et conditionum suarum sunt operationes no 
+      <lb ed="#L" n="49"/>stre diuersimode eligende. ideo ex principiis
+      pur<lb ed="#L" n="50" break="no"/>speculabilibus contingit inferre multas
+      conclusio<lb ed="#L" n="51" break="no"/>nes simpliciter practicas. Potest tamen dici quod illa prit 
+      <lb ed="#L" n="52"/>cipia sunt aliquo modo practica virutualiter. tamen secundum 
+      <lb ed="#L" n="53"/>modum communem loquendi sunt simpliciter speculatiua. 
+      <lb ed="#L" n="54"/>quia aliter nullum principium esset pure speculatiuum. quia 
+      <lb ed="#L" n="55"/>nullum penitus est principium quin aliquo modo possit 
+      <!--118.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 58-r -->
+               <lb ed="#L" n="56"/>se habere ad praxim. Unde ex isto. omnis triangulius habet 
+      <lb ed="#L" n="57"/>tres inartibus mechanid possunt haberi diuersen 
+      <lb ed="#L" n="58"/>notitie practice. Unde etiam inuenitur aliquam 
+      <lb ed="#L" n="59"/>do quod scientia practica subalternatur speculatiue scientie 
+      <lb ed="#L" n="60"/>sicut musica arithmetice et sic de aliis. quod no 
+      <lb ed="#L" n="61"/>esset verum nisi contingeret resoluere conclusiones 
+      <lb ed="#L" n="62"/>practicas in principia speculatiua. Quartur 
+      <lb ed="#L" n="63"/>scilicet quod iste notitie distinguuntur per conclusiones so 
+      <lb ed="#L" n="64"/>tas tanquam per propria sibi. ita scilicet quod neccessario est alia 
+      <lb ed="#L" n="65"/>conclusio scita notitia practica. et alia scita
+      noti<lb ed="#L" n="66" break="no"/>tia speculatiua. patet quia in illa conclusione quae scitur no 
+      <lb ed="#L" n="67"/>titia speculatiua nihil ponitur operabile a nob cum 
+      <lb ed="#L" n="68"/>notitia speculatiua non sit de operibus nostris. In
+      il<lb ed="#L" n="69" break="no"/>illa autem conclusione que scitur notitia practica po 
+      <lb ed="#L" n="70"/>nitur aliquid operabile a nobis. vel aliquid
+      impor<lb ed="#L" n="71" break="no"/>tans operabile a nobis. cum notitia practica sit de 
+      <lb ed="#L" n="72"/>operibus nostris. hoc est de illis qui significant opera 
+      <lb ed="#L" n="73"/>nra. ergo alia est conclusio scita vna scientia: et alia alia 
+      <lb ed="#L" n="74"/>Ideo dico quod cum notitia practica sit directiua 
+      <lb ed="#L" n="75"/>alicuius praxis. oportet quod semper notitia practica
+      ha<lb ed="#L" n="76" break="no"/>beat praxim vel significas praxim: vel operabersae 
+      <lb ed="#L" n="77"/>a nobis pro obiecto saltem partiali. et cum notitia 
+      <lb ed="#L" n="78"/>practica sit respectu alicuius complexi. oportet quod illa 
+      <lb ed="#L" n="79"/>notitia sit magis directiua operis quam notitia incon 
+      <lb ed="#L" n="80"/>plexa cuiuscumque termini illius complexi. Et quando sic est 
+      <lb ed="#L" n="81"/>tunc est notitia practica aliter non. Ex isto
+      sequun<lb ed="#L" n="82" break="no"/>tur aliqua. Unum quod de operibus nostris. hoc est de termi 
+      <lb ed="#L" n="83"/>nis vel complexis importantibus opera nostra potest esse 
+      <lb ed="#L" n="84"/>scia speculatiua. quia de operibus nris possunt aliqua 
+      <lb ed="#L" n="85"/>sciri aliqua notitia quae non magis dirigit quam notitia in 
+      <lb ed="#L" n="86"/>complexa. sicut si sciam quod dilectio est qualitas. quod 
+      <lb ed="#L" n="87"/>est a deo dependens. et sic de aliis. ille enim
+      noti<lb ed="#L" n="88" break="no"/>tie non magis dirigunt quam notitia inconplexa
+      di<lb ed="#L" n="89" break="no"/>lectionis. Et isto modo potest liber de anima contineri 
+      <lb ed="#L" n="90"/>sub scientia speculatiua. quamuis quo ad parte magnam 
+      <lb ed="#L" n="91"/>sit de operibus nostris. Aliud sequitur quod logica. retho 
+      <lb ed="#L" n="92"/>rica. et gramatica sunt vere notitie practice et 
+      <lb ed="#L" n="93"/>non speculatiue. quia vere dirigunt intellectum in 
+      <lb ed="#L" n="94"/>operationibus suis. quae sunt mediante voluntate in sua 
+      <lb ed="#L" n="95"/>ptante. sicut logica dirigit intellectum in sillog 
+      <lb ed="#L" n="96"/>sando: discurrendo et sic de aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e893">
+      ⁋ Potest tamen 
+      <lb ed="#L" n="97"/>distingui de practica. quia quadam est dictatiua. et 
+      <lb ed="#L" n="98"/>quedam tantum ostensiua. Prima est illa quae determinate 
+      <lb ed="#L" n="99"/>dictat aliquid esse faciendum vel non faciendum. et sic 
+      <lb ed="#L" n="100"/>loquitur philosophus. vi. ethicorum et iii de anima. Et isto modo 
+      <lb ed="#L" n="101"/>nec logica nec rethorica est practica. nec etiam 
+      <lb ed="#L" n="102"/>ars quecumque mechanica. quia nulla istarum dictat 
+      <lb ed="#L" n="103"/>quod domus est facienda. sed hoc pertinet ad prudentiam 
+      <lb ed="#L" n="104"/>qua scitur quando est facienda et quando non. et quando est operandum 
+      <lb ed="#L" n="105"/>et quando non. Secunda notitia practica est tantum ostensiua 
+      <lb ed="#L" n="106"/>qui non dictat aliquid fugiendum aut prosequendum. Sed 
+      <lb ed="#L" n="107"/>tantum ostendit opusquo fieri potest. virtute cuius notitie 
+      <lb ed="#L" n="108"/>si intellectus dictet id est faciendum et voluntas
+      ve<lb ed="#L" n="109" break="no"/>lit. statim potest recte operari. sicut ars edificatoria 
+      <lb ed="#L" n="110"/>ondit quod domus componitur ex lignis et lapidibus et ex 
+      <!--119.xml-->
+      <pb ed="#L" n="58-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>fundamento tali. et talibus parietibus et tali tecto 
+      <lb ed="#L" n="2"/>et sic de aliis. et non dictat quod domus est facienda 
+      <lb ed="#L" n="3"/>nec quondo est facienda. sed ad prudentiam pertinet dictare 
+      <lb ed="#L" n="4"/>quod tali tempore est facienda. vel sic est agendum vel sic. 
+      <lb ed="#L" n="5"/>Et eodem modo logica et alie artes sunt tantum ostensiue 
+      <lb ed="#L" n="6"/>et non dictatiue. sunt tamen directiue. habentque tales a 
+      <lb ed="#L" n="7"/>tes frequenter: non praxim pro obiecto: sed obiectum 
+      <lb ed="#L" n="8"/>praxis. sicut ars edificatoria habet ipsam domum
+      pro<lb ed="#L" n="9" break="no"/>obiecto et non praxim vel operationem ipsam que est in 
+      <lb ed="#L" n="10"/>ptante nostra.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e954">
+      ⁋ Sed tunc est hoc vnum dubium. quia secundum
+      praedi<lb ed="#L" n="11" break="no"/>cta sequeretur quod omnis habitus practicus praeter istas artes 
+      <lb ed="#L" n="12"/>esset prudentia. consequens est falsum. et falsitas eius patet 
+      <lb ed="#L" n="13"/>qui tunc liber ethicorum esset prudentia. consequens est falsum 
+      <lb ed="#L" n="14"/>cum sit de vniversalibus et prudentia de particularibus. consequentia patet 
+      <lb ed="#L" n="15"/>qui omnis habitus dictatiuus est prudentia. quia omnis talis ha 
+      <lb ed="#L" n="16"/>bitus dictatiuus est cum va ratione actiuus. et per consequens 
+      <lb ed="#L" n="17"/>orudentia.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e973">
+      ⁋ Ad istud dicit scotus quod diffinitio 
+      <lb ed="#L" n="18"/>prudentie debex intelligi de habitum actiuo proximo 
+      <lb ed="#L" n="19"/>qualis est habitus acquisitus ex actibus. Unde sicut ars se 
+      <lb ed="#L" n="20"/>habet circa factibilia singularia ad habitum experimenta 
+      <lb ed="#L" n="21"/>lem. ita circa agibilia se habet scientia moralis ad habitum 
+      <lb ed="#L" n="22"/>prudentie quia habitus artum et scientie moralis sunt remoti 
+      <lb ed="#L" n="23"/>ad dirigendum: quia vniversales. sed habitus prudentie et exper 
+      <lb ed="#L" n="24"/>menti. quia generati sunt ex actibus sunt particulares et propin 
+      <lb ed="#L" n="25"/>qui ad dirigendum. Ista expositio est neccsara. alio 
+      <lb ed="#L" n="26"/>quin nulla esset scientia practica. quia quaecumque est habitus 
+      <lb ed="#L" n="27"/>actiuus vel factiuus.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e997">
+      ⁋ Sed istud quantum ad hoc quod 
+      <lb ed="#L" n="28"/>dicit quod habitus talis non est proximus ad dirigendum no 
+      <lb ed="#L" n="29"/>videtur verum. quia sicut se videtur habere in speculabilibus 
+      <lb ed="#L" n="30"/>ita in agibilibus. sed quaecumque habens propositionem vniversalem.
+      si<lb ed="#L" n="31" break="no"/>subsumat quamcumque singularem. statim scitur conclusio. ergo 
+      <lb ed="#L" n="32"/>eodem modo habens propositionem vniversalem. quod sic est agendu 
+      <lb ed="#L" n="33"/>pro tali tempore et tali loco. et sic secundum alias
+      circumstan<lb ed="#L" n="34" break="no"/>tias. non oportet nisi quod ondatur aliquid habens tales codito 
+      <lb ed="#L" n="35"/>nes. et statim virtute propositionis vniversalis poterit oper 
+      <lb ed="#L" n="36"/>rari. Et si dicitur quod ex hoc ipso quod requiritur talis omntensio. non 
+      <lb ed="#L" n="37"/>sufficit cognitio vniversalis. hoc non valet. quia etiatm habitus pri 
+      <lb ed="#L" n="38"/>dentie quaecumque sine tali ostensione non sufficit. et ita 
+      <lb ed="#L" n="39"/>equaliter diriget habitus vniversalis respectu actus. quam 
+      <lb ed="#L" n="40"/>uis non respectu omnium. sicut quaecumque alius. Preter 
+      <lb ed="#L" n="41"/>ea sicut patet in alia questione ista vniversalia non possunt 
+      <lb ed="#L" n="42"/>euidenter cognosci nisi per experientiam. et per consequens
+      pri<lb ed="#L" n="43" break="no"/>supponitur experientia. et ita immediate diriget 
+      <lb ed="#L" n="44"/>respectu alicuius.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e1036">
+      ⁋ Ideo dico quod habitus vniversalis
+      ali<lb ed="#L" n="45" break="no"/>quis ita poterit perfecte dirigere respectu alicuius 
+      <lb ed="#L" n="46"/>actus quantum est ex parte sui. sicut quicumque alius 
+      <lb ed="#L" n="47"/>et frequenter potest haberi sine experientia singularium 
+      <lb ed="#L" n="48"/>et posito quod posset adhuc perfecte diriget
+      respe<lb ed="#L" n="49" break="no"/>ctu actus. Sed istud videntur contrsa philosophum 1 metaph. 
+      <lb ed="#L" n="50"/>vbi vult quod ars potest esse sine experimento. et quod expe 
+      <lb ed="#L" n="51"/>ti certius operantur.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e1054">
+      ⁋ Pro intentone philosophi dico quod 
+      <lb ed="#L" n="52"/>dupliciter potest contingere quod exparti certius operantur. ali 
+      <lb ed="#L" n="53"/>quando propter exerc tium organorum exteriorum. quia propter 
+      <lb ed="#L" n="54"/>talium experientiam et exercitium. aliquando homo acquirit 
+      <lb ed="#L" n="55"/>habitum in organis. propter que melius operatur. sicut 
+      <!--119.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 58-v -->
+               <lb ed="#L" n="56"/>aliquis addiscens musicam vel artem citharisandi 
+      <lb ed="#L" n="57"/>per exercitium actuale melius operabitur quam alius quai forte 
+      <lb ed="#L" n="58"/>omnem habitum intellectualem circa vniversalia et circa par 
+      <lb ed="#L" n="59"/>ticularia habet meliorem. quia organa alterius propter
+      de<lb ed="#L" n="60" break="no"/>fectum exercitii non sunt apta. sicut aliquos tantum
+      au<lb ed="#L" n="61" break="no"/>diendo cantum et huiusmodi potest acquirere habitum inte 
+      <lb ed="#L" n="62"/>ligibilem. et eodem modo contingere potest in medici 
+      <lb ed="#L" n="63"/>na et in aliis. ad quorum opera requiruntur opera exterio 
+      <lb ed="#L" n="64"/>ra. Aliquando potest hoc contingere. quia exparti habent notitiam 
+      <lb ed="#L" n="65"/>aliquorum singularium et aliquorum vniversalium quorum 
+      <lb ed="#L" n="66"/>alii non habent euidentem notitiam. Unde expartus in 
+      <lb ed="#L" n="67"/>experiendo acquirit notitiam multarum propositionum 
+      <lb ed="#L" n="68"/>vniversalium quas alius habere non potest. quamuis expartus ne 
+      <lb ed="#L" n="69"/>sciat eas per causam. sed tantum quia et aliud scilicet artifex
+      ali<lb ed="#L" n="70" break="no"/>quo modo nouit causam in vniversali vel particulari. sicut 
+      <lb ed="#L" n="71"/>aliquando contingit in scientia subalternante. et ideo quia tales 
+      <lb ed="#L" n="72"/>propositiones vniversales magis immediate dirigunt quam 
+      <lb ed="#L" n="73"/>alie vnversaliores. et ideo exparti certius operantur. Sed tunc 
+      <lb ed="#L" n="74"/>est dubium quo artifices habent notitiam euidentem si 
+      <lb ed="#L" n="75"/>talia non possunt sciri nisi per experientiam. Respondeo 
+      <lb ed="#L" n="76"/>quod sicut in aliis aliqua principia possunt sciri praecise per 
+      <lb ed="#L" n="77"/>experientiam. et aliqua sunt principia per se nota. ita in 
+      <lb ed="#L" n="78"/>practicis. Aliquando sunt principia per se nota. et aliquando 
+      <lb ed="#L" n="79"/>tantum nota per experientiam. De praemis et de conclusionibus se 
+      <lb ed="#L" n="80"/>quentibus ex illis habet artifex notitiam euidentem. et 
+      <lb ed="#L" n="81"/>similiter studens in morali philosophia sine exercitio. frequin 
+      <lb ed="#L" n="82"/>ter tamen talium non habent expertinotitiam euidentem: sed  
+      <lb ed="#L" n="83"/>ignorant ea: vel saltem multa eorum. Alia autem sunt 
+      <lb ed="#L" n="84"/>principia per experientiam nota. et aliquando illorum habent 
+      <lb ed="#L" n="85"/>artifices notitiam euidentem et non exparti. et tamen aliquando 
+      <lb ed="#L" n="86"/>notitiam conclusionum quae possunt per experientiam sciri habent exper 
+      <lb ed="#L" n="87"/>ti et non artifices. Et ita patet quo possibile est quod 
+      <lb ed="#L" n="88"/>artifex sit magis sciens quam exptus. et quod expartus cer 
+      <lb ed="#L" n="89"/>tius operetur. et tamen notitia vniversalis non quecumque: sed
+      re<lb ed="#L" n="90" break="no"/>spectu minmi vniversalis. ita perfecte dirigat respectu 
+      <lb ed="#L" n="91"/>alicuius actus. sicut quicumque alius habitus. Et ideo 
+      <lb ed="#L" n="92"/>dico quod si aliquis studens in morali philosophia sine omi 
+      <lb ed="#L" n="93"/>actu prudentie vel morali posset acquirere notit 
+      <lb ed="#L" n="94"/>am omnium propositionum vniversalium quas acquirit alius
+      exer<lb ed="#L" n="95" break="no"/>citatus. quod ita perfectum habitu et ita perfecte
+      dire<lb ed="#L" n="96" break="no"/>ctiuum haberet ipse sicut alius. sed de facto vel hoc 
+      <lb ed="#L" n="97"/>non est possibile vel cum maxima difficultate. et 
+      <lb ed="#L" n="98"/>propter istam rationem sicut patebit in tertio. non potest 
+      <lb ed="#L" n="99"/>prudentia separari (in acquisitione ipsius) a virtute 
+      <lb ed="#L" n="100"/>morali.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e1169">
+      ⁋ Sed quo tunc distinguuntur scientia moralis et 
+      <lb ed="#L" n="101"/>prudentia. Dico quod distinguuntur sicut habitus magis 
+      <lb ed="#L" n="102"/>vniversalis et minus vniversalis. quia scientia moralis est de magis vnversalibus 
+      <lb ed="#L" n="103"/>et prudentia de minus vniversalibus quae cognoscuntur
+      praeci<lb ed="#L" n="104" break="no"/>se per etperientiam et non per deductione ex magis vniversalibus 
+      <lb ed="#L" n="105"/>Sed quo est tunc prudentia circa particularia. 
+      <lb ed="#L" n="106"/>Dico quod est circa particularia in acquirendo de facto 
+      <lb ed="#L" n="107"/>et virutaliter: sed de hoc et de multiplicatione prudentie pa 
+      <lb ed="#L" n="108"/>tebit in tertio. Ex praedictui respondeo ad formam quaestio 
+      <lb ed="#L" n="109"/>nis quod scientia speculatiua et practica distinguunt 
+      <lb ed="#L" n="110"/>per fines vel per finem causaliter. quia semper fines vel finis 
+      <!--120.xml-->
+      <pb ed="#L" n="59-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est causa distinctionis istarum scientiarum sicut est causa scientia 
+      <lb ed="#L" n="2"/>rum istarum. accipiendo autem finem proprie sed pro illo quod secundum 
+      <lb ed="#L" n="3"/>rectam rationem debet esse finis. sic distinguuntur per fines 
+      <lb ed="#L" n="4"/>tanquam per aliqua sibi propria. hoc est distinctarum scientiarum 
+      <lb ed="#L" n="5"/>sunt distincti tales fines. sed scientie neutro modo
+      di<lb ed="#L" n="6" break="no"/>stinguuntur per subiecta. sed secundo modo distinguuntur per 
+      <lb ed="#L" n="7"/>pbiecta. Ad rationes alterius opinionis patet per dicta 
+      <lb ed="#L" n="8"/>Ad primam patet quod scientia speculatiua distinguitur a pra 
+      <lb ed="#L" n="9"/>ctica causaliter per finem tanquam per causam. et hoc siue sit idem 
+      <lb ed="#L" n="10"/>finis siue alius. sed per distinctum finem secundo modo dictantum 
+      <lb ed="#L" n="11"/>distinguitur tanquam per aliquid sibi proprium.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e1224">
+      ⁋ Ad secundam 
+      <lb ed="#L" n="12"/>patet quod scientia speculatiua et practica distinguuntur per 
+      <lb ed="#L" n="13"/>pbiecta. hoc est per conclusiones scitas. Ad tertia quod scien 
+      <lb ed="#L" n="14"/>speculatiue distinguuntur per seipsas. tamen per principia. sua 
+      <lb ed="#L" n="15"/>distinguuntur tanquam per propria. et quantum ad hoc non est simile 
+      <lb ed="#L" n="16"/>de principiis respectu conclusionum speculabilium. et de 
+      <lb ed="#L" n="17"/>fine respectu eoclusionum practicarum. et hoc maxi 
+      <lb ed="#L" n="18"/>me accipiendo finem pro causa finali proprie dicta. Ad  
+      <lb ed="#L" n="19"/>auctoritatem aristotel patet prius quod philosophus loquitur de 
+      <lb ed="#L" n="20"/>sine qui secundum rectam rationem debet intendi: et tunc scientiam 
+      <lb ed="#L" n="21"/>practicam distingui a speculatiua fine non est aliud 
+      <lb ed="#L" n="22"/>nisi quod scientia practica habet alium finem talem quam scientia
+      spe<lb ed="#L" n="23" break="no"/>culatiua. Unde sciendum est quod proprie loquendo ni 
+      <lb ed="#L" n="24"/>hil distinguitur ab alio nisi per seiprtet vel per aliquid si 
+      <lb ed="#L" n="25"/>bi intrinlecum. quia sicut vnumquodque seipo est vnum 
+      <lb ed="#L" n="26"/>et non per aliquod sibi additum. nec per aliquid 
+      <lb ed="#L" n="27"/>sibi extrinsecum. ita vnumquodque seipso vel per 
+      <lb ed="#L" n="28"/>sibi intrinsecum distinguitur a quocuque
+      distin<lb ed="#L" n="29" break="no"/>guitur. tamen dicitur distingui per aliquid ab aliquos quando 
+      <lb ed="#L" n="30"/>illud est proprium vni et non potest competere alteri. ita 
+      <lb ed="#L" n="31"/>iet quod ex distinctione aliquorum contingit inferre
+      distin<lb ed="#L" n="32" break="no"/>ctionem aliorum. sicut sequitur. qualitas corporalis et 
+      <lb ed="#L" n="33"/>spiritualis distinguuntur. ergo subiecta earum distinguunt 
+      <lb ed="#L" n="34"/>et ita non sequitur. albedo et dulcedo distinguuntur 
+      <lb ed="#L" n="35"/>ergo subiecta earum distinguuntur. et ita improprie
+      po<lb ed="#L" n="36" break="no"/>test dici quod substantia spiritualis distinguitur a subiecta corporea per 
+      <lb ed="#L" n="37"/>ilitatem suam. et tamen lac non distinguitur a cigno per
+      al<lb ed="#L" n="38" break="no"/>pedinem.
+    </p>
+            <p xml:id="wo8uy7-d1e191-d1e1286">
+      ⁋ Ad primum principale patet. quod finis practi 
+      <lb ed="#L" n="39"/>ce quae secundum rectam rationem debet intendi est opus natum dirigi 
+      <lb ed="#L" n="40"/>per scientiam practicam. non tamen semper tale opus est causa finalis pro 
+      <lb ed="#L" n="41"/>prie dcam. Tame pro intentione philosophi sciendum quod finis quae debet 
+      <lb ed="#L" n="42"/>ecundum rectam rationem intendi scientie practice non est veritas 
+      <lb ed="#L" n="43"/>sicut est finis scientie speculatiue. sed finis vltimus 
+      <lb ed="#L" n="44"/>scientie speculatiue est veritas. finis autem vltimus scientie 
+      <lb ed="#L" n="45"/>practice non est veritas: sed opus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

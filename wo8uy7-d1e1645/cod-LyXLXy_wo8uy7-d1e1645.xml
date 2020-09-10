@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="256-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1645"><!-- l1d36q1 -->
+            <head xml:id="wo8uy7-d1e1645-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1645-d1e111">
+               <lb ed="#L" n="37"/>⁋ Distinctionis. xxxvi. Questio vnica. 
+      <lb ed="#L" n="38"/>CIrca
+      distin<lb ed="#L" n="39" break="no"/>ctione. xxxvi. quaero.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e120">
+      ⁋ Utrum 
+      <lb ed="#L" n="40"/>perfectiones creaturarum in 
+      <lb ed="#L" n="41"/>deo contente ab eteno
+      distin<lb ed="#L" n="42" break="no"/>guantur inter se realiter et a
+      diui<lb ed="#L" n="43" break="no"/>na essentia.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e131">
+      ⁋ Quod sic. quia 
+      <lb ed="#L" n="44"/>vna perfectio vnius creature numquam fuit realiter alia. 
+      <lb ed="#L" n="45"/>ergo ab eterno fuit distincta realiter. Atecedens patet. quia
+      impos<lb ed="#L" n="46" break="no"/>sibile est quod vna res fiat alia secundum philosophum i. phi. quamuis 
+      <lb ed="#L" n="47"/>vna res possit fieri ex alia. consequentia patet. quia idem et
+      di<lb ed="#L" n="48" break="no"/>uersum diuidunt omne ens. ergo omne ens omni enti est 
+      <lb ed="#L" n="49"/>idem vel distinctum.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e147">
+      ⁋ Preterea perfectiones creatu 
+      <lb ed="#L" n="50"/>rarum ab etno habuerunt aliquod esse. et non humerunt 
+      <lb ed="#L" n="51"/>idem esse reale. ergo aliud et aliud. et per consequens realiter
+      di<lb ed="#L" n="52" break="no"/>stinguebantur ab eterno. maior probatur. tum quia ab 
+      <lb ed="#L" n="53"/>eterno fuerunt intellecte a deo. sed quod nihil est non 
+      <lb ed="#L" n="54"/>potest terminare actum intelligendi. Tum quia quod purum 
+      <!--514.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 256-r -->
+               <lb ed="#L" n="55"/>nihil est in nullo genere est. sed creature ab eterno 
+      <lb ed="#L" n="56"/>fuerunt in distinctis generibus. Tum quia fuerunt ab 
+      <lb ed="#L" n="57"/>eterno diffinibiles sedc purum nihil diffiniri non potest 
+      <lb ed="#L" n="58"/>minor videtur manifesta. quia illa quae nullo modo possuntesse idem 
+      <lb ed="#L" n="59"/>realiter. quando sunt actualiter nullum esse reale habent idem. sed 
+      <lb ed="#L" n="60"/>perfectio hominis et asini quando sunt actu nullo modo sunt 
+      <lb ed="#L" n="61"/>idem realiter. ergo nullum esse reale habent idem. et per consequensi 
+      <lb ed="#L" n="62"/>vtrumque habet esse reale: habent distincta esse realia. et per 
+      <lb ed="#L" n="63"/>consequens sunt distincta realiter.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e187">
+      ⁋ Ad oppositum illud  
+      <lb ed="#L" n="64"/>quod nihil est in se a nullo distinguitur realiter. sed perfectio 
+      <lb ed="#L" n="65"/>hominis ab eterno nihil fuit in se reale. ergo a nullo
+      di<lb ed="#L" n="66" break="no"/>stinguebatur realiter.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e196">
+      ⁋ Ad. q. dicunt communiter
+      docto<lb ed="#L" n="67" break="no"/>res quod perfectiones creaturarum in deo continentur
+      perfe<lb ed="#L" n="68" break="no"/>ctionaliter. eminentur. exemplaritur. et intelligibiliter et 
+      <lb ed="#L" n="69"/>etiam virtualiter. et causaliter. Sed illud dictum a diuer 
+      <lb ed="#L" n="70"/>sis diuersimode exponitur
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e207">
+      ⁋ Dicunt enim aliqua quod 
+      <lb ed="#L" n="71"/>perfectiones creaturarum vt cotinentur in deo
+      perfectio<lb ed="#L" n="72" break="no"/>naliter non distinguuntur inter se nec a diuina essen 
+      <lb ed="#L" n="73"/>tia. nec etiam secundum esse intelligibile vel repraesentatiuum 
+      <lb ed="#L" n="74"/>distinguuntur a diuina essentia. Sed pro vt continentur 
+      <lb ed="#L" n="75"/>in deo virtualiter secundum perfectionem contentam distinguuntur 
+      <lb ed="#L" n="76"/>a deo realiter et formaliter. Sed perfectiones
+      creatura<lb ed="#L" n="77" break="no"/>rum secundum quod continentur in deo virtualiter secundum perfectionem 
+      <lb ed="#L" n="78"/>dei continentis sic nec distinguuntur a deo nec inter 
+      <lb ed="#L" n="79"/>se ex natura rei.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e229">
+      ⁋ Pro istis adducuntur multe
+      ratio<lb ed="#L" n="80" break="no"/>nes quas propter breuitatem omitto. quia quantum videtur
+      mi<lb ed="#L" n="81" break="no"/>hi difficultas magis consistit in voce quam in re. et vna 
+      <lb ed="#L" n="82"/>veritate logica dicta euidenter soluuntur. Uerum 
+      <lb ed="#L" n="83"/>tamen aliquas auc. sanctorum adducam. quae videntur ponere 
+      <lb ed="#L" n="84"/>quod creature contente in deo sint ipse deus.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e242">
+      ⁋ Ioha. 
+      <lb ed="#L" n="85"/>. quod factum est. in ipso vita erat. ergo creature erant
+      vi<lb ed="#L" n="86" break="no"/>ta in deo. sed non nisi vita diuina.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e249">
+      ⁋ Item
+      augusti<lb ed="#L" n="87" break="no"/>nus super ioham. omne. iii. et de verbis domini sermone 
+      <lb ed="#L" n="88"/>iiii. quae hic varia quaeris ipse tibi vnus omnia erit. In cre 
+      <lb ed="#L" n="89"/>aturis autem deest quod laudamus. in creatore nihil 
+      <lb ed="#L" n="90"/>deesse potest. quia quod inuenis in creatura a creatore 
+      <lb ed="#L" n="91"/>artifice processit. laudent ergo creatorem eius totum est 
+      <lb ed="#L" n="92"/>ibi quod ex partibus singulis iuenitur.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e266">
+      ⁋ Item in fine de 
+      <lb ed="#L" n="93"/>ciuitate dei. in persona dei loquens sic dicit Ego 
+      <lb ed="#L" n="94"/>ero quaecumque ab homibus honeste desiderantur. vita et 
+      <lb ed="#L" n="95"/>pax. salus et virtus. gloria et honor et omnia
+      bo<lb ed="#L" n="96" break="no"/>na.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e277">
+      ⁋ Item moyse petente a deo vt ostenderet
+      si<lb ed="#L" n="97" break="no"/>bi seipum respondit deus exodi. xxxiii. Ego ostenda 
+      <lb ed="#L" n="98"/>tibi omne bonum. Sed ostendendo seipsum non
+      osten<lb ed="#L" n="99" break="no"/>deret omne bonum sibi. nisi ipse esset omnis boni 
+      <lb ed="#L" n="100"/>plenitudo.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e288">
+      ⁋ Ite quod in essentia diuina omnium 
+      <lb ed="#L" n="101"/>rerum perfectiones vnitiue contineantur ostendit
+      dio<lb ed="#L" n="102" break="no"/>nisius de diuinis nominibus. c. v. parte. vi. per
+      mul<lb ed="#L" n="103" break="no"/>ta exempla scilicet monadis in quo vniuntur omnes 
+      <lb ed="#L" n="104"/>numeri. et centri in quo vniuntur omnes diame ¬ 
+      <lb ed="#L" n="105"/>tri. et nature generalis in qua vniuntur diuerse 
+      <lb ed="#L" n="106"/>operationes.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e304">
+      ⁋ Item dioni. de diui. non. c. i per. 
+      <lb ed="#L" n="107"/>ii. dicit de deo. ipse est viuentium vita substantium 
+      <lb ed="#L" n="108"/>que substantia vite omnis et substantie principium. et causa 
+      <lb ed="#L" n="109"/>propter ipsius in esse adiectiuam bonitatem. 
+      <!--515.xml-->
+      <pb ed="#L" n="256-v"/>
+               <cb ed="#L" n="a"/>
+            </p>
+            <p xml:id="wo8uy7-d1e1645-d1e320">
+               <lb ed="#L" n="1"/>⁋ Item ans. vult quod creatura in deo non est nisi cre 
+      <lb ed="#L" n="2"/>atrix essentia.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e327">
+      ⁋ Specialiter autem probant aliqua quod 
+      <lb ed="#L" n="3"/>esse intelligibile creature vel esse repraesentatum non 
+      <lb ed="#L" n="4"/>distinguitur realiter a diuina essentia. sed esse
+      reprasen<lb ed="#L" n="5" break="no"/>tatum est idem realiter cum forma repraesentante. et esse
+      co<lb ed="#L" n="6" break="no"/>gnitum est idem realiter cum cognitione.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e339">
+      ⁋ hoc probant 
+      <lb ed="#L" n="7"/>sic. omnis entitas positiua non depedens ab anima est 
+      <lb ed="#L" n="8"/>entitas realis. sed esse repraesentatum est quadam entitas 
+      <lb ed="#L" n="9"/>positiua. et non dependet ab operatione intellectus. 
+      <lb ed="#L" n="10"/>qui species repraesentaret etiam si intellectus non intellige 
+      <lb ed="#L" n="11"/>ret. ergo esse repraesentatum est entitas realis et non alia a 
+      <lb ed="#L" n="12"/>deo. ergo etc. Idem argumentum posset fieri de esse
+      co<lb ed="#L" n="13" break="no"/>gnito.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e357">
+      ⁋ Secundo sic. Quicquid sequitur entitatem 
+      <lb ed="#L" n="14"/>realem necessitate naturali est estitas realis neces 
+      <lb ed="#L" n="15"/>sario. sed ad formam repraesentantem necessitate natu 
+      <lb ed="#L" n="16"/>rali sequitur esse repraesentatum et ad cognitionem esse 
+      <lb ed="#L" n="17"/>cognitum. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e368">
+      ⁋ Ite terminus productionis rea 
+      <lb ed="#L" n="18"/>lis habet esse reale. sed intellectus agens actione rea 
+      <lb ed="#L" n="19"/>li producit esse intelligibile obiecti siue obiectum in 
+      <lb ed="#L" n="20"/>esse intelligibili. ipsius enim est aliquod esse reale. et non 
+      <lb ed="#L" n="21"/>producit nisi speciem intelligibilem. ergo esse
+      intelligibi<lb ed="#L" n="22" break="no"/>le obiecti quod est suum esse repraesentatum per speciem est idem 
+      <lb ed="#L" n="23"/>realiter cum specie repraesentante.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e384">
+      ⁋ Preterea. iiii. me 
+      <lb ed="#L" n="24"/>tha. dicit philosophus quod ens et vnum sunt idem et vna
+      na<lb ed="#L" n="25" break="no"/>tura. quia non separantur in generatione et corruptione 
+      <lb ed="#L" n="26"/>ergo illa sunt idem realiter quando impossibile est vnum generari vel 
+      <lb ed="#L" n="27"/>corrumpi sine alio. sed impossibile est formam repraesentam 
+      <lb ed="#L" n="28"/>tem esse. nisi sit esse repraesentatum alicuius. vel
+      econuer<lb ed="#L" n="29" break="no"/>so. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e400">
+      ⁋ Item omnis entitas non prima ab actu in 
+      <lb ed="#L" n="30"/>tellectus fabricata est ab aliquo effectiue. sed esse in 
+      <lb ed="#L" n="31"/>telligibile non est per intellectum fabricatum. nec est a 
+      <lb ed="#L" n="32"/>deo effectiue. quia cuiuscumque diuina essentia est
+      prin<lb ed="#L" n="33" break="no"/>cipium efficit illud naturaliter et secundum vltimum posse 
+      <lb ed="#L" n="34"/>suum et tale necessario habet esse in effectu. ergo non est ab 
+      <lb ed="#L" n="35"/>eter non esse repraesentatum creature. nisi sit diuina 
+      <lb ed="#L" n="36"/>essentia.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e418">
+      ⁋ Preterea. omne prius natura alio potest 
+      <lb ed="#L" n="37"/>esse sine illo absque contradictione. repraesentans non 
+      <lb ed="#L" n="38"/>potest esse absque esse repraesentato. nec cognitio absque 
+      <lb ed="#L" n="39"/>esse cognito. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e428">
+      ⁋ Preterea esse intelligibile cre 
+      <lb ed="#L" n="40"/>ature sibi coueniens ab eterno aut est ex se neces 
+      <lb ed="#L" n="41"/>se esse. et habetur propositum. Aut possibile esse. et hoc 
+      <lb ed="#L" n="42"/>est falsum. quia tunc deus non necessario coexigeret esse 
+      <lb ed="#L" n="43"/>intelligibile creature.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e439">
+      ⁋ Preterea voluntas vult 
+      <lb ed="#L" n="44"/>creaturam secundum esse suum intelligibile. quia vult se intel 
+      <lb ed="#L" n="45"/>ligere omne intelligibile et non contingenter. ergo
+      ne<lb ed="#L" n="46" break="no"/>cessario. sed non vult aliquod aliud a se necessario. ergo 
+      <lb ed="#L" n="47"/>etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e450">
+      ⁋ Confirmatur. quia deus non vult necessario
+      ali<lb ed="#L" n="48" break="no"/>quid quod est ad finem.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e455">
+      ⁋ Preterea voluntas quae determi 
+      <lb ed="#L" n="49"/>natur ad finem. non determinatur ad aliquod eorum quae sunt 
+      <lb ed="#L" n="50"/>ad finem. nisi quatinus per spllogismum practicum conclu 
+      <lb ed="#L" n="51"/>datur ex fine necessitas illius entis ad finem. sed esse
+      in<lb ed="#L" n="52" break="no"/>telligibile si sit aliud a deo. non est necessarium ad  
+      <lb ed="#L" n="53"/>vltimum finem. ergo necessario intelligitur.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e468">
+      ⁋ Preterea. 
+      <lb ed="#L" n="54"/>si aliquis necessitate absoluta vult ens diminu 
+      <lb ed="#L" n="55"/>tum et diminute ordinatum ad finem multo magis 
+      <!--515.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 256-v -->
+               <lb ed="#L" n="56"/>vult necessario ens perfectum perfecte ordinatum ad  
+      <lb ed="#L" n="57"/>finem. quia perfectior ratio diligibilitatis est in ente perfe 
+      <lb ed="#L" n="58"/>cto quam in ente diminuto. ergo si deus necessario vult 
+      <lb ed="#L" n="59"/>esse intelligibile creature diminute ordinatum ad  
+      <lb ed="#L" n="60"/>deum multo magis vult necessario creaturam in esse 
+      <lb ed="#L" n="61"/>perfecto. quod fallum est.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e494">
+      ⁋ Preterea esse intelligibile cre 
+      <lb ed="#L" n="62"/>ature est prius voluntate et actu voluntatis diuine 
+      <lb ed="#L" n="63"/>qui essentia diuina prius repraesentat creaturam. et
+      im<lb ed="#L" n="64" break="no"/>tellectus diuinus prius intelligit creaturam quam volun 
+      <lb ed="#L" n="65"/>tas velit eam in esse reali vel intelligibili. ergo si sit alium 
+      <lb ed="#L" n="66"/>esse a deo aliquod aliud a deo est prius voluntate divina. 
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e508">
+               <lb ed="#L" n="67"/>⁋ Preterea esse intelligibile creature ab eterno. 
+      <lb ed="#L" n="68"/>aut est proprium. aut intrinsecum deo. et haber propositum. 
+      <lb ed="#L" n="69"/>Aut ese creature. et per consequens fundatur in esse creature 
+      <lb ed="#L" n="70"/>quae intelligitur. et per consequens persupponit creaturam in quae fun 
+      <lb ed="#L" n="71"/>datur et esse creature anquam a deo intelligeretur. tam secundum 
+      <lb ed="#L" n="72"/>quidditatem quam secundum essentiam. quia vtrumque habuit esse
+      in<lb ed="#L" n="73" break="no"/>telligibile ab eterno.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e526">
+      ⁋ Preterea nullum esse
+      distin<lb ed="#L" n="74" break="no"/>ctum ex natura rei eque perfecte conuenit creaturis 
+      <lb ed="#L" n="75"/>quando sunt et quando non sunt. sed esse intelligibile creature ab 
+      <lb ed="#L" n="76"/>eterno eque perfecte couenit omnibus creaturis quando non 
+      <lb ed="#L" n="77"/>sunt sicut quando sunt. quia equae perfecte deus intelligit creatur 
+      <lb ed="#L" n="78"/>ras.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e539">
+      ⁋ Preterea quicquid est omnino immutabile est omnino 
+      <lb ed="#L" n="79"/>necesse esse. sed esse intelligibile conueniens creature 
+      <lb ed="#L" n="80"/>ab eterno est immutabile. quia aliter intelligere diuiuus 
+      <lb ed="#L" n="81"/>esset mutabile. ergo esse intelligibile creature est nece 
+      <lb ed="#L" n="82"/>se esse.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e550">
+      ⁋ Preterea creatura secundum esse suum
+      intelligibi<lb ed="#L" n="83" break="no"/>le ab eterno est magis necessaria quam secundum esse suum in est 
+      <lb ed="#L" n="84"/>fectu. quia esse intelligibile virtute nullius causae potest 
+      <lb ed="#L" n="85"/>non esse. ergo ea secundum esse intelligibile est magis perfecta quae 
+      <lb ed="#L" n="86"/>secundum esse in effectu. sed non est magis perfecta entitate 
+      <lb ed="#L" n="87"/>creature. ergo entitate dei.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e563">
+      ⁋ Preterea tale esse intel 
+      <lb ed="#L" n="88"/>ligibile est aliquid positiuum. et non est ens rationis. nec est 
+      <lb ed="#L" n="89"/>substantia creata. ergo substantia increata. Pro praedictis a 
+      <lb ed="#L" n="90"/>ticulis multa alia dicuntur. sed quia solutis praedictuis ma 
+      <lb ed="#L" n="91"/>nifeste patet solutio omnium aliorum. ideo ipsa causa breuitatis 
+      <lb ed="#L" n="92"/>omitto.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e576">
+      ⁋ Sed ista opinio iaver mihi irrationalis. quia tam 
+      <lb ed="#L" n="93"/>plus constat in vbis quam in re. et verba sunt ad placitum. et 
+      <lb ed="#L" n="94"/>vnusquisque potest vocare esse intelligibile creature sicut 
+      <lb ed="#L" n="95"/>placet. ideo arguere conclusio istam opiniono est arguere ad no 
+      <lb ed="#L" n="96"/>men et non ad re. et propterea breuiter improbo eam. et infe 
+      <lb ed="#L" n="97"/>ro multa inconuenietia ex ea.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e590">
+      ⁋ Unum est quod iste 
+      <lb ed="#L" n="98"/>opinans habet concedere: quod esse creabile creature est 
+      <lb ed="#L" n="99"/>idem realiter cum deo. quia sicut iste ponit quod quia de necesst 
+      <lb ed="#L" n="100"/>tate sequitur si deus est intelligens quod creatura necessa 
+      <lb ed="#L" n="101"/>rio habet esse cognitum et quod esse cognitum creature est idem 
+      <lb ed="#L" n="102"/>realiter cum deo. Et eodem modo sequitur. si deus est creatiuus 
+      <lb ed="#L" n="103"/>quod creatura est creabilis. et quod creatura habet esse
+      crea<lb ed="#L" n="104" break="no"/>bile et per consequens esse creabile creature erit idem realiter 
+      <lb ed="#L" n="105"/>cum deo. Unde inducendo per omnes suas rationes patet quod eque 
+      <lb ed="#L" n="106"/>concludunt quod esse creabile creature est idem realiter cum 
+      <lb ed="#L" n="107"/>deo. sic quod esse intelligibile creature est idem realiter cum 
+      <lb ed="#L" n="108"/>deo. Et hoc manifeste ostendetur soluendo rationes
+      praedi<lb ed="#L" n="109" break="no"/>ctas
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e619">
+      ⁋ Similiter sequeretur quod esse possibile creature esset  
+      <lb ed="#L" n="110"/>idem realiter cum deo. et per consequens quod esse possibile creatfe¬ 
+      <!--516.xml-->
+      <pb ed="#L" n="257-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>esset necesse esse. Prima consequentia patet. quia sicut impossi 
+      <lb ed="#L" n="2"/>bile est formam repraesentare esse nisi sit esse
+      repraesenta<lb ed="#L" n="3" break="no"/>tum: et cognitione esse nisi sit esse cognitum. sic impossi 
+      <lb ed="#L" n="4"/>bile est deum productiuum esse nisi creatura possit esse. 
+      <lb ed="#L" n="5"/>et per consequens nisi creatura habeat esse possibile. et per 
+      <lb ed="#L" n="6"/>consequens si propter praedictam rationem esse repraesentatum et esse
+      co<lb ed="#L" n="7" break="no"/>gnitum creature est idem realiter cum deo. sequeretur equaliter 
+      <lb ed="#L" n="8"/>quod etiam esse possibile creature est deus. Similiter sequitur quod 
+      <lb ed="#L" n="9"/>esse dealbabile corporis esset idem realiter cum deo. Si 
+      <lb ed="#L" n="10"/>militer sequitur quod esse damnabile demonis esset idem
+      rea<lb ed="#L" n="11" break="no"/>liter cum deo. Utramque consequentiam probo per argumentum suum 
+      <lb ed="#L" n="12"/>Nam ipse arguit sic. quicquid sequitur entitatem realem ne 
+      <lb ed="#L" n="13"/>cessitate naturali neccessario est esse reale. sed ad formam 
+      <lb ed="#L" n="14"/>repraesentatiuam necessitate naturali sequitur esse
+      reprae<lb ed="#L" n="15" break="no"/>sentatum et ad cognitionem esse cognitum. ergo etc.
+      Co<lb ed="#L" n="16" break="no"/>dem modo arguo in proposito accipiedo maiorem sic. 
+      <lb ed="#L" n="17"/>uicquid sequitur etc. sed ad deum esse dealbatiuum corporis 
+      <lb ed="#L" n="18"/>necessario sequitur esse dealbabile corporis. et ad deum 
+      <lb ed="#L" n="19"/>esse damnatiuum demonis necessitate naturali sequi 
+      <lb ed="#L" n="20"/>tur esse damnabile demonis. quia sicut consequentia necessaria 
+      <lb ed="#L" n="21"/>sequitur forma est repraesentans. ergo aliquid est repraesentatum. 
+      <lb ed="#L" n="22"/>et similiter sequitur. deus intelligit creaturam. ergo creatura est in 
+      <lb ed="#L" n="23"/>tellecta. Eodem momdo sequitur. deus potest dealbare
+      cor<lb ed="#L" n="24" break="no"/>pus. ergo corpus est dealbabile. et similiter sequitur. deus potest 
+      <lb ed="#L" n="25"/>damnare demonem. ergo demodo est damnabilis. ergo esse
+      deal<lb ed="#L" n="26" break="no"/>babile corporis. et esse damnabile demonis est aliqua en 
+      <lb ed="#L" n="27"/>titas positiua et non dependet ab intellectu non 
+      <lb ed="#L" n="28"/>plus quam esse intelligibile creature. TManifestum est. ergo 
+      <lb ed="#L" n="29"/>est esse reale. et non est aliud esse: reale a potentia dei
+      de<lb ed="#L" n="30" break="no"/>albatiua et damnatiua. quia tunc fuisset aliquod aliud  
+      <lb ed="#L" n="31"/>reale a deo ab eterno
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e697">
+      ⁋ TMulta alia absurda 
+      <lb ed="#L" n="32"/>sequuntur ad istum modum loquendi sic quod esse
+      illumina<lb ed="#L" n="33" break="no"/>bile aeris sit idem realiter cum deo. esse
+      calefacti<lb ed="#L" n="34" break="no"/>bile ligni sit idem realiter cum deo.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e706">
+      ⁋ E vniversaliter sequitur de 
+      <lb ed="#L" n="35"/>quolibet composito ex infinitiuo esse et quaecumque passi 
+      <lb ed="#L" n="36"/>one quae necessario de aliquo praedicatur vere sit
+      dice<lb ed="#L" n="37" break="no"/>re quod sit idem realiter cum deo. quia omnia talia prbant equaliter 
+      <lb ed="#L" n="38"/>ones praedicte sicut conclusione intentam.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e717">
+      ⁋ Ideo aliter
+      di<lb ed="#L" n="39" break="no"/>co. Et primo videndum est quodo perfectiones
+      creatura<lb ed="#L" n="40" break="no"/>rum continentur in deo. Secundo quomodo distinguebantur ab et 
+      <lb ed="#L" n="41"/>non. Tertio dicenda sunt aliqua praanbula ad
+      solutio<lb ed="#L" n="42" break="no"/>nes argumentorum
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e728">
+      ⁋ Circa primum dico quod idem est
+      di<lb ed="#L" n="43" break="no"/>cere perfectiones creaturarum contineri in deo. et ipsas 
+      <lb ed="#L" n="44"/>creaturas contineri in deo. Unde non non est ymaginam 
+      <lb ed="#L" n="45"/>dum quod differentia sit inter perfectionem creature et
+      creatu<lb ed="#L" n="46" break="no"/>ram ipsam. quasi aliter possit perfectio creature esse in deo 
+      <lb ed="#L" n="47"/>quam creatura ipsa. quia si sit aliqua talis distinctio inter
+      per<lb ed="#L" n="48" break="no"/>fectionem creature et ipsam creaturam. vocetur illa 
+      <lb ed="#L" n="49"/>perfectio lapidis a. tunc quaero quomodo a dicitur perfecto laps 
+      <lb ed="#L" n="50"/>dis: aut quia est eadem res cum lapide: ita quod hoc sit
+      co<lb ed="#L" n="51" break="no"/>structio intransitiua. perfectio lapidis est in deo hoc est 
+      <lb ed="#L" n="52"/>aliqua perfectio quae est lapis est in deo. Aut dicitur perfectio 
+      <lb ed="#L" n="53"/>lapidis quia est forma lapidis. Aut a dicitur perfecto la 
+      <lb ed="#L" n="54"/>pidis quia et causa lapidis. Aut quia est similitudo lapidis 
+      <lb ed="#L" n="55"/>Si detur primum. habet propositum. Secundum dari non potest. 
+      <!--516.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 257-r -->
+               <lb ed="#L" n="56"/>quia non magis est forma lapidis in deo quam
+      ma<lb ed="#L" n="57" break="no"/>teria lapidis. Nec potest dari tertium. quia tunc idem esset 
+      <lb ed="#L" n="58"/>dicere. perfectio lapidis est in deo et causa
+      lapi<lb ed="#L" n="59" break="no"/>dis est in deo. Et tunc si concedatur quod perfectiones 
+      <lb ed="#L" n="60"/>creaturarum sunt in deo. debet concedi quod cause 
+      <lb ed="#L" n="61"/>creaturarum sunt in deo quod est inconuenies. Idem 
+      <lb ed="#L" n="62"/>potest argui si detur similitudo lapidis aliquid quodcumque 
+      <lb ed="#L" n="63"/>aliud a lapide. Sic ergo patet quod idem est perfectiones 
+      <lb ed="#L" n="64"/>creaturarum contineri in deo a creaturas contine 
+      <lb ed="#L" n="65"/>ri in deo. sed creature non continentur in deo formaliter 
+      <lb ed="#L" n="66"/>subiectiue: sed tantum obiectiue. ideo formaliter et
+      subie<lb ed="#L" n="67" break="no"/>ctiue: vel actualiter non ibidem continetur perfectiones 
+      <lb ed="#L" n="68"/>creaturarum. sed sicut creature continentur in deo tamquam 
+      <lb ed="#L" n="69"/>obiecta cognita. et sicut effectus producibiles
+      co<lb ed="#L" n="70" break="no"/>tinentur in sua causa. et sicut imperfectiora continentur 
+      <lb ed="#L" n="71"/>in perfectiori. ita illis modis perfectiones creatura 
+      <lb ed="#L" n="72"/>rum continentur in deo. Sed intelligendum est quod conti 
+      <lb ed="#L" n="73"/>neri in deo sicut obiectum cognitum non est aliud quam 
+      <lb ed="#L" n="74"/>cognosci a deo. et ideo iste lapis qui est cognitus a 
+      <lb ed="#L" n="75"/>deo. isto modo continetur in deo quod nullo modo est deus. 
+      <lb ed="#L" n="76"/>et isto modo si esset vsitatus modus loquendi vere pos 
+      <lb ed="#L" n="77"/>set dici quod albedo in pariete existens est vel contine 
+      <lb ed="#L" n="78"/>tur in oculo. quia videtur ab oculo meo. Et simiter 
+      <lb ed="#L" n="79"/>contineri in deo virtualiter id est sicut effectus producibilis. 
+      <lb ed="#L" n="80"/>nihil aliud est quam produci vel posse produci a deo. 
+      <lb ed="#L" n="81"/>et ideo ille lapis qui productus est extra vel potest produci cui 
+      <lb ed="#L" n="82"/>repugnat omnino in deo esse formaliter et
+      subiecti<lb ed="#L" n="83" break="no"/>ue: continetur in deo virtualitur. et nihil aliud quam
+      ta<lb ed="#L" n="84" break="no"/>le cui omnino repugnat esse deum
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e829">
+      ⁋ Preterea.
+      contine<lb ed="#L" n="85" break="no"/>ri eminentur nihil aliud est quam esse vnum eminentius 
+      <lb ed="#L" n="86"/>et perfectius illo quod continetur. et ideo. quia deus non est perfe 
+      <lb ed="#L" n="87"/>ctior quocumque quod est in eo formaliter et subiectiue 
+      <lb ed="#L" n="88"/>sed tantum est perfectior creaturis quae non sunt deus nec rea 
+      <lb ed="#L" n="89"/>liter nec formaliter. ideo solum creature tales continentur 
+      <lb ed="#L" n="90"/>eminenter in deo
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e845">
+      ⁋ Ex praedictis patet. quod nihil potest con 
+      <lb ed="#L" n="91"/>tineri eminenter in deo vel virtualiter nisi sit aliud  
+      <lb ed="#L" n="92"/>a deo. et ideo perfectiones creaturarum contente in deo 
+      <lb ed="#L" n="93"/>eminenter vel virtualitur nullo modo sunt deus realiter 
+      <lb ed="#L" n="94"/>plus quam iste asinus productus ex est deus. Ueruntamen aliquod 
+      <lb ed="#L" n="95"/>contentum in deo sicut obiectum cognitum est deus 
+      <lb ed="#L" n="96"/>realiter. sed non est nisi ipse et aliqua per sonalis relatio. 
+      <lb ed="#L" n="97"/>quod non potest dici perfectio creature nisi perfectio
+      cre<lb ed="#L" n="98" break="no"/>ature vocetur ca creature.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e865">
+      ⁋ Ex praedictis satis posset 
+      <lb ed="#L" n="99"/>patere quod in praedicta quaestione quantum ad istum articu 
+      <lb ed="#L" n="100"/>lum non est magis difficultas nisi propter modum
+      lo<lb ed="#L" n="101" break="no"/>quendi. Nam sancti dicunt omnia esse in deo. et accipiunt 
+      <lb ed="#L" n="102"/>ab apostolo. Esse autem in: videtur importare 
+      <lb ed="#L" n="103"/>aliud esse in alio tanquam ibi realiter existens. Et ita 
+      <lb ed="#L" n="104"/>quod creature et perfectiones creaturarum fuerunt in deo 
+      <lb ed="#L" n="105"/>tanquam aliqua ibi vere existentia. Sed isto modo essendi in 
+      <lb ed="#L" n="106"/>non vtuntur sancti quae dicunt omnia esse in deo. sed esse in apud  
+      <lb ed="#L" n="107"/>eos in tali propositione significat idem quod cognosci. vel 
+      <lb ed="#L" n="108"/>idem quod produci vel posse produci. ita quod ista propositio 
+      <lb ed="#L" n="109"/>mnia sunt in deo equiualet huic secundum intetione scorum 
+      <lb ed="#L" n="110"/>omnia sunt cognita a deo. vel isti. omnia sunt produ 
+      <!--517.xml-->
+      <pb ed="#L" n="257-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cta vel producibilia a deo. Unde quod esse in in multis 
+      <lb ed="#L" n="2"/>auc. secundum eos significet idem quod esse ab eo. et maxime 
+      <lb ed="#L" n="3"/>in auc. apstori. patet per beatum ambrosium et magistrum sen 
+      <lb ed="#L" n="4"/>tentiarum. lid est dis. xxxvi. allegantem abrosiu. Unde dicit 
+      <lb ed="#L" n="5"/>sic mgratir. Si diligenter inspiciamus videtur idem esse. omnia 
+      <lb ed="#L" n="6"/>esse ex deo at per ipsum. et in ipso. Unde abro. li. iii di spiritus sancti 
+      <lb ed="#L" n="7"/>hec tria ex ipso. et per ipsum. et in ipso sunt: omnia vnum esse 
+      <lb ed="#L" n="8"/>supra diximus. et sequitur eandem vim habent hec omnia. scilicet in 
+      <lb ed="#L" n="9"/>prio. et ex ipso. et per ipsum. et sequitur. Ecce habens quod ex 
+      <lb ed="#L" n="10"/>vna et eadem intelligentia scriptura dicit omnia esse in 
+      <lb ed="#L" n="11"/>ipso. et per ipsum. et ex ipso. vel cum ipso. Similiter quod
+      frequen<lb ed="#L" n="12" break="no"/>ter omnia esse in deo accipitur pro cognosci a deo. patet per 
+      <lb ed="#L" n="13"/>eundem vbi supra dis. xxxv. Unde post auc.
+      augusti<lb ed="#L" n="14" break="no"/>ni dicit sic. hoc etiam apit augustinus ex qua intelligen 
+      <lb ed="#L" n="15"/>tia sunt accipienda huiusmodi verba. omnia deo praesentia sunt. in 
+      <lb ed="#L" n="16"/>deo sunt omnia vel cum deo vel apud deum. vel in eo
+      vita<lb ed="#L" n="17" break="no"/>qui ineffabilis omnium in eo cognitio in ipso est. et ita
+      ma<lb ed="#L" n="18" break="no"/>nifeste patet. quod creature non sunt in deo nisi quia
+      cogno<lb ed="#L" n="19" break="no"/>scuntur a deo vel quia producuntur a deo vel saltem possunt
+      pro<lb ed="#L" n="20" break="no"/>duci.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e943">
+      ⁋ Secundo videndum est quomodo perfectiones creatu 
+      <lb ed="#L" n="21"/>rarum distinguuntur a deo. Circa quod dico quod numquam 
+      <lb ed="#L" n="22"/>fuerunt realiter idem cum deo. hoc patet. quia illud quod potest 
+      <lb ed="#L" n="23"/>non esse idem realiter cum aliquo numquam est idem realiter cum eo 
+      <lb ed="#L" n="24"/>dem. quia impossibile est quod aliquid fiat aliud a se. sed
+      perfe<lb ed="#L" n="25" break="no"/>ctiones creaturarum si producantur extra non sunt idem
+      rea<lb ed="#L" n="26" break="no"/>liter cum deo. ergo ab etno non sunt idem realiter cum deo. ergo 
+      <lb ed="#L" n="27"/>etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e961">
+      ⁋ Secundo dico quod non distinguebantur ab eterno 
+      <lb ed="#L" n="28"/>realiter a deo. hoc patet. quia illud quod non est aliquid reale 
+      <lb ed="#L" n="29"/>non potest ab aliquo distingui realiter. sed creature non 
+      <lb ed="#L" n="30"/>fuerunt ab etno aliqua realiter. ergo non distinguebantur ab 
+      <lb ed="#L" n="31"/>eterno a deo realiter.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e972">
+      ⁋ Perer idem patet. quod non
+      distingue<lb ed="#L" n="32" break="no"/>bantur realiter inter se ab etrno. quia non fuerunt aliqua
+      rea<lb ed="#L" n="33" break="no"/>lia.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e980">
+      ⁋ Et si quaeratur. an fuerunt idem realiter.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e983">
+      ⁋ Dicendum 
+      <lb ed="#L" n="34"/>est quod non. quia hoc est verum quod quaecumque possunt pro quocumque instam 
+      <lb ed="#L" n="35"/>ti distingui realiter numquam sunt idem realiter. sed perfectiones 
+      <lb ed="#L" n="36"/>creaturarum quando producuntur extra a deo distinguuntur
+      rea<lb ed="#L" n="37" break="no"/>liter. ergo impossibile est quod sint idem realiter
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e994">
+      ⁋ Ex praedictis 
+      <lb ed="#L" n="38"/>patbet ad formam. q. quod perfectiones creaturarum
+      conten<lb ed="#L" n="39" break="no"/>te in deo non distinguebantur ab eterno realiter. nec a 
+      <lb ed="#L" n="40"/>deo nec inter se. nec etiam fuerunt idem realiter. nec cum 
+      <lb ed="#L" n="41"/>deo. nec inter se.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1005">
+      ⁋ Circa tertium propter solutiones
+      ar<lb ed="#L" n="42" break="no"/>gumentorum est sciendum quod esse potest multipliciter accipi 
+      <lb ed="#L" n="43"/>vel pro esse existere. vel pro esse quod couertitur cum 
+      <lb ed="#L" n="44"/>ente cui non repugnat esse in rerum natura. sed sic 
+      <lb ed="#L" n="45"/>non est multum vsitatum. Uel in propositione accipitur secundum 
+      <lb ed="#L" n="46"/>quod est compula vniens praedicatum cum subiecto. Secundo 
+      <lb ed="#L" n="47"/>sciendum quod hoc quod dico esse sequitur aliquando geniti 
+      <lb ed="#L" n="48"/>uus casus sicut si dicam. esse creature. vel esse dei 
+      <lb ed="#L" n="49"/>vel esse hominis. Aliquando sequitur ipsum casus accusati 
+      <lb ed="#L" n="50"/>uus. sic dicendo. esse animal. esse album. esse cognitum 
+      <lb ed="#L" n="51"/>Si primo modo accipitur. semper tale esse nisi forte ratione 
+      <lb ed="#L" n="52"/>adiucti. accipitur significatiue et supponit pro esse 
+      <lb ed="#L" n="53"/>existere. vel saltem pro aliquo cui non repugnat esse 
+      <lb ed="#L" n="54"/>in rerum natura. Si accipitur secundo modo  
+      <lb ed="#L" n="55"/>sic vel sequitur ipsum. nomen substantiuum vel 
+      <!--517.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 257-v -->
+               <lb ed="#L" n="56"/>adiectiuum. si primo modo. semper accipitur
+      mate<lb ed="#L" n="57" break="no"/>rialiter. vel est compula vniens extremum vnum cum alio 
+      <lb ed="#L" n="58"/>quia sic est dictu vnius propositionis et semper debet expri 
+      <lb ed="#L" n="59"/>mi aliquid ante hoc verbum esse infinitiui modi. vesl 
+      <lb ed="#L" n="60"/>subintelligi. sicut si dicam. esse animal. debet subin 
+      <lb ed="#L" n="61"/>telligi. sortem esse animal. vel hominem esse animal. vel ali 
+      <lb ed="#L" n="62"/>quid huiusmodi. Et tunc est talis proposito distinguenda si 
+      <lb ed="#L" n="63"/>sequitur talis modus. scilicet verum vel possibile.
+      neces<lb ed="#L" n="64" break="no"/>sarium contingens falsum. et huiusmodi. qui etiam de
+      propo<lb ed="#L" n="65" break="no"/>sitionibus verificatur. et hoc secundum compositionem et
+      diui<lb ed="#L" n="66" break="no"/>sionem. In sensu composito illud totum supponit pro 
+      <lb ed="#L" n="67"/>vna propositione. In sensu diuiso est vna compula 
+      <lb ed="#L" n="68"/>vniens praedicatum cum subiecto. Si autem sequitur
+      ali<lb ed="#L" n="69" break="no"/>quid aliud quam tale praedicatum. sicut homo vel asinus vel ali 
+      <lb ed="#L" n="70"/>quid tale. semper dictum tale materialiter supponit pro 
+      <lb ed="#L" n="71"/>vna propositione. sicut in ista. hominem esse animal est deus.
+      si<lb ed="#L" n="72" break="no"/>gnificatur quod hec propositio. homo est animal est deus. et per istam 
+      <lb ed="#L" n="73"/>sortem esse album est homo. significatur quod hec proposito
+      sor<lb ed="#L" n="74" break="no"/>tes est albus sit homo. et sic de aliis. Unde de hoc verbo 
+      <lb ed="#L" n="75"/>esse quando ipsum sequitur substantiuum est vniformiter
+      di<lb ed="#L" n="76" break="no"/>cendum et de verbo adiectiuo. Si autem hoc verbum esse 
+      <lb ed="#L" n="77"/>sequitur adiectiuum. tunc distinguendum est. aut scilicet sncnt 
+      <lb ed="#L" n="78"/>esse accipitur puresignificatiue vt non sit compula. 
+      <lb ed="#L" n="79"/>nec supponat materialiter. nec sit pars supponentur 
+      <lb ed="#L" n="80"/>materialiter. Aut accipitur primo modo. illo scilicet modo 
+      <lb ed="#L" n="81"/>quo accipitur quando ipsum sequitur nomen substantiuum. Si 
+      <lb ed="#L" n="82"/>secundo modo. sic dicendum est per omnia sicut de illo. Si acci 
+      <lb ed="#L" n="83"/>pitur primo modo. sic est vnus terminus compositus ex
+      adie<lb ed="#L" n="84" break="no"/>ctiuo et substantiuo tanquam ex determinatione et deter 
+      <lb ed="#L" n="85"/>minabili. sicut est iste terminus homo albus. et tunc si esse 
+      <lb ed="#L" n="86"/>sit idem quod esse existere. ad veritatem talis propositionis 
+      <lb ed="#L" n="87"/>vbi praedicatur aliquod predicatum de tali composito ex 
+      <lb ed="#L" n="88"/>esse et tali alia determinatione. requiritur quod praedicatum 
+      <lb ed="#L" n="89"/>vere praedicetur de vtraque parte. et quod vna pars vere
+      di<lb ed="#L" n="90" break="no"/>catur de alia. sicut ad veritatem illius. homo albus est animal. 
+      <lb ed="#L" n="91"/>requiritur veritas istarum trium propositionum. homo est animal: album 
+      <lb ed="#L" n="92"/>est animal. homo est albus. Si aut esse sit idem quod ens cui 
+      <lb ed="#L" n="93"/>non repugnat esse in rerum natura. quamuis isto modo 
+      <lb ed="#L" n="94"/>non accipiatur ab auctoribus et maxime sanctis. quamuis 
+      <lb ed="#L" n="95"/>aliqua improprie sic loquuntur. tunc consimiliter est dicendum sicut 
+      <lb ed="#L" n="96"/>nunc dictum est quando est idem cum esse existere.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1133">
+      ⁋ Ad primum 
+      <lb ed="#L" n="97"/>argumentum pro alia opinio dico quod non est intentio beati 
+      <lb ed="#L" n="98"/>ohannis. quod illud quod factum est ex a deo vnquam fuerit 
+      <lb ed="#L" n="99"/>in deo realiter vita. sed est intentio sua quod causa productiua ip 
+      <lb ed="#L" n="100"/>ius et quod cognitio qua cognoscitur et qua dicebatur intelligi 
+      <lb ed="#L" n="101"/>fuerit in deo vita. quia fuit et est ipsa diuina essentia 
+      <lb ed="#L" n="102"/>Unde quod ista sit intentio illius auc. et aliarum
+      auctori<lb ed="#L" n="103" break="no"/>tatum patet per <ref xml:id="wo8uy7-d1e1645-Rd1e1150">magistrum senten. lid est dis. xxxv.</ref> vbi dicit 
+      <lb ed="#L" n="104"/>sic.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1156">
+      Preterea omnia dicuntur esse in deo et fuisse ab etno. 
+      <lb ed="#L" n="105"/>Unde <ref xml:id="wo8uy7-d1e1645-Rd1e1160">aug. super gene. lit v. c. vii.</ref> 
+               <quote xml:id="wo8uy7-d1e1645-Qd1e1163">hoc visibilia inquat anquam 
+      <lb ed="#L" n="106"/>fierent non erant. quo ergo deo nota erant. Et rursum 
+      <lb ed="#L" n="107"/>quo ea faceret quae sibi nota erant. non enim quiecquam
+      igi<lb ed="#L" n="108" break="no"/>rans fecit. nota ergo fecit non fctam cognouit. proide an 
+      <lb ed="#L" n="109"/>quam fierent. et erant et non erant. erant in dei scientia. et non 
+      <lb ed="#L" n="110"/>erant in sui natura. Ipsi autem deo non audeo dicere 
+      <!--518.xml-->
+      <pb ed="#L" n="258-r"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>alio modo innotuisse quam illo modo quo ea nouit vt
+      fa<lb ed="#L" n="2" break="no"/>ceret. <quote xml:id="wo8uy7-d1e1645-Qd1e1186" source="http://scta.info/resource/iac1_17">apud quem non est transmutatio nec
+      vicissitu<lb ed="#L" n="3" break="no"/>dinis obumbratio</quote>.</quote> Ista est auc. aug. allegata a 
+      <lb ed="#L" n="4"/>
+               <ref xml:id="wo8uy7-d1e1645-Rd1e1194" target="http://scta.info/resource/pll1d35c9-d1e3504" synch="5-84">magistro</ref>. Ex quae infert magister dicens. <quote xml:id="wo8uy7-d1e1645-Qd1e1198" source="http://scta.info/resource/pll1d35c9-d1e3504" synch="85-96">Ecce habes quod hoc 
+        <lb ed="#L" n="5"/>visibilia antequam fierent in dei scientia erant</quote>. <quote xml:id="wo8uy7-d1e1645-Qd1e1203" source="http://scta.info/resource/pll1d35c9-d1e3531" synch="1-43">Ex hoc ergo sensu 
+      <lb ed="#L" n="6"/>omnia dicuntur esse in deo. et omne quod factum est dicitur esse vita in 
+      <lb ed="#L" n="7"/>ipso. non ideo quia creator sit creatura vel quia ista
+      tempora<lb ed="#L" n="8" break="no"/>lia essentialiter sunt in deo. sed quia in eius semper sunt scientia: quae
+      vi<lb ed="#L" n="9" break="no"/>ta est</quote>. Ecce hoc habere expresse quod creature non sunt in deo 
+      <lb ed="#L" n="10"/>essentialiter. sed sunt in deo sicut obiecta cognita et quod ips 
+      <lb ed="#L" n="11"/>sa non sunt vita in deo. sed quod scientia in quafuerunt tamquam obie 
+      <lb ed="#L" n="12"/>cta cognita est in deo vita.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1222">
+      ⁋ Per idem ad secundum de 
+      <lb ed="#L" n="13"/>aug. dico quod ipse deus est quae est omnia quae hoc varie quaris. causa 
+      <lb ed="#L" n="14"/>liter non realiter per realem identitatem hoc est. deus es causa omnium 
+      <lb ed="#L" n="15"/>non tamen est aliquid aliud a se nec est aliqua creatura quan 
+      <lb ed="#L" n="16"/>hoc quaris. Et quod hoc sit intentio sua patet per eundem in eadem 
+      <lb ed="#L" n="17"/>auc. quia dicit in creaturis aliquid deest quod laudemus 
+      <lb ed="#L" n="18"/>in creatore nihil deesse potest. quod quia inuenis in
+      crea<lb ed="#L" n="19" break="no"/>tura a creatore artifice processit. Et ideo idem intelli 
+      <lb ed="#L" n="20"/>gendum est apude aug. in proposito. id quod inuenis in crea 
+      <lb ed="#L" n="21"/>tura esse in deo a procedere a deo. Et eodem modo quando 
+      <lb ed="#L" n="22"/>dicit laudent ergo creatorem eius. totum ibi est quod hoc ex sin 
+      <lb ed="#L" n="23"/>gulis partibus iuenitur. debet intelligi quod totum ibi est causaliter 
+      <lb ed="#L" n="24"/>hoc est. ibi est causa eius. quod hoc ex partibus singuul inuenitur. et ip 
+      <lb ed="#L" n="25"/>se solus sufficiens est sine omni creatura. Et maxime 
+      <lb ed="#L" n="26"/>pro tanto dicunt sancti talia verba frequentur. vt alios 
+      <lb ed="#L" n="27"/>alliciant ad dei laudem. etiam vt in nullo alio a deo 
+      <lb ed="#L" n="28"/>quarant delectationem vel consolationem siue auxilium si 
+      <lb ed="#L" n="29"/>ue quodcumque aliud a deo. quae est causa omnium causarum. et omnium de 
+      <lb ed="#L" n="30"/>lectabilium et vtilium. et omnium effectum eorum poteris 
+      <lb ed="#L" n="31"/>expectare et accipere. quia ipse omnia est. hoc est. ipse causa
+      imme<lb ed="#L" n="32" break="no"/>diate tribuens omnia. et etiam si sibi placet nullo alio 
+      <lb ed="#L" n="33"/>concurrente.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1270">
+      ⁋ Per idem ad aliam auc. dico quod augi 
+      <lb ed="#L" n="34"/>loquens in persona dei ait. ego ero omnia quaecumque hone 
+      <lb ed="#L" n="35"/>ste ab homibus desiderantur. ita causaliter scilicet omnia tribuens. 
+      <lb ed="#L" n="36"/>et ideo dicit vita scilicet ero tribuens vitam pacem salutem.
+      ver<lb ed="#L" n="37" break="no"/>tutem gloriam et honorem. et etiam ero tribuens omnia bo 
+      <lb ed="#L" n="38"/>na quae honeste desiderari possunt.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1283">
+      ⁋ Ad aliud per idem 
+      <lb ed="#L" n="39"/>dicente domino mo vsi. ostendam tibi omne bonum. voluit 
+      <lb ed="#L" n="40"/>dare intelligere quod fuit ostensurus sibi causam omnis
+      bo<lb ed="#L" n="41" break="no"/>ni. et quae potest in omnem effectum in quem potest quodcumque bo 
+      <lb ed="#L" n="42"/>num: et ideo est in eo omnis boni plenitudo. non quod omne bo 
+      <lb ed="#L" n="43"/>num sit idem realiter cum deo sed quia deus est causa omnis boni. 
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1296">
+               <lb ed="#L" n="44"/>⁋ Ad aliud dico quod secundum intentionem dionisii omnium
+      re<lb ed="#L" n="45" break="no"/>rum perfectiones vnitiue continentur in deo. quia per hoc non 
+      <lb ed="#L" n="46"/>aliud intelligit nisi quod deus per vnicam perfectionem sim 
+      <lb ed="#L" n="47"/>plicissimam scilicet ipsam deitate est perfectior omnibus aliis 
+      <lb ed="#L" n="48"/>et per eandem omnia alia cognoscit per quam etiam omnium produ 
+      <lb ed="#L" n="49"/>ctorum est causa. Et pro ista itentione sunt exempla dionisii. 
+      <lb ed="#L" n="50"/>qui numeri non sunt in monade realiter sed ideo dicuntur esse in 
+      <lb ed="#L" n="51"/>monade. quia est principium omnis numeri. Ita dicuntur cre 
+      <lb ed="#L" n="52"/>ature esse in deo non quidem realiter et essentialiter tamquam eedem 
+      <lb ed="#L" n="53"/>realiter cum deo. sed dicuntur esse in deo. quia est principium omnium 
+      <lb ed="#L" n="54"/>productorum. Similiter linee vniuntur in cetro. non quia sunt 
+      <lb ed="#L" n="55"/>ibi sed quia centrum est principium vel terminus omnium earum. ita 
+      <!--518.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 258-r -->
+               <lb ed="#L" n="56"/>dicuntur alia esse in deo. quia est principium omnium 
+      <lb ed="#L" n="57"/>aliorum
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1335">
+      ⁋ Ad aliund quod dionisius vult quod deus est 
+      <lb ed="#L" n="58"/>vita viuentium causaliter. hoc est deus est causa vite
+      vi<lb ed="#L" n="59" break="no"/>uentium. et hoc manifeste insinuat exponendo se 
+      <lb ed="#L" n="60"/>per illud quod subdit. domins omnis vite substantie
+      princi<lb ed="#L" n="61" break="no"/>pium et causa supplet ipsius in esse adductiuam et conte 
+      <lb ed="#L" n="62"/>tiuam bonitatem. innuens quod quia deus habet bonitatem 
+      <lb ed="#L" n="63"/>otentiuam sicut causa. et adductiuam entium ad esse ex 
+      <lb ed="#L" n="64"/>tra propter hoc est omnis vite principium et causa. et pro
+      tan<lb ed="#L" n="65" break="no"/>to dicitur quod est viuentium vita.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1355">
+      ⁋ Ad anselmum.
+      di<lb ed="#L" n="66" break="no"/>co quod ipse et alii sancti frequenter loquuntur
+      me<lb ed="#L" n="67" break="no"/>thaphorice et improprie. et hoc propter diuersas cau 
+      <lb ed="#L" n="68"/>sas. et sic fecit anse. in proposito. Unde de virtute 
+      <lb ed="#L" n="69"/>sermonis ista non est concedenda. quod creatura in deo 
+      <lb ed="#L" n="70"/>est creatrix essentia. quia creatura in deo est crea 
+      <lb ed="#L" n="71"/>tura quae nullo modo est creatrix essentia. Et ideo dico 
+      <lb ed="#L" n="72"/>quod ans. intelligit et accipit per creaturam in deo
+      cau<lb ed="#L" n="73" break="no"/>sam productiuam creature. et illa non est nisi creatrii 
+      <lb ed="#L" n="74"/>essentia. sed illa non est creatura nec perfectio crea 
+      <lb ed="#L" n="75"/>ture: nisi quia efficit vel causat perfectionem
+      creatu<lb ed="#L" n="76" break="no"/>re. Unde sicut sancti dicunt quod deus est leo. ignis
+      la<lb ed="#L" n="77" break="no"/>pis. terra. et sic de aliis. quae tamen non sunt proprie dicta 
+      <lb ed="#L" n="78"/>secundum beatum Augustinum. ita dicunt quod deus est
+      crea<lb ed="#L" n="79" break="no"/>tura in deo. et quod est omne bonum. et sic de aliis. quae non 
+      <lb ed="#L" n="80"/>sunt intelligenda sicut sonant. quia hoc est
+      contradi<lb ed="#L" n="81" break="no"/>cere menti dicentium. sed debent intelligi secundum mentem 
+      <lb ed="#L" n="82"/>sanctorum qui non intelligunt nisi quod deus est causa 
+      <lb ed="#L" n="83"/>omnium aliorum. opesis. omnia prospiciens. et cognoscens. es 
+      <lb ed="#L" n="84"/>omnibus aliis in infinitum perfectius et eminentius. a 
+      <lb ed="#L" n="85"/>quo est omne bonum. et sine quo factum est nihil. et 
+      <lb ed="#L" n="86"/>isto modo intelligende sunt auctoritates sactorum 
+      <lb ed="#L" n="87"/>de ista materia. et sicut patet intuenti sic eas expo 
+      <lb ed="#L" n="88"/>nit mgitur senten. li iest dis. xxxv. et. xxxvi. Et quod
+      di<lb ed="#L" n="89" break="no"/>citur postea quod esse repraesentatiuum creature est idem 
+      <lb ed="#L" n="90"/>cum forma repraesentante. et esse cognitum est idem
+      rea<lb ed="#L" n="91" break="no"/>liter cum cognitione. Uerum non est. et huius ratio est. nam hoc 
+      <lb ed="#L" n="92"/>esse cognitum creature. led esse ibi non potest stare si 
+      <lb ed="#L" n="93"/>cut stat in dicto propositionis. quia non potest assignari
+      pro<lb ed="#L" n="94" break="no"/>positio cuius potest esse dictu. et ideo oportet quod stet pro esse 
+      <lb ed="#L" n="95"/>existere. vel pro esse cui non repugnat esse in rerum 
+      <lb ed="#L" n="96"/>natura. sed siue sic siue sic. omnes tales sunt false. 
+      <lb ed="#L" n="97"/>Nam si in ista esse repraesentatum creature est idem cum deo 
+      <lb ed="#L" n="98"/>lod esse stet pro esse existere. ortet quod ad veritatem illius 
+      <lb ed="#L" n="99"/>propositionis omnes ille sint vere. quod esse creature sit reprae 
+      <lb ed="#L" n="100"/>sentatiuum. quod esse creature sit idem realitericum deo. et 
+      <lb ed="#L" n="101"/>quod repraesentatum sit idem realiter cum deo. sicut ad verita 
+      <lb ed="#L" n="102"/>te illius. anima intellectiva sortis est forma: requiruntur 
+      <lb ed="#L" n="103"/>omnes iste scilicet quod anima sit forma. quod anima sit intellectiua 
+      <lb ed="#L" n="104"/>et quod aliquod intellectiuum sit forma. et hoc propter
+      impli<lb ed="#L" n="105" break="no"/>catione importatam per talem propositionem. cuius extremum 
+      <lb ed="#L" n="106"/>componitur ex tali determinatione vel determinationibus 
+      <lb ed="#L" n="107"/>et determinabili. et est manifeste notum exercitatis 
+      <lb ed="#L" n="108"/>in logica. Sed in proposito haec est fla. esse existere cre 
+      <lb ed="#L" n="109"/>ature est idem realiter cum deo ab eteno. tum quia non fuit 
+      <lb ed="#L" n="110"/>ab eteno. et per consequens non fuit deus ab eteno. Tum quia esse 
+      <!--519.xml-->
+      <pb ed="#L" n="258-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>existere creature. vel est realiter ipsa creatura velem 
+      <lb ed="#L" n="2"/>aliquid in creatura quorum neutrum est idem realiter cum 
+      <lb ed="#L" n="3"/>deo. Similiter hoc est falsa aliquod repraesentatum est deus realiter 
+      <lb ed="#L" n="4"/>qui deus secundum eos non est repraesentatus. sed repraesentans 
+      <lb ed="#L" n="5"/>Eodem modo modo est haec falsa. esse existere cognitum
+      creatu<lb ed="#L" n="6" break="no"/>re est idem realiter cum deo. quia implicatur quod esse existere cre 
+      <lb ed="#L" n="7"/>ature sit idem cum deo propter idem si esse ibi stet pro omni il 
+      <lb ed="#L" n="8"/>lo cui non repugnat esse in rerum natura. adhuc est 
+      <lb ed="#L" n="9"/>talsa. quia hoc est sia. esse creature est idem realiter cum deo 
+      <lb ed="#L" n="10"/>Nam esse creature non potest esse aliud a creatura 
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1484">
+               <lb ed="#L" n="11"/>⁋ Ad primum in contrarium dico quod esse repraesentatum cre 
+      <lb ed="#L" n="12"/>ature non est entitas positiua. sicut nec ipsa creatu 
+      <lb ed="#L" n="13"/>ra ab eteno est entitas positiua.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1493">
+      ⁋ Et si dicatur esse 
+      <lb ed="#L" n="14"/>repraesentatum creature est aliquid aut nihil. si aliquid 
+      <lb ed="#L" n="15"/>et non nisi positiuum. habet propositum. Si nihil. ergo nihil 
+      <lb ed="#L" n="16"/>a deo repraesentatur. ergo deus nihil repraesentat.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1502">
+      ⁋ Ad 
+      <lb ed="#L" n="17"/>illud dico quod idem argumentum est de creatura ad
+      pro<lb ed="#L" n="18" break="no"/>bandum quod creatura fuit ab etno entitas realis et 
+      <lb ed="#L" n="19"/>positiua. quia deus ab eteno intellexit creaturam vel 
+      <lb ed="#L" n="20"/>creabilem. tunc quaero. aut illud creabile fuit aliquid 
+      <lb ed="#L" n="21"/>vel nihil. Si aliquid. habet propositum. si nihil. ergo deus 
+      <lb ed="#L" n="22"/>nihil aliud a se intellexit ab eteno. et per consequens nec 
+      <lb ed="#L" n="23"/>modo intelligit aliud a se. quia nihil modo intelligit quod 
+      <lb ed="#L" n="24"/>non intellexerat ab etno
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1522">
+      ⁋ Ideo dico quod nihil mul 
+      <lb ed="#L" n="25"/>tipliciter accipitur. Uno modo sincathegoreumatice. 
+      <lb ed="#L" n="26"/>et sic est vnum signum vniversale negatiuum includens suum
+      di<lb ed="#L" n="27" break="no"/>stribuibile secundum modum loquendi logicorum sicut dici 
+      <lb ed="#L" n="28"/>mus nihil currit. nihil est intelligens. Alio modo
+      ac<lb ed="#L" n="29" break="no"/>cipitur: cathegoreumatice pro aliquo quod dicitur vnum 
+      <lb ed="#L" n="30"/>nihil. Et hoc potest accipi dupliciter. quia vno modo nihil ac 
+      <lb ed="#L" n="31"/>cipitur. et dicitur illud quod non est realiter. nec habet aliquod esse 
+      <lb ed="#L" n="32"/>reale. Et isto modo dicendum est quod angelus ab etrno fuit 
+      <lb ed="#L" n="33"/>nihil. quia nullum esse reale habuit ab etno. quia
+      nul<lb ed="#L" n="34" break="no"/>lum esse fuit ab etno nisi solus deus. Aliter accipitur
+      ni<lb ed="#L" n="35" break="no"/>hil pro illo quod non tantum non habet esse reale sed etiam
+      si<lb ed="#L" n="36" break="no"/>bi repugnat esse reale. et isto modo dicimus quod
+      chy<lb ed="#L" n="37" break="no"/>mera est nihil. et sic non fuit homo nihil ab etrno. quia 
+      <lb ed="#L" n="38"/>numquam sibi repugnabat esse in rerum natura Primo  
+      <lb ed="#L" n="39"/>modo loquuntur sancti de nihilo vt frequentius. Dico 
+      <lb ed="#L" n="40"/>ergo quod esse repraesentatum vel esse cognitum creature ab 
+      <lb ed="#L" n="41"/>eterno fuit nihil primo modo accipiendo vel cathego 
+      <lb ed="#L" n="42"/>reumatice non secundo modo. et ideo non infert istam quod nihil 
+      <lb ed="#L" n="43"/>fuit repraesentatum a deo. quia in consequente secundum modum
+      lo<lb ed="#L" n="44" break="no"/>quendi communem nihil accipitur
+      sincathegoreumati<lb ed="#L" n="45" break="no"/>ce. et secundum quod suum distribuibile est illud cui non repu 
+      <lb ed="#L" n="46"/>gnaret esse. tamen gratia materie conceditur quod nihil fuit 
+      <lb ed="#L" n="47"/>repraesentatum a deo ab etno illo modo quo isti
+      intel<lb ed="#L" n="48" break="no"/>ligunt repraesentare. quia essentia non est repraesentatiua 
+      <lb ed="#L" n="49"/>talium. sicut nec creatura. sicut ostendetur in secundo Unde patet 
+      <lb ed="#L" n="50"/>quod idem argumentum potest fieri eodem modo de esse damna 
+      <lb ed="#L" n="51"/>bili demonis. quia ita est illud esse positiuum et non depen 
+      <lb ed="#L" n="52"/>dens ab intellectu. sicut esse cognitum a creatura. quia 
+      <lb ed="#L" n="53"/>secundum istos. species repraesentaret et si intellectus non intel 
+      <lb ed="#L" n="54"/>ligeret. ita habent cocedere quod deus posset damnare et 
+      <lb ed="#L" n="55"/>si intellectus non intelligeret.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1592">
+      ⁋ Ad secundum dico: quod 
+      <!--519.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 258-v -->
+               <lb ed="#L" n="56"/>sequi aliquam entitatem positiuam potest intelligi dupliciter 
+      <lb ed="#L" n="57"/>vel realiter vel in aliqua consequentia. sicut dicitur quod ad hominem 
+      <lb ed="#L" n="58"/>sequitur animal. Primo modo intelligendo. maior est vera. sed 
+      <lb ed="#L" n="59"/>tunc minor est falsa. quia sic ad cognitionem diuinam 
+      <lb ed="#L" n="60"/>non sequitur esse cognitum creature. quia isto modo
+      ali<lb ed="#L" n="61" break="no"/>quid non sequitur aliud nisi sicut effectus suam causam: sed tunc 
+      <lb ed="#L" n="62"/>esse cognitum non est effectus scilicet ab eterno. Unde isto modo 
+      <lb ed="#L" n="63"/>accipiedo sequi neccessario entitatem positiuam necessi 
+      <lb ed="#L" n="64"/>tate naturali est aliud ab illo ad quod sequitur. quia ni 
+      <lb ed="#L" n="65"/>hil illo modo sequitur se. et ita si isto modo esse cognitum 
+      <lb ed="#L" n="66"/>creature sequitur cognitionem diuinam. esse
+      cogni<lb ed="#L" n="67" break="no"/>tum est aliud vel non idem cum cognitione diuina. Se 
+      <lb ed="#L" n="68"/>cundo mododo potest esse dupliciter. vel quod talis consequentia
+      compo<lb ed="#L" n="69" break="no"/>natur ex propositionibus in quibus praedicatur est secundum adiacens 
+      <lb ed="#L" n="70"/>vel in quibus praedicatur est tertium adiacens. Si primo modo 
+      <lb ed="#L" n="71"/>sic est verum quod si esse reale verificetur de primo et de 
+      <lb ed="#L" n="72"/>secundo. quamuis modo semper forte pro se: sed pro illo pro 
+      <lb ed="#L" n="73"/>quo supponit. et isto modo esse cognitum creature non 
+      <lb ed="#L" n="74"/>sequitur necessitate naturali cognitionem diuinam 
+      <lb ed="#L" n="75"/>quia non sequitur. cognitio diuina est. ergo esse cognitum 
+      <lb ed="#L" n="76"/>creature est. sicut non sequitur. deus damnatiuus demonis 
+      <lb ed="#L" n="77"/>est. ergo esse damnabile demonis est. Nam ad veritatem
+      il<lb ed="#L" n="78" break="no"/>lius. esse damnabile demonis est. requiritur veritas illius 
+      <lb ed="#L" n="79"/>aliquod damnabile est. et tamen manifestum est quod haec non fuit 
+      <lb ed="#L" n="80"/>vera ab eterno. Secundo modo dico quod maior est falsa 
+      <lb ed="#L" n="81"/>Nam sequitur. deus est damnatiuus demonis. ergo demodo est 
+      <lb ed="#L" n="82"/>damnabilis. et tamen non sequitur quod ab etno demodo
+      dam<lb ed="#L" n="83" break="no"/>nabilis sit entitas realis sicut deus damnatiuus ab 
+      <lb ed="#L" n="84"/>eterno est entitas realis. et sic est in proposito. nam 
+      <lb ed="#L" n="85"/>bene sequitur deus intelligit creaturam. ergo creatura intel 
+      <lb ed="#L" n="86"/>ligitur. non tamen oportet propter hoc quod intellectum sit reale sicut 
+      <lb ed="#L" n="87"/>intelligens est reale. Et si dicatur quod quamuis creatura 
+      <lb ed="#L" n="88"/>non sit aliquod reale. tamen esse suum intelligile potest esse
+      re<lb ed="#L" n="89" break="no"/>ale. quia illud non est idem realiter cum creatura.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1675">
+      ⁋ Dicen 
+      <lb ed="#L" n="90"/>dum quod si creatura vel lapis non sit aliquod reale. nec 
+      <lb ed="#L" n="91"/>esse suum intelligibile est aliquod reale. quia impossibile est 
+      <lb ed="#L" n="92"/>quod esse intelligibile lapidis sit aliud a lapide.
+      nis<lb ed="#L" n="93" break="no"/>sit posterius lapide vel prius lapide. et siue sic siue 
+      <lb ed="#L" n="94"/>sic. esse intelligibile lapidis non potest esse reale.
+      nisi<lb ed="#L" n="95" break="no"/>lapis sit realis. Dico ergo quod omnia talia argumenta 
+      <lb ed="#L" n="96"/>procedunt ex falsa imaginatione. imaginantur enim 
+      <lb ed="#L" n="97"/>quod per hoc quod lapis intelligitur aliquod esse. quasi quoddam esse 
+      <lb ed="#L" n="98"/>diminutum sibi acquiratur. quod est manifeste secultum. Nam 
+      <lb ed="#L" n="99"/>per hoc quod ego video colorem in pariete nihil acquiritur 
+      <lb ed="#L" n="100"/>nec diminutum nec perfectum ipsi colori eodem modo per 
+      <lb ed="#L" n="101"/>hoc quod deus intelligit creaturam vel lapidem nullum esse 
+      <lb ed="#L" n="102"/>nec diminutum nec perfectum acquiritur ipsi lapidi. Si 
+      <lb ed="#L" n="103"/>militer per hoc quod appeto aliquod futurum illi nihil
+      acqui<lb ed="#L" n="104" break="no"/>ritur. ita nec per hoc quod deus intelligit lapidem. quia potest deum 
+      <lb ed="#L" n="105"/>et ipsum lapidem intellectum nihil est imaginabile. sicut 
+      <lb ed="#L" n="106"/>praeter colorem in pariete et visionem ipsam nihil est 
+      <lb ed="#L" n="107"/>nisi quod prius fuit. et de illis nihil est ad propositum. 
+      <lb ed="#L" n="108"/>Similiter desideratum ex hoc quod desideratur a me nihil habet 
+      <lb ed="#L" n="109"/>quod prius non habuit. et tamen sicut posita visione vere potest 
+      <lb ed="#L" n="110"/>denominari per intellectum componentem ipsa albedo quod est. 
+      <!--520.xml-->
+      <pb ed="#L" n="259-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>visa. et illud futurum vere dicitur desideratum. ita existen 
+      <lb ed="#L" n="2"/>te cognitione diuina vere lapis intelligitur. et tamen
+      ni<lb ed="#L" n="3" break="no"/>hil reale acquiritur lapidi. nec esse diminutum nec esse 
+      <lb ed="#L" n="4"/>perfectum. sicut per hoc quod creatura habet esse nihil deo acqui 
+      <lb ed="#L" n="5"/>ritur. nec habet aliquod esse de nouo nec diminutum nec 
+      <lb ed="#L" n="6"/>perfectum. et tamen vere dicitur et est modo creans. et prius non fuit 
+      <lb ed="#L" n="7"/>creans.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1746">
+      ⁋ Ad aliud dico quod intellectus agens non pro 
+      <lb ed="#L" n="8"/>ducit esse intelligibile obiecti nec obiectum in esse
+      in<lb ed="#L" n="9" break="no"/>telligibili. et eodem modo dico quod deus non producit ab 
+      <lb ed="#L" n="10"/>etno creans in esse intelligibili. nec in esse cognito. 
+      <lb ed="#L" n="11"/>nec esse intelligibile eorum producitur a deo ab eteno. 
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1757">
+               <lb ed="#L" n="12"/>⁋ Et si dicatur quod secundum comen. intellectus agens facit 
+      <lb ed="#L" n="13"/>de intelligibili in potentia intelligibile actu. ergo produ 
+      <lb ed="#L" n="14"/>cit esse intelligibile obiecti.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1766">
+      ⁋ Dicendum quod
+      comen<lb ed="#L" n="15" break="no"/>non dicit talia vba: sed dicit quod facitellectum in actu quod 
+      <lb ed="#L" n="16"/>erat intellectum in potentia tamen illud non est multum ad
+      pro<lb ed="#L" n="17" break="no"/>positum. quia idem argumentum est siue dicat vnum siue 
+      <lb ed="#L" n="18"/>reliquum. Ideo dico quod commen. in propositione sua subintel 
+      <lb ed="#L" n="19"/>ligit hoc verbum infinitiui modi esse vt sit sensus.
+      intel<lb ed="#L" n="20" break="no"/>lectus facit ililud esse intellectum in actu quod prius erat in 
+      <lb ed="#L" n="21"/>tellectum in potentia. et hoc non est facere obiectum con 
+      <lb ed="#L" n="22"/>gnitum. sed hoc est facere cognitionem qua cognoscitur. quia 
+      <lb ed="#L" n="23"/>propter hoc quod ipsa cognitio modo sit in actu et prius erat 
+      <lb ed="#L" n="24"/>a potentia. ideo dicitur obiectum actualiter modo intelligi quod 
+      <lb ed="#L" n="25"/>prius potuit intelligi et non intelligebatur. et ita
+      co<lb ed="#L" n="26" break="no"/>gnitonem qua cognoscit intellectus facit. sed nec ipsum ob 
+      <lb ed="#L" n="27"/>ectum. nec aliquod esse obiecti faci. nisi vel dicere 
+      <lb ed="#L" n="28"/>quod ipsa cognitio est esse ipsius obiecti et tunc fieret non 
+      <lb ed="#L" n="29"/>tmen esse diminutum obiecti sed etiam esse perfectum. esse 
+      <lb ed="#L" n="30"/>xistere quod est absurdum
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1803">
+      ⁋ Ideo dico in proposito quod 
+      <lb ed="#L" n="31"/>si cognitio divina posset fieri. bene dicetetur quod crea 
+      <lb ed="#L" n="32"/>tura fieret cognita. non per hoc quod creatura fit sed per hoc 
+      <lb ed="#L" n="33"/>quod cognitio divina fit immo non plus fit esse intelligibi 
+      <lb ed="#L" n="34"/>lecreature quam esse intelligibile essentie divine ab
+      etr<lb ed="#L" n="35" break="no"/>non.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1816">
+      ⁋ Et si dicatur quod esse intelligibile non conuenit 
+      <lb ed="#L" n="36"/>creature ex se. ergo couenit sibi abialio sed quod conue 
+      <lb ed="#L" n="37"/>nit alicui ab alio. aliquo modo fuit ab illo sub ta 
+      <lb ed="#L" n="38"/>li esse. ergo creatura producitur a deo sub esse intelligibi 
+      <lb ed="#L" n="39"/>li.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1827">
+      ⁋ Ad istud quod quando aliquid conuenit alicui realiter 
+      <lb ed="#L" n="40"/>sicut res conuenit rei. sicut accidens subiecto et forma 
+      <lb ed="#L" n="41"/>materie. et pars toti. tunc sibi conuenit per causam produ 
+      <lb ed="#L" n="42"/>centem. sed quando aliquid conuenit tantum sicut praedicabile conue 
+      <lb ed="#L" n="43"/>nit subiecto de quo praedicatur. tunc non oportet quod compe 
+      <lb ed="#L" n="44"/>tat sibi nisi per intellectum componentem et tunc si ipsa con 
+      <lb ed="#L" n="45"/>positio intellectus producitur conuenit sibi per causam
+      pro<lb ed="#L" n="46" break="no"/>ductam. si non. non. Sic est in proposito quod esse
+      intelligibi<lb ed="#L" n="47" break="no"/>le non est aliquid conueniens ipsi lapidi a parte rei. sed est primo 
+      <lb ed="#L" n="48"/>dicabile quod per intellectum componentem vere potest
+      praedica<lb ed="#L" n="49" break="no"/>ri de illo. et ideo non est ad propositum. Et quando dicitur. aut con 
+      <lb ed="#L" n="50"/>petit sibi a se aut ab alio Dico quod a se competit si 
+      <lb ed="#L" n="51"/>bi. non tamen sine alio. quia exclusa intellectione divina non 
+      <lb ed="#L" n="52"/>competit sibi. ita etiam exclusa creatura quod ipsa non 
+      <lb ed="#L" n="53"/>intelligatur non competit deo intelligere creaturam. et 
+      <lb ed="#L" n="54"/>tamen intelligere creaturam competit deo ex se et non ni 
+      <lb ed="#L" n="55"/>si intellecta creatura
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1865">
+      ⁋ Ad aliud dico concedendo 
+      <!--520.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 259-r -->
+               <lb ed="#L" n="56"/>maiorem sicut eam accipiunt philosophus et consequene. sed ad
+      mino<lb ed="#L" n="57" break="no"/>rem dico quod possibile est quod cognitio sit: quamuis esse 
+      <lb ed="#L" n="58"/>cognitum quod cognoscitur illa cognitione non sit. Et 
+      <lb ed="#L" n="59"/>ideo dico quod ista duo stant simul. cognitio creature est 
+      <lb ed="#L" n="60"/>et esse cognitum creature non est. quia ante mundi creatio 
+      <lb ed="#L" n="61"/>nem esse cognitum creature non fuit.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1887">
+      ⁋ Et si dicatur. quod 
+      <lb ed="#L" n="62"/>quando aliqua sut simul generatione et corruptione. illa sunt 
+      <lb ed="#L" n="63"/>vnum realiter. sed si deus cognoscit creaturam: creatura 
+      <lb ed="#L" n="64"/>cognoscitur. et econuerso: si creatura cognoscitur. deus 
+      <lb ed="#L" n="65"/>cognoscit creaturam. ergo deus et esse cognitum
+      creatu<lb ed="#L" n="66" break="no"/>re sunt idem realiter.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1900">
+      ⁋ Dico quod hoc nulla est forma argu 
+      <lb ed="#L" n="67"/>di. nec potest reduci ad modum vel figuram.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1905">
+      ⁋ Si
+      proter<lb ed="#L" n="68" break="no"/>uiatur sic. sequitur creatura cognoscitur a deo. ergo
+      cre<lb ed="#L" n="69" break="no"/>atura est secundum esse cognitum. et vltra. ergo esse cognitum 
+      <lb ed="#L" n="70"/>creature est
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1914">
+      ⁋ Dico quod ista consequentia non valet. creatura 
+      <lb ed="#L" n="71"/>cognoscitur a deo. ergo esse cognitum creature est. sicut 
+      <lb ed="#L" n="72"/>nec ista. creatura cognoscitur a deo. ergo creatura 
+      <lb ed="#L" n="73"/>cognita est. quia arguitur ab esse quando praedicat tertium
+      adia<lb ed="#L" n="74" break="no"/>cens ad ipsum quando praedicatur secundum adiacens in
+      ampliati<lb ed="#L" n="75" break="no"/>uis.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1927">
+      ⁋ Et si dicatur quod hoc creatura est secundum esse
+      cogni<lb ed="#L" n="76" break="no"/>tum: non praedicatur secundum adiacens sed tertium. quia aliquid sed 
+      <lb ed="#L" n="77"/>tur compulam
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1935">
+      ⁋ Dico quod non omne sequens esse impedit ipsum 
+      <lb ed="#L" n="78"/>praedicari secundum adiacens. sed tantum illud quod potest esse
+      sub<lb ed="#L" n="79" break="no"/>iectum vel praedicatum propositionis. Uerbi gra. hoc ponitur 
+      <lb ed="#L" n="80"/>secundum adiacens. sortes est semper. sorte. fuit heri. sortes est 
+      <lb ed="#L" n="81"/>per partes. et tamen aliquid sequitur compulam. sed non tale quod
+      in<lb ed="#L" n="82" break="no"/>differentur posset esse subiectum vel praedicatum propositionis 
+      <lb ed="#L" n="83"/>quamuis pars illius possit indifferentur esse subiectum et
+      praedi<lb ed="#L" n="84" break="no"/>catum propositionis. Similiter per illud argumentum posset proba 
+      <lb ed="#L" n="85"/>ri quod esse creabile est idem realiter cum deo. Nam accipio 
+      <lb ed="#L" n="86"/>eandem maiorem quam ipse accipit. et accipio sub ea 
+      <lb ed="#L" n="87"/>sic. impossibile est deum creatiuum esse nisi sit esse creabi 
+      <lb ed="#L" n="88"/>le et infero. ergo creature esse creabile est idem realiter cum 
+      <lb ed="#L" n="89"/>deo. Si neges minorem meam. negabo tuam eadem ratione 
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1964">
+               <lb ed="#L" n="90"/>⁋ Ad aliud potest dici quod probat esse creabile creatu 
+      <lb ed="#L" n="91"/>re esse idem realiter cum deo. sicut patet manifeste reducenti 
+      <lb ed="#L" n="92"/>Ideo dico quod esse cognitum creature non est entitas 
+      <lb ed="#L" n="93"/>prima nec est alia entitas positia ab etno non plus 
+      <lb ed="#L" n="94"/>quam lapis est entitas positiva ab eteno.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1977">
+      ⁋ Et si quaeratur. 
+      <lb ed="#L" n="95"/>aut est necesse esse aut possibile esse. Dico quod est possi 
+      <lb ed="#L" n="96"/>bile esse: et quando producitur a deo per creationem extra. tunc est 
+      <lb ed="#L" n="97"/>et ante non fuit. et ita potest esse et non esse: sicut angelus et lapinis. 
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1986">
+               <lb ed="#L" n="98"/>⁋ Et si dicas quod esse cognitum creature fuit ab
+      et<lb ed="#L" n="99" break="no"/>no
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e1993">
+      ⁋ Dico quod ista est simpliciter fula. nec sequitur creatu 
+      <lb ed="#L" n="100"/>ra fuit cognita ab eterno. ergo esse cognitum creature 
+      <lb ed="#L" n="101"/>fuit ab etno. sed est fallacia secundum quid et simpliciter. sicut hoc est 
+      <lb ed="#L" n="102"/>fallacia secundum quid et simpliciter cesar est opinabilis. ergo
+      ce<lb ed="#L" n="103" break="no"/>ar opinabilis est. quia si sequitur cesar opinabilis est. ergo ce 
+      <lb ed="#L" n="104"/>sar est. eodem modo sequitur lapis cognitus est. ergo lapis est. 
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2006">
+               <lb ed="#L" n="105"/>⁋ Et si dicatur quod non sequitur cesar opinabilis est. ergo cesar 
+      <lb ed="#L" n="106"/>est similiter non sequitur. lapis cognitus est. ergo lapis est. quia esse 
+      <lb ed="#L" n="107"/>in cognitione et esse in opinione sunt determinationes
+      dis<lb ed="#L" n="108" break="no"/>trahentes et non inferunt suum determinabile absolute. 
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2018">
+               <lb ed="#L" n="109"/>⁋ Respondeo quod non sunt determinationes distrahentes. quia 
+      <lb ed="#L" n="110"/>sicut dictum est dis ii. numquam est determinatio distrahens nisi¬ 
+      <!--521.xml-->
+      <pb ed="#L" n="259-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quando illa determinatio repugnat toti sed non parti
+      nisi<lb ed="#L" n="2" break="no"/>quando pars est in toto. et hoc est verum nisi illa determinatio 
+      <lb ed="#L" n="3"/>sit equiuocum a consilio per transiationem. sicut homo equiuo 
+      <lb ed="#L" n="4"/>ce dicitur de homine vero et de homine picto et sillogismus 
+      <lb ed="#L" n="5"/>equiuoce de sillogilmo vero et sillogismo
+      sophi<lb ed="#L" n="6" break="no"/>stico et sic de aliis. sic non est de istis determinati 
+      <lb ed="#L" n="7"/>onibus.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2047">
+      ⁋ Et si dicatur quod sunt determinationes dimi 
+      <lb ed="#L" n="8"/>nuentes. Dico quod hoc est ialsum simpliciter. quia semper
+      determi<lb ed="#L" n="9" break="no"/>natio quondo est diminuens additur alicui praecise importam 
+      <lb ed="#L" n="10"/>ti partem illius quod importatur peralterum extremum. sicut hic 
+      <lb ed="#L" n="11"/>cthiops est albus secundum dentes. sic autem non est in proposito 
+      <lb ed="#L" n="12"/>sicut manifesteiptet.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2060">
+      ⁋ Ad aliud patet quod cognitio
+      di<lb ed="#L" n="13" break="no"/>uina potest esse sine esse cognito creature. et ita fuit 
+      <lb ed="#L" n="14"/>de facto ante mundi creationem. quia tunc fuit
+      cogni<lb ed="#L" n="15" break="no"/>tio diuina. et tunc non fuit esse cognitum creature 
+      <lb ed="#L" n="16"/>qui illud esse cognitum creature est impsa creatura. vel 
+      <lb ed="#L" n="17"/>esse existere creature. et sic est idem realiter cum creatu 
+      <lb ed="#L" n="18"/>ra. et ideo sicut fuit verum dicere quod creatura vel lapis 
+      <lb ed="#L" n="19"/>non fuit ab eteno. et ita verum est dicere quod esse
+      cogni<lb ed="#L" n="20" break="no"/>tum non fuit ab etrno.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2080">
+      ⁋ Ad aliud dico quod esse
+      intel<lb ed="#L" n="21" break="no"/>lectuale creature est possibile esse. sicut esse creabile 
+      <lb ed="#L" n="22"/>creature est possibile esse. quia idem est ita quod inter ipsa 
+      <lb ed="#L" n="23"/>nulla est distinctio. et ideo dico quod nec deus nec
+      cogni<lb ed="#L" n="24" break="no"/>tio diuina coexigit esse intelligibile creature. quis 
+      <lb ed="#L" n="25"/>tunc aliquid conexigit aliud quando non potest esse nisi illo 
+      <lb ed="#L" n="26"/>existente. sed cognitio diuina potest esse et fuit ante mum 
+      <lb ed="#L" n="27"/>di creationem. esse intelligibile creature non existente 
+      <lb ed="#L" n="28"/>sicut nec esse creabile creature existente. Unde sicut hoc est 
+      <lb ed="#L" n="29"/>vivra esse creabile creature non fuit ab eteno. ita nec 
+      <lb ed="#L" n="30"/>esse intelligibile creature fuit ab eterno.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2104">
+      ⁋ Et si 
+      <lb ed="#L" n="31"/>dicatur quod tunc deus posset esse et si non intelligeret cre 
+      <lb ed="#L" n="32"/>aturam.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2111">
+      ⁋ Dico quod illa consequentia non valet. sic non sequir 
+      <lb ed="#L" n="33"/>deus non conexigit esse creabile creature. ergo potest esse: 
+      <lb ed="#L" n="34"/>et si non possit creare creaturam.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2119">
+      ⁋ Ad aliud
+      di<lb ed="#L" n="35" break="no"/>co quod voluntas diuina non necessario vult
+      crea<lb ed="#L" n="36" break="no"/>turam sed esse intelligibile sicut nec necessario vult cre 
+      <lb ed="#L" n="37"/>aturam sed esse creabile
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2128">
+      ⁋ Et quando dicitur quod neccessario vult 
+      <lb ed="#L" n="38"/>esse intelligere esse intelligibile verum est. non tamen vult 
+      <lb ed="#L" n="39"/>necessario esse intelligibile creature. sicut non sequitur 
+      <lb ed="#L" n="40"/>necessario vult se posse creare creaturam. ergo
+      ne<lb ed="#L" n="41" break="no"/>cessario vult esse creabile creature. et hoc quia plus po 
+      <lb ed="#L" n="42"/>nitur per consequens quam antecedens.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2141">
+      ⁋ Ad confirmationem patet quod deus 
+      <lb ed="#L" n="43"/>non necessario vult aliquid quod est ad finem. et ideo non 
+      <lb ed="#L" n="44"/>necessario vult esse intelligibile creature vulutame 
+      <lb ed="#L" n="45"/>se intelligere creaturam.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2150">
+      ⁋ Ad aliud quod voluntas 
+      <lb ed="#L" n="46"/>diuina non necessario determinatur ad volendum
+      ali<lb ed="#L" n="47" break="no"/>quid quod est ad finem. determinatur tamen ad volendum
+      intelle<lb ed="#L" n="48" break="no"/>ctum intelligere aliquid quod non est finis.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2159">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="49"/>patet quod voluntas diuina non necessario vult esse di 
+      <lb ed="#L" n="50"/>minutum creature. nec necessario vult esse
+      intelli<lb ed="#L" n="51" break="no"/>gibile creature. nec esse ymaginandum quod creatur 
+      <lb ed="#L" n="52"/>ra per hoc quod intelligitur habet aliquid esse diminutum. non plus 
+      <lb ed="#L" n="53"/>quam deus habet esse diminutum. quando creat creaturam
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2172">
+      ⁋ Ad  
+      <lb ed="#L" n="54"/>aliud dico quod esse intelligibile creature non est pus 
+      <lb ed="#L" n="55"/>voluntate diuina nec actu voluntatis diuine sed est 
+      <!--521.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 259-v -->
+               <lb ed="#L" n="56"/>posterius etiam duratione. quia ante mundi creationem 
+      <lb ed="#L" n="57"/>non fuit. Et quando dicitur quod essentia diuina prius repre st 
+      <lb ed="#L" n="58"/>sentat creaturam. Dico quod non repraesentat prius nec 
+      <lb ed="#L" n="59"/>posterius modo quo loquitur ipse de repraesentare.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2195">
+      ⁋ Et 
+      <lb ed="#L" n="60"/>quando dicitur quod intellectus diuinus prius intelligit crea 
+      <lb ed="#L" n="61"/>turam quam voluntas velit eam in esse reali vel intelli 
+      <lb ed="#L" n="62"/>gibili. Dico quod hoc est verum. non tamen sequitur quod esse in 
+      <lb ed="#L" n="63"/>telligibile sit prius voluntate. sed sequitur solum quod cre 
+      <lb ed="#L" n="64"/>atura vel lapis prius intelligitur quam voluntas velir 
+      <lb ed="#L" n="65"/>eam esse. et hoc est verum. Unde per illud argumentum proba 
+      <lb ed="#L" n="66"/>retur quod esse creabile creature est prius voluntate
+      di<lb ed="#L" n="67" break="no"/>uina. quia intellectus diuinus prius iudicat creaturam 
+      <lb ed="#L" n="68"/>creabilem quam voluntas velit esse creabile
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2217">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="69"/>dico quod esse intelligibile creature ab etno non fuit 
+      <lb ed="#L" n="70"/>proprium nec intrinsecum deo. nec etiam fuit proprie 
+      <lb ed="#L" n="71"/>trinsecum creature. quia nihil fuit reale. sibi tamen no 
+      <lb ed="#L" n="72"/>repugnabat esse. et ideo non est intelligendum quod esse
+      intel<lb ed="#L" n="73" break="no"/>ligibile fundatur in creatura vel in essentia
+      crea<lb ed="#L" n="74" break="no"/>ture. quia creatura nullum esse tunc habuit. vere tamen 
+      <lb ed="#L" n="75"/>tunc intelligebatur
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2235">
+      ⁋ Ad aliud concedo quod nullum esse 
+      <lb ed="#L" n="76"/>distinctum eque perfecte conuenit creaturis quando no 
+      <lb ed="#L" n="77"/>sunt sicut quando sunt. sed quando dicitur. esse intelligibile eo 
+      <lb ed="#L" n="78"/>perfecte couenit creaturis quando non sunt sicut quando sunt. 
+      <lb ed="#L" n="79"/>Dico quod aliquid conuenire alicui potest esse dupliciter. vel 
+      <lb ed="#L" n="80"/>a parte rei: non per compositionem intellectus. vel per compo 
+      <lb ed="#L" n="81"/>sitionem intellectus: saltem si esset intellectus compones 
+      <lb ed="#L" n="82"/>praedicatum cum subiegto. primo modo esse intelligibile 
+      <lb ed="#L" n="83"/>non conuenit creaturis eque perfecte quando non sunt et 
+      <lb ed="#L" n="84"/>quando sunt. quia quando creature sunt tunc est idem realiter cum 
+      <lb ed="#L" n="85"/>creaturis. vel couenit eis realiter et a parte rei. quando 
+      <lb ed="#L" n="86"/>autem non sunt nec est idem realiter nec conuenit sibi
+      re<lb ed="#L" n="87" break="no"/>aliter. quia nec hoc nec illud est tunc aliquid reale. secundo 
+      <lb ed="#L" n="88"/>modo potest cocedi. quia hoc non est aliud quam dicere quod cre 
+      <lb ed="#L" n="89"/>atura ita perfecte intelligitur a deo quando non est sicut quando 
+      <lb ed="#L" n="90"/>est. sed per hoc quod intelligitur nihil sibi conuenit. non plus 
+      <lb ed="#L" n="91"/>quam per hoc quod deus creat aliquid conuenit deo.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2272">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="92"/>dico quod esse intelligibile creature est mutabile. 
+      <lb ed="#L" n="93"/>quia aliquando est scilicet post mundi creationem. et aliquando non 
+      <lb ed="#L" n="94"/>fuit id est ante mundi creationem. et ideo esse intelligibile: cre 
+      <lb ed="#L" n="95"/>ature non est necesse esse. sed est possibile esse. quia
+      ali<lb ed="#L" n="96" break="no"/>quando est aliquando non est. sicut esse creabile est possibile esse 
+      <lb ed="#L" n="97"/>quia aliquando est. aliquando non est.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2288">
+      ⁋ Et quando dicitur quod tunc
+      intellige<lb ed="#L" n="98" break="no"/>re diuinum esset mutabile. Dico quod consequentia non valet. si 
+      <lb ed="#L" n="99"/>cut non sequitur. obiectum est mutabile. ergo cognitio 
+      <lb ed="#L" n="100"/>est mutabilis. sed si ita esset quod esse intelligibile crea 
+      <lb ed="#L" n="101"/>ture aliquando intelligeretur. et aliquando non intelligeretur. 
+      <lb ed="#L" n="102"/>tunc posset inferri quod cognitio diuina esset mutabilis. 
+      <lb ed="#L" n="103"/>nunc autem ita est quod siue esse intelligibile creature 
+      <lb ed="#L" n="104"/>sit siue non sit. ipsum semper a deo intelligitur. sicut esse
+      crea<lb ed="#L" n="105" break="no"/>bile aliquando est. aliquando non est. et tamen potentia productiva 
+      <lb ed="#L" n="106"/>dei non est mutabilis. quamuis esse creabile creature 
+      <lb ed="#L" n="107"/>sit mutabile
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2312">
+      ⁋ Et si dicatur quod istud non est simile. quia 
+      <lb ed="#L" n="108"/>esse creabile sonat in potentiam. et non infert ipsum produ 
+      <lb ed="#L" n="109"/>ci a deo. sed tantum posse produci. esse autem cognitum
+      so<lb ed="#L" n="110" break="no"/>nat in actum et infert non tantum posse a deo intelligi 
+      <!--522.xml-->
+      <pb ed="#L" n="260-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sed quod intelligitur. et de esse cognito est quaestio principaliter. 
+      <lb ed="#L" n="2"/>et ita exempla adducta de esse damnabili demonis 
+      <lb ed="#L" n="3"/>et de esse creabili. non sunt ad propositum. quia omnia ista 
+      <lb ed="#L" n="4"/>sonant in potentiam non in actum.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2337">
+      ⁋ Ad illud dicendum quod 
+      <lb ed="#L" n="5"/>xempla satis sunt ad propositum. quia sicut tum compras esse 
+      <lb ed="#L" n="6"/>cognitum ad cognitionem diuinam. quorum vtrumque so 
+      <lb ed="#L" n="7"/>nat in actum. ita coporo ego esse creabile ad potentiam 
+      <lb ed="#L" n="8"/>creatiuam quorum vtrumque sonat in potentiam. et sicut ex 
+      <lb ed="#L" n="9"/>parte vna non est ponenda nisi vna potentia realis 
+      <lb ed="#L" n="10"/>et tamen vere est dicere quod esse creabile non est potentia 
+      <lb ed="#L" n="11"/>creatiua. et ita ex alia parte tantum ponendus est vnus
+      a<lb ed="#L" n="12" break="no"/>ctus et tamen vere erit dicere quod esse cognitum creatu 
+      <lb ed="#L" n="13"/>re non est cognitio diuina. et omnia argumenta quae cou 
+      <lb ed="#L" n="14"/>cludunt vnum equaliter concludunt reliquum.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2361">
+      ⁋ Ad  
+      <lb ed="#L" n="15"/>aliud dico quod hoc est falsa simpliciter. creatura secundum suum 
+      <lb ed="#L" n="16"/>esse intelligibile est magis necessaria quam secundum esse suum 
+      <lb ed="#L" n="17"/>i effectu. quia nec est necessarium nec necesse esse nec 
+      <lb ed="#L" n="18"/>secundum esse suum intelligibile. nec secundum esse suum in effectu 
+      <lb ed="#L" n="19"/>cuius ratio est. quia ista determinatio secundum suum esse
+      intelli<lb ed="#L" n="20" break="no"/>gibile. nec est determinatio distrahens nec dimin 
+      <lb ed="#L" n="21"/>nuens. quod patet ex dictis hic et dis. ii. et est satis
+      cla<lb ed="#L" n="22" break="no"/>rum. tum quia esse intelligibile non est determinatio
+      di<lb ed="#L" n="23" break="no"/>grahens nec dimiuuens. tum quia luod secundum habet virtutem 
+      <lb ed="#L" n="24"/>reduplicatiuam. et reduplicatio numquam est determina 
+      <lb ed="#L" n="25"/>tio distrahens nec diminuens. et ideo ista creatura 
+      <lb ed="#L" n="26"/>secundum esse suum intelligibile est magis necessarium quam secundum 
+      <lb ed="#L" n="27"/>esse suum in effectum infert illam. creatura est quoddam 
+      <lb ed="#L" n="28"/>necessarium. quod est manifeste falsum
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2394">
+      ⁋ Et quando dicitur quod 
+      <lb ed="#L" n="29"/>esse intelligibile creature virtute nullius esse potest non 
+      <lb ed="#L" n="30"/>esse. Dico quod hoc est. simpliciter falsum immo aliquando non fuit. et 
+      <lb ed="#L" n="31"/>modo verum es dicere quod esse intelligibile antichristi non est. 
+      <lb ed="#L" n="32"/>ed ex ista non sequitur. ergo antichristus non intelligitur. sed est fal 
+      <lb ed="#L" n="33"/>lacia secundum quid et simpliciter. ergo ex opposito
+      affirmati<lb ed="#L" n="34" break="no"/>le est fallacia secundum quid et simpliciter. sic antichristus in 
+      <lb ed="#L" n="35"/>elligitur. ergo antichristi esse intelligibile est.
+    </p>
+            <p xml:id="wo8uy7-d1e1645-d1e2412">
+      ⁋ Ad
+      vlti<lb ed="#L" n="36" break="no"/>mum et ad similia patet solutio ex iam dictis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

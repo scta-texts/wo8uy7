@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="272-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1887"><!-- l1d48q1 -->
+            <head xml:id="wo8uy7-d1e1887-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1887-d1e111">
+      Dis. xlviii. Questio vnica 
+      <lb ed="#L" n="99"/>CIrca
+      distin<lb ed="#L" n="100" break="no"/>ctione
+      quadragesimam<lb ed="#L" n="101" break="no"/>octauam quero.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e120">
+      ⁋ Utrum 
+      <lb ed="#L" n="102"/>quelibet voluntas
+      crea<lb ed="#L" n="103" break="no"/>ra teneatur se
+      conforma<lb ed="#L" n="104" break="no"/>re diuine voluntati.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e129">
+      ⁋ Quod 
+      <lb ed="#L" n="105"/>non. quia nullus testetur ad illud quod non est 
+      <lb ed="#L" n="106"/>in potestate sua. sed conformare se voluntati 
+      <lb ed="#L" n="107"/>diuine non est cuiuslibet voluntatis. quia vo 
+      <lb ed="#L" n="108"/>luntas damnati non habet in potestate sua
+      confor<lb ed="#L" n="109" break="no"/>mare se voluntati diuine. ergo ad hoc non tenetur.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e142">
+      <!--547.xml-->
+               <pb ed="#L" n="272-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>⁋ Preterea si sic voluntas quandocumque non conforma 
+      <lb ed="#L" n="2"/>ret se diuine voluntati peccaret. quia non faceret 
+      <lb ed="#L" n="3"/>illud ad quod tenetur. et per consequens honorans parentes 
+      <lb ed="#L" n="4"/>quos deus non vult honorari peccaret. consequens est fal 
+      <lb ed="#L" n="5"/>sum. ergo et antecedens
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e163">
+      ⁋ Ad oppositum. quaelibet voluntas cre 
+      <lb ed="#L" n="6"/>ata tenetur se conformare regule sue. sed voluntas 
+      <lb ed="#L" n="7"/>diuina est regula cuiuslibet voluntatis create. 
+      <lb ed="#L" n="8"/>ergo quaelibet voluntas creata tenetur se conformare vo 
+      <lb ed="#L" n="9"/>lutati diuine.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e174">
+      ⁋ Circa istam. q. primo praemittam ali 
+      <lb ed="#L" n="10"/>quas distinctiones. Secundo respondebo ad arti 
+      <lb ed="#L" n="11"/>culos. q.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e181">
+      ⁋ Circa primum sciendum quod voluntas potest 
+      <lb ed="#L" n="12"/>alteri conformari triplicitur. vel quia vult volitum 
+      <lb ed="#L" n="13"/>ab alia voluntate. vel quia vult illud quod alia vult 
+      <lb ed="#L" n="14"/>ipsam velle. vel quia vult illud consimili modo quo alia 
+      <lb ed="#L" n="15"/>vult.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e192">
+      ⁋ Secundo sciendum quod quaelibet istarum voluntatum 
+      <lb ed="#L" n="16"/>potest esse actualis vel habitualis. Et si sit habitua 
+      <lb ed="#L" n="17"/>lis. vel est habitualis propter habitum aliquem immedi 
+      <lb ed="#L" n="18"/>ate inclinantem ad tale actum. sicut aliquos dicitur
+      habi<lb ed="#L" n="19" break="no"/>tualiter velle vel diligere aliquid quando habet habitum 
+      <lb ed="#L" n="20"/>generatum ex actibus circa illud vel alium ita imme 
+      <lb ed="#L" n="21"/>diate iuclinantem sicut inclinat habitus genitus ex 
+      <lb ed="#L" n="22"/>actibus illis. vel dicitur habitualis propter habitum
+      me<lb ed="#L" n="23" break="no"/>diate inclinantem. quomod in intellectu habitus principio 
+      <lb ed="#L" n="24"/>rum mediate inclinat ad actum conclusionis. quia scilicet 
+      <lb ed="#L" n="25"/>mediante actu principiorum
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e216">
+      ⁋ Tertio sciendum quod quaedam 
+      <lb ed="#L" n="26"/>sunt volita a deo quasi absolute cuiusmedi sunt 
+      <lb ed="#L" n="27"/>omnia bona quae nec sunt mala culpe nec pene. quadam 
+      <lb ed="#L" n="28"/>sunt volita a deo propter malum culpe praecedens in 
+      <lb ed="#L" n="29"/>alio cuiusmodi est pena.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e227">
+      ⁋ hiis visis dicendum est 
+      <lb ed="#L" n="30"/>ad articulos. q. vnde dicendum est primo quod quaelibet 
+      <lb ed="#L" n="31"/>voluntas quae est in statu vie vel patrie tenetur conforma 
+      <lb ed="#L" n="32"/>ri. habitualiter mediate diuine voluntati accipit 
+      <lb ed="#L" n="33"/>endo voluntatem pro voluntate bneplaciti quantum ad  
+      <lb ed="#L" n="34"/>volita primo modo dicta. et hoc absolute ea volendo 
+      <lb ed="#L" n="35"/>non volendo opposita sub conditione. hoc patet. quia il 
+      <lb ed="#L" n="36"/>lud quod non habet rationem mali culpe vel pene. quod est a 
+      <lb ed="#L" n="37"/>deo volitum. est a voluntate creata volendum. quia vo 
+      <lb ed="#L" n="38"/>luntas in illo debet complacere. sed tale est omne volitum a 
+      <lb ed="#L" n="39"/>deo primo modo. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e252">
+      ⁋ Secundo dico quod alia volita 
+      <lb ed="#L" n="40"/>a deo debet voluntas absolute velle. potest tamen conditi 
+      <lb ed="#L" n="41"/>onaliter velle contrarium et illud nolle. Et ideo absolute 
+      <lb ed="#L" n="42"/>hebet voluntas velle aliquem puniri iuste a deo. tamen 
+      <lb ed="#L" n="43"/>eoditionaliter potest velle ipsum non puniri.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e263">
+      ⁋ Et si 
+      <lb ed="#L" n="44"/>quaeratur. quis est ille habitus quae inclinat ad volendu omnia a 
+      <lb ed="#L" n="45"/>deo volita.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e270">
+      ⁋ Dicendum quod aliquis talis quo compla 
+      <lb ed="#L" n="46"/>cet voluntati omne illud quod complacet voluntati 
+      <lb ed="#L" n="47"/>diuine. quae debet esse semper in omni habente vsum rationis. postquam ad  
+      <lb ed="#L" n="48"/>aliqualem dei cognitionem attigerit vel potuit at 
+      <lb ed="#L" n="49"/>tingere. Iste autem habitus non inclinat immediate ad  
+      <lb ed="#L" n="50"/>omne volitum a deo. Nam oportet praesupponere
+      cogni<lb ed="#L" n="51" break="no"/>tionem quae sciatur hoc esse volitum a deo. et mediante illa 
+      <lb ed="#L" n="52"/>inclinat ad actum.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e288">
+      ⁋ Potest tamen distingui de mediata 
+      <lb ed="#L" n="53"/>inclinatione ad actu. vt vno modo dicatur mediate in 
+      <lb ed="#L" n="54"/>clinans quasi non sufficiens ad inclinandum. et sic
+      ha<lb ed="#L" n="55" break="no"/>bitus praedictus mediate inclinat ad volendum hoc voli¬ 
+      <!--547.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 272-v -->
+               <lb ed="#L" n="56"/>tum a deo. Aliter dicitur mediate inclinans. quia non
+      concur<lb ed="#L" n="57" break="no"/>rit nec sufficit per se nec cum aliquo ad talem actum 
+      <lb ed="#L" n="58"/>volendi haec volitum a deo. sed primo inclinat ad aliquem 
+      <lb ed="#L" n="59"/>actum qui postea est causa ipsius. et sic etiam iste habitus in 
+      <lb ed="#L" n="60"/>clinat mediate. quia primo inclinat ad actum quoico 
+      <lb ed="#L" n="61"/>placet voluntati create omne quod fit a deo.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e316">
+      ⁋
+      Ter<lb ed="#L" n="62" break="no"/>tio dico quod non quaelibet tenetur se conformare volun 
+      <lb ed="#L" n="63"/>tati diuine. volendo volitum a deo habitualiter im 
+      <lb ed="#L" n="64"/>mediate. quia non tenetur scire illud esse volitum a deo 
+      <lb ed="#L" n="65"/>et per consequens non tenetur velle illud habitualiter immedia 
+      <lb ed="#L" n="66"/>te. tamen si sciat illud esse volitum a deo voluntate bene 
+      <lb ed="#L" n="67"/>placiti. tenetur illud velle. hoc est in illo complacere vel 
+      <lb ed="#L" n="68"/>habitualiter vel actualiter.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e334">
+      ⁋ Sed quid dicetur de illis et 
+      <lb ed="#L" n="69"/>sunt volita a deo voluntate signi.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e340">
+      ⁋ Dicendum quod sed 
+      <lb ed="#L" n="70"/>sit praeceptum et ita volitum a deo voluntate signi. te 
+      <lb ed="#L" n="71"/>netur se voluntas conformare. Si autem sit volitum vo 
+      <lb ed="#L" n="72"/>luntate signi. quia est consilium diuinum non tenetur. Sed  
+      <lb ed="#L" n="73"/>de istis dicetur amplius in posterioribus libris. ideo ad  
+      <lb ed="#L" n="74"/>praesens pertranseo.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e353">
+      ⁋ Quarto dico quod non quaelibet te 
+      <lb ed="#L" n="75"/>neter se semper conformare actualiter voluntati diuine vo 
+      <lb ed="#L" n="76"/>lendo ea quae voluntas diuina vult et omnia illa. tum quia 
+      <lb ed="#L" n="77"/>non tenetur cognoscere omne volitum a voluntate di 
+      <lb ed="#L" n="78"/>uina. tum quia non tenetur semper implere praecepta diui 
+      <lb ed="#L" n="79"/>na affirmatiua
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e366">
+      ⁋ Quinto dico quod voluntas
+      te<lb ed="#L" n="80" break="no"/>netur se confirmare voluntati diuine volendo ea quae 
+      <lb ed="#L" n="81"/>voluntas diuina vult eam velle. et hoc si velit eam vel 
+      <lb ed="#L" n="82"/>le illud voluntate beneplaciti vel voluntate praece 
+      <lb ed="#L" n="83"/>pti. Si vult eam velle voluntate consilii. non oportet si 
+      <lb ed="#L" n="84"/>cut dictum est prius
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e379">
+      ⁋ De tertia conformitate sunt 
+      <lb ed="#L" n="85"/>multe difficultatebs de quibus dicetur in tertio libro 
+      <lb ed="#L" n="86"/>vbi plenius tractabitur de tota ista materia. 
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e386">
+               <lb ed="#L" n="87"/>⁋ Ad primum principale patebit in secundo libro. vbi 
+      <lb ed="#L" n="88"/>agetur de causa obstinationis demonum.
+    </p>
+            <p xml:id="wo8uy7-d1e1887-d1e393">
+      ⁋ Ad secundum 
+      <lb ed="#L" n="89"/>dicendum quod non conformans se voluntati diuine pro lo 
+      <lb ed="#L" n="90"/>co et tempore pro quo tenetur de necessitate saluter.
+      pec<lb ed="#L" n="91" break="no"/>cat mortaliter. sed dictum est prius quod non quaelibet pro omni 
+      <lb ed="#L" n="92"/>tempore ad hoc tenetur. maxime quantum ad praecepta affir 
+      <lb ed="#L" n="93"/>matiua quamuis quantum ad praecepta negatiua pro sem per 
+      <lb ed="#L" n="94"/>teneatur. Et si dicatur voluntas numquam debet esse dif 
+      <lb ed="#L" n="95"/>formis voluntati diuine. sed iste qui vult honorare 
+      <lb ed="#L" n="96"/>parentes quos deus non vult honorari habet
+      volunta<lb ed="#L" n="97" break="no"/>tem difformem voluntati diuine. ergo peccat in honoram 
+      <lb ed="#L" n="98"/>do Dicendum est quod si deus vult eos non honorari. nec 
+      <lb ed="#L" n="99"/>ab isto nec ab illo. iste peccat in honorando pa 
+      <lb ed="#L" n="100"/>rentes suos. si tamen deus non vult eos honorari ab 
+      <lb ed="#L" n="101"/>alio. sed vult eos honorari ab isto. iste in honoram 
+      <lb ed="#L" n="102"/>do non peccat. nec est difformis voluntati diuine 
+      <lb ed="#L" n="103"/>sed est conformis voluntati diuine. In secula secu 
+      <lb ed="#L" n="104"/>lorum benedicte. Amen. 
+      <lb ed="#L" n="105"/>ffinis questionum super 
+      <lb ed="#L" n="106"/>primum sententiarum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

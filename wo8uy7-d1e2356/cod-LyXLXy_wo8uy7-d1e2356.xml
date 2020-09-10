@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5(3)</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5(3)</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="401-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e2356"><!-- l4q5(3) -->
+           <head>Quaestio 5(2)</head>
+               <p xml:id="wo8uy7-d1e2356-d1e263">
+      ⁋ Tertio 
+      <lb ed="#L" n="93"/>quaero vtrum omnis pena in baptismo remittatur. quod no 
+      <lb ed="#L" n="94"/>qui sicut nullum bonum est irremuneratum: ita nullum 
+      <lb ed="#L" n="95"/>malum est impunitum. igitur non remittitur in baptis 
+      <lb ed="#L" n="96"/>modo sine punitione. Ad oppositum est magister in 
+      <lb ed="#L" n="97"/>littera. et communiter sancti et doctores dicut
+      oppo<lb ed="#L" n="98" break="no"/>situm
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e280">
+      ⁋ Circa istas questiones est sciendum quod prius 
+      <lb ed="#L" n="99"/>est expulsio vnius forme quam inductio forme
+      con<lb ed="#L" n="100" break="no"/>trarie. quod patet: quia illud est prius natura vt patet per 
+      <lb ed="#L" n="101"/>philosophum v. metaphisice quod potest esse sine aliis et alia 
+      <lb ed="#L" n="102"/>possunt esse sine eo. Exemplum de substantia et acciden 
+      <lb ed="#L" n="103"/>te: quia substantia potest esse sine omni accidente licet non econuerso. 
+      <lb ed="#L" n="104"/>nunc autem expulsio forme potest esse sine omni inductione 
+      <lb ed="#L" n="105"/>forme contrarie. et ideo non nego quin deus potest
+      face<lb ed="#L" n="106" break="no"/>re aquam neque calidam neque frigidam: sicut eelum 
+      <lb ed="#L" n="107"/>non est catidum neque frigidum. sed inductio forme 
+      <lb ed="#L" n="108"/>non potest esse sine expulsione forme contrarie 
+      <lb ed="#L" n="109"/>et ideo deus non potest inducere calorem in aquam 
+      <!--805.xml-->
+      <pb ed="#L" n="401-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>frigidam nisi prius expellat frigiditatem. Ideo 
+      <lb ed="#L" n="2"/>primo videndum est de expulsione culpe: et quia 
+      <lb ed="#L" n="3"/>pena non debetur nisi culpe. Ideo secundo viden 
+      <lb ed="#L" n="4"/>dum est de remissione pene et de collatione
+      gra<lb ed="#L" n="5" break="no"/>tie
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e324">
+      ⁋ Quantum ad primum articulum dicitur quod 
+      <lb ed="#L" n="6"/>in generatione qualibet per inductionem for 
+      <lb ed="#L" n="7"/>me omnis forma contraria expellitur et etiam
+      dis<lb ed="#L" n="8" break="no"/>positio ad formam contrariam. sed baptismus 
+      <lb ed="#L" n="9"/>est generatio in vitam spiritualem sed gratia et culpa sunt 
+      <lb ed="#L" n="10"/>contraria. igitur in baptismo infusio gratie tol 
+      <lb ed="#L" n="11"/>lit culpam actualem originalem et venialem
+      quam<lb ed="#L" n="12" break="no"/>tum est de se. Licet hec conclusio sit vera vt supr 
+      <lb ed="#L" n="13"/>pono. tamen ratio non valet quia supponit quod 
+      <lb ed="#L" n="14"/>omne peccatum est contrarium gratie. quod tamen 
+      <lb ed="#L" n="15"/>est falsum loquendo de absoluto in gratia et in 
+      <lb ed="#L" n="16"/>peccato. hoc patet primo de peccato
+      origina<lb ed="#L" n="17" break="no"/>li: quia quandocunque sunt due forme absolute 
+      <lb ed="#L" n="18"/>disparate possibiles creature rationali cum exi 
+      <lb ed="#L" n="19"/>stentia vnius forme potest stare carentia alte 
+      <lb ed="#L" n="20"/>rius forme que sibi non contrariatur et cum de 
+      <lb ed="#L" n="21"/>bito habendi illam formam. sed gratia et
+      iusti<lb ed="#L" n="22" break="no"/>cia originalis sunt huiusmodi forme. igitur gra 
+      <lb ed="#L" n="23"/>tia potest stare cum carentia iusticie
+      origina<lb ed="#L" n="24" break="no"/>lis et debito habendi. eandem. igitur gratia 
+      <lb ed="#L" n="25"/>quantum ad esse absolutum in ea potest stare cum 
+      <lb ed="#L" n="26"/>peccato originali. Sed tamen accipiendo
+      gra<lb ed="#L" n="27" break="no"/>tiam prout facit aliquem esse gratum deo siue 
+      <lb ed="#L" n="28"/>hoc sit per aliquam formam infusam sine omni ta 
+      <lb ed="#L" n="29"/>li forma. talis inquam gratia repugnat omni pec 
+      <lb ed="#L" n="30"/>cato tam originali quam actuali: quia per gratiam 
+      <lb ed="#L" n="31"/>sic acceptam fit aliquis gratus deo a per
+      pec<lb ed="#L" n="32" break="no"/>catum fit inimicus: et ideo non stant simul. Se 
+      <lb ed="#L" n="33"/>cundo patet idem de peccato actuali: quia pec 
+      <lb ed="#L" n="34"/>catum actuale non dicit aliud quam actum aliquem 
+      <lb ed="#L" n="35"/>absolutum preteritum per quem quis
+      obliga<lb ed="#L" n="36" break="no"/>tur ad penam. nunc autem ille actus absolutus 
+      <lb ed="#L" n="37"/>vel habitus derelictus ex eo et gratia primo mo 
+      <lb ed="#L" n="38"/>do accepta non repugnant: quia forme
+      abso<lb ed="#L" n="39" break="no"/>lute disparate sunt. igitur possunt esse simul in 
+      <lb ed="#L" n="40"/>eodem: nec illa obligatio ad penam repugnat 
+      <lb ed="#L" n="41"/>gratie sic accepte: quia nulla pena repugnat 
+      <lb ed="#L" n="42"/>gratie sic dicte: quia non est contradictio quin 
+      <lb ed="#L" n="43"/>potest esse in diabolo. similiter illa obligatio 
+      <lb ed="#L" n="44"/>non dicit aliquid absolutum in anima distinctum 
+      <lb ed="#L" n="45"/>ab actu et habitu nec respectum realem: quia 
+      <lb ed="#L" n="46"/>suus terminus non est. igitur tantum
+      respe<lb ed="#L" n="47" break="no"/>ctum rationis si sit aliquis respectus: sed talis 
+      <lb ed="#L" n="48"/>respectus non repugnat forme absolute in
+      gra<lb ed="#L" n="49" break="no"/>tia primo modo dicta. tamen obligatio ad penam 
+      <lb ed="#L" n="50"/>eternam bene repugnat gratie secundo modo dicte. 
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e424">
+               <lb ed="#L" n="51"/>⁋ Ideo: dico quantum ad istum articulum quod tantum creditum 
+      <lb ed="#L" n="52"/>est omnem culpam in baptismo remitti: nec potest hoc 
+      <lb ed="#L" n="53"/>ostendi ratione naturali. quia non per repugnam 
+      <lb ed="#L" n="54"/>tiam formalem peccati et gratie. quia licet pe 
+      <lb ed="#L" n="55"/>na et gratia repugnant formaliter actui pecca¬ 
+      <!--805.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 401-v -->
+               <lb ed="#L" n="56"/>ti praesentis vel habitui vicioso: non tamen actui 
+      <lb ed="#L" n="57"/>preterito qui nullum habitum relinquit nunc. quia 
+      <lb ed="#L" n="58"/>prius forte corrumpitur nec repugnat obliga 
+      <lb ed="#L" n="59"/>tioni ad penam. et ideo potest deus de
+      poten<lb ed="#L" n="60" break="no"/>tia sua absoluta remittere culpam sine omni
+      in<lb ed="#L" n="61" break="no"/>iusticia. sicut potest aliquem punire sine omni 
+      <lb ed="#L" n="62"/>demerito absque hoc quod dicatur iniustus. licet il 
+      <lb ed="#L" n="63"/>la punitio non esset proprie pena. quia pena cor 
+      <lb ed="#L" n="64"/>respondet culpre: sed magis diceretur dolor. Und 
+      <lb ed="#L" n="65"/>de sicut deus semper potest continuare et deti 
+      <lb ed="#L" n="66"/>nere in brutis vnum brutum sine omni peccato 
+      <lb ed="#L" n="67"/>vel iniusticia a parte sui. ita eodem modo potest 
+      <lb ed="#L" n="68"/>facere cum homine.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e472">
+      ⁋ Si dicatur quod deus est de 
+      <lb ed="#L" n="69"/>bitor primii pro meritis.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e477">
+      ⁋ Tesposio: dico quod deus 
+      <lb ed="#L" n="70"/>nullius est debitor: nisi quia sic ordinauit. de po 
+      <lb ed="#L" n="71"/>tentia tamen absoluta potest facere contrarium 
+      <lb ed="#L" n="72"/>cum creatura sua sine omni iniuria. Creditur 
+      <lb ed="#L" n="73"/>tamen quod omnis tulparemittatur in baptismo 
+      <lb ed="#L" n="74"/>ex eius ordinarionos nisivecipiens ponat
+      obi<lb ed="#L" n="75" break="no"/>cem: puta si actualiter peccet. tunc non remit 
+      <lb ed="#L" n="76"/>titur illud peccatum virtute baptismi. siue sit 
+      <lb ed="#L" n="77"/>mortale siue veniale. et ides omne peccatum pre 
+      <lb ed="#L" n="78"/>texitum remittitur tam mortale quam veniale: et non 
+      <lb ed="#L" n="79"/>aliud.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e501">
+      ⁋ Circa secundum dico quod duplex est
+      pe<lb ed="#L" n="80" break="no"/>na eterna et temporalis. Prima remittitur in 
+      <lb ed="#L" n="81"/>baptismo ex ordinatione diuina: quia
+      baptis<lb ed="#L" n="82" break="no"/>mus readitur dignus vita eterna: licet deus
+      pos<lb ed="#L" n="83" break="no"/>sit non remittere de potentia sua absoluta. Se 
+      <lb ed="#L" n="84"/>cunda pena est duplex. vna voluntarie assum 
+      <lb ed="#L" n="85"/>pta. alia naturaliter inflicta. prima non remitt 
+      <lb ed="#L" n="86"/>tur in paruulo baptisato. quia ad nullam
+      pena<lb ed="#L" n="87" break="no"/>obligatur: nec ante baptismum nec post. et quia 
+      <lb ed="#L" n="88"/>ad nullam penam tenetur nulla sibi remittitur 
+      <lb ed="#L" n="89"/>sed quia adultus obligatur ad penam ante
+      ba<lb ed="#L" n="90" break="no"/>ptismum. quia obligatur ad displicentiam de pec 
+      <lb ed="#L" n="91"/>catis preteritis. ideo illa pena sibi remittitur 
+      <lb ed="#L" n="92"/>sic quod non obligatur ad illam displicentiam post 
+      <lb ed="#L" n="93"/>baptismum: nec tenetur satisfacere pro pecca 
+      <lb ed="#L" n="94"/>tis preteritis. Secunda pena naturaliter
+      infli<lb ed="#L" n="95" break="no"/>cta que consequitur omnem hominem secundum communen 
+      <lb ed="#L" n="96"/>cursum nature. puta esurire et sitire et huiusmo 
+      <lb ed="#L" n="97"/>di non remittitur. et hoc solum est ex ordinatio 
+      <lb ed="#L" n="98"/>ne diuina. quia deus potest oppositum facere 
+      <lb ed="#L" n="99"/>si sibi placeret. sic igitur patet quomo remitt 
+      <lb ed="#L" n="100"/>tur pena et quomo non.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e550">
+      ⁋ Circa tertium arti 
+      <lb ed="#L" n="101"/>culum sunt multe difficultates.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e555">
+      ⁋ Prima est. vtrum 
+      <lb ed="#L" n="102"/>deus possit remittere culpam sine collatione 
+      <lb ed="#L" n="103"/>gratie.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e562">
+      ⁋ Secunda. vtrum gratia posset
+      infun<lb ed="#L" n="104" break="no"/>di sine virtutibus theologicis.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e567">
+      ⁋ Tertia. vtri 
+      <lb ed="#L" n="105"/>possit infundi sine virtutibus moralibus.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e572">
+      ⁋ Quat 
+      <lb ed="#L" n="106"/>ta. vtrum omnes iste virtutes infundantur.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e577">
+      ⁋ Qui 
+      <lb ed="#L" n="107"/>ta. vtrum alique virtutes morales possint
+      in<lb ed="#L" n="108" break="no"/>fundi distincte secundum speciem a virtutibus aliis naturalit 
+      <lb ed="#L" n="109"/>acquisitis.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e587">
+      ⁋ De prima difficultate fuit tactum libro 
+      <lb ed="#L" n="110"/>primo distinctione. xvii. ideo dico breuiter intelli¬ 
+      <!--806.xml-->
+      <pb ed="#L" n="402-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>gendo per gratiam caritatem. quia pono quod sunt 
+      <lb ed="#L" n="2"/>idem omnino licet sint hic diuersa nomina et diuer 
+      <lb ed="#L" n="3"/>si conceptus. deus de potentia sua absoluta po 
+      <lb ed="#L" n="4"/>test remittere culpam et penam sine collatione 
+      <lb ed="#L" n="5"/>gratie. Cuius causa est. quia quemcunque potest 
+      <lb ed="#L" n="6"/>acceptare tanquam dignum vita eterna sine omni gra 
+      <lb ed="#L" n="7"/>tia inherente illi potest remittere omnem
+      cul<lb ed="#L" n="8" break="no"/>pam sine omni infusione gratie: sed deus nunc 
+      <lb ed="#L" n="9"/>potest primum facere vt patet in primo huius. 
+      <lb ed="#L" n="10"/>igitur potest facere secundum. Confirmatur: quia 
+      <lb ed="#L" n="11"/>non videtur contradictio quin deus potest da 
+      <lb ed="#L" n="12"/>re alicui existenti in peccato mortali visionem 
+      <lb ed="#L" n="13"/>essentie sue in illo instanti in quo potest dare 
+      <lb ed="#L" n="14"/>gratiam quam sibi vult dare. ergo multomagis 
+      <lb ed="#L" n="15"/>potest eum acceptare tanquam dignum vita eter 
+      <lb ed="#L" n="16"/>na in eodem instanti in quo potest sibi dare gra 
+      <lb ed="#L" n="17"/>tiam quam sibi vult dare postea. sed primum
+      po<lb ed="#L" n="18" break="no"/>test puta essentie visionem causare sine. omni 
+      <lb ed="#L" n="19"/>gratia preuia informante. igitur multomagis 
+      <lb ed="#L" n="20"/>potest eum acceptare sine gratia. et per
+      conse<lb ed="#L" n="21" break="no"/>quens sibi remittere omnem culpam sine gratia. 
+      <lb ed="#L" n="22"/>de hoc quere ibi. Tamen dico de facto quod
+      gra<lb ed="#L" n="23" break="no"/>tia infunditur quanuis probari non possit per
+      ra<lb ed="#L" n="24" break="no"/>tionem: sed quia hoc sonant auctoritates sacre 
+      <lb ed="#L" n="25"/>scripture et dicta sanctorum. ideo teneo hoc cum 
+      <lb ed="#L" n="26"/>eis.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e655">
+      ⁋ Circa secundum an gratia siue caritas possit 
+      <lb ed="#L" n="27"/>infundi sine aliis virtutibus theologicis:
+      pu<lb ed="#L" n="28" break="no"/>ta sine fide et specie. Et arguitur quod non. quia sicut 
+      <lb ed="#L" n="29"/>se habet habitus ad habitum: sic actus ad actum 
+      <lb ed="#L" n="30"/>et econuerso: sed nullus actus potest esse in vo 
+      <lb ed="#L" n="31"/>luntate nisi prius sit in intellectu. igitur nec ha 
+      <lb ed="#L" n="32"/>bitus voluntatis potest esse sine habitu intel 
+      <lb ed="#L" n="33"/>lectus. sed caritas est habitus voluntatis quo 
+      <lb ed="#L" n="34"/>diligit deum: et fides est habitus intellectus 
+      <lb ed="#L" n="35"/>quo intelligit deum. igitur etc. Si dicatur quod
+      a<lb ed="#L" n="36" break="no"/>ctus caritatis potest esse sine actu fidei: sicut 
+      <lb ed="#L" n="37"/>patet in patria. Contra. saltem tunc non potest 
+      <lb ed="#L" n="38"/>esse sine actu intellectus. et similiter actus
+      pa<lb ed="#L" n="39" break="no"/>trie non est ad propositum in via. et ita videtur 
+      <lb ed="#L" n="40"/>quod caritas necessario presupponit aliquem actum 
+      <lb ed="#L" n="41"/>vel habitum in intellectu.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e690">
+      ⁋ Ad istam
+      difficul<lb ed="#L" n="42" break="no"/>tatem respondeo quod deus potest facere de
+      po<lb ed="#L" n="43" break="no"/>tentia sua absoluta caritatem sine fide et
+      spe<lb ed="#L" n="44" break="no"/>ratio est: quia quando vnum absolutum non de 
+      <lb ed="#L" n="45"/>pendet necessario ab alio absoluto: potest
+      fie<lb ed="#L" n="46" break="no"/>ri sine eo sine contradictione. sed caritas est quid 
+      <lb ed="#L" n="47"/>absolutum et non dependet a fide et spece vt ma 
+      <lb ed="#L" n="48"/>nifestum est: quia in nullo genere cause. igitur 
+      <lb ed="#L" n="49"/>etc. Confirmatur. quia quando absolutum respi 
+      <lb ed="#L" n="50"/>cit diuersa obiecta disparata si potest esse sine 
+      <lb ed="#L" n="51"/>eis separatim per naturam potest esse sine eis 
+      <lb ed="#L" n="52"/>coniunctim per potentiam diuinam: sed in
+      pa<lb ed="#L" n="53" break="no"/>tria potest caritas separari a fide et specie separa 
+      <lb ed="#L" n="54"/>tim. igitur etc. Et licet appareat necessitas in 
+      <lb ed="#L" n="55"/>actibus: sic scilicet quod actus voluntatis necessa¬ 
+      <!--806.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 402-r -->
+               <lb ed="#L" n="56"/>rio presupponit actum intellectus: tamen in 
+      <lb ed="#L" n="57"/>habitibus non est talis necessitas: quia deus 
+      <lb ed="#L" n="58"/>potest suspendere actiuitatem intellectionum 
+      <lb ed="#L" n="59"/>respectu generationis habitus: ita quod non po 
+      <lb ed="#L" n="60"/>sent generare habitum et concurrere cum actu 
+      <lb ed="#L" n="61"/>voluntatis ad generandum habitum. et tunc hoc 
+      <lb ed="#L" n="62"/>posito generabitur habitus in voluntate et non 
+      <lb ed="#L" n="63"/>in intellectu. et tunc ad habendum habitum in 
+      <lb ed="#L" n="64"/>voluntate sufficit quod obiectum ostendatur
+      volun<lb ed="#L" n="65" break="no"/>tati per actum intellectus sine omni habitu ge 
+      <lb ed="#L" n="66"/>nerato.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e753">
+      ⁋ Si dicas quod tunc potest generari
+      vi<lb ed="#L" n="67" break="no"/>tus moralis in voluntate sine prudentia in in 
+      <lb ed="#L" n="68"/>tellectu.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e760">
+      ⁋ Respondeo quod non est inconueniens 
+      <lb ed="#L" n="69"/>quod deus faciat virtutem moralem sine pruder 
+      <lb ed="#L" n="70"/>tia habituali. quia deus potest suspendere acti 
+      <lb ed="#L" n="71"/>uitatem actus prudentie respectu
+      generatio<lb ed="#L" n="72" break="no"/>nis habitus: et potest concurrere cum actu vo 
+      <lb ed="#L" n="73"/>luntatis respectu generationis virtutis mora 
+      <lb ed="#L" n="74"/>lis habitualis. si tamen deus non potest facere 
+      <lb ed="#L" n="75"/>actum voluntatis absque actu intellectus. tunc 
+      <lb ed="#L" n="76"/>dicitur quod virtus moralis non potest esse sine 
+      <lb ed="#L" n="77"/>actu prudentie. Contra. impossibile est
+      virtu<lb ed="#L" n="78" break="no"/>tem moralem esse sine suo obiecto. quia sicut
+      im<lb ed="#L" n="79" break="no"/>possibile est quod aliquis intelligat se intelligere 
+      <lb ed="#L" n="80"/>nisi intelligat. ita impossibile est talem
+      virtu<lb ed="#L" n="81" break="no"/>tem esse sine tali obiecto. nunc autem obiecta 
+      <lb ed="#L" n="82"/>partialia virtutis moralis sunt
+      circumstan<lb ed="#L" n="83" break="no"/>tie sicut locus et tempus inter quas est
+      preci<lb ed="#L" n="84" break="no"/>pua recta ratio cuius actus debet conformari 
+      <lb ed="#L" n="85"/>ad hoc quod sit virtuosus perfecte. et per consequens 
+      <lb ed="#L" n="86"/>impossibile est virtutem moralem esse sine
+      re<lb ed="#L" n="87" break="no"/>cta ratione que est actus prudentie. Ad argu 
+      <lb ed="#L" n="88"/>mentum dico quod non est similis proportio inter 
+      <lb ed="#L" n="89"/>habitum et habitum: sicut est inter actum et actum 
+      <lb ed="#L" n="90"/>quia actus voluntatis non causatur ab
+      habi<lb ed="#L" n="91" break="no"/>tum intellectus nisi mediante actu elicito ab
+      il<lb ed="#L" n="92" break="no"/>lo habitu. et ideo actus intellectus est causa
+      im<lb ed="#L" n="93" break="no"/>mediata actus voluntatis. sed habitus
+      intelle<lb ed="#L" n="94" break="no"/>ctus a quo elicitur ille actus non est causa voli 
+      <lb ed="#L" n="95"/>tionis: nec habitus generati a tali volitione: 
+      <lb ed="#L" n="96"/>sed tantum est causa cause: et ita est causa
+      me<lb ed="#L" n="97" break="no"/>diata: quia non est causa actus voluntatis: nec 
+      <lb ed="#L" n="98"/>habitus generati per illum actum nisi tantum 
+      <lb ed="#L" n="99"/>mediante actu proprio. nunc autem potest de 
+      <lb ed="#L" n="100"/>us suspendere actiuitatem illius actus
+      respe<lb ed="#L" n="101" break="no"/>ctu generationis habitus in intellectu et non 
+      <lb ed="#L" n="102"/>in voluntate. et ideo non est simile.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e836">
+      ⁋ Circa
+      ter<lb ed="#L" n="103" break="no"/>tium vtrum infusa caritate infundantur
+      vir<lb ed="#L" n="104" break="no"/>tutes morales: dicitur quod sic. cuius ratio est: quia 
+      <lb ed="#L" n="105"/>deus non minus perfecte operatur in
+      operi<lb ed="#L" n="106" break="no"/>bus gratie quam natura: sed non inuenitur in natura 
+      <lb ed="#L" n="107"/>dare aliquod principium aliarum operationum
+      nisi<lb ed="#L" n="108" break="no"/>det omnia necessaria ad illa opera sicut non dat 
+      <lb ed="#L" n="109"/>virtutem progressiuam. nisi det organa et omnia 
+      <lb ed="#L" n="110"/>requisita ad organum. et sic de aliis operibus 
+      <!--807.xml-->
+      <pb ed="#L" n="402-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nature. igitur eodem modo in operibus gratie 
+      <lb ed="#L" n="2"/>dat omnia necessaria ad gratiam: sed habens
+      cari<lb ed="#L" n="3" break="no"/>tatem habet principium operationum
+      merito<lb ed="#L" n="4" break="no"/>riarum. et non possunt opera illa exerceri sine 
+      <lb ed="#L" n="5"/>virtutibus moralibus. ideo dando caritatem 
+      <lb ed="#L" n="6"/>dat omns virtutes morales. Ista ratio non
+      va<lb ed="#L" n="7" break="no"/>let: quia in operibus nature videmus frequen 
+      <lb ed="#L" n="8"/>ter quod deus dat alicui principium operationis 
+      <lb ed="#L" n="9"/>et tamen non dat actualiter omnia necessaria ad  
+      <lb ed="#L" n="10"/>illam operationem. Exemplum. deus creando 
+      <lb ed="#L" n="11"/>hominem dat sibi principium respectu actus 
+      <lb ed="#L" n="12"/>sciendi et volendi: quia intellectum et volunta 
+      <lb ed="#L" n="13"/>tem. et tamen non oportet quod det sibi habitus 
+      <lb ed="#L" n="14"/>per quos faciliter potest in talia opera. sed sus 
+      <lb ed="#L" n="15"/>ficit quod det sibi potenstatem acquirendi tales ha 
+      <lb ed="#L" n="16"/>bitus ita in proposito quando dat sibi
+      princi<lb ed="#L" n="17" break="no"/>ia per que potest simpliciter in opera virtuo 
+      <lb ed="#L" n="18"/>sa et meritoria non oportet quod det sibi omnia per 
+      <lb ed="#L" n="19"/>que potest in illa opera prompte et expedite: sed  
+      <lb ed="#L" n="20"/>ufficit quod det sibi potestatem acquirendi talia. 
+      <lb ed="#L" n="21"/>Preterea non imprimuntur nature talia
+      neces<lb ed="#L" n="22" break="no"/>saria ad operationem: nisi quando principium 
+      <lb ed="#L" n="23"/>st insufficiens ad talia exercenda. sic non est 
+      <lb ed="#L" n="24"/>in proposito: quia per caritatem fidem et spem 
+      <lb ed="#L" n="25"/>potest aliquis simpliciter in actus meritorios 
+      <lb ed="#L" n="26"/>et hoc dico si habeat caritatem acquisitam. et 
+      <lb ed="#L" n="27"/>sic de aliis cum dictamine recte rationis
+      abs<lb ed="#L" n="28" break="no"/>sed aliis virtutibus moralibus infusis: licet non 
+      <lb ed="#L" n="29"/>ita prompte sicut cum aliis virtutibus. igitui 
+      <lb ed="#L" n="30"/>gratia potest infundi sine talibus virtutibus. 
+      <lb ed="#L" n="31"/>Ideo dico quantum ad istum articulum quod preter 
+      <lb ed="#L" n="32"/>virtutes morales natas acquiri ex actibus no 
+      <lb ed="#L" n="33"/>stris non sunt aliquem alie ponende: sed istud non 
+      <lb ed="#L" n="34"/>potest euidenter probari vel improbari: sed quia 
+      <lb ed="#L" n="35"/>pluralitas non est ponenda sine necessitate: 
+      <lb ed="#L" n="36"/>nec apparet aliqua necessitas nec per rationem 
+      <lb ed="#L" n="37"/>euidente nec per experientiam nec per auctoritatem 
+      <lb ed="#L" n="38"/>quia omnes auctoritates tales. puta ipse
+      do<lb ed="#L" n="39" break="no"/>cuit omnem viam prudentie. et omnia per ipsum 
+      <lb ed="#L" n="40"/>facta sunt. et omnes tales sunt intelligende quod 
+      <lb ed="#L" n="41"/>deus est causa partialis respectu cuiuscumque ef 
+      <lb ed="#L" n="42"/>fectus et immediata. ideo superfluum videtur 
+      <lb ed="#L" n="43"/>ponere tales virtutes infusas alias ab
+      acqui<lb ed="#L" n="44" break="no"/>sitis. et sic patet ad tertium et quintum articulos. 
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e959">
+               <lb ed="#L" n="45"/>⁋ Quantum ad quartum dico quod virtutes
+      mo<lb ed="#L" n="46" break="no"/>rales nate acquiri ex actibus non infunduntur 
+      <lb ed="#L" n="47"/>in baptismo de communi lege. hoc patet. quia
+      ali<lb ed="#L" n="48" break="no"/>quis ante baptismum habens habitus viciosos 
+      <lb ed="#L" n="49"/>si faciat totum quod debet digne penitendo et 
+      <lb ed="#L" n="50"/>baptisetur: tamen se sentit pronum ad vicia
+      con<lb ed="#L" n="51" break="no"/>sueta sicut prius et magis pronum quam si nunquam illa 
+      <lb ed="#L" n="52"/>peccata comisisset. igitur tunc manet aliquis 
+      <lb ed="#L" n="53"/>habitus inclinans ad talia peccata: sed non
+      vi<lb ed="#L" n="54" break="no"/>detur verisim. le quod deus infundat vnum habitum 
+      <lb ed="#L" n="55"/>nisi expellat habitum contrarium. igitur habi 
+      <!--807.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 402-v -->
+               <lb ed="#L" n="56"/>tus alius non infunditur in baptismo. et per
+      con<lb ed="#L" n="57" break="no"/>sequens tales virtutes non infunduntur in ba 
+      <lb ed="#L" n="58"/>ptismo.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e998">
+      ⁋ Sed contra predicta sunt multa
+      du<lb ed="#L" n="59" break="no"/>bia. Primum est an culpa originalis possit
+      re<lb ed="#L" n="60" break="no"/>mitti in baptismo sine culpa actuali quantum 
+      <lb ed="#L" n="61"/>ad omnem suscipientem baptismum. videtur quod sic. 
+      <lb ed="#L" n="62"/>quia sicut peccatum commissum cum consensu 
+      <lb ed="#L" n="63"/>non potest per vim sacramenti remitti sine
+      com<lb ed="#L" n="64" break="no"/>sensu penitentie. ita peccatum commissum sine com 
+      <lb ed="#L" n="65"/>sensu potest remitti sine consensu per vim
+      sa<lb ed="#L" n="66" break="no"/>cramenti. sed adultus ficte accedens ad baptis 
+      <lb ed="#L" n="67"/>mum non consentit nec disponit se qui
+      comi<lb ed="#L" n="68" break="no"/>sit peccatum actuale. ponamus tale peccatum 
+      <lb ed="#L" n="69"/>actuale esse commissum cum consensu. igitur non 
+      <lb ed="#L" n="70"/>sibi remittitur. igitur cum peccatum
+      origina<lb ed="#L" n="71" break="no"/>le sit in eo contractum sine consensu. videtur 
+      <lb ed="#L" n="72"/>quod illud potest sibi remitti virtute sacramenti 
+      <lb ed="#L" n="73"/>non obstante quod ficte accedat sine assensu.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1033">
+      ⁋
+      Con<lb ed="#L" n="74" break="no"/>firmatur. oportet existentem in peccato
+      origina<lb ed="#L" n="75" break="no"/>li baptisari: vel baptismo. Naminis vel
+      flumi<lb ed="#L" n="76" break="no"/>nis vel sanguinis. igitur si ficte accedens ad  
+      <lb ed="#L" n="77"/>baptismum remanet in originali post
+      baptis<lb ed="#L" n="78" break="no"/>mum: oportet eum adhuc baptisari. quod vide 
+      <lb ed="#L" n="79"/>tur absurdum.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1049">
+      ⁋ Secundum dubium. quare par 
+      <lb ed="#L" n="80"/>uulus non baptisatus obligatur ad penam eter 
+      <lb ed="#L" n="81"/>nam: cum talis pena non debeatur nisi culpe 
+      <lb ed="#L" n="82"/>et paruulus nunquam habuit actum peccandi vel 
+      <lb ed="#L" n="83"/>habitum.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1060">
+      ⁋ Tertium est qualiter virtutes theo 
+      <lb ed="#L" n="84"/>logice infunduntur in baptismo: cum habitus 
+      <lb ed="#L" n="85"/>ordinentur ad actus quos paruuli habere non 
+      <lb ed="#L" n="86"/>possunt.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1069">
+      ⁋ Quartum est quod videtur quod alique vir 
+      <lb ed="#L" n="87"/>tutes morales sint necessarie preter acquisitas 
+      <lb ed="#L" n="88"/>Primo quia virtutes morales acquisite non 
+      <lb ed="#L" n="89"/>sunt nate dirigere actus suos in deu. quia philosophus 
+      <lb ed="#L" n="90"/>et alii philosophi habuerunt virtutem fortitudinis tem 
+      <lb ed="#L" n="91"/>perantie. et sic de aliis eiusdem rationis cum vir 
+      <lb ed="#L" n="92"/>tutibus nostris. igitur sicut virtutes sue non
+      di<lb ed="#L" n="93" break="no"/>rigebant opera sua in finem vltimum: nec
+      no<lb ed="#L" n="94" break="no"/>stre facient cum sint eiusdem rationis in eis et 
+      <lb ed="#L" n="95"/>in nobis. igitur propter istas oportet ponere 
+      <lb ed="#L" n="96"/>alias dirigentes opera sua in finem vltimum 
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1094">
+               <lb ed="#L" n="97"/>⁋ Preterea. opera dei sunt perfecta. igitur
+      quan<lb ed="#L" n="98" break="no"/>do sanat hominem perfecte sanat eum. igitur 
+      <lb ed="#L" n="99"/>non tantum infundit virtutem in parte
+      intelle<lb ed="#L" n="100" break="no"/>ctiua: sed etiam sensitlua per quas perfecte
+      sanatur<lb ed="#L" n="101" break="no"/>huiusmodi autem sunt virtutes morales.
+      igi<lb ed="#L" n="102" break="no"/>tur etc. Pretecerea arguitur si paruulus
+      morere<lb ed="#L" n="103" break="no"/>tur anteque esset adultus semper careret illis vir 
+      <lb ed="#L" n="104"/>tutibus: quod videtur inconueniens
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1114">
+      ⁋ Ad
+      pri<lb ed="#L" n="105" break="no"/>mum istorum dico quod adulto non potest remitti 
+      <lb ed="#L" n="106"/>peccatum originale nisi etiam remittatur
+      actu<lb ed="#L" n="107" break="no"/>ale peccatum. Cuius due rationes
+      assignan<lb ed="#L" n="108" break="no"/>tur extra de baptismo et eius effectu caplo ma 
+      <lb ed="#L" n="109"/>ores. S. illud vero. quarum prima est quod deus ex 
+      <lb ed="#L" n="110"/>toto saluat hominem et non ex parte vel omnino 
+      <!--808.xml-->
+      <pb ed="#L" n="403-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>non sanat. et ideo remittit vtrunque peccatum 
+      <lb ed="#L" n="2"/>si vtrunque insit vel nihil remittit. Secunda ra 
+      <lb ed="#L" n="3"/>tio est quia peccato originali debetur
+      earen<lb ed="#L" n="4" break="no"/>tia visionis diuine: peccato actuali debetur pena gehen 
+      <lb ed="#L" n="5"/>ne. si igitur pectatum originale deleretur sine deletione 
+      <lb ed="#L" n="6"/>peccati actualis per remissionem peccati
+      origi<lb ed="#L" n="7" break="no"/>nalis aperitur ianua. ita quod potest deum vide 
+      <lb ed="#L" n="8"/>re visione beatifica: et si remaneat peccatum 
+      <lb ed="#L" n="9"/>actuale adhuc reseruatur sibi pena gehenne. et 
+      <lb ed="#L" n="10"/>per consequens talis decedens potest deum vide 
+      <lb ed="#L" n="11"/>re. et tamen cruciari pena gehene: quod ab omnibus 
+      <lb ed="#L" n="12"/>negatur. et ideo dico quod non remittitur vnum sine 
+      <lb ed="#L" n="13"/>alio
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1164">
+      ⁋ Ad argumentum in contrarium dico quod
+      ve<lb ed="#L" n="14" break="no"/>rum concludit si non sit aliquod impedimentum spe 
+      <lb ed="#L" n="15"/>ciale: quale est in adulto propter peccatum actua 
+      <lb ed="#L" n="16"/>le commissum. in paruulo in quo non est tale impe 
+      <lb ed="#L" n="17"/>dimentum est verum. quia peccatum contractum sed 
+      <lb ed="#L" n="18"/>ne consensu remittitur sine dissensu.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1177">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="19"/>dico quod nec ficte accedens ad baptismum nec pec 
+      <lb ed="#L" n="20"/>cans actualiter quando baptisatur est rebapti 
+      <lb ed="#L" n="21"/>sandus. quia tunc licet neuter accipiat effectum 
+      <lb ed="#L" n="22"/>baptismi. tamen potest post penitere et acceptare 
+      <lb ed="#L" n="23"/>baptismum. et tunc per penitentiam ablui tam ab 
+      <lb ed="#L" n="24"/>originali quam ab actuali.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1193">
+      ⁋ Ad secundum dico quod 
+      <lb ed="#L" n="25"/>pena debetur. quia deus sic ordinauit. quia si 
+      <lb ed="#L" n="26"/>cut deus creat creaturam quanlibet ex mera
+      vo<lb ed="#L" n="27" break="no"/>luntate sua. ita ex mera voluntate sua potest fa 
+      <lb ed="#L" n="28"/>cere de creatura quicquid sibi placet. sicut enim 
+      <lb ed="#L" n="29"/>si aliquis diligeret deum et faceret omnia opera 
+      <lb ed="#L" n="30"/>deo accepta: potest eum deus annihilare sine ali 
+      <lb ed="#L" n="31"/>qua iniuria. ita sibi post talia opera potest non 
+      <lb ed="#L" n="32"/>dare vitam eternam: sed penam eternam sine iniuria. 
+      <lb ed="#L" n="33"/>et ratio est quia deus nullius est debitor. et ideo 
+      <lb ed="#L" n="34"/>quicquid facit nobis ex mera gratia facit. et ideo 
+      <lb ed="#L" n="35"/>ex hoc ipso quod deus facit aliquid iuste factum est. Exem 
+      <lb ed="#L" n="36"/>plum. christus nunquam peccauit: et tamen fuit punitu 
+      <lb ed="#L" n="37"/>grauissime vsque ad mortem.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1224">
+      ⁋ Ad tertium dico quod 
+      <lb ed="#L" n="38"/>nec potest probari per rationem nec per auctori 
+      <lb ed="#L" n="39"/>tate ecclesie quod virtutes theologice sufficienter 
+      <lb ed="#L" n="40"/>infundantur in baptismo. quia licet ecclesia re 
+      <lb ed="#L" n="41"/>putat illam probabiliorem que tenet quod ille
+      vir<lb ed="#L" n="42" break="no"/>tutes infunduntur. tamen contrariam opinionem 
+      <lb ed="#L" n="43"/>non damnat. sicut patet extra de summa
+      trinita<lb ed="#L" n="44" break="no"/>te et fide catholica capitulo multo. libe. vii. et extra 
+      <lb ed="#L" n="45"/>de baptismo et eius effectum.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1245">
+      ⁋ Ad auctoritates 
+      <lb ed="#L" n="46"/>aliquas propter quas aliqui dixerunt baptismum 
+      <lb ed="#L" n="47"/>inutiliter conferri paruulis. quia non habent cha 
+      <lb ed="#L" n="48"/>ritatem. quia vt dicunt secundum apostolum. charitas 
+      <lb ed="#L" n="49"/>operit multitudinem peccatorum et de magdalena. 
+      <lb ed="#L" n="50"/>dixit christus dimissa sunt ei peccata multa: quo 
+      <lb ed="#L" n="51"/>niam dilexit multum que non possunt competere 
+      <lb ed="#L" n="52"/>nisi consentientibus quales non sunt paruuli 
+      <lb ed="#L" n="53"/>Respondit dominus papa. quod baptismus est vti 
+      <lb ed="#L" n="54"/>lis. quia per eum liberatur homo a culpa et
+      ape<lb ed="#L" n="55" break="no"/>ritur sibi ianua etc. et postea subdit dominus pa¬ 
+      <!--808.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 403-r -->
+               <lb ed="#L" n="56"/>pa. Ceterum ex vi littere patet satis quod praedicte
+      au<lb ed="#L" n="57" break="no"/>ctoritates christi et apostoli sunt intelligende 
+      <lb ed="#L" n="58"/>de adultis qui habent multitudinem peccatorum 
+      <lb ed="#L" n="59"/>tam est de paruulis non possunt intelligi qui tantum 
+      <lb ed="#L" n="60"/>peccato tenentur originali. Similiter et illa au 
+      <lb ed="#L" n="61"/>ctoritas est soluenda qui crediderit et baptisa 
+      <lb ed="#L" n="62"/>tus fuerit. cum non possent credere paruuli: sed 
+      <lb ed="#L" n="63"/>adulti et ad hoc tota illa auctoritas
+      intelligen<lb ed="#L" n="64" break="no"/>da est de adultis vt ad alios et ad alios secunda 
+      <lb ed="#L" n="65"/>clausula referatur quanuis aliqui concedant quod 
+      <lb ed="#L" n="66"/>paruuli credunt non per vsum sed per habitum 
+      <lb ed="#L" n="67"/>fidei quem suscipiunt in baptismo sicut et alia 
+      <lb ed="#L" n="68"/>multa verba secundum vsum communem loquendi non 
+      <lb ed="#L" n="69"/>ad actum sed ad aptitudinem referntur: et ideo 
+      <lb ed="#L" n="70"/>vtrum infundantur vel non: dimittitur
+      docto<lb ed="#L" n="71" break="no"/>ribus disputandum et inuestigandum: sic igitur 
+      <lb ed="#L" n="72"/>patet quod non apparet necessitas ponendi istas 
+      <lb ed="#L" n="73"/>virtutes theologicas infundi in baptismo: quia 
+      <lb ed="#L" n="74"/>tamen auctoritates sanctorum videntur hic sona 
+      <lb ed="#L" n="75"/>re et maxime augustini super canonica Ioh. quod 
+      <lb ed="#L" n="76"/>sola caritas diuidit inter filios dei et filios per 
+      <lb ed="#L" n="77"/>ditionis: et multe alie sunt ad hoc. et etiam
+      do<lb ed="#L" n="78" break="no"/>ctores tenent hoc communiter. igitur teneo cum eis 
+      <lb ed="#L" n="79"/>quod iste virtutes infunduntur in baptismo. Sed  
+      <lb ed="#L" n="80"/>ad quid ponuntur in paruulo ex quo nullum actum 
+      <lb ed="#L" n="81"/>potest elicere mediantibus illis. Respondee 
+      <lb ed="#L" n="82"/>quod licet non valeant quantum ad electionem actuum 
+      <lb ed="#L" n="83"/>tempore infantie: valebunt tamen quando erit: 
+      <lb ed="#L" n="84"/>adultus: et per illos habitus tunc potest in ope 
+      <lb ed="#L" n="85"/>ra meritoria cum aliis acquisitis et valent sibi 
+      <lb ed="#L" n="86"/>quocunque tempore vt ostendatur diuisus a
+      fi<lb ed="#L" n="87" break="no"/>liis perditionis et compulatus filiis regni. Ad 
+      <lb ed="#L" n="88"/>quartum dico quod praeter virtutes aequisitas non sunt 
+      <lb ed="#L" n="89"/>alie virtutes infu se necessarie quod caritas
+      suffi<lb ed="#L" n="90" break="no"/>cit cum virtutibus acquisitis: quia caritas in 
+      <lb ed="#L" n="91"/>clinat immediate ad actum cuiuslibet
+      virtu<lb ed="#L" n="92" break="no"/>tis: et ideo dicit Mregorius quod omnia precepta 
+      <lb ed="#L" n="93"/>sunt vnum in radice caritatis. et isto modo omns 
+      <lb ed="#L" n="94"/>virtutes sunt connexe in caritate. vnde caritas 
+      <lb ed="#L" n="95"/>inclinat ad actum cuiuscunque virtutis: licet non 
+      <lb ed="#L" n="96"/>ita prompte et expedite sicut cum aliis
+      virtu<lb ed="#L" n="97" break="no"/>tibus. et ideo nullus actus est virtuosus
+      perfe<lb ed="#L" n="98" break="no"/>cte vel meritorius sine actu caritatis. Et
+      quan<lb ed="#L" n="99" break="no"/>do dicitur quod non dirigunt in finem dico quod me 
+      <lb ed="#L" n="100"/>diante caritate satis dirigunt in finem vltimum 
+      <lb ed="#L" n="101"/>Et quando dicitur quod virtutes philosophorum fuerunt 
+      <lb ed="#L" n="102"/>eiusdem rationis cum virtutibus nostris. Ne 
+      <lb ed="#L" n="103"/>go et dico quod virtutes morales distinguntur secundum 
+      <lb ed="#L" n="104"/>distinctionem obiectorum partialium: nunc 
+      <lb ed="#L" n="105"/>autem finis est obiectum partiale virtutis si 
+      <lb ed="#L" n="106"/>cut alias dictum est: nunc autem philosophi in acqui 
+      <lb ed="#L" n="107"/>rendo virtutes morales habuerunt alium
+      fi<lb ed="#L" n="108" break="no"/>nem quam christum. verbi gratia abstinet christianus 
+      <lb ed="#L" n="109"/>ab actu fornicandi propter deum: et quia deus pre 
+      <lb ed="#L" n="110"/>cepit sibi abstinere. ita quod deus est hic causa fi 
+      <!--809.xml-->
+      <pb ed="#L" n="403-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nalis vel preceptum dei istius abstinentie. et sic 
+      <lb ed="#L" n="2"/>de omnibus aliis virtutibus acquisitis a bone 
+      <lb ed="#L" n="3"/>christiano. quia semper deus est principalis finis 
+      <lb ed="#L" n="4"/>intentus
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1410">
+      ⁋ Phsophus autem licet abstineat a talibus 
+      <lb ed="#L" n="5"/>tamen totaliter propter alium finem vel propter
+      con<lb ed="#L" n="6" break="no"/>seruationem nature vel ad proficiendum in scienti 
+      <lb ed="#L" n="7"/>vel propter aliquid tale. igitur aliud fuit obie 
+      <lb ed="#L" n="8"/>ctum partiale abstinentie philosophi et boni christiani. et 
+      <lb ed="#L" n="9"/>per cosequens alia virtus et alterius rationis 
+      <lb ed="#L" n="10"/>et ideo si deus acceptaret hominem sine charita 
+      <lb ed="#L" n="11"/>te sicut possibile est: vt alias fuit dictum. adhuc 
+      <lb ed="#L" n="12"/>iste virtutes morales dirigerent operationes 
+      <lb ed="#L" n="13"/>suas in finem vltimum. quia finis ille est obiectum 
+      <lb ed="#L" n="14"/>partiale cuiuscumque talis virtutis in bono christiano 
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1434">
+               <lb ed="#L" n="15"/>⁋ Ad aliud dico quod sanat perfecte dando aliqua 
+      <lb ed="#L" n="16"/>necessario requisita ad salutem. sed ille
+      virtu<lb ed="#L" n="17" break="no"/>tes non sunt necessarie ad salutem. quia sine illis 
+      <lb ed="#L" n="18"/>potest deus aliquem saluare secundum illos. etiam deus 
+      <lb ed="#L" n="19"/>non liberat hominem ab h bitibus viciosis in 
+      <lb ed="#L" n="20"/>baptismo. igitur non infui untur virtutes eis 
+      <lb ed="#L" n="21"/>opposite. sufficit enim quod de. homini vnde po 
+      <lb ed="#L" n="22"/>sit tales virtutes acquirere vnde perfecte pos 
+      <lb ed="#L" n="23"/>sit saluari sine virtutibus acquisitis in habitu. 
+      <lb ed="#L" n="24"/>quia habendo solos actus illarum cum actu cha 
+      <lb ed="#L" n="25"/>ritatis: potest homo optime saluari. puta si deus 
+      <lb ed="#L" n="26"/>suspenderet omnem actiuitatem illorum actuum re 
+      <lb ed="#L" n="27"/>spectu generationis habitus virtuosi sicut prius 
+      <lb ed="#L" n="28"/>dictum est.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1467">
+      ⁋ Ad aliud dico quod si ponantur ille vir 
+      <lb ed="#L" n="29"/>tutes remanere in patria ex quo non possunt ad  
+      <lb ed="#L" n="30"/>quiri per actus pueri. tamen sic deus ante
+      mor<lb ed="#L" n="31" break="no"/>tem sibi illas infunderet. si autem non sint ibi non 
+      <lb ed="#L" n="32"/>videtur necessarium quod paruulus vnquam habeat 
+      <lb ed="#L" n="33"/>tales virtutes.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1480">
+      ⁋ Ad primum principale dico quod 
+      <lb ed="#L" n="34"/>illa sunt vera de habitu amoris et odii natura 
+      <lb ed="#L" n="35"/>liter acquisito. sed vnus infusus et alius acqui 
+      <lb ed="#L" n="36"/>situs non repugnant sicut fides infusa et scientia 
+      <lb ed="#L" n="37"/>repugnant. et ratio est. quia habitus infusus non 
+      <lb ed="#L" n="38"/>acquiritur ex actibus nec augetur: sed solum se 
+      <lb ed="#L" n="39"/>habet actiue ad actus. et ideo sicut potentia pe 
+      <lb ed="#L" n="40"/>test stare cum habitu opposito: puta si aliquis 
+      <lb ed="#L" n="41"/>acquirit habitum contra inclinationem potentie 
+      <lb ed="#L" n="42"/>ita ille habitus infusus potest stare cum habi 
+      <lb ed="#L" n="43"/>tum acquisito: qui sibi videtur repugnare: et ta 
+      <lb ed="#L" n="44"/>men non sibi repugnat. Unde charitas et habi 
+      <lb ed="#L" n="45"/>tus odiendi deum non repugnant formaliter. sed 
+      <lb ed="#L" n="46"/>actus charitatis et actus odiendi deum
+      repu<lb ed="#L" n="47" break="no"/>gnant sicut habitus scientie et actus erroris re 
+      <lb ed="#L" n="48"/>spectu eiusdem conclusionis: nec forte charitas 
+      <lb ed="#L" n="49"/>repugnat formaliter actui peccati praesentis ni 
+      <lb ed="#L" n="50"/>si solum ex institutione diuina: qua circunsceri 
+      <lb ed="#L" n="51"/>pta nulla est ibi repugnantia: sed aliter est de 
+      <lb ed="#L" n="52"/>habitibus acquisitis. quia in illis tanta est re 
+      <lb ed="#L" n="53"/>pugnantia actuum quanta habituum. Et quando 
+      <lb ed="#L" n="54"/>dicitur actus sunt incompossibiles: igitur et
+      ha<lb ed="#L" n="55" break="no"/>bitus. consequentia non valet nisi tantum de ha¬ 
+      <!--809.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 403-v -->
+               <lb ed="#L" n="56"/>bitibus qui acquiruntur per actus: sed de aliis 
+      <lb ed="#L" n="57"/>non valet.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1541">
+      ⁋ Ad aliud dico quod habitus infusi di 
+      <lb ed="#L" n="58"/>stinguntur specie ab habitibus acquisitis lsed 
+      <lb ed="#L" n="59"/>non sequitur vltra. igitur magis inclinant ad 
+      <lb ed="#L" n="60"/>actum: quia non oportet quod illud quod est
+      perfe<lb ed="#L" n="61" break="no"/>ctius in natura perfectius inclinet: quia potest 
+      <lb ed="#L" n="62"/>esse imperfectius in inclinando ad actum vel 
+      <lb ed="#L" n="63"/>si sit perfectius quod possit causare perfectioren 
+      <lb ed="#L" n="64"/>actum qui ando potest agere: licet non semper 
+      <lb ed="#L" n="65"/>magis inclinet ad actum.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1562">
+      ⁋ Ad aliud alterius quae 
+      <lb ed="#L" n="66"/>stionis dico quod licet baptismus non sit causa prg 
+      <lb ed="#L" n="67"/>prie expulsionis culpe: tamen potest poni cau 
+      <lb ed="#L" n="68"/>sa sine qua non. quia in voluntariis sicut dictum 
+      <lb ed="#L" n="69"/>est potest poni causa sine qua non. licet non in 
+      <lb ed="#L" n="70"/>naturalibus. et ideo baptismus est aliquid
+      ta<lb ed="#L" n="71" break="no"/>le sine quo deus non vult expellere culpam ab 
+      <lb ed="#L" n="72"/>aliquo.
+    </p>
+            <p xml:id="wo8uy7-d1e2356-d1e1580">
+      ⁋ Ad aliud pro tertia opinione dico quod 
+      <lb ed="#L" n="73"/>deus est magis pronus ad remittendum vel
+      re<lb ed="#L" n="74" break="no"/>munerandum quam puniendum. et ideo malum
+      aliquan<lb ed="#L" n="75" break="no"/>do remittit sine punitione vel leuiter punitur 
+      <lb ed="#L" n="76"/>adeo etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

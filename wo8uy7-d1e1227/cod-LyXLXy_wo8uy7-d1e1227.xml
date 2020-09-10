@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="207-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1227"><!-- l1d23q1 -->
+            <head xml:id="wo8uy7-d1e1227-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1227-d1e111">
+               <lb ed="#L" n="37"/>⁋ Distinet. xxiii. Questio vnica. 
+      <lb ed="#L" n="38"/>Irca distinctio 
+      <lb ed="#L" n="39"/>nem. xxiii. quero. Utrum hoc 
+      <lb ed="#L" n="40"/>nomen persona sit nomen primi 
+      <lb ed="#L" n="41"/>intentionis an secunde.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e124">
+      ⁋ Quod sit no 
+      <lb ed="#L" n="42"/>men secunde intentionis videtur. 
+      <lb ed="#L" n="43"/>qui in diffinitione eius cadit in 
+      <lb ed="#L" n="44"/>tentio secunda. quia indiuiduum cadit in eius
+      diffini<lb ed="#L" n="45" break="no"/>tione. et indiuiduum est nomen secunde intentionis. ergo etc. 
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e135">
+               <lb ed="#L" n="46"/>⁋ Preterea si non esset nomen secunde intentionis cum
+      di<lb ed="#L" n="47" break="no"/>catur de pluribus. necessario esset terminus vniversalis 
+      <lb ed="#L" n="48"/>consequens est falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e144">
+      ⁋ Preterea si esset nomen prime 
+      <lb ed="#L" n="49"/>ntentionis tunc esset svnonimum cum natura intel 
+      <lb ed="#L" n="50"/>lectuali et completa. et per consequens vnum non diffiniretur 
+      <lb ed="#L" n="51"/>per reliquum. consequens est falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e154">
+      ⁋ Ad oppositum per quod 
+      <lb ed="#L" n="52"/>respondetur ad questionem factam per quandoid de re non 
+      <lb ed="#L" n="53"/>est terminus secunde intentionis. sed hoc nomen 
+      <lb ed="#L" n="54"/>persona est huiusmodi secundum beatum Augustinum. quia si quera 
+      <!--417.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 207-v -->
+               <lb ed="#L" n="55"/>tur de personis diuinis. quid tres sunt. respondetur 
+      <lb ed="#L" n="56"/>quod sunt tres persone. ergo persona non est nomen secunde 
+      <lb ed="#L" n="57"/>intentionis
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e176">
+      ⁋ Ad questionem dicitur quod persona est nomen 
+      <lb ed="#L" n="58"/>secunde intentionis. quia importat principaliter
+      intentio<lb ed="#L" n="59" break="no"/>nem secundam. quia sicut indiuiduum in omni substam 
+      <lb ed="#L" n="60"/>tia. ita suppositum in natura substantiali. et
+      perso<lb ed="#L" n="61" break="no"/>na innatura intellectuali. sed indiuiduum et super 
+      <lb ed="#L" n="62"/>positum dicunt tantum rem secunde intentionis. ergo et 
+      <lb ed="#L" n="63"/>persona tantum dicit rem secunde intentionis.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e192">
+      ⁋ Contra 
+      <lb ed="#L" n="64"/>istam opinionem arguo. quandocumque aliquod nomen non 
+      <lb ed="#L" n="65"/>significat aliquid per modum possibilis. et
+      significa<lb ed="#L" n="66" break="no"/>tum suum competit rei non per operationem intellect 
+      <lb ed="#L" n="67"/>illud est nomen prime intentionis. sed tale est hoc 
+      <lb ed="#L" n="68"/>nomen persona. quia circumscripto omni opere
+      intelle<lb ed="#L" n="69" break="no"/>ctus pater est persona. quia non est persona per
+      operatio<lb ed="#L" n="70" break="no"/>nem intellectus. ergo persona est nomen prime
+      inten<lb ed="#L" n="71" break="no"/>tionis
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e212">
+      ⁋ Si dicat quod secundum istam rationem species esset
+      no<lb ed="#L" n="72" break="no"/>men prime intentionis. quia circumscripto omni opere 
+      <lb ed="#L" n="73"/>intellectus. si sortes et plato essent in rerum natu 
+      <lb ed="#L" n="74"/>ra. adhuc essent eiusdem speciei. sicut essent due persone. 
+      <lb ed="#L" n="75"/>ergo species ita est nomen prime intentionis sicut persona 
+      <lb ed="#L" n="76"/>hoc non valet: quia sortes et plato non dicuntur eius 
+      <lb ed="#L" n="77"/>dem speciei nisi quia ab eis potest abstrahi vnus
+      con<lb ed="#L" n="78" break="no"/>ceptus communis. et ideo si hec tunc sit concedenda. spe 
+      <lb ed="#L" n="79"/>cies significabit per modum possibilis. vel hoc totum 
+      <lb ed="#L" n="80"/>eiusdem speciei. sed sic non est de persona. non enim dicitur pi 
+      <lb ed="#L" n="81"/>persona. quia potest formari circa eum talis vel talis in 
+      <lb ed="#L" n="82"/>tentio. sed quia est talis et non alia.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e238">
+      ⁋ Preterea
+      indi<lb ed="#L" n="83" break="no"/>uiduum suppositum singulare et huiusmodi sunt prime in 
+      <lb ed="#L" n="84"/>tentionis nomina. ergo similiter persona est nomen prime inten 
+      <lb ed="#L" n="85"/>tionis. consequentia patet per positionem istius. et anen probo de 
+      <lb ed="#L" n="86"/>hoc nomine singulare. quia singulare idem est quod vni 
+      <lb ed="#L" n="87"/>numero. immo vnum numero et singulare videnter 
+      <lb ed="#L" n="88"/>esse nomina svnonima. sed vnum numero est no 
+      <lb ed="#L" n="89"/>men prime intetionis. quia vnum est nomen prime
+      in<lb ed="#L" n="90" break="no"/>tentonis et eadem ratione indiuiduum suppositum est 
+      <lb ed="#L" n="91"/>huiusmodi sunt nomina prime intentionis.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e260">
+      ⁋ Ideo dico 
+      <lb ed="#L" n="92"/>questionem quod persona est nome prime intentionis 
+      <lb ed="#L" n="93"/> Circa quod primo videndum est quid sit persona et quo 
+      <lb ed="#L" n="94"/>modo distinguatur a supposito. secundo quid sit in 
+      <lb ed="#L" n="95"/>tentio secunda et prima.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e272">
+      ⁋ Circa primum dico quod 
+      <lb ed="#L" n="96"/>suppositum non habet quid rei. sed tantum quid nominis 
+      <lb ed="#L" n="97"/>Diffinitio autem exprimens quid nominis potest esse 
+      <lb ed="#L" n="98"/>illa. Suppositum est ens completum non constitu 
+      <lb ed="#L" n="99"/>ens aliquod ens vnum. non natum alteri
+      inhe<lb ed="#L" n="100" break="no"/>rere. nec ab aliquo alio sustentatum. Per prima 
+      <lb ed="#L" n="101"/>particul am excluditur quelibet entitas partialis 
+      <lb ed="#L" n="102"/>siue actualiter componat siue non. quia nihil 
+      <lb ed="#L" n="103"/>quod potest esse pars est ens completum. sed  
+      <lb ed="#L" n="104"/>tantum ens partiale. et ita excluditur anima 
+      <lb ed="#L" n="105"/>separata et quelibet forma substantialis et eti 
+      <lb ed="#L" n="106"/>am materia.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e298">
+      ⁋ Per secundam particulam
+      exclu<lb ed="#L" n="107" break="no"/>ditur diuina essentia. quia quamuis sit eus
+      com<lb ed="#L" n="108" break="no"/>pletum. tamen constituit vnum ens. scilicet
+      pa<lb ed="#L" n="109" break="no"/>trem et filium et spiritum sanctum. Et propter 
+      <!--418.xml-->
+      <pb ed="#L" n="208-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>idem excluditur quaelibet relatio et vnum constitutum 
+      <lb ed="#L" n="2"/>ex essentia et spiratione actiua. per tertiam partiulam 
+      <lb ed="#L" n="3"/>excluditur quodlibet accidens. quia quodlibet accidens 
+      <lb ed="#L" n="4"/>siue inhereat siue non natum est inherere. Per 
+      <lb ed="#L" n="5"/>quartam particulam excluditur natura assumpta a 
+      <lb ed="#L" n="6"/>verbo. quia illa est a verbo sustentata. Diffinitio autem 
+      <lb ed="#L" n="7"/>exprimens quid nominis persone potest esse ista. Personam est 
+      <lb ed="#L" n="8"/>suppositum intellectuale. Et differunt ista sicut
+      su<lb ed="#L" n="9" break="no"/>perius et inferius. Et potest dici quod ista descripto 
+      <lb ed="#L" n="10"/>persone est eadem tam cum diffinitione Boetii quam Ri 
+      <lb ed="#L" n="11"/>chardi. quia Boetius sic describit personam. Perso 
+      <lb ed="#L" n="12"/>na est rationalis nature indiuidua substantia volens in 
+      <lb ed="#L" n="13"/>telligere per indiuiduam substantiam suppositum substam 
+      <lb ed="#L" n="14"/>tiale. et per rationalem naturam intellectualem. et ideo non 
+      <lb ed="#L" n="15"/>intellexit per indiuiduam substantiam. tantum substantiam existentem 
+      <lb ed="#L" n="16"/>in praedicamento. sed omnem substantiam completam non
+      na<lb ed="#L" n="17" break="no"/>tam constituere aliquod vnum ens. Per rationalem
+      cre<lb ed="#L" n="18" break="no"/>aturam intelligens naturam intellectualem.
+      Diffini<lb ed="#L" n="19" break="no"/>tio autem richardi est ista quod persona est intellectu 
+      <lb ed="#L" n="20"/>alis nature incommunicabilis existentia intelligens per 
+      <lb ed="#L" n="21"/>incomnnicabilem existentiam omne illud quod non commu 
+      <lb ed="#L" n="22"/>nicatur alteri nec sicut pars. nec sicut constituti 
+      <lb ed="#L" n="23"/>uum. nec sicut accidens. nec sicut sustentatum. et ita 
+      <lb ed="#L" n="24"/>per incommunicabilem existentiam intelligitur suppositum. et ideo 
+      <lb ed="#L" n="25"/>addendo sibi quod est in tellectualis nature vult ha 
+      <lb ed="#L" n="26"/>bere quod natura est suppositum intellectuale. Ex 
+      <lb ed="#L" n="27"/>quo patet quod opinio aliorum non est conueniens quando di 
+      <lb ed="#L" n="28"/>cunt quod persona vltra naturam vel entitatem positiuam 
+      <lb ed="#L" n="29"/>nihil dicit nisi duplicem negationem duplid
+      communi<lb ed="#L" n="30" break="no"/>cabilitatis. quia vt dicunt communicabile dicitur dupliciter. Uno 
+      <lb ed="#L" n="31"/>modo dicitur communicabile pluribus quod est idem cuilibet eorum. 
+      <lb ed="#L" n="32"/>ita quod quodlibet sit ipsum. sicut vniversale dicitur communicari
+      su<lb ed="#L" n="33" break="no"/>is inferioribus. Alio modo communicatur aliquid vt
+      for<lb ed="#L" n="34" break="no"/>ma qua aliquid est. sed non est ipsum. vt anima communicatur 
+      <lb ed="#L" n="35"/>corpori. et vtroque modo deitas est communicabilis. et 
+      <lb ed="#L" n="36"/>neutro modo est persona communicabilis. Et duplex est 
+      <lb ed="#L" n="37"/>inconicabilitas quae pertinet ad rationem persone. propter 
+      <lb ed="#L" n="38"/>quod anima separata licet habeat primam incommunicabilita 
+      <lb ed="#L" n="39"/>tem. non tamen est persona. quia non habet secundam.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e398">
+      ⁋ Ex ista 
+      <lb ed="#L" n="40"/>opinione sequitur quod materia esset suppositum non 
+      <lb ed="#L" n="41"/>persona. quia sibi competit ista duplex incommunicabilitas 
+      <lb ed="#L" n="42"/>qui nec est communicabilis vt vniversale. nec vt forma mate 
+      <lb ed="#L" n="43"/>rie. Similiter sequeretur quod natura assumpta esset
+      perso<lb ed="#L" n="44" break="no"/>na. quia neutro modo est communicabilis. quia non potest esse 
+      <lb ed="#L" n="45"/>forma alicuius nec est vnum vniversale commune multis. Simulr 
+      <lb ed="#L" n="46"/>prius ostensum est quod nihil nisi sola divina essentia est 
+      <lb ed="#L" n="47"/>communicabilis per identitatem. quia in omnibus aliis
+      eoip<lb ed="#L" n="48" break="no"/>so quod aliquid communicatur alteri. non est ipsum nec econuer 
+      <lb ed="#L" n="49"/>so. et ita non communicatur sibi vt sit ipsum. Similiter sequeretur quod 
+      <lb ed="#L" n="50"/>paternitas esset suppositum vel persona formaliter. quia 
+      <lb ed="#L" n="51"/>nec est communicabilis vt vniversale nec vt forma. quia secundum istum 
+      <lb ed="#L" n="52"/>alibi. relatio nec est actus nec forma essentie. 
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e429">
+               <lb ed="#L" n="53"/>⁋ Si dicatur. sicut dicit iste alibi quod negatio
+      du<lb ed="#L" n="54" break="no"/>plicis dependentie est formale in ratione persone vel 
+      <lb ed="#L" n="55"/>suppositi. scilicet negatio dependentie actualis et ne 
+      <!--418.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 208-r -->
+               <lb ed="#L" n="56"/>gatio dependentie aptitudinalis. et ideo quod iste 
+      <lb ed="#L" n="57"/>negationes non competunt illis de quibus argutum est 
+      <lb ed="#L" n="58"/>ideo non sunt persone. Nam anime separate non potest
+      compe<lb ed="#L" n="59" break="no"/>rere negatio dependentie aptitudinalis nec ma 
+      <lb ed="#L" n="60"/>terie. nec nature assumpte competit negatio
+      de<lb ed="#L" n="61" break="no"/>pendentie actualis. Istud non sufficit. quia concedit 
+      <lb ed="#L" n="62"/>quod negatio duplicis incommunicabilitatis praedicte non 
+      <lb ed="#L" n="63"/>sufficit ad rationem persone. Similiter ex isto sequeretur quod 
+      <lb ed="#L" n="64"/>essentia diuina esset persona. quia sibi competit negatio 
+      <lb ed="#L" n="65"/>duplicis dependentie praedicte. quia nec essentia divina 
+      <lb ed="#L" n="66"/>dependet nec est nata dependere. et eodem modo
+      po<lb ed="#L" n="67" break="no"/>test argui de qualibet relatione in diuinis. ideo 
+      <lb ed="#L" n="68"/>dico sicut prius quod persona est suppositum
+      intelle<lb ed="#L" n="69" break="no"/>ctuale. et suppositum est ens completum etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e475">
+      ⁋ Circa 
+      <lb ed="#L" n="70"/>secundum dico quod intentio prima vocatur res realiter
+      ex<lb ed="#L" n="71" break="no"/>istens. Intentio autem secunda vocatur aliquid in anima rebus 
+      <lb ed="#L" n="72"/>applicabile praedicale de nominibus rerum quando non habent 
+      <lb ed="#L" n="73"/>supponem personalem sed simplicem. sicut sunt species. 
+      <lb ed="#L" n="74"/>genus. quae verificantur de istis terminis homo. animal 
+      <lb ed="#L" n="75"/>asinus lapis et huiusmodi. non quando supponunt personalit 
+      <lb ed="#L" n="76"/>et pro suis significatis. sed quando supponunt simpliciter 
+      <lb ed="#L" n="77"/>et a quolibet significato per tale terminum vere 
+      <lb ed="#L" n="78"/>remouetur. Utrum autem talia sint realiter et subiective 
+      <lb ed="#L" n="79"/>in anima. an obiectiue tantum non refert ad propositum 
+      <lb ed="#L" n="80"/>nec hoc spectat determinare ad logicum. quae tamen
+      princi<lb ed="#L" n="81" break="no"/>paliter distinctionem inter nomina prime et secunde
+      in<lb ed="#L" n="82" break="no"/>tentionis habet considerare. quia logicus praecise habet 
+      <lb ed="#L" n="83"/>dicere quod in ista propositione homo est species. subiectum 
+      <lb ed="#L" n="84"/>supponit pro vno communi et non pro aliquo significato 
+      <lb ed="#L" n="85"/>suo. Utrum autem illud commune sit reale vel non sit reale. 
+      <lb ed="#L" n="86"/>nihil ad eum. sed ad metaphisicum. Ex istis patet 
+      <lb ed="#L" n="87"/>quod nomen secunde intentionis est illud quod imponitur 
+      <lb ed="#L" n="88"/>ad significandum talia de nominibus rerum praedicabi 
+      <lb ed="#L" n="89"/>lia quando supponunt simpliciter et non pro suis significatur. 
+      <lb ed="#L" n="90"/>Ex quo patet vlterius quod nomen quod non ex ratione
+      in<lb ed="#L" n="91" break="no"/>stitutionis pro talibus supponit sed pro aliquibus aliis 
+      <lb ed="#L" n="92"/>non est nomen secunde intentionis sed prime. et ideo talia 
+      <lb ed="#L" n="93"/>nomina. suppositum. indiuiduum. singulare. persona. 
+      <lb ed="#L" n="94"/>cum quantum est ex ratione institutionis semper supponunt
+      pro<lb ed="#L" n="95" break="no"/>rebus. nec possunt pro aliis supponere quantum est ex 
+      <lb ed="#L" n="96"/>ratione institutionis. licet aliquando ratione alicuius adiuncti 
+      <lb ed="#L" n="97"/>propter quod adiunctum tota propositio est distinguenda 
+      <lb ed="#L" n="98"/>penes tertium modum equiuocationis. sequitur quod ta 
+      <lb ed="#L" n="99"/>lia nomina sunt nomina prime intentionis et non secunde. 
+      <lb ed="#L" n="100"/>Assumptum patet. quia in talibus propositionibus 
+      <lb ed="#L" n="101"/>omne suppositum est res omne singulare est substam 
+      <lb ed="#L" n="102"/>tia vel accidens. omnis persona est natura intellectua 
+      <lb ed="#L" n="103"/>lis. et in talibus vere est supposon pro rebus. quia ista 
+      <lb ed="#L" n="104"/>omnis persona est natura intellectualis non
+      verifi<lb ed="#L" n="105" break="no"/>catur nisi pro rebus. et non pro quabuscumque aliis. sed ista 
+      <lb ed="#L" n="106"/>omnis species praedicatur de pluribus differuntibus numero. 
+      <lb ed="#L" n="107"/>non verificatur pro aliqua re tali. sed precise pro
+      ali<lb ed="#L" n="108" break="no"/>quo communi predicabili de termino significante rel 
+      <lb ed="#L" n="109"/>quando supponit non pro rebus sed pro se.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e564">
+      ⁋ Per
+      predi<lb ed="#L" n="110" break="no"/>cta patet ad rationem prime opinionis quod assumptum 
+      <!--419.xml-->
+      <pb ed="#L" n="208-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est falsum quod indiuiduum et suppositum dicunt tantum 
+      <lb ed="#L" n="2"/>rem secunde intentionis. immo stat quod sunt nomina prime 
+      <lb ed="#L" n="3"/>intentionis. quia quando supponunt personaliter. supponunt 
+      <lb ed="#L" n="4"/>tantum pro rebus. et verificantur de nominibus rerum quando
+      il<lb ed="#L" n="5" break="no"/>la: nomina supponunt pro suis significatis et non pro
+      se<lb ed="#L" n="6" break="no"/>ipsis. nec pro aliis a suis significatis. Unde ista 
+      <lb ed="#L" n="7"/>non est vera. homo est singularis nisi pro re et non 
+      <lb ed="#L" n="8"/>pro aliqua intentione secunda.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e594">
+      ⁋ Sed conclusio praedicta potest 
+      <lb ed="#L" n="9"/>obiici primo. quia sequeretur quod persona non esset vnum per 
+      <lb ed="#L" n="10"/>se. quia includeret negationes. sed negatio non fac 
+      <lb ed="#L" n="11"/>per se vnum cum positiuo
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e603">
+      ⁋ Preterea nullum nomen prime 
+      <lb ed="#L" n="12"/>intentionis est commune omni enti nisi ens vel
+      svno<lb ed="#L" n="13" break="no"/>nimum enti vel passio entis. sed vnum vel singula 
+      <lb ed="#L" n="14"/>re non est aliquod huiusmodi. ergo non est nomen prime inten 
+      <lb ed="#L" n="15"/>tionis. et per consequens nec suppositum nec persona 
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e614">
+               <lb ed="#L" n="16"/>⁋ Preterea sicut species ad genus. ita singulare 
+      <lb ed="#L" n="17"/>ad speciem. ergo sicut intentio speciei est inferius ad
+      inten<lb ed="#L" n="18" break="no"/>tionem generis. ita indiuiduum vel singulare erit 
+      <lb ed="#L" n="19"/>intentio inferior ad intentionem speciei.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e625">
+      ⁋ Preterea  
+      <lb ed="#L" n="20"/>illud nomen in cuius diffinitione ponitur intentio
+      se<lb ed="#L" n="21" break="no"/>cunda est nomen secunde intentionis. sed in diffinitione 
+      <lb ed="#L" n="22"/>indiuidui ponitur intentio secunda. quia sic diffinitur.
+      in<lb ed="#L" n="23" break="no"/>diuiduum est quod de vno solo praedicatur. et
+      praedica<lb ed="#L" n="24" break="no"/>ri est intentio secunda. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e638">
+      ⁋ Preterea conclusiodicta prius 
+      <lb ed="#L" n="25"/>praedicari vere competit rei. quia res vere predicatur. 
+      <lb ed="#L" n="26"/>ergo non sequitur tale nomen verificatur de re. ergo est 
+      <lb ed="#L" n="27"/>nomen secunde intentionis.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e647">
+      ⁋ Preterea album nigrum 
+      <lb ed="#L" n="28"/>et huiusmodi sunt termini accidentales id estaccidentium. et tamen 
+      <lb ed="#L" n="29"/>smpponunt pro ipsis substantiis. ergo eadem ratione quamuis 
+      <lb ed="#L" n="30"/>suppositum persona et huiusmodi supponunt pro rebus po 
+      <lb ed="#L" n="31"/>terunt esse termini secunde intentionis.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e659">
+      ⁋ Ad primum 
+      <lb ed="#L" n="32"/>istorum dico quod persona est vnum per se. sicut album per se 
+      <lb ed="#L" n="33"/>est homo. Ueruntamen diffinitio exprimens quid nominis 
+      <lb ed="#L" n="34"/>ipsius persone non significat praecise aliquod per se 
+      <lb ed="#L" n="35"/>vnum. quia praeter naturam intellectualem ponuntur ibi 
+      <lb ed="#L" n="36"/>negationes que non significant aliqua facientia per 
+      <lb ed="#L" n="37"/>se vnum cum natura intelligibili. et ideo non est
+      diffi<lb ed="#L" n="38" break="no"/>nitio exprimens quid rei. sed tantum quid nominis. Ex isto 
+      <lb ed="#L" n="39"/>sequitur quod diffinitio exprimens quid nominis persone. non 
+      <lb ed="#L" n="40"/>est exprimens aliquid per se vnum in quocuque genere 
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e681">
+               <lb ed="#L" n="41"/>⁋ Ad secundum dico quod vnum. singulare et huiusmodi sunt 
+      <lb ed="#L" n="42"/>passiones entis. quia sunt de ente praedicabilia tantum 
+      <lb ed="#L" n="43"/>secundo modo dicendi per se. sed suppositum vel potens 
+      <lb ed="#L" n="44"/>esse suppositum est passio substantia. quia omnis substantia 
+      <lb ed="#L" n="45"/>vel est suppositum vel potest esse suppositum. et hoc prout 
+      <lb ed="#L" n="46"/>substantia praecise supponit pro illis quae sunt per se in 
+      <lb ed="#L" n="47"/>genere substantie. Sed persona est passio illius quod 
+      <lb ed="#L" n="48"/>est suppositum. et natura intelligibilis ita quod ista 
+      <lb ed="#L" n="49"/>aliqua res est persona si sit per se aliquo modo dicen 
+      <lb ed="#L" n="50"/>di per se. erit per se secundo modo dicendi per se et non primo 
+      <lb ed="#L" n="51"/>modo. quia nunquam aliquod negatiuum. nec aliquid in cu 
+      <lb ed="#L" n="52"/>ius diffinitione exprimente quid nominis ponitur aliquid 
+      <lb ed="#L" n="53"/>negatiuum praedicatur per se primo modo de aliquo pre 
+      <lb ed="#L" n="54"/>cise importante rem sine tali negatione. sed vel
+      praedi<lb ed="#L" n="55" break="no"/>cabitur per accidens vel secundo modo dicendi per se 
+      <!--419.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 208-v -->
+               <lb ed="#L" n="56"/>Sed est aduertendum quod nolo dicere quod illud quod est 
+      <lb ed="#L" n="57"/>suppositum vel persona predicatur sic secundo modo dicen 
+      <lb ed="#L" n="58"/>di per se. sed quod isti termini quae sunt voces vel
+      con<lb ed="#L" n="59" break="no"/>ceptus predicantur per se secundo modo.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e731">
+      ⁋ Ad tertium
+      di<lb ed="#L" n="60" break="no"/>co quod non est omnino simile. quod sicut se habet species 
+      <lb ed="#L" n="61"/>ad genus. ita se habet singulare ad speciem. quia illud  
+      <lb ed="#L" n="62"/>quod est singulare est vna res extra animam. sed  
+      <lb ed="#L" n="63"/>illud quod est species vel genus non potest esse res 
+      <lb ed="#L" n="64"/>extra animam. quamuis secundum vna opinione de conceptu 
+      <lb ed="#L" n="65"/>possit esse subiectiue res existens in anima seu intelle 
+      <lb ed="#L" n="66"/>ctu. quantum ad hoc est simile quod de quocumque praedicatur 
+      <lb ed="#L" n="67"/>illud quod est species quando stat pro rebus de eodem praedicatur 
+      <lb ed="#L" n="68"/>illud quod est singulare et non ecouerso. sicut est 
+      <lb ed="#L" n="69"/>de illo quod est species respectu illius quod est genus 
+      <lb ed="#L" n="70"/>Si dicatur si vnum oppositorum sit nomen secunde
+      inten<lb ed="#L" n="71" break="no"/>tionis. reliquum est nomen secunde intentionis. sed vniversale 
+      <lb ed="#L" n="72"/>et singulare sunt opposita et vniversale est nomen
+      se<lb ed="#L" n="73" break="no"/>cunde intentionis. ergo et singulare. Dico quod assumptum 
+      <lb ed="#L" n="74"/>de quaibuscumque oppositis non est verum. quamuis esset 
+      <lb ed="#L" n="75"/>verum de oppositis contrariis. a quorum vno possit
+      ali<lb ed="#L" n="76" break="no"/>quid transmutari ad reliquum. si talia possunt esse 
+      <lb ed="#L" n="77"/>quorum vnum esset intentio secunda.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e773">
+      ⁋ Ad quartum dico 
+      <lb ed="#L" n="78"/>per in diffinitione exprimente quid nominis indiuidui non 
+      <lb ed="#L" n="79"/>ponitur aliqua secunda intentio.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e780">
+      ⁋ Unde ista descriptio 
+      <lb ed="#L" n="80"/>indiuiduum est quod predicatur de vno solo. non
+      expri<lb ed="#L" n="81" break="no"/>mit quid nominis. sed diffinitio sua exprimens quid 
+      <lb ed="#L" n="82"/>nominis debet esse ista. indiuiduum est ens completum 
+      <lb ed="#L" n="83"/>et non aliud vel aliqua huiusmodi.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e791">
+      ⁋ Preterea dato quod 
+      <lb ed="#L" n="84"/>esset eius diffinitio exprimens quid nominis posset 
+      <lb ed="#L" n="85"/>dici quod non sequitur. intentio secunda ponitur in eius
+      diffi<lb ed="#L" n="86" break="no"/>nitione. ergo non est nomen secunde intetionis. sicut non 
+      <lb ed="#L" n="87"/>sequitur nomen aliquod prime intentionis ponitur in
+      dif<lb ed="#L" n="88" break="no"/>finitione speciei. ergo species est nomen ene intentionis 
+      <lb ed="#L" n="89"/>Unde hec est differentia inter nomina prime intentionis et 
+      <lb ed="#L" n="90"/>secunde. quia nomina prime intentionis sunt illa quae quando 
+      <lb ed="#L" n="91"/>supponunt personaliter praecise stant pro rebus non
+      in<lb ed="#L" n="92" break="no"/>quantum praedicabilia de aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e814">
+      ⁋ Nomna secunde
+      intentio<lb ed="#L" n="93" break="no"/>nis stant pro aliquibus praedicabilibus de rebus.
+      si<lb ed="#L" n="94" break="no"/>cut quando dico omnis homo currit homo stat precise 
+      <lb ed="#L" n="95"/>pro rebus. non inquantum ille res sunt de quaibuscumque 
+      <lb ed="#L" n="96"/>praedicabiles. sed quando dico quod omnis species praedicatur de 
+      <lb ed="#L" n="97"/>pluribus differentibus numero. subiectum stat pro 
+      <lb ed="#L" n="98"/>aliquibus inquantum sunt praedicabilia de aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e830">
+      ⁋ Ad  
+      <lb ed="#L" n="99"/>quintum dico quod praedicari potest dici intentio secunda quae 
+      <lb ed="#L" n="100"/>uis competat vere rei. quia non tantum competit rei. sed etiam 
+      <lb ed="#L" n="101"/>intetioni secunde. et quia non potest competere rei nisi per 
+      <lb ed="#L" n="102"/>operationem intellectus. vel potest dici quod est vnum 
+      <lb ed="#L" n="103"/>commune per predicationem non per se primo modo: rei et
+      in<lb ed="#L" n="104" break="no"/>tentonibus in anima. et ita equiualenter est nomen tam 
+      <lb ed="#L" n="105"/>prime intentionis quam secunde.
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e848">
+      ⁋ Ad vltimum dico quod al 
+      <lb ed="#L" n="106"/>bum et nigrum et huiusmodi dicuntur termini accidenta 
+      <lb ed="#L" n="107"/>les. quia quamuis supponant pro subiectis. tamen
+      principa<lb ed="#L" n="108" break="no"/>liter important accidentia. non sic autem est de illis 
+      <lb ed="#L" n="109"/>terminis singulare. suppositum. persona et huiusmodi. 
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e859">
+               <lb ed="#L" n="110"/>⁋ Sed hoc videtur esse contra praedicta. quia prius 
+      <!--420.xml-->
+      <pb ed="#L" n="209-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dictum est quam termini ex ratione institutionis semper 
+      <lb ed="#L" n="2"/>supponunt pro suis significatis. ergo principaliter
+      sup<lb ed="#L" n="3" break="no"/>ponunt pro illis quae principaliter significant. ergo cum tales 
+      <lb ed="#L" n="4"/>termini principaliter significant ipsas formas princi 
+      <lb ed="#L" n="5"/>cipaliter supponunt pro ipsis formis. Dico quod non est 
+      <lb ed="#L" n="6"/>magna cura quid dicatur de principali significato 
+      <lb ed="#L" n="7"/>talium terminorum. quia quicqud dicatur de eis. tamen 
+      <lb ed="#L" n="8"/>dico quod semper ratione institutionis supponunt pro ipsis 
+      <lb ed="#L" n="9"/>substantiis quae sunt significata ipsorum. quamuis forte 
+      <lb ed="#L" n="10"/>ipse forme sunt principaliora significata. Et quod 
+      <lb ed="#L" n="11"/>dictum est prius debet intelligi quando terminus non habet 
+      <lb ed="#L" n="12"/>duo significata. vnum principale et aliud quasi connota 
+      <lb ed="#L" n="13"/>tum vel datum intelligi
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e898">
+      ⁋ Ad primum principale patei 
+      <lb ed="#L" n="14"/>quod indiuiduum non est nome secunde intetionis. sed 
+      <lb ed="#L" n="15"/>prime
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e905">
+      ⁋ Ad secundum patebit dist. xxv. quo aliquod  
+      <lb ed="#L" n="16"/>vniversale praedicatur de deo at aliquod non. quia tale vniversale quod  
+      <lb ed="#L" n="17"/>vivrsaite praedicatur de pluribus quae possunt esse vna res non 
+      <lb ed="#L" n="18"/>est inconueniens praedicari de divinis personis
+    </p>
+            <p xml:id="wo8uy7-d1e1227-d1e915">
+      ⁋ Ad 
+      <lb ed="#L" n="19"/>tertium dico quod non sequitur quamuis sit nomen prime 
+      <lb ed="#L" n="20"/>intentionis quod sit svnonimum cum natura
+      intellectua<lb ed="#L" n="21" break="no"/>li completa. quia in eius diffinitione expremente quid
+      no<lb ed="#L" n="22" break="no"/>minis ponitur aliquid negatiuum. vel diffinitum per 
+      <lb ed="#L" n="23"/>tale negatiuum quod non ponitur in diffinitione na 
+      <lb ed="#L" n="24"/>ture intellectualis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

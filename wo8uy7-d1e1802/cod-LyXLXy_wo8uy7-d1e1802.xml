@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="269-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1802"><!-- l1d44q1 -->
+            <head xml:id="wo8uy7-d1e1802-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1802-d1e111">
+      ⁋ Dist. xliiii. Questio vnica. 
+      <lb ed="#L" n="18"/>CIrca
+      distin<lb ed="#L" n="19" break="no"/>ctionem
+      quadragesimamquar<lb ed="#L" n="20" break="no"/>tam quaero.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e120">
+      ⁋ Utrum. deus posset 
+      <lb ed="#L" n="21"/>facere mundum meliorem isto 
+      <lb ed="#L" n="22"/>mundo
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e127">
+      ⁋ Qod non. quia illud quod 
+      <lb ed="#L" n="23"/>non recipit magis et minus 
+      <lb ed="#L" n="24"/>non potest fieri melius. sed mundus non recipit magiset 
+      <lb ed="#L" n="25"/>minus. ergo non potest vnus mundus esse melior alio. ergo etc.
+      ma<lb ed="#L" n="26" break="no"/>ior patet. quia mundus constat ex substantiis quae non
+      suscipi<lb ed="#L" n="27" break="no"/>unt magis et minus.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e140">
+      ⁋ Preterea quae ratione deus posset fa 
+      <lb ed="#L" n="28"/>cere mundum meliore isto mundo. eadem ratione posset 
+      <lb ed="#L" n="29"/>facere mundum in infinitum meliorem isto mundo. quod est 
+      <lb ed="#L" n="30"/>impossibile.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e150">
+      ⁋ Ad oppositum est mgitur inlittera.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e153">
+      ⁋ Circa 
+      <lb ed="#L" n="31"/>istam. q. primo videndum est quid importatur per mundum.
+      Se<lb ed="#L" n="32" break="no"/>cundo quid per melius. Tertio ad. q.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e160">
+      ⁋ Circa primum di 
+      <lb ed="#L" n="33"/>co quod mundus dupliciter accipitur. Aliquando pro tota
+      congre<lb ed="#L" n="34" break="no"/>gatione omnium rerum creatarum siue sint substantiae siue
+      acci<lb ed="#L" n="35" break="no"/>dentia. Aliquando accipitur pro toto quodam composito vel 
+      <lb ed="#L" n="36"/>aggregato ex multis contentis sub vno corpore et 
+      <lb ed="#L" n="37"/>illo continente. Et hoc dupliciter. vel praecise pro partibus quae sunt 
+      <lb ed="#L" n="38"/>st.  vel idrespenter pro omnibus. Sed in ista. q. accipiendus est 
+      <lb ed="#L" n="39"/>mundus praecise pro vno vniuerso quasi composito ex
+      parti<lb ed="#L" n="40" break="no"/>bus quae. sunt substantia. et no secundum quod includit accidentia cum substantia 
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e180">
+               <lb ed="#L" n="41"/>⁋ Circa secundum dico quod aliquid potest esse melius alio. 
+      <lb ed="#L" n="42"/>vel bonitate essentiali vel substantiali vel bonitate
+      acci<lb ed="#L" n="43" break="no"/>dentali. Circa tertium primo videndum est. vtrum posset 
+      <lb ed="#L" n="44"/>facere mundum meliore isto bonitate essentiali
+      si<lb ed="#L" n="45" break="no"/>ue substantiali. et hoc distinctum specie. Secundo vtrum posset face 
+      <lb ed="#L" n="46"/>ret mundum meliorem distinctum solo numero. Tertio 
+      <lb ed="#L" n="47"/>vtrum posset facere mundum meliorem bonitate
+      ae<lb ed="#L" n="48" break="no"/>cidentali.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e200">
+      ⁋ Circa primum est dubium quid sit tenendum. 
+      <lb ed="#L" n="49"/>Nam si teneatur opiniones quod deus potest facere substantiam perfecti 
+      <lb ed="#L" n="50"/>orem omni substantia facta. et hoc in infinitum. sicut potest augere
+      qua<lb ed="#L" n="51" break="no"/>litatem recipientem magis et minus in infinitum. ita quod no 
+      <lb ed="#L" n="52"/>est ponere statum. Dicendum est consequenter quod deus potest face 
+      <lb ed="#L" n="53"/>re mundum meliorem distinctum specie. quia poterit facere 
+      <lb ed="#L" n="54"/>alia indiuidua substantialia distincta specie meliora illis 
+      <!--540.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 269-r -->
+               <lb ed="#L" n="55"/>quae modo sunt. Sed tenendo quod est status in talibus. ita quod est 
+      <lb ed="#L" n="56"/>dare aliquam substectam perfectissimam possibilem a deo fi 
+      <lb ed="#L" n="57"/>eri. est magis dubium quia tenendo opiniones lam potest probabi 
+      <lb ed="#L" n="58"/>liter teneri vtraque pars. scilicet quod potest facere alium
+      mun<lb ed="#L" n="59" break="no"/>dum distinctum specie. et pro ista parte videtur esse opinio 
+      <lb ed="#L" n="60"/>augustini et mgrati in littera. quae dicit talem potuit deus 
+      <lb ed="#L" n="61"/>fecisse hominem quae non peccare posset nec vellet. 
+      <lb ed="#L" n="62"/>Ex hoc arguo sic. quicquid conuenit alicui specieispena 
+      <lb ed="#L" n="63"/>lissime nulli indiuiduo eiusdem specieispenalissime 
+      <lb ed="#L" n="64"/>repugnat formaliter consimile. sed isti homi couenit pos 
+      <lb ed="#L" n="65"/>se peccare. manifestum est. ergo nulli homi eiusdem speciei 
+      <lb ed="#L" n="66"/>repugnat formaliter peccare. sed deus potest facere ho 
+      <lb ed="#L" n="67"/>minem cui repugnaret peccare. ergo talis homo non est 
+      <lb ed="#L" n="68"/>set eiusdem speispenalissime cum isto homine. ergo esset
+      al<lb ed="#L" n="69" break="no"/>terius speciei. et per consequens deus potest facere indiuiduum 
+      <lb ed="#L" n="70"/>alterius speciei quam fecit. et per consequens mundum alterius speciei. 
+      <lb ed="#L" n="71"/>et eadem ratione meliorem.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e259">
+      ⁋ Et si instetur cotra illam 
+      <lb ed="#L" n="72"/>rationem quod assumptum est falsum Nam isti homi conuenit 
+      <lb ed="#L" n="73"/>posse peccare. et tamen isti homi demonstrando christum re 
+      <lb ed="#L" n="74"/>pugnat posse peccare. non obstante quod sit
+      eius<lb ed="#L" n="75" break="no"/>dem. speieispecnalissime cum isto homine quae potest peccare. 
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e271">
+               <lb ed="#L" n="76"/>⁋ Similiter homo est spesspecialissima. ergo non potest esse homo ali 
+      <lb ed="#L" n="77"/>quis alterius speciei quam sit iste homo quae potest peccare. 
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e278">
+               <lb ed="#L" n="78"/>⁋ Primum istorum non concludit. nam quamuis verbo
+      di<lb ed="#L" n="79" break="no"/>uino repugnet posse peccare. tamen illi nature quae est 
+      <lb ed="#L" n="80"/>vuita verbo non repugnat posse peccare. quia si 
+      <lb ed="#L" n="81"/>dimitteretur a verbo posset peccare. et natura est 
+      <lb ed="#L" n="82"/>eiusdem specieispecialissime cum isto homine quae potest
+      pecca<lb ed="#L" n="83" break="no"/>re. non aut est eiusdem speieispecialissime cum vbo quod non 
+      <lb ed="#L" n="84"/>potest peccare.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e296">
+      ⁋ Secundum etiam non concludit. Non homo 
+      <lb ed="#L" n="85"/>dupliciter accipi potest. vno modo pro omni composito ex
+      cor<lb ed="#L" n="86" break="no"/>pore et natura intellectuali. et homo sic sumptus 
+      <lb ed="#L" n="87"/>non esset spesspecialissima. et ideo iste homo si fieret 
+      <lb ed="#L" n="88"/>impeccabilis. per naturam non esset eiusdem
+      specieispena<lb ed="#L" n="89" break="no"/>lissime. cum isto homine qui potest peccare. Aliter ac 
+      <lb ed="#L" n="90"/>cipitur homo pro composito ex corpore et tali anima in 
+      <lb ed="#L" n="91"/>tellectiua qualem nos habemus. et homo sic sumptus 
+      <lb ed="#L" n="92"/>est spesspecialissima. nec ille qui fieret impecca 
+      <lb ed="#L" n="93"/>bilis esset homo taliter accipiendo hominem 
+      <lb ed="#L" n="94"/>Tenendo ergo statum in indiuiduis distinctis specie 
+      <lb ed="#L" n="95"/>posset teneri quod deus non posset facere aliud in 
+      <lb ed="#L" n="96"/>diuiduum speciei distincte. quia si sit status in tali 
+      <lb ed="#L" n="97"/>bus. omnes species substantie factibiles a deo sunt in 
+      <lb ed="#L" n="98"/>certo numero. et per consequens difficile est probare quod 
+      <lb ed="#L" n="99"/>aliqua indiuidua aliquarum specierum sint producta 
+      <lb ed="#L" n="100"/>a deo. et aliqua non sint producta a deo. Nec vide 
+      <lb ed="#L" n="101"/>tur posse haberi ad hoc aliqua congruentia nisi for 
+      <lb ed="#L" n="102"/>te ex aliqua auctoritate quam difficile est inuenire in 
+      <lb ed="#L" n="103"/>scriptura. et secundum istam opinio deus non posset facere alium 
+      <lb ed="#L" n="104"/>mundum distinctum specie ab isto. Tertio modo 
+      <lb ed="#L" n="105"/>posset poni talis status ponendo quod aliqua
+      in<lb ed="#L" n="106" break="no"/>diuidua aliquarum specierum productibilia a deo 
+      <lb ed="#L" n="107"/>non sint producta. tamen aliquod indiuiduum speciei 
+      <lb ed="#L" n="108"/>supreme est productum. quia non videtur
+      veri<lb ed="#L" n="109" break="no"/>simile quod deus produxerit indiuidua specierum in¬ 
+      <!--541.xml-->
+      <pb ed="#L" n="269-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>feriorum et non suprime si sit talis ponenda Ad hoc etiam 
+      <lb ed="#L" n="2"/>oeter esse <ref xml:id="wo8uy7-d1e1802-Rd1e363">aug. libro confes.</ref> vbi dicit domine duo fecisti. 
+      <lb ed="#L" n="3"/>vnum properie te. et vnum properie nihil. ergo sicut non videtur posse 
+      <lb ed="#L" n="4"/>fieri aliquod inferius materia quam vocat aug. prope 
+      <lb ed="#L" n="5"/>nihil. ita non videtur posse fieri aliquid perfectius angelo. 
+      <lb ed="#L" n="6"/>quem vocat augs. proporie deum.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e375">
+      ⁋ Sic ergo patet quod circa 
+      <lb ed="#L" n="7"/>istum articulum possent poni tres opiniones probabile au 
+      <lb ed="#L" n="8"/>tesm reputo quod deus posset facere alium mundum
+      meli<lb ed="#L" n="9" break="no"/>orem isto distinctum specie ab isto. et maxime quo ad ali 
+      <lb ed="#L" n="10"/>quaes res distinctas specie. et quo ad pluralitatem specie 
+      <lb ed="#L" n="11"/>rum.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e388">
+      ⁋ Circa secundum articulum dico quod deus potest
+      face<lb ed="#L" n="12" break="no"/>et mudum meliorem isto et distinctum solo numero ab 
+      <lb ed="#L" n="13"/>isto mundo. cuius ratio est. quia infinita indiuidua eiusdem 
+      <lb ed="#L" n="14"/>rationis cum illis quae modo sunt posset deus producere. ergo tot 
+      <lb ed="#L" n="15"/>indiuidua et plura quot modo sunt producta et
+      earum<lb ed="#L" n="16" break="no"/>dem specierum potest deus producere. sed non artatur ad
+      produ<lb ed="#L" n="17" break="no"/>cendum ea in isto mundo. ergo posset ea producere extra 
+      <lb ed="#L" n="18"/>stum mundum et ex eis facere vnum mundum sicut ex ill quo 
+      <lb ed="#L" n="19"/>iam sunt producta fecit hunc mundum.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e408">
+      ⁋ Et si arguatur 
+      <lb ed="#L" n="20"/>sicut arguit philosophus primo de celo et mudo. quod si esse 
+      <lb ed="#L" n="21"/>vnus alius mundus. tunc quaero. aut terra illius mundi moue 
+      <lb ed="#L" n="22"/>retur ad medium istius mundi aut non. Non potest dici quod 
+      <lb ed="#L" n="23"/>non. quia corpora eiusdem speciei mouentur ad eudem locum. ergo 
+      <lb ed="#L" n="24"/>cum terra istius mundi moueatur naturaliter ad medium 
+      <lb ed="#L" n="25"/>istius mundi: terra alterius mundi naturaliter mouebitur 
+      <lb ed="#L" n="26"/>ad medium istius mundi. Si autem terra alterius mundi 
+      <lb ed="#L" n="27"/>non mouetur ad medium istius mundi. ergo naturaliter
+      rece<lb ed="#L" n="28" break="no"/>dit a medio istius mundi. quod est impossibile. quia graue 
+      <lb ed="#L" n="29"/>numquam mouetur naturaliter a medio. Similiter eadem ratione 
+      <lb ed="#L" n="30"/>recedit a medio istius mundi. et per consequens non recedit 
+      <lb ed="#L" n="31"/>ad medium istius mundi.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e438">
+      ⁋ Si dicatur ad istam rationem 
+      <lb ed="#L" n="32"/>quod indiuidua eiusdem speciei mouentur naturaliter ad
+      eun<lb ed="#L" n="33" break="no"/>dem locum non numero. sed ad eundem locum specie. diuersa 
+      <lb ed="#L" n="34"/>tamen numero. hoc remouet philosophus dicens. hoc esse
+      impossi<lb ed="#L" n="35" break="no"/>bile. quia tunc diuerse partes istius terre mouerentur ad eum 
+      <lb ed="#L" n="36"/>dem locum specie. et tamen ad diuersa loca secundum numerum. cuius 
+      <lb ed="#L" n="37"/>oppositum patet ad sensum
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e454">
+      ⁋ Preterea philosophus arguit sic 
+      <lb ed="#L" n="38"/>illud quod fit ex tota materia sua non est
+      plurifica<lb ed="#L" n="39" break="no"/>bile. sed celum fit ex tota materia sua. ergo non possunt esse 
+      <lb ed="#L" n="40"/>plures celi.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e463">
+      ⁋ Ad primam istarum rationum dico quod quamuis 
+      <lb ed="#L" n="41"/>omnia indiuidua eiusdem speciei praesentnaturaliter moueri 
+      <lb ed="#L" n="42"/>ad eundem locum numero. puta si eundem locum extra
+      lo<lb ed="#L" n="43" break="no"/>cum suum naturalem occupent saltem successiue. non tamen 
+      <lb ed="#L" n="44"/>oportet quod semper moueantur ad eundem locum numero naturaliter 
+      <lb ed="#L" n="45"/>sed possibile est quod simul moueantur ad diuersa loca secundum 
+      <lb ed="#L" n="46"/>numerum. sicut patet manifeste de duobus ignibus eiusdem 
+      <lb ed="#L" n="47"/>speciei in diuersis partibus terre constitutis. quod mouentur ad  
+      <lb ed="#L" n="48"/>circum ferentiam celi. non tamen ad eundem locum numero sed ad  
+      <lb ed="#L" n="49"/>diuersa loca secundum numerum. si tamen vnus illorum poneretur 
+      <lb ed="#L" n="50"/>in eadem parte in qua fuit alius ignis tunc moueretur ad eum 
+      <lb ed="#L" n="51"/>dem locum numero ad quem alius ignis moueretur ita fo 
+      <lb ed="#L" n="52"/>ret in proposito. quod si traalius mundi poneretur in terra 
+      <lb ed="#L" n="53"/>intra celum istius moueretur ad eundem locum secundum numerum 
+      <lb ed="#L" n="54"/>ad quem terra istius mundi. sed quando est extra mundum istum. et 
+      <lb ed="#L" n="55"/>itra celum alterius mundi. tunc non mouebitur ad me¬ 
+      <!--541.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 269-v -->
+               <lb ed="#L" n="56"/>dium istius mundi. non plus quam ignis existens oxonie mo 
+      <lb ed="#L" n="57"/>uetur ad eum locum numero ad quem moueretur si estet
+      peri<lb ed="#L" n="58" break="no"/>sius. sed tunc mouebitur ad medium istius mundi. et ita 
+      <lb ed="#L" n="59"/>patet quod non ideo mouerentur iste due terre ad diuersa
+      lo<lb ed="#L" n="60" break="no"/>ca numero. quia sunt distincte numero. sicut ponit cauis 
+      <lb ed="#L" n="61"/>latio quam reprobat arit. sed mouerentur ad diuersa 
+      <lb ed="#L" n="62"/>loca numero propter diuersam situationem ipsarum inter ce 
+      <lb ed="#L" n="63"/>los diuersos. sicut duo ignes propter diuersam
+      situa<lb ed="#L" n="64" break="no"/>tionem ad diuersas partes circumferentie mouentur ad  
+      <lb ed="#L" n="65"/>diuersa loca numero.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e526">
+      ⁋ Si dicatur quod non est simile. quia 
+      <lb ed="#L" n="66"/>tota circumferentia celi est vnus locus numero ipsius 
+      <lb ed="#L" n="67"/>ignis. non sic sunt diuersa media in diuersis
+      mun<lb ed="#L" n="68" break="no"/>dis vnus locus numero. ergo non est simile.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e535">
+      ⁋ Preterea a quo 
+      <lb ed="#L" n="69"/>cumque loco recedit aliquid naturair. ad eundem locum 
+      <lb ed="#L" n="70"/>accedit violenter. sed per te terra naturaliter accedit ad  
+      <lb ed="#L" n="71"/>medium alterius mundi. ergo naturaliter recedit a
+      me<lb ed="#L" n="72" break="no"/>dio istius mundi. quia quanto plus accedit ad medium
+      al<lb ed="#L" n="73" break="no"/>terius. tanto plus distat a medio istius mundi. ergo natu 
+      <lb ed="#L" n="74"/>raliter recedit a medio istius mundi. ergo vbicumque
+      po<lb ed="#L" n="75" break="no"/>natur. tamen violentur accedet ad medium istius mundi. ergo quam 
+      <lb ed="#L" n="76"/>uis poneretur infra circumferentiam illius celi.
+      nihlil<lb ed="#L" n="77" break="no"/>ominus violentur accederet ad medium istius mundi. 
+      <lb ed="#L" n="78"/>quod est manifeste falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e559">
+      ⁋ Ad primum istorum dico quo 
+      <lb ed="#L" n="79"/>satis est simile ad propositum. quia quamuis omnes partes circum 
+      <lb ed="#L" n="80"/>ferentie faciant vnam circumferetiam. hoc tamen accidit ad  
+      <lb ed="#L" n="81"/>hoc quod ignis in vna parte constitutus moueatur ad vnam
+      per<lb ed="#L" n="82" break="no"/>tem circumferentie. et alius in alia parte constitutus mouea 
+      <lb ed="#L" n="83"/>tur ad aliam. quia si ille partes non facerent vnum continuum 
+      <lb ed="#L" n="84"/>sed esset discontinuatio. manifestum est quod cum equaliter ap 
+      <lb ed="#L" n="85"/>proximentur illi ignes diuersis circumferentiis. non equa 
+      <lb ed="#L" n="86"/>liter mouerentur ad eas. sed ad distinctas
+      circumferenti<lb ed="#L" n="87" break="no"/>as mouerentur. quod patet quia hoc posito. aut isti ignes 
+      <lb ed="#L" n="88"/>mouerentur sursum aut non. si non. ergo non haberent
+      mo<lb ed="#L" n="89" break="no"/>tum naturalem quamuis non essent impediti et essent ex lo 
+      <lb ed="#L" n="90"/>ca naturalia. Si autem naturaliter mouerentur sursum 
+      <lb ed="#L" n="91"/>aut ergo motu simplici aut mixto Non mixto ergo 
+      <lb ed="#L" n="92"/>simplici. ergo necessario ad distincta loca mouerem 
+      <lb ed="#L" n="93"/>tur. Similiter non esset maior ratio quare iste ignis
+      moue<lb ed="#L" n="94" break="no"/>retur obliqua ad locum alterius ignis quam econuerso. et 
+      <lb ed="#L" n="95"/>ta vel non mouebuntur. quod est incoueniens vel ad duo 
+      <lb ed="#L" n="96"/>loca quod similiter est inconueniens. vel ad distincta loca nu 
+      <lb ed="#L" n="97"/>mero quae non faciunt vnumlocum. et per consequens eadem ratione di 
+      <lb ed="#L" n="98"/>uerse terre. quia sunt infra diuersos celos constitute po 
+      <lb ed="#L" n="99"/>terunt moueri localiter ad distincta loca numero.
+      quam<lb ed="#L" n="100" break="no"/>tumcumque illa loca non faciunt vnum locum secundum numerum. 
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e610">
+               <lb ed="#L" n="101"/>⁋ Ad secundum dicendum quod quando aliquid recedit natura 
+      <lb ed="#L" n="102"/>litab aliquo loco vbicumque ponatur. illud violentur ac  
+      <lb ed="#L" n="103"/>cedit illum locum. si tamen non vbicumque ponatur recedit 
+      <lb ed="#L" n="104"/>ab aliquo naturaliter. non ortet quod semper violenter accedat 
+      <lb ed="#L" n="105"/>ad illum locum. sicut patet de igne si ponatur inter medium 
+      <lb ed="#L" n="106"/>etcircumferentiam celi. manifestum est quod recedit a circum 
+      <lb ed="#L" n="107"/>ferentia opposita. quia quanto magis accedit 
+      <lb ed="#L" n="108"/>ad aliam circumferentiam tanto magis distat 
+      <lb ed="#L" n="109"/>ab opposita. et per consequens magis recedit 
+      <lb ed="#L" n="110"/>a circuferentia opposita. et tamen si ponatur 
+      <!--542.xml-->
+      <pb ed="#L" n="270-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>diuina nullius est causa nisi tantum naturalis causa. sed deus non pro 
+      <lb ed="#L" n="2"/>ducit naturaliter aliquid extra. ergo deus per essentiam suam 
+      <lb ed="#L" n="3"/>nihil producit extra.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e647">
+      ⁋ Sed ista opinio non videtur vera. 
+      <lb ed="#L" n="4"/>Primo quia ostensum est prius quod essentia diuina nullo 
+      <lb ed="#L" n="5"/>modo distinguitur a voluntate diuina. sed omni modo
+      identi<lb ed="#L" n="6" break="no"/>tatis quo essentia est eadem essentie. etiam essentia est 
+      <lb ed="#L" n="7"/>eadem voluntati. ergo si voluntas sit causa. essentia erit: 
+      <lb ed="#L" n="8"/>cam.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e660">
+      ⁋ Preterea quicquid potest esse immediatum obiectum
+      ali<lb ed="#L" n="9" break="no"/>cuius potentie maxime apprehensiue et potentie proce 
+      <lb ed="#L" n="10"/>dentis de potentia ad actu illud potest esse causa immedi 
+      <lb ed="#L" n="11"/>ata illius actus. sed essentia diuina est immediatum
+      obie<lb ed="#L" n="12" break="no"/>ctum potentie intellectiue in visione beata quae procedit 
+      <lb ed="#L" n="13"/>de potentia ad actum. ergo potest esse immediata causa illius 
+      <lb ed="#L" n="14"/>actus.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e676">
+      ⁋ Preterea quicquid non importat imperfectionem est 
+      <lb ed="#L" n="15"/>deo attribuendum. sed posse efficere immediate
+      nul<lb ed="#L" n="16" break="no"/>lam imperfectionem importat. ergo haec est diuine essentie
+      imme<lb ed="#L" n="17" break="no"/>diate attribuendum
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e685">
+      ⁋ Preterea ratio non valet. quia non plus 
+      <lb ed="#L" n="18"/>repugnat essentie care contigentur quam repugnet
+      vo<lb ed="#L" n="19" break="no"/>luntati causare vel producere necessario. sed non
+      repu<lb ed="#L" n="20" break="no"/>gnat voluntati aliquid producere necessario sic patet 
+      <lb ed="#L" n="21"/>vundum istum de voluntate diuina respecitm spiritus sanctus Et de 
+      <lb ed="#L" n="22"/>voluntate creata patet quod naturaliter producit tamquam sal 
+      <lb ed="#L" n="23"/>tem causa partialis cognitionem sui in alio. quia semper ad
+      co<lb ed="#L" n="24" break="no"/>gnitonem intuitiuam naturaliter habitam concurrit ob 
+      <lb ed="#L" n="25"/>iectum in ratione causae. ergo quando vnus angelus videt intuitiue vo 
+      <lb ed="#L" n="26"/>luntatem alterius angeli. illa voluntas est causa partialis illius 
+      <lb ed="#L" n="27"/>intellectionis intuitiue et non libera. quia tunc esset in po 
+      <lb ed="#L" n="28"/>testate sua non videri. quod est manifeste falsum. ergo est 
+      <lb ed="#L" n="29"/>causa naturalis.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e714">
+      ⁋ Ideo quantum ad istum articulum
+      di<lb ed="#L" n="30" break="no"/>co quod non magis est essentia causa creaturarum quam
+      volun<lb ed="#L" n="31" break="no"/>tas. nec econuerso. quia nulla penitus est distinctio in 
+      <lb ed="#L" n="32"/>ter essentiam et voluntatem. nec inter intellectum et
+      volun<lb ed="#L" n="33" break="no"/>tatem sicut prius ostensum est. Unde si esset aliquod nomen 
+      <lb ed="#L" n="34"/>impositum quod praecise significaret diuinam essentiam et 
+      <lb ed="#L" n="35"/>nihil aliud sine omni connotatione cuiuscumque. et similiter 
+      <lb ed="#L" n="36"/>esset aliud nomen impositum ad significandum eodem modo 
+      <lb ed="#L" n="37"/>diuinam voluntatem. illa nonia essent nonia simpliciter
+      si<lb ed="#L" n="38" break="no"/>nonima et quicquid praedicaretur de vno. eodem modo
+      praedi<lb ed="#L" n="39" break="no"/>caretur de reliquo.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e739">
+      ⁋ Circa secundum articulum
+      viden<lb ed="#L" n="40" break="no"/>dum est primo quid sit causa immediata. Secundo quae sit causa pri 
+      <lb ed="#L" n="41"/>ma. Tertio ad articulum.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e746">
+      ⁋ Circa primum dico quod 
+      <lb ed="#L" n="42"/>quamuis non intendam dicere vniversaliter quad sit causa immediata.
+      di<lb ed="#L" n="43" break="no"/>co tamen quod istud sufficit ad hoc quod aliquid sit causa immedi 
+      <lb ed="#L" n="44"/>ata scilicet quod illa re absoluta posita ponatur effectus. et 
+      <lb ed="#L" n="45"/>ipsa non posita aliis omnibus concurrentibus quantum ad  
+      <lb ed="#L" n="46"/>omnes conditiones et dispositiones consimiles non ponitur 
+      <lb ed="#L" n="47"/>effectus. Unde omne quod est tale respectu alicuius est causa
+      in<lb ed="#L" n="48" break="no"/>mediata illius. quamuis forte non econuerso. Quod autem 
+      <lb ed="#L" n="49"/>hoc sufficiat ad hoc quod aliquid sit causa immediata alte 
+      <lb ed="#L" n="50"/>rius. videtur esse manifestum. quia si non. perit omnis via ad  
+      <lb ed="#L" n="51"/>cognoscendum aliquid esse causam alterius immediatam Nam 
+      <lb ed="#L" n="52"/>si ex hoc quod hoc posito sequitur effectus et hoc non posito non po 
+      <lb ed="#L" n="53"/>nitur effectus non sequitur illud esse causam illius effectus nullo 
+      <lb ed="#L" n="54"/>modo potest cognosci quod ignis est causa immediata caloris in li 
+      <lb ed="#L" n="55"/>gno quia potest dici quod est aliqua alia causa illius caloris. quae tamen non 
+      <!--542.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 270-r -->
+               <lb ed="#L" n="56"/>inter illam circumferentiam et medium non naturaliter rece 
+      <lb ed="#L" n="57"/>deret ab illa circumferentia sed naturaliter accederm 
+      <lb ed="#L" n="58"/>Ita est in proposito quod terra alterius mundi recedit na 
+      <lb ed="#L" n="59"/>turaliter a medio istius mundi. non tamen per se sed tantum per ad 
+      <lb ed="#L" n="60"/>cidens. quia scilicet continetur inter latera celi sicut ignis com 
+      <lb ed="#L" n="61"/>tinetur inter medium et aliam parten circumferentie. et ideo quando 
+      <lb ed="#L" n="62"/>continetur inter medium istius mundi et celum istius mundi 
+      <lb ed="#L" n="63"/>tunc non recederet. sed naturaliter accederet ad
+      me<lb ed="#L" n="64" break="no"/>dium istius mundi.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e805">
+      ⁋ Ad secundam rationem ari. dico quod ese 
+      <lb ed="#L" n="65"/>lum componitur ex tota materia sua iam facta. sed non
+      con<lb ed="#L" n="66" break="no"/>ponitur ex tota materia factibili. quia potest deus
+      face<lb ed="#L" n="67" break="no"/>re aliam materiam tam celi quam aliorum quorumcunque cor 
+      <lb ed="#L" n="68"/>porum.
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e816">
+      ⁋ Circa tertium dico: quod deus posset facere 
+      <lb ed="#L" n="69"/>mundum meliorem bonitate accidentali quia hoc non esset 
+      <lb ed="#L" n="70"/>nisi facere mundum informatum perfectioribus
+      acciden<lb ed="#L" n="71" break="no"/>tibus. sed hoc est possibile. cum deus illa accidentia possit 
+      <lb ed="#L" n="72"/>augere. et per consequens facere ea perfectiora. et sic mundum 
+      <lb ed="#L" n="73"/>meliorem
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e829">
+      ⁋ Ad primum principale dico quod quamuis mum 
+      <lb ed="#L" n="74"/>dus non recipiat magis et minus illo modo quo
+      ac<lb ed="#L" n="75" break="no"/>cidentales qualitates suscipiunt magis et minus. tamen 
+      <lb ed="#L" n="76"/>potest fieri vnus perfectior isto. et potest fieri isti
+      addi<lb ed="#L" n="77" break="no"/>tio. sicut aquae potest fieri additio sicut facta vna parua 
+      <lb ed="#L" n="78"/>aqua potest fieri alia maior. et per consequens perfectior illo 
+      <lb ed="#L" n="79"/>mo
+    </p>
+            <p xml:id="wo8uy7-d1e1802-d1e845">
+      ⁋ Ad aliud diuersi diuersimode dicerent 
+      <lb ed="#L" n="80"/>Nam dicentes quod non est status in indiuiduis alterius speciei. 
+      <lb ed="#L" n="81"/>qui quocumque dato posset fieri melius. diceret quod 
+      <lb ed="#L" n="82"/>deus posset facere mundum meliorem in infinitum. non tamen 
+      <lb ed="#L" n="83"/>infinitum sicut potest facere aquam maiorem quacumque da 
+      <lb ed="#L" n="84"/>ta. et tamen non infinitam. Alii dicerent quod posset fieri 
+      <lb ed="#L" n="85"/>mundus quaie non posset fieri melior. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

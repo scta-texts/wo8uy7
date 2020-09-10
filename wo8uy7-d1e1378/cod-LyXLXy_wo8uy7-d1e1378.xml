@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="229-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1378"><!-- l1d28q1 -->
+            <head xml:id="wo8uy7-d1e1378-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e1378-d1e111">
+               <lb ed="#L" n="20"/>⁋ Distinctio. xxviii. Questio vnica. 
+      <lb ed="#L" n="21"/>CIrca
+      distin<lb ed="#L" n="22" break="no"/>ctionem vigesimamoctauam quae 
+      <lb ed="#L" n="23"/>ro.
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e122">
+      ⁋ Utrum innascibilitas 
+      <lb ed="#L" n="24"/>sit costitutiua patris proprie 
+      <lb ed="#L" n="25"/>ta
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e129">
+      ⁋ Quod sic. quia per illud pater 
+      <lb ed="#L" n="26"/>constituitur per quod ab omni alio 
+      <lb ed="#L" n="27"/>supposito distinguitur. sed pater distinguitur ab omni 
+      <lb ed="#L" n="28"/>alio supposito per innascibilitatem. quia innascibili 
+      <lb ed="#L" n="29"/>tas conuenit pri et nulli alii. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e140">
+      ⁋ Preterea inna 
+      <lb ed="#L" n="30"/>scibilitas est magis propria pri quam spiratio actio 
+      <lb ed="#L" n="31"/>ergo non minus constituit patrem. sed dictum est prius quod spi 
+      <lb ed="#L" n="32"/>ratio actio constituit patrem. ergo innascibilitas costi 
+      <lb ed="#L" n="33"/>tuit patrem
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e152">
+      ⁋ Ad oppositum. prima persona secundum quidli 
+      <lb ed="#L" n="34"/>bet sui est positiua. ergo non constituitur nisi aliquo po 
+      <lb ed="#L" n="35"/>sitiuo. sed innascibilitas est aliquid negatiuum. ergo etc. 
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e159">
+               <lb ed="#L" n="36"/>⁋ Circa istam quaestionem. primo praemittam aliquas
+      disti<lb ed="#L" n="37" break="no"/>ctiones. secundo ad quaestionem. tertio inferam aliquas
+      con<lb ed="#L" n="38" break="no"/>clusiones
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e168">
+      ⁋ Circa primum distinguo primo de
+      pro<lb ed="#L" n="39" break="no"/>prietate. quia quamuis posset mnltiplicit dici. tamen ad 
+      <lb ed="#L" n="40"/>praesens potest triplicitur accipi. Uno modo proprietas 
+      <lb ed="#L" n="41"/>alicuius dicitur aliqua res alicui intrinseca et propria 
+      <lb ed="#L" n="42"/>et sic potest dici quod hec anima est proprietas sortis: quia 
+      <lb ed="#L" n="43"/>est intrinseca sorti et propria sibi. Alio modo proprie 
+      <lb ed="#L" n="44"/>tas alicuius dicitur aliqua res consequens aliam et propria sibi. 
+      <lb ed="#L" n="45"/>et sic aliquod accidens consequens sortem et proprium sorti potest
+      di<lb ed="#L" n="46" break="no"/>ci proprietas sortis. Tertio modo dicitur proprietas ali 
+      <lb ed="#L" n="47"/>cuius aliquod praedicabile de aliquo proprium illi per
+      praedi<lb ed="#L" n="48" break="no"/>cationem. ita quod de nullo vere praedicatur nisi de quo 
+      <lb ed="#L" n="49"/>ipsum cuius dicitur proprietas vere praedicatur. et isto modo
+      ri<lb ed="#L" n="50" break="no"/>sibile dicitur proprietas hominis. quia de nullo vere dicitur quod est 
+      <lb ed="#L" n="51"/>risibile nisi de quo vere dicitur quod est homo. Propraetas prim 
+      <lb ed="#L" n="52"/>mo modo dcam est de essentia et intraneitate illius cuius est 
+      <lb ed="#L" n="53"/>proprietas. secundo modo dcam est accidens illius cuius dicitur
+      proprie<lb ed="#L" n="54" break="no"/>tas. tertio modo decam nec est de essentia illius cuius dicitur proprie¬ 
+      <!--461.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 229-v -->
+               <lb ed="#L" n="55"/>tas nec accidens formaliter inherens sibi. immo indterni 
+      <lb ed="#L" n="56"/>vtrumque poterit esse sine altero. quamuis pro positio negati 
+      <lb ed="#L" n="57"/>ua illa quae negatur vnum ab altero non possit esse
+      va<lb ed="#L" n="58" break="no"/>sicut hoc proprietalis risibile quae non est nisi quadam conceptus men 
+      <lb ed="#L" n="59"/>pet esse sine hoc conceptu homo et etatm sine homine extra. et econ 
+      <lb ed="#L" n="60"/>uerso. et tamen haec est impossibilis. homo non est risibilis. Secunda 
+      <lb ed="#L" n="61"/>distinctio quod innascibile vel innascibilitas dupliciter 
+      <lb ed="#L" n="62"/>accipitur. vno inon vt sua diffinitio exprimens quid 
+      <lb ed="#L" n="63"/>nominis sit ista. aliqua res quae non est nata. Aut vt sua 
+      <lb ed="#L" n="64"/>diffinitio exprimes quid nominis sit ista. res quae non est 
+      <lb ed="#L" n="65"/>nata nec producta. nec per productionem communicata. Ex 
+      <lb ed="#L" n="66"/>his dico ad quastionem. quod innascibilitas primous dicta 
+      <lb ed="#L" n="67"/>nllo praedictorum modorum accipiendo proprietatem est
+      proprie<lb ed="#L" n="68" break="no"/>tas patris. et hoc quia proprietas quolibet istorum modorum est 
+      <lb ed="#L" n="69"/>propria illi cuius est propetas. sed innascibilitas isto modo 
+      <lb ed="#L" n="70"/>dicam non est propria patri. sed conueni spiritus sanctus sncut sua diffinitio 
+      <lb ed="#L" n="71"/>exprimens quid nominis ipsius. R.aspiritus sanctus est es quae non est nata 
+      <lb ed="#L" n="72"/>ui piritus sanctus procedit non quo natus. sed quo datus secundum 
+      <lb ed="#L" n="73"/>beatum aug. Secundo dico quod innascibilitas non est
+      proprie<lb ed="#L" n="74" break="no"/>tas patris primo modo vel secundo. quia nihil est in patre nisi 
+      <lb ed="#L" n="75"/>essentia et relato vel constitutum ex essentia et spiratione 
+      <lb ed="#L" n="76"/>actione. sed supposito quod innascibilitas non accipiatur 
+      <lb ed="#L" n="77"/>pro essentia nec pro relatione nec pro tamli constituto. quia si 
+      <lb ed="#L" n="78"/>sic accipretur esset manifestum quod sic. etideo innascibulitas 
+      <lb ed="#L" n="79"/>quae ponitur distingui a paternitate nllo modo est proprietas 
+      <lb ed="#L" n="80"/>patris primo mo vel secundo quia illa innascibilitasquae quo 
+      <lb ed="#L" n="81"/>cumque modo distinguitur a paternitate. vel est pater vel spi 
+      <lb ed="#L" n="82"/>ratio actio. vel esentia. vel constitutum ex his. vel est 
+      <lb ed="#L" n="83"/>aliqua alia proprietas personalis alterius persone. vel non est 
+      <lb ed="#L" n="84"/>realiter in deo. sed quodcumque istorum detur sequitur manifeste 
+      <lb ed="#L" n="85"/>quod innascibilitas non est proprietas patris primo modo vel 
+      <lb ed="#L" n="86"/>secundo accipiendo proprietatem. quia nec essentia necispi 
+      <lb ed="#L" n="87"/>ratio actio nec constitutum ex his nec persona alia nec 
+      <lb ed="#L" n="88"/>proprietas alterius persone est proprietas pris. Tertio 
+      <lb ed="#L" n="89"/>dico quod innascibilitas secundo modo dcam est proprietas 
+      <lb ed="#L" n="90"/>patris accipiendo proprietatem tertio modo. quia
+      inascibi<lb ed="#L" n="91" break="no"/>bilitas est praedicabilis de solo patre et de nullo alio. Nam 
+      <lb ed="#L" n="92"/>hoc est vera. patr est innascibilis. quia non est productus. et hoc est falsa. 
+      <lb ed="#L" n="93"/>filius esinascibilis. quia est natus. et hoc est falsa. spiritus sancunts 
+      <lb ed="#L" n="94"/>est innascibilis. quia est productus. et haoc est falsa essentia est in 
+      <lb ed="#L" n="95"/>nascibilis. quia est per productionem communicata. et hoc est falsa. 
+      <lb ed="#L" n="96"/>creatura est innascibilis. quia quaelicet creatura est producibi 
+      <lb ed="#L" n="97"/>lis. Et si quaeratur de prnitate an sit innascibilis quae
+      ve<lb ed="#L" n="98" break="no"/>let tenere quod prnitas et pater non distinguuntur formaliter 
+      <lb ed="#L" n="99"/>qui quaelibet res absoluta et relatia quae est pri est prnitas et 
+      <lb ed="#L" n="100"/>ecouerso. posset dicem quod paternitas est innascibilis. nec 
+      <lb ed="#L" n="101"/>haoc repugnatt quin solus pater sit inascibilis. quia pr et prnitas 
+      <lb ed="#L" n="102"/>nllo modo distinguuntur nec realiter nec formaliter. Aliter 
+      <lb ed="#L" n="103"/>ot dici non recedendo a multir dictum communibus. cuiusmodi 
+      <lb ed="#L" n="104"/>sunt talia quod paternitas est constitutiua patris. et tamen paternon est 
+      <lb ed="#L" n="105"/>proprie constitutiuus patris. Quod pater non conslituit prem. et 
+      <lb ed="#L" n="106"/>tamen prnitas constituit ptrem. et quod essentia et paternitas 
+      <lb ed="#L" n="107"/>constituunt patrem. et tamen essentia et pater non constituunt 
+      <lb ed="#L" n="108"/>patrem. et multa talia quaebus aliquid conceditur 
+      <lb ed="#L" n="109"/>de paternitate et negatur a patre. et econuerso. 
+      <!--462.xml-->
+      <pb ed="#L" n="230-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Ista inquam concedendo potest dici quod pater et paterni 
+      <lb ed="#L" n="2"/>tas distinguuntur formaliter. sicut essentia et pater 
+      <lb ed="#L" n="3"/>distinguuntur formaliter. et tunc diffinitio exprimens 
+      <lb ed="#L" n="4"/>quid nominis distincti formaliter erit totum hoc quod aliquid 
+      <lb ed="#L" n="5"/>vere conceditur de vno et negatur a reliquo terminis 
+      <lb ed="#L" n="6"/>supponentibus personaliter. sed hoc nunquam potest
+      contin<lb ed="#L" n="7" break="no"/>gere nisi propter identitatem realem eiusdem rei cum 
+      <lb ed="#L" n="8"/>rebus distinctis realiter. Unde nisi essentia esset 
+      <lb ed="#L" n="9"/>pater et vna alia res absoluta vel relatiua. alia 
+      <lb ed="#L" n="10"/>inquam a patre. impossibile esset quod pater et paternitas
+      disti<lb ed="#L" n="11" break="no"/>guerentur formaliter. immo nihil aliud intelligo per 
+      <lb ed="#L" n="12"/>distinctionem formalem. Sed secundum istum modum
+      di<lb ed="#L" n="13" break="no"/>cendi secunde diffinitioni exprimentiquid nominis ipsius 
+      <lb ed="#L" n="14"/>innascibilitatis debet addi. nec proprietas costi 
+      <lb ed="#L" n="15"/>tutiua alicuius producentis. vt tota et completa
+      diffi<lb ed="#L" n="16" break="no"/>nitio exprimens quid nominis ipsius innascibilis sit 
+      <lb ed="#L" n="17"/>ista. innascibile est res quae nec est nata nec produ 
+      <lb ed="#L" n="18"/>cta. nec per aliquam propositionem communicata. nec proprietas 
+      <lb ed="#L" n="19"/>postitutiua alicuius producentis. et per istud vltimum 
+      <lb ed="#L" n="20"/>excluditur paternitas et filiatio et spiratio passio 
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e381">
+               <lb ed="#L" n="21"/>⁋ Per praedicta respondeo ad formam questionis.
+      Di<lb ed="#L" n="22" break="no"/>co quod intelligendo per innascibilitatem aliquid
+      quo<lb ed="#L" n="23" break="no"/>cumque distinctum a paternitate. sicut omns doctores 
+      <lb ed="#L" n="24"/>tractantes istam questionem intelligunt.
+      innascibi<lb ed="#L" n="25" break="no"/>litas non est proprietas constitutiua patris. quia
+      innasci<lb ed="#L" n="26" break="no"/>bilitas per ypothesim aliquo modo distinguitur a 
+      <lb ed="#L" n="27"/>paternitate vel formaliter vel secundum rationem. sed nihil
+      di<lb ed="#L" n="28" break="no"/>stinctum a paternitate. quocumque modo ymaginabili est 
+      <lb ed="#L" n="29"/>ppraetas constitutiua patris. ergo innascibilitas non est 
+      <lb ed="#L" n="30"/>proprietas constitutiua patris.  Maiorem praesuppono. 
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e405">
+               <lb ed="#L" n="31"/>⁋ MDinore probo. quia omne distinctum a prnitate. vel 
+      <lb ed="#L" n="32"/>distinguitur realiter vel formaliter vel secundum rationem. sed  
+      <lb ed="#L" n="33"/>distinctum a paternitate realiter non constituit patrem. 
+      <lb ed="#L" n="34"/>qui omne distinctum realiter vel est creatura vel filia 
+      <lb ed="#L" n="35"/>tio vel spiratio passio. sed inductiue patet quod nullum 
+      <lb ed="#L" n="36"/>istorum est proprietas patris. Similiter distinctum formaliter 
+      <lb ed="#L" n="37"/>a paternitate non est proprietas constitutiua patris. quia 
+      <lb ed="#L" n="38"/>omne distinctum formaliter a patre vel est absolutum 
+      <lb ed="#L" n="39"/>vel relatiuum vel relatio. sed nullum absolutum est 
+      <lb ed="#L" n="40"/>proprietas constitutiua patris. quia omne absolutum est commune 
+      <lb ed="#L" n="41"/>tribus. Similiter relatiuum non est proprietas constitutiua 
+      <lb ed="#L" n="42"/>patris. quia nul apersona. nec vnum constitutum ex
+      essen<lb ed="#L" n="43" break="no"/>tia et spiratione actione est proprietas constitutiua patris 
+      <lb ed="#L" n="44"/>sicut manifeste patet. Similiter nec res quodam distincta 
+      <lb ed="#L" n="45"/>formaliter a paternitate est proprieras constitutiua patris. 
+      <lb ed="#L" n="46"/>qui nulla relatio distincta tantum formaliter a paternitate 
+      <lb ed="#L" n="47"/>est in divinis nisi sola spiratio actio. sed illa est 
+      <lb ed="#L" n="48"/>communis patri et filio. ergo non est proprietas constitutiua
+      pa<lb ed="#L" n="49" break="no"/>tris. et ita patet quod innascibilitas qua ponitur proprietas 
+      <lb ed="#L" n="50"/>distincta a paternitate non est constitutiua patris. Et 
+      <lb ed="#L" n="51"/>ratio est. quia innascibilitas quae est quocumque modo
+      yma<lb ed="#L" n="52" break="no"/>ginabili distincta proprietas a paternitate non est
+      nisi<lb ed="#L" n="53" break="no"/>vnum praedicabile de solo patre. quod predicabile quamuis 
+      <lb ed="#L" n="54"/>supponat pro patre. non tamen est realiter pater nec est realiter 
+      <lb ed="#L" n="55"/>deus. et per consequens non est de essentia patris. et ita non est 
+      <!--462.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 230-r -->
+               <lb ed="#L" n="56"/>proprietas constitutiua patris.
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e470">
+      ⁋ Ex praedictis sequuntur 
+      <lb ed="#L" n="57"/>aliqua conclusiones. Una est quod in divinis non sunt. v. no 
+      <lb ed="#L" n="58"/>tiones. quarum quaelibet sit realiter in deo et realiter ide cum deo 
+      <lb ed="#L" n="59"/>quia praeter spirationem actionem et spirationem passione et 
+      <lb ed="#L" n="60"/>paternitate et filiationem non ponitur nisi innascibilitas 
+      <lb ed="#L" n="61"/>sed innascibilitas quae ponitur quocumque modo distingui a 
+      <lb ed="#L" n="62"/>praedictis non est realiter deus. sed tantum est quoddam praedicabile de 
+      <lb ed="#L" n="63"/>deo. et quod supponit pro solo patre. et forte propter hoc po 
+      <lb ed="#L" n="64"/>suerunt aliqua quod non sunt nisi. iiii. notiones in divinis. 
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e491">
+               <lb ed="#L" n="65"/>⁋ Alia conclusio quod nec notio nec proprietas dicitur vniuo 
+      <lb ed="#L" n="66"/>ce de innascibilitate et aliis nisi forte secundum rationem 
+      <lb ed="#L" n="67"/>generalem proprietatis. secundum illam opinionem quae ponit res ex pos 
+      <lb ed="#L" n="68"/>se praedicari. Nam si res non possit vere praedicari nulla 
+      <lb ed="#L" n="69"/>vna ratio proprietatis vel notionis potest competere innascibi 
+      <lb ed="#L" n="70"/>litati et aliis. nam innascibilitas dicitur proprietas vel
+      no<lb ed="#L" n="71" break="no"/>tio. quia praedicabilis de patre. quamuis non sit haec ratio sufficiens 
+      <lb ed="#L" n="72"/>Paternitas autem dicitur proprietas. quia propria et intrinseca soli 
+      <lb ed="#L" n="73"/>patri. spiratio actio dicitur notio. quia distinguit patrem et 
+      <lb ed="#L" n="74"/>filium a spiritusaco.
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e515">
+      ⁋ Et si quaeratur an innascibilitas est 
+      <lb ed="#L" n="75"/>proprietas patris. vel ista: innascibilis est proprietas 
+      <lb ed="#L" n="76"/>patris
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e522">
+      ⁋ Dico quod ista difficultas magis est vocalis quam 
+      <lb ed="#L" n="77"/>realis. Unde de ista. innascibilis est proprietas patris. dico 
+      <lb ed="#L" n="78"/>quod est distinguenda. eo quod subiectum potest habere
+      suppon<lb ed="#L" n="79" break="no"/>nem simplicem vel personalem. si habeat suppionem simpli 
+      <lb ed="#L" n="80"/>cem sicut est vera. quia tunc supponit pro se. et ipsummet
+      subie<lb ed="#L" n="81" break="no"/>ctum est proprietas patris. quia est praedicabilis de solo patre secundum 
+      <lb ed="#L" n="82"/>communem modum loquendi. Si autem supponit personaliter sic 
+      <lb ed="#L" n="83"/>est simpliciter falsa. quia tunc denotatur quod illa. res quae est in 
+      <lb ed="#L" n="84"/>nascibilis est proprietas patris. quod non est concedendum. sed debet 
+      <lb ed="#L" n="85"/>dici diuersimode secundum quod scienit diuersimode vtuntur 
+      <lb ed="#L" n="86"/>vnde aliquando accipiunt innascibilitatem loco illius nominis 
+      <lb ed="#L" n="87"/>inascibile. sicut frequenter accipiunt concreta pro abstra 
+      <lb ed="#L" n="88"/>ctis et econuerso. et maxime in divinis propter hoc quod nlla 
+      <lb ed="#L" n="89"/>res importatur per vnum illorum quin importetur eodem modo per 
+      <lb ed="#L" n="90"/>reliquum. et ideo multa nomina concreta et abstracta si 
+      <lb ed="#L" n="91"/>sint propria deo sunt pure svnonima vno modo
+      acci<lb ed="#L" n="92" break="no"/>piendo svnonima de qua dictum est superius in isto libro. 
+      <lb ed="#L" n="93"/>Et tunc eodem modo dicendum est de ista. innascibilitas est 
+      <lb ed="#L" n="94"/>ppraetas patris. sic dictum est de ista innascibile est proprie 
+      <lb ed="#L" n="95"/>tas patris. Aliter accipiunt scient et similiter philosophi vt suponant 
+      <lb ed="#L" n="96"/>pro concretir. et tunc in ista. innascibilitas est proprietas 
+      <lb ed="#L" n="97"/>patris subiectum supponit pro hoc nomine innascibile vel ina 
+      <lb ed="#L" n="98"/>scibilis. et tunc est vera primous accipiendo innascibulitatem 
+      <lb ed="#L" n="99"/>ita quod ista est concededa pater est infnascibitas. sicut ista pater 
+      <lb ed="#L" n="100"/>est innascibilis. secundous est hoc concedenda pater est innascibilis. et non 
+      <lb ed="#L" n="101"/>ista pater est innascibilitas. Alia conclusio sequitur quod non omnis 
+      <lb ed="#L" n="102"/>proprietas alicuius per se est constitutiua illius per se. Nam 
+      <lb ed="#L" n="103"/>aliqua proprietas per se non est de essentia nec intranei 
+      <lb ed="#L" n="104"/>tate ipsius. sed omne constitutiuum per se est de essentia 
+      <lb ed="#L" n="105"/>ipsius. ergo etc. Ad primum principale dico quod aliquid  
+      <lb ed="#L" n="106"/>distingui per aliud est dupliciter. vel proprie loquendo. 
+      <lb ed="#L" n="107"/>sicut dictum est frequenter. et sic est maior vera sed 
+      <lb ed="#L" n="108"/>sic pater per innascibilitatem quae est proprietas patris
+      a<lb ed="#L" n="109" break="no"/>nullo distinguitur. quia illa proprietas non est aliquod 
+      <lb ed="#L" n="110"/>intrinsecum patri
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e598">
+      ⁋ Aliter accipitur aliquid 
+      <!--463.xml-->
+      <pb ed="#L" n="230-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>distingui per aliud improprie. et sic dicitur aliquid distin 
+      <lb ed="#L" n="2"/>gui per aliud. quando illud aliud est medium concluden 
+      <lb ed="#L" n="3"/>di aliquid remoueri ab alio a quo prius aliquo 
+      <lb ed="#L" n="4"/>modo remouetur. et isto modo dictum est prius quod res
+      di<lb ed="#L" n="5" break="no"/>stinguitur ab aliis rebus per suas differentia. et tamen dicere non 
+      <lb ed="#L" n="6"/>sunt de essentia rei. et isto modo pater distinguitur ab omni 
+      <lb ed="#L" n="7"/>alio per innascibilitatem. quia innascibile remouetur 
+      <lb ed="#L" n="8"/>a quolibet alio a patre. sed tunc est maior falsa. quia 
+      <lb ed="#L" n="9"/>quod sic distinguitur ab aliquo per aliud non constitur 
+      <lb ed="#L" n="10"/>itur per illud.
+    </p>
+            <p xml:id="wo8uy7-d1e1378-d1e629">
+      ⁋ Ad secundum dicendu quod innascibilitas 
+      <lb ed="#L" n="11"/>non est magis propria patri quam spiratio actio accipien 
+      <lb ed="#L" n="12"/>do proprium vel propetatem primo modo. quia tunc non min 
+      <lb ed="#L" n="13"/>constitueret quam spiratio actio. sed quod est magis propr 
+      <lb ed="#L" n="14"/>um tertio modo non ortet. immo non poest simpliciter costi 
+      <lb ed="#L" n="15"/>tuere. Et si dicatur quod tunc non erant quanque notiones 
+      <lb ed="#L" n="16"/>ab eterno. immo aliqua notio divina et proprietas non erat 
+      <lb ed="#L" n="17"/>ab etrno. quia nihil aliud a deo est etrnum. Dicendum 
+      <lb ed="#L" n="18"/>quod non debet concedi de virtute sermonis quod. v. notiones 
+      <lb ed="#L" n="19"/>erant ab eteno. nec quod. iiii notiones erant ab eterno 
+      <lb ed="#L" n="20"/>qui non erant ab eterno nisi tres persone et tres relatio 
+      <lb ed="#L" n="21"/>nes et omnis alia pluralitas debet negari fuisse ab etr no 
+      <lb ed="#L" n="22"/>Tame haec non obstante de. v. notonibus supponentibus 
+      <lb ed="#L" n="23"/>non pro se sed pro personis divinis vel relationibus divinis 
+      <lb ed="#L" n="24"/>quorum nullum est commune tribus personis. nec vere
+      praedica<lb ed="#L" n="25" break="no"/>tur de tribus personis. debet concedi vere praedicari hoc potest 
+      <lb ed="#L" n="26"/>dicatum fuit ab etno vt quaelibet istarum sit vera. in 
+      <lb ed="#L" n="27"/>nascibilitas fuit ab eterno. spiratio passio fuit 
+      <lb ed="#L" n="28"/>ab eterno. paternitas fuit ab etno. filiatio fuit ab 
+      <lb ed="#L" n="29"/>eterno. spiratio passio fuit ab eterno. et ideo secundum quod 
+      <lb ed="#L" n="30"/>per istam. v. notiones fuerunt ab etno intelligitur vnus 
+      <lb ed="#L" n="31"/>actus signatus de quo dictum est. potest concedi. v. noto 
+      <lb ed="#L" n="32"/>nes fuisse ab eterno. Consimiliter est de ista. iii. notiones 
+      <lb ed="#L" n="33"/>suerunt ab etrno. Similiter est de istis. iiii. notiones sum 
+      <lb ed="#L" n="34"/>realiter in deo. due relationes sunt in patre et due in filio 
+      <lb ed="#L" n="35"/>et consimilibus. quia omns tales de virtute sermonis sunt 
+      <lb ed="#L" n="36"/>false et erronee. quia inferunt plures res esse in deo quam 
+      <lb ed="#L" n="37"/>tres. Ueruntamen si per ipsas intelligantur actus signat 
+      <lb ed="#L" n="38"/>possunt concedi. Et est valde necessarium omni resp 
+      <lb ed="#L" n="39"/>cienti dicta auctorum scire quando loquuntur de virtute 
+      <lb ed="#L" n="40"/>semonis et quando non. et etiam scire quando per actus
+      exerci<lb ed="#L" n="41" break="no"/>tatos intelligunt actus signatos. et quando non. quia 
+      <lb ed="#L" n="42"/>horum ignorantia facit multos errare.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

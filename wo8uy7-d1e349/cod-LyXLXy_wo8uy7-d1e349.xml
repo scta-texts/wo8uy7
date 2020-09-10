@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="94-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e349"><!-- l1d2q5 -->
+            <head xml:id="wo8uy7-d1e349-Hd1e108">Quaestio 5</head>
+            <p xml:id="wo8uy7-d1e349-d1e111">
+      Questio. v. 
+      <lb ed="#L" n="16"/>SImiliter circa idem 
+      <lb ed="#L" n="17"/>quero secundo Utrum vniversale et vniuocum 
+      <lb ed="#L" n="18"/>sit vera res ex animam realiter distincta 
+      <lb ed="#L" n="19"/>ab indiuiduo. in eo tamen realiter existens. 
+      <lb ed="#L" n="20"/>realiter multiplicata et variata.
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e124">
+      ⁋ Quod sic. Primo quod 
+      <lb ed="#L" n="21"/>sit res extra animam realiter distincta ab indiuiduo 
+      <lb ed="#L" n="22"/>quia secundum consemeneie. vii. meth. commen. xlvi. vniversale non
+      signifi<lb ed="#L" n="23" break="no"/>cat substantiam nisi substantiam quam significat pars. ergo res
+      si<lb ed="#L" n="24" break="no"/>gnificata per vniversale est pars. sed pars realiter distinguitur. 
+      <lb ed="#L" n="25"/>a toto. ergo etc. Quod autem sit multiplicata et variatam 
+      <lb ed="#L" n="26"/>patet per idem. quia pars variatur ad variationem totius cuius 
+      <lb ed="#L" n="27"/>est pars. et hoc si simul sit pars multorum totorum.
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e142">
+      ⁋ Ad  
+      <lb ed="#L" n="28"/>oppositum. omnis res extra animam distincta ab indi 
+      <lb ed="#L" n="29"/>uiduo. in eo tamen realiter existens. realiter multiplicata 
+      <lb ed="#L" n="30"/>et variata est pars eius essentialis vel accidens eius. 
+      <lb ed="#L" n="31"/>sed inter totum et partem. similiter inter subiectum et suum 
+      <lb ed="#L" n="32"/>accidens est talis proportio. quod si vnum sit singulare. 
+      <lb ed="#L" n="33"/>reliquum erit singulare. ergo omnis talis res est vere sin 
+      <lb ed="#L" n="34"/>gularis. et per consequens non est vniversalis
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e160">
+      ⁋ Ad quaonem est vna 
+      <lb ed="#L" n="35"/>opinio quae imponitur doctori subtili a quaibusdam. sicut 
+      <lb ed="#L" n="36"/>ab aliis opinio recitata et improbata in
+      prece<lb ed="#L" n="37" break="no"/>dente quaone sibi imponitur. Et est opinio quod vniversale est 
+      <lb ed="#L" n="38"/>vera res ex animam distincta realiter ab vna differentia 
+      <lb ed="#L" n="39"/>contrabente. realiter tamen multiplicata et variata per talem 
+      <lb ed="#L" n="40"/>prfram contrahentem. Sed ista opinio videtur esse
+      sim<lb ed="#L" n="41" break="no"/>plicitur falsa. quia res realiter distincta ab alia re. se 
+      <lb ed="#L" n="42"/>ipsa vel per aliquid sibi intrinsecum distinguitur ab 
+      <lb ed="#L" n="43"/>eadam re. sed humanitas quae est in sorte secundum istam
+      opi<lb ed="#L" n="44" break="no"/>nionem realiter distinguit ab humanitate que est in 
+      <lb ed="#L" n="45"/>platone. ergo seipsa vel per aliquid intrinsecum
+      distin<lb ed="#L" n="46" break="no"/>guitur ab ea. ergo circumscriptums differentiis contrahentibus 
+      <lb ed="#L" n="47"/>iste bumanitates distinguuntur. sed non distinguuntur 
+      <lb ed="#L" n="48"/>specie. ergo numeraliter. ergo vtraque ipsarum se ipsa sine 
+      <lb ed="#L" n="49"/>ifferentia phbente est vna numero et singularis. Et si dicitur 
+      <lb ed="#L" n="50"/>viste humanitates non sunt per se in specie. quia praecise 
+      <lb ed="#L" n="51"/>indiuidua non sunt per se in specie. et ideo seipsis no 
+      <lb ed="#L" n="52"/>distinguuntur numeraliter. hoc nihil est. quia quamuis forme 
+      <lb ed="#L" n="53"/>non sint per se in specie. sed tantum composita. tamen vere due 
+      <lb ed="#L" n="54"/>forme etiam materiis circuscriptis distinguuntur 
+      <!--190.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 94-r -->
+               <lb ed="#L" n="55"/>numeraliter
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e216">
+      ⁋ Unde due anime separate numeraliter 
+      <lb ed="#L" n="56"/>distinguuntur. ergo non obstante quod iste humanitates 
+      <lb ed="#L" n="57"/>ortis et platonis non sint per se in specie. tamen
+      nume<lb ed="#L" n="58" break="no"/>raliter distinguuntur circumscriptis quibuscumque realiter 
+      <lb ed="#L" n="59"/>differentibus
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e227">
+      ⁋ Et si dicitur quod iste humanitates no 
+      <lb ed="#L" n="60"/>distinguuntur nisi per differentia contrahentes.
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e232">
+      ⁋ Contra hunc 
+      <lb ed="#L" n="61"/>nitas sortum per te realis distinguitur a differentia contrhbente 
+      <lb ed="#L" n="62"/>illam humanitatem. aut ergo seipsa realiter distinguitur. 
+      <lb ed="#L" n="63"/>aut per illud conthens. Non per ipsum contrahens. quia
+      ni<lb ed="#L" n="64" break="no"/>hil distinguitur ab a per ipsum a. sed magis est idem 
+      <lb ed="#L" n="65"/>ipsi a par a. ergo humanitas seipsa distinguitur a 
+      <lb ed="#L" n="66"/>differentia contrahente. ergo sunt hic due res re 
+      <lb ed="#L" n="67"/>aliter distincte seipsis. sed hoc non est possibile.
+      ni<lb ed="#L" n="68" break="no"/>si vtraque sit vna numero. ergo humanitas illa
+      di<lb ed="#L" n="69" break="no"/>stincta realiter ab illa differentia contrahente est 
+      <lb ed="#L" n="70"/>vna numero. ergo et numeraliter distincta. ergo non 
+      <lb ed="#L" n="71"/>est hec vna numero per illam differentiam contahentem. sed per 
+      <lb ed="#L" n="72"/>seipsam. Similiter quando aliquid seipso realiter distinguitur 
+      <lb ed="#L" n="73"/>ab aliquo sibi extrinseco. eadem ratione
+      distingui<lb ed="#L" n="74" break="no"/>tur seipso ab alio sibi extrinseco. ergo si humanitas 
+      <lb ed="#L" n="75"/>sortis seipsa realiter distinguitur a differentia contra 
+      <lb ed="#L" n="76"/>hente. eadem ratione seipsa distinguitur realiter ab
+      hu<lb ed="#L" n="77" break="no"/>manitate platonis. Confirmo. quia non videtur con 
+      <lb ed="#L" n="78"/>tradictio quod humanitas sortis separetur a
+      diffe<lb ed="#L" n="79" break="no"/>rentia contrahente. et similiter humanitas platonis. 
+      <lb ed="#L" n="80"/>Tunc quero. aut illa humanitas non variata que 
+      <lb ed="#L" n="81"/>fuit sortis realiter distinguitur ab illa humanitate quae 
+      <lb ed="#L" n="82"/>fuit platonis. aut non. Si sic. habetur propositum quod 
+      <lb ed="#L" n="83"/>distinguntur realiter seipsis. quia per differentias contra 
+      <lb ed="#L" n="84"/>hbentes. non distinguuntur. cum ille non sint. Si non 
+      <lb ed="#L" n="85"/>distinguuntur realiter. Contra. impossibile est
+      du<lb ed="#L" n="86" break="no"/>as res non facientes per fe vnum facere vel esse per 
+      <lb ed="#L" n="87"/>se vnum. nisi per realem compositionem. ergo iste
+      huma<lb ed="#L" n="88" break="no"/>nitates realiter componuntur et per consequens haber pro 
+      <lb ed="#L" n="89"/>positum quod seipsis distinguuntur. quia partes
+      eius<lb ed="#L" n="90" break="no"/>dem compositi semper seipsis vel per aliqua sibi
+      intrin<lb ed="#L" n="91" break="no"/>seca realiter distinguuntur
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e302">
+      ⁋ Preterea non est incon 
+      <lb ed="#L" n="92"/>ueniens. quin saltem per potentiam diuinam quelibet res 
+      <lb ed="#L" n="93"/>absoluta intuitiue videatur absque visione alteri 
+      <lb ed="#L" n="94"/>us rei absolute. ergo humanitas quae est in sorte 
+      <lb ed="#L" n="95"/>potest intuitiue videri sine differentia contrahente. et 
+      <lb ed="#L" n="96"/>humanitas quae est in platone eodem modo. sed ta 
+      <lb ed="#L" n="97"/>lis videbiteas distingui loco et situ siue per quan 
+      <lb ed="#L" n="98"/>titatem siue. non. non curo. quia nihil refert. ergo 
+      <lb ed="#L" n="99"/>videbit eas distingui. sed nullus cognoscit in 
+      <lb ed="#L" n="100"/>particulari et distincte aliqua distingui
+      essen<lb ed="#L" n="101" break="no"/>tialiter nisi cognoscat in particulari principia
+      di<lb ed="#L" n="102" break="no"/>stincta intrinseca. ergo iste humanitates seipsis 
+      <lb ed="#L" n="103"/>distinguuntur. et per consequens sunt seipsis.
+      Se<lb ed="#L" n="104" break="no"/>cundo arguo. quia si humanitas sit alia et alia 
+      <lb ed="#L" n="105"/>ergo tot erunt species specialissime quot sunt
+      indi<lb ed="#L" n="106" break="no"/>uidua. consequens est falsum. quia tunc tot essent 
+      <lb ed="#L" n="107"/>genera generalissima necessario quot sunt indiuidua 
+      <lb ed="#L" n="108"/>quod videtur absurdum. consequentia patet. quia si humanitas 
+      <lb ed="#L" n="109"/>dicat speciem specialissimam. aut humanitas sortum 
+      <!--191.xml-->
+      <pb ed="#L" n="94-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et platonis aut alia que non est hec nec illa. Si 
+      <lb ed="#L" n="2"/>primum et non plus vna quam alia. ergo sunt due 
+      <lb ed="#L" n="3"/>humanitates hic. quarum vtraque est species specia 
+      <lb ed="#L" n="4"/>lissima. et per consequens sunt due species specialissime. Si 
+      <lb ed="#L" n="5"/>detur secundum quaero de illa humanitate quae nec est hec 
+      <lb ed="#L" n="6"/>nec illa. aut est vera res extra animam. et redit
+      opi<lb ed="#L" n="7" break="no"/>nio improbata in quastione praecedenti. aut est tantum in 
+      <lb ed="#L" n="8"/>anima. et tunc nullum vniversale est ex animam. Eodem modo mdo potest 
+      <lb ed="#L" n="9"/>argui. Si homo sit species. quaero pro quo lod homo
+      sup<lb ed="#L" n="10" break="no"/>ponit. aut pro re extra animam. aut pro re in anima. Si 
+      <lb ed="#L" n="11"/>secundo modo. habetur propositum. Si primo modo. aut illa 
+      <lb ed="#L" n="12"/>res est sortes vel plato. vel in sorte et platone non 
+      <lb ed="#L" n="13"/>variata nec multiplicata. et tunc redit prima opi 
+      <lb ed="#L" n="14"/>nio praecedentis quaestionis. Aut variata et
+      multipli<lb ed="#L" n="15" break="no"/>cata. et tunc habetur propositum. quod tot sunt species spe 
+      <lb ed="#L" n="16"/>cialissime quot indiuidua. Et ex hoc sequitur. quod 
+      <lb ed="#L" n="17"/>nulla res est species. quia tunc nulla res est communis. quia 
+      <lb ed="#L" n="18"/>nec illa quae est in sorte nec illa quae est in platone. et 
+      <lb ed="#L" n="19"/>nulla perpositum est praeter istas. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e391">
+      ⁋ Preterea.
+      ter<lb ed="#L" n="20" break="no"/>tio illa res quae est determinata ad vnum nec est
+      in<lb ed="#L" n="21" break="no"/>differens ad multa. non est vniversalis. sed humanitas quae est 
+      <lb ed="#L" n="22"/>in sorte. per te est determinata ad vnum nec potest in 
+      <lb ed="#L" n="23"/>alio inueniri. Et secundum istam opinion nulla est humanitas 
+      <lb ed="#L" n="24"/>nisi quae est in sortes et pla. ergo nulla res ex animam est vniversalis 
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e404">
+               <lb ed="#L" n="25"/>⁋ Si dicatur quod isti humanitati quae est in sortes non repu 
+      <lb ed="#L" n="26"/>gnat ex se esse cum alia differentia cohbente. sed per aliquod 
+      <lb ed="#L" n="27"/>extrinsecum determinatur ad hoc indiuiduum. et ideo 
+      <lb ed="#L" n="28"/>quantum est ex se. est indifferens et communis.
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e416">
+      ⁋ Contra il 
+      <lb ed="#L" n="29"/>lud quod per nullam potentiam potest pluribus conuenire 
+      <lb ed="#L" n="30"/>non est realiter et positiue commune. ergo si illa res quae est in 
+      <lb ed="#L" n="31"/>sorte pernullam potentiam potest esse in alio. non est rea 
+      <lb ed="#L" n="32"/>liter positiue communis. nec communior quam hec forma vel hec 
+      <lb ed="#L" n="33"/>materia. quia vtraque istarum potest per potentiam diuinam 
+      <lb ed="#L" n="34"/>esse in pluribus: saltem successiue
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e432">
+      ⁋ Preterea. sicut na 
+      <lb ed="#L" n="35"/>ture de se non repugnat quod sit cum alio gradu. ita 
+      <lb ed="#L" n="36"/>etiam illi gradui non repugnat ex se esse cum alia na 
+      <lb ed="#L" n="37"/>tura. ergo tanta communitas erit in illo gradu indiui. 
+      <lb ed="#L" n="38"/>duali contrahente. quanta in natura contracta.
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e443">
+      ⁋ hoc 
+      <lb ed="#L" n="39"/>confirmatur. quia secundum istam opinionem. iste gradus
+      indi<lb ed="#L" n="40" break="no"/>uidualis contrahens realit est cum pluribus naturis 
+      <lb ed="#L" n="41"/>contractis. scilicet cum natura omnium generum et specierum 
+      <lb ed="#L" n="42"/>praedicabilium de illo indiuiduo. ergo realiter iste
+      gra<lb ed="#L" n="43" break="no"/>dus magis erit communis ad diuersas naturas vniversales 
+      <lb ed="#L" n="44"/>quam quecumque natura ad diuersa indiuidua. Et si 
+      <lb ed="#L" n="45"/>dicas quod hic non est communitas per praedicationem: sed
+      con<lb ed="#L" n="46" break="no"/>tas conexistentie. hoc non valet. quia consimilis communitas 
+      <lb ed="#L" n="47"/>praecise potest esse nature communis ad indiuidua. quia secundum 
+      <lb ed="#L" n="48"/>istam opinionem. illa natura vniversalis est realiter
+      distin<lb ed="#L" n="49" break="no"/>cta ab isto indiuiduo. ergo non est communis per
+      praedicatio<lb ed="#L" n="50" break="no"/>nem talem. sed tantum per quandam coexistentiam. vel sicut 
+      <lb ed="#L" n="51"/>is est communis toti
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e474">
+      ⁋ Ideo dico ad quaestionem. quod in in 
+      <lb ed="#L" n="52"/>diuiduo non est aliqua natura vniversalis realiter distin 
+      <lb ed="#L" n="53"/>cta a differentia conthente. quia non posset ibi poni talis na 
+      <lb ed="#L" n="54"/>tura nisi esset pars essentialis ipsius indiuidui. sed 
+      <lb ed="#L" n="55"/>semper intertotum et parten est proportio. quod si totum sit 
+      <!--191.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 94-v -->
+               <lb ed="#L" n="56"/>singulare non commune. quelibet pars eodem modo est
+      sin<lb ed="#L" n="57" break="no"/>gularis proportionabiliter. nec potest vna pars plus 
+      <lb ed="#L" n="58"/>esse singularis quam alia. ergo vel nulla pars
+      indiui<lb ed="#L" n="59" break="no"/>dui est singularis. vel quaelibet. sed non nulla. ergo
+      quae<lb ed="#L" n="60" break="no"/>libet. Similiter si in indiuiduo essent talia duo rea 
+      <lb ed="#L" n="61"/>liter distincta. non videtur includere contradictionem 
+      <lb ed="#L" n="62"/>quin vnum istorum posset esse sine altero. et tunc posset 
+      <lb ed="#L" n="63"/>esse gradus indiuidualis sine natura contracta 
+      <lb ed="#L" n="64"/>vel econuerso. quorum vtrunque est absurdum. Similiter 
+      <lb ed="#L" n="65"/>quod non sit talis natura. probant fere omns rationes 
+      <lb ed="#L" n="66"/>posite in priori quaestione contra opinionem ibi im 
+      <lb ed="#L" n="67"/>probatam.
+    </p>
+            <p xml:id="wo8uy7-d1e349-d1e518">
+      ⁋ Ad argumentum principale dico quod in 
+      <lb ed="#L" n="68"/>vniuersale aliquo modo significat partem. quando illud 
+      <lb ed="#L" n="69"/>vniversale est genus ad multa composita distincta
+      for<lb ed="#L" n="70" break="no"/>mis specificis. Cuius ratio est. quia in quolibet suo 
+      <lb ed="#L" n="71"/>significato neccessario inuenitur vna pars eiusdem 
+      <lb ed="#L" n="72"/>rationis. non sic autem alia pars. et ideo magis dicitur 
+      <lb ed="#L" n="73"/>significare illam partem quam aliam. Qualiter autem hoc 
+      <lb ed="#L" n="74"/>sit intelligendum patebit in sequentibus. Et ideo 
+      <lb ed="#L" n="75"/>vniversale non est realiter pars. et ideo non oportet quod realiter
+      multi<lb ed="#L" n="76" break="no"/>plicetur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

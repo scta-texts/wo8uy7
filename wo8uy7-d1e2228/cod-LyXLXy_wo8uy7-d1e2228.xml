@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7(4)</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7(4)</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="350-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e2228"><!-- l3q7(4) -->
+            <head xml:id="wo8uy7-d1e2228-Hd1e108">Quaestio 7(4)</head>
+            <p xml:id="wo8uy7-d1e2228-d1e111">
+      ⁋ Questio. iiii. 
+      <lb ed="#L" n="90"/>UTrum habitus sit 
+      <lb ed="#L" n="91"/>qualitas absoluta effectiua actus.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e118">
+      Quod 
+      <lb ed="#L" n="92"/>non sit qualitas absoluta probatur sic. 
+      <lb ed="#L" n="93"/>oem Nabitus sunt in eodem predicamento absolu 
+      <lb ed="#L" n="94"/>to vel respectiuo: sed aliquis est habitus qui non 
+      <lb ed="#L" n="95"/>est qualitas absoluta. igitur etc
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e129">
+      ⁋ Assumptum patet. 
+      <lb ed="#L" n="96"/>quia in perfectionibus semper vltima perfectio est
+      perfe<lb ed="#L" n="97" break="no"/>ctior quam precedens. sed actus est vltima perfectio 
+      <lb ed="#L" n="98"/>habitus et actus generatiuus habitus non est 
+      <lb ed="#L" n="99"/>aliqua res absolute distincta a permanentibus. 
+      <lb ed="#L" n="100"/>ergo respectiua: sicut habitus generatus ex
+      mo<lb ed="#L" n="101" break="no"/>tu locali non est res absoluta. quia si actus non sit 
+      <lb ed="#L" n="102"/>nec erit habitus generatus ex actibus.
+      Assum<lb ed="#L" n="103" break="no"/>ptum patet de scribentibus ambulantibus et omnibus ma 
+      <lb ed="#L" n="104"/>nualiter operantibus quod in eis ex motu locali
+      ge<lb ed="#L" n="105" break="no"/>neratur habitus ratione cuius magis inclinantur ad  
+      <lb ed="#L" n="106"/>actus consimiles.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e155">
+      ⁋ Item. vii. phisicorum. ad illa de 
+      <lb ed="#L" n="107"/>prima specie non est niotus. quia sunt ad aliquid
+      habi<lb ed="#L" n="108" break="no"/>tus est de prima specie. ergo etc
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e163">
+      ⁋ Quod autem habitus non 
+      <lb ed="#L" n="109"/>sit causa effectiua actus. probatur: quia si sic. aut 
+      <!--704.xml-->
+      <pb ed="#L" n="351-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>esset causa principalis aut secundaria non
+      principa<lb ed="#L" n="2" break="no"/>lis. quia quando causa principalis est naturalis: totus 
+      <lb ed="#L" n="3"/>effectus est naturalis. si ergo habitus volunta 
+      <lb ed="#L" n="4"/>tis sit causa principalis etc. sequitur quod actus
+      volun<lb ed="#L" n="5" break="no"/>tatis erit naturalis. et per consequens non erit in ptante 
+      <lb ed="#L" n="6"/>voluntatis. quod videtur incoueniens. nec est secundaria 
+      <lb ed="#L" n="7"/>qui Augustinus dicit quod gratia se habet ad voluntatem 
+      <lb ed="#L" n="8"/>licut sessor ad equum. ergo gratia est causa principa 
+      <lb ed="#L" n="9"/>lis. et per consequens alius habitus eodem modo de aliis. 
+      <lb ed="#L" n="10"/>qui eadem ratio est de vno et de alio.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e196">
+      ⁋ Item si sic. tunc 
+      <lb ed="#L" n="11"/>habitus est potentia. quia principium diuiditur secundum philosophum 
+      <lb ed="#L" n="12"/>quaento metha. in potentiam actiuam et passiuam. hoc 
+      <lb ed="#L" n="13"/>autem falsum est. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e205">
+      ⁋ Ad oppositum. omne
+      in<lb ed="#L" n="14" break="no"/>clinans effectiue ad actum est absolutum et est acti 
+      <lb ed="#L" n="15"/>uum. quod non sit passiuum patet. quia potentia passiua
+      ni<lb ed="#L" n="16" break="no"/>hil agens non est inclinatiua. Quod tale inclinatiuum 
+      <lb ed="#L" n="17"/>sit absolutum patet. quia. v. phisicorum dicitur quod ad aliquid 
+      <lb ed="#L" n="18"/>non est principium actionis nec terminus.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e218">
+      ⁋ hic 
+      <lb ed="#L" n="19"/>sunt duo articuli
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e223">
+      ⁋ Primus est vtrum habitus sit 
+      <lb ed="#L" n="20"/>qualitas absoluta. et dicitur hic quod habitus est quoa 
+      <lb ed="#L" n="21"/>dam respectus solum: quod probatur multiplicitur.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e230">
+      ⁋ Ari 
+      <lb ed="#L" n="22"/>stoteles in predicamentis dicit. quod scientia est in gro 
+      <lb ed="#L" n="23"/>nere relationis: scientia est habitus. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e238">
+      ⁋ Item 
+      <lb ed="#L" n="24"/>vii. phisicorum. scientia et habitus sunt adaliquid. ergo etc. 
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e243">
+               <lb ed="#L" n="25"/>⁋ Item. x. metha. habitus non est perfectior actione 
+      <lb ed="#L" n="26"/>sed actio est respectus. ergo habitus.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e250">
+      ⁋ Iste omne 
+      <lb ed="#L" n="27"/>absolutum potest intelligi nullo alio absoluto in 
+      <lb ed="#L" n="28"/>tellecto. probatur: quia maior est dependentia
+      acciden<lb ed="#L" n="29" break="no"/>tis ad formam quam absoluti ad absolutum. sed
+      acci<lb ed="#L" n="30" break="no"/>dens potest intelligi non intellecta substantia. probatur: quia 
+      <lb ed="#L" n="31"/>potest videri corporaliter non visa substantia. quia quicquid ptet 
+      <lb ed="#L" n="32"/>potentia inferior et superior. sed scientia non potest intel 
+      <lb ed="#L" n="33"/>ligi sine scibili: quia non est scientia nisi aliquid est scitum 
+      <lb ed="#L" n="34"/>quia quod sit scientia in aliquo et quod nihil sciatur est
+      impossi<lb ed="#L" n="35" break="no"/>bile.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e272">
+      ⁋ Item omne absolutum potest fieri sine alio
+      ab<lb ed="#L" n="36" break="no"/>soluto realiter distincto: sed scientia non potest fieri sine 
+      <lb ed="#L" n="37"/>scibili: quia non est scientia nisi aliquid est scitum.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e279">
+      ⁋ Item 
+      <lb ed="#L" n="38"/>ad mutationem rei extra animam non sequitur neccessario 
+      <lb ed="#L" n="39"/>destructio alicuius absoluti in anima. quia licet de fa 
+      <lb ed="#L" n="40"/>cto ad mutationem rei ex sequitur destructio
+      ali<lb ed="#L" n="41" break="no"/>cuius absoluti in anima. puta si obiectum extra
+      corrum<lb ed="#L" n="42" break="no"/>patur notitia intuitiua intellectus de tali
+      obie<lb ed="#L" n="43" break="no"/>cto corrumpitur naturaliter saltem. per potentiam tamen
+      di<lb ed="#L" n="44" break="no"/>uinam potest res absoluta extra animam destrui et omne 
+      <lb ed="#L" n="45"/>absolutum in anima conseruari. sed ad mutationem rel 
+      <lb ed="#L" n="46"/>extra sequitur neccessario destructio scientie. ita quod deus 
+      <lb ed="#L" n="47"/>non potest facere quod scientia maneat re extra animam mu 
+      <lb ed="#L" n="48"/>tata. igitur etc. Assumptum patet. quia hec propositio
+      sor<lb ed="#L" n="49" break="no"/>tes sedet: licet non posset sciri proprie: quia est
+      conti<lb ed="#L" n="50" break="no"/>gens. tamen communiter loquendo de scientia potest sciri secundum linco 
+      <lb ed="#L" n="51"/>niensem id est poste. vbi distinguit de quadruplici 
+      <lb ed="#L" n="52"/>modo sciendi. tunc hec propositio sorte sedente
+      me<lb ed="#L" n="53" break="no"/>diante cognitione intuitiua extremorum scitur
+      euiden<lb ed="#L" n="54" break="no"/>ter et sorte surgente neccessario destruitur ista scientia. ita 
+      <lb ed="#L" n="55"/>quod deus non potest facere quod ita sciatur euidenter sicut 
+      <!--704.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 351-r -->
+               <lb ed="#L" n="56"/>prius. quia hec nunc est fla. et sium non potest sciri. ergo 
+      <lb ed="#L" n="57"/>scientia non est res absoluta: sed solum respectus.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e331">
+      ⁋ Sed 
+      <lb ed="#L" n="58"/>cundus articulus est. vtrum habitus sit causa
+      effe<lb ed="#L" n="59" break="no"/>ctiua actus. et dicitur quod non. quod probatur. quia
+      actiui<lb ed="#L" n="60" break="no"/>tas non attribuitur habitui nisi propter quattuor
+      com<lb ed="#L" n="61" break="no"/>ditiones conuenientes habenti habitum. Quarum pri 
+      <lb ed="#L" n="62"/>ma est vt delectabiliter operemur. Secunda vt
+      fa<lb ed="#L" n="63" break="no"/>ciliter operemur. Tertia vt propte operemur 
+      <lb ed="#L" n="64"/>Quarta vt ad operandum magis inclinemur. 
+      <lb ed="#L" n="65"/>Sed primum non cogit. quia delectatio consurgit ex 
+      <lb ed="#L" n="66"/>obiecto et conuenientia recipientur. sed habitus potest face 
+      <lb ed="#L" n="67"/>re conuenientiam potentie ad obiectum sine
+      actiuita<lb ed="#L" n="68" break="no"/>te nihil agendo. ergo etc. Nec secundum cogit. quia
+      diffi<lb ed="#L" n="69" break="no"/>cultas potentie ad operandum consurgit tantum ex in 
+      <lb ed="#L" n="70"/>dispositione potentie ad recipiendum actum sine omni 
+      <lb ed="#L" n="71"/>actiuitate. ergo etc. Nec tertium cogit. quia
+      propti<lb ed="#L" n="72" break="no"/>tudo potentie prouenit ex eius dispositione.
+      habi<lb ed="#L" n="73" break="no"/>tus autem potest disponere sine omni actiuitate. igitur 
+      <lb ed="#L" n="74"/>etc. Nec quartum cogit: quia habitus inclinat
+      po<lb ed="#L" n="75" break="no"/>tentiam disponendo eam ad recipiendum actum. ergo etc. 
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e374">
+               <lb ed="#L" n="76"/>⁋ Contra. ista per ordinem probo quod habitus sit quali 
+      <lb ed="#L" n="77"/>tas absoluta. quia omnes habitus sunt in eodem
+      praedi<lb ed="#L" n="78" break="no"/>camento absoluto vel respectiuo. ergo si vnus sit ab 
+      <lb ed="#L" n="79"/>solutus et omnes: sed aliquis est absolutus. probatur. 
+      <lb ed="#L" n="80"/>qui si actus est absolutus que est generatiuus habi 
+      <lb ed="#L" n="81"/>tus. ergo et habitus erit. Quod autem actus sit abso 
+      <lb ed="#L" n="82"/>lutus probatur. quia per fidem nostra vltia operatio anime 
+      <lb ed="#L" n="83"/>intellectualis est absoluta. quia est nostra
+      perfectio<lb ed="#L" n="84" break="no"/>vltima et si actus ille. igitur habitus generatus 
+      <lb ed="#L" n="85"/>ex tali actu. Confirmatur. quia beatitudo nostra et pre 
+      <lb ed="#L" n="86"/>mium quod nos pro laboribus nostris recepturi
+      su<lb ed="#L" n="87" break="no"/>mus est quid absolutum et ponitur in anima subiectiue 
+      <lb ed="#L" n="88"/>aut. igitur sicut habitus aut passio consequens actum 
+      <lb ed="#L" n="89"/>puta delectatio. quodcunque ipsorum ponatur beatitudo 
+      <lb ed="#L" n="90"/>nostra habetur propositum. quia non est maior ratio quare vnum 
+      <lb ed="#L" n="91"/>sit absolutum quam reliquum. si enim sit actus absolutus 
+      <lb ed="#L" n="92"/>sicut ponitur communiter quod est tunc ille actus est gene 
+      <lb ed="#L" n="93"/>ratiuus habitus absoluti: si sit passio absoluta. tunc. 
+      <lb ed="#L" n="94"/>actus vel habitus quem consequitur erit absolutus
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e418">
+      ⁋ Si 
+      <lb ed="#L" n="95"/>dicis quod beatitudo est quodam coniunctio anime cum essentia 
+      <lb ed="#L" n="96"/>diuina quae coniunctio non est aliquid absolutum.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e425">
+      ⁋ Contra 
+      <lb ed="#L" n="97"/>impossibile est transire de contradictorio in contradictorium 
+      <lb ed="#L" n="98"/>vbi non est motus localis: nec consurgit successio ex 
+      <lb ed="#L" n="99"/>sola transitione temporis: quod dico propter duas instam 
+      <lb ed="#L" n="100"/>tias prius factas sine mutatione illius quod transit: et 
+      <lb ed="#L" n="101"/>extendendo mutationem ad omnem acquisitionem et
+      de<lb ed="#L" n="102" break="no"/>structionem. sed anima prius est non beatam et postea beatam 
+      <lb ed="#L" n="103"/>sine omni motu locali: saltem per potentiam diuinam. et 
+      <lb ed="#L" n="104"/>iste transitus non consurgit ex transitione temporis. igitur 
+      <lb ed="#L" n="105"/>in anima non beatam est aliqua prima mutatio. puta acquisi 
+      <lb ed="#L" n="106"/>tio vel deparditio: et non est acquisitio alicuius nisi 
+      <lb ed="#L" n="107"/>beatitudinis quae non est respectus. igitur est ibi aliquid  
+      <lb ed="#L" n="108"/>absolutum. ponere enim quod beatitudo nostra et premium 
+      <lb ed="#L" n="109"/>nostrm nobis in celo conferendum est tantum respectus est 
+      <lb ed="#L" n="110"/>multum vilificare beatitudinem nostram. cum igitur beatitu¬ 
+      <!--705.xml-->
+      <pb ed="#L" n="351-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>do non sit nisi actus vel habitus sequitur propositum 
+      <lb ed="#L" n="2"/>Item quaelibet experitur in se quando delectatur vel tristatur 
+      <lb ed="#L" n="3"/>quod non est in potentia tantum quadam rectus et isti multum 
+      <lb ed="#L" n="4"/>experiuntur hoc quae dicunt oppositum. igitur cum in anima quando 
+      <lb ed="#L" n="5"/>delectatur non est nisi actus vel habitus vel passio. et isti 
+      <lb ed="#L" n="6"/>sunt rectus: quia est contra experientiam. igitur etc. Dico igi 
+      <lb ed="#L" n="7"/>tur quantum ad istum articulum quod habitus est qualitas
+      ab<lb ed="#L" n="8" break="no"/>soluta existens in anima subiectiue
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e482">
+      ⁋ Contra dicta in 
+      <lb ed="#L" n="9"/>secundo articulo: quia quaelibet actus inclinat potentiam: sed 
+      <lb ed="#L" n="10"/>inclinatio non est sine actiuitate. ergo etc. Si dicas 
+      <lb ed="#L" n="11"/>quod tripliciter potest intelligi aliquid esse inclinatiuum: scilicet per 
+      <lb ed="#L" n="12"/>modum principii actiui passiui et neutri. Exemplum 
+      <lb ed="#L" n="13"/>primi sic obiectum inclinat potentiam. Exemplum secundi 
+      <lb ed="#L" n="14"/>sicut materia inclinatur ad formam. Exemplum tertii 
+      <lb ed="#L" n="15"/>sicut actus primus inclinat dispionem ad actu
+      posteri<lb ed="#L" n="16" break="no"/>orem. Exemplum. licet grauitas non sit principium mouendi 
+      <lb ed="#L" n="17"/>deorsum: est tamen forma prior disponens et inclinans ad 
+      <lb ed="#L" n="18"/>actum posteriorem puta ad motum deorsum. Aliud
+      ex<lb ed="#L" n="19" break="no"/>emplum. si sint hac tria ligna vnum humidum aliud sic 
+      <lb ed="#L" n="20"/>cum aliud neutrum: tunc lignum siccum disponitur ad re 
+      <lb ed="#L" n="21"/>cipiendum calorem magis quam humidum vel neutrum. tamen 
+      <lb ed="#L" n="22"/>siccitas non habet aliquam actiuitatem rectum caloris. 
+      <lb ed="#L" n="23"/>Eodem modo modo in proposito habitus est inclinans potentiam 
+      <lb ed="#L" n="24"/>sicut dispositio siue actus prior disponens ad actum 
+      <lb ed="#L" n="25"/>posteriorem. Contra illud quod ex ratione sua magis habet
+      in<lb ed="#L" n="26" break="no"/>clinare potentiam quam principium aliquod partiale. illud  
+      <lb ed="#L" n="27"/>magis habet rationem principii partialis quam aliud: sed habitus 
+      <lb ed="#L" n="28"/>est huiusmodi magis enim inclinat quam obiectum. ergo etc.
+      ma<lb ed="#L" n="29" break="no"/>ior patet: quia nihil ita perfecte inclinat ad actum sicut 
+      <lb ed="#L" n="30"/>causa essentialis actus: et ideo causa sine qua non inclinat ad  
+      <lb ed="#L" n="31"/>actum sicut causa essentialis. minor probatur: quia aliquando 
+      <lb ed="#L" n="32"/>posita causa partiali puta obiecto praesente potentie et 
+      <lb ed="#L" n="33"/>deficiente habitum non inclinatur potentia ad actum: quia potest 
+      <lb ed="#L" n="34"/>exire in actum et non exire sine aliqua difficultate. Et 
+      <lb ed="#L" n="35"/>ita faciliter exiret in actum in absentia obiecti sicut 
+      <lb ed="#L" n="36"/>in praesentia loquendo maxime de actu quae est in ptante vo 
+      <lb ed="#L" n="37"/>luntatis: sed existente habitu in potentia cum aliis requisitis 
+      <lb ed="#L" n="38"/>vix potest homo resistere sine magna difficultate quin 
+      <lb ed="#L" n="39"/>exeat in actum secundum inclinationem habitus qui eum quasi im 
+      <lb ed="#L" n="40"/>pellit ad hoc sicut cum experimur in nobis
+      maxi<lb ed="#L" n="41" break="no"/>mam repugnantiam et difficultatem resistendo
+      inclina<lb ed="#L" n="42" break="no"/>tioni habitus. igitur habet actiuitatem. Item sicut nulli 
+      <lb ed="#L" n="43"/>debet attribui causalitas nisi euidenter appareat quod 
+      <lb ed="#L" n="44"/>sibi debet attribui: ita non debet ab al iquo auferri
+      ni<lb ed="#L" n="45" break="no"/>si appareat in eo imperfectio causalitatis. sed habitus est 
+      <lb ed="#L" n="46"/>huiusmodi: quia non appret aliqua imperfectio in eo quare non potest 
+      <lb ed="#L" n="47"/>sibi competere ratio causalitatis. probatur secundum philosophum quinto 
+      <lb ed="#L" n="48"/>metaphisice. causa est ad cuius esse sequitur aliud esse 
+      <lb ed="#L" n="49"/>et loquitur de causa efficiente non materiali. igitur etc. 
+      <lb ed="#L" n="50"/>Tunc sic. quando aliquid sic se habet ad aliud quod ipso posi 
+      <lb ed="#L" n="51"/>to potest aliud poni in esse simpliciter vel in esse perfecto 
+      <lb ed="#L" n="52"/>et ipso subtracto non potest poni in esse simpliciter vel in esse 
+      <lb ed="#L" n="53"/>ita perfecto sicut cum isto: illud est causa huius: sed posi 
+      <lb ed="#L" n="54"/>to habitu in potentia potest poni actus simpliciter tam 
+      <lb ed="#L" n="55"/>in esse particulari quam in esse simpliciter: et ipso substra¬ 
+      <!--705.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 351-v -->
+               <lb ed="#L" n="56"/>cto non potest poni simpliciter: tam in esse particulari quamin esse 
+      <lb ed="#L" n="57"/>simpliciter nec in esse perfecto. ergo habitus habet rationem
+      cau<lb ed="#L" n="58" break="no"/>se respectu actus. non autem habet rationem causae
+      nisi<lb ed="#L" n="59" break="no"/>efficientis. igitur etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e601">
+      ⁋ Item si non. hoc non esset
+      nisi<lb ed="#L" n="60" break="no"/>qui actus non potest esse principium effectiuum alicuius 
+      <lb ed="#L" n="61"/>in subiecto in quo est: vel quia idem non potest agere 
+      <lb ed="#L" n="62"/>in se: vel quia causam oportet esse perfectiorem effectu 
+      <lb ed="#L" n="63"/>omnia ista suppouo nunc esse fusa ex dictis et postea 
+      <lb ed="#L" n="64"/>dicendis.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e614">
+      ⁋ Teneo igitur quantum ad istum articulum quod 
+      <lb ed="#L" n="65"/>habitus est causa effectiva actus. et quod grauitas est 
+      <lb ed="#L" n="66"/>principium actiuum respectu motus localis et quod 
+      <lb ed="#L" n="67"/>non potest esse inclinatio proprie sine actiuitate.
+      si<lb ed="#L" n="68" break="no"/>cut prius dictum est in quaestione praecedenti
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e626">
+      ⁋ Contra 
+      <lb ed="#L" n="69"/>ista sunt aliqua dubia.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e631">
+      ⁋ Primo enim videtur quod
+      ha<lb ed="#L" n="70" break="no"/>bitus non sit res sed modus rei. quia sicut se habet 
+      <lb ed="#L" n="71"/>res ad rem: ita se habet modus rei ad modum rei. sed  
+      <lb ed="#L" n="72"/>habitus non requiritur nisi per modum actus scilicet propter 
+      <lb ed="#L" n="73"/>facilitatem et huiusmodi.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e642">
+      ⁋ Confirmatur. quia sanitas est
+      qua<lb ed="#L" n="74" break="no"/>dam habitus: et sanitas non est nisi quadam modus. est 
+      <lb ed="#L" n="75"/>cnim commensuratio humorum in corpore humano 
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e649">
+               <lb ed="#L" n="76"/>⁋ Item quod non sit actiuus. probatur. quia qualitas actiua 
+      <lb ed="#L" n="77"/>est in tertia specie qualitatis. habitus autem est in
+      pri<lb ed="#L" n="78" break="no"/>ma specie.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e658">
+      ⁋ Item actus est causa effectiua habitus. igitur 
+      <lb ed="#L" n="79"/>non econtra. quia aliter in causis efficientibus per si 
+      <lb ed="#L" n="80"/>esset circulatio: quod tenetur pro inconueniente.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e665">
+      ⁋ Ite 
+      <lb ed="#L" n="81"/>de inclinatione habitus quid est. est magna difficul 
+      <lb ed="#L" n="82"/>tas. quia habitus eque perfectus aliquando sicut in dormiente 
+      <lb ed="#L" n="83"/>et vigilante non semper vniformiter inclinat. Similiter si 
+      <lb ed="#L" n="84"/>aliquis ex multis actibus generaret habitum incli 
+      <lb ed="#L" n="85"/>nantem ad peccatum mortale. et poste a peniteat et
+      in<lb ed="#L" n="86" break="no"/>fundatur sibi gratia in instanti. tamen ante istam infusionem 
+      <lb ed="#L" n="87"/>gratie inclinat iste habitus ad actum peccati mortalis 
+      <lb ed="#L" n="88"/>et post non. et tamen habitus inclinans ad actum
+      peccam<lb ed="#L" n="89" break="no"/>di semper manet equae perfectus sicut quaelibet experitur in 
+      <lb ed="#L" n="90"/>se. et a contradictorio in contradictorium non est transitus sine 
+      <lb ed="#L" n="91"/>mutatione. Et quid est nonuum in istis habitibus quod 
+      <lb ed="#L" n="92"/>prius non fuit est magna difficultas.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e695">
+      ⁋ Ad primum 
+      <lb ed="#L" n="93"/>istorum dico quod non intelligo istam distinctionem inter 
+      <lb ed="#L" n="94"/>rem et modum rei loquendo generaliter. quando enim est aliqua 
+      <lb ed="#L" n="95"/>res continens plures partes eiusdem rationis distinctas 
+      <lb ed="#L" n="96"/>ibi potest illa distinctio saluari. Exemplum. si deus 
+      <lb ed="#L" n="97"/>faceret formam substantialem quae exteditur in aliqua materia 
+      <lb ed="#L" n="98"/>si faceret eam sine omni materia: ibi potest distingui 
+      <lb ed="#L" n="99"/>interrem et modum rei. quia iste partes alio modo habent esse 
+      <lb ed="#L" n="100"/>quando extenduntur: quam quando non exteduntur. sed si sit aliqua res 
+      <lb ed="#L" n="101"/>simplex non habens plures partes: ibi non est res et modus 
+      <lb ed="#L" n="102"/>sed quicquid distinguitur distinguitur a tali realiter. intel 
+      <lb ed="#L" n="103"/>lectus autem est forma simplex et habitus distingui 
+      <lb ed="#L" n="104"/>tur ab eo. igitur res distincta ab eo. Unde tum potens 
+      <lb ed="#L" n="105"/>vocare qualitatem et quantitatem modum rei. ideo dico quod 
+      <lb ed="#L" n="106"/>habitus est res quadam. licet non per se stans: sicut homo et la 
+      <lb ed="#L" n="107"/>pis
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e730">
+      ⁋ Ad aliud dico quod duplex est habitus corpo 
+      <lb ed="#L" n="108"/>ris. Unus generatus ex actibus elicitis. et ille non 
+      <lb ed="#L" n="109"/>est sanitas nec relatio sed quaedam qualitas absoluta. 
+      <lb ed="#L" n="110"/>Alius autem qui generatur ex augmentatione qualitatum et 
+      <!--706.xml-->
+      <pb ed="#L" n="352-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>diminutione. et ille est commensuratio et proportio 
+      <lb ed="#L" n="2"/>humorum et non dicit qualitatem absolutam distinctam 
+      <lb ed="#L" n="3"/>a qualitatibus primis augmentatis et diminutis 
+      <lb ed="#L" n="4"/>sed aliquando ad habendum ista proportionem requiritur 
+      <lb ed="#L" n="5"/>augmentatio alicuius qualitatis prime aliquando di 
+      <lb ed="#L" n="6"/>minutio aliquando generatio puta si de infirmo fiat 
+      <lb ed="#L" n="7"/>sanus. oportet aliquando calorem augmentari: 
+      <lb ed="#L" n="8"/>aliquando diminui: aliquando generari: sed
+      sa<lb ed="#L" n="9" break="no"/>nitas non dicit aliquam qualitate distinctam ab il 
+      <lb ed="#L" n="10"/>lis proportionatis: sed est quadam conceptus vel vox 
+      <lb ed="#L" n="11"/>connotatiua significans ipsas qualitates sic pro 
+      <lb ed="#L" n="12"/>portionatas vel significat vnam qualitatem in
+      de<lb ed="#L" n="13" break="no"/>terminato gradu principaliter connotando
+      ali<lb ed="#L" n="14" break="no"/>am.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e776">
+      ⁋ Ad aliud dico quod non solum qualitas de tertia 
+      <lb ed="#L" n="15"/>specie est actiua: sed etiam de prima. ideo assumptum 
+      <lb ed="#L" n="16"/>est falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e783">
+      ⁋ Ad aliud dico per idem argumentum po 
+      <lb ed="#L" n="17"/>test probari quod obiectum est potentia: quia est causa 
+      <lb ed="#L" n="18"/>partialis respectu actus. ideo dico quod potentia vno 
+      <lb ed="#L" n="19"/>modo accipitur pro forma elicitiua multorum actuum in 
+      <lb ed="#L" n="20"/>differenter. et sic intellectus est potentia vel volun 
+      <lb ed="#L" n="21"/>tas. Alio modo pro aliquo elicitiuo vnius actus de 
+      <lb ed="#L" n="22"/>terminate. et sic habitus potest dici potentia et ob 
+      <lb ed="#L" n="23"/>iectum similiter. Unde potentia proprie est illimitata 
+      <lb ed="#L" n="24"/>ad multos actus: sed habitus et obiectum non. Si 
+      <lb ed="#L" n="25"/>militer potentia recipit actum et obiectum habitus 
+      <lb ed="#L" n="26"/>vero non
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e807">
+      ⁋ Ad probationem dico quod in causais per se bene 
+      <lb ed="#L" n="27"/>potest esse circulatio inter causas maxime si sint
+      par<lb ed="#L" n="28" break="no"/>tiales: sic est in proposito. sed in causis per se essentia 
+      <lb ed="#L" n="29"/>liter ordinatis non est circulatio. vnde habitus est causa 
+      <lb ed="#L" n="30"/>actus: sed non eiusdem numero a quo causabatur: sed est 
+      <lb ed="#L" n="31"/>causa alterius actus. similiter actus est causa habitus: sed  
+      <lb ed="#L" n="32"/>non illius a quo causabatur: sed vel alterius gradus in 
+      <lb ed="#L" n="33"/>habitu. et nota quod actus et habitus differunt. quod 
+      <lb ed="#L" n="34"/>probatur: quia potest aliquid stare cum habitu quod non 
+      <lb ed="#L" n="35"/>cum actu. sicut clara visio essentie diuine: scilicet cum 
+      <lb ed="#L" n="36"/>habitu fidei: sicut post patebit. et tamen non stat cum 
+      <lb ed="#L" n="37"/>actu fidei quod non esset verum si actus et habitus
+      es<lb ed="#L" n="38" break="no"/>sent vna res. Sciendum etiam quod habitus est causa 
+      <lb ed="#L" n="39"/>efficiens respectu actus. ex quo actus est
+      effi<lb ed="#L" n="40" break="no"/>ciens partialis respectu habitus. quod patet. per 
+      <lb ed="#L" n="41"/>llam propositionem frequenter acceptam illud quo po 
+      <lb ed="#L" n="42"/>sito ponitur aliud etc. Ad aliud dico quod habitus 
+      <lb ed="#L" n="43"/>otest dici causa principalis et secundaria. et siue sic siue 
+      <lb ed="#L" n="44"/>sic semper. actus elicitus a voluntate siue sit
+      cau<lb ed="#L" n="45" break="no"/>sa principalis siue non actus erit liber denominatio 
+      <lb ed="#L" n="46"/>ne extrinseca. Unde quandocumque ad aliquem actum elicien 
+      <lb ed="#L" n="47"/>dum concurrit causa libera siue sit causa
+      principa<lb ed="#L" n="48" break="no"/>lis siue non actus erit liber. Et quando dicitur quod actus 
+      <lb ed="#L" n="49"/>voluntatis est in potestate voluntatis: si
+      intelli<lb ed="#L" n="50" break="no"/>gitur sic quod non potest impediri. hoc nullus christianus 
+      <lb ed="#L" n="51"/>habet concedere: licet philosophus habeat eam concedere qui non 
+      <lb ed="#L" n="52"/>ponit deum immediate aliquid causare in istis inferioribus: 
+      <lb ed="#L" n="53"/>sed christianus qui habet ponere quod deus concurrit in omni actio 
+      <lb ed="#L" n="54"/>ne immediate habet ponere quod deo non coagente cum 
+      <lb ed="#L" n="55"/>voluntate voluntas nullum actum elicit: quia deficit 
+      <!--706.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 352-r -->
+               <lb ed="#L" n="56"/>causa partialis necessario requisita: sed
+      tamen<lb ed="#L" n="57" break="no"/>actus voluntatis sic est in potestate voluntatis 
+      <lb ed="#L" n="58"/>quod per nullum creatum potest actus suus simpliciter
+      impe<lb ed="#L" n="59" break="no"/>diri.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e887">
+      ⁋ Ad aliud de inclinatione potest dici. quod est in 
+      <lb ed="#L" n="60"/>clinatio sine productione alicuius de nouo inclinam 
+      <lb ed="#L" n="61"/>te. Exemplum. graue existens supra traben semper incli 
+      <lb ed="#L" n="62"/>natur ad motum deorsum. hoc patet. quia sic inclinatur 
+      <lb ed="#L" n="63"/>quod tandem frangit trabem. et tamen quando frangit non plus
+      in<lb ed="#L" n="64" break="no"/>clinatur quam prius. causa autem quare nunc frangit traben et 
+      <lb ed="#L" n="65"/>non prius est debilitatio trabis. sed non est sic in vo 
+      <lb ed="#L" n="66"/>luntate: quia nihil ibi debilitatur nec corrupitur. Unde 
+      <lb ed="#L" n="67"/>inclinatio grauis non est tantum ipsa grauitas. sed est 
+      <lb ed="#L" n="68"/>aliquis actus: non quidem acquisitiuus. quia nihil vel
+      pas<lb ed="#L" n="69" break="no"/>siuum acquiritur in graui nec in trabe per istam
+      incli<lb ed="#L" n="70" break="no"/>natione. sed eius actio est deparditiua. quia per istam 
+      <lb ed="#L" n="71"/>inclinationem virtus trabis resistendi debilitatur 
+      <lb ed="#L" n="72"/>paulatim quousque deficiat in resistendo. et tunc 
+      <lb ed="#L" n="73"/>trabs frangitur. et tunc graue mouetur localiter. et tunc in 
+      <lb ed="#L" n="74"/>clinatio grauis est actio acquisitiua: saltem noui. 
+      <lb ed="#L" n="75"/>vbi vel loci. Unde prima actio non est aliud nisi quod 
+      <lb ed="#L" n="76"/>ad praesentiam grauis sequitur diminutio virtutim
+      tra<lb ed="#L" n="77" break="no"/>bis sicut ad praesentiam caloris ad frigidum est dimi 
+      <lb ed="#L" n="78"/>nutio frigoris sine productione caloris quousque 
+      <lb ed="#L" n="79"/>frigus totaliter corrumpatur. et respectu vtriusque 
+      <lb ed="#L" n="80"/>istarum actionum est grauitas totalis causa. Quod aute 
+      <lb ed="#L" n="81"/>inclinatio grauis dicit talem inclinationem primam 
+      <lb ed="#L" n="82"/>patet. Tum quia si trabs vel corpus detinens sit ita
+      po<lb ed="#L" n="83" break="no"/>tens ad resistendum quod numquam potest frangi per graue. tunc 
+      <lb ed="#L" n="84"/>non dicitur graue proprie inclinare. quia tunc non habet 
+      <lb ed="#L" n="85"/>aliquam actione debilitantem respectu resistentis. 
+      <lb ed="#L" n="86"/>Tum quia quando graue est in suo loco naturali: tunc no 
+      <lb ed="#L" n="87"/>inclinatur. quia non habet aliquem actum deperditiuum vel 
+      <lb ed="#L" n="88"/>acquisitiuum. quia inclinatio est respectu non habiti. sed 
+      <lb ed="#L" n="89"/>graue solum inclinatur ad locum proprium in quo iam. 
+      <lb ed="#L" n="90"/>est. et per consequens non proprie inclinat. Et eodem modo  
+      <lb ed="#L" n="91"/>est dicendum de habitu in appetitum sensitiuo et 
+      <lb ed="#L" n="92"/>intellectu. Nam habitus appetitus sensitiui di 
+      <lb ed="#L" n="93"/>citur inclinare appetitum. quia appetitus quantum est 
+      <lb ed="#L" n="94"/>de se potest in plures actus. sed habitus inclinat tantum in 
+      <lb ed="#L" n="95"/>vnum. puta habitus generatus in parte sensitiua ex 
+      <lb ed="#L" n="96"/>actibus luxuriosis inclinatiuum ad actus
+      consi<lb ed="#L" n="97" break="no"/>miles. licet ipse appetitus potest in actum castitatis. 
+      <lb ed="#L" n="98"/>quantum est de se. et ista inclinatio addit aliquid su 
+      <lb ed="#L" n="99"/>pra habitum. patet: quia si aliquis primo sit occupatus
+      cir<lb ed="#L" n="100" break="no"/>ca aliquod speculabile. ita quod non apprehedat ali 
+      <lb ed="#L" n="101"/>quod obiectum concupiscibile. et post apprehedat ali 
+      <lb ed="#L" n="102"/>quod tale obiectum sensibiliter vel intellectualiter. 
+      <lb ed="#L" n="103"/>vel vtroque vel solum sensibiliter ponatur hoc. tunc 
+      <lb ed="#L" n="104"/>experitur quod habet aliquam inclinationem ad illud .  
+      <lb ed="#L" n="105"/>obiectum quam prius non habuit: sed omnem habitum 
+      <lb ed="#L" n="106"/>quem nunc habet in appetitum prius habuit. igitur. 
+      <lb ed="#L" n="107"/>aliquid nouum est in appetitum iam inclinato quod 
+      <lb ed="#L" n="108"/>prius non fuit. licet huiusmodi non potest esse nisi actus 
+      <lb ed="#L" n="109"/>igitur inclinatio illius habitus est actus elicitus 
+      <lb ed="#L" n="110"/>et respectu huius potest poni habitus totalis cau¬ 
+      <!--707.xml-->
+      <pb ed="#L" n="352-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sa. sicut prius positum fuit de grauitate vel partia 
+      <lb ed="#L" n="2"/>lis causa cum apprehensione et appetitum quod magis 
+      <lb ed="#L" n="3"/>videtur verum quod nunquam sic inclinat habitus
+      nis<lb ed="#L" n="4" break="no"/>facta apprehensione que necessario precedit 
+      <lb ed="#L" n="5"/>omnem actu appetitus. Si dicas quod secundum istud
+      po<lb ed="#L" n="6" break="no"/>test concedi quod obiectum inclinat potentiam
+      ap<lb ed="#L" n="7" break="no"/>prehensiuam: quia est causa partialis concurrens 
+      <lb ed="#L" n="8"/>cum potentia ad eliciendum actum: et hoc est
+      incli<lb ed="#L" n="9" break="no"/>nare in appetitum sensitiuo
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1027">
+      ⁋ Respondeo. potest 
+      <lb ed="#L" n="10"/>concedi conclusio. tamen habitus proprie incli 
+      <lb ed="#L" n="11"/>nat potentiam: quia est forma perficiens poten 
+      <lb ed="#L" n="12"/>tiam: et cum hoc vt causa partialis inclinans ad  
+      <lb ed="#L" n="13"/>actum. et potest poni satis bene quod est causa totalis 
+      <lb ed="#L" n="14"/>respectu illius actus. et tunc oportet secundum illud  
+      <lb ed="#L" n="15"/>ponere appetitum sesitiuum passiuum. et ideo alia via 
+      <lb ed="#L" n="16"/>forte est melior. et eodem modo est de habitu et
+      im<lb ed="#L" n="17" break="no"/>tellectu: quia homine vigilante experitur aliquam in 
+      <lb ed="#L" n="18"/>clinationem in intellectu ad aliquod obiectum de 
+      <lb ed="#L" n="19"/>structum facilius intelligendum quam prius non sen 
+      <lb ed="#L" n="20"/>tit dormiendo. et tamen eundem habitum habet vtro 
+      <lb ed="#L" n="21"/>quod tempore: et tamen experitur quod tunc aliquod nouum 
+      <lb ed="#L" n="22"/>est in intellectu quod prius non fuit. et hoc non 
+      <lb ed="#L" n="23"/>fuit nisi actus elicitus ab habitu. et per consequens in 
+      <lb ed="#L" n="24"/>clinatio non est nisi elicere actum. et ideo dormi 
+      <lb ed="#L" n="25"/>ens non inclinatur: quia tunc non elicit aliquem 
+      <lb ed="#L" n="26"/>actum. Sed de voluntate est maior difficultas: 
+      <lb ed="#L" n="27"/>posito quod aliquis primo habeat habitum
+      vicio<lb ed="#L" n="28" break="no"/>sum acquisitum ex actibus viciosis. et tamen sibi post 
+      <lb ed="#L" n="29"/>subito infunditur gratia. tunc est dubium vtrum stan 
+      <lb ed="#L" n="30"/>te gratia in voluntate potest aliquis actus elici 
+      <lb ed="#L" n="31"/>secundum inclinationem habitus viciosi. videtur quod non 
+      <lb ed="#L" n="32"/>qui nullus potest peccare mortaliter dum est in gra 
+      <lb ed="#L" n="33"/>tia: sed habitus ille inclinat ad actum peccati 
+      <lb ed="#L" n="34"/>mortalis. igitur etc. Sed oppositum experitur qui 
+      <lb ed="#L" n="35"/>libet in se quantumcunque sic presentetur sibi obiectum 
+      <lb ed="#L" n="36"/>illius habitus viciosi puta aliquod
+      concupiscibi<lb ed="#L" n="37" break="no"/>le hic experitur quod non tantum habet actum in ap 
+      <lb ed="#L" n="38"/>petitum sensitiuo: sed in voluntate. et maiorem
+      in<lb ed="#L" n="39" break="no"/>clinationem habet in voluntate quam habuit ante 
+      <lb ed="#L" n="40"/>apprehensionem intellectualem illius obiecti: quia 
+      <lb ed="#L" n="41"/>aliquando habet tantam inclinationem in
+      volunta<lb ed="#L" n="42" break="no"/>te quod vix potest resistere et elicere actum oppositum 
+      <lb ed="#L" n="43"/>ad quem inclinat gratia etc. huiusmodi autem
+      inclina<lb ed="#L" n="44" break="no"/>tio non potest esse nisi actus elicitus ab
+      habi<lb ed="#L" n="45" break="no"/>tu. quod credo esse verum. Sed tunc est dubium quo 
+      <lb ed="#L" n="46"/>modo talis actus potest poni in voluntate sine pec 
+      <lb ed="#L" n="47"/>cato mortali cum habitus ille non inclinet nisi ad  
+      <lb ed="#L" n="48"/>actum viciosum. Potest dici vno modo quod ille actus 
+      <lb ed="#L" n="49"/>elicitur totaliter ab habitu non a voluntate
+      mo<lb ed="#L" n="50" break="no"/>do predicto de inclinatione grauis. et tunc ex. 
+      <lb ed="#L" n="51"/>cusatur peccatum: quia in nullo actu existit
+      pecca<lb ed="#L" n="52" break="no"/>tum nisi existat in actu voluntatis: sicut nec
+      me<lb ed="#L" n="53" break="no"/>ritum quod non potest esse nisi eliciatur a
+      volunta<lb ed="#L" n="54" break="no"/>te saltem partialiter: sed quia apparet inconueniens 
+      <lb ed="#L" n="55"/>quod aliquis actus totaliter causetur in voluntate 
+      <!--707.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 352-v -->
+               <lb ed="#L" n="56"/>a causa creata alia a voluntate: propter
+      liberta<lb ed="#L" n="57" break="no"/>tem voluntatis que non potest cogi salte per causam 
+      <lb ed="#L" n="58"/>creatam. licet talis actus posset causari a deo
+      to<lb ed="#L" n="59" break="no"/>taliter. Ideo potest dici quod ille actus causatur 
+      <lb ed="#L" n="60"/>partialiter ab habitu et partialiter a voluntate.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1147">
+      ⁋ Sed 
+      <lb ed="#L" n="61"/>tunc stat difficultas quo in illo actu non cosistit 
+      <lb ed="#L" n="62"/>peccatum cum elicitur a voluntate
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1154">
+      ⁋ Potest dici quod 
+      <lb ed="#L" n="63"/>licet voluntas sit libera respectu cuiuslibet actus 
+      <lb ed="#L" n="64"/>ab eo eliciti absolute considerati. tamen considerando 
+      <lb ed="#L" n="65"/>aliquem actum voluntatis inquantum ille actus ante 
+      <lb ed="#L" n="66"/>cedit in voluntate: non est voluntas libera respe 
+      <lb ed="#L" n="67"/>ctu illius actus. Exemplum ponamus quod obiectum 
+      <lb ed="#L" n="68"/>caritatis sit totum istud deus et omne quod vult deus 
+      <lb ed="#L" n="69"/>diligi et quod diligam deum caritatiue actu elicito 
+      <lb ed="#L" n="70"/>ita quod aliquo vno actu diligam deum: et omne quod vult 
+      <lb ed="#L" n="71"/>deus diligi a me: quod est possibile. situnc
+      cogno<lb ed="#L" n="72" break="no"/>scaua per intellectum quod deus vult Iohem diligi a 
+      <lb ed="#L" n="73"/>me per reuelatione vel per quacunque aliam viam 
+      <lb ed="#L" n="74"/>stante prima dilectione in voluntate cum
+      cognitio<lb ed="#L" n="75" break="no"/>ne praedicta necessario habeo diligere iohannem 
+      <lb ed="#L" n="76"/>actu caritatiuo. et ille est alius a primo quia possunt 
+      <lb ed="#L" n="77"/>separari: et vnus praecedit alium. et vnus scilicet secundus 
+      <lb ed="#L" n="78"/>est praecise respectu vnius incomplexi. puta iohis 
+      <lb ed="#L" n="79"/>alius puta primus non.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1193">
+      ⁋ Sia ista arguunt
+      distin<lb ed="#L" n="80" break="no"/>ctione inter illos actus. et tamen voluntas non est
+      li<lb ed="#L" n="81" break="no"/>bera respectu secundi actus stante primo actu cur 
+      <lb ed="#L" n="82"/>apprehesione praedicta. quia est impossibile quod
+      ego<lb ed="#L" n="83" break="no"/>vno actu diligam deum: et omne quod vult deus
+      dili<lb ed="#L" n="84" break="no"/>gi a me in generali. et quod sciam quod deus vult iohem 
+      <lb ed="#L" n="85"/>diligi a me nisi diligam iohannem in speciali. quia 
+      <lb ed="#L" n="86"/>contradictio est dicere oppositum et tunc. licet 
+      <lb ed="#L" n="87"/>in primo actu voluntatis consistat meritum. quia est 
+      <lb ed="#L" n="88"/>in potestate voluntatis: non tamen in actu secundo quam 
+      <lb ed="#L" n="89"/>non est in potestate voluntatis. Eodem modo potest 
+      <lb ed="#L" n="90"/>dici in proposito quod apprehenso aliquo
+      concupisci<lb ed="#L" n="91" break="no"/>bili et stante inclinatione. habitus in
+      volunta<lb ed="#L" n="92" break="no"/>te: inclinatione dico actuali: sicut homo plus 
+      <lb ed="#L" n="93"/>experitur in vno tempore quod in alio. Tunc dico quod 
+      <lb ed="#L" n="94"/>non est in potestate voluntatis: quin eliciat cum ha 
+      <lb ed="#L" n="95"/>bitu inclinante aliquem actum circa illud. et ille actus 
+      <lb ed="#L" n="96"/>potest dici primus motus qui excusatur a pecca 
+      <lb ed="#L" n="97"/>to secundum doctores. Et hoc etiam videtur Augusti 
+      <lb ed="#L" n="98"/>nus dicere quod non est in potestate nostra. quibus 
+      <lb ed="#L" n="99"/>visis per intellectum tangamur in voluntate. et secundum 
+      <lb ed="#L" n="100"/>istam viam tunc excusatur voluntas a peccato quantum 
+      <lb ed="#L" n="101"/>ad illum actum. quia non est in potenstate voluntatis 
+      <lb ed="#L" n="102"/>ideo nec in eo consistit meritum nec demeritum. et 
+      <lb ed="#L" n="103"/>secundum hoc oportet dicere quod voluntas non sit libera 
+      <lb ed="#L" n="104"/>respectu cuiuslibet actus ab ea eliciti sed respe 
+      <lb ed="#L" n="105"/>ctu alicuius sic et alicuius non. Sed tunc est
+      du<lb ed="#L" n="106" break="no"/>bium quomo voluntas secundum inclinationem gra 
+      <lb ed="#L" n="107"/>tie elicit oppositum actum intense stante tali incli 
+      <lb ed="#L" n="108"/>natione: potest dici quod habitus gratie in tali est 
+      <lb ed="#L" n="109"/>intensior quam alius habitus inclinans ad vicium. et 
+      <lb ed="#L" n="110"/>voluntas cum maiori conatum elicit actum sed gratie 
+      <!--708.xml-->
+      <pb ed="#L" n="353-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>inclinationem: et sic auertit intellectum a conside 
+      <lb ed="#L" n="2"/>ratione primi obiecti. et cessat primus actus: sed  
+      <lb ed="#L" n="3"/>multi experiuntur quod stante tali inclinatione in 
+      <lb ed="#L" n="4"/>voluntate: voluntas elicit valde remissum actum 
+      <lb ed="#L" n="5"/>ecundum gratie inclinationem.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1280">
+      ⁋ Ad primum prime opi 
+      <lb ed="#L" n="6"/>nionis dico quod scientia secundum nomen suum est ad aliquid  
+      <lb ed="#L" n="7"/>qui hoc nomen scientia vel conceptus significat quod 
+      <lb ed="#L" n="8"/>litatem absolutam connotando obiectum suum. ideo est 
+      <lb ed="#L" n="9"/>adaliquid: quia significat vnum et connotat aliud. 
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1291">
+               <lb ed="#L" n="10"/>⁋ Ad philosophum. vii. phisicorum dico quod commentator ii. 
+      <lb ed="#L" n="11"/>de anima distinguit de passione. Unde passio
+      acci<lb ed="#L" n="12" break="no"/>pitur tripliciter. vno modo pro sola receptione 
+      <lb ed="#L" n="13"/>et inductione vnius forme absolute. et sic
+      repe<lb ed="#L" n="14" break="no"/>ritur in sensum: vbi recipitur actus videndi. et alio 
+      <lb ed="#L" n="15"/>modo accipitur pro inductione vnius forme cum 
+      <lb ed="#L" n="16"/>expulsione forme contrarie. et sic reperitur in in 
+      <lb ed="#L" n="17"/>tellectu quando mouetur ab habitu erroris ad
+      ha<lb ed="#L" n="18" break="no"/>bitum scientie: vel econuerso. Alio modo accipitur 
+      <lb ed="#L" n="19"/>pro alteratione vel pro receptione forme ad quam 
+      <lb ed="#L" n="20"/>sequitur corruptio patientis: sicut est in eleme 
+      <lb ed="#L" n="21"/>tis in quibus forme substantiales corrumpuntur 
+      <lb ed="#L" n="22"/>ad corruptionem vel inductionem determinati 
+      <lb ed="#L" n="23"/>gradus. et isto modo negat philosophus alterationem est 
+      <lb ed="#L" n="24"/>le in sensu et in intellectu et non duobus primis 
+      <lb ed="#L" n="25"/>modis: quia illis modis concedit alterationem 
+      <lb ed="#L" n="26"/>quae est salus et perfectio patientis
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1331">
+      ⁋ Ad aliud di 
+      <lb ed="#L" n="27"/>co concedendo quod aliquis potest cognoscere sci 
+      <lb ed="#L" n="28"/>entiam non cognoscendo scibile: immo intuitie 
+      <lb ed="#L" n="29"/>videre actum suum intelligendi volendi
+      sentien<lb ed="#L" n="30" break="no"/>di secundum augustinum: et tamen non obiectum: quia secundum 
+      <lb ed="#L" n="31"/>augustinum fidem actualem qua credo video: sed  
+      <lb ed="#L" n="32"/>deum non video: ideo concedo assumptum. Si dicas 
+      <lb ed="#L" n="33"/>quod scientia dicat formaliter respectum. nego: quia 
+      <lb ed="#L" n="34"/>tantum dicit respectum sed nomen sicut creator gu 
+      <lb ed="#L" n="35"/>bernator sicut dictum est frequenter.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1353">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="36"/>dico quod hoc nomen scntentia vel conceptus
+      signi<lb ed="#L" n="37" break="no"/>icat: non tantum ipsam qualitatem in anima sed etiam
+      coexi<lb ed="#L" n="38" break="no"/>stentiam obiecti et conformitatem obiecti ad scientiam 
+      <lb ed="#L" n="39"/>pbiecti inquantum complexi non incomplexi. ita quod ad  
+      <lb ed="#L" n="40"/>hoc quod illa. qualitas sit in anima siue sit actus
+      assen<lb ed="#L" n="41" break="no"/>tiendi siue sit habitus ex actibus assentiendi non 
+      <lb ed="#L" n="42"/>denotatur scientia nisi quando illud complexum respectu 
+      <lb ed="#L" n="43"/>cuius est habet esse eo modo quo intellectus si 
+      <lb ed="#L" n="44"/>bi assentit. et quando intellectus non habet esse 
+      <lb ed="#L" n="45"/>illud complexum. tunc potest bene illa qualitas in 
+      <lb ed="#L" n="46"/>anima manere. sed tunc perdit denominationem illam 
+      <lb ed="#L" n="47"/>sicut in proposito sorte sedente: scio hanc euidenter 
+      <lb ed="#L" n="48"/>sorres sedet. sed ipso surgente non est conformitas 
+      <lb ed="#L" n="49"/>inter scientiam et complexum illud. quia nomen scientie 
+      <lb ed="#L" n="50"/>vel conceptus connotat semper obiectum verum et non 
+      <lb ed="#L" n="51"/>denominat scientiam nisi quando illud complexum consequeno 
+      <lb ed="#L" n="52"/>tatum est verum. et ideo si per mutationem rei sit
+      comple<lb ed="#L" n="53" break="no"/>tum falsum. tunc bene potest illa qualitas manere 
+      <lb ed="#L" n="54"/>sed tunc non dicitur scientia propter causam dictam. sic 
+      <lb ed="#L" n="55"/>est in proposito. Et est sciendum quod aliquando vox vel 
+      <!--708.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 353-r -->
+               <lb ed="#L" n="56"/>conceptus significat aliquid principaliter. et con 
+      <lb ed="#L" n="57"/>notat aliud. ita quod principale significatum illius 
+      <lb ed="#L" n="58"/>nominis vel conceptus capit denominationem illius
+      con<lb ed="#L" n="59" break="no"/>ceptus significantis. siue connotatum existat siue 
+      <lb ed="#L" n="60"/>no: aliquado non denominatur nisi connotatum
+      exi<lb ed="#L" n="61" break="no"/>stat. Exemplum primi deus est bonus: bonitas 
+      <lb ed="#L" n="62"/>significat deum connotando actum volendi. et dicitur 
+      <lb ed="#L" n="63"/>deus bonus siue sit actus volendi siue non. immo 
+      <lb ed="#L" n="64"/>si nullus actus volendi posset esse. Exemplum
+      se<lb ed="#L" n="65" break="no"/>cundi. paternitas negando relationem significat 
+      <lb ed="#L" n="66"/>patrem connotando filium. sed et homo non denomina 
+      <lb ed="#L" n="67"/>tur pater realiter nisi quando actu existit filius. et sic 
+      <lb ed="#L" n="68"/>est generaliter in istis conceptibus vbi ab aliis 
+      <lb ed="#L" n="69"/>ponuntur relationes sicut simile etc. Cuius
+      ra<lb ed="#L" n="70" break="no"/>tio est. quia aliquis conceptus significat vnum
+      pri<lb ed="#L" n="71" break="no"/>cipaliter et connotat aliud qualitercumque se habeat 
+      <lb ed="#L" n="72"/>siue existat siue non. sicut bonum significat deum 
+      <lb ed="#L" n="73"/>vel aliam rem possibilem amari: et verum significat 
+      <lb ed="#L" n="74"/>deum possibile intelligi. hic non connotatur existentia. 
+      <lb ed="#L" n="75"/>volitionis siue intellectionis. sed intellectio 
+      <lb ed="#L" n="76"/>siue volitio siue existat siue non. aliquando autem
+      conce<lb ed="#L" n="77" break="no"/>ptus significat vnum principaliter et connotat 
+      <lb ed="#L" n="78"/>existentiam siue comexistentiam alterius vel aliorum 
+      <lb ed="#L" n="79"/>siue paternitas significat hominem patrem et
+      com<lb ed="#L" n="80" break="no"/>notat coexistentiam fili
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1460">
+      ⁋ In primo casu potest pe 
+      <lb ed="#L" n="81"/>cipale significatum denominaria tali conceptu siue 
+      <lb ed="#L" n="82"/>connotatum sit siue non. In secundo casu non deno 
+      <lb ed="#L" n="83"/>minatur principale significatum a tali nisi
+      conno<lb ed="#L" n="84" break="no"/>atum sit in effectu.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1471">
+      ⁋ Ad aliud dico quod non ponitur 
+      <lb ed="#L" n="85"/>habitus propter delectationem plus quam propter tri 
+      <lb ed="#L" n="86"/>stitiam. Nullus eniam diceret quod habitus inclinans 
+      <lb ed="#L" n="87"/>ad odium alicuius inclinat delectabiliter. sed
+      tri<lb ed="#L" n="88" break="no"/>stabiliter. Unde dico quod quidam inclinat ad actum 
+      <lb ed="#L" n="89"/>cum delectatione consequente sicut habitus gene 
+      <lb ed="#L" n="90"/>ratus ex actibus diligendi. quidam inclinat ad  
+      <lb ed="#L" n="91"/>actum cum tristitia sicut habitus generatus ex acti 
+      <lb ed="#L" n="92"/>bus odiendi quadam inclinat ad actum neutrum vt 
+      <lb ed="#L" n="93"/>actus cognitiuus. nullus enim dubitabit qui
+      ha<lb ed="#L" n="94" break="no"/>bitus specificandi aliquid naturale et
+      naturali<lb ed="#L" n="95" break="no"/>ter inclinat ad actum sine omni delectatione et
+      tri<lb ed="#L" n="96" break="no"/>sticia in intellectu: licet tamen post sequatur dele 
+      <lb ed="#L" n="97"/>ctatio vel tristicia in appetitum mediante actu 
+      <lb ed="#L" n="98"/>diligendi et odiendi.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1504">
+      ⁋ Ad aliud dico quod non re 
+      <lb ed="#L" n="99"/>quiritur propter facilitatem vel promptitudinem 
+      <lb ed="#L" n="100"/>tamque principium actiuum tantum: sed propter
+      incli<lb ed="#L" n="101" break="no"/>nationem dicitur proprie principium actiuum. et
+      pro<lb ed="#L" n="102" break="no"/>pter hoc sequitur facilitatio et proptitudo: quia 
+      <lb ed="#L" n="103"/>magis inclinatur nunc quam prius. et ita principali 
+      <lb ed="#L" n="104"/>ter ponitur propter inclinationem secundario autem
+      pro<lb ed="#L" n="105" break="no"/>pter alia duo.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1522">
+      ⁋ Quando dicitur de triplici
+      incli<lb ed="#L" n="106" break="no"/>natione: dico quod non est inclinatiuus per modum 
+      <lb ed="#L" n="107"/>principii passiui sed tantum per modum princi 
+      <lb ed="#L" n="108"/>pii actiui. et in hoc differt a potentia naturali: 
+      <lb ed="#L" n="109"/>vt distinguitur contra violentum quia illa potentia est 
+      <lb ed="#L" n="110"/>principium passiuum. patet de graui. et ponamus 
+      <!--709.xml-->
+      <pb ed="#L" n="353-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod inclinaret per modum principii actiui et passiui 
+      <lb ed="#L" n="2"/>non tamen per modum neutrius. Ad aliud de
+      li<lb ed="#L" n="3" break="no"/>gno humido sicco et neutro dico quod humiditas 
+      <lb ed="#L" n="4"/>prohibet actionem caliditatis et siccitas est remo 
+      <lb ed="#L" n="5"/>uens prohibens et est dispositio. et ideo ibi et 
+      <lb ed="#L" n="6"/>in talibus vbi aliquid est indispositum. conce 
+      <lb ed="#L" n="7"/>do quod ibi requiritur necessario aliqua dispositio 
+      <lb ed="#L" n="8"/>remouens prohibens. et sic non est in intellectu 
+      <lb ed="#L" n="9"/>qui ibi non est dispositio prohibens actionem ideo 
+      <lb ed="#L" n="10"/>non est simile.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1564">
+      ⁋ Ad principale dico quod habitus eust 
+      <lb ed="#L" n="11"/>ausa secunda.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1569">
+      ⁋ Ad aliud de motu locali dico quod il 
+      <lb ed="#L" n="12"/>le habitus generatus in corpore per motum
+      lo<lb ed="#L" n="13" break="no"/>calem est absolutus et motus localis secundum prius
+      di<lb ed="#L" n="14" break="no"/>cta non dicit aliquid vltra res permanentes: ni 
+      <lb ed="#L" n="15"/>si tantum negationes et res permanentes
+      causan<lb ed="#L" n="16" break="no"/>tes istum motum etiam possunt poni substantie et 
+      <lb ed="#L" n="17"/>ideo ponitur minor perfectio in actu quam in
+      ha<lb ed="#L" n="18" break="no"/>bitu. Si queras a quo causatur ille habitus. 
+      <lb ed="#L" n="19"/>Respondeo eadem questio est a quo causatur
+      ca<lb ed="#L" n="20" break="no"/>lor genitus per motum localem: quia ab eodem
+      princi<lb ed="#L" n="21" break="no"/>pio generatur vnum et aliud etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2228-d1e1593">
+      ⁋ Ad aliud scilicet 
+      <lb ed="#L" n="22"/>de sessore et gratia: dico quod illud est verum quo ad  
+      <lb ed="#L" n="23"/>acceptationem divinam. Unde gratia et caritas idem 
+      <lb ed="#L" n="24"/>sunt omnino vt nunc suppono. Et impossibile est 
+      <lb ed="#L" n="25"/>quod aliquis actus meritorius eliceretur a
+      qua<lb ed="#L" n="26" break="no"/>cunque virtute naturali vel supernaturali nisi 
+      <lb ed="#L" n="27"/>concurrente caritate sicut causa partiali secun 
+      <lb ed="#L" n="28"/>da actus meritorii: quantum ad substantiam illius 
+      <lb ed="#L" n="29"/>actus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

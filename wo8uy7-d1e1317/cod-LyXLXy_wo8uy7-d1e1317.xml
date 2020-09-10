@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="221-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1317"><!-- l1d26q3 -->
+            <head xml:id="wo8uy7-d1e1317-Hd1e108">Quaestio 3</head>
+            <p xml:id="wo8uy7-d1e1317-d1e111">
+               <lb ed="#L" n="11"/>Questio tertia. 
+      <lb ed="#L" n="12"/>Tertio quero. 
+      <lb ed="#L" n="13"/>Utrum omnes relationes diuine sint 
+      <lb ed="#L" n="14"/>constitutiue personarum diuinarum
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e122">
+      ⁋ Quod 
+      <lb ed="#L" n="15"/>non. quando constitutiua distinguuntur et constituta
+      di<lb ed="#L" n="16" break="no"/>stinguntur. et quot sunt costitutiua tot sunt
+      com<lb ed="#L" n="17" break="no"/>stituta. sed relationes sunt quattuor. igitur quattuor 
+      <lb ed="#L" n="18"/>erunt supposita. quod est manifeste falsum.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e133">
+      ⁋ Ad  
+      <lb ed="#L" n="19"/>oppositum. si non omnes essent constitutiue. hoc non 
+      <lb ed="#L" n="20"/>esset verum nisi de spiratione actiua. sed spiratio 
+      <lb ed="#L" n="21"/>actiua est constitutiua. quia quando aliqua sunt correlati 
+      <lb ed="#L" n="22"/>ua: qua ratione vnum est constitutiuum persone et
+      reli<lb ed="#L" n="23" break="no"/>quum. et spiratio passiua constituit. ergo et actiua. et 
+      <lb ed="#L" n="24"/>per consequens omnes constituunt.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e149">
+      ⁋ Ad questionem dicitur quod 
+      <lb ed="#L" n="25"/>non. et hoc specialiter de spiratione actiua quod non con 
+      <lb ed="#L" n="26"/>stituat. quia ipsa non est proprietas personalis. sed ha 
+      <lb ed="#L" n="27"/>bet magis rationem aduentitii et accidentis. et hoc quia 
+      <lb ed="#L" n="28"/>est persone iam constitute in esse persone per aliam proprie 
+      <lb ed="#L" n="29"/>tate. vt inter duas proprietates sit quidam ordo na 
+      <lb ed="#L" n="30"/>ture.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e166">
+      ⁋ Contra. illud quod dicit quod spiratio actiua 
+      <lb ed="#L" n="31"/>est quasi aduentitia persone iam constitute: et quod habet 
+      <lb ed="#L" n="32"/>rationem accidentis.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e173">
+      ⁋ Contra. quandocunque aliqua constituunt 
+      <lb ed="#L" n="33"/>per se vnum. nullum illorum habet rationem accidentis
+      re<lb ed="#L" n="34" break="no"/>spectu alterius. sed essentia patrnitas spiratio actiua 
+      <lb ed="#L" n="35"/>constituunt aliquod per se vnum. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e182">
+      ⁋ Confirmatur. si 
+      <lb ed="#L" n="36"/>spiratio actiua sit aduentitia persone constitute per 
+      <lb ed="#L" n="37"/>paternitatem. hoc non est nisi quia est aliquo modo
+      poste<lb ed="#L" n="38" break="no"/>rior paternitate. sed propter hoc non repugnat sibi quin 
+      <lb ed="#L" n="39"/>constituat. tum quia aliqua prioritate ipsamet spiratio 
+      <lb ed="#L" n="40"/>actiua est prior paternitate. et tamen ipsa paternitas
+      con<lb ed="#L" n="41" break="no"/>stituit.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e198">
+      ⁋ Tum quia anima intellectiua aduenit
+      constitu<lb ed="#L" n="42" break="no"/>to ex materia et forma alia in homine. et tamen constituit 
+      <lb ed="#L" n="43"/>cum ipsis hominem. et ratio est. quia anima intellectiua facit 
+      <lb ed="#L" n="44"/>per se vnum cum illa materia et forma. ergo eodem modo ex 
+      <lb ed="#L" n="45"/>quo spiratio actiua facit per se vnum et verius vnum 
+      <lb ed="#L" n="46"/>quam materia et forma quantumcunque aliquo modo adue 
+      <lb ed="#L" n="47"/>nerit vni constituto ex proprietate et essentia. tamen vere 
+      <lb ed="#L" n="48"/>constitueret vnum suppositum constitutum ex essentia 
+      <lb ed="#L" n="49"/>et paternitate et spiratione actiua. Ex quo patet quod non 
+      <lb ed="#L" n="50"/>esset concedendum quod adueniret persone constitute. sed  
+      <lb ed="#L" n="51"/>esset concedendum quod adueniret cuidam constituto. quod 
+      <lb ed="#L" n="52"/>constitutum vna cum spiratione actiua constituit
+      perso<lb ed="#L" n="53" break="no"/>nam.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e227">
+      ⁋ Ideo dico quod spiratio actiua non est
+      aduen<lb ed="#L" n="54" break="no"/>titia persone. non plus quam essentia vel paternitas. Sed di 
+      <!--444.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 221-r -->
+               <lb ed="#L" n="55"/>stinguo de constitutiuo quia dupliciter accipitur. Uno 
+      <lb ed="#L" n="56"/>modo pro omni illo quod est de essentia et quidditate ali 
+      <lb ed="#L" n="57"/>cuius. ita quod ipsum sine illo esse non posset. Secundo modo 
+      <lb ed="#L" n="58"/>accipitur constitutiuum alicuius magis stricte pro illo 
+      <lb ed="#L" n="59"/>quod est de essentia alicuius distinguens ipsum ab onni 
+      <lb ed="#L" n="60"/>alio. Primo dico quod spiratio actiua est
+      constitu<lb ed="#L" n="61" break="no"/>tiua. sicut paternitas et essentia. Secundo modo non 
+      <lb ed="#L" n="62"/>Nec tamen propter hoc sequitur quod sit aduentitia. sicut 
+      <lb ed="#L" n="63"/>nec essentia est aduentitia persone. quamuis non sit illo 
+      <lb ed="#L" n="64"/>modo constitutiua. Primum ondo. quia supra ostensum est 
+      <lb ed="#L" n="65"/>quod suppositum est illud quod est ens completum non 
+      <lb ed="#L" n="66"/>constituens aliquod ens per se vnum nec natum alteri in 
+      <lb ed="#L" n="67"/>herere nec ab aliquo alio sustentari. Sed
+      accipi<lb ed="#L" n="68" break="no"/>endo praecise vnum constitutum ex essentia et paternitate illi 
+      <lb ed="#L" n="69"/>non plus conuenit illa descriptio quam essentie divine. ergo 
+      <lb ed="#L" n="70"/>illud non plus est suppositum quam essentia diuina. grgo 
+      <lb ed="#L" n="71"/>ipsum cum aliquo constituit suppositum. sed non potest 
+      <lb ed="#L" n="72"/>constituere suppositum cum alio nisi cum spiratione 
+      <lb ed="#L" n="73"/>actiua. ergo etc. Assumptum patet. quia tale costitutum ex 
+      <lb ed="#L" n="74"/>essentia et paternitate constituit per se vnum cum spiratione 
+      <lb ed="#L" n="75"/>actiua. quia totum constitutum ex illo constituto et spira 
+      <lb ed="#L" n="76"/>tione actiua non est vnum per accidens. ergo est per se vnum. 
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e286">
+               <lb ed="#L" n="77"/>⁋ Confirmatur quia maior est identitas vel
+      conuenien<lb ed="#L" n="78" break="no"/>tia illius constituti ad spirationem actiuam quam materie 
+      <lb ed="#L" n="79"/>ad formam. ergo verius facient per se vnum quam materia et 
+      <lb ed="#L" n="80"/>forma. Similiter non est aliqua ratio quin ita per se vnum
+      pos<lb ed="#L" n="81" break="no"/>sint facere constitutum ex paternitate et essentia et spi 
+      <lb ed="#L" n="82"/>ratione actiua. sicut essentia et paternitas. ergo ex eis 
+      <lb ed="#L" n="83"/>vere et per se vnum constituetur.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e305">
+      ⁋ Preterea tanta est
+      conue<lb ed="#L" n="84" break="no"/>nientia substantialis inter paternitatem et spirationem. quanta est 
+      <lb ed="#L" n="85"/>inter essentiam et paternitatem. ergo quae ratione essentia et paterni 
+      <lb ed="#L" n="86"/>tas costituunt per se vnum. et spiratio et paternitas con 
+      <lb ed="#L" n="87"/>stituent per se vnum. et non tantum vnum per accidens. immo
+      ma<lb ed="#L" n="88" break="no"/>gis vel eque aduenit paternitas essentie sicut spiratio 
+      <lb ed="#L" n="89"/>actiua costituto ex essentia et paternitate. et ita 
+      <lb ed="#L" n="90"/>posset dici aduentitia. et per consequens dicemmus quod essentia 
+      <lb ed="#L" n="91"/>sola esset suppositum. et quod omnes relationes sunt
+      aduemn<lb ed="#L" n="92" break="no"/>titie. et habent rationes accidentium. Quod autem spiratio actis 
+      <lb ed="#L" n="93"/>ua non sit constitutiua secundo modo est manifestum. quia non est 
+      <lb ed="#L" n="94"/>propria. alieui persone sed est communis pluribus personis. scilicet patri et 
+      <lb ed="#L" n="95"/>filio.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e334">
+      ⁋ Dico ergo ad formam quaonis quod omns relationes 
+      <lb ed="#L" n="96"/>divine sunt constitutiue primo modo. sed tantum patrnitas filia 
+      <lb ed="#L" n="97"/>tio et processio sunt constitutiue secundo modo. et non spiratio 
+      <lb ed="#L" n="98"/>acto. Si dicatur contrsi praedcam quod vnius constituti est tantum vnum 
+      <lb ed="#L" n="99"/>constitutiuum. et prnitas est constitutiua patris. ergo non
+      spi<lb ed="#L" n="100" break="no"/>ratio actio Pretereastricte sumpto constituto illud 
+      <lb ed="#L" n="101"/>constitutiuum est vltimum in constituto. sed prnitas non est 
+      <lb ed="#L" n="102"/>vltia in constituto. ergo non est constitutiua illo modo
+      praedi<lb ed="#L" n="103" break="no"/>cto. quod est negatum.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e354">
+      ⁋ Preterea posito quod pater no
+      spi<lb ed="#L" n="104" break="no"/>ret. adhuc esset suppositum. sic dictum est prius quod
+      po<lb ed="#L" n="105" break="no"/>sito quod filius non spiret posset distingui personaliter
+      a<lb ed="#L" n="106" break="no"/>spiritus sanco. sed circumscripto aliquo constitutiuo
+      alicu<lb ed="#L" n="107" break="no"/>ius suppositi non remanet ipsum suppositum. ergo 
+      <lb ed="#L" n="108"/>spiratio activa non est constitutiua patris. ergo etc. 
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e367">
+               <lb ed="#L" n="109"/>⁋ Ad primum illorum dico quod non est inconueniens  
+      <!--445.xml-->
+      <pb ed="#L" n="221-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>plura esse constitutiua alicuius vnius. immo vniversali 
+      <lb ed="#L" n="2"/>quandocumque est aliquod constitutum. oportet tunc quod sint ibi 
+      <lb ed="#L" n="3"/>aliqua quae non sunt eadem realiter. Unde in compositis 
+      <lb ed="#L" n="4"/>semper sunt plura constitutiua.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e387">
+      ⁋ Ad secundum dico quod 
+      <lb ed="#L" n="5"/>constitutiuum secundo modo dictum est vltimum secundum 
+      <lb ed="#L" n="6"/>naturam. ita quod non est posterius natura ipso. et isto 
+      <lb ed="#L" n="7"/>modo spiratio acto non est posterior paternitate na 
+      <lb ed="#L" n="8"/>tura. nececonuerso. De alia prioritate et posterio 
+      <lb ed="#L" n="9"/>ritate non oportet semper vniversaliter. Unde etiam aliquo ordine 
+      <lb ed="#L" n="10"/>paternitas est posterior spiratione. sicut est alias dictum 
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e403">
+               <lb ed="#L" n="11"/>⁋ Ad tertium dico quod circumscripta spiratione
+      acti<lb ed="#L" n="12" break="no"/>ua non remanet suppositum. hoc est illud quod est ib in 
+      <lb ed="#L" n="13"/>praeter spirationem actiuam non est formaliter suppositum 
+      <lb ed="#L" n="14"/>tamen distingu tur realiter a spiritus sancto et filio. Ex ista 
+      <lb ed="#L" n="15"/>tamen positione sequeretur quod spiratio actiua non esset 
+      <lb ed="#L" n="16"/>tunc constitutiua patris nec etiam aduentitia sibi. et ideo 
+      <lb ed="#L" n="17"/>non plus probat argumentum quod non sit constitutiua 
+      <lb ed="#L" n="18"/>quam quod non sit aduentitia. Et quod dictum est prius de 
+      <lb ed="#L" n="19"/>filio est verum. quia posito quod filius non spiraret tunc 
+      <lb ed="#L" n="20"/>esset dicendum quod non constitueretur spiratione actiua 
+      <lb ed="#L" n="21"/>et ita poneretur oppositum positi. et ideo contrario 
+      <lb ed="#L" n="22"/>posito esset hoc negandum. Et idem argumentum 
+      <lb ed="#L" n="23"/>posset fieri posito quod pater non generet sed spiret 
+      <lb ed="#L" n="24"/>tunc distingueretur realiter a spiritus sancto et esset
+      sup<lb ed="#L" n="25" break="no"/>positum distinctum.
+    </p>
+            <p xml:id="wo8uy7-d1e1317-d1e439">
+      ⁋ Ad argumentum principale 
+      <lb ed="#L" n="26"/>dico quod si spiratio actio esset distincta realiter a 
+      <lb ed="#L" n="27"/>pofernitate et filiatione sequeretur quod essent. iiii.
+      suppo<lb ed="#L" n="28" break="no"/>sita sed non sunt distincte realiter. et ideo sicut essentia 
+      <lb ed="#L" n="29"/>non constituit suppositum distinctum. ita nec spiratio 
+      <lb ed="#L" n="30"/>actio. quia sicut essentia est eadem remliter cum omnibus
+      rela<lb ed="#L" n="31" break="no"/>tionibus. ita spiratio actio est eadem realiter cum pater 
+      <lb ed="#L" n="32"/>nitate et filiatione et ideo non constituit distinctum 
+      <lb ed="#L" n="33"/>ab eis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

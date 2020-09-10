@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="122-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e464"><!-- l1d3q3 -->
+            <head xml:id="wo8uy7-d1e464-Hd1e108">Quaestio 3</head>
+            <p xml:id="wo8uy7-d1e464-d1e111">
+      Questio tertia. 
+      <lb ed="#L" n="87"/>UTrum de deo possi 
+      <lb ed="#L" n="88"/>mus habere plures conceprus quidditatiuos
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e118">
+               <lb ed="#L" n="89"/>Quod non. quia eiusdem rei simpliqu non 
+      <lb ed="#L" n="90"/>possunt esse plures conceptus
+      quidditati<lb ed="#L" n="91" break="no"/>ui. sed deus est res simplicissima. ergo etc. minor patr 
+      <lb ed="#L" n="92"/>Maiorem probo. quia conceptus est similitudo rei. se 
+      <lb ed="#L" n="93"/>eiusdem rei simplicis non possunt esse multe
+      similitudi<lb ed="#L" n="94" break="no"/>nes. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e134">
+      ⁋ Ad oppositum. omnis conceptus indicans 
+      <lb ed="#L" n="95"/>substantiam dei est simpliciter quidditatiuus. sed secundum
+      augusti<lb ed="#L" n="96" break="no"/>num. patet de trini. deus dicitur sapiens. bonus iustus. secundum 
+      <lb ed="#L" n="97"/>ubstantiam. sicut dicitur spiritus secundum substantiam. ergo omns 
+      <lb ed="#L" n="98"/>isti conceptus sunt quidditatiui.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e145">
+      ⁋ Ad quauestione 
+      <lb ed="#L" n="99"/>videtur esse opinio quod de deo non potest haberi nisi vnus 
+      <lb ed="#L" n="100"/>conceptus quidditatiuus. et alii conceptus sunt de 
+      <lb ed="#L" n="101"/>nominatiui hoc potest persuaderi.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e155">
+      ⁋ Quia omne commune 
+      <lb ed="#L" n="102"/>ad multa si praedicatur de vno denominatiue praedicabi 
+      <lb ed="#L" n="103"/>tur de reliquo denominatiue. sed sapiens est vnum 
+      <lb ed="#L" n="104"/>commune ad deum et creaturam. et predicatur de creatur 
+      <lb ed="#L" n="105"/>denominatiue ergo et de deo.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e166">
+      ⁋ Sed ista opinio non est 
+      <lb ed="#L" n="106"/>vera. cuius ratio est. quia omnis conceptus non connotatiuus est 
+      <lb ed="#L" n="107"/>quidditatiuus respectu illorum a quibus
+      immedia<lb ed="#L" n="108" break="no"/>te abstrahitur. sed conceptus sapientie immediate 
+      <lb ed="#L" n="109"/>abstrahitur a deitate et a sapientia creata. ergo est quiddi 
+      <!--247.xml-->
+      <pb ed="#L" n="122-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tatiuus respectu vtriusque. maior est manifesta 
+      <lb ed="#L" n="2"/>qui non est maior ratio quod sit quidditatiuus respectu 
+      <lb ed="#L" n="3"/>vnius quam respectu alterius.  Minor etiam probatur. 
+      <lb ed="#L" n="4"/>qui sapientia dicit conceptum communem deo a creaturis 
+      <lb ed="#L" n="5"/>ergo immediate abstrahitur ab aliquo alio quam a cre 
+      <lb ed="#L" n="6"/>atura. et non nisi a deo. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e197">
+      ⁋ Ideo dico quod respe 
+      <lb ed="#L" n="7"/>ctu dei possunt esse pies conceptus quidditatiur 
+      <lb ed="#L" n="8"/>non tamen erunt plures conceptus quidditatiur 
+      <lb ed="#L" n="9"/>conuertibiles. Primum dico quod omnis ille conceptus est 
+      <lb ed="#L" n="10"/>quidditatiuus respectu alicuius quae primo supponit 
+      <lb ed="#L" n="11"/>pro ipsa quidditate. et non pro aliquo alio subiecto vel 
+      <lb ed="#L" n="12"/>denominato ab illa quidditate. sed in ista deus est 
+      <lb ed="#L" n="13"/>sapientia. supponit sapientia pro ipsa deitate que non est 
+      <lb ed="#L" n="14"/>subiectum. nec quocumque modo denominatur ab
+      ali<lb ed="#L" n="15" break="no"/>quo principaliter significato per sapientiam. ergo etc. quia 
+      <lb ed="#L" n="16"/>omnis conceptus qui praecise expremit illud idem quod 
+      <lb ed="#L" n="17"/>exprimit alius conceptus quidditatiuus. et non
+      di<lb ed="#L" n="18" break="no"/>uerso modo gramaticali vel logicali est conce 
+      <lb ed="#L" n="19"/>tus quidditatiuus. quia non est maior ratio quod iste conce 
+      <lb ed="#L" n="20"/>ceptus sit quidditatiuus quam ille. sed conceptus sapientie 
+      <lb ed="#L" n="21"/>a parte dei praecise exprimit illud quod exprimit con 
+      <lb ed="#L" n="22"/>ceptus entis. et non habet diuersum modum
+      grama<lb ed="#L" n="23" break="no"/>ticalem nec logicalem patet inductiue. ergo vtrque 
+      <lb ed="#L" n="24"/>istorum est quidditatiuus. vel neuter. et non neuter. 
+      <lb ed="#L" n="25"/>patet. ergo vterque.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e241">
+      ⁋ Secundum patet quia illi conceptus 
+      <lb ed="#L" n="26"/>qui praecise idem exprimunt quant um ad quodlibet 
+      <lb ed="#L" n="27"/>contentum. et sub eodem modo gramaticali et
+      lo<lb ed="#L" n="28" break="no"/>gicali sunt eiusdem rationis. sed quidditatiui conceptus 
+      <lb ed="#L" n="29"/>conuertibiles si ponantur. idem expriment quantum ad  
+      <lb ed="#L" n="30"/>omne contentum. et cum eodem modo gramaticali 
+      <lb ed="#L" n="31"/>et logicali. quia sunt quidditatiui. ergo sunt conceptus 
+      <lb ed="#L" n="32"/>eiusdem rationis. et per consequens sunt vnus conceptus. Ista 
+      <lb ed="#L" n="33"/>procedit de conceptibus respectu rei simplicis cu 
+      <lb ed="#L" n="34"/>iusmodi est deus. quia de re composita propter
+      di<lb ed="#L" n="35" break="no"/>uersitatem partium possunt formari diuersi
+      conce<lb ed="#L" n="36" break="no"/>ceptus couertibiles. qui erunt quidditatiui respe 
+      <lb ed="#L" n="37"/>ctu partium et aliquo modo quidditatiui respectu 
+      <lb ed="#L" n="38"/>totius pro quanto praedicabuntur de toto per se primo modo. 
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e272">
+               <lb ed="#L" n="39"/>⁋ Sed hic sunt aliqua dubia. Primum. quis istorum 
+      <lb ed="#L" n="40"/>conceptuum quidditatiuorum sit simplicior et per 
+      <lb ed="#L" n="41"/>fectior. Utrum scilicet conceptus entis vel aliquis 
+      <lb ed="#L" n="42"/>alius.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e283">
+      ⁋ secundum dubium est quia videtur quod possunt ess 
+      <lb ed="#L" n="43"/>plures conceptus quidditatiui conuetribiles re 
+      <lb ed="#L" n="44"/>pectu dei et simplices.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e291">
+      ⁋ Quia conceptus veri 
+      <lb ed="#L" n="45"/>boni et entis sunt conuertibiles et sunt simplices 
+      <lb ed="#L" n="46"/>et quidditatiui respectu dei. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e298">
+      ⁋ Preterea quem 
+      <lb ed="#L" n="47"/>cumque ordinem reale haberent aliqua si essent
+      disti<lb ed="#L" n="48" break="no"/>cta realiter. eundem habent vbi distinguuntur ratione 
+      <lb ed="#L" n="49"/>sed si essentia diuina et intellectus diuinus et 
+      <lb ed="#L" n="50"/>bonitas diuina distinguerentur realiter. istorum 
+      <lb ed="#L" n="51"/>essent distincti conceptus ordinati et essent
+      con<lb ed="#L" n="52" break="no"/>uertibiles. ergo vbi ista distinguuntur ratione 
+      <lb ed="#L" n="53"/>habebunt consimilem distinctione et consimilem 
+      <lb ed="#L" n="54"/>ordinem. et tamen erunt simplices et conuertibiles et quid 
+      <lb ed="#L" n="55"/>ditatiui per dicta.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e320">
+      ⁋ Ad primum istorum dicitur quod conceptus 
+      <!--247.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 122-v -->
+               <lb ed="#L" n="56"/>perfectior simul et simplicior nobis possibilis est 
+      <lb ed="#L" n="57"/>conceptus entis infiniti. Ille enim est simplicior 
+      <lb ed="#L" n="58"/>quam conceptus entis boni. entis veri. vel aliquorum 
+      <lb ed="#L" n="59"/>similium. quia infinitum non est quasi attributum vel 
+      <lb ed="#L" n="60"/>passio entis. siue eius de quo dicitur. sed dicit modum 
+      <lb ed="#L" n="61"/>intrinsecum illius entis. ita quod cum dico infinitum 
+      <lb ed="#L" n="62"/>ens. non habeo conceptum quasi per accidens ex subie 
+      <lb ed="#L" n="63"/>cto et passione. sed conceptum per se subiecti in
+      cer<lb ed="#L" n="64" break="no"/>to gradu perfectionis scilicet infinitatis. sicut albedo 
+      <lb ed="#L" n="65"/>intesa non dicit conceptum per accidens sicut albe 
+      <lb ed="#L" n="66"/>do visibilis. immo intensio dicit gradum intrin 
+      <lb ed="#L" n="67"/>secum albedinis in se. ita patet simplicitas huius
+      com<lb ed="#L" n="68" break="no"/>ceptus entis infiniti.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e357">
+      ⁋ Probatur perfectio huiu 
+      <lb ed="#L" n="69"/>conceptus multipliciter. tamen quia ille conceptus inter omnes 
+      <lb ed="#L" n="70"/>a nobis conceptibiles virtualiter plura includit. Sed 
+      <lb ed="#L" n="71"/>cut enim ens includit virutualiter verum et bonum in se 
+      <lb ed="#L" n="72"/>ita ens infinitum includit verum infinitum. bonum 
+      <lb ed="#L" n="73"/>infinitum. et omnem perfectionem simpliciter sub ratione infe 
+      <lb ed="#L" n="74"/>niti.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e373">
+      ⁋ Tum quia demonstratione quia. vltimo concludit 
+      <lb ed="#L" n="75"/>esse de ente infinito. illa autem sunt perfectiora que 
+      <lb ed="#L" n="76"/>vltimo cognoscuntur demonstratione quia ex creatu 
+      <lb ed="#L" n="77"/>ris. quia propter eorum remotionem a creaturis difficil 
+      <lb ed="#L" n="78"/>limum est ea ex creaturis concludere.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e384">
+      ⁋ Contra istum 
+      <lb ed="#L" n="79"/>modum dicendi ostendo quod conceptus entis
+      infini<lb ed="#L" n="80" break="no"/>ti non sit formaliter in se perfectior conceptus omni conce 
+      <lb ed="#L" n="81"/>ptu possibili haberi de deo. quia nullus conceptus 
+      <lb ed="#L" n="82"/>negatiuus est formaliter perfectior conceptu
+      positi<lb ed="#L" n="83" break="no"/>uo sed conceptus entis infiniti est includens
+      vl<lb ed="#L" n="84" break="no"/>tra conceptum entis aliquid negatiuum. ergo etc. Maior 
+      <lb ed="#L" n="85"/>patet.  Minor probatur. quia iste conceptus ens
+      infi<lb ed="#L" n="86" break="no"/>nitum est compositus. quia si esset simplex cum sit quiddi 
+      <lb ed="#L" n="87"/>tatiuus. ex quo conceptus entis est quidditatiuus: 
+      <lb ed="#L" n="88"/>aliquis conceptus simplex quidditatiuus esset conuer 
+      <lb ed="#L" n="89"/>tibilis cum deo. quod isti negant ergo non est simplex 
+      <lb ed="#L" n="90"/>ergo est compositus. Tunc quero de secundo conceptu 
+      <lb ed="#L" n="91"/>partiali. aut est conceptus negatiuus. aut
+      positi<lb ed="#L" n="92" break="no"/>uus. si negatiuus haber propositum. si positiuus. et non est 
+      <lb ed="#L" n="93"/>conceptus compositus. patet inductiue. quia non possunt 
+      <lb ed="#L" n="94"/>dari conceptus partiales ex quibus componatur. ergo est 
+      <lb ed="#L" n="95"/>simplex. et est conuertibilis certum est cum deo. quia 
+      <lb ed="#L" n="96"/>nihil aliud a deo est infinitum. ergo aliquis conceptus 
+      <lb ed="#L" n="97"/>simplex proprius deo at positiuus esset nobis
+      possi<lb ed="#L" n="98" break="no"/>bilis. quod ipsi negant.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e431">
+      ⁋ Preterea si ens
+      infini<lb ed="#L" n="99" break="no"/>tum dicit conceptum perfectiorem quam ens summum. vel 
+      <lb ed="#L" n="100"/>ens summum bonum. aut hoc est ratione entis. et hoc non est 
+      <lb ed="#L" n="101"/>possibile. quia idem est vtrobique. aut ratione infiniti. 
+      <lb ed="#L" n="102"/>et hoc non. quia non dicit nisi negationem.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e442">
+      ⁋ Preterea 
+      <lb ed="#L" n="103"/>quod dicit quod est conceptus simplicior. non est verum. 
+      <lb ed="#L" n="104"/>qui conceptus compositus ex conceptu positiuo et noe 
+      <lb ed="#L" n="105"/>gatiuo non est simplicior conceptum composito ex 
+      <lb ed="#L" n="106"/>duobus positiuis. sed iste componitur ex conceptu 
+      <lb ed="#L" n="107"/>positiuo et negatiuo. ergo etc. Preterea quod dicit quod 
+      <lb ed="#L" n="108"/>infinitum non est quasi passio nec attributum dei 
+      <lb ed="#L" n="109"/>sicut bonum verum etc. Contra. quia omne quod
+      demoi<lb ed="#L" n="110" break="no"/>stratur de aliquo quod non praedicatur de eo primo mo 
+      <!--248.xml-->
+      <pb ed="#L" n="123-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>do dicendi per se. est passio illius. sed infinitum 
+      <lb ed="#L" n="2"/>est huiusmodi respectu dei. quia nihil negatiuum vel 
+      <lb ed="#L" n="3"/>includens negationem praedicatur de positiuo per se 
+      <lb ed="#L" n="4"/>primo modo. ergo infinitum est passio illius. ergo
+      infini<lb ed="#L" n="5" break="no"/>tum est passio dei. sicut esse immortale
+      incorru<lb ed="#L" n="6" break="no"/>partibile et huiusmodi.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e481">
+      ⁋ Ex isto patet quod infinitum non 
+      <lb ed="#L" n="7"/>dicit gradum intrinsecum per se et primo. sed magis ex 
+      <lb ed="#L" n="8"/>consequenti. Ideo potest dici quod inter conceptus quid 
+      <lb ed="#L" n="9"/>ditatiuos dei simplices. ponendo quod conceptus in 
+      <lb ed="#L" n="10"/>ferior sit aliquo modo perfectior conceptu magis 
+      <lb ed="#L" n="11"/>ommuni. sicut ille conceptus qui est praecise communis deo a 
+      <lb ed="#L" n="12"/>maxime perfectioni. et minus communis vel eque communis 
+      <lb ed="#L" n="13"/>cum minimo communi est perfectior formaliter. illo modo quo 
+      <lb ed="#L" n="14"/>est maior perfectio vel minor inter conceptus. tamen 
+      <lb ed="#L" n="15"/>inter conceptus non quidditatiuos proprios. ille qui 
+      <lb ed="#L" n="16"/>componitur ex conceptu entis et tali conceptu per 
+      <lb ed="#L" n="17"/>fectissimo simplici. vel ex secundo conceptu minus 
+      <lb ed="#L" n="18"/>communi perfectiori erit perfectior. tamen totalis compositus 
+      <lb ed="#L" n="19"/>ex omnibus erit per fectissimus. sed inter conceptus 
+      <lb ed="#L" n="20"/>non quidditatiuos. totaliter saltem conceptus entur
+      in<lb ed="#L" n="21" break="no"/>finiti expressius significat maximam perfectionem 
+      <lb ed="#L" n="22"/>esse deo.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e518">
+      ⁋ Ad primam rationem aliorum dico quod conce 
+      <lb ed="#L" n="23"/>ptus entis infiniti non est simplicior. Et quando dicitur 
+      <lb ed="#L" n="24"/>quod infinitum non est attributum nec passio eius de 
+      <lb ed="#L" n="25"/>quo dicitur. Dico quod est passio non illud quod est infi 
+      <lb ed="#L" n="26"/>nitum. quia illud est diuina essentia. sed iste conce 
+      <lb ed="#L" n="27"/>ptus infinitum est passio et demonstrabilis de deo. 
+      <lb ed="#L" n="28"/>secundum sic ponentes. quamuis non secundum veritatem nisi forte 
+      <lb ed="#L" n="29"/>a posteriori.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e536">
+      ⁋ Ad aliud quod non concludit illo
+      mo<lb ed="#L" n="30" break="no"/>do quo isti imaginantur. sed bene infert ista et for 
+      <lb ed="#L" n="31"/>malius vel eminentius quo ad nos. sed ex hoc no 
+      <lb ed="#L" n="32"/>sequitur quod sit perfectior.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e545">
+      ⁋ Ad tertiam quod non omnia illa 
+      <lb ed="#L" n="33"/>que concluduntur de aliquo demonstatione quia: sunt 
+      <lb ed="#L" n="34"/>perfectiora. quia negationes aliquando posterius conclu 
+      <lb ed="#L" n="35"/>duntur.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e555">
+      ⁋ Ad secundum dubium dico quod eiusdem rei possunt 
+      <lb ed="#L" n="36"/>esse plures conceptus simplices denominatm. et 
+      <lb ed="#L" n="37"/>hoc propter diuersitatem connotatorum. sed
+      quiddi<lb ed="#L" n="38" break="no"/>tatiui simplices non possunt esse plures.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e564">
+      ⁋ Ad pro 
+      <lb ed="#L" n="39"/>bationem dico quod quicquid sit de vero: bonum dupli 
+      <lb ed="#L" n="40"/>citer accipitur. Uno modo secundum quod est connotati 
+      <lb ed="#L" n="41"/>uum. Alio modo secundum quod est perfectio secunda. vel ali 
+      <lb ed="#L" n="42"/>qua res spaialis distincta contra sapientiam. et isto 
+      <lb ed="#L" n="43"/>modo non est conceptus quidditatiuus dei. Primo 
+      <lb ed="#L" n="44"/>modo potest esse conceptus quidditatiuus respe 
+      <lb ed="#L" n="45"/>ctu dei. Ita est de sapientia et dilectione. quod a
+      sapien<lb ed="#L" n="46" break="no"/>tia creata et a deitate potest abstrahi vnus con 
+      <lb ed="#L" n="47"/>ceptus praedicabilis in quid de vtraque. et erit
+      con<lb ed="#L" n="48" break="no"/>ceptus quidditatiuus. Similiter a dilectione creata et 
+      <lb ed="#L" n="49"/>a deitate potest abstrabi vnus alius conceptus 
+      <lb ed="#L" n="50"/>et erit praedicabilis in quid de. vtraque. et ita eiusdem 
+      <lb ed="#L" n="51"/>rei propter diuersitate rerum extrinsecarum possunt 
+      <lb ed="#L" n="52"/>esse plures conceptus quidditatiui et simplices. sed 
+      <lb ed="#L" n="53"/>non erunt conuertibiles. quia semper aliquid continetur 
+      <lb ed="#L" n="54"/>sub vno quod non sub alio.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e601">
+      ⁋ Ad secundum
+      argumen<lb ed="#L" n="55" break="no"/>tum propter idem conceditur quod de eodem possunt 
+      <!--248.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 123-r -->
+               <lb ed="#L" n="56"/>esse plures conceptus. sed vnus erit quidditatiuus 
+      <lb ed="#L" n="57"/>ex ceteri denominatiui. Unde dicitur sic. quod de deo pos 
+      <lb ed="#L" n="58"/>sunt esse plures conceptus. et quod illis potest
+      corresponde<lb ed="#L" n="59" break="no"/>re vna res quae potest virtualiter continere tales plures 
+      <lb ed="#L" n="60"/>conceptus. et per consequens de ipsa per intellectum actualiter 
+      <lb ed="#L" n="61"/>possunt explicari.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e625">
+      ⁋ Et si dicatur quod vna res habet 
+      <lb ed="#L" n="62"/>vnum conceptum adequatum. concedo vnum conceptum 
+      <lb ed="#L" n="63"/>quidditatiuum qui est ei omnino idem secundum se sed praeter 
+      <lb ed="#L" n="64"/>hunc potest virtualiter continere conceptus plures quasi 
+      <lb ed="#L" n="65"/>denominatiuos sicut ipsa essentia ex natura rei
+      ver<lb ed="#L" n="66" break="no"/>tualiter continet plures vel multas proprietates con 
+      <lb ed="#L" n="67"/>sequentes ipsam. si possent distingui realiter ab ip 
+      <lb ed="#L" n="68"/>sa. ita essentia ista potest virutualiter continere plures 
+      <lb ed="#L" n="69"/>conceptus quasi denominatiuos qui possunt ab in 
+      <lb ed="#L" n="70"/>tellectu distingui a conceptu quidditatiuo et hoc 
+      <lb ed="#L" n="71"/>praecipue si illi conceptus sint tantum distincti secundum
+      re<lb ed="#L" n="72" break="no"/>lationes rationis mutuo se respicientes. Ex istis ver 
+      <lb ed="#L" n="73"/>bis patet quod iste concedit quod de deo possunt esse plures 
+      <lb ed="#L" n="74"/>conceptus. scilicet conceptus quidditatiuus et plures 
+      <lb ed="#L" n="75"/>denominatiui. etiam posito quod in deo nulla esset
+      disti<lb ed="#L" n="76" break="no"/>ctio ex natura rei correspondens illis distinctis conce 
+      <lb ed="#L" n="77"/>pertibus. quia dicit quod distinguerentur per relationes ratio 
+      <lb ed="#L" n="78"/>nis mutuo se respicientes. Unde immediate subiecdit in 
+      <lb ed="#L" n="79"/>nuens potet istum modum alium modum distinguendi tales 
+      <lb ed="#L" n="80"/>conceptus. scilicet per distinctionem ex natura rei correspon 
+      <lb ed="#L" n="81"/>dentem. quam ponit inter diuina attributa dicens 
+      <lb ed="#L" n="82"/>sic. Nforte tamen posset poni aliqua distinctio maior 
+      <lb ed="#L" n="83"/>illorum conceptuum quam per relationes rationis mutuas 
+      <lb ed="#L" n="84"/>et adhuc possent virtualiter contineri in illa essentia 
+      <lb ed="#L" n="85"/>et per intellectum actualiter explicari. sed de hoc alias 
+      <lb ed="#L" n="86"/>sicut ipsemet promittit dicetur in quaone de attribu 
+      <lb ed="#L" n="87"/>tis
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e684">
+      ⁋ Ex quo patet secundum eum quod eiusdem rei simplid possunt 
+      <lb ed="#L" n="88"/>esse distincti conceptus scilicet quidditatiuus et deno 
+      <lb ed="#L" n="89"/>minatiuus. et sine omni distinctione a parte rei. et per
+      di<lb ed="#L" n="90" break="no"/>stinctionem formalem a parte rei. et sine reali
+      distin<lb ed="#L" n="91" break="no"/>ctione.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e695">
+      ⁋ Patet etiam quod vult ponere quod isti conce 
+      <lb ed="#L" n="92"/>ptus erunt conuertibiles sine distinctone reali 
+      <lb ed="#L" n="93"/>extrinseca correspondente. tamen quia ponit quod conceptus 
+      <lb ed="#L" n="94"/>quidditatiuus adequatus est tantum vnus non sic deno 
+      <lb ed="#L" n="95"/>minatiui. sed certe sicut declaratum est conceptus 
+      <lb ed="#L" n="96"/>quidditatiui non conuertibiles possunt esse plures etiam 
+      <lb ed="#L" n="97"/>secundum eum. ergo intelligit de conuertibilibus.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e712">
+      ⁋ Similiter ratio 
+      <lb ed="#L" n="98"/>sua probat quod tales conceptus conuertibiles sine
+      di<lb ed="#L" n="99" break="no"/>stinctione extrinseca possunt esse plures. si enim 
+      <lb ed="#L" n="100"/>ista distinguerentur realiter natura immaterialis 
+      <lb ed="#L" n="101"/>perfecta. intellectus perfectus. actus intelligendi. 
+      <lb ed="#L" n="102"/>obiectum primarium. de istis possent formari conce 
+      <lb ed="#L" n="103"/>ptus plures et conuertibiles. et sine distinctone 
+      <lb ed="#L" n="104"/>extrinseca correspondente. ergo eodem modo per rationem 
+      <lb ed="#L" n="105"/>suam. vbi ista distinguuntur sola ratione. possent for 
+      <lb ed="#L" n="106"/>mari plures conceptus et conuertibiles. etiam si 
+      <lb ed="#L" n="107"/>ne distinctione extrinseca correspondente. Similiter 
+      <lb ed="#L" n="108"/>dicit quod tales plures conceptus possunt explicari pre 
+      <lb ed="#L" n="109"/>cipue si sint distincti per relationes rationis mutuo 
+      <lb ed="#L" n="110"/>se respicientes. sed si requirerent aliquam distinctio 
+      <!--249.xml-->
+      <pb ed="#L" n="123-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nem extrinsecam. non distinguerentur per relationes 
+      <lb ed="#L" n="2"/>rationis mutuo se respicientes. sed per relationes ratio 
+      <lb ed="#L" n="3"/>nis illa extrinseca respicientes secundum eum. Et ita patet 
+      <lb ed="#L" n="4"/>quod non intelligit de talibus. esse creatiuum. esse 
+      <lb ed="#L" n="5"/>beatificatiuum. esse gubernatiuum. et sic de aliis. 
+      <lb ed="#L" n="6"/>quia isti sunt plures et denominatiui et
+      conuertibi<lb ed="#L" n="7" break="no"/>les. sed secundum istum non distinguuntur nisi secundum
+      relatio<lb ed="#L" n="8" break="no"/>nes rationis ad diuersas creaturas. sicut dicitur
+      crea<lb ed="#L" n="9" break="no"/>tiuus inquantum potest omnem creaturam de nihilo pro 
+      <lb ed="#L" n="10"/>ducere. beatificatiuus inquantum potest nature 
+      <lb ed="#L" n="11"/>intellectuali dare vitam eternam. et sic de aliis im 
+      <lb ed="#L" n="12"/>portantibus secundum eum tantum respectum rationis
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e775">
+      ⁋ Sed 
+      <lb ed="#L" n="13"/>istud non est verum. quod enim de eadem re simplici sine 
+      <lb ed="#L" n="14"/>omni distinctione intrinseca et extrinseca
+      habe<lb ed="#L" n="15" break="no"/>antur plures conceptus. quorum vnus sit
+      quidditati<lb ed="#L" n="16" break="no"/>uus et alius denominatiuus est impossibile. quia sicut 
+      <lb ed="#L" n="17"/>dictum est conceptus est aliquid tale in esse obiectiuo 
+      <lb ed="#L" n="18"/>intelligibili quale est ipsa res extra. ita quod si posset 
+      <lb ed="#L" n="19"/>produci realiter sicut potest fingi intellectualiter esset 
+      <lb ed="#L" n="20"/>realiter simile rei singulari prius note. sed impossibile 
+      <lb ed="#L" n="21"/>est a parte rei respectu rei simplicis. inuenire duo 
+      <lb ed="#L" n="22"/>similia vni rei. ita quod neutrum sit simile nec possit esse 
+      <lb ed="#L" n="23"/>simile nisi illi rei vel alteri similium. quin equaliter vnum 
+      <lb ed="#L" n="24"/>illorum sit simile illi rei sicut alterum. Uerbi gratia si b. 
+      <lb ed="#L" n="25"/>et c. praecise possunt esse similia ipsi a. quod est simpliciter 
+      <lb ed="#L" n="26"/>simplex sine omni distinctione partium eiusdem rationis 
+      <lb ed="#L" n="27"/>et alterius rationis. et sine omni distinctione a parte 
+      <lb ed="#L" n="28"/>rei. neccesse est quod vtrumque illorum essentialiter assimiletur 
+      <lb ed="#L" n="29"/>ipsi. et hoc si vtrumque illorum sit eque simplex. ergo eodem 
+      <lb ed="#L" n="30"/>modo est de conceptibus. quod si sint duo conceptus 
+      <lb ed="#L" n="31"/>simpliciter simplices. et sint vnius et simplicis sine omni 
+      <lb ed="#L" n="32"/>distinctione correspondente necesse est quod vterque illorum 
+      <lb ed="#L" n="33"/>eque assimiletur sibi. et per consequens si vnus sit
+      quidditati<lb ed="#L" n="34" break="no"/>uus et reliquus. Nec est maior ratio de vno quam de 
+      <lb ed="#L" n="35"/>alio.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e827">
+      ⁋ Preterea quando tota quidditas rei et nihil ex 
+      <lb ed="#L" n="36"/>tra quidditatem rei exprimitur per aliquem conceptum 
+      <lb ed="#L" n="37"/>simpliciter absolutum qui nec est connotatiuus nec
+      re<lb ed="#L" n="38" break="no"/>spectiuus nec negatiuus. tunc ille conceptus est
+      quid<lb ed="#L" n="39" break="no"/>ditatiuus. quia nihil plus requiritur ad hoc quod aliquis 
+      <lb ed="#L" n="40"/>conceptus sit quidditatiuus. sed sic est in proposito per 
+      <lb ed="#L" n="41"/>positum. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e843">
+      ⁋ Si dicatur quod respicit idem. sed alio 
+      <lb ed="#L" n="42"/>modo. Contra quero de illo modo. non potest esse 
+      <lb ed="#L" n="43"/>a parte rei. quia tunc a parte rei esset aliqua non
+      iden<lb ed="#L" n="44" break="no"/>titas. ergo est tantum in intellectu. et tunc non erit nisi qui 
+      <lb ed="#L" n="45"/>dam conceptus. Et quero de illo sicut prius. et 
+      <lb ed="#L" n="46"/>erit processus in infinitum. vel dabitur quod ille conce 
+      <lb ed="#L" n="47"/>ptus sit quidditatiuus. et per consequens non facit alium
+      con<lb ed="#L" n="48" break="no"/>ceptum non quidditatiuum
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e861">
+      ⁋ Dico ergo ad rationem quod
+      posi<lb ed="#L" n="49" break="no"/>to quod maior esset vera. et quod talia distinguerentur. 
+      <lb ed="#L" n="50"/>Dico quod impossibile est habere tales conceptus
+      con<lb ed="#L" n="51" break="no"/>uertibiles non connotatiuos distinctorum. et ideo 
+      <lb ed="#L" n="52"/>nulla erit distinctio rationis. sicut nec est distictio 
+      <lb ed="#L" n="53"/>ex natura rei. et ita nullus ordo rationis. Et si
+      di<lb ed="#L" n="54" break="no"/>catur quod bonitas diuina secundum conceptum distinguitur 
+      <lb ed="#L" n="55"/>ab essentia diuina. Similiter hic sunt distincti conce¬ 
+      <!--249.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 123-v -->
+               <lb ed="#L" n="56"/>ptus intellectus diuinus et voluntas diuina. Dico 
+      <lb ed="#L" n="57"/>quod hic sunt distincti conceptus propter
+      distinctio<lb ed="#L" n="58" break="no"/>nem conceptuum partialium. qui vel sunt omnes
+      quid<lb ed="#L" n="59" break="no"/>ditatiui et eis correspondent res alique distincte. vel 
+      <lb ed="#L" n="60"/>sunt connotatiui connotantes res distinctas. Unde 
+      <lb ed="#L" n="61"/>dicendo intellectus diuinus et voluntas diuina. isti 
+      <lb ed="#L" n="62"/>conceptus totales sunt conuertibiles et conuenien 
+      <lb ed="#L" n="63"/>tes deo. et tamen isti conceptus partiales intellectus 
+      <lb ed="#L" n="64"/>est voluntas. vel habet aliqua distincta contenta 
+      <lb ed="#L" n="65"/>secundum ponentes potentias anime distingui realiter. 
+      <lb ed="#L" n="66"/>vel connotant res distinctas. puta actum intelli 
+      <lb ed="#L" n="67"/>gendi et actum volendi secundum vnam opinionem quae ponit 
+      <lb ed="#L" n="68"/>quod nulla est talis distinctio. nec rei nec rationis. 
+      <lb ed="#L" n="69"/>praeuia in anima ipsis actibus distinctis. sicut post 
+      <lb ed="#L" n="70"/>ostendetur.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e918">
+      ⁋ Ad argumentum prime opinionis dico 
+      <lb ed="#L" n="71"/>quod commune ad multa potest praedicari vel in con 
+      <lb ed="#L" n="72"/>creto vel in abstracto. si in abstracto. praedicabitur 
+      <lb ed="#L" n="73"/>de quolibet quidditatiue. et ideo sapientia praedicatur 
+      <lb ed="#L" n="74"/>in quid. et de sapientia increata et de creata. Si autem 
+      <lb ed="#L" n="75"/>praedicetur in concreto poterit praedicari de vno in quid  
+      <lb ed="#L" n="76"/>et de alio denominatiue. licet ex forma praedicandi non 
+      <lb ed="#L" n="77"/>sequatur ipsum praedicari in quid de quocumque Quare 
+      <lb ed="#L" n="78"/>autem praedicatur de vno in quid et de alio denomina 
+      <lb ed="#L" n="79"/>tiue. Ratio est quia vnum contentum habet aliquod  
+      <lb ed="#L" n="80"/>subiectum natum ab ipso denominari. Ab alio autem 
+      <lb ed="#L" n="81"/>contento non est natum aliquid denominari. Et ideo quando 
+      <lb ed="#L" n="82"/>praedicatur de vno praedicatur denominatiue. et de alio in 
+      <lb ed="#L" n="83"/>quid.
+    </p>
+            <p xml:id="wo8uy7-d1e464-d1e950">
+      ⁋ Ad principale patet quod eiusdem rei possunt 
+      <lb ed="#L" n="84"/>esse plures similitudines. vna imperfecta et commu 
+      <lb ed="#L" n="85"/>nis alicui cui prima similitudo non est communis. Ad 
+      <lb ed="#L" n="86"/>argumentum in oppositum. quia aut ibi ita exprimit 
+      <lb ed="#L" n="87"/>conceptus connotatiuos dici. sicut absolutos. ideo 
+      <lb ed="#L" n="88"/>dico quod omnia dicuntur secundum: substantiam. quia ipsa 
+      <lb ed="#L" n="89"/>substantia dei est illud de quo immediate et pri 
+      <lb ed="#L" n="90"/>mo dicuntur
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

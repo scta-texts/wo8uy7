@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="136-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e549"><!-- l1d3q10 -->
+            <head xml:id="wo8uy7-d1e549-Hd1e108">Quaestio 10</head>
+            <p xml:id="wo8uy7-d1e549-d1e111">
+      Questio decima 
+      <lb ed="#L" n="91"/>Ultimo circa ista 
+      <lb ed="#L" n="92"/>distinctionem quaero. Utrum creatura 
+      <lb ed="#L" n="93"/>rationalis sit ymago trinitatis. Quod non 
+      <lb ed="#L" n="94"/>quia tanta est distinctio in ymagine. 
+      <lb ed="#L" n="95"/>quantam est in illo cuius est ymago.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e124">
+      ⁋ Sed tres
+      pero<lb ed="#L" n="96" break="no"/>ne diuine realiter distinguntur. ergo in ymagine 
+      <lb ed="#L" n="97"/>sunt partes realiter distincte. sed creatura rationalis 
+      <lb ed="#L" n="98"/>est simplex. non habens partes realiter distinctas. ergo 
+      <lb ed="#L" n="99"/>non est ymago.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e135">
+      ⁋ Ad oppositum beatus Augustinus 
+      <lb ed="#L" n="100"/>ponit duas assignationes ymaginis. quarum 
+      <lb ed="#L" n="101"/>vtraque est propria creature rationali.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e142">
+      ⁋ Circa istan 
+      <lb ed="#L" n="102"/>quaestionem primo videndum est quo accipitur ymago 
+      <lb ed="#L" n="103"/>vmm quod inuenitur vel dicitur de vna creatura
+      re<lb ed="#L" n="104" break="no"/>spectu alterius. Secundo quo aliquid est ymago dei 
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e152">
+               <lb ed="#L" n="105"/>⁋ Circa primum dico quod ymago triplicitur accipitur 
+      <lb ed="#L" n="106"/>Uno modo strictissime. et sic ymago est substam 
+      <lb ed="#L" n="107"/>tia formata ab artifice. ad similitudinem alterius 
+      <lb ed="#L" n="108"/>secundum aliqua accidentia conformia et eiusdem speciei cum 
+      <lb ed="#L" n="109"/>accidentibus illius ad cuius similitudinem facit ipsum di¬ 
+      <!--276.xml-->
+      <pb ed="#L" n="137-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>stincte ab aliis in aliquibus accidentibus suis sibi 
+      <lb ed="#L" n="2"/>dissimilibus repraesentans. Uerbi gratia. quando lignum 
+      <lb ed="#L" n="3"/>formatur ad similitudinem herculis vt habeat
+      consimilen<lb ed="#L" n="4" break="no"/>figuram. qualem habet hercules et colores consimiles 
+      <lb ed="#L" n="5"/>eiusdem speciei. propter quae facit cognoscentem venire in 
+      <lb ed="#L" n="6"/>recordatione ipsius herculis. secundum quod est alius ab 
+      <lb ed="#L" n="7"/>aliis hominibus qui non habent consimilia accidentia. Et 
+      <lb ed="#L" n="8"/>isto modo ymago non est primo similitudo totius 
+      <lb ed="#L" n="9"/>sed est primo similitudo accidentis. quia accidentia sunt 
+      <lb ed="#L" n="10"/>eiusdem rationis in eis. sed substantia non est eiusdem 
+      <lb ed="#L" n="11"/>rationis. sed distincta specie. Unde hercules est 
+      <lb ed="#L" n="12"/>statua habent consimilia accidentia. sed non habent consimiles 
+      <lb ed="#L" n="13"/>substantias sec specie distinctas. Et sic accipien 
+      <lb ed="#L" n="14"/>do ymaginem. de ratione ymagis est quod fiat ad
+      imi<lb ed="#L" n="15" break="no"/>tationem illius cuius est ymago. hoc tamen non competit si 
+      <lb ed="#L" n="16"/>bi ex natura sua. sed tantum ex intentione agentui. quia 
+      <lb ed="#L" n="17"/>posset simpliciter fieri non ad imitationem ipsius. Alio 
+      <lb ed="#L" n="18"/>modo accipitur ymago pro tali formato siue fiat 
+      <lb ed="#L" n="19"/>ad imitationem alterius siue non. Tertio modo
+      acci<lb ed="#L" n="20" break="no"/>pitur pro omni vniuoce producto ab alio. quod secundum 
+      <lb ed="#L" n="21"/>rationem siue productonis producitur vt simile. et isto modo fili 
+      <lb ed="#L" n="22"/>us potest dici ymago patris.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e219">
+      ⁋ Circa primum
+      principa<lb ed="#L" n="23" break="no"/>le videndum est primo. in quo consistat ymago cre 
+      <lb ed="#L" n="24"/>ata. Secundo quo se habet ad trinitatem increatam
+      cu<lb ed="#L" n="25" break="no"/>ius est ymago.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e228">
+      ⁋ Quantum ad primum est opinio communis. 
+      <lb ed="#L" n="26"/>quod partes ymaginis sunt ipse potentie anime. ita quod 
+      <lb ed="#L" n="27"/>ymago consistit in menoria intelligentia et
+      volunta<lb ed="#L" n="28" break="no"/>te. vel saltem illa est euidentior assignatio ymagi 
+      <lb ed="#L" n="29"/>nis et non est in actibus secundis. saltem principaliter 
+      <lb ed="#L" n="30"/>hoc potest probari. quia vbi est maior consubstantiali 
+      <lb ed="#L" n="31"/>tas et maior perpetuitas et maior conformitas ibi 
+      <lb ed="#L" n="32"/>ponenda est ymago. sed in potentiis est maior con 
+      <lb ed="#L" n="33"/>substantialitas. quia siue sint accidentia siue non. imme 
+      <lb ed="#L" n="34"/>diatius se habent ad essentiam anime. Est etiam maior
+      per<lb ed="#L" n="35" break="no"/>petuitas. quia semper manent. non sicut actus nec
+      ha<lb ed="#L" n="36" break="no"/>bitus quicumque. Similiter est in eis maior conformitas 
+      <lb ed="#L" n="37"/>qui est ibi distinctio et ordo. sine productione de
+      po<lb ed="#L" n="38" break="no"/>tentia ad actum.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e259">
+      ⁋ Sed ista opinio non videtur esse 
+      <lb ed="#L" n="39"/>vera. quia non sunt in anima tales tres potentie. quia sicut 
+      <lb ed="#L" n="40"/>declarabitur in secundo nulla est distinctio praeuia in 
+      <lb ed="#L" n="41"/>ipsa substantia anime. ante distinctionem actuum secum 
+      <lb ed="#L" n="42"/>dorum productorum. ergo non sunt ibi talia tria qua 
+      <lb ed="#L" n="43"/>repntant diuinas personas.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e272">
+      ⁋ Preterea. quando aliquid 
+      <lb ed="#L" n="44"/>ponitur ymago alicuius propter distinctionem in yma 
+      <lb ed="#L" n="45"/>gine corresponden ter distinctioni in illo cuius est yma 
+      <lb ed="#L" n="46"/>go tanta debet esse distinctio inter partes ymagis
+      quanta<lb ed="#L" n="47" break="no"/>i illo cus ymago. sed inter personas diuinas est distinctio 
+      <lb ed="#L" n="48"/>realis. non inter potentias anime. ergo propter distinctionem
+      po<lb ed="#L" n="49" break="no"/>tentiarum non est ponenda in anima ymago.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e288">
+      ⁋ Ideo 
+      <lb ed="#L" n="50"/>dico aliter ad questionem. Primo enim quo anima vel 
+      <lb ed="#L" n="51"/>creatura rationalis plus dicitur vunu ago dei quam aliqua 
+      <lb ed="#L" n="52"/>aliacreatura. Secundo ratione cuius vel quorum est yma 
+      <lb ed="#L" n="53"/>go
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e300">
+      ⁋ Circa primum dico quod cum pateat ex predictis 
+      <lb ed="#L" n="54"/>quod ymago secundum quod inuenitur in creaturis dicitur propter 
+      <lb ed="#L" n="55"/>oformitatem alicuius eiusdem rationis in illo cuius est 
+      <!--276.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 137-r -->
+               <lb ed="#L" n="56"/>ymago. et in ymagine. quod natum est ducere in
+      re<lb ed="#L" n="57" break="no"/>cordationem illius cuius est ymago. illa creatura 
+      <lb ed="#L" n="58"/>maxime proprie dicetur ymago dei. quai habet aliquid 
+      <lb ed="#L" n="59"/>deo simillimum. ita quod est praecise commune vniuocum deos. 
+      <lb ed="#L" n="60"/>et illi creature. et quia creatura rationalis est
+      huiusmodi<lb ed="#L" n="61" break="no"/>ideo ipsa sola dicetur ymago dei. quod autem ipsa sola sit 
+      <lb ed="#L" n="62"/>talis. Patet. quia nihil est commune vniuocum deo a
+      cui<lb ed="#L" n="63" break="no"/>cumque creature. siue etiam sit proprie vniuocum. siue 
+      <lb ed="#L" n="64"/>non. quin potest competere creature rationali. Patet enim quod 
+      <lb ed="#L" n="65"/>entitas non dicitur vniuoce de deo a creatura
+      ir<lb ed="#L" n="66" break="no"/>rationali quaecumque tantum. sed etiam de creatura rationali. et 
+      <lb ed="#L" n="67"/>ita est vniversaliter de omnibus quae dicuntur secundum proprietatem. et 
+      <lb ed="#L" n="68"/>non tantum secundum similitudinem. et hoc loquendo de illis quae
+      con<lb ed="#L" n="69" break="no"/>notant aliquem effectum particularem. Patet enim quod sicut 
+      <lb ed="#L" n="70"/>forma. pulchritudo et bonitas. veritas.
+      causa<lb ed="#L" n="71" break="no"/>tiuum. perfectio. competunt deo et quibusdam creaturis 
+      <lb ed="#L" n="72"/>irrioionabilibus. ita competunt creaturis rationabilibus 
+      <lb ed="#L" n="73"/>multa autem conuenientia deo non tantum secundum similitudinem. 
+      <lb ed="#L" n="74"/>sed etiam secundum proprietatem. sunt praecise communia deo a crea 
+      <lb ed="#L" n="75"/>turis rationabilibus. sicut est esse intellectuale. posse in 
+      <lb ed="#L" n="76"/>telligere. posse velle. misericordia. iustitia.
+      sa<lb ed="#L" n="77" break="no"/>pientia. et sic de aliis multis. Et ideo sic creatura 
+      <lb ed="#L" n="78"/>rationalis maxime assimilatur deo. Unde si per impossibile 
+      <lb ed="#L" n="79"/>sapientia. verbum. dilectio. et huiusmodi essent accidentia 
+      <lb ed="#L" n="80"/>tam in deo quam in creaturis. tunc substantia rationalis creata 
+      <lb ed="#L" n="81"/>producta et formata secundum talia accidentia ad ymaginem 
+      <lb ed="#L" n="82"/>vel similitudinem dei. secundum sua accidentia. sicut modo a 
+      <lb ed="#L" n="83"/>tifex sormat statuam figura coloribus et ceteris ac 
+      <lb ed="#L" n="84"/>cidentibus ad similitudine herculis et accidentium her 
+      <lb ed="#L" n="85"/>culis. illa inquam substenta creata haberet accidentia 
+      <lb ed="#L" n="86"/>eiusdem rationis cum accidentibus dei. et ita vere esset 
+      <lb ed="#L" n="87"/>ymago ducens in recordationem dei. sicut modo
+      sta<lb ed="#L" n="88" break="no"/>tua ducit in recordationem herculis. Et ideo. quia 
+      <lb ed="#L" n="89"/>ita vere et eminentius et ita proprie deus est sapientia. 
+      <lb ed="#L" n="90"/>persona. verbum. dilectio. misericordia et veritas 
+      <lb ed="#L" n="91"/>et sic de aliis. sicut si ista essent accidentia in deo. et ita 
+      <lb ed="#L" n="92"/>vere sicut in creatura rationali sola. ideo creatura ratio 
+      <lb ed="#L" n="93"/>nalis sola potest dici aliquo modo ymago dei. quamuis 
+      <lb ed="#L" n="94"/>non ita perfecte: sicut si essent accidena tam in deo quam in 
+      <lb ed="#L" n="95"/>creatura.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e400">
+      ⁋ Circa secundum dico quod ymago dei imper 
+      <lb ed="#L" n="96"/>fecta et quasi radicaliter et originaliter consistit in ipsa 
+      <lb ed="#L" n="97"/>anima. secundum suam substectam. Uerutamen perfectio ymaginis 
+      <lb ed="#L" n="98"/>completiue consistit in ipsa substantia anime et duobus actibus 
+      <lb ed="#L" n="99"/>productis. Primum patet. quia secundum Augustinum. xiiii. de 
+      <lb ed="#L" n="100"/>trinitate. c. viii. eo est anima ymago dei. quo
+      ca<lb ed="#L" n="101" break="no"/>pax eius est. particepsque esse potest. ita quod de quocumque 
+      <lb ed="#L" n="102"/>verificatur hoc quod est capax dei. et posse eius esse parti 
+      <lb ed="#L" n="103"/>ceps. de eo verificatur ymago. ergo sicut hec est vera 
+      <lb ed="#L" n="104"/>anima secundum suam subsiectam est capax dei et potest esse particeps 
+      <lb ed="#L" n="105"/>eius. ita hec est vera. anima secundum suam subiectam est ymage 
+      <lb ed="#L" n="106"/>dei.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e426">
+      ⁋ Si dicatur quod anima non est capax dei nisi per 
+      <lb ed="#L" n="107"/>actus intelligendi et volendi. ergo nec est ymago dei. 
+      <lb ed="#L" n="108"/>nisi per actus tales.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e433">
+      ⁋ Respondeo quod per potest dicere
+      cir<lb ed="#L" n="109" break="no"/>cumstantias subiecti vel denominati tali denominatione 
+      <lb ed="#L" n="110"/>vel potest dicere circumstantiam connotati sine quo 
+      <!--277.xml-->
+      <pb ed="#L" n="137-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>non sic denominatur
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e449">
+      ⁋ Primo modo anima secundum suam substantiam 
+      <lb ed="#L" n="2"/>est capax dei et ymago eius. quia anima est illud quod 
+      <lb ed="#L" n="3"/>capit deum vel capere potest. Et ideo est vere ymago 
+      <lb ed="#L" n="4"/>secundum iuam substantiam. Secundo modo est capax dei et yma 
+      <lb ed="#L" n="5"/>go eius per actus suos. quia sine actibus non potest habere 
+      <lb ed="#L" n="6"/>deum. et ideo sine actibus vel in actu vel in
+      po<lb ed="#L" n="7" break="no"/>tentia non est capax dei. Secundum patet. quia illud quo 
+      <lb ed="#L" n="8"/>anima capax dei est. pertinet ad ymaginem perfectam 
+      <lb ed="#L" n="9"/>hoc est ad perfectionem ymaginis. sed actus
+      intelli<lb ed="#L" n="10" break="no"/>gendi et volendi sunt huiusmodi. ergo etc. hoc patet per beatum 
+      <lb ed="#L" n="11"/>Augustinum in quodam sermione dicentem quod si homo 
+      <lb ed="#L" n="12"/>seuasset in se bonum quod in illo creauit deus. id est 
+      <lb ed="#L" n="13"/>ymaginem suam semper laudaret deum etc. ergo secundum beatum 
+      <lb ed="#L" n="14"/>augustinum. creata fuit in homine ymago dei quam in 
+      <lb ed="#L" n="15"/>feruauit. hoc non potest intelligi de substantia anime. ergo intelli 
+      <lb ed="#L" n="16"/>git de aliquo accidente creato in anima. quod homo per 
+      <lb ed="#L" n="17"/>didit per pectatum. talis non potest dici nisi actus intelli 
+      <lb ed="#L" n="18"/>gendi. vel volendi. vel habitus. et si habitus
+      accidenta<lb ed="#L" n="19" break="no"/>les pertineant ad ymaginem. multomagis actus. ergo 
+      <lb ed="#L" n="20"/>etc.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e493">
+      ⁋ Preterea omnes ponunt ymaginem in tribus cont 
+      <lb ed="#L" n="21"/>stere habentibus ordinem originis inter se. sed
+      po<lb ed="#L" n="22" break="no"/>tentie non originantur nec ipsa substantia anime originatur. 
+      <lb ed="#L" n="23"/>ergo oportet ponere aliqua accidentia anime origiata pertinere 
+      <lb ed="#L" n="24"/>ad ymaginem. Ideo dico quod completa ratio
+      ymaginis<lb ed="#L" n="25" break="no"/>consistit in ipsa substantia anime et duobus actibus. scilicet actu 
+      <lb ed="#L" n="26"/>intelligendi. et volendi. et etiam potest consistere in ipse 
+      <lb ed="#L" n="27"/>substantia anime. et duobus habitibus correspondentibus ipsis 
+      <lb ed="#L" n="28"/>actibus. Et tunc loquendo de actibus
+      naturali<lb ed="#L" n="29" break="no"/>bus. iste est ordo quod sicut pater in divinis habet
+      fecundi<lb ed="#L" n="30" break="no"/>tatem ad producendum tam filium quam spiritus secantum. et communicat 
+      <lb ed="#L" n="31"/>filio fecuditatem producendi sprimscantum. ita ipsa substantia 
+      <lb ed="#L" n="32"/>anime est fecunda et productiua tam actus intelligendi 
+      <lb ed="#L" n="33"/>quam volendi. et producit primo actum intelligendi. qui 
+      <lb ed="#L" n="34"/>etiam est productiuus actus volendi. et tunc ille duo 
+      <lb ed="#L" n="35"/>causae scilicet substentia anime et actus intelligendi possunt producere 
+      <lb ed="#L" n="36"/>actum volendi. ita quod sicut filius in divinis est tantum ab 
+      <lb ed="#L" n="37"/>vno scilicet patre. et spiritus sanctus est a patre producente et a 
+      <lb ed="#L" n="38"/>filio producto. ita actus intelligendi est a sola substantia 
+      <lb ed="#L" n="39"/>anime. et actus volendi est a substantia anime et ab actu intelli 
+      <lb ed="#L" n="40"/>gendi producto. et sic ymago potest aliquo modo reprae 
+      <lb ed="#L" n="41"/>sentare distinctas personas. et ordinem ad originem 
+      <lb ed="#L" n="42"/>earum. Quod autem actus volendi sit effectiue ab actu 
+      <lb ed="#L" n="43"/>intelligendi. ostendo per illud commune verbum. quod omne
+      abso<lb ed="#L" n="44" break="no"/>lutum neccessario praesuppositum alteri: habet rationem cause in 
+      <lb ed="#L" n="45"/>aliquo genere causae. sed actus intelligendi neccessario tam 
+      <lb ed="#L" n="46"/>quam aliquid absolutum praesupponitur actui volendi. erg 
+      <lb ed="#L" n="47"/>habet rationem cause respectu illius.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e555">
+      ⁋ Sed circa predi 
+      <lb ed="#L" n="48"/>cta octurrunt aliqua dubia. Primum quod si illa esset re 
+      <lb ed="#L" n="49"/>quare creatura rationalis est ymago dei. et non alia 
+      <lb ed="#L" n="50"/>causa sequeretur quod ymago consisteret non tantum in tribus. se 
+      <lb ed="#L" n="51"/>etiam in pluribus. quia talia accidentia sunt in creatura 
+      <lb ed="#L" n="52"/>multa. sicut iustitia misericordia dilectio
+      voli<lb ed="#L" n="53" break="no"/>tio. scientia. intellectus. ars. prudentia. et sic de multis 
+      <lb ed="#L" n="54"/>aliis. ergo essent plres partes ymagis quam tres.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e573">
+      ⁋ Secundum 
+      <lb ed="#L" n="55"/>qui non videtur quod ymago quocuque modo dicta consistit 
+      <!--277.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 137-v -->
+               <lb ed="#L" n="56"/>precise in ipsa substantia anime. quia ymago necessario requi 
+      <lb ed="#L" n="57"/>ret diffinitionem aliquam. sed in ipsa substantia anime nulla 
+      <lb ed="#L" n="58"/>est distinctio. ergo nullo modo habet rationem ymaginis¬ 
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e591">
+               <lb ed="#L" n="59"/>⁋ Tertium. quia non videtur quod ymago consistat in ipsa 
+      <lb ed="#L" n="60"/>substantia anime et duobus actibus. quia inter partes
+      ymagini<lb ed="#L" n="61" break="no"/>debet esse consubstantialitas. sed inter substantiam anime et illos 
+      <lb ed="#L" n="62"/>actus. nulla est consubstantialitas.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e602">
+      ⁋ Preterea. non debui 
+      <lb ed="#L" n="63"/>esse maior distinctio inter partes ymaginis: quam inter 
+      <lb ed="#L" n="64"/>partes vestigii. sed iter partes vestigii non est dis 
+      <lb ed="#L" n="65"/>ctio realis. ergo nec inter partes ymaginis
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e611">
+      ⁋ Preterea 
+      <lb ed="#L" n="66"/>in actu primo et duobus actibus secundis consistit 
+      <lb ed="#L" n="67"/>vestigium secundum beatum Augustinum. vi. de trinitate 
+      <lb ed="#L" n="68"/>ca. vltimo. et est auctoritas allegata in praecedem 
+      <lb ed="#L" n="69"/>ti quaestione
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e622">
+      ⁋ Preterea. ymago dei est immorta 
+      <lb ed="#L" n="70"/>lis et incorruptibilis secundum Augustinum. xiiii. de tri. 
+      <lb ed="#L" n="71"/>ca iii. vbi dicit sic. Ea inuestiganda est in animo ho 
+      <lb ed="#L" n="72"/>minis. id est rationali siue intellectuali ymago creato 
+      <lb ed="#L" n="73"/>ris. quae immortaliter immortalitatis eius est
+      mensu<lb ed="#L" n="74" break="no"/>ra. sed isti actus secundi non sunt immortales. et
+      incor<lb ed="#L" n="75" break="no"/>ruptibiles. ergo non sunt partes ymaginis.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e639">
+      ⁋ Quan 
+      <lb ed="#L" n="76"/>tum dubium est. quia non videtur quod actus volendi sit ef 
+      <lb ed="#L" n="77"/>fectiue ab actu intelligendi. hoc probant aliqui 
+      <lb ed="#L" n="78"/>sic. notitia generata est accidens quoddam. cui non 
+      <lb ed="#L" n="79"/>communicatur secunditas producendi actum dilectionis 
+      <lb ed="#L" n="80"/>tale enim accidens non est natum esse formaliter intel 
+      <lb ed="#L" n="81"/>ligens vel volens. ergo memoria non communicat produ 
+      <lb ed="#L" n="82"/>cto illam fecunditate quam ipsa prius habuit. quia teon 
+      <lb ed="#L" n="83"/>communicat sibi naturam eandem sed aliam.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e659">
+      ⁋ Preterea.
+      Au<lb ed="#L" n="84" break="no"/>stinus. ix. de trini. ca. viii. verbum amore concipitur 
+      <lb ed="#L" n="85"/>ergo amor est causa effectiua verbi magis quam
+      econ<lb ed="#L" n="86" break="no"/>uerso.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e668">
+      ⁋ Quintum dubium est respectu cuius obiectum 
+      <lb ed="#L" n="87"/>sit ymago.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e673">
+      ⁋ Sextum quare in parte sensitiua non est 
+      <lb ed="#L" n="88"/>ymago.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e678">
+      ⁋ Ad primum dico quamuis sint tales
+      mul<lb ed="#L" n="89" break="no"/>ti actus et habitus. tamen omnia reducuntur ad duo gene 
+      <lb ed="#L" n="90"/>ra. et ideo ponitur ymago in duobus.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e685">
+      ⁋ Ad secundum di 
+      <lb ed="#L" n="91"/>co. quod ad perfectionem ymaginis requiritur aliqua
+      distin<lb ed="#L" n="92" break="no"/>ctio. tamen ad imperfectam ymaginem non requiritur: et tunc 
+      <lb ed="#L" n="93"/>ipsa substantia anime propter similitudine. quamuis longinquam. tamen 
+      <lb ed="#L" n="94"/>maiorem quam sit inter deum et quancumque creaturam irrationa 
+      <lb ed="#L" n="95"/>lem. est aliquo modo ymago diuine essentie. et etiam 
+      <lb ed="#L" n="96"/>aliquo modo personarum. quia quamuis sit distinctio realis 
+      <lb ed="#L" n="97"/>inter diuinas personas: tamen tanta est identitas inter 
+      <lb ed="#L" n="98"/>essentiam et personam quamuis ibi deficiat aliquas modus 
+      <lb ed="#L" n="99"/>identitatis. quanta est inter substantiam anime et substantiam anime. Nec 
+      <lb ed="#L" n="100"/>potest aliquo modo essentia diuina intelligi in se. non 
+      <lb ed="#L" n="101"/>intellecta persona diuina.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e712">
+      ⁋ Ideo si primo
+      intellige<lb ed="#L" n="102" break="no"/>retur diuina essentia. et postea intelligeretur ipsa substantia 
+      <lb ed="#L" n="103"/>anime. ipsa faceret aliquo modo recordari de essentia 
+      <lb ed="#L" n="104"/>diuina. et de personis diuinis.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e721">
+      ⁋ Et si dicatur quod semper bea 
+      <lb ed="#L" n="105"/>tus Augustinus expressit ymaginem per aliqua distincta 
+      <lb ed="#L" n="106"/>sicut ix. de trini.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e728">
+      ⁋ Per mentem notitiam et amorem. et ideo 
+      <lb ed="#L" n="107"/>deinceps per menoriam intelligentiam et voluntatem
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e733">
+      ⁋ Di 
+      <lb ed="#L" n="108"/>eo quod beatus Augustinus intendebat exprimere
+      yma<lb ed="#L" n="109" break="no"/>gine perfectam. tamen ad habendum aliquam
+      conformita<lb ed="#L" n="110" break="no"/>tem inter partes ymaginis. et diuinas personas. expressit 
+      <!--278.xml-->
+      <pb ed="#L" n="138-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cam per nomina significantia ipsam substantiam anime. quae ve 
+      <lb ed="#L" n="2"/>re praedicantur de ipsa substantia anime. connotando illos actus 
+      <lb ed="#L" n="3"/>secundos. Propter quod non erant nomina svnonima. 
+      <lb ed="#L" n="4"/>Et ideo. ix. de trini. assignat ymaginem per mentem. non 
+      <lb ed="#L" n="5"/>titiam et amorem. vbi per mente intelligit ipsam substectiam 
+      <lb ed="#L" n="6"/>anime. connotando verbum. quod est actus secundus
+      producibi<lb ed="#L" n="7" break="no"/>lis ab ipsa substantia anime. per amorem intelligit
+      ipsamean<lb ed="#L" n="8" break="no"/>dem substantiam anime connotando actum volendi
+      producibi<lb ed="#L" n="9" break="no"/>lem ab ipsa substantia anime et verbo producto. et sic im 
+      <lb ed="#L" n="10"/>telligit beatus Augus. ix. de trini. ca. iii. si aliqua substantia 
+      <lb ed="#L" n="11"/>est amor. non vtique corpus sed spiritus. Nec mens 
+      <lb ed="#L" n="12"/>corpus est sed spiritus. neque tamen anima et mens duo spiritus 
+      <lb ed="#L" n="13"/>sed vnus spiritus. nec essentie due. sed vna. et sequitur 
+      <lb ed="#L" n="14"/>hic quide duo relatiue adinuicem dicuntur. Unde 
+      <lb ed="#L" n="15"/>vult quod amans mens et amor important vnam substantiam 
+      <lb ed="#L" n="16"/>anime. quia tamen amans et amor relatiue. hoc est connota 
+      <lb ed="#L" n="17"/>tiue dicuntur adinuicem. ideo connotant aliquid aliud 
+      <lb ed="#L" n="18"/>quam mentem. eodem modo intelligit. ca. v. vbi probat quod 
+      <lb ed="#L" n="19"/>cognitio et amor non sunt in mente tanquam acciden 
+      <lb ed="#L" n="20"/>tia in suo subiecto. per hoc quod accidens non exce 
+      <lb ed="#L" n="21"/>dit suum subiectum. mens autem amore quo se amat 
+      <lb ed="#L" n="22"/>potest amare et aliud praeter se. Item non se solam
+      co<lb ed="#L" n="23" break="no"/>gnoscit mens sed et alia multa. ergo amor et
+      no<lb ed="#L" n="24" break="no"/>titia non sunt accidentia ipsius mentis. illud autem 
+      <lb ed="#L" n="25"/>argumentum non valeret de amore et cognitione 
+      <lb ed="#L" n="26"/>qui sunt actus eliciti. quia sicut hic color quae est in
+      cor<lb ed="#L" n="27" break="no"/>pore non potest esse alterius corporis. ita huiusmodi amo  
+      <lb ed="#L" n="28"/>quo mens amat se. non potest esse alterius. sed vno 
+      <lb ed="#L" n="29"/>alio amore amabitur. et eodem modo est de
+      cogn<lb ed="#L" n="30" break="no"/>tione. Intelligit ergo de amore et notitia ha 
+      <lb ed="#L" n="31"/>bituali. non quidem de habitibus acquisitis. sed de
+      ha<lb ed="#L" n="32" break="no"/>bitu qui est ipsa mens quae potest vocari habitus. quia 
+      <lb ed="#L" n="33"/>est principium actiuum cognitionis et amoris sui 
+      <lb ed="#L" n="34"/>ipsius. in tantum quod nisi esset impedimentum stati 
+      <lb ed="#L" n="35"/>cognosceret se. et ita propte et ita faciliter sicut ha 
+      <lb ed="#L" n="36"/>pnes habitum quemcunque respectu alicuius actus potest 
+      <lb ed="#L" n="37"/>illud cognoscere. et eodem modo posset se diligere. 
+      <lb ed="#L" n="38"/>et isto modo intelligendum est dictum beati Augustin 
+      <lb ed="#L" n="39"/>quo dicit. quod mens semper nouit se. semper diligit 
+      <lb ed="#L" n="40"/>se. et tamen non semper se cogitat. Si dicatur quod secundum
+      praedi<lb ed="#L" n="41" break="no"/>cta eadem esset assignatio ymaginis. quam ponit 
+      <lb ed="#L" n="42"/>Augus. ix. de trini. per mente notitiam et amorem. et 
+      <lb ed="#L" n="43"/>quam ponit postea per memoriam intelligentiam et vo 
+      <lb ed="#L" n="44"/>luntatem. et per consequens vna non esset euidentior alia. 
+      <lb ed="#L" n="45"/>cuius oppositu dicit. patet de trini. ca. iii. Ubi dicit 
+      <lb ed="#L" n="46"/>sic in nono scilicet libro ad ymaginem dei quod est
+      ho<lb ed="#L" n="47" break="no"/>mo secundum mentem: peruenit disputatio. et in ea trini 
+      <lb ed="#L" n="48"/>tas inuenitur mens et notitia qua se nouit et amor 
+      <lb ed="#L" n="49"/>quo se: et notitiam suam diligit. Et sequitur in. x. hoc 
+      <lb ed="#L" n="50"/>id est diligentius subtiliusque tractatum est atque ad  
+      <lb ed="#L" n="51"/>illud perductum: vt inueniretur in mente euidentior 
+      <lb ed="#L" n="52"/>trinitas. in memoria scilicet intelligentia et volunta 
+      <lb ed="#L" n="53"/>te.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e863">
+      ⁋ Respondeo quod iste due assignationes quae sunt 
+      <lb ed="#L" n="54"/>respectu eiusdem non differunt. nisi secundum nomina di 
+      <lb ed="#L" n="55"/>uersimode ea exprimentia. et sic secunda assignatio 
+      <!--278.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 138-r -->
+               <lb ed="#L" n="56"/>est aliquo modo euidentior quam prima. quia intentio 
+      <lb ed="#L" n="57"/>beati Augustini est inuestigare quo tres perso 
+      <lb ed="#L" n="58"/>ne possunt distingui inter se. et tamen esse vnus 
+      <lb ed="#L" n="59"/>deus. quia secundum vsum loquendi magis dicitur quod eadem 
+      <lb ed="#L" n="60"/>res est memoria intelligentia et voluntas. quam quod sit 
+      <lb ed="#L" n="61"/>eadem res mens amor et notitia. ideo quantum ad hoc est 
+      <lb ed="#L" n="62"/>euidentior. Quia euidentius est notum ista tria 
+      <lb ed="#L" n="63"/>praedicari de eadem re. quam illa que non omnino sunt
+      ea<lb ed="#L" n="64" break="no"/>dex. Aliter potest dici quod sicut patet ex processu 
+      <lb ed="#L" n="65"/>beati Augu. ipse in nono intendit de mente
+      noti<lb ed="#L" n="66" break="no"/>tia et amore respectu sui. Ubi quedam trinitas 
+      <lb ed="#L" n="67"/>est. non tamen est ymago ibi. vel non ita expressa sicut in 
+      <lb ed="#L" n="68"/>aliis. memoria aut intelligentia et voluntas sunt 
+      <lb ed="#L" n="69"/>respectu etiam dei. respectu cuius non tantum est
+      tri<lb ed="#L" n="70" break="no"/>nitas. sed etiam ymago. et ita est euidentior quantum 
+      <lb ed="#L" n="71"/>ad ymaginem.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e911">
+      ⁋ Ad tertium dico quod ymago complo 
+      <lb ed="#L" n="72"/>te consistit in substantia. et in actibus secundis 
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e917">
+               <lb ed="#L" n="73"/>⁋ Ad primum in contrarium dico quod inter partes reales 
+      <lb ed="#L" n="74"/>ymaginis non debet esse consubstantialitas. in hoc 
+      <lb ed="#L" n="75"/>enim deficit a trinitate personarum diuinarum inter 
+      <lb ed="#L" n="76"/>quas est consubstantialitas. sed ad intentionem 
+      <lb ed="#L" n="77"/>beati Augustini sufficit. quad illa que exprimunt 
+      <lb ed="#L" n="78"/>illas partes illo modo exprimant. quod possint de 
+      <lb ed="#L" n="79"/>eadem substantia praedicari. vt posset dici quod eadem 
+      <lb ed="#L" n="80"/>substantia est memoria intelligentia et voluntas. 
+      <lb ed="#L" n="81"/>que tamen connotant aliqua distincta. quia aliter non possent 
+      <lb ed="#L" n="82"/>relatiue dici ad inuicem. ita illa connotata non 
+      <lb ed="#L" n="83"/>sunt substantia anime.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e943">
+      ⁋ Ad secundum dico quod aliquando inter 
+      <lb ed="#L" n="84"/>partes vestigii est distinctio realis. sicut patet in 
+      <lb ed="#L" n="85"/>praecedenti questione. Similiter non est inconuenies. ali 
+      <lb ed="#L" n="86"/>quando quod sit maior distinctio realis in ymagine 
+      <lb ed="#L" n="87"/>quam in vestigio. quia distinctius representat.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e954">
+      ⁋ Ad  
+      <lb ed="#L" n="88"/>tertium dico quod vno modo vestigium est in plus quae 
+      <lb ed="#L" n="89"/>ymago. et isto modo loquitur Augustinus. vi. de 
+      <lb ed="#L" n="90"/>trinitate. vbi allegatur. Alio modo distinguitur contra 
+      <lb ed="#L" n="91"/>ymaginem. et sic ponit Augustinus vestigium in 
+      <lb ed="#L" n="92"/>anima et artibus doctrinis affectibus delecta 
+      <lb ed="#L" n="93"/>bilibus. non respectu dei. sed respectu aliorum 
+      <lb ed="#L" n="94"/>deo.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e972">
+      ⁋ Ad quartum dico quod ymago est immortalis 
+      <lb ed="#L" n="95"/>qui illa per quem exprimuntur partes ymaginis. neccessari 
+      <lb ed="#L" n="96"/>et semper praedicantur de ipsa anima. Unde hoc est vera semper 
+      <lb ed="#L" n="97"/>et neccessaria. anima est memoria intelligentia et
+      volun<lb ed="#L" n="98" break="no"/>tas. et iste modus loquendi est apd multos sanctos 
+      <lb ed="#L" n="99"/>et philosophos quod illud est immortale vel insitum neccessario 
+      <lb ed="#L" n="100"/>illi et huiusmodi quando talia nomina et conceptus necessario 
+      <lb ed="#L" n="101"/>praedicantur de illo. saltem si sint. et ita frequenter
+      ac<lb ed="#L" n="102" break="no"/>cipitur esse ibi pro praedicari. et ita concedo quod vario modo 
+      <lb ed="#L" n="103"/>accipit Augustinus memoriam intellectum et
+      volun<lb ed="#L" n="104" break="no"/>tatem. et eodem modo mentem notitiam et amorem. quando 
+      <lb ed="#L" n="105"/>dicit quod sunt vna substantia vel vnus spiritus
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e998">
+      ⁋ Et 
+      <lb ed="#L" n="106"/>quando dicit quod sunt multa quae relatiue dicuntur. et hoc 
+      <lb ed="#L" n="107"/>intelligendum est vt per plures propositiones intelligat 
+      <lb ed="#L" n="108"/>actum signatum. cui correspondent diuersi actus exer 
+      <lb ed="#L" n="109"/>citati ad modum quo prius dictum est in aliis.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e1009">
+      ⁋ Ad a 
+      <lb ed="#L" n="110"/>quartum dubium dico quod actus volendi est effectiue 
+      <!--278.xml-->
+      <pb ed="#L" n="138-r"/>
+               <cb ed="#L" n="c"/>
+               <!--279.xml-->
+               <pb ed="#L" n="138-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ab actu intelligendi. et quando dicitur quod est accidens quod 
+      <lb ed="#L" n="2"/>non est natum esse intelligens et volens. concedo. sed  
+      <lb ed="#L" n="3"/>ex hoc non sequitur quod non sit causa volitionis. quia secundum istoru 
+      <lb ed="#L" n="4"/>aliquid potest esse causa intellectionis et volitionis quod non 
+      <lb ed="#L" n="5"/>potest esse intelligens nec volens. quia obiectum est 
+      <lb ed="#L" n="6"/>tale. Similiter visibile est causa visionis secundum eos. et tamen 
+      <lb ed="#L" n="7"/>non est natum esse videns. ita est in proposito.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e1043">
+      ⁋ Ad  
+      <lb ed="#L" n="8"/>beatum Augustinum dico quod sicut patet ex processu. per 
+      <lb ed="#L" n="9"/>verbum intelligit notitiam complexam elicitam ex 
+      <lb ed="#L" n="10"/>habitu. et quantum ad illud verbum concurrit
+      volun<lb ed="#L" n="11" break="no"/>tas. quia sicut dictum est prius verbum complexum quod 
+      <lb ed="#L" n="12"/>est determinate affirmatiuum vel negatiuum. non 
+      <lb ed="#L" n="13"/>fit nisi mediante voluntate. respectu tamen illius 
+      <lb ed="#L" n="14"/>actus voluntatis est vna alia notitia. scilicet
+      incon<lb ed="#L" n="15" break="no"/>plexa termini vel terminorum quae est causa ipsius. 
+      <lb ed="#L" n="16"/>Similiter quando verbum haber habitualiter frequenter ad elici 
+      <lb ed="#L" n="17"/>endum ipsum distincte et perfecte et ad conseruandum 
+      <lb ed="#L" n="18"/>praecise concurrit voluntas. quia intelligimus cum
+      volu<lb ed="#L" n="19" break="no"/>mus quod est intelligendum post notitiam habitualem 
+      <lb ed="#L" n="20"/>acquisitam.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e1074">
+      ⁋ Ad quantum dico quod ymago est
+      propriissi<lb ed="#L" n="21" break="no"/>ne respectu dei vt obiecti. quia illi actus
+      cogno<lb ed="#L" n="22" break="no"/>scendi et volendi sunt similitudines dei. secundum beatum 
+      <lb ed="#L" n="23"/>Augustinum. ix. trinitur. Et ideo ponit beatus
+      Augu<lb ed="#L" n="24" break="no"/>stinus ymaginem trinitatem illam. quae est respectu el 
+      <lb ed="#L" n="25"/>norum. Et ideo alias trinitates non ponsit esse
+      yma<lb ed="#L" n="26" break="no"/>gines.
+    </p>
+            <p xml:id="wo8uy7-d1e549-d1e1090">
+      ⁋ Ad sextum dico quod ex parte sensitiua non 
+      <lb ed="#L" n="27"/>est ymago. quia habet aliquem actum respectu dei. 
+      <lb ed="#L" n="28"/>Ad argumentum principale patet quod nec in anima 
+      <lb ed="#L" n="29"/>nec in creatura rationali pure spirituali est distinctio 
+      <lb ed="#L" n="30"/>realis intrinseca et essentialis. est tamen ibi distin 
+      <lb ed="#L" n="31"/>ctio extrinseca et accidentalis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

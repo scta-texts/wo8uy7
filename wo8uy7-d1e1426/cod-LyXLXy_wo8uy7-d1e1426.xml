@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="235-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e1426"><!-- l1d30q2 -->
+            <head xml:id="wo8uy7-d1e1426-Hd1e108">Quaestio 2</head>
+            <p xml:id="wo8uy7-d1e1426-d1e111">
+      Questio secunda
+      <lb ed="#L" n="103"/>Secundo quero. 
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e116">
+               <lb ed="#L" n="104"/>⁋ Utrum per rationem naturalem probari possit 
+      <lb ed="#L" n="105"/>sex genera que ponuntur respectus
+      ex<lb ed="#L" n="106" break="no"/>trinsecus aduenientes importare aliquas res
+      quo<lb ed="#L" n="107" break="no"/>cumque modo distinctas a rebus absolutis.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e127">
+      ⁋ Quod sic 
+      <lb ed="#L" n="108"/>primo de actione et passione. quia impossibile 
+      <lb ed="#L" n="109"/>est transire de contradictorio in contradictorium 
+      <!--473.xml-->
+      <pb ed="#L" n="235-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sine omni mutatione. sed ignis producendo ignem de 
+      <lb ed="#L" n="2"/>aere in primo instanti in quo ignis generatur vere 
+      <lb ed="#L" n="3"/>ignis agit in materiam. et materia vere patitur
+      re<lb ed="#L" n="4" break="no"/>cipiendo formam ignis. et post illud instans nihil 
+      <lb ed="#L" n="5"/>patitur nec ignis agit. ergo est ibi aliqua mutatio. sed 
+      <lb ed="#L" n="6"/>nihil nouum acquiritur. ergo aliquod praecedens transit. sed  
+      <lb ed="#L" n="7"/>nihil ibi transit nisi actio et passio et non aliquid ab 
+      <lb ed="#L" n="8"/>solutum. ergo actio et passio sunt respectus distincti ab 
+      <lb ed="#L" n="9"/>omnibus absolutis
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e160">
+      ⁋ Item quod quando sit talis respectus 
+      <lb ed="#L" n="10"/>videtur. quia acceptis duobus indiuiduis eiusdem rationis 
+      <lb ed="#L" n="11"/>et in omnibus aliis similibus nisi quod vnum sit ante aliud. verum 
+      <lb ed="#L" n="12"/>est dicere quod vnum est antiqus alio. ergo habet aliquid quod 
+      <lb ed="#L" n="13"/>aliud non habet. et non nisi quando vel tantum respectum
+      impor<lb ed="#L" n="14" break="no"/>tatum per quando.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e174">
+      ⁋ Item de vbi arguo quod per motum
+      loca<lb ed="#L" n="15" break="no"/>lem vere vbi acquiritur. sed nullum absolutum acquiritur 
+      <lb ed="#L" n="16"/>per motum localem. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e181">
+      ⁋ Preterea de positione patet 
+      <lb ed="#L" n="17"/>quia sessio et statio vere isunt in re et non sunt idem realiter 
+      <lb ed="#L" n="18"/>ergo distinguuntur realiter. sed non sunt distincta absoluta 
+      <lb ed="#L" n="19"/>qui tunc quandocumque aliquod animal staret postquam sedit. vere 
+      <lb ed="#L" n="20"/>amitteret aliquod absolutum et aliquod acquireret. quod 
+      <lb ed="#L" n="21"/>est absurdum. ergo vere. sunt respectus reales distincti 
+      <lb ed="#L" n="22"/>ab absolutis.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e197">
+      ⁋ Item de habitum videtur quod aliquis dici 
+      <lb ed="#L" n="23"/>tur modo habere habitum quem prius non habuit. ergo aliquid  
+      <lb ed="#L" n="24"/>illi subiectiue acquiritur. et non nisi respectus. ergo etc. 
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e204">
+               <lb ed="#L" n="25"/>⁋ Ad oppositum. omnis res realiter distincta ab omni 
+      <lb ed="#L" n="26"/>alia re est vere res ad se et absoluta. quia abstracta 
+      <lb ed="#L" n="27"/>secundum quidditatem et essentiam suam ab omni alia re. ergo praeter 
+      <lb ed="#L" n="28"/>res absolutas nihil est in re.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e215">
+      ⁋ Ad. q. est. opinione quo 
+      <lb ed="#L" n="29"/>sicutrelationes de genere relationis sunt vere res 
+      <lb ed="#L" n="30"/>alie a rebus absolutis. ita etiam res aliorum generum 
+      <lb ed="#L" n="31"/>sunt vere res alie a rebus absolutis.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e224">
+      ⁋ Pro ista com 
+      <lb ed="#L" n="32"/>clusione communi potest argui sic in generali.
+      Impos<lb ed="#L" n="33" break="no"/>sibile est transire de contradictorio in
+      contradicto<lb ed="#L" n="34" break="no"/>rium sine omni mutatione vel productione vel corrupti 
+      <lb ed="#L" n="35"/>one. sed ita est in proposito quod aliquis potest fieri de non 
+      <lb ed="#L" n="36"/>agente agens et econuerso. et de non patiente patiens 
+      <lb ed="#L" n="37"/>et econuerso. et sic de aliis. ergo oportet quod hoc aliquid
+      acqui<lb ed="#L" n="38" break="no"/>ratur vel deperdatur. destruatur vel producatur et nullum 
+      <lb ed="#L" n="39"/>absolutum potest dari. ergo etc. Sed michi videtur quod ista 
+      <lb ed="#L" n="40"/>ratio et quaecumque alia non concludat tales res ponendas 
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e247">
+               <lb ed="#L" n="41"/>⁋ Ideo dico per rationem probari non potest quod aliquis talits 
+      <lb ed="#L" n="42"/>respectus qui sit res alia ab omnibus absolutis sit
+      po<lb ed="#L" n="43" break="no"/>nenda. Et hoc primo ostendam de actione et passione. 
+      <lb ed="#L" n="44"/>Primo quia tunc sequeretur: quod omne agens in agendo vere 
+      <lb ed="#L" n="45"/>mutaretur. quia vere reciperet rem subiectiue in seipo 
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e260">
+               <lb ed="#L" n="46"/>⁋ Secundo quia omnia possunt saluari sine talibus rebus. et 
+      <lb ed="#L" n="47"/>pluralitas non est ponenda sine necessitate. ergo non 
+      <lb ed="#L" n="48"/>sunt ponende. maior patet. quia ponendo praecise illud quod 
+      <lb ed="#L" n="49"/>est actiuum et effectum absolutum in passo ad praesentiam 
+      <lb ed="#L" n="50"/>actiui. ita quod amoto respectu ista ponantur. et quod 
+      <lb ed="#L" n="51"/>non poneretur effectus absolutus si actiuum non esset 
+      <lb ed="#L" n="52"/>praesens. habemus omnia que habere possumus per tales 
+      <lb ed="#L" n="53"/>res. tunc enim habemus quod hoc vere est agens. quia
+      ve<lb ed="#L" n="54" break="no"/>re est illud ad cuius praesentiam sequitur effectus
+      abso<lb ed="#L" n="55" break="no"/>lutus in passo Similiter illud vere est passum et aliud  
+      <!--473.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 235-v -->
+               <lb ed="#L" n="56"/>vere effectus. qui non esset nisi actiuum esset
+      appro<lb ed="#L" n="57" break="no"/>ximatum passiuo. ergo frustra ponuntur tales
+      respe<lb ed="#L" n="58" break="no"/>ctus.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e297">
+      ⁋ Si dicatur quod tales respectus consequantur 
+      <lb ed="#L" n="59"/>talia absoluta.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e302">
+      ⁋ Contra. nulla apparet ratio quaere 
+      <lb ed="#L" n="60"/>sit necesse eos consequi. et ita cum non sit experien 
+      <lb ed="#L" n="61"/>tia quod consequantur non debent consequi poni propter 
+      <lb ed="#L" n="62"/>rationem.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e311">
+      ⁋ Preterea. de quando probo idem. quia si sit talis re 
+      <lb ed="#L" n="63"/>spectus in isto quod habet quando. cum secundum omnes oportet pone 
+      <lb ed="#L" n="64"/>re terminum cuiuslibet respectus. quaero de termino 
+      <lb ed="#L" n="65"/>et videtur non posse poni nisi tempus. sed tempus
+      mul<lb ed="#L" n="66" break="no"/>torum talium est praeteritum. ergo non terminat talem rem rea 
+      <lb ed="#L" n="67"/>lem.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e324">
+      ⁋ Similiter mirum est quod ideo quia iste fuit heri oportet po 
+      <lb ed="#L" n="68"/>nere in isto aliquam rem quam non habuisset nisi
+      fuis<lb ed="#L" n="69" break="no"/>set heri.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e332">
+      ⁋ Similiter eadem ratione qua oportet ponere talem quia 
+      <lb ed="#L" n="70"/>fuit heri. eadem ratione oportet ponere talem: quia erit cras 
+      <lb ed="#L" n="71"/>quod est absurdum. tum quia tunc nullum esset futurum
+      com<lb ed="#L" n="72" break="no"/>tingens. probatio consequents. quia omnis propositio de inesse 
+      <lb ed="#L" n="73"/>de praesenti annuncians esse existere de aliqua re
+      sim<lb ed="#L" n="74" break="no"/>plici est determinate vera vel determinate falsa. 
+      <lb ed="#L" n="75"/>ita quod post illud instans in quo est determinate
+      ve<lb ed="#L" n="76" break="no"/>ra propositio de praeterito exprimens ipsam fuisse veram 
+      <lb ed="#L" n="77"/>est necessaria. sicut si hec sit semel vera. sortes 
+      <lb ed="#L" n="78"/>est. hoc erit postea neccessaria. sortes fuit. ita quod etiam 
+      <lb ed="#L" n="79"/>secundum theologos. deus non potest facere eam esse falsam 
+      <lb ed="#L" n="80"/>ergo si hec res quae est respectus ad diem crastinam sit
+      ve<lb ed="#L" n="81" break="no"/>ra res distincta ab omnibus aliis. ortet quod hec sit modo 
+      <lb ed="#L" n="82"/>vera determinate: vel determinate falsa. hec res 
+      <lb ed="#L" n="83"/>est. ita quod si sit vera. propositio de praeterito erit postea 
+      <lb ed="#L" n="84"/>necessaria. et si sit falsa propositio de praeterito pro illo 
+      <lb ed="#L" n="85"/>instanti erit impossibilis. sicut si hec modo sit falsa. 
+      <lb ed="#L" n="86"/>sortes est in a. hec erit postea impossibilis. sortes 
+      <lb ed="#L" n="87"/>fuit in a. vel hec erit necessaria. sortes non fuit in 
+      <lb ed="#L" n="88"/>a. Sed illud consequens est falsum. quia si hec sit determinate 
+      <lb ed="#L" n="89"/>vera. hec res est. tunc quero. aut necessario erit 
+      <lb ed="#L" n="90"/>cras aut non. si sic. habeo propositum quod nullum est ta 
+      <lb ed="#L" n="91"/>le futurum contingens. Si non. ergo potest non esse cras 
+      <lb ed="#L" n="92"/>onatur in esse. et non sequitur impossibile. sed sequitur 
+      <lb ed="#L" n="93"/>non erit cras. vel non erit tali die. puta a. sed illud  
+      <lb ed="#L" n="94"/>consequens est impossibile sicut probatum est. Si autem ista 
+      <lb ed="#L" n="95"/>hec res demonstrando tale quando. sit determinate sula. 
+      <lb ed="#L" n="96"/>ergo non potest esse cras propter idem argumentum.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e393">
+      ⁋
+      Pre<lb ed="#L" n="97" break="no"/>terea. de vbi de quo magis videtur ostendo quod non 
+      <lb ed="#L" n="98"/>sit talis respectus
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e400">
+      ⁋ Primo quia non esset ponedus 
+      <lb ed="#L" n="99"/>talis respectus nisi vt saluetur motus localis. quia 
+      <lb ed="#L" n="100"/>scilicet oporteret per omnem motum aliquid acquiri vel deper 
+      <lb ed="#L" n="101"/>di. Sed propter hoc non oportet ponere talem respe 
+      <lb ed="#L" n="102"/>ctum. quia celum vel vltia sphera mouetur localiter. et 
+      <lb ed="#L" n="103"/>nen nullum nouum vbi acquirit. quia non est aliquod corpus 
+      <lb ed="#L" n="104"/>circumscribens vltimam spheram: quod poterit esse
+      termi<lb ed="#L" n="105" break="no"/>nus illius respectus.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e418">
+      ⁋ Et si dicatur quod habet
+      diuer<lb ed="#L" n="106" break="no"/>sum respectum ad centrum. quia terra quiescit in
+      me<lb ed="#L" n="107" break="no"/>dio circa quam mouetur celum. Contra. ex isto
+      habe<lb ed="#L" n="108" break="no"/>tur propositum. quia motus localis potest esse sine acqui 
+      <lb ed="#L" n="109"/>sitione talis vbi. quia manifestum est quod celum non est 
+      <lb ed="#L" n="110"/>interra sicut in loco. ergo non est in tali vbi
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e431">
+      ⁋ Preterea 
+      <!--474.xml-->
+      <pb ed="#L" n="236-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in totum celum esset continuum cum contento. et esset
+      praeci<lb ed="#L" n="2" break="no"/>se vnum corpus sicut posset deus facere secundum ponen 
+      <lb ed="#L" n="3"/>tes tales respectus et secundum veritatem. adhuc posset 
+      <lb ed="#L" n="4"/>deus circulariter mouere totum corpus illud et tamen 
+      <lb ed="#L" n="5"/>tunc nihil quiesceret.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e451">
+      ⁋ Preterea si deus faceret vnum 
+      <lb ed="#L" n="6"/>corpus sine omni loco adhuc posset illud moue 
+      <lb ed="#L" n="7"/>ri. et tantum tunc nihil quiesceret nec esset ibi vbi. 
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e459">
+               <lb ed="#L" n="8"/>⁋ Preterea si vbi esset talis respectus. et eodem modo 
+      <lb ed="#L" n="9"/>partes celi haberent tales respectus ad centrum eadem 
+      <lb ed="#L" n="10"/>ratione quaelibet propinquitas et quaelibet distantia vnius 
+      <lb ed="#L" n="11"/>rei respectu alterius esset talis alia res. sed hoc est 
+      <lb ed="#L" n="12"/>manifeste falsum. quia si talis distantia sit alia res 
+      <lb ed="#L" n="13"/>sequeretur quod quandocumque aliquod corpus moueretur inferius 
+      <lb ed="#L" n="14"/>in qualibet re corporali et spirituali esset aliqua vera 
+      <lb ed="#L" n="15"/>res quae prius non fuit Similiter sequeretur quod in quolibet 
+      <lb ed="#L" n="16"/>angulo essent res infinite. quia in quolibet conti 
+      <lb ed="#L" n="17"/>nuo sunt partes infinite a quarum qualibet distat 
+      <lb ed="#L" n="18"/>angulus. ergo in illo angulo sunt distantie infinite Nec 
+      <lb ed="#L" n="19"/>potest dici quod angulus non habeat talem respectum
+      ni<lb ed="#L" n="20" break="no"/>si ad totum. et non distinctum ad quamlibet partem distin 
+      <lb ed="#L" n="21"/>ctam. quia angulus plus distat ab vna parte quam ab alia 
+      <lb ed="#L" n="22"/>ergo alius respectus
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e494">
+      ⁋ Preterea positis duobus corpori 
+      <lb ed="#L" n="23"/>bus. quacumque mutatione facta circa ipsa dummodo 
+      <lb ed="#L" n="24"/>non corrumpantur nec mutentur secundum locum. nec secundum se
+      to<lb ed="#L" n="25" break="no"/>ta nec secundum aliquam sui partem equaliter distabunt vel 
+      <lb ed="#L" n="26"/>approximabuntur. ergo destructis talibus respectibus 
+      <lb ed="#L" n="27"/>per possibile vel impossibile equalitur distabunt. ergo quod 
+      <lb ed="#L" n="28"/>distent vel non distent nihil facient aliquae res forma 
+      <lb ed="#L" n="29"/>liter existentes in eis. sed ideo distant quia inter ipsa
+      cor<lb ed="#L" n="30" break="no"/>pora est corpus medium. et secundum quod corpus medium est 
+      <lb ed="#L" n="31"/>maius vel minus secundum hoc plus vel minus distabunt. 
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e516">
+               <lb ed="#L" n="32"/>⁋ Ex isto eodem sequitur quod positio vel situs non 
+      <lb ed="#L" n="33"/>dicit aliquem talem respectu formaliter inherentem 
+      <lb ed="#L" n="34"/>toti vel partibus. quia sicut aliqua corpora non facientia 
+      <lb ed="#L" n="35"/>vnum possunt sine omni tali re distare. et vnum ab eodem 
+      <lb ed="#L" n="36"/>plus distare et aliud minus. et vnum esse propinquum et 
+      <lb ed="#L" n="37"/>aliud distans sine omni re addita. propter hoc quod 
+      <lb ed="#L" n="38"/>inter aliqua corpora est maius corpus medium. et inter 
+      <lb ed="#L" n="39"/>alia minus. et inter alia nullum. ita potest esse in positio 
+      <lb ed="#L" n="40"/>ne. quod propter hoc quod vna pars aliter distat ab alia 
+      <lb ed="#L" n="41"/>in vno tempore et alio. aliter et approximatur in vno tempore 
+      <lb ed="#L" n="42"/>et alio. ideo potest habere aliam et aliam positionem. non qui 
+      <lb ed="#L" n="43"/>dem aliquam rem formaliter aliam et aliam sine omni produ 
+      <lb ed="#L" n="44"/>ctione. quia aliquando dicitur sedere aliquando iacere. et sic 
+      <lb ed="#L" n="45"/>de aliis
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e549">
+      ⁋ Per idem patet quod non oportet ponere habi 
+      <lb ed="#L" n="46"/>tum importare rem. quia ex hoc solo dicitur aliquis
+      arma<lb ed="#L" n="47" break="no"/>tus vel calceatus et sic de aliis. quia talis habitus 
+      <lb ed="#L" n="48"/>vel res sibi modo applicatur et non prius. et ita non plus 
+      <lb ed="#L" n="49"/>oportet ponere quod habitus importat talem rem quam
+      pro<lb ed="#L" n="50" break="no"/>pinquitas vel distantia talem rem importat.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e562">
+      ⁋
+      Di<lb ed="#L" n="51" break="no"/>co ergo quantum ad istam questionem et praecedentem quod per 
+      <lb ed="#L" n="52"/>nullam rationem naturalem probari post quod sit aliqua res 
+      <lb ed="#L" n="53"/>ymaginabitur quae non sit absoluta. quia nec quod res
+      de<lb ed="#L" n="54" break="no"/>pendet ab alia. nec quod res neccessaria coexigit aliam. et 
+      <lb ed="#L" n="55"/>econuerso. nec quod alique res sint simul impedit 
+      <!--474.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 236-r -->
+               <lb ed="#L" n="56"/>quin res sit absoluta. Forte tamen magis tediosum 
+      <lb ed="#L" n="57"/>argumentum est ad soluendum de duabus partibus
+      con<lb ed="#L" n="58" break="no"/>tinui. quia si lignum primo continuum diuidatur in duas 
+      <lb ed="#L" n="59"/>partes. puta a et b. manifestum est vt videtur quod quantum 
+      <lb ed="#L" n="60"/>cunque postea approximentur. et nihil sit medium 
+      <lb ed="#L" n="61"/>inter eas. non sunt continue sicut prius. ex quo non 
+      <lb ed="#L" n="62"/>distant localiter quando sunt approximate post
+      diuisio<lb ed="#L" n="63" break="no"/>nem. et per consequens nullum corpus inter ea oportet
+      pone<lb ed="#L" n="64" break="no"/>re quod aliquam rem habeant quam prius non habuerunt. 
+      <lb ed="#L" n="65"/>vel aliquod deperdant. sed nec acquirunt nec deperdunt 
+      <lb ed="#L" n="66"/>aliquod absolutum propter diuisionem solum. ergo
+      respe<lb ed="#L" n="67" break="no"/>ctum aliquem.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e608">
+      ⁋ Istud argumentum posset faciliter 
+      <lb ed="#L" n="68"/>solui. si teneretur opinio quae tenet punctum et lineam 
+      <lb ed="#L" n="69"/>esse aliquas res absolutas distinctas a rebus 
+      <lb ed="#L" n="70"/>quarum sunt: quia tunc per diuisionem illis partibus
+      acqui<lb ed="#L" n="71" break="no"/>rerentur due linee vel due superficies vel duo
+      pun<lb ed="#L" n="72" break="no"/>cta. et cum de ratione continui sit quod vltima partium sua 
+      <lb ed="#L" n="73"/>rum sint vnum et non tantum simul. ideo quamdiu iste partes re 
+      <lb ed="#L" n="74"/>tinent ista distincta vltima non possunt facere 
+      <lb ed="#L" n="75"/>vnum continuum. et ideo secundum istam opinionem quod iste partes 
+      <lb ed="#L" n="76"/>non sunt continue non est propter respectus additos 
+      <lb ed="#L" n="77"/>vel dispositos. sed est propter absoluta aliqua quae modo 
+      <lb ed="#L" n="78"/>sunt in partibus et prius non fuerunt.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e635">
+      ⁋ Sed si ista opi 
+      <lb ed="#L" n="79"/>nio negetur. quia videtur multum rationi et principiis philosophi 
+      <lb ed="#L" n="80"/>repugnare. difficilius est soluere argumentum
+      prae<lb ed="#L" n="81" break="no"/>dictum. Unam tamen solutionem omitto ad presens. quia 
+      <lb ed="#L" n="82"/>non vidi illud factum a tenentibus contrariam opinio 
+      <lb ed="#L" n="83"/>nem. quamuis forte fecerunt et me lateat. sicut forte 
+      <lb ed="#L" n="84"/>multa dixi quae iam dicta sunt ab aliis quamuis nesciam 
+      <lb ed="#L" n="85"/>ea dicta ab eis
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e653">
+      ⁋ Ad argumentum generale pro 
+      <lb ed="#L" n="86"/>omnibus respectibus dicerent tenentes quod nullus sit
+      ta<lb ed="#L" n="87" break="no"/>lis respectus a parte rei. quod possibile est transire de 
+      <lb ed="#L" n="88"/>contradictorio in contradictorium. vel propter produ 
+      <lb ed="#L" n="89"/>ctionem vel destructionem alicuius in aliquo. vel pro 
+      <lb ed="#L" n="90"/>pter motum localem. vel etiam propter solam transitionem 
+      <lb ed="#L" n="91"/>temporis aliquin. et hoc vel actualem: puta si motus sit et 
+      <lb ed="#L" n="92"/>tempus. vel foret si tempus qui esset. et aliquis illorum 
+      <lb ed="#L" n="93"/>modorum est in proposito. Uerbi gratia quod aliquas de 
+      <lb ed="#L" n="94"/>non agente fiat agens est quia ad praesentiam agentis ad  
+      <lb ed="#L" n="95"/>passum sequitur effectus absolutus in passo. et ita so 
+      <lb ed="#L" n="96"/>lum proptur hoc quod est effectus in passo propter hoc quod agens 
+      <lb ed="#L" n="97"/>est hic. ideo modo dicitur agens et prius non. Et si dicatur 
+      <lb ed="#L" n="98"/>quod effectum esse in passo non dicit praecise effectum et 
+      <lb ed="#L" n="99"/>ipsum passum. quia tunc si passum esset hic et effectus 
+      <lb ed="#L" n="100"/>rome adhuc diceretur ille effectus esse in passo quod 
+      <lb ed="#L" n="101"/>est manifeste falsum. Similiter ista prasentia agentis 
+      <lb ed="#L" n="102"/>ad passum non dicit praecise agens et passum. quia tunc 
+      <lb ed="#L" n="103"/>semper agens esset praesens passo. ergo importat aliquid 
+      <lb ed="#L" n="104"/>aliud. et non nisi respectum. ergo tam effectum esse in passo 
+      <lb ed="#L" n="105"/>quam praesentia agentis ad passum important aliquid aliud 
+      <lb ed="#L" n="106"/>ab absolutis.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e701">
+      ⁋ Ad primum istorum dico quod sequens 
+      <lb ed="#L" n="107"/>rationem diceret. quod effectum esse in passo importat tam 
+      <lb ed="#L" n="108"/>effectum quam passum. et etiam quod inter effectum et passum 
+      <lb ed="#L" n="109"/>non est medium. vel quod non distent localiter. et ita non 
+      <lb ed="#L" n="110"/>important aliquam aliam rem. sed important istas et 
+      <!--475.xml-->
+      <pb ed="#L" n="236-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod non distent nec loco nec situ. Unde dicerent quod 
+      <lb ed="#L" n="2"/>impossibile est res esse et non distare aliquo mo 
+      <lb ed="#L" n="3"/>quin vna sit in alia. quia hoc non est aliud quam vnam re 
+      <lb ed="#L" n="4"/>esse in alia. Similiter ipsi forte dicerent. quod impossibile 
+      <lb ed="#L" n="5"/>est quod hoc passum sit in vno loco. et iste effectus 
+      <lb ed="#L" n="6"/>in alio. sicut dicerent. quod includit contradictionem 
+      <lb ed="#L" n="7"/>vnam formam substantialem siue accidentalem migrare de 
+      <lb ed="#L" n="8"/>subiecto in subiectum.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e736">
+      ⁋ Ad secundum dicerent quod
+      ve<lb ed="#L" n="9" break="no"/>rum est quod praesentia non importat praecise ista absoluta 
+      <lb ed="#L" n="10"/>sed importat ista absoluta. et cum hoc quod inter il 
+      <lb ed="#L" n="11"/>la nullum est corpus medium et ita non importat aliam 
+      <lb ed="#L" n="12"/>rem ab istis. sed importat ista duo absoluta. et quod ini 
+      <lb ed="#L" n="13"/>ista non sit aliqua res corporalis media absoluta 
+      <lb ed="#L" n="14"/>vel quod ab vno ad aliud non potest esse motus
+      loca<lb ed="#L" n="15" break="no"/>lis pro tunc. Nunc autem ex ista negatiua non est ib 
+      <lb ed="#L" n="16"/>corpus medium. non possum inferre istam
+      affirma<lb ed="#L" n="17" break="no"/>tiuam. ergo est ibi aliqua res positiua praeter illa abso 
+      <lb ed="#L" n="18"/>luta. sicut non sequitur. nihil est medium inter contra 
+      <lb ed="#L" n="19"/>dictoria. ergo aliquid est medium inter contradictoria 
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e762">
+               <lb ed="#L" n="20"/>⁋ Per idem patet quomo aliquid potest dici esse
+      alicu<lb ed="#L" n="21" break="no"/>bi vbi prius non fuit sine omni acquisitione vel deper 
+      <lb ed="#L" n="22"/>ditione propter solum motum scilicet localem. quia ex hoc ipso 
+      <lb ed="#L" n="23"/>quod aliquid mouetur localiter et fit praesens alicui
+      loco<lb ed="#L" n="24" break="no"/>hoc est quod nihil fit medium inter ipsum et locum. dicitur 
+      <lb ed="#L" n="25"/>ipsum esse alicubi vbi prius non fuit
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e778">
+      ⁋ Et si dica 
+      <lb ed="#L" n="26"/>quod in omni motuoret aliquid acquiri vel depardi quod sit vel 
+      <lb ed="#L" n="27"/>fuerit subiectiue in moto vel mutato.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e786">
+      ⁋ Dico quod 
+      <lb ed="#L" n="28"/>hoc est simpliciter falsum. immo sufficit quod aliquid quod noe 
+      <lb ed="#L" n="29"/>est subiectiue in ipso acquiratur vel deperdatur. et 
+      <lb ed="#L" n="30"/>hoc est spaiale in motu locali.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e795">
+      ⁋ Et si dicatur quod
+      lo<lb ed="#L" n="31" break="no"/>cus non acquiritur alicui nisi informet ipsum.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e800">
+      ⁋
+      Di<lb ed="#L" n="32" break="no"/>co quod immo: quia locum acquiri alicui non est aliud quam 
+      <lb ed="#L" n="33"/>per motum ipsius fieri quod nihil sit medium inter ipsum 
+      <lb ed="#L" n="34"/>et locum.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e809">
+      ⁋ Dico etiam vltra quod aliquando potest esse motus 
+      <lb ed="#L" n="35"/>localis sine acquisitione cuiuscumque informantis. 
+      <lb ed="#L" n="36"/>vel non informantis. sed sufficit quod si esset aliquis
+      lo<lb ed="#L" n="37" break="no"/>cus circumstans quod tunc acquireretur locus. Uerbi 
+      <lb ed="#L" n="38"/>gratia. vltima sphera per hoc quod mouetur nihil acqui 
+      <lb ed="#L" n="39"/>rit vel saltem hoc est possibile. quia tamen si esset
+      ali<lb ed="#L" n="40" break="no"/>quis locus quietus circumstans illam spheram: non tantum 
+      <lb ed="#L" n="41"/>possex acquirere: sed etiam de facto acquireret. ideo dice 
+      <lb ed="#L" n="42"/>retur moueri sine omni acquisitione cuiuscumque 
+      <lb ed="#L" n="43"/>Et ita patet quomo non oportet ponere vbi ta 
+      <lb ed="#L" n="44"/>le accidens.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e833">
+      ⁋ Per idem patet quomo propter solum 
+      <lb ed="#L" n="45"/>motum locale potest de non sedente fieri sedens quia 
+      <lb ed="#L" n="46"/>aliter partes applicantur adinuicem sine omni re 
+      <lb ed="#L" n="47"/>informante quando aliquis sedet et quando non
+      se<lb ed="#L" n="48" break="no"/>det et plus distat aliqua pars ab alia propter
+      cor<lb ed="#L" n="49" break="no"/>pus maius medium in vno tempore et in alio
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e846">
+      ⁋ Per 
+      <lb ed="#L" n="50"/>idem patet quomo aliquis dicitur primo calceatus et 
+      <lb ed="#L" n="51"/>postea non calceatus.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e854">
+      ⁋ De quando patet quod fit
+      transi<lb ed="#L" n="52" break="no"/>tus de contradictorio in contradictorium propter 
+      <lb ed="#L" n="53"/>transitionem temporis. Nam ex hoc quod tempus transit 
+      <lb ed="#L" n="54"/>cui iste coexistebat dicitur nunc fuisse heri. et non 
+      <lb ed="#L" n="55"/>i antee potuit dici quod fuit heri.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e865">
+      ⁋ Ad argumentum 
+      <!--475.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 236-v -->
+               <lb ed="#L" n="56"/>primum principale quod in illo casu est transitus de contra 
+      <lb ed="#L" n="57"/>dictorio in contradictorium propter transitione 
+      <lb ed="#L" n="58"/>temporis. Nam pati ab aliquo agente non conser 
+      <lb ed="#L" n="59"/>uante dicit hoc totum. scilicet quod nunc habet aliquam 
+      <lb ed="#L" n="60"/>formam ad presentiam istius agentis quam prius no 
+      <lb ed="#L" n="61"/>habuit. sed ex hoc quod tempus transit sine omni alio 
+      <lb ed="#L" n="62"/>addito sequitur quod hec sit falsa. hoc passum non 
+      <lb ed="#L" n="63"/>habuit prius hanc formam. et per consequens sequitur quod 
+      <lb ed="#L" n="64"/>hec sit falsa. hoc passum patitur ab hoc agente 
+      <lb ed="#L" n="65"/>et per consequens quod hec sit vera. hoc passum non 
+      <lb ed="#L" n="66"/>patitur ab hoc agente et ideo transitus temparis 
+      <lb ed="#L" n="67"/>cum aliis que ponutur sufficit ad talem transitum 
+      <lb ed="#L" n="68"/>sicut transitio temporis sufficit ad hoc quod hec pri 
+      <lb ed="#L" n="69"/>mo sit vera. sortes est in. a. et postea quod hoc sit vera 
+      <lb ed="#L" n="70"/>sortes non est in. a.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e907">
+      ⁋ Similiter est quando
+      ali<lb ed="#L" n="71" break="no"/>quid primo est agens. et postea non est agens. quod 
+      <lb ed="#L" n="72"/>quid nominis istius termini agens non conseruans 
+      <lb ed="#L" n="73"/>est totum istud. scilicet quod ad presentiam istius ad
+      pas<lb ed="#L" n="74" break="no"/>sum est iste effectus in hoc passo qui non esset 
+      <lb ed="#L" n="75"/>in eo nisi hoc quod est agens esset presens isti. et 
+      <lb ed="#L" n="76"/>quia post primum instans omnibus remanentibus 
+      <lb ed="#L" n="77"/>in isto agente et nullo destructo effectus nihil 
+      <lb ed="#L" n="78"/>minus esset in passo. etiam si agens destrueretur 
+      <lb ed="#L" n="79"/>ideo tunc propter transitionem reporis dicitur non 
+      <lb ed="#L" n="80"/>agens quod prius erat agens. Ueruntamen de
+      agen<lb ed="#L" n="81" break="no"/>te conseruante non possunt talia contradictor 
+      <lb ed="#L" n="82"/>ria verificari nisi propter destructionem effectus 
+      <lb ed="#L" n="83"/>Et nisi per agens intelligatur hoc totum scilicet agens 
+      <lb ed="#L" n="84"/>quod prius non egit. et in illo casu idem dicendum est 
+      <lb ed="#L" n="85"/>quod est dictum de agente non conseruante.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e942">
+      ⁋ Et si quaera est 
+      <lb ed="#L" n="86"/>tur an hec sit concedenda. actio et passio transeunt 
+      <lb ed="#L" n="87"/>post primum instans. Respondeo quod a philosophis et san 
+      <lb ed="#L" n="88"/>ctis et auctoribus conceduntur multe propositiones sub 
+      <lb ed="#L" n="89"/>vero intellectu. quae tamen de virtute sermonis sunt 
+      <lb ed="#L" n="90"/>false. et ideo quicquid sit dicendum de virtute sermonis 
+      <lb ed="#L" n="91"/>dico quod auctores concedunt tales propositiones sub 
+      <lb ed="#L" n="92"/>isto intellectu. actio et passio transeunt. hoc est. id  
+      <lb ed="#L" n="93"/>quod est agens cessat esse agens. et id quod est vel fuit pa 
+      <lb ed="#L" n="94"/>tiens cessat esse patiens. et iste est intellectus 
+      <lb ed="#L" n="95"/>verus et non alius. Isto modo potest concedi quod po 
+      <lb ed="#L" n="96"/>tentia mere corrumpitur vel priuatio corrumpi 
+      <lb ed="#L" n="97"/>tur in aduentum forme non quod ibi aliquid corrum 
+      <lb ed="#L" n="98"/>patur vere sed quia materia cessat esse in potentia 
+      <lb ed="#L" n="99"/>vel esse priuata. hoc est incipit habere formam 
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e975">
+               <lb ed="#L" n="100"/>⁋ Ad secundum dico quod quando non importat talem respe 
+      <lb ed="#L" n="101"/>ctum. sed importat istam re coexistere vel coextitis 
+      <lb ed="#L" n="102"/>se vel quod coexistet cum tali tempore. Nec ibi aliquo 
+      <lb ed="#L" n="103"/>derelinquitur. non plus quam in angelo derelinqui 
+      <lb ed="#L" n="104"/>aliqua res ex me ex hoc quod angelus coexistebat 
+      <lb ed="#L" n="105"/>michi Unde nulla potest esse ratio quod aliqua res 
+      <lb ed="#L" n="106"/>derelinquatur plus ex hoc quod ego fui heri quam ex 
+      <lb ed="#L" n="107"/>hoc quod fui in villa vel in ecclesia. vel ex hoc quod 
+      <lb ed="#L" n="108"/>cum petro vel asino. Et quando dicitur quod ille 
+      <lb ed="#L" n="109"/>qui est antiquior alio habet aliquid quod ali 
+      <lb ed="#L" n="110"/>non habet. Dico quod accipiendo habere secundum quod substan¬ 
+      <!--476.xml-->
+      <pb ed="#L" n="237-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tia habet accidens. falsum est. sed sufficit quod co 
+      <lb ed="#L" n="2"/>existebat tempori. Uude habere plures annos 
+      <lb ed="#L" n="3"/>non est habere aliquas res in se formaliter. sed  
+      <lb ed="#L" n="4"/>tantum est coextitisse pluribus annis
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e1016">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="5"/>patet quod per motum localem non acquiritur ali 
+      <lb ed="#L" n="6"/>quid subiectiue. sed sufficit quod acquiratur lod 
+      <lb ed="#L" n="7"/>vel quod acquireretur locus si corpus motum esset 
+      <lb ed="#L" n="8"/>in locoquiescente.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e1028">
+      ⁋ Ad aliud quando dicitur 
+      <lb ed="#L" n="9"/>quod sessio et statio vere sunt in re. Dico quod sessio 
+      <lb ed="#L" n="10"/>et statio in proposito possunt stare pro
+      conce<lb ed="#L" n="11" break="no"/>ptu. et sic non sunt in re. Aliter possunt stare
+      pro<lb ed="#L" n="12" break="no"/>rebus. siue de virtute sermonis siue non. non cu 
+      <lb ed="#L" n="13"/>ro ad presens et sic potest concedi in proposito quod 
+      <lb ed="#L" n="14"/>sunt in re. quia tunc non denotatur nisi quod
+      pa<lb ed="#L" n="15" break="no"/>tes animalis et corporis eius sic ordinate sunt in re 
+      <lb ed="#L" n="16"/>et ista non sunt idem. sicut homo et angelus ex 
+      <lb ed="#L" n="17"/>vna parte. et homo et bos ex alia parte non sunt 
+      <lb ed="#L" n="18"/>idem realiter. et isto modo potest concedi quod simi 
+      <lb ed="#L" n="19"/>litudo et dissimilitudo sunt in re. et tamen non 
+      <lb ed="#L" n="20"/>sunt idem realiter. quia illo modo loquendi de 
+      <lb ed="#L" n="21"/>bet concedi quod similitudo supponit pro hiis quae 
+      <lb ed="#L" n="22"/>sunt similia. non tamen diuisim sed coniunctim 
+      <lb ed="#L" n="23"/>illo modo quo pluralis numerus vel pronome 
+      <lb ed="#L" n="24"/>demonstratiuum pluralis numeri supponit pro 
+      <lb ed="#L" n="25"/>pluribus. Et sub isto sensu potest aliquo modo com 
+      <lb ed="#L" n="26"/>cedi quod similitudo est similia. sicut conceditur 
+      <lb ed="#L" n="27"/>quod ista sunt similia. Sed hec est neganda. simi 
+      <lb ed="#L" n="28"/>litudo est sortes vel similis. sicut hec est
+      negan<lb ed="#L" n="29" break="no"/>da. isti demonstrando sortem et platonem qui 
+      <lb ed="#L" n="30"/>sunt similes sunt sortes et sunt homo vel animal 
+      <lb ed="#L" n="31"/>Unde tale nomen abstractum est simile nomi 
+      <lb ed="#L" n="32"/>ni collectiuo. sicut est populus exercitus. et hoc 
+      <lb ed="#L" n="33"/>quantum ad multa Sed ista difficultas non est 
+      <lb ed="#L" n="34"/>realis sed magis logicalis. que scilicet propositio 
+      <lb ed="#L" n="35"/>nes sint concedende de virtute sermonis. hoc 
+      <lb ed="#L" n="36"/>tamen verum est quod talia nomina nihil important a 
+      <lb ed="#L" n="37"/>parte rei nisi absoluta.
+    </p>
+            <p xml:id="wo8uy7-d1e1426-d1e1093">
+      ⁋ Ad vltimum patet quod 
+      <lb ed="#L" n="38"/>aliquid denominatur ab habitu. non quia ac 
+      <lb ed="#L" n="39"/>quiritur aliqua res sibi subiectiue inexistens 
+      <lb ed="#L" n="40"/>sed quia tale corpus sibi acquiritur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

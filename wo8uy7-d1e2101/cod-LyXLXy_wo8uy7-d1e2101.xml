@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17(21)</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17(21)</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="330-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e2101"><!-- l2q17(21) -->
+            <head xml:id="wo8uy7-d1e2101-Hd1e108">Quaestio 17(21)</head> 
+            <p xml:id="wo8uy7-d1e2101-d1e111">
+      Questio. xxi. 
+      <lb ed="#L" n="44"/>UTrum actus rectus et 
+      <lb ed="#L" n="45"/>refsexus sint iidem realiter an diuersi. Et 
+      <lb ed="#L" n="46"/>haec dicunt quadam quod sint iidem. Quod probatur 
+      <lb ed="#L" n="47"/>multiplicitur. Primo sic. impossibile est duos actus 
+      <lb ed="#L" n="48"/>simul esse in eadem potentia: quia si duo possunt simul esse 
+      <lb ed="#L" n="49"/>in eadem potentia eadem ratione infiniti: quia secundum philosophum iii 
+      <lb ed="#L" n="50"/>phisicorum. si duo corpora possunt esse in eodem loco ea 
+      <lb ed="#L" n="51"/>dem ratione infinita: et secundum eundem modum arguitur in pro 
+      <lb ed="#L" n="52"/>posito: quia actus rectus et reflexus sunt simul: quia 
+      <lb ed="#L" n="53"/>simul cognoscit aliquas obiectum et cognoscit se cognoscere 
+      <lb ed="#L" n="54"/>obiectum. ergo
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e137">
+      ⁋ Item eodem actu quo beatus videt mo verbum 
+      <!--662.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 330-r -->
+               <lb ed="#L" n="55"/>videt visionem suam in verbo. quia eodem actu videur 
+      <lb ed="#L" n="56"/>verbum et creaturam in verbo. sed ille actus quo
+      vi<lb ed="#L" n="57" break="no"/>det verbum est rectus. et ille quovidet visionem suam 
+      <lb ed="#L" n="58"/>in verbo est reflexus. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e155">
+      ⁋ Item Augustinus. ip 
+      <lb ed="#L" n="59"/>de trinitate. c. vii. Amor amatur seipo. et ille actus 
+      <lb ed="#L" n="60"/>amoris quo amor amatur est reflexus. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e162">
+      ⁋ Item 
+      <lb ed="#L" n="61"/>si differunt. aut specie aut numero. non specie. quia tunc sequeretur 
+      <lb ed="#L" n="62"/>quod respectu eiusdem obiecti possunt esse infiniti act 
+      <lb ed="#L" n="63"/>differentes secundum speciem. quia conuenit procedere in
+      infi<lb ed="#L" n="64" break="no"/>nitum in actibus reflexis. et per omnes illos actus
+      co<lb ed="#L" n="65" break="no"/>gnoscitur obiectum primum. nec differunt solo numero. quia 
+      <lb ed="#L" n="66"/>duo accidentia eiusdem speciei non possunt esse in eodem 
+      <lb ed="#L" n="67"/>subiecto simul et semel
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e181">
+      ⁋ Istem cognitio rei in commun 
+      <lb ed="#L" n="68"/>et in singulari sunt vna res. similiter vniversale et singulare sunt 
+      <lb ed="#L" n="69"/>vna res sicut albedo: et hec albedo. et per eandem 
+      <lb ed="#L" n="70"/>cognitionem singularem possum cognoscere aliquid  
+      <lb ed="#L" n="71"/>in vniversali et in particulari. et vna cognitio est actus re 
+      <lb ed="#L" n="72"/>flexus. quia illa per quam cognosco aliquid in communi est 
+      <lb ed="#L" n="73"/>actus reflexus. et illa qua cognosco singulare est 
+      <lb ed="#L" n="74"/>actus rectus. ergo actus rectus et reflexus sunt vna 
+      <lb ed="#L" n="75"/>res. ergo non differunt
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e201">
+      ⁋ Item si essent diuersi actus
+      sequen<lb ed="#L" n="76" break="no"/>retur quod quaelibet intellectus creatus posset habere in 
+      <lb ed="#L" n="77"/>finitos actus intelligendi simul. quia non potest habe 
+      <lb ed="#L" n="78"/>re tot simul quin potest habere plures. quia quaelibet actus
+      re<lb ed="#L" n="79" break="no"/>flexus potest cognosci per alium actu reflexum et siml 
+      <lb ed="#L" n="80"/>quando noscitur actus reflexus et eius obiectum. ergo possunt 
+      <lb ed="#L" n="81"/>esse simul infiniti actus intelligendi in eodem
+      intelle<lb ed="#L" n="82" break="no"/>ctu creato.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e219">
+      ⁋ Item si differrent hoc esset ratione
+      obie<lb ed="#L" n="83" break="no"/>ctorum. quia ratione subiecti non differunt. quia sunt in eodem sub 
+      <lb ed="#L" n="84"/>iecto. sed consequens est seiluatum. quia tunc differrent specie. cum obie 
+      <lb ed="#L" n="85"/>cta differant specie: sed non differunt specie: vt probatur. quia quando 
+      <lb ed="#L" n="86"/>vnus actus tedit in alium actum secundum rationem formalem 
+      <lb ed="#L" n="87"/>illius alterius actus est eiusdem speciei cum illo actu in 
+      <lb ed="#L" n="88"/>quem tendit. Uerbi gratia. si ego habeo opinionem 
+      <lb ed="#L" n="89"/>de aliquo et ego cognoscam illam opinionem opina 
+      <lb ed="#L" n="90"/>tiue. illa cognitio per quam cognosco opinionem 
+      <lb ed="#L" n="91"/>est opinio. sed videns deum intuitiue videt se videre 
+      <lb ed="#L" n="92"/>deum intuitiue. ergo vnus actus in proposito tendit in alium 
+      <lb ed="#L" n="93"/>actum sub ratione actus. et per consequens eiusdem speciei.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e245">
+      ⁋ Item in 
+      <lb ed="#L" n="94"/>eodem instanti in quo potentia est in optia dispositione 
+      <lb ed="#L" n="95"/>respectu obiecti prcipit se cognoscere illud ob 
+      <lb ed="#L" n="96"/>iectum actualissime aliter nunquam posset percipere se 
+      <lb ed="#L" n="97"/>esse in optia dispositione. sed illud prcipere est actus 
+      <lb ed="#L" n="98"/>reflexus. Si ergo sit alius actus simul est in duobus 
+      <lb ed="#L" n="99"/>actibus: quod non est verum. et hoc in actu secundo. si idem ha 
+      <lb ed="#L" n="100"/>betur propositum. Uel aliter sic. potentia non percipit se 
+      <lb ed="#L" n="101"/>esse in optia dispositione nisi quando est in optia dispo 
+      <lb ed="#L" n="102"/>sitione. sed quando est in actu recto respectu optimi sub 
+      <lb ed="#L" n="103"/>iecti. tunc est in optia dispositione. ergo tunc percipiet 
+      <lb ed="#L" n="104"/>vel numquam. ergo impossibile est ipsam esse in actu recto ni 
+      <lb ed="#L" n="105"/>si sit in actu reflexo. et sic actus rectus et reflexus 
+      <lb ed="#L" n="106"/>sunt iidem.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e276">
+      ⁋ Contra istam opinionem probo. quod actus
+      re<lb ed="#L" n="107" break="no"/>ctus et reflexus sunt diuersi actus realiter. quia si essent 
+      <lb ed="#L" n="108"/>idem actus sequire: quod eadem cognitio esset intuitiua et 
+      <lb ed="#L" n="109"/>abstractiua. sed consequens est flsaium: vt dicitur communiter. probatio 
+      <!--663.xml-->
+      <pb ed="#L" n="330-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>consequentie: quia intellectus potest cognoscere abstracti 
+      <lb ed="#L" n="2"/>ue aliquid sicut antichristum vel aliquod aliud obiectum 
+      <lb ed="#L" n="3"/>quod non est praesens intellectui secundum actualem existentiam: et potest 
+      <lb ed="#L" n="4"/>cognoscere illum actum intuitiue cum sit in intellectu secundum 
+      <lb ed="#L" n="5"/>sua actualem existentiam. si ergo idem sit actus rectus et re 
+      <lb ed="#L" n="6"/>flexus eadem debet esse cognitio intuitiua et abstractiva 
+      <lb ed="#L" n="7"/>Item si sic: tunc idem actus erit confusus et deterinatus 
+      <lb ed="#L" n="8"/>qui cognito homine cognitione confusa deterinate potest 
+      <lb ed="#L" n="9"/>homo cognoscere illam cognitionem confusam: et illa
+      co<lb ed="#L" n="10" break="no"/>gnitio deteriata est cognitio reflexa et alia co 
+      <lb ed="#L" n="11"/>gnitio recta. ergo eadem cognitio esset confusa et
+      de<lb ed="#L" n="12" break="no"/>terminata. Ite si sic sequeretur quod opinio et scientia essent 
+      <lb ed="#L" n="13"/>idem: quia quando homo habet opinionem de aliquo potest
+      certitu<lb ed="#L" n="14" break="no"/>dinaliter se scire opinari: sed scire se opinari est actu 
+      <lb ed="#L" n="15"/>reflexus et opinari actus rectus. ergo idem esset se scire 
+      <lb ed="#L" n="16"/>opinari et opinari data ypothesi. Item per eundeni 
+      <lb ed="#L" n="17"/>actum numero. non tendit intellectus diuersimode in 
+      <lb ed="#L" n="18"/>idem obiectum: et hoc simul: sed per rectum immediate tendit 
+      <lb ed="#L" n="19"/>in obiectum et per reflexum mediate: quia mediante actu 
+      <lb ed="#L" n="20"/>recto. Item si sic: tunc idem esset dubitare et
+      certitu<lb ed="#L" n="21" break="no"/>dialiter scire: quia si quis dubitet regem sedere potest
+      cer<lb ed="#L" n="22" break="no"/>titudinaliter: scire vel cognoscere se dubitare. et ista 
+      <lb ed="#L" n="23"/>certa cognitio est actus reflexus et alius actus re 
+      <lb ed="#L" n="24"/>ctus. ergo idem esset actus certitudinaliter cognoscendi et 
+      <lb ed="#L" n="25"/>dubitandi. Item nullus actus est obiectum suiipius: quia 
+      <lb ed="#L" n="26"/>obiectum actus est mensura actus: et idem non est mensu 
+      <lb ed="#L" n="27"/>ra suupius: sed actus rectus est obiectum actus reflexi. ergo 
+      <lb ed="#L" n="28"/>Item illa differit realiter quorum vnum potest esse sine alio. 
+      <lb ed="#L" n="29"/>sic est in proposito: quia prius cognoscitur obiectum quam act 
+      <lb ed="#L" n="30"/>per quem cognoscitur obiectum. ergo actus rectus est prior actu 
+      <lb ed="#L" n="31"/>reflexo. Item idem actus numero non potest simul esse intensus 
+      <lb ed="#L" n="32"/>et remissus: sed aliquas potest intense diligere aliquod obie 
+      <lb ed="#L" n="33"/>ctum et minus intense diligere actionem et dilectionem qua 
+      <lb ed="#L" n="34"/>diligit obiectum: quia possibile est quod obiectum sit mul 
+      <lb ed="#L" n="35"/>tum excedens in bonitate illam dilectionem quae diligitur et 
+      <lb ed="#L" n="36"/>quod est magis bonum potest magis diligi. ergo si idem esset 
+      <lb ed="#L" n="37"/>actus rectus et reflexus idem eet actus intesus et remis 
+      <lb ed="#L" n="38"/>sus. Ideo dico quod actus rectus et reflexus distinguntur sicut 
+      <lb ed="#L" n="39"/>distincti actus. Sed conclusio istud arguitur supposito quod 
+      <lb ed="#L" n="40"/>aliquis habeat tantum vnum actum cognoscendi obiectum omni 
+      <lb ed="#L" n="41"/>alio actu cognoscendi circumscripto: aut ille intelli 
+      <lb ed="#L" n="42"/>git se intelligere illud obiectum aut no: si sic haber
+      pro<lb ed="#L" n="43" break="no"/>positum: quia non habet nisi vnum actum intelligendi per
+      ypo<lb ed="#L" n="44" break="no"/>thesim et intelligit obiectum. et intelligit se intellige 
+      <lb ed="#L" n="45"/>re idem obiectum: ergo sunt idem actus. Si non prcipit se 
+      <lb ed="#L" n="46"/>intelligere illud obiectum: sequeretur quod si quaereretur ab eo 
+      <lb ed="#L" n="47"/>vtrum intelligeret illud obiectum: responderet quod non: cu 
+      <lb ed="#L" n="48"/>ius oppositum exper imur.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e396">
+      ⁋ Item quando aliquis intelligit 
+      <lb ed="#L" n="49"/>aliquod obiectum delectabile delectatur intelligendo 
+      <lb ed="#L" n="50"/>et plus appetit intelligere. ergo voluntas habet istu actum 
+      <lb ed="#L" n="51"/>pro obiecto: sed voluntas fertur in cognitum.
+      er<lb ed="#L" n="52" break="no"/>go pro tunc ille actus est cognitus. ergo quando habet tantum 
+      <lb ed="#L" n="53"/>vnum actum intelligit adhuc illum actum: ergo actus rectus 
+      <lb ed="#L" n="54"/>et reflexus sunt idem.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e413">
+      ⁋ Item si illi act odistinguantur in in 
+      <lb ed="#L" n="55"/>tellectu. ergo eodem modo distinguitur in voluntate: quia similis 
+      <!--663.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 330-v -->
+               <lb ed="#L" n="56"/>videtur ratio: sed consequens est falsum: quia tunc quot erunt
+      vir<lb ed="#L" n="57" break="no"/>tutes morales causate in voluntate ex actibus re 
+      <lb ed="#L" n="58"/>ctis tot erunt causate ex actibus reflexis: sed actus re 
+      <lb ed="#L" n="59"/>flexi possunt variari in infinitum secundum speciem. ergo possunt cau 
+      <lb ed="#L" n="60"/>sari infinite virtutes morales differuntes secundum speciem. quia 
+      <lb ed="#L" n="61"/>sicut ex actibus rectis multiplicatis potest causari habitus 
+      <lb ed="#L" n="62"/>moralis sic ex actibus reflexis multiplicatus
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e439">
+      ⁋ Item 
+      <lb ed="#L" n="63"/>quando aliquis est in actu recto. aut percipit se esse in 
+      <lb ed="#L" n="64"/>actu recto quando est in actu recto. aut quando non est in 
+      <lb ed="#L" n="65"/>actu recto. sed quando est in actu reflexo. Si quando est in 
+      <lb ed="#L" n="66"/>actu recto: tunc si actus reflexus est alius a recto 
+      <lb ed="#L" n="67"/>non simul vltiate est in vtroque. ergo cum est in actu
+      re<lb ed="#L" n="68" break="no"/>flexo non percipit se esse vltiate in actu recto re 
+      <lb ed="#L" n="69"/>spectu obiecti. Si percipit se esse in actu recto 
+      <lb ed="#L" n="70"/>quando est in actu reflexo: tunc percipit se vltiate esse 
+      <lb ed="#L" n="71"/>in aliquo actu quando non est vltiate in illo actu quod 
+      <lb ed="#L" n="72"/>est impossibile.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e463">
+      ⁋ Istem si sic. Aut actus reflexus est 
+      <lb ed="#L" n="73"/>actus fruendi aut vtendi: non primum. quia immediate tem 
+      <lb ed="#L" n="74"/>dit in creaturam. quia in actu rectum: non secundum. quia per 
+      <lb ed="#L" n="75"/>illum actum tendit in deum et in actum rectum prout tedit 
+      <lb ed="#L" n="76"/>in deum: vt sic non est actus vtendi. ergo sunt idem actus 
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e474">
+               <lb ed="#L" n="77"/>⁋ Ad primum istorum quando accipit quod supposito quod ali 
+      <lb ed="#L" n="78"/>quis habeat tantum vnum actum cognoscedi obiectum omni 
+      <lb ed="#L" n="79"/>alio actu intelligendi eius circumscripto etc. Dico 
+      <lb ed="#L" n="80"/>quod non. et vlterius dico quod si esset pro eodem instanti 
+      <lb ed="#L" n="81"/>quo quaeritur ab eo vtrum intelligeret se intelligere il 
+      <lb ed="#L" n="82"/>lud obiectum. Dico quod non oportet hoc concedere. quia
+      pro<lb ed="#L" n="83" break="no"/>illo instanti non percipit se cognoscere illud
+      obie<lb ed="#L" n="84" break="no"/>ctum. si tamen proponitur post bene potest hoc concedere. quia 
+      <lb ed="#L" n="85"/>tunc habebit vnum actum cognoscendi respectu co 
+      <lb ed="#L" n="86"/>plexi de nouo propositi. quia tunc intelligit complexum 
+      <lb ed="#L" n="87"/>propositum. et hoc erit vno actu differenti a priori 
+      <lb ed="#L" n="88"/>actu
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e503">
+      ⁋ Ad aliud dico quod si voluntas delectetur in 
+      <lb ed="#L" n="89"/>actu intelligendi respectu alicuius obiecti: oportet quod 
+      <lb ed="#L" n="90"/>apprehendatur per intellectum esse delectabile. et sic 
+      <lb ed="#L" n="91"/>oportet quod prius cognoscatur. et ideo non potest delectari in 
+      <lb ed="#L" n="92"/>actu nisi ille actus cognoscatur per intellectum. sed hoc 
+      <lb ed="#L" n="93"/>erit per intellectum reflexum quae est alius quam actus rectus. 
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e516">
+               <lb ed="#L" n="94"/>⁋ Ad aliud dico quod maior est neganda. quia ex mul 
+      <lb ed="#L" n="95"/>titudine actuum reflexorum non causatur habitus mora 
+      <lb ed="#L" n="96"/>lis. sed solum ex multitudine actuum rectorum. Uel alii 
+      <lb ed="#L" n="97"/>potest dici. quod virtus moralis non solum generatur in vo 
+      <lb ed="#L" n="98"/>luntate sed in appetitum sensitiuo. quia habitus moralis 
+      <lb ed="#L" n="99"/>est commoderatiuus passionum et solum in
+      appeti<lb ed="#L" n="100" break="no"/>tum sensitiuo consistunt passiones.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e535">
+      ⁋ Ad aliud dico 
+      <lb ed="#L" n="101"/>quod si ponatur quod tantum sit in actu recto. tunc non percipit. 
+      <lb ed="#L" n="102"/>se esse in actu recto. sed bene possibile est quod
+      perci<lb ed="#L" n="103" break="no"/>piat se esse in actu recto quando est in actu recto. quia 
+      <lb ed="#L" n="104"/>actus rectus et reflexus sunt simul vel possunt esse si 
+      <lb ed="#L" n="105"/>mul. et quando dicitur quod est vltiate in vno actu non potest 
+      <lb ed="#L" n="106"/>esse in alio actu. Dico quod si intelligatur per vltiate 
+      <lb ed="#L" n="107"/>esse perfecte esse in actu sic dico quod simul potest esse 
+      <lb ed="#L" n="108"/>sub duobus vltiate. quia vterque actus terminat
+      po<lb ed="#L" n="109" break="no"/>tentiam in suo ordine. licet diuersimode si
+      intelliga<lb ed="#L" n="110" break="no"/>tur per vltiate perficere finaliter perficere in ratione sim¬ 
+      <!--664.xml-->
+      <pb ed="#L" n="331-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>plicitur vltimi sic non perficit vterque vltiate. quia vnus 
+      <lb ed="#L" n="2"/>actus est finis alterius.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e570">
+      ⁋ Ad aliud dico quod sunt di 
+      <lb ed="#L" n="3"/>uersi actus fruendi. Ad probationem dico quod actus
+      re<lb ed="#L" n="4" break="no"/>flexus licet terminetur in rectum: quia tamen ibi non sistit finaliter 
+      <lb ed="#L" n="5"/>sed tendit in obiectum fruibile. ideo est actus fruendi.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e579">
+      ⁋ Ad  
+      <lb ed="#L" n="6"/>rationes alterius opinionis. ad primam dico quod consequentia non 
+      <lb ed="#L" n="7"/>valet: quia maioris perfectionis potentie est habete plures 
+      <lb ed="#L" n="8"/>actus simul quam pauciores: sed non est magis inconueniens 
+      <lb ed="#L" n="9"/>infinita corpora esse simul quam duo. ideo si duo corpora possunt 
+      <lb ed="#L" n="10"/>esse simul et infinita et tanta est repugnantia inter dimen 
+      <lb ed="#L" n="11"/>siones duorum cor porum esse simul sicut inter dimensiones 
+      <lb ed="#L" n="12"/>trium. sic non est de actibus: quia quanto plures actus re 
+      <lb ed="#L" n="13"/>cipit potentia tanto maioris est virtutum: et ideo si haberet 
+      <lb ed="#L" n="14"/>infinitos actus simul esset infinite virtutur.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e601">
+      ⁋ Ad aliud
+      di<lb ed="#L" n="15" break="no"/>co quod videre visionem suam in verbo potest intelligi dupli 
+      <lb ed="#L" n="16"/>citer vel vt sua visio tantum continetur virtualiter in verbor 
+      <lb ed="#L" n="17"/>vel vt visio eius accipitur formaliter secundum quod habet esse in genere 
+      <lb ed="#L" n="18"/>propositio. primo modo videtur eodem actu recto quo videtur 
+      <lb ed="#L" n="19"/>verbum. secundo modo si videatur hoc erit actu reflexo. 
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e614">
+               <lb ed="#L" n="20"/>⁋ Ad aliud dico quod verum est quod amor amatur seipo 
+      <lb ed="#L" n="21"/>vmdm speciem: sed non secundum numerum. vel aliter quod amor in habi 
+      <lb ed="#L" n="22"/>tum est principium amandi seipsum in actu: sicut scientia in habi 
+      <lb ed="#L" n="23"/>tum est principium cognoscendi scientiam in actu.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e625">
+      ⁋ Ad aliud 
+      <lb ed="#L" n="24"/>dico quod siue differant specie siue numero faciliter potest respon 
+      <lb ed="#L" n="25"/>deri: quia si differant specie dico quod non est incoueniens 
+      <lb ed="#L" n="26"/>quod infiniti actus differentes specie possint esse rectum eius 
+      <lb ed="#L" n="27"/>dem obiecti remoti: dum tamen obiecta propinqua
+      diffe<lb ed="#L" n="28" break="no"/>rant specie: sed numquam erunt illi actus actualiter infinitia 
+      <lb ed="#L" n="29"/>ita quod infiniti sint simul in actu. Si autem differant solum 
+      <lb ed="#L" n="30"/>numero: tunc non est inconueniens quod tales duo actus 
+      <lb ed="#L" n="31"/>sint simul in eodem: quia sunt actus respectiui et vterque
+      in<lb ed="#L" n="32" break="no"/>portat illum ad obiectum ad quod teriatur: et actus
+      re<lb ed="#L" n="33" break="no"/>spectiui differentes solo numero possunt esse simul in eodem. 
+      <lb ed="#L" n="34"/>Ad aliud dico quod cognitio in communi potest intelligi 
+      <lb ed="#L" n="35"/>duplicitur. vno modo secundum quod dicitur commune communitate vniversalitatis 
+      <lb ed="#L" n="36"/>et sic dicitur communis per praedicationem: et praedicatur de omni
+      cogni<lb ed="#L" n="37" break="no"/>ione. Alio modo potest accipi quod aliquod obiectum
+      cognosci<lb ed="#L" n="38" break="no"/>tur in communi secundum aliquam communem rationem eius: sicut si
+      cognosca<lb ed="#L" n="39" break="no"/>tur homo inquantum est animal vel substantia: illa esset
+      co<lb ed="#L" n="40" break="no"/>gnitio hominis in communi: et talis cognitio hominis in communi non 
+      <lb ed="#L" n="41"/>est cognitio hominis per praedicationem: quia est vna
+      cogni<lb ed="#L" n="42" break="no"/>tio singularis accipiendo cognitionem. primo modo si 
+      <lb ed="#L" n="43"/>quis cognoscat cognitionem illo modo: illa cognito per 
+      <lb ed="#L" n="44"/>quam cognoscit est actus rectus et non reflexus sicut est actus 
+      <lb ed="#L" n="45"/>rectus quando cognoscitur substantia vel accidens: sed loquendo de 
+      <lb ed="#L" n="46"/>cognitione secundo modo sic illa cognitio per quam
+      cogno<lb ed="#L" n="47" break="no"/>scitur talis cognitio est actus reflexus realiter differes 
+      <lb ed="#L" n="48"/>ab illa cognitione congnita: sicut si ego cognosceren me 
+      <lb ed="#L" n="49"/>cognoscere hominem sub ratione animalis vel substantie.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e685">
+      ⁋ Ad 
+      <lb ed="#L" n="50"/>aliud dico quod intellectus non potest habere infinitas actus 
+      <lb ed="#L" n="51"/>iml: et ideo dico quod potest habere tot simul ita quod plures non potest 
+      <lb ed="#L" n="52"/>habere simul. Et quando dicitur quod quaelibet actus reflexus potest cognosci 
+      <lb ed="#L" n="53"/>per actum reflexum. dico quod verum est quod sic conuenit proce 
+      <lb ed="#L" n="54"/>dere in infinitum successiue: sed nunquam erunt infiniti. 
+      <lb ed="#L" n="55"/>actus simul
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e701">
+      ⁋ Ad aliud quadam doctor concedit quod diffe¬ 
+      <!--664.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 331-r -->
+               <lb ed="#L" n="56"/>runt. Et quando dicitur vnus actus tendit in alium secundum 
+      <lb ed="#L" n="57"/>rationem formalem illius actus alterius. et tunc ratio alterius 
+      <lb ed="#L" n="58"/>actus erit eiusdem rationis siue speciei cum secundo. Sicut si po 
+      <lb ed="#L" n="59"/>natur exemplum. si aliquis cognoscat opinionem suam 
+      <lb ed="#L" n="60"/>opinatiue. vtraque cognitio et opinio erit eiusde 
+      <lb ed="#L" n="61"/>speciei. et eadem ratione. si per actum reflexum cognoscitur 
+      <lb ed="#L" n="62"/>actus intuitiuus intuitiue sequitur quod sint
+      eiusdem<lb ed="#L" n="63" break="no"/>speciei. Dicitur negando assumptum. quia si aliquis
+      superfi<lb ed="#L" n="64" break="no"/>cialiter cognosceret superficie vel cognosceret ex 
+      <lb ed="#L" n="65"/>tensionem extensiue non sequitur quod cognitio sua et
+      su<lb ed="#L" n="66" break="no"/>perficies essent eiusdem speciei. et tamen huiusmodi actus
+      tende<lb ed="#L" n="67" break="no"/>ret in illa obiecta secundum rationem formalem istorum
+      obie<lb ed="#L" n="68" break="no"/>ctorum. Dico tamen quod non different specie sed solum numero. Et 
+      <lb ed="#L" n="69"/>quando dicitur quod obiecta differunt specie ergo et actus.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e740">
+      ⁋ Dico 
+      <lb ed="#L" n="70"/>quod vbi obiecta sunt ordinata: et vnum obiectum est 
+      <lb ed="#L" n="71"/>obiectum alterius: ibi non oportet actus distingui
+      speci<lb ed="#L" n="72" break="no"/>fice ex tali distinctione obiectorum. sic est in
+      propo<lb ed="#L" n="73" break="no"/>sito quod si obiecta essent sic distincta quod neutrum 
+      <lb ed="#L" n="74"/>reduceretur ad alterum: sed vtrumque haberet rationem for 
+      <lb ed="#L" n="75"/>malem distinctam specifice sub ratione obiecti. tunc
+      be<lb ed="#L" n="76" break="no"/>ne posset concedi quod actus essent distincti specifice 
+      <lb ed="#L" n="77"/>sic non est in proposito.
+    </p>
+            <p xml:id="wo8uy7-d1e2101-d1e760">
+      ⁋ Ad aliud dico quod maio 
+      <lb ed="#L" n="78"/>non est vera. quia per actum rectum per quem vnitur potentia. 
+      <lb ed="#L" n="79"/>obiecto perfectissimo est in optia dispositione in 
+      <lb ed="#L" n="80"/>tuitiva. et tamen possibile est quod nullum actum alium habeat
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

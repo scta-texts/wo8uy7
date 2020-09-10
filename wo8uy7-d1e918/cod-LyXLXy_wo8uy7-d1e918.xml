@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="183-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e918"><!-- l1d12q3 -->
+            <head xml:id="wo8uy7-d1e918-Hd1e108">Quaestio 3</head>
+            <p xml:id="wo8uy7-d1e918-d1e111">
+      Questio. iii. 
+      <lb ed="#L" n="13"/>Tertio quero utrum 
+      <lb ed="#L" n="14"/>pater et filius spirant omnino vniformiter 
+      <lb ed="#L" n="15"/>spiritus sanctum.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e120">
+      Quod non. quia quandocumque sunt duo 
+      princi<lb ed="#L" n="16" break="no"/>pia respectu eiusdem producti quorum vnum est prius 
+      <lb ed="#L" n="17"/>alio non vniformiter producunt. quia prius: prius pro 
+      <lb ed="#L" n="18"/>ducit quam posterius. sed pater est prior filio. ergo prius
+      pro<lb ed="#L" n="19" break="no"/>du sci spiritus sanctus quam filius. ergo non omnino vniformiter.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e131">
+      ⁋ Ad  
+      <lb ed="#L" n="20"/>oppositum. illa quae sunt precise vnum principium produ 
+      <lb ed="#L" n="21"/>cunt omnino vniformit. sed pater et filius sunt omnino 
+      <lb ed="#L" n="22"/>vnum principium spirans spiritut scntiet etc.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e140">
+      ⁋ Ad istam. q.
+      di<lb ed="#L" n="23" break="no"/>citur quod actus potest considerari tripliciter. vel in se 
+      <lb ed="#L" n="24"/>vel inquantum est termini. vel inquantum comparatur 
+      <lb ed="#L" n="25"/>ad supposita agentia. Primis duobus modis est 
+      <lb ed="#L" n="26"/>vniformitas omnimoda vel potius vnitas. quia ve 
+      <lb ed="#L" n="27"/>rissime vnus actus et vnus terminus productus.
+      Ter<lb ed="#L" n="28" break="no"/>tio modo loquendo. sicut ipsa vis spiratiua communicatur 
+      <lb ed="#L" n="29"/>filio a patre. ita etiam quod filius spiret hoc habet a 
+      <lb ed="#L" n="30"/>patre. et ita pater spirat a se: filius autem non a 
+      <lb ed="#L" n="31"/>se. Ueruntamen non est similis ordo inter patrem
+      gene<lb ed="#L" n="32" break="no"/>rantem et spirantem. sicut est inter patrem spirante et
+      fi<lb ed="#L" n="33" break="no"/>lium spirantem. Unde non est intelligendum quod pater spiret 
+      <lb ed="#L" n="34"/>antequam filius spiret. sicut prius origine pater generat 
+      <lb ed="#L" n="35"/>quam spirat propter ordinem principiorum in producendo 
+      <lb ed="#L" n="36"/>qui tunc filius non spiraret quemadmod spiritus sanctus n potest 
+      <lb ed="#L" n="37"/>generare filium iam praintellectum generari. sed est iste 
+      <lb ed="#L" n="38"/>ordo: quod in patre est primo fecunditas vtraque a se. se 
+      <lb ed="#L" n="39"/>cundo in patre est actus prime fecunditatis. et tunc in 
+      <lb ed="#L" n="40"/>filio est secunda fecunditas. Tertio actus secunde fecundi 
+      <lb ed="#L" n="41"/>tatis simul a patre et filio habentibus tunc illam fecundita 
+      <lb ed="#L" n="42"/>tem. adhuc tamen cum aliquoordine. quia ille actus est patris 
+      <lb ed="#L" n="43"/>a se. filii autem non a se sed a pre. sicut nec in secundo signo est 
+      <lb ed="#L" n="44"/>illa fecunditas filii a se sed patris a se. Non est ergo ordo 
+      <lb ed="#L" n="45"/>originis inter spirationem patris et filii quasi spi 
+      <lb ed="#L" n="46"/>ret pater in aliquo signo originis in quo non spi 
+      <lb ed="#L" n="47"/>ret filius. sed in eodem signo originis simul spirant. est tamen 
+      <lb ed="#L" n="48"/>ibi ordo spirantium in spirando quod pitri in illo signo 
+      <lb ed="#L" n="49"/>originis spirat a se. filius non a se.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e202">
+      ⁋ Contra istam 
+      <lb ed="#L" n="50"/>opinionem sunt aliqua argumenta facta superius 
+      <lb ed="#L" n="51"/>dis. ix. quibus probatur quod non sunt talia signa et instam 
+      <lb ed="#L" n="52"/>tia originis. Arguo tamen nunc in speciali primo sic 
+      <lb ed="#L" n="53"/>omne suppositum quod nihil penitus habet ab alio habet 
+      <lb ed="#L" n="54"/>in primo signo originis quicquid habet ponendo quod 
+      <!--368.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 183-r -->
+               <lb ed="#L" n="55"/>essent talia signa. sed pater nihil penitus habet a 
+      <lb ed="#L" n="56"/>filio. nec ab aliquo alio. ergo in primo signo
+      origi<lb ed="#L" n="57" break="no"/>nis habet quicquid habere potest. ergo in primo signo ori 
+      <lb ed="#L" n="58"/>ginis spirat. sed per te filius non spirat in primo
+      si<lb ed="#L" n="59" break="no"/>gno originis. ergo in aliquo signo spirat pater in 
+      <lb ed="#L" n="60"/>quo non spirat filius quod negas.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e235">
+      ⁋ Si dicatur quod pater  
+      <lb ed="#L" n="61"/>non spirat in primo signo originis nec tunc habet spi 
+      <lb ed="#L" n="62"/>rare. non tamen habet spirare ab alio. sed sufficit quod habet 
+      <lb ed="#L" n="63"/>spirare cum alio quod non est in primo signo originis 
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e244">
+               <lb ed="#L" n="64"/>⁋ Contra. quicquid pater habet a se habet in primo si 
+      <lb ed="#L" n="65"/>gno originis. sed pat habet spirare a se. ergo etc.
+      mi<lb ed="#L" n="66" break="no"/>nor est manifesta. maiorem probo. quia impossibile est in 
+      <lb ed="#L" n="67"/>uenire prius et posterius origine sine origine. sicut 
+      <lb ed="#L" n="68"/>impossibile est inuenire prius et posterius durati 
+      <lb ed="#L" n="69"/>one sine duratione. et prius et posterius perfectione. si 
+      <lb ed="#L" n="70"/>perfectione. et sic omnibus de aliis. ergo si generare est in primo sicnuic 
+      <lb ed="#L" n="71"/>originis et non spirare. et spirare est in secundo sienigi ori 
+      <lb ed="#L" n="72"/>ginis. ergo necesse est ponere aliquam originem per quan 
+      <lb ed="#L" n="73"/>fiat spirare in patre. et per consequens pater per originem 
+      <lb ed="#L" n="74"/>habet spirare. et per consequens non a se. Ex isto sequitur quod 
+      <lb ed="#L" n="75"/>non est bene dictum quod in patre in primo signo orig 
+      <lb ed="#L" n="76"/>nis est fecunditas vtraque. in secundo actus prime fe 
+      <lb ed="#L" n="77"/>cunditatis. quia nihil est adhuc originatum. sed
+      origi<lb ed="#L" n="78" break="no"/>natum inest potesteriori signo.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e279">
+      ⁋ Ideo dico ad  
+      <lb ed="#L" n="79"/>quaestionem quod vniformiter potest excludere omnem
+      ori<lb ed="#L" n="80" break="no"/>ginem in personis producentibus inte se. vel omnem 
+      <lb ed="#L" n="81"/>ordinem personarum producentium in producendo. Primo 
+      <lb ed="#L" n="82"/>modo dico quod non spirant omnino vniformiter. quia inter 
+      <lb ed="#L" n="83"/>personas producentes est ordo quod pater est prior filio
+      si<lb ed="#L" n="84" break="no"/>cut dictum est alias. si autem excludat omnem ordinem 
+      <lb ed="#L" n="85"/>personarum producentium in producendo. ita scilicet quod in nul 
+      <lb ed="#L" n="86"/>lo signo vel instanti vel quocumque ymaginabili di 
+      <lb ed="#L" n="87"/>stincto a personis producentibus spiret vna persona in 
+      <lb ed="#L" n="88"/>quo non spiret alia. sicut aliqua ymaginantur quod in 
+      <lb ed="#L" n="89"/>aliquo signo originis spiret pater in quo non spiret 
+      <lb ed="#L" n="90"/>filius. sic dico quod spirant omnino vniformiter. quia omni 
+      <lb ed="#L" n="91"/>non habent illud vnum videlicet constitutum ex diuina 
+      <lb ed="#L" n="92"/>essentia et spiratione actiua cui competit primo spi 
+      <lb ed="#L" n="93"/>rare.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e314">
+      ⁋ Et si dicatur quod quantumcumque illud vnum sit in 
+      <lb ed="#L" n="94"/>patre et filio: non tamen est vniformiter in patre et
+      fi<lb ed="#L" n="95" break="no"/>lio quia in patre est a se. in filio non a se sed a patre. ergo no 
+      <lb ed="#L" n="96"/>spirant vniformiter. sicut non habent principium
+      vnifor<lb ed="#L" n="97" break="no"/>miter.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e325">
+      ⁋ Respondeo quod non sequitur non habent
+      prin<lb ed="#L" n="98" break="no"/>cipium vniformiter. ergo non spirant vniformiter. sicut 
+      <lb ed="#L" n="99"/>non sequitur. a. habet principium productiuum alicuius
+      ef<lb ed="#L" n="100" break="no"/>fectus priusquam. b. ergo a. prius producit illum effectum quam 
+      <lb ed="#L" n="101"/>b. quia cum antecedente propter aliquod impedime 
+      <lb ed="#L" n="102"/>tum stat quod in aliquo instanti vel tempore. b
+      produ<lb ed="#L" n="103" break="no"/>cit effectum et non. a. sicut si sint due cause equo 
+      <lb ed="#L" n="104"/>ce respectu eiusdem effectus. quarum tamen vna produ 
+      <lb ed="#L" n="105"/>citur ab altera. et per consequens vna est prior altera.
+      pos<lb ed="#L" n="106" break="no"/>sibile est quod secunda causa propter approximatione sui 
+      <lb ed="#L" n="107"/>ad passum producat effectum suum. et causa prior no 
+      <lb ed="#L" n="108"/>producat propter distantiam indererminatam 
+      <lb ed="#L" n="109"/>a passo: vel propter aliquod impedimentum. 
+      <!--369.xml-->
+      <pb ed="#L" n="183-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Eodem modo dico quod quantumcunque vna causa sit 
+      <lb ed="#L" n="2"/>ab alia et non econuerso. et sint praecise cause partia 
+      <lb ed="#L" n="3"/>les respectu eiusdem effectus si simul
+      approximen<lb ed="#L" n="4" break="no"/>tur passo. non prius producet causa prior quam posterior. 
+      <lb ed="#L" n="5"/>immo possibile est quod aliquam prioritate habeat aliam 
+      <lb ed="#L" n="6"/>quam habet causa posterior ad causam priorem. puta si causa 
+      <lb ed="#L" n="7"/>posterior sit perfectior tam in essendo quam in agendo 
+      <lb ed="#L" n="8"/>sicut possibile est quod effectus sit perfectior sua car 
+      <lb ed="#L" n="9"/>sa. possibile est quod posterior causa prius agat hoc est 
+      <lb ed="#L" n="10"/>perfectius. et ita ex ordine causarum inter se non com 
+      <lb ed="#L" n="11"/>tingit inferre consimilem ordinem in causando. ita 
+      <lb ed="#L" n="12"/>dico quod est in proposito quod quantumcumque pater et fi 
+      <lb ed="#L" n="13"/>lius habeant ordinem inter se. non tamen habent or 
+      <lb ed="#L" n="14"/>dinem in producendo quasi in aliquo signo vel in 
+      <lb ed="#L" n="15"/>quocumque alio ymaginabili non eodem cum patre vel 
+      <lb ed="#L" n="16"/>filio spiret pater et non filius.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e396">
+      ⁋ Et si dicas quo 
+      <lb ed="#L" n="17"/>pater prius origine spirat quam filius. quia pater habe 
+      <lb ed="#L" n="18"/>spirare a se. filius non a se.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e403">
+      ⁋ Respondeo. si per spi 
+      <lb ed="#L" n="19"/>rare prius origine nihil aliud intelligatur: nisi quod 
+      <lb ed="#L" n="20"/>pater habet spirare a se et filius non a se. sic conce 
+      <lb ed="#L" n="21"/>do quod pater prius origine spirat quam filius. sed tamen non 
+      <lb ed="#L" n="22"/>prius origine generat quam spirat. quia pater sicut
+      ha<lb ed="#L" n="23" break="no"/>bet generare a se. ita habet spirare a se. cum ista 
+      <lb ed="#L" n="24"/>tamen prioritate stat ordo personarum inter se praecise
+      si<lb ed="#L" n="25" break="no"/>ne omni ordine in producendo. et isto modo intelli 
+      <lb ed="#L" n="26"/>gunt omnes sancti: videlicet beatus augustinus quando 
+      <lb ed="#L" n="27"/>dicit: quod spiritus sanctus principaliter procedit a patre.
+      Si<lb ed="#L" n="28" break="no"/>militer hiero. quod spiritus sanctus procedit a patre per fi 
+      <lb ed="#L" n="29"/>lium. et idem dicit hilus. similiter Rich. quando dicit: quod spiritus
+      san<lb ed="#L" n="30" break="no"/>ctus procedit a patre mediate et immediate. a
+      fi<lb ed="#L" n="31" break="no"/>lio aut immediate tantum. omnes enim intelligunt: quod pater 
+      <lb ed="#L" n="32"/>a nullo habet quod spiret. et ita principaliter et non 
+      <lb ed="#L" n="33"/>per alium. filius autem habet spirare ab alio et ita non 
+      <lb ed="#L" n="34"/>principaliter. quia non a se sed per alium quia per patrem tanquam per 
+      <lb ed="#L" n="35"/>principium communicans sibi spirare. et quia non producit 
+      <lb ed="#L" n="36"/>aliquem spiranter spiritus sanctum ideo producit tntam spiritus sanctus media 
+      <lb ed="#L" n="37"/>te. Pater autem quia non tantum per se et proprie produ scim spiritisa 
+      <lb ed="#L" n="38"/>sed etiam producit producent spiritus sanctus non tantum produ sci spiritusan 
+      <lb ed="#L" n="39"/>mmediate sed etiam mediate.
+    </p>
+            <p xml:id="wo8uy7-d1e918-d1e451">
+      ⁋ Ad argumentum prin 
+      <lb ed="#L" n="40"/>cipale patet quod quantumcumque duo quorum vnum est prius 
+      <lb ed="#L" n="41"/>alio producant idem productum: non oportet quod no vni 
+      <lb ed="#L" n="42"/>formiter producant. nec oportet quod principium prius prodi 
+      <lb ed="#L" n="43"/>cat nisi secundum quod excludit vniformiter ordine perso 
+      <lb ed="#L" n="44"/>narum producentium. et concessum est quod omnes spirant 
+      <lb ed="#L" n="45"/>vniformiter.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

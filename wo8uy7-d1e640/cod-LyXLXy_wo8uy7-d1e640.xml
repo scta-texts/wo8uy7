@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Ockham">Ockham</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-09-10">September 10, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="146-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="wo8uy7-d1e640"><!-- l1d6q1 -->
+            <head xml:id="wo8uy7-d1e640-Hd1e108">Quaestio 1</head>
+            <p xml:id="wo8uy7-d1e640-d1e111">
+               <lb ed="#L" n="102"/>⁋ Distinctio. vi. Questio vnica 
+      <lb ed="#L" n="103"/>Irca distinctio 
+      <lb ed="#L" n="104"/>nem sextam quero
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e120">
+      ⁋ Utrum
+      p<lb ed="#L" n="105" break="no"/>ter genuit filium natura an vo 
+      <lb ed="#L" n="106"/>luntate. Et videtur quod volunta 
+      <lb ed="#L" n="107"/>te. quia omne productum secundum
+      ra<lb ed="#L" n="108" break="no"/>tionem exemplaris producitur
+      volun<lb ed="#L" n="109" break="no"/>tate. filius est huiusmodi. ergo etc. Maior patet. 
+      <!--296.xml-->
+      <pb ed="#L" n="147-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quia exemplar non habet rationem principii. nisi concurrem 
+      <lb ed="#L" n="2"/>te voluntate.  Minor patet. quia filius est praecognitus 
+      <lb ed="#L" n="3"/>et praeuolitus sed omne tale producitur secundum rationem 
+      <lb ed="#L" n="4"/>exemplaris. Assumptum patet. quia in primo signo or 
+      <lb ed="#L" n="5"/>ginis pater intelligit et diligit omne quod est sum 
+      <lb ed="#L" n="6"/>me diligendum. ergo filium.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e153">
+      ⁋ Ad oppositum quod pro 
+      <lb ed="#L" n="7"/>ducitur voluntate producitur contingenter deus non 
+      <lb ed="#L" n="8"/>producitur contingenter. ergo etc.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e160">
+      ⁋ Ad questionem dicitur quo 
+      <lb ed="#L" n="9"/>piter naturaliter genuit filium non voluntate
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e166">
+      ⁋ Primum 
+      <lb ed="#L" n="10"/>declaratur. quia divina essentia est principium omnium
+      actu<lb ed="#L" n="11" break="no"/>um diuinorum. licet essentia sub ratione essentie non dicat 
+      <lb ed="#L" n="12"/>principium actus qui est operatio sed qui est esse. sed  
+      <lb ed="#L" n="13"/>cum in essentia sit diuersa considerare attributa. esg 
+      <lb ed="#L" n="14"/>sunt in ipsa realiter vnum. ratione tamen distincta. Actus 
+      <lb ed="#L" n="15"/>refertur ad essentiam secundum hoc attributum vel illud. 
+      <lb ed="#L" n="16"/>secundum quod exigit conditio actus. sicut intelligere est ab 
+      <lb ed="#L" n="17"/>essentia divina inquantum ipsa est intellectus et res 
+      <lb ed="#L" n="18"/>volite que possunt esse vel non esse producuntur ab 
+      <lb ed="#L" n="19"/>essentia inquantum ipsa est voluntas. Et quia de ratione 
+      <lb ed="#L" n="20"/>generationis est vt producatur genitum in similitudinem 
+      <lb ed="#L" n="21"/>generantis. et hoc productonis principium pertinet 
+      <lb ed="#L" n="22"/>ad naturam cuius est ex similibus similia producere. 
+      <lb ed="#L" n="23"/>ideo dicitur quod pater natura generat filium. Secundum
+      decla<lb ed="#L" n="24" break="no"/>ratur quod aliquid esse vel fieri voluntate dupliciter potest 
+      <lb ed="#L" n="25"/>intelligi. Uno modo vt ablatiuus designat
+      con<lb ed="#L" n="26" break="no"/>comitantiam tantum. sicut ego possum dicere quod ego 
+      <lb ed="#L" n="27"/>sum homo mea voluntate. quia scilicet volo me esse
+      ho<lb ed="#L" n="28" break="no"/>minem. et hoc modo potest dici quod pater generat filium 
+      <lb ed="#L" n="29"/>voluntate. sicut est deus voluntate. quia vult se esse 
+      <lb ed="#L" n="30"/>deum. et vult se generare. Alio modo sic quod ablatiuus 
+      <lb ed="#L" n="31"/>importat habitudinem principii secundum quod artifex opi 
+      <lb ed="#L" n="32"/>ratur voluntate. quia voluntas est principium operatio 
+      <lb ed="#L" n="33"/>nis. et secundum hunc modum dicimus quod deus pater non 
+      <lb ed="#L" n="34"/>genuit filium voluntate. sed voluntate produxit 
+      <lb ed="#L" n="35"/>creaturam. Unde in libro de svnodis dicitur. Si quaes 
+      <lb ed="#L" n="36"/>voluntate dei tanquam vnum aliquid de creaturis
+      fili<lb ed="#L" n="37" break="no"/>um factum dicat. anathema sit. Cuius ratio est. quia 
+      <lb ed="#L" n="38"/>voluntas et natura secundum hoc differunt in causando 
+      <lb ed="#L" n="39"/>qui natura determinata est ad vnum. sed voluntas 
+      <lb ed="#L" n="40"/>non. Cuius est ratio. quia effectus assimilatur forme age 
+      <lb ed="#L" n="41"/>tis per quam agit. manifestum autem est quod vnius rei non 
+      <lb ed="#L" n="42"/>est nisi vna forma naturalis per quam res habet esse. 
+      <lb ed="#L" n="43"/>Unde quale ipsum est tale facit. sed forma per quan 
+      <lb ed="#L" n="44"/>voluntas agit non est vna tantum. sed sunt plures rationes 
+      <lb ed="#L" n="45"/>intellecte. Unde quod voluntate agitur non tale 
+      <lb ed="#L" n="46"/>est quale est agens. sed quale agens vult et inten 
+      <lb ed="#L" n="47"/>dit illud esse. ergo voluntas est principium eorum que possunt 
+      <lb ed="#L" n="48"/>sic vel aliter esse. eorum autem que non possunt nisi sic esse 
+      <lb ed="#L" n="49"/>natura est principium. quod autem potest sic vel aliter 
+      <lb ed="#L" n="50"/>esse longe est a natura diuina. sed hoc pertinet ad 
+      <lb ed="#L" n="51"/>rationem creature. ideo dicendum quod pater genuit filium 
+      <lb ed="#L" n="52"/>non voluntate sed natura. Unde hvlarius dicit 
+      <lb ed="#L" n="53"/>li. de svnodis. omnibus creaturis substantiam vo 
+      <lb ed="#L" n="54"/>luntas dei attulit. sed naturam filio dedit. ex im 
+      <lb ed="#L" n="55"/>passibili autem non nata substantia perfecta natitas 
+      <!--296.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 147-r -->
+               <lb ed="#L" n="56"/>talia enim cum vita creata sunt qualia deus esse vo 
+      <lb ed="#L" n="57"/>luit. filius autem natus ex deo talis subsistit qua 
+      <lb ed="#L" n="58"/>lis est deus.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e281">
+      ⁋ Iste modus ponendi quicquid sit de 
+      <lb ed="#L" n="59"/>conclusione cotinet multa falsa et absurda. Pri 
+      <lb ed="#L" n="60"/>mo falsum est quod dicit. quod essentia sub ratione essentie 
+      <lb ed="#L" n="61"/>non dicit principium actus qui est operatio. sed quai est 
+      <lb ed="#L" n="62"/>esse. quia quando aliqua sunt vnum et ide omnibus modis 
+      <lb ed="#L" n="63"/>ex parte rei. vnum non est principium alterius. sed essen est 
+      <lb ed="#L" n="64"/>tia et esse secundum istum sunt vnum in deo omnibus modit 
+      <lb ed="#L" n="65"/>ex natura rei. ergo essentia non est principium esse 
+      <lb ed="#L" n="66"/>plus quam econuerso.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e301">
+      ⁋ Si dicatur quod differunt ratione
+      Con<lb ed="#L" n="67" break="no"/>tra hoc argutum est prius. quia sic nulla res differt 
+      <lb ed="#L" n="68"/>ab aliquo reali. ergo differentia ationis quecumque non
+      fa<lb ed="#L" n="69" break="no"/>cit quod essentia quae est infinita in perfectione. sit princi 
+      <lb ed="#L" n="70"/>pium esse quod est infinitum.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e312">
+      ⁋ Preterea. quando aliqua differunt 
+      <lb ed="#L" n="71"/>sola ratione et nullo modo ex parte rei. nec quecumque di 
+      <lb ed="#L" n="72"/>stinctio ex parte rei illis correspondet. non est plus 
+      <lb ed="#L" n="73"/>vnum principium alterius quam ecouerso. quia ista prin 
+      <lb ed="#L" n="74"/>cipiatio in vno respectu alterius ex nullo in re 
+      <lb ed="#L" n="75"/>exurgere potest. nec ex seipsis. manifestum est. ergo etc. 
+      <lb ed="#L" n="76"/>nullo igitur modo essentia diuina est principium esse 
+      <lb ed="#L" n="77"/>quod est realiter ipse deus
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e330">
+      ⁋ Secundo est simpliciter fal 
+      <lb ed="#L" n="78"/>sum quod dicit. quod in essentia sunt diuersa
+      attribu<lb ed="#L" n="79" break="no"/>ta que sunt vnum realiter et distincta ratione. quia
+      impossi<lb ed="#L" n="80" break="no"/>bile est quod aliqua quae sunt vnum realiter distinguantur 
+      <lb ed="#L" n="81"/>ratione sicut ostensum est prius. Et si proteruiatur quod ex 
+      <lb ed="#L" n="82"/>hoc ipso quod conceditur quod aliqua sunt vnum realit
+      se<lb ed="#L" n="83" break="no"/>quatur. quod aliquo modo distinguntur. et non realiter. ergo 
+      <lb ed="#L" n="84"/>ratione. Assumptum patet. quia ex hoc ipso quod dicitur aliqua esse 
+      <lb ed="#L" n="85"/>vnum realiter conceditur illa esse aliquo modo plura. quia 
+      <lb ed="#L" n="86"/>aliter non posset dici quod essent aliqua. et non sunt
+      plu<lb ed="#L" n="87" break="no"/>ra realiter. ergo sunt plura secundum rationem. ergo
+      distingum<lb ed="#L" n="88" break="no"/>tur secundum rationem. Ista proteruia nihil valet. quia quando di 
+      <lb ed="#L" n="89"/>citur quod aliqua sunt vnum realiter. non debet intelligi quod il 
+      <lb ed="#L" n="90"/>la propositio sit vnus actus exercitatus. quia tunc esset 
+      <lb ed="#L" n="91"/>propositio simplicitur falsa. quia nulla sunt vnum rea 
+      <lb ed="#L" n="92"/>liter. Ista vniversalis patet inductiue. quibuscumque demon 
+      <lb ed="#L" n="93"/>stratis quod ista non sunt vnum realiter. Et si proteruias 
+      <lb ed="#L" n="94"/>quod demostro sortem et sortem album. et dico quod ista sunt 
+      <lb ed="#L" n="95"/>vnum realiter. hoc non valet. quia demonstrado sortem 
+      <lb ed="#L" n="96"/>et sortem album. ista est fusa secundum quod est actus exercitatus. 
+      <lb ed="#L" n="97"/>ista sunt vnum. propter falsum implicitum: quia non sunt 
+      <lb ed="#L" n="98"/>aliqua. sed vnum et aliquid vnum. Si dicatur. sortes et
+      sor<lb ed="#L" n="99" break="no"/>tes albus sunt et sunt aliquid per te. sed de nllo vno 
+      <lb ed="#L" n="100"/>potest verbum pluralis numeri verificari. ergo oporter 
+      <lb ed="#L" n="101"/>quod sortes et sortes albus sint aliquo modo plura. 
+      <lb ed="#L" n="102"/>hoc non valet. quia ad hoc quod verbum pluralis
+      nu<lb ed="#L" n="103" break="no"/>meri maxime quando est compulativa et aliquid sequitur ve 
+      <lb ed="#L" n="104"/>rificetur. sufficit quod a parte subiecti ponantur plura 
+      <lb ed="#L" n="105"/>vel saltem sufficit vnum compulatum. et tunc potest
+      propo<lb ed="#L" n="106" break="no"/>sitio esse vera. si compulatiua sit vera. et ideo ptest
+      con<lb ed="#L" n="107" break="no"/>cedi sortes et sortes albus sunt aliquid. quia sortes 
+      <lb ed="#L" n="108"/>est aliquid. et similiter sortes albus est aliquid. et 
+      <lb ed="#L" n="109"/>ita est falsa ista demonstrando sortem et sorte album 
+      <lb ed="#L" n="110"/>sunt plura vel sunt aliqua. secundum quod est actus exerci 
+      <!--297.xml-->
+      <pb ed="#L" n="147-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tatus. tamen secundum quod per esse intelligitur vnus actus 
+      <lb ed="#L" n="2"/>signatus sic est vera. et est ista propositio de istis
+      ter<lb ed="#L" n="3" break="no"/>minis sortes et sortes albus vere praedicatur esse 
+      <lb ed="#L" n="4"/>vnum realiter. et tunc actus exercitatus correspondens 
+      <lb ed="#L" n="5"/>erit iste. sortes et sortes albus sunt vnum realiter. e 
+      <lb ed="#L" n="6"/>hoc satis insinuat philosophus primo tho. docens quae sunt 
+      <lb ed="#L" n="7"/>idem et vnum numero. dicit sic. numero quid scilicet sunt 
+      <lb ed="#L" n="8"/>idem quorum nomina plura. res autem vna. vt tunica 
+      <lb ed="#L" n="9"/>et vestis. hoc est dictum de illis nominibus vere pre 
+      <lb ed="#L" n="10"/>dicatur esse idem numero. que licet sint diuersa no 
+      <lb ed="#L" n="11"/>mina. et per consequens illa nomina non sunt idem numero. 
+      <lb ed="#L" n="12"/>tamen res importata est vna numero. et ideo est hec 
+      <lb ed="#L" n="13"/>vera. tunica et vestis sunt vnum numero secundum quod 
+      <lb ed="#L" n="14"/>tunica et vestis sumuntur significatiue. et ista est 
+      <lb ed="#L" n="15"/>vera. tunica et vestis sunt plura nomina et non
+      plu<lb ed="#L" n="16" break="no"/>res sed vna res secundum quod sumuntur materialiter. et ita 
+      <lb ed="#L" n="17"/>de eis nominibus praedicantur contradictoria propter
+      diuersi<lb ed="#L" n="18" break="no"/>tatem suppsonis. et hoc est possibile et aliter non 
+      <lb ed="#L" n="19"/>Et eodem modo proportionabiliter est de conceptibus 
+      <lb ed="#L" n="20"/>quod de ipsis distinctis et qui non sunt vna res vere 
+      <lb ed="#L" n="21"/>praedicatur esse vnum. non pro se sed pro eadem re
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e456">
+      ⁋ Et isto 
+      <lb ed="#L" n="22"/>modo de attributrs diuinis vere praedicatur essentia 
+      <lb ed="#L" n="23"/>et vnitas realis. quantumcumque ipsa attributa non sunt 
+      <lb ed="#L" n="24"/>realiter diuina essentia. quia sunt quidam conceptus quae 
+      <lb ed="#L" n="25"/>non sunt ipse deus. et ideo actus exercitatus
+      cor<lb ed="#L" n="26" break="no"/>respondens non debet esse iste. attributa sunt vnum 
+      <lb ed="#L" n="27"/>realiter. sed iste: intellectus diuinus et sapientia 
+      <lb ed="#L" n="28"/>diuina et voluntas diuina sunt realiter et formaliu 
+      <lb ed="#L" n="29"/>et omimodo ipsa diuina essentia. ita quod est hec vera 
+      <lb ed="#L" n="30"/>intellectus diuinus est diuina essentia. et tamen 
+      <lb ed="#L" n="31"/>illud quod subiicitur hoc non est diuina essentia. 
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e481">
+               <lb ed="#L" n="32"/>⁋ Ex istis sequitur quod illud quod tertio dicit est fal 
+      <lb ed="#L" n="33"/>sum. scilicet quod actus refertur ad essentiam secundum hoc
+      attri<lb ed="#L" n="34" break="no"/>butum vel illud. quia nullum attributum est illud cui 
+      <lb ed="#L" n="35"/>primo vel non primo conuenit actus diuinus quicunque 
+      <lb ed="#L" n="36"/>qui ipsum attributum non est nisi ratio tantum. et non est
+      rea<lb ed="#L" n="37" break="no"/>liter deus. quia intellectus diuinus qui non est
+      attri<lb ed="#L" n="38" break="no"/>butum. sed ipsamet essentia realiter et formaliter ille 
+      <lb ed="#L" n="39"/>est principium actus notionalis et non est illud at 
+      <lb ed="#L" n="40"/>tributum.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e503">
+      ⁋ Quarto falsum est quod dicit. quod
+      intel<lb ed="#L" n="41" break="no"/>ligere est ab essentia diuina. inquantum ipsa est
+      in<lb ed="#L" n="42" break="no"/>tellectus. quia intelligere nullo modo est ab
+      essen<lb ed="#L" n="43" break="no"/>tia. cum sit ipsa diuina essentia omnibus modis ex 
+      <lb ed="#L" n="44"/>natura rei. et ita non plus est intelligere diuinum 
+      <lb ed="#L" n="45"/>ab essentia diuina quam essentia diuina ab
+      intelli<lb ed="#L" n="46" break="no"/>gere divino.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e519">
+      ⁋ Si dicatur quod intelligere est actus 
+      <lb ed="#L" n="47"/>secundus. ergo saltem secundum modummostrum
+      intelli<lb ed="#L" n="48" break="no"/>gendi est ab essentia tanquam ab actu primo.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e526">
+      ⁋ Dicon 
+      <lb ed="#L" n="49"/>quod intelligere diuinum non est actus secundus plus 
+      <lb ed="#L" n="50"/>quam essentia diuina. et ideo non est ab essentia
+      di<lb ed="#L" n="51" break="no"/>uina. nisi secundum modum intelligendi falsum. quia 
+      <lb ed="#L" n="52"/>attribuit rei illud quod sibi repugnat. Unde 
+      <lb ed="#L" n="53"/>intelligere quod est deusipse simpliciter repugnat 
+      <lb ed="#L" n="54"/>esse a quocumque. secundum quemcumque modum intelligendi. 
+      <lb ed="#L" n="55"/>quamuis aliquis circa hoc habuerit falsum modum 
+      <!--297.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 147-v -->
+               <lb ed="#L" n="56"/>intelligendi.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e552">
+      ⁋ Quinto dicit falsum in secundo ar 
+      <lb ed="#L" n="57"/>ticulo. Ubi dicit quod voluntas et natura differuni 
+      <lb ed="#L" n="58"/>in causando. quia natura est determinata ad vnum 
+      <lb ed="#L" n="59"/>non sic voluntas. quia hoc non potest habere nisi
+      dupli<lb ed="#L" n="60" break="no"/>cem intellectum. Uel quod natura non potest agere nisi 
+      <lb ed="#L" n="61"/>vnum. voluntas autem plura. Uel quod natura non ha 
+      <lb ed="#L" n="62"/>bet in ptante sua agere vel non agere et voluntas 
+      <lb ed="#L" n="63"/>habet. Primus intellectus est falsus. quia sol produ 
+      <lb ed="#L" n="64"/>cit plures effectus et in eodem sicut patet. quia
+      cale<lb ed="#L" n="65" break="no"/>facit et illuminat. et in diuersis. sicut patet ma 
+      <lb ed="#L" n="66"/>nifeste.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e576">
+      ⁋ Preterea. si voluntas tantum posset in vnum 
+      <lb ed="#L" n="67"/>tamen contingentur sic quod haberet in ptante sua ferri in 
+      <lb ed="#L" n="68"/>illud vel non ferri in illud. adhuc sufficienter
+      di<lb ed="#L" n="69" break="no"/>stingueretur a natura in causando. ergo quia natu 
+      <lb ed="#L" n="70"/>ra possit tantum in vnum. et voluntas in plura. non fa 
+      <lb ed="#L" n="71"/>cit per se ad hoc quod distinguantur in modo causan 
+      <lb ed="#L" n="72"/>di.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e593">
+      ⁋ Similiter si dicas quod voluntas potest in plu 
+      <lb ed="#L" n="73"/>ra non autem natura. Aut intelligis quod potest in
+      plu<lb ed="#L" n="74" break="no"/>res volitiones. vel in plures actus sequentes vo 
+      <lb ed="#L" n="75"/>litionem. Non primo modo. quia respectu istarum secundum 
+      <lb ed="#L" n="76"/>istos voluntas est tantum passiua non actiua. sed
+      natu<lb ed="#L" n="77" break="no"/>ra potest in multa passiue. quia a diuersis potest
+      reci<lb ed="#L" n="78" break="no"/>pere diuersa. sicut voluntas a diuersis obiectis 
+      <lb ed="#L" n="79"/>recipit volitiones. ergo per hoc non distinguitur a 
+      <lb ed="#L" n="80"/>natura in modo causandi. Si secundo modo. et in
+      il<lb ed="#L" n="81" break="no"/>los actus exteriores non fertur voluntas nisi me 
+      <lb ed="#L" n="82"/>diante actu interiori. ergo voluntas non potest in plu 
+      <lb ed="#L" n="83"/>ra nisi per diuersa in ea recepta. sed sic potest natu 
+      <lb ed="#L" n="84"/>ra in plura. quia idem subiectum habens diuersa prin 
+      <lb ed="#L" n="85"/>cipia actiua potest in diuersa.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e624">
+      ⁋ Si dicatur quod voli 
+      <lb ed="#L" n="86"/>tio non est principium eliciendi actum exteriorem sed  
+      <lb ed="#L" n="87"/>sola voluntas. Contra. sicut frequenter est
+      acce<lb ed="#L" n="88" break="no"/>ptum. omne absolutum necessario secundum cursum
+      natu<lb ed="#L" n="89" break="no"/>re praesuppositum effectui: est causa illius in aliquo 
+      <lb ed="#L" n="90"/>genere cause. sed ista volitio necessario
+      praesuppo<lb ed="#L" n="91" break="no"/>nitur effectui secundum cursum nature. ergo est causa 
+      <lb ed="#L" n="92"/>in aliquo genere. Aut potest illa differentia inter
+      natu<lb ed="#L" n="93" break="no"/>ram et voluntatem intelligi secundo modo secundum istum. quia secundum 
+      <lb ed="#L" n="94"/>eum voluntas non potest in aliquid nisi iudicatum ab in 
+      <lb ed="#L" n="95"/>tellectu. ita quod secundum veritatem iudiciorum in intelle 
+      <lb ed="#L" n="96"/>ctu est varietas in voluntate. ergo prima indtera 
+      <lb ed="#L" n="97"/>non est in voluntate sed in intellectu. et itaque proba 
+      <lb ed="#L" n="98"/>ret quod intellectus non esset principium productiuum 
+      <lb ed="#L" n="99"/>sicut quod voluntas.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e657">
+      ⁋ Preterea. voluntas est princi 
+      <lb ed="#L" n="100"/>pium producendi spictumsecantum. et tamen necessario. ergo ita po 
+      <lb ed="#L" n="101"/>terit esse principium producendi filium. quamuis neccessario 
+      <lb ed="#L" n="102"/>ergo voluntas non est tantum principium eorum que possunt 
+      <lb ed="#L" n="103"/>sic et aliter esse: sed etiam alicuius quod neccessario est. ergo 
+      <lb ed="#L" n="104"/>per hoc non potest plus probari quod voluntas non est
+      prin<lb ed="#L" n="105" break="no"/>cipium producedi filium quam sprmtusctantum.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e673">
+      ⁋ Preterea.
+      vo<lb ed="#L" n="106" break="no"/>luntas secundum eum respectu finis neccessario determinatur 
+      <lb ed="#L" n="107"/>ergo illa differentia no valet.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e680">
+      ⁋ Sexto. falsum est quod
+      di<lb ed="#L" n="108" break="no"/>cit vel non est ad propositum. scilicet quod effectus
+      assimula<lb ed="#L" n="109" break="no"/>tur forme agentis per quam agit. quia quero. Aut 
+      <lb ed="#L" n="110"/>ista assimulatio est in genere aut in specie. aut in¬ 
+      <!--298.xml-->
+      <pb ed="#L" n="148-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>feriori siue sit analogum siue non 
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e698">
+      ⁋ Primo modo non 
+      <lb ed="#L" n="2"/>qui sol agit naturaliter multos effectus qui non habent 
+      <lb ed="#L" n="3"/>formam eiusdem rationis cum forma solis
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e706">
+      ⁋ Simiiiter 
+      <lb ed="#L" n="4"/>nec secundo modo. quia substantia est causa accidentis et si 
+      <lb ed="#L" n="5"/>militer secundum eum ecouerso accidens est causa substantie 
+      <lb ed="#L" n="6"/>non tamen causa accidentalis sed per se causa per illam propositionem 
+      <lb ed="#L" n="7"/>omnie absolutum neccessario praesuppositum effectui est per 
+      <lb ed="#L" n="8"/>se causa illius in aliquo genere cause
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e719">
+      ⁋ Si intelligatur 
+      <lb ed="#L" n="9"/>tertio modo. ita effectus assimilat forme per quam 
+      <lb ed="#L" n="10"/>voluntas agit. sicut forme agentis naturalis. quia 
+      <lb ed="#L" n="11"/>certum est quod tam forma quam voluntas agit. quanuis 
+      <lb ed="#L" n="12"/>effectus est ens reale et per se in aliquo genere salte 
+      <lb ed="#L" n="13"/>quatum ad multos effectus. hoc etiam patet. vii. 
+      <lb ed="#L" n="14"/>meth. vbi probat philosophus. quod in generatione artis est
+      produ<lb ed="#L" n="15" break="no"/>etio aliquo modo vniuoca.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e737">
+      ⁋ Preterea quod 
+      <lb ed="#L" n="16"/>quod vnius rei non est nisi vna forma naturalis. aut 
+      <lb ed="#L" n="17"/>intelligit de forma accidentali aut substantiali. 
+      <lb ed="#L" n="18"/>Non de forma substantiali. Tum quia ille multe sunt. 
+      <lb ed="#L" n="19"/>Tum quia respectu multarum operationum illa non est 
+      <lb ed="#L" n="20"/>principium et ratio agendi. sed accidentalis. Nec de ad 
+      <lb ed="#L" n="21"/>cidentali. Tum quia multe sunt forme accidentales 
+      <lb ed="#L" n="22"/>vnius rei. Tum quia illi forme frequenter non
+      assi<lb ed="#L" n="23" break="no"/>milatur effectus sed magis principaliter ipsi forme 
+      <lb ed="#L" n="24"/>substantiali.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e759">
+      ⁋ Preterea quod dicit quod agens natura. 
+      <lb ed="#L" n="25"/>est facit quale ipsum est. si dicatur secundum formam specie 
+      <lb ed="#L" n="26"/>ficam. hoc est simpliciter falsum. quia tunc sol non faceret 
+      <lb ed="#L" n="27"/>nisi solem. Si secundum genus vel secundum aliquod superius. hoc est 
+      <lb ed="#L" n="28"/>certum quod agens naturale facit rem naturalem. et 
+      <lb ed="#L" n="29"/>hoc potest concedi. sed nihil ad propositum. quia ita
+      vo<lb ed="#L" n="30" break="no"/>luntas facit vnam rem realem.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e775">
+      ⁋ Preterea quod dicit 
+      <lb ed="#L" n="31"/>quod forma per quandam voluntas agit non est tantum vna. sed  
+      <lb ed="#L" n="32"/>plures rationes intellecte. et ideo non determinatur ad  
+      <lb ed="#L" n="33"/>vnum. Contra rationes aut sunt plura entia realia. 
+      <lb ed="#L" n="34"/>aut plura entia rationis. si sint plura etia realia. 
+      <lb ed="#L" n="35"/>et omne ens reale aliud a voluntate naturaliter 
+      <lb ed="#L" n="36"/>respicit esse producipberse ab illo alio cuius est ratio pro 
+      <lb ed="#L" n="37"/>ducendi. ergo illa que fiunt a voluntate mediantibus 
+      <lb ed="#L" n="38"/>illis rationibus ita naruraliter fierent sicut quecumque 
+      <lb ed="#L" n="39"/>alia. Similiter tunc voluntas non esset magis
+      indetermi<lb ed="#L" n="40" break="no"/>nata quam quodcumque quod potest recipere diuersa princi 
+      <lb ed="#L" n="41"/>pia agendi vel quam sol qui potest cum diuersis causis 
+      <lb ed="#L" n="42"/>particularitur concurrere ad diuersos effectus. et cum 
+      <lb ed="#L" n="43"/>diuersis materiis concurrit ad effectus contrarios 
+      <lb ed="#L" n="44"/>Similiter si voluntas haberet tantum vnam rationem intellectiuam 
+      <lb ed="#L" n="45"/>posset agere et non agere. ad hoc ergo non facit
+      plu<lb ed="#L" n="46" break="no"/>ralitas rationum
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e812">
+      ⁋ Atecedens patet. quia aliter non esset maior 
+      <lb ed="#L" n="47"/>indifferentia in voluntate quam in appetitum sensiti 
+      <lb ed="#L" n="48"/>uo. quia appetitus sensitiuus secundum diuersas dispo 
+      <lb ed="#L" n="49"/>sitiones corporis potest in diuersa. Unde illud 
+      <lb ed="#L" n="50"/>idem quod prosequitur quando est in vna dispositone. 
+      <lb ed="#L" n="51"/>fugit quando est in alia. et econuerso.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e826">
+      ⁋ Si dicatur quod 
+      <lb ed="#L" n="52"/>ille rationes intellecte sunt diuersa entia rationis. 
+      <lb ed="#L" n="53"/>Contra. ens rationis non est principium entis realis 
+      <lb ed="#L" n="54"/>quamuis aliquando inquiritur quod sit cognitum. et tunc 
+      <lb ed="#L" n="55"/>ipsa cognitio est principium agendi et non ipsum 
+      <!--298.xml-->
+      <cb ed="#L" n="b"/>
+               <!-- 148-r -->
+               <lb ed="#L" n="56"/>cognitum. Similiter ens rationis si principiat. ita 
+      <lb ed="#L" n="57"/>naturaliter est ratio principiandi sicut quodcumque 
+      <lb ed="#L" n="58"/>ens reale. ergo illa indterna non potest esse propter
+      diuer<lb ed="#L" n="59" break="no"/>sas rationes quaescumque intellectas. sed est primo ipsius 
+      <lb ed="#L" n="60"/>voluntatis. que absque habitis quibuicumque
+      rationi<lb ed="#L" n="61" break="no"/>bus potest hoc et suum oppositum.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e857">
+      ⁋ Ido dico consequenter 
+      <lb ed="#L" n="62"/>ad praecedentia. quod sic dicendo pat genuit filium vo 
+      <lb ed="#L" n="63"/>luntate. lu voluntate potest teneri aduerbialiter. et hoc 
+      <lb ed="#L" n="64"/>duplicit vel secundum quod est idem quod voluntarie. Uel secundum 
+      <lb ed="#L" n="65"/>quod est idem quod contingenter. Primo modo idem
+      est<lb ed="#L" n="66" break="no"/>deus genuit filium voluntate. et volens genuit vel 
+      <lb ed="#L" n="67"/>voluit generare. et sic est concedendum quod deus ge 
+      <lb ed="#L" n="68"/>nuit filium voluntate. Secundo modo dico quod pater no 
+      <lb ed="#L" n="69"/>genuit filium voluntate. quia non genuit filium
+      contin<lb ed="#L" n="70" break="no"/>genter. et sub illo intellectu tractat magister
+      sen<lb ed="#L" n="71" break="no"/>tentiarum istam questionem. An pater genuit filium 
+      <lb ed="#L" n="72"/>voluntate. hoc patet per magistrum lid ist distinctione 
+      <lb ed="#L" n="73"/>quinta. Ubi dicit sic. Uerba quibus dictum est quod 
+      <lb ed="#L" n="74"/>deus pater nec volens nec nolens est deus. nec no 
+      <lb ed="#L" n="75"/>lens nec volens genuit filium. sine voluntate vel 
+      <lb ed="#L" n="76"/>necessitate ex tali sensu mihi videntur
+      accipien<lb ed="#L" n="77" break="no"/>da. vt voluntatem precedentem vel accedentem sup 
+      <lb ed="#L" n="78"/>ple patri de nouo intelligamus. qualiter
+      euno<lb ed="#L" n="79" break="no"/>mius intelligebat. non enim ipse est deus
+      volunta<lb ed="#L" n="80" break="no"/>te. voluntate precedente vel efficiente. vel volens 
+      <lb ed="#L" n="81"/>prius quam deus. nec voluntate praecedente vel
+      acceden<lb ed="#L" n="82" break="no"/>te genuit filium. Nec prius volens quam generans ge 
+      <lb ed="#L" n="83"/>nuit filium. Uolens tamen genuit sicut potens genuit 
+      <lb ed="#L" n="84"/>et sapies genuit. et bonus genuit. et huiusmodi. Sic 
+      <lb ed="#L" n="85"/>intetio quaestionis secundum quod eam sancti contra
+      hereti<lb ed="#L" n="86" break="no"/>cos acceperunt est querere. An pater
+      continge<lb ed="#L" n="87" break="no"/>ter ita quod prius fuit volens et deliberauit an
+      de<lb ed="#L" n="88" break="no"/>beret generare genuit filium. Uel quod de nouo 
+      <lb ed="#L" n="89"/>habuit voluntate generandi. et tunc genuit et non 
+      <lb ed="#L" n="90"/>ante. quia ante non habuit talem voluntatem. et sic
+      di<lb ed="#L" n="91" break="no"/>co cum magistro et sanctis quod pater non genuit
+      fi<lb ed="#L" n="92" break="no"/>lium voluntate. Uolens tamen genuit.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e927">
+      ⁋ Secundo dico euo 
+      <lb ed="#L" n="93"/>iy voluntate potest teneri nominaliter. et hoc duplici 
+      <lb ed="#L" n="94"/>ter. quia iste ablatiuus potest construi in ratione alicuius 
+      <lb ed="#L" n="95"/>formaliter denominantis. sicut dicimus quod hic est 
+      <lb ed="#L" n="96"/>albus albedine. et calor calefacit calefactione 
+      <lb ed="#L" n="97"/>et potest construi in ratione alicuius principii. sicut
+      di<lb ed="#L" n="98" break="no"/>cimus quod ignis calefacit calore et vuibile
+      ali<lb ed="#L" n="99" break="no"/>quod disgregat albedine. quia calor est principium 
+      <lb ed="#L" n="100"/>elicitiuum calefactionis et albedo disgregatonis 
+      <lb ed="#L" n="101"/>Primo modo dico quod pater non genuit iilium vo 
+      <lb ed="#L" n="102"/>lutate. nec intellectu. nec natura sed generatio 
+      <lb ed="#L" n="103"/>ne
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e953">
+      ⁋ Non enim dicitur deus denominatiue generans a 
+      <lb ed="#L" n="104"/>voluntate. sicut dicitur aliquis a fortitudine
+      for<lb ed="#L" n="105" break="no"/>tis. et a calore calidus. sed dicitur a generatione 
+      <lb ed="#L" n="106"/>generans. sicut dicitur a calefactione calefaciens. 
+      <lb ed="#L" n="107"/>Secundo modo sic tractare questionem magis spe 
+      <lb ed="#L" n="108"/>ctat ad sequentem distinctionem. ideo relinquatur 
+      <lb ed="#L" n="109"/>vsque alias. Ad argumentum principale dico quod 
+      <lb ed="#L" n="110"/>filius non est praeuolitus. nec praecognitus ante pro 
+      <!--299.xml-->
+      <pb ed="#L" n="148-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ductionem et maxime tali precognitione et pre 
+      <lb ed="#L" n="2"/>uolitione qualis requiritur ad hoc quod aliquid
+      pro<lb ed="#L" n="3" break="no"/>ducatur secundum exemplar.
+    </p>
+            <p xml:id="wo8uy7-d1e640-d1e984">
+      ⁋ Argumentum in oppo 
+      <lb ed="#L" n="4"/>situm procedit de voluntate secundum quod est idem quod con 
+      <lb ed="#L" n="5"/>tingenter vel de voluntate includente nouitatem
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
