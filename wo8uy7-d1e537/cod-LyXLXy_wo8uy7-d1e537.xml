@@ -1,386 +1,405 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 9</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 9</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="135-v"/>
-            <cb ed="#L" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e537"><!-- l1d3q9 -->
-            <head xml:id="wo8uy7-d1e537-Hd1e108">Quaestio 9</head>
-            <p xml:id="wo8uy7-d1e537-d1e111">
-      Questio nona 
-      <lb ed="#L" n="66"/>UTrum in omni 
-      crea<lb ed="#L" n="67" break="no"/>tura sit vestigium trinitatis. Quod non 
-      <lb ed="#L" n="68"/>qui in illo quod est vestigium trinita 
-      <lb ed="#L" n="69"/>tis inueniuntur tria. sicut in trinita 
-      <lb ed="#L" n="70"/>te sunt tres persone. sed aliqua est creatura
-      sim<lb ed="#L" n="71" break="no"/>pliciter simplex. quia aliter esset processus in infinitum. erg 
-      <lb ed="#L" n="72"/>in illa creatura nulla pluralitas inuenitur. et per 
-      <lb ed="#L" n="73"/>consequens in ipsa non est vestigium trinitatis
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e131">
-      ⁋ Preterea 
-      <lb ed="#L" n="74"/>vestigium in hoc distinguitur ab ymagine. quod
-      yma<lb ed="#L" n="75" break="no"/>go est totius. et vestigium est partis. sed in deo no 
-      <lb ed="#L" n="76"/>est pars. ergo nihil est vestigium eius.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e140">
-      ⁋ Preterea ve 
-      <lb ed="#L" n="77"/>stigium ducit in notitiam illius cuius est. sed nihi 
-      <lb ed="#L" n="78"/>in creatura ducit in notitiam trinitatis.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e147">
-      ⁋ Ad op 
-      <lb ed="#L" n="79"/>positum. Augustinus. vi. de tri. caa. vltimo. or 
-      <lb ed="#L" n="80"/>vt creatorem per ea quae facta sunt intellectum
-      conspi<lb ed="#L" n="81" break="no"/>cientes trinitatem intelligamus. cuius in creati 
-      <lb ed="#L" n="82"/>ra quo dignum est. apparet vestigium
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e159">
-      ⁋ Circa istam 
-      <lb ed="#L" n="83"/>questione primo videndum est quid sit vestigium in 
-      <lb ed="#L" n="84"/>creaturis. in quibus proprie inuenitur. Secundo quomo 
-      <lb ed="#L" n="85"/>transfertur respectu dei.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e168">
-      ⁋ Circa primum dico quod
-      ve<lb ed="#L" n="86" break="no"/>stigium et ymago dupliciter accipiuntur vel pro toto quaid 
-      <lb ed="#L" n="87"/>nominis ipsorum. quamuis forte non de virtute sermonis. sic 
-      <lb ed="#L" n="88"/>dicunt aliqua absoluta aliquid aliud connotando 
-      <lb ed="#L" n="89"/>Aliter accipiuntur pro illo quod primo denominatur vestigium 
-      <lb ed="#L" n="90"/>vel ymago. Et sic intelligo. questionem. scilicet quid est 
-      <lb ed="#L" n="91"/>illud quod est vestigium. Et dico quod vestigium et 
-      <lb ed="#L" n="92"/>ymago habent aliquas conditiones vel
-      proprieta<lb ed="#L" n="93" break="no"/>tates communes et aliquas proprias. Una conditio
-      com<lb ed="#L" n="94" break="no"/>munis quod tam vestigium quam ymago distinguitur. 
-      <lb ed="#L" n="95"/>ab illo cuius est. Alia conditio quod tam vestigium 
-      <lb ed="#L" n="96"/>quam ymago ducit in notitiam illius cuius est ymago 
-      <lb ed="#L" n="97"/>vel vestigium.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e197">
-      ⁋ Sed tamen aliquid ducere in 
-      <lb ed="#L" n="98"/>notitiam alicuius potest intelligi dupliciter. vel tam 
-      <lb ed="#L" n="99"/>quam causatiuum notitie alterius mediante sua
-      noti<lb ed="#L" n="100" break="no"/>tia. ita quod notitia ipsius sit causa notitie
-      alteri<lb ed="#L" n="101" break="no"/>us. Uel immediate sine notitia. sicut
-      intelle<lb ed="#L" n="102" break="no"/>ctus ducit tanquam causa in notitiam cuiusliber 
-      <lb ed="#L" n="103"/>intelligibilis. Primo modo contingit dupliciter. 
-      <lb ed="#L" n="104"/>quia vel ducit in primam talem notitiam vel 
-      <lb ed="#L" n="105"/>cognitionem. vel tantum facit rememorationem de 
-      <lb ed="#L" n="106"/>aliquo habitualiter noto.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e219">
-      ⁋ Primo modo notitia 
-      <lb ed="#L" n="107"/>singularis est causa notitie vniuersalis. et notitia 
-      <lb ed="#L" n="108"/>premissarum est causa notitie conclusionis. 
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e226">
-               <lb ed="#L" n="109"/>⁋ Sed isto modo nunquam notitia vnius rei in¬ 
-      <!--274.xml-->
-      <pb ed="#L" n="136-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>complexa est causa notitie prime alterius
-      incompse<lb ed="#L" n="2" break="no"/>xe. sicut dictum fuit in prologo. et maxime non est causa 
-      <lb ed="#L" n="3"/>sufficiens cum intellectu. et aliis quae requiruntur a
-      par<lb ed="#L" n="4" break="no"/>te potentie. siue sit causa partialis cum obiecto
-      si<lb ed="#L" n="5" break="no"/>ue non. 
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e248">
-      ⁋ Secundo modo vna res incomplexa mediante 
-      <lb ed="#L" n="6"/>notitia sua. potest esse causa partialis
-      rememora<lb ed="#L" n="7" break="no"/>tionis alterius rei habitualiter note. ita quod
-      noti<lb ed="#L" n="8" break="no"/>tia habitualis necessario concurrit in ratione causae
-      per<lb ed="#L" n="9" break="no"/>tialis. Et tale sic cognitum potest vocari repraesenta 
-      <lb ed="#L" n="10"/>tiuum alterius. nec est aliquid aliud proprie reprasen 
-      <lb ed="#L" n="11"/>tatiuum. et isto modo tam vestigium quam ymago
-      re<lb ed="#L" n="12" break="no"/>presentant illud cuius sunt vestigium. vel ymago. 
-      <lb ed="#L" n="13"/>Per experientiam enim patet. quod aliquis nullam penitus 
-      <lb ed="#L" n="14"/>habeat cognitionem de hercule. si videat statuam 
-      <lb ed="#L" n="15"/>herculis. non plus cogitabit de hercule quam de
-      sor<lb ed="#L" n="16" break="no"/>te. Si autem primo videat herculem. et retineat
-      no<lb ed="#L" n="17" break="no"/>titiam herculis. et postea videat statuam sibi
-      simi<lb ed="#L" n="18" break="no"/>lem quantum ad aliqua accidentia exteriora. virtute 
-      <lb ed="#L" n="19"/>illius visionis statue. etiam posito quod numquam prius 
-      <lb ed="#L" n="20"/>eam vidisset recordabitur de hercule. quamuis non semper 
-      <lb ed="#L" n="21"/>propter imperfectionem similitudinis. vel propter
-      ali<lb ed="#L" n="22" break="no"/>quem alium defectum. et ita est de vestigio. quod si
-      ali<lb ed="#L" n="23" break="no"/>quis videat vestigium bouis. recordabitur de
-      bo<lb ed="#L" n="24" break="no"/>ue habitualiter cognito. Sed si prius numquam
-      ha<lb ed="#L" n="25" break="no"/>buisset aliquam notitiam de boue. non plus
-      recor<lb ed="#L" n="26" break="no"/>daretur de boue quam de asino.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e297">
-      ⁋ Et isto sequitur quod 
-      <lb ed="#L" n="27"/>aliqua possunt se mutuo repraesentare. quia vtrumque
-      po<lb ed="#L" n="28" break="no"/>terit indifferenter causare recordationem alterius 
-      <lb ed="#L" n="29"/>Patet si sint duo homines multum similes. qui sint
-      no<lb ed="#L" n="30" break="no"/>ti aliquibus hominibus per experientiam patet. quod
-      quo<lb ed="#L" n="31" break="no"/>cunque illorum viso ab aliquo habente notitiam vtri 
-      <lb ed="#L" n="32"/>usque. statim poterit cogitare de alio et ita mutuo 
-      <lb ed="#L" n="33"/>se representabunt tali habenti notitiam vtriusque 
-      <lb ed="#L" n="34"/>Similiter. si alter illorum puta sortes esset habitua 
-      <lb ed="#L" n="35"/>liter notus iohanni. et inciperet videre platonem 
-      <lb ed="#L" n="36"/>multum similem sorti. inciperet cogitare de sorte. 
-      <lb ed="#L" n="37"/>propter similitudinem platonis modo primo visi a 
-      <lb ed="#L" n="38"/>Iohanne. quod tunc non faceret nisi videret plato 
-      <lb ed="#L" n="39"/>nem. Et eodem modo esset econuerso. Si aliquos
-      ha<lb ed="#L" n="40" break="no"/>beret habitualem notitiam de platone. et
-      incipe<lb ed="#L" n="41" break="no"/>ret primo videre sortem. et ita sortes et plato
-      mu<lb ed="#L" n="42" break="no"/>tuo se representarent
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e334">
-      ⁋ Tertio conueniunt in hoc. 
-      <lb ed="#L" n="43"/>quod vestigium et ymago et natura sua non plus
-      re<lb ed="#L" n="44" break="no"/>praesentant vnum indiuiduum. quam aliud indiuiduum sibi 
-      <lb ed="#L" n="45"/>simillimum. quod autem aliquando representant vnum
-      indiui<lb ed="#L" n="46" break="no"/>duum. et aliquin aliud. hoc est propter hoc. quod non in 
-      <lb ed="#L" n="47"/>uenitur aliquod indiuiduum sibi simillimum. Et ita 
-      <lb ed="#L" n="48"/>patet falsitas illius opinionis quae dicit. quod ymago 
-      <lb ed="#L" n="49"/>repraestentatur sub ratione indiuidui. et vestigium sub ratione 
-      <lb ed="#L" n="50"/>vniversalis. Cuius ratio est. quia ymago Iouis non repraesentat 
-      <lb ed="#L" n="51"/>cesarem. quia illa ymago non equaliter assimilatur Ioui 
-      <lb ed="#L" n="52"/>sicut cesari. Si tamen iupitur et cesar essent simillimi. 
-      <lb ed="#L" n="53"/>ita quod aliquis non posset discernere vnum ab alio 
-      <lb ed="#L" n="54"/>sicut vidi de aliquibus. tunc illa ymago non plus 
-      <lb ed="#L" n="55"/>repraesentaret Iouem quam cesarem. Quia equalitur assimila¬ 
-      <!--274.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 136-r -->
-               <lb ed="#L" n="56"/>retur illis. Unde sicut vnus habens notitiam 
-      <lb ed="#L" n="57"/>habitualem cesaris. visa illa ymagine
-      recorda<lb ed="#L" n="58" break="no"/>retur de cesare. ita alius habens notitiam habitualem 
-      <lb ed="#L" n="59"/>Iouis. visa illa ymagine recordaretur de Iove. 
-      <lb ed="#L" n="60"/>et eodem modo est de vestigio. quod si vnus bos ha 
-      <lb ed="#L" n="61"/>beret pedes omnino dissimiles ab aliis pedibus 
-      <lb ed="#L" n="62"/>aliorum bonum. vestigium derelictum ita distincte re 
-      <lb ed="#L" n="63"/>presentaret cognoscenti distinctionem illius pedis 
-      <lb ed="#L" n="64"/>ab aliis pedibus hunc bouem. sicut modo de facto 
-      <lb ed="#L" n="65"/>ymago herculis repraesentat habenti notitiam distin 
-      <lb ed="#L" n="66"/>ctam de hercule ipsum herculem et non iouem. In istis 
-      <lb ed="#L" n="67"/>ergo et in quibusdam aliis conueniunt vestigium et 
-      <lb ed="#L" n="68"/>ymago.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e399">
-      ⁋ Sed differunt vestigium et ymago. quia de 
-      <lb ed="#L" n="69"/>ratione vestigii est. quod sit causatum ab illo cuius est 
-      <lb ed="#L" n="70"/>vestigium. sicut patet inductiue. quia dicitur esse derelictum 
-      <lb ed="#L" n="71"/>ex alio. De ratione autem ymaginis non est quod sit cau 
-      <lb ed="#L" n="72"/>sata ab illo cuius est ymago. sicut ymago
-      her<lb ed="#L" n="73" break="no"/>culis sufficit quod causetur ab alio quam ab hercule. 
-      <lb ed="#L" n="74"/>Ex ista differentia sequitur quod vestigium nisi sit impedi 
-      <lb ed="#L" n="75"/>mentum ducit non tantum in notitiam recordatiuam illi 
-      <lb ed="#L" n="76"/>ius cuius est. sed etiam ducit in notitiam
-      comple<lb ed="#L" n="77" break="no"/>xam alicuius veritatis contingentis de ipso.
-      Uerbi<lb ed="#L" n="78" break="no"/>gratia vestigium bouis non tantum facit recordari de bo 
-      <lb ed="#L" n="79"/>ue habitualiter noto. sed etiam ducit consequenter in
-      noti<lb ed="#L" n="80" break="no"/>tiam vel in credulitatem istius contingentis. quia 
-      <lb ed="#L" n="81"/>bos hac transiuit. quamuis posset errare. quia posset 
-      <lb ed="#L" n="82"/>imprimi pes amputatus. Ex isto patet falsitas 
-      <lb ed="#L" n="83"/>opinionis dicentis quod vestigium non ducit in
-      cogni<lb ed="#L" n="84" break="no"/>tionem totius nisi arguitiue. quia facit
-      particula<lb ed="#L" n="85" break="no"/>riter recordationem tam de parte quam de toto. quia ali 
-      <lb ed="#L" n="86"/>quis nec cogitans de pede nec de boue toto.
-      vi<lb ed="#L" n="87" break="no"/>dens vestigium pedis. statim incipit recordari tam 
-      <lb ed="#L" n="88"/>de boue quam de pede. et statim incipit assentire 
-      <lb ed="#L" n="89"/>huic quod bos hac transiuit. et ita recordatio
-      in<lb ed="#L" n="90" break="no"/>complexa bovis. non habetur arguitiue. quamuis 
-      <lb ed="#L" n="91"/>illa veritas contigens non crederetur nisi arguitiue 
-      <lb ed="#L" n="92"/>ymago autem quia non est neccessario causata ab illo cu 
-      <lb ed="#L" n="93"/>ius est ymago. ideo non ducit regulariter in
-      noti<lb ed="#L" n="94" break="no"/>tiam alicuius veritatis contingentis de illo cuius 
-      <lb ed="#L" n="95"/>est ymago. nisi sorte recordatiuam de qua non est 
-      <lb ed="#L" n="96"/>modo sermo.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e462">
-      ⁋ secundo dico quod vestigium prout vna 
-      <lb ed="#L" n="97"/>creatura dicitur vestigium alterius tripliciter accipitur. 
-      <lb ed="#L" n="98"/>Uno modo large et sic vestigium est effectus
-      dere<lb ed="#L" n="99" break="no"/>lictus ex aliqua causa determinate speciei. vel 
-      <lb ed="#L" n="100"/>saltem determinati generis. rememoratiua ipsius 
-      <lb ed="#L" n="101"/>ducens ex communi lege in adhaesonem alicuius 
-      <lb ed="#L" n="102"/>propositionis contingentis enunciantis essc vel fu 
-      <lb ed="#L" n="103"/>isse. vel aliquid tale de illa causa. Et isto modo  
-      <lb ed="#L" n="104"/>fumus derelictus ex igne vel combustio vel adu 
-      <lb ed="#L" n="105"/>ustio derelicta potest dici vestigium ignis. Simii 
-      <lb ed="#L" n="106"/>liter odor aliquando derelictus ex animali trans 
-      <lb ed="#L" n="107"/>eunte dicitur vestigium illius animalis. Et sic est 
-      <lb ed="#L" n="108"/>vna qualitas causata siue vniuoce siue
-      equi<lb ed="#L" n="109" break="no"/>uoce non est cura. siue etiam quodcunque
-      dere<lb ed="#L" n="110" break="no"/>lictum siue sit proprie causatum siue. non. ex cuius 
-      <!--275.xml-->
-      <pb ed="#L" n="136-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>notitia causatur recordatio illius ex quo
-      dereli<lb ed="#L" n="2" break="no"/>quitur. potest dici vestigium.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e506">
-      ⁋ Secundo modo dicitur 
-      <lb ed="#L" n="3"/>vestigium magis stricte. pro impraessione alicuius 
-      <lb ed="#L" n="4"/>aliquid sibi cedens remanente in absentia ipsius 
-      <lb ed="#L" n="5"/>et isto modo in cera relinquitur vestigium sigilli. 
-      <lb ed="#L" n="6"/>quod tamen vestigium vocatur aliquando ymago. quamuis non 
-      <lb ed="#L" n="7"/>sit strictissime ymago.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e519">
-      ⁋ Tertio modo accipitur 
-      <lb ed="#L" n="8"/>strictissime vestigium. et sic est impraessio alicuius 
-      <lb ed="#L" n="9"/>partis alicuius totius in aliquid sibi cedens dere n 
-      <lb ed="#L" n="10"/>licta in abidentia. et ducens in recordationem etc. 
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e529">
-               <lb ed="#L" n="11"/>⁋ Circa secundum principale dico quod quaelibet creatura 
-      <lb ed="#L" n="12"/>potest aliquo modo dici vestigium trinitatis inquantum 
-      <lb ed="#L" n="13"/>appropriata creature possunt aliquo modo ducere in 
-      <lb ed="#L" n="14"/>notitiam appropriatorum ipsis diuinis personis. Tame 
-      <lb ed="#L" n="15"/>hoc potest esse dupliciter. vel in notitiam incomplexam 
-      <lb ed="#L" n="16"/>primam. et hoc non pertinet ad rationem vestigii. vel in 
-      <lb ed="#L" n="17"/>notitiam incomplexam recordatiuam. Uerbi gratia 
-      <lb ed="#L" n="18"/>postquam ex specie in creatura concluditur vel
-      ab<lb ed="#L" n="19" break="no"/>strabitur pulchritudo quae est vnum appropriatum
-      di<lb ed="#L" n="20" break="no"/>uine persone. postea occurrente aliquae pulera
-      ciea<lb ed="#L" n="21" break="no"/>tura. incipit intellectus recordari de puleritu 
-      <lb ed="#L" n="22"/>bine divina. tunc illa creatura ducit in notitiam 
-      <lb ed="#L" n="23"/>recordatiuam ipsius. et habet rationem vestigii. et in hoc 
-      <lb ed="#L" n="24"/>conuenit cum vestigio corporali. Secundo conuenit cum 
-      <lb ed="#L" n="25"/>vestigio corporali. quia sicut vestigium corporale est 
-      <lb ed="#L" n="26"/>causatum ab illo cuius est vestigium. ita creatura 
-      <lb ed="#L" n="27"/>est creata a deo cuius est vestigium.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e568">
-      ⁋ Ex hoc autem 
-      <lb ed="#L" n="28"/>sequitur alia conuenientia. quod sicut vestigium
-      corpo<lb ed="#L" n="29" break="no"/>rale ducit in notitiam complexam veritai contingenum 
-      <lb ed="#L" n="30"/>de vestigiato. ita creatura ducit in notitia
-      con<lb ed="#L" n="31" break="no"/>plexam contingentem de deo. scilicet quod deus causauit et huiusmodi 
-      <lb ed="#L" n="32"/>Quarto coueniunt. quia sicut vestigium conuenit 
-      <lb ed="#L" n="33"/>canen vestigiato quantum ad aliqua accidentia et nunquam quantum 
-      <lb ed="#L" n="34"/>ad omnia. ita creatura vniuocatur cum deo in aliquibus 
-      <lb ed="#L" n="35"/>conceptibus communibus et in aliquibus non.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e588">
-      ⁋ Quinto 
-      <lb ed="#L" n="36"/>qui sicut vestigium corporale est similitudo aliquo modo 
-      <lb ed="#L" n="37"/>et non simpliciter expressa. ita creatura respectu dei. 
-      <lb ed="#L" n="38"/>Sed in quibus quae sunt in creatura consistit
-      vestigi<lb ed="#L" n="39" break="no"/>um: Dico quod aliquando vestigium consistit in distinctis 
-      <lb ed="#L" n="40"/>realiter. quia aliquando ipsa substantia repraesntat aliquo modo spaciali 
-      <lb ed="#L" n="41"/>aliquid appropratum patri. et vna qualitas vel actio re 
-      <lb ed="#L" n="42"/>praesentat aliquo modo speciali aliquid appropratum
-      fi<lb ed="#L" n="43" break="no"/>lio. et aliud accidens repraesentat aliquid appropriatum 
-      <lb ed="#L" n="44"/>spiritui sactdo. et tunc vestigium consistit in substantia et diuersis 
-      <lb ed="#L" n="45"/>accidentibus. hoc patet per beatum augustinum. vi. de tri. 
-      <lb ed="#L" n="46"/>ca. vltimo. vbi assignans quo reperitur vestigium 
-      <lb ed="#L" n="47"/>trinitatis. dicit omnia quae arte diuina facta sunt et 
-      <lb ed="#L" n="48"/>vnitatem quandam in se ostendunt et speciem et ordinem. 
-      <lb ed="#L" n="49"/>Quicquid enim horum est. et vnum aliquid est. sicut 
-      <lb ed="#L" n="50"/>sunt nature corporum. ingeniaque animarum
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e623">
-      ⁋ hoc 
-      <lb ed="#L" n="51"/>dicit pro substantia que substat suis
-      acciden<lb ed="#L" n="52" break="no"/>tibus. Et pro diuersis partibus scilicet pro duabus 
-      <lb ed="#L" n="53"/>aliis partibus vestigii. de diuersis accidentibus 
-      <lb ed="#L" n="54"/>subdit. et aliqua specie formarum supple substan 
-      <lb ed="#L" n="55"/>tia. sicut sunt figure et qualitates corporum. 
-      <!--275.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 136-v -->
-               <lb ed="#L" n="56"/>atque doctrine vel artes animarum. quo ad secundam 
-      <lb ed="#L" n="57"/>partem et quo ad tertiam partem sequitur. et ordinem
-      ali<lb ed="#L" n="58" break="no"/>quem petit aut tenet. supple substantia sicut sunt potes 
-      <lb ed="#L" n="59"/>dera vel collationes corporum. et amores aut de 
-      <lb ed="#L" n="60"/>lectationes animarum. Ecce quod in ista assignatione 
-      <lb ed="#L" n="61"/>partes vestigii realiter distinguuntur. Aliquando autem 
-      <lb ed="#L" n="62"/>non distinguntur realiter. sed est vnicum quod sortitur di 
-      <lb ed="#L" n="63"/>uersas denominationes vel contentum sub diuersis 
-      <lb ed="#L" n="64"/>communibus. ex quo possunt haberi diuersa appropria 
-      <lb ed="#L" n="65"/>ta in deo. et tunc in illo quod est vestigium non sunt 
-      <lb ed="#L" n="66"/>multa. sed tantum vnum. sed possunt haberi in
-      recorda<lb ed="#L" n="67" break="no"/>tione diuersa praedicabilia de deo. approprata di 
-      <lb ed="#L" n="68"/>uersis personis diuinis.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e671">
-      ⁋ Primo modo non omnis
-      crea<lb ed="#L" n="69" break="no"/>tura est vestigium trinitatis. quia non omnis creatura 
-      <lb ed="#L" n="70"/>est habens diuersa accidentia. Secundo modo. omnis 
-      <lb ed="#L" n="71"/>creatura est vestigium trinitatis
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e680">
-      ⁋ Ad primum
-      prin<lb ed="#L" n="72" break="no"/>cipale patet. quod non oportet in omni vestigio
-      trinita<lb ed="#L" n="73" break="no"/>tis secundo modo inueniri aliqua tria. sed sufficit 
-      <lb ed="#L" n="74"/>quod ex illo possit haberi notitia trium
-      appropriato<lb ed="#L" n="75" break="no"/>rum modo exposito.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e692">
-      ⁋ Ad secundum patet. quod vestigium 
-      <lb ed="#L" n="76"/>niversalter acceptum. non per hec distinguitur ab ymagine. 
-      <lb ed="#L" n="77"/>sed vestigium strictissime sumptum. quod tamen aliquo 
-      <lb ed="#L" n="78"/>modo competit creature respectu dei. licet
-      val<lb ed="#L" n="79" break="no"/>de improprie. quia in deo non est totum et pars. Pro 
-      <lb ed="#L" n="80"/>quaento tamen aliquod praedicabile essentiale siue primo modo 
-      <lb ed="#L" n="81"/>dicendi per se. potest haberi ex creatura modo su 
-      <lb ed="#L" n="82"/>pra exposito. et ipsa res in se non potest cognosci ex 
-      <lb ed="#L" n="83"/>creatura notitia recordatiua. potest aliquo: se 
-      <lb ed="#L" n="84"/>improprie et metaphorice dici vestigium partis.
-    </p>
-            <p xml:id="wo8uy7-d1e537-d1e714">
-      ⁋ Ad  
-      <lb ed="#L" n="85"/>aliud patet. quod vestigium numquam ducit in notitiam illius 
-      <lb ed="#L" n="86"/>cuius est. nisi praesupposita notitia habituali illius. 
-      <lb ed="#L" n="87"/>et ideo trinitas personarum cum non praecognoscatur cre 
-      <lb ed="#L" n="88"/>ature. quameuis creatura non duceret in notitiam tri 
-      <lb ed="#L" n="89"/>nitatis de facto. adhuc posset dici vestigium tri 
-      <lb ed="#L" n="90"/>initatis.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 9</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 9</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-15" status="draft" n="0.0.1">
+          <p>Revised text and added missing breaks, margin notes, etc.</p>
+        </change>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="135-v"/>
+        <cb ed="#L" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e537"><!-- l1d3q9 -->
+        <head xml:id="wo8uy7-d1e537-Hd1e108">Quaestio nona</head>
+        <p xml:id="wo8uy7-d1e537-d1e111">
+          <note place="margin-left">A</note>
+          <note place="margin-left">Questio IX</note>
+          <lb ed="#L" n="66"/>Utrum in omni
+          crea<lb ed="#L" n="67" break="no"/>tura sit vestigium trinitatis.
+          <note place="margin-left">Primo</note>
+          Quod non
+          <lb ed="#L" n="68"/>qui in illo quod est vestigium trinita
+          <lb ed="#L" n="69" break="no"/>tis inueniuntur tria. sicut in trinita
+          <lb ed="#L" n="70"/>te sunt tres persone. sed aliqua est creatura
+          sim<lb ed="#L" n="71" break="no"/>pliciter simplex. quia aliter esset processus in infinitum. ergo
+          <lb ed="#L" n="72"/>in illa creatura nulla pluralitas inuenitur. et per
+          <lb ed="#L" n="73"/>consequens in ipsa non est vestigium trinitatis.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e131">
+          <note place="margin-left">Secundo</note>
+          ¶ Preterea
+          <lb ed="#L" n="74"/>vestigium in hoc distinguitur ab ymagine. quod
+          yma<lb ed="#L" n="75" break="no"/>go est totius. et vestigium est partis. sed in deo non
+          <lb ed="#L" n="76"/>est pars. ergo nihil est vestigium eius.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e140">
+          <note place="margin-left">Tertio</note>
+          ¶ Preterea ve<lb ed="#L" n="77" break="no"/>stigium ducit in notitiam illius cuius est. sed nihil
+          <lb ed="#L" n="78"/>in creatura ducit in notitiam trinitatis.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e147">
+          <note place="margin-left">Ad oppositum</note>
+          ¶ Ad op<lb ed="#L" n="79" break="no"/>positum. Augustinus vi de trinitate capitulo vltimo. oportet
+          <lb ed="#L" n="80"/>vt creatorem per ea quae facta sunt intellectum
+          conspi<lb ed="#L" n="81" break="no"/>cientes trinitatem intelligamus. cuius in creatu<lb ed="#L" n="82" break="no"/>ra quo dignum est. apparet vestigium
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e159">
+          <note place="margin-left">Circa quaestionem duo facit auctor</note>
+          ¶ Circa istam
+          <lb ed="#L" n="83"/>questionem primo videndum est quid sit vestigium in
+          <lb ed="#L" n="84"/>creaturis. in quibus proprie inuenitur. Secundo quomodo
+          <lb ed="#L" n="85"/>transfertur respectu dei.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e168">
+          <note place="margin-left">B</note>
+          <note place="margin-left">Primum</note>
+          ¶ Circa primum dico quod
+          ve<lb ed="#L" n="86" break="no"/>stigium et ymago dupliciter accipiuntur vel pro toto quid
+          <lb ed="#L" n="87"/>nominis ipsorum. quamuis forte non de virtute sermonis. sic
+          <lb ed="#L" n="88"/>dicunt aliqua absoluta aliquid aliud connotando
+          <lb ed="#L" n="89"/>Aliter accipiuntur pro illo quod primo denominatur vestigium
+          <lb ed="#L" n="90"/>vel ymago. Et sic intelligo questionem. scilicet quid est
+          <lb ed="#L" n="91"/>illud quod est vestigium. Et dico quod vestigium et
+          <lb ed="#L" n="92"/>ymago habent aliquas conditiones vel
+          proprieta<lb ed="#L" n="93" break="no"/>tates communes et aliquas proprias. Una conditio
+          com<lb ed="#L" n="94" break="no"/>munis quod tam vestigium quam ymago distinguitur.
+          <lb ed="#L" n="95"/>ab illo cuius est. Alia conditio quod tam vestigium
+          <lb ed="#L" n="96"/>quam ymago ducit in notitiam illius cuius est ymago
+          <lb ed="#L" n="97"/>vel vestigium.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e197">
+          ¶ Sed tamen aliquid ducere in
+          <lb ed="#L" n="98"/>notitiam alicuius potest intelligi dupliciter. vel
+          tam<lb ed="#L" n="99" break="no"/>quam causatiuum notitie alterius mediante sua
+          noti<lb ed="#L" n="100" break="no"/>tia. ita quod notitia ipsius sit causa notitie
+          alteri<lb ed="#L" n="101" break="no"/>us. Uel immediate sine notitia. sicut
+          intelle<lb ed="#L" n="102" break="no"/>ctus ducit tanquam causa in notitiam cuiuslibet
+          <lb ed="#L" n="103"/>intelligibilis. Primo modo contingit dupliciter.
+          <lb ed="#L" n="104"/>quia vel ducit in primam talem notitiam vel
+          <lb ed="#L" n="105"/>cognitionem. vel tantum facit rememorationem de
+          <lb ed="#L" n="106"/>aliquo habitualiter noto.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e219">
+          ¶ Primo modo notitia
+          <lb ed="#L" n="107"/>singularis est causa notitie vniuersalis. et notitia
+          <lb ed="#L" n="108"/>premissarum est causa notitie conclusionis.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e226">
+          <lb ed="#L" n="109"/>¶ Sed isto modo nunquam notitia vnius rei
+          <!--274.xml-->
+          in<pb ed="#L" n="136-r"/><cb ed="#L" n="a"/><lb ed="#L" n="1" break="no"/>complexa est causa notitie prime alterius
+          incomple<lb ed="#L" n="2" break="no"/>xe. sicut dictum fuit in prologo. et maxime non est causa
+          <lb ed="#L" n="3"/>sufficiens cum intellectu. et aliis quae requiruntur a
+          par<lb ed="#L" n="4" break="no"/>te potentie. siue sit causa partialis cum obiecto
+          si<lb ed="#L" n="5" break="no"/>ue non.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e248">
+          ¶ Secundo modo vna res incomplexa mediante
+          <lb ed="#L" n="6"/>notitia sua. potest esse causa partialis
+          rememora<lb ed="#L" n="7" break="no"/>tionis alterius rei habitualiter note. ita quod
+          noti<lb ed="#L" n="8" break="no"/>tia habitualis necessario concurrit in ratione causae
+          par<lb ed="#L" n="9" break="no"/>tialis. Et tale sic cognitum potest vocari
+          repraesenta<lb ed="#L" n="10" break="no"/>tiuum alterius. nec est aliquid aliud proprie reprasen<lb ed="#L" n="11" break="no"/>tatiuum. et isto modo tam vestigium quam ymago
+          re<lb ed="#L" n="12" break="no"/>presentant illud cuius sunt vestigium. vel ymago.
+          <lb ed="#L" n="13"/>Per experientiam enim patet. quod aliquis nullam penitus
+          <lb ed="#L" n="14"/>habeat cognitionem de hercule. si videat statuam
+          <lb ed="#L" n="15"/>herculis. non plus cogitabit de hercule quam de
+          sor<lb ed="#L" n="16" break="no"/>te. Si autem primo videat herculem. et retineat
+          no<lb ed="#L" n="17" break="no"/>titiam herculis. et postea videat statuam sibi
+          simi<lb ed="#L" n="18" break="no"/>lem quantum ad aliqua accidentia exteriora. virtute
+          <lb ed="#L" n="19"/>illius visionis statue. etiam posito quod numquam prius
+          <lb ed="#L" n="20"/>eam vidisset recordabitur de hercule. quamuis non semper
+          <lb ed="#L" n="21"/>propter imperfectionem similitudinis. vel propter
+          ali<lb ed="#L" n="22" break="no"/>quem alium defectum. et ita est de vestigio. quod si
+          ali<lb ed="#L" n="23" break="no"/>quis videat vestigium bouis. recordabitur de
+          bo<lb ed="#L" n="24" break="no"/>ue habitualiter cognito. Sed si prius numquam
+          ha<lb ed="#L" n="25" break="no"/>buisset aliquam notitiam de boue. non plus
+          recor<lb ed="#L" n="26" break="no"/>daretur de boue quam de asino.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e297">
+          ¶ Ex isto sequitur quod
+          <lb ed="#L" n="27"/>aliqua possunt se mutuo repraesentare. quia vtrumque
+          po<lb ed="#L" n="28" break="no"/>terit indifferenter causare recordationem alterius
+          <lb ed="#L" n="29"/>Patet si sint duo homines multum similes. qui sint
+          no<lb ed="#L" n="30" break="no"/>ti aliquibus hominibus per experientiam patet. quod
+          quo<lb ed="#L" n="31" break="no"/>cunque illorum viso ab aliquo habente notitiam
+          vtri<lb ed="#L" n="32" break="no"/>usque. statim poterit cogitare de alio et ita mutuo
+          <lb ed="#L" n="33"/>se representabunt tali habenti notitiam vtriusque
+          <lb ed="#L" n="34"/>Similiter. si alter illorum puta sortes esset
+          habitua<lb ed="#L" n="35" break="no"/>liter notus iohanni. et inciperet videre platonem
+          <lb ed="#L" n="36"/>multum similem sorti. inciperet cogitare de sorte.
+          <lb ed="#L" n="37"/>propter similitudinem platonis modo primo visi a
+          <lb ed="#L" n="38"/>Iohanne. quod tunc non faceret nisi videret
+          plato<lb ed="#L" n="39" break="no"/>nem. Et eodem modo esset econuerso. Si aliquis
+          ha<lb ed="#L" n="40" break="no"/>beret habitualem notitiam de platone. et
+          incipe<lb ed="#L" n="41" break="no"/>ret primo videre sortem. et ita sortes et plato
+          mu<lb ed="#L" n="42" break="no"/>tuo se representarent.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e334">
+          ¶ Tertio conueniunt in hoc.
+          <lb ed="#L" n="43"/>quod vestigium et ymago et natura sua non plus
+          re<lb ed="#L" n="44" break="no"/>praesentant vnum indiuiduum. quam aliud indiuiduum sibi
+          <lb ed="#L" n="45"/>simillimum. quod autem aliquando representant vnum
+          indiui<lb ed="#L" n="46" break="no"/>duum. et aliquando aliud. hoc est propter hoc. quod non in<lb ed="#L" n="47" break="no"/>uenitur aliquod indiuiduum sibi simillimum. Et ita
+          <lb ed="#L" n="48"/>patet falsitas illius opinionis quae dicit. quod ymago
+          <lb ed="#L" n="49"/>repraesentat sub ratione indiuidui. et vestigium sub ratione
+          <lb ed="#L" n="50"/>vniversalis. Cuius ratio est. quia ymago Iouis non repraesentat
+          <lb ed="#L" n="51"/>cesarem. quia illa ymago non equaliter assimilatur Ioui
+          <lb ed="#L" n="52"/>sicut cesari. Si tamen iupiter et cesar essent simillimi.
+          <lb ed="#L" n="53"/>ita quod aliquis non posset discernere vnum ab alio
+          <lb ed="#L" n="54"/>sicut vidi de aliquibus. tunc illa ymago non plus
+          <lb ed="#L" n="55"/>repraesentaret Iouem quam cesarem. Quia equaliter
+          <!--274.xml-->
+          <!-- 136-r -->
+          <cb ed="#L" n="b"/>
+          assimila<lb ed="#L" n="56" break="no"/>retur illis. Unde sicut vnus habens notitiam
+          <lb ed="#L" n="57"/>habitualem cesaris. visa illa ymagine
+          recorda<lb ed="#L" n="58" break="no"/>retur de cesare. ita alius habens notitiam habitualem
+          <lb ed="#L" n="59"/>Iouis. visa illa ymagine recordaretur de Iove.
+          <lb ed="#L" n="60"/>et eodem modo est de vestigio. quod si vnus bos
+          ha<lb ed="#L" n="61" break="no"/>beret pedes omnino dissimiles ab aliis pedibus
+          <lb ed="#L" n="62"/>aliorum bonum. vestigium derelictum ita distincte
+          re<lb ed="#L" n="63" break="no"/>presentaret cognoscenti distinctionem illius pedis
+          <lb ed="#L" n="64"/>ab aliis pedibus hunc bouem. sicut modo de facto
+          <lb ed="#L" n="65"/>ymago herculis repraesentat habenti notitiam
+          distin<lb ed="#L" n="66"/>ctam de hercule ipsum herculem et non iouem. In istis
+          <lb ed="#L" n="67"/>ergo et in quibusdam aliis conueniunt vestigium et
+          <lb ed="#L" n="68"/>ymago.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e399">
+          <note place="margin-left">C</note>
+          <note place="margin-left">Vestigium et imago differunt</note>
+          ¶ Sed differunt vestigium et ymago. quia de
+          <lb ed="#L" n="69"/>ratione vestigii est. quod sit causatum ab illo cuius est
+          <lb ed="#L" n="70"/>vestigium. sicut patet inductiue. quia dicitur esse derelictum
+          <lb ed="#L" n="71"/>ex alio. De ratione autem ymaginis non est quod sit
+          cau<lb ed="#L" n="72" break="no"/>sata ab illo cuius est ymago. sicut ymago
+          her<lb ed="#L" n="73" break="no"/>culis sufficit quod causetur ab alio quam ab hercule.
+          <lb ed="#L" n="74"/>Ex ista differentia sequitur quod vestigium nisi sit
+          impedi<lb ed="#L" n="75" break="no"/>mentum ducit non tantum in notitiam recordatiuam
+          illi<lb ed="#L" n="76" break="no"/>ius cuius est. sed etiam ducit in notitiam
+          comple<lb ed="#L" n="77" break="no"/>xam alicuius veritatis contingentis de ipso. Uerbi
+          <lb ed="#L" n="78"/>gratia vestigium bouis non tantum facit recordari de
+          bo<lb ed="#L" n="79"/>ue habitualiter noto. sed etiam ducit consequenter in
+          noti<lb ed="#L" n="80" break="no"/>tiam vel in credulitatem istius contingentis. quia
+          <lb ed="#L" n="81"/>bos hac transiuit. quamuis posset errare. quia posset
+          <lb ed="#L" n="82"/>imprimi pes amputatus. Ex isto patet falsitas
+          <lb ed="#L" n="83"/>opinionis dicentis quod vestigium non ducit in
+          cogni<lb ed="#L" n="84" break="no"/>tionem totius nisi arguitiue. quia facit
+          particula<lb ed="#L" n="85" break="no"/>riter recordationem tam de parte quam de toto. quia
+          ali<lb ed="#L" n="86" break="no"/>quis nec cogitans de pede nec de boue toto.
+          vi<lb ed="#L" n="87" break="no"/>dens vestigium pedis. statim incipit recordari tam
+          <lb ed="#L" n="88"/>de boue quam de pede. et statim incipit assentire
+          <lb ed="#L" n="89"/>huic quod bos hac transiuit. et ita recordatio
+          in<lb ed="#L" n="90" break="no"/>complexa bovis. non habetur arguitiue. quamuis
+          <lb ed="#L" n="91"/>illa veritas contigens non crederetur nisi arguitiue
+          <lb ed="#L" n="92"/>ymago autem quia non est neccessario causata ab illo
+          cu<lb ed="#L" n="93"/>ius est ymago. ideo non ducit regulariter in
+          noti<lb ed="#L" n="94" break="no"/>tiam alicuius veritatis contingentis de illo cuius
+          <lb ed="#L" n="95"/>est ymago. nisi sorte recordatiuam de qua non est
+          <lb ed="#L" n="96"/>modo sermo.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e462">
+          <note place="margin-left">Vestigium capitur tripliciter</note>
+          ¶ Secundo dico quod vestigium prout vna
+          <lb ed="#L" n="97"/>creatura dicitur vestigium alterius tripliciter accipitur.
+          <lb ed="#L" n="98"/>
+          <note place="margin-left">Primo</note>
+          Uno modo large et sic vestigium est effectus
+          dere<lb ed="#L" n="99" break="no"/>lictus ex aliqua causa determinate speciei. vel
+          <lb ed="#L" n="100"/>saltem determinati generis. rememoratiua ipsius
+          <lb ed="#L" n="101"/>ducens ex communi lege in adhaesionem alicuius
+          <lb ed="#L" n="102"/>propositionis contingentis enunciantis esse vel 
+          fu<lb ed="#L" n="103" break="no"/>isse. vel aliquid tale de illa causa. Et isto modo 
+          <lb ed="#L" n="104"/>fumus derelictus ex igne vel combustio vel 
+          adu<lb ed="#L" n="105" break="no"/>ustio derelicta potest dici vestigium ignis. 
+          Simi<lb ed="#L" n="106" break="no"/>liter odor aliquando derelictus ex animali 
+          trans<lb ed="#L" n="107" break="no"/>eunte dicitur vestigium illius animalis. Et sic est
+          <lb ed="#L" n="108"/>vna qualitas causata siue vniuoce siue
+          equi<lb ed="#L" n="109" break="no"/>uoce non est cura. siue etiam quodcunque
+          dere<lb ed="#L" n="110" break="no"/>lictum siue sit proprie causatum siue. non. ex cuius
+          <!--275.xml-->
+          <pb ed="#L" n="136-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>notitia causatur recordatio illius ex quo
+          dereli<lb ed="#L" n="2" break="no"/>quitur. potest dici vestigium.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e506">
+          <note place="margin-left">Secundo</note>
+          ¶ Secundo modo dicitur
+          <lb ed="#L" n="3"/>vestigium magis stricte. pro impressione alicuius
+          <lb ed="#L" n="4"/>aliquid sibi cedens remanente in absentia ipsius
+          <lb ed="#L" n="5"/>et isto modo in cera relinquitur vestigium sigilli.
+          <lb ed="#L" n="6"/>quod tamen vestigium vocatur aliquando ymago. quamuis non
+          <lb ed="#L" n="7"/>sit strictissime ymago.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e519">
+          <note place="margin-left">Tertio</note>
+          ¶ Tertio modo accipitur
+          <lb ed="#L" n="8"/>strictissime vestigium. et sic est impressio alicuius
+          <lb ed="#L" n="9"/>partis alicuius totius in aliquid sibi cedens 
+          dere<lb ed="#L" n="10" break="no"/>licta in absentia. et ducens in recordationem etc.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e529">
+          <note place="margin-left">D</note>
+          <note place="margin-left">Secundum principale</note>
+          <lb ed="#L" n="11"/>¶ Circa secundum principale dico quod quaelibet creatura
+          <lb ed="#L" n="12"/>potest aliquo modo dici vestigium trinitatis inquantum
+          <lb ed="#L" n="13"/>appropriata creature possunt aliquo modo ducere in
+          <lb ed="#L" n="14"/>notitiam appropriatorum ipsis diuinis personis. Tamen
+          <lb ed="#L" n="15"/>hoc potest esse dupliciter. vel in notitiam incomplexam
+          <lb ed="#L" n="16"/>primam. et hoc non pertinet ad rationem vestigii. vel in
+          <lb ed="#L" n="17"/>notitiam incomplexam recordatiuam. Uerbi gratia
+          <lb ed="#L" n="18"/>postquam ex specie in creatura concluditur vel
+          ab<lb ed="#L" n="19" break="no"/>strahitur pulchritudo quae est vnum appropriatum
+          di<lb ed="#L" n="20" break="no"/>uine persone. postea occurrente aliquae pulcra
+          crea<lb ed="#L" n="21" break="no"/>tura. incipit intellectus recordari de 
+          pulcritu<lb ed="#L" n="22"/>dine divina. tunc illa creatura ducit in notitiam
+          <lb ed="#L" n="23"/>recordatiuam ipsius. et habet rationem vestigii. et in hoc
+          <lb ed="#L" n="24"/>conuenit cum vestigio corporali. Secundo conuenit cum
+          <lb ed="#L" n="25"/>vestigio corporali. quia sicut vestigium corporale est
+          <lb ed="#L" n="26"/>causatum ab illo cuius est vestigium. ita creatura
+          <lb ed="#L" n="27"/>est creata a deo cuius est vestigium.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e568">
+          ¶ Ex hoc autem
+          <lb ed="#L" n="28"/>sequitur alia conuenientia. quod sicut vestigium
+          corpo<lb ed="#L" n="29" break="no"/>rale ducit in notitiam complexam veritatis contingentium
+          <lb ed="#L" n="30"/>de vestigiato. ita creatura ducit in notitia
+          con<lb ed="#L" n="31" break="no"/>plexam contingentem de deo. scilicet quod deus causauit et huiusmodi
+          <lb ed="#L" n="32"/>Quarto coueniunt. quia sicut vestigium conuenit
+          <lb ed="#L" n="33"/>canen vestigiato quantum ad aliqua accidentia et nunquam quantum
+          <lb ed="#L" n="34"/>ad omnia. ita creatura vniuocatur cum deo in aliquibus
+          <lb ed="#L" n="35"/>conceptibus communibus et in aliquibus non.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e588">
+          ¶ Quinto
+          <lb ed="#L" n="36"/>qui sicut vestigium corporale est similitudo aliquo modo
+          <lb ed="#L" n="37"/>et non simpliciter expressa. ita creatura respectu dei.
+          <lb ed="#L" n="38"/>Sed in quibus quae sunt in creatura consistit
+          vestigi<lb ed="#L" n="39" break="no"/>um: Dico quod aliquando vestigium consistit in distinctis
+          <lb ed="#L" n="40"/>realiter. quia aliquando ipsa substantia repraesentat aliquo modo spaciali
+          <lb ed="#L" n="41"/>aliquid appropriatum patri. et vna qualitas vel actio 
+          re<lb ed="#L" n="42" break="no"/>praesentat aliquo modo speciali aliquid appropriatum
+          fi<lb ed="#L" n="43" break="no"/>lio. et aliud accidens repraesentat aliquid appropriatum
+          <lb ed="#L" n="44"/>spiritui sactdo. et tunc vestigium consistit in substantia et diuersis
+          <lb ed="#L" n="45"/>accidentibus. hoc patet per beatum augustinum. vi. de trinitate
+          <lb ed="#L" n="46"/>capitulo vltimo. vbi assignans quo reperitur vestigium
+          <lb ed="#L" n="47"/>trinitatis. dicit omnia quae arte diuina facta sunt et
+          <lb ed="#L" n="48"/>vnitatem quandam in se ostendunt et speciem et ordinem.
+          <lb ed="#L" n="49"/>Quicquid enim horum est. et vnum aliquid est. sicut
+          <lb ed="#L" n="50"/>sunt nature corporum. ingeniaque animarum
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e623">
+          ¶ hoc
+          <lb ed="#L" n="51"/>dicit pro substantia que substat suis
+          acciden<lb ed="#L" n="52" break="no"/>tibus. Et pro diuersis partibus scilicet pro duabus
+          <lb ed="#L" n="53"/>aliis partibus vestigii. de diuersis accidentibus
+          <lb ed="#L" n="54"/>subdit. et aliqua specie formarum supple 
+          substan<lb ed="#L" n="55"/>tia. sicut sunt figure et qualitates corporum.
+          <!--275.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 136-v -->
+          <lb ed="#L" n="56"/>atque doctrine vel artes animarum. quo ad secundam
+          <lb ed="#L" n="57"/>partem et quo ad tertiam partem sequitur. et ordinem
+          ali<lb ed="#L" n="58" break="no"/>quem petit aut tenet. supple substantia sicut sunt 
+          pon<lb ed="#L" n="59" break="no"/>dera vel collationes corporum. et amores aut 
+          de<lb ed="#L" n="60" break="no"/>lectationes animarum. Ecce quod in ista assignatione
+          <lb ed="#L" n="61"/>partes vestigii realiter distinguuntur. Aliquando autem
+          <lb ed="#L" n="62"/>non distinguntur realiter. sed est vnicum quod fortiter 
+          di<lb ed="#L" n="63" break="no"/>uersas denominationes vel contentum sub diuersis
+          <lb ed="#L" n="64"/>communibus. ex quo possunt haberi diuersa 
+          appropria<lb ed="#L" n="65" break="no"/>ta in deo. et tunc in illo quod est vestigium non sunt
+          <lb ed="#L" n="66"/>multa. sed tamen vnum. sed possunt haberi in
+          recorda<lb ed="#L" n="67" break="no"/>tione diuersa praedicabilia de deo. approprata 
+          di<lb ed="#L" n="68" break="no"/>uersis personis diuinis.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e671">
+          ¶ Primo modo non omnis
+          crea<lb ed="#L" n="69" break="no"/>tura est vestigium trinitatis. quia non omnis creatura
+          <lb ed="#L" n="70"/>est habens diuersa accidentia. Secundo modo. omnis
+          <lb ed="#L" n="71"/>creatura est vestigium trinitatis
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e680">
+          <note place="margin-right">E</note>
+          <note place="margin-right">Ad primum argumentum principale</note>
+          ¶ Ad primum
+          prin<lb ed="#L" n="72" break="no"/>cipale patet. quod non oportet in omni vestigio
+          trinita<lb ed="#L" n="73" break="no"/>tis secundo modo inueniri aliqua tria. sed sufficit
+          <lb ed="#L" n="74"/>quod ex illo possit haberi notitia trium
+          appropriato<lb ed="#L" n="75" break="no"/>rum modo exposito.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e692">
+          <note place="margin-right">Ad secundum</note>
+          ¶ Ad secundum patet. quod vestigium
+          <lb ed="#L" n="76"/>vniversalter acceptum. non per hec distinguitur ab ymagine.
+          <lb ed="#L" n="77"/>sed vestigium strictissime sumptum. quod tamen aliquo
+          <lb ed="#L" n="78"/>modo competit creature respectu dei. licet
+          val<lb ed="#L" n="79" break="no"/>de improprie. quia in deo non est totum et pars. Pro
+          <lb ed="#L" n="80"/>quanto tamen aliquod praedicabile essentiale siue primo modo
+          <lb ed="#L" n="81"/>dicendi per se. potest haberi ex creatura modo 
+          su<lb ed="#L" n="82" break="no"/>pra exposito. et ipsa res in se non potest cognosci ex
+          <lb ed="#L" n="83"/>creatura notitia recordatiua. potest aliquo: sed
+          <lb ed="#L" n="84"/>improprie et metaphorice dici vestigium partis.
+        </p>
+        <p xml:id="wo8uy7-d1e537-d1e714">
+          <note place="margin-right">Ad tertium</note>
+          ¶ Ad 
+          <lb ed="#L" n="85"/>aliud patet. quod vestigium numquam ducit in notitiam illius
+          <lb ed="#L" n="86"/>cuius est. nisi praesupposita notitia habituali illius.
+          <lb ed="#L" n="87"/>et ideo trinitas personarum cum non praecognoscatur 
+          cre<lb ed="#L" n="88" break="no"/>ature. quamuis creatura non duceret in notitiam 
+          tri<lb ed="#L" n="89" break="no"/>nitatis de facto. adhuc posset dici vestigium 
+          tri<lb ed="#L" n="90"/>initatis.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
