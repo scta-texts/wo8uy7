@@ -1,640 +1,640 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 5</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 5</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="41-v"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e118"><!-- l1prolq5 -->
-            <head xml:id="wo8uy7-d1e118-Hd1e108">Quaestio 5</head>
-            <p xml:id="wo8uy7-d1e118-d1e111">
-               <lb ed="#L" n="23"/>Preterea quero utrum 
-      <lb ed="#L" n="24"/>in omni demonstratione diffinitio sit medium 
-      demon<lb ed="#L" n="25" break="no"/>strandi. Quod sic. ii. posteriorum: omnis quaestio est quaestio medi 
-      <lb ed="#L" n="26"/>medium autem et causa idem sunt ibidem: ergo omnis. qu. est. q. de
-      dif<lb ed="#L" n="27" break="no"/>finitione tamquam de medio: sed omnis conclusio demonstra 
-      <lb ed="#L" n="28"/>bilis est quaeribilis: ergo habet terminari per diffinitionem tam 
-      <lb ed="#L" n="29"/>quam per medium.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e129">
-      ⁋ Ad oppositum dictum est prius quod alicua 
-      <lb ed="#L" n="30"/>passio demonstratur de deo: et tamen non per diffinitionem 
-      <lb ed="#L" n="31"/>Similiter aliquid demonstratur de ente: et tamen non per
-      diffi<lb ed="#L" n="32" break="no"/>nitionem: ergo.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e138">
-      ⁋ Ad istam. q. est opinio communis quod in omni de 
-      <lb ed="#L" n="33"/>monstratione medium est diffinitio. Sed de medio de 
-      <lb ed="#L" n="34"/>monstrationis potissime sunt diuerse opiniones. 
-      <lb ed="#L" n="35"/>Una opinio est quod medium in tali demonstratione est 
-      <lb ed="#L" n="36"/>diffinitio passionis non subiecti. Et circa istam opi 
-      <lb ed="#L" n="37"/>nionem primo declaratur quae demonstrato est potissima 
-      <lb ed="#L" n="38"/>secundo quod medium in ea non est diffinitio subiecti sed
-      pas<lb ed="#L" n="39" break="no"/>sionis
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e156">
-      ⁋ Primum declaratur quia secundum philosophum primo
-      po<lb ed="#L" n="40" break="no"/>steriorum. quique sunt conditiones demonstrationis
-      po<lb ed="#L" n="41" break="no"/>tissime. scilicet quod sit propter quid. in prima figura. vniversalis.
-      affi<lb ed="#L" n="42" break="no"/>mativa. et ostensiva. Sed in secundo libro ponit alsa 
-      con<lb ed="#L" n="43" break="no"/>ditionem: quod medium in ea sit diffinitio formalis. Et 
-      <lb ed="#L" n="44"/>est illa diffinitio quae sumitur a forma rei: vel a fine. 
-      <lb ed="#L" n="45"/>Alie autem diffinitiones sumuntur a materia vel ab 
-      ef<lb ed="#L" n="46" break="no"/>ficiente. Secundum probatur: primo quod non diffinitio sub 
-      <lb ed="#L" n="47"/>iecti. primo sic. quando demonstrationes dantur per aliqua goe 
-      <lb ed="#L" n="48"/>nera causarum: semperbantur per causas inhere 
-      <lb ed="#L" n="49"/>tie puta per causam efficientem inherentie vel per causan 
-      <lb ed="#L" n="50"/>materiale vel finalem inherentie: ergo similiter quando dantur per causa 
-      <lb ed="#L" n="51"/>formalem: dantur per causam inherentie passionis: sed
-      diffini<lb ed="#L" n="52" break="no"/>tio formalis subiecti non est causa formalis inherentie 
-      pas<lb ed="#L" n="53" break="no"/>sionis: sed magis efficiens vel materialis: ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e190">
-      ⁋ Item 
-      <lb ed="#L" n="54"/>medium demonstrandi potissime debet esse causa propria et pro 
-      <!--85.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 41-v -->
-               <lb ed="#L" n="55"/>xima inherentie passionis: sed diffinitio sormalis sub 
-      <lb ed="#L" n="56"/>iecti non est huiusmodi: quia si sic non esset causa nisi eius: nunc 
-      <lb ed="#L" n="57"/>autem est causa propria exemplaris et proxima subiecti: ergo etc. 
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e208">
-               <lb ed="#L" n="58"/>⁋ Ite medium demonstrandi potissime non est
-      me<lb ed="#L" n="59" break="no"/>dium positione tantum: sicut in quolibet sillogismo sed oportet 
-      <lb ed="#L" n="60"/>quod sit medium secundum naturam. quia si esset equae primo secundum
-      na<lb ed="#L" n="61" break="no"/>turam aut posterior passione non esset causa. Et si esset 
-      <lb ed="#L" n="62"/>prior subietto. non esset causa proxima: sed diffinitio
-      for<lb ed="#L" n="63" break="no"/>malis subiecti est prior subiecto datur enim per priora secundum 
-      <lb ed="#L" n="64"/>naturam. et per consequens non mediat secundum naturam inter
-      sub<lb ed="#L" n="65" break="no"/>iectum et praedicatum. Quod autem diffinitio formalis sum 
-      <lb ed="#L" n="66"/>pta a forma sit medium in demonstratione 
-      potissi<lb ed="#L" n="67" break="no"/>ma: declaratur per philosophum ii. posteriorum. quia
-      demonstra<lb ed="#L" n="68" break="no"/>tio demonstrans tantum est potior demonstratione
-      demo<lb ed="#L" n="69" break="no"/>strata. Demonstratio enim est sillogismus secundum quem sci 
-      <lb ed="#L" n="70"/>mus in habendo ipsum: absque hoc quod indigeamus ali 
-      <lb ed="#L" n="71"/>quo alio. Sed sola demonstratio per causam formalem 
-      <lb ed="#L" n="72"/>est huiusmodi: ergo etc. minorem ari. ostendit per multa exempla 
-      <lb ed="#L" n="73"/>quae omnia sumunt robur secundum lin. ex hoc quod finis causat effi 
-      <lb ed="#L" n="74"/>cientem et forma materiam. Si dicatur quod causae inui 
-      <lb ed="#L" n="75"/>cem sunt causae secundo phisicorum. et secundum comen id est
-      phisico<lb ed="#L" n="76" break="no"/>rum. Dicendum sed istam opinionem: quod licet causae sint causae
-      in<lb ed="#L" n="77" break="no"/>uicem: tamen haec est modo ignobiliori. Uerbi gratia finis in 
-      <lb ed="#L" n="78"/>intentione causat efficientem et tunc primo efficiens in 
-      <lb ed="#L" n="79"/>ducit finem. Unde patet quod efficiens non causat nisi inquam 
-      <lb ed="#L" n="80"/>tum causatus a fine. Sed finis causat et non causat 
-      <lb ed="#L" n="81"/>ab eo Efficiens etiam non causat formam inquantum ipsa 
-      <lb ed="#L" n="82"/>causat formaliter causat etiam formaliter cessante 
-      ef<lb ed="#L" n="83" break="no"/>ficiente. Unde efficiens non est causa nisi fieri eius. Effici 
-      <lb ed="#L" n="84"/>ens etiam non dat materie esse sed fieri tantum. Ibatria 
-      <lb ed="#L" n="85"/>vero non causat compositum nisi prius secundum naturam 
-      <lb ed="#L" n="86"/>causata et constituta per formam nec tunc causat nis 
-      <lb ed="#L" n="87"/>sicut occasio tantum. Sed forma sic causat rem formaliter 
-      <lb ed="#L" n="88"/>quod ipsa est formaliter quicquid res est proprie per se: in tantum quod 
-      il<lb ed="#L" n="89" break="no"/>la posita et omni alia causa amota per impossibile: res esset 
-      <lb ed="#L" n="90"/>in specie et genere et in effectum. Unde ipsa est
-      po<lb ed="#L" n="91" break="no"/>tissima causa rei. Et ideo diffinitio sumpta ex ea 
-      <lb ed="#L" n="92"/>est potissimum medium demonstrandi.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e286">
-      ⁋ Secundo quod dif 
-      <lb ed="#L" n="93"/>finitio passionis demonstrande sit medium
-      decla<lb ed="#L" n="94" break="no"/>ratur: quia ipsa est causa formalis exemplaris eius et propria et 
-      <lb ed="#L" n="95"/>proxima in nullo genere cause. Est etiam
-      posteri<lb ed="#L" n="96" break="no"/>or subiecto secundum naturam et prior passione sicut men 
-      <lb ed="#L" n="97"/>sura mensurato: et per consequens mediat secundum naturam in 
-      <lb ed="#L" n="98"/>subiectum et praedicatum.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e302">
-      ⁋ Contra istam opinionem prio 
-      <lb ed="#L" n="99"/>mo ostendo quod diffinitio passionis non est medium 
-      <lb ed="#L" n="100"/>qui si sic: aut diffinitio proprie dicta per principia intri 
-      <lb ed="#L" n="101"/>seca: aut data per additamentum. Non primo modo: quia 
-      <lb ed="#L" n="102"/>multe sunt passiones quae talem diffinitionem non
-      ha<lb ed="#L" n="103" break="no"/>bent: sicut omnes passiones importantes res
-      absolu<lb ed="#L" n="104" break="no"/>tas simplices: sicut alias patebit
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e318">
-      ⁋ Nec secundo modo 
-      <lb ed="#L" n="105"/>qui illa diffinitio includit ipsum subiectum vel aliquam 
-      <lb ed="#L" n="106"/>aliam causam extrinsecam. Si primo modo non potest esse
-      me<lb ed="#L" n="107" break="no"/>dium: quia medium numquam debet continere alterum terminum: 
-      <lb ed="#L" n="108"/>scilicet nec maiorem extremitatem nec minorem. Si se 
-      <lb ed="#L" n="109"/>cundo modo: ergo non erit demonstratio simpliciter vniversalis: quia 
-      <!--86.xml-->
-      <pb ed="#L" n="42-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>declaratum est in priori quaestione quod per causam extrinsecam non 
-      <lb ed="#L" n="2"/>sit demonstratio vniversalis.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e342">
-      ⁋ Preterea demonstratie 
-      <lb ed="#L" n="3"/>potissima est ex indemonstrabilibus a priori. Sed dif 
-      <lb ed="#L" n="4"/>finitio passionis est demonstrabilis de subiecto a 
-      <lb ed="#L" n="5"/>priori: et per consequens non est principium in demonstratione po 
-      <lb ed="#L" n="6"/>tissima. Assumptum patet quia habet causam inherentie sue ad  
-      <lb ed="#L" n="7"/>subiectum: quia subiectum est causa passionis et forme sue 
-      <lb ed="#L" n="8"/>secundum eos: et per consequens secundum eos erit causa in cognitione dis 
-      <lb ed="#L" n="9"/>finitionis exprimentis illam formam. Sminis autem caus secundum 
-      <lb ed="#L" n="10"/>eos potest esse medium in demonstratione a priori: quamuis 
-      <lb ed="#L" n="11"/>non semper potissima.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e365">
-      ⁋ Preterea diffinitio passio. 
-      <lb ed="#L" n="12"/>nis non differt realiter a diffinito: et per consequens non est 
-      <lb ed="#L" n="13"/>causa eius realiter: sed per te demonstratio potissima est 
-      <lb ed="#L" n="14"/>per causam: ergo etc
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e374">
-      ⁋ Ad istud respondetur quod diffinitio et 
-      <lb ed="#L" n="15"/>diffinitum non differunt tantum secundum vocem: sed secundum rem rationis 
-      <lb ed="#L" n="16"/>quae pertinet ad signatum vnius et non ad signatum
-      alte<lb ed="#L" n="17" break="no"/>rius. Nomen enim signat totum quoddam confusum vt 
-      <lb ed="#L" n="18"/>circulus: sed diffinitio diuidit in singula. Unde illa 
-      <lb ed="#L" n="19"/>explicatio quam nomen scilicet diffiniti non signat:
-      per<lb ed="#L" n="20" break="no"/>tinet ad signatum diffinitionis. Diffinitio enim
-      in<lb ed="#L" n="21" break="no"/>dicat et explicat diffinitum: non sic nomen et ideo dis 
-      <lb ed="#L" n="22"/>finitio est mensura et exemplar diffiniti: non autem
-      no<lb ed="#L" n="23" break="no"/>men
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e396">
-      ⁋ Contra. siue diffinitio differt a diffinito si 
-      <lb ed="#L" n="24"/>ue no: semper tamen explicat causam realem illius quod 
-      impor<lb ed="#L" n="25" break="no"/>tatur per diffinitum: maxime secundum istos ponentes quod 
-      <lb ed="#L" n="26"/>omnis demonstratio a priori est per causam. Sed rei
-      abso<lb ed="#L" n="27" break="no"/>lute importate per passionem non est aliqua causa realis
-      nisi<lb ed="#L" n="28" break="no"/>extrinseca propter simplicitatem ipsius: ergo diffinitio 
-      <lb ed="#L" n="29"/>quae est medium sumitur a causa extrinseca: et per consequens non est 
-      <lb ed="#L" n="30"/>diffinitio formalis: de qua iste loquit. Contra
-      di<lb ed="#L" n="31" break="no"/>cta et modum ponendi primo videtur male intellige 
-      <lb ed="#L" n="32"/>re distinctionem philosophi inter diffinitionem formalem 
-      <lb ed="#L" n="33"/>et materialem: quia omnis diffinitio alicuius habentis 
-      <lb ed="#L" n="34"/>causam materialem et formalem explicat tam materiam 
-      <lb ed="#L" n="35"/>quam formam: quia aliter non esset conuertibilis cum
-      dif<lb ed="#L" n="36" break="no"/>finito. Illud enim quod praecise dicit formam et nullo 
-      <lb ed="#L" n="37"/>modo importat materiam praedicatur de forma in 
-      abstra<lb ed="#L" n="38" break="no"/>cto: et per consequens non conuertitur cum toto habente mate 
-      <lb ed="#L" n="39"/>riam et formam.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e433">
-      ⁋ Preterea quod dicit quod finis causat 
-      <lb ed="#L" n="40"/>efficientem: et forma informat materiam. Ista sunt 
-      <lb ed="#L" n="41"/>verba vel methaphorica et impropria vel simpliciter
-      fal<lb ed="#L" n="42" break="no"/>sa: quia sequeretur quod aliquid causaret deum: cum sit cat 
-      <lb ed="#L" n="43"/>sa efficiens. Sequeretur etiam quod sol quandocumque causaret 
-      <lb ed="#L" n="44"/>aliquem effectum propter finem: quod tunc causaretur. Et tunc 
-      <lb ed="#L" n="45"/>anima intellectiua faciens aliquid propter malum finen 
-      <lb ed="#L" n="46"/>causaretur ab illo malo fine. Qualiter autem ista verba 
-      <lb ed="#L" n="47"/>methaphorica sint intelligenda alias patebit 
-      <lb ed="#L" n="48"/>Similiter dicit quod forma causat formaliter cessante 
-      <lb ed="#L" n="49"/>efficiente non est verum: quamuis hoc sit verum de efficien 
-      <lb ed="#L" n="50"/>te secundo: non de primo: ergo efficiens primum est potissime 
-      <lb ed="#L" n="51"/>medium demonstrandi Similiter quod dicit quod materia non 
-      <lb ed="#L" n="52"/>causat compositiuum nisi prius secundum naturam causata et 
-      <lb ed="#L" n="53"/>onstituta per formam. includit contradictionem: quia mate 
-      <lb ed="#L" n="54"/>ria non causatur per formam: nisi quia informatur a formam 
-      <lb ed="#L" n="55"/>sed impossibile est quod informetur a forma nisi causet con 
-      <!--86.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 42-r -->
-               <lb ed="#L" n="56"/>positum totum. Totum etiam quod sequitur in illa declarati 
-      <lb ed="#L" n="57"/>one est falsum: quia materia est de essentia rei
-      composi<lb ed="#L" n="58" break="no"/>te: aliter enim anima intellectiua vel alia forma
-      sub<lb ed="#L" n="59" break="no"/>stantialis esset per se in specie et genere: quod est manifeste 
-      <lb ed="#L" n="60"/>falsum
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e488">
-      ⁋ Ideo dico ad istam. q. primo quod demonstra 
-      <lb ed="#L" n="61"/>tio potissima est illa: quae est propter quid. vniversalis.
-      vtra<lb ed="#L" n="62" break="no"/>vniversalitate de qua dictum est prius: et affirmatiua Et ex hoc 
-      <lb ed="#L" n="63"/>sequitur quod sit in prima figura eoipso quod est vniversalis
-      affir<lb ed="#L" n="64" break="no"/>matiua. Et quia est propter quid: sequitur quod sit per causam. Si 
-      <lb ed="#L" n="65"/>militer quia est affirmatiua praecise sequitur quod sit
-      ostensi<lb ed="#L" n="66" break="no"/>ua.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e504">
-      ⁋ Secundo dico quod demonstrationis aliquando
-      me<lb ed="#L" n="67" break="no"/>dium est diffinitio: et aliquando non. Exemplum primi sicut 
-      <lb ed="#L" n="68"/>habere tres angulos etc. demonstratur de triangulo: et et 
-      <lb ed="#L" n="69"/>se corruptibile de substantia composita. Exemplum secundi esse 
-      <lb ed="#L" n="70"/>susceptiuum discipline demonstratur de homine: non pe 
-      <lb ed="#L" n="71"/>diffinitionem hominis. sed per animam intellectiuam: posito 
-      <lb ed="#L" n="72"/>quod conueniat soli anime intellectiue.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e521">
-      ⁋ Istud secundum 
-      <lb ed="#L" n="73"/>probatur: quia demonstratio potissima est ex propositionibus 
-      <lb ed="#L" n="74"/>simplicitur indemonstrabilibus: maxime a pori. Sed 
-      <lb ed="#L" n="75"/>propositio in qua praedicatur ista passio de diffinitione hominis 
-      <lb ed="#L" n="76"/>non est simpliciter indemonstrabilis: immediata et prima. quia 
-      <lb ed="#L" n="77"/>illa est prior in quae praedicatur de subiecto suo primo. puta 
-      <lb ed="#L" n="78"/>de anima intellectiua: ergo etc. Item in medio talis demodo 
-      <lb ed="#L" n="79"/>strationis nihil debet poni ni siquod habet rationem causae 
-      respe<lb ed="#L" n="80" break="no"/>ctu illius: quia potest simpliciter poni in esse omni alio praeter for 
-      <lb ed="#L" n="81"/>mam circumscripto et tamen aliquid aliud ponitur inilla dif 
-      <lb ed="#L" n="82"/>finitione. Unde in tali sillogismo esse videtur non causa vticam: 
-      <lb ed="#L" n="83"/>qui illud quod expremit alia parten hominis nihil facit ad  
-      <lb ed="#L" n="84"/>hoc quod sibi insit illa passio
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e550">
-      ⁋ Tertio dico quod quando me 
-      <lb ed="#L" n="85"/>dium est diffinitio: talis diffinitio est diffinitio 
-      <lb ed="#L" n="86"/>subiecti non passionis. hoc patet: quia talis diffinito 
-      <lb ed="#L" n="87"/>debet exprimere causam et aliquid neccessario requisitum ad hoc 
-      <lb ed="#L" n="88"/>quod passio praedicetur de subiecto: sed tale est diffinitio 
-      <lb ed="#L" n="89"/>subiecti: quia expremit partes subiecti sine quibus impos 
-      <lb ed="#L" n="90"/>sibile esset passionem illi subiecto competere. hoc 
-      <lb ed="#L" n="91"/>patet per exempla: quia diffinitio exprimens partes
-      triangu<lb ed="#L" n="92" break="no"/>li est medium et causa quare sibi competit ista passio: sic 
-      <lb ed="#L" n="93"/>partes substantiae composite sunt causae quare sibi competit cor 
-      <lb ed="#L" n="94"/>ruptibilitas: quia nisi vna pars esset ab alia separabilis 
-      <lb ed="#L" n="95"/>non posset dici corruptibilis. huiusmodi autem demon 
-      <lb ed="#L" n="96"/>strationes fiunt in mathematid. Et quia ille obtinent 
-      <lb ed="#L" n="97"/>locum primum in demonstrationibus seu inter demonstrati 
-      <lb ed="#L" n="98"/>ones: ideo philosophus multas conditiones frequenter
-      attri<lb ed="#L" n="99" break="no"/>buit demonstratioi quae competunt mathe. demonstre 
-      <lb ed="#L" n="100"/>tionibus: vel semper: vel pro maiori parte.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e587">
-      ⁋ Ad rationes 
-      <lb ed="#L" n="101"/>alterius opinionis. Ad primam quod illa procedit ex
-      fa<lb ed="#L" n="102" break="no"/>sa ymaginatione: quia ymaginatur quod inherentia pass 
-      <lb ed="#L" n="103"/>onis ad subiectum: vel ipsa passio habeat causam
-      for<lb ed="#L" n="104" break="no"/>malem: quod est simpliciter falsum: quia forma simplex non 
-      <lb ed="#L" n="105"/>potest habere causam nisi efficientem vel finalem. Non
-      ma<lb ed="#L" n="106" break="no"/>terialem: quia illa non esset nisi materia vel suum
-      rece<lb ed="#L" n="107" break="no"/>ptiuum: sed materia non est causa forme sed totius. Nec for 
-      <lb ed="#L" n="108"/>malem: quia ipsamet est forma alicuius alterius et ideo 
-      nul<lb ed="#L" n="109" break="no"/>lam potest habere diffinitionem sumptam a sua forma: cum 
-      <lb ed="#L" n="110"/>nullam habeat. et ideo tales demonstrationes non fiunt per 
-      <!--87.xml-->
-      <pb ed="#L" n="42-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>causam formalem. et ita argumentum est ad oppos 
-      <lb ed="#L" n="2"/>tum. Si autem intelligit quod medium debet esse causa in 
-      <lb ed="#L" n="3"/>herentie. aut causa inherentie. aut causa passionis. Sed 
-      <lb ed="#L" n="4"/>primo modo. ergo cum causa inherentie sit tam subiectum quam 
-      <lb ed="#L" n="5"/>passio. quia respectus causatur et dependet essentialie 
-      <lb ed="#L" n="6"/>tam a fundamento quam a termino. non plus vnum est causa 
-      <lb ed="#L" n="7"/>formalis respectus quam aliud. sequitur quod si medium dciur 
-      <lb ed="#L" n="8"/>accipere causam. quod tam diffinitio subiecti quam passio 
-      <lb ed="#L" n="9"/>nis debet esse medium demonstrandi. Si secundo modo 
-      <lb ed="#L" n="10"/>et nihil est hic causa passionis nisi subiectum. sequitur 
-      <lb ed="#L" n="11"/>quod diffinitio subiecti erit medium.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e642">
-      ⁋ Ad secundum
-      di<lb ed="#L" n="12" break="no"/>co. quod medium demonstrandi debet esse causa proxima al 
-      <lb ed="#L" n="13"/>quomo. hoc est exprimens causam proximam. et hoc potissi 
-      <lb ed="#L" n="14"/>me in genere cause materialis. quia debet esse sub 
-      <lb ed="#L" n="15"/>iectum passionis. et hoc vel primum. sicut quando demonstratur 
-      <lb ed="#L" n="16"/>de subiecto suo non primo. vel exprimens partes ali 
-      <lb ed="#L" n="17"/>quas essentiales subiecti: propter quas talis passio 
-      <lb ed="#L" n="18"/>couenit sibi. et huiusmodi non est diffinitio passionis. 
-      <lb ed="#L" n="19"/>qui illa non praecise causam passionis expremit. sed ipsam
-      pas<lb ed="#L" n="20" break="no"/>sionem. Sed non oportem quod sit causa propria. ita quod non sit 
-      <lb ed="#L" n="21"/>causa alicuius alterius. sed stat simul quod sit causa alterius. et 
-      <lb ed="#L" n="22"/>in eodem genere causae: et etiam in alio genere cause 
-      <lb ed="#L" n="23"/>Sic anima intellectiua potest esse medium demonstran 
-      <lb ed="#L" n="24"/>di. et quod homo est intellectiuus. et quod est volitiuus. et 
-      <lb ed="#L" n="25"/>sic de aliis. et anima in eodem genere causae est causa
-      intel<lb ed="#L" n="26" break="no"/>lectionis et volitionis. quia est subiectum immediatum 
-      <lb ed="#L" n="27"/>vtriusque. et ita passio vtraque immediate de ea
-      pri<lb ed="#L" n="28" break="no"/>dicatur. et per consequens potest esse principium demonstrandi 
-      <lb ed="#L" n="29"/>vtrumque de alio in alio genere cause. quia anima est ssubitnt 
-      <lb ed="#L" n="30"/>iectum intellectionis et volitionis. et causa formalis hominis 
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e686">
-               <lb ed="#L" n="31"/>⁋ Ad tertium dico quod inter medium et extrema requiri 
-      <lb ed="#L" n="32"/>tur aliquis alius ordo realiter quam positione tantum. et in 
-      <lb ed="#L" n="33"/>illo ordine aliquando medium est simplicitur primum. Si 
-      <lb ed="#L" n="34"/>cut si anima intellectiva sit medium demonstrandi esse 
-      <lb ed="#L" n="35"/>susceptibile discipline de homine est primum in
-      or<lb ed="#L" n="36" break="no"/>dine nature. quie est inter ista. quia semper pars est prior 
-      <lb ed="#L" n="37"/>natura suo toto. quia potest esse sine eo. et non
-      econuer<lb ed="#L" n="38" break="no"/>so. et totum subiectum aliquo modo est prius natura ad 
-      <lb ed="#L" n="39"/>cidente. quamuis non ita stricte loquendo: sicut pars est 
-      <lb ed="#L" n="40"/>prior toto secundum naturam. et ex hoc ipso quod pars ipsa est 
-      <lb ed="#L" n="41"/>prior in isto ordine potest esse medium in demonstra 
-      <lb ed="#L" n="42"/>tione. fforte tamen in ordine perfectionis: vel in aliquo 
-      <lb ed="#L" n="43"/>alio potest esse simpliciter medium. quia in proposito homo est 
-      <lb ed="#L" n="44"/>perfectior anima intellectiva. et anima intellectiua est per 
-      <lb ed="#L" n="45"/>fectior actu intelligendi et volendi.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e721">
-      ⁋ Si dicatur quod 
-      <lb ed="#L" n="46"/>vnius subiecti non possunt esse plures passiones eque
-      pri<lb ed="#L" n="47" break="no"/>me. sed semper vna est prior et ratio demonstrandi vnam de 
-      <lb ed="#L" n="48"/>alia.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e731">
-      ⁋ Respondeo quod vnius subiecti possunt esse plures 
-      <lb ed="#L" n="49"/>passiones eque prime. ita quod neutra sit ratio
-      demonstran<lb ed="#L" n="50" break="no"/>di aliam de subiecto. quameuis aliquando vna sit ratio
-      demon<lb ed="#L" n="51" break="no"/>strandi aliam de subiecto non demonstratione vniversali et 
-      <lb ed="#L" n="52"/>simpliciter. sed demonstratione particulari et secundum quid. Aliquando 
-      <lb ed="#L" n="53"/>autem sic ordinantur: quod vna est ratio demonstrandi alia 
-      <lb ed="#L" n="54"/>de subiecto demonstratione vniversali. sed hoc non est verum: ni 
-      <lb ed="#L" n="55"/>si quando vna importat subiectum alterius. vel prima di¬ 
-      <!--87.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 42-v -->
-               <lb ed="#L" n="56"/>cit aliquid subiectiue existens in subiecto: et sibi 
-      <lb ed="#L" n="57"/>primo potest competere alia passio secunda. Exemplum
-      pri<lb ed="#L" n="58" break="no"/>mi. si quantitas sit alia res a substantia. et sit 
-      <lb ed="#L" n="59"/>subiectum qualitatur: tunc quantitas quae importatur per
-      passi<lb ed="#L" n="60" break="no"/>onem subseantiae erit medium demonstrandi passione
-      impor<lb ed="#L" n="61" break="no"/>tantem qualitatem de substantia. Exemplum secundi. sicu 
-      <lb ed="#L" n="62"/>calor est medium demonstrandi calefactiuum de igne 
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e770">
-               <lb ed="#L" n="63"/>⁋ Ad illam declarationem quod diffinitio formalis est 
-      <lb ed="#L" n="64"/>medium demonstrandi. Dico: quod verum est quando
-      diffin<lb ed="#L" n="65" break="no"/>tio est medium in demonstratione vniversali: tunc
-      diffin<lb ed="#L" n="66" break="no"/>tio formalis subiecti est medium: sed illa diffinitio 
-      <lb ed="#L" n="67"/>non includit praecise formam rei: sed dicitur formalis quia in 
-      <lb ed="#L" n="68"/>cludit principia rei essentialia
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e786">
-      ⁋ Unde pro intentione 
-      <lb ed="#L" n="69"/>philosophi est sciendum: quod diffinitionum quadam est indicans 
-      <lb ed="#L" n="70"/>quidrei: quadam quid nominis.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e793">
-      ⁋ Secundo sciendum: quod
-      diffi<lb ed="#L" n="71" break="no"/>nitio potest comprari ad diffinitum et ad illud de quo 
-      <lb ed="#L" n="72"/>diffinitum praedicatur. Similiter diffinitio aliquando datur per 
-      <lb ed="#L" n="73"/>principia essentialia: et illa est formalis. Aliquando aut 
-      <lb ed="#L" n="74"/>datur per principia alicuius rei extrinseca: et illa est 
-      ma<lb ed="#L" n="75" break="no"/>terialis. Prima non potest competere nisi substantie compo 
-      <lb ed="#L" n="76"/>site: et hoc strictissime accipiendo diffinitionem for 
-      <lb ed="#L" n="77"/>malem. Targe tamen accipiendo potest competere alicui 
-      <lb ed="#L" n="78"/>habenti distinctas partes eiusdem rationis: et tali 
-      diffi<lb ed="#L" n="79" break="no"/>nitione diffiniuntur multa mathematica: sicut triam 
-      <lb ed="#L" n="80"/>gulus quadrangulus: et sic de aliis: Unde triangulus dif 
-      <lb ed="#L" n="81"/>finitur quod est figura tribus lineis contenta etc. iste li 
-      <lb ed="#L" n="82"/>nee non sunt alterius rationis inter se. Et sic large 
-      <lb ed="#L" n="83"/>accipit philosophus diffinitionem formalem. Alie autem
-      di<lb ed="#L" n="84" break="no"/>finitiones date per alias causas sunt diffinitiones 
-      <lb ed="#L" n="85"/>materiales: et hoc quia vt frequenter dantur tales diff 
-      <lb ed="#L" n="86"/>nitiones per materiam: extendendo materiam ad omne 
-      <lb ed="#L" n="87"/>receptiuum. Et iste diffinitiones vt in pluribus sunt 
-      <lb ed="#L" n="88"/>diffinitiones exprimentes quid nominis: non exprimentes 
-      <lb ed="#L" n="89"/>quid rei. hoc potest persuaderi: quia secundum philosophum eclipsis 
-      <lb ed="#L" n="90"/>est priuatio luminis in luna per obiectum terre. Ista 
-      <lb ed="#L" n="91"/>diffinitio expremit quid nominis: quia si in luna causaretur 
-      <lb ed="#L" n="92"/>defectus luminis per aliam causam: secundum intentionem philosoph 
-      <lb ed="#L" n="93"/>non diceretur eclipsis. Similiter ponatur quod tonitruum 
-      <lb ed="#L" n="94"/>causetur ex extinctione ignis in nube: et tunc vocatur 
-      <lb ed="#L" n="95"/>tonitruum: et tamen si sonus eiusdem speciei causaretur in
-      nu<lb ed="#L" n="96" break="no"/>be ex alia causa non diceretur tonitruum. Et semper ita 
-      <lb ed="#L" n="97"/>quando diffinitio datur per aliquam causam extrinseca illa 
-      <lb ed="#L" n="98"/>diffinitio est exprimens quid nominis tantum. hoc probatur 
-      <lb ed="#L" n="99"/>qui diffinitio et diffinitum conuertuntur: ita quod semper 
-      <lb ed="#L" n="100"/>consequentia formali contingit inferre diffinitum ex
-      diffini<lb ed="#L" n="101" break="no"/>tione: et econuerso: sed si talis diffinitio exprimeret 
-      <lb ed="#L" n="102"/>quid rei: non inferretur formaliter diffinitio ex
-      diffini<lb ed="#L" n="103" break="no"/>to: nec econuerso. quia simpliciter posset illa res fieri si 
-      <lb ed="#L" n="104"/>ne illa causa extrinseca: saltem per potentiam diuinam: et 
-      <lb ed="#L" n="105"/>per consequens non contingeret arguere ab illa re ad 
-      diffi<lb ed="#L" n="106" break="no"/>nitionem: nec ecouerso. Uerbi gratia. si tonitruum 
-      <lb ed="#L" n="107"/>causaretur ex extinctione ignis in nube tamquam ex causa 
-      <lb ed="#L" n="108"/>extrinseca: omnis res quae est alia ab illa causa extrinseca 
-      <lb ed="#L" n="109"/>potest fieri a deo sine illa extinctione: ergo non sequeretur 
-      <lb ed="#L" n="110"/>tunc diffinitio ista ex illo diffinito: quia ponatur quod 
-      <!--88.xml-->
-      <pb ed="#L" n="43-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>illa res significetur per a. tunc non sequitur. a est. igitur so 
-      <lb ed="#L" n="2"/>nus ex extinctione ignis in nube est. quia illo posi 
-      <lb ed="#L" n="3"/>to antecedens est verum: et consequens falsum
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e895">
-      ⁋ Dico go. quod diffini 
-      <lb ed="#L" n="4"/>tio formalis semper datur per intrinseca et essentialia. hoc 
-      <lb ed="#L" n="5"/>est per conceptus exprimentes principia intrinseca 
-      <lb ed="#L" n="6"/>Diffinitio autem materialis datur per extrinseca rei 
-      <lb ed="#L" n="7"/>cui primo competit diffinitio.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e906">
-      ⁋ Et quod hoc sit intentio 
-      <lb ed="#L" n="8"/>philosophi patet. quia dicit quod causa aut est eadem aut alia. hoc 
-      <lb ed="#L" n="9"/>non potest intelligi quod aliquando causa sit distincta realiter.
-      ali<lb ed="#L" n="10" break="no"/>quando non. quia impossibile est quod causa et effectus sunt idem rea 
-      <lb ed="#L" n="11"/>liter. ergo per causam eandem intelligit causam intrinsecam. quae 
-      <lb ed="#L" n="12"/>potest dici eadem. quia non simplicitur diuersa: sic dicit 
-      <lb ed="#L" n="13"/>commentator. iest phisicorum. quod pars non est simpliciter 
-      <lb ed="#L" n="14"/>alia a toto. Et per causam aliam intelligit causam
-      extrin<lb ed="#L" n="15" break="no"/>secam. sed nunc est ita quod materia ita est intrinseca 
-      <lb ed="#L" n="16"/>rei composite: sicut ipsa forma. et per consequens ita eadem 
-      <lb ed="#L" n="17"/>quamuis forma sit pars principalior. sed nunc est ita quod 
-      <lb ed="#L" n="18"/>philosophus vocat diffinitiones factas secundum speciem quae no 
-      <lb ed="#L" n="19"/>dantur per aliam causam. illas autem quae dantur per alias
-      cau<lb ed="#L" n="20" break="no"/>sas vocat materiales. ergo formales dantur per causas 
-      <lb ed="#L" n="21"/>intrinsecas. alie per extrinsecas. Assumptum patet 
-      <lb ed="#L" n="22"/>Nam dicit aristoteles sic. est autem quorundam quidem 
-      <lb ed="#L" n="23"/>quedam altera causa. quorundam non est scilicet altera causa 
-      <lb ed="#L" n="24"/>quae debebit poni in diffinitione exprimente quid rei 
-      <lb ed="#L" n="25"/>Diffinitiones quidem secundum speciem nullum habent medium 
-      <lb ed="#L" n="26"/>quo demonstrantur. sed diffinitiones secundum materiam 
-      fa<lb ed="#L" n="27" break="no"/>cte possunt habere medium. et sequitur. habentium medium 
-      <lb ed="#L" n="28"/>quorundam est quadam altera causa subseantie et ipsius esse etc. 
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e955">
-               <lb ed="#L" n="29"/>⁋ Ex hoc patet. quod diffinitiones materiales vocat da 
-      <lb ed="#L" n="30"/>tas per alteras causas. quarum aliqua est demonstrabilis: 
-      <lb ed="#L" n="31"/>et aliqua non. et diffinitiones secundum speciem vocat illas 
-      <lb ed="#L" n="32"/>quae non dantur per alias causas. Quomodo ergo se habent 
-      <lb ed="#L" n="33"/>iste diffinitiones ad demonstrationem secundum
-      intentio<lb ed="#L" n="34" break="no"/>nem philosophi. Dico quod diffinitio exprimens quid rei numquam 
-      <lb ed="#L" n="35"/>potest demonstrari de diffinito. quia semper illa
-      proposi<lb ed="#L" n="36" break="no"/>tio est immediata. Secundo quod si esset aliqua
-      diffini<lb ed="#L" n="37" break="no"/>tio exprimens quid rei simpliu. illa non esset 
-      demon<lb ed="#L" n="38" break="no"/>strabilis de diffinito. sed de illo eodem de quo 
-      diffi<lb ed="#L" n="39" break="no"/>nitum esset demonstrabile. Et ideo si calor haberet 
-      <lb ed="#L" n="40"/>diffinitionem datam per principia intrinseca. esset
-      de<lb ed="#L" n="41" break="no"/>monstrabilis de eodem de quo calor. et per idem
-      me<lb ed="#L" n="42" break="no"/>dium. et ita ista diffinitio esset demonstrabilis siue 
-      <lb ed="#L" n="43"/>conclusio demonstrationis. hoc est. esset de aliquo 
-      <lb ed="#L" n="44"/>demonstrabile.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e992">
-      ⁋ Sed loquendo de diffinitione expri 
-      <lb ed="#L" n="45"/>mente quid nominis. distinguo de ea. quia duplicitur 
-      <lb ed="#L" n="46"/>accipitur. vel pro aliqua orione qua omnes loquentes de 
-      <lb ed="#L" n="47"/>nomine intelligant per nomen. vel pro orione cuius:
-      ve<lb ed="#L" n="48" break="no"/>ritas sequitur ex veritate prioris orionis.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1003">
-      ⁋ Prima 
-      <lb ed="#L" n="49"/>diffinitio non potest demonstrari de diffinito quamuis 
-      <lb ed="#L" n="50"/>posset demonstrari de subiecto. et ita est
-      princi<lb ed="#L" n="51" break="no"/>pium demonstrationis. Secunda diffinitio potest demod 
-      <lb ed="#L" n="52"/>strari. Uerbi gratia omnes per domum intelligunt quid
-      pro<lb ed="#L" n="53" break="no"/>hibens nos a frigore etc. est illa diffinitio non potest 
-      <lb ed="#L" n="54"/>demonstrari de domo. sed est principium
-      demonstra<lb ed="#L" n="55" break="no"/>tionis. Sequitur autem probibet nos a talibus tempesta¬ 
-      <!--88.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 43-r -->
-               <lb ed="#L" n="56"/>tibus etc. ergo componitur ex corporibus solidis: sed non 
-      <lb ed="#L" n="57"/>nisi ex lignis et lapidibus. Ponatur quod non essent 
-      <lb ed="#L" n="58"/>aliqua alia corpora potentia nos defendere vel
-      pro<lb ed="#L" n="59" break="no"/>hibere: et ita secunda ista diffinitio quae non exprimit 
-      <lb ed="#L" n="60"/>quid rei alicuius potest demonstrari per priorem et esse
-      conclu<lb ed="#L" n="61" break="no"/>sio demonstrationis.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1040">
-      ⁋ Ex istis autem componitur vna 
-      <lb ed="#L" n="62"/>diffinitio complexa exprimens omnes causas eius neccessarias 
-      <lb ed="#L" n="63"/>qui expremit finem et materiam: causam autem efficientem non 
-      <lb ed="#L" n="64"/>expremit: quia nihil refert ad hoc quod de ipso
-      verifi<lb ed="#L" n="65" break="no"/>cetur principale quid nominis: a quo efficiente causetur: si 
-      <lb ed="#L" n="66"/>cut refert de qua materia fiat. Ita omnes per demon 
-      <lb ed="#L" n="67"/>strationem intelligunt svllogismum facietem scire: se 
-      <lb ed="#L" n="68"/>hoc non potest fieri nisi per propositiones neccessarias etc. et ideo 
-      <lb ed="#L" n="69"/>dicitur: quod demonstratio est svllogismus ex veris etc. 
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1060">
-               <lb ed="#L" n="70"/>⁋ Tame est aduertendum quod ista demonstratio non est sim 
-      <lb ed="#L" n="71"/>plicitur demonstratio vniversalis. et ideo dicit philosophus: quod quamuis 
-      <lb ed="#L" n="72"/>aliqua causa altera sit demonstrabilis: et aliqua non: et vnum 
-      <lb ed="#L" n="73"/>demonstrat: et aliud non demonstrat sed demonstratus 
-      <lb ed="#L" n="74"/>Dicitur hoc quidem modus quod non sit demonstratio dictum 
-      <lb ed="#L" n="75"/>est prius: sed est logicus spllogismus ipsius quid est. Similiter 
-      <lb ed="#L" n="76"/>potest dici quod aliquo modo quid rei est demonstrabile per 
-      <lb ed="#L" n="77"/>quid nominis. Supposito enim quod per hominem intelligatur 
-      <lb ed="#L" n="78"/>substantia composita potens intelligere et velle: potest 
-      <lb ed="#L" n="79"/>concludi quod componitur ex corpore et anima intellectiua: sed 
-      <lb ed="#L" n="80"/>iste demonstrationes non sunt simpliciter vniversales. quia non
-      fa<lb ed="#L" n="81" break="no"/>ciunt scire: sed tantum inferunt conclusionem ex praemissis: quia 
-      <lb ed="#L" n="82"/>secundum Ari. ii. poste. impossibile est cognoscere quid est 
-      <lb ed="#L" n="83"/>nisi cognoscendo si est.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1093">
-      ⁋ Si dicatur quod tunc qui nesc 
-      <lb ed="#L" n="84"/>ret eclipsim esse: nesciret quid esset eclipsis.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1099">
-      ⁋
-      Di<lb ed="#L" n="85" break="no"/>co quod non potest sciri quid est sine si est. hoc est: non potest sciri quio 
-      <lb ed="#L" n="86"/>est sine notitia qua scitur hoc esse vel fuisse vel futurum esse: 
-      <lb ed="#L" n="87"/>quia aliter naturaliter non potest sciri esse possibile in rerum 
-      <lb ed="#L" n="88"/>natura. et quod quid nominis non includit contradictionem. Et 
-      <lb ed="#L" n="89"/>sic loquendo de si est: verum est quod dicit ari. quod idem est
-      sci<lb ed="#L" n="90" break="no"/>re quod quid est: et scire causam ipsius si est: quia
-      circumscriben<lb ed="#L" n="91" break="no"/>do notitiam intuitiuam et notitiam causatam immediate a 
-      <lb ed="#L" n="92"/>notitia intuitiva impossibile est naturaliter scire de ali 
-      <lb ed="#L" n="93"/>quae passione si est vel erit: nisi sciendo quod causa sua est vel 
-      <lb ed="#L" n="94"/>erit. Et ita sine quid est hoc est sine diffinitione
-      exprimen<lb ed="#L" n="95" break="no"/>te aliquo modo quid: mediante notitia intuitiua: potest 
-      <lb ed="#L" n="96"/>sciride luna quod deficit: nesciendo causam ipsius. et ita 
-      <lb ed="#L" n="97"/>nesciendo diffinitionem datam per illam causam: tamen 
-      abstra<lb ed="#L" n="98" break="no"/>ctiue non potest sciri: nisi sciendo causam. puta quod
-      defi<lb ed="#L" n="99" break="no"/>cit vel deficiet: nisi sciendo quod terra interponitur vel 
-      <lb ed="#L" n="100"/>interponetur.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1136">
-      ⁋ Si dicatur quod notitia abstractiua 
-      <lb ed="#L" n="101"/>abstrahit ab existentia.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1141">
-      ⁋ Et similiter non potest esse causa
-      no<lb ed="#L" n="102" break="no"/>titie veritatis contigentur. Similiter hoc propositio: luna deficit vel 
-      <lb ed="#L" n="103"/>deficiet est contiges.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1148">
-      ⁋ Ad primum istorum dico: quod no 
-      <lb ed="#L" n="104"/>titia abstractiva abstrahit ab existentia: quia non est 
-      <lb ed="#L" n="105"/>sufficiens ad sciendum existentiam in esse determinato tempore: 
-      <lb ed="#L" n="106"/>tamen cum aliqua notitia potest esse sufficiens: sicut secundum viam philosophi 
-      <lb ed="#L" n="107"/>potest sciri quod luna determinato tempore eclipsabitur quia scitur 
-      <lb ed="#L" n="108"/>quod sol sic mouebitur: et quod luna similiter. et per consequens quod inter 
-      <lb ed="#L" n="109"/>ponetur terra et per consequens luna eclipsabitur: et ita talis no 
-      <lb ed="#L" n="110"/>titia numquam potest sciri nisi per causam.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1166">
-      ⁋ Ad secundum: quod eodem cor 
-      <!--89.xml-->
-      <pb ed="#L" n="43-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>modo mediantibus talibus veritatibus potest sciri
-      veri<lb ed="#L" n="2" break="no"/>tas contingens: et ideo sola notitia abstractiua termi 
-      <lb ed="#L" n="3"/>ni vel termiorum non sufficit.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1182">
-      ⁋ Ad tertium: quod potest 
-      <lb ed="#L" n="4"/>formari proposito neccessaria de terminis illis: et ita sci 
-      <lb ed="#L" n="5"/>etur scientia proprie dicta: tamen illa contingens potest
-      euiden<lb ed="#L" n="6" break="no"/>ter cognosci: quamuis non sciri scientia proprie decam.
-    </p>
-            <p xml:id="wo8uy7-d1e118-d1e1192">
-      ⁋ Ad  
-      <lb ed="#L" n="7"/>argumentum principale dico quod causa et medium sunt idem 
-      <lb ed="#L" n="8"/>extendendo nomen causae ad omne illud cui primo 
-      compe<lb ed="#L" n="9" break="no"/>tit: et sine quo npossit alteri competere: et hoc in
-      de<lb ed="#L" n="10" break="no"/>monstratione vniversali et propter quid. Et quando dicitur quod propter quid et 
-      <lb ed="#L" n="11"/>quod quid est idem sunt. Dico quod hoc non est intelligendum: quod
-      pro<lb ed="#L" n="12" break="no"/>pter quid ie causa: et quod quid e: hoc est tota diffinitio
-      sim<lb ed="#L" n="13" break="no"/>plicitur sunt idem: sed quia propter quid i. causa ponitur in
-      diffini<lb ed="#L" n="14" break="no"/>tione. Et ita ad intetionem philosophi sufficit quod causa sit pars 
-      <lb ed="#L" n="15"/>diffinitionis. hoc patet per philosophum ii. poste. In omnibus 
-      ma<lb ed="#L" n="16" break="no"/>nifestum est quod idem sit: quod quid e: et propt quid est. Ut quid 
-      <lb ed="#L" n="17"/>est defectus lune: priuatio luminis a luna a terre 
-      <lb ed="#L" n="18"/>obiectum. Propst quid est defectus aut propter quid
-      defi<lb ed="#L" n="19" break="no"/>cit luna propter defectum luminis obiecta terra 
-      <lb ed="#L" n="20"/>Nunc manifestum est quod causa hac scilicet obiectio terre non est 
-      <lb ed="#L" n="21"/>nisi pars illius diffinitonis. defectus est priuatio luminis 
-      <lb ed="#L" n="22"/>a luma a tre obiectu. Sequitur alia quaetio annexa secunde.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="41-v"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e118"><!-- l1prolq5 -->
+        <head xml:id="wo8uy7-d1e118-Hd1e108">Quaestio 5</head>
+        <p xml:id="wo8uy7-d1e118-d1e111">
+          <lb ed="#L" n="23"/>Preterea quero utrum 
+          <lb ed="#L" n="24"/>in omni demonstratione diffinitio sit medium 
+          demon<lb ed="#L" n="25" break="no"/>strandi. Quod sic. ii. posteriorum: omnis quaestio est quaestio medi 
+          <lb ed="#L" n="26"/>medium autem et causa idem sunt ibidem: ergo omnis. qu. est. q. de
+          dif<lb ed="#L" n="27" break="no"/>finitione tamquam de medio: sed omnis conclusio demonstra 
+          <lb ed="#L" n="28"/>bilis est quaeribilis: ergo habet terminari per diffinitionem tam 
+          <lb ed="#L" n="29"/>quam per medium.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e129">
+          ⁋ Ad oppositum dictum est prius quod alicua 
+          <lb ed="#L" n="30"/>passio demonstratur de deo: et tamen non per diffinitionem 
+          <lb ed="#L" n="31"/>Similiter aliquid demonstratur de ente: et tamen non per
+          diffi<lb ed="#L" n="32" break="no"/>nitionem: ergo.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e138">
+          ⁋ Ad istam. q. est opinio communis quod in omni de 
+          <lb ed="#L" n="33"/>monstratione medium est diffinitio. Sed de medio de 
+          <lb ed="#L" n="34"/>monstrationis potissime sunt diuerse opiniones. 
+          <lb ed="#L" n="35"/>Una opinio est quod medium in tali demonstratione est 
+          <lb ed="#L" n="36"/>diffinitio passionis non subiecti. Et circa istam opi 
+          <lb ed="#L" n="37"/>nionem primo declaratur quae demonstrato est potissima 
+          <lb ed="#L" n="38"/>secundo quod medium in ea non est diffinitio subiecti sed
+          pas<lb ed="#L" n="39" break="no"/>sionis
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e156">
+          ⁋ Primum declaratur quia secundum philosophum primo
+          po<lb ed="#L" n="40" break="no"/>steriorum. quique sunt conditiones demonstrationis
+          po<lb ed="#L" n="41" break="no"/>tissime. scilicet quod sit propter quid. in prima figura. vniversalis.
+          affi<lb ed="#L" n="42" break="no"/>mativa. et ostensiva. Sed in secundo libro ponit alsa 
+          con<lb ed="#L" n="43" break="no"/>ditionem: quod medium in ea sit diffinitio formalis. Et 
+          <lb ed="#L" n="44"/>est illa diffinitio quae sumitur a forma rei: vel a fine. 
+          <lb ed="#L" n="45"/>Alie autem diffinitiones sumuntur a materia vel ab 
+          ef<lb ed="#L" n="46" break="no"/>ficiente. Secundum probatur: primo quod non diffinitio sub 
+          <lb ed="#L" n="47"/>iecti. primo sic. quando demonstrationes dantur per aliqua goe 
+          <lb ed="#L" n="48"/>nera causarum: semperbantur per causas inhere 
+          <lb ed="#L" n="49"/>tie puta per causam efficientem inherentie vel per causan 
+          <lb ed="#L" n="50"/>materiale vel finalem inherentie: ergo similiter quando dantur per causa 
+          <lb ed="#L" n="51"/>formalem: dantur per causam inherentie passionis: sed
+          diffini<lb ed="#L" n="52" break="no"/>tio formalis subiecti non est causa formalis inherentie 
+          pas<lb ed="#L" n="53" break="no"/>sionis: sed magis efficiens vel materialis: ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e190">
+          ⁋ Item 
+          <lb ed="#L" n="54"/>medium demonstrandi potissime debet esse causa propria et pro 
+          <!--85.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 41-v -->
+          <lb ed="#L" n="55"/>xima inherentie passionis: sed diffinitio sormalis sub 
+          <lb ed="#L" n="56"/>iecti non est huiusmodi: quia si sic non esset causa nisi eius: nunc 
+          <lb ed="#L" n="57"/>autem est causa propria exemplaris et proxima subiecti: ergo etc. 
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e208">
+          <lb ed="#L" n="58"/>⁋ Ite medium demonstrandi potissime non est
+          me<lb ed="#L" n="59" break="no"/>dium positione tantum: sicut in quolibet sillogismo sed oportet 
+          <lb ed="#L" n="60"/>quod sit medium secundum naturam. quia si esset equae primo secundum
+          na<lb ed="#L" n="61" break="no"/>turam aut posterior passione non esset causa. Et si esset 
+          <lb ed="#L" n="62"/>prior subietto. non esset causa proxima: sed diffinitio
+          for<lb ed="#L" n="63" break="no"/>malis subiecti est prior subiecto datur enim per priora secundum 
+          <lb ed="#L" n="64"/>naturam. et per consequens non mediat secundum naturam inter
+          sub<lb ed="#L" n="65" break="no"/>iectum et praedicatum. Quod autem diffinitio formalis sum 
+          <lb ed="#L" n="66"/>pta a forma sit medium in demonstratione 
+          potissi<lb ed="#L" n="67" break="no"/>ma: declaratur per philosophum ii. posteriorum. quia
+          demonstra<lb ed="#L" n="68" break="no"/>tio demonstrans tantum est potior demonstratione
+          demo<lb ed="#L" n="69" break="no"/>strata. Demonstratio enim est sillogismus secundum quem sci 
+          <lb ed="#L" n="70"/>mus in habendo ipsum: absque hoc quod indigeamus ali 
+          <lb ed="#L" n="71"/>quo alio. Sed sola demonstratio per causam formalem 
+          <lb ed="#L" n="72"/>est huiusmodi: ergo etc. minorem ari. ostendit per multa exempla 
+          <lb ed="#L" n="73"/>quae omnia sumunt robur secundum lin. ex hoc quod finis causat effi 
+          <lb ed="#L" n="74"/>cientem et forma materiam. Si dicatur quod causae inui 
+          <lb ed="#L" n="75"/>cem sunt causae secundo phisicorum. et secundum comen id est
+          phisico<lb ed="#L" n="76" break="no"/>rum. Dicendum sed istam opinionem: quod licet causae sint causae
+          in<lb ed="#L" n="77" break="no"/>uicem: tamen haec est modo ignobiliori. Uerbi gratia finis in 
+          <lb ed="#L" n="78"/>intentione causat efficientem et tunc primo efficiens in 
+          <lb ed="#L" n="79"/>ducit finem. Unde patet quod efficiens non causat nisi inquam 
+          <lb ed="#L" n="80"/>tum causatus a fine. Sed finis causat et non causat 
+          <lb ed="#L" n="81"/>ab eo Efficiens etiam non causat formam inquantum ipsa 
+          <lb ed="#L" n="82"/>causat formaliter causat etiam formaliter cessante 
+          ef<lb ed="#L" n="83" break="no"/>ficiente. Unde efficiens non est causa nisi fieri eius. Effici 
+          <lb ed="#L" n="84"/>ens etiam non dat materie esse sed fieri tantum. Ibatria 
+          <lb ed="#L" n="85"/>vero non causat compositum nisi prius secundum naturam 
+          <lb ed="#L" n="86"/>causata et constituta per formam nec tunc causat nis 
+          <lb ed="#L" n="87"/>sicut occasio tantum. Sed forma sic causat rem formaliter 
+          <lb ed="#L" n="88"/>quod ipsa est formaliter quicquid res est proprie per se: in tantum quod 
+          il<lb ed="#L" n="89" break="no"/>la posita et omni alia causa amota per impossibile: res esset 
+          <lb ed="#L" n="90"/>in specie et genere et in effectum. Unde ipsa est
+          po<lb ed="#L" n="91" break="no"/>tissima causa rei. Et ideo diffinitio sumpta ex ea 
+          <lb ed="#L" n="92"/>est potissimum medium demonstrandi.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e286">
+          ⁋ Secundo quod dif 
+          <lb ed="#L" n="93"/>finitio passionis demonstrande sit medium
+          decla<lb ed="#L" n="94" break="no"/>ratur: quia ipsa est causa formalis exemplaris eius et propria et 
+          <lb ed="#L" n="95"/>proxima in nullo genere cause. Est etiam
+          posteri<lb ed="#L" n="96" break="no"/>or subiecto secundum naturam et prior passione sicut men 
+          <lb ed="#L" n="97"/>sura mensurato: et per consequens mediat secundum naturam in 
+          <lb ed="#L" n="98"/>subiectum et praedicatum.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e302">
+          ⁋ Contra istam opinionem prio 
+          <lb ed="#L" n="99"/>mo ostendo quod diffinitio passionis non est medium 
+          <lb ed="#L" n="100"/>qui si sic: aut diffinitio proprie dicta per principia intri 
+          <lb ed="#L" n="101"/>seca: aut data per additamentum. Non primo modo: quia 
+          <lb ed="#L" n="102"/>multe sunt passiones quae talem diffinitionem non
+          ha<lb ed="#L" n="103" break="no"/>bent: sicut omnes passiones importantes res
+          absolu<lb ed="#L" n="104" break="no"/>tas simplices: sicut alias patebit
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e318">
+          ⁋ Nec secundo modo 
+          <lb ed="#L" n="105"/>qui illa diffinitio includit ipsum subiectum vel aliquam 
+          <lb ed="#L" n="106"/>aliam causam extrinsecam. Si primo modo non potest esse
+          me<lb ed="#L" n="107" break="no"/>dium: quia medium numquam debet continere alterum terminum: 
+          <lb ed="#L" n="108"/>scilicet nec maiorem extremitatem nec minorem. Si se 
+          <lb ed="#L" n="109"/>cundo modo: ergo non erit demonstratio simpliciter vniversalis: quia 
+          <!--86.xml-->
+          <pb ed="#L" n="42-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>declaratum est in priori quaestione quod per causam extrinsecam non 
+          <lb ed="#L" n="2"/>sit demonstratio vniversalis.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e342">
+          ⁋ Preterea demonstratie 
+          <lb ed="#L" n="3"/>potissima est ex indemonstrabilibus a priori. Sed dif 
+          <lb ed="#L" n="4"/>finitio passionis est demonstrabilis de subiecto a 
+          <lb ed="#L" n="5"/>priori: et per consequens non est principium in demonstratione po 
+          <lb ed="#L" n="6"/>tissima. Assumptum patet quia habet causam inherentie sue ad  
+          <lb ed="#L" n="7"/>subiectum: quia subiectum est causa passionis et forme sue 
+          <lb ed="#L" n="8"/>secundum eos: et per consequens secundum eos erit causa in cognitione dis 
+          <lb ed="#L" n="9"/>finitionis exprimentis illam formam. Sminis autem caus secundum 
+          <lb ed="#L" n="10"/>eos potest esse medium in demonstratione a priori: quamuis 
+          <lb ed="#L" n="11"/>non semper potissima.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e365">
+          ⁋ Preterea diffinitio passio. 
+          <lb ed="#L" n="12"/>nis non differt realiter a diffinito: et per consequens non est 
+          <lb ed="#L" n="13"/>causa eius realiter: sed per te demonstratio potissima est 
+          <lb ed="#L" n="14"/>per causam: ergo etc
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e374">
+          ⁋ Ad istud respondetur quod diffinitio et 
+          <lb ed="#L" n="15"/>diffinitum non differunt tantum secundum vocem: sed secundum rem rationis 
+          <lb ed="#L" n="16"/>quae pertinet ad signatum vnius et non ad signatum
+          alte<lb ed="#L" n="17" break="no"/>rius. Nomen enim signat totum quoddam confusum vt 
+          <lb ed="#L" n="18"/>circulus: sed diffinitio diuidit in singula. Unde illa 
+          <lb ed="#L" n="19"/>explicatio quam nomen scilicet diffiniti non signat:
+          per<lb ed="#L" n="20" break="no"/>tinet ad signatum diffinitionis. Diffinitio enim
+          in<lb ed="#L" n="21" break="no"/>dicat et explicat diffinitum: non sic nomen et ideo dis 
+          <lb ed="#L" n="22"/>finitio est mensura et exemplar diffiniti: non autem
+          no<lb ed="#L" n="23" break="no"/>men
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e396">
+          ⁋ Contra. siue diffinitio differt a diffinito si 
+          <lb ed="#L" n="24"/>ue no: semper tamen explicat causam realem illius quod 
+          impor<lb ed="#L" n="25" break="no"/>tatur per diffinitum: maxime secundum istos ponentes quod 
+          <lb ed="#L" n="26"/>omnis demonstratio a priori est per causam. Sed rei
+          abso<lb ed="#L" n="27" break="no"/>lute importate per passionem non est aliqua causa realis
+          nisi<lb ed="#L" n="28" break="no"/>extrinseca propter simplicitatem ipsius: ergo diffinitio 
+          <lb ed="#L" n="29"/>quae est medium sumitur a causa extrinseca: et per consequens non est 
+          <lb ed="#L" n="30"/>diffinitio formalis: de qua iste loquit. Contra
+          di<lb ed="#L" n="31" break="no"/>cta et modum ponendi primo videtur male intellige 
+          <lb ed="#L" n="32"/>re distinctionem philosophi inter diffinitionem formalem 
+          <lb ed="#L" n="33"/>et materialem: quia omnis diffinitio alicuius habentis 
+          <lb ed="#L" n="34"/>causam materialem et formalem explicat tam materiam 
+          <lb ed="#L" n="35"/>quam formam: quia aliter non esset conuertibilis cum
+          dif<lb ed="#L" n="36" break="no"/>finito. Illud enim quod praecise dicit formam et nullo 
+          <lb ed="#L" n="37"/>modo importat materiam praedicatur de forma in 
+          abstra<lb ed="#L" n="38" break="no"/>cto: et per consequens non conuertitur cum toto habente mate 
+          <lb ed="#L" n="39"/>riam et formam.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e433">
+          ⁋ Preterea quod dicit quod finis causat 
+          <lb ed="#L" n="40"/>efficientem: et forma informat materiam. Ista sunt 
+          <lb ed="#L" n="41"/>verba vel methaphorica et impropria vel simpliciter
+          fal<lb ed="#L" n="42" break="no"/>sa: quia sequeretur quod aliquid causaret deum: cum sit cat 
+          <lb ed="#L" n="43"/>sa efficiens. Sequeretur etiam quod sol quandocumque causaret 
+          <lb ed="#L" n="44"/>aliquem effectum propter finem: quod tunc causaretur. Et tunc 
+          <lb ed="#L" n="45"/>anima intellectiua faciens aliquid propter malum finen 
+          <lb ed="#L" n="46"/>causaretur ab illo malo fine. Qualiter autem ista verba 
+          <lb ed="#L" n="47"/>methaphorica sint intelligenda alias patebit 
+          <lb ed="#L" n="48"/>Similiter dicit quod forma causat formaliter cessante 
+          <lb ed="#L" n="49"/>efficiente non est verum: quamuis hoc sit verum de efficien 
+          <lb ed="#L" n="50"/>te secundo: non de primo: ergo efficiens primum est potissime 
+          <lb ed="#L" n="51"/>medium demonstrandi Similiter quod dicit quod materia non 
+          <lb ed="#L" n="52"/>causat compositiuum nisi prius secundum naturam causata et 
+          <lb ed="#L" n="53"/>onstituta per formam. includit contradictionem: quia mate 
+          <lb ed="#L" n="54"/>ria non causatur per formam: nisi quia informatur a formam 
+          <lb ed="#L" n="55"/>sed impossibile est quod informetur a forma nisi causet con 
+          <!--86.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 42-r -->
+          <lb ed="#L" n="56"/>positum totum. Totum etiam quod sequitur in illa declarati 
+          <lb ed="#L" n="57"/>one est falsum: quia materia est de essentia rei
+          composi<lb ed="#L" n="58" break="no"/>te: aliter enim anima intellectiua vel alia forma
+          sub<lb ed="#L" n="59" break="no"/>stantialis esset per se in specie et genere: quod est manifeste 
+          <lb ed="#L" n="60"/>falsum
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e488">
+          ⁋ Ideo dico ad istam. q. primo quod demonstra 
+          <lb ed="#L" n="61"/>tio potissima est illa: quae est propter quid. vniversalis.
+          vtra<lb ed="#L" n="62" break="no"/>vniversalitate de qua dictum est prius: et affirmatiua Et ex hoc 
+          <lb ed="#L" n="63"/>sequitur quod sit in prima figura eoipso quod est vniversalis
+          affir<lb ed="#L" n="64" break="no"/>matiua. Et quia est propter quid: sequitur quod sit per causam. Si 
+          <lb ed="#L" n="65"/>militer quia est affirmatiua praecise sequitur quod sit
+          ostensi<lb ed="#L" n="66" break="no"/>ua.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e504">
+          ⁋ Secundo dico quod demonstrationis aliquando
+          me<lb ed="#L" n="67" break="no"/>dium est diffinitio: et aliquando non. Exemplum primi sicut 
+          <lb ed="#L" n="68"/>habere tres angulos etc. demonstratur de triangulo: et et 
+          <lb ed="#L" n="69"/>se corruptibile de substantia composita. Exemplum secundi esse 
+          <lb ed="#L" n="70"/>susceptiuum discipline demonstratur de homine: non pe 
+          <lb ed="#L" n="71"/>diffinitionem hominis. sed per animam intellectiuam: posito 
+          <lb ed="#L" n="72"/>quod conueniat soli anime intellectiue.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e521">
+          ⁋ Istud secundum 
+          <lb ed="#L" n="73"/>probatur: quia demonstratio potissima est ex propositionibus 
+          <lb ed="#L" n="74"/>simplicitur indemonstrabilibus: maxime a pori. Sed 
+          <lb ed="#L" n="75"/>propositio in qua praedicatur ista passio de diffinitione hominis 
+          <lb ed="#L" n="76"/>non est simpliciter indemonstrabilis: immediata et prima. quia 
+          <lb ed="#L" n="77"/>illa est prior in quae praedicatur de subiecto suo primo. puta 
+          <lb ed="#L" n="78"/>de anima intellectiua: ergo etc. Item in medio talis demodo 
+          <lb ed="#L" n="79"/>strationis nihil debet poni ni siquod habet rationem causae 
+          respe<lb ed="#L" n="80" break="no"/>ctu illius: quia potest simpliciter poni in esse omni alio praeter for 
+          <lb ed="#L" n="81"/>mam circumscripto et tamen aliquid aliud ponitur inilla dif 
+          <lb ed="#L" n="82"/>finitione. Unde in tali sillogismo esse videtur non causa vticam: 
+          <lb ed="#L" n="83"/>qui illud quod expremit alia parten hominis nihil facit ad  
+          <lb ed="#L" n="84"/>hoc quod sibi insit illa passio
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e550">
+          ⁋ Tertio dico quod quando me 
+          <lb ed="#L" n="85"/>dium est diffinitio: talis diffinitio est diffinitio 
+          <lb ed="#L" n="86"/>subiecti non passionis. hoc patet: quia talis diffinito 
+          <lb ed="#L" n="87"/>debet exprimere causam et aliquid neccessario requisitum ad hoc 
+          <lb ed="#L" n="88"/>quod passio praedicetur de subiecto: sed tale est diffinitio 
+          <lb ed="#L" n="89"/>subiecti: quia expremit partes subiecti sine quibus impos 
+          <lb ed="#L" n="90"/>sibile esset passionem illi subiecto competere. hoc 
+          <lb ed="#L" n="91"/>patet per exempla: quia diffinitio exprimens partes
+          triangu<lb ed="#L" n="92" break="no"/>li est medium et causa quare sibi competit ista passio: sic 
+          <lb ed="#L" n="93"/>partes substantiae composite sunt causae quare sibi competit cor 
+          <lb ed="#L" n="94"/>ruptibilitas: quia nisi vna pars esset ab alia separabilis 
+          <lb ed="#L" n="95"/>non posset dici corruptibilis. huiusmodi autem demon 
+          <lb ed="#L" n="96"/>strationes fiunt in mathematid. Et quia ille obtinent 
+          <lb ed="#L" n="97"/>locum primum in demonstrationibus seu inter demonstrati 
+          <lb ed="#L" n="98"/>ones: ideo philosophus multas conditiones frequenter
+          attri<lb ed="#L" n="99" break="no"/>buit demonstratioi quae competunt mathe. demonstre 
+          <lb ed="#L" n="100"/>tionibus: vel semper: vel pro maiori parte.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e587">
+          ⁋ Ad rationes 
+          <lb ed="#L" n="101"/>alterius opinionis. Ad primam quod illa procedit ex
+          fa<lb ed="#L" n="102" break="no"/>sa ymaginatione: quia ymaginatur quod inherentia pass 
+          <lb ed="#L" n="103"/>onis ad subiectum: vel ipsa passio habeat causam
+          for<lb ed="#L" n="104" break="no"/>malem: quod est simpliciter falsum: quia forma simplex non 
+          <lb ed="#L" n="105"/>potest habere causam nisi efficientem vel finalem. Non
+          ma<lb ed="#L" n="106" break="no"/>terialem: quia illa non esset nisi materia vel suum
+          rece<lb ed="#L" n="107" break="no"/>ptiuum: sed materia non est causa forme sed totius. Nec for 
+          <lb ed="#L" n="108"/>malem: quia ipsamet est forma alicuius alterius et ideo 
+          nul<lb ed="#L" n="109" break="no"/>lam potest habere diffinitionem sumptam a sua forma: cum 
+          <lb ed="#L" n="110"/>nullam habeat. et ideo tales demonstrationes non fiunt per 
+          <!--87.xml-->
+          <pb ed="#L" n="42-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>causam formalem. et ita argumentum est ad oppos 
+          <lb ed="#L" n="2"/>tum. Si autem intelligit quod medium debet esse causa in 
+          <lb ed="#L" n="3"/>herentie. aut causa inherentie. aut causa passionis. Sed 
+          <lb ed="#L" n="4"/>primo modo. ergo cum causa inherentie sit tam subiectum quam 
+          <lb ed="#L" n="5"/>passio. quia respectus causatur et dependet essentialie 
+          <lb ed="#L" n="6"/>tam a fundamento quam a termino. non plus vnum est causa 
+          <lb ed="#L" n="7"/>formalis respectus quam aliud. sequitur quod si medium dciur 
+          <lb ed="#L" n="8"/>accipere causam. quod tam diffinitio subiecti quam passio 
+          <lb ed="#L" n="9"/>nis debet esse medium demonstrandi. Si secundo modo 
+          <lb ed="#L" n="10"/>et nihil est hic causa passionis nisi subiectum. sequitur 
+          <lb ed="#L" n="11"/>quod diffinitio subiecti erit medium.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e642">
+          ⁋ Ad secundum
+          di<lb ed="#L" n="12" break="no"/>co. quod medium demonstrandi debet esse causa proxima al 
+          <lb ed="#L" n="13"/>quomo. hoc est exprimens causam proximam. et hoc potissi 
+          <lb ed="#L" n="14"/>me in genere cause materialis. quia debet esse sub 
+          <lb ed="#L" n="15"/>iectum passionis. et hoc vel primum. sicut quando demonstratur 
+          <lb ed="#L" n="16"/>de subiecto suo non primo. vel exprimens partes ali 
+          <lb ed="#L" n="17"/>quas essentiales subiecti: propter quas talis passio 
+          <lb ed="#L" n="18"/>couenit sibi. et huiusmodi non est diffinitio passionis. 
+          <lb ed="#L" n="19"/>qui illa non praecise causam passionis expremit. sed ipsam
+          pas<lb ed="#L" n="20" break="no"/>sionem. Sed non oportem quod sit causa propria. ita quod non sit 
+          <lb ed="#L" n="21"/>causa alicuius alterius. sed stat simul quod sit causa alterius. et 
+          <lb ed="#L" n="22"/>in eodem genere causae: et etiam in alio genere cause 
+          <lb ed="#L" n="23"/>Sic anima intellectiua potest esse medium demonstran 
+          <lb ed="#L" n="24"/>di. et quod homo est intellectiuus. et quod est volitiuus. et 
+          <lb ed="#L" n="25"/>sic de aliis. et anima in eodem genere causae est causa
+          intel<lb ed="#L" n="26" break="no"/>lectionis et volitionis. quia est subiectum immediatum 
+          <lb ed="#L" n="27"/>vtriusque. et ita passio vtraque immediate de ea
+          pri<lb ed="#L" n="28" break="no"/>dicatur. et per consequens potest esse principium demonstrandi 
+          <lb ed="#L" n="29"/>vtrumque de alio in alio genere cause. quia anima est ssubitnt 
+          <lb ed="#L" n="30"/>iectum intellectionis et volitionis. et causa formalis hominis 
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e686">
+          <lb ed="#L" n="31"/>⁋ Ad tertium dico quod inter medium et extrema requiri 
+          <lb ed="#L" n="32"/>tur aliquis alius ordo realiter quam positione tantum. et in 
+          <lb ed="#L" n="33"/>illo ordine aliquando medium est simplicitur primum. Si 
+          <lb ed="#L" n="34"/>cut si anima intellectiva sit medium demonstrandi esse 
+          <lb ed="#L" n="35"/>susceptibile discipline de homine est primum in
+          or<lb ed="#L" n="36" break="no"/>dine nature. quie est inter ista. quia semper pars est prior 
+          <lb ed="#L" n="37"/>natura suo toto. quia potest esse sine eo. et non
+          econuer<lb ed="#L" n="38" break="no"/>so. et totum subiectum aliquo modo est prius natura ad 
+          <lb ed="#L" n="39"/>cidente. quamuis non ita stricte loquendo: sicut pars est 
+          <lb ed="#L" n="40"/>prior toto secundum naturam. et ex hoc ipso quod pars ipsa est 
+          <lb ed="#L" n="41"/>prior in isto ordine potest esse medium in demonstra 
+          <lb ed="#L" n="42"/>tione. fforte tamen in ordine perfectionis: vel in aliquo 
+          <lb ed="#L" n="43"/>alio potest esse simpliciter medium. quia in proposito homo est 
+          <lb ed="#L" n="44"/>perfectior anima intellectiva. et anima intellectiua est per 
+          <lb ed="#L" n="45"/>fectior actu intelligendi et volendi.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e721">
+          ⁋ Si dicatur quod 
+          <lb ed="#L" n="46"/>vnius subiecti non possunt esse plures passiones eque
+          pri<lb ed="#L" n="47" break="no"/>me. sed semper vna est prior et ratio demonstrandi vnam de 
+          <lb ed="#L" n="48"/>alia.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e731">
+          ⁋ Respondeo quod vnius subiecti possunt esse plures 
+          <lb ed="#L" n="49"/>passiones eque prime. ita quod neutra sit ratio
+          demonstran<lb ed="#L" n="50" break="no"/>di aliam de subiecto. quameuis aliquando vna sit ratio
+          demon<lb ed="#L" n="51" break="no"/>strandi aliam de subiecto non demonstratione vniversali et 
+          <lb ed="#L" n="52"/>simpliciter. sed demonstratione particulari et secundum quid. Aliquando 
+          <lb ed="#L" n="53"/>autem sic ordinantur: quod vna est ratio demonstrandi alia 
+          <lb ed="#L" n="54"/>de subiecto demonstratione vniversali. sed hoc non est verum: ni 
+          <lb ed="#L" n="55"/>si quando vna importat subiectum alterius. vel prima di¬ 
+          <!--87.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 42-v -->
+          <lb ed="#L" n="56"/>cit aliquid subiectiue existens in subiecto: et sibi 
+          <lb ed="#L" n="57"/>primo potest competere alia passio secunda. Exemplum
+          pri<lb ed="#L" n="58" break="no"/>mi. si quantitas sit alia res a substantia. et sit 
+          <lb ed="#L" n="59"/>subiectum qualitatur: tunc quantitas quae importatur per
+          passi<lb ed="#L" n="60" break="no"/>onem subseantiae erit medium demonstrandi passione
+          impor<lb ed="#L" n="61" break="no"/>tantem qualitatem de substantia. Exemplum secundi. sicu 
+          <lb ed="#L" n="62"/>calor est medium demonstrandi calefactiuum de igne 
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e770">
+          <lb ed="#L" n="63"/>⁋ Ad illam declarationem quod diffinitio formalis est 
+          <lb ed="#L" n="64"/>medium demonstrandi. Dico: quod verum est quando
+          diffin<lb ed="#L" n="65" break="no"/>tio est medium in demonstratione vniversali: tunc
+          diffin<lb ed="#L" n="66" break="no"/>tio formalis subiecti est medium: sed illa diffinitio 
+          <lb ed="#L" n="67"/>non includit praecise formam rei: sed dicitur formalis quia in 
+          <lb ed="#L" n="68"/>cludit principia rei essentialia
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e786">
+          ⁋ Unde pro intentione 
+          <lb ed="#L" n="69"/>philosophi est sciendum: quod diffinitionum quadam est indicans 
+          <lb ed="#L" n="70"/>quidrei: quadam quid nominis.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e793">
+          ⁋ Secundo sciendum: quod
+          diffi<lb ed="#L" n="71" break="no"/>nitio potest comprari ad diffinitum et ad illud de quo 
+          <lb ed="#L" n="72"/>diffinitum praedicatur. Similiter diffinitio aliquando datur per 
+          <lb ed="#L" n="73"/>principia essentialia: et illa est formalis. Aliquando aut 
+          <lb ed="#L" n="74"/>datur per principia alicuius rei extrinseca: et illa est 
+          ma<lb ed="#L" n="75" break="no"/>terialis. Prima non potest competere nisi substantie compo 
+          <lb ed="#L" n="76"/>site: et hoc strictissime accipiendo diffinitionem for 
+          <lb ed="#L" n="77"/>malem. Targe tamen accipiendo potest competere alicui 
+          <lb ed="#L" n="78"/>habenti distinctas partes eiusdem rationis: et tali 
+          diffi<lb ed="#L" n="79" break="no"/>nitione diffiniuntur multa mathematica: sicut triam 
+          <lb ed="#L" n="80"/>gulus quadrangulus: et sic de aliis: Unde triangulus dif 
+          <lb ed="#L" n="81"/>finitur quod est figura tribus lineis contenta etc. iste li 
+          <lb ed="#L" n="82"/>nee non sunt alterius rationis inter se. Et sic large 
+          <lb ed="#L" n="83"/>accipit philosophus diffinitionem formalem. Alie autem
+          di<lb ed="#L" n="84" break="no"/>finitiones date per alias causas sunt diffinitiones 
+          <lb ed="#L" n="85"/>materiales: et hoc quia vt frequenter dantur tales diff 
+          <lb ed="#L" n="86"/>nitiones per materiam: extendendo materiam ad omne 
+          <lb ed="#L" n="87"/>receptiuum. Et iste diffinitiones vt in pluribus sunt 
+          <lb ed="#L" n="88"/>diffinitiones exprimentes quid nominis: non exprimentes 
+          <lb ed="#L" n="89"/>quid rei. hoc potest persuaderi: quia secundum philosophum eclipsis 
+          <lb ed="#L" n="90"/>est priuatio luminis in luna per obiectum terre. Ista 
+          <lb ed="#L" n="91"/>diffinitio expremit quid nominis: quia si in luna causaretur 
+          <lb ed="#L" n="92"/>defectus luminis per aliam causam: secundum intentionem philosoph 
+          <lb ed="#L" n="93"/>non diceretur eclipsis. Similiter ponatur quod tonitruum 
+          <lb ed="#L" n="94"/>causetur ex extinctione ignis in nube: et tunc vocatur 
+          <lb ed="#L" n="95"/>tonitruum: et tamen si sonus eiusdem speciei causaretur in
+          nu<lb ed="#L" n="96" break="no"/>be ex alia causa non diceretur tonitruum. Et semper ita 
+          <lb ed="#L" n="97"/>quando diffinitio datur per aliquam causam extrinseca illa 
+          <lb ed="#L" n="98"/>diffinitio est exprimens quid nominis tantum. hoc probatur 
+          <lb ed="#L" n="99"/>qui diffinitio et diffinitum conuertuntur: ita quod semper 
+          <lb ed="#L" n="100"/>consequentia formali contingit inferre diffinitum ex
+          diffini<lb ed="#L" n="101" break="no"/>tione: et econuerso: sed si talis diffinitio exprimeret 
+          <lb ed="#L" n="102"/>quid rei: non inferretur formaliter diffinitio ex
+          diffini<lb ed="#L" n="103" break="no"/>to: nec econuerso. quia simpliciter posset illa res fieri si 
+          <lb ed="#L" n="104"/>ne illa causa extrinseca: saltem per potentiam diuinam: et 
+          <lb ed="#L" n="105"/>per consequens non contingeret arguere ab illa re ad 
+          diffi<lb ed="#L" n="106" break="no"/>nitionem: nec ecouerso. Uerbi gratia. si tonitruum 
+          <lb ed="#L" n="107"/>causaretur ex extinctione ignis in nube tamquam ex causa 
+          <lb ed="#L" n="108"/>extrinseca: omnis res quae est alia ab illa causa extrinseca 
+          <lb ed="#L" n="109"/>potest fieri a deo sine illa extinctione: ergo non sequeretur 
+          <lb ed="#L" n="110"/>tunc diffinitio ista ex illo diffinito: quia ponatur quod 
+          <!--88.xml-->
+          <pb ed="#L" n="43-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>illa res significetur per a. tunc non sequitur. a est. igitur so 
+          <lb ed="#L" n="2"/>nus ex extinctione ignis in nube est. quia illo posi 
+          <lb ed="#L" n="3"/>to antecedens est verum: et consequens falsum
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e895">
+          ⁋ Dico go. quod diffini 
+          <lb ed="#L" n="4"/>tio formalis semper datur per intrinseca et essentialia. hoc 
+          <lb ed="#L" n="5"/>est per conceptus exprimentes principia intrinseca 
+          <lb ed="#L" n="6"/>Diffinitio autem materialis datur per extrinseca rei 
+          <lb ed="#L" n="7"/>cui primo competit diffinitio.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e906">
+          ⁋ Et quod hoc sit intentio 
+          <lb ed="#L" n="8"/>philosophi patet. quia dicit quod causa aut est eadem aut alia. hoc 
+          <lb ed="#L" n="9"/>non potest intelligi quod aliquando causa sit distincta realiter.
+          ali<lb ed="#L" n="10" break="no"/>quando non. quia impossibile est quod causa et effectus sunt idem rea 
+          <lb ed="#L" n="11"/>liter. ergo per causam eandem intelligit causam intrinsecam. quae 
+          <lb ed="#L" n="12"/>potest dici eadem. quia non simplicitur diuersa: sic dicit 
+          <lb ed="#L" n="13"/>commentator. iest phisicorum. quod pars non est simpliciter 
+          <lb ed="#L" n="14"/>alia a toto. Et per causam aliam intelligit causam
+          extrin<lb ed="#L" n="15" break="no"/>secam. sed nunc est ita quod materia ita est intrinseca 
+          <lb ed="#L" n="16"/>rei composite: sicut ipsa forma. et per consequens ita eadem 
+          <lb ed="#L" n="17"/>quamuis forma sit pars principalior. sed nunc est ita quod 
+          <lb ed="#L" n="18"/>philosophus vocat diffinitiones factas secundum speciem quae no 
+          <lb ed="#L" n="19"/>dantur per aliam causam. illas autem quae dantur per alias
+          cau<lb ed="#L" n="20" break="no"/>sas vocat materiales. ergo formales dantur per causas 
+          <lb ed="#L" n="21"/>intrinsecas. alie per extrinsecas. Assumptum patet 
+          <lb ed="#L" n="22"/>Nam dicit aristoteles sic. est autem quorundam quidem 
+          <lb ed="#L" n="23"/>quedam altera causa. quorundam non est scilicet altera causa 
+          <lb ed="#L" n="24"/>quae debebit poni in diffinitione exprimente quid rei 
+          <lb ed="#L" n="25"/>Diffinitiones quidem secundum speciem nullum habent medium 
+          <lb ed="#L" n="26"/>quo demonstrantur. sed diffinitiones secundum materiam 
+          fa<lb ed="#L" n="27" break="no"/>cte possunt habere medium. et sequitur. habentium medium 
+          <lb ed="#L" n="28"/>quorundam est quadam altera causa subseantie et ipsius esse etc. 
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e955">
+          <lb ed="#L" n="29"/>⁋ Ex hoc patet. quod diffinitiones materiales vocat da 
+          <lb ed="#L" n="30"/>tas per alteras causas. quarum aliqua est demonstrabilis: 
+          <lb ed="#L" n="31"/>et aliqua non. et diffinitiones secundum speciem vocat illas 
+          <lb ed="#L" n="32"/>quae non dantur per alias causas. Quomodo ergo se habent 
+          <lb ed="#L" n="33"/>iste diffinitiones ad demonstrationem secundum
+          intentio<lb ed="#L" n="34" break="no"/>nem philosophi. Dico quod diffinitio exprimens quid rei numquam 
+          <lb ed="#L" n="35"/>potest demonstrari de diffinito. quia semper illa
+          proposi<lb ed="#L" n="36" break="no"/>tio est immediata. Secundo quod si esset aliqua
+          diffini<lb ed="#L" n="37" break="no"/>tio exprimens quid rei simpliu. illa non esset 
+          demon<lb ed="#L" n="38" break="no"/>strabilis de diffinito. sed de illo eodem de quo 
+          diffi<lb ed="#L" n="39" break="no"/>nitum esset demonstrabile. Et ideo si calor haberet 
+          <lb ed="#L" n="40"/>diffinitionem datam per principia intrinseca. esset
+          de<lb ed="#L" n="41" break="no"/>monstrabilis de eodem de quo calor. et per idem
+          me<lb ed="#L" n="42" break="no"/>dium. et ita ista diffinitio esset demonstrabilis siue 
+          <lb ed="#L" n="43"/>conclusio demonstrationis. hoc est. esset de aliquo 
+          <lb ed="#L" n="44"/>demonstrabile.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e992">
+          ⁋ Sed loquendo de diffinitione expri 
+          <lb ed="#L" n="45"/>mente quid nominis. distinguo de ea. quia duplicitur 
+          <lb ed="#L" n="46"/>accipitur. vel pro aliqua orione qua omnes loquentes de 
+          <lb ed="#L" n="47"/>nomine intelligant per nomen. vel pro orione cuius:
+          ve<lb ed="#L" n="48" break="no"/>ritas sequitur ex veritate prioris orionis.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1003">
+          ⁋ Prima 
+          <lb ed="#L" n="49"/>diffinitio non potest demonstrari de diffinito quamuis 
+          <lb ed="#L" n="50"/>posset demonstrari de subiecto. et ita est
+          princi<lb ed="#L" n="51" break="no"/>pium demonstrationis. Secunda diffinitio potest demod 
+          <lb ed="#L" n="52"/>strari. Uerbi gratia omnes per domum intelligunt quid
+          pro<lb ed="#L" n="53" break="no"/>hibens nos a frigore etc. est illa diffinitio non potest 
+          <lb ed="#L" n="54"/>demonstrari de domo. sed est principium
+          demonstra<lb ed="#L" n="55" break="no"/>tionis. Sequitur autem probibet nos a talibus tempesta¬ 
+          <!--88.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 43-r -->
+          <lb ed="#L" n="56"/>tibus etc. ergo componitur ex corporibus solidis: sed non 
+          <lb ed="#L" n="57"/>nisi ex lignis et lapidibus. Ponatur quod non essent 
+          <lb ed="#L" n="58"/>aliqua alia corpora potentia nos defendere vel
+          pro<lb ed="#L" n="59" break="no"/>hibere: et ita secunda ista diffinitio quae non exprimit 
+          <lb ed="#L" n="60"/>quid rei alicuius potest demonstrari per priorem et esse
+          conclu<lb ed="#L" n="61" break="no"/>sio demonstrationis.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1040">
+          ⁋ Ex istis autem componitur vna 
+          <lb ed="#L" n="62"/>diffinitio complexa exprimens omnes causas eius neccessarias 
+          <lb ed="#L" n="63"/>qui expremit finem et materiam: causam autem efficientem non 
+          <lb ed="#L" n="64"/>expremit: quia nihil refert ad hoc quod de ipso
+          verifi<lb ed="#L" n="65" break="no"/>cetur principale quid nominis: a quo efficiente causetur: si 
+          <lb ed="#L" n="66"/>cut refert de qua materia fiat. Ita omnes per demon 
+          <lb ed="#L" n="67"/>strationem intelligunt svllogismum facietem scire: se 
+          <lb ed="#L" n="68"/>hoc non potest fieri nisi per propositiones neccessarias etc. et ideo 
+          <lb ed="#L" n="69"/>dicitur: quod demonstratio est svllogismus ex veris etc. 
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1060">
+          <lb ed="#L" n="70"/>⁋ Tame est aduertendum quod ista demonstratio non est sim 
+          <lb ed="#L" n="71"/>plicitur demonstratio vniversalis. et ideo dicit philosophus: quod quamuis 
+          <lb ed="#L" n="72"/>aliqua causa altera sit demonstrabilis: et aliqua non: et vnum 
+          <lb ed="#L" n="73"/>demonstrat: et aliud non demonstrat sed demonstratus 
+          <lb ed="#L" n="74"/>Dicitur hoc quidem modus quod non sit demonstratio dictum 
+          <lb ed="#L" n="75"/>est prius: sed est logicus spllogismus ipsius quid est. Similiter 
+          <lb ed="#L" n="76"/>potest dici quod aliquo modo quid rei est demonstrabile per 
+          <lb ed="#L" n="77"/>quid nominis. Supposito enim quod per hominem intelligatur 
+          <lb ed="#L" n="78"/>substantia composita potens intelligere et velle: potest 
+          <lb ed="#L" n="79"/>concludi quod componitur ex corpore et anima intellectiua: sed 
+          <lb ed="#L" n="80"/>iste demonstrationes non sunt simpliciter vniversales. quia non
+          fa<lb ed="#L" n="81" break="no"/>ciunt scire: sed tantum inferunt conclusionem ex praemissis: quia 
+          <lb ed="#L" n="82"/>secundum Ari. ii. poste. impossibile est cognoscere quid est 
+          <lb ed="#L" n="83"/>nisi cognoscendo si est.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1093">
+          ⁋ Si dicatur quod tunc qui nesc 
+          <lb ed="#L" n="84"/>ret eclipsim esse: nesciret quid esset eclipsis.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1099">
+          ⁋
+          Di<lb ed="#L" n="85" break="no"/>co quod non potest sciri quid est sine si est. hoc est: non potest sciri quio 
+          <lb ed="#L" n="86"/>est sine notitia qua scitur hoc esse vel fuisse vel futurum esse: 
+          <lb ed="#L" n="87"/>quia aliter naturaliter non potest sciri esse possibile in rerum 
+          <lb ed="#L" n="88"/>natura. et quod quid nominis non includit contradictionem. Et 
+          <lb ed="#L" n="89"/>sic loquendo de si est: verum est quod dicit ari. quod idem est
+          sci<lb ed="#L" n="90" break="no"/>re quod quid est: et scire causam ipsius si est: quia
+          circumscriben<lb ed="#L" n="91" break="no"/>do notitiam intuitiuam et notitiam causatam immediate a 
+          <lb ed="#L" n="92"/>notitia intuitiva impossibile est naturaliter scire de ali 
+          <lb ed="#L" n="93"/>quae passione si est vel erit: nisi sciendo quod causa sua est vel 
+          <lb ed="#L" n="94"/>erit. Et ita sine quid est hoc est sine diffinitione
+          exprimen<lb ed="#L" n="95" break="no"/>te aliquo modo quid: mediante notitia intuitiua: potest 
+          <lb ed="#L" n="96"/>sciride luna quod deficit: nesciendo causam ipsius. et ita 
+          <lb ed="#L" n="97"/>nesciendo diffinitionem datam per illam causam: tamen 
+          abstra<lb ed="#L" n="98" break="no"/>ctiue non potest sciri: nisi sciendo causam. puta quod
+          defi<lb ed="#L" n="99" break="no"/>cit vel deficiet: nisi sciendo quod terra interponitur vel 
+          <lb ed="#L" n="100"/>interponetur.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1136">
+          ⁋ Si dicatur quod notitia abstractiua 
+          <lb ed="#L" n="101"/>abstrahit ab existentia.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1141">
+          ⁋ Et similiter non potest esse causa
+          no<lb ed="#L" n="102" break="no"/>titie veritatis contigentur. Similiter hoc propositio: luna deficit vel 
+          <lb ed="#L" n="103"/>deficiet est contiges.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1148">
+          ⁋ Ad primum istorum dico: quod no 
+          <lb ed="#L" n="104"/>titia abstractiva abstrahit ab existentia: quia non est 
+          <lb ed="#L" n="105"/>sufficiens ad sciendum existentiam in esse determinato tempore: 
+          <lb ed="#L" n="106"/>tamen cum aliqua notitia potest esse sufficiens: sicut secundum viam philosophi 
+          <lb ed="#L" n="107"/>potest sciri quod luna determinato tempore eclipsabitur quia scitur 
+          <lb ed="#L" n="108"/>quod sol sic mouebitur: et quod luna similiter. et per consequens quod inter 
+          <lb ed="#L" n="109"/>ponetur terra et per consequens luna eclipsabitur: et ita talis no 
+          <lb ed="#L" n="110"/>titia numquam potest sciri nisi per causam.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1166">
+          ⁋ Ad secundum: quod eodem cor 
+          <!--89.xml-->
+          <pb ed="#L" n="43-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>modo mediantibus talibus veritatibus potest sciri
+          veri<lb ed="#L" n="2" break="no"/>tas contingens: et ideo sola notitia abstractiua termi 
+          <lb ed="#L" n="3"/>ni vel termiorum non sufficit.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1182">
+          ⁋ Ad tertium: quod potest 
+          <lb ed="#L" n="4"/>formari proposito neccessaria de terminis illis: et ita sci 
+          <lb ed="#L" n="5"/>etur scientia proprie dicta: tamen illa contingens potest
+          euiden<lb ed="#L" n="6" break="no"/>ter cognosci: quamuis non sciri scientia proprie decam.
+        </p>
+        <p xml:id="wo8uy7-d1e118-d1e1192">
+          ⁋ Ad  
+          <lb ed="#L" n="7"/>argumentum principale dico quod causa et medium sunt idem 
+          <lb ed="#L" n="8"/>extendendo nomen causae ad omne illud cui primo 
+          compe<lb ed="#L" n="9" break="no"/>tit: et sine quo npossit alteri competere: et hoc in
+          de<lb ed="#L" n="10" break="no"/>monstratione vniversali et propter quid. Et quando dicitur quod propter quid et 
+          <lb ed="#L" n="11"/>quod quid est idem sunt. Dico quod hoc non est intelligendum: quod
+          pro<lb ed="#L" n="12" break="no"/>pter quid ie causa: et quod quid e: hoc est tota diffinitio
+          sim<lb ed="#L" n="13" break="no"/>plicitur sunt idem: sed quia propter quid i. causa ponitur in
+          diffini<lb ed="#L" n="14" break="no"/>tione. Et ita ad intetionem philosophi sufficit quod causa sit pars 
+          <lb ed="#L" n="15"/>diffinitionis. hoc patet per philosophum ii. poste. In omnibus 
+          ma<lb ed="#L" n="16" break="no"/>nifestum est quod idem sit: quod quid e: et propt quid est. Ut quid 
+          <lb ed="#L" n="17"/>est defectus lune: priuatio luminis a luna a terre 
+          <lb ed="#L" n="18"/>obiectum. Propst quid est defectus aut propter quid
+          defi<lb ed="#L" n="19" break="no"/>cit luna propter defectum luminis obiecta terra 
+          <lb ed="#L" n="20"/>Nunc manifestum est quod causa hac scilicet obiectio terre non est 
+          <lb ed="#L" n="21"/>nisi pars illius diffinitonis. defectus est priuatio luminis 
+          <lb ed="#L" n="22"/>a luma a tre obiectu. Sequitur alia quaetio annexa secunde.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
