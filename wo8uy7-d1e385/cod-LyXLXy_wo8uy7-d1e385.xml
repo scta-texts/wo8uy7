@@ -1,809 +1,809 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 8</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 8</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="106-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e385"><!-- l1d2q8 -->
-            <head xml:id="wo8uy7-d1e385-Hd1e108">Quaestio 8</head>
-            <p xml:id="wo8uy7-d1e385-d1e111">
-      Questio. viii. 
-      <lb ed="#L" n="8"/>Item circa dicta 
-      <lb ed="#L" n="9"/>materiam quauinto quaero. Utrum vniversale vni 
-      <lb ed="#L" n="10"/>uocum sit aliquid reale existens 
-      alicu<lb ed="#L" n="11" break="no"/>bi subiectiue.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e122">
-      ⁋ Quod sic. quia vniversale primo mouet
-      intelle<lb ed="#L" n="12" break="no"/>ctum. sed illud quod primo mouet intellectum est aliquid
-      re<lb ed="#L" n="13" break="no"/>ale. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e129">
-      ⁋ Ad oppositum. omne reale est singulare 
-      <lb ed="#L" n="14"/>sed vniversale non est singulare. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e134">
-      ⁋ Ad istam. q. possent 
-      <lb ed="#L" n="15"/>esse diuerse opiniones quarum multas reputo sim 
-      <lb ed="#L" n="16"/>pliciter falsas. quarum tamen quamlibet ante ponerem quam aliquam 
-      <lb ed="#L" n="17"/>improbatam in praecedentibus. q.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e144">
-      ⁋ Prima opinio 
-      <lb ed="#L" n="18"/>posset esse: quod vniversale est conceptus mentis. et quod iste
-      conce<lb ed="#L" n="19" break="no"/>ptus est realiter ipsa intellectio: ita quod tunc vniversale non 
-      <lb ed="#L" n="20"/>esset nisi intellectio confusa rei. quae intellectio quia 
-      <lb ed="#L" n="21"/>ipsa non plus intelligitur vnum singulare quam reliquum. 
-      <lb ed="#L" n="22"/>ipsa esset indterns et communis ad omnia singularia: et ita 
-      <lb ed="#L" n="23"/>vndum quod esset magis confusa et minus cofusa esset
-      ma<lb ed="#L" n="24" break="no"/>gis vniversale et minus vniversale.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e162">
-      ⁋ Contra istam opinionem 
-      <lb ed="#L" n="25"/>potest argui. quia omni intellectione aliquid intelligitur. et 
-      <lb ed="#L" n="26"/>non aliquid singulare ex animam. quia non plues vnum quam al 
-      <lb ed="#L" n="27"/>terum. nec plus illud quod est quam quod non est. ergo vel nihil
-      ta<lb ed="#L" n="28" break="no"/>le. vel quodlibet tale intelligitur illa intellectione. et non 
-      <lb ed="#L" n="29"/>quodlibet. quia tunc infinita intelliguntur illa intellectio 
-      <lb ed="#L" n="30"/>ne. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e178">
-      ⁋ Preterea hoc secundum omnes vocatur conceptus quod 
-      <lb ed="#L" n="31"/>terminat actum intelligendi. sed talis intellectio no 
-      <lb ed="#L" n="32"/>terminat seipsam primo. quia non est maior ratio quod vna in 
-      <lb ed="#L" n="33"/>tellectio terminet seipsam quod alia: et ita cum
-      intelle<lb ed="#L" n="34" break="no"/>ctio sortem non terminet seipsam primo nulla
-      termi<lb ed="#L" n="35" break="no"/>nat seipsam primo. ergo conceptus non est ipsa intellectio. 
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e191">
-               <lb ed="#L" n="36"/>⁋ Secunda opinio potest esse: quod vniversale est species aliqua. quae quia 
-      <lb ed="#L" n="37"/>equaliter respicit omne singulare. dicitur vniversale. et ita est vniversale 
-      <lb ed="#L" n="38"/>in repraesentando: et tamen singulare in essendo.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e200">
-      ⁋ Sed  
-      <lb ed="#L" n="39"/>ista opinio videtur esse falsa. quia sicut alias declarabitur. 
-      <lb ed="#L" n="40"/>talis species non est neccessaria. Secudo quia vniversale ponitur illud 
-      <lb ed="#L" n="41"/>quod intelligitur per abstractionem intellectus. sed illa species 
-      <lb ed="#L" n="42"/>non sic intelligitur quia aut intelligitur in se. et tunc neccessari 
-      <lb ed="#L" n="43"/>primo intelligitur intuitiue. aut in alio. et per consequens illud  
-      <lb ed="#L" n="44"/>aliud est vniversale respectu illius. et tunc quero de illo sicut 
-      <lb ed="#L" n="45"/>prius. et ita vel erit processus in infinitum. vel spe 
-      <lb ed="#L" n="46"/>cies non erit vniversalis.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e220">
-      ⁋ Preterea tale non abstrahitur 
-      <lb ed="#L" n="47"/>sed vere generatur. quia esset vera qualitas
-      genera<lb ed="#L" n="48" break="no"/>ta in intellectu.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e228">
-      ⁋ Aliam posset esse opinio quod ali 
-      <lb ed="#L" n="49"/>qua est vera res sequens actum intellectus: quae esset 
-      <lb ed="#L" n="50"/>similitudo rei: et propter hoc esset vniversalis. quia
-      equa<lb ed="#L" n="51" break="no"/>liter omnia respiceret
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e237">
-      ⁋ Sed hec opinio non vide 
-      <lb ed="#L" n="52"/>tur vera. quia nulla talis est ponenda. quia omne quod est 
-      <lb ed="#L" n="53"/>in intellectu: vel est actus vel passio vel habitus 
-      <lb ed="#L" n="54"/>sed nullum istorum posset poni ista res. Iste opinio¬ 
-      <!--214.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 106-r -->
-               <lb ed="#L" n="55"/>nes concordarent in hac conclusione. quod vniversale esset in 
-      <lb ed="#L" n="56"/>se vera res et singularis et non vna numero.
-      respe<lb ed="#L" n="57" break="no"/>ctu rerum extra esset vniversalis et communis et indifferens ad 
-      <lb ed="#L" n="58"/>res singulares. et quasi naturalis similitudo
-      illa<lb ed="#L" n="59" break="no"/>rum rerum. et propter hoc posset supponere pro re extr 
-      <lb ed="#L" n="60"/>et esset aliquo modo de isto vniversali sicut de statua
-      re<lb ed="#L" n="61" break="no"/>spectu similium. illa enim esset in se singularis et vna 
-      <lb ed="#L" n="62"/>numero. et tamen indifferens ad illa similia. nec plus 
-      <lb ed="#L" n="63"/>duceret in notitiam vnius quam alterius. Similiter secundum 
-      <lb ed="#L" n="64"/>hoc qui poneret quod praeter intellectionem esset species 
-      <lb ed="#L" n="65"/>in anima vel habitus. non plus haberet quod
-      intelle<lb ed="#L" n="66" break="no"/>ctio esset realiter vniversale quam species vel habitus: nec
-      econ<lb ed="#L" n="67" break="no"/>uerso. quia quodlibet istorum esset indifferens ad omnia 
-      <lb ed="#L" n="68"/>singularia. Iste opiniones non possunt faciliter proba 
-      <lb ed="#L" n="69"/>ri. nec sunt ita improbabiles. nec ita euidentur fal 
-      <lb ed="#L" n="70"/>sitatem continent. sicut opiniones improbate in aliis 
-      <lb ed="#L" n="71"/>quaestionibus
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e289">
-      ⁋ Quarta posset esse opinio. quod nihil 
-      <lb ed="#L" n="72"/>est vniversale ex natura sua sed tantum ex institutione. illo 
-      <lb ed="#L" n="73"/>modo quo vox est vniversalis. quia nulla res habet ex natu 
-      <lb ed="#L" n="74"/>ra sua supponere pro alia re. nec vere praedicari de 
-      <lb ed="#L" n="75"/>alia re. sicut nec vox. sed tantum ex institutione vo 
-      <lb ed="#L" n="76"/>luntaria. et ideo sicut voces sunt vniversales per
-      institutio<lb ed="#L" n="77" break="no"/>nem et praedicabiles de rebus. ita omnia vniversalia. Sed hec 
-      <lb ed="#L" n="78"/>non videtur vera quia tunc nihil ex natura sua esset 
-      <lb ed="#L" n="79"/>species vel genus nec econuerso. et tunc equaliter posset 
-      <lb ed="#L" n="80"/>deus et substantia extra animam esse vniversale sicut quicqud quod 
-      <lb ed="#L" n="81"/>est in anima. quod non videtur verum.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e313">
-      ⁋ Ideo potest aliter
-      di<lb ed="#L" n="82" break="no"/>ci probabiliter. quod vniversale non est aliquid reale habens esse 
-      <lb ed="#L" n="83"/>subiectiuum. nec in anima nec extra animam. sed tantum habet 
-      <lb ed="#L" n="84"/>esse obiectiuum in anima. et est quoddam fictum habens 
-      <lb ed="#L" n="85"/>esse tale in esse obiectiuo quale habet res extra 
-      <lb ed="#L" n="86"/>in esse subiectiuo. et hoc per istum modum. quod
-      intelle<lb ed="#L" n="87" break="no"/>ctus videns aliquam rem extra animam: fingit consimilen 
-      <lb ed="#L" n="88"/>rem in mente. ita quod si haberet virtutem producti 
-      <lb ed="#L" n="89"/>uam. talem rem in esse subiectiuo numero distinctam a 
-      <lb ed="#L" n="90"/>priori produceret extra. et esset consimiliter et
-      propor<lb ed="#L" n="91" break="no"/>tionabiliter sicut est de artifice. sicut enim artifex 
-      <lb ed="#L" n="92"/>videns domum vel edificium aliquod extra. fingit in 
-      <lb ed="#L" n="93"/>anima sua consimilem domum vel edificium. et postea
-      con<lb ed="#L" n="94" break="no"/>similem producit extra. et est solo numero distincta 
-      <lb ed="#L" n="95"/>a priori. Ita in proposito illud fictum in mente ex
-      vi<lb ed="#L" n="96" break="no"/>sione alicuius rei extra esset vnum exemplar. ita enim 
-      <lb ed="#L" n="97"/>sicut domus facta. si fingens haberet virtutem
-      pro<lb ed="#L" n="98" break="no"/>ductiuam realem est exemplar ipsius artificiati. ita
-      il<lb ed="#L" n="99" break="no"/>lud fictum esset exemplar respectu singularium. et
-      im<lb ed="#L" n="100" break="no"/>lud potest vocari vniversale. quod est exemplar et indifferenter 
-      <lb ed="#L" n="101"/>respiciens omnia singularia extra. et propter illam si 
-      <lb ed="#L" n="102"/>militudinem in esse obiectiuo potest supponere pro 
-      <lb ed="#L" n="103"/>rebus extra habentibus cosimile esse extra intel 
-      <lb ed="#L" n="104"/>lectum. et ita isto modo vniversale non est per generationem 
-      <lb ed="#L" n="105"/>sed per abstractionem quae non est nisi fictio quedam. 
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e368">
-               <lb ed="#L" n="106"/>⁋ Primo igitur faciam aliqua argumenta ad proban 
-      <lb ed="#L" n="107"/>du quod est aliquid in anima. habens tantum esse obiectiuum 
-      <lb ed="#L" n="108"/>sine esse subiectiuo. hoc primo patet. quia secundum philosophum 
-      <lb ed="#L" n="109"/>ens primaria diuisione diuiditur in ens in anima et in 
-      <!--215.xml-->
-      <pb ed="#L" n="106-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>ens extra animam. et ens extra animam diuiditur in de 
-      <lb ed="#L" n="2"/>cem predicamenta. Tunc quero. quomodo hic 
-      <lb ed="#L" n="3"/>accipitur ens in anima. aut pro illo quod tantum habet esse 
-      <lb ed="#L" n="4"/>obiectiuum. et habetur propositum. aut pro illo quod  
-      <lb ed="#L" n="5"/>habet esse subiectiuum. et hoc non est possibile. quia 
-      <lb ed="#L" n="6"/>illud quod habet verum esse subiectiuum in anima
-      co<lb ed="#L" n="7" break="no"/>tinetur sub ente: quod praecise diuiditur in decem 
-      <lb ed="#L" n="8"/>praedicamenta. quia sub qualitate. intellectio enim et 
-      <lb ed="#L" n="9"/>viveiter omne accidens informans animam est vera qua 
-      <lb ed="#L" n="10"/>litas: sicut calor vel albedo. et ita non
-      contine<lb ed="#L" n="11" break="no"/>tur sub illo menbro quod diuiditur contra ens: quod 
-      <lb ed="#L" n="12"/>diuiditur in decem predicamenta.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e412">
-      ⁋ Preterea
-      figmen<lb ed="#L" n="13" break="no"/>ta habent esse in anima et non subiectiuum. quia tunc est 
-      <lb ed="#L" n="14"/>sent vere res. et ita chymera et hircoceruus et 
-      <lb ed="#L" n="15"/>huiusmodi essent vere res. ergo sunt aliqua quae tantum habent esse 
-      <lb ed="#L" n="16"/>obiectiuum. Similiter propositiones. sillogismi. 
-      <lb ed="#L" n="17"/>et huiusmodi de quibus est logica non habent esse
-      sub<lb ed="#L" n="18" break="no"/>iectiuum. ergo tantum habent esse obiectiuum. ita quod eorum 
-      <lb ed="#L" n="19"/>esse est eorum cognosci. ergo sunt talia entia habentia tamen esse 
-      <lb ed="#L" n="20"/>obiectiuum. Item artificialia in mente artificis 
-      <lb ed="#L" n="21"/>non videntur habere esse subiectiuum: sicut nec 
-      <lb ed="#L" n="22"/>creature in mente diuina ante creationem.
-      Si<lb ed="#L" n="23" break="no"/>militer respectus rationis communiter ponuntur a 
-      <lb ed="#L" n="24"/>doctoribus. Tunc quero. aut tantum habent esse
-      sub<lb ed="#L" n="25" break="no"/>iectiuum. et tunc erunt vere res et reales. Aut tantum 
-      <lb ed="#L" n="26"/>esse obiectiuum. et habetur propositum. Similiter secundum 
-      <lb ed="#L" n="27"/>istos aliter opinantes. ens dicit conceptum vni 
-      <lb ed="#L" n="28"/>uocum. et tamen nullam aliam rem. Similiter omnes qua 
-      <lb ed="#L" n="29"/>si distinguunt intentiones secundas ab
-      intentioni<lb ed="#L" n="30" break="no"/>bus primis. non vocando intentiones secundas ali 
-      <lb ed="#L" n="31"/>quas reales qualitates in anima. ergo cum non sint rea 
-      <lb ed="#L" n="32"/>iter extra: non possunt esse nisi obiectiue in anima. 
-      <lb ed="#L" n="33"/>Secundo diceret ista opinio: quod illud fictum quod 
-      <lb ed="#L" n="34"/>primo et immediate denominatur ab intentione 
-      <lb ed="#L" n="35"/>vniversalitatis et habetrionem obiecti. est illud quod im 
-      <lb ed="#L" n="36"/>mediate terminat actum intelligendi. quia nullum 
-      <lb ed="#L" n="37"/>singulare intelligitur. quod quidem quoniam est tale in esse 
-      <lb ed="#L" n="38"/>obiectiuo quale est singulare in esse
-      subiecti<lb ed="#L" n="39" break="no"/>uo. ideo ex natura sua potest supponere pro ipsis sin 
-      <lb ed="#L" n="40"/>gularibus quorum est aliquo modo similitudo. 
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e476">
-               <lb ed="#L" n="41"/>⁋ De illo etiam verificantur aliqua praedicata
-      ve<lb ed="#L" n="42" break="no"/>ras res importantia. non pro se sed pro rebus. Et 
-      <lb ed="#L" n="43"/>illud est vnum quod predicatur de pluribus. ita 
-      <lb ed="#L" n="44"/>quod ipsum non est variatum. alioquin nullum genus ve 
-      <lb ed="#L" n="45"/>re praedicaretur de pluribus speciebus. sed necessario esset 
-      <lb ed="#L" n="46"/>aliud et aliud. et essent tot genera quot sunt species 
-      <lb ed="#L" n="47"/>immo nullo modo posset differre genus a specie 
-      <lb ed="#L" n="48"/>nec genus esset in plus quod species. Quia si sic. 
-      <lb ed="#L" n="49"/>quero quomodo genus differt a specie. aut a
-      par<lb ed="#L" n="50" break="no"/>te rei. et hoc est prius improbatum Similiter hoc 
-      <lb ed="#L" n="51"/>dato quod a parte rei distinguitur. tunc quero. aut 
-      <lb ed="#L" n="52"/>idem genus non variatum predicatur de pluribus 
-      <lb ed="#L" n="53"/>speciebus. aut non. Si sic. habeo propositum quod ali 
-      <lb ed="#L" n="54"/>quid nec variatum nec multiplicatum praedicatur de 
-      <lb ed="#L" n="55"/>pluribus: et non in re. nisi secundum opinionem recitatam 
-      <!--215.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 106-v -->
-               <lb ed="#L" n="56"/>in prima quaestione. ergo tantum in mente. Si autemnihil 
-      <lb ed="#L" n="57"/>variatum nec multiplicatum praedicatur de pluribus 
-      <lb ed="#L" n="58"/>ergo genus non est in plus quam species vel indiuiduum. 
-      <lb ed="#L" n="59"/>qui certa species variata praedicatur de pluribus. et 
-      <lb ed="#L" n="60"/>indiuiduum variatum et multiplicatum predicatur ve 
-      <lb ed="#L" n="61"/>re de pluribus. Si autem genus distinguitur a specie 
-      <lb ed="#L" n="62"/>in conceptu mentis. aut idem conceptus praedicatur de 
-      <lb ed="#L" n="63"/>pluribus. aut non. sed tamen conceptus multiplicatus 
-      <lb ed="#L" n="64"/>et variatus. Si sic. habeo propositum quod idem
-      conce<lb ed="#L" n="65" break="no"/>ptus non variatus nec multiplicatus praedicatur 
-      <lb ed="#L" n="66"/>de pluribus. sed non pro se. quia tunc illa plura essent 
-      <lb ed="#L" n="67"/>vnum non variatum. quod est impossibile. Si non. non potest 
-      <lb ed="#L" n="68"/>dari distinctio inter genus et speciem. et maxime quantum 
-      <lb ed="#L" n="69"/>ad maiorem communitate et minore. Sic ergo aliquid 
-      <lb ed="#L" n="70"/>idem non variatum nec multiplicatum praedicatur de plu 
-      <lb ed="#L" n="71"/>ribus. et illud voco conceptum sic fictum modo praedicto 
-      <lb ed="#L" n="72"/>Similiter idem est subiectum in propositione vniversali et particu 
-      <lb ed="#L" n="73"/>lari. non tantum in propositionibus in voce. sed etiam in 
-      <lb ed="#L" n="74"/>propositionibus in mente quae nullius lingue sunt. et 
-      <lb ed="#L" n="75"/>in illis non subiicitur aliqua res. ergo tantum conceptus. 
-      <lb ed="#L" n="76"/>Pposset ergo dici quod sicut vox est vniversalis: et genus et 
-      <lb ed="#L" n="77"/>species. et tantum per institutionem. ita conceptus sic fictus 
-      <lb ed="#L" n="78"/>et abstractus a rebus singularibus praecognitis 
-      <lb ed="#L" n="79"/>est vniversalis ex natura sua. Et potest aliquis vti isto modo 
-      <lb ed="#L" n="80"/>loquendi. vocando conceptum et vniversale sic fictum. quia iste 
-      <lb ed="#L" n="81"/>videtur modus loquendi beati Augustini. et posset 
-      <lb ed="#L" n="82"/>alicui videri esse intentio sua qui multa scripsit 
-      <lb ed="#L" n="83"/>de ista materia. hoc patet per ipsum. viii. de trini 
-      <lb ed="#L" n="84"/>tate. ca. vi. vbi dicit sic. Necesse est cum animata 
-      <lb ed="#L" n="85"/>corpora lecta vel audita quae non videmus credimus 
-      <lb ed="#L" n="86"/>fingit sibi animus aliquid in lineamentis formisque 
-      <lb ed="#L" n="87"/>corporum. sicut occurrit cogitanti: quod verum non sit. 
-      <lb ed="#L" n="88"/>aut etiam quod verum est. quod rarissime accidere potest 
-      <lb ed="#L" n="89"/>Subdit. Quis enim legentium aut audientium que 
-      <lb ed="#L" n="90"/>scribit aplus Paulus. scilicet quae de illo scripta sunt. 
-      <lb ed="#L" n="91"/>non signat animo et ipsius apsli faciem et omnium quorum ibi 
-      <lb ed="#L" n="92"/>nomina commemorantur. Et post. et ipsius facies
-      do<lb ed="#L" n="93" break="no"/>minice carnis in mirabilium cogitationum diuer 
-      <lb ed="#L" n="94"/>sitate variatur et fingitur. que tame vna erat.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e602">
-      ⁋ Ex 
-      <lb ed="#L" n="95"/>ista auctoritate potest argui sic. non minus
-      intelle<lb ed="#L" n="96" break="no"/>ctus ex aliquo viso aliquid rationabiliter consimile fin 
-      <lb ed="#L" n="97"/>gere potest. quam ex visis aliquid consimile prius non viso. sed 
-      <lb ed="#L" n="98"/>aliquis ex multis faciebus visis potest fingere ali 
-      <lb ed="#L" n="99"/>quid consimile faciei apstri vel christi. vel alicuius alterius 
-      <lb ed="#L" n="100"/>que nunquam vidit. ergo non est inconueniens: quin de 
-      <lb ed="#L" n="101"/>aliquo indiuiduo viso vel intuitiue cognito fin 
-      <lb ed="#L" n="102"/>gat animus aliquid consimile et illud sic fictum non erit: 
-      <lb ed="#L" n="103"/>ens reale sed tantum cognitum. et secundum Augustinum per
-      ta<lb ed="#L" n="104" break="no"/>le fictum aliquid aliud insinuatur. ita per fictum ex
-      ali<lb ed="#L" n="105" break="no"/>quo viso insinuantur et significantur: quasi omnia 
-      <lb ed="#L" n="106"/>consimilia illi prius viso. et hoc non est aliud quam
-      ali<lb ed="#L" n="107" break="no"/>quid affirmare et negare de aliquo sic ficto. non 
-      <lb ed="#L" n="108"/>pro se sed pro re ex qua fingitur vel fingi potest. 
-      <lb ed="#L" n="109"/>Uerbi gratia. aliquis videns albedinem singularem. 
-      <lb ed="#L" n="110"/>fingit consimilem in anima sua. sicut artifex ex domo 
-      <!--216.xml-->
-      <pb ed="#L" n="107-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>visa vel pictura fingit consimilem in mente sua 
-      <lb ed="#L" n="2"/>et de illa albedine praedicat tales passiones. al 
-      <lb ed="#L" n="3"/>bedo est color. albedo est disgregatiua visus et 
-      <lb ed="#L" n="4"/>sic de aliis. et non intendit quod illud sic fictum sit 
-      <lb ed="#L" n="5"/>color vel disgregatiuum visus: sed quod quelibet
-      al<lb ed="#L" n="6" break="no"/>bedo ex qua potest fingi sit color vel
-      disgregati<lb ed="#L" n="7" break="no"/>ua visus. Unde quia non potest omnem albedinem 
-      <lb ed="#L" n="8"/>extra cogitare vtitur illo ficto pro omni albedine 
-      <lb ed="#L" n="9"/>Preterea augustinus ca. vii. dicit sic. Neque in 
-      <lb ed="#L" n="10"/>fide nostra quam de domino iesu christo habemus illud 
-      <lb ed="#L" n="11"/>salubre est: quod animus sibi fingit longe
-      for<lb ed="#L" n="12" break="no"/>rasse aliter quam res se habet sed illud quod secundum
-      spe<lb ed="#L" n="13" break="no"/>ciem de homine cogitamus. habemus enitm qua 
-      <lb ed="#L" n="14"/>si regulariter infixam nature humane notitiam 
-      <lb ed="#L" n="15"/>secundum quam quicquid tale aspicimus. statim
-      homi<lb ed="#L" n="16" break="no"/>nem esse cognoscimus. Ex hoc patet: quod quamuis
-      pro<lb ed="#L" n="17" break="no"/>pter diuersitatem figure et colorum et aliquorum acci 
-      <lb ed="#L" n="18"/>dentium in diuersis hominibus. possumus fingere 
-      <lb ed="#L" n="19"/>diuersa que non sunt similia cuilibet homini. vel 
-      <lb ed="#L" n="20"/>forte nulli tamen possumus habere notitiam alicuius fi 
-      <lb ed="#L" n="21"/>cti quod equaliter se habet ad omnens homines. secundum 
-      <lb ed="#L" n="22"/>quod nos possumus iudicare de quolibet si est
-      ho<lb ed="#L" n="23" break="no"/>mo vel non. Quod etiam possim fingere aliquid con 
-      <lb ed="#L" n="24"/>simile prius viso: quod si haberem virtutem productiuam 
-      <lb ed="#L" n="25"/>non tantum fictiuam: possem tale realiter producere. patet 
-      <lb ed="#L" n="26"/>per Augustinum eodem li. ca. x. vbi dicit sic. Cum 
-      <lb ed="#L" n="27"/>audissem a multis et credidissem magnam esse
-      il<lb ed="#L" n="28" break="no"/>lam vrbem sicut mihi narrare potuit. fixi animo
-      ima<lb ed="#L" n="29" break="no"/>ginem eius quam potui. et postquam imaginem si ex ani 
-      <lb ed="#L" n="30"/>mo meo proferre possem ad oculos hominum quam 
-      <lb ed="#L" n="31"/>alexandriam nouerunt. profecto autem omnens
-      di<lb ed="#L" n="32" break="no"/>cerent. non est ipsa. aut si dicerent. ipsa est
-      mira<lb ed="#L" n="33" break="no"/>rer multum. atque ipsam intuens in animo meo ymagi 
-      <lb ed="#L" n="34"/>nem quasi picturam eius. ipsam tamen esse nescirem. Ex 
-      <lb ed="#L" n="35"/>ista auctoritaes patet primo quod talia possunt fingi. et 
-      <lb ed="#L" n="36"/>multo fortius ex visis in se sicut declarat
-      imme<lb ed="#L" n="37" break="no"/>diate ante litteram allegatam: quod ex non visis in se. 
-      <lb ed="#L" n="38"/>sed in aliis imperfecte consimilibus. Secundo quod sic 
-      <lb ed="#L" n="39"/>fictum vocatur similitudo vel ymago vel pictura rei 
-      <lb ed="#L" n="40"/>et sicut dicit ibidem: vocatur verbum rei. Tertio patet 
-      <lb ed="#L" n="41"/>quod illud sic fictum vere est obiectum cognitum ab in 
-      <lb ed="#L" n="42"/>tellectu. et propter ista potest esse terminus
-      pro<lb ed="#L" n="43" break="no"/>positionis. et supponere pro omnibus illis quorum est 
-      <lb ed="#L" n="44"/>ymago vel silitudo. et hoc est esse vniversale et comune 
-      <lb ed="#L" n="45"/>ad illa. Item libro. ix. ca. vi. tractans illud.
-      quo<lb ed="#L" n="46" break="no"/>modo ex rebus visis diuersa finguntur. et quo 
-      <lb ed="#L" n="47"/>modo propter diuersitatem rerum corporalium
-      ali<lb ed="#L" n="48" break="no"/>qua sic ficta sunt similia illis de quibus fingum 
-      <lb ed="#L" n="49"/>tur. et per consequens sic fingens vtitur fictis 
-      <lb ed="#L" n="50"/>infert in fine ca: dicens. Itaque de istis secundum illam 
-      <lb ed="#L" n="51"/>iudicamus. et illam cernimus rationalis mentis in 
-      <lb ed="#L" n="52"/>tuitum. ista vero aut praesentia sensibus corporis tam 
-      <lb ed="#L" n="53"/>gimus. aut ymagines absentium fixas in
-      memo<lb ed="#L" n="54" break="no"/>ria recordamur. aut ex ea similitudine talia
-      fin<lb ed="#L" n="55" break="no"/>guntur. qualia nosipsi si vellemus aut possemus 
-      <!--216.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 107-r -->
-               <lb ed="#L" n="56"/>immoliremur. Ex quo patet quod talia ficta sunt in esse 
-      <lb ed="#L" n="57"/>obiectiuo qualia sunt alia in esse subiectiuo. 
-      <lb ed="#L" n="58"/>Propter quod et si intellectus haberet virtutem
-      produ<lb ed="#L" n="59" break="no"/>ctiuam. faceret eam esse similia in esse subiectiuo. 
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e780">
-               <lb ed="#L" n="60"/>⁋ Preterea. quod talia mens fingat ex prius notis. et 
-      <lb ed="#L" n="61"/>quod ipsa sint cognita secundum quae intellectus potest iudica 
-      <lb ed="#L" n="62"/>re de aliis. expresse dicit Augustinus. x. de
-      trini<lb ed="#L" n="63" break="no"/>tate. ca ii. vbi dicit sic. s ingit animo ymaginem for 
-      <lb ed="#L" n="64"/>ma qua excitetur in amore. non autem fingit nisi ex 
-      <lb ed="#L" n="65"/>hiis que iam nouerat. cuius tamen forme in animo
-      signa<lb ed="#L" n="66" break="no"/>te. atque in cogitatione notissime. si eam que lauda 
-      <lb ed="#L" n="67"/>batur dissimile fortasse non amabat. Et immediate 
-      <lb ed="#L" n="68"/>declarat. quomo propter talem similitudinem ipsa 
-      <lb ed="#L" n="69"/>singularia in ipsa cognoscuntur. et in ipsa aliquo 
-      <lb ed="#L" n="70"/>amantur. que omnia non essent vera nisi talia ficta 
-      <lb ed="#L" n="71"/>ommunitatem quandam haberent ad illa et sibi consimilia 
-      <lb ed="#L" n="72"/>ex quibus finguntur. Et talem communitatem voco vniversalitatem 
-      <lb ed="#L" n="73"/>secundum illam opinionem. nec aliam ponit ista opinio ni 
-      <lb ed="#L" n="74"/>si forte ex institutione. quomo vox vel aliquod si 
-      <lb ed="#L" n="75"/>gnum ad placitum impositum dicitur vniversale.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e817">
-      ⁋ Et si dicatur 
-      <lb ed="#L" n="76"/>ad omnia ista. quod non est possibile talia fingere nisi 
-      <lb ed="#L" n="77"/>de istis corporalibus compositis. ex hoc scilicet quod partes 
-      <lb ed="#L" n="78"/>eorum diuersimode cognoscuntur per intellectu. no 
-      <lb ed="#L" n="79"/>autem est hoc possibile de spiritualibus vel simplici 
-      <lb ed="#L" n="80"/>bus talem diuersitatem partiu non habentibus. Con 
-      <lb ed="#L" n="81"/>tra. hoc est ipsemet. iii. de trinitate. vbi vult 
-      <lb ed="#L" n="82"/>quod etiam anima de se ipsa potest consimilem fingere: quod quidem 
-      <lb ed="#L" n="83"/>figmentum non erit ipsa anima. sed ipsum vere erit
-      cogni<lb ed="#L" n="84" break="no"/>tum ab intellectu. Unde dicit sic. forte. ergo non se amat 
-      <lb ed="#L" n="85"/>supprimens. sed quod de se fingit hoc amat. lon 
-      <lb ed="#L" n="86"/>ge fortasse aliud quam ipsa est. aut si mens similem sui 
-      <lb ed="#L" n="87"/>ingit. et ideo cum hoc figmentum amat. se amat antequem 
-      <lb ed="#L" n="88"/>nouerit. quia illud quod sui simile est intuetur. Nouit 
-      <lb ed="#L" n="89"/>ergo alias mentes ex quibus se fingat. et genere 
-      <lb ed="#L" n="90"/>ipso sibi nota esse. Ex hoc patet. quod etiam tale fictum 
-      <lb ed="#L" n="91"/>potest haberi de anima quae simplex est. et hoc quia fictum est
-      co<lb ed="#L" n="92" break="no"/>gnitum. et genus hoc est commune. et hoc est propositum. 
-      <lb ed="#L" n="93"/>Unde secundum istam opinionem est sciendum. quod illud fictum 
-      <lb ed="#L" n="94"/>vocatur ab Augustino. ymago. similitudo.
-      fantas<lb ed="#L" n="95" break="no"/>ma. species. Et dicuntur ista ficta ab
-      Augusti<lb ed="#L" n="96" break="no"/>non in memoria remanere in absentia sensibilium 
-      <lb ed="#L" n="97"/>ppter habitum immediate inclinantem ad illa
-      intel<lb ed="#L" n="98" break="no"/>ligenda. et ita sunt ibi quasi in potentia propinqua 
-      <lb ed="#L" n="99"/>pro quanto intellectus potest facere ea in esse sibi com 
-      <lb ed="#L" n="100"/>uenienti mediante illo derelicto. non sic autem
-      me<lb ed="#L" n="101" break="no"/>diante habitu potest facere corpora extra in esse con 
-      <lb ed="#L" n="102"/>uenienti sibi. quia esse sibi conueniens est esse
-      rea<lb ed="#L" n="103" break="no"/>le
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e880">
-      ⁋ Sed contra praedicta sunt aliqua dubia.
-      Pri<lb ed="#L" n="104" break="no"/>mum quia non videtur quod aliquid possit habere esse 
-      <lb ed="#L" n="105"/>obiectiuum: quin alicubi habeat esse subiectiuum. ergo 
-      <lb ed="#L" n="106"/>talia ficta vere habebunt esse subiectiuum. saltem 
-      <lb ed="#L" n="107"/>in mente Confirmatur. quia omne quod est: est substam 
-      <lb ed="#L" n="108"/>tia vel accidens.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e893">
-      ⁋ Secundum dubium. quia videtur quod
-      ta<lb ed="#L" n="109" break="no"/>lia non sunt similia rebus. quia nullum accidens potest 
-      <lb ed="#L" n="110"/>assimilari substantie. sed illud fictum plus distaret 
-      <!--217.xml-->
-      <pb ed="#L" n="107-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>a substantia quam quodcumque accidens. ergo non potest 
-      <lb ed="#L" n="2"/>esse similitudo rei extra animam.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e912">
-      ⁋ Tertium. quia non 
-      <lb ed="#L" n="3"/>videtur quod talia ficta sint vniversalia quia dictum est quod 
-      <lb ed="#L" n="4"/>si intellectus haberet virtutem productiuam: non 
-      <lb ed="#L" n="5"/>tantum fictiuam produceret consimilia extra. sed si
-      pro<lb ed="#L" n="6" break="no"/>ducerentur similia in esse. illa producta non plus est 
-      <lb ed="#L" n="7"/>sent vniversalia quam quecumque alia. quia omnia essent
-      eiusdem<lb ed="#L" n="8" break="no"/>rationis numero distincta. sicut patet de domo 
-      <lb ed="#L" n="9"/>producta ex tali similitudine. et domo prius
-      no<lb ed="#L" n="10" break="no"/>ta. ex qua tale simile fingebatur. ergo eodem modo ista 
-      <lb ed="#L" n="11"/>ficta non sunt vniversalia in esse ficto.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e934">
-      ⁋ Quartum
-      du<lb ed="#L" n="12" break="no"/>bium est de conceptibus sincathegoreumaticis 
-      <lb ed="#L" n="13"/>et connotatiuis et negatiuis. vnde possunt sumi vel 
-      <lb ed="#L" n="14"/>abstrahi. quia si precise a rebus non videtur
-      quo<lb ed="#L" n="15" break="no"/>modo possunt distingui ab aliis conceptibus 
-      <lb ed="#L" n="16"/>Quod autem sint tales conceptus patet. quia omni
-      pro<lb ed="#L" n="17" break="no"/>positioni in voce potest correspondere consimilis in 
-      <lb ed="#L" n="18"/>mente. ergo isti propositioni omnis homo est animal. 
-      <lb ed="#L" n="19"/>et isti aliquis homo est animal correspondent
-      distin<lb ed="#L" n="20" break="no"/>cte propositiones in mente. ergo aliquid correspon 
-      <lb ed="#L" n="21"/>dent signo in vna propositione quod non est alia 
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e958">
-               <lb ed="#L" n="22"/>⁋ Dubium quintum est de hoc quod dicitur: quod vox est 
-      <lb ed="#L" n="23"/>vniversalis. hoc videtur falsum. quia tunc vox eet genus 
-      <lb ed="#L" n="24"/>et species. et per consequens tota vna
-      coordina<lb ed="#L" n="25" break="no"/>tio praedicamentalis est in vno genere subalterno 
-      <lb ed="#L" n="26"/>ipsius qualitatis. Similiter tunc vnum accidens 
-      <lb ed="#L" n="27"/>numero esset genus ad multas substantias. quia 
-      <lb ed="#L" n="28"/>vna vox numero. Similiter tunc essent innume 
-      <lb ed="#L" n="29"/>rabilia genera generalissima: sicut sunt innu in 
-      <lb ed="#L" n="30"/>merabiles voces: que omnia sunt absurda. et mul 
-      <lb ed="#L" n="31"/>ta alia absurda videntur sequi.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e982">
-      ⁋ Ad primum 
-      <lb ed="#L" n="32"/>istorum dicerent sic opinantes quod aliqua sunt en 
-      <lb ed="#L" n="33"/>tia rationis quae nullum esse subiectiuum habent: 
-      <lb ed="#L" n="34"/>nec habere possunt. sicut enim ante creationem 
-      <lb ed="#L" n="35"/>creature nullum esse habebant subiectiuum. et tamen 
-      <lb ed="#L" n="36"/>fuerunt a deo cognite. ita etiam ab intellectu cre 
-      <lb ed="#L" n="37"/>ato potest aliquid fingi: quod nullum esse subiecti 
-      <lb ed="#L" n="38"/>uum habet. Et quando dicitur. quic quid est: est 
-      <lb ed="#L" n="39"/>substantia vel accidens illud est verum quod quio 
-      <lb ed="#L" n="40"/>quid est extra animam: est substantia vel accidens 
-      <lb ed="#L" n="41"/>non tamen quicquid est in anima obiectiue: est substam 
-      <lb ed="#L" n="42"/>tia vel accidens.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1008">
-      ⁋ Ad secundum dicerent quod 
-      <lb ed="#L" n="43"/>talia ficta non sunt realiter similia: sed magis 
-      <lb ed="#L" n="44"/>dissimilantur et distant a substantia plusquam ad 
-      <lb ed="#L" n="45"/>cidentia tamen sunt talia in esse obiectiuo qualia 
-      <lb ed="#L" n="46"/>sunt alia in esse subiectiuo. et hoc habet intelle 
-      <lb ed="#L" n="47"/>ctus ex natura sua talia fingere qualia cogno 
-      <lb ed="#L" n="48"/>scit extra. Unde sicut potest fingere qualia non 
-      <lb ed="#L" n="49"/>cognoscit: et tamen cognoscit multa propter quae potest 
-      <lb ed="#L" n="50"/>talia fingere qualia cognoscit
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1028">
-      ⁋ Ad tertium di 
-      <lb ed="#L" n="51"/>cerent quod talia sunt vniversalia: si tamen producerentur in 
-      <lb ed="#L" n="52"/>esse reali non essent vniversalia. quia tunc essent
-      sim<lb ed="#L" n="53" break="no"/>pliciter eiusdem rationis cum aliis. nec est maio 
-      <lb ed="#L" n="54"/>ratio quod vnum esset vniversale quam reliquum: sed quia de fa 
-      <lb ed="#L" n="55"/>cto ista non sunt eiusdem rationis. quia illud fictum sim 
-      <!--217.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 107-v -->
-               <lb ed="#L" n="56"/>pliciter non est animal. nec homo. ideo diceretur vnum 
-      <lb ed="#L" n="57"/>magis vniversale quam reliquum.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1053">
-      ⁋ Si dicatur. quod secundum linco 
-      <lb ed="#L" n="58"/>vniversale non est figmentum. Similiter tunc tot essent vniversalia 
-      <lb ed="#L" n="59"/>quot intellectus.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1060">
-      ⁋ Ad primum. quod vniversale non est
-      fi<lb ed="#L" n="60" break="no"/>gmentum tale cui non correspondet aliquid consimile 
-      <lb ed="#L" n="61"/>in esse subiectiuo. quale illud fingitur in esse
-      ob<lb ed="#L" n="62" break="no"/>iectiuo. sicut est de chymera. quia chymera
-      fin<lb ed="#L" n="63" break="no"/>gitur aliquid esse compositum ex diuersis animalibus. et 
-      <lb ed="#L" n="64"/>tale non potest esse aliquid in rerum natura. sed tali 
-      <lb ed="#L" n="65"/>vniversale est figmentum cui correspondet aliquid consimile i 
-      <lb ed="#L" n="66"/>rerum natura. sicut quando fingitur aliquod compositum ex 
-      <lb ed="#L" n="67"/>corpore et anima. illud fictum est vniversale. Similiter si fingatur 
-      <lb ed="#L" n="68"/>domus in mente anteque producatur. illud sic fictum 
-      <lb ed="#L" n="69"/>non est figmentum: sicut chymera vel aliquid tale. 
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1084">
-               <lb ed="#L" n="70"/>⁋ Ad secundum. siue conceptus siue figmentum varietur 
-      <lb ed="#L" n="71"/>ad variationem intelligibilium. siue non. non curo ad  
-      <lb ed="#L" n="72"/>praesens. Dico quod genus generalissimum substantie. vel 
-      <lb ed="#L" n="73"/>est vnum simplicitur non variatum. vel est vnum per equa 
-      <lb ed="#L" n="74"/>ualentiam. Per quem modum dicunt alii. quod idem
-      praedi<lb ed="#L" n="75" break="no"/>catur in istis propositionibus prolatis sortes est
-      ho<lb ed="#L" n="76" break="no"/>mo plato est homo. quameuis realiter est alia vox. sed  
-      <lb ed="#L" n="77"/>tamen est eadem per equiualentiam. vt dicunt et bene. quia 
-      <lb ed="#L" n="78"/>ad omnia habedam. tantum valeret si proferretur eadem vox 
-      <lb ed="#L" n="79"/>numero quae prius. sicut si proferatur illa alia quae de facto 
-      <lb ed="#L" n="80"/>profertur. et econuerso. ita est in proposito. quod sunt tantum 
-      <lb ed="#L" n="81"/>decem genera generalissima per equiualentiam. siue sim 
-      <lb ed="#L" n="82"/>plicit sint tantum decem. siue non. siue etiam predicati 
-      <lb ed="#L" n="83"/>varietur. siue genus varietur. siue non.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1117">
-      ⁋ Ad quartum 
-      <lb ed="#L" n="84"/>dubium diceret. quod conceptus sincathegoreumati 
-      <lb ed="#L" n="85"/>ci et connotatiui et negatiui non sunt conceptus ab 
-      <lb ed="#L" n="86"/>stracti a rebus. ex natura sua supponentes pro 
-      <lb ed="#L" n="87"/>rebus. vel ipsas modo distincto ab aliis
-      conce<lb ed="#L" n="88" break="no"/>patibus significantes. et ideo dicerent quod nullus con 
-      <lb ed="#L" n="89"/>ceptus sincathegoreumaticus vel connotatius 
-      <lb ed="#L" n="90"/>nec negatiuus. nisi tantum ex institutione. per quem mo 
-      <lb ed="#L" n="91"/>dum omnia talia per institutionem de ipsa voce et 
-      <lb ed="#L" n="92"/>aliis praedicantur. et vniuersalitur. nec modi grama 
-      <lb ed="#L" n="93"/>ticales. nec logicales. possunt plus ex se
-      compe<lb ed="#L" n="94" break="no"/>tere istis conceptibus quam illis. sed tantum ad placitum 
-      <lb ed="#L" n="95"/>Ueruntamen possunt tales conceptus imponi. vel
-      con<lb ed="#L" n="96" break="no"/>ceptus abstrahi a vocibus. et ita fit de facto. 
-      <lb ed="#L" n="97"/>vel semper vel communiter. Uerbi gratia. isti voci homo 
-      <lb ed="#L" n="98"/>competit talis modus gramaticalis. quod est singu 
-      <lb ed="#L" n="99"/>laris numeri. nominatiui casus. communis generis. et sic 
-      <lb ed="#L" n="100"/>de aliis. et isti voci hominis competunt alii modi
-      gran<lb ed="#L" n="101" break="no"/>maticales. Similiter isti voci homo competit quod signi 
-      <lb ed="#L" n="102"/>ficet determinate rem per se. Isti voci omnis sic 
-      <lb ed="#L" n="103"/>non competit. sed quod significet tantum cum alio. Similiter 
-      <lb ed="#L" n="104"/>est de ista voce non. et de istis. per se. inquantum.
-      si<lb ed="#L" n="105" break="no"/>et huiusmodi sincathegoreumaticis. tunc ab istis
-      vo<lb ed="#L" n="106" break="no"/>cibus sic significantibus. abstrahit intellectus 
-      <lb ed="#L" n="107"/>conceptus communes praedicabiles de eis. et imponit istos 
-      <lb ed="#L" n="108"/>conceptus ad significandum illa eadem que
-      signi<lb ed="#L" n="109" break="no"/>ficant ipse voces extra. et eodem modo. et de talibus 
-      <lb ed="#L" n="110"/>format propositiones consimiles. et habentes consi¬ 
-      <!--218.xml-->
-      <pb ed="#L" n="108-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>miles proprietates quales habent propositiones 
-      <lb ed="#L" n="2"/>prolate
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1189">
-      ⁋ Et sicut potest instituere tales conceptus 
-      <lb ed="#L" n="3"/>ad sic significandum. ita potest instituere ipsos
-      com<lb ed="#L" n="4" break="no"/>ceptus abstractos a rebus ad significandum sub 
-      <lb ed="#L" n="5"/>eisdem modis gramaticalibus sub quibus
-      signi<lb ed="#L" n="6" break="no"/>ficant ipse voces
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1200">
-      ⁋ hoc tamen fit conuenientius per 
-      <lb ed="#L" n="7"/>conceptus abstractos a vocibus propter
-      equi<lb ed="#L" n="8" break="no"/>uocationem vitandam. quia illi conceptus sunt di 
-      <lb ed="#L" n="9"/>stincti sicut ipse voces: quamuis non omnes sint 
-      <lb ed="#L" n="10"/>distincte. conceptus autem aliquando non sunt
-      di<lb ed="#L" n="11" break="no"/>stincti. Et ita quelibet propositio talis esset
-      di<lb ed="#L" n="12" break="no"/>stinguenda. puta proposito correspondens tali pro 
-      <lb ed="#L" n="13"/>positioni. homo est homines. et sic de aliis. et si 
-      <lb ed="#L" n="14"/>cut dictum est de istis. sic dicendum est proportio 
-      <lb ed="#L" n="15"/>nabiliter de omnibus connotatiuis negatiuis 
-      <lb ed="#L" n="16"/>sincathegoreumaticis: qualia sunt verba. est. 
-      <lb ed="#L" n="17"/>currit. et sic de aliis.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1227">
-      ⁋ Ad quintum dico quod ipsa 
-      <lb ed="#L" n="18"/>vox vere est vniversalis: quamuis non ex natura sua: sed tantum 
-      <lb ed="#L" n="19"/>ad placitum instituentis. Et similiter
-      concede<lb ed="#L" n="20" break="no"/>rent quod vox est genus et species. et genus gene 
-      <lb ed="#L" n="21"/>ralissimum: et sic de aliis. nec est plus inconueniens 
-      <lb ed="#L" n="22"/>talia attribuere voci propter placitum instituen 
-      <lb ed="#L" n="23"/>tis: quam attribuere voci prolate complexe. quod sit 
-      <lb ed="#L" n="24"/>vera et falsa necessaria et impossibilis. et tamen vere 
-      <lb ed="#L" n="25"/>dicitur quod ipsa vox est vera: et quod ipsa vox est fal 
-      <lb ed="#L" n="26"/>sa. quia nullus nisi insanus potest negare quin
-      mul<lb ed="#L" n="27" break="no"/>ta falsa et mendacia dicantur. et similiter mul 
-      <lb ed="#L" n="28"/>ta vera et necessaria narrantur. Et eodem mo 
-      <lb ed="#L" n="29"/>do hec est vera per se primo modo. homo est ani 
-      <lb ed="#L" n="30"/>mal. et similiter ista est vera per se secundo modo 
-      <lb ed="#L" n="31"/>etiam in voce. homo est risibilis. et hec propositio 
-      <lb ed="#L" n="32"/>prolata homo est asinus est impossibilis. et eo 
-      <lb ed="#L" n="33"/>dem modo in ista. homo est animal. subiicitur
-      ter<lb ed="#L" n="34" break="no"/>minus communis et praedicatur similiter. similiter genus
-      pre<lb ed="#L" n="35" break="no"/>dicatur de specie.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1269">
-      ⁋ Si dicatur quod propositio 
-      <lb ed="#L" n="36"/>prolata non est vera nec falsa: nisi quia est signum pro 
-      <lb ed="#L" n="37"/>positionis in mente vere vel false. ergo similiter non erit: 
-      <lb ed="#L" n="38"/>aliqua vox prolata genus vel species. nisi quia si 
-      <lb ed="#L" n="39"/>gnum generis vel speciei.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1280">
-      ⁋ Similiter sic idem
-      termi<lb ed="#L" n="40" break="no"/>nus posset esse genus et species. quia vnus potest
-      im<lb ed="#L" n="41" break="no"/>ponere eandem vocem ad significandum omnia talia 
-      <lb ed="#L" n="42"/>indiuidua. et alius ad significandum alia. ergo etc. 
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1289">
-               <lb ed="#L" n="43"/>⁋ Ad primum istorum dico quod potest concedi quod aliqua 
-      <lb ed="#L" n="44"/>propositio est vera in voce: quamuis non sit signum 
-      <lb ed="#L" n="45"/>alicuius propositionis in mente de facto: quamuis queli 
-      <lb ed="#L" n="46"/>bet potest esse signum propositionis in mente. Et eodem 
-      <lb ed="#L" n="47"/>modo concedo quod quelibet vox que est genus 
-      <lb ed="#L" n="48"/>vel species potest esse signum generis vel
-      speci<lb ed="#L" n="49" break="no"/>ei in mente. et est etiam signum subordinatum cuius 
-      <lb ed="#L" n="50"/>libet talis de facto.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1309">
-      ⁋ Secundum est puerile. tamen de 
-      <lb ed="#L" n="51"/>virtute sermonis debet concedi. quod propter diuer 
-      <lb ed="#L" n="52"/>sas impositiones eadem vox numero est genus 
-      <lb ed="#L" n="53"/>et species. Nec hoc est plus inconueniens quam
-      con<lb ed="#L" n="54" break="no"/>cedere quod eadem vox numero est equiuoca et vni 
-      <lb ed="#L" n="55"/>noca. et quod eadem propositio numero sit necessaria et 
-      <!--218.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 108-r -->
-               <lb ed="#L" n="56"/>impossibilis. quae omnia debent concedi nisi vocetur
-      pro<lb ed="#L" n="57" break="no"/>positio vera precise illa quae significat verum et no 
-      <lb ed="#L" n="58"/>falsum. et sic de aliis. Nam hec vox homo apud 
-      <lb ed="#L" n="59"/>latinos est simplicitur vniuoca. et eadem vox
-      pos<lb ed="#L" n="60" break="no"/>set a grecis vel aliis imponi ad significandum 
-      <lb ed="#L" n="61"/>plura eque primo. et apud eos esset simpliciter 
-      <lb ed="#L" n="62"/>equiuoca. Eodem modo est hec simplicitur vera 
-      <lb ed="#L" n="63"/>omnis canis est animal. et est falsa simpliciter. quia 
-      <lb ed="#L" n="64"/>habet vnum sensum verum et alium falsum. et ideo ista 
-      <lb ed="#L" n="65"/>eadem numero significat verum et falsum. et hoc est 
-      <lb ed="#L" n="66"/>eandem propositionem esse veram et falsam
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1353">
-      ⁋ Ad secund 
-      <lb ed="#L" n="67"/>inconueniens dico quod non est inconueniens totam 
-      <lb ed="#L" n="68"/>vnam coordinatione predicamentalem. que continet 
-      <lb ed="#L" n="69"/>predicabilia per se primo modo. quantum ad omnia 
-      <lb ed="#L" n="70"/>communia esse in vno genere subalterno. nec est hoc 
-      <lb ed="#L" n="71"/>inconueniens. nec negatur nisi a non intelligenti 
-      <lb ed="#L" n="72"/>bus
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1370">
-      ⁋ Ad tertium per idem quod non est inconueniens 
-      <lb ed="#L" n="73"/>vnam vocem esse genus ad substantiam. sicut nec est 
-      <lb ed="#L" n="74"/>inconueniens aliquam vocem praedicari per se primo 
-      <lb ed="#L" n="75"/>modo de substantia
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1379">
-      ⁋ Unde reputantes ista et
-      simi<lb ed="#L" n="76" break="no"/>lia falsa. deberent concedere consequenter quod nullus 
-      <lb ed="#L" n="77"/>potest loqui neque verum neque falsum. nec vnquam al 
-      <lb ed="#L" n="78"/>quis audiuit medacia nec aliqua vera. et eodem 
-      <lb ed="#L" n="79"/>modo quod nec vera nec falsa possunt scribi. et
-      ali<lb ed="#L" n="80" break="no"/>absurda. que horret omnis communitas humana
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1392">
-      ⁋ Cui 
-      <lb ed="#L" n="81"/>non placet ista opinio de talibus fictis in esse ol 
-      <lb ed="#L" n="82"/>iectiuo. potest tenere quod conceptus et quodlibet 
-      <lb ed="#L" n="83"/>vniversale est aliqua qualitas existens subiectiue in me 
-      <lb ed="#L" n="84"/>te. que ex naturam sua est signum rei extra. sicut vox 
-      <lb ed="#L" n="85"/>est signum rei ad placitum instituentis. et tunc potest 
-      <lb ed="#L" n="86"/>dici quod per omnem modum sicut voces et signa
-      volun<lb ed="#L" n="87" break="no"/>tarie instituta. quedam significant rem extra pro 
-      <lb ed="#L" n="88"/>prie et per se. cuiusmodi sunt cathegoreumata 
-      <lb ed="#L" n="89"/>et quedam sunt que non significant sed tamen consi 
-      <lb ed="#L" n="90"/>gnificant cum aliis. cuiusmodi sunt sincathegoret 
-      <lb ed="#L" n="91"/>mata. et quedam significant vno modo. et quedam 
-      <lb ed="#L" n="92"/>alio. secundum quod sunt diuersa accidentia partium
-      gran<lb ed="#L" n="93" break="no"/>maticalium. ita sunt quedam qualitates existentes 
-      <lb ed="#L" n="94"/>in mente subiectiue. quibus ex natura sua competunt 
-      <lb ed="#L" n="95"/>talia qualia competunt vocibus per voluntariam 
-      <lb ed="#L" n="96"/>institutionem. Nec videtur hoc magis inconueniens 
-      <lb ed="#L" n="97"/>in intellectu posse elicere aliquas qualitates 
-      <lb ed="#L" n="98"/>que sunt naturaliter signa rerum. quam quod bruta anima 
-      <lb ed="#L" n="99"/>lia et homines aliquos sonos naturaliter emittunt 
-      <lb ed="#L" n="100"/>quibus naturaliter competit aliqua alia
-      significa<lb ed="#L" n="101" break="no"/>re. Est tamen in hoc differentia. quod bruta et homines ta 
-      <lb ed="#L" n="102"/>les sonos non emittunt nisi ad significandum aliquas 
-      <lb ed="#L" n="103"/>passiones vel aliqua accidentia in ipsis existentia. 
-      <lb ed="#L" n="104"/>Intellectus autem quia est maioris vitutis quantum 
-      <lb ed="#L" n="105"/>ad hoc. potest elicere qualitates ad quecunque 
-      <lb ed="#L" n="106"/>naturaliter significandum. Et secundum istam opinionem 
-      <lb ed="#L" n="107"/>debet concedi quod quodlibet vniversale et genus generalissimum 
-      <lb ed="#L" n="108"/>est vere res singularis. existens res determinati 
-      <lb ed="#L" n="109"/>generis. est tamen vniversalis per predicatione. non pro se 
-      <lb ed="#L" n="110"/>sed pro rebus quas significat. et ita ordo predi 
-      <!--219.xml-->
-      <pb ed="#L" n="108-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>camentalis. substantie est vnum compositum siue 
-      <lb ed="#L" n="2"/>aggregatum ex multis qualitatibus. naturaliter 
-      <lb ed="#L" n="3"/>se habentibus secundum superius et inferius. hoc est 
-      <lb ed="#L" n="4"/>quod vnum in illo ordine ex natura sua est plurium 
-      <lb ed="#L" n="5"/>signum: et aliud paucorum. Sicut si fieret talis con 
-      <lb ed="#L" n="6"/>cordinatio ex vocibus. esset tamen in hoc differentia. 
-      <lb ed="#L" n="7"/>quod voces coordinate secundum superius et inferius non 
-      <lb ed="#L" n="8"/>significant illa que significant nisi per volun 
-      <lb ed="#L" n="9"/>tariam institutionem. Alia autem significant natur 
-      <lb ed="#L" n="10"/>raliter. et sunt ex natura sua genera et species 
-      <lb ed="#L" n="11"/>Nec talia argumenta valent contra istam
-      opi<lb ed="#L" n="12" break="no"/>nionem quod qualitas non predicatur de
-      substan<lb ed="#L" n="13" break="no"/>tia. Et vnum predicamentum remouetur ab omni 
-      <lb ed="#L" n="14"/>contento sub alio predicamento. Nam tales re 
-      <lb ed="#L" n="15"/>plice et alie multe que possent adduci. habent 
-      <lb ed="#L" n="16"/>veritatem. quando termini supponunt personaliter 
-      <lb ed="#L" n="17"/>Sicut hec est vera. substantia non est qualitas 
-      <lb ed="#L" n="18"/>si termini supponant personaliter. et tamen si
-      sub<lb ed="#L" n="19" break="no"/>iectum supponat simpliciter. et predicatum perso 
-      <lb ed="#L" n="20"/>naliter ipsa est concedenda secundum istam opinionem 
-      <lb ed="#L" n="21"/>Et ita multa talia contra istam opinione non
-      va<lb ed="#L" n="22" break="no"/>lent
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1514">
-      ⁋ Ueruntamen ista opinio posset diuersimo 
-      <lb ed="#L" n="23"/>de poni. Uno modo quod ipsa qualitas existens 
-      <lb ed="#L" n="24"/>subiectiue in anima esset ipsamet intellectio. Et 
-      <lb ed="#L" n="25"/>posset ista opinio declarari: et possent
-      argumen<lb ed="#L" n="26" break="no"/>ta solui contra eam: sicut alibi declaraui. Aliter 
-      <lb ed="#L" n="27"/>posset poni quod ista qualitas esset aliquid aliud  
-      <lb ed="#L" n="28"/>ab intellectione et posterius ipsa. Et tunc
-      pof<lb ed="#L" n="29" break="no"/>set responderi ad motiua pro opinione illa de 
-      <lb ed="#L" n="30"/>fictis in esse obiectiuo sicut tactum est alibi. vbi 
-      <lb ed="#L" n="31"/>magis expressi istam opinionem de intentione 
-      <lb ed="#L" n="32"/>anime sine conceptum: ponendo quod sit qualitas men 
-      <lb ed="#L" n="33"/>tis
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1540">
-      ⁋ Quamlibet istarum trium opinionum reputo pro 
-      <lb ed="#L" n="34"/>babilem: sed que illarum sit verior relinquo iudici 
-      <lb ed="#L" n="35"/>orum aliorum. hoc tamen teneo: quod nullum vniversale. nisi forte 
-      <lb ed="#L" n="36"/>sit vniversale per voluntariam institutionem est aliquid 
-      <lb ed="#L" n="37"/>existens quocunque modo extra animam. sed omne 
-      <lb ed="#L" n="38"/>illud quod est vniversale predicabile de pluribus ex 
-      <lb ed="#L" n="39"/>natura sua: est in mente vel subiectiue vel ob 
-      <lb ed="#L" n="40"/>iectiue. et quod nullum tale est de essentia seu quid 
-      <lb ed="#L" n="41"/>ditate cuiuslibet substantie. et sic de aliis con 
-      <lb ed="#L" n="42"/>clusionibus negatis: quas dixi in. q. precedenti 
-      <lb ed="#L" n="43"/>bus.
-    </p>
-            <p xml:id="wo8uy7-d1e385-d1e1564">
-      ⁋ Ad argumentum principale dico quod
-      il<lb ed="#L" n="44" break="no"/>lud quod mouet intellectum primo: non et vniversale 
-      <lb ed="#L" n="45"/>sed singulare. et ideo singulare intelligitur
-      pri<lb ed="#L" n="46" break="no"/>mo primitate generationis. sicut post patebit.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 8</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 8</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="106-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e385"><!-- l1d2q8 -->
+        <head xml:id="wo8uy7-d1e385-Hd1e108">Quaestio 8</head>
+        <p xml:id="wo8uy7-d1e385-d1e111">
+          Questio. viii. 
+          <lb ed="#L" n="8"/>Item circa dicta 
+          <lb ed="#L" n="9"/>materiam quauinto quaero. Utrum vniversale vni 
+          <lb ed="#L" n="10"/>uocum sit aliquid reale existens 
+          alicu<lb ed="#L" n="11" break="no"/>bi subiectiue.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e122">
+          ⁋ Quod sic. quia vniversale primo mouet
+          intelle<lb ed="#L" n="12" break="no"/>ctum. sed illud quod primo mouet intellectum est aliquid
+          re<lb ed="#L" n="13" break="no"/>ale. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e129">
+          ⁋ Ad oppositum. omne reale est singulare 
+          <lb ed="#L" n="14"/>sed vniversale non est singulare. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e134">
+          ⁋ Ad istam. q. possent 
+          <lb ed="#L" n="15"/>esse diuerse opiniones quarum multas reputo sim 
+          <lb ed="#L" n="16"/>pliciter falsas. quarum tamen quamlibet ante ponerem quam aliquam 
+          <lb ed="#L" n="17"/>improbatam in praecedentibus. q.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e144">
+          ⁋ Prima opinio 
+          <lb ed="#L" n="18"/>posset esse: quod vniversale est conceptus mentis. et quod iste
+          conce<lb ed="#L" n="19" break="no"/>ptus est realiter ipsa intellectio: ita quod tunc vniversale non 
+          <lb ed="#L" n="20"/>esset nisi intellectio confusa rei. quae intellectio quia 
+          <lb ed="#L" n="21"/>ipsa non plus intelligitur vnum singulare quam reliquum. 
+          <lb ed="#L" n="22"/>ipsa esset indterns et communis ad omnia singularia: et ita 
+          <lb ed="#L" n="23"/>vndum quod esset magis confusa et minus cofusa esset
+          ma<lb ed="#L" n="24" break="no"/>gis vniversale et minus vniversale.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e162">
+          ⁋ Contra istam opinionem 
+          <lb ed="#L" n="25"/>potest argui. quia omni intellectione aliquid intelligitur. et 
+          <lb ed="#L" n="26"/>non aliquid singulare ex animam. quia non plues vnum quam al 
+          <lb ed="#L" n="27"/>terum. nec plus illud quod est quam quod non est. ergo vel nihil
+          ta<lb ed="#L" n="28" break="no"/>le. vel quodlibet tale intelligitur illa intellectione. et non 
+          <lb ed="#L" n="29"/>quodlibet. quia tunc infinita intelliguntur illa intellectio 
+          <lb ed="#L" n="30"/>ne. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e178">
+          ⁋ Preterea hoc secundum omnes vocatur conceptus quod 
+          <lb ed="#L" n="31"/>terminat actum intelligendi. sed talis intellectio no 
+          <lb ed="#L" n="32"/>terminat seipsam primo. quia non est maior ratio quod vna in 
+          <lb ed="#L" n="33"/>tellectio terminet seipsam quod alia: et ita cum
+          intelle<lb ed="#L" n="34" break="no"/>ctio sortem non terminet seipsam primo nulla
+          termi<lb ed="#L" n="35" break="no"/>nat seipsam primo. ergo conceptus non est ipsa intellectio. 
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e191">
+          <lb ed="#L" n="36"/>⁋ Secunda opinio potest esse: quod vniversale est species aliqua. quae quia 
+          <lb ed="#L" n="37"/>equaliter respicit omne singulare. dicitur vniversale. et ita est vniversale 
+          <lb ed="#L" n="38"/>in repraesentando: et tamen singulare in essendo.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e200">
+          ⁋ Sed  
+          <lb ed="#L" n="39"/>ista opinio videtur esse falsa. quia sicut alias declarabitur. 
+          <lb ed="#L" n="40"/>talis species non est neccessaria. Secudo quia vniversale ponitur illud 
+          <lb ed="#L" n="41"/>quod intelligitur per abstractionem intellectus. sed illa species 
+          <lb ed="#L" n="42"/>non sic intelligitur quia aut intelligitur in se. et tunc neccessari 
+          <lb ed="#L" n="43"/>primo intelligitur intuitiue. aut in alio. et per consequens illud  
+          <lb ed="#L" n="44"/>aliud est vniversale respectu illius. et tunc quero de illo sicut 
+          <lb ed="#L" n="45"/>prius. et ita vel erit processus in infinitum. vel spe 
+          <lb ed="#L" n="46"/>cies non erit vniversalis.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e220">
+          ⁋ Preterea tale non abstrahitur 
+          <lb ed="#L" n="47"/>sed vere generatur. quia esset vera qualitas
+          genera<lb ed="#L" n="48" break="no"/>ta in intellectu.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e228">
+          ⁋ Aliam posset esse opinio quod ali 
+          <lb ed="#L" n="49"/>qua est vera res sequens actum intellectus: quae esset 
+          <lb ed="#L" n="50"/>similitudo rei: et propter hoc esset vniversalis. quia
+          equa<lb ed="#L" n="51" break="no"/>liter omnia respiceret
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e237">
+          ⁋ Sed hec opinio non vide 
+          <lb ed="#L" n="52"/>tur vera. quia nulla talis est ponenda. quia omne quod est 
+          <lb ed="#L" n="53"/>in intellectu: vel est actus vel passio vel habitus 
+          <lb ed="#L" n="54"/>sed nullum istorum posset poni ista res. Iste opinio¬ 
+          <!--214.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 106-r -->
+          <lb ed="#L" n="55"/>nes concordarent in hac conclusione. quod vniversale esset in 
+          <lb ed="#L" n="56"/>se vera res et singularis et non vna numero.
+          respe<lb ed="#L" n="57" break="no"/>ctu rerum extra esset vniversalis et communis et indifferens ad 
+          <lb ed="#L" n="58"/>res singulares. et quasi naturalis similitudo
+          illa<lb ed="#L" n="59" break="no"/>rum rerum. et propter hoc posset supponere pro re extr 
+          <lb ed="#L" n="60"/>et esset aliquo modo de isto vniversali sicut de statua
+          re<lb ed="#L" n="61" break="no"/>spectu similium. illa enim esset in se singularis et vna 
+          <lb ed="#L" n="62"/>numero. et tamen indifferens ad illa similia. nec plus 
+          <lb ed="#L" n="63"/>duceret in notitiam vnius quam alterius. Similiter secundum 
+          <lb ed="#L" n="64"/>hoc qui poneret quod praeter intellectionem esset species 
+          <lb ed="#L" n="65"/>in anima vel habitus. non plus haberet quod
+          intelle<lb ed="#L" n="66" break="no"/>ctio esset realiter vniversale quam species vel habitus: nec
+          econ<lb ed="#L" n="67" break="no"/>uerso. quia quodlibet istorum esset indifferens ad omnia 
+          <lb ed="#L" n="68"/>singularia. Iste opiniones non possunt faciliter proba 
+          <lb ed="#L" n="69"/>ri. nec sunt ita improbabiles. nec ita euidentur fal 
+          <lb ed="#L" n="70"/>sitatem continent. sicut opiniones improbate in aliis 
+          <lb ed="#L" n="71"/>quaestionibus
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e289">
+          ⁋ Quarta posset esse opinio. quod nihil 
+          <lb ed="#L" n="72"/>est vniversale ex natura sua sed tantum ex institutione. illo 
+          <lb ed="#L" n="73"/>modo quo vox est vniversalis. quia nulla res habet ex natu 
+          <lb ed="#L" n="74"/>ra sua supponere pro alia re. nec vere praedicari de 
+          <lb ed="#L" n="75"/>alia re. sicut nec vox. sed tantum ex institutione vo 
+          <lb ed="#L" n="76"/>luntaria. et ideo sicut voces sunt vniversales per
+          institutio<lb ed="#L" n="77" break="no"/>nem et praedicabiles de rebus. ita omnia vniversalia. Sed hec 
+          <lb ed="#L" n="78"/>non videtur vera quia tunc nihil ex natura sua esset 
+          <lb ed="#L" n="79"/>species vel genus nec econuerso. et tunc equaliter posset 
+          <lb ed="#L" n="80"/>deus et substantia extra animam esse vniversale sicut quicqud quod 
+          <lb ed="#L" n="81"/>est in anima. quod non videtur verum.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e313">
+          ⁋ Ideo potest aliter
+          di<lb ed="#L" n="82" break="no"/>ci probabiliter. quod vniversale non est aliquid reale habens esse 
+          <lb ed="#L" n="83"/>subiectiuum. nec in anima nec extra animam. sed tantum habet 
+          <lb ed="#L" n="84"/>esse obiectiuum in anima. et est quoddam fictum habens 
+          <lb ed="#L" n="85"/>esse tale in esse obiectiuo quale habet res extra 
+          <lb ed="#L" n="86"/>in esse subiectiuo. et hoc per istum modum. quod
+          intelle<lb ed="#L" n="87" break="no"/>ctus videns aliquam rem extra animam: fingit consimilen 
+          <lb ed="#L" n="88"/>rem in mente. ita quod si haberet virtutem producti 
+          <lb ed="#L" n="89"/>uam. talem rem in esse subiectiuo numero distinctam a 
+          <lb ed="#L" n="90"/>priori produceret extra. et esset consimiliter et
+          propor<lb ed="#L" n="91" break="no"/>tionabiliter sicut est de artifice. sicut enim artifex 
+          <lb ed="#L" n="92"/>videns domum vel edificium aliquod extra. fingit in 
+          <lb ed="#L" n="93"/>anima sua consimilem domum vel edificium. et postea
+          con<lb ed="#L" n="94" break="no"/>similem producit extra. et est solo numero distincta 
+          <lb ed="#L" n="95"/>a priori. Ita in proposito illud fictum in mente ex
+          vi<lb ed="#L" n="96" break="no"/>sione alicuius rei extra esset vnum exemplar. ita enim 
+          <lb ed="#L" n="97"/>sicut domus facta. si fingens haberet virtutem
+          pro<lb ed="#L" n="98" break="no"/>ductiuam realem est exemplar ipsius artificiati. ita
+          il<lb ed="#L" n="99" break="no"/>lud fictum esset exemplar respectu singularium. et
+          im<lb ed="#L" n="100" break="no"/>lud potest vocari vniversale. quod est exemplar et indifferenter 
+          <lb ed="#L" n="101"/>respiciens omnia singularia extra. et propter illam si 
+          <lb ed="#L" n="102"/>militudinem in esse obiectiuo potest supponere pro 
+          <lb ed="#L" n="103"/>rebus extra habentibus cosimile esse extra intel 
+          <lb ed="#L" n="104"/>lectum. et ita isto modo vniversale non est per generationem 
+          <lb ed="#L" n="105"/>sed per abstractionem quae non est nisi fictio quedam. 
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e368">
+          <lb ed="#L" n="106"/>⁋ Primo igitur faciam aliqua argumenta ad proban 
+          <lb ed="#L" n="107"/>du quod est aliquid in anima. habens tantum esse obiectiuum 
+          <lb ed="#L" n="108"/>sine esse subiectiuo. hoc primo patet. quia secundum philosophum 
+          <lb ed="#L" n="109"/>ens primaria diuisione diuiditur in ens in anima et in 
+          <!--215.xml-->
+          <pb ed="#L" n="106-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ens extra animam. et ens extra animam diuiditur in de 
+          <lb ed="#L" n="2"/>cem predicamenta. Tunc quero. quomodo hic 
+          <lb ed="#L" n="3"/>accipitur ens in anima. aut pro illo quod tantum habet esse 
+          <lb ed="#L" n="4"/>obiectiuum. et habetur propositum. aut pro illo quod  
+          <lb ed="#L" n="5"/>habet esse subiectiuum. et hoc non est possibile. quia 
+          <lb ed="#L" n="6"/>illud quod habet verum esse subiectiuum in anima
+          co<lb ed="#L" n="7" break="no"/>tinetur sub ente: quod praecise diuiditur in decem 
+          <lb ed="#L" n="8"/>praedicamenta. quia sub qualitate. intellectio enim et 
+          <lb ed="#L" n="9"/>viveiter omne accidens informans animam est vera qua 
+          <lb ed="#L" n="10"/>litas: sicut calor vel albedo. et ita non
+          contine<lb ed="#L" n="11" break="no"/>tur sub illo menbro quod diuiditur contra ens: quod 
+          <lb ed="#L" n="12"/>diuiditur in decem predicamenta.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e412">
+          ⁋ Preterea
+          figmen<lb ed="#L" n="13" break="no"/>ta habent esse in anima et non subiectiuum. quia tunc est 
+          <lb ed="#L" n="14"/>sent vere res. et ita chymera et hircoceruus et 
+          <lb ed="#L" n="15"/>huiusmodi essent vere res. ergo sunt aliqua quae tantum habent esse 
+          <lb ed="#L" n="16"/>obiectiuum. Similiter propositiones. sillogismi. 
+          <lb ed="#L" n="17"/>et huiusmodi de quibus est logica non habent esse
+          sub<lb ed="#L" n="18" break="no"/>iectiuum. ergo tantum habent esse obiectiuum. ita quod eorum 
+          <lb ed="#L" n="19"/>esse est eorum cognosci. ergo sunt talia entia habentia tamen esse 
+          <lb ed="#L" n="20"/>obiectiuum. Item artificialia in mente artificis 
+          <lb ed="#L" n="21"/>non videntur habere esse subiectiuum: sicut nec 
+          <lb ed="#L" n="22"/>creature in mente diuina ante creationem.
+          Si<lb ed="#L" n="23" break="no"/>militer respectus rationis communiter ponuntur a 
+          <lb ed="#L" n="24"/>doctoribus. Tunc quero. aut tantum habent esse
+          sub<lb ed="#L" n="25" break="no"/>iectiuum. et tunc erunt vere res et reales. Aut tantum 
+          <lb ed="#L" n="26"/>esse obiectiuum. et habetur propositum. Similiter secundum 
+          <lb ed="#L" n="27"/>istos aliter opinantes. ens dicit conceptum vni 
+          <lb ed="#L" n="28"/>uocum. et tamen nullam aliam rem. Similiter omnes qua 
+          <lb ed="#L" n="29"/>si distinguunt intentiones secundas ab
+          intentioni<lb ed="#L" n="30" break="no"/>bus primis. non vocando intentiones secundas ali 
+          <lb ed="#L" n="31"/>quas reales qualitates in anima. ergo cum non sint rea 
+          <lb ed="#L" n="32"/>iter extra: non possunt esse nisi obiectiue in anima. 
+          <lb ed="#L" n="33"/>Secundo diceret ista opinio: quod illud fictum quod 
+          <lb ed="#L" n="34"/>primo et immediate denominatur ab intentione 
+          <lb ed="#L" n="35"/>vniversalitatis et habetrionem obiecti. est illud quod im 
+          <lb ed="#L" n="36"/>mediate terminat actum intelligendi. quia nullum 
+          <lb ed="#L" n="37"/>singulare intelligitur. quod quidem quoniam est tale in esse 
+          <lb ed="#L" n="38"/>obiectiuo quale est singulare in esse
+          subiecti<lb ed="#L" n="39" break="no"/>uo. ideo ex natura sua potest supponere pro ipsis sin 
+          <lb ed="#L" n="40"/>gularibus quorum est aliquo modo similitudo. 
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e476">
+          <lb ed="#L" n="41"/>⁋ De illo etiam verificantur aliqua praedicata
+          ve<lb ed="#L" n="42" break="no"/>ras res importantia. non pro se sed pro rebus. Et 
+          <lb ed="#L" n="43"/>illud est vnum quod predicatur de pluribus. ita 
+          <lb ed="#L" n="44"/>quod ipsum non est variatum. alioquin nullum genus ve 
+          <lb ed="#L" n="45"/>re praedicaretur de pluribus speciebus. sed necessario esset 
+          <lb ed="#L" n="46"/>aliud et aliud. et essent tot genera quot sunt species 
+          <lb ed="#L" n="47"/>immo nullo modo posset differre genus a specie 
+          <lb ed="#L" n="48"/>nec genus esset in plus quod species. Quia si sic. 
+          <lb ed="#L" n="49"/>quero quomodo genus differt a specie. aut a
+          par<lb ed="#L" n="50" break="no"/>te rei. et hoc est prius improbatum Similiter hoc 
+          <lb ed="#L" n="51"/>dato quod a parte rei distinguitur. tunc quero. aut 
+          <lb ed="#L" n="52"/>idem genus non variatum predicatur de pluribus 
+          <lb ed="#L" n="53"/>speciebus. aut non. Si sic. habeo propositum quod ali 
+          <lb ed="#L" n="54"/>quid nec variatum nec multiplicatum praedicatur de 
+          <lb ed="#L" n="55"/>pluribus: et non in re. nisi secundum opinionem recitatam 
+          <!--215.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 106-v -->
+          <lb ed="#L" n="56"/>in prima quaestione. ergo tantum in mente. Si autemnihil 
+          <lb ed="#L" n="57"/>variatum nec multiplicatum praedicatur de pluribus 
+          <lb ed="#L" n="58"/>ergo genus non est in plus quam species vel indiuiduum. 
+          <lb ed="#L" n="59"/>qui certa species variata praedicatur de pluribus. et 
+          <lb ed="#L" n="60"/>indiuiduum variatum et multiplicatum predicatur ve 
+          <lb ed="#L" n="61"/>re de pluribus. Si autem genus distinguitur a specie 
+          <lb ed="#L" n="62"/>in conceptu mentis. aut idem conceptus praedicatur de 
+          <lb ed="#L" n="63"/>pluribus. aut non. sed tamen conceptus multiplicatus 
+          <lb ed="#L" n="64"/>et variatus. Si sic. habeo propositum quod idem
+          conce<lb ed="#L" n="65" break="no"/>ptus non variatus nec multiplicatus praedicatur 
+          <lb ed="#L" n="66"/>de pluribus. sed non pro se. quia tunc illa plura essent 
+          <lb ed="#L" n="67"/>vnum non variatum. quod est impossibile. Si non. non potest 
+          <lb ed="#L" n="68"/>dari distinctio inter genus et speciem. et maxime quantum 
+          <lb ed="#L" n="69"/>ad maiorem communitate et minore. Sic ergo aliquid 
+          <lb ed="#L" n="70"/>idem non variatum nec multiplicatum praedicatur de plu 
+          <lb ed="#L" n="71"/>ribus. et illud voco conceptum sic fictum modo praedicto 
+          <lb ed="#L" n="72"/>Similiter idem est subiectum in propositione vniversali et particu 
+          <lb ed="#L" n="73"/>lari. non tantum in propositionibus in voce. sed etiam in 
+          <lb ed="#L" n="74"/>propositionibus in mente quae nullius lingue sunt. et 
+          <lb ed="#L" n="75"/>in illis non subiicitur aliqua res. ergo tantum conceptus. 
+          <lb ed="#L" n="76"/>Pposset ergo dici quod sicut vox est vniversalis: et genus et 
+          <lb ed="#L" n="77"/>species. et tantum per institutionem. ita conceptus sic fictus 
+          <lb ed="#L" n="78"/>et abstractus a rebus singularibus praecognitis 
+          <lb ed="#L" n="79"/>est vniversalis ex natura sua. Et potest aliquis vti isto modo 
+          <lb ed="#L" n="80"/>loquendi. vocando conceptum et vniversale sic fictum. quia iste 
+          <lb ed="#L" n="81"/>videtur modus loquendi beati Augustini. et posset 
+          <lb ed="#L" n="82"/>alicui videri esse intentio sua qui multa scripsit 
+          <lb ed="#L" n="83"/>de ista materia. hoc patet per ipsum. viii. de trini 
+          <lb ed="#L" n="84"/>tate. ca. vi. vbi dicit sic. Necesse est cum animata 
+          <lb ed="#L" n="85"/>corpora lecta vel audita quae non videmus credimus 
+          <lb ed="#L" n="86"/>fingit sibi animus aliquid in lineamentis formisque 
+          <lb ed="#L" n="87"/>corporum. sicut occurrit cogitanti: quod verum non sit. 
+          <lb ed="#L" n="88"/>aut etiam quod verum est. quod rarissime accidere potest 
+          <lb ed="#L" n="89"/>Subdit. Quis enim legentium aut audientium que 
+          <lb ed="#L" n="90"/>scribit aplus Paulus. scilicet quae de illo scripta sunt. 
+          <lb ed="#L" n="91"/>non signat animo et ipsius apsli faciem et omnium quorum ibi 
+          <lb ed="#L" n="92"/>nomina commemorantur. Et post. et ipsius facies
+          do<lb ed="#L" n="93" break="no"/>minice carnis in mirabilium cogitationum diuer 
+          <lb ed="#L" n="94"/>sitate variatur et fingitur. que tame vna erat.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e602">
+          ⁋ Ex 
+          <lb ed="#L" n="95"/>ista auctoritate potest argui sic. non minus
+          intelle<lb ed="#L" n="96" break="no"/>ctus ex aliquo viso aliquid rationabiliter consimile fin 
+          <lb ed="#L" n="97"/>gere potest. quam ex visis aliquid consimile prius non viso. sed 
+          <lb ed="#L" n="98"/>aliquis ex multis faciebus visis potest fingere ali 
+          <lb ed="#L" n="99"/>quid consimile faciei apstri vel christi. vel alicuius alterius 
+          <lb ed="#L" n="100"/>que nunquam vidit. ergo non est inconueniens: quin de 
+          <lb ed="#L" n="101"/>aliquo indiuiduo viso vel intuitiue cognito fin 
+          <lb ed="#L" n="102"/>gat animus aliquid consimile et illud sic fictum non erit: 
+          <lb ed="#L" n="103"/>ens reale sed tantum cognitum. et secundum Augustinum per
+          ta<lb ed="#L" n="104" break="no"/>le fictum aliquid aliud insinuatur. ita per fictum ex
+          ali<lb ed="#L" n="105" break="no"/>quo viso insinuantur et significantur: quasi omnia 
+          <lb ed="#L" n="106"/>consimilia illi prius viso. et hoc non est aliud quam
+          ali<lb ed="#L" n="107" break="no"/>quid affirmare et negare de aliquo sic ficto. non 
+          <lb ed="#L" n="108"/>pro se sed pro re ex qua fingitur vel fingi potest. 
+          <lb ed="#L" n="109"/>Uerbi gratia. aliquis videns albedinem singularem. 
+          <lb ed="#L" n="110"/>fingit consimilem in anima sua. sicut artifex ex domo 
+          <!--216.xml-->
+          <pb ed="#L" n="107-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>visa vel pictura fingit consimilem in mente sua 
+          <lb ed="#L" n="2"/>et de illa albedine praedicat tales passiones. al 
+          <lb ed="#L" n="3"/>bedo est color. albedo est disgregatiua visus et 
+          <lb ed="#L" n="4"/>sic de aliis. et non intendit quod illud sic fictum sit 
+          <lb ed="#L" n="5"/>color vel disgregatiuum visus: sed quod quelibet
+          al<lb ed="#L" n="6" break="no"/>bedo ex qua potest fingi sit color vel
+          disgregati<lb ed="#L" n="7" break="no"/>ua visus. Unde quia non potest omnem albedinem 
+          <lb ed="#L" n="8"/>extra cogitare vtitur illo ficto pro omni albedine 
+          <lb ed="#L" n="9"/>Preterea augustinus ca. vii. dicit sic. Neque in 
+          <lb ed="#L" n="10"/>fide nostra quam de domino iesu christo habemus illud 
+          <lb ed="#L" n="11"/>salubre est: quod animus sibi fingit longe
+          for<lb ed="#L" n="12" break="no"/>rasse aliter quam res se habet sed illud quod secundum
+          spe<lb ed="#L" n="13" break="no"/>ciem de homine cogitamus. habemus enitm qua 
+          <lb ed="#L" n="14"/>si regulariter infixam nature humane notitiam 
+          <lb ed="#L" n="15"/>secundum quam quicquid tale aspicimus. statim
+          homi<lb ed="#L" n="16" break="no"/>nem esse cognoscimus. Ex hoc patet: quod quamuis
+          pro<lb ed="#L" n="17" break="no"/>pter diuersitatem figure et colorum et aliquorum acci 
+          <lb ed="#L" n="18"/>dentium in diuersis hominibus. possumus fingere 
+          <lb ed="#L" n="19"/>diuersa que non sunt similia cuilibet homini. vel 
+          <lb ed="#L" n="20"/>forte nulli tamen possumus habere notitiam alicuius fi 
+          <lb ed="#L" n="21"/>cti quod equaliter se habet ad omnens homines. secundum 
+          <lb ed="#L" n="22"/>quod nos possumus iudicare de quolibet si est
+          ho<lb ed="#L" n="23" break="no"/>mo vel non. Quod etiam possim fingere aliquid con 
+          <lb ed="#L" n="24"/>simile prius viso: quod si haberem virtutem productiuam 
+          <lb ed="#L" n="25"/>non tantum fictiuam: possem tale realiter producere. patet 
+          <lb ed="#L" n="26"/>per Augustinum eodem li. ca. x. vbi dicit sic. Cum 
+          <lb ed="#L" n="27"/>audissem a multis et credidissem magnam esse
+          il<lb ed="#L" n="28" break="no"/>lam vrbem sicut mihi narrare potuit. fixi animo
+          ima<lb ed="#L" n="29" break="no"/>ginem eius quam potui. et postquam imaginem si ex ani 
+          <lb ed="#L" n="30"/>mo meo proferre possem ad oculos hominum quam 
+          <lb ed="#L" n="31"/>alexandriam nouerunt. profecto autem omnens
+          di<lb ed="#L" n="32" break="no"/>cerent. non est ipsa. aut si dicerent. ipsa est
+          mira<lb ed="#L" n="33" break="no"/>rer multum. atque ipsam intuens in animo meo ymagi 
+          <lb ed="#L" n="34"/>nem quasi picturam eius. ipsam tamen esse nescirem. Ex 
+          <lb ed="#L" n="35"/>ista auctoritaes patet primo quod talia possunt fingi. et 
+          <lb ed="#L" n="36"/>multo fortius ex visis in se sicut declarat
+          imme<lb ed="#L" n="37" break="no"/>diate ante litteram allegatam: quod ex non visis in se. 
+          <lb ed="#L" n="38"/>sed in aliis imperfecte consimilibus. Secundo quod sic 
+          <lb ed="#L" n="39"/>fictum vocatur similitudo vel ymago vel pictura rei 
+          <lb ed="#L" n="40"/>et sicut dicit ibidem: vocatur verbum rei. Tertio patet 
+          <lb ed="#L" n="41"/>quod illud sic fictum vere est obiectum cognitum ab in 
+          <lb ed="#L" n="42"/>tellectu. et propter ista potest esse terminus
+          pro<lb ed="#L" n="43" break="no"/>positionis. et supponere pro omnibus illis quorum est 
+          <lb ed="#L" n="44"/>ymago vel silitudo. et hoc est esse vniversale et comune 
+          <lb ed="#L" n="45"/>ad illa. Item libro. ix. ca. vi. tractans illud.
+          quo<lb ed="#L" n="46" break="no"/>modo ex rebus visis diuersa finguntur. et quo 
+          <lb ed="#L" n="47"/>modo propter diuersitatem rerum corporalium
+          ali<lb ed="#L" n="48" break="no"/>qua sic ficta sunt similia illis de quibus fingum 
+          <lb ed="#L" n="49"/>tur. et per consequens sic fingens vtitur fictis 
+          <lb ed="#L" n="50"/>infert in fine ca: dicens. Itaque de istis secundum illam 
+          <lb ed="#L" n="51"/>iudicamus. et illam cernimus rationalis mentis in 
+          <lb ed="#L" n="52"/>tuitum. ista vero aut praesentia sensibus corporis tam 
+          <lb ed="#L" n="53"/>gimus. aut ymagines absentium fixas in
+          memo<lb ed="#L" n="54" break="no"/>ria recordamur. aut ex ea similitudine talia
+          fin<lb ed="#L" n="55" break="no"/>guntur. qualia nosipsi si vellemus aut possemus 
+          <!--216.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 107-r -->
+          <lb ed="#L" n="56"/>immoliremur. Ex quo patet quod talia ficta sunt in esse 
+          <lb ed="#L" n="57"/>obiectiuo qualia sunt alia in esse subiectiuo. 
+          <lb ed="#L" n="58"/>Propter quod et si intellectus haberet virtutem
+          produ<lb ed="#L" n="59" break="no"/>ctiuam. faceret eam esse similia in esse subiectiuo. 
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e780">
+          <lb ed="#L" n="60"/>⁋ Preterea. quod talia mens fingat ex prius notis. et 
+          <lb ed="#L" n="61"/>quod ipsa sint cognita secundum quae intellectus potest iudica 
+          <lb ed="#L" n="62"/>re de aliis. expresse dicit Augustinus. x. de
+          trini<lb ed="#L" n="63" break="no"/>tate. ca ii. vbi dicit sic. s ingit animo ymaginem for 
+          <lb ed="#L" n="64"/>ma qua excitetur in amore. non autem fingit nisi ex 
+          <lb ed="#L" n="65"/>hiis que iam nouerat. cuius tamen forme in animo
+          signa<lb ed="#L" n="66" break="no"/>te. atque in cogitatione notissime. si eam que lauda 
+          <lb ed="#L" n="67"/>batur dissimile fortasse non amabat. Et immediate 
+          <lb ed="#L" n="68"/>declarat. quomo propter talem similitudinem ipsa 
+          <lb ed="#L" n="69"/>singularia in ipsa cognoscuntur. et in ipsa aliquo 
+          <lb ed="#L" n="70"/>amantur. que omnia non essent vera nisi talia ficta 
+          <lb ed="#L" n="71"/>ommunitatem quandam haberent ad illa et sibi consimilia 
+          <lb ed="#L" n="72"/>ex quibus finguntur. Et talem communitatem voco vniversalitatem 
+          <lb ed="#L" n="73"/>secundum illam opinionem. nec aliam ponit ista opinio ni 
+          <lb ed="#L" n="74"/>si forte ex institutione. quomo vox vel aliquod si 
+          <lb ed="#L" n="75"/>gnum ad placitum impositum dicitur vniversale.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e817">
+          ⁋ Et si dicatur 
+          <lb ed="#L" n="76"/>ad omnia ista. quod non est possibile talia fingere nisi 
+          <lb ed="#L" n="77"/>de istis corporalibus compositis. ex hoc scilicet quod partes 
+          <lb ed="#L" n="78"/>eorum diuersimode cognoscuntur per intellectu. no 
+          <lb ed="#L" n="79"/>autem est hoc possibile de spiritualibus vel simplici 
+          <lb ed="#L" n="80"/>bus talem diuersitatem partiu non habentibus. Con 
+          <lb ed="#L" n="81"/>tra. hoc est ipsemet. iii. de trinitate. vbi vult 
+          <lb ed="#L" n="82"/>quod etiam anima de se ipsa potest consimilem fingere: quod quidem 
+          <lb ed="#L" n="83"/>figmentum non erit ipsa anima. sed ipsum vere erit
+          cogni<lb ed="#L" n="84" break="no"/>tum ab intellectu. Unde dicit sic. forte. ergo non se amat 
+          <lb ed="#L" n="85"/>supprimens. sed quod de se fingit hoc amat. lon 
+          <lb ed="#L" n="86"/>ge fortasse aliud quam ipsa est. aut si mens similem sui 
+          <lb ed="#L" n="87"/>ingit. et ideo cum hoc figmentum amat. se amat antequem 
+          <lb ed="#L" n="88"/>nouerit. quia illud quod sui simile est intuetur. Nouit 
+          <lb ed="#L" n="89"/>ergo alias mentes ex quibus se fingat. et genere 
+          <lb ed="#L" n="90"/>ipso sibi nota esse. Ex hoc patet. quod etiam tale fictum 
+          <lb ed="#L" n="91"/>potest haberi de anima quae simplex est. et hoc quia fictum est
+          co<lb ed="#L" n="92" break="no"/>gnitum. et genus hoc est commune. et hoc est propositum. 
+          <lb ed="#L" n="93"/>Unde secundum istam opinionem est sciendum. quod illud fictum 
+          <lb ed="#L" n="94"/>vocatur ab Augustino. ymago. similitudo.
+          fantas<lb ed="#L" n="95" break="no"/>ma. species. Et dicuntur ista ficta ab
+          Augusti<lb ed="#L" n="96" break="no"/>non in memoria remanere in absentia sensibilium 
+          <lb ed="#L" n="97"/>ppter habitum immediate inclinantem ad illa
+          intel<lb ed="#L" n="98" break="no"/>ligenda. et ita sunt ibi quasi in potentia propinqua 
+          <lb ed="#L" n="99"/>pro quanto intellectus potest facere ea in esse sibi com 
+          <lb ed="#L" n="100"/>uenienti mediante illo derelicto. non sic autem
+          me<lb ed="#L" n="101" break="no"/>diante habitu potest facere corpora extra in esse con 
+          <lb ed="#L" n="102"/>uenienti sibi. quia esse sibi conueniens est esse
+          rea<lb ed="#L" n="103" break="no"/>le
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e880">
+          ⁋ Sed contra praedicta sunt aliqua dubia.
+          Pri<lb ed="#L" n="104" break="no"/>mum quia non videtur quod aliquid possit habere esse 
+          <lb ed="#L" n="105"/>obiectiuum: quin alicubi habeat esse subiectiuum. ergo 
+          <lb ed="#L" n="106"/>talia ficta vere habebunt esse subiectiuum. saltem 
+          <lb ed="#L" n="107"/>in mente Confirmatur. quia omne quod est: est substam 
+          <lb ed="#L" n="108"/>tia vel accidens.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e893">
+          ⁋ Secundum dubium. quia videtur quod
+          ta<lb ed="#L" n="109" break="no"/>lia non sunt similia rebus. quia nullum accidens potest 
+          <lb ed="#L" n="110"/>assimilari substantie. sed illud fictum plus distaret 
+          <!--217.xml-->
+          <pb ed="#L" n="107-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>a substantia quam quodcumque accidens. ergo non potest 
+          <lb ed="#L" n="2"/>esse similitudo rei extra animam.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e912">
+          ⁋ Tertium. quia non 
+          <lb ed="#L" n="3"/>videtur quod talia ficta sint vniversalia quia dictum est quod 
+          <lb ed="#L" n="4"/>si intellectus haberet virtutem productiuam: non 
+          <lb ed="#L" n="5"/>tantum fictiuam produceret consimilia extra. sed si
+          pro<lb ed="#L" n="6" break="no"/>ducerentur similia in esse. illa producta non plus est 
+          <lb ed="#L" n="7"/>sent vniversalia quam quecumque alia. quia omnia essent
+          eiusdem<lb ed="#L" n="8" break="no"/>rationis numero distincta. sicut patet de domo 
+          <lb ed="#L" n="9"/>producta ex tali similitudine. et domo prius
+          no<lb ed="#L" n="10" break="no"/>ta. ex qua tale simile fingebatur. ergo eodem modo ista 
+          <lb ed="#L" n="11"/>ficta non sunt vniversalia in esse ficto.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e934">
+          ⁋ Quartum
+          du<lb ed="#L" n="12" break="no"/>bium est de conceptibus sincathegoreumaticis 
+          <lb ed="#L" n="13"/>et connotatiuis et negatiuis. vnde possunt sumi vel 
+          <lb ed="#L" n="14"/>abstrahi. quia si precise a rebus non videtur
+          quo<lb ed="#L" n="15" break="no"/>modo possunt distingui ab aliis conceptibus 
+          <lb ed="#L" n="16"/>Quod autem sint tales conceptus patet. quia omni
+          pro<lb ed="#L" n="17" break="no"/>positioni in voce potest correspondere consimilis in 
+          <lb ed="#L" n="18"/>mente. ergo isti propositioni omnis homo est animal. 
+          <lb ed="#L" n="19"/>et isti aliquis homo est animal correspondent
+          distin<lb ed="#L" n="20" break="no"/>cte propositiones in mente. ergo aliquid correspon 
+          <lb ed="#L" n="21"/>dent signo in vna propositione quod non est alia 
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e958">
+          <lb ed="#L" n="22"/>⁋ Dubium quintum est de hoc quod dicitur: quod vox est 
+          <lb ed="#L" n="23"/>vniversalis. hoc videtur falsum. quia tunc vox eet genus 
+          <lb ed="#L" n="24"/>et species. et per consequens tota vna
+          coordina<lb ed="#L" n="25" break="no"/>tio praedicamentalis est in vno genere subalterno 
+          <lb ed="#L" n="26"/>ipsius qualitatis. Similiter tunc vnum accidens 
+          <lb ed="#L" n="27"/>numero esset genus ad multas substantias. quia 
+          <lb ed="#L" n="28"/>vna vox numero. Similiter tunc essent innume 
+          <lb ed="#L" n="29"/>rabilia genera generalissima: sicut sunt innu in 
+          <lb ed="#L" n="30"/>merabiles voces: que omnia sunt absurda. et mul 
+          <lb ed="#L" n="31"/>ta alia absurda videntur sequi.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e982">
+          ⁋ Ad primum 
+          <lb ed="#L" n="32"/>istorum dicerent sic opinantes quod aliqua sunt en 
+          <lb ed="#L" n="33"/>tia rationis quae nullum esse subiectiuum habent: 
+          <lb ed="#L" n="34"/>nec habere possunt. sicut enim ante creationem 
+          <lb ed="#L" n="35"/>creature nullum esse habebant subiectiuum. et tamen 
+          <lb ed="#L" n="36"/>fuerunt a deo cognite. ita etiam ab intellectu cre 
+          <lb ed="#L" n="37"/>ato potest aliquid fingi: quod nullum esse subiecti 
+          <lb ed="#L" n="38"/>uum habet. Et quando dicitur. quic quid est: est 
+          <lb ed="#L" n="39"/>substantia vel accidens illud est verum quod quio 
+          <lb ed="#L" n="40"/>quid est extra animam: est substantia vel accidens 
+          <lb ed="#L" n="41"/>non tamen quicquid est in anima obiectiue: est substam 
+          <lb ed="#L" n="42"/>tia vel accidens.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1008">
+          ⁋ Ad secundum dicerent quod 
+          <lb ed="#L" n="43"/>talia ficta non sunt realiter similia: sed magis 
+          <lb ed="#L" n="44"/>dissimilantur et distant a substantia plusquam ad 
+          <lb ed="#L" n="45"/>cidentia tamen sunt talia in esse obiectiuo qualia 
+          <lb ed="#L" n="46"/>sunt alia in esse subiectiuo. et hoc habet intelle 
+          <lb ed="#L" n="47"/>ctus ex natura sua talia fingere qualia cogno 
+          <lb ed="#L" n="48"/>scit extra. Unde sicut potest fingere qualia non 
+          <lb ed="#L" n="49"/>cognoscit: et tamen cognoscit multa propter quae potest 
+          <lb ed="#L" n="50"/>talia fingere qualia cognoscit
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1028">
+          ⁋ Ad tertium di 
+          <lb ed="#L" n="51"/>cerent quod talia sunt vniversalia: si tamen producerentur in 
+          <lb ed="#L" n="52"/>esse reali non essent vniversalia. quia tunc essent
+          sim<lb ed="#L" n="53" break="no"/>pliciter eiusdem rationis cum aliis. nec est maio 
+          <lb ed="#L" n="54"/>ratio quod vnum esset vniversale quam reliquum: sed quia de fa 
+          <lb ed="#L" n="55"/>cto ista non sunt eiusdem rationis. quia illud fictum sim 
+          <!--217.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 107-v -->
+          <lb ed="#L" n="56"/>pliciter non est animal. nec homo. ideo diceretur vnum 
+          <lb ed="#L" n="57"/>magis vniversale quam reliquum.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1053">
+          ⁋ Si dicatur. quod secundum linco 
+          <lb ed="#L" n="58"/>vniversale non est figmentum. Similiter tunc tot essent vniversalia 
+          <lb ed="#L" n="59"/>quot intellectus.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1060">
+          ⁋ Ad primum. quod vniversale non est
+          fi<lb ed="#L" n="60" break="no"/>gmentum tale cui non correspondet aliquid consimile 
+          <lb ed="#L" n="61"/>in esse subiectiuo. quale illud fingitur in esse
+          ob<lb ed="#L" n="62" break="no"/>iectiuo. sicut est de chymera. quia chymera
+          fin<lb ed="#L" n="63" break="no"/>gitur aliquid esse compositum ex diuersis animalibus. et 
+          <lb ed="#L" n="64"/>tale non potest esse aliquid in rerum natura. sed tali 
+          <lb ed="#L" n="65"/>vniversale est figmentum cui correspondet aliquid consimile i 
+          <lb ed="#L" n="66"/>rerum natura. sicut quando fingitur aliquod compositum ex 
+          <lb ed="#L" n="67"/>corpore et anima. illud fictum est vniversale. Similiter si fingatur 
+          <lb ed="#L" n="68"/>domus in mente anteque producatur. illud sic fictum 
+          <lb ed="#L" n="69"/>non est figmentum: sicut chymera vel aliquid tale. 
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1084">
+          <lb ed="#L" n="70"/>⁋ Ad secundum. siue conceptus siue figmentum varietur 
+          <lb ed="#L" n="71"/>ad variationem intelligibilium. siue non. non curo ad  
+          <lb ed="#L" n="72"/>praesens. Dico quod genus generalissimum substantie. vel 
+          <lb ed="#L" n="73"/>est vnum simplicitur non variatum. vel est vnum per equa 
+          <lb ed="#L" n="74"/>ualentiam. Per quem modum dicunt alii. quod idem
+          praedi<lb ed="#L" n="75" break="no"/>catur in istis propositionibus prolatis sortes est
+          ho<lb ed="#L" n="76" break="no"/>mo plato est homo. quameuis realiter est alia vox. sed  
+          <lb ed="#L" n="77"/>tamen est eadem per equiualentiam. vt dicunt et bene. quia 
+          <lb ed="#L" n="78"/>ad omnia habedam. tantum valeret si proferretur eadem vox 
+          <lb ed="#L" n="79"/>numero quae prius. sicut si proferatur illa alia quae de facto 
+          <lb ed="#L" n="80"/>profertur. et econuerso. ita est in proposito. quod sunt tantum 
+          <lb ed="#L" n="81"/>decem genera generalissima per equiualentiam. siue sim 
+          <lb ed="#L" n="82"/>plicit sint tantum decem. siue non. siue etiam predicati 
+          <lb ed="#L" n="83"/>varietur. siue genus varietur. siue non.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1117">
+          ⁋ Ad quartum 
+          <lb ed="#L" n="84"/>dubium diceret. quod conceptus sincathegoreumati 
+          <lb ed="#L" n="85"/>ci et connotatiui et negatiui non sunt conceptus ab 
+          <lb ed="#L" n="86"/>stracti a rebus. ex natura sua supponentes pro 
+          <lb ed="#L" n="87"/>rebus. vel ipsas modo distincto ab aliis
+          conce<lb ed="#L" n="88" break="no"/>patibus significantes. et ideo dicerent quod nullus con 
+          <lb ed="#L" n="89"/>ceptus sincathegoreumaticus vel connotatius 
+          <lb ed="#L" n="90"/>nec negatiuus. nisi tantum ex institutione. per quem mo 
+          <lb ed="#L" n="91"/>dum omnia talia per institutionem de ipsa voce et 
+          <lb ed="#L" n="92"/>aliis praedicantur. et vniuersalitur. nec modi grama 
+          <lb ed="#L" n="93"/>ticales. nec logicales. possunt plus ex se
+          compe<lb ed="#L" n="94" break="no"/>tere istis conceptibus quam illis. sed tantum ad placitum 
+          <lb ed="#L" n="95"/>Ueruntamen possunt tales conceptus imponi. vel
+          con<lb ed="#L" n="96" break="no"/>ceptus abstrahi a vocibus. et ita fit de facto. 
+          <lb ed="#L" n="97"/>vel semper vel communiter. Uerbi gratia. isti voci homo 
+          <lb ed="#L" n="98"/>competit talis modus gramaticalis. quod est singu 
+          <lb ed="#L" n="99"/>laris numeri. nominatiui casus. communis generis. et sic 
+          <lb ed="#L" n="100"/>de aliis. et isti voci hominis competunt alii modi
+          gran<lb ed="#L" n="101" break="no"/>maticales. Similiter isti voci homo competit quod signi 
+          <lb ed="#L" n="102"/>ficet determinate rem per se. Isti voci omnis sic 
+          <lb ed="#L" n="103"/>non competit. sed quod significet tantum cum alio. Similiter 
+          <lb ed="#L" n="104"/>est de ista voce non. et de istis. per se. inquantum.
+          si<lb ed="#L" n="105" break="no"/>et huiusmodi sincathegoreumaticis. tunc ab istis
+          vo<lb ed="#L" n="106" break="no"/>cibus sic significantibus. abstrahit intellectus 
+          <lb ed="#L" n="107"/>conceptus communes praedicabiles de eis. et imponit istos 
+          <lb ed="#L" n="108"/>conceptus ad significandum illa eadem que
+          signi<lb ed="#L" n="109" break="no"/>ficant ipse voces extra. et eodem modo. et de talibus 
+          <lb ed="#L" n="110"/>format propositiones consimiles. et habentes consi¬ 
+          <!--218.xml-->
+          <pb ed="#L" n="108-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>miles proprietates quales habent propositiones 
+          <lb ed="#L" n="2"/>prolate
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1189">
+          ⁋ Et sicut potest instituere tales conceptus 
+          <lb ed="#L" n="3"/>ad sic significandum. ita potest instituere ipsos
+          com<lb ed="#L" n="4" break="no"/>ceptus abstractos a rebus ad significandum sub 
+          <lb ed="#L" n="5"/>eisdem modis gramaticalibus sub quibus
+          signi<lb ed="#L" n="6" break="no"/>ficant ipse voces
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1200">
+          ⁋ hoc tamen fit conuenientius per 
+          <lb ed="#L" n="7"/>conceptus abstractos a vocibus propter
+          equi<lb ed="#L" n="8" break="no"/>uocationem vitandam. quia illi conceptus sunt di 
+          <lb ed="#L" n="9"/>stincti sicut ipse voces: quamuis non omnes sint 
+          <lb ed="#L" n="10"/>distincte. conceptus autem aliquando non sunt
+          di<lb ed="#L" n="11" break="no"/>stincti. Et ita quelibet propositio talis esset
+          di<lb ed="#L" n="12" break="no"/>stinguenda. puta proposito correspondens tali pro 
+          <lb ed="#L" n="13"/>positioni. homo est homines. et sic de aliis. et si 
+          <lb ed="#L" n="14"/>cut dictum est de istis. sic dicendum est proportio 
+          <lb ed="#L" n="15"/>nabiliter de omnibus connotatiuis negatiuis 
+          <lb ed="#L" n="16"/>sincathegoreumaticis: qualia sunt verba. est. 
+          <lb ed="#L" n="17"/>currit. et sic de aliis.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1227">
+          ⁋ Ad quintum dico quod ipsa 
+          <lb ed="#L" n="18"/>vox vere est vniversalis: quamuis non ex natura sua: sed tantum 
+          <lb ed="#L" n="19"/>ad placitum instituentis. Et similiter
+          concede<lb ed="#L" n="20" break="no"/>rent quod vox est genus et species. et genus gene 
+          <lb ed="#L" n="21"/>ralissimum: et sic de aliis. nec est plus inconueniens 
+          <lb ed="#L" n="22"/>talia attribuere voci propter placitum instituen 
+          <lb ed="#L" n="23"/>tis: quam attribuere voci prolate complexe. quod sit 
+          <lb ed="#L" n="24"/>vera et falsa necessaria et impossibilis. et tamen vere 
+          <lb ed="#L" n="25"/>dicitur quod ipsa vox est vera: et quod ipsa vox est fal 
+          <lb ed="#L" n="26"/>sa. quia nullus nisi insanus potest negare quin
+          mul<lb ed="#L" n="27" break="no"/>ta falsa et mendacia dicantur. et similiter mul 
+          <lb ed="#L" n="28"/>ta vera et necessaria narrantur. Et eodem mo 
+          <lb ed="#L" n="29"/>do hec est vera per se primo modo. homo est ani 
+          <lb ed="#L" n="30"/>mal. et similiter ista est vera per se secundo modo 
+          <lb ed="#L" n="31"/>etiam in voce. homo est risibilis. et hec propositio 
+          <lb ed="#L" n="32"/>prolata homo est asinus est impossibilis. et eo 
+          <lb ed="#L" n="33"/>dem modo in ista. homo est animal. subiicitur
+          ter<lb ed="#L" n="34" break="no"/>minus communis et praedicatur similiter. similiter genus
+          pre<lb ed="#L" n="35" break="no"/>dicatur de specie.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1269">
+          ⁋ Si dicatur quod propositio 
+          <lb ed="#L" n="36"/>prolata non est vera nec falsa: nisi quia est signum pro 
+          <lb ed="#L" n="37"/>positionis in mente vere vel false. ergo similiter non erit: 
+          <lb ed="#L" n="38"/>aliqua vox prolata genus vel species. nisi quia si 
+          <lb ed="#L" n="39"/>gnum generis vel speciei.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1280">
+          ⁋ Similiter sic idem
+          termi<lb ed="#L" n="40" break="no"/>nus posset esse genus et species. quia vnus potest
+          im<lb ed="#L" n="41" break="no"/>ponere eandem vocem ad significandum omnia talia 
+          <lb ed="#L" n="42"/>indiuidua. et alius ad significandum alia. ergo etc. 
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1289">
+          <lb ed="#L" n="43"/>⁋ Ad primum istorum dico quod potest concedi quod aliqua 
+          <lb ed="#L" n="44"/>propositio est vera in voce: quamuis non sit signum 
+          <lb ed="#L" n="45"/>alicuius propositionis in mente de facto: quamuis queli 
+          <lb ed="#L" n="46"/>bet potest esse signum propositionis in mente. Et eodem 
+          <lb ed="#L" n="47"/>modo concedo quod quelibet vox que est genus 
+          <lb ed="#L" n="48"/>vel species potest esse signum generis vel
+          speci<lb ed="#L" n="49" break="no"/>ei in mente. et est etiam signum subordinatum cuius 
+          <lb ed="#L" n="50"/>libet talis de facto.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1309">
+          ⁋ Secundum est puerile. tamen de 
+          <lb ed="#L" n="51"/>virtute sermonis debet concedi. quod propter diuer 
+          <lb ed="#L" n="52"/>sas impositiones eadem vox numero est genus 
+          <lb ed="#L" n="53"/>et species. Nec hoc est plus inconueniens quam
+          con<lb ed="#L" n="54" break="no"/>cedere quod eadem vox numero est equiuoca et vni 
+          <lb ed="#L" n="55"/>noca. et quod eadem propositio numero sit necessaria et 
+          <!--218.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 108-r -->
+          <lb ed="#L" n="56"/>impossibilis. quae omnia debent concedi nisi vocetur
+          pro<lb ed="#L" n="57" break="no"/>positio vera precise illa quae significat verum et no 
+          <lb ed="#L" n="58"/>falsum. et sic de aliis. Nam hec vox homo apud 
+          <lb ed="#L" n="59"/>latinos est simplicitur vniuoca. et eadem vox
+          pos<lb ed="#L" n="60" break="no"/>set a grecis vel aliis imponi ad significandum 
+          <lb ed="#L" n="61"/>plura eque primo. et apud eos esset simpliciter 
+          <lb ed="#L" n="62"/>equiuoca. Eodem modo est hec simplicitur vera 
+          <lb ed="#L" n="63"/>omnis canis est animal. et est falsa simpliciter. quia 
+          <lb ed="#L" n="64"/>habet vnum sensum verum et alium falsum. et ideo ista 
+          <lb ed="#L" n="65"/>eadem numero significat verum et falsum. et hoc est 
+          <lb ed="#L" n="66"/>eandem propositionem esse veram et falsam
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1353">
+          ⁋ Ad secund 
+          <lb ed="#L" n="67"/>inconueniens dico quod non est inconueniens totam 
+          <lb ed="#L" n="68"/>vnam coordinatione predicamentalem. que continet 
+          <lb ed="#L" n="69"/>predicabilia per se primo modo. quantum ad omnia 
+          <lb ed="#L" n="70"/>communia esse in vno genere subalterno. nec est hoc 
+          <lb ed="#L" n="71"/>inconueniens. nec negatur nisi a non intelligenti 
+          <lb ed="#L" n="72"/>bus
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1370">
+          ⁋ Ad tertium per idem quod non est inconueniens 
+          <lb ed="#L" n="73"/>vnam vocem esse genus ad substantiam. sicut nec est 
+          <lb ed="#L" n="74"/>inconueniens aliquam vocem praedicari per se primo 
+          <lb ed="#L" n="75"/>modo de substantia
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1379">
+          ⁋ Unde reputantes ista et
+          simi<lb ed="#L" n="76" break="no"/>lia falsa. deberent concedere consequenter quod nullus 
+          <lb ed="#L" n="77"/>potest loqui neque verum neque falsum. nec vnquam al 
+          <lb ed="#L" n="78"/>quis audiuit medacia nec aliqua vera. et eodem 
+          <lb ed="#L" n="79"/>modo quod nec vera nec falsa possunt scribi. et
+          ali<lb ed="#L" n="80" break="no"/>absurda. que horret omnis communitas humana
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1392">
+          ⁋ Cui 
+          <lb ed="#L" n="81"/>non placet ista opinio de talibus fictis in esse ol 
+          <lb ed="#L" n="82"/>iectiuo. potest tenere quod conceptus et quodlibet 
+          <lb ed="#L" n="83"/>vniversale est aliqua qualitas existens subiectiue in me 
+          <lb ed="#L" n="84"/>te. que ex naturam sua est signum rei extra. sicut vox 
+          <lb ed="#L" n="85"/>est signum rei ad placitum instituentis. et tunc potest 
+          <lb ed="#L" n="86"/>dici quod per omnem modum sicut voces et signa
+          volun<lb ed="#L" n="87" break="no"/>tarie instituta. quedam significant rem extra pro 
+          <lb ed="#L" n="88"/>prie et per se. cuiusmodi sunt cathegoreumata 
+          <lb ed="#L" n="89"/>et quedam sunt que non significant sed tamen consi 
+          <lb ed="#L" n="90"/>gnificant cum aliis. cuiusmodi sunt sincathegoret 
+          <lb ed="#L" n="91"/>mata. et quedam significant vno modo. et quedam 
+          <lb ed="#L" n="92"/>alio. secundum quod sunt diuersa accidentia partium
+          gran<lb ed="#L" n="93" break="no"/>maticalium. ita sunt quedam qualitates existentes 
+          <lb ed="#L" n="94"/>in mente subiectiue. quibus ex natura sua competunt 
+          <lb ed="#L" n="95"/>talia qualia competunt vocibus per voluntariam 
+          <lb ed="#L" n="96"/>institutionem. Nec videtur hoc magis inconueniens 
+          <lb ed="#L" n="97"/>in intellectu posse elicere aliquas qualitates 
+          <lb ed="#L" n="98"/>que sunt naturaliter signa rerum. quam quod bruta anima 
+          <lb ed="#L" n="99"/>lia et homines aliquos sonos naturaliter emittunt 
+          <lb ed="#L" n="100"/>quibus naturaliter competit aliqua alia
+          significa<lb ed="#L" n="101" break="no"/>re. Est tamen in hoc differentia. quod bruta et homines ta 
+          <lb ed="#L" n="102"/>les sonos non emittunt nisi ad significandum aliquas 
+          <lb ed="#L" n="103"/>passiones vel aliqua accidentia in ipsis existentia. 
+          <lb ed="#L" n="104"/>Intellectus autem quia est maioris vitutis quantum 
+          <lb ed="#L" n="105"/>ad hoc. potest elicere qualitates ad quecunque 
+          <lb ed="#L" n="106"/>naturaliter significandum. Et secundum istam opinionem 
+          <lb ed="#L" n="107"/>debet concedi quod quodlibet vniversale et genus generalissimum 
+          <lb ed="#L" n="108"/>est vere res singularis. existens res determinati 
+          <lb ed="#L" n="109"/>generis. est tamen vniversalis per predicatione. non pro se 
+          <lb ed="#L" n="110"/>sed pro rebus quas significat. et ita ordo predi 
+          <!--219.xml-->
+          <pb ed="#L" n="108-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>camentalis. substantie est vnum compositum siue 
+          <lb ed="#L" n="2"/>aggregatum ex multis qualitatibus. naturaliter 
+          <lb ed="#L" n="3"/>se habentibus secundum superius et inferius. hoc est 
+          <lb ed="#L" n="4"/>quod vnum in illo ordine ex natura sua est plurium 
+          <lb ed="#L" n="5"/>signum: et aliud paucorum. Sicut si fieret talis con 
+          <lb ed="#L" n="6"/>cordinatio ex vocibus. esset tamen in hoc differentia. 
+          <lb ed="#L" n="7"/>quod voces coordinate secundum superius et inferius non 
+          <lb ed="#L" n="8"/>significant illa que significant nisi per volun 
+          <lb ed="#L" n="9"/>tariam institutionem. Alia autem significant natur 
+          <lb ed="#L" n="10"/>raliter. et sunt ex natura sua genera et species 
+          <lb ed="#L" n="11"/>Nec talia argumenta valent contra istam
+          opi<lb ed="#L" n="12" break="no"/>nionem quod qualitas non predicatur de
+          substan<lb ed="#L" n="13" break="no"/>tia. Et vnum predicamentum remouetur ab omni 
+          <lb ed="#L" n="14"/>contento sub alio predicamento. Nam tales re 
+          <lb ed="#L" n="15"/>plice et alie multe que possent adduci. habent 
+          <lb ed="#L" n="16"/>veritatem. quando termini supponunt personaliter 
+          <lb ed="#L" n="17"/>Sicut hec est vera. substantia non est qualitas 
+          <lb ed="#L" n="18"/>si termini supponant personaliter. et tamen si
+          sub<lb ed="#L" n="19" break="no"/>iectum supponat simpliciter. et predicatum perso 
+          <lb ed="#L" n="20"/>naliter ipsa est concedenda secundum istam opinionem 
+          <lb ed="#L" n="21"/>Et ita multa talia contra istam opinione non
+          va<lb ed="#L" n="22" break="no"/>lent
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1514">
+          ⁋ Ueruntamen ista opinio posset diuersimo 
+          <lb ed="#L" n="23"/>de poni. Uno modo quod ipsa qualitas existens 
+          <lb ed="#L" n="24"/>subiectiue in anima esset ipsamet intellectio. Et 
+          <lb ed="#L" n="25"/>posset ista opinio declarari: et possent
+          argumen<lb ed="#L" n="26" break="no"/>ta solui contra eam: sicut alibi declaraui. Aliter 
+          <lb ed="#L" n="27"/>posset poni quod ista qualitas esset aliquid aliud  
+          <lb ed="#L" n="28"/>ab intellectione et posterius ipsa. Et tunc
+          pof<lb ed="#L" n="29" break="no"/>set responderi ad motiua pro opinione illa de 
+          <lb ed="#L" n="30"/>fictis in esse obiectiuo sicut tactum est alibi. vbi 
+          <lb ed="#L" n="31"/>magis expressi istam opinionem de intentione 
+          <lb ed="#L" n="32"/>anime sine conceptum: ponendo quod sit qualitas men 
+          <lb ed="#L" n="33"/>tis
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1540">
+          ⁋ Quamlibet istarum trium opinionum reputo pro 
+          <lb ed="#L" n="34"/>babilem: sed que illarum sit verior relinquo iudici 
+          <lb ed="#L" n="35"/>orum aliorum. hoc tamen teneo: quod nullum vniversale. nisi forte 
+          <lb ed="#L" n="36"/>sit vniversale per voluntariam institutionem est aliquid 
+          <lb ed="#L" n="37"/>existens quocunque modo extra animam. sed omne 
+          <lb ed="#L" n="38"/>illud quod est vniversale predicabile de pluribus ex 
+          <lb ed="#L" n="39"/>natura sua: est in mente vel subiectiue vel ob 
+          <lb ed="#L" n="40"/>iectiue. et quod nullum tale est de essentia seu quid 
+          <lb ed="#L" n="41"/>ditate cuiuslibet substantie. et sic de aliis con 
+          <lb ed="#L" n="42"/>clusionibus negatis: quas dixi in. q. precedenti 
+          <lb ed="#L" n="43"/>bus.
+        </p>
+        <p xml:id="wo8uy7-d1e385-d1e1564">
+          ⁋ Ad argumentum principale dico quod
+          il<lb ed="#L" n="44" break="no"/>lud quod mouet intellectum primo: non et vniversale 
+          <lb ed="#L" n="45"/>sed singulare. et ideo singulare intelligitur
+          pri<lb ed="#L" n="46" break="no"/>mo primitate generationis. sicut post patebit.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

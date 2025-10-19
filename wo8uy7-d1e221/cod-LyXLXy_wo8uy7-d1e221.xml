@@ -1,782 +1,782 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="64-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-        <div xml:id="wo8uy7-d1e221"><!-- l1d1q1 -->
-          <head xml:id="wo8uy7-d1e221-Hd1e108">Quaestio 1</head>
-          <p xml:id="wo8uy7-d1e221-d1e111">
-            <!--130.xml-->
-            <pb ed="#L" n="64-r"/>
-            <cb ed="#L" n="a"/>
-            <lb ed="#L" n="1"/>Questio prima. distinctionis prime. 
-            <lb ed="#L" n="2"/>CIrca prima 
-            <lb ed="#L" n="3"/>distinctione: in qua
-            <name>magi<lb ed="#L" n="4" break="no"/>ster</name> tractat de frui et
-            vti<lb ed="#L" n="5" break="no"/>Quero primo de vti. Utrum 
-            <lb ed="#L" n="6"/>tantum omni alio a deo sit
-            vten<lb ed="#L" n="7" break="no"/>dum. 
-            Quod non. arguo dupli 
-            <lb ed="#L" n="8"/>ci via. Primo quod non omni 
-            <lb ed="#L" n="9"/>alio a deo sit vtendum. primo sic. Ipso actu
-            vten<lb ed="#L" n="10" break="no"/>di non est vtendum: ergo non omni alio a deo est
-            vten<lb ed="#L" n="11" break="no"/>dum. consequentia patet. Atecedens probo. quia si sit 
-      vten<lb ed="#L" n="12" break="no"/>dum ipso actu vtendi. aut ergo eodem actu. aut 
-            <lb ed="#L" n="13"/>alio. Non eodem actu. quia non est idem actus rectus 
-            <lb ed="#L" n="14"/>et reflexus. Nec alio. quia tunc duo actus essent
-            si<lb ed="#L" n="15" break="no"/>mul in voluntate
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
           </p>
-          <p xml:id="wo8uy7-d1e221-d1e153">
-      ⁋ Secundo sic. quocumque conuenit 
-      <lb ed="#L" n="16"/>vti eodem conuenit abuti. sed aliqua sunt quibus non 
-      <lb ed="#L" n="17"/>conuenit abuti. ergo aliqua sunt quibus non 
-      conue<lb ed="#L" n="18" break="no"/>nit vti. maior patet: quia opposita habent fieri 
-      cir<lb ed="#L" n="19" break="no"/>ca idem. sed vti et abuti sunt contraria. ergo circa 
-      <lb ed="#L" n="20"/>quod contingit vti: contingit abuti. minor patet. quia 
-      <lb ed="#L" n="21"/>virtutibus non contingit abuti. quia secundum magistrum 
-      <lb ed="#L" n="22"/>virtutibus nemo male vtitur: ergo nemo eis ab 
-      <lb ed="#L" n="23"/>utitur.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e173">
-      ⁋ Tertio sic. illo est vtendu: quod est in deum 
-      <lb ed="#L" n="24"/>referibile: sed multa sunt quae non conuenit referre in 
-      <lb ed="#L" n="25"/>deum: ergo etc. Maior patet. quia hoc est vti.
-      dili<lb ed="#L" n="26" break="no"/>gere aliquid propter aliud. et per consequens omne illud  
-      <lb ed="#L" n="27"/>quo est vtendum potest diligi propter aliud. sed vnum 
-      <lb ed="#L" n="28"/>quodque propter deum est maxime diligendum. ergo omne illud  
-      <lb ed="#L" n="29"/>quo est vtendum est in deum referibile. minor patet 
-      <lb ed="#L" n="30"/>Tum quia intentiones secunde: cum non possint 
-      funda<lb ed="#L" n="31" break="no"/>re relationem realem ad deum. non sunt in deum 
-      referi<lb ed="#L" n="32" break="no"/>biles: similiter non sunt diligende cum non sint res. Tum quia 
-      <lb ed="#L" n="33"/>mala: quae nec propter se: nec propter aliud sunt
-      aman<lb ed="#L" n="34" break="no"/>da. non sunt in deum referibilia.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e199">
-      ⁋ Secundo ostendo 
-      <lb ed="#L" n="35"/>quod deo sit vtendum. quia omni illo quod potest esse licite 
-      <lb ed="#L" n="36"/>obiectum amoris concupiscentie est vtendum. sed deus 
-      <lb ed="#L" n="37"/>licite potest amari amore concupiscentie. igitur deo 
-      <lb ed="#L" n="38"/>est vtendum. Maior patet. quia illud quod amatur 
-      amo<lb ed="#L" n="39" break="no"/>re concupiscentie: amatur propter aliud amatum 
-      amo<lb ed="#L" n="40" break="no"/>re amicitie. hoc est enim amari amore 
-      concupi<lb ed="#L" n="41" break="no"/>scentie. amari propter aliud amatum amore
-      amici<lb ed="#L" n="42" break="no"/>tie. quia amari amore concupiscentie. est esse 
-      concu<lb ed="#L" n="43" break="no"/>pitum vel desideratum alteri. sed quae diligit aliquid
-      pro<lb ed="#L" n="44" break="no"/>pter aliud vtitur illo. TMinor patet. quia illud quod est 
-      <lb ed="#L" n="45"/>vtile alicui amato amore amicitie. potest sibi 
-      con<lb ed="#L" n="46" break="no"/>cupisci. et per consequens amari amore
-      concupiscen<lb ed="#L" n="47" break="no"/>tie. sed deus est vtilis alicui creature rationali
-      ama<lb ed="#L" n="48" break="no"/>te amore amicitie. igitur potest licite concupisci
-      si<lb ed="#L" n="49" break="no"/>bi. igitur illa creatura potest licite vti deo.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e235">
-      ⁋ Ad
-      op<lb ed="#L" n="50" break="no"/>positum. solo illo est vtendum quod est ad aliud 
-      ordi<lb ed="#L" n="51" break="no"/>nabile et omni illo. sed quodlibet aliud a deo est 
-      or<lb ed="#L" n="52" break="no"/>dinabile ad deum: qui est finis omnium. et deus non est 
-      <lb ed="#L" n="53"/>lest ad aliud ordinabilis. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e246">
-      ⁋ Circa istam
-      quaestio<lb ed="#L" n="54" break="no"/>nem primo exponendus est intellectus. q. secundo ad. q. 
-      <!--130.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 64-r -->
-            </p>
-            <p xml:id="wo8uy7-d1e221-d1e257">
-               <lb ed="#L" n="55"/>⁋ Circa primum est sciendum quod non intelligitur quaeo de Primum 
-      <lb ed="#L" n="56"/>vsu quae est operatio cuiuscumque potentie: quo accipit 
-      <lb ed="#L" n="57"/>tur vsus quando dicitur. cuius vsus bonus: ipsum quam bonum 
-      <lb ed="#L" n="58"/>etc. Nec de vsu quo dicimurvti potentiis ad 
-      eli<lb ed="#L" n="59" break="no"/>ciendum actus potentiarum. Nec de vsu quo
-      dici<lb ed="#L" n="60" break="no"/>mur vti habitibus quando volumus. sed de vsu quo 
-      dici<lb ed="#L" n="61" break="no"/>mur vti aliquo tanquam obiecto. Et sic
-      intelligen<lb ed="#L" n="62" break="no"/>do questione. dico quod vti dupliciter accipitur scilicet
-      lar<lb ed="#L" n="63" break="no"/>ge et stricte. Targe est omnis actus voluntatis secundum 
-      <lb ed="#L" n="64"/>beatum augustinum. x. de trini. c. xi. Stricte autem
-      ae<lb ed="#L" n="65" break="no"/>cipitur secundum quod est aliquis actus voluntatis distinctus 
-      <lb ed="#L" n="66"/>contra frui. et sic magis in particulari intelligitur 
-      <lb ed="#L" n="67"/>questio.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e288">
-      ⁋ Circa quod primo videndum est quo di 
-      <lb ed="#L" n="68"/>stinguitur actus vtendi ab actu fruendi. Secundo 
-      <lb ed="#L" n="69"/>quod est obiectum actus vtendi
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e295">
-      ⁋ Circa primum sci 
-      <lb ed="#L" n="70"/>endum quod aliquis potest assumere aliquid in facultatem 
-      <lb ed="#L" n="71"/>voluntatis dupliciter. vel propter se vel propter aliud. 
-      <lb ed="#L" n="72"/>Primo modo aliquid assumitur in facultatem
-      volun<lb ed="#L" n="73" break="no"/>tatis. quando aliquid praesentatum voluntati per intellectum 
-      <lb ed="#L" n="74"/>etiam si sine omni alio praesentaretur: assumeretur in
-      facul<lb ed="#L" n="75" break="no"/>tatem voluntatis. Secundo modo assumitur in 
-      facul<lb ed="#L" n="76" break="no"/>tatem voluntatis quando aliquid assumitur in facultatem 
-      <lb ed="#L" n="77"/>voluntatis alio praesentato. ita quod si illud aliud non 
-      pre<lb ed="#L" n="78" break="no"/>sentaretur voluntati vel non assumeretur in 
-      faculta<lb ed="#L" n="79" break="no"/>tem voluntatis. illud non assumeretur in facultatem 
-      <lb ed="#L" n="80"/>voluntatis.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e321">
-      ⁋ Primus actus est non referibilis. quando 
-      <lb ed="#L" n="81"/>sicitus voluntas elicit aliquem actum circa illud. ita quod 
-      <lb ed="#L" n="82"/>eundem actum eliceret etiam posito quod nihil aliud  
-      <lb ed="#L" n="83"/>ostenderetur. sicut si alicui ostenderetur deus. appeteret 
-      <lb ed="#L" n="84"/>deum nullo alio sibi ostenso. Secundus actus est refe 
-      <lb ed="#L" n="85"/>ribils quando non eliceretur actus circa illud si nihil aliud 
-      <lb ed="#L" n="86"/>sibi ostenderetur. vel si nihil aliud assumeretur in 
-      facul<lb ed="#L" n="87" break="no"/>tatem voluntatis. sicut quando aliquis appetit potionem 
-      <lb ed="#L" n="88"/>amaram. quam non appeteret si non appeteret
-      sani<lb ed="#L" n="89" break="no"/>tatem. Sed quod aliquis actus sit non referibilis potest esse 
-      <lb ed="#L" n="90"/>dupliciter. vel quod obiectum acceptetur tanquam summum sibi 
-      <lb ed="#L" n="91"/>possibile pauntari. hoc est tamquam summe diligendum ab ea. 
-      <lb ed="#L" n="92"/>vel absolute quod acceptetur et absolute assumatur in 
-      <lb ed="#L" n="93"/>facultatem voluntatis nec vt summum nec vt not 
-      <lb ed="#L" n="94"/>summum. Primus actus est actus fruendi. quando aliquid 
-      <lb ed="#L" n="95"/>acceptatur tanquam simpliciter summum. Secundus actus 
-      <lb ed="#L" n="96"/>non est proprie frui nec proprie vti. sed tertius actus 
-      <lb ed="#L" n="97"/>est propriissime vti.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e361">
-      ⁋ Circa secundum dico quod 
-      ob<lb ed="#L" n="98" break="no"/>iectum vsus in communi qui et communis ad vsum ordinatum et ad  
-      <lb ed="#L" n="99"/>vsum inordinatum est quodlibet siue creatum siue 
-      increa<lb ed="#L" n="100" break="no"/>tum. hoc patet. quia quodlibet quod potest voluntas 
-      re<lb ed="#L" n="101" break="no"/>ferre ad aliud est obiectum vsus. sed voluntas ex 
-      li<lb ed="#L" n="102" break="no"/>bertate sua potest quodcumque referre ad aliud. ergo 
-      <lb ed="#L" n="103"/>potvti quocumque. maior est manifesta. minor patet: quia 
-      <lb ed="#L" n="104"/>quocumque sibi onso potest aliquid aliud magis
-      dilige<lb ed="#L" n="105" break="no"/>re: et per consequens potest diligere ipsum perper aliud. Secunda 
-      con<lb ed="#L" n="106" break="no"/>clusio est quod deus non est obiectum vsus ordinati. quia si sic 
-      <lb ed="#L" n="107"/>aut eset obiectum volitionis ordinate aut nolitionis. 
-      <lb ed="#L" n="108"/>non nolitionis. quia nullus potest ordinate odire deum. nec 
-      <lb ed="#L" n="109"/>volitionis. quia tunc posset aliquid plus amari ordinate
-      <!--131.xml-->
-      <pb ed="#L" n="64-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>quam deus. Similiter finis vltimus non est ad aliquid 
-      <lb ed="#L" n="2"/>aliud referibilis. sed deus est simpliciter finis vltimus 
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e400">
-               <lb ed="#L" n="3"/>⁋ Tertia conclusio est quod omne aliud a deo
-      potes<lb ed="#L" n="4" break="no"/>esse obiectum vsus ordinati. hoc probatur. quia omne 
-      <lb ed="#L" n="5"/>aliud a summe acceptato potest assumi in 
-      faculta<lb ed="#L" n="6" break="no"/>tem voluntatis propter summe acceptatum. sed  
-      <lb ed="#L" n="7"/>deus ordinate summe acceptatur. ergo omne aliud a 
-      <lb ed="#L" n="8"/>deo potest ordinate assumi in facultatem voluntais 
-      <lb ed="#L" n="9"/>propter deum. et per consequens omni alio a deo contigit 
-      <lb ed="#L" n="10"/>ordinate vti. maior patet. quia omne aliud a summe
-      a<lb ed="#L" n="11" break="no"/>ceptato aut est bonum aut malum. Si bonum potest 
-      <lb ed="#L" n="12"/>esse amatum propter summe acceptatum. Si sit
-      ma<lb ed="#L" n="13" break="no"/>lum potest ordinate esse nolitum a voluntate propter 
-      <lb ed="#L" n="14"/>summe acceptatum. ergo omne aliud a summo acce 
-      <lb ed="#L" n="15"/>ptato potest ordinate assumi in facultatem 
-      volun<lb ed="#L" n="16" break="no"/>tatis propter ipsum. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e433">
-      ⁋ Sed circa praedicta sunt 
-      <lb ed="#L" n="17"/>tres difficultates. Prima est de illo medio actu 
-      <lb ed="#L" n="18"/>an talis actus sit possibilis. et an ille actus sit
-      ne<lb ed="#L" n="19" break="no"/>cessario malus vel bonus.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e442">
-      ⁋ Secunda difficultas est 
-      <lb ed="#L" n="20"/>de actu vtendi propriissime dicto an sit simplicitur 
-      <lb ed="#L" n="21"/>vnus actus numero. vel includat plures actus 
-      <lb ed="#L" n="22"/>distinctos numero. quorum vnus sit praecise respectu 
-      <lb ed="#L" n="23"/>finis et alius respectu illius quod est ad finem. 
-      <lb ed="#L" n="24"/>Tertia difficultas est tacta in primo argumento 
-      <lb ed="#L" n="25"/>principali. an actus vtendi quo quis vtitur actu suo 
-      <lb ed="#L" n="26"/>proprio vtendi sit idem actus numero vel alius. 
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e460">
-               <lb ed="#L" n="27"/>⁋ Ad primam dico quod est actus talis mediusquo 
-      <lb ed="#L" n="28"/>aliquid amatur. nec tanquam finis simpliciter vel vltimus 
-      <lb ed="#L" n="29"/>nec actualiter refertur in aliud. Et si dicitur. si non amatur 
-      <lb ed="#L" n="30"/>propter aliud. ergo amatur propter se. sed omne tale 
-      <lb ed="#L" n="31"/>amatur tanquam finis vltimus. Respondeo quod tale 
-      <lb ed="#L" n="32"/>amatur propter se. quia scilicet si nihil aliud ostenderetur 
-      vo<lb ed="#L" n="33" break="no"/>luntati adhuc amaretur. et tamen non tanquam finis
-      vlti<lb ed="#L" n="34" break="no"/>mus. saltem positiue. Quia tunc aliquid amatur 
-      tan<lb ed="#L" n="35" break="no"/>quam finis vltimus. quando acceptatur aliquid tanquam
-      ma<lb ed="#L" n="36" break="no"/>gis amandum omm alio. vel tanquam magis 
-      ama<lb ed="#L" n="37" break="no"/>tum omni alio quodcumque ostenderetur sibi amandum. sed 
-      <lb ed="#L" n="38"/>isto modo non omne amatum propter se est amatum 
-      <lb ed="#L" n="39"/>tanquam finis vltimus. quia aliquis apprehendens virtutem 
-      <lb ed="#L" n="40"/>et non cogitans de felicitate virtutem appetit. et 
-      <lb ed="#L" n="41"/>tamen non propter felicitatem. non tamen appetit virtutem 
-      <lb ed="#L" n="42"/>tanquam aliquid magis appetendum quam quodcumque
-      ali<lb ed="#L" n="43" break="no"/>ud si sibi ostenderetur. nec tanquam minus appetendum 
-      <lb ed="#L" n="44"/>et ita est de amato. et ita est aliquis actus medius 
-      <lb ed="#L" n="45"/>vt dictum est. hoc declaratur per philosophum id est ethicorum 
-      <lb ed="#L" n="46"/>vbi vult quod aliqua sunt eligibilia propter alia.
-      ali<lb ed="#L" n="47" break="no"/>quid autem praecise propter se et nullo modo propter aliud 
-      <lb ed="#L" n="48"/>aliquid autem et propter se et propter aliud. 
-      <lb ed="#L" n="49"/>Unde dicit sic. i. ethicorum. c. vii. Perfectius autem 
-      <lb ed="#L" n="50"/>dicimus quod secundum se ipsum est prosequibile eo quod 
-      <lb ed="#L" n="51"/>propter alterum. Et quod nunquam propter aliud
-      eli<lb ed="#L" n="52" break="no"/>gibile his quae secundum se ipsa et propter hoc eligibilius 
-      <lb ed="#L" n="53"/>Et simpliciter vtique perfectum quod secundum seipsum 
-      eligibi<lb ed="#L" n="54" break="no"/>le semper et nunquam propter aliud. tale vtique felicitat 
-      <lb ed="#L" n="55"/>maxime videtur esse. hanc enim eligimus semper propter 
-      <!--131.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 64-v -->
-               <lb ed="#L" n="56"/>seipsam et nunquam propter aliud. honorem vero et 
-      <lb ed="#L" n="57"/>voluptatem et intellectum et omnem virtutem eligimus 
-      <lb ed="#L" n="58"/>quidem et propter seipsam. nullo enim adueniente 
-      eli<lb ed="#L" n="59" break="no"/>geremus vtique vnumquodque ipsorum. eligimus autem et 
-      <lb ed="#L" n="60"/>felicitatis gratia per hoc su spicantes felices fore. 
-      <lb ed="#L" n="61"/>relicitatem autem nullus eligit horum gratia. neque omnino 
-      <lb ed="#L" n="62"/>propter aliud. Ex quo patet quod aliquid est volibile 
-      nul<lb ed="#L" n="63" break="no"/>lo alio praesentato voluntati. et ita tunc non eligitur
-      po<lb ed="#L" n="64" break="no"/>sitiue propter aliud. et tamen non est finis vltimus. sed 
-      <lb ed="#L" n="65"/>propter alium finem est eligibile. Et si dicitur quod ille 
-      <lb ed="#L" n="66"/>actus est malus quando diligitur aliquid quod est ad finem 
-      <lb ed="#L" n="67"/>et non propter finem. Respondeo quod actus
-      respe<lb ed="#L" n="68" break="no"/>ctu alicuius ad finem potest esse non malus. quamuis 
-      <lb ed="#L" n="69"/>non dirigatur vel non referatur positiue ad fine. et hoc 
-      <lb ed="#L" n="70"/>maxime si non apprehendatur finis. Et si dicitur. quod 
-      <lb ed="#L" n="71"/>omnis defectus circumstantie requisite ad actum bonum 
-      <lb ed="#L" n="72"/>facit actum malum. sed circumstantia finis est 
-      requi<lb ed="#L" n="73" break="no"/>sita ad actum moraliter bonum. ergo quandocunque deficit. 
-      <lb ed="#L" n="74"/>actus erit malus. sed in proposito deficit. ergo etc. 
-      <lb ed="#L" n="75"/>Respondeo quod non omnis defectus circumstantie
-      requi<lb ed="#L" n="76" break="no"/>site ad actu moraliter bonum facit actum esse malum 
-      <lb ed="#L" n="77"/>vel pectantum. tunc enim ignorantia nunquam excusaret 
-      <lb ed="#L" n="78"/>cum tamen secundum doctores et scecntos ignorantia aliquando 
-      ex<lb ed="#L" n="79" break="no"/>cuset a toto. sed quando deficit aliqua circumstantia 
-      <lb ed="#L" n="80"/>ad quam eliciens actum pro tunc obligatur. tunc est actus 
-      <lb ed="#L" n="81"/>malus. si autem non obligetur tunc ad illam 
-      circumstan<lb ed="#L" n="82" break="no"/>tiam non est actus malus.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e590">
-      ⁋ Ita est in proposito. 
-      <lb ed="#L" n="83"/>qui in tali casu non est iste obligatus ad volendum hoc 
-      <lb ed="#L" n="84"/>propter finem. si tamen eliceret actu circa hoc 
-      praestitu<lb ed="#L" n="85" break="no"/>endo illud tanquam finem sibi respectu omnium aliorum 
-      <lb ed="#L" n="86"/>peccaret.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e602">
-      ⁋ Circa secundam difficultatem posset 
-      ali<lb ed="#L" n="87" break="no"/>cui videri quod sit alius actus numero et specie. ita 
-      <lb ed="#L" n="88"/>quod talis actus vtendi non potest esse sine distinctie 
-      <lb ed="#L" n="89"/>actibus realiter differentibus. Et propter hoc potest 
-      <lb ed="#L" n="90"/>argui primo sic. Qande illud quod est ad finem diligitur. 
-      <lb ed="#L" n="91"/>propter finem: et finis et illud quod est ad finem diligitur. 
-      <lb ed="#L" n="92"/>led finis et illud quod est ad finem non possunt diligi 
-      <lb ed="#L" n="93"/>vno actu. ergo sunt ibi plures actus. Maior patet. quia 
-      <lb ed="#L" n="94"/>illud quod est ad finem certum est quod diligitur.
-      Ali<lb ed="#L" n="95" break="no"/>enim non esset ibi actus vtendi. cum non sit ibi nolitio 
-      <lb ed="#L" n="96"/>ipsius. Quod etiam finis diligatur patet. quia propter quod 
-      <lb ed="#L" n="97"/>vnumquodque tale et ipsum magis. ergo si illud quod est 
-      <lb ed="#L" n="98"/>ad finem diligatur propter finem. oportet quod finis 
-      ma<lb ed="#L" n="99" break="no"/>gis diligatur. Minor probatur. quia sinis diligitur actu 
-      <lb ed="#L" n="100"/>fruendi. quia diligitur propter se. illud quod est ad finem 
-      <lb ed="#L" n="101"/>diligitur actu vtendi. igitur si essent vnus actus 
-      nu<lb ed="#L" n="102" break="no"/>mero. idem actus numero esset actus vtendi et actus 
-      <lb ed="#L" n="103"/>fruendi. consequens est falsum quia iste sunt species 
-      oppo<lb ed="#L" n="104" break="no"/>site.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e644">
-      ⁋ Secundo potest argui sic. si esset tantum vnus actus 
-      <lb ed="#L" n="105"/>numero. actus vtendi esset perfectior actu fruendi 
-      <lb ed="#L" n="106"/>consequens est falsum ergo et antecedens. et consequentia 
-      <lb ed="#L" n="107"/>patet. quia esset aliquas actus voluntatis perfectior fruitione 
-      <lb ed="#L" n="108"/>diuine essentie. et per consequens beatitudine. 
-      conse<lb ed="#L" n="109" break="no"/>quentia patet. quia quando aliquo actu respiciuntur plura 
-      <lb ed="#L" n="110"/>obiecta ab aliqua potentia et eque perfecte. ille actus 
-      <!--132.xml-->
-      <pb ed="#L" n="65-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>est perfectior quam ille actus qui respicit pauciora. sed 
-      <lb ed="#L" n="2"/>isto posito fruitio: seu actus fruendi esset tantum
-      re<lb ed="#L" n="3" break="no"/>spectu finis. actus vtendi esset respectu finis: et 
-      <lb ed="#L" n="4"/>respectu illius quod est ad finem: et eque perfecte
-      re<lb ed="#L" n="5" break="no"/>spectu finis: sicut actus fruendi. quia per hoc quod aliquis 
-      <lb ed="#L" n="6"/>diligit aliquam creaturam propter deum. non minus
-      di<lb ed="#L" n="7" break="no"/>ligit deum. ergo actus vtendi creatura esset perfectior 
-      <lb ed="#L" n="8"/>actu fruendi deo
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e683">
-      ⁋ Tertio sic. voluntas non potest si 
-      <lb ed="#L" n="9"/>mul et semel habere duos actus perfectos respectu 
-      <lb ed="#L" n="10"/>eiusdem obiecti. sed posito actu meritorio in
-      volun<lb ed="#L" n="11" break="no"/>tate quo aliquis diligit deum propter se. potest offerri 
-      <lb ed="#L" n="12"/>voluntati per intellectum aliquid ordinabile et
-      di<lb ed="#L" n="13" break="no"/>ligibile propter deum: quod potest voluntas diligere 
-      pro<lb ed="#L" n="14" break="no"/>pter deum. et non oportet quod voluntas dimittat actum 
-      <lb ed="#L" n="15"/>primum meritorium. ergo tunc ille actus secundus elicitus 
-      <lb ed="#L" n="16"/>praecise terminabitur ad creaturam. Aliter essent simul 
-      <lb ed="#L" n="17"/>in voluntate duo actus respectu dei.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e705">
-      ⁋ Quarto 
-      <lb ed="#L" n="18"/>sic. sicut aliquos potest diligere aliquid propter aliud  
-      <lb ed="#L" n="19"/>dilectum: ita potest detestari aliquid propter aliud
-      di<lb ed="#L" n="20" break="no"/>lectum. ergo qua ratione actus diligendi aliquid propter aliud  
-      <lb ed="#L" n="21"/>est vnus actus numero habens vtrumque pro obiecto 
-      <lb ed="#L" n="22"/>eadem ratione actus detestandi aliquid propter aliud: seu 
-      <lb ed="#L" n="23"/>propter amorem alterius: est vnus habens vtrumque 
-      <lb ed="#L" n="24"/>pro obiecto. sed hoc est impossibile. quia tunc actus
-      aman<lb ed="#L" n="25" break="no"/>di: et actus odiendi essent vnus actus numero. Ista
-      vl<lb ed="#L" n="26" break="no"/>tima consequentia patet. quia si ille actus terminatur ad 
-      fi<lb ed="#L" n="27" break="no"/>nem. Aut illo actu amatur finis. aut oditur. Non
-      odi<lb ed="#L" n="28" break="no"/>tur: ergo amatur. ergo ille actus est actus amandi: et est actus 
-      <lb ed="#L" n="29"/>odiedi: quia aliquid illo oditur: ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e734">
-      ⁋ Quinto sic. idem 
-      <lb ed="#L" n="30"/>actus numero non potest esse intensus et remissus.
-      perfe<lb ed="#L" n="31" break="no"/>ctus et imperfectus. sed quicumque diligit aliquid propter 
-      <lb ed="#L" n="32"/>aliud scilicet propter finem intensius et perfectius diligit
-      fi<lb ed="#L" n="33" break="no"/>nem. et remissius et imperfectius diligit illud quod est 
-      <lb ed="#L" n="34"/>ad finem. ergo non eodem actu diligit vtrumque.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e747">
-      ⁋
-      Confir<lb ed="#L" n="35" break="no"/>matur. quia si eodem actu diligeret vtrumque. ergo ita
-      perfe<lb ed="#L" n="36" break="no"/>cto actu diligit aliquas meritorie creaturam sicut 
-      <lb ed="#L" n="37"/>deum. et per consequens tantum diligeret. et ita deus non esset summe 
-      <lb ed="#L" n="38"/>diligendus et super omnia: quod est absurdum.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e759">
-      ⁋ Sexto sic 
-      <lb ed="#L" n="39"/>tertio ethi. electio non est voluntas. quia electio est 
-      <lb ed="#L" n="40"/>eorum quae sunt ad finem. et voluntas est ipsius finis. sed 
-      <lb ed="#L" n="41"/>si esset vnus et idem actus electio ex hoc ipo quod esset
-      ali<lb ed="#L" n="42" break="no"/>cuius propter fine esset ipsius finis.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e770">
-      ⁋ Preterea. sicut intel 
-      <lb ed="#L" n="43"/>lectus non potest intelligere plura: ita nec voluntas 
-      <lb ed="#L" n="44"/>potest velle plura. ergo nec est vnus actus. nec est 
-      si<lb ed="#L" n="45" break="no"/>mul vtriusque voliti.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e779">
-      ⁋ Sed istis rationibus non
-      ob<lb ed="#L" n="46" break="no"/>stantibus videtur probabile quod possint esse duo actus 
-      <lb ed="#L" n="47"/>et quod potest esse vnus actus
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e786">
-      ⁋ hoc potest declarari: quia 
-      <lb ed="#L" n="48"/>sicut intellectus se habet ad principia et conclusio 
-      <lb ed="#L" n="49"/>nes: ita se habet voluntas ad finem: et ad ea quae sunt 
-      <lb ed="#L" n="50"/>ad finem. sed intellectus potest scire conclusionem 
-      distin<lb ed="#L" n="51" break="no"/>cto actu ab actu quo cognoscitur principium. et potest 
-      <lb ed="#L" n="52"/>vnico actu cognoscere vtrumque. ergo eodem modo
-      volun<lb ed="#L" n="53" break="no"/>tas potest habere distinctos actus respectu finis et
-      il<lb ed="#L" n="54" break="no"/>lius quod est ad finem. et vnum actum respectu vtriusque. 
-      <lb ed="#L" n="55"/>Ihaior patet de se. quia non minus potest voluntas super 
-      <!--132.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 65-r -->
-               <lb ed="#L" n="56"/>obiecta sua quam intellectus super obiecta sua. minor 
-      <lb ed="#L" n="57"/>patet quo ad primam partem. quia notitia principii est causa 
-      <lb ed="#L" n="58"/>notitie concionis. sed causa distinguitur realiter ab 
-      effe<lb ed="#L" n="59" break="no"/>ctu suo. ergo potest esse alius actus quo cognoscitur 
-      princi<lb ed="#L" n="60" break="no"/>pium et quo cognoscitur conclusio. Secunda pars minoris patet 
-      <lb ed="#L" n="61"/>qui non magis repugnat intellectui intelligere vni 
-      <lb ed="#L" n="62"/>co actu vnum discursum vel vnam consequentiam quam vnam 
-      pro<lb ed="#L" n="63" break="no"/>positionem. sed vnico actu potest intelligere vnam
-      pro<lb ed="#L" n="64" break="no"/>positionem. patet per philosophum. iiii de anima. vbi diuidit 
-      opera<lb ed="#L" n="65" break="no"/>tionem intellectus in operationem simplicium et
-      composi<lb ed="#L" n="66" break="no"/>torum. ergo si diuisio sit propria. ita erit vna intellectio 
-      <lb ed="#L" n="67"/>complexi sicut incomplexi. Preterea si non sit vnus 
-      <lb ed="#L" n="68"/>actus. ergo sunt duo actus distinctorum obiectorum. 
-      <lb ed="#L" n="69"/>sed hoc est falsum. quia tunc componere vel diuidere non 
-      <lb ed="#L" n="70"/>esset nisi habere diuersos actus respectu
-      diuerso<lb ed="#L" n="71" break="no"/>rum obiectorum. sed hoc est manifeste falsum. quia 
-      <lb ed="#L" n="72"/>tunc ita bene posset sensus componere et diuidere 
-      <lb ed="#L" n="73"/>sicut intellectus. quia sensus potest habere distinctos actus 
-      <lb ed="#L" n="74"/>distinctorum obiectorum. potest enim visus simul videre 
-      <lb ed="#L" n="75"/>diuersa alba vel nigrum et album. Preterea. iii. de 
-      <lb ed="#L" n="76"/>anima. sensus communis cognoscit differentiam diuersorum
-      sen<lb ed="#L" n="77" break="no"/>sibilium eiusdem sensus. aut ergo vnico actu aut
-      disti<lb ed="#L" n="78" break="no"/>ctis. si vno actu. ergo multo fortius tam intellectus 
-      <lb ed="#L" n="79"/>quam voluntas vnico actu possunt in multa obiecta. si 
-      <lb ed="#L" n="80"/>distinctur hoc potest sensus particularis. ergo propter illam 
-      <lb ed="#L" n="81"/>operatione non ortet ponere sensum communem. Preterea in 
-      <lb ed="#L" n="82"/>tellectus in patria vnico actu intelligit plura. quia 
-      <lb ed="#L" n="83"/>verbum et res in vbo secundum communiter loquentes. Similiter secundum communi 
-      <lb ed="#L" n="84"/>loquentes vnico actu diligit deum et creaturam. ergo hoc 
-      <lb ed="#L" n="85"/>non est negandum ab istisi via. ex quae non appret euidens ratio 
-      <lb ed="#L" n="86"/>in contrarium. nec experientia nec auctas scripture. Si 
-      <lb ed="#L" n="87"/>dicitur quod sint distincti actus. tunc neuter erit actus 
-      vten<lb ed="#L" n="88" break="no"/>di. non primus vt manifestum est nec secundus probo. quia 
-      <lb ed="#L" n="89"/>quando aliquis actus sine alio a quo potest separari non est 
-      <lb ed="#L" n="90"/>actus vtendi. ille idem coniunctus cum illo non erit actus 
-      <lb ed="#L" n="91"/>vtendi. quia actus alius non facit actum eundem numero. 
-      <lb ed="#L" n="92"/>esse actum vtendi quae non erat prius actus vtendi. nec 
-      <lb ed="#L" n="93"/>econuerso. sed ille actus quae praecise terminatur ad illud 
-      <lb ed="#L" n="94"/>quod est ad finem. posset esse sine omni actu respectu 
-      fi<lb ed="#L" n="95" break="no"/>nis. quia voluntas libere potest ferri in quodcumque
-      obie<lb ed="#L" n="96" break="no"/>ctum sibi onsum nullo alio oblato. sed hoc posito 
-      <lb ed="#L" n="97"/>non erit actus vtendi. quia non diligitur propter aliud. 
-      <lb ed="#L" n="98"/>nec ergo quando simul est cum actu respectu finis erit actus 
-      <lb ed="#L" n="99"/>vtendi. Confirmatur. quia actus quae praecise terminatur ad  
-      <lb ed="#L" n="100"/>vnum et potest esse sine omni alio non tendit in aliquid propter 
-      <lb ed="#L" n="101"/>aliud. ergo non est actus vtendi qui tendit in aliquid propter 
-      <lb ed="#L" n="102"/>aliud. quo enim tendit in aliquid propter aliud. si non 
-      <lb ed="#L" n="103"/>tendit in illud aliud. Ad istud potest dici quod stricte 
-      <lb ed="#L" n="104"/>loquendo de actu vtendi talis actus quae praecise 
-      ter<lb ed="#L" n="105" break="no"/>minatur ad aliquid non summe acceptatum hoc est non
-      ac<lb ed="#L" n="106" break="no"/>ceptatum tanquam summum non est actus vtendi. Et 
-      <lb ed="#L" n="107"/>ideo potest distingui de actu vtendi quod tripliciter 
-      acci<lb ed="#L" n="108" break="no"/>pitur. Uno modo pro omni actu qui non est fruitio. Alio 
-      <lb ed="#L" n="109"/>modo pro actu terminato ad aliquod obiectum causato ex 
-      <lb ed="#L" n="110"/>actu fruendi respectu alicuius. Tertio accipitur pro¬ 
-      <!--133.xml-->
-      <pb ed="#L" n="65-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>actu qui existens vnus tendit in aliquid propter aliud  
-      <lb ed="#L" n="2"/>Primo modo iste actus est actus vtedi. et hoc siue 
-      <lb ed="#L" n="3"/>nit coniunctus cum alio actu siue non. Secundo modo actus 
-      <lb ed="#L" n="4"/>iste non est actus vtendi. nisi quando causatur ex alio actu 
-      <lb ed="#L" n="5"/>sibi coniuncto. et isto modo accipiendo actum vtendi idem 
-      <lb ed="#L" n="6"/>actus numero potest esse primo actus vtendi. et postea 
-      <lb ed="#L" n="7"/>etiam manens potest non esse actus vtendi. quia potest 
-      <lb ed="#L" n="8"/>primo causari ab aliquo actu respectu finis vel 
-      <lb ed="#L" n="9"/>ab aliquo actu fruedi. et postea destructo illo 
-      <lb ed="#L" n="10"/>actu fruendi potest voluntas illum actum numero 
-      <lb ed="#L" n="11"/>continuare. sicut si aliquis diligat primo potionem 
-      <lb ed="#L" n="12"/>simpliciter quia diligit sanitatem. tunc illa dilectio
-      po<lb ed="#L" n="13" break="no"/>tionis erit actus vtendi. quia causatur ab alio actu 
-      <lb ed="#L" n="14"/>et si continuetur ex libertate voluntatis etiam quando
-      sani<lb ed="#L" n="15" break="no"/>tas actualiter non diligitur. tunc non erit actus vtendi 
-      <lb ed="#L" n="16"/>qui tunc non causatur ab alio. nec conseruatur ab illo 
-      <lb ed="#L" n="17"/>actu respectu sanitatis. Et tertio modo 
-      strictissi<lb ed="#L" n="18" break="no"/>me accipitur actus vtendi. et ille semper est idem
-      re<lb ed="#L" n="19" break="no"/>spectu diuersorum. Et ita dico quod non est 
-      inconue<lb ed="#L" n="20" break="no"/>niens eundem actum numero esse respectu finis 
-      vl<lb ed="#L" n="21" break="no"/>timi. et illorum que sunt ad finem. Ad primum
-      argu<lb ed="#L" n="22" break="no"/>nentum in conrium dico quod quando aliqua significant vnum et 
-      <lb ed="#L" n="23"/>connotant diuersa illa quamuis secundum nomen videantur 
-      <lb ed="#L" n="24"/>diuersa vel opposita. et respectu eiusdem
-      infer<lb ed="#L" n="25" break="no"/>rent oppositionem. tamen possunt eidem competere respectu 
-      <lb ed="#L" n="26"/>diuersorum. sicut est de naturali et libero et de 
-      con<lb ed="#L" n="27" break="no"/>tingenti et neccessario quod non possunt competere eidem 
-      re<lb ed="#L" n="28" break="no"/>spectu eiusdem. tamen non est inconueniens quod competant 
-      <lb ed="#L" n="29"/>eidem respectu diuersorum sicut voluntas diuina secundum 
-      <lb ed="#L" n="30"/>omns est principium producendi scilicet specitum sanctum
-      ne<lb ed="#L" n="31" break="no"/>cessario. et tamen est principium producendi creaturam 
-      <lb ed="#L" n="32"/>contingenter. Et ita est in proposito quod idem actus
-      po<lb ed="#L" n="33" break="no"/>test esse actus fruendi respectu finis vltimi. et 
-      <lb ed="#L" n="34"/>tamen esse actus vtendi respectu illius quod est ad  
-      <lb ed="#L" n="35"/>finem. hoc patet. quia actus diligendi deum est fruitio 
-      <lb ed="#L" n="36"/>respectu diuine essentie. et tamen diligens decum non 
-      <lb ed="#L" n="37"/>fruitur illo actu. sed vtitur eo. Ita poterit dici in 
-      pro<lb ed="#L" n="38" break="no"/>posito. Similiter intellectus vno actu scit conclusione. 
-      <lb ed="#L" n="39"/>et per consequens non tantum intelligit conclusionem illo actu. sed 
-      eti<lb ed="#L" n="40" break="no"/>am terminos illius conclusionis. et tamen illo actu scit 
-      <lb ed="#L" n="41"/>conclusionem et illo actuno scit aliquod incomplexum illius 
-      <lb ed="#L" n="42"/>conclusionis. Et ita idem actus respectu conclusionis dicitur 
-      <lb ed="#L" n="43"/>scientia. et respectu termini non dicitur scientia. sed potest aliter 
-      <lb ed="#L" n="44"/>denominari. igitur non est inconueniens eundem actum
-      volun<lb ed="#L" n="45" break="no"/>tatis sortiri diuersas denominationes propter 
-      diuer<lb ed="#L" n="46" break="no"/>sitatem obiectorum. vt isto actu dicatur voluntas frui 
-      <lb ed="#L" n="47"/>vno obiecto et vti alio obiecto. similiter aliquando est actus 
-      <lb ed="#L" n="48"/>vtendi sine omni actu fruendi.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1042">
-      ⁋ Ad secundum concedo quod 
-      <lb ed="#L" n="49"/>non est inconueniens aliquem actum vtendi esse
-      perfe<lb ed="#L" n="50" break="no"/>ctiorem aliquo fruendi actu quando ille actus vtendi 
-      <lb ed="#L" n="51"/>est etiam actus fruendi aliquo obiecto. Unde non 
-      <lb ed="#L" n="52"/>videtur quod actus quo diligitur creatura praecise propter
-      <lb ed="#L" n="53"/>deum. sit imperfectior quam actus quo diligitur precise 
-      <lb ed="#L" n="54"/>deus et hoc si sit actus equi intensus. quod non semper conti 
-      <lb ed="#L" n="55"/>git. Tame forte fruitio beatam in patria erit praecise a solo 
-      <!--133.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 65-v -->
-               <lb ed="#L" n="56"/>deo ea respectu solius dei: et tamen erit perfectior quam
-      quae<lb ed="#L" n="57" break="no"/>cunque: quae potest esse simul respectu dei: et respectu 
-      <lb ed="#L" n="58"/>creature. Nam illa quae potest esse respectu dei et
-      re<lb ed="#L" n="59" break="no"/>spectu creature potest elici a voluntate creata. 
-      <lb ed="#L" n="60"/>alia autem non.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1077">
-      ⁋ Ad tertium concedo: quod voluntas potest si 
-      <lb ed="#L" n="61"/>mul habere duos actus perfectos respectu
-      eiusdem<lb ed="#L" n="62" break="no"/>obiecti. maxime quando illud obiectum est obiectum
-      to<lb ed="#L" n="63" break="no"/>tale respectu vnius actus: et partiale tantum respectu 
-      <lb ed="#L" n="64"/>alterius. Et ita est in proposito. quod quando diligitur
-      fi<lb ed="#L" n="65" break="no"/>nis praecise propter se. tunc finis est obiectum totale illius 
-      <lb ed="#L" n="66"/>actus: quando nihil terminat illum actum nisi finis. quando aut 
-      <lb ed="#L" n="67"/>diligit illud quod est ad finem propter finem. est tantum 
-      ob<lb ed="#L" n="68" break="no"/>iectum partiale. Isto modo dictum fuit prius. quod quando primo 
-      <lb ed="#L" n="69"/>mo intelligitur aliquod incomplexum: et postea complexum. 
-      <lb ed="#L" n="70"/>poterit prima notitia remanere cum secunda. aliter enim 
-      <lb ed="#L" n="71"/>apprehensis terminis intellectus non posset statim 
-      <lb ed="#L" n="72"/>in eodem instanti formare ex illis propositionem. et per 
-      <lb ed="#L" n="73"/>consequens apprehensio terminorum non praesupponeretur per se
-      com<lb ed="#L" n="74" break="no"/>positioni et diuisioni. quia nihil per se praesupponitur 
-      ali<lb ed="#L" n="75" break="no"/>cui effectui: nisi quod potest manere cum illo effectu. 
-      <lb ed="#L" n="76"/>propter hoc enim ponit philosophus priuationem esse principium 
-      <lb ed="#L" n="77"/>tantum per accidens. Qualiter tamen haec sit intelligendum 
-      ali<lb ed="#L" n="78" break="no"/>bi ostendetur
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1120">
-      ⁋ Ad quartum potest concedi. quod idem actus 
-      <lb ed="#L" n="79"/>numero respectu vnius potest denominari detestatio seu 
-      <lb ed="#L" n="80"/>actus detestandi. et respectu alterius actus amandi. 
-      <lb ed="#L" n="81"/>quando vnico actu detestor aliquid propteraliud amatum 
-      <lb ed="#L" n="82"/>eodem actu
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1131">
-      ⁋ Si dicatur isti sunt actus oppositi scilicet 
-      <lb ed="#L" n="83"/>detestari et amare. quia nolle et velle sunt actus 
-      op<lb ed="#L" n="84" break="no"/>positi. sed detestari est nolle. amare est quoddam 
-      <lb ed="#L" n="85"/>velle. ergo etc. Potest dici quod sicut actus amandi: et 
-      <lb ed="#L" n="86"/>actus odiendi non opponuntur: nisi quando idem est amatum 
-      <lb ed="#L" n="87"/>et oditum. quia quando vnum est amatum: et aliud oditum non 
-      <lb ed="#L" n="88"/>opponuntur. Ita dicendum est de velle et nolle. 
-      <lb ed="#L" n="89"/>et frui et vti. Et ideo illa respectu eiusdem non possunt 
-      <lb ed="#L" n="90"/>eidem competere secundum quod sunt quaodam connotatiua. quamuis 
-      <lb ed="#L" n="91"/>possunt competere eidem respectu diuersorum.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1153">
-      ⁋ Ad 
-      quan<lb ed="#L" n="92" break="no"/>tum concedo. quod idem actus non potest esse intensus et
-      re<lb ed="#L" n="93" break="no"/>missus. tamen eodem actu potest aliquid diligi intense: et
-      ali<lb ed="#L" n="94" break="no"/>quid remisse. sicut deus intensissime diligit se ipsum. et 
-      <lb ed="#L" n="95"/>tamen non intensissime diligit quamcumque creaturam.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1164">
-      ⁋ Ad 
-      <lb ed="#L" n="96"/>confirmationem nego istam consequentiam. diligit illud 
-      <lb ed="#L" n="97"/>quod est ad finem actu equi intenso. ergo ita intense. Et ratio 
-      <lb ed="#L" n="98"/>omnium istorum est ista. quia diligere eque intense plus
-      con<lb ed="#L" n="99" break="no"/>notat quam actus equi intensus. de quo alias quomodo 
-      <lb ed="#L" n="100"/>debet intelligi patebit
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1177">
-      ⁋ Istam responsio confirmatur. quia deus 
-      <lb ed="#L" n="101"/>vno actu remisso plus acceptatur quam omnia alia. et tamen 
-      <lb ed="#L" n="102"/>de posito possibile est quod vnus actus creature sit in 
-      <lb ed="#L" n="103"/>tensior. et ita non sequitur. diligitur actu ita intenso. ergo 
-      <lb ed="#L" n="104"/>tantum diligitur.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1188">
-      ⁋ Ad sextum dico quod electio non est 
-      vo<lb ed="#L" n="105" break="no"/>luntas secundum intetionem philosophi. quia voluntas est respectu 
-      <lb ed="#L" n="106"/>alicuius respectu cuius: sicut respectu obiecti totalis 
-      <lb ed="#L" n="107"/>non est electio. Similiter voluntas est impossibilium. 
-      respe<lb ed="#L" n="108" break="no"/>ctu quorum non est electio. Unde voluntas vocatur quae est 
-      <lb ed="#L" n="109"/>respectu vnius tantum: et non vnius propter aliud. Electio 
-      <lb ed="#L" n="110"/>auat quae est respectu alicuius propt aliud primo volitum. 
-      <!--134.xml-->
-      <pb ed="#L" n="66-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>Ad septimum dicitur communiter quod intellectus non potest simul 
-      in<lb ed="#L" n="2" break="no"/>telligere plura vt plura. sed plura vt vnum. eodem 
-      <lb ed="#L" n="3"/>modo voluntas non potest ferri in plura vt plura. sed  
-      <lb ed="#L" n="4"/>in plura vt vnum. Unde speailiter dicitur in proposito. quod 
-      <lb ed="#L" n="5"/>voluntas potest ferri in ea quae sunt ad fine vel secundum quod in 
-      <lb ed="#L" n="6"/>finem ordinantur: et sic est idem actus voluntatis respectu 
-      <lb ed="#L" n="7"/>finis et respectu eorum quae sunt ad finem. vel potest 
-      fer<lb ed="#L" n="8" break="no"/>ri in ea secundum quod sunt res quedam per se desiderables 
-      <lb ed="#L" n="9"/>et sic fertur in ea distincto actu. Unde dicitur quod in primo 
-      <lb ed="#L" n="10"/>modo ferendi in ista finis est obiectum formale et ratio 
-      <lb ed="#L" n="11"/>ferendi in ista. et illud quod est ad finem est obiectum 
-      <lb ed="#L" n="12"/>materiale. et sunt vnum obiectum sicut lumen et color 
-      <lb ed="#L" n="13"/>sunt vnum obiectum. Sed ista responsio non valet. quia ita 
-      <lb ed="#L" n="14"/>distincte intelligitur aliquid quando intelligitur cum alio 
-      <lb ed="#L" n="15"/>sicut quando intelligitur sine alio. et ita sub propria ratio 
-      <lb ed="#L" n="16"/>ne intelligitur. quia potest intelligi sub propria ratione
-      diffi<lb ed="#L" n="17" break="no"/>nitiua. et ita non intelligitur inquantum vnum. sed frequenter 
-      <lb ed="#L" n="18"/>mags iquantum diuersum. Preterea si finis esset obiectum 
-      <lb ed="#L" n="19"/>formale. et illud quod est ad finem obiectum
-      materia<lb ed="#L" n="20" break="no"/>le. igitur propter variationem illius quod est ad finem non 
-      <lb ed="#L" n="21"/>variaret actus. quia ad variationem obiecti
-      mate<lb ed="#L" n="22" break="no"/>rialis non variatur actus. sed hoc est falsum. quia tunc idem 
-      <lb ed="#L" n="23"/>actus numero esset diligere deum propter se et
-      dili<lb ed="#L" n="24" break="no"/>gere creaturam propter deum.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1263">
-      ⁋ Ideo dico ad 
-      argu<lb ed="#L" n="25" break="no"/>mentum quod sicut alias patebit intellectus potest
-      in<lb ed="#L" n="26" break="no"/>telligere plura vno actu et distinctum actibus. Et 
-      <lb ed="#L" n="27"/>si queratur. aut illa intelligit inquantum sunt plura. 
-      <lb ed="#L" n="28"/>aut vt vnum. Dico quod nec vt plura nec vt vnum 
-      <lb ed="#L" n="29"/>Unde neutra illarum est cum nota reduplicationis 
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1276">
-               <lb ed="#L" n="30"/>⁋ De tertia difficultate patebit in vna alia 
-      que<lb ed="#L" n="31" break="no"/>stione. ideo differatur vsque tunc.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1283">
-      ⁋ Ad argumentum 
-      pri<lb ed="#L" n="32" break="no"/>mum principale dico sicut 
-      po<lb ed="#L" n="33" break="no"/>alio vtendum est obiecto aliquo. et ipso actu
-      vten<lb ed="#L" n="34" break="no"/>di. et concedo conclusionem quod in voluntate possunt esse simul 
-      <lb ed="#L" n="35"/>duo actus volendi.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1294">
-      ⁋ Ad secundum dico quod vti aliquo 
-      <lb ed="#L" n="36"/>vel abuti contingit dupliciter. vel tanquam obiecto actus 
-      <lb ed="#L" n="37"/>voluntatis. vel tamquam aliquo habitu inclinante ad actum 
-      <lb ed="#L" n="38"/>sibi proprium. Et aliis modis contingit vti vel 
-      abu<lb ed="#L" n="39" break="no"/>ti. sed illi non sunt ad propositum. primo modo dico quod 
-      <lb ed="#L" n="40"/>quocumque conuenit vti: conuenit abuti: sed non 
-      econuer<lb ed="#L" n="41" break="no"/>so. quia sic vti secundum quod distingunitur contrsa abuti est ordinate 
-      <lb ed="#L" n="42"/>vti. Nunc autem deo conuenit abuti. sed nullo modo
-      con<lb ed="#L" n="43" break="no"/>uenit eo vti. quia nullus potest eo ordinate vti. tamen 
-      <lb ed="#L" n="44"/>quocumque conuenit ordinante vti: conuenit abuti. quia 
-      <lb ed="#L" n="45"/>qui quicqud potest esse obiectum vsus ordinati potest esse 
-      <lb ed="#L" n="46"/>obiectum abusus. Et quando dicitur quod virtutibus non contigit 
-      <lb ed="#L" n="47"/>abuti. Dico quod virtutibus contingit abuti sicut obiectis 
-      <lb ed="#L" n="48"/>quae enim desideraret caritatem propter se tanquam propter 
-      <lb ed="#L" n="49"/>nnem vltimum summe amatum abuteretur caritate. et 
-      <lb ed="#L" n="50"/>sic de aliis virtutibus. Unde isto modo secundum aliquos 
-      <lb ed="#L" n="51"/>primus angelus abutebatur beatitudine. quia appetebat 
-      <lb ed="#L" n="52"/>cam sibi inordinate. et propter se tanquam propter finem
-      vlti<lb ed="#L" n="53" break="no"/>mum. secundo modo ipsa caritate non contingit abuti. quia 
-      <lb ed="#L" n="54"/>ipsa non inclinat ad actum malum. et sic intelligit
-      ma<lb ed="#L" n="55" break="no"/>gister et augus. Tame accipiendo omne absolutum in 
-      <!--134.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 66-r -->
-               <lb ed="#L" n="56"/>quacumque virtute quod distinguitur a caritate illo
-      con<lb ed="#L" n="57" break="no"/>uenit abuti. sic declarabitur in tertio libro. Et quando 
-      <lb ed="#L" n="58"/>icitur quod contraria habent fieri circa idem. Dico quod contraia habent 
-      fi<lb ed="#L" n="59" break="no"/>eri circa idem subiectum. et ideo in quocumque subiecto potest 
-      <lb ed="#L" n="60"/>esse vsus. et abusus sibi contrarius et econuerso. sed non habent 
-      <lb ed="#L" n="61"/>fieri circa eundem effectum: nec semper circa idem
-      obie<lb ed="#L" n="62" break="no"/>ctum. Et ideo quantumcumque abusus possit esse circa deum 
-      <lb ed="#L" n="63"/>non tamen oportet quod vsus sibi contrarius possit esse circa eundem 
-      <lb ed="#L" n="64"/>Similiter quamuis contigat vti aliquo habitum respectu 
-      ali<lb ed="#L" n="65" break="no"/>cuius effectus. non tamen oportet quod possimus abuti eodem
-      habi<lb ed="#L" n="66" break="no"/>tum respectu alicuius effectus. quia ille habitus non habet
-      ali<lb ed="#L" n="67" break="no"/>quem alium effectum. Si dicitur quod ex hoc sequitur quod
-      cotin<lb ed="#L" n="68" break="no"/>gat ordinate vti deo. quia vsus ordinatus et abusus 
-      <lb ed="#L" n="69"/>conriantur. sed respectu dei in voluntate poterit esse 
-      ab<lb ed="#L" n="70" break="no"/>usus. ergo respectu dei potest esse vsus ordinatus ex quo 
-      <lb ed="#L" n="71"/>in quocumque potest esse vnum contrariorum subiective. 
-      reli<lb ed="#L" n="72" break="no"/>quum potest esse in eodem subiective. Respondeo quod ille 
-      abu<lb ed="#L" n="73" break="no"/>sus respectu dei non habet aliquem vsum ordinatum 
-      si<lb ed="#L" n="74" break="no"/>bi contrarium. quia omnis vsus respectu dei est inordinatus 
-      <lb ed="#L" n="75"/>et ita abusus. Et ideo non oportet quod possit esse in eodem 
-      <lb ed="#L" n="76"/>subiecto. quia non sunt possibiles in rerum natura. 
-      <lb ed="#L" n="77"/>Tame concedendum est quod aliqui vsus respectu dei
-      contrarian<lb ed="#L" n="78" break="no"/>tur. sed vterque illorum erit abusus.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1396">
-      ⁋ Ad tertium dico 
-      <lb ed="#L" n="79"/>quod omnia sunt in deum referibilia. quia omnia sunt
-      assumen<lb ed="#L" n="80" break="no"/>da in facultatem voluntatis propter deum.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1403">
-      ⁋ Ad primam 
-      <lb ed="#L" n="81"/>probationem dico quod intentiones secunde sunt in deum 
-      re<lb ed="#L" n="82" break="no"/>feribiles. quia aliquas potest velle eas esse illo modo quo 
-      <lb ed="#L" n="83"/>sunt. et intelligi ad honorem dei. Et quando dicitur non possunt 
-      <lb ed="#L" n="84"/>undare relationem realem. concedo: sed ex hoc non sequitur quod 
-      <lb ed="#L" n="85"/>non sunt in deum referibiles. Unde quando aliquis 
-      deside<lb ed="#L" n="86" break="no"/>rat potionem futuram propter sanitatem. vel sanitatem 
-      <lb ed="#L" n="87"/>ptest deum. illa referuntur. quia desiderantur propter alia. et 
-      <lb ed="#L" n="88"/>a non sundant relationem realem. quia non sunt. Ita potest 
-      <lb ed="#L" n="89"/>dici in proposito. Et quando dicitur. vltra. non sunt res. ergo non 
-      <lb ed="#L" n="90"/>referuntur in deum. nego consequentiam. secundum opinionem quae 
-      po<lb ed="#L" n="91" break="no"/>nit quod tantum habent esse obiectiuum. quia entia rationis possunt 
-      re<lb ed="#L" n="92" break="no"/>ferri in deum: ex hoc ipso quod possunt acceptari esse illo modo 
-      <lb ed="#L" n="93"/>quo sunt propter deum.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1435">
-      ⁋ Ad secundam probationem dico quod 
-      <lb ed="#L" n="94"/>aliquid ordinari vel referri in deum potest intelligi dupliciter 
-      <lb ed="#L" n="95"/>vel tanquam volitum propter deum. vel tanquam nolitum propter 
-      <lb ed="#L" n="96"/>deum. Primo modo non est vtendum malo culpere. quia non 
-      <lb ed="#L" n="97"/>est volendum propter deum. Secundo modo est vtendum malo 
-      <lb ed="#L" n="98"/>culpre: quia est detestandum propter deum. Unde respectu 
-      <lb ed="#L" n="99"/>cuiuscumque potest voluntas habere aliquem actum. vel
-      volen<lb ed="#L" n="100" break="no"/>di: vel noledi: vel acceptandi: detestandi: vel
-      to<lb ed="#L" n="101" break="no"/>lerandi. quem non haberet nisi deo ostenso per intellectum 
-      <lb ed="#L" n="102"/>voluntati illo est vtendum.
-    </p>
-            <p xml:id="wo8uy7-d1e221-d1e1457">
-      ⁋ Si dicatur obiectum actus 
-      <lb ed="#L" n="103"/>vtendi est vtile. sed non omnia alia a deo sunt vtilia. sicut 
-      <lb ed="#L" n="104"/>mala et intentiones secunde et huiusmodi. ergo non omnia sunt 
-      ob<lb ed="#L" n="105" break="no"/>iecta actus vtendi. Respondeo. quod non omne obiectum actus 
-      <lb ed="#L" n="106"/>vtendi est vtile. quia vtile proprie est illud quod est 
-      appe<lb ed="#L" n="107" break="no"/>tendum propter aliquid consequendum. vel propter aliquid
-      conser<lb ed="#L" n="108" break="no"/>uandu. sed obiectum actus vtendi est omne illud quod potest 
-      assu<lb ed="#L" n="109" break="no"/>mi in facultatem voluntatis per quemcunque actum propter 
-      <lb ed="#L" n="110"/>aliud. ita scilicet quod voluntas tale actum circa illud. siue 
-      <!--135.xml-->
-      <pb ed="#L" n="66-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>actum volendi. siue actum nolendi. siue detestandi. 
-      <lb ed="#L" n="2"/>siue patiendi. siue quemcunque alium non eliceret 
-      cir<lb ed="#L" n="3" break="no"/>ca illud. nisi sibi aliud paesentaretur et assumeretur in 
-      <lb ed="#L" n="4"/>facultatem voluntatis. circa quod etiam habet actum
-      ali<lb ed="#L" n="5" break="no"/>quem 
-            </p>
-           <p xml:id="wo8uy7-d1e221-d1e1490">
-               ⁋ Ad quartum dico quod non semper voluntas 
-      vti<lb ed="#L" n="6" break="no"/>tur illo quod amat amore concupinte. sed quando precise 
-      <lb ed="#L" n="7"/>diligit illud amore concupintie et non amore amicitie 
-      <lb ed="#L" n="8"/>tunc vtitur illo. Nunc autem voluntas non diligit deum 
-      <lb ed="#L" n="9"/>praecise amore concupine: sed etiam amore amicitie. Et 
-      <lb ed="#L" n="10"/>quando dicitur hoc est vti aliquo diligere ipsum propter aliud  
-      <lb ed="#L" n="11"/>Dico quod hoc est verum quando diligitur praecise propter aliud. et 
-      <lb ed="#L" n="12"/>hoc est quod dictum est prius. quod vti aliquo proprie est quando 
-      <lb ed="#L" n="13"/>voluntas elicit aliquem actum circa aliquid. quem non 
-      <lb ed="#L" n="14"/>eliceret nisi aliquid aliud sibi paesentaretur. circa quod 
-      <lb ed="#L" n="15"/>habet actum suum
-    </p>
-         </div>
-      </body>
-   </text>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="64-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e221"><!-- l1d1q1 -->
+        <head xml:id="wo8uy7-d1e221-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e221-d1e111">
+          <!--130.xml-->
+          <pb ed="#L" n="64-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Questio prima. distinctionis prime. 
+          <lb ed="#L" n="2"/>CIrca prima 
+          <lb ed="#L" n="3"/>distinctione: in qua
+          <name>magi<lb ed="#L" n="4" break="no"/>ster</name> tractat de frui et
+          vti<lb ed="#L" n="5" break="no"/>Quero primo de vti. Utrum 
+          <lb ed="#L" n="6"/>tantum omni alio a deo sit
+          vten<lb ed="#L" n="7" break="no"/>dum. 
+          Quod non. arguo dupli 
+          <lb ed="#L" n="8"/>ci via. Primo quod non omni 
+          <lb ed="#L" n="9"/>alio a deo sit vtendum. primo sic. Ipso actu
+          vten<lb ed="#L" n="10" break="no"/>di non est vtendum: ergo non omni alio a deo est
+          vten<lb ed="#L" n="11" break="no"/>dum. consequentia patet. Atecedens probo. quia si sit 
+          vten<lb ed="#L" n="12" break="no"/>dum ipso actu vtendi. aut ergo eodem actu. aut 
+          <lb ed="#L" n="13"/>alio. Non eodem actu. quia non est idem actus rectus 
+          <lb ed="#L" n="14"/>et reflexus. Nec alio. quia tunc duo actus essent
+          si<lb ed="#L" n="15" break="no"/>mul in voluntate
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e153">
+          ⁋ Secundo sic. quocumque conuenit 
+          <lb ed="#L" n="16"/>vti eodem conuenit abuti. sed aliqua sunt quibus non 
+          <lb ed="#L" n="17"/>conuenit abuti. ergo aliqua sunt quibus non 
+          conue<lb ed="#L" n="18" break="no"/>nit vti. maior patet: quia opposita habent fieri 
+          cir<lb ed="#L" n="19" break="no"/>ca idem. sed vti et abuti sunt contraria. ergo circa 
+          <lb ed="#L" n="20"/>quod contingit vti: contingit abuti. minor patet. quia 
+          <lb ed="#L" n="21"/>virtutibus non contingit abuti. quia secundum magistrum 
+          <lb ed="#L" n="22"/>virtutibus nemo male vtitur: ergo nemo eis ab 
+          <lb ed="#L" n="23"/>utitur.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e173">
+          ⁋ Tertio sic. illo est vtendu: quod est in deum 
+          <lb ed="#L" n="24"/>referibile: sed multa sunt quae non conuenit referre in 
+          <lb ed="#L" n="25"/>deum: ergo etc. Maior patet. quia hoc est vti.
+          dili<lb ed="#L" n="26" break="no"/>gere aliquid propter aliud. et per consequens omne illud  
+          <lb ed="#L" n="27"/>quo est vtendum potest diligi propter aliud. sed vnum 
+          <lb ed="#L" n="28"/>quodque propter deum est maxime diligendum. ergo omne illud  
+          <lb ed="#L" n="29"/>quo est vtendum est in deum referibile. minor patet 
+          <lb ed="#L" n="30"/>Tum quia intentiones secunde: cum non possint 
+          funda<lb ed="#L" n="31" break="no"/>re relationem realem ad deum. non sunt in deum 
+          referi<lb ed="#L" n="32" break="no"/>biles: similiter non sunt diligende cum non sint res. Tum quia 
+          <lb ed="#L" n="33"/>mala: quae nec propter se: nec propter aliud sunt
+          aman<lb ed="#L" n="34" break="no"/>da. non sunt in deum referibilia.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e199">
+          ⁋ Secundo ostendo 
+          <lb ed="#L" n="35"/>quod deo sit vtendum. quia omni illo quod potest esse licite 
+          <lb ed="#L" n="36"/>obiectum amoris concupiscentie est vtendum. sed deus 
+          <lb ed="#L" n="37"/>licite potest amari amore concupiscentie. igitur deo 
+          <lb ed="#L" n="38"/>est vtendum. Maior patet. quia illud quod amatur 
+          amo<lb ed="#L" n="39" break="no"/>re concupiscentie: amatur propter aliud amatum 
+          amo<lb ed="#L" n="40" break="no"/>re amicitie. hoc est enim amari amore 
+          concupi<lb ed="#L" n="41" break="no"/>scentie. amari propter aliud amatum amore
+          amici<lb ed="#L" n="42" break="no"/>tie. quia amari amore concupiscentie. est esse 
+          concu<lb ed="#L" n="43" break="no"/>pitum vel desideratum alteri. sed quae diligit aliquid
+          pro<lb ed="#L" n="44" break="no"/>pter aliud vtitur illo. TMinor patet. quia illud quod est 
+          <lb ed="#L" n="45"/>vtile alicui amato amore amicitie. potest sibi 
+          con<lb ed="#L" n="46" break="no"/>cupisci. et per consequens amari amore
+          concupiscen<lb ed="#L" n="47" break="no"/>tie. sed deus est vtilis alicui creature rationali
+          ama<lb ed="#L" n="48" break="no"/>te amore amicitie. igitur potest licite concupisci
+          si<lb ed="#L" n="49" break="no"/>bi. igitur illa creatura potest licite vti deo.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e235">
+          ⁋ Ad
+          op<lb ed="#L" n="50" break="no"/>positum. solo illo est vtendum quod est ad aliud 
+          ordi<lb ed="#L" n="51" break="no"/>nabile et omni illo. sed quodlibet aliud a deo est 
+          or<lb ed="#L" n="52" break="no"/>dinabile ad deum: qui est finis omnium. et deus non est 
+          <lb ed="#L" n="53"/>lest ad aliud ordinabilis. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e246">
+          ⁋ Circa istam
+          quaestio<lb ed="#L" n="54" break="no"/>nem primo exponendus est intellectus. q. secundo ad. q. 
+          <!--130.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 64-r -->
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e257">
+          <lb ed="#L" n="55"/>⁋ Circa primum est sciendum quod non intelligitur quaeo de Primum 
+          <lb ed="#L" n="56"/>vsu quae est operatio cuiuscumque potentie: quo accipit 
+          <lb ed="#L" n="57"/>tur vsus quando dicitur. cuius vsus bonus: ipsum quam bonum 
+          <lb ed="#L" n="58"/>etc. Nec de vsu quo dicimurvti potentiis ad 
+          eli<lb ed="#L" n="59" break="no"/>ciendum actus potentiarum. Nec de vsu quo
+          dici<lb ed="#L" n="60" break="no"/>mur vti habitibus quando volumus. sed de vsu quo 
+          dici<lb ed="#L" n="61" break="no"/>mur vti aliquo tanquam obiecto. Et sic
+          intelligen<lb ed="#L" n="62" break="no"/>do questione. dico quod vti dupliciter accipitur scilicet
+          lar<lb ed="#L" n="63" break="no"/>ge et stricte. Targe est omnis actus voluntatis secundum 
+          <lb ed="#L" n="64"/>beatum augustinum. x. de trini. c. xi. Stricte autem
+          ae<lb ed="#L" n="65" break="no"/>cipitur secundum quod est aliquis actus voluntatis distinctus 
+          <lb ed="#L" n="66"/>contra frui. et sic magis in particulari intelligitur 
+          <lb ed="#L" n="67"/>questio.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e288">
+          ⁋ Circa quod primo videndum est quo di 
+          <lb ed="#L" n="68"/>stinguitur actus vtendi ab actu fruendi. Secundo 
+          <lb ed="#L" n="69"/>quod est obiectum actus vtendi
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e295">
+          ⁋ Circa primum sci 
+          <lb ed="#L" n="70"/>endum quod aliquis potest assumere aliquid in facultatem 
+          <lb ed="#L" n="71"/>voluntatis dupliciter. vel propter se vel propter aliud. 
+          <lb ed="#L" n="72"/>Primo modo aliquid assumitur in facultatem
+          volun<lb ed="#L" n="73" break="no"/>tatis. quando aliquid praesentatum voluntati per intellectum 
+          <lb ed="#L" n="74"/>etiam si sine omni alio praesentaretur: assumeretur in
+          facul<lb ed="#L" n="75" break="no"/>tatem voluntatis. Secundo modo assumitur in 
+          facul<lb ed="#L" n="76" break="no"/>tatem voluntatis quando aliquid assumitur in facultatem 
+          <lb ed="#L" n="77"/>voluntatis alio praesentato. ita quod si illud aliud non 
+          pre<lb ed="#L" n="78" break="no"/>sentaretur voluntati vel non assumeretur in 
+          faculta<lb ed="#L" n="79" break="no"/>tem voluntatis. illud non assumeretur in facultatem 
+          <lb ed="#L" n="80"/>voluntatis.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e321">
+          ⁋ Primus actus est non referibilis. quando 
+          <lb ed="#L" n="81"/>sicitus voluntas elicit aliquem actum circa illud. ita quod 
+          <lb ed="#L" n="82"/>eundem actum eliceret etiam posito quod nihil aliud  
+          <lb ed="#L" n="83"/>ostenderetur. sicut si alicui ostenderetur deus. appeteret 
+          <lb ed="#L" n="84"/>deum nullo alio sibi ostenso. Secundus actus est refe 
+          <lb ed="#L" n="85"/>ribils quando non eliceretur actus circa illud si nihil aliud 
+          <lb ed="#L" n="86"/>sibi ostenderetur. vel si nihil aliud assumeretur in 
+          facul<lb ed="#L" n="87" break="no"/>tatem voluntatis. sicut quando aliquis appetit potionem 
+          <lb ed="#L" n="88"/>amaram. quam non appeteret si non appeteret
+          sani<lb ed="#L" n="89" break="no"/>tatem. Sed quod aliquis actus sit non referibilis potest esse 
+          <lb ed="#L" n="90"/>dupliciter. vel quod obiectum acceptetur tanquam summum sibi 
+          <lb ed="#L" n="91"/>possibile pauntari. hoc est tamquam summe diligendum ab ea. 
+          <lb ed="#L" n="92"/>vel absolute quod acceptetur et absolute assumatur in 
+          <lb ed="#L" n="93"/>facultatem voluntatis nec vt summum nec vt not 
+          <lb ed="#L" n="94"/>summum. Primus actus est actus fruendi. quando aliquid 
+          <lb ed="#L" n="95"/>acceptatur tanquam simpliciter summum. Secundus actus 
+          <lb ed="#L" n="96"/>non est proprie frui nec proprie vti. sed tertius actus 
+          <lb ed="#L" n="97"/>est propriissime vti.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e361">
+          ⁋ Circa secundum dico quod 
+          ob<lb ed="#L" n="98" break="no"/>iectum vsus in communi qui et communis ad vsum ordinatum et ad  
+          <lb ed="#L" n="99"/>vsum inordinatum est quodlibet siue creatum siue 
+          increa<lb ed="#L" n="100" break="no"/>tum. hoc patet. quia quodlibet quod potest voluntas 
+          re<lb ed="#L" n="101" break="no"/>ferre ad aliud est obiectum vsus. sed voluntas ex 
+          li<lb ed="#L" n="102" break="no"/>bertate sua potest quodcumque referre ad aliud. ergo 
+          <lb ed="#L" n="103"/>potvti quocumque. maior est manifesta. minor patet: quia 
+          <lb ed="#L" n="104"/>quocumque sibi onso potest aliquid aliud magis
+          dilige<lb ed="#L" n="105" break="no"/>re: et per consequens potest diligere ipsum perper aliud. Secunda 
+          con<lb ed="#L" n="106" break="no"/>clusio est quod deus non est obiectum vsus ordinati. quia si sic 
+          <lb ed="#L" n="107"/>aut eset obiectum volitionis ordinate aut nolitionis. 
+          <lb ed="#L" n="108"/>non nolitionis. quia nullus potest ordinate odire deum. nec 
+          <lb ed="#L" n="109"/>volitionis. quia tunc posset aliquid plus amari ordinate
+          <!--131.xml-->
+          <pb ed="#L" n="64-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quam deus. Similiter finis vltimus non est ad aliquid 
+          <lb ed="#L" n="2"/>aliud referibilis. sed deus est simpliciter finis vltimus 
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e400">
+          <lb ed="#L" n="3"/>⁋ Tertia conclusio est quod omne aliud a deo
+          potes<lb ed="#L" n="4" break="no"/>esse obiectum vsus ordinati. hoc probatur. quia omne 
+          <lb ed="#L" n="5"/>aliud a summe acceptato potest assumi in 
+          faculta<lb ed="#L" n="6" break="no"/>tem voluntatis propter summe acceptatum. sed  
+          <lb ed="#L" n="7"/>deus ordinate summe acceptatur. ergo omne aliud a 
+          <lb ed="#L" n="8"/>deo potest ordinate assumi in facultatem voluntais 
+          <lb ed="#L" n="9"/>propter deum. et per consequens omni alio a deo contigit 
+          <lb ed="#L" n="10"/>ordinate vti. maior patet. quia omne aliud a summe
+          a<lb ed="#L" n="11" break="no"/>ceptato aut est bonum aut malum. Si bonum potest 
+          <lb ed="#L" n="12"/>esse amatum propter summe acceptatum. Si sit
+          ma<lb ed="#L" n="13" break="no"/>lum potest ordinate esse nolitum a voluntate propter 
+          <lb ed="#L" n="14"/>summe acceptatum. ergo omne aliud a summo acce 
+          <lb ed="#L" n="15"/>ptato potest ordinate assumi in facultatem 
+          volun<lb ed="#L" n="16" break="no"/>tatis propter ipsum. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e433">
+          ⁋ Sed circa praedicta sunt 
+          <lb ed="#L" n="17"/>tres difficultates. Prima est de illo medio actu 
+          <lb ed="#L" n="18"/>an talis actus sit possibilis. et an ille actus sit
+          ne<lb ed="#L" n="19" break="no"/>cessario malus vel bonus.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e442">
+          ⁋ Secunda difficultas est 
+          <lb ed="#L" n="20"/>de actu vtendi propriissime dicto an sit simplicitur 
+          <lb ed="#L" n="21"/>vnus actus numero. vel includat plures actus 
+          <lb ed="#L" n="22"/>distinctos numero. quorum vnus sit praecise respectu 
+          <lb ed="#L" n="23"/>finis et alius respectu illius quod est ad finem. 
+          <lb ed="#L" n="24"/>Tertia difficultas est tacta in primo argumento 
+          <lb ed="#L" n="25"/>principali. an actus vtendi quo quis vtitur actu suo 
+          <lb ed="#L" n="26"/>proprio vtendi sit idem actus numero vel alius. 
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e460">
+          <lb ed="#L" n="27"/>⁋ Ad primam dico quod est actus talis mediusquo 
+          <lb ed="#L" n="28"/>aliquid amatur. nec tanquam finis simpliciter vel vltimus 
+          <lb ed="#L" n="29"/>nec actualiter refertur in aliud. Et si dicitur. si non amatur 
+          <lb ed="#L" n="30"/>propter aliud. ergo amatur propter se. sed omne tale 
+          <lb ed="#L" n="31"/>amatur tanquam finis vltimus. Respondeo quod tale 
+          <lb ed="#L" n="32"/>amatur propter se. quia scilicet si nihil aliud ostenderetur 
+          vo<lb ed="#L" n="33" break="no"/>luntati adhuc amaretur. et tamen non tanquam finis
+          vlti<lb ed="#L" n="34" break="no"/>mus. saltem positiue. Quia tunc aliquid amatur 
+          tan<lb ed="#L" n="35" break="no"/>quam finis vltimus. quando acceptatur aliquid tanquam
+          ma<lb ed="#L" n="36" break="no"/>gis amandum omm alio. vel tanquam magis 
+          ama<lb ed="#L" n="37" break="no"/>tum omni alio quodcumque ostenderetur sibi amandum. sed 
+          <lb ed="#L" n="38"/>isto modo non omne amatum propter se est amatum 
+          <lb ed="#L" n="39"/>tanquam finis vltimus. quia aliquis apprehendens virtutem 
+          <lb ed="#L" n="40"/>et non cogitans de felicitate virtutem appetit. et 
+          <lb ed="#L" n="41"/>tamen non propter felicitatem. non tamen appetit virtutem 
+          <lb ed="#L" n="42"/>tanquam aliquid magis appetendum quam quodcumque
+          ali<lb ed="#L" n="43" break="no"/>ud si sibi ostenderetur. nec tanquam minus appetendum 
+          <lb ed="#L" n="44"/>et ita est de amato. et ita est aliquis actus medius 
+          <lb ed="#L" n="45"/>vt dictum est. hoc declaratur per philosophum id est ethicorum 
+          <lb ed="#L" n="46"/>vbi vult quod aliqua sunt eligibilia propter alia.
+          ali<lb ed="#L" n="47" break="no"/>quid autem praecise propter se et nullo modo propter aliud 
+          <lb ed="#L" n="48"/>aliquid autem et propter se et propter aliud. 
+          <lb ed="#L" n="49"/>Unde dicit sic. i. ethicorum. c. vii. Perfectius autem 
+          <lb ed="#L" n="50"/>dicimus quod secundum se ipsum est prosequibile eo quod 
+          <lb ed="#L" n="51"/>propter alterum. Et quod nunquam propter aliud
+          eli<lb ed="#L" n="52" break="no"/>gibile his quae secundum se ipsa et propter hoc eligibilius 
+          <lb ed="#L" n="53"/>Et simpliciter vtique perfectum quod secundum seipsum 
+          eligibi<lb ed="#L" n="54" break="no"/>le semper et nunquam propter aliud. tale vtique felicitat 
+          <lb ed="#L" n="55"/>maxime videtur esse. hanc enim eligimus semper propter 
+          <!--131.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 64-v -->
+          <lb ed="#L" n="56"/>seipsam et nunquam propter aliud. honorem vero et 
+          <lb ed="#L" n="57"/>voluptatem et intellectum et omnem virtutem eligimus 
+          <lb ed="#L" n="58"/>quidem et propter seipsam. nullo enim adueniente 
+          eli<lb ed="#L" n="59" break="no"/>geremus vtique vnumquodque ipsorum. eligimus autem et 
+          <lb ed="#L" n="60"/>felicitatis gratia per hoc su spicantes felices fore. 
+          <lb ed="#L" n="61"/>relicitatem autem nullus eligit horum gratia. neque omnino 
+          <lb ed="#L" n="62"/>propter aliud. Ex quo patet quod aliquid est volibile 
+          nul<lb ed="#L" n="63" break="no"/>lo alio praesentato voluntati. et ita tunc non eligitur
+          po<lb ed="#L" n="64" break="no"/>sitiue propter aliud. et tamen non est finis vltimus. sed 
+          <lb ed="#L" n="65"/>propter alium finem est eligibile. Et si dicitur quod ille 
+          <lb ed="#L" n="66"/>actus est malus quando diligitur aliquid quod est ad finem 
+          <lb ed="#L" n="67"/>et non propter finem. Respondeo quod actus
+          respe<lb ed="#L" n="68" break="no"/>ctu alicuius ad finem potest esse non malus. quamuis 
+          <lb ed="#L" n="69"/>non dirigatur vel non referatur positiue ad fine. et hoc 
+          <lb ed="#L" n="70"/>maxime si non apprehendatur finis. Et si dicitur. quod 
+          <lb ed="#L" n="71"/>omnis defectus circumstantie requisite ad actum bonum 
+          <lb ed="#L" n="72"/>facit actum malum. sed circumstantia finis est 
+          requi<lb ed="#L" n="73" break="no"/>sita ad actum moraliter bonum. ergo quandocunque deficit. 
+          <lb ed="#L" n="74"/>actus erit malus. sed in proposito deficit. ergo etc. 
+          <lb ed="#L" n="75"/>Respondeo quod non omnis defectus circumstantie
+          requi<lb ed="#L" n="76" break="no"/>site ad actu moraliter bonum facit actum esse malum 
+          <lb ed="#L" n="77"/>vel pectantum. tunc enim ignorantia nunquam excusaret 
+          <lb ed="#L" n="78"/>cum tamen secundum doctores et scecntos ignorantia aliquando 
+          ex<lb ed="#L" n="79" break="no"/>cuset a toto. sed quando deficit aliqua circumstantia 
+          <lb ed="#L" n="80"/>ad quam eliciens actum pro tunc obligatur. tunc est actus 
+          <lb ed="#L" n="81"/>malus. si autem non obligetur tunc ad illam 
+          circumstan<lb ed="#L" n="82" break="no"/>tiam non est actus malus.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e590">
+          ⁋ Ita est in proposito. 
+          <lb ed="#L" n="83"/>qui in tali casu non est iste obligatus ad volendum hoc 
+          <lb ed="#L" n="84"/>propter finem. si tamen eliceret actu circa hoc 
+          praestitu<lb ed="#L" n="85" break="no"/>endo illud tanquam finem sibi respectu omnium aliorum 
+          <lb ed="#L" n="86"/>peccaret.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e602">
+          ⁋ Circa secundam difficultatem posset 
+          ali<lb ed="#L" n="87" break="no"/>cui videri quod sit alius actus numero et specie. ita 
+          <lb ed="#L" n="88"/>quod talis actus vtendi non potest esse sine distinctie 
+          <lb ed="#L" n="89"/>actibus realiter differentibus. Et propter hoc potest 
+          <lb ed="#L" n="90"/>argui primo sic. Qande illud quod est ad finem diligitur. 
+          <lb ed="#L" n="91"/>propter finem: et finis et illud quod est ad finem diligitur. 
+          <lb ed="#L" n="92"/>led finis et illud quod est ad finem non possunt diligi 
+          <lb ed="#L" n="93"/>vno actu. ergo sunt ibi plures actus. Maior patet. quia 
+          <lb ed="#L" n="94"/>illud quod est ad finem certum est quod diligitur.
+          Ali<lb ed="#L" n="95" break="no"/>enim non esset ibi actus vtendi. cum non sit ibi nolitio 
+          <lb ed="#L" n="96"/>ipsius. Quod etiam finis diligatur patet. quia propter quod 
+          <lb ed="#L" n="97"/>vnumquodque tale et ipsum magis. ergo si illud quod est 
+          <lb ed="#L" n="98"/>ad finem diligatur propter finem. oportet quod finis 
+          ma<lb ed="#L" n="99" break="no"/>gis diligatur. Minor probatur. quia sinis diligitur actu 
+          <lb ed="#L" n="100"/>fruendi. quia diligitur propter se. illud quod est ad finem 
+          <lb ed="#L" n="101"/>diligitur actu vtendi. igitur si essent vnus actus 
+          nu<lb ed="#L" n="102" break="no"/>mero. idem actus numero esset actus vtendi et actus 
+          <lb ed="#L" n="103"/>fruendi. consequens est falsum quia iste sunt species 
+          oppo<lb ed="#L" n="104" break="no"/>site.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e644">
+          ⁋ Secundo potest argui sic. si esset tantum vnus actus 
+          <lb ed="#L" n="105"/>numero. actus vtendi esset perfectior actu fruendi 
+          <lb ed="#L" n="106"/>consequens est falsum ergo et antecedens. et consequentia 
+          <lb ed="#L" n="107"/>patet. quia esset aliquas actus voluntatis perfectior fruitione 
+          <lb ed="#L" n="108"/>diuine essentie. et per consequens beatitudine. 
+          conse<lb ed="#L" n="109" break="no"/>quentia patet. quia quando aliquo actu respiciuntur plura 
+          <lb ed="#L" n="110"/>obiecta ab aliqua potentia et eque perfecte. ille actus 
+          <!--132.xml-->
+          <pb ed="#L" n="65-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>est perfectior quam ille actus qui respicit pauciora. sed 
+          <lb ed="#L" n="2"/>isto posito fruitio: seu actus fruendi esset tantum
+          re<lb ed="#L" n="3" break="no"/>spectu finis. actus vtendi esset respectu finis: et 
+          <lb ed="#L" n="4"/>respectu illius quod est ad finem: et eque perfecte
+          re<lb ed="#L" n="5" break="no"/>spectu finis: sicut actus fruendi. quia per hoc quod aliquis 
+          <lb ed="#L" n="6"/>diligit aliquam creaturam propter deum. non minus
+          di<lb ed="#L" n="7" break="no"/>ligit deum. ergo actus vtendi creatura esset perfectior 
+          <lb ed="#L" n="8"/>actu fruendi deo
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e683">
+          ⁋ Tertio sic. voluntas non potest si 
+          <lb ed="#L" n="9"/>mul et semel habere duos actus perfectos respectu 
+          <lb ed="#L" n="10"/>eiusdem obiecti. sed posito actu meritorio in
+          volun<lb ed="#L" n="11" break="no"/>tate quo aliquis diligit deum propter se. potest offerri 
+          <lb ed="#L" n="12"/>voluntati per intellectum aliquid ordinabile et
+          di<lb ed="#L" n="13" break="no"/>ligibile propter deum: quod potest voluntas diligere 
+          pro<lb ed="#L" n="14" break="no"/>pter deum. et non oportet quod voluntas dimittat actum 
+          <lb ed="#L" n="15"/>primum meritorium. ergo tunc ille actus secundus elicitus 
+          <lb ed="#L" n="16"/>praecise terminabitur ad creaturam. Aliter essent simul 
+          <lb ed="#L" n="17"/>in voluntate duo actus respectu dei.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e705">
+          ⁋ Quarto 
+          <lb ed="#L" n="18"/>sic. sicut aliquos potest diligere aliquid propter aliud  
+          <lb ed="#L" n="19"/>dilectum: ita potest detestari aliquid propter aliud
+          di<lb ed="#L" n="20" break="no"/>lectum. ergo qua ratione actus diligendi aliquid propter aliud  
+          <lb ed="#L" n="21"/>est vnus actus numero habens vtrumque pro obiecto 
+          <lb ed="#L" n="22"/>eadem ratione actus detestandi aliquid propter aliud: seu 
+          <lb ed="#L" n="23"/>propter amorem alterius: est vnus habens vtrumque 
+          <lb ed="#L" n="24"/>pro obiecto. sed hoc est impossibile. quia tunc actus
+          aman<lb ed="#L" n="25" break="no"/>di: et actus odiendi essent vnus actus numero. Ista
+          vl<lb ed="#L" n="26" break="no"/>tima consequentia patet. quia si ille actus terminatur ad 
+          fi<lb ed="#L" n="27" break="no"/>nem. Aut illo actu amatur finis. aut oditur. Non
+          odi<lb ed="#L" n="28" break="no"/>tur: ergo amatur. ergo ille actus est actus amandi: et est actus 
+          <lb ed="#L" n="29"/>odiedi: quia aliquid illo oditur: ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e734">
+          ⁋ Quinto sic. idem 
+          <lb ed="#L" n="30"/>actus numero non potest esse intensus et remissus.
+          perfe<lb ed="#L" n="31" break="no"/>ctus et imperfectus. sed quicumque diligit aliquid propter 
+          <lb ed="#L" n="32"/>aliud scilicet propter finem intensius et perfectius diligit
+          fi<lb ed="#L" n="33" break="no"/>nem. et remissius et imperfectius diligit illud quod est 
+          <lb ed="#L" n="34"/>ad finem. ergo non eodem actu diligit vtrumque.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e747">
+          ⁋
+          Confir<lb ed="#L" n="35" break="no"/>matur. quia si eodem actu diligeret vtrumque. ergo ita
+          perfe<lb ed="#L" n="36" break="no"/>cto actu diligit aliquas meritorie creaturam sicut 
+          <lb ed="#L" n="37"/>deum. et per consequens tantum diligeret. et ita deus non esset summe 
+          <lb ed="#L" n="38"/>diligendus et super omnia: quod est absurdum.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e759">
+          ⁋ Sexto sic 
+          <lb ed="#L" n="39"/>tertio ethi. electio non est voluntas. quia electio est 
+          <lb ed="#L" n="40"/>eorum quae sunt ad finem. et voluntas est ipsius finis. sed 
+          <lb ed="#L" n="41"/>si esset vnus et idem actus electio ex hoc ipo quod esset
+          ali<lb ed="#L" n="42" break="no"/>cuius propter fine esset ipsius finis.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e770">
+          ⁋ Preterea. sicut intel 
+          <lb ed="#L" n="43"/>lectus non potest intelligere plura: ita nec voluntas 
+          <lb ed="#L" n="44"/>potest velle plura. ergo nec est vnus actus. nec est 
+          si<lb ed="#L" n="45" break="no"/>mul vtriusque voliti.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e779">
+          ⁋ Sed istis rationibus non
+          ob<lb ed="#L" n="46" break="no"/>stantibus videtur probabile quod possint esse duo actus 
+          <lb ed="#L" n="47"/>et quod potest esse vnus actus
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e786">
+          ⁋ hoc potest declarari: quia 
+          <lb ed="#L" n="48"/>sicut intellectus se habet ad principia et conclusio 
+          <lb ed="#L" n="49"/>nes: ita se habet voluntas ad finem: et ad ea quae sunt 
+          <lb ed="#L" n="50"/>ad finem. sed intellectus potest scire conclusionem 
+          distin<lb ed="#L" n="51" break="no"/>cto actu ab actu quo cognoscitur principium. et potest 
+          <lb ed="#L" n="52"/>vnico actu cognoscere vtrumque. ergo eodem modo
+          volun<lb ed="#L" n="53" break="no"/>tas potest habere distinctos actus respectu finis et
+          il<lb ed="#L" n="54" break="no"/>lius quod est ad finem. et vnum actum respectu vtriusque. 
+          <lb ed="#L" n="55"/>Ihaior patet de se. quia non minus potest voluntas super 
+          <!--132.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 65-r -->
+          <lb ed="#L" n="56"/>obiecta sua quam intellectus super obiecta sua. minor 
+          <lb ed="#L" n="57"/>patet quo ad primam partem. quia notitia principii est causa 
+          <lb ed="#L" n="58"/>notitie concionis. sed causa distinguitur realiter ab 
+          effe<lb ed="#L" n="59" break="no"/>ctu suo. ergo potest esse alius actus quo cognoscitur 
+          princi<lb ed="#L" n="60" break="no"/>pium et quo cognoscitur conclusio. Secunda pars minoris patet 
+          <lb ed="#L" n="61"/>qui non magis repugnat intellectui intelligere vni 
+          <lb ed="#L" n="62"/>co actu vnum discursum vel vnam consequentiam quam vnam 
+          pro<lb ed="#L" n="63" break="no"/>positionem. sed vnico actu potest intelligere vnam
+          pro<lb ed="#L" n="64" break="no"/>positionem. patet per philosophum. iiii de anima. vbi diuidit 
+          opera<lb ed="#L" n="65" break="no"/>tionem intellectus in operationem simplicium et
+          composi<lb ed="#L" n="66" break="no"/>torum. ergo si diuisio sit propria. ita erit vna intellectio 
+          <lb ed="#L" n="67"/>complexi sicut incomplexi. Preterea si non sit vnus 
+          <lb ed="#L" n="68"/>actus. ergo sunt duo actus distinctorum obiectorum. 
+          <lb ed="#L" n="69"/>sed hoc est falsum. quia tunc componere vel diuidere non 
+          <lb ed="#L" n="70"/>esset nisi habere diuersos actus respectu
+          diuerso<lb ed="#L" n="71" break="no"/>rum obiectorum. sed hoc est manifeste falsum. quia 
+          <lb ed="#L" n="72"/>tunc ita bene posset sensus componere et diuidere 
+          <lb ed="#L" n="73"/>sicut intellectus. quia sensus potest habere distinctos actus 
+          <lb ed="#L" n="74"/>distinctorum obiectorum. potest enim visus simul videre 
+          <lb ed="#L" n="75"/>diuersa alba vel nigrum et album. Preterea. iii. de 
+          <lb ed="#L" n="76"/>anima. sensus communis cognoscit differentiam diuersorum
+          sen<lb ed="#L" n="77" break="no"/>sibilium eiusdem sensus. aut ergo vnico actu aut
+          disti<lb ed="#L" n="78" break="no"/>ctis. si vno actu. ergo multo fortius tam intellectus 
+          <lb ed="#L" n="79"/>quam voluntas vnico actu possunt in multa obiecta. si 
+          <lb ed="#L" n="80"/>distinctur hoc potest sensus particularis. ergo propter illam 
+          <lb ed="#L" n="81"/>operatione non ortet ponere sensum communem. Preterea in 
+          <lb ed="#L" n="82"/>tellectus in patria vnico actu intelligit plura. quia 
+          <lb ed="#L" n="83"/>verbum et res in vbo secundum communiter loquentes. Similiter secundum communi 
+          <lb ed="#L" n="84"/>loquentes vnico actu diligit deum et creaturam. ergo hoc 
+          <lb ed="#L" n="85"/>non est negandum ab istisi via. ex quae non appret euidens ratio 
+          <lb ed="#L" n="86"/>in contrarium. nec experientia nec auctas scripture. Si 
+          <lb ed="#L" n="87"/>dicitur quod sint distincti actus. tunc neuter erit actus 
+          vten<lb ed="#L" n="88" break="no"/>di. non primus vt manifestum est nec secundus probo. quia 
+          <lb ed="#L" n="89"/>quando aliquis actus sine alio a quo potest separari non est 
+          <lb ed="#L" n="90"/>actus vtendi. ille idem coniunctus cum illo non erit actus 
+          <lb ed="#L" n="91"/>vtendi. quia actus alius non facit actum eundem numero. 
+          <lb ed="#L" n="92"/>esse actum vtendi quae non erat prius actus vtendi. nec 
+          <lb ed="#L" n="93"/>econuerso. sed ille actus quae praecise terminatur ad illud 
+          <lb ed="#L" n="94"/>quod est ad finem. posset esse sine omni actu respectu 
+          fi<lb ed="#L" n="95" break="no"/>nis. quia voluntas libere potest ferri in quodcumque
+          obie<lb ed="#L" n="96" break="no"/>ctum sibi onsum nullo alio oblato. sed hoc posito 
+          <lb ed="#L" n="97"/>non erit actus vtendi. quia non diligitur propter aliud. 
+          <lb ed="#L" n="98"/>nec ergo quando simul est cum actu respectu finis erit actus 
+          <lb ed="#L" n="99"/>vtendi. Confirmatur. quia actus quae praecise terminatur ad  
+          <lb ed="#L" n="100"/>vnum et potest esse sine omni alio non tendit in aliquid propter 
+          <lb ed="#L" n="101"/>aliud. ergo non est actus vtendi qui tendit in aliquid propter 
+          <lb ed="#L" n="102"/>aliud. quo enim tendit in aliquid propter aliud. si non 
+          <lb ed="#L" n="103"/>tendit in illud aliud. Ad istud potest dici quod stricte 
+          <lb ed="#L" n="104"/>loquendo de actu vtendi talis actus quae praecise 
+          ter<lb ed="#L" n="105" break="no"/>minatur ad aliquid non summe acceptatum hoc est non
+          ac<lb ed="#L" n="106" break="no"/>ceptatum tanquam summum non est actus vtendi. Et 
+          <lb ed="#L" n="107"/>ideo potest distingui de actu vtendi quod tripliciter 
+          acci<lb ed="#L" n="108" break="no"/>pitur. Uno modo pro omni actu qui non est fruitio. Alio 
+          <lb ed="#L" n="109"/>modo pro actu terminato ad aliquod obiectum causato ex 
+          <lb ed="#L" n="110"/>actu fruendi respectu alicuius. Tertio accipitur pro¬ 
+          <!--133.xml-->
+          <pb ed="#L" n="65-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>actu qui existens vnus tendit in aliquid propter aliud  
+          <lb ed="#L" n="2"/>Primo modo iste actus est actus vtedi. et hoc siue 
+          <lb ed="#L" n="3"/>nit coniunctus cum alio actu siue non. Secundo modo actus 
+          <lb ed="#L" n="4"/>iste non est actus vtendi. nisi quando causatur ex alio actu 
+          <lb ed="#L" n="5"/>sibi coniuncto. et isto modo accipiendo actum vtendi idem 
+          <lb ed="#L" n="6"/>actus numero potest esse primo actus vtendi. et postea 
+          <lb ed="#L" n="7"/>etiam manens potest non esse actus vtendi. quia potest 
+          <lb ed="#L" n="8"/>primo causari ab aliquo actu respectu finis vel 
+          <lb ed="#L" n="9"/>ab aliquo actu fruedi. et postea destructo illo 
+          <lb ed="#L" n="10"/>actu fruendi potest voluntas illum actum numero 
+          <lb ed="#L" n="11"/>continuare. sicut si aliquis diligat primo potionem 
+          <lb ed="#L" n="12"/>simpliciter quia diligit sanitatem. tunc illa dilectio
+          po<lb ed="#L" n="13" break="no"/>tionis erit actus vtendi. quia causatur ab alio actu 
+          <lb ed="#L" n="14"/>et si continuetur ex libertate voluntatis etiam quando
+          sani<lb ed="#L" n="15" break="no"/>tas actualiter non diligitur. tunc non erit actus vtendi 
+          <lb ed="#L" n="16"/>qui tunc non causatur ab alio. nec conseruatur ab illo 
+          <lb ed="#L" n="17"/>actu respectu sanitatis. Et tertio modo 
+          strictissi<lb ed="#L" n="18" break="no"/>me accipitur actus vtendi. et ille semper est idem
+          re<lb ed="#L" n="19" break="no"/>spectu diuersorum. Et ita dico quod non est 
+          inconue<lb ed="#L" n="20" break="no"/>niens eundem actum numero esse respectu finis 
+          vl<lb ed="#L" n="21" break="no"/>timi. et illorum que sunt ad finem. Ad primum
+          argu<lb ed="#L" n="22" break="no"/>nentum in conrium dico quod quando aliqua significant vnum et 
+          <lb ed="#L" n="23"/>connotant diuersa illa quamuis secundum nomen videantur 
+          <lb ed="#L" n="24"/>diuersa vel opposita. et respectu eiusdem
+          infer<lb ed="#L" n="25" break="no"/>rent oppositionem. tamen possunt eidem competere respectu 
+          <lb ed="#L" n="26"/>diuersorum. sicut est de naturali et libero et de 
+          con<lb ed="#L" n="27" break="no"/>tingenti et neccessario quod non possunt competere eidem 
+          re<lb ed="#L" n="28" break="no"/>spectu eiusdem. tamen non est inconueniens quod competant 
+          <lb ed="#L" n="29"/>eidem respectu diuersorum sicut voluntas diuina secundum 
+          <lb ed="#L" n="30"/>omns est principium producendi scilicet specitum sanctum
+          ne<lb ed="#L" n="31" break="no"/>cessario. et tamen est principium producendi creaturam 
+          <lb ed="#L" n="32"/>contingenter. Et ita est in proposito quod idem actus
+          po<lb ed="#L" n="33" break="no"/>test esse actus fruendi respectu finis vltimi. et 
+          <lb ed="#L" n="34"/>tamen esse actus vtendi respectu illius quod est ad  
+          <lb ed="#L" n="35"/>finem. hoc patet. quia actus diligendi deum est fruitio 
+          <lb ed="#L" n="36"/>respectu diuine essentie. et tamen diligens decum non 
+          <lb ed="#L" n="37"/>fruitur illo actu. sed vtitur eo. Ita poterit dici in 
+          pro<lb ed="#L" n="38" break="no"/>posito. Similiter intellectus vno actu scit conclusione. 
+          <lb ed="#L" n="39"/>et per consequens non tantum intelligit conclusionem illo actu. sed 
+          eti<lb ed="#L" n="40" break="no"/>am terminos illius conclusionis. et tamen illo actu scit 
+          <lb ed="#L" n="41"/>conclusionem et illo actuno scit aliquod incomplexum illius 
+          <lb ed="#L" n="42"/>conclusionis. Et ita idem actus respectu conclusionis dicitur 
+          <lb ed="#L" n="43"/>scientia. et respectu termini non dicitur scientia. sed potest aliter 
+          <lb ed="#L" n="44"/>denominari. igitur non est inconueniens eundem actum
+          volun<lb ed="#L" n="45" break="no"/>tatis sortiri diuersas denominationes propter 
+          diuer<lb ed="#L" n="46" break="no"/>sitatem obiectorum. vt isto actu dicatur voluntas frui 
+          <lb ed="#L" n="47"/>vno obiecto et vti alio obiecto. similiter aliquando est actus 
+          <lb ed="#L" n="48"/>vtendi sine omni actu fruendi.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1042">
+          ⁋ Ad secundum concedo quod 
+          <lb ed="#L" n="49"/>non est inconueniens aliquem actum vtendi esse
+          perfe<lb ed="#L" n="50" break="no"/>ctiorem aliquo fruendi actu quando ille actus vtendi 
+          <lb ed="#L" n="51"/>est etiam actus fruendi aliquo obiecto. Unde non 
+          <lb ed="#L" n="52"/>videtur quod actus quo diligitur creatura praecise propter
+          <lb ed="#L" n="53"/>deum. sit imperfectior quam actus quo diligitur precise 
+          <lb ed="#L" n="54"/>deus et hoc si sit actus equi intensus. quod non semper conti 
+          <lb ed="#L" n="55"/>git. Tame forte fruitio beatam in patria erit praecise a solo 
+          <!--133.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 65-v -->
+          <lb ed="#L" n="56"/>deo ea respectu solius dei: et tamen erit perfectior quam
+          quae<lb ed="#L" n="57" break="no"/>cunque: quae potest esse simul respectu dei: et respectu 
+          <lb ed="#L" n="58"/>creature. Nam illa quae potest esse respectu dei et
+          re<lb ed="#L" n="59" break="no"/>spectu creature potest elici a voluntate creata. 
+          <lb ed="#L" n="60"/>alia autem non.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1077">
+          ⁋ Ad tertium concedo: quod voluntas potest si 
+          <lb ed="#L" n="61"/>mul habere duos actus perfectos respectu
+          eiusdem<lb ed="#L" n="62" break="no"/>obiecti. maxime quando illud obiectum est obiectum
+          to<lb ed="#L" n="63" break="no"/>tale respectu vnius actus: et partiale tantum respectu 
+          <lb ed="#L" n="64"/>alterius. Et ita est in proposito. quod quando diligitur
+          fi<lb ed="#L" n="65" break="no"/>nis praecise propter se. tunc finis est obiectum totale illius 
+          <lb ed="#L" n="66"/>actus: quando nihil terminat illum actum nisi finis. quando aut 
+          <lb ed="#L" n="67"/>diligit illud quod est ad finem propter finem. est tantum 
+          ob<lb ed="#L" n="68" break="no"/>iectum partiale. Isto modo dictum fuit prius. quod quando primo 
+          <lb ed="#L" n="69"/>mo intelligitur aliquod incomplexum: et postea complexum. 
+          <lb ed="#L" n="70"/>poterit prima notitia remanere cum secunda. aliter enim 
+          <lb ed="#L" n="71"/>apprehensis terminis intellectus non posset statim 
+          <lb ed="#L" n="72"/>in eodem instanti formare ex illis propositionem. et per 
+          <lb ed="#L" n="73"/>consequens apprehensio terminorum non praesupponeretur per se
+          com<lb ed="#L" n="74" break="no"/>positioni et diuisioni. quia nihil per se praesupponitur 
+          ali<lb ed="#L" n="75" break="no"/>cui effectui: nisi quod potest manere cum illo effectu. 
+          <lb ed="#L" n="76"/>propter hoc enim ponit philosophus priuationem esse principium 
+          <lb ed="#L" n="77"/>tantum per accidens. Qualiter tamen haec sit intelligendum 
+          ali<lb ed="#L" n="78" break="no"/>bi ostendetur
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1120">
+          ⁋ Ad quartum potest concedi. quod idem actus 
+          <lb ed="#L" n="79"/>numero respectu vnius potest denominari detestatio seu 
+          <lb ed="#L" n="80"/>actus detestandi. et respectu alterius actus amandi. 
+          <lb ed="#L" n="81"/>quando vnico actu detestor aliquid propteraliud amatum 
+          <lb ed="#L" n="82"/>eodem actu
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1131">
+          ⁋ Si dicatur isti sunt actus oppositi scilicet 
+          <lb ed="#L" n="83"/>detestari et amare. quia nolle et velle sunt actus 
+          op<lb ed="#L" n="84" break="no"/>positi. sed detestari est nolle. amare est quoddam 
+          <lb ed="#L" n="85"/>velle. ergo etc. Potest dici quod sicut actus amandi: et 
+          <lb ed="#L" n="86"/>actus odiendi non opponuntur: nisi quando idem est amatum 
+          <lb ed="#L" n="87"/>et oditum. quia quando vnum est amatum: et aliud oditum non 
+          <lb ed="#L" n="88"/>opponuntur. Ita dicendum est de velle et nolle. 
+          <lb ed="#L" n="89"/>et frui et vti. Et ideo illa respectu eiusdem non possunt 
+          <lb ed="#L" n="90"/>eidem competere secundum quod sunt quaodam connotatiua. quamuis 
+          <lb ed="#L" n="91"/>possunt competere eidem respectu diuersorum.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1153">
+          ⁋ Ad 
+          quan<lb ed="#L" n="92" break="no"/>tum concedo. quod idem actus non potest esse intensus et
+          re<lb ed="#L" n="93" break="no"/>missus. tamen eodem actu potest aliquid diligi intense: et
+          ali<lb ed="#L" n="94" break="no"/>quid remisse. sicut deus intensissime diligit se ipsum. et 
+          <lb ed="#L" n="95"/>tamen non intensissime diligit quamcumque creaturam.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1164">
+          ⁋ Ad 
+          <lb ed="#L" n="96"/>confirmationem nego istam consequentiam. diligit illud 
+          <lb ed="#L" n="97"/>quod est ad finem actu equi intenso. ergo ita intense. Et ratio 
+          <lb ed="#L" n="98"/>omnium istorum est ista. quia diligere eque intense plus
+          con<lb ed="#L" n="99" break="no"/>notat quam actus equi intensus. de quo alias quomodo 
+          <lb ed="#L" n="100"/>debet intelligi patebit
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1177">
+          ⁋ Istam responsio confirmatur. quia deus 
+          <lb ed="#L" n="101"/>vno actu remisso plus acceptatur quam omnia alia. et tamen 
+          <lb ed="#L" n="102"/>de posito possibile est quod vnus actus creature sit in 
+          <lb ed="#L" n="103"/>tensior. et ita non sequitur. diligitur actu ita intenso. ergo 
+          <lb ed="#L" n="104"/>tantum diligitur.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1188">
+          ⁋ Ad sextum dico quod electio non est 
+          vo<lb ed="#L" n="105" break="no"/>luntas secundum intetionem philosophi. quia voluntas est respectu 
+          <lb ed="#L" n="106"/>alicuius respectu cuius: sicut respectu obiecti totalis 
+          <lb ed="#L" n="107"/>non est electio. Similiter voluntas est impossibilium. 
+          respe<lb ed="#L" n="108" break="no"/>ctu quorum non est electio. Unde voluntas vocatur quae est 
+          <lb ed="#L" n="109"/>respectu vnius tantum: et non vnius propter aliud. Electio 
+          <lb ed="#L" n="110"/>auat quae est respectu alicuius propt aliud primo volitum. 
+          <!--134.xml-->
+          <pb ed="#L" n="66-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Ad septimum dicitur communiter quod intellectus non potest simul 
+          in<lb ed="#L" n="2" break="no"/>telligere plura vt plura. sed plura vt vnum. eodem 
+          <lb ed="#L" n="3"/>modo voluntas non potest ferri in plura vt plura. sed  
+          <lb ed="#L" n="4"/>in plura vt vnum. Unde speailiter dicitur in proposito. quod 
+          <lb ed="#L" n="5"/>voluntas potest ferri in ea quae sunt ad fine vel secundum quod in 
+          <lb ed="#L" n="6"/>finem ordinantur: et sic est idem actus voluntatis respectu 
+          <lb ed="#L" n="7"/>finis et respectu eorum quae sunt ad finem. vel potest 
+          fer<lb ed="#L" n="8" break="no"/>ri in ea secundum quod sunt res quedam per se desiderables 
+          <lb ed="#L" n="9"/>et sic fertur in ea distincto actu. Unde dicitur quod in primo 
+          <lb ed="#L" n="10"/>modo ferendi in ista finis est obiectum formale et ratio 
+          <lb ed="#L" n="11"/>ferendi in ista. et illud quod est ad finem est obiectum 
+          <lb ed="#L" n="12"/>materiale. et sunt vnum obiectum sicut lumen et color 
+          <lb ed="#L" n="13"/>sunt vnum obiectum. Sed ista responsio non valet. quia ita 
+          <lb ed="#L" n="14"/>distincte intelligitur aliquid quando intelligitur cum alio 
+          <lb ed="#L" n="15"/>sicut quando intelligitur sine alio. et ita sub propria ratio 
+          <lb ed="#L" n="16"/>ne intelligitur. quia potest intelligi sub propria ratione
+          diffi<lb ed="#L" n="17" break="no"/>nitiua. et ita non intelligitur inquantum vnum. sed frequenter 
+          <lb ed="#L" n="18"/>mags iquantum diuersum. Preterea si finis esset obiectum 
+          <lb ed="#L" n="19"/>formale. et illud quod est ad finem obiectum
+          materia<lb ed="#L" n="20" break="no"/>le. igitur propter variationem illius quod est ad finem non 
+          <lb ed="#L" n="21"/>variaret actus. quia ad variationem obiecti
+          mate<lb ed="#L" n="22" break="no"/>rialis non variatur actus. sed hoc est falsum. quia tunc idem 
+          <lb ed="#L" n="23"/>actus numero esset diligere deum propter se et
+          dili<lb ed="#L" n="24" break="no"/>gere creaturam propter deum.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1263">
+          ⁋ Ideo dico ad 
+          argu<lb ed="#L" n="25" break="no"/>mentum quod sicut alias patebit intellectus potest
+          in<lb ed="#L" n="26" break="no"/>telligere plura vno actu et distinctum actibus. Et 
+          <lb ed="#L" n="27"/>si queratur. aut illa intelligit inquantum sunt plura. 
+          <lb ed="#L" n="28"/>aut vt vnum. Dico quod nec vt plura nec vt vnum 
+          <lb ed="#L" n="29"/>Unde neutra illarum est cum nota reduplicationis 
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1276">
+          <lb ed="#L" n="30"/>⁋ De tertia difficultate patebit in vna alia 
+          que<lb ed="#L" n="31" break="no"/>stione. ideo differatur vsque tunc.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1283">
+          ⁋ Ad argumentum 
+          pri<lb ed="#L" n="32" break="no"/>mum principale dico sicut 
+          po<lb ed="#L" n="33" break="no"/>alio vtendum est obiecto aliquo. et ipso actu
+          vten<lb ed="#L" n="34" break="no"/>di. et concedo conclusionem quod in voluntate possunt esse simul 
+          <lb ed="#L" n="35"/>duo actus volendi.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1294">
+          ⁋ Ad secundum dico quod vti aliquo 
+          <lb ed="#L" n="36"/>vel abuti contingit dupliciter. vel tanquam obiecto actus 
+          <lb ed="#L" n="37"/>voluntatis. vel tamquam aliquo habitu inclinante ad actum 
+          <lb ed="#L" n="38"/>sibi proprium. Et aliis modis contingit vti vel 
+          abu<lb ed="#L" n="39" break="no"/>ti. sed illi non sunt ad propositum. primo modo dico quod 
+          <lb ed="#L" n="40"/>quocumque conuenit vti: conuenit abuti: sed non 
+          econuer<lb ed="#L" n="41" break="no"/>so. quia sic vti secundum quod distingunitur contrsa abuti est ordinate 
+          <lb ed="#L" n="42"/>vti. Nunc autem deo conuenit abuti. sed nullo modo
+          con<lb ed="#L" n="43" break="no"/>uenit eo vti. quia nullus potest eo ordinate vti. tamen 
+          <lb ed="#L" n="44"/>quocumque conuenit ordinante vti: conuenit abuti. quia 
+          <lb ed="#L" n="45"/>qui quicqud potest esse obiectum vsus ordinati potest esse 
+          <lb ed="#L" n="46"/>obiectum abusus. Et quando dicitur quod virtutibus non contigit 
+          <lb ed="#L" n="47"/>abuti. Dico quod virtutibus contingit abuti sicut obiectis 
+          <lb ed="#L" n="48"/>quae enim desideraret caritatem propter se tanquam propter 
+          <lb ed="#L" n="49"/>nnem vltimum summe amatum abuteretur caritate. et 
+          <lb ed="#L" n="50"/>sic de aliis virtutibus. Unde isto modo secundum aliquos 
+          <lb ed="#L" n="51"/>primus angelus abutebatur beatitudine. quia appetebat 
+          <lb ed="#L" n="52"/>cam sibi inordinate. et propter se tanquam propter finem
+          vlti<lb ed="#L" n="53" break="no"/>mum. secundo modo ipsa caritate non contingit abuti. quia 
+          <lb ed="#L" n="54"/>ipsa non inclinat ad actum malum. et sic intelligit
+          ma<lb ed="#L" n="55" break="no"/>gister et augus. Tame accipiendo omne absolutum in 
+          <!--134.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 66-r -->
+          <lb ed="#L" n="56"/>quacumque virtute quod distinguitur a caritate illo
+          con<lb ed="#L" n="57" break="no"/>uenit abuti. sic declarabitur in tertio libro. Et quando 
+          <lb ed="#L" n="58"/>icitur quod contraria habent fieri circa idem. Dico quod contraia habent 
+          fi<lb ed="#L" n="59" break="no"/>eri circa idem subiectum. et ideo in quocumque subiecto potest 
+          <lb ed="#L" n="60"/>esse vsus. et abusus sibi contrarius et econuerso. sed non habent 
+          <lb ed="#L" n="61"/>fieri circa eundem effectum: nec semper circa idem
+          obie<lb ed="#L" n="62" break="no"/>ctum. Et ideo quantumcumque abusus possit esse circa deum 
+          <lb ed="#L" n="63"/>non tamen oportet quod vsus sibi contrarius possit esse circa eundem 
+          <lb ed="#L" n="64"/>Similiter quamuis contigat vti aliquo habitum respectu 
+          ali<lb ed="#L" n="65" break="no"/>cuius effectus. non tamen oportet quod possimus abuti eodem
+          habi<lb ed="#L" n="66" break="no"/>tum respectu alicuius effectus. quia ille habitus non habet
+          ali<lb ed="#L" n="67" break="no"/>quem alium effectum. Si dicitur quod ex hoc sequitur quod
+          cotin<lb ed="#L" n="68" break="no"/>gat ordinate vti deo. quia vsus ordinatus et abusus 
+          <lb ed="#L" n="69"/>conriantur. sed respectu dei in voluntate poterit esse 
+          ab<lb ed="#L" n="70" break="no"/>usus. ergo respectu dei potest esse vsus ordinatus ex quo 
+          <lb ed="#L" n="71"/>in quocumque potest esse vnum contrariorum subiective. 
+          reli<lb ed="#L" n="72" break="no"/>quum potest esse in eodem subiective. Respondeo quod ille 
+          abu<lb ed="#L" n="73" break="no"/>sus respectu dei non habet aliquem vsum ordinatum 
+          si<lb ed="#L" n="74" break="no"/>bi contrarium. quia omnis vsus respectu dei est inordinatus 
+          <lb ed="#L" n="75"/>et ita abusus. Et ideo non oportet quod possit esse in eodem 
+          <lb ed="#L" n="76"/>subiecto. quia non sunt possibiles in rerum natura. 
+          <lb ed="#L" n="77"/>Tame concedendum est quod aliqui vsus respectu dei
+          contrarian<lb ed="#L" n="78" break="no"/>tur. sed vterque illorum erit abusus.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1396">
+          ⁋ Ad tertium dico 
+          <lb ed="#L" n="79"/>quod omnia sunt in deum referibilia. quia omnia sunt
+          assumen<lb ed="#L" n="80" break="no"/>da in facultatem voluntatis propter deum.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1403">
+          ⁋ Ad primam 
+          <lb ed="#L" n="81"/>probationem dico quod intentiones secunde sunt in deum 
+          re<lb ed="#L" n="82" break="no"/>feribiles. quia aliquas potest velle eas esse illo modo quo 
+          <lb ed="#L" n="83"/>sunt. et intelligi ad honorem dei. Et quando dicitur non possunt 
+          <lb ed="#L" n="84"/>undare relationem realem. concedo: sed ex hoc non sequitur quod 
+          <lb ed="#L" n="85"/>non sunt in deum referibiles. Unde quando aliquis 
+          deside<lb ed="#L" n="86" break="no"/>rat potionem futuram propter sanitatem. vel sanitatem 
+          <lb ed="#L" n="87"/>ptest deum. illa referuntur. quia desiderantur propter alia. et 
+          <lb ed="#L" n="88"/>a non sundant relationem realem. quia non sunt. Ita potest 
+          <lb ed="#L" n="89"/>dici in proposito. Et quando dicitur. vltra. non sunt res. ergo non 
+          <lb ed="#L" n="90"/>referuntur in deum. nego consequentiam. secundum opinionem quae 
+          po<lb ed="#L" n="91" break="no"/>nit quod tantum habent esse obiectiuum. quia entia rationis possunt 
+          re<lb ed="#L" n="92" break="no"/>ferri in deum: ex hoc ipso quod possunt acceptari esse illo modo 
+          <lb ed="#L" n="93"/>quo sunt propter deum.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1435">
+          ⁋ Ad secundam probationem dico quod 
+          <lb ed="#L" n="94"/>aliquid ordinari vel referri in deum potest intelligi dupliciter 
+          <lb ed="#L" n="95"/>vel tanquam volitum propter deum. vel tanquam nolitum propter 
+          <lb ed="#L" n="96"/>deum. Primo modo non est vtendum malo culpere. quia non 
+          <lb ed="#L" n="97"/>est volendum propter deum. Secundo modo est vtendum malo 
+          <lb ed="#L" n="98"/>culpre: quia est detestandum propter deum. Unde respectu 
+          <lb ed="#L" n="99"/>cuiuscumque potest voluntas habere aliquem actum. vel
+          volen<lb ed="#L" n="100" break="no"/>di: vel noledi: vel acceptandi: detestandi: vel
+          to<lb ed="#L" n="101" break="no"/>lerandi. quem non haberet nisi deo ostenso per intellectum 
+          <lb ed="#L" n="102"/>voluntati illo est vtendum.
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1457">
+          ⁋ Si dicatur obiectum actus 
+          <lb ed="#L" n="103"/>vtendi est vtile. sed non omnia alia a deo sunt vtilia. sicut 
+          <lb ed="#L" n="104"/>mala et intentiones secunde et huiusmodi. ergo non omnia sunt 
+          ob<lb ed="#L" n="105" break="no"/>iecta actus vtendi. Respondeo. quod non omne obiectum actus 
+          <lb ed="#L" n="106"/>vtendi est vtile. quia vtile proprie est illud quod est 
+          appe<lb ed="#L" n="107" break="no"/>tendum propter aliquid consequendum. vel propter aliquid
+          conser<lb ed="#L" n="108" break="no"/>uandu. sed obiectum actus vtendi est omne illud quod potest 
+          assu<lb ed="#L" n="109" break="no"/>mi in facultatem voluntatis per quemcunque actum propter 
+          <lb ed="#L" n="110"/>aliud. ita scilicet quod voluntas tale actum circa illud. siue 
+          <!--135.xml-->
+          <pb ed="#L" n="66-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>actum volendi. siue actum nolendi. siue detestandi. 
+          <lb ed="#L" n="2"/>siue patiendi. siue quemcunque alium non eliceret 
+          cir<lb ed="#L" n="3" break="no"/>ca illud. nisi sibi aliud paesentaretur et assumeretur in 
+          <lb ed="#L" n="4"/>facultatem voluntatis. circa quod etiam habet actum
+          ali<lb ed="#L" n="5" break="no"/>quem 
+        </p>
+        <p xml:id="wo8uy7-d1e221-d1e1490">
+          ⁋ Ad quartum dico quod non semper voluntas 
+          vti<lb ed="#L" n="6" break="no"/>tur illo quod amat amore concupinte. sed quando precise 
+          <lb ed="#L" n="7"/>diligit illud amore concupintie et non amore amicitie 
+          <lb ed="#L" n="8"/>tunc vtitur illo. Nunc autem voluntas non diligit deum 
+          <lb ed="#L" n="9"/>praecise amore concupine: sed etiam amore amicitie. Et 
+          <lb ed="#L" n="10"/>quando dicitur hoc est vti aliquo diligere ipsum propter aliud  
+          <lb ed="#L" n="11"/>Dico quod hoc est verum quando diligitur praecise propter aliud. et 
+          <lb ed="#L" n="12"/>hoc est quod dictum est prius. quod vti aliquo proprie est quando 
+          <lb ed="#L" n="13"/>voluntas elicit aliquem actum circa aliquid. quem non 
+          <lb ed="#L" n="14"/>eliceret nisi aliquid aliud sibi paesentaretur. circa quod 
+          <lb ed="#L" n="15"/>habet actum suum
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

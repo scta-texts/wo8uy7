@@ -1,486 +1,486 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="138-v"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e568"><!-- l1d4q1 -->
-            <head xml:id="wo8uy7-d1e568-Hd1e108">Quaestio 1</head>
-            <p xml:id="wo8uy7-d1e568-d1e111">
-               <lb ed="#L" n="32"/>⁋ Distinctio quarta. Questio prima. 
-      <lb ed="#L" n="33"/>DIstinctione 
-      quar<lb ed="#L" n="34" break="no"/>ta querit magister. an deus 
-      <lb ed="#L" n="35"/>genuit deum. Secundo inquirit 
-      <lb ed="#L" n="36"/>an hec sit concedenda. Deus est 
-      <lb ed="#L" n="37"/>pater et filius et spiritus sancutus.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e127">
-      ⁋
-      Cir<lb ed="#L" n="38" break="no"/>ca primum quero. Utrum hoc sit 
-      <lb ed="#L" n="39"/>concedenda de virtute sermonis. deus generat deum. 
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e134">
-               <lb ed="#L" n="40"/>⁋ Quod non. quia sua contradictoria est vera. deus non generat 
-      <lb ed="#L" n="41"/>deum. patet quia nec filius nec spiritus sanctus generat deum. sed 
-      <lb ed="#L" n="42"/>filius est deus. et similiter spiritus sanctus.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e143">
-      ⁋ Quod sit sua 
-      <lb ed="#L" n="43"/>contradictoria patet. quia in singularibus non refert pripoone 
-      <lb ed="#L" n="44"/>re vel postponere negationem.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e151">
-      ⁋ Secundo sic. sequitur 
-      <lb ed="#L" n="45"/>consequentia formali. pater generat filium. ergo pater
-      distin<lb ed="#L" n="46" break="no"/>guitur a filio. ergo similiter sequitur deus generat deum. ergo 
-      <lb ed="#L" n="47"/>deus distinguitur a deo. consequens est falsum. ergo et anen. 
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e160">
-               <lb ed="#L" n="48"/>⁋ Preterea sequitur formaliter deus generat deum. 
-      <lb ed="#L" n="49"/>ergo gnerat se vel alium deum. sed ista disiunctiua est fal 
-      <lb ed="#L" n="50"/>sa. ergo et antecedens.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e169">
-      ⁋ Ad oppositum. pater generat filium et 
-      <lb ed="#L" n="51"/>tam pater quam filius est deus. ergo deus generat 
-      <lb ed="#L" n="52"/>deu.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e176">
-      ⁋ In ista questione supponenda est veritas. 
-      <lb ed="#L" n="53"/>quod sunt tres persone in vna essentia. que est realiter 
-      <lb ed="#L" n="54"/>eadem cum qualibet illarum personarum. Et quod pater 
-      <!--279.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 138-v -->
-               <lb ed="#L" n="55"/>vere generat filium. Sed difficultas quantum ad  
-      <lb ed="#L" n="56"/>istam questionem est de proprietate locutionis. an
-      si<lb ed="#L" n="57" break="no"/>cut ista conceditur de virtute sermonis. pater ge 
-      <lb ed="#L" n="58"/>nerat filium. ita sit hec concedenda de virtute secundumo 
-      <lb ed="#L" n="59"/>nis. Deus generat deum. Et ideo difficultas est de 
-      <lb ed="#L" n="60"/>suppositione istius termini deus.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e202">
-      ⁋ Et dicunt aliquo 
-      <lb ed="#L" n="61"/>quod hoc nomen deus ex suo modo significandi habet: vi 
-      <lb ed="#L" n="62"/>pprie possit pro persona supponere. Et ideo quandoque 
-      <lb ed="#L" n="63"/>hoc nomen deus supponit pro essentia. vt cum
-      di<lb ed="#L" n="64" break="no"/>citur deus creat. Qandeque pro persona vt cum dicitur deus 
-      <lb ed="#L" n="65"/>generat. Et ideo hec est concedenda deus generat 
-      <lb ed="#L" n="66"/>deum. quia terminus vtrobique supponit pro persona 
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e218">
-               <lb ed="#L" n="67"/>⁋ Ista opinio vera est. sed ipse in eadem quaestione 
-      <lb ed="#L" n="68"/>eam negat. quia in responsione ad tertium argumentum 
-      <lb ed="#L" n="69"/>dicit. quod quia forma quae significatur per hoc nomen deus 
-      <lb ed="#L" n="70"/>est vna. et communis secundum rem. Ideo per se supponit pro 
-      <lb ed="#L" n="71"/>natura communi. sed ex adiucto terminatur eius
-      sup<lb ed="#L" n="72" break="no"/>positio ad suppositum et personam. Unde cum dicitur deus 
-      <lb ed="#L" n="73"/>generat. ratione actus notionalis supponit hoc
-      no<lb ed="#L" n="74" break="no"/>men deus pro persona patris.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e239">
-      ⁋ Ex hoc arguo quan 
-      <lb ed="#L" n="75"/>do aliquid supponit pro aliquo praecise ratione
-      adium<lb ed="#L" n="76" break="no"/>cti non supponit pro eo ex modo suo significandi 
-      <lb ed="#L" n="77"/>et ita in eadem quaestione non tantum realiter: sed etiam vo 
-      <lb ed="#L" n="78"/>caliter idem concedit et negat. Unde in principio
-      so<lb ed="#L" n="79" break="no"/>lutionis quaestionis illud idem recitat quod modo asse 
-      <lb ed="#L" n="80"/>rit. dicens sic. quidam dixerunt quod hoc nomen deus 
-      <lb ed="#L" n="81"/>et similia proprie secundum suam naturam supponunt pro
-      es<lb ed="#L" n="82" break="no"/>sentia. sed ex adiuncto notionali trahitur ad
-      sup<lb ed="#L" n="83" break="no"/>ponendum pro persona. Et sequitur. sed in proprictatibus 
-      <lb ed="#L" n="84"/>locutionum non tantum attendenda est res significata 
-      <lb ed="#L" n="85"/>sed etiam modus significandi. ideo quia hoc nomen deus 
-      <lb ed="#L" n="86"/>significat diuinam essentiam vt in habente ipsam 
-      <lb ed="#L" n="87"/>sicut hoc nomen homo significat humanitatem 
-      <lb ed="#L" n="88"/>in supposito. ideo alii melius dixerunt quod hoc nomen 
-      <lb ed="#L" n="89"/>deus ex modo significandi habet vt possit
-      sup<lb ed="#L" n="90" break="no"/>ponere pro persona. Ecce quam manifeste idem negat et 
-      <lb ed="#L" n="91"/>concedit. cin etiam postea dicit quod hoc nomen
-      ho<lb ed="#L" n="92" break="no"/>mo non supponit pro natura communi nisi propter
-      exigen<lb ed="#L" n="93" break="no"/>tiam alicuius additi: non sic autem iste terminus deus 
-      <lb ed="#L" n="94"/>et ita dicta sua sibiipsis contradicunt
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e285">
-      ⁋ Aliter dici 
-      <lb ed="#L" n="95"/>tur quod hoc nomen deus significat principaliter
-      essen<lb ed="#L" n="96" break="no"/>tiam diuinam. et pro illa supponit. tamen ratione adiuncti 
-      <lb ed="#L" n="97"/>potest supponere pro supposito. et ideo quandocunque ali 
-      <lb ed="#L" n="98"/>quid conuenit diuine essentie siue in se siue in 
-      <lb ed="#L" n="99"/>supposito: negatiua negans illud a deo est falsa. 
-      <lb ed="#L" n="100"/>Sed contra. omnis terminus concretus habet
-      sup<lb ed="#L" n="101" break="no"/>ponere pro illo in quo sua forma reperitur. sicut 
-      <lb ed="#L" n="102"/>patet quod album non supponit pro albedine sed pro 
-      <lb ed="#L" n="103"/>subiecto illius albedinis. eodem modo quando sic dicitur 
-      <lb ed="#L" n="104"/>homo est filius dei non supponit pro natura huma 
-      <lb ed="#L" n="105"/>na: sed pro supposito sustentante naturam huma 
-      <lb ed="#L" n="106"/>nam. ergo eodem modo deus quantum est ex primo 
-      <lb ed="#L" n="107"/>modo significandi non supponit pro ipsa deitate 
-      <lb ed="#L" n="108"/>sed pro supposito deitatis
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e318">
-      ⁋ Preterea. quod innuir 
-      <lb ed="#L" n="109"/>quod pro alio supponit in affirmatiua aliqua et in ne 
-      <!--280.xml-->
-      <pb ed="#L" n="139-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>gatiua. hoc non est verum. quia terminus propter solam 
-      <lb ed="#L" n="2"/>negatione additam non mutat suppone. Aliter 
-      <lb ed="#L" n="3"/>enim posset faciliter dici quod hec esset falsa. animal non est 
-      <lb ed="#L" n="4"/>homo. ergo eodem modo supponit hoc nomen deus 
-      <lb ed="#L" n="5"/>in istis. deus generat. deus non generat. ergo sicut in 
-      <lb ed="#L" n="6"/>vna supponit pro supposito. ita et in alia.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e342">
-      ⁋ Ideo 
-      <lb ed="#L" n="7"/>dico aliter ad questionem. Et primo videndum est ali 
-      <lb ed="#L" n="8"/>quid de suppositione in communi.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e349">
-      ⁋ Secundo in speciali de 
-      <lb ed="#L" n="9"/>suppone huius termini deus.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e354">
-      ⁋ Circa primum
-      di<lb ed="#L" n="10" break="no"/>co quod suppo termini variatur dupliciter. Uel quia
-      sup<lb ed="#L" n="11" break="no"/>ponit pro alio et alio. vel quia aliter et aliter supponit 
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e362">
-               <lb ed="#L" n="12"/>⁋ Primo modo diuiditur suppoo in supponem
-      sim<lb ed="#L" n="13" break="no"/>plicem personalem et materialem. Supposo simplex 
-      <lb ed="#L" n="14"/>est quando terminus supponit pro conceptu. sicut hic homo 
-      <lb ed="#L" n="15"/>est species. Materialis quando supponit pro ipsomei 
-      <lb ed="#L" n="16"/>termino. sicut hoc. homo est nomen. Personalis quando 
-      <lb ed="#L" n="17"/>supponit pro aliquo supposito. hoc est pro aliqua re de 
-      <lb ed="#L" n="18"/>qua vere praedicatur. immo generaliter supposoto personalis 
-      <lb ed="#L" n="19"/>est quando terminus supponit pro suo significato. si 
-      <lb ed="#L" n="20"/>cut hoc. homo est animal.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e384">
-      ⁋ Tame est aduertendum quod
-      qui<lb ed="#L" n="21" break="no"/>dam terminus est concretus et quidam abstractus. 
-      <lb ed="#L" n="22"/>Terminus abstractus semper habet supponere quantum 
-      <lb ed="#L" n="23"/>est ex institutione instituentis pro suo significato. 
-      <lb ed="#L" n="24"/>ideo humanitas quantum est ex se semper supponit 
-      <lb ed="#L" n="25"/>pro hac humanitate et pro illa. et sic de aliis
-      signi<lb ed="#L" n="26" break="no"/>ticatis per istum terminum.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e400">
-      ⁋ Et ideo falsa est opinio 
-      <lb ed="#L" n="27"/>que dicit quod suppositio simplex est quando terminus 
-      <lb ed="#L" n="28"/>supponit pro suo significato. et suppositio perso 
-      <lb ed="#L" n="29"/>nalis quando supponit pro aliquo contento sub vno si 
-      <lb ed="#L" n="30"/>gnificato. quia intentio instituentis est principali 
-      <lb ed="#L" n="31"/>vti voce pro significato ad quod significandu 
-      <lb ed="#L" n="32"/>priam vocem instituit. Et ideo ex institutione 
-      <lb ed="#L" n="33"/>habet pro suo significato semper supponere. quia 
-      <lb ed="#L" n="34"/>tamen conceptus est primum signum. ideo ratione adium 
-      <lb ed="#L" n="35"/>cti potest supponere pro conceptu isto. sed terminus 
-      <lb ed="#L" n="36"/>concretus quia non significat praecise vnum. sed
-      signifi<lb ed="#L" n="37" break="no"/>cat vnum in recto et aliud in obliquo. quia si de 
-      <lb ed="#L" n="38"/>beret exprimi quid nominis ipsius concreti. vnum po 
-      <lb ed="#L" n="39"/>neretur in recto et aliud in obliquo. ideo concre 
-      <lb ed="#L" n="40"/>tum non supponit pro quolibet suo significato. sed 
-      <lb ed="#L" n="41"/>praecise pro illo quod ponitur in recto in ipsa
-      diffini<lb ed="#L" n="42" break="no"/>tione exprimenti quid nominis ipsius. et ideo album
-      ca<lb ed="#L" n="43" break="no"/>lidum et frigidum et huiusmodi supponunt pro ipsis obie 
-      <lb ed="#L" n="44"/>ctis. et non pro ipsis formis. ita est de talibus con 
-      <lb ed="#L" n="45"/>cretis. homo animal etc. quod supponunt pro illis quae
-      po<lb ed="#L" n="46" break="no"/>nuntur in eorum diffinitionibus. exprmentibus 
-      <lb ed="#L" n="47"/>quid nominis in recto. Si autem suppositio termini 
-      <lb ed="#L" n="48"/>varietur. quia supponit aliter et aliter pro eodem. 
-      <lb ed="#L" n="49"/>sic accipitur illa distinctio suppsonis. quod
-      queda<lb ed="#L" n="50" break="no"/>est confusa et distributiua. et quedam cofusa tantum. 
-      <lb ed="#L" n="51"/>et cetera. de quo non est modo dicendum. hic tamen 
-      <lb ed="#L" n="52"/>est aduertendu. quod quandocumque terminus ex se et ex in 
-      <lb ed="#L" n="53"/>tentione instituentis et ex natura institutionis 
-      <lb ed="#L" n="54"/>habet supponere pro aliquo et ratione adiuncti pro alio 
-      <lb ed="#L" n="55"/>vbicumque ponit ille terminus semper habet supponere 
-      <!--280.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 139-r -->
-               <lb ed="#L" n="56"/>pro primo. sed ratione adiuncti potest supponere pro se 
-      <lb ed="#L" n="57"/>cundo praecise. et tunc semper est propositio
-      distinguen<lb ed="#L" n="58" break="no"/>da penes tertium modum equiuocationis. quod potest super 
-      <lb ed="#L" n="59"/>ponere pro tali vel pro tali. et quandocumque non ponitur 
-      <lb ed="#L" n="60"/>respectu talis pertinentis ad tale adiunctum.
-      propo<lb ed="#L" n="61" break="no"/>sitio non est distinguenda. sed praecise supponit per 
-      <lb ed="#L" n="62"/>sonaliter. Uerbi gratia ista propositio est
-      distingue<lb ed="#L" n="63" break="no"/>da. homo est species. eo quod iste terminus homo potest sup 
-      <lb ed="#L" n="64"/>ponere personaliter. et tunc supponit pro illis hominibus 
-      <lb ed="#L" n="65"/>ad quos significandum instituitur. et tunc denota 
-      <lb ed="#L" n="66"/>tur quod iste homo vel ille homo est species. sic et quaelibet 
-      <lb ed="#L" n="67"/>istarum est falsa. ideo si lu homo supponat personaliter 
-      <lb ed="#L" n="68"/>ista. homo est species est simpliciter falsa. potest etiam
-      suppo<lb ed="#L" n="69" break="no"/>nere simpliciter: et tunc supponit pro ipso conceptu. non 
-      <lb ed="#L" n="70"/>quem significat sed quae est primum signum. et ista vox 
-      <lb ed="#L" n="71"/>quando est signum praesupponit illum conceptum esse signum 
-      <lb ed="#L" n="72"/>omnium homnm. et tunc est hec vera. homo est species. quia 
-      <lb ed="#L" n="73"/>denotatur quod iste conceptus sit species. et hoc est verum. 
-      <lb ed="#L" n="74"/>quia iste conceptus praedicatur in quid de pluribus 
-      <lb ed="#L" n="75"/>Et eodem modo est hec distinguenda. homo est vox 
-      <lb ed="#L" n="76"/>disspllaba. eo quod luod homo potest supponere personaliter 
-      <lb ed="#L" n="77"/>et tunc est simpliciter falsa. quia denotatur quod iste homo vel 
-      <lb ed="#L" n="78"/>ille homo. et sic de aliis. sit vox dissvllaba. quod est 
-      <lb ed="#L" n="79"/>simpliciter falsum. vel potest supponere materialiter: et 
-      <lb ed="#L" n="80"/>tunc est vera. quia tunc denotatur quod hec vox homo 
-      <lb ed="#L" n="81"/>sit vox dissvllaba. et hoc est verum. Sed iste
-      propo<lb ed="#L" n="82" break="no"/>sitiones homo est animal. homo currit. homo componitur ex
-      cor<lb ed="#L" n="83" break="no"/>pore et anima. et sic de aliis. quia nihil ponitur in eis 
-      <lb ed="#L" n="84"/>quod pertinet ad conceptum vel vocem. ideo non sunt
-      disti<lb ed="#L" n="85" break="no"/>guede: sed absolute praecise homo in eis supponit 
-      <lb ed="#L" n="86"/>personaliter. et pro indiuiduis. vel pro suppositis. 
-      <lb ed="#L" n="87"/>et denotatur quod de ipsis hominibus talia praedicata
-      ve<lb ed="#L" n="88" break="no"/>rificantur.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e543">
-      ⁋ Ex istis patet quomo talia quae dixi et qua 
-      <lb ed="#L" n="89"/>dicam. scilicet quod hoc potest accipi duplicitur vel triplici 
-      <lb ed="#L" n="90"/>ter. vel quod potest accipi sic vel sic. et si accipitur sic. 
-      <lb ed="#L" n="91"/>tunc est tale. et si accipitur aliter tunc est tale: sunt in 
-      <lb ed="#L" n="92"/>telligenda. quod non est intelligendum quod aliquod idem
-      pro<lb ed="#L" n="93" break="no"/>pter acceptionem meam vel considerationem. vel si 
-      <lb ed="#L" n="94"/>accipitur sic vel sic quod sit tale vel tale sicut alii di 
-      <lb ed="#L" n="95"/>cunt. sed est intelligendum sicut intelligit aristo. de 
-      <lb ed="#L" n="96"/>ipso termino. quod de eodem secundum quod pro diuerso et
-      di<lb ed="#L" n="97" break="no"/>uerso supponit aliud et aliud verificatur. immo idem affir 
-      <lb ed="#L" n="98"/>matur et negatur. sicut si in ista propositione homo est 
-      <lb ed="#L" n="99"/>nomen. led homo supponit materialiter. tunc est
-      sim<lb ed="#L" n="100" break="no"/>pliciter vera. si vero supponit personaliter est sim 
-      <lb ed="#L" n="101"/>plicitur falsa et suum oppositum verum. homo non est
-      no<lb ed="#L" n="102" break="no"/>men. et ita non est concedendum quod idem est nomen et non 
-      <lb ed="#L" n="103"/>est nomen propter diuersam considerationem vel ad 
-      <lb ed="#L" n="104"/>ceptionem. sed quod de eodem termino pro vno vere
-      af<lb ed="#L" n="105" break="no"/>firmatur esse nomen et de eodem termino pro alio
-      ve<lb ed="#L" n="106" break="no"/>re negatur esse nomen: et ita non est idem quod est nomen 
-      <lb ed="#L" n="107"/>et quod non est nomen sed de eodem termino propter va 
-      <lb ed="#L" n="108"/>riam suppositionem vere affirmatur et negatur idem 
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e589">
-               <lb ed="#L" n="109"/>⁋ Circa secundum dico quod iste terminus deus quantum est 
-      <lb ed="#L" n="110"/>ex modo significandi habet supponere praecise pro 
-      <!--281.xml-->
-      <pb ed="#L" n="139-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>supposito. intantum quod si suppositum differret realiter e 
-      <lb ed="#L" n="2"/>diuina essentia. sicut modo suppositum verbi dicere rea 
-      <lb ed="#L" n="3"/>liter a natura humana assumpta. iste terminus 
-      <lb ed="#L" n="4"/>nunquam supponeret ex natura modi
-      significa<lb ed="#L" n="5" break="no"/>di nisi pro supposito. et non pro natura et si ex vsu lo 
-      <lb ed="#L" n="6"/>quentium aliquando supponeret pro natura. hoc non esset 
-      <lb ed="#L" n="7"/>concedendum nisi ratione adiuncti. et tunc quando poneretur 
-      <lb ed="#L" n="8"/>respectu talis adiuncti talis propositio esset distinguen 
-      <lb ed="#L" n="9"/>da. eo quod ille terminus deus posset supponere pro 
-      <lb ed="#L" n="10"/>supposito vel pro natura. In aliis autem propositionibus 
-      <lb ed="#L" n="11"/>simpliciter supponeret pro supposito et non pro natura 
-      <lb ed="#L" n="12"/>qui tamen natura diuina et suppositum sunt vnum
-      rea<lb ed="#L" n="13" break="no"/>liter. ideo ex vsu loquendi scorum et maxime propter 
-      <lb ed="#L" n="14"/>hereticos ne detur occasio errandi et decipiendi 
-      <lb ed="#L" n="15"/>simplices qui nesciunt virtutem sermonis. nec
-      sci<lb ed="#L" n="16" break="no"/>unt quid est concedendum de virtute sermonis et quid 
-      <lb ed="#L" n="17"/>negandum. iste terminus deus supponit et pro nati 
-      <lb ed="#L" n="18"/>ra et pro supposito respectu omnis praedicati quod po 
-      <lb ed="#L" n="19"/>test competere tam nature quam supposito et hoc rationa 
-      <lb ed="#L" n="20"/>bimiliter propter maximam identitate nature et suppe 
-      <lb ed="#L" n="21"/>siti. vt loco istius termini licitum sit. resprectum omnis 
-      <lb ed="#L" n="22"/>talis praedicati ponere tam naturam quam suppositum 
-      <lb ed="#L" n="23"/>respectu autem praedicati quod praecise potest competere 
-      <lb ed="#L" n="24"/>supposito praecise supponit pro supposito. siue au 
-      <lb ed="#L" n="25"/>tem hoc sit ex natura modi significandi
-      commu<lb ed="#L" n="26" break="no"/>ni isti termino et aliis. siue ex vsu loquentium in 
-      <lb ed="#L" n="27"/>quorum beneplacito et pertante est vti terminis sic vel 
-      <lb ed="#L" n="28"/>sic. non curo ad praesens. Ronabimiliter tamen possumus sic 
-      <lb ed="#L" n="29"/>vti. tamen propter hereticos. quia si terminus suppone 
-      <lb ed="#L" n="30"/>ret praecise pro supposito. multe propositiones essent de 
-      <lb ed="#L" n="31"/>virtute sermonis concedende. quas heret ci proponen 
-      <lb ed="#L" n="32"/>tes simplicibus facerent eos credere pluralita 
-      <lb ed="#L" n="33"/>tem deorum et multitudinem diuine essentie. tum pro 
-      <lb ed="#L" n="34"/>pter identitatem dei et diuinitatis. quia enim deus et dei 
-      <lb ed="#L" n="35"/>tas sunt simpliciter idem. ideo quicquid praedicatur de deo 
-      <lb ed="#L" n="36"/>praedicatur et de deitate et ecouerso. cuius oppositum 
-      <lb ed="#L" n="37"/>non habetur ex scriptur etc. sicut alias fuit dictum 
-      <lb ed="#L" n="38"/>Et ideo nisi aliquid tale obstet. sequitur. iste
-      termi<lb ed="#L" n="39" break="no"/>nus deus supponit pro deo vel pro supposito 
-      <lb ed="#L" n="40"/>ergo supponit pro deitate et econuerso.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e689">
-      ⁋ Ex istis 
-      <lb ed="#L" n="41"/>dico ad quaonem quod ista est simpliciter concedenda de vtum 
-      <lb ed="#L" n="42"/>te sermdonis. deus generat deum. quia ein hoc ponitur aliqui 
-      <lb ed="#L" n="43"/>quod praecise potest competere supposito. ideo
-      supponi<lb ed="#L" n="44" break="no"/>pro supposito. et ideo sicut hoc est vera. pri generat fi 
-      <lb ed="#L" n="45"/>lium. ita haec est vera. deus generat deum
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e703">
-      ⁋ A primum 
-      <lb ed="#L" n="46"/>principale conceditur ab aliquibus quod haoc est vera de vir 
-      <lb ed="#L" n="47"/>tute sermonis. deus non generat deum. quia filius non ge 
-      <lb ed="#L" n="48"/>nerat deum. Et ista responsio videtur esse magis sor 
-      <lb ed="#L" n="49"/>malis et secundum artem logicam. quod scilicet terminus non habe 
-      <lb ed="#L" n="50"/>at aliam et aliam suppone in affirmatiua et negati 
-      <lb ed="#L" n="51"/>ua. hoc est non supponit pro alio et alio. quamuis possit 
-      <lb ed="#L" n="52"/>verificari pro alio. et ideo sicut ista. deus gene 
-      <lb ed="#L" n="53"/>rat deum verificatur pro patre. ita ista deus non gene 
-      <lb ed="#L" n="54"/>rat deum verificatur pro filio et pro spiritu sancto. et 
-      <lb ed="#L" n="55"/>tamen vere est generatio in diuinis. et vere deus gene 
-      <!--281.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 139-v -->
-               <lb ed="#L" n="56"/>rat deum. Et secundum hoc illa responsio in re non differi 
-      <lb ed="#L" n="57"/>ab aliis. quia nihil ponit nec negat in re. nisi sicut 
-      <lb ed="#L" n="58"/>alii. tamen propter hereticos vt taliter non deciperent 
-      <lb ed="#L" n="59"/>simplices inferentes quod si deus non generaret deum. 
-      <lb ed="#L" n="60"/>quod non esset ibi aliquis filius genitus. potest dici quod hoc 
-      <lb ed="#L" n="61"/>est salsa. deus non generat deum. Et eodem modo 
-      <lb ed="#L" n="62"/>quaelibet talis esset falsa. deus non est pater. deus non est 
-      <lb ed="#L" n="63"/>filius. et sic de aliis. quia ex vsu loquentium propter 
-      <lb ed="#L" n="64"/>identitatem dei cum quolibet quod est in divinis deno 
-      <lb ed="#L" n="65"/>taretur quod nihil quod est realiter deus generaret vel esset 
-      <lb ed="#L" n="66"/>pater vel filius. et sic de aliis quae omnia falsa sunt 
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e758">
-               <lb ed="#L" n="67"/>⁋ Ad secundum dico quod consequentia formalis est duplex. al 
-      <lb ed="#L" n="68"/>quando tenet ratione complexorum: et talis consequentia est sillogis 
-      <lb ed="#L" n="69"/>mus. quia vbicumque et ex quibuscumque terminis fiat siml 
-      <lb ed="#L" n="70"/>logismus habens tales praemissas sic dispositas. ibi est 
-      <lb ed="#L" n="71"/>bonus sillogismus. Similiter ab exclusiua ad vniversales de 
-      <lb ed="#L" n="72"/>terminis transpositum est bona consequentia. Similiter a
-      compu<lb ed="#L" n="73" break="no"/>latiua ad alteram partem est bona consequentia. quecunque 
-      <lb ed="#L" n="74"/>pars accipiatur. et talis consequentia tenet in omnibus
-      termi<lb ed="#L" n="75" break="no"/>nis. Aliquando consequentia est formalis praecise ratione termiorum. 
-      <lb ed="#L" n="76"/>qui scilicet termini ipsi se habent ad inuicem sic vel sic. et 
-      <lb ed="#L" n="77"/>isto modo ab vniversali ad singularem est bona consequentia non 
-      <lb ed="#L" n="78"/>ad quamcumque. sed quia terminus vnus continetur ab alio 
-      <lb ed="#L" n="79"/>Unde bene sequitur. omnis homo currit. ergo iste homo
-      cur<lb ed="#L" n="80" break="no"/>rit. demonstrato sorte qua vere est homo. sed non se 
-      <lb ed="#L" n="81"/>quitur omnis homo currit. ergo iste homo currit
-      de<lb ed="#L" n="82" break="no"/>monstrando asinum. Et ratio est. quia omnis consequentia formal 
-      <lb ed="#L" n="83"/>tenet per medium vnum intrinsecum. in quo vnus
-      ter<lb ed="#L" n="84" break="no"/>minus verificatur vel negatur ab alio. et ideo quan 
-      <lb ed="#L" n="85"/>do talis propositio per quamn consequentia deberet reduci in sillo 
-      <lb ed="#L" n="86"/>gismum est vera. tunc est bona consequentia et quando non est vera 
-      <lb ed="#L" n="87"/>tunc non valet ita est in proposito.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e806">
-      ⁋ Nam ista consequenti 
-      <lb ed="#L" n="88"/>non valet. pater generat filium. ergo distinguitur a filio. nisi 
-      <lb ed="#L" n="89"/>forte ratione terminorum. Unde bene sequitur pate 
-      <lb ed="#L" n="90"/>generat filium. ergo pater non est filius. et tamen non sequitur hoe 
-      <lb ed="#L" n="91"/>generat hominem. ergo homo non est homo. et ideo non sequi 
-      <lb ed="#L" n="92"/>deus generat deum. ergo deus distinguitur a deo. quia ista 
-      <lb ed="#L" n="93"/>consequentia est formalis. pater generat filium. ergo pater distinguitur 
-      <lb ed="#L" n="94"/>a filio. propter illud medium. idem non potest esse pater 
-      <lb ed="#L" n="95"/>et silius. tamen idem potest esse deus et deus.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e826">
-      ⁋ Ad ter 
-      <lb ed="#L" n="96"/>tium concedo quod sequitur. deus generat. ergo se vel alium ge 
-      <lb ed="#L" n="97"/>nerat. non tamen eodem addito vtrobique est bona consequent 
-      <lb ed="#L" n="98"/>qui illa regula in multis deficit. sequitur enim. homo 
-      <lb ed="#L" n="99"/>currit ergo animal currit. et tamen addendo vtrobique si 
-      <lb ed="#L" n="100"/>gnum vniversale non sequitur. non enim sequitur omnis homo currit. 
-      <lb ed="#L" n="101"/>ergo omne animal currit. Similiter sequitur homo est albus 
-      <lb ed="#L" n="102"/>ergo homo est ens. et tamen non sequitur formaliter. homo contin 
-      <lb ed="#L" n="103"/>genter est albus ergo homo contingenter est ens. sicut sequitur 
-      <lb ed="#L" n="104"/>deus creat. ergo deus est. et tamen non sequitur. deus conti 
-      <lb ed="#L" n="105"/>genter creat. ergo deus contingenter est. et ideo dico 
-      <lb ed="#L" n="106"/>quod illa regula est bona de addito tali quod
-      impor<lb ed="#L" n="107" break="no"/>tat aliquam rem absolutam additam aliis sicut sequitur. 
-      <lb ed="#L" n="108"/>homo currit. ergo animal currit. et ideo bene sequitur.
-      ho<lb ed="#L" n="109" break="no"/>mo albus currit. ergo animal album currit. quando tamen 
-      <lb ed="#L" n="110"/>additum est sincathegoreuma non sequitur. nec etiam 
-      <!--282.xml-->
-      <pb ed="#L" n="140-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>vniuersaliter in omnibus aliis sequitur. quamuis aliquando 
-      <lb ed="#L" n="2"/>gratia materie vel virtute alterius sequatur. et ideo 
-      <lb ed="#L" n="3"/>non sequitur. deus generat deum. ergo se deum vel alium dei 
-      <lb ed="#L" n="4"/>qui lued deum non importat rem additam alteri rei. quia 
-      <lb ed="#L" n="5"/>deus nulli additur. sed tantum est huiusmodi additio
-      ter<lb ed="#L" n="6" break="no"/>mini ad terminum. et tamen in aliquibus quando est 
-      <lb ed="#L" n="7"/>praecise additio termini ad terminum est consequentia bona 
-      <lb ed="#L" n="8"/>et aliquando non
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e885">
-      ⁋ Et si dicatur quod in illa pater est de 
-      <lb ed="#L" n="9"/>us. filius est deus. ie deus supponit pro
-      supposi<lb ed="#L" n="10" break="no"/>to. ergo propter additum non variat suppone. ergo
-      in<lb ed="#L" n="11" break="no"/>ista. pater est alius deus a filio. lued deus supponit 
-      <lb ed="#L" n="12"/>pro supposito. sed hoc est vera. pater est aliud
-      suppo<lb ed="#L" n="13" break="no"/>situm a filio. ergo hoc similiter est vera pater est alius deus a 
-      <lb ed="#L" n="14"/>filio. et per consequens filius est alius deus a patre. et per 
-      <lb ed="#L" n="15"/>consequens pater generat alium deum. ex quo generat filium 
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e903">
-               <lb ed="#L" n="16"/>⁋ Respodeo quod in ista. pater est deus. filius est deus 
-      <lb ed="#L" n="17"/>lved deus supponit et pro essentia et pro supposito. et 
-      <lb ed="#L" n="18"/>ideo per istam. pater est alius deus denotatur quod pate 
-      <lb ed="#L" n="19"/>sit aliud suppositum et alia essentia. et ideo hec est 
-      <lb ed="#L" n="20"/>simpliciter falsa.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e917">
-      ⁋ Si dicatur quod in ista pater generat deum. 
-      <lb ed="#L" n="21"/>lvd deum praecise supponit pro supposito. ergo similiter in 
-      <lb ed="#L" n="22"/>ista. pater generat alium deum. et per consequens. hec est simpliciter 
-      <lb ed="#L" n="23"/>vera. sicut hec est simpliciter vera. pater generat aliud  
-      <lb ed="#L" n="24"/>suppositum ex quo generat filium.
-    </p>
-            <p xml:id="wo8uy7-d1e568-d1e928">
-      ⁋ Respodeo quod l 
-      <lb ed="#L" n="25"/>alium siue de virtute sermonis siue ex vsu loquenti 
-      <lb ed="#L" n="26"/>um propter hereticos denotat alietatem tam in 
-      <lb ed="#L" n="27"/>supposito quam in natura que est eadem realiter cum 
-      <lb ed="#L" n="28"/>supposito.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="138-v"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e568"><!-- l1d4q1 -->
+        <head xml:id="wo8uy7-d1e568-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e568-d1e111">
+          <lb ed="#L" n="32"/>⁋ Distinctio quarta. Questio prima. 
+          <lb ed="#L" n="33"/>DIstinctione 
+          quar<lb ed="#L" n="34" break="no"/>ta querit magister. an deus 
+          <lb ed="#L" n="35"/>genuit deum. Secundo inquirit 
+          <lb ed="#L" n="36"/>an hec sit concedenda. Deus est 
+          <lb ed="#L" n="37"/>pater et filius et spiritus sancutus.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e127">
+          ⁋
+          Cir<lb ed="#L" n="38" break="no"/>ca primum quero. Utrum hoc sit 
+          <lb ed="#L" n="39"/>concedenda de virtute sermonis. deus generat deum. 
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e134">
+          <lb ed="#L" n="40"/>⁋ Quod non. quia sua contradictoria est vera. deus non generat 
+          <lb ed="#L" n="41"/>deum. patet quia nec filius nec spiritus sanctus generat deum. sed 
+          <lb ed="#L" n="42"/>filius est deus. et similiter spiritus sanctus.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e143">
+          ⁋ Quod sit sua 
+          <lb ed="#L" n="43"/>contradictoria patet. quia in singularibus non refert pripoone 
+          <lb ed="#L" n="44"/>re vel postponere negationem.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e151">
+          ⁋ Secundo sic. sequitur 
+          <lb ed="#L" n="45"/>consequentia formali. pater generat filium. ergo pater
+          distin<lb ed="#L" n="46" break="no"/>guitur a filio. ergo similiter sequitur deus generat deum. ergo 
+          <lb ed="#L" n="47"/>deus distinguitur a deo. consequens est falsum. ergo et anen. 
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e160">
+          <lb ed="#L" n="48"/>⁋ Preterea sequitur formaliter deus generat deum. 
+          <lb ed="#L" n="49"/>ergo gnerat se vel alium deum. sed ista disiunctiua est fal 
+          <lb ed="#L" n="50"/>sa. ergo et antecedens.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e169">
+          ⁋ Ad oppositum. pater generat filium et 
+          <lb ed="#L" n="51"/>tam pater quam filius est deus. ergo deus generat 
+          <lb ed="#L" n="52"/>deu.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e176">
+          ⁋ In ista questione supponenda est veritas. 
+          <lb ed="#L" n="53"/>quod sunt tres persone in vna essentia. que est realiter 
+          <lb ed="#L" n="54"/>eadem cum qualibet illarum personarum. Et quod pater 
+          <!--279.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 138-v -->
+          <lb ed="#L" n="55"/>vere generat filium. Sed difficultas quantum ad  
+          <lb ed="#L" n="56"/>istam questionem est de proprietate locutionis. an
+          si<lb ed="#L" n="57" break="no"/>cut ista conceditur de virtute sermonis. pater ge 
+          <lb ed="#L" n="58"/>nerat filium. ita sit hec concedenda de virtute secundumo 
+          <lb ed="#L" n="59"/>nis. Deus generat deum. Et ideo difficultas est de 
+          <lb ed="#L" n="60"/>suppositione istius termini deus.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e202">
+          ⁋ Et dicunt aliquo 
+          <lb ed="#L" n="61"/>quod hoc nomen deus ex suo modo significandi habet: vi 
+          <lb ed="#L" n="62"/>pprie possit pro persona supponere. Et ideo quandoque 
+          <lb ed="#L" n="63"/>hoc nomen deus supponit pro essentia. vt cum
+          di<lb ed="#L" n="64" break="no"/>citur deus creat. Qandeque pro persona vt cum dicitur deus 
+          <lb ed="#L" n="65"/>generat. Et ideo hec est concedenda deus generat 
+          <lb ed="#L" n="66"/>deum. quia terminus vtrobique supponit pro persona 
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e218">
+          <lb ed="#L" n="67"/>⁋ Ista opinio vera est. sed ipse in eadem quaestione 
+          <lb ed="#L" n="68"/>eam negat. quia in responsione ad tertium argumentum 
+          <lb ed="#L" n="69"/>dicit. quod quia forma quae significatur per hoc nomen deus 
+          <lb ed="#L" n="70"/>est vna. et communis secundum rem. Ideo per se supponit pro 
+          <lb ed="#L" n="71"/>natura communi. sed ex adiucto terminatur eius
+          sup<lb ed="#L" n="72" break="no"/>positio ad suppositum et personam. Unde cum dicitur deus 
+          <lb ed="#L" n="73"/>generat. ratione actus notionalis supponit hoc
+          no<lb ed="#L" n="74" break="no"/>men deus pro persona patris.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e239">
+          ⁋ Ex hoc arguo quan 
+          <lb ed="#L" n="75"/>do aliquid supponit pro aliquo praecise ratione
+          adium<lb ed="#L" n="76" break="no"/>cti non supponit pro eo ex modo suo significandi 
+          <lb ed="#L" n="77"/>et ita in eadem quaestione non tantum realiter: sed etiam vo 
+          <lb ed="#L" n="78"/>caliter idem concedit et negat. Unde in principio
+          so<lb ed="#L" n="79" break="no"/>lutionis quaestionis illud idem recitat quod modo asse 
+          <lb ed="#L" n="80"/>rit. dicens sic. quidam dixerunt quod hoc nomen deus 
+          <lb ed="#L" n="81"/>et similia proprie secundum suam naturam supponunt pro
+          es<lb ed="#L" n="82" break="no"/>sentia. sed ex adiuncto notionali trahitur ad
+          sup<lb ed="#L" n="83" break="no"/>ponendum pro persona. Et sequitur. sed in proprictatibus 
+          <lb ed="#L" n="84"/>locutionum non tantum attendenda est res significata 
+          <lb ed="#L" n="85"/>sed etiam modus significandi. ideo quia hoc nomen deus 
+          <lb ed="#L" n="86"/>significat diuinam essentiam vt in habente ipsam 
+          <lb ed="#L" n="87"/>sicut hoc nomen homo significat humanitatem 
+          <lb ed="#L" n="88"/>in supposito. ideo alii melius dixerunt quod hoc nomen 
+          <lb ed="#L" n="89"/>deus ex modo significandi habet vt possit
+          sup<lb ed="#L" n="90" break="no"/>ponere pro persona. Ecce quam manifeste idem negat et 
+          <lb ed="#L" n="91"/>concedit. cin etiam postea dicit quod hoc nomen
+          ho<lb ed="#L" n="92" break="no"/>mo non supponit pro natura communi nisi propter
+          exigen<lb ed="#L" n="93" break="no"/>tiam alicuius additi: non sic autem iste terminus deus 
+          <lb ed="#L" n="94"/>et ita dicta sua sibiipsis contradicunt
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e285">
+          ⁋ Aliter dici 
+          <lb ed="#L" n="95"/>tur quod hoc nomen deus significat principaliter
+          essen<lb ed="#L" n="96" break="no"/>tiam diuinam. et pro illa supponit. tamen ratione adiuncti 
+          <lb ed="#L" n="97"/>potest supponere pro supposito. et ideo quandocunque ali 
+          <lb ed="#L" n="98"/>quid conuenit diuine essentie siue in se siue in 
+          <lb ed="#L" n="99"/>supposito: negatiua negans illud a deo est falsa. 
+          <lb ed="#L" n="100"/>Sed contra. omnis terminus concretus habet
+          sup<lb ed="#L" n="101" break="no"/>ponere pro illo in quo sua forma reperitur. sicut 
+          <lb ed="#L" n="102"/>patet quod album non supponit pro albedine sed pro 
+          <lb ed="#L" n="103"/>subiecto illius albedinis. eodem modo quando sic dicitur 
+          <lb ed="#L" n="104"/>homo est filius dei non supponit pro natura huma 
+          <lb ed="#L" n="105"/>na: sed pro supposito sustentante naturam huma 
+          <lb ed="#L" n="106"/>nam. ergo eodem modo deus quantum est ex primo 
+          <lb ed="#L" n="107"/>modo significandi non supponit pro ipsa deitate 
+          <lb ed="#L" n="108"/>sed pro supposito deitatis
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e318">
+          ⁋ Preterea. quod innuir 
+          <lb ed="#L" n="109"/>quod pro alio supponit in affirmatiua aliqua et in ne 
+          <!--280.xml-->
+          <pb ed="#L" n="139-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>gatiua. hoc non est verum. quia terminus propter solam 
+          <lb ed="#L" n="2"/>negatione additam non mutat suppone. Aliter 
+          <lb ed="#L" n="3"/>enim posset faciliter dici quod hec esset falsa. animal non est 
+          <lb ed="#L" n="4"/>homo. ergo eodem modo supponit hoc nomen deus 
+          <lb ed="#L" n="5"/>in istis. deus generat. deus non generat. ergo sicut in 
+          <lb ed="#L" n="6"/>vna supponit pro supposito. ita et in alia.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e342">
+          ⁋ Ideo 
+          <lb ed="#L" n="7"/>dico aliter ad questionem. Et primo videndum est ali 
+          <lb ed="#L" n="8"/>quid de suppositione in communi.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e349">
+          ⁋ Secundo in speciali de 
+          <lb ed="#L" n="9"/>suppone huius termini deus.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e354">
+          ⁋ Circa primum
+          di<lb ed="#L" n="10" break="no"/>co quod suppo termini variatur dupliciter. Uel quia
+          sup<lb ed="#L" n="11" break="no"/>ponit pro alio et alio. vel quia aliter et aliter supponit 
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e362">
+          <lb ed="#L" n="12"/>⁋ Primo modo diuiditur suppoo in supponem
+          sim<lb ed="#L" n="13" break="no"/>plicem personalem et materialem. Supposo simplex 
+          <lb ed="#L" n="14"/>est quando terminus supponit pro conceptu. sicut hic homo 
+          <lb ed="#L" n="15"/>est species. Materialis quando supponit pro ipsomei 
+          <lb ed="#L" n="16"/>termino. sicut hoc. homo est nomen. Personalis quando 
+          <lb ed="#L" n="17"/>supponit pro aliquo supposito. hoc est pro aliqua re de 
+          <lb ed="#L" n="18"/>qua vere praedicatur. immo generaliter supposoto personalis 
+          <lb ed="#L" n="19"/>est quando terminus supponit pro suo significato. si 
+          <lb ed="#L" n="20"/>cut hoc. homo est animal.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e384">
+          ⁋ Tame est aduertendum quod
+          qui<lb ed="#L" n="21" break="no"/>dam terminus est concretus et quidam abstractus. 
+          <lb ed="#L" n="22"/>Terminus abstractus semper habet supponere quantum 
+          <lb ed="#L" n="23"/>est ex institutione instituentis pro suo significato. 
+          <lb ed="#L" n="24"/>ideo humanitas quantum est ex se semper supponit 
+          <lb ed="#L" n="25"/>pro hac humanitate et pro illa. et sic de aliis
+          signi<lb ed="#L" n="26" break="no"/>ticatis per istum terminum.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e400">
+          ⁋ Et ideo falsa est opinio 
+          <lb ed="#L" n="27"/>que dicit quod suppositio simplex est quando terminus 
+          <lb ed="#L" n="28"/>supponit pro suo significato. et suppositio perso 
+          <lb ed="#L" n="29"/>nalis quando supponit pro aliquo contento sub vno si 
+          <lb ed="#L" n="30"/>gnificato. quia intentio instituentis est principali 
+          <lb ed="#L" n="31"/>vti voce pro significato ad quod significandu 
+          <lb ed="#L" n="32"/>priam vocem instituit. Et ideo ex institutione 
+          <lb ed="#L" n="33"/>habet pro suo significato semper supponere. quia 
+          <lb ed="#L" n="34"/>tamen conceptus est primum signum. ideo ratione adium 
+          <lb ed="#L" n="35"/>cti potest supponere pro conceptu isto. sed terminus 
+          <lb ed="#L" n="36"/>concretus quia non significat praecise vnum. sed
+          signifi<lb ed="#L" n="37" break="no"/>cat vnum in recto et aliud in obliquo. quia si de 
+          <lb ed="#L" n="38"/>beret exprimi quid nominis ipsius concreti. vnum po 
+          <lb ed="#L" n="39"/>neretur in recto et aliud in obliquo. ideo concre 
+          <lb ed="#L" n="40"/>tum non supponit pro quolibet suo significato. sed 
+          <lb ed="#L" n="41"/>praecise pro illo quod ponitur in recto in ipsa
+          diffini<lb ed="#L" n="42" break="no"/>tione exprimenti quid nominis ipsius. et ideo album
+          ca<lb ed="#L" n="43" break="no"/>lidum et frigidum et huiusmodi supponunt pro ipsis obie 
+          <lb ed="#L" n="44"/>ctis. et non pro ipsis formis. ita est de talibus con 
+          <lb ed="#L" n="45"/>cretis. homo animal etc. quod supponunt pro illis quae
+          po<lb ed="#L" n="46" break="no"/>nuntur in eorum diffinitionibus. exprmentibus 
+          <lb ed="#L" n="47"/>quid nominis in recto. Si autem suppositio termini 
+          <lb ed="#L" n="48"/>varietur. quia supponit aliter et aliter pro eodem. 
+          <lb ed="#L" n="49"/>sic accipitur illa distinctio suppsonis. quod
+          queda<lb ed="#L" n="50" break="no"/>est confusa et distributiua. et quedam cofusa tantum. 
+          <lb ed="#L" n="51"/>et cetera. de quo non est modo dicendum. hic tamen 
+          <lb ed="#L" n="52"/>est aduertendu. quod quandocumque terminus ex se et ex in 
+          <lb ed="#L" n="53"/>tentione instituentis et ex natura institutionis 
+          <lb ed="#L" n="54"/>habet supponere pro aliquo et ratione adiuncti pro alio 
+          <lb ed="#L" n="55"/>vbicumque ponit ille terminus semper habet supponere 
+          <!--280.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 139-r -->
+          <lb ed="#L" n="56"/>pro primo. sed ratione adiuncti potest supponere pro se 
+          <lb ed="#L" n="57"/>cundo praecise. et tunc semper est propositio
+          distinguen<lb ed="#L" n="58" break="no"/>da penes tertium modum equiuocationis. quod potest super 
+          <lb ed="#L" n="59"/>ponere pro tali vel pro tali. et quandocumque non ponitur 
+          <lb ed="#L" n="60"/>respectu talis pertinentis ad tale adiunctum.
+          propo<lb ed="#L" n="61" break="no"/>sitio non est distinguenda. sed praecise supponit per 
+          <lb ed="#L" n="62"/>sonaliter. Uerbi gratia ista propositio est
+          distingue<lb ed="#L" n="63" break="no"/>da. homo est species. eo quod iste terminus homo potest sup 
+          <lb ed="#L" n="64"/>ponere personaliter. et tunc supponit pro illis hominibus 
+          <lb ed="#L" n="65"/>ad quos significandum instituitur. et tunc denota 
+          <lb ed="#L" n="66"/>tur quod iste homo vel ille homo est species. sic et quaelibet 
+          <lb ed="#L" n="67"/>istarum est falsa. ideo si lu homo supponat personaliter 
+          <lb ed="#L" n="68"/>ista. homo est species est simpliciter falsa. potest etiam
+          suppo<lb ed="#L" n="69" break="no"/>nere simpliciter: et tunc supponit pro ipso conceptu. non 
+          <lb ed="#L" n="70"/>quem significat sed quae est primum signum. et ista vox 
+          <lb ed="#L" n="71"/>quando est signum praesupponit illum conceptum esse signum 
+          <lb ed="#L" n="72"/>omnium homnm. et tunc est hec vera. homo est species. quia 
+          <lb ed="#L" n="73"/>denotatur quod iste conceptus sit species. et hoc est verum. 
+          <lb ed="#L" n="74"/>quia iste conceptus praedicatur in quid de pluribus 
+          <lb ed="#L" n="75"/>Et eodem modo est hec distinguenda. homo est vox 
+          <lb ed="#L" n="76"/>disspllaba. eo quod luod homo potest supponere personaliter 
+          <lb ed="#L" n="77"/>et tunc est simpliciter falsa. quia denotatur quod iste homo vel 
+          <lb ed="#L" n="78"/>ille homo. et sic de aliis. sit vox dissvllaba. quod est 
+          <lb ed="#L" n="79"/>simpliciter falsum. vel potest supponere materialiter: et 
+          <lb ed="#L" n="80"/>tunc est vera. quia tunc denotatur quod hec vox homo 
+          <lb ed="#L" n="81"/>sit vox dissvllaba. et hoc est verum. Sed iste
+          propo<lb ed="#L" n="82" break="no"/>sitiones homo est animal. homo currit. homo componitur ex
+          cor<lb ed="#L" n="83" break="no"/>pore et anima. et sic de aliis. quia nihil ponitur in eis 
+          <lb ed="#L" n="84"/>quod pertinet ad conceptum vel vocem. ideo non sunt
+          disti<lb ed="#L" n="85" break="no"/>guede: sed absolute praecise homo in eis supponit 
+          <lb ed="#L" n="86"/>personaliter. et pro indiuiduis. vel pro suppositis. 
+          <lb ed="#L" n="87"/>et denotatur quod de ipsis hominibus talia praedicata
+          ve<lb ed="#L" n="88" break="no"/>rificantur.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e543">
+          ⁋ Ex istis patet quomo talia quae dixi et qua 
+          <lb ed="#L" n="89"/>dicam. scilicet quod hoc potest accipi duplicitur vel triplici 
+          <lb ed="#L" n="90"/>ter. vel quod potest accipi sic vel sic. et si accipitur sic. 
+          <lb ed="#L" n="91"/>tunc est tale. et si accipitur aliter tunc est tale: sunt in 
+          <lb ed="#L" n="92"/>telligenda. quod non est intelligendum quod aliquod idem
+          pro<lb ed="#L" n="93" break="no"/>pter acceptionem meam vel considerationem. vel si 
+          <lb ed="#L" n="94"/>accipitur sic vel sic quod sit tale vel tale sicut alii di 
+          <lb ed="#L" n="95"/>cunt. sed est intelligendum sicut intelligit aristo. de 
+          <lb ed="#L" n="96"/>ipso termino. quod de eodem secundum quod pro diuerso et
+          di<lb ed="#L" n="97" break="no"/>uerso supponit aliud et aliud verificatur. immo idem affir 
+          <lb ed="#L" n="98"/>matur et negatur. sicut si in ista propositione homo est 
+          <lb ed="#L" n="99"/>nomen. led homo supponit materialiter. tunc est
+          sim<lb ed="#L" n="100" break="no"/>pliciter vera. si vero supponit personaliter est sim 
+          <lb ed="#L" n="101"/>plicitur falsa et suum oppositum verum. homo non est
+          no<lb ed="#L" n="102" break="no"/>men. et ita non est concedendum quod idem est nomen et non 
+          <lb ed="#L" n="103"/>est nomen propter diuersam considerationem vel ad 
+          <lb ed="#L" n="104"/>ceptionem. sed quod de eodem termino pro vno vere
+          af<lb ed="#L" n="105" break="no"/>firmatur esse nomen et de eodem termino pro alio
+          ve<lb ed="#L" n="106" break="no"/>re negatur esse nomen: et ita non est idem quod est nomen 
+          <lb ed="#L" n="107"/>et quod non est nomen sed de eodem termino propter va 
+          <lb ed="#L" n="108"/>riam suppositionem vere affirmatur et negatur idem 
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e589">
+          <lb ed="#L" n="109"/>⁋ Circa secundum dico quod iste terminus deus quantum est 
+          <lb ed="#L" n="110"/>ex modo significandi habet supponere praecise pro 
+          <!--281.xml-->
+          <pb ed="#L" n="139-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>supposito. intantum quod si suppositum differret realiter e 
+          <lb ed="#L" n="2"/>diuina essentia. sicut modo suppositum verbi dicere rea 
+          <lb ed="#L" n="3"/>liter a natura humana assumpta. iste terminus 
+          <lb ed="#L" n="4"/>nunquam supponeret ex natura modi
+          significa<lb ed="#L" n="5" break="no"/>di nisi pro supposito. et non pro natura et si ex vsu lo 
+          <lb ed="#L" n="6"/>quentium aliquando supponeret pro natura. hoc non esset 
+          <lb ed="#L" n="7"/>concedendum nisi ratione adiuncti. et tunc quando poneretur 
+          <lb ed="#L" n="8"/>respectu talis adiuncti talis propositio esset distinguen 
+          <lb ed="#L" n="9"/>da. eo quod ille terminus deus posset supponere pro 
+          <lb ed="#L" n="10"/>supposito vel pro natura. In aliis autem propositionibus 
+          <lb ed="#L" n="11"/>simpliciter supponeret pro supposito et non pro natura 
+          <lb ed="#L" n="12"/>qui tamen natura diuina et suppositum sunt vnum
+          rea<lb ed="#L" n="13" break="no"/>liter. ideo ex vsu loquendi scorum et maxime propter 
+          <lb ed="#L" n="14"/>hereticos ne detur occasio errandi et decipiendi 
+          <lb ed="#L" n="15"/>simplices qui nesciunt virtutem sermonis. nec
+          sci<lb ed="#L" n="16" break="no"/>unt quid est concedendum de virtute sermonis et quid 
+          <lb ed="#L" n="17"/>negandum. iste terminus deus supponit et pro nati 
+          <lb ed="#L" n="18"/>ra et pro supposito respectu omnis praedicati quod po 
+          <lb ed="#L" n="19"/>test competere tam nature quam supposito et hoc rationa 
+          <lb ed="#L" n="20"/>bimiliter propter maximam identitate nature et suppe 
+          <lb ed="#L" n="21"/>siti. vt loco istius termini licitum sit. resprectum omnis 
+          <lb ed="#L" n="22"/>talis praedicati ponere tam naturam quam suppositum 
+          <lb ed="#L" n="23"/>respectu autem praedicati quod praecise potest competere 
+          <lb ed="#L" n="24"/>supposito praecise supponit pro supposito. siue au 
+          <lb ed="#L" n="25"/>tem hoc sit ex natura modi significandi
+          commu<lb ed="#L" n="26" break="no"/>ni isti termino et aliis. siue ex vsu loquentium in 
+          <lb ed="#L" n="27"/>quorum beneplacito et pertante est vti terminis sic vel 
+          <lb ed="#L" n="28"/>sic. non curo ad praesens. Ronabimiliter tamen possumus sic 
+          <lb ed="#L" n="29"/>vti. tamen propter hereticos. quia si terminus suppone 
+          <lb ed="#L" n="30"/>ret praecise pro supposito. multe propositiones essent de 
+          <lb ed="#L" n="31"/>virtute sermonis concedende. quas heret ci proponen 
+          <lb ed="#L" n="32"/>tes simplicibus facerent eos credere pluralita 
+          <lb ed="#L" n="33"/>tem deorum et multitudinem diuine essentie. tum pro 
+          <lb ed="#L" n="34"/>pter identitatem dei et diuinitatis. quia enim deus et dei 
+          <lb ed="#L" n="35"/>tas sunt simpliciter idem. ideo quicquid praedicatur de deo 
+          <lb ed="#L" n="36"/>praedicatur et de deitate et ecouerso. cuius oppositum 
+          <lb ed="#L" n="37"/>non habetur ex scriptur etc. sicut alias fuit dictum 
+          <lb ed="#L" n="38"/>Et ideo nisi aliquid tale obstet. sequitur. iste
+          termi<lb ed="#L" n="39" break="no"/>nus deus supponit pro deo vel pro supposito 
+          <lb ed="#L" n="40"/>ergo supponit pro deitate et econuerso.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e689">
+          ⁋ Ex istis 
+          <lb ed="#L" n="41"/>dico ad quaonem quod ista est simpliciter concedenda de vtum 
+          <lb ed="#L" n="42"/>te sermdonis. deus generat deum. quia ein hoc ponitur aliqui 
+          <lb ed="#L" n="43"/>quod praecise potest competere supposito. ideo
+          supponi<lb ed="#L" n="44" break="no"/>pro supposito. et ideo sicut hoc est vera. pri generat fi 
+          <lb ed="#L" n="45"/>lium. ita haec est vera. deus generat deum
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e703">
+          ⁋ A primum 
+          <lb ed="#L" n="46"/>principale conceditur ab aliquibus quod haoc est vera de vir 
+          <lb ed="#L" n="47"/>tute sermonis. deus non generat deum. quia filius non ge 
+          <lb ed="#L" n="48"/>nerat deum. Et ista responsio videtur esse magis sor 
+          <lb ed="#L" n="49"/>malis et secundum artem logicam. quod scilicet terminus non habe 
+          <lb ed="#L" n="50"/>at aliam et aliam suppone in affirmatiua et negati 
+          <lb ed="#L" n="51"/>ua. hoc est non supponit pro alio et alio. quamuis possit 
+          <lb ed="#L" n="52"/>verificari pro alio. et ideo sicut ista. deus gene 
+          <lb ed="#L" n="53"/>rat deum verificatur pro patre. ita ista deus non gene 
+          <lb ed="#L" n="54"/>rat deum verificatur pro filio et pro spiritu sancto. et 
+          <lb ed="#L" n="55"/>tamen vere est generatio in diuinis. et vere deus gene 
+          <!--281.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 139-v -->
+          <lb ed="#L" n="56"/>rat deum. Et secundum hoc illa responsio in re non differi 
+          <lb ed="#L" n="57"/>ab aliis. quia nihil ponit nec negat in re. nisi sicut 
+          <lb ed="#L" n="58"/>alii. tamen propter hereticos vt taliter non deciperent 
+          <lb ed="#L" n="59"/>simplices inferentes quod si deus non generaret deum. 
+          <lb ed="#L" n="60"/>quod non esset ibi aliquis filius genitus. potest dici quod hoc 
+          <lb ed="#L" n="61"/>est salsa. deus non generat deum. Et eodem modo 
+          <lb ed="#L" n="62"/>quaelibet talis esset falsa. deus non est pater. deus non est 
+          <lb ed="#L" n="63"/>filius. et sic de aliis. quia ex vsu loquentium propter 
+          <lb ed="#L" n="64"/>identitatem dei cum quolibet quod est in divinis deno 
+          <lb ed="#L" n="65"/>taretur quod nihil quod est realiter deus generaret vel esset 
+          <lb ed="#L" n="66"/>pater vel filius. et sic de aliis quae omnia falsa sunt 
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e758">
+          <lb ed="#L" n="67"/>⁋ Ad secundum dico quod consequentia formalis est duplex. al 
+          <lb ed="#L" n="68"/>quando tenet ratione complexorum: et talis consequentia est sillogis 
+          <lb ed="#L" n="69"/>mus. quia vbicumque et ex quibuscumque terminis fiat siml 
+          <lb ed="#L" n="70"/>logismus habens tales praemissas sic dispositas. ibi est 
+          <lb ed="#L" n="71"/>bonus sillogismus. Similiter ab exclusiua ad vniversales de 
+          <lb ed="#L" n="72"/>terminis transpositum est bona consequentia. Similiter a
+          compu<lb ed="#L" n="73" break="no"/>latiua ad alteram partem est bona consequentia. quecunque 
+          <lb ed="#L" n="74"/>pars accipiatur. et talis consequentia tenet in omnibus
+          termi<lb ed="#L" n="75" break="no"/>nis. Aliquando consequentia est formalis praecise ratione termiorum. 
+          <lb ed="#L" n="76"/>qui scilicet termini ipsi se habent ad inuicem sic vel sic. et 
+          <lb ed="#L" n="77"/>isto modo ab vniversali ad singularem est bona consequentia non 
+          <lb ed="#L" n="78"/>ad quamcumque. sed quia terminus vnus continetur ab alio 
+          <lb ed="#L" n="79"/>Unde bene sequitur. omnis homo currit. ergo iste homo
+          cur<lb ed="#L" n="80" break="no"/>rit. demonstrato sorte qua vere est homo. sed non se 
+          <lb ed="#L" n="81"/>quitur omnis homo currit. ergo iste homo currit
+          de<lb ed="#L" n="82" break="no"/>monstrando asinum. Et ratio est. quia omnis consequentia formal 
+          <lb ed="#L" n="83"/>tenet per medium vnum intrinsecum. in quo vnus
+          ter<lb ed="#L" n="84" break="no"/>minus verificatur vel negatur ab alio. et ideo quan 
+          <lb ed="#L" n="85"/>do talis propositio per quamn consequentia deberet reduci in sillo 
+          <lb ed="#L" n="86"/>gismum est vera. tunc est bona consequentia et quando non est vera 
+          <lb ed="#L" n="87"/>tunc non valet ita est in proposito.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e806">
+          ⁋ Nam ista consequenti 
+          <lb ed="#L" n="88"/>non valet. pater generat filium. ergo distinguitur a filio. nisi 
+          <lb ed="#L" n="89"/>forte ratione terminorum. Unde bene sequitur pate 
+          <lb ed="#L" n="90"/>generat filium. ergo pater non est filius. et tamen non sequitur hoe 
+          <lb ed="#L" n="91"/>generat hominem. ergo homo non est homo. et ideo non sequi 
+          <lb ed="#L" n="92"/>deus generat deum. ergo deus distinguitur a deo. quia ista 
+          <lb ed="#L" n="93"/>consequentia est formalis. pater generat filium. ergo pater distinguitur 
+          <lb ed="#L" n="94"/>a filio. propter illud medium. idem non potest esse pater 
+          <lb ed="#L" n="95"/>et silius. tamen idem potest esse deus et deus.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e826">
+          ⁋ Ad ter 
+          <lb ed="#L" n="96"/>tium concedo quod sequitur. deus generat. ergo se vel alium ge 
+          <lb ed="#L" n="97"/>nerat. non tamen eodem addito vtrobique est bona consequent 
+          <lb ed="#L" n="98"/>qui illa regula in multis deficit. sequitur enim. homo 
+          <lb ed="#L" n="99"/>currit ergo animal currit. et tamen addendo vtrobique si 
+          <lb ed="#L" n="100"/>gnum vniversale non sequitur. non enim sequitur omnis homo currit. 
+          <lb ed="#L" n="101"/>ergo omne animal currit. Similiter sequitur homo est albus 
+          <lb ed="#L" n="102"/>ergo homo est ens. et tamen non sequitur formaliter. homo contin 
+          <lb ed="#L" n="103"/>genter est albus ergo homo contingenter est ens. sicut sequitur 
+          <lb ed="#L" n="104"/>deus creat. ergo deus est. et tamen non sequitur. deus conti 
+          <lb ed="#L" n="105"/>genter creat. ergo deus contingenter est. et ideo dico 
+          <lb ed="#L" n="106"/>quod illa regula est bona de addito tali quod
+          impor<lb ed="#L" n="107" break="no"/>tat aliquam rem absolutam additam aliis sicut sequitur. 
+          <lb ed="#L" n="108"/>homo currit. ergo animal currit. et ideo bene sequitur.
+          ho<lb ed="#L" n="109" break="no"/>mo albus currit. ergo animal album currit. quando tamen 
+          <lb ed="#L" n="110"/>additum est sincathegoreuma non sequitur. nec etiam 
+          <!--282.xml-->
+          <pb ed="#L" n="140-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>vniuersaliter in omnibus aliis sequitur. quamuis aliquando 
+          <lb ed="#L" n="2"/>gratia materie vel virtute alterius sequatur. et ideo 
+          <lb ed="#L" n="3"/>non sequitur. deus generat deum. ergo se deum vel alium dei 
+          <lb ed="#L" n="4"/>qui lued deum non importat rem additam alteri rei. quia 
+          <lb ed="#L" n="5"/>deus nulli additur. sed tantum est huiusmodi additio
+          ter<lb ed="#L" n="6" break="no"/>mini ad terminum. et tamen in aliquibus quando est 
+          <lb ed="#L" n="7"/>praecise additio termini ad terminum est consequentia bona 
+          <lb ed="#L" n="8"/>et aliquando non
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e885">
+          ⁋ Et si dicatur quod in illa pater est de 
+          <lb ed="#L" n="9"/>us. filius est deus. ie deus supponit pro
+          supposi<lb ed="#L" n="10" break="no"/>to. ergo propter additum non variat suppone. ergo
+          in<lb ed="#L" n="11" break="no"/>ista. pater est alius deus a filio. lued deus supponit 
+          <lb ed="#L" n="12"/>pro supposito. sed hoc est vera. pater est aliud
+          suppo<lb ed="#L" n="13" break="no"/>situm a filio. ergo hoc similiter est vera pater est alius deus a 
+          <lb ed="#L" n="14"/>filio. et per consequens filius est alius deus a patre. et per 
+          <lb ed="#L" n="15"/>consequens pater generat alium deum. ex quo generat filium 
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e903">
+          <lb ed="#L" n="16"/>⁋ Respodeo quod in ista. pater est deus. filius est deus 
+          <lb ed="#L" n="17"/>lved deus supponit et pro essentia et pro supposito. et 
+          <lb ed="#L" n="18"/>ideo per istam. pater est alius deus denotatur quod pate 
+          <lb ed="#L" n="19"/>sit aliud suppositum et alia essentia. et ideo hec est 
+          <lb ed="#L" n="20"/>simpliciter falsa.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e917">
+          ⁋ Si dicatur quod in ista pater generat deum. 
+          <lb ed="#L" n="21"/>lvd deum praecise supponit pro supposito. ergo similiter in 
+          <lb ed="#L" n="22"/>ista. pater generat alium deum. et per consequens. hec est simpliciter 
+          <lb ed="#L" n="23"/>vera. sicut hec est simpliciter vera. pater generat aliud  
+          <lb ed="#L" n="24"/>suppositum ex quo generat filium.
+        </p>
+        <p xml:id="wo8uy7-d1e568-d1e928">
+          ⁋ Respodeo quod l 
+          <lb ed="#L" n="25"/>alium siue de virtute sermonis siue ex vsu loquenti 
+          <lb ed="#L" n="26"/>um propter hereticos denotat alietatem tam in 
+          <lb ed="#L" n="27"/>supposito quam in natura que est eadem realiter cum 
+          <lb ed="#L" n="28"/>supposito.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
