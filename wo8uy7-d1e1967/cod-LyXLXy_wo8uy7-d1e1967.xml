@@ -1,410 +1,410 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 6(7)</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 6(7)</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="286-v"/>
-            <cb ed="#L" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e1967"><!-- l2q6(7) -->
-            <head xml:id="wo8uy7-d1e1967-Hd1e108">Quaestio 6(7)</head> 
-            <!-- six in list -->
-            <p xml:id="wo8uy7-d1e1967-d1e113">
-      Questio. vii. 
-      <lb ed="#L" n="97"/>UTrum coueniat cre 
-      <lb ed="#L" n="98"/>ature habere potentiam creandi. Quod sicut pro 
-      <lb ed="#L" n="99"/>lbatur: quia creatura potest annihilare: ergo 
-      <lb ed="#L" n="100"/>et creare. consequentia patet. antecedens probatur: quia calor maximus 
-      <lb ed="#L" n="101"/>potest annihilare frigus minimum. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e126">
-      ⁋ Ad opposi 
-      <lb ed="#L" n="102"/>tum. creatura non potest super distantiam infinitam: sed a nihi 
-      <lb ed="#L" n="103"/>lo ad aliquid est distantia infinita. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e133">
-      ⁋ Qpinio 
-      <lb ed="#L" n="104"/>Ioh. est quod non: propter rationes quas ponit in quarto quaestio 
-      <lb ed="#L" n="105"/>ne prima. quare ibi. Contra ista arguitur. Primo conclrsihoc 
-      <lb ed="#L" n="106"/>quod angelus non potest aliquid creare nisi volendo et in 
-      <lb ed="#L" n="107"/>telligendo: quia vnus potest alium intuitiue videre et in 
-      <lb ed="#L" n="108"/>telligere. ergo angelus visus potest esse causa partialis 
-      <lb ed="#L" n="109"/>cognitionis intuitiue et volitionis alterius: sicut 
-      <!--576.xml-->
-      <pb ed="#L" n="287-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>obiectum est causa partialis sine aliqua intelle 
-      <lb ed="#L" n="2"/>ctione et volitione praeuia. Item agere extra se (cum sit 
-      <lb ed="#L" n="3"/>perfectionis) potest competem angelo sine accidente
-      me<lb ed="#L" n="4" break="no"/>dio.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e165">
-      ⁋ Ite illud quod dicit quod abstractius a materia 
-      <lb ed="#L" n="5"/>est perfectius: videtur falsum. Quia celum secundum eum est
-      ma<lb ed="#L" n="6" break="no"/>gis abstractum a materia quam anima intellectiua: et tamen 
-      <lb ed="#L" n="7"/>non est perfectius. quia non viuum non est perfectius viuo secunu 
-      <lb ed="#L" n="8"/>eum.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e176">
-      ⁋ Ite quod dicit accidens non esse principium substam 
-      <lb ed="#L" n="9"/>tie quia est imperfectius: non videtur verum. quia secundum eum causa par 
-      <lb ed="#L" n="10"/>tialis potest esse imperfectior effectu. patet de obiecto 
-      <lb ed="#L" n="11"/>quod est imperfectius actu intelligendi puta albedo. 
-      <lb ed="#L" n="12"/>Et in generatione vermis per putrefactionem: vbi cau 
-      <lb ed="#L" n="13"/>se multe concurrentes sunt non animate: et productum 
-      <lb ed="#L" n="14"/>est animatum. Cum igitur causa imperfecta potest concurrere cum 
-      <lb ed="#L" n="15"/>causa perfecta ad producendum effectum perfectiorem: sequitur 
-      <lb ed="#L" n="16"/>quod creatura potest cum deo concurrere ad producendum 
-      <lb ed="#L" n="17"/>aliam causam. Et sic non probat quin imperfectius potest creare 
-      <lb ed="#L" n="18"/>perfectius partialiter: licet non totaliter. Et hoc pater 
-      <lb ed="#L" n="19"/>in generatione vniuoca: quia multi parui ignes possunt 
-      <lb ed="#L" n="20"/>generare perfectiorem ignem aliquo illorum. Ite qualita 
-      <lb ed="#L" n="21"/>tes prime videntur esse principium producendi
-      sub<lb ed="#L" n="22" break="no"/>stantiam: quia videmus per experientiam quod substantia cum aliqua 
-      <lb ed="#L" n="23"/>bus accidentibus producit substantiam. Patet de 
-      <lb ed="#L" n="24"/>igne generante ignem. et cum accidens producat
-      sub<lb ed="#L" n="25" break="no"/>stantiam: accidentia sunt cause partiales respectu 
-      <lb ed="#L" n="26"/>substantie. Confirmatur: quia effectus dependet sufficien 
-      <lb ed="#L" n="27"/>ter a suis causis essentialibus. cum ergo ignis non
-      po<lb ed="#L" n="28" break="no"/>test naturaliter generare ignem sine qualitatibus: igi 
-      <lb ed="#L" n="29"/>tur qualitates sunt cause partiales respectu sub 
-      <lb ed="#L" n="30"/>stantie. Si dicas quod agunt in virtute substantie: hoc 
-      <lb ed="#L" n="31"/>nihil est: quia ita immediate possunt concurrere ad
-      cau<lb ed="#L" n="32" break="no"/>sandum substantiam sicut ssubstantia: et econuerso. Item contra 
-      <lb ed="#L" n="33"/>hoc quod dicit quod terminus formalis non potest esse 
-      <lb ed="#L" n="34"/>absolutior principio: quia tam materia quam forma
-      ma<lb ed="#L" n="35" break="no"/>terialis substantialis et accidentalis potest esse causa 
-      <lb ed="#L" n="36"/>partialis respectu cognitionis intuitiue angeli 
-      <lb ed="#L" n="37"/>vel alterius: et illa cognitio est absolutior et ab 
-      <lb ed="#L" n="38"/>stractior a materia quam aliquod aliorum. ergo etc. Et sic 
-      <lb ed="#L" n="39"/>illud est falsum quod principium non est absolutius tam in 
-      <lb ed="#L" n="40"/>producendo quam in essendo. Item conlusiohoc quod ponit quod 
-      <lb ed="#L" n="41"/>creatura non potest causare et conseruare formam sine 
-      <lb ed="#L" n="42"/>materia ad quam inclinatur: quia creatura concurrit 
-      <lb ed="#L" n="43"/>ad conseruandum accidens in eucharistia sine
-      sub<lb ed="#L" n="44" break="no"/>iecto. ergo videtur quod non sit aliqua ratio quare non
-      concur<lb ed="#L" n="45" break="no"/>rat cum deo ad causandum illud de nouo sine sub 
-      <lb ed="#L" n="46"/>iecto. ergo eodem modo do potest esse de forma substantiali 
-      <lb ed="#L" n="47"/>Nec inclinatio opposita ad materiam aliquid
-      fa<lb ed="#L" n="48" break="no"/>cit: quia agens naturale potest conseruare graue
-      sur<lb ed="#L" n="49" break="no"/>sum conclusio uam inclinationem. Item non probat quod forma 
-      <lb ed="#L" n="50"/>sit necessario posterior materia. Quia licet sit ita 
-      <lb ed="#L" n="51"/>de facto: tamen deus potest facere formam per se sine ma 
-      <lb ed="#L" n="52"/>teria. Et hoc priusque informet materiam: ergo
-      concur<lb ed="#L" n="53" break="no"/>rente causa naturali partialiter cum deo potest 
-      <lb ed="#L" n="54"/>fieri forma per se. Ideo dico quod ista conclusio 
-      <lb ed="#L" n="55"/>non potest demonstrari: tamen persuadeo eam licet 
-      <!--576.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 287-r -->
-               <lb ed="#L" n="56"/>non possit demonstrari contra philosophum. Primo pro 
-      <lb ed="#L" n="57"/>bo quod creatura non potest esse causa totalis
-      na<lb ed="#L" n="58" break="no"/>turalis creature sic. Quia principium totale na 
-      <lb ed="#L" n="59"/>turale equaliter se habens ad plura eiusdem
-      ra<lb ed="#L" n="60" break="no"/>tionis vel producit omnia vel nihil: sed si creatura 
-      <lb ed="#L" n="61"/>potest creare aliquod indiuiduum eiusdem rationis 
-      <lb ed="#L" n="62"/>qua ratione vnum et infinita. quia ex quo est agens 
-      <lb ed="#L" n="63"/>naturale equaliter respicit omnia. ergo crearem de 
-      <lb ed="#L" n="64"/>facto infinita indiuidua: hoc falsum est. ergo etc. 
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e306">
-               <lb ed="#L" n="65"/>⁋ Secundo probo quod non potest esse causa naturalis 
-      <lb ed="#L" n="66"/>partialis creature: quia tunc per eandem rationem 
-      <lb ed="#L" n="67"/>quae prius posset esse causa naturalis partialis
-      re<lb ed="#L" n="68" break="no"/>spectu infinitorum: quod est incoueniens. Quod patet 
-      <lb ed="#L" n="69"/>qui non est verisimile quod creatio crature semper su 
-      <lb ed="#L" n="70"/>spendatur ab actione sua. ergo si non suspendatur: 
-      <lb ed="#L" n="71"/>potest saltem partialiter producere infinita: quod 
-      <lb ed="#L" n="72"/>falsum est. Tertio probo quod non potest esse causa 
-      <lb ed="#L" n="73"/>libere creans: quia non potest esse libera nisi per vel 
-      <lb ed="#L" n="74"/>le: sed voluntas potest velle infinita: ergo si esset li 
-      <lb ed="#L" n="75"/>bera posset producere infinita: quod falsum est
-      si<lb ed="#L" n="76" break="no"/>cut prius. Si dicas quod non potest velle infinita 
-      <lb ed="#L" n="77"/>singularia: saltem potest velle aliquod vniuersale 
-      <lb ed="#L" n="78"/>quod respicit infinita vel nullum. Similiter licet per vnam
-      vo<lb ed="#L" n="79" break="no"/>litione non possit velle infinita: tamen per
-      infini<lb ed="#L" n="80" break="no"/>tas volitiones potest velle infinita successiue: ergo 
-      <lb ed="#L" n="81"/>potest infinita totaliter vel partialiter creare 
-      <lb ed="#L" n="82"/>quod est inconueniens.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e348">
-      ⁋ Sed contra ista arguitur 
-      <lb ed="#L" n="83"/>quia creatura potest producere calorem isine sub 
-      <lb ed="#L" n="84"/>iecto: et si deus produceret calorem sine subiecto 
-      <lb ed="#L" n="85"/>etiam posset conseruare calorem sine subiecto. quia 
-      <lb ed="#L" n="86"/>equaliter differunt a subiecto: ergo iste calor 
-      <lb ed="#L" n="87"/>causatur per calefactionem: quia vtrunque produci 
-      <lb ed="#L" n="88"/>tur a creatura sine subiecto.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e364">
-      ⁋ Si dicat quod
-      cale<lb ed="#L" n="89" break="no"/>factio dicit respectum ad subiectum et passum: et 
-      <lb ed="#L" n="90"/>ille respectus non potest esse nec denominare
-      nis<lb ed="#L" n="91" break="no"/>sit in subiecto sicut calor.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e373">
-      ⁋ Contra. deus potest 
-      <lb ed="#L" n="92"/>calorem facere cum respectu ad causam productiuam 
-      <lb ed="#L" n="93"/>sine respectu ad subiectum vel passum: et ille.
-      re<lb ed="#L" n="94" break="no"/>spectus sufficit ad hoc quod sit calefactio.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e383">
-      ⁋ Si
-      di<lb ed="#L" n="95" break="no"/>cas quod respectus non tantum dependet a
-      funda<lb ed="#L" n="96" break="no"/>mento et termino: sed etiam a subiecto. Contra 
-      <lb ed="#L" n="97"/>si secundum potest esse sine primo: et tertium potest. sed 
-      <lb ed="#L" n="98"/>fundamentum respectus potest esse sine
-      subie<lb ed="#L" n="99" break="no"/>cto. ergo et respectus potest esse.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e396">
-      ⁋ Item
-      respe<lb ed="#L" n="100" break="no"/>ctus dependet ad subiectum mediante
-      funda<lb ed="#L" n="101" break="no"/>mento: ergo remanente fundamento et
-      termi<lb ed="#L" n="102" break="no"/>non remanebit respectus.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e405">
-      ⁋ Ite quando aliquid 
-      <lb ed="#L" n="103"/>habet duas dependentias quarum vna est prior 
-      <lb ed="#L" n="104"/>alia: vna potest esse sine alia: et tunc forma po 
-      <lb ed="#L" n="105"/>test esse cum prima dependentia sine secunda: sed  
-      <lb ed="#L" n="106"/>calor dependet ad agens et ad subiectum: et
-      de<lb ed="#L" n="107" break="no"/>pendentia ad agens est prior quod dependentia ad 
-      <lb ed="#L" n="108"/>subiectum: ergo potest fieri cum dependentia ad agens 
-      <lb ed="#L" n="109"/>sine dependentia ad subiectum: quia prius potest fieri sine 
-      <lb ed="#L" n="110"/>posteriori.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e425">
-      ⁋ Iste quod potest conseruare aliquid sine  
-      <!--577.xml-->
-      <pb ed="#L" n="287-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>subiecto potest creare illud sine subiecto: sicut patet. 
-      <lb ed="#L" n="2"/>Quia minus est creare quam conseruare: sed agens
-      na<lb ed="#L" n="3" break="no"/>turale est huiusmodi. patet: quia si deus destrueret subiectum 
-      <lb ed="#L" n="4"/>luminis in medior posset illud lumen conseruare: 
-      <lb ed="#L" n="5"/>sicut quando erat in subiecto. Exemplum de accidente 
-      <lb ed="#L" n="6"/>eucharistia quod conseruatur a causa naturali sine sub 
-      <lb ed="#L" n="7"/>iecto sicut in subiecto.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e449">
-      ⁋ Ite qualitas in hostia potest 
-      <lb ed="#L" n="8"/>augeri: ergo et creari. consequentia patet: quia in augmentatione
-      ali<lb ed="#L" n="9" break="no"/>quid acquiritur quantitati praexistenti: et illud producitur 
-      <lb ed="#L" n="10"/>sine materia. ergo illud creatur. antecedens patet de se. Si
-      di<lb ed="#L" n="11" break="no"/>cas quod illa pars educitur de potentia alterius quantitati 
-      <lb ed="#L" n="12"/>praexistentur: et sic non creatur. Contra quae sunt eiusdem rationis 
-      <lb ed="#L" n="13"/>vnum non educitur de potentia alterius magis quam econ 
-      <lb ed="#L" n="14"/>uerso: sicut in proposito est. ergo etc. Item quando aliquid
-      edu<lb ed="#L" n="15" break="no"/>citur de potentia alterius illa sunt in eodem loco. Sed 
-      <lb ed="#L" n="16"/>quantitas acquisita et praexistens non sunt in eodem lo 
-      <lb ed="#L" n="17"/>co. ergo etc. Si dicas quod ista quantitas acquisita per
-      aug<lb ed="#L" n="18" break="no"/>mentationem educitur de potentia quantitatis intermina 
-      <lb ed="#L" n="19"/>te. Contra. tunc ille due quantitates essent in eodem 
-      <lb ed="#L" n="20"/>loco quod falsum est. Item octauo metaphisice.
-      ac<lb ed="#L" n="21" break="no"/>cidentia habent materiam in qua non ex qua. Item agens
-      na<lb ed="#L" n="22" break="no"/>turale potest de speciebus panis et vini generare for 
-      <lb ed="#L" n="23"/>mam substantialem vermis et illa non educitur de
-      po<lb ed="#L" n="24" break="no"/>tentia materie: quia nulla est ibi. igitur creatur
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e488">
-      ⁋ Item 
-      <lb ed="#L" n="25"/>illud quod est primo purum nihil: et post creatur est crea 
-      <lb ed="#L" n="26"/>tura: sed producta forma a creatura est huiusmodi sicut 
-      <lb ed="#L" n="27"/>prius patuit. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e498">
-      ⁋ Item creatura potest annihilare 
-      <lb ed="#L" n="28"/>ergo creare. consequentia patet: et anes probatur: quia quando corrumpitur for 
-      <lb ed="#L" n="29"/>ma est purum nihil: sicut si annihilaretur a deo. Si 
-      <lb ed="#L" n="30"/>dicas quod in potentiam materie reducitur: ideo non
-      anni<lb ed="#L" n="31" break="no"/>hilatur. Contra omne quod est in potentia materie potest re 
-      <lb ed="#L" n="32"/>duci ad actum: ergo illa forma corrupta in potentia. 
-      <lb ed="#L" n="33"/>materia potest reduci ad actum: aut ergo ab agente cre 
-      <lb ed="#L" n="34"/>ato aut increato. si creato: tunc agens creatum
-      pos<lb ed="#L" n="35" break="no"/>set naturaliter idem numero reparare quod nullus conce 
-      <lb ed="#L" n="36"/>dit. si increato: tunc deus non posset annihilare vnam 
-      <lb ed="#L" n="37"/>formam materialem nisi annihilaret materiam: quia re 
-      <lb ed="#L" n="38"/>manente materia remanet forma in eius potentia. et 
-      <lb ed="#L" n="39"/>per consequens non annihilatur: et similiter non potest annihilare vnam 
-      <lb ed="#L" n="40"/>formam materialem nisi annihilaret omnia indiuidua 
-      <lb ed="#L" n="41"/>materialia: quia quantumcumque vnum indiuiduum annihila 
-      <lb ed="#L" n="42"/>retur adhuc forma remaneret in potentia materie 
-      <lb ed="#L" n="43"/>alterius indiuidui: et sic. non annihilaretur.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e535">
-      ⁋ Ite contra
-      ratio<lb ed="#L" n="44" break="no"/>nem positionis. agens naturale non impeditum equaliter 
-      <lb ed="#L" n="45"/>etc. sed agens naturale equaliter respicit omnem formam
-      exi<lb ed="#L" n="46" break="no"/>stentem in potentia materie et passum: quia nec habet
-      or<lb ed="#L" n="47" break="no"/>dinem ad agens nec ad passum. ergo quodlibet agens vel pro 
-      <lb ed="#L" n="48"/>duceret omnes formas in materia vel nullam vtrumque 
-      <lb ed="#L" n="49"/>est falsum. ergo etc. Confirmatur: quia augmentatio est per 
-      <lb ed="#L" n="50"/>partes diuisibiles eiusdem rationis et agens
-      augmen<lb ed="#L" n="51" break="no"/>tans equaliter se habet ad omnes illas partes. ergo creabit omnes 
-      <lb ed="#L" n="52"/>vel nullam vtrumque est falsum. ergo causabit.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e557">
-      ⁋ Ad
-      pri<lb ed="#L" n="53" break="no"/>mum istorum respondeo dupliciter vno modo tenendo quod rela 
-      <lb ed="#L" n="54"/>tio non dicit aliud quam extrema conexistentia: et sic 
-      <lb ed="#L" n="55"/>calefactio dicit duo extrema: scilicet calefaciens et 
-      <!--577.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 287-v -->
-               <lb ed="#L" n="56"/>sibiectum calefactum. Nunc autem impossibile est quod sit 
-      <lb ed="#L" n="57"/>calefacio denominans aliquid tanquam calefaciens si 
-      <lb ed="#L" n="58"/>ne subiecto calefacto. quia hoc nomen vel conceptus 
-      <lb ed="#L" n="59"/>connotat subiectum calefactum. et per consequens impossibile 
-      <lb ed="#L" n="60"/>est quod sit calefctio sine subiecto. et tunc est ibi fal 
-      <lb ed="#L" n="61"/>lacia figure dictonis agens potest creare calorem
-      si<lb ed="#L" n="62" break="no"/>ne subiecto. ergo calefactionem: quia arguitur a dictione 
-      <lb ed="#L" n="63"/>non connotante subiectum ab dictionem connotantem.
-      si<lb ed="#L" n="64" break="no"/>cut hoc omnem actum quem potest deus facere voluntate 
-      <lb ed="#L" n="65"/>mediante potest facere per se. ergo potest facere actum
-      me<lb ed="#L" n="66" break="no"/>ritorium per se sine voluntate in ratione cause. non sequi 
-      <lb ed="#L" n="67"/>tur: sed est consimilis defectus: quia actus absolutus non consquno 
-      <lb ed="#L" n="68"/>tat voluntatem: sed actus meritorius connotat actiuita 
-      <lb ed="#L" n="69"/>tem voluntatis. Tenendo tamen illam opinionem quod rela 
-      <lb ed="#L" n="70"/>tio dicat aliam rem ab extremis: tunc licet vt sic pos 
-      <lb ed="#L" n="71"/>set fieri sine posteriori: non tamen econtra. et ideo cum
-      re<lb ed="#L" n="72" break="no"/>spectus sit posterior subiecto: licet possit fieri
-      si<lb ed="#L" n="73" break="no"/>ne respectu: non tamen econtra.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e611">
-      ⁋ Ad aliud dico quod ali 
-      <lb ed="#L" n="74"/>quando tertium plus dependet ad primum quam ad secundum sic 
-      <lb ed="#L" n="75"/>est in proposito: quia tertium equaliter dependet a
-      pri<lb ed="#L" n="76" break="no"/>mo sicut a secundo: et ideo sicut non potest esse sine secundo 
-      <lb ed="#L" n="77"/>ita nec sine primo. Et quando arguitur si sint due
-      albe<lb ed="#L" n="78" break="no"/>dines sine subiectis essent due relationes
-      si<lb ed="#L" n="79" break="no"/>ne subiectis: ergo sic est in proposito. Dico licet 
-      <lb ed="#L" n="80"/>hoim verum est in relatonibus primi modi non tamen secundi
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e629">
-      ⁋ Ad  
-      <lb ed="#L" n="81"/>aliud dico quod absolutum posset esse sine
-      depen<lb ed="#L" n="82" break="no"/>dentia ad subiectum: non tamen relatio plus
-      depen<lb ed="#L" n="83" break="no"/>det quam aliquod absolutum: et similiter assumptum negatur 
-      <lb ed="#L" n="84"/>qui respectus forme ad agens non est prior respectu 
-      <lb ed="#L" n="85"/>forme ad passum: sed magis econuerso. et ideo non sequitur 
-      <lb ed="#L" n="86"/>Si deus potest facere effectum sine respectu ad agens 
-      <lb ed="#L" n="87"/>ergo sine respectu ad passum.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e647">
-      ⁋ Ad aliud dico quod 
-      <lb ed="#L" n="88"/>tam lumen posito priori casu quam accidentia in
-      eucha<lb ed="#L" n="89" break="no"/>ristia conseruantur a solo deo a non a creatura. et hoc 
-      <lb ed="#L" n="90"/>dicit Anselmus. Aliter dicitur quod non est simile de
-      crea<lb ed="#L" n="91" break="no"/>tione et conseruatione: quia aliter respicit agens in actu 
-      <lb ed="#L" n="92"/>productum et aliter non productum: quia si creatura posset 
-      <lb ed="#L" n="93"/>in aliquo instanti. et sic equaliter respicet omnia creabi 
-      <lb ed="#L" n="94"/>lia eiusdem rationis. et sic in illo instanti producerm omnia 
-      <lb ed="#L" n="95"/>vel nullum tamen post creationem aliter se habet agens crea 
-      <lb ed="#L" n="96"/>tum ad effectum iam positum in actu quam ad alia eius 
-      <lb ed="#L" n="97"/>dem rationis quai non sunt in actu: et non se habet 
-      <lb ed="#L" n="98"/>equaliter ad illa: ideo potest conseruare: licet non
-      cre<lb ed="#L" n="99" break="no"/>are.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e677">
-      ⁋ Eodem modo negarem augmentationes illa 
-      <lb ed="#L" n="100"/>rum specierum fieri a creatura.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e682">
-      ⁋ Ad aliud de vel 
-      <lb ed="#L" n="101"/>me dico quod deus ibi creat materiam de qua educitur 
-      <lb ed="#L" n="102"/>forma vermis.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e689">
-      ⁋ Ad aliud dico quod creare non tam 
-      <lb ed="#L" n="103"/>tum dicit producere aliquid post purum nihi 
-      <lb ed="#L" n="104"/>sed etiam dicit quod nulla materia requiratur: sic 
-      <lb ed="#L" n="105"/>non est in proposito: quia creatura in actione 
-      <lb ed="#L" n="106"/>sua necessario requirit materiam in qua recipitur 
-      <lb ed="#L" n="107"/>forma: deus autem non.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e702">
-      ⁋ Ad aliud dico quod
-      ac<lb ed="#L" n="108" break="no"/>cipiendo annihilare pro mutatione qua
-      de<lb ed="#L" n="109" break="no"/>struitur aliqua forma: sic quod nil eius remanet. 
-      <lb ed="#L" n="110"/>sic forma per corruptionem verissime annihi¬ 
-      <!--578.xml-->
-      <pb ed="#L" n="288-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>latur. sicut enim ante productionem sui fuit purum ni 
-      <lb ed="#L" n="2"/>hil sicut post erit purum nihil: et ideo verissime
-      an<lb ed="#L" n="3" break="no"/>nihilatur: sed tamen accipiendo annihilare vt communiter
-      ho<lb ed="#L" n="4" break="no"/>mines accipiunt opponitur creationi. et sic
-      creatu<lb ed="#L" n="5" break="no"/>ra non potest annihilare: quia sicut solum illud dicitur 
-      <lb ed="#L" n="6"/>creare quod producit aliquid ex nihilo nullam
-      mate<lb ed="#L" n="7" break="no"/>riam praesupponendo. et quia creatura in omni actione sua 
-      <lb ed="#L" n="8"/>necessario praesupponit materiam: ideo non potest
-      an<lb ed="#L" n="9" break="no"/>nihilare aut creare.
-    </p>
-            <p xml:id="wo8uy7-d1e1967-d1e737">
-      ⁋ Ad argumentum in oppositum 
-      <lb ed="#L" n="10"/>de distantia. dico quod nihil concludit nisi vnum falsum 
-      <lb ed="#L" n="11"/>scilicet quod creatura nihil potest agere: quia tanta est
-      di<lb ed="#L" n="12" break="no"/>stantia inter terminum a quo et ad quem quando forma 
-      <lb ed="#L" n="13"/>producitur ab agente naturali: sicut si produceretur 
-      <lb ed="#L" n="14"/>et crearetur immediate a deo: quia vtrobique terminus 
-      <lb ed="#L" n="15"/>a quo est purum nihil: quia terminus a quo non potest 
-      <lb ed="#L" n="16"/>esse materia nec forma opposita forme introdu 
-      <lb ed="#L" n="17"/>cende: nec aliqua pars forme generande: sed solum 
-      <lb ed="#L" n="18"/>modo negatio illius forme quae purum nihil est sicut 
-      <lb ed="#L" n="19"/>prius dictum est. ergo etc. Si dicas quod terminus a 
-      <lb ed="#L" n="20"/>quo est aliquod compositum ex materia et non esse illi 
-      <lb ed="#L" n="21"/>us forme. Contra distantia est accipienda
-      pe<lb ed="#L" n="22" break="no"/>nes illam rationem quorum est oppositio. hoc autem non 
-      <lb ed="#L" n="23"/>est ratione materie: sed solum ratione negationis
-      for<lb ed="#L" n="24" break="no"/>me. ergo etc. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 6(7)</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 6(7)</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="286-v"/>
+        <cb ed="#L" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e1967"><!-- l2q6(7) -->
+        <head xml:id="wo8uy7-d1e1967-Hd1e108">Quaestio 6(7)</head> 
+        <!-- six in list -->
+        <p xml:id="wo8uy7-d1e1967-d1e113">
+          Questio. vii. 
+          <lb ed="#L" n="97"/>UTrum coueniat cre 
+          <lb ed="#L" n="98"/>ature habere potentiam creandi. Quod sicut pro 
+          <lb ed="#L" n="99"/>lbatur: quia creatura potest annihilare: ergo 
+          <lb ed="#L" n="100"/>et creare. consequentia patet. antecedens probatur: quia calor maximus 
+          <lb ed="#L" n="101"/>potest annihilare frigus minimum. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e126">
+          ⁋ Ad opposi 
+          <lb ed="#L" n="102"/>tum. creatura non potest super distantiam infinitam: sed a nihi 
+          <lb ed="#L" n="103"/>lo ad aliquid est distantia infinita. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e133">
+          ⁋ Qpinio 
+          <lb ed="#L" n="104"/>Ioh. est quod non: propter rationes quas ponit in quarto quaestio 
+          <lb ed="#L" n="105"/>ne prima. quare ibi. Contra ista arguitur. Primo conclrsihoc 
+          <lb ed="#L" n="106"/>quod angelus non potest aliquid creare nisi volendo et in 
+          <lb ed="#L" n="107"/>telligendo: quia vnus potest alium intuitiue videre et in 
+          <lb ed="#L" n="108"/>telligere. ergo angelus visus potest esse causa partialis 
+          <lb ed="#L" n="109"/>cognitionis intuitiue et volitionis alterius: sicut 
+          <!--576.xml-->
+          <pb ed="#L" n="287-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>obiectum est causa partialis sine aliqua intelle 
+          <lb ed="#L" n="2"/>ctione et volitione praeuia. Item agere extra se (cum sit 
+          <lb ed="#L" n="3"/>perfectionis) potest competem angelo sine accidente
+          me<lb ed="#L" n="4" break="no"/>dio.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e165">
+          ⁋ Ite illud quod dicit quod abstractius a materia 
+          <lb ed="#L" n="5"/>est perfectius: videtur falsum. Quia celum secundum eum est
+          ma<lb ed="#L" n="6" break="no"/>gis abstractum a materia quam anima intellectiua: et tamen 
+          <lb ed="#L" n="7"/>non est perfectius. quia non viuum non est perfectius viuo secunu 
+          <lb ed="#L" n="8"/>eum.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e176">
+          ⁋ Ite quod dicit accidens non esse principium substam 
+          <lb ed="#L" n="9"/>tie quia est imperfectius: non videtur verum. quia secundum eum causa par 
+          <lb ed="#L" n="10"/>tialis potest esse imperfectior effectu. patet de obiecto 
+          <lb ed="#L" n="11"/>quod est imperfectius actu intelligendi puta albedo. 
+          <lb ed="#L" n="12"/>Et in generatione vermis per putrefactionem: vbi cau 
+          <lb ed="#L" n="13"/>se multe concurrentes sunt non animate: et productum 
+          <lb ed="#L" n="14"/>est animatum. Cum igitur causa imperfecta potest concurrere cum 
+          <lb ed="#L" n="15"/>causa perfecta ad producendum effectum perfectiorem: sequitur 
+          <lb ed="#L" n="16"/>quod creatura potest cum deo concurrere ad producendum 
+          <lb ed="#L" n="17"/>aliam causam. Et sic non probat quin imperfectius potest creare 
+          <lb ed="#L" n="18"/>perfectius partialiter: licet non totaliter. Et hoc pater 
+          <lb ed="#L" n="19"/>in generatione vniuoca: quia multi parui ignes possunt 
+          <lb ed="#L" n="20"/>generare perfectiorem ignem aliquo illorum. Ite qualita 
+          <lb ed="#L" n="21"/>tes prime videntur esse principium producendi
+          sub<lb ed="#L" n="22" break="no"/>stantiam: quia videmus per experientiam quod substantia cum aliqua 
+          <lb ed="#L" n="23"/>bus accidentibus producit substantiam. Patet de 
+          <lb ed="#L" n="24"/>igne generante ignem. et cum accidens producat
+          sub<lb ed="#L" n="25" break="no"/>stantiam: accidentia sunt cause partiales respectu 
+          <lb ed="#L" n="26"/>substantie. Confirmatur: quia effectus dependet sufficien 
+          <lb ed="#L" n="27"/>ter a suis causis essentialibus. cum ergo ignis non
+          po<lb ed="#L" n="28" break="no"/>test naturaliter generare ignem sine qualitatibus: igi 
+          <lb ed="#L" n="29"/>tur qualitates sunt cause partiales respectu sub 
+          <lb ed="#L" n="30"/>stantie. Si dicas quod agunt in virtute substantie: hoc 
+          <lb ed="#L" n="31"/>nihil est: quia ita immediate possunt concurrere ad
+          cau<lb ed="#L" n="32" break="no"/>sandum substantiam sicut ssubstantia: et econuerso. Item contra 
+          <lb ed="#L" n="33"/>hoc quod dicit quod terminus formalis non potest esse 
+          <lb ed="#L" n="34"/>absolutior principio: quia tam materia quam forma
+          ma<lb ed="#L" n="35" break="no"/>terialis substantialis et accidentalis potest esse causa 
+          <lb ed="#L" n="36"/>partialis respectu cognitionis intuitiue angeli 
+          <lb ed="#L" n="37"/>vel alterius: et illa cognitio est absolutior et ab 
+          <lb ed="#L" n="38"/>stractior a materia quam aliquod aliorum. ergo etc. Et sic 
+          <lb ed="#L" n="39"/>illud est falsum quod principium non est absolutius tam in 
+          <lb ed="#L" n="40"/>producendo quam in essendo. Item conlusiohoc quod ponit quod 
+          <lb ed="#L" n="41"/>creatura non potest causare et conseruare formam sine 
+          <lb ed="#L" n="42"/>materia ad quam inclinatur: quia creatura concurrit 
+          <lb ed="#L" n="43"/>ad conseruandum accidens in eucharistia sine
+          sub<lb ed="#L" n="44" break="no"/>iecto. ergo videtur quod non sit aliqua ratio quare non
+          concur<lb ed="#L" n="45" break="no"/>rat cum deo ad causandum illud de nouo sine sub 
+          <lb ed="#L" n="46"/>iecto. ergo eodem modo do potest esse de forma substantiali 
+          <lb ed="#L" n="47"/>Nec inclinatio opposita ad materiam aliquid
+          fa<lb ed="#L" n="48" break="no"/>cit: quia agens naturale potest conseruare graue
+          sur<lb ed="#L" n="49" break="no"/>sum conclusio uam inclinationem. Item non probat quod forma 
+          <lb ed="#L" n="50"/>sit necessario posterior materia. Quia licet sit ita 
+          <lb ed="#L" n="51"/>de facto: tamen deus potest facere formam per se sine ma 
+          <lb ed="#L" n="52"/>teria. Et hoc priusque informet materiam: ergo
+          concur<lb ed="#L" n="53" break="no"/>rente causa naturali partialiter cum deo potest 
+          <lb ed="#L" n="54"/>fieri forma per se. Ideo dico quod ista conclusio 
+          <lb ed="#L" n="55"/>non potest demonstrari: tamen persuadeo eam licet 
+          <!--576.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 287-r -->
+          <lb ed="#L" n="56"/>non possit demonstrari contra philosophum. Primo pro 
+          <lb ed="#L" n="57"/>bo quod creatura non potest esse causa totalis
+          na<lb ed="#L" n="58" break="no"/>turalis creature sic. Quia principium totale na 
+          <lb ed="#L" n="59"/>turale equaliter se habens ad plura eiusdem
+          ra<lb ed="#L" n="60" break="no"/>tionis vel producit omnia vel nihil: sed si creatura 
+          <lb ed="#L" n="61"/>potest creare aliquod indiuiduum eiusdem rationis 
+          <lb ed="#L" n="62"/>qua ratione vnum et infinita. quia ex quo est agens 
+          <lb ed="#L" n="63"/>naturale equaliter respicit omnia. ergo crearem de 
+          <lb ed="#L" n="64"/>facto infinita indiuidua: hoc falsum est. ergo etc. 
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e306">
+          <lb ed="#L" n="65"/>⁋ Secundo probo quod non potest esse causa naturalis 
+          <lb ed="#L" n="66"/>partialis creature: quia tunc per eandem rationem 
+          <lb ed="#L" n="67"/>quae prius posset esse causa naturalis partialis
+          re<lb ed="#L" n="68" break="no"/>spectu infinitorum: quod est incoueniens. Quod patet 
+          <lb ed="#L" n="69"/>qui non est verisimile quod creatio crature semper su 
+          <lb ed="#L" n="70"/>spendatur ab actione sua. ergo si non suspendatur: 
+          <lb ed="#L" n="71"/>potest saltem partialiter producere infinita: quod 
+          <lb ed="#L" n="72"/>falsum est. Tertio probo quod non potest esse causa 
+          <lb ed="#L" n="73"/>libere creans: quia non potest esse libera nisi per vel 
+          <lb ed="#L" n="74"/>le: sed voluntas potest velle infinita: ergo si esset li 
+          <lb ed="#L" n="75"/>bera posset producere infinita: quod falsum est
+          si<lb ed="#L" n="76" break="no"/>cut prius. Si dicas quod non potest velle infinita 
+          <lb ed="#L" n="77"/>singularia: saltem potest velle aliquod vniuersale 
+          <lb ed="#L" n="78"/>quod respicit infinita vel nullum. Similiter licet per vnam
+          vo<lb ed="#L" n="79" break="no"/>litione non possit velle infinita: tamen per
+          infini<lb ed="#L" n="80" break="no"/>tas volitiones potest velle infinita successiue: ergo 
+          <lb ed="#L" n="81"/>potest infinita totaliter vel partialiter creare 
+          <lb ed="#L" n="82"/>quod est inconueniens.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e348">
+          ⁋ Sed contra ista arguitur 
+          <lb ed="#L" n="83"/>quia creatura potest producere calorem isine sub 
+          <lb ed="#L" n="84"/>iecto: et si deus produceret calorem sine subiecto 
+          <lb ed="#L" n="85"/>etiam posset conseruare calorem sine subiecto. quia 
+          <lb ed="#L" n="86"/>equaliter differunt a subiecto: ergo iste calor 
+          <lb ed="#L" n="87"/>causatur per calefactionem: quia vtrunque produci 
+          <lb ed="#L" n="88"/>tur a creatura sine subiecto.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e364">
+          ⁋ Si dicat quod
+          cale<lb ed="#L" n="89" break="no"/>factio dicit respectum ad subiectum et passum: et 
+          <lb ed="#L" n="90"/>ille respectus non potest esse nec denominare
+          nis<lb ed="#L" n="91" break="no"/>sit in subiecto sicut calor.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e373">
+          ⁋ Contra. deus potest 
+          <lb ed="#L" n="92"/>calorem facere cum respectu ad causam productiuam 
+          <lb ed="#L" n="93"/>sine respectu ad subiectum vel passum: et ille.
+          re<lb ed="#L" n="94" break="no"/>spectus sufficit ad hoc quod sit calefactio.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e383">
+          ⁋ Si
+          di<lb ed="#L" n="95" break="no"/>cas quod respectus non tantum dependet a
+          funda<lb ed="#L" n="96" break="no"/>mento et termino: sed etiam a subiecto. Contra 
+          <lb ed="#L" n="97"/>si secundum potest esse sine primo: et tertium potest. sed 
+          <lb ed="#L" n="98"/>fundamentum respectus potest esse sine
+          subie<lb ed="#L" n="99" break="no"/>cto. ergo et respectus potest esse.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e396">
+          ⁋ Item
+          respe<lb ed="#L" n="100" break="no"/>ctus dependet ad subiectum mediante
+          funda<lb ed="#L" n="101" break="no"/>mento: ergo remanente fundamento et
+          termi<lb ed="#L" n="102" break="no"/>non remanebit respectus.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e405">
+          ⁋ Ite quando aliquid 
+          <lb ed="#L" n="103"/>habet duas dependentias quarum vna est prior 
+          <lb ed="#L" n="104"/>alia: vna potest esse sine alia: et tunc forma po 
+          <lb ed="#L" n="105"/>test esse cum prima dependentia sine secunda: sed  
+          <lb ed="#L" n="106"/>calor dependet ad agens et ad subiectum: et
+          de<lb ed="#L" n="107" break="no"/>pendentia ad agens est prior quod dependentia ad 
+          <lb ed="#L" n="108"/>subiectum: ergo potest fieri cum dependentia ad agens 
+          <lb ed="#L" n="109"/>sine dependentia ad subiectum: quia prius potest fieri sine 
+          <lb ed="#L" n="110"/>posteriori.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e425">
+          ⁋ Iste quod potest conseruare aliquid sine  
+          <!--577.xml-->
+          <pb ed="#L" n="287-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>subiecto potest creare illud sine subiecto: sicut patet. 
+          <lb ed="#L" n="2"/>Quia minus est creare quam conseruare: sed agens
+          na<lb ed="#L" n="3" break="no"/>turale est huiusmodi. patet: quia si deus destrueret subiectum 
+          <lb ed="#L" n="4"/>luminis in medior posset illud lumen conseruare: 
+          <lb ed="#L" n="5"/>sicut quando erat in subiecto. Exemplum de accidente 
+          <lb ed="#L" n="6"/>eucharistia quod conseruatur a causa naturali sine sub 
+          <lb ed="#L" n="7"/>iecto sicut in subiecto.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e449">
+          ⁋ Ite qualitas in hostia potest 
+          <lb ed="#L" n="8"/>augeri: ergo et creari. consequentia patet: quia in augmentatione
+          ali<lb ed="#L" n="9" break="no"/>quid acquiritur quantitati praexistenti: et illud producitur 
+          <lb ed="#L" n="10"/>sine materia. ergo illud creatur. antecedens patet de se. Si
+          di<lb ed="#L" n="11" break="no"/>cas quod illa pars educitur de potentia alterius quantitati 
+          <lb ed="#L" n="12"/>praexistentur: et sic non creatur. Contra quae sunt eiusdem rationis 
+          <lb ed="#L" n="13"/>vnum non educitur de potentia alterius magis quam econ 
+          <lb ed="#L" n="14"/>uerso: sicut in proposito est. ergo etc. Item quando aliquid
+          edu<lb ed="#L" n="15" break="no"/>citur de potentia alterius illa sunt in eodem loco. Sed 
+          <lb ed="#L" n="16"/>quantitas acquisita et praexistens non sunt in eodem lo 
+          <lb ed="#L" n="17"/>co. ergo etc. Si dicas quod ista quantitas acquisita per
+          aug<lb ed="#L" n="18" break="no"/>mentationem educitur de potentia quantitatis intermina 
+          <lb ed="#L" n="19"/>te. Contra. tunc ille due quantitates essent in eodem 
+          <lb ed="#L" n="20"/>loco quod falsum est. Item octauo metaphisice.
+          ac<lb ed="#L" n="21" break="no"/>cidentia habent materiam in qua non ex qua. Item agens
+          na<lb ed="#L" n="22" break="no"/>turale potest de speciebus panis et vini generare for 
+          <lb ed="#L" n="23"/>mam substantialem vermis et illa non educitur de
+          po<lb ed="#L" n="24" break="no"/>tentia materie: quia nulla est ibi. igitur creatur
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e488">
+          ⁋ Item 
+          <lb ed="#L" n="25"/>illud quod est primo purum nihil: et post creatur est crea 
+          <lb ed="#L" n="26"/>tura: sed producta forma a creatura est huiusmodi sicut 
+          <lb ed="#L" n="27"/>prius patuit. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e498">
+          ⁋ Item creatura potest annihilare 
+          <lb ed="#L" n="28"/>ergo creare. consequentia patet: et anes probatur: quia quando corrumpitur for 
+          <lb ed="#L" n="29"/>ma est purum nihil: sicut si annihilaretur a deo. Si 
+          <lb ed="#L" n="30"/>dicas quod in potentiam materie reducitur: ideo non
+          anni<lb ed="#L" n="31" break="no"/>hilatur. Contra omne quod est in potentia materie potest re 
+          <lb ed="#L" n="32"/>duci ad actum: ergo illa forma corrupta in potentia. 
+          <lb ed="#L" n="33"/>materia potest reduci ad actum: aut ergo ab agente cre 
+          <lb ed="#L" n="34"/>ato aut increato. si creato: tunc agens creatum
+          pos<lb ed="#L" n="35" break="no"/>set naturaliter idem numero reparare quod nullus conce 
+          <lb ed="#L" n="36"/>dit. si increato: tunc deus non posset annihilare vnam 
+          <lb ed="#L" n="37"/>formam materialem nisi annihilaret materiam: quia re 
+          <lb ed="#L" n="38"/>manente materia remanet forma in eius potentia. et 
+          <lb ed="#L" n="39"/>per consequens non annihilatur: et similiter non potest annihilare vnam 
+          <lb ed="#L" n="40"/>formam materialem nisi annihilaret omnia indiuidua 
+          <lb ed="#L" n="41"/>materialia: quia quantumcumque vnum indiuiduum annihila 
+          <lb ed="#L" n="42"/>retur adhuc forma remaneret in potentia materie 
+          <lb ed="#L" n="43"/>alterius indiuidui: et sic. non annihilaretur.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e535">
+          ⁋ Ite contra
+          ratio<lb ed="#L" n="44" break="no"/>nem positionis. agens naturale non impeditum equaliter 
+          <lb ed="#L" n="45"/>etc. sed agens naturale equaliter respicit omnem formam
+          exi<lb ed="#L" n="46" break="no"/>stentem in potentia materie et passum: quia nec habet
+          or<lb ed="#L" n="47" break="no"/>dinem ad agens nec ad passum. ergo quodlibet agens vel pro 
+          <lb ed="#L" n="48"/>duceret omnes formas in materia vel nullam vtrumque 
+          <lb ed="#L" n="49"/>est falsum. ergo etc. Confirmatur: quia augmentatio est per 
+          <lb ed="#L" n="50"/>partes diuisibiles eiusdem rationis et agens
+          augmen<lb ed="#L" n="51" break="no"/>tans equaliter se habet ad omnes illas partes. ergo creabit omnes 
+          <lb ed="#L" n="52"/>vel nullam vtrumque est falsum. ergo causabit.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e557">
+          ⁋ Ad
+          pri<lb ed="#L" n="53" break="no"/>mum istorum respondeo dupliciter vno modo tenendo quod rela 
+          <lb ed="#L" n="54"/>tio non dicit aliud quam extrema conexistentia: et sic 
+          <lb ed="#L" n="55"/>calefactio dicit duo extrema: scilicet calefaciens et 
+          <!--577.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 287-v -->
+          <lb ed="#L" n="56"/>sibiectum calefactum. Nunc autem impossibile est quod sit 
+          <lb ed="#L" n="57"/>calefacio denominans aliquid tanquam calefaciens si 
+          <lb ed="#L" n="58"/>ne subiecto calefacto. quia hoc nomen vel conceptus 
+          <lb ed="#L" n="59"/>connotat subiectum calefactum. et per consequens impossibile 
+          <lb ed="#L" n="60"/>est quod sit calefctio sine subiecto. et tunc est ibi fal 
+          <lb ed="#L" n="61"/>lacia figure dictonis agens potest creare calorem
+          si<lb ed="#L" n="62" break="no"/>ne subiecto. ergo calefactionem: quia arguitur a dictione 
+          <lb ed="#L" n="63"/>non connotante subiectum ab dictionem connotantem.
+          si<lb ed="#L" n="64" break="no"/>cut hoc omnem actum quem potest deus facere voluntate 
+          <lb ed="#L" n="65"/>mediante potest facere per se. ergo potest facere actum
+          me<lb ed="#L" n="66" break="no"/>ritorium per se sine voluntate in ratione cause. non sequi 
+          <lb ed="#L" n="67"/>tur: sed est consimilis defectus: quia actus absolutus non consquno 
+          <lb ed="#L" n="68"/>tat voluntatem: sed actus meritorius connotat actiuita 
+          <lb ed="#L" n="69"/>tem voluntatis. Tenendo tamen illam opinionem quod rela 
+          <lb ed="#L" n="70"/>tio dicat aliam rem ab extremis: tunc licet vt sic pos 
+          <lb ed="#L" n="71"/>set fieri sine posteriori: non tamen econtra. et ideo cum
+          re<lb ed="#L" n="72" break="no"/>spectus sit posterior subiecto: licet possit fieri
+          si<lb ed="#L" n="73" break="no"/>ne respectu: non tamen econtra.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e611">
+          ⁋ Ad aliud dico quod ali 
+          <lb ed="#L" n="74"/>quando tertium plus dependet ad primum quam ad secundum sic 
+          <lb ed="#L" n="75"/>est in proposito: quia tertium equaliter dependet a
+          pri<lb ed="#L" n="76" break="no"/>mo sicut a secundo: et ideo sicut non potest esse sine secundo 
+          <lb ed="#L" n="77"/>ita nec sine primo. Et quando arguitur si sint due
+          albe<lb ed="#L" n="78" break="no"/>dines sine subiectis essent due relationes
+          si<lb ed="#L" n="79" break="no"/>ne subiectis: ergo sic est in proposito. Dico licet 
+          <lb ed="#L" n="80"/>hoim verum est in relatonibus primi modi non tamen secundi
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e629">
+          ⁋ Ad  
+          <lb ed="#L" n="81"/>aliud dico quod absolutum posset esse sine
+          depen<lb ed="#L" n="82" break="no"/>dentia ad subiectum: non tamen relatio plus
+          depen<lb ed="#L" n="83" break="no"/>det quam aliquod absolutum: et similiter assumptum negatur 
+          <lb ed="#L" n="84"/>qui respectus forme ad agens non est prior respectu 
+          <lb ed="#L" n="85"/>forme ad passum: sed magis econuerso. et ideo non sequitur 
+          <lb ed="#L" n="86"/>Si deus potest facere effectum sine respectu ad agens 
+          <lb ed="#L" n="87"/>ergo sine respectu ad passum.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e647">
+          ⁋ Ad aliud dico quod 
+          <lb ed="#L" n="88"/>tam lumen posito priori casu quam accidentia in
+          eucha<lb ed="#L" n="89" break="no"/>ristia conseruantur a solo deo a non a creatura. et hoc 
+          <lb ed="#L" n="90"/>dicit Anselmus. Aliter dicitur quod non est simile de
+          crea<lb ed="#L" n="91" break="no"/>tione et conseruatione: quia aliter respicit agens in actu 
+          <lb ed="#L" n="92"/>productum et aliter non productum: quia si creatura posset 
+          <lb ed="#L" n="93"/>in aliquo instanti. et sic equaliter respicet omnia creabi 
+          <lb ed="#L" n="94"/>lia eiusdem rationis. et sic in illo instanti producerm omnia 
+          <lb ed="#L" n="95"/>vel nullum tamen post creationem aliter se habet agens crea 
+          <lb ed="#L" n="96"/>tum ad effectum iam positum in actu quam ad alia eius 
+          <lb ed="#L" n="97"/>dem rationis quai non sunt in actu: et non se habet 
+          <lb ed="#L" n="98"/>equaliter ad illa: ideo potest conseruare: licet non
+          cre<lb ed="#L" n="99" break="no"/>are.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e677">
+          ⁋ Eodem modo negarem augmentationes illa 
+          <lb ed="#L" n="100"/>rum specierum fieri a creatura.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e682">
+          ⁋ Ad aliud de vel 
+          <lb ed="#L" n="101"/>me dico quod deus ibi creat materiam de qua educitur 
+          <lb ed="#L" n="102"/>forma vermis.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e689">
+          ⁋ Ad aliud dico quod creare non tam 
+          <lb ed="#L" n="103"/>tum dicit producere aliquid post purum nihi 
+          <lb ed="#L" n="104"/>sed etiam dicit quod nulla materia requiratur: sic 
+          <lb ed="#L" n="105"/>non est in proposito: quia creatura in actione 
+          <lb ed="#L" n="106"/>sua necessario requirit materiam in qua recipitur 
+          <lb ed="#L" n="107"/>forma: deus autem non.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e702">
+          ⁋ Ad aliud dico quod
+          ac<lb ed="#L" n="108" break="no"/>cipiendo annihilare pro mutatione qua
+          de<lb ed="#L" n="109" break="no"/>struitur aliqua forma: sic quod nil eius remanet. 
+          <lb ed="#L" n="110"/>sic forma per corruptionem verissime annihi¬ 
+          <!--578.xml-->
+          <pb ed="#L" n="288-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>latur. sicut enim ante productionem sui fuit purum ni 
+          <lb ed="#L" n="2"/>hil sicut post erit purum nihil: et ideo verissime
+          an<lb ed="#L" n="3" break="no"/>nihilatur: sed tamen accipiendo annihilare vt communiter
+          ho<lb ed="#L" n="4" break="no"/>mines accipiunt opponitur creationi. et sic
+          creatu<lb ed="#L" n="5" break="no"/>ra non potest annihilare: quia sicut solum illud dicitur 
+          <lb ed="#L" n="6"/>creare quod producit aliquid ex nihilo nullam
+          mate<lb ed="#L" n="7" break="no"/>riam praesupponendo. et quia creatura in omni actione sua 
+          <lb ed="#L" n="8"/>necessario praesupponit materiam: ideo non potest
+          an<lb ed="#L" n="9" break="no"/>nihilare aut creare.
+        </p>
+        <p xml:id="wo8uy7-d1e1967-d1e737">
+          ⁋ Ad argumentum in oppositum 
+          <lb ed="#L" n="10"/>de distantia. dico quod nihil concludit nisi vnum falsum 
+          <lb ed="#L" n="11"/>scilicet quod creatura nihil potest agere: quia tanta est
+          di<lb ed="#L" n="12" break="no"/>stantia inter terminum a quo et ad quem quando forma 
+          <lb ed="#L" n="13"/>producitur ab agente naturali: sicut si produceretur 
+          <lb ed="#L" n="14"/>et crearetur immediate a deo: quia vtrobique terminus 
+          <lb ed="#L" n="15"/>a quo est purum nihil: quia terminus a quo non potest 
+          <lb ed="#L" n="16"/>esse materia nec forma opposita forme introdu 
+          <lb ed="#L" n="17"/>cende: nec aliqua pars forme generande: sed solum 
+          <lb ed="#L" n="18"/>modo negatio illius forme quae purum nihil est sicut 
+          <lb ed="#L" n="19"/>prius dictum est. ergo etc. Si dicas quod terminus a 
+          <lb ed="#L" n="20"/>quo est aliquod compositum ex materia et non esse illi 
+          <lb ed="#L" n="21"/>us forme. Contra distantia est accipienda
+          pe<lb ed="#L" n="22" break="no"/>nes illam rationem quorum est oppositio. hoc autem non 
+          <lb ed="#L" n="23"/>est ratione materie: sed solum ratione negationis
+          for<lb ed="#L" n="24" break="no"/>me. ergo etc. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
