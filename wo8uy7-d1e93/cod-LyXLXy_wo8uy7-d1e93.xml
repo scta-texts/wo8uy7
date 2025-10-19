@@ -1,461 +1,461 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="38-v"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e93"><!-- l1prolq3 -->
-            <head xml:id="wo8uy7-d1e93-Hd1e108">Quaestio 3</head>
-            <p xml:id="wo8uy7-d1e93-d1e111">
-      ⁋ Questio incidentalis. 
-      <lb ed="#L" n="48"/>Ad euidentiam
-      aliquo<lb ed="#L" n="49" break="no"/>um dictorum in praecedenti quaestione: quaram aliquas breues 
-      <lb ed="#L" n="50"/>istiones. Primo quaero. Utrum passio scibilis de. 
-      <lb ed="#L" n="51"/>aliquo scientia proprie dicta differt ab eo realiter
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e122">
-      ⁋ Quod 
-      <lb ed="#L" n="52"/>sic. vi. metha. substantie non est demonstratio: ergo de 
-      <lb ed="#L" n="53"/>monstrabile de aliquo non est idem realiter cum eo: ergo
-      di<lb ed="#L" n="54" break="no"/>stinguitur ab eo realiter.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e131">
-      ⁋ Ad oppositum: tunc de deo 
-      <!--79.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 38-v -->
-               <lb ed="#L" n="55"/>non esset scientia proprie deam.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e142">
-      ⁋ Circa istam. qi. est vna opi 
-      <lb ed="#L" n="56"/>nio quod passio quaecumque est eadem realiter cum subiecto. Et 
-      <lb ed="#L" n="57"/>arguunt sic. Illud quod scitur neccessario inesse alicui subiant 
-      <lb ed="#L" n="58"/>ecroc ita quod oppositum includit contradictionem) est re 
-      <lb ed="#L" n="59"/>aliter idem cum illo subiecto: sed in demonstratione simpliciter 
-      <lb ed="#L" n="60"/>neccessaria scitur praedicatum quod est passio neccessario inesse subiainie 
-      <lb ed="#L" n="61"/>cto: ergo talis passio non distinguitur realiter a subiecto. 
-      <lb ed="#L" n="62"/>probatio maioris. prius naturaliter alio potest esse sine 
-      <lb ed="#L" n="63"/>eo absque contradictione: et hoc si distinguitur realiter ab
-      il<lb ed="#L" n="64" break="no"/>o. et per consequens non scitur neccessario inesse illi subiecto. Ideo 
-      <lb ed="#L" n="65"/>icitur quod aliquid esse scibile de aliquo subiecto potest in 
-      <lb ed="#L" n="66"/>telligi triplicitur. Primo: quia distinguitur formaliter a 
-      <lb ed="#L" n="67"/>parte rei ab eo: ita tamen quod non sit de intellectu eius quid 
-      <lb ed="#L" n="68"/>ditatiuo. et ideo dicatur passio eius: sicut est de
-      vnita<lb ed="#L" n="69" break="no"/>te respectu etis. Secundo: quod non distinguatur nec
-      re<lb ed="#L" n="70" break="no"/>aliter nec formaliter: sed tantum per intellectum: sicut creatiuum: 
-      <lb ed="#L" n="71"/>et talia respectu dei quae important respectus rationis qua 
-      <lb ed="#L" n="72"/>praedicantur de deo secundo modo dicendi per se: et per consequens sunt 
-      <lb ed="#L" n="73"/>pprie scibilia. Tertio quod non distinguatur nec realiter 
-      <lb ed="#L" n="74"/>nec formaliter nec per intellectum facientem: sicut
-      intelle<lb ed="#L" n="75" break="no"/>ctus facit relationes rationis: sed potest essentia
-      diui<lb ed="#L" n="76" break="no"/>na causare in intellectu sibi proportionato conceptum 
-      <lb ed="#L" n="77"/>suum quidditatiuum: et similiter conceptum denominatiuum et re 
-      <lb ed="#L" n="78"/>spectiuum sicut creatiuum: qui non dicit aliud a diui 
-      <lb ed="#L" n="79"/>nitate nec realiter nec formaliter: nec dicit respectum 
-      <lb ed="#L" n="80"/>rationis. quia ex quo est respectus realis expressus ab 
-      <lb ed="#L" n="81"/>alio naturaliter non est aliquid factum per intellectum
-      com<lb ed="#L" n="82" break="no"/>perantem et negotiantem: et ita de eadem formalitate 
-      <lb ed="#L" n="83"/>potest haberi conceptus realis quidditatiuus: et alius
-      conce<lb ed="#L" n="84" break="no"/>ptus realis denominatiuus scilicet respectiuus non
-      quiddi<lb ed="#L" n="85" break="no"/>tatiuus. et idem in re secundum alium: et alium conceptum habet 
-      <lb ed="#L" n="86"/>rationem subiecti et passionis. hoc patet: quia risibilitas: vt 
-      <lb ed="#L" n="87"/>dicit aptitudinem ad ridendu neccessario inem homin vt 
-      <lb ed="#L" n="88"/>subiecto: et non dicit aliam rem absolutam nec
-      respe<lb ed="#L" n="89" break="no"/>ctum accidentalem: nec respectum rationis: quia homo expri 
-      <lb ed="#L" n="90"/>mens conceptum suum in intellectu: potest exprimere
-      com<lb ed="#L" n="91" break="no"/>ceptum risibilitatis antequam negociatur. similiter relatio
-      ratio<lb ed="#L" n="92" break="no"/>nis non est passio realis.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e226">
-      ⁋ Contram istam opinionem 
-      <lb ed="#L" n="93"/>arguo: quod passio demonstrabilis de subiecto non 
-      <lb ed="#L" n="94"/>siut idem realiter cum subiecto et distinctam formaliter ctum 
-      <lb ed="#L" n="95"/>qui sicut probabitur post: non est distinctio talis nisi
-      in<lb ed="#L" n="96" break="no"/>ter essentiam diuinam et relationes: vbi vnum non est 
-      <lb ed="#L" n="97"/>passio alterius ftum. quia si haec esset possibile adhuc 
-      <lb ed="#L" n="98"/>vnum non demonstraretur de reliquo: quia propositio
-      compo<lb ed="#L" n="99" break="no"/>sita ex eis esset immediata: et similiter illa eset per se nota 
-      <lb ed="#L" n="100"/>intellectui apprehendenti terminos in particulari
-      pro<lb ed="#L" n="101" break="no"/>pter identitate realem Tum quam quaecumque sunt vnum et idem re 
-      <lb ed="#L" n="102"/>aliter faciunt per se vnum. et per consequens vtrumque est de per se intel 
-      <lb ed="#L" n="103"/>lectu alicuius vnius per se: et ita vnum non est passio
-      al<lb ed="#L" n="104" break="no"/>terius non plus quam coloritas est passio albedinis secundum 
-      <lb ed="#L" n="105"/>istos vel relatio in divinis est passio divine essentie: quia 
-      <lb ed="#L" n="106"/>tunc persona componeretur ex subiecto et passione. Si 
-      <lb ed="#L" n="107"/>dicitur sicut dicunt quod coloritas est de per se intelleciu albe 
-      <lb ed="#L" n="108"/>dinis. ideo non est sua passio Contra. si coloritas est de per se 
-      <lb ed="#L" n="109"/>intellectu albedinis: et tamen distinguitur ab ea forma¬ 
-      <!--80.xml-->
-      <pb ed="#L" n="39-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>liter: portet quod in albedine sit aliquid de cuius intellectum 
-      <lb ed="#L" n="2"/>non est coloritas. per consequens coloritas erit passio illi 
-      <lb ed="#L" n="3"/>vel econuerso: quod manifeste falsum est et contra eos 
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e278">
-               <lb ed="#L" n="4"/>⁋ Confirmatur: quia non est maior ratio quod aliqua distincta 
-      <lb ed="#L" n="5"/>formaliter et vnum realiter quorum neutrum est de
-      intelle<lb ed="#L" n="6" break="no"/>ctu alterius se habeant sicut subiectum et passio. ve 
-      <lb ed="#L" n="7"/>non faciant per se vnum quam alia: cum equaliter distinguuntur: 
-      <lb ed="#L" n="8"/>et ideo rationabiliter loquendo: hoc est ponendu de omnibus 
-      <lb ed="#L" n="9"/>vel de nullis sic distinctis.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e294">
-      ⁋ Contra secundum modum 
-      <lb ed="#L" n="10"/>alias patebit quando probabitur quod creatiuum opnis est 
-      <lb ed="#L" n="11"/>huiusmodi non important respectum rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e301">
-      ⁋ Contra tertium 
-      <lb ed="#L" n="12"/>primum vietur repugnare. secundo: quia omnis conceptus respe 
-      <lb ed="#L" n="13"/>ctiuus neccsario importat aliquem respectu: sicut conce 
-      <lb ed="#L" n="14"/>ptus absolutus importat aliquid absolutum: ergo si
-      cre<lb ed="#L" n="15" break="no"/>atiuum est conceptus respectiuus: importat respectum ali 
-      <lb ed="#L" n="16"/>quem sed non realem secundum eos: ergo respectum rationis. antecedens patet 
-      <lb ed="#L" n="17"/>qui si creatiuum dicit conceptum respectiuum: ergo hec vox 
-      <lb ed="#L" n="18"/>creatiuum est respectiua: ergo importat aliquem respe 
-      <lb ed="#L" n="19"/>ctum: ergo et conceptus
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e321">
-      ⁋ Preterea probatum est prius: quod de 
-      <lb ed="#L" n="20"/>eadem rem simplici: sine omni distinctione non possunt es 
-      <lb ed="#L" n="21"/>duo conceptus scilicet quidditatiuus et denominatiuus importam 
-      <lb ed="#L" n="22"/>tens praecise eadem rem: et ita vna res ante omnem conceptum 
-      <lb ed="#L" n="23"/>alterius rei nullo modo potest exprimere tales dupli 
-      <lb ed="#L" n="24"/>ces conceptus
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e334">
-      ⁋ Ideo ad. q. dico quod passio potest ad  
-      <lb ed="#L" n="25"/>cipi multiplicitur. vno modo pro aliqua re quae dicitur alicui 
-      <lb ed="#L" n="26"/>rei competere. Alio modo accipitur pro illo quod
-      praedica<lb ed="#L" n="27" break="no"/>tur de aliquo secundo modo dicendi per se
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e344">
-      ⁋ Primo modo 
-      <lb ed="#L" n="28"/>dico quod passio vniuersaliter distinguitur realiter a sub 
-      <lb ed="#L" n="29"/>iecto: quia sic nihil est passio nisi aliquod accidens vel 
-      <lb ed="#L" n="30"/>aliqua forma alicui inherens realiter tamquam subiecto. sed 
-      <lb ed="#L" n="31"/>isto modo non accipitur communiter passio in scientiis.
-      Se<lb ed="#L" n="32" break="no"/>cundo modo dico quod vniuersaliter passio non est idem rea 
-      <lb ed="#L" n="33"/>litur cum subiecto: quia panssio isto modo tamtum est quadam
-      conce<lb ed="#L" n="34" break="no"/>ptus praedicabilis de aliquo pro re: non pro se. et
-      vni<lb ed="#L" n="35" break="no"/>uersaliter conceptus numquam est idem realiter cum illo cuius est. 
-      <lb ed="#L" n="36"/>Quod autem passio praedicabilis secundo modo sit quadam conce 
-      <lb ed="#L" n="37"/>ptus patet. quia passio non potest esse res ex animam: cum
-      ni<lb ed="#L" n="38" break="no"/>hil sit extra animam nisi tantum res singularis: sicut post pa 
-      <lb ed="#L" n="39"/>tebit. sed res singularis nulla praedicatur in tali propositione 
-      <lb ed="#L" n="40"/>Uerbi gratia. in ista. omnis homo est risibilis non potest
-      praedi<lb ed="#L" n="41" break="no"/>cari res singularis: quia non est maior ratio de vna quam 
-      <lb ed="#L" n="42"/>de alia: et per consequens quaelibet ibi praedicaretur quod est mani 
-      <lb ed="#L" n="43"/>feste falsu. quia nihil praedicatur in propositione nisi quod est co 
-      <lb ed="#L" n="44"/>gnitum ab habente propositionem: sed non quodlibet risibile 
-      <lb ed="#L" n="45"/>cognoscitur a tali: ergo praecise praedicatur conceptus et non res 
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e386">
-               <lb ed="#L" n="46"/>⁋ Preterea secundum boctium libro periar propositio habet
-      tri<lb ed="#L" n="47" break="no"/>plex ess scilicet in mente: in voce: et in scripto: ergo semper distincum 
-      <lb ed="#L" n="48"/>proponibus in voce corresponderent distincte propositiones 
-      <lb ed="#L" n="49"/>in mente: ergo sicut iste propositiones: sortes est risibilis: pluror 
-      <lb ed="#L" n="50"/>est risibilis: distinguuntur in voce: ita propositionabiliter in 
-      <lb ed="#L" n="51"/>mente: sed in voce habent idem praedicatum simpliciter: ergo et in men 
-      <lb ed="#L" n="52"/>te: sed nulla eadem res indistincta praedicatur de sorte 
-      <lb ed="#L" n="53"/>et platone: ergo nulla res talis praedicatur in illis propositi 
-      <lb ed="#L" n="54"/>nibus in mente: ergo conceptus qui praedicatur: in vna
-      verifi<lb ed="#L" n="55" break="no"/>catur pro vna re: et in alia pro alia.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e410">
-      ⁋ Sciendum tamen quod 
-      <!--80.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 39-r -->
-               <lb ed="#L" n="56"/>quamuis passio non sit eadem realiter cum subiecto: et secundum 
-      <lb ed="#L" n="57"/>vnam opinionem ponentem quod conceptus tantum habet esse ob 
-      <lb ed="#L" n="58"/>iectiuum non distinguitur realiter a subiecto: tamen non possunt 
-      <lb ed="#L" n="59"/>aliqua se habere sicut subiectum et passio realis nisi propter 
-      <lb ed="#L" n="60"/>distinctionem realem aliquo modo importatam per illa: quia 
-      <lb ed="#L" n="61"/>scilicet passio quamuis posset supponere pro
-      subiecto<lb ed="#L" n="62" break="no"/>tamen aliquo modo importat aliam rem a subiecto Uerbi 
-      <lb ed="#L" n="63"/>gratia. quamuis risibile supponat pro homine in ista propositione 
-      <lb ed="#L" n="64"/>omnis homo est risibilis. tamen importat aliquo modo actu riden 
-      <lb ed="#L" n="65"/>di. siue primario siue secundario non curo ad praesens 
-      <lb ed="#L" n="66"/>et propter hoc potest vnum esse passio alterius. Eodem modo modo est 
-      <lb ed="#L" n="67"/>dicedum de creatiuo respectu dei. et vniversaliter de omnibus 
-      <lb ed="#L" n="68"/>talibus quae secundum vnam opinionem dicuntur passiones respe 
-      <lb ed="#L" n="69"/>ctiue et de omnibus concretis quibus correspondent abstra 
-      <lb ed="#L" n="70"/>cta alias res importantia: sicut de calido et frigido 
-      <lb ed="#L" n="71"/>et huiusmodi secundum intentionem philosophi.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e454">
-      ⁋ Si dicitur quod corru 
-      <lb ed="#L" n="72"/>patibile est passio substantiae composite: et tamen non importat 
-      <lb ed="#L" n="73"/>aliam rem. Similiter eternum infinitum immortale et
-      huiusmodi<lb ed="#L" n="74" break="no"/>sunt passiones dei.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e463">
-      ⁋ Ad primum istorum dico: quod
-      cor<lb ed="#L" n="75" break="no"/>ruptibile importat aliam re: quia saltem parten re quae est 
-      <lb ed="#L" n="76"/>alia a toto cuius est illa passio. nolo tamen dicere quod 
-      <lb ed="#L" n="77"/>talis distinctio partis et totius sufficit ad hoc quod vni 
-      <lb ed="#L" n="78"/>sit passio et aliud subiectum: sed tunc quando etiam importatus 
-      <lb ed="#L" n="79"/>negatio vnius partis ab alia: vel in actu: vel in
-      poten<lb ed="#L" n="80" break="no"/>tia sicut patet de corruptibili per quod importatur quod vna pars 
-      <lb ed="#L" n="81"/>potest ab alia separari: et per consequens negari. tunc est
-      possi<lb ed="#L" n="82" break="no"/>bile quod conceptus importans illam parte sit passio illius quod 
-      <lb ed="#L" n="83"/>importat totum.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e485">
-      ⁋ Ad aliud quod eternum connotat tempus 
-      <lb ed="#L" n="84"/>quod importat aliam rem distinctam realiter a deo. quomodo aut 
-      <lb ed="#L" n="85"/>hoc sit declarabitur in secundo. Similiter infinitum. immortale 
-      <lb ed="#L" n="86"/>et huiusmodi quae sunt negatiua. et vniversaliter omnis conceptus
-      nega<lb ed="#L" n="87" break="no"/>tiuus aliquo modo distinctionem rerum importat: sicut 
-      <lb ed="#L" n="88"/>alias habet declarari.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e499">
-      ⁋ Ad primum alterius
-      opini<lb ed="#L" n="89" break="no"/>onis. quando dicitur quod si passio non sit idem realiter cum subie 
-      <lb ed="#L" n="90"/>cato: potest ab eo separari. Respondeo quod si passio quae est ali 
-      <lb ed="#L" n="91"/>qua res potest separari a subiecto: et ideo non necario 
-      <lb ed="#L" n="92"/>inem subiecto: sed illa passio non est demonstrabilis de 
-      <lb ed="#L" n="93"/>subiecto: et ideo nihil ad propositum de passione illa. 
-      <lb ed="#L" n="94"/>De passione autem loquendo secundo modo dicta. illa non 
-      <lb ed="#L" n="95"/>est eadem realiter et secundum vnam opinionem nec est distincta 
-      <lb ed="#L" n="96"/>realiter: quia non est res. et illa non demonstratur inesse
-      sub<lb ed="#L" n="97" break="no"/>iectorealiter: sed tantum demonstratur praedicari de
-      subie<lb ed="#L" n="98" break="no"/>cto non pro se sed pro re. et hoc est possibile siue passio
-      pri<lb ed="#L" n="99" break="no"/>mo modo dicta quando importatur per passionem secundo dicta 
-      <lb ed="#L" n="100"/>inhereat suo subiecto siue non. sed hoc non erit per
-      propo<lb ed="#L" n="101" break="no"/>nem pure de possunti. sed per propositionem de possibili: vel
-      equi<lb ed="#L" n="102" break="no"/>ualentem propositioni de possibili. et sic est de istis. omnis ho 
-      <lb ed="#L" n="103"/>est risibilis. luna est eclipsabilis. et huiusmodi: quia iste 
-      <lb ed="#L" n="104"/>equiualent istis: omnis homo potest ridere. luna potest
-      ecli<lb ed="#L" n="105" break="no"/>psari quae semper vere sunt siue res sint in actu siue no 
-      <lb ed="#L" n="106"/>et ideo concedo quod quandocumque passio importat aliquam rem 
-      <lb ed="#L" n="107"/>natam inherere subiecto. quod nulla propositio pure de 
-      <lb ed="#L" n="108"/>inesse et de presenti est simpliciter necessaria 
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e545">
-               <lb ed="#L" n="109"/>⁋ Tunc ad formam arguendi quando accipitur 
-      <lb ed="#L" n="110"/>quod id quod scitur necessario inesse alicui subiecto  
-      <!--81.xml-->
-      <pb ed="#L" n="39-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>sita quod oppositum includit contradictionem est realiter idem cum 
-      <lb ed="#L" n="2"/>illo subiecto. dico quod illa propositio est distinguenda: quia 
-      <lb ed="#L" n="3"/>esse vno modo idem est quod inherere realiter sicut accidens ines 
-      <lb ed="#L" n="4"/>subiecto et formamaterie. Alio modo idem est quod
-      prae<lb ed="#L" n="5" break="no"/>dicari. primo modo est propositio impossibils propter falsam implica 
-      <lb ed="#L" n="6"/>tone quia implicat aliquod tale inese sic alicui subiecto 
-      <lb ed="#L" n="7"/>neccessario et tamen quod sit idem realiter: quae formaliter repugnant 
-      <lb ed="#L" n="8"/>qui ex hoc quod sic inest distinguitur realiter ab illo. secundo 
-      <lb ed="#L" n="9"/>modo dico quod potest esse talis praedicatio ita quod vtque terminus 
-      <lb ed="#L" n="10"/>supponat pro se: et tunc propositio pria est vera. sed
-      mi<lb ed="#L" n="11" break="no"/>nor tunc est falsa: quia illo modo passio numquam inem subie 
-      <lb ed="#L" n="12"/>cto. Si enim in ista propositione. omnis homo est risibilis vtrquo 
-      <lb ed="#L" n="13"/>terminus supponeret pro se ipsa esset simpliciter
-      impossi<lb ed="#L" n="14" break="no"/>bilis: quia tunc denotaretur quod iste conceptus esset ille. 
-      <lb ed="#L" n="15"/>et quod passio esset subiectum: quod est impossibile. Aliter potes 
-      <lb ed="#L" n="16"/>vterque terminus supponeren pro se sed prore. et tunc est 
-      <lb ed="#L" n="17"/>minor va: et maior falsa: quia tunc nooportet quod illud quod 
-      <lb ed="#L" n="18"/>praedicatur necario de aliquo sit illud realiter nec
-      for<lb ed="#L" n="19" break="no"/>maliter. et quando dicitur quod prius naturaliter alio potest esse samn ess 
-      <lb ed="#L" n="20"/>absque contradictione. de ista propositione dico quod est vera dierebus 
-      <lb ed="#L" n="21"/>ex animam: sed siue sit vera siue falsa de entibus in anima non est 
-      <lb ed="#L" n="22"/>ad propositum: quia ad conclusionis demonstrationem sus 
-      <lb ed="#L" n="23"/>ficit cum aliis conditionibus quod illa conclusio sit
-      necca<lb ed="#L" n="24" break="no"/>ria: ita quod nullo modo possit esse falsa. sed si propositio 
-      <lb ed="#L" n="25"/>sit: quod ipsa sit necsario vera: siue autem subiectum pos 
-      <lb ed="#L" n="26"/>sit esse. sine praedicato vel econuerso siue non nihil ad  
-      <lb ed="#L" n="27"/>propositum.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e617">
-      ⁋ Ad aliud quod innuitur quod risibilitas non 
-      <lb ed="#L" n="28"/>distinguitur realiter ab homine nec formaliter: nec dicit re 
-      <lb ed="#L" n="29"/>spectum rationis nec realem: et tamen est passio. Respondeo quod 
-      <lb ed="#L" n="30"/>risibilitas dicit aliquam rem distinctam realiter ab homine. 
-      <lb ed="#L" n="31"/>qui risibilitas: ridere: risus: risibile et huiusmodi habent 
-      <lb ed="#L" n="32"/>aliquod idem significatum quod primario vel secundario 
-      <lb ed="#L" n="33"/>per omnia ista importatur: et propter hoc potest esse passio.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e633">
-      ⁋ Et 
-      <lb ed="#L" n="34"/>si quaeratur de ipsa risibilitate quae est a parte rei: quo modo il 
-      <lb ed="#L" n="35"/>la distinguitur ab homine: an realiter an formaliter. dico 
-      <lb ed="#L" n="36"/>quod omnes tales propositiones de connotatiuis procedunt ex. 
-      <lb ed="#L" n="37"/>ralsa ymaginatione qua ymaginantur quod talia habeant 
-      <lb ed="#L" n="38"/>quid rei: cum tamen habeant quid nominis tantum: ymaginantur enim 
-      <lb ed="#L" n="39"/>quod risibilitas sit aliquid vnum simpliciter a parte rei et ideo 
-      <lb ed="#L" n="40"/>dicitur risibilitas realis sicut homo vel albedo est aliquid vnum 
-      <lb ed="#L" n="41"/>a parte rei: ita ymaginantur de aliis connotatiuis: sed 
-      <lb ed="#L" n="42"/>ista imaginatio est falsa: non enim risibilitas nrec ap 
-      <lb ed="#L" n="43"/>titudo: nec aliquid tale dicit aliquid vnum a parte rei: 
-      <lb ed="#L" n="44"/>nec per se: nec per accidens: nisi forte ex consequenti: sed 
-      <lb ed="#L" n="45"/>dicit multa simpliciter aliquo modo equiualenter complexo 
-      <lb ed="#L" n="46"/>composito ex illis: quia equiualent alicui complexo: vt 
-      <lb ed="#L" n="47"/>risibile equiualet isti aliquo modo: aliquid potens
-      ri<lb ed="#L" n="48" break="no"/>dere: itam dealbabile: aliquo modo equiualet isti ali 
-      <lb ed="#L" n="49"/>quid potens albari: ita quod quicquid importatur per hoc
-      comple<lb ed="#L" n="50" break="no"/>xum importatur etiam aliquo modo per illud incomplexum: et quia 
-      <lb ed="#L" n="51"/>in talibus quicquid importatur per concretum importatur est per
-      ab<lb ed="#L" n="52" break="no"/>stractum: ideo tale complexum et quicquid importatur per quan 
-      <lb ed="#L" n="53"/>cunque parte illius complexi: aliquo modo importatur per
-      il<lb ed="#L" n="54" break="no"/>lud abstractum: et ideo non debet plus quari quid rei de illo 
-      <lb ed="#L" n="55"/>abstracto quam de illo complexo: sed tantum quarendum est quid  
-      <!--81.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 39-v -->
-               <lb ed="#L" n="56"/>nominis: et ideo non quaerendum est quid est risibilitas a parte rei sed 
-      <lb ed="#L" n="57"/>tantum quid risibilitas significat. etest respondendu quod
-      signi<lb ed="#L" n="58" break="no"/>ficat quod aliquid potest ridere. et ideo proprie loquendo de 
-      <lb ed="#L" n="59"/>virtute sermonis nihil quod precise significat aliquid 
-      <lb ed="#L" n="60"/>vnum: et non significat multa est de aliquo tali abstra 
-      <lb ed="#L" n="61"/>ctopraedicabile: sed tantum consimilia abstracta sicut est de 
-      <lb ed="#L" n="62"/>cecitatode qua nihil praecise significans vnum potest 
-      <lb ed="#L" n="63"/>praedicari a quocumque emnm demonstrato. hoc est falsa. hoc est 
-      <lb ed="#L" n="64"/>cecitas.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e709">
-      ⁋ Si dicitur quod hoc non est positiuum sed tantum praeuatio 
-      <lb ed="#L" n="65"/>respondeo quod puatio et vniuersaliter negatio dicit praecise 
-      <lb ed="#L" n="66"/>aliquas res vel rationes: et ita non est ymaginandu quod
-      pri<lb ed="#L" n="67" break="no"/>uatio vel negatio sit aliquid conceptibile distinctum 
-      <lb ed="#L" n="68"/>a rebus positiuis vel rationibus: sed dicit illas: sicut non homo 
-      <lb ed="#L" n="69"/>dicit aliquid quod non est homo: eodem modo cecitas dicit ocu 
-      <lb ed="#L" n="70"/>lum non potentem videre. et ideo satius simile est de istis: et de 
-      <lb ed="#L" n="71"/>aliis. Potest tamen poni exemplum in aliis: quia
-      creatiui<lb ed="#L" n="72" break="no"/>tas properie de nulla re vna praedicatur. non enim potest dici 
-      <lb ed="#L" n="73"/>quod deus sit creatiuitas nec creatura: quia
-      creatiui<lb ed="#L" n="74" break="no"/>tas non dicit aliquid vnum: sed dicit hoc totum quod est aliquo 
-      <lb ed="#L" n="75"/>quod potest de nihilo aliquid producere. eodem modo est de po 
-      <lb ed="#L" n="76"/>tentialitate materie: quia potentialitas materie non 
-      <lb ed="#L" n="77"/>dicit aliquid vnum: quia nec rem absolutam nec
-      respecti<lb ed="#L" n="78" break="no"/>uam realem: nec respectum rationis: quia vere materia est in 
-      <lb ed="#L" n="79"/>potentia omni actu intellectus circumscripto: et per consequens 
-      <lb ed="#L" n="80"/>sni omni respectu rationis: Qic quod materia potest habere
-      for<lb ed="#L" n="81" break="no"/>mam quam modo non habet. et ideo in multi argumenter est
-      falla<lb ed="#L" n="82" break="no"/>cia figure dictonis sub nomine simpliciter absoluto ad 
-      <lb ed="#L" n="83"/>cipiendo nomen connotatiuum: sicut sic arguendo. quie 
-      <lb ed="#L" n="84"/>quid potest deus mediante causa secunda potest immediate per se 
-      <lb ed="#L" n="85"/>sed actum meritorium potest producere mediante actu vo 
-      <lb ed="#L" n="86"/>luntatis: ergo sine eo. et sic de aliis multis in quibus semper est fal 
-      <lb ed="#L" n="87"/>lacia figure dictionis: quia comutatur quid in aliquid se 
-      <lb ed="#L" n="88"/>cundum vnum modum loquendi vel in connotatiuum secundum
-      a<lb ed="#L" n="89" break="no"/>lium modum loquendi.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e766">
-      ⁋ Tame sciendum quod risibilitas. 
-      <lb ed="#L" n="90"/>aptitudo: et huiusmodi abstracta multa apud philosophum 
-      <lb ed="#L" n="91"/>equiuoce accipiuntur. nam aliquando accipiuntur et
-      suppo<lb ed="#L" n="92" break="no"/>nunt pro eodem: pro quo supponunt sua concreta: et sic 
-      <lb ed="#L" n="93"/>esset concedendum quod risibilitas est homo. aliquando
-      suppo<lb ed="#L" n="94" break="no"/>nunt pro vno aggregato ex omnibus quae importantur siue
-      pri<lb ed="#L" n="95" break="no"/>mo siue secundario per ipsum id est aliquando supponunt praeci 
-      <lb ed="#L" n="96"/>se pro ipsis concretur.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e785">
-      ⁋ Ex istis patet consequentur quod conceptus 
-      <lb ed="#L" n="97"/>talis denominatiuus praedicabilis secundomodo non causatur
-      pri<lb ed="#L" n="98" break="no"/>cise a re de qua praedicatur ante omnem conceptum alterius. est 
-      <lb ed="#L" n="99"/>praesupponit conceptu cuiumscuque quod importatur per ips 
-      <lb ed="#L" n="100"/>et ideo iste conceptus creatiuum non potest haberi nisi
-      cogni<lb ed="#L" n="101" break="no"/>to aliquo quod non est deus. patet etiam quam non est dicendum quam 
-      <lb ed="#L" n="102"/>eadem res sub vno conceptu est subiectum: sub alio 
-      <lb ed="#L" n="103"/>conceptu est passio: quia ipsa res nec sub vno conceptu 
-      <lb ed="#L" n="104"/>nec sub alio est passio: sed ipse conceptus est passio.
-      Con<lb ed="#L" n="105" break="no"/>tra tamen praedicta vivetur esse aristoteles id est thopri. quia per eum pro 
-      <lb ed="#L" n="106"/>orium distiguitur a diffinitione per hoc quod diffinitio dicit 
-      <lb ed="#L" n="107"/>quid et proprium accidens. Similiter secundum linconiensem id est poste 
-      <lb ed="#L" n="108"/>ca. de per se in primo modo quidditas subiecti egredie 
-      <lb ed="#L" n="109"/>tur a quidditate praedicati in secundo econuerso: ergo 
-      <lb ed="#L" n="110"/>in primo modo subiectum distinguitur realiter a praedicato 
-      <!--82.xml-->
-      <pb ed="#L" n="40-r"/>
-               <cb ed="#L" n="a"/>
-            </p>
-            <p xml:id="wo8uy7-d1e93-d1e824">
-               <lb ed="#L" n="1"/>⁋ Confirmatur: quia secundum eum ibidem non est aliquas mod  
-      <lb ed="#L" n="2"/>praedicandi per se nisi subiectum sit causa praedicati vel
-      econ<lb ed="#L" n="3" break="no"/>uerso.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e833">
-      ⁋ Ad primum istorum dico quod philosophus intelligit per 
-      <lb ed="#L" n="4"/>accidens omne extrinsecum rei. et ideo proprium quia impor 
-      <lb ed="#L" n="5"/>tat semper aliquid quod est extrinsecum rei. ideo dicitur dicere 
-      <lb ed="#L" n="6"/>accidens tale: ita tamen quod conuertibile sit: quia accipit 
-      <lb ed="#L" n="7"/>ihi accidens vt distinguitur contra quid: et ideo vera possumus 
-      <lb ed="#L" n="8"/>dicere quod creatiuum est proprium deo quia conuertitur cum deo 
-      <lb ed="#L" n="9"/>et importat creaturam quae realiter distinguitur a deo quam 
-      <lb ed="#L" n="10"/>uis non dicat aliquod accidens dei.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e851">
-      ⁋ Ad secundum
-      di<lb ed="#L" n="11" break="no"/>co quod non oportet quod praedicatum distinguatur a sub 
-      <lb ed="#L" n="12"/>iecto: nec quod sit effectus realis subiecti: sed sufficit 
-      <lb ed="#L" n="13"/>q sit causa alicuius quod importatur per subiectum: et vt 
-      <lb ed="#L" n="14"/>comunius vel sepram quando propositio et vere affirmatia 
-      <lb ed="#L" n="15"/>ua et praedicatio propria et per se secundo modo subiectum vel 
-      <lb ed="#L" n="16"/>aliquid importatum per subiectum est causa alicuius
-      impor<lb ed="#L" n="17" break="no"/>tati per praedicatum: et hoc extendendo causam ad partes inte 
-      <lb ed="#L" n="18"/>grales quae aliquo modo dicuntur cause totius. per hoc patet 
-      <lb ed="#L" n="19"/>ad confirmationem.
-    </p>
-            <p xml:id="wo8uy7-d1e93-d1e873">
-      ⁋ Ad primum principale: nego 
-      <lb ed="#L" n="20"/>listam consequentiam: demonstrabile de aliquo non est idem re 
-      <lb ed="#L" n="21"/>alit cum eo: ergo distinguitur realiter ab eo. patet ista instam 
-      <lb ed="#L" n="22"/>tia: quia ens rationis nec est idem cum re nec distinguitur. 
-      <lb ed="#L" n="23"/>realiter. et hoc secundum opinionem quae ponit etia rationis
-      ob<lb ed="#L" n="24" break="no"/>iectiue in anima.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="38-v"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e93"><!-- l1prolq3 -->
+        <head xml:id="wo8uy7-d1e93-Hd1e108">Quaestio 3</head>
+        <p xml:id="wo8uy7-d1e93-d1e111">
+          ⁋ Questio incidentalis. 
+          <lb ed="#L" n="48"/>Ad euidentiam
+          aliquo<lb ed="#L" n="49" break="no"/>um dictorum in praecedenti quaestione: quaram aliquas breues 
+          <lb ed="#L" n="50"/>istiones. Primo quaero. Utrum passio scibilis de. 
+          <lb ed="#L" n="51"/>aliquo scientia proprie dicta differt ab eo realiter
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e122">
+          ⁋ Quod 
+          <lb ed="#L" n="52"/>sic. vi. metha. substantie non est demonstratio: ergo de 
+          <lb ed="#L" n="53"/>monstrabile de aliquo non est idem realiter cum eo: ergo
+          di<lb ed="#L" n="54" break="no"/>stinguitur ab eo realiter.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e131">
+          ⁋ Ad oppositum: tunc de deo 
+          <!--79.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 38-v -->
+          <lb ed="#L" n="55"/>non esset scientia proprie deam.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e142">
+          ⁋ Circa istam. qi. est vna opi 
+          <lb ed="#L" n="56"/>nio quod passio quaecumque est eadem realiter cum subiecto. Et 
+          <lb ed="#L" n="57"/>arguunt sic. Illud quod scitur neccessario inesse alicui subiant 
+          <lb ed="#L" n="58"/>ecroc ita quod oppositum includit contradictionem) est re 
+          <lb ed="#L" n="59"/>aliter idem cum illo subiecto: sed in demonstratione simpliciter 
+          <lb ed="#L" n="60"/>neccessaria scitur praedicatum quod est passio neccessario inesse subiainie 
+          <lb ed="#L" n="61"/>cto: ergo talis passio non distinguitur realiter a subiecto. 
+          <lb ed="#L" n="62"/>probatio maioris. prius naturaliter alio potest esse sine 
+          <lb ed="#L" n="63"/>eo absque contradictione: et hoc si distinguitur realiter ab
+          il<lb ed="#L" n="64" break="no"/>o. et per consequens non scitur neccessario inesse illi subiecto. Ideo 
+          <lb ed="#L" n="65"/>icitur quod aliquid esse scibile de aliquo subiecto potest in 
+          <lb ed="#L" n="66"/>telligi triplicitur. Primo: quia distinguitur formaliter a 
+          <lb ed="#L" n="67"/>parte rei ab eo: ita tamen quod non sit de intellectu eius quid 
+          <lb ed="#L" n="68"/>ditatiuo. et ideo dicatur passio eius: sicut est de
+          vnita<lb ed="#L" n="69" break="no"/>te respectu etis. Secundo: quod non distinguatur nec
+          re<lb ed="#L" n="70" break="no"/>aliter nec formaliter: sed tantum per intellectum: sicut creatiuum: 
+          <lb ed="#L" n="71"/>et talia respectu dei quae important respectus rationis qua 
+          <lb ed="#L" n="72"/>praedicantur de deo secundo modo dicendi per se: et per consequens sunt 
+          <lb ed="#L" n="73"/>pprie scibilia. Tertio quod non distinguatur nec realiter 
+          <lb ed="#L" n="74"/>nec formaliter nec per intellectum facientem: sicut
+          intelle<lb ed="#L" n="75" break="no"/>ctus facit relationes rationis: sed potest essentia
+          diui<lb ed="#L" n="76" break="no"/>na causare in intellectu sibi proportionato conceptum 
+          <lb ed="#L" n="77"/>suum quidditatiuum: et similiter conceptum denominatiuum et re 
+          <lb ed="#L" n="78"/>spectiuum sicut creatiuum: qui non dicit aliud a diui 
+          <lb ed="#L" n="79"/>nitate nec realiter nec formaliter: nec dicit respectum 
+          <lb ed="#L" n="80"/>rationis. quia ex quo est respectus realis expressus ab 
+          <lb ed="#L" n="81"/>alio naturaliter non est aliquid factum per intellectum
+          com<lb ed="#L" n="82" break="no"/>perantem et negotiantem: et ita de eadem formalitate 
+          <lb ed="#L" n="83"/>potest haberi conceptus realis quidditatiuus: et alius
+          conce<lb ed="#L" n="84" break="no"/>ptus realis denominatiuus scilicet respectiuus non
+          quiddi<lb ed="#L" n="85" break="no"/>tatiuus. et idem in re secundum alium: et alium conceptum habet 
+          <lb ed="#L" n="86"/>rationem subiecti et passionis. hoc patet: quia risibilitas: vt 
+          <lb ed="#L" n="87"/>dicit aptitudinem ad ridendu neccessario inem homin vt 
+          <lb ed="#L" n="88"/>subiecto: et non dicit aliam rem absolutam nec
+          respe<lb ed="#L" n="89" break="no"/>ctum accidentalem: nec respectum rationis: quia homo expri 
+          <lb ed="#L" n="90"/>mens conceptum suum in intellectu: potest exprimere
+          com<lb ed="#L" n="91" break="no"/>ceptum risibilitatis antequam negociatur. similiter relatio
+          ratio<lb ed="#L" n="92" break="no"/>nis non est passio realis.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e226">
+          ⁋ Contram istam opinionem 
+          <lb ed="#L" n="93"/>arguo: quod passio demonstrabilis de subiecto non 
+          <lb ed="#L" n="94"/>siut idem realiter cum subiecto et distinctam formaliter ctum 
+          <lb ed="#L" n="95"/>qui sicut probabitur post: non est distinctio talis nisi
+          in<lb ed="#L" n="96" break="no"/>ter essentiam diuinam et relationes: vbi vnum non est 
+          <lb ed="#L" n="97"/>passio alterius ftum. quia si haec esset possibile adhuc 
+          <lb ed="#L" n="98"/>vnum non demonstraretur de reliquo: quia propositio
+          compo<lb ed="#L" n="99" break="no"/>sita ex eis esset immediata: et similiter illa eset per se nota 
+          <lb ed="#L" n="100"/>intellectui apprehendenti terminos in particulari
+          pro<lb ed="#L" n="101" break="no"/>pter identitate realem Tum quam quaecumque sunt vnum et idem re 
+          <lb ed="#L" n="102"/>aliter faciunt per se vnum. et per consequens vtrumque est de per se intel 
+          <lb ed="#L" n="103"/>lectu alicuius vnius per se: et ita vnum non est passio
+          al<lb ed="#L" n="104" break="no"/>terius non plus quam coloritas est passio albedinis secundum 
+          <lb ed="#L" n="105"/>istos vel relatio in divinis est passio divine essentie: quia 
+          <lb ed="#L" n="106"/>tunc persona componeretur ex subiecto et passione. Si 
+          <lb ed="#L" n="107"/>dicitur sicut dicunt quod coloritas est de per se intelleciu albe 
+          <lb ed="#L" n="108"/>dinis. ideo non est sua passio Contra. si coloritas est de per se 
+          <lb ed="#L" n="109"/>intellectu albedinis: et tamen distinguitur ab ea forma¬ 
+          <!--80.xml-->
+          <pb ed="#L" n="39-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>liter: portet quod in albedine sit aliquid de cuius intellectum 
+          <lb ed="#L" n="2"/>non est coloritas. per consequens coloritas erit passio illi 
+          <lb ed="#L" n="3"/>vel econuerso: quod manifeste falsum est et contra eos 
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e278">
+          <lb ed="#L" n="4"/>⁋ Confirmatur: quia non est maior ratio quod aliqua distincta 
+          <lb ed="#L" n="5"/>formaliter et vnum realiter quorum neutrum est de
+          intelle<lb ed="#L" n="6" break="no"/>ctu alterius se habeant sicut subiectum et passio. ve 
+          <lb ed="#L" n="7"/>non faciant per se vnum quam alia: cum equaliter distinguuntur: 
+          <lb ed="#L" n="8"/>et ideo rationabiliter loquendo: hoc est ponendu de omnibus 
+          <lb ed="#L" n="9"/>vel de nullis sic distinctis.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e294">
+          ⁋ Contra secundum modum 
+          <lb ed="#L" n="10"/>alias patebit quando probabitur quod creatiuum opnis est 
+          <lb ed="#L" n="11"/>huiusmodi non important respectum rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e301">
+          ⁋ Contra tertium 
+          <lb ed="#L" n="12"/>primum vietur repugnare. secundo: quia omnis conceptus respe 
+          <lb ed="#L" n="13"/>ctiuus neccsario importat aliquem respectu: sicut conce 
+          <lb ed="#L" n="14"/>ptus absolutus importat aliquid absolutum: ergo si
+          cre<lb ed="#L" n="15" break="no"/>atiuum est conceptus respectiuus: importat respectum ali 
+          <lb ed="#L" n="16"/>quem sed non realem secundum eos: ergo respectum rationis. antecedens patet 
+          <lb ed="#L" n="17"/>qui si creatiuum dicit conceptum respectiuum: ergo hec vox 
+          <lb ed="#L" n="18"/>creatiuum est respectiua: ergo importat aliquem respe 
+          <lb ed="#L" n="19"/>ctum: ergo et conceptus
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e321">
+          ⁋ Preterea probatum est prius: quod de 
+          <lb ed="#L" n="20"/>eadem rem simplici: sine omni distinctione non possunt es 
+          <lb ed="#L" n="21"/>duo conceptus scilicet quidditatiuus et denominatiuus importam 
+          <lb ed="#L" n="22"/>tens praecise eadem rem: et ita vna res ante omnem conceptum 
+          <lb ed="#L" n="23"/>alterius rei nullo modo potest exprimere tales dupli 
+          <lb ed="#L" n="24"/>ces conceptus
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e334">
+          ⁋ Ideo ad. q. dico quod passio potest ad  
+          <lb ed="#L" n="25"/>cipi multiplicitur. vno modo pro aliqua re quae dicitur alicui 
+          <lb ed="#L" n="26"/>rei competere. Alio modo accipitur pro illo quod
+          praedica<lb ed="#L" n="27" break="no"/>tur de aliquo secundo modo dicendi per se
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e344">
+          ⁋ Primo modo 
+          <lb ed="#L" n="28"/>dico quod passio vniuersaliter distinguitur realiter a sub 
+          <lb ed="#L" n="29"/>iecto: quia sic nihil est passio nisi aliquod accidens vel 
+          <lb ed="#L" n="30"/>aliqua forma alicui inherens realiter tamquam subiecto. sed 
+          <lb ed="#L" n="31"/>isto modo non accipitur communiter passio in scientiis.
+          Se<lb ed="#L" n="32" break="no"/>cundo modo dico quod vniuersaliter passio non est idem rea 
+          <lb ed="#L" n="33"/>litur cum subiecto: quia panssio isto modo tamtum est quadam
+          conce<lb ed="#L" n="34" break="no"/>ptus praedicabilis de aliquo pro re: non pro se. et
+          vni<lb ed="#L" n="35" break="no"/>uersaliter conceptus numquam est idem realiter cum illo cuius est. 
+          <lb ed="#L" n="36"/>Quod autem passio praedicabilis secundo modo sit quadam conce 
+          <lb ed="#L" n="37"/>ptus patet. quia passio non potest esse res ex animam: cum
+          ni<lb ed="#L" n="38" break="no"/>hil sit extra animam nisi tantum res singularis: sicut post pa 
+          <lb ed="#L" n="39"/>tebit. sed res singularis nulla praedicatur in tali propositione 
+          <lb ed="#L" n="40"/>Uerbi gratia. in ista. omnis homo est risibilis non potest
+          praedi<lb ed="#L" n="41" break="no"/>cari res singularis: quia non est maior ratio de vna quam 
+          <lb ed="#L" n="42"/>de alia: et per consequens quaelibet ibi praedicaretur quod est mani 
+          <lb ed="#L" n="43"/>feste falsu. quia nihil praedicatur in propositione nisi quod est co 
+          <lb ed="#L" n="44"/>gnitum ab habente propositionem: sed non quodlibet risibile 
+          <lb ed="#L" n="45"/>cognoscitur a tali: ergo praecise praedicatur conceptus et non res 
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e386">
+          <lb ed="#L" n="46"/>⁋ Preterea secundum boctium libro periar propositio habet
+          tri<lb ed="#L" n="47" break="no"/>plex ess scilicet in mente: in voce: et in scripto: ergo semper distincum 
+          <lb ed="#L" n="48"/>proponibus in voce corresponderent distincte propositiones 
+          <lb ed="#L" n="49"/>in mente: ergo sicut iste propositiones: sortes est risibilis: pluror 
+          <lb ed="#L" n="50"/>est risibilis: distinguuntur in voce: ita propositionabiliter in 
+          <lb ed="#L" n="51"/>mente: sed in voce habent idem praedicatum simpliciter: ergo et in men 
+          <lb ed="#L" n="52"/>te: sed nulla eadem res indistincta praedicatur de sorte 
+          <lb ed="#L" n="53"/>et platone: ergo nulla res talis praedicatur in illis propositi 
+          <lb ed="#L" n="54"/>nibus in mente: ergo conceptus qui praedicatur: in vna
+          verifi<lb ed="#L" n="55" break="no"/>catur pro vna re: et in alia pro alia.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e410">
+          ⁋ Sciendum tamen quod 
+          <!--80.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 39-r -->
+          <lb ed="#L" n="56"/>quamuis passio non sit eadem realiter cum subiecto: et secundum 
+          <lb ed="#L" n="57"/>vnam opinionem ponentem quod conceptus tantum habet esse ob 
+          <lb ed="#L" n="58"/>iectiuum non distinguitur realiter a subiecto: tamen non possunt 
+          <lb ed="#L" n="59"/>aliqua se habere sicut subiectum et passio realis nisi propter 
+          <lb ed="#L" n="60"/>distinctionem realem aliquo modo importatam per illa: quia 
+          <lb ed="#L" n="61"/>scilicet passio quamuis posset supponere pro
+          subiecto<lb ed="#L" n="62" break="no"/>tamen aliquo modo importat aliam rem a subiecto Uerbi 
+          <lb ed="#L" n="63"/>gratia. quamuis risibile supponat pro homine in ista propositione 
+          <lb ed="#L" n="64"/>omnis homo est risibilis. tamen importat aliquo modo actu riden 
+          <lb ed="#L" n="65"/>di. siue primario siue secundario non curo ad praesens 
+          <lb ed="#L" n="66"/>et propter hoc potest vnum esse passio alterius. Eodem modo modo est 
+          <lb ed="#L" n="67"/>dicedum de creatiuo respectu dei. et vniversaliter de omnibus 
+          <lb ed="#L" n="68"/>talibus quae secundum vnam opinionem dicuntur passiones respe 
+          <lb ed="#L" n="69"/>ctiue et de omnibus concretis quibus correspondent abstra 
+          <lb ed="#L" n="70"/>cta alias res importantia: sicut de calido et frigido 
+          <lb ed="#L" n="71"/>et huiusmodi secundum intentionem philosophi.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e454">
+          ⁋ Si dicitur quod corru 
+          <lb ed="#L" n="72"/>patibile est passio substantiae composite: et tamen non importat 
+          <lb ed="#L" n="73"/>aliam rem. Similiter eternum infinitum immortale et
+          huiusmodi<lb ed="#L" n="74" break="no"/>sunt passiones dei.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e463">
+          ⁋ Ad primum istorum dico: quod
+          cor<lb ed="#L" n="75" break="no"/>ruptibile importat aliam re: quia saltem parten re quae est 
+          <lb ed="#L" n="76"/>alia a toto cuius est illa passio. nolo tamen dicere quod 
+          <lb ed="#L" n="77"/>talis distinctio partis et totius sufficit ad hoc quod vni 
+          <lb ed="#L" n="78"/>sit passio et aliud subiectum: sed tunc quando etiam importatus 
+          <lb ed="#L" n="79"/>negatio vnius partis ab alia: vel in actu: vel in
+          poten<lb ed="#L" n="80" break="no"/>tia sicut patet de corruptibili per quod importatur quod vna pars 
+          <lb ed="#L" n="81"/>potest ab alia separari: et per consequens negari. tunc est
+          possi<lb ed="#L" n="82" break="no"/>bile quod conceptus importans illam parte sit passio illius quod 
+          <lb ed="#L" n="83"/>importat totum.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e485">
+          ⁋ Ad aliud quod eternum connotat tempus 
+          <lb ed="#L" n="84"/>quod importat aliam rem distinctam realiter a deo. quomodo aut 
+          <lb ed="#L" n="85"/>hoc sit declarabitur in secundo. Similiter infinitum. immortale 
+          <lb ed="#L" n="86"/>et huiusmodi quae sunt negatiua. et vniversaliter omnis conceptus
+          nega<lb ed="#L" n="87" break="no"/>tiuus aliquo modo distinctionem rerum importat: sicut 
+          <lb ed="#L" n="88"/>alias habet declarari.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e499">
+          ⁋ Ad primum alterius
+          opini<lb ed="#L" n="89" break="no"/>onis. quando dicitur quod si passio non sit idem realiter cum subie 
+          <lb ed="#L" n="90"/>cato: potest ab eo separari. Respondeo quod si passio quae est ali 
+          <lb ed="#L" n="91"/>qua res potest separari a subiecto: et ideo non necario 
+          <lb ed="#L" n="92"/>inem subiecto: sed illa passio non est demonstrabilis de 
+          <lb ed="#L" n="93"/>subiecto: et ideo nihil ad propositum de passione illa. 
+          <lb ed="#L" n="94"/>De passione autem loquendo secundo modo dicta. illa non 
+          <lb ed="#L" n="95"/>est eadem realiter et secundum vnam opinionem nec est distincta 
+          <lb ed="#L" n="96"/>realiter: quia non est res. et illa non demonstratur inesse
+          sub<lb ed="#L" n="97" break="no"/>iectorealiter: sed tantum demonstratur praedicari de
+          subie<lb ed="#L" n="98" break="no"/>cto non pro se sed pro re. et hoc est possibile siue passio
+          pri<lb ed="#L" n="99" break="no"/>mo modo dicta quando importatur per passionem secundo dicta 
+          <lb ed="#L" n="100"/>inhereat suo subiecto siue non. sed hoc non erit per
+          propo<lb ed="#L" n="101" break="no"/>nem pure de possunti. sed per propositionem de possibili: vel
+          equi<lb ed="#L" n="102" break="no"/>ualentem propositioni de possibili. et sic est de istis. omnis ho 
+          <lb ed="#L" n="103"/>est risibilis. luna est eclipsabilis. et huiusmodi: quia iste 
+          <lb ed="#L" n="104"/>equiualent istis: omnis homo potest ridere. luna potest
+          ecli<lb ed="#L" n="105" break="no"/>psari quae semper vere sunt siue res sint in actu siue no 
+          <lb ed="#L" n="106"/>et ideo concedo quod quandocumque passio importat aliquam rem 
+          <lb ed="#L" n="107"/>natam inherere subiecto. quod nulla propositio pure de 
+          <lb ed="#L" n="108"/>inesse et de presenti est simpliciter necessaria 
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e545">
+          <lb ed="#L" n="109"/>⁋ Tunc ad formam arguendi quando accipitur 
+          <lb ed="#L" n="110"/>quod id quod scitur necessario inesse alicui subiecto  
+          <!--81.xml-->
+          <pb ed="#L" n="39-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>sita quod oppositum includit contradictionem est realiter idem cum 
+          <lb ed="#L" n="2"/>illo subiecto. dico quod illa propositio est distinguenda: quia 
+          <lb ed="#L" n="3"/>esse vno modo idem est quod inherere realiter sicut accidens ines 
+          <lb ed="#L" n="4"/>subiecto et formamaterie. Alio modo idem est quod
+          prae<lb ed="#L" n="5" break="no"/>dicari. primo modo est propositio impossibils propter falsam implica 
+          <lb ed="#L" n="6"/>tone quia implicat aliquod tale inese sic alicui subiecto 
+          <lb ed="#L" n="7"/>neccessario et tamen quod sit idem realiter: quae formaliter repugnant 
+          <lb ed="#L" n="8"/>qui ex hoc quod sic inest distinguitur realiter ab illo. secundo 
+          <lb ed="#L" n="9"/>modo dico quod potest esse talis praedicatio ita quod vtque terminus 
+          <lb ed="#L" n="10"/>supponat pro se: et tunc propositio pria est vera. sed
+          mi<lb ed="#L" n="11" break="no"/>nor tunc est falsa: quia illo modo passio numquam inem subie 
+          <lb ed="#L" n="12"/>cto. Si enim in ista propositione. omnis homo est risibilis vtrquo 
+          <lb ed="#L" n="13"/>terminus supponeret pro se ipsa esset simpliciter
+          impossi<lb ed="#L" n="14" break="no"/>bilis: quia tunc denotaretur quod iste conceptus esset ille. 
+          <lb ed="#L" n="15"/>et quod passio esset subiectum: quod est impossibile. Aliter potes 
+          <lb ed="#L" n="16"/>vterque terminus supponeren pro se sed prore. et tunc est 
+          <lb ed="#L" n="17"/>minor va: et maior falsa: quia tunc nooportet quod illud quod 
+          <lb ed="#L" n="18"/>praedicatur necario de aliquo sit illud realiter nec
+          for<lb ed="#L" n="19" break="no"/>maliter. et quando dicitur quod prius naturaliter alio potest esse samn ess 
+          <lb ed="#L" n="20"/>absque contradictione. de ista propositione dico quod est vera dierebus 
+          <lb ed="#L" n="21"/>ex animam: sed siue sit vera siue falsa de entibus in anima non est 
+          <lb ed="#L" n="22"/>ad propositum: quia ad conclusionis demonstrationem sus 
+          <lb ed="#L" n="23"/>ficit cum aliis conditionibus quod illa conclusio sit
+          necca<lb ed="#L" n="24" break="no"/>ria: ita quod nullo modo possit esse falsa. sed si propositio 
+          <lb ed="#L" n="25"/>sit: quod ipsa sit necsario vera: siue autem subiectum pos 
+          <lb ed="#L" n="26"/>sit esse. sine praedicato vel econuerso siue non nihil ad  
+          <lb ed="#L" n="27"/>propositum.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e617">
+          ⁋ Ad aliud quod innuitur quod risibilitas non 
+          <lb ed="#L" n="28"/>distinguitur realiter ab homine nec formaliter: nec dicit re 
+          <lb ed="#L" n="29"/>spectum rationis nec realem: et tamen est passio. Respondeo quod 
+          <lb ed="#L" n="30"/>risibilitas dicit aliquam rem distinctam realiter ab homine. 
+          <lb ed="#L" n="31"/>qui risibilitas: ridere: risus: risibile et huiusmodi habent 
+          <lb ed="#L" n="32"/>aliquod idem significatum quod primario vel secundario 
+          <lb ed="#L" n="33"/>per omnia ista importatur: et propter hoc potest esse passio.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e633">
+          ⁋ Et 
+          <lb ed="#L" n="34"/>si quaeratur de ipsa risibilitate quae est a parte rei: quo modo il 
+          <lb ed="#L" n="35"/>la distinguitur ab homine: an realiter an formaliter. dico 
+          <lb ed="#L" n="36"/>quod omnes tales propositiones de connotatiuis procedunt ex. 
+          <lb ed="#L" n="37"/>ralsa ymaginatione qua ymaginantur quod talia habeant 
+          <lb ed="#L" n="38"/>quid rei: cum tamen habeant quid nominis tantum: ymaginantur enim 
+          <lb ed="#L" n="39"/>quod risibilitas sit aliquid vnum simpliciter a parte rei et ideo 
+          <lb ed="#L" n="40"/>dicitur risibilitas realis sicut homo vel albedo est aliquid vnum 
+          <lb ed="#L" n="41"/>a parte rei: ita ymaginantur de aliis connotatiuis: sed 
+          <lb ed="#L" n="42"/>ista imaginatio est falsa: non enim risibilitas nrec ap 
+          <lb ed="#L" n="43"/>titudo: nec aliquid tale dicit aliquid vnum a parte rei: 
+          <lb ed="#L" n="44"/>nec per se: nec per accidens: nisi forte ex consequenti: sed 
+          <lb ed="#L" n="45"/>dicit multa simpliciter aliquo modo equiualenter complexo 
+          <lb ed="#L" n="46"/>composito ex illis: quia equiualent alicui complexo: vt 
+          <lb ed="#L" n="47"/>risibile equiualet isti aliquo modo: aliquid potens
+          ri<lb ed="#L" n="48" break="no"/>dere: itam dealbabile: aliquo modo equiualet isti ali 
+          <lb ed="#L" n="49"/>quid potens albari: ita quod quicquid importatur per hoc
+          comple<lb ed="#L" n="50" break="no"/>xum importatur etiam aliquo modo per illud incomplexum: et quia 
+          <lb ed="#L" n="51"/>in talibus quicquid importatur per concretum importatur est per
+          ab<lb ed="#L" n="52" break="no"/>stractum: ideo tale complexum et quicquid importatur per quan 
+          <lb ed="#L" n="53"/>cunque parte illius complexi: aliquo modo importatur per
+          il<lb ed="#L" n="54" break="no"/>lud abstractum: et ideo non debet plus quari quid rei de illo 
+          <lb ed="#L" n="55"/>abstracto quam de illo complexo: sed tantum quarendum est quid  
+          <!--81.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 39-v -->
+          <lb ed="#L" n="56"/>nominis: et ideo non quaerendum est quid est risibilitas a parte rei sed 
+          <lb ed="#L" n="57"/>tantum quid risibilitas significat. etest respondendu quod
+          signi<lb ed="#L" n="58" break="no"/>ficat quod aliquid potest ridere. et ideo proprie loquendo de 
+          <lb ed="#L" n="59"/>virtute sermonis nihil quod precise significat aliquid 
+          <lb ed="#L" n="60"/>vnum: et non significat multa est de aliquo tali abstra 
+          <lb ed="#L" n="61"/>ctopraedicabile: sed tantum consimilia abstracta sicut est de 
+          <lb ed="#L" n="62"/>cecitatode qua nihil praecise significans vnum potest 
+          <lb ed="#L" n="63"/>praedicari a quocumque emnm demonstrato. hoc est falsa. hoc est 
+          <lb ed="#L" n="64"/>cecitas.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e709">
+          ⁋ Si dicitur quod hoc non est positiuum sed tantum praeuatio 
+          <lb ed="#L" n="65"/>respondeo quod puatio et vniuersaliter negatio dicit praecise 
+          <lb ed="#L" n="66"/>aliquas res vel rationes: et ita non est ymaginandu quod
+          pri<lb ed="#L" n="67" break="no"/>uatio vel negatio sit aliquid conceptibile distinctum 
+          <lb ed="#L" n="68"/>a rebus positiuis vel rationibus: sed dicit illas: sicut non homo 
+          <lb ed="#L" n="69"/>dicit aliquid quod non est homo: eodem modo cecitas dicit ocu 
+          <lb ed="#L" n="70"/>lum non potentem videre. et ideo satius simile est de istis: et de 
+          <lb ed="#L" n="71"/>aliis. Potest tamen poni exemplum in aliis: quia
+          creatiui<lb ed="#L" n="72" break="no"/>tas properie de nulla re vna praedicatur. non enim potest dici 
+          <lb ed="#L" n="73"/>quod deus sit creatiuitas nec creatura: quia
+          creatiui<lb ed="#L" n="74" break="no"/>tas non dicit aliquid vnum: sed dicit hoc totum quod est aliquo 
+          <lb ed="#L" n="75"/>quod potest de nihilo aliquid producere. eodem modo est de po 
+          <lb ed="#L" n="76"/>tentialitate materie: quia potentialitas materie non 
+          <lb ed="#L" n="77"/>dicit aliquid vnum: quia nec rem absolutam nec
+          respecti<lb ed="#L" n="78" break="no"/>uam realem: nec respectum rationis: quia vere materia est in 
+          <lb ed="#L" n="79"/>potentia omni actu intellectus circumscripto: et per consequens 
+          <lb ed="#L" n="80"/>sni omni respectu rationis: Qic quod materia potest habere
+          for<lb ed="#L" n="81" break="no"/>mam quam modo non habet. et ideo in multi argumenter est
+          falla<lb ed="#L" n="82" break="no"/>cia figure dictonis sub nomine simpliciter absoluto ad 
+          <lb ed="#L" n="83"/>cipiendo nomen connotatiuum: sicut sic arguendo. quie 
+          <lb ed="#L" n="84"/>quid potest deus mediante causa secunda potest immediate per se 
+          <lb ed="#L" n="85"/>sed actum meritorium potest producere mediante actu vo 
+          <lb ed="#L" n="86"/>luntatis: ergo sine eo. et sic de aliis multis in quibus semper est fal 
+          <lb ed="#L" n="87"/>lacia figure dictionis: quia comutatur quid in aliquid se 
+          <lb ed="#L" n="88"/>cundum vnum modum loquendi vel in connotatiuum secundum
+          a<lb ed="#L" n="89" break="no"/>lium modum loquendi.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e766">
+          ⁋ Tame sciendum quod risibilitas. 
+          <lb ed="#L" n="90"/>aptitudo: et huiusmodi abstracta multa apud philosophum 
+          <lb ed="#L" n="91"/>equiuoce accipiuntur. nam aliquando accipiuntur et
+          suppo<lb ed="#L" n="92" break="no"/>nunt pro eodem: pro quo supponunt sua concreta: et sic 
+          <lb ed="#L" n="93"/>esset concedendum quod risibilitas est homo. aliquando
+          suppo<lb ed="#L" n="94" break="no"/>nunt pro vno aggregato ex omnibus quae importantur siue
+          pri<lb ed="#L" n="95" break="no"/>mo siue secundario per ipsum id est aliquando supponunt praeci 
+          <lb ed="#L" n="96"/>se pro ipsis concretur.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e785">
+          ⁋ Ex istis patet consequentur quod conceptus 
+          <lb ed="#L" n="97"/>talis denominatiuus praedicabilis secundomodo non causatur
+          pri<lb ed="#L" n="98" break="no"/>cise a re de qua praedicatur ante omnem conceptum alterius. est 
+          <lb ed="#L" n="99"/>praesupponit conceptu cuiumscuque quod importatur per ips 
+          <lb ed="#L" n="100"/>et ideo iste conceptus creatiuum non potest haberi nisi
+          cogni<lb ed="#L" n="101" break="no"/>to aliquo quod non est deus. patet etiam quam non est dicendum quam 
+          <lb ed="#L" n="102"/>eadem res sub vno conceptu est subiectum: sub alio 
+          <lb ed="#L" n="103"/>conceptu est passio: quia ipsa res nec sub vno conceptu 
+          <lb ed="#L" n="104"/>nec sub alio est passio: sed ipse conceptus est passio.
+          Con<lb ed="#L" n="105" break="no"/>tra tamen praedicta vivetur esse aristoteles id est thopri. quia per eum pro 
+          <lb ed="#L" n="106"/>orium distiguitur a diffinitione per hoc quod diffinitio dicit 
+          <lb ed="#L" n="107"/>quid et proprium accidens. Similiter secundum linconiensem id est poste 
+          <lb ed="#L" n="108"/>ca. de per se in primo modo quidditas subiecti egredie 
+          <lb ed="#L" n="109"/>tur a quidditate praedicati in secundo econuerso: ergo 
+          <lb ed="#L" n="110"/>in primo modo subiectum distinguitur realiter a praedicato 
+          <!--82.xml-->
+          <pb ed="#L" n="40-r"/>
+          <cb ed="#L" n="a"/>
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e824">
+          <lb ed="#L" n="1"/>⁋ Confirmatur: quia secundum eum ibidem non est aliquas mod  
+          <lb ed="#L" n="2"/>praedicandi per se nisi subiectum sit causa praedicati vel
+          econ<lb ed="#L" n="3" break="no"/>uerso.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e833">
+          ⁋ Ad primum istorum dico quod philosophus intelligit per 
+          <lb ed="#L" n="4"/>accidens omne extrinsecum rei. et ideo proprium quia impor 
+          <lb ed="#L" n="5"/>tat semper aliquid quod est extrinsecum rei. ideo dicitur dicere 
+          <lb ed="#L" n="6"/>accidens tale: ita tamen quod conuertibile sit: quia accipit 
+          <lb ed="#L" n="7"/>ihi accidens vt distinguitur contra quid: et ideo vera possumus 
+          <lb ed="#L" n="8"/>dicere quod creatiuum est proprium deo quia conuertitur cum deo 
+          <lb ed="#L" n="9"/>et importat creaturam quae realiter distinguitur a deo quam 
+          <lb ed="#L" n="10"/>uis non dicat aliquod accidens dei.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e851">
+          ⁋ Ad secundum
+          di<lb ed="#L" n="11" break="no"/>co quod non oportet quod praedicatum distinguatur a sub 
+          <lb ed="#L" n="12"/>iecto: nec quod sit effectus realis subiecti: sed sufficit 
+          <lb ed="#L" n="13"/>q sit causa alicuius quod importatur per subiectum: et vt 
+          <lb ed="#L" n="14"/>comunius vel sepram quando propositio et vere affirmatia 
+          <lb ed="#L" n="15"/>ua et praedicatio propria et per se secundo modo subiectum vel 
+          <lb ed="#L" n="16"/>aliquid importatum per subiectum est causa alicuius
+          impor<lb ed="#L" n="17" break="no"/>tati per praedicatum: et hoc extendendo causam ad partes inte 
+          <lb ed="#L" n="18"/>grales quae aliquo modo dicuntur cause totius. per hoc patet 
+          <lb ed="#L" n="19"/>ad confirmationem.
+        </p>
+        <p xml:id="wo8uy7-d1e93-d1e873">
+          ⁋ Ad primum principale: nego 
+          <lb ed="#L" n="20"/>listam consequentiam: demonstrabile de aliquo non est idem re 
+          <lb ed="#L" n="21"/>alit cum eo: ergo distinguitur realiter ab eo. patet ista instam 
+          <lb ed="#L" n="22"/>tia: quia ens rationis nec est idem cum re nec distinguitur. 
+          <lb ed="#L" n="23"/>realiter. et hoc secundum opinionem quae ponit etia rationis
+          ob<lb ed="#L" n="24" break="no"/>iectiue in anima.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
