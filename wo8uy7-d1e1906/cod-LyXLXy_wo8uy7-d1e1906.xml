@@ -1,770 +1,770 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="273-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e1906"><!-- l2q1 -->
-            <head xml:id="wo8uy7-d1e1906-Hd1e108">Quaestio 1</head>
-            <p xml:id="wo8uy7-d1e1906-d1e111">
-      <!--548.xml-->
-               <pb ed="#L" n="273-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>⁋ Secundi libri sententiarum. Questio prima. 
-      <lb ed="#L" n="2"/>CIrca secundum 
-      <lb ed="#L" n="3"/>sentetiarum queritur. Utrum 
-      <lb ed="#L" n="4"/>creatio actio qua deus dici 
-      <lb ed="#L" n="5"/>tur formaliter creans
-      diffe<lb ed="#L" n="6" break="no"/>rat ex natura rei a
-      creato<lb ed="#L" n="7" break="no"/>re.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e135">
-      Quod sic: quia contradictoria 
-      <lb ed="#L" n="8"/>non verificantur de ali quo sine distinctione ex natu 
-      <lb ed="#L" n="9"/>ra rei: sed deus est modo creans: et prius non fuit: ergo. 
-      <lb ed="#L" n="10"/>Sed hec distinctio non est in creatura: quia nondum est 
-      <lb ed="#L" n="11"/>ergo a deo differt creatio: igitur etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e146">
-      ⁋ Item productio 
-      <lb ed="#L" n="12"/>differt realiter a producente et producto si sit realis 
-      <lb ed="#L" n="13"/>sed creatio est huiusmodi: ergo etc. Ite relatio realis
-      distin<lb ed="#L" n="14" break="no"/>guitur tam a fundamento quam a terino: sed creatio est huiusmod 
-      <lb ed="#L" n="15"/>ergo. minor patet: quia positum extremis. scilicet deo a
-      crea<lb ed="#L" n="16" break="no"/>tura non oritur creatio: sed positum extremis oritur rela 
-      <lb ed="#L" n="17"/>tio: ergo.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e162">
-      ⁋ Ite tria requisita ad relationem realem 
-      <lb ed="#L" n="18"/>saluantur hic: quia hic fundamentum est reale: 
-      <lb ed="#L" n="19"/>scilicet essentia diuina: sed diuina essentia et extrema 
-      <lb ed="#L" n="20"/>distinguntur realiter: quia deus et creatura: et oritur lex 
-      <lb ed="#L" n="21"/>natura rei: quia posita creatura statim dicitur deus 
-      <lb ed="#L" n="22"/>creans
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e176">
-      ⁋ Istem omni relationi reali correspondet
-      ter<lb ed="#L" n="23" break="no"/>minus realis: sed creature ad deum est relatio realis 
-      <lb ed="#L" n="24"/>ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e183">
-      ⁋ Istem nihil denominat aliquid realiter nisi sit 
-      <lb ed="#L" n="25"/>ipsum reale: sed deus dicitur realiter creans: ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e188">
-      ⁋ Ad
-      op<lb ed="#L" n="26" break="no"/>positum arguitur sic. Si creatio actio differt reali 
-      <lb ed="#L" n="27"/>ter a deo: ergo est creatura: probatur quia capit esse a 
-      <lb ed="#L" n="28"/>deo post non esse: et si sic igitur per creationem. De il 
-      <lb ed="#L" n="29"/>la creatione quaero vtrum differat a deo vel non. Sed 
-      <lb ed="#L" n="30"/>sic erit processus in infinitum. si non: statur in primo: e 
-      <lb ed="#L" n="31"/>eadem ratione distinguitur: similiter illa creatio non potest 
-      <lb ed="#L" n="32"/>esse deus certum est: ergo est alia res.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e206">
-      ⁋ Dicitur communiter 
-      <lb ed="#L" n="33"/>quod creatio actio dicit respectum rationis: quod probatur. 
-      <lb ed="#L" n="34"/>quia quando aliqua distinguntur et referuntur ita quod vnum de 
-      <lb ed="#L" n="35"/>pendet ab alio et non econtra: in non dependente est 
-      <lb ed="#L" n="36"/>tantum relatio rationis. sed deus et creatura distinguntur 
-      <lb ed="#L" n="37"/>et referuntur: et creatura dependet a deo: et non econ 
-      <lb ed="#L" n="38"/>tra: ergo etc. Item inter quae est mutua dependentia: est 
-      <lb ed="#L" n="39"/>mutua relatio realis. exemplum in qualitatibus et 
-      <lb ed="#L" n="40"/>quantitatibus: et vbi non est talis dependentia non 
-      <lb ed="#L" n="41"/>est talis relatio: sed realis in vno extremo et rati 
-      <lb ed="#L" n="42"/>poenis in alio: sic est in proposito: igitur etc
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e230">
-      ⁋ Contra istam 
-      <lb ed="#L" n="43"/>opinionem. quando aliquid equaliter denominatur ab ali 
-      <lb ed="#L" n="44"/>quo siue intellectus sit siue non: illud denominans non 
-      <lb ed="#L" n="45"/>dicit formaliter respectum rationis. Istud patet: quia quod 
-      <lb ed="#L" n="46"/>non habet esse nisi per aliud non potest denominari nisi
-      ali<lb ed="#L" n="47" break="no"/>ud sit: igitur per oppositum quod denominatur siue sit aliud 
-      <lb ed="#L" n="48"/>siue no: non potest esse denominatum per illud aliud
-      ali<lb ed="#L" n="49" break="no"/>quo modo: sed deus denominatur creans siue
-      intelle<lb ed="#L" n="50" break="no"/>ctus sit siue non sit: loquendo de quocumque intelle 
-      <lb ed="#L" n="51"/>ctu per impossibile: quia licet deus non possit producere 
-      <lb ed="#L" n="52"/>animam rationalem sine intellectu: tamen absolute si per im 
-      <lb ed="#L" n="53"/>possibile non esset intellectus posset eam producere: 
-      <lb ed="#L" n="54"/>igitur etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e259">
-      ⁋ Item illa d enominatio quae oritur positum extre¬ 
-      <!--548.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 273-r -->
-               <lb ed="#L" n="55"/>mis circumscripto omni intellectu non dicitur per opera 
-      <lb ed="#L" n="56"/>tionem intellectus: sed posito deo et lapide circumscri 
-      <lb ed="#L" n="57"/>pto omni intellectu per impossibile est deus creans: ergo etc. 
-      <lb ed="#L" n="58"/>Si dicas quod dicitur creans: non quia in eo est aliqua
-      re<lb ed="#L" n="59" break="no"/>latio: sed quia terminat relationem realem creature 
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e280">
-               <lb ed="#L" n="60"/>⁋ Contra. Ex hoc se queretur propositum: quia si propter hoc 
-      <lb ed="#L" n="61"/>dicitur deus creans: quia terminat relationem realem crea 
-      <lb ed="#L" n="62"/>ture: ergo relatio non dicit respectum rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e289">
-      ⁋ Item ante 
-      <lb ed="#L" n="63"/>omnem operationem intellectus deus dicitur vere creans: et 
-      <lb ed="#L" n="64"/>ita post: sed ante omnem operationem intellectus quam tu 
-      <lb ed="#L" n="65"/>ponis causare relationem rationis denominatur deus 
-      <lb ed="#L" n="66"/>creans: ergo et post.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e300">
-      ⁋ Ite quicunque possunt equaliter compra 
-      <lb ed="#L" n="67"/>ri adinuice possunt equaliter habere relationes rationis 
-      <lb ed="#L" n="68"/>et denominari ab eis: sed intellectus non potest compare 
-      <lb ed="#L" n="69"/>vnam creaturam ad aliam: sed comparat creaturam ad  
-      <lb ed="#L" n="70"/>deum: ergo creatura potest dici creans aliam cteaturam si 
-      <lb ed="#L" n="71"/>cut deus
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e313">
-      ⁋ Si dicis quod vna compratio est falsa: et 
-      <lb ed="#L" n="72"/>alia vera: et ideo compratio vera denominabit: non autem 
-      <lb ed="#L" n="73"/>falsa. Contra. set alsitas et veritas non impediunt re 
-      <lb ed="#L" n="74"/>lationem rationis causari: quia sicut causatur respectus 
-      <lb ed="#L" n="75"/>rationis quando compratur homo ad animal: sicut ad
-      ge<lb ed="#L" n="76" break="no"/>nus: ita causatur relatio rationis quando comparatur ho 
-      <lb ed="#L" n="77"/>mo ad asinum per ydentitatem: dicendo hominem esse asi 
-      <lb ed="#L" n="78"/>num: igitur etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e331">
-      ⁋ Ite concedit propositum: quia ex hoc quod 
-      <lb ed="#L" n="79"/>vna propositio est vera et alia falsa: est ponere
-      ali<lb ed="#L" n="80" break="no"/>quod primum ex natura rei: quare vna est vera 
-      <lb ed="#L" n="81"/>et alia falsa: quia in eo quod res est vel non est etc. Ite 
-      <lb ed="#L" n="82"/>nullus respectus rationis potest esse: igitur creatio non
-      di<lb ed="#L" n="83" break="no"/>cit respectum rationis. Atecedens patet quia si sic: aut habet 
-      <lb ed="#L" n="84"/>esse subiectiuum aut obiectiuum. non subiectiuum: quia 
-      <lb ed="#L" n="85"/>tunc esset relatio realis. non obiectiuum: sicut esse 
-      <lb ed="#L" n="86"/>cognitum: quia hoc maxime veritatem haberet intelli 
-      <lb ed="#L" n="87"/>gendo propositionem comparando subiectum ad praedicatum 
-      <lb ed="#L" n="88"/>et ibi non oportet ponere. Probatur quia intellectus 
-      <lb ed="#L" n="89"/>intelligendo praecise subiectum praedicatum et copulsam nls 
-      <lb ed="#L" n="90"/>lo alio penitus intellecto intelligit totam
-      propositio<lb ed="#L" n="91" break="no"/>nem: ergo non est talis respectus causatus subiecti ad  
-      <lb ed="#L" n="92"/>praedicatum
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e364">
-      ⁋ Item si debet poni talis relatio realis 
-      <lb ed="#L" n="93"/>hoc maxime esset propter istas intentiones: genus 
-      <lb ed="#L" n="94"/>species: subiectum praedicatum: sed quodlibet istorum est rationis 
-      <lb ed="#L" n="95"/>quia possum intelligere conceptum generis: et speciet 
-      <lb ed="#L" n="96"/>quae tamen habent esse obiectiue absolute sine aliquo 
-      <lb ed="#L" n="97"/>respectu rationis eodemodo de subiecto et praedicato 
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e378">
-               <lb ed="#L" n="98"/>⁋ Ite contra rationem positionis sue: quia secundum eum causa 
-      <lb ed="#L" n="99"/>non dependet ab effectu: et tamen habet relationem realem 
-      <lb ed="#L" n="100"/>ad effectum. Exemplum Sol non dependet ad vermem: et 
-      <lb ed="#L" n="101"/>tamen realiter refertur ad vermem: sic in proposito. licet deus 
-      <lb ed="#L" n="102"/>non dependeat a creatura adhuc potest realit
-      refer<lb ed="#L" n="103" break="no"/>ri ad creaturam.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e394">
-      ⁋ Istem contra hoc quod dicit: quod aliquando 
-      <lb ed="#L" n="104"/>causa perficitur per effectum. Contra. Smne recipies 
-      <lb ed="#L" n="105"/>inquantum tale est patiens: et habet magis rationem 
-      <lb ed="#L" n="106"/>patientis quam agentui: igitur si quaelibet causa naturalis 
-      <lb ed="#L" n="107"/>recipit respectum magis patitur quam agat
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e405">
-      ⁋ Ite co 
-      <lb ed="#L" n="108"/>tra hoc quod dicit quod actio divina distincta est a sua substantia: et 
-      <lb ed="#L" n="109"/>ideo non potest esse alia media relatio dei ad creatu 
-      <!--549.xml-->
-      <pb ed="#L" n="273-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>ram: quia aut accipit actionem pro fundamento 
-      <lb ed="#L" n="2"/>vel respectu vel aggregato ex vtroque. si primo 
-      <lb ed="#L" n="3"/>modo: eodem modo est in creatum illud quod est principium et 
-      <lb ed="#L" n="4"/>fundamntum actionis potest esse sua substantia: patet de accidente 
-      <lb ed="#L" n="5"/>ad subiectum: saltem accidens est principium elicitiuum 
-      <lb ed="#L" n="6"/>actionis: et tunc diceretur quod substantia creature est sua actio 
-      <lb ed="#L" n="7"/>Si autem accipiatur pro respectu reali. Contra ipse 
-      <lb ed="#L" n="8"/>met dicit quod dicit respectum tantum rationis: et tale non 
-      <lb ed="#L" n="9"/>potest esse essentia diuina: nec etiam aliquis respectus 
-      <lb ed="#L" n="10"/>realis dei ad creaturam. Nec potest accipi tertio 
-      <lb ed="#L" n="11"/>modo: quia nullum tale est essentia diuina: ergo non est po 
-      <lb ed="#L" n="12"/>nendum propter identitatem actonis diuine et sue substan 
-      <lb ed="#L" n="13"/>tie quod creatio non differt a deo magis quam a
-      creatu<lb ed="#L" n="14" break="no"/>ra
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e449">
-      ⁋ Ideo dico quod creatio actio non dicit respectum 
-      <lb ed="#L" n="15"/>rationis nec respectum realem. quod non respectum rationis 
-      <lb ed="#L" n="16"/>patet ex dictis. quod non respectum realem probatur: quia
-      rela<lb ed="#L" n="17" break="no"/>tio realis differt realiter a fundameto vel ab illo 
-      <lb ed="#L" n="18"/>quod refertur: sed creatio non potest dicere talem
-      relatio<lb ed="#L" n="19" break="no"/>nem in deo. probatur quia non est ibi distinctio nisi essentie et 
-      <lb ed="#L" n="20"/>relationum et personarum relatarum dico ad intra: sed re 
-      <lb ed="#L" n="21"/>latio creatio actio non dicit aliquod istorum: patet
-      dis<lb ed="#L" n="22" break="no"/>currendo.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e469">
-      ⁋ Item si sic: aut est differens realiter ab 
-      <lb ed="#L" n="23"/>essentia aut formaliter: si realiter ergo componeret cum 
-      <lb ed="#L" n="24"/>ea et mutaretur subiecta essentie: quia illa relatio adue¬. 
-      <lb ed="#L" n="25"/>niret sibi de nouo. non formaliter. quia sic denominaret 
-      <lb ed="#L" n="26"/>deum ab eterno sicut quodcumque attributum: et per consequens 
-      <lb ed="#L" n="27"/>deus esset creans ab eterno. et sic creatura esset 
-      <lb ed="#L" n="28"/>ab eterno
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e485">
-      ⁋ Ad questionem igitur dico de
-      re<lb ed="#L" n="29" break="no"/>latione rationis sicut de relatione reali: quia
-      rela<lb ed="#L" n="30" break="no"/>tio realis nil positiuum addit reale: dicit enim ex 
-      <lb ed="#L" n="31"/>trema relata et non aliam habitudinem vel rem mediam 
-      <lb ed="#L" n="32"/>inter correlativa. Exemplum similitudo non dicit aliquid 
-      <lb ed="#L" n="33"/>nisi duo alba vel significat vnam albedinem conno 
-      <lb ed="#L" n="34"/>tando aliam: et ex hoc sequitur quod deus non potest facere duo 
-      <lb ed="#L" n="35"/>alba nisi sint similia: quia similitudo est ipsa duo alba. 
-      <lb ed="#L" n="36"/>Eodem modo relatio rationis nihil dicit nisi ipsa
-      ex<lb ed="#L" n="37" break="no"/>trema relata praecise et nihil aliud quodcumque medium 
-      <lb ed="#L" n="38"/>inter extrema relata praecise: sicut in quaestione
-      sequen<lb ed="#L" n="39" break="no"/>ti patebit. Ideo creatio actio nihil dicit vel signi 
-      <lb ed="#L" n="40"/>ficat praeter essentiam diuinam connotando vel dando 
-      <lb ed="#L" n="41"/>intelligere existentiam creature quae nullo modo potest 
-      <lb ed="#L" n="42"/>esse nisi posita essentia diuina: ita quod si per
-      impossi<lb ed="#L" n="43" break="no"/>bile deus non esset intelligens: creatura tunc perducere 
-      <lb ed="#L" n="44"/>tur ab essentia diuina: adhuc illud nomen crea 
-      <lb ed="#L" n="45"/>tio actio vel conceptus significaret diuinam essentiam 
-      <lb ed="#L" n="46"/>connotando creaturam sine omni respectu.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e528">
-      ⁋ Et si
-      quae<lb ed="#L" n="47" break="no"/>ras in quo est creatio actio: dico sicut supra dictum 
-      <lb ed="#L" n="48"/>est de realitate: quod quando est aliquod nomen significans 
-      <lb ed="#L" n="49"/>plura realia non est quaerendum in quo est illud
-      no<lb ed="#L" n="50" break="no"/>men vel conceptus sic significans: sed quaerendum est quid  
-      <lb ed="#L" n="51"/>denominatur ab illo: et dico quod essentia diuina
-      princi<lb ed="#L" n="52" break="no"/>paliter et creatura secundario et connotatiue: ita quod hoc 
-      <lb ed="#L" n="53"/>nomen duo significat quantum ad suum significatum 
-      <lb ed="#L" n="54"/>totale: licet vnum principaliter et aliud connotative sine 
-      <lb ed="#L" n="55"/>omni respectu medio rei vel rationis: et ista via vitat 
-      <!--549.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 273-v -->
-               <lb ed="#L" n="56"/>multa inconuenientia quae oportet ponere secundum ponentes 
-      <lb ed="#L" n="57"/>relationes distinctas a fundamento. Si em diuersi 
-      <lb ed="#L" n="58"/>tas vel distinctio inter aliqua esset relatio realis pu 
-      <lb ed="#L" n="59"/>ta inter a et b de ista relatione est quaerendum quomodo 
-      <lb ed="#L" n="60"/>distinguitur ab alio respectiuo vel absoluto si per 
-      <lb ed="#L" n="61"/>seipsum eadem ratione esset standum impriemo in absolutis quae 
-      <lb ed="#L" n="62"/>distinguuntur seipis si distinguntur per aliam relationemom: aut 
-      <lb ed="#L" n="63"/>distinguntur a primo respectu et ab absolutis: et tunc 
-      <lb ed="#L" n="64"/>similiter querendum est de illo: et sic esset processus in infinitum 
-      <lb ed="#L" n="65"/>sed secundum istam opinionem debet dici quod a et b distinguntur
-      se<lb ed="#L" n="66" break="no"/>ipsis primo: ita quod hoc nomen distinctio significat ipsa duo 
-      <lb ed="#L" n="67"/>disticta absoluta et non aliquem respectum medium: 
-      <lb ed="#L" n="68"/>vel significat vnum principaliter et connotatiue aliud. Si 
-      <lb ed="#L" n="69"/>dicas quantum ad respectum rationis quod intellectus comparat 
-      <lb ed="#L" n="70"/>vnam rem ad aliam: quae nullo modo comparantur ex natura 
-      <lb ed="#L" n="71"/>rei: et intellexit talem comparationem existentem: quia
-      funda<lb ed="#L" n="72" break="no"/>mentaliter in vno et terminatiue in alio referri: et sic cau 
-      <lb ed="#L" n="73"/>satur relatio rationis inter aliqua quae non referuntur ex
-      na<lb ed="#L" n="74" break="no"/>tura rei. Contra. intellectus intelligens illa quae non refe 
-      <lb ed="#L" n="75"/>feruntur ex natura rei intelligit falsum: quia ab eo quod 
-      <lb ed="#L" n="76"/>res est vel non est etc. Exemplum: si intelligam deum esse 
-      <lb ed="#L" n="77"/>creaturam: nulla causabitur relatio: sed solum false
-      intelli<lb ed="#L" n="78" break="no"/>gitur ibi esse relatio quae nullo modo est ibi: et sic non
-      pro<lb ed="#L" n="79" break="no"/>bas intellectum facere relationem rationis: sed solum probas 
-      <lb ed="#L" n="80"/>quod false intelligis aliqua compari. patet igitur quid est creatio 
-      <lb ed="#L" n="81"/>actio siue accipiatur pro voce siue pro conceptu. Contra 
-      <lb ed="#L" n="82"/>ista quod creatio dicit respectum probo: quia omne quod secundum 
-      <lb ed="#L" n="83"/>suum esse est praecise ad aliud dicit respectum. Creatio 
-      <lb ed="#L" n="84"/>est huiusmodi igitur etc. maior patet in praedicamentis per diffinitionem 
-      <lb ed="#L" n="85"/>relatiuorum: minor probat. quia sicut pater de alicuius 
-      <lb ed="#L" n="86"/>pater: ita creans dicitur alicuius creans puta creature. 
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e624">
-               <lb ed="#L" n="87"/>⁋ Item secundum Aug. deus est refugium nostrum respectiue 
-      <lb ed="#L" n="88"/>et dominus: ergo creator.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e631">
-      ⁋ Item secundum eundem quod non dicitur ad se 
-      <lb ed="#L" n="89"/>dicitur ad aliud creatio est huiusmodi igitur etc
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e636">
-      ⁋ Item 
-      <lb ed="#L" n="90"/>creatio est actio vel productio: sed omnis actio dicit re 
-      <lb ed="#L" n="91"/>spectum: quia non est maior ratio de vna quam de alia
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e643">
-      ⁋ Item 
-      <lb ed="#L" n="92"/>quod sit dare respectum rationis probo sic. subiectum
-      pro<lb ed="#L" n="93" break="no"/>positonis potest cognosci quantum ad esse absolutum in eo 
-      <lb ed="#L" n="94"/>et illud quod est praedicatum similiter: et tamen vnum non dicit magis 
-      <lb ed="#L" n="95"/>rationem subiecti quam praedicati: nec econuerso. Exemplum 
-      <lb ed="#L" n="96"/>possum intelligere hominem quantum ad intrinseca omnia
-      con<lb ed="#L" n="97" break="no"/>gnitione simplici et incomplexa et animal similiter: vel eadem 
-      <lb ed="#L" n="98"/>cognitione vel alia: et tamen non intelligere hominem esse 
-      <lb ed="#L" n="99"/>subiectum respectu animalis: ergo erit respectus non rea 
-      <lb ed="#L" n="100"/>lis sed ratonis. Eodem modo arguo de illo quod est genus et 
-      <lb ed="#L" n="101"/>de illo quod. est species: quia vtrumque potest absolute intelli 
-      <lb ed="#L" n="102"/>gi: et tamen vnum non intelligitur vt genus: nec aliud vt 
-      <lb ed="#L" n="103"/>species.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e672">
-      ⁋ Item sicut respectus realis fundatur in re in esse 
-      <lb ed="#L" n="104"/>reali: ita respectus rationis in re cognita.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e678">
-      ⁋ Item
-      crea<lb ed="#L" n="105" break="no"/>tio non tantum dicit essentiam diuinam connotado existen¬: 
-      <lb ed="#L" n="106"/>tiam creature: sed dicit essentiam creature vt causatur. 
-      <lb ed="#L" n="107"/>a deo: igitur non tantum dicit illa absoluta.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e687">
-      ⁋ Item crea 
-      <lb ed="#L" n="108"/>tio est prior re creata: et productio est prior re
-      produ<lb ed="#L" n="109" break="no"/>cta: igitur dicunt respectu. Ad ista dico secundum Aug. 
-      <lb ed="#L" n="110"/>et magistrum sententiarum quod sicut aliquod potest habere appella 
-      <!--550.xml-->
-      <pb ed="#L" n="274-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>tionem relatiuam sine relatione reali: et hoc dico
-      appel<lb ed="#L" n="2" break="no"/>lationem realem ita aliquis potest habere appellationem 
-      <lb ed="#L" n="3"/>relatiuam rationis sine omni respectu rationis: et ideo omnia 
-      <lb ed="#L" n="4"/>argumenta quae probant quod ibi est relatio rationis quod deus est 
-      <lb ed="#L" n="5"/>gubernator conseruator dominus creator etc. talia con 
-      <lb ed="#L" n="6"/>cedo quod deus dicitur talibus nominibus secundum appellationem 
-      <lb ed="#L" n="7"/>relatiuam rationis: et est sic intelligendum quod deus est
-      de<lb ed="#L" n="8" break="no"/>nominabilis ab istis nominibus quai significant principaliter 
-      <lb ed="#L" n="9"/>deum et connotant existentiam creature in effectu vel 
-      <lb ed="#L" n="10"/>dant intelligere: et ideo vocatur appellatio relatiua: 
-      <lb ed="#L" n="11"/>quia quando intelligo creationem non intelligo tantum deum: sed  
-      <lb ed="#L" n="12"/>aliud puta connotatum: et non oportet ponere propter hoc 
-      <lb ed="#L" n="13"/>aliquem respectum realem vel rationis: tamen talis appel 
-      <lb ed="#L" n="14"/>latio non potest competere sine nomine significante vnum 
-      <lb ed="#L" n="15"/>connotando aliud.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e735">
-      ⁋ Ad primum tunc dico quod nomen vel 
-      <lb ed="#L" n="16"/>oceptus creationis est ad aliud: non quod significet ali 
-      <lb ed="#L" n="17"/>quem respectum: sed quia ipsum nomen non importat praecise vnum 
-      <lb ed="#L" n="18"/>sed cum hoc quod significat vnum connotat aliud: et inter il 
-      <lb ed="#L" n="19"/>la significata siue importata per illud nomen est
-      distin<lb ed="#L" n="20" break="no"/>ctio absolutorum non sicut relatiuorum.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e748">
-      ⁋ Ad aliud  
-      <lb ed="#L" n="21"/>dico quod deus dicitur refugium: non proptet relationem
-      rea<lb ed="#L" n="22" break="no"/>lem vel rationis secundum appellationem relatiuam: et hoc est: quia 
-      <lb ed="#L" n="23"/>conceptus refugii vel vox significat principaliter deum 
-      <lb ed="#L" n="24"/>aliquid connotando sine omni comparatione: et hoc non habet vox 
-      <lb ed="#L" n="25"/>ex natura sua: sed ex impositione instituentis: cuius ratio est: 
-      <lb ed="#L" n="26"/>qui tales voces sunt significatiue animalibus discipl 
-      <lb ed="#L" n="27"/>nabilibus puta cani symee et non aliis: et tamen non esset 
-      <lb ed="#L" n="28"/>verum si vox significaret ex natura sua. Ad aliud 
-      <lb ed="#L" n="29"/>dico quod creator non dicitur ad se: quia secundum quod hoc nomen 
-      <lb ed="#L" n="30"/>sibi conuenit non tantum significat vnum: sed plura: licet vnum 
-      <lb ed="#L" n="31"/>principaliter et aliud connotando.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e774">
-      ⁋ Ad aliud dico quod 
-      <lb ed="#L" n="32"/>productio dei ad extra signuitat essentiam diuinam et consequeno 
-      <lb ed="#L" n="33"/>tat creaturam existere.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e781">
-      ⁋ Ad aliud de subiecto et 
-      <lb ed="#L" n="34"/>praedicato genere et differentia dic vniversaliter quod nullus respe 
-      <lb ed="#L" n="35"/>ctus rationis est ponendus in deo nec in creatura: nisi sit 
-      <lb ed="#L" n="36"/>propter istas intentiones secundas genus. species subiectum et 
-      <lb ed="#L" n="37"/>praedicatum: et ideo vel nullibi sut ponende vel ponuntur 
-      <lb ed="#L" n="38"/>ibi solum. igitur nec relationes de genere relationis
-      distin<lb ed="#L" n="39" break="no"/>cte ab extremis sunt ibi ponende: sed neccesse est poneter 
-      <lb ed="#L" n="40"/>aliquos respectus extrinsecos quai formaliter non
-      parti<lb ed="#L" n="41" break="no"/>nent ad aliquod genus cuius ratio est: quia impossibile est quod 
-      <lb ed="#L" n="42"/>aliqua extrema contrdictionis successiue verificentur de 
-      <lb ed="#L" n="43"/>aliquo nisi propter mutationem alicuius positiui abs 
-      <lb ed="#L" n="44"/>luti vel respectiui. hoc dico in eo de quo contradictoria 
-      <lb ed="#L" n="45"/>verificantur vel in alio si nullus modus gramatical 
-      <lb ed="#L" n="46"/>vel logicalis impediat: sed si deus haberet naturam assum 
-      <lb ed="#L" n="47"/>ptam et post dimitteret eam: tunc non diceretur filius 
-      <lb ed="#L" n="48"/>dei vnitus nature cum prius esset vnitus: et similiter de
-      na<lb ed="#L" n="49" break="no"/>tura assumpta: et tamen omne absolutum quod nunc est tam spi 
-      <lb ed="#L" n="50"/>rituale quam corporale facta vnione adhuc erit natu 
-      <lb ed="#L" n="51"/>ra dimissa: saltem hoc est possibile per potentiam diui 
-      <lb ed="#L" n="52"/>nam: ergo oportet neccsaio quod vnio dicat aliquem respectum 
-      <lb ed="#L" n="53"/>mo acquisitum de nouo quae non fuit prius ante vnionem 
-      <lb ed="#L" n="54"/>eodem modo de materia et forma substantiali de substantia 
-      <lb ed="#L" n="55"/>et accidente: si primo fuerit separata per potentiam diui 
-      <!--550.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 274-r -->
-               <lb ed="#L" n="56"/>nam et postea vniantur dicuntur iste partes vniri et prius 
-      <lb ed="#L" n="57"/>non: et tamen omnia absoluta quae nunc sunt in composito prius 
-      <lb ed="#L" n="58"/>fuerunt quando partes fuerunt separate: et per consequens neccesasio or 
-      <lb ed="#L" n="59"/>ponere respectum inhesionis inherentie distinctum a 
-      <lb ed="#L" n="60"/>fundamentur et a terminis: et eodem modo de
-      approxima<lb ed="#L" n="61" break="no"/>tione: quia ignis multum distans ab aqua non poest agere 
-      <lb ed="#L" n="62"/>sed approximatus potest et habet omne absolutum quod prius habuit 
-      <lb ed="#L" n="63"/>et nihil plus. igitur neccesaio approximatio erit
-      respe<lb ed="#L" n="64" break="no"/>ctus realis: et hoc modo se habent partes ad totum siue sint 
-      <lb ed="#L" n="65"/>essentiales siue integrales: nec ista potest quis euadem 
-      <lb ed="#L" n="66"/>per modos gramaticales: et logicales: quia si nullus 
-      <lb ed="#L" n="67"/>intellectus esset nec aliquis modus gramaticalis vel 
-      <lb ed="#L" n="68"/>logicalis adhuc possent extrema contradictionis sue 
-      <lb ed="#L" n="69"/>cessiue verificari de aliquo: vt patet in exemplis iam 
-      <lb ed="#L" n="70"/>positum et propter oppictum istius non oportet aliquam relato 
-      <lb ed="#L" n="71"/>nem ponere de genere relationis distinctam a fundamentu 
-      <lb ed="#L" n="72"/>et terminis: quia statim positum fundamentis sequitur
-      denomina<lb ed="#L" n="73" break="no"/>tio relatiua. Exemplum de duobus albis que non 
-      <lb ed="#L" n="74"/>possunt esse per potentiam dei quin sint similia et habeant 
-      <lb ed="#L" n="75"/>istam denominationem siue alba sint approximata si 
-      <lb ed="#L" n="76"/>ue non: nec est transitus de contradictorio in contradictorium 
-      <lb ed="#L" n="77"/>sine acquisitione vel deparditione alicuius positiui: vel 
-      <lb ed="#L" n="78"/>in eo de quo dicuntur contradictoria successiue vel in alio 
-      <lb ed="#L" n="79"/>qui vnum album modo non simile non potest fieri simile: nisi
-      ge<lb ed="#L" n="80" break="no"/>neretur nonuum album: et per consequens acquiritur aliquod
-      absolu<lb ed="#L" n="81" break="no"/>tum. Et tota ratio istius est: quia similitudo simul significat 
-      <lb ed="#L" n="82"/>duo alba immediate sine relatione media vel vnum 
-      <lb ed="#L" n="83"/>principaliter et aliud connotatiue: et ideo non potest dici 
-      <lb ed="#L" n="84"/>de aliquo nisi quando ista alba coexistunt: ita quod vniversalie 
-      <lb ed="#L" n="85"/>similitudo vnius extremi ad aliud vel significat ip 
-      <lb ed="#L" n="86"/>sa extrema equae primo: vel principaliter vnum et
-      conno<lb ed="#L" n="87" break="no"/>tatiue reliquum. vt similitudo albedinis ad
-      albedi<lb ed="#L" n="88" break="no"/>nem significa duo alba: nigredinis ad nigredinem signicat 
-      <lb ed="#L" n="89"/>duo nigra: et sic de aliis.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e912">
-      ⁋ Et si dicas quod eadem 
-      <lb ed="#L" n="90"/>ratione non oportet ponere aliquos respectus
-      extrinse<lb ed="#L" n="91" break="no"/>cos: quia vnio partium non significat ipsas partes absolute 
-      <lb ed="#L" n="92"/>sed vt sunt in toto: eodem modo inherentia accidentis 
-      <lb ed="#L" n="93"/>non significat ipsum accidens absolute: sed vt est in subie 
-      <lb ed="#L" n="94"/>cto: et ideo quando est in subiecto potest de eo probari: et quando 
-      <lb ed="#L" n="95"/>non est non: et hoc sine omni respectu medio
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e928">
-      ⁋ Contra 
-      <lb ed="#L" n="96"/>quaero quando dicitur inherentia significa accidens vt in subie 
-      <lb ed="#L" n="97"/>cto: aut inherentia signicat praecise aliquod absolutum 
-      <lb ed="#L" n="98"/>aut significa accidens absolutum: aut signicat accidens
-      conno<lb ed="#L" n="99" break="no"/>tando subiectum: aut significat rectum aliquem non primo mo 
-      <lb ed="#L" n="100"/>nec secundo: quia vt sic quandocunque existeret accidens ab 
-      <lb ed="#L" n="101"/>solutum et subiectum praedicaretur inherentia de acci 
-      <lb ed="#L" n="102"/>dente sicut est in aliis de similitudine quod est
-      mani<lb ed="#L" n="103" break="no"/>feste falsum: sicut si deus separaret accidens a subie 
-      <lb ed="#L" n="104"/>cto et vtrumque conseruaret. igitur relinquitur
-      ter<lb ed="#L" n="105" break="no"/>tium. et sic habentur propositum. et eodem modo si signifi 
-      <lb ed="#L" n="106"/>cet accidens absolutum vt in subiecto. quid addit ac 
-      <lb ed="#L" n="107"/>cidens in subiecto super accidens absolutum aut
-      ni<lb ed="#L" n="108" break="no"/>hil: aut aliquid: aut absolutum: aut respectiuum. et 
-      <lb ed="#L" n="109"/>est arguendum vt prius. Sic ergo patet quod non oportet ponere 
-      <lb ed="#L" n="110"/>aliquam relationem in genere relatonis distinctam a fun¬ 
-      <!--551.xml-->
-      <pb ed="#L" n="274-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>damento: nec rationis in deo. sed necario oportet po 
-      <lb ed="#L" n="2"/>nere aliquos respectus extrinsecos. Sed redeo 
-      <lb ed="#L" n="3"/>ad propositum: et dico quod illud quod est subiectum potest 
-      <lb ed="#L" n="4"/>absolute intelligi: et illud quod est praedicatum simpli 
-      <lb ed="#L" n="5"/>citur: et tamen vnum non habet rationem subiecti: et aliud
-      pri<lb ed="#L" n="6" break="no"/>dicati: et hoc non est propter defectum alicuius respectus 
-      <lb ed="#L" n="7"/>rationis: sed propter defectum alicuius conceptus absoluti: pu 
-      <lb ed="#L" n="8"/>ta conceptus importati per compulam. Exemplum homo potest 
-      <lb ed="#L" n="9"/>intelligi absolute: et animal similiter. et tamen non oportet 
-      <lb ed="#L" n="10"/>nec quod homo sit subiectum: nec animal praedicatum: quia
-      defi<lb ed="#L" n="11" break="no"/>cit conceptus quidam absolutus importatus per hoc verbum 
-      <lb ed="#L" n="12"/>est. Sed habito isto conceptu: cum conceptu hominis et 
-      <lb ed="#L" n="13"/>animalis: siueintelligatur vnico actu: siue distinctis 
-      <lb ed="#L" n="14"/>necesse est quod homo sit subiectum: et animal praedicatum:
-      si<lb ed="#L" n="15" break="no"/>ne omni respectu medio
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1002">
-      ⁋ Si quaeras vtrum ille conce 
-      <lb ed="#L" n="16"/>ptus compule includat conceptum absol utum subiecti 
-      <lb ed="#L" n="17"/>et praedicati: vel est conceptus distinctus ab vtroque vel 
-      <lb ed="#L" n="18"/>non. si primo modo tunc conceptus compule esset tanquam for 
-      <lb ed="#L" n="19"/>ma totius complexi distinctus aliquo modo a partibus
-      com<lb ed="#L" n="20" break="no"/>iuncti et diuisim sicut ponit Ioh. de forma
-      to<lb ed="#L" n="21" break="no"/>tius in re extra quod intendis vitare. si secundomodo tunc 
-      <lb ed="#L" n="22"/>videtur quod per istum conceptum non habemus plus rationem 
-      <lb ed="#L" n="23"/>subiecti et praedicati quam sine ipso. Dico quod dicit
-      con<lb ed="#L" n="24" break="no"/>ceptum communem distinctum a conceptibus extremorum: si 
-      <lb ed="#L" n="25"/>cut vnum ens rationis distinguitur ab alio vel ab ete 
-      <lb ed="#L" n="26"/>reali. Et dico quod si tantum habeam conceptum compule: et 
-      <lb ed="#L" n="27"/>non conceptum extremorum: tunc nec habeo subiectum 
-      <lb ed="#L" n="28"/>nec praedicatum. sed si habeam conceptum totalem: et cum hoc 
-      <lb ed="#L" n="29"/>conceptum extremorum: siue hoc sit per vnum actum siue 
-      <lb ed="#L" n="30"/>per tres: quorum vnus terminetur ad id quod est subie 
-      <lb ed="#L" n="31"/>ctum: et alius ad compulam: et tertius ad id quod est
-      praedica<lb ed="#L" n="32" break="no"/>tum necario habeo subiectum et praedicatum sine omni 
-      <lb ed="#L" n="33"/>respectu rationis. Si quaeratur quo conceptus compule est 
-      <lb ed="#L" n="34"/>communis. dico quod non per praedicationem: sicut est conceptus 
-      <lb ed="#L" n="35"/>extremi: sed est communis per vnionem: quia vnit duo
-      extre<lb ed="#L" n="36" break="no"/>ma adinuicem
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1050">
-      ⁋ Si dicas prius dictum est quod vnio 
-      <lb ed="#L" n="37"/>dicit respectu: igitur hoc dicit respectum. Respon 
-      <lb ed="#L" n="38"/>deo. vnio in re necario dicit respectum realem: sed 
-      <lb ed="#L" n="39"/>in ratione non oportet quod dicat respectum realem nec 
-      <lb ed="#L" n="40"/>rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1061">
-      ⁋ Si dicas quod nunc sunt extrema vnita in 
-      <lb ed="#L" n="41"/>ppositione et prius non: ergo oportet quod aliquid acquiratur 
-      <lb ed="#L" n="42"/>de nouo absolutum vel respectiuum.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1068">
-      ⁋ Respondeo quod 
-      <lb ed="#L" n="43"/>non sunt vnita: tunc fit etiam conceptus compule quae non sunt 
-      <lb ed="#L" n="44"/>bus: et propter istud absolutum dicuntur modo
-      vnita<lb ed="#L" n="45" break="no"/>et prius non. Si dicis quod iste conceptus non est rationis 
-      <lb ed="#L" n="46"/>ita quod tantum habeat esse obiectiue in anima: quia iste conce 
-      <lb ed="#L" n="47"/>ptus significat inherentiam praedicati ad subiectum. 
-      <lb ed="#L" n="48"/>sed ista inherentia est respectus realis per te. Aut sal 
-      <lb ed="#L" n="49"/>tem sic est vt haec sorti inest haec albedo. hec enim extre 
-      <lb ed="#L" n="50"/>ma sunt respectus et compula similiter. quia compula est
-      re<lb ed="#L" n="51" break="no"/>spectus realis inherentie. Dico quod non tantum
-      signifi<lb ed="#L" n="52" break="no"/>tat inherentiam praedicati ad subiectum: quando
-      praedica<lb ed="#L" n="53" break="no"/>tum distinguitur realiter a subiecto et sibi inest reali 
-      <lb ed="#L" n="54"/>ter: sed quando praedicatum est omnino idem: vel quando illud pro 
-      <lb ed="#L" n="55"/>quo supponit subiectum est omnino idem cum illo pro 
-      <!--551.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 274-v -->
-               <lb ed="#L" n="56"/>quo supponit predicatum. Exemplum primi iam posi 
-      <lb ed="#L" n="57"/>tum est. Exemplum secundi. Angelus est ssubstantia: deus est ens 
-      <lb ed="#L" n="58"/>in istis nulla est inheretia a parte rei inter
-      praedica<lb ed="#L" n="59" break="no"/>tum et subiectum: sed tantum in conceptu: et hoc non est aliud  
-      <lb ed="#L" n="60"/>nisi per compulam denotatur quod illud pro quo supponit 
-      <lb ed="#L" n="61"/>subiectum est idem cum illo pro quo supponit
-      praedica<lb ed="#L" n="62" break="no"/>tum. ex hoc patet quod conceptus importatus per compulam non est
-      re<lb ed="#L" n="63" break="no"/>spectiuus sed absolutus: sed tamen bene potest significare
-      re<lb ed="#L" n="64" break="no"/>spectum inherentie accidentalis. et sic dico quod in ista 
-      <lb ed="#L" n="65"/>propositione homini inest albedo per compulam importatur 
-      <lb ed="#L" n="66"/>conceptus absolutus qui habet tantum esse obiectiue in anima et 
-      <lb ed="#L" n="67"/>est communis per vnionem sicut prius dictum est: et est communis per 
-      <lb ed="#L" n="68"/>praedicationem respectibus inherentie accidentalis: quia 
-      <lb ed="#L" n="69"/>ille conceptus potest bene assignare tales respectus: 
-      <lb ed="#L" n="70"/>et pro illis potest supponere: et de illis potest praedicari. 
-      <lb ed="#L" n="71"/>primo modo dicendi sicut conceptus entis licet sit abso 
-      <lb ed="#L" n="72"/>lutus potest tamen supponem pro respectibus et significare 
-      <lb ed="#L" n="73"/>relationes et de eis praedicari. primo modo vnde secundum istam 
-      <lb ed="#L" n="74"/>viam quando sic dico homin inest albedo: conceptus compu 
-      <lb ed="#L" n="75"/>le potest significare istum respectum: sed non adequate mul 
-      <lb ed="#L" n="76"/>tos alios: et ideo tantum habet esse obiectiue in intellectu 
-      <lb ed="#L" n="77"/>Et sciendum est quod est aliud in ista propositione homo 
-      <lb ed="#L" n="78"/>est albus: et homin inest albedo: quia in prima subiectum et 
-      <lb ed="#L" n="79"/>praedicatum supponunt pro eodem puta pro supposito 
-      <lb ed="#L" n="80"/>hominis: quia alias esset propositio falsa. et ideo conceptus communis 
-      <lb ed="#L" n="81"/>est ibi tamen communis per vnionem non per praedicationem quando sub 
-      <lb ed="#L" n="82"/>iectum et praedicatum sunt omnino idem: ibi conceptus compule 
-      <lb ed="#L" n="83"/>non significa inherentiam actualem aliam: et ideo est ibi
-      conce<lb ed="#L" n="84" break="no"/>ptus compule tamen communis per vnionem. Sed in secunda subie 
-      <lb ed="#L" n="85"/>ctum et praedicatum significant et supponunt pro distinctum 
-      <lb ed="#L" n="86"/>rebus quarum vna est in alia: et ideo ibi conceptus compule non 
-      <lb ed="#L" n="87"/>est tantum communis per vnionem extremorum: sed per praedicationem 
-      <lb ed="#L" n="88"/>qui ibi significa inherentiam accidentale praedicati ad sub 
-      <lb ed="#L" n="89"/>iectum et pro ea potest supponere.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1180">
-      ⁋ Pot tamen aliter
-      di<lb ed="#L" n="90" break="no"/>ci quod conceptus quem importet compula est respectiuus et 
-      <lb ed="#L" n="91"/>quod tantum habet esse obiectiue in anima per istum modum 
-      <lb ed="#L" n="92"/>qui iste conceptus primo abstrahitur ab inherentiis suis 
-      <lb ed="#L" n="93"/>accidentalibus et immediate: et ideo est conceptus
-      respe<lb ed="#L" n="94" break="no"/>ctiuus: et ideo est aliquando communis per vnione extremorum.
-      ver<lb ed="#L" n="95" break="no"/>bi gratia. quandocumque illud pro quo supponunt subiectum 
-      <lb ed="#L" n="96"/>et praedicatum est omnino idem: conceptus importatus per compu 
-      <lb ed="#L" n="97"/>lam est communis tantum per vnione extremorum: quandoque enim est 
-      <lb ed="#L" n="98"/>communis per praedicationem et vnionem. Exeplum quando aliquid  
-      <lb ed="#L" n="99"/>signicat subiectum et illud pro quo supponit praedicatum 
-      <lb ed="#L" n="100"/>sunt distincte res quarum vna inest alteri: et sic co 
-      <lb ed="#L" n="101"/>ceptus compule est communis per vnionem extremorum et per 
-      <lb ed="#L" n="102"/>praedicationem: quia praedicatur de illa inherentia quae est re 
-      <lb ed="#L" n="103"/>spectus accidentalis in primo modo dicendi per se: sed ex hoc 
-      <lb ed="#L" n="104"/>non sequitur quod compula significet respectum rationis. 
-      <lb ed="#L" n="105"/>qui licet ille respectus rationis sit tantum ens rationis quia habet 
-      <lb ed="#L" n="106"/>esse tantum obiectiuum: non tamen est respectus rationis: quia il 
-      <lb ed="#L" n="107"/>le solum causatur per intellectum comparantem: et iste conceptus 
-      <lb ed="#L" n="108"/>producitur per intellectum abstrahentem: sed iste conceptus 
-      <lb ed="#L" n="109"/>signicat verum respectum realem: licet sit in se tantum ens rationis 
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1226">
-               <lb ed="#L" n="110"/>⁋ Sed cor. quia nunquam conceptus sincathegoreumaticus 
-      <!--552.xml-->
-      <pb ed="#L" n="275-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>potest supponere pro aliquo: nec tunc potest esse
-      sub<lb ed="#L" n="2" break="no"/>iectum vel praedicatum sicut nec duo
-      sincathegoreu<lb ed="#L" n="3" break="no"/>mata: sed siue dicat conceptum compule absolutum vel 
-      <lb ed="#L" n="4"/>respectiuum solum sincathegoreumaticus est. igitur 
-      <lb ed="#L" n="5"/>non obstante quod potest significtre respectum realem non tamen 
-      <lb ed="#L" n="6"/>potest suppone nec probari de aliquo in primo modo dicen 
-      <lb ed="#L" n="7"/>di per se. vnde con eptus cathegoreumaticus est quae per se po 
-      <lb ed="#L" n="8"/>situs aliquid significat sicut homo animal: et talia quae possunt 
-      <lb ed="#L" n="9"/>esse subiecta et praedicata in propositione. Sicathego 
-      <lb ed="#L" n="10"/>reumata sunt illa quae per se posita nihil sigificont sicut 
-      <lb ed="#L" n="11"/>est esse per se inquantum formaliter. Et ideo dico quod in ista 
-      <lb ed="#L" n="12"/>propositione sorti inest albedo. melius est dicereque 
-      <lb ed="#L" n="13"/>compula significet illam inherentiam accidentalem: et 
-      <lb ed="#L" n="14"/>tunc totum complexum habebit esse extra animam: quia tam 
-      <lb ed="#L" n="15"/>extrema quam compula. vel si complexum habet tantum esse ob 
-      <lb ed="#L" n="16"/>iectiue quod compula habet tantum conceptum abiolutum communem 
-      <lb ed="#L" n="17"/>per vnione non per praedicationem: licet ille conceptus
-      signifi<lb ed="#L" n="18" break="no"/>cet respectum realis inherentie. et sicut dictum est de 
-      <lb ed="#L" n="19"/>subiecto et praedicato: ita dicendum est de genere et
-      dis<lb ed="#L" n="20" break="no"/>ferentia: quia genus dicit quod significat illum conceptum et conno 
-      <lb ed="#L" n="21"/>tat illa plura de quibus praedicatur: et licet possim intelli 
-      <lb ed="#L" n="22"/>tere illum conceptum absolutum primo icabilem de pluribus 
-      <lb ed="#L" n="23"/>differentibus specie: ita quod significet illum conceptum et com 
-      <lb ed="#L" n="24"/>notet illa plura de quibus praedicatur: et licet possim intelli 
-      <lb ed="#L" n="25"/>gere illum conceptum absolutum non tamen sub ratione generis 
-      <lb ed="#L" n="26"/>possum intelligere illum conceptum et illa de quibus 
-      <lb ed="#L" n="27"/>immediate praedicatur: et illa a quibus immediate
-      abstra<lb ed="#L" n="28" break="no"/>hitur nisi intelligam rationem generis siue intelligam ea eodem 
-      <lb ed="#L" n="29"/>actu siue distincto actu: sed propter hoc quod intelligo ta 
-      <lb ed="#L" n="30"/>lia plura nullum habeo respectum rationis: igitur etc. 
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1302">
-               <lb ed="#L" n="31"/>⁋ Ad aliud dico quod respectus realis magis fundatur in 
-      <lb ed="#L" n="32"/>re in effectum quam respectus rationis in re cognita: quia pri 
-      <lb ed="#L" n="33"/>mum est necessarium ponere maxime in illis vbi ex 
-      <lb ed="#L" n="34"/>trema absoluta omnino possunt esse eodem modo sepa 
-      <lb ed="#L" n="35"/>rata et postea vnita sine aliqua mutatione vel
-      mo<lb ed="#L" n="36" break="no"/>tu ad formam vel sine motu locali. sicut in vnione 
-      <lb ed="#L" n="37"/>nature humane ad su ompositum diuinum: forme cum 
-      <lb ed="#L" n="38"/>materia: accidentur cum subiecto: quia deus posset
-      se<lb ed="#L" n="39" break="no"/>parare materiam a forma: accidens a subiecto: et 
-      <lb ed="#L" n="40"/>illa in esse conseruare: et eodem in loco totaliter et post 
-      <lb ed="#L" n="41"/>reunire. oportet igitur in illis necessario ponere respe 
-      <lb ed="#L" n="42"/>ctum vnionis accidentalem: sed nunquam vbi manent ea 
-      <lb ed="#L" n="43"/>dem absoluta et est motus localis: oportet ponere inter 
-      <lb ed="#L" n="44"/>illa tales respectus: sed omnia possunt saluari per
-      nega<lb ed="#L" n="45" break="no"/>tiones. Exemplum. ignis non poest agere in aquam nisi 
-      <lb ed="#L" n="46"/>approximatus: et quando approximatur potest agere. hec 
-      <lb ed="#L" n="47"/>approximatio non est respectus realis: sed ista contradi 
-      <lb ed="#L" n="48"/>ctoria posse et non posse agem verificantur de igne 
-      <lb ed="#L" n="49"/>successiue propter motum localem propter quem acquiri 
-      <lb ed="#L" n="50"/>tur vna negatio in igne quae prius non fuit: scilicet quod quando 
-      <lb ed="#L" n="51"/>ignis approximatur non sunt tot media inter igne et 
-      <lb ed="#L" n="52"/>aquam sicut quando non approximatur. vnde per motum
-      loca<lb ed="#L" n="53" break="no"/>lem acquiritur igni negatio multorum mediorum propter 
-      <lb ed="#L" n="54"/>quam potest modo agere et prius non. sicut corpus dicitur 
-      <lb ed="#L" n="55"/>nunc in loco in quo prius non fuit propter negationem 
-      <!--552.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 275-r -->
-               <lb ed="#L" n="56"/>ydentitatis corporis continentis nunc et non prius: scilicet 
-      <lb ed="#L" n="57"/>quod corpus et superficies corporis nunc continentis non est 
-      <lb ed="#L" n="58"/>superficies cor poris prius continentis. Et similiter dicitur 
-      <lb ed="#L" n="59"/>aliquid existere in isto tempore et prius non: quia nunc coexi 
-      <lb ed="#L" n="60"/>stit alicui successiue cui prius non conexistebat: et sic 
-      <lb ed="#L" n="61"/>de aliis vbi superflue ponuntur multi respectus.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1378">
-      ⁋ Ad  
-      <lb ed="#L" n="62"/>aliud dico quod creatio non tantum dicit existentiam crea 
-      <lb ed="#L" n="63"/>ture sed importat quod creatura non potest esse nisi diuina 
-      <lb ed="#L" n="64"/>essentia existente: licet non sequatur econtra: et hoc sine 
-      <lb ed="#L" n="65"/>omni respectu relatonis
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1389">
-      ⁋ Ad aliud dico quod creatio 
-      <lb ed="#L" n="66"/>quantum ad suum totale significatum non est prior crea 
-      <lb ed="#L" n="67"/>tura: et quando dicitur quod productio est prior re producta 
-      <lb ed="#L" n="68"/>dico quod si ponatur quod actio et productio sunt respectus 
-      <lb ed="#L" n="69"/>quod necessario erunt posteriores ipso effectu
-      produ<lb ed="#L" n="70" break="no"/>cto: quod patet ex duabus propositionibus. pria est quod respe 
-      <lb ed="#L" n="71"/>ctus est posterior suo fundamento et terimo. Secuna 
-      <lb ed="#L" n="72"/>est quod respectus mutui sunt simul natura et intellectu. ex 
-      <lb ed="#L" n="73"/>prima arguitur sic. fundamentum vel terminus
-      cuius<lb ed="#L" n="74" break="no"/>libet respectus qui est inter effectum et causam: quia est
-      fu<lb ed="#L" n="75" break="no"/>damentum respectus effectus ad causam: et est terminus 
-      <lb ed="#L" n="76"/>respectus effectus cause ad effcntum: sed fundamentum ab 
-      <lb ed="#L" n="77"/>solutum siue terminus est prior respectu fundato in 
-      <lb ed="#L" n="78"/>illo siue terinato ad illud: igitur isti respectus. si po 
-      <lb ed="#L" n="79"/>nantur sunt posteriores effectu et causa similiter. Ex secunda 
-      <lb ed="#L" n="80"/>propositione arguitur similiter. respectus mutui sunt simul na 
-      <lb ed="#L" n="81"/>tura et intellectu: ergo quicquid est prius vno illorum est prius 
-      <lb ed="#L" n="82"/>altero: sed effectus est prior respectu fundato in eo: ergo est 
-      <lb ed="#L" n="83"/>prior respectu fundato in causa: et hoc est verum. Unde est
-      ta<lb ed="#L" n="84" break="no"/>lis ordo quod primo est absolutum in causa et proximum quod se 
-      <lb ed="#L" n="85"/>quitur est absolutum in effectu: et tunc si sint tales 
-      <lb ed="#L" n="86"/>respectus sequuntur illi respectus. Ex hoc sequitur quod 
-      <lb ed="#L" n="87"/>bene possunt esse causa et effectus producens et productum 
-      <lb ed="#L" n="88"/>sine omni respectu rationis: quia causa et productio
-      signifi<lb ed="#L" n="89" break="no"/>causat naturam absolutam cause et connotant effectus: 
-      <lb ed="#L" n="90"/>econtra est de effectu et productione passiua: u princi 
-      <lb ed="#L" n="91"/>paliter signficat effectum et connotant causam sine omni
-      respe<lb ed="#L" n="92" break="no"/>ctu rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1450">
-      ⁋ Ad primum principale patet quod contradictoria 
-      <lb ed="#L" n="93"/>verificantur de deo successiue propter mutationem 
-      <lb ed="#L" n="94"/>alicuius absoluti: quia propter creaturam quae modo est et 
-      <lb ed="#L" n="95"/>prius non fuit.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1460">
-      ⁋ Ad aliud dico quod actio non differtu 
-      <lb ed="#L" n="96"/>a producente quantum ad suum significatum principale tamen 
-      <lb ed="#L" n="97"/>quantum ad connotatum bene differt.
-    </p>
-            <p xml:id="wo8uy7-d1e1906-d1e1467">
-      ⁋ Ad aliud dico 
-      <lb ed="#L" n="98"/>quod sic oritur ista oenominatio deus est creans ex natu 
-      <lb ed="#L" n="99"/>tura rei: quia quando deus conexistit creature: tunc habet istam 
-      <lb ed="#L" n="100"/>denominationem sine omni operatione intellectus et omni
-      rela<lb ed="#L" n="101" break="no"/>tione reali: et quando non sic coexistit tunc non oritur. Ad  
-      <lb ed="#L" n="102"/>aliud dico quod vbi non est relatio realis: illa tria 
-      <lb ed="#L" n="103"/>sufficiunt. hoc non est in proposito.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="273-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e1906"><!-- l2q1 -->
+        <head xml:id="wo8uy7-d1e1906-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e1906-d1e111">
+          <!--548.xml-->
+          <pb ed="#L" n="273-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>⁋ Secundi libri sententiarum. Questio prima. 
+          <lb ed="#L" n="2"/>CIrca secundum 
+          <lb ed="#L" n="3"/>sentetiarum queritur. Utrum 
+          <lb ed="#L" n="4"/>creatio actio qua deus dici 
+          <lb ed="#L" n="5"/>tur formaliter creans
+          diffe<lb ed="#L" n="6" break="no"/>rat ex natura rei a
+          creato<lb ed="#L" n="7" break="no"/>re.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e135">
+          Quod sic: quia contradictoria 
+          <lb ed="#L" n="8"/>non verificantur de ali quo sine distinctione ex natu 
+          <lb ed="#L" n="9"/>ra rei: sed deus est modo creans: et prius non fuit: ergo. 
+          <lb ed="#L" n="10"/>Sed hec distinctio non est in creatura: quia nondum est 
+          <lb ed="#L" n="11"/>ergo a deo differt creatio: igitur etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e146">
+          ⁋ Item productio 
+          <lb ed="#L" n="12"/>differt realiter a producente et producto si sit realis 
+          <lb ed="#L" n="13"/>sed creatio est huiusmodi: ergo etc. Ite relatio realis
+          distin<lb ed="#L" n="14" break="no"/>guitur tam a fundamento quam a terino: sed creatio est huiusmod 
+          <lb ed="#L" n="15"/>ergo. minor patet: quia positum extremis. scilicet deo a
+          crea<lb ed="#L" n="16" break="no"/>tura non oritur creatio: sed positum extremis oritur rela 
+          <lb ed="#L" n="17"/>tio: ergo.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e162">
+          ⁋ Ite tria requisita ad relationem realem 
+          <lb ed="#L" n="18"/>saluantur hic: quia hic fundamentum est reale: 
+          <lb ed="#L" n="19"/>scilicet essentia diuina: sed diuina essentia et extrema 
+          <lb ed="#L" n="20"/>distinguntur realiter: quia deus et creatura: et oritur lex 
+          <lb ed="#L" n="21"/>natura rei: quia posita creatura statim dicitur deus 
+          <lb ed="#L" n="22"/>creans
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e176">
+          ⁋ Istem omni relationi reali correspondet
+          ter<lb ed="#L" n="23" break="no"/>minus realis: sed creature ad deum est relatio realis 
+          <lb ed="#L" n="24"/>ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e183">
+          ⁋ Istem nihil denominat aliquid realiter nisi sit 
+          <lb ed="#L" n="25"/>ipsum reale: sed deus dicitur realiter creans: ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e188">
+          ⁋ Ad
+          op<lb ed="#L" n="26" break="no"/>positum arguitur sic. Si creatio actio differt reali 
+          <lb ed="#L" n="27"/>ter a deo: ergo est creatura: probatur quia capit esse a 
+          <lb ed="#L" n="28"/>deo post non esse: et si sic igitur per creationem. De il 
+          <lb ed="#L" n="29"/>la creatione quaero vtrum differat a deo vel non. Sed 
+          <lb ed="#L" n="30"/>sic erit processus in infinitum. si non: statur in primo: e 
+          <lb ed="#L" n="31"/>eadem ratione distinguitur: similiter illa creatio non potest 
+          <lb ed="#L" n="32"/>esse deus certum est: ergo est alia res.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e206">
+          ⁋ Dicitur communiter 
+          <lb ed="#L" n="33"/>quod creatio actio dicit respectum rationis: quod probatur. 
+          <lb ed="#L" n="34"/>quia quando aliqua distinguntur et referuntur ita quod vnum de 
+          <lb ed="#L" n="35"/>pendet ab alio et non econtra: in non dependente est 
+          <lb ed="#L" n="36"/>tantum relatio rationis. sed deus et creatura distinguntur 
+          <lb ed="#L" n="37"/>et referuntur: et creatura dependet a deo: et non econ 
+          <lb ed="#L" n="38"/>tra: ergo etc. Item inter quae est mutua dependentia: est 
+          <lb ed="#L" n="39"/>mutua relatio realis. exemplum in qualitatibus et 
+          <lb ed="#L" n="40"/>quantitatibus: et vbi non est talis dependentia non 
+          <lb ed="#L" n="41"/>est talis relatio: sed realis in vno extremo et rati 
+          <lb ed="#L" n="42"/>poenis in alio: sic est in proposito: igitur etc
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e230">
+          ⁋ Contra istam 
+          <lb ed="#L" n="43"/>opinionem. quando aliquid equaliter denominatur ab ali 
+          <lb ed="#L" n="44"/>quo siue intellectus sit siue non: illud denominans non 
+          <lb ed="#L" n="45"/>dicit formaliter respectum rationis. Istud patet: quia quod 
+          <lb ed="#L" n="46"/>non habet esse nisi per aliud non potest denominari nisi
+          ali<lb ed="#L" n="47" break="no"/>ud sit: igitur per oppositum quod denominatur siue sit aliud 
+          <lb ed="#L" n="48"/>siue no: non potest esse denominatum per illud aliud
+          ali<lb ed="#L" n="49" break="no"/>quo modo: sed deus denominatur creans siue
+          intelle<lb ed="#L" n="50" break="no"/>ctus sit siue non sit: loquendo de quocumque intelle 
+          <lb ed="#L" n="51"/>ctu per impossibile: quia licet deus non possit producere 
+          <lb ed="#L" n="52"/>animam rationalem sine intellectu: tamen absolute si per im 
+          <lb ed="#L" n="53"/>possibile non esset intellectus posset eam producere: 
+          <lb ed="#L" n="54"/>igitur etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e259">
+          ⁋ Item illa d enominatio quae oritur positum extre¬ 
+          <!--548.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 273-r -->
+          <lb ed="#L" n="55"/>mis circumscripto omni intellectu non dicitur per opera 
+          <lb ed="#L" n="56"/>tionem intellectus: sed posito deo et lapide circumscri 
+          <lb ed="#L" n="57"/>pto omni intellectu per impossibile est deus creans: ergo etc. 
+          <lb ed="#L" n="58"/>Si dicas quod dicitur creans: non quia in eo est aliqua
+          re<lb ed="#L" n="59" break="no"/>latio: sed quia terminat relationem realem creature 
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e280">
+          <lb ed="#L" n="60"/>⁋ Contra. Ex hoc se queretur propositum: quia si propter hoc 
+          <lb ed="#L" n="61"/>dicitur deus creans: quia terminat relationem realem crea 
+          <lb ed="#L" n="62"/>ture: ergo relatio non dicit respectum rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e289">
+          ⁋ Item ante 
+          <lb ed="#L" n="63"/>omnem operationem intellectus deus dicitur vere creans: et 
+          <lb ed="#L" n="64"/>ita post: sed ante omnem operationem intellectus quam tu 
+          <lb ed="#L" n="65"/>ponis causare relationem rationis denominatur deus 
+          <lb ed="#L" n="66"/>creans: ergo et post.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e300">
+          ⁋ Ite quicunque possunt equaliter compra 
+          <lb ed="#L" n="67"/>ri adinuice possunt equaliter habere relationes rationis 
+          <lb ed="#L" n="68"/>et denominari ab eis: sed intellectus non potest compare 
+          <lb ed="#L" n="69"/>vnam creaturam ad aliam: sed comparat creaturam ad  
+          <lb ed="#L" n="70"/>deum: ergo creatura potest dici creans aliam cteaturam si 
+          <lb ed="#L" n="71"/>cut deus
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e313">
+          ⁋ Si dicis quod vna compratio est falsa: et 
+          <lb ed="#L" n="72"/>alia vera: et ideo compratio vera denominabit: non autem 
+          <lb ed="#L" n="73"/>falsa. Contra. set alsitas et veritas non impediunt re 
+          <lb ed="#L" n="74"/>lationem rationis causari: quia sicut causatur respectus 
+          <lb ed="#L" n="75"/>rationis quando compratur homo ad animal: sicut ad
+          ge<lb ed="#L" n="76" break="no"/>nus: ita causatur relatio rationis quando comparatur ho 
+          <lb ed="#L" n="77"/>mo ad asinum per ydentitatem: dicendo hominem esse asi 
+          <lb ed="#L" n="78"/>num: igitur etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e331">
+          ⁋ Ite concedit propositum: quia ex hoc quod 
+          <lb ed="#L" n="79"/>vna propositio est vera et alia falsa: est ponere
+          ali<lb ed="#L" n="80" break="no"/>quod primum ex natura rei: quare vna est vera 
+          <lb ed="#L" n="81"/>et alia falsa: quia in eo quod res est vel non est etc. Ite 
+          <lb ed="#L" n="82"/>nullus respectus rationis potest esse: igitur creatio non
+          di<lb ed="#L" n="83" break="no"/>cit respectum rationis. Atecedens patet quia si sic: aut habet 
+          <lb ed="#L" n="84"/>esse subiectiuum aut obiectiuum. non subiectiuum: quia 
+          <lb ed="#L" n="85"/>tunc esset relatio realis. non obiectiuum: sicut esse 
+          <lb ed="#L" n="86"/>cognitum: quia hoc maxime veritatem haberet intelli 
+          <lb ed="#L" n="87"/>gendo propositionem comparando subiectum ad praedicatum 
+          <lb ed="#L" n="88"/>et ibi non oportet ponere. Probatur quia intellectus 
+          <lb ed="#L" n="89"/>intelligendo praecise subiectum praedicatum et copulsam nls 
+          <lb ed="#L" n="90"/>lo alio penitus intellecto intelligit totam
+          propositio<lb ed="#L" n="91" break="no"/>nem: ergo non est talis respectus causatus subiecti ad  
+          <lb ed="#L" n="92"/>praedicatum
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e364">
+          ⁋ Item si debet poni talis relatio realis 
+          <lb ed="#L" n="93"/>hoc maxime esset propter istas intentiones: genus 
+          <lb ed="#L" n="94"/>species: subiectum praedicatum: sed quodlibet istorum est rationis 
+          <lb ed="#L" n="95"/>quia possum intelligere conceptum generis: et speciet 
+          <lb ed="#L" n="96"/>quae tamen habent esse obiectiue absolute sine aliquo 
+          <lb ed="#L" n="97"/>respectu rationis eodemodo de subiecto et praedicato 
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e378">
+          <lb ed="#L" n="98"/>⁋ Ite contra rationem positionis sue: quia secundum eum causa 
+          <lb ed="#L" n="99"/>non dependet ab effectu: et tamen habet relationem realem 
+          <lb ed="#L" n="100"/>ad effectum. Exemplum Sol non dependet ad vermem: et 
+          <lb ed="#L" n="101"/>tamen realiter refertur ad vermem: sic in proposito. licet deus 
+          <lb ed="#L" n="102"/>non dependeat a creatura adhuc potest realit
+          refer<lb ed="#L" n="103" break="no"/>ri ad creaturam.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e394">
+          ⁋ Istem contra hoc quod dicit: quod aliquando 
+          <lb ed="#L" n="104"/>causa perficitur per effectum. Contra. Smne recipies 
+          <lb ed="#L" n="105"/>inquantum tale est patiens: et habet magis rationem 
+          <lb ed="#L" n="106"/>patientis quam agentui: igitur si quaelibet causa naturalis 
+          <lb ed="#L" n="107"/>recipit respectum magis patitur quam agat
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e405">
+          ⁋ Ite co 
+          <lb ed="#L" n="108"/>tra hoc quod dicit quod actio divina distincta est a sua substantia: et 
+          <lb ed="#L" n="109"/>ideo non potest esse alia media relatio dei ad creatu 
+          <!--549.xml-->
+          <pb ed="#L" n="273-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ram: quia aut accipit actionem pro fundamento 
+          <lb ed="#L" n="2"/>vel respectu vel aggregato ex vtroque. si primo 
+          <lb ed="#L" n="3"/>modo: eodem modo est in creatum illud quod est principium et 
+          <lb ed="#L" n="4"/>fundamntum actionis potest esse sua substantia: patet de accidente 
+          <lb ed="#L" n="5"/>ad subiectum: saltem accidens est principium elicitiuum 
+          <lb ed="#L" n="6"/>actionis: et tunc diceretur quod substantia creature est sua actio 
+          <lb ed="#L" n="7"/>Si autem accipiatur pro respectu reali. Contra ipse 
+          <lb ed="#L" n="8"/>met dicit quod dicit respectum tantum rationis: et tale non 
+          <lb ed="#L" n="9"/>potest esse essentia diuina: nec etiam aliquis respectus 
+          <lb ed="#L" n="10"/>realis dei ad creaturam. Nec potest accipi tertio 
+          <lb ed="#L" n="11"/>modo: quia nullum tale est essentia diuina: ergo non est po 
+          <lb ed="#L" n="12"/>nendum propter identitatem actonis diuine et sue substan 
+          <lb ed="#L" n="13"/>tie quod creatio non differt a deo magis quam a
+          creatu<lb ed="#L" n="14" break="no"/>ra
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e449">
+          ⁋ Ideo dico quod creatio actio non dicit respectum 
+          <lb ed="#L" n="15"/>rationis nec respectum realem. quod non respectum rationis 
+          <lb ed="#L" n="16"/>patet ex dictis. quod non respectum realem probatur: quia
+          rela<lb ed="#L" n="17" break="no"/>tio realis differt realiter a fundameto vel ab illo 
+          <lb ed="#L" n="18"/>quod refertur: sed creatio non potest dicere talem
+          relatio<lb ed="#L" n="19" break="no"/>nem in deo. probatur quia non est ibi distinctio nisi essentie et 
+          <lb ed="#L" n="20"/>relationum et personarum relatarum dico ad intra: sed re 
+          <lb ed="#L" n="21"/>latio creatio actio non dicit aliquod istorum: patet
+          dis<lb ed="#L" n="22" break="no"/>currendo.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e469">
+          ⁋ Item si sic: aut est differens realiter ab 
+          <lb ed="#L" n="23"/>essentia aut formaliter: si realiter ergo componeret cum 
+          <lb ed="#L" n="24"/>ea et mutaretur subiecta essentie: quia illa relatio adue¬. 
+          <lb ed="#L" n="25"/>niret sibi de nouo. non formaliter. quia sic denominaret 
+          <lb ed="#L" n="26"/>deum ab eterno sicut quodcumque attributum: et per consequens 
+          <lb ed="#L" n="27"/>deus esset creans ab eterno. et sic creatura esset 
+          <lb ed="#L" n="28"/>ab eterno
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e485">
+          ⁋ Ad questionem igitur dico de
+          re<lb ed="#L" n="29" break="no"/>latione rationis sicut de relatione reali: quia
+          rela<lb ed="#L" n="30" break="no"/>tio realis nil positiuum addit reale: dicit enim ex 
+          <lb ed="#L" n="31"/>trema relata et non aliam habitudinem vel rem mediam 
+          <lb ed="#L" n="32"/>inter correlativa. Exemplum similitudo non dicit aliquid 
+          <lb ed="#L" n="33"/>nisi duo alba vel significat vnam albedinem conno 
+          <lb ed="#L" n="34"/>tando aliam: et ex hoc sequitur quod deus non potest facere duo 
+          <lb ed="#L" n="35"/>alba nisi sint similia: quia similitudo est ipsa duo alba. 
+          <lb ed="#L" n="36"/>Eodem modo relatio rationis nihil dicit nisi ipsa
+          ex<lb ed="#L" n="37" break="no"/>trema relata praecise et nihil aliud quodcumque medium 
+          <lb ed="#L" n="38"/>inter extrema relata praecise: sicut in quaestione
+          sequen<lb ed="#L" n="39" break="no"/>ti patebit. Ideo creatio actio nihil dicit vel signi 
+          <lb ed="#L" n="40"/>ficat praeter essentiam diuinam connotando vel dando 
+          <lb ed="#L" n="41"/>intelligere existentiam creature quae nullo modo potest 
+          <lb ed="#L" n="42"/>esse nisi posita essentia diuina: ita quod si per
+          impossi<lb ed="#L" n="43" break="no"/>bile deus non esset intelligens: creatura tunc perducere 
+          <lb ed="#L" n="44"/>tur ab essentia diuina: adhuc illud nomen crea 
+          <lb ed="#L" n="45"/>tio actio vel conceptus significaret diuinam essentiam 
+          <lb ed="#L" n="46"/>connotando creaturam sine omni respectu.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e528">
+          ⁋ Et si
+          quae<lb ed="#L" n="47" break="no"/>ras in quo est creatio actio: dico sicut supra dictum 
+          <lb ed="#L" n="48"/>est de realitate: quod quando est aliquod nomen significans 
+          <lb ed="#L" n="49"/>plura realia non est quaerendum in quo est illud
+          no<lb ed="#L" n="50" break="no"/>men vel conceptus sic significans: sed quaerendum est quid  
+          <lb ed="#L" n="51"/>denominatur ab illo: et dico quod essentia diuina
+          princi<lb ed="#L" n="52" break="no"/>paliter et creatura secundario et connotatiue: ita quod hoc 
+          <lb ed="#L" n="53"/>nomen duo significat quantum ad suum significatum 
+          <lb ed="#L" n="54"/>totale: licet vnum principaliter et aliud connotative sine 
+          <lb ed="#L" n="55"/>omni respectu medio rei vel rationis: et ista via vitat 
+          <!--549.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 273-v -->
+          <lb ed="#L" n="56"/>multa inconuenientia quae oportet ponere secundum ponentes 
+          <lb ed="#L" n="57"/>relationes distinctas a fundamento. Si em diuersi 
+          <lb ed="#L" n="58"/>tas vel distinctio inter aliqua esset relatio realis pu 
+          <lb ed="#L" n="59"/>ta inter a et b de ista relatione est quaerendum quomodo 
+          <lb ed="#L" n="60"/>distinguitur ab alio respectiuo vel absoluto si per 
+          <lb ed="#L" n="61"/>seipsum eadem ratione esset standum impriemo in absolutis quae 
+          <lb ed="#L" n="62"/>distinguuntur seipis si distinguntur per aliam relationemom: aut 
+          <lb ed="#L" n="63"/>distinguntur a primo respectu et ab absolutis: et tunc 
+          <lb ed="#L" n="64"/>similiter querendum est de illo: et sic esset processus in infinitum 
+          <lb ed="#L" n="65"/>sed secundum istam opinionem debet dici quod a et b distinguntur
+          se<lb ed="#L" n="66" break="no"/>ipsis primo: ita quod hoc nomen distinctio significat ipsa duo 
+          <lb ed="#L" n="67"/>disticta absoluta et non aliquem respectum medium: 
+          <lb ed="#L" n="68"/>vel significat vnum principaliter et connotatiue aliud. Si 
+          <lb ed="#L" n="69"/>dicas quantum ad respectum rationis quod intellectus comparat 
+          <lb ed="#L" n="70"/>vnam rem ad aliam: quae nullo modo comparantur ex natura 
+          <lb ed="#L" n="71"/>rei: et intellexit talem comparationem existentem: quia
+          funda<lb ed="#L" n="72" break="no"/>mentaliter in vno et terminatiue in alio referri: et sic cau 
+          <lb ed="#L" n="73"/>satur relatio rationis inter aliqua quae non referuntur ex
+          na<lb ed="#L" n="74" break="no"/>tura rei. Contra. intellectus intelligens illa quae non refe 
+          <lb ed="#L" n="75"/>feruntur ex natura rei intelligit falsum: quia ab eo quod 
+          <lb ed="#L" n="76"/>res est vel non est etc. Exemplum: si intelligam deum esse 
+          <lb ed="#L" n="77"/>creaturam: nulla causabitur relatio: sed solum false
+          intelli<lb ed="#L" n="78" break="no"/>gitur ibi esse relatio quae nullo modo est ibi: et sic non
+          pro<lb ed="#L" n="79" break="no"/>bas intellectum facere relationem rationis: sed solum probas 
+          <lb ed="#L" n="80"/>quod false intelligis aliqua compari. patet igitur quid est creatio 
+          <lb ed="#L" n="81"/>actio siue accipiatur pro voce siue pro conceptu. Contra 
+          <lb ed="#L" n="82"/>ista quod creatio dicit respectum probo: quia omne quod secundum 
+          <lb ed="#L" n="83"/>suum esse est praecise ad aliud dicit respectum. Creatio 
+          <lb ed="#L" n="84"/>est huiusmodi igitur etc. maior patet in praedicamentis per diffinitionem 
+          <lb ed="#L" n="85"/>relatiuorum: minor probat. quia sicut pater de alicuius 
+          <lb ed="#L" n="86"/>pater: ita creans dicitur alicuius creans puta creature. 
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e624">
+          <lb ed="#L" n="87"/>⁋ Item secundum Aug. deus est refugium nostrum respectiue 
+          <lb ed="#L" n="88"/>et dominus: ergo creator.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e631">
+          ⁋ Item secundum eundem quod non dicitur ad se 
+          <lb ed="#L" n="89"/>dicitur ad aliud creatio est huiusmodi igitur etc
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e636">
+          ⁋ Item 
+          <lb ed="#L" n="90"/>creatio est actio vel productio: sed omnis actio dicit re 
+          <lb ed="#L" n="91"/>spectum: quia non est maior ratio de vna quam de alia
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e643">
+          ⁋ Item 
+          <lb ed="#L" n="92"/>quod sit dare respectum rationis probo sic. subiectum
+          pro<lb ed="#L" n="93" break="no"/>positonis potest cognosci quantum ad esse absolutum in eo 
+          <lb ed="#L" n="94"/>et illud quod est praedicatum similiter: et tamen vnum non dicit magis 
+          <lb ed="#L" n="95"/>rationem subiecti quam praedicati: nec econuerso. Exemplum 
+          <lb ed="#L" n="96"/>possum intelligere hominem quantum ad intrinseca omnia
+          con<lb ed="#L" n="97" break="no"/>gnitione simplici et incomplexa et animal similiter: vel eadem 
+          <lb ed="#L" n="98"/>cognitione vel alia: et tamen non intelligere hominem esse 
+          <lb ed="#L" n="99"/>subiectum respectu animalis: ergo erit respectus non rea 
+          <lb ed="#L" n="100"/>lis sed ratonis. Eodem modo arguo de illo quod est genus et 
+          <lb ed="#L" n="101"/>de illo quod. est species: quia vtrumque potest absolute intelli 
+          <lb ed="#L" n="102"/>gi: et tamen vnum non intelligitur vt genus: nec aliud vt 
+          <lb ed="#L" n="103"/>species.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e672">
+          ⁋ Item sicut respectus realis fundatur in re in esse 
+          <lb ed="#L" n="104"/>reali: ita respectus rationis in re cognita.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e678">
+          ⁋ Item
+          crea<lb ed="#L" n="105" break="no"/>tio non tantum dicit essentiam diuinam connotado existen¬: 
+          <lb ed="#L" n="106"/>tiam creature: sed dicit essentiam creature vt causatur. 
+          <lb ed="#L" n="107"/>a deo: igitur non tantum dicit illa absoluta.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e687">
+          ⁋ Item crea 
+          <lb ed="#L" n="108"/>tio est prior re creata: et productio est prior re
+          produ<lb ed="#L" n="109" break="no"/>cta: igitur dicunt respectu. Ad ista dico secundum Aug. 
+          <lb ed="#L" n="110"/>et magistrum sententiarum quod sicut aliquod potest habere appella 
+          <!--550.xml-->
+          <pb ed="#L" n="274-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tionem relatiuam sine relatione reali: et hoc dico
+          appel<lb ed="#L" n="2" break="no"/>lationem realem ita aliquis potest habere appellationem 
+          <lb ed="#L" n="3"/>relatiuam rationis sine omni respectu rationis: et ideo omnia 
+          <lb ed="#L" n="4"/>argumenta quae probant quod ibi est relatio rationis quod deus est 
+          <lb ed="#L" n="5"/>gubernator conseruator dominus creator etc. talia con 
+          <lb ed="#L" n="6"/>cedo quod deus dicitur talibus nominibus secundum appellationem 
+          <lb ed="#L" n="7"/>relatiuam rationis: et est sic intelligendum quod deus est
+          de<lb ed="#L" n="8" break="no"/>nominabilis ab istis nominibus quai significant principaliter 
+          <lb ed="#L" n="9"/>deum et connotant existentiam creature in effectu vel 
+          <lb ed="#L" n="10"/>dant intelligere: et ideo vocatur appellatio relatiua: 
+          <lb ed="#L" n="11"/>quia quando intelligo creationem non intelligo tantum deum: sed  
+          <lb ed="#L" n="12"/>aliud puta connotatum: et non oportet ponere propter hoc 
+          <lb ed="#L" n="13"/>aliquem respectum realem vel rationis: tamen talis appel 
+          <lb ed="#L" n="14"/>latio non potest competere sine nomine significante vnum 
+          <lb ed="#L" n="15"/>connotando aliud.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e735">
+          ⁋ Ad primum tunc dico quod nomen vel 
+          <lb ed="#L" n="16"/>oceptus creationis est ad aliud: non quod significet ali 
+          <lb ed="#L" n="17"/>quem respectum: sed quia ipsum nomen non importat praecise vnum 
+          <lb ed="#L" n="18"/>sed cum hoc quod significat vnum connotat aliud: et inter il 
+          <lb ed="#L" n="19"/>la significata siue importata per illud nomen est
+          distin<lb ed="#L" n="20" break="no"/>ctio absolutorum non sicut relatiuorum.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e748">
+          ⁋ Ad aliud  
+          <lb ed="#L" n="21"/>dico quod deus dicitur refugium: non proptet relationem
+          rea<lb ed="#L" n="22" break="no"/>lem vel rationis secundum appellationem relatiuam: et hoc est: quia 
+          <lb ed="#L" n="23"/>conceptus refugii vel vox significat principaliter deum 
+          <lb ed="#L" n="24"/>aliquid connotando sine omni comparatione: et hoc non habet vox 
+          <lb ed="#L" n="25"/>ex natura sua: sed ex impositione instituentis: cuius ratio est: 
+          <lb ed="#L" n="26"/>qui tales voces sunt significatiue animalibus discipl 
+          <lb ed="#L" n="27"/>nabilibus puta cani symee et non aliis: et tamen non esset 
+          <lb ed="#L" n="28"/>verum si vox significaret ex natura sua. Ad aliud 
+          <lb ed="#L" n="29"/>dico quod creator non dicitur ad se: quia secundum quod hoc nomen 
+          <lb ed="#L" n="30"/>sibi conuenit non tantum significat vnum: sed plura: licet vnum 
+          <lb ed="#L" n="31"/>principaliter et aliud connotando.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e774">
+          ⁋ Ad aliud dico quod 
+          <lb ed="#L" n="32"/>productio dei ad extra signuitat essentiam diuinam et consequeno 
+          <lb ed="#L" n="33"/>tat creaturam existere.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e781">
+          ⁋ Ad aliud de subiecto et 
+          <lb ed="#L" n="34"/>praedicato genere et differentia dic vniversaliter quod nullus respe 
+          <lb ed="#L" n="35"/>ctus rationis est ponendus in deo nec in creatura: nisi sit 
+          <lb ed="#L" n="36"/>propter istas intentiones secundas genus. species subiectum et 
+          <lb ed="#L" n="37"/>praedicatum: et ideo vel nullibi sut ponende vel ponuntur 
+          <lb ed="#L" n="38"/>ibi solum. igitur nec relationes de genere relationis
+          distin<lb ed="#L" n="39" break="no"/>cte ab extremis sunt ibi ponende: sed neccesse est poneter 
+          <lb ed="#L" n="40"/>aliquos respectus extrinsecos quai formaliter non
+          parti<lb ed="#L" n="41" break="no"/>nent ad aliquod genus cuius ratio est: quia impossibile est quod 
+          <lb ed="#L" n="42"/>aliqua extrema contrdictionis successiue verificentur de 
+          <lb ed="#L" n="43"/>aliquo nisi propter mutationem alicuius positiui abs 
+          <lb ed="#L" n="44"/>luti vel respectiui. hoc dico in eo de quo contradictoria 
+          <lb ed="#L" n="45"/>verificantur vel in alio si nullus modus gramatical 
+          <lb ed="#L" n="46"/>vel logicalis impediat: sed si deus haberet naturam assum 
+          <lb ed="#L" n="47"/>ptam et post dimitteret eam: tunc non diceretur filius 
+          <lb ed="#L" n="48"/>dei vnitus nature cum prius esset vnitus: et similiter de
+          na<lb ed="#L" n="49" break="no"/>tura assumpta: et tamen omne absolutum quod nunc est tam spi 
+          <lb ed="#L" n="50"/>rituale quam corporale facta vnione adhuc erit natu 
+          <lb ed="#L" n="51"/>ra dimissa: saltem hoc est possibile per potentiam diui 
+          <lb ed="#L" n="52"/>nam: ergo oportet neccsaio quod vnio dicat aliquem respectum 
+          <lb ed="#L" n="53"/>mo acquisitum de nouo quae non fuit prius ante vnionem 
+          <lb ed="#L" n="54"/>eodem modo de materia et forma substantiali de substantia 
+          <lb ed="#L" n="55"/>et accidente: si primo fuerit separata per potentiam diui 
+          <!--550.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 274-r -->
+          <lb ed="#L" n="56"/>nam et postea vniantur dicuntur iste partes vniri et prius 
+          <lb ed="#L" n="57"/>non: et tamen omnia absoluta quae nunc sunt in composito prius 
+          <lb ed="#L" n="58"/>fuerunt quando partes fuerunt separate: et per consequens neccesasio or 
+          <lb ed="#L" n="59"/>ponere respectum inhesionis inherentie distinctum a 
+          <lb ed="#L" n="60"/>fundamentur et a terminis: et eodem modo de
+          approxima<lb ed="#L" n="61" break="no"/>tione: quia ignis multum distans ab aqua non poest agere 
+          <lb ed="#L" n="62"/>sed approximatus potest et habet omne absolutum quod prius habuit 
+          <lb ed="#L" n="63"/>et nihil plus. igitur neccesaio approximatio erit
+          respe<lb ed="#L" n="64" break="no"/>ctus realis: et hoc modo se habent partes ad totum siue sint 
+          <lb ed="#L" n="65"/>essentiales siue integrales: nec ista potest quis euadem 
+          <lb ed="#L" n="66"/>per modos gramaticales: et logicales: quia si nullus 
+          <lb ed="#L" n="67"/>intellectus esset nec aliquis modus gramaticalis vel 
+          <lb ed="#L" n="68"/>logicalis adhuc possent extrema contradictionis sue 
+          <lb ed="#L" n="69"/>cessiue verificari de aliquo: vt patet in exemplis iam 
+          <lb ed="#L" n="70"/>positum et propter oppictum istius non oportet aliquam relato 
+          <lb ed="#L" n="71"/>nem ponere de genere relationis distinctam a fundamentu 
+          <lb ed="#L" n="72"/>et terminis: quia statim positum fundamentis sequitur
+          denomina<lb ed="#L" n="73" break="no"/>tio relatiua. Exemplum de duobus albis que non 
+          <lb ed="#L" n="74"/>possunt esse per potentiam dei quin sint similia et habeant 
+          <lb ed="#L" n="75"/>istam denominationem siue alba sint approximata si 
+          <lb ed="#L" n="76"/>ue non: nec est transitus de contradictorio in contradictorium 
+          <lb ed="#L" n="77"/>sine acquisitione vel deparditione alicuius positiui: vel 
+          <lb ed="#L" n="78"/>in eo de quo dicuntur contradictoria successiue vel in alio 
+          <lb ed="#L" n="79"/>qui vnum album modo non simile non potest fieri simile: nisi
+          ge<lb ed="#L" n="80" break="no"/>neretur nonuum album: et per consequens acquiritur aliquod
+          absolu<lb ed="#L" n="81" break="no"/>tum. Et tota ratio istius est: quia similitudo simul significat 
+          <lb ed="#L" n="82"/>duo alba immediate sine relatione media vel vnum 
+          <lb ed="#L" n="83"/>principaliter et aliud connotatiue: et ideo non potest dici 
+          <lb ed="#L" n="84"/>de aliquo nisi quando ista alba coexistunt: ita quod vniversalie 
+          <lb ed="#L" n="85"/>similitudo vnius extremi ad aliud vel significat ip 
+          <lb ed="#L" n="86"/>sa extrema equae primo: vel principaliter vnum et
+          conno<lb ed="#L" n="87" break="no"/>tatiue reliquum. vt similitudo albedinis ad
+          albedi<lb ed="#L" n="88" break="no"/>nem significa duo alba: nigredinis ad nigredinem signicat 
+          <lb ed="#L" n="89"/>duo nigra: et sic de aliis.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e912">
+          ⁋ Et si dicas quod eadem 
+          <lb ed="#L" n="90"/>ratione non oportet ponere aliquos respectus
+          extrinse<lb ed="#L" n="91" break="no"/>cos: quia vnio partium non significat ipsas partes absolute 
+          <lb ed="#L" n="92"/>sed vt sunt in toto: eodem modo inherentia accidentis 
+          <lb ed="#L" n="93"/>non significat ipsum accidens absolute: sed vt est in subie 
+          <lb ed="#L" n="94"/>cto: et ideo quando est in subiecto potest de eo probari: et quando 
+          <lb ed="#L" n="95"/>non est non: et hoc sine omni respectu medio
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e928">
+          ⁋ Contra 
+          <lb ed="#L" n="96"/>quaero quando dicitur inherentia significa accidens vt in subie 
+          <lb ed="#L" n="97"/>cto: aut inherentia signicat praecise aliquod absolutum 
+          <lb ed="#L" n="98"/>aut significa accidens absolutum: aut signicat accidens
+          conno<lb ed="#L" n="99" break="no"/>tando subiectum: aut significat rectum aliquem non primo mo 
+          <lb ed="#L" n="100"/>nec secundo: quia vt sic quandocunque existeret accidens ab 
+          <lb ed="#L" n="101"/>solutum et subiectum praedicaretur inherentia de acci 
+          <lb ed="#L" n="102"/>dente sicut est in aliis de similitudine quod est
+          mani<lb ed="#L" n="103" break="no"/>feste falsum: sicut si deus separaret accidens a subie 
+          <lb ed="#L" n="104"/>cto et vtrumque conseruaret. igitur relinquitur
+          ter<lb ed="#L" n="105" break="no"/>tium. et sic habentur propositum. et eodem modo si signifi 
+          <lb ed="#L" n="106"/>cet accidens absolutum vt in subiecto. quid addit ac 
+          <lb ed="#L" n="107"/>cidens in subiecto super accidens absolutum aut
+          ni<lb ed="#L" n="108" break="no"/>hil: aut aliquid: aut absolutum: aut respectiuum. et 
+          <lb ed="#L" n="109"/>est arguendum vt prius. Sic ergo patet quod non oportet ponere 
+          <lb ed="#L" n="110"/>aliquam relationem in genere relatonis distinctam a fun¬ 
+          <!--551.xml-->
+          <pb ed="#L" n="274-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>damento: nec rationis in deo. sed necario oportet po 
+          <lb ed="#L" n="2"/>nere aliquos respectus extrinsecos. Sed redeo 
+          <lb ed="#L" n="3"/>ad propositum: et dico quod illud quod est subiectum potest 
+          <lb ed="#L" n="4"/>absolute intelligi: et illud quod est praedicatum simpli 
+          <lb ed="#L" n="5"/>citur: et tamen vnum non habet rationem subiecti: et aliud
+          pri<lb ed="#L" n="6" break="no"/>dicati: et hoc non est propter defectum alicuius respectus 
+          <lb ed="#L" n="7"/>rationis: sed propter defectum alicuius conceptus absoluti: pu 
+          <lb ed="#L" n="8"/>ta conceptus importati per compulam. Exemplum homo potest 
+          <lb ed="#L" n="9"/>intelligi absolute: et animal similiter. et tamen non oportet 
+          <lb ed="#L" n="10"/>nec quod homo sit subiectum: nec animal praedicatum: quia
+          defi<lb ed="#L" n="11" break="no"/>cit conceptus quidam absolutus importatus per hoc verbum 
+          <lb ed="#L" n="12"/>est. Sed habito isto conceptu: cum conceptu hominis et 
+          <lb ed="#L" n="13"/>animalis: siueintelligatur vnico actu: siue distinctis 
+          <lb ed="#L" n="14"/>necesse est quod homo sit subiectum: et animal praedicatum:
+          si<lb ed="#L" n="15" break="no"/>ne omni respectu medio
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1002">
+          ⁋ Si quaeras vtrum ille conce 
+          <lb ed="#L" n="16"/>ptus compule includat conceptum absol utum subiecti 
+          <lb ed="#L" n="17"/>et praedicati: vel est conceptus distinctus ab vtroque vel 
+          <lb ed="#L" n="18"/>non. si primo modo tunc conceptus compule esset tanquam for 
+          <lb ed="#L" n="19"/>ma totius complexi distinctus aliquo modo a partibus
+          com<lb ed="#L" n="20" break="no"/>iuncti et diuisim sicut ponit Ioh. de forma
+          to<lb ed="#L" n="21" break="no"/>tius in re extra quod intendis vitare. si secundomodo tunc 
+          <lb ed="#L" n="22"/>videtur quod per istum conceptum non habemus plus rationem 
+          <lb ed="#L" n="23"/>subiecti et praedicati quam sine ipso. Dico quod dicit
+          con<lb ed="#L" n="24" break="no"/>ceptum communem distinctum a conceptibus extremorum: si 
+          <lb ed="#L" n="25"/>cut vnum ens rationis distinguitur ab alio vel ab ete 
+          <lb ed="#L" n="26"/>reali. Et dico quod si tantum habeam conceptum compule: et 
+          <lb ed="#L" n="27"/>non conceptum extremorum: tunc nec habeo subiectum 
+          <lb ed="#L" n="28"/>nec praedicatum. sed si habeam conceptum totalem: et cum hoc 
+          <lb ed="#L" n="29"/>conceptum extremorum: siue hoc sit per vnum actum siue 
+          <lb ed="#L" n="30"/>per tres: quorum vnus terminetur ad id quod est subie 
+          <lb ed="#L" n="31"/>ctum: et alius ad compulam: et tertius ad id quod est
+          praedica<lb ed="#L" n="32" break="no"/>tum necario habeo subiectum et praedicatum sine omni 
+          <lb ed="#L" n="33"/>respectu rationis. Si quaeratur quo conceptus compule est 
+          <lb ed="#L" n="34"/>communis. dico quod non per praedicationem: sicut est conceptus 
+          <lb ed="#L" n="35"/>extremi: sed est communis per vnionem: quia vnit duo
+          extre<lb ed="#L" n="36" break="no"/>ma adinuicem
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1050">
+          ⁋ Si dicas prius dictum est quod vnio 
+          <lb ed="#L" n="37"/>dicit respectu: igitur hoc dicit respectum. Respon 
+          <lb ed="#L" n="38"/>deo. vnio in re necario dicit respectum realem: sed 
+          <lb ed="#L" n="39"/>in ratione non oportet quod dicat respectum realem nec 
+          <lb ed="#L" n="40"/>rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1061">
+          ⁋ Si dicas quod nunc sunt extrema vnita in 
+          <lb ed="#L" n="41"/>ppositione et prius non: ergo oportet quod aliquid acquiratur 
+          <lb ed="#L" n="42"/>de nouo absolutum vel respectiuum.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1068">
+          ⁋ Respondeo quod 
+          <lb ed="#L" n="43"/>non sunt vnita: tunc fit etiam conceptus compule quae non sunt 
+          <lb ed="#L" n="44"/>bus: et propter istud absolutum dicuntur modo
+          vnita<lb ed="#L" n="45" break="no"/>et prius non. Si dicis quod iste conceptus non est rationis 
+          <lb ed="#L" n="46"/>ita quod tantum habeat esse obiectiue in anima: quia iste conce 
+          <lb ed="#L" n="47"/>ptus significat inherentiam praedicati ad subiectum. 
+          <lb ed="#L" n="48"/>sed ista inherentia est respectus realis per te. Aut sal 
+          <lb ed="#L" n="49"/>tem sic est vt haec sorti inest haec albedo. hec enim extre 
+          <lb ed="#L" n="50"/>ma sunt respectus et compula similiter. quia compula est
+          re<lb ed="#L" n="51" break="no"/>spectus realis inherentie. Dico quod non tantum
+          signifi<lb ed="#L" n="52" break="no"/>tat inherentiam praedicati ad subiectum: quando
+          praedica<lb ed="#L" n="53" break="no"/>tum distinguitur realiter a subiecto et sibi inest reali 
+          <lb ed="#L" n="54"/>ter: sed quando praedicatum est omnino idem: vel quando illud pro 
+          <lb ed="#L" n="55"/>quo supponit subiectum est omnino idem cum illo pro 
+          <!--551.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 274-v -->
+          <lb ed="#L" n="56"/>quo supponit predicatum. Exemplum primi iam posi 
+          <lb ed="#L" n="57"/>tum est. Exemplum secundi. Angelus est ssubstantia: deus est ens 
+          <lb ed="#L" n="58"/>in istis nulla est inheretia a parte rei inter
+          praedica<lb ed="#L" n="59" break="no"/>tum et subiectum: sed tantum in conceptu: et hoc non est aliud  
+          <lb ed="#L" n="60"/>nisi per compulam denotatur quod illud pro quo supponit 
+          <lb ed="#L" n="61"/>subiectum est idem cum illo pro quo supponit
+          praedica<lb ed="#L" n="62" break="no"/>tum. ex hoc patet quod conceptus importatus per compulam non est
+          re<lb ed="#L" n="63" break="no"/>spectiuus sed absolutus: sed tamen bene potest significare
+          re<lb ed="#L" n="64" break="no"/>spectum inherentie accidentalis. et sic dico quod in ista 
+          <lb ed="#L" n="65"/>propositione homini inest albedo per compulam importatur 
+          <lb ed="#L" n="66"/>conceptus absolutus qui habet tantum esse obiectiue in anima et 
+          <lb ed="#L" n="67"/>est communis per vnionem sicut prius dictum est: et est communis per 
+          <lb ed="#L" n="68"/>praedicationem respectibus inherentie accidentalis: quia 
+          <lb ed="#L" n="69"/>ille conceptus potest bene assignare tales respectus: 
+          <lb ed="#L" n="70"/>et pro illis potest supponere: et de illis potest praedicari. 
+          <lb ed="#L" n="71"/>primo modo dicendi sicut conceptus entis licet sit abso 
+          <lb ed="#L" n="72"/>lutus potest tamen supponem pro respectibus et significare 
+          <lb ed="#L" n="73"/>relationes et de eis praedicari. primo modo vnde secundum istam 
+          <lb ed="#L" n="74"/>viam quando sic dico homin inest albedo: conceptus compu 
+          <lb ed="#L" n="75"/>le potest significare istum respectum: sed non adequate mul 
+          <lb ed="#L" n="76"/>tos alios: et ideo tantum habet esse obiectiue in intellectu 
+          <lb ed="#L" n="77"/>Et sciendum est quod est aliud in ista propositione homo 
+          <lb ed="#L" n="78"/>est albus: et homin inest albedo: quia in prima subiectum et 
+          <lb ed="#L" n="79"/>praedicatum supponunt pro eodem puta pro supposito 
+          <lb ed="#L" n="80"/>hominis: quia alias esset propositio falsa. et ideo conceptus communis 
+          <lb ed="#L" n="81"/>est ibi tamen communis per vnionem non per praedicationem quando sub 
+          <lb ed="#L" n="82"/>iectum et praedicatum sunt omnino idem: ibi conceptus compule 
+          <lb ed="#L" n="83"/>non significa inherentiam actualem aliam: et ideo est ibi
+          conce<lb ed="#L" n="84" break="no"/>ptus compule tamen communis per vnionem. Sed in secunda subie 
+          <lb ed="#L" n="85"/>ctum et praedicatum significant et supponunt pro distinctum 
+          <lb ed="#L" n="86"/>rebus quarum vna est in alia: et ideo ibi conceptus compule non 
+          <lb ed="#L" n="87"/>est tantum communis per vnionem extremorum: sed per praedicationem 
+          <lb ed="#L" n="88"/>qui ibi significa inherentiam accidentale praedicati ad sub 
+          <lb ed="#L" n="89"/>iectum et pro ea potest supponere.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1180">
+          ⁋ Pot tamen aliter
+          di<lb ed="#L" n="90" break="no"/>ci quod conceptus quem importet compula est respectiuus et 
+          <lb ed="#L" n="91"/>quod tantum habet esse obiectiue in anima per istum modum 
+          <lb ed="#L" n="92"/>qui iste conceptus primo abstrahitur ab inherentiis suis 
+          <lb ed="#L" n="93"/>accidentalibus et immediate: et ideo est conceptus
+          respe<lb ed="#L" n="94" break="no"/>ctiuus: et ideo est aliquando communis per vnione extremorum.
+          ver<lb ed="#L" n="95" break="no"/>bi gratia. quandocumque illud pro quo supponunt subiectum 
+          <lb ed="#L" n="96"/>et praedicatum est omnino idem: conceptus importatus per compu 
+          <lb ed="#L" n="97"/>lam est communis tantum per vnione extremorum: quandoque enim est 
+          <lb ed="#L" n="98"/>communis per praedicationem et vnionem. Exeplum quando aliquid  
+          <lb ed="#L" n="99"/>signicat subiectum et illud pro quo supponit praedicatum 
+          <lb ed="#L" n="100"/>sunt distincte res quarum vna inest alteri: et sic co 
+          <lb ed="#L" n="101"/>ceptus compule est communis per vnionem extremorum et per 
+          <lb ed="#L" n="102"/>praedicationem: quia praedicatur de illa inherentia quae est re 
+          <lb ed="#L" n="103"/>spectus accidentalis in primo modo dicendi per se: sed ex hoc 
+          <lb ed="#L" n="104"/>non sequitur quod compula significet respectum rationis. 
+          <lb ed="#L" n="105"/>qui licet ille respectus rationis sit tantum ens rationis quia habet 
+          <lb ed="#L" n="106"/>esse tantum obiectiuum: non tamen est respectus rationis: quia il 
+          <lb ed="#L" n="107"/>le solum causatur per intellectum comparantem: et iste conceptus 
+          <lb ed="#L" n="108"/>producitur per intellectum abstrahentem: sed iste conceptus 
+          <lb ed="#L" n="109"/>signicat verum respectum realem: licet sit in se tantum ens rationis 
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1226">
+          <lb ed="#L" n="110"/>⁋ Sed cor. quia nunquam conceptus sincathegoreumaticus 
+          <!--552.xml-->
+          <pb ed="#L" n="275-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>potest supponere pro aliquo: nec tunc potest esse
+          sub<lb ed="#L" n="2" break="no"/>iectum vel praedicatum sicut nec duo
+          sincathegoreu<lb ed="#L" n="3" break="no"/>mata: sed siue dicat conceptum compule absolutum vel 
+          <lb ed="#L" n="4"/>respectiuum solum sincathegoreumaticus est. igitur 
+          <lb ed="#L" n="5"/>non obstante quod potest significtre respectum realem non tamen 
+          <lb ed="#L" n="6"/>potest suppone nec probari de aliquo in primo modo dicen 
+          <lb ed="#L" n="7"/>di per se. vnde con eptus cathegoreumaticus est quae per se po 
+          <lb ed="#L" n="8"/>situs aliquid significat sicut homo animal: et talia quae possunt 
+          <lb ed="#L" n="9"/>esse subiecta et praedicata in propositione. Sicathego 
+          <lb ed="#L" n="10"/>reumata sunt illa quae per se posita nihil sigificont sicut 
+          <lb ed="#L" n="11"/>est esse per se inquantum formaliter. Et ideo dico quod in ista 
+          <lb ed="#L" n="12"/>propositione sorti inest albedo. melius est dicereque 
+          <lb ed="#L" n="13"/>compula significet illam inherentiam accidentalem: et 
+          <lb ed="#L" n="14"/>tunc totum complexum habebit esse extra animam: quia tam 
+          <lb ed="#L" n="15"/>extrema quam compula. vel si complexum habet tantum esse ob 
+          <lb ed="#L" n="16"/>iectiue quod compula habet tantum conceptum abiolutum communem 
+          <lb ed="#L" n="17"/>per vnione non per praedicationem: licet ille conceptus
+          signifi<lb ed="#L" n="18" break="no"/>cet respectum realis inherentie. et sicut dictum est de 
+          <lb ed="#L" n="19"/>subiecto et praedicato: ita dicendum est de genere et
+          dis<lb ed="#L" n="20" break="no"/>ferentia: quia genus dicit quod significat illum conceptum et conno 
+          <lb ed="#L" n="21"/>tat illa plura de quibus praedicatur: et licet possim intelli 
+          <lb ed="#L" n="22"/>tere illum conceptum absolutum primo icabilem de pluribus 
+          <lb ed="#L" n="23"/>differentibus specie: ita quod significet illum conceptum et com 
+          <lb ed="#L" n="24"/>notet illa plura de quibus praedicatur: et licet possim intelli 
+          <lb ed="#L" n="25"/>gere illum conceptum absolutum non tamen sub ratione generis 
+          <lb ed="#L" n="26"/>possum intelligere illum conceptum et illa de quibus 
+          <lb ed="#L" n="27"/>immediate praedicatur: et illa a quibus immediate
+          abstra<lb ed="#L" n="28" break="no"/>hitur nisi intelligam rationem generis siue intelligam ea eodem 
+          <lb ed="#L" n="29"/>actu siue distincto actu: sed propter hoc quod intelligo ta 
+          <lb ed="#L" n="30"/>lia plura nullum habeo respectum rationis: igitur etc. 
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1302">
+          <lb ed="#L" n="31"/>⁋ Ad aliud dico quod respectus realis magis fundatur in 
+          <lb ed="#L" n="32"/>re in effectum quam respectus rationis in re cognita: quia pri 
+          <lb ed="#L" n="33"/>mum est necessarium ponere maxime in illis vbi ex 
+          <lb ed="#L" n="34"/>trema absoluta omnino possunt esse eodem modo sepa 
+          <lb ed="#L" n="35"/>rata et postea vnita sine aliqua mutatione vel
+          mo<lb ed="#L" n="36" break="no"/>tu ad formam vel sine motu locali. sicut in vnione 
+          <lb ed="#L" n="37"/>nature humane ad su ompositum diuinum: forme cum 
+          <lb ed="#L" n="38"/>materia: accidentur cum subiecto: quia deus posset
+          se<lb ed="#L" n="39" break="no"/>parare materiam a forma: accidens a subiecto: et 
+          <lb ed="#L" n="40"/>illa in esse conseruare: et eodem in loco totaliter et post 
+          <lb ed="#L" n="41"/>reunire. oportet igitur in illis necessario ponere respe 
+          <lb ed="#L" n="42"/>ctum vnionis accidentalem: sed nunquam vbi manent ea 
+          <lb ed="#L" n="43"/>dem absoluta et est motus localis: oportet ponere inter 
+          <lb ed="#L" n="44"/>illa tales respectus: sed omnia possunt saluari per
+          nega<lb ed="#L" n="45" break="no"/>tiones. Exemplum. ignis non poest agere in aquam nisi 
+          <lb ed="#L" n="46"/>approximatus: et quando approximatur potest agere. hec 
+          <lb ed="#L" n="47"/>approximatio non est respectus realis: sed ista contradi 
+          <lb ed="#L" n="48"/>ctoria posse et non posse agem verificantur de igne 
+          <lb ed="#L" n="49"/>successiue propter motum localem propter quem acquiri 
+          <lb ed="#L" n="50"/>tur vna negatio in igne quae prius non fuit: scilicet quod quando 
+          <lb ed="#L" n="51"/>ignis approximatur non sunt tot media inter igne et 
+          <lb ed="#L" n="52"/>aquam sicut quando non approximatur. vnde per motum
+          loca<lb ed="#L" n="53" break="no"/>lem acquiritur igni negatio multorum mediorum propter 
+          <lb ed="#L" n="54"/>quam potest modo agere et prius non. sicut corpus dicitur 
+          <lb ed="#L" n="55"/>nunc in loco in quo prius non fuit propter negationem 
+          <!--552.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 275-r -->
+          <lb ed="#L" n="56"/>ydentitatis corporis continentis nunc et non prius: scilicet 
+          <lb ed="#L" n="57"/>quod corpus et superficies corporis nunc continentis non est 
+          <lb ed="#L" n="58"/>superficies cor poris prius continentis. Et similiter dicitur 
+          <lb ed="#L" n="59"/>aliquid existere in isto tempore et prius non: quia nunc coexi 
+          <lb ed="#L" n="60"/>stit alicui successiue cui prius non conexistebat: et sic 
+          <lb ed="#L" n="61"/>de aliis vbi superflue ponuntur multi respectus.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1378">
+          ⁋ Ad  
+          <lb ed="#L" n="62"/>aliud dico quod creatio non tantum dicit existentiam crea 
+          <lb ed="#L" n="63"/>ture sed importat quod creatura non potest esse nisi diuina 
+          <lb ed="#L" n="64"/>essentia existente: licet non sequatur econtra: et hoc sine 
+          <lb ed="#L" n="65"/>omni respectu relatonis
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1389">
+          ⁋ Ad aliud dico quod creatio 
+          <lb ed="#L" n="66"/>quantum ad suum totale significatum non est prior crea 
+          <lb ed="#L" n="67"/>tura: et quando dicitur quod productio est prior re producta 
+          <lb ed="#L" n="68"/>dico quod si ponatur quod actio et productio sunt respectus 
+          <lb ed="#L" n="69"/>quod necessario erunt posteriores ipso effectu
+          produ<lb ed="#L" n="70" break="no"/>cto: quod patet ex duabus propositionibus. pria est quod respe 
+          <lb ed="#L" n="71"/>ctus est posterior suo fundamento et terimo. Secuna 
+          <lb ed="#L" n="72"/>est quod respectus mutui sunt simul natura et intellectu. ex 
+          <lb ed="#L" n="73"/>prima arguitur sic. fundamentum vel terminus
+          cuius<lb ed="#L" n="74" break="no"/>libet respectus qui est inter effectum et causam: quia est
+          fu<lb ed="#L" n="75" break="no"/>damentum respectus effectus ad causam: et est terminus 
+          <lb ed="#L" n="76"/>respectus effectus cause ad effcntum: sed fundamentum ab 
+          <lb ed="#L" n="77"/>solutum siue terminus est prior respectu fundato in 
+          <lb ed="#L" n="78"/>illo siue terinato ad illud: igitur isti respectus. si po 
+          <lb ed="#L" n="79"/>nantur sunt posteriores effectu et causa similiter. Ex secunda 
+          <lb ed="#L" n="80"/>propositione arguitur similiter. respectus mutui sunt simul na 
+          <lb ed="#L" n="81"/>tura et intellectu: ergo quicquid est prius vno illorum est prius 
+          <lb ed="#L" n="82"/>altero: sed effectus est prior respectu fundato in eo: ergo est 
+          <lb ed="#L" n="83"/>prior respectu fundato in causa: et hoc est verum. Unde est
+          ta<lb ed="#L" n="84" break="no"/>lis ordo quod primo est absolutum in causa et proximum quod se 
+          <lb ed="#L" n="85"/>quitur est absolutum in effectu: et tunc si sint tales 
+          <lb ed="#L" n="86"/>respectus sequuntur illi respectus. Ex hoc sequitur quod 
+          <lb ed="#L" n="87"/>bene possunt esse causa et effectus producens et productum 
+          <lb ed="#L" n="88"/>sine omni respectu rationis: quia causa et productio
+          signifi<lb ed="#L" n="89" break="no"/>causat naturam absolutam cause et connotant effectus: 
+          <lb ed="#L" n="90"/>econtra est de effectu et productione passiua: u princi 
+          <lb ed="#L" n="91"/>paliter signficat effectum et connotant causam sine omni
+          respe<lb ed="#L" n="92" break="no"/>ctu rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1450">
+          ⁋ Ad primum principale patet quod contradictoria 
+          <lb ed="#L" n="93"/>verificantur de deo successiue propter mutationem 
+          <lb ed="#L" n="94"/>alicuius absoluti: quia propter creaturam quae modo est et 
+          <lb ed="#L" n="95"/>prius non fuit.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1460">
+          ⁋ Ad aliud dico quod actio non differtu 
+          <lb ed="#L" n="96"/>a producente quantum ad suum significatum principale tamen 
+          <lb ed="#L" n="97"/>quantum ad connotatum bene differt.
+        </p>
+        <p xml:id="wo8uy7-d1e1906-d1e1467">
+          ⁋ Ad aliud dico 
+          <lb ed="#L" n="98"/>quod sic oritur ista oenominatio deus est creans ex natu 
+          <lb ed="#L" n="99"/>tura rei: quia quando deus conexistit creature: tunc habet istam 
+          <lb ed="#L" n="100"/>denominationem sine omni operatione intellectus et omni
+          rela<lb ed="#L" n="101" break="no"/>tione reali: et quando non sic coexistit tunc non oritur. Ad  
+          <lb ed="#L" n="102"/>aliud dico quod vbi non est relatio realis: illa tria 
+          <lb ed="#L" n="103"/>sufficiunt. hoc non est in proposito.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
