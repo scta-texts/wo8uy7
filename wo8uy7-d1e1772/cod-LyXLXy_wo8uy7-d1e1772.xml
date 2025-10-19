@@ -1,658 +1,658 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="266-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e1772"><!-- l1d43q1 -->
-            <head xml:id="wo8uy7-d1e1772-Hd1e108">Quaestio 1</head>
-            <p xml:id="wo8uy7-d1e1772-d1e111">
-               <lb ed="#L" n="48"/>Distinctionis. xliii. Questio prima 
-      <lb ed="#L" n="49"/>CIrca
-      distin<lb ed="#L" n="50" break="no"/>ctionem
-      quadragesimam<lb ed="#L" n="51" break="no"/>tertiam quero.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e122">
-      ⁋ Utrum 
-      <lb ed="#L" n="52"/>deus possit facere aliqua quae 
-      <lb ed="#L" n="53"/>non fecit nec faciet Quod non 
-      <lb ed="#L" n="54"/>qui causa naturalis. non impe 
-      <!--534.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 266-r -->
-               <lb ed="#L" n="55"/>dita non potest facere nisi quod facit vel
-      fa<lb ed="#L" n="56" break="no"/>ciet. sed deus est casa naturalis agens de necessitate 
-      <lb ed="#L" n="57"/>nature. et est non impedibilis. ergo etc. Maior
-      vide<lb ed="#L" n="58" break="no"/>tur manifesta.  Minor probatur quantum ad primam per 
-      <lb ed="#L" n="59"/>tem. quia sicut intelligendo se intelligit alia. Ita
-      vo<lb ed="#L" n="60" break="no"/>lendo se vult alia. sed quia deus intelligendo se
-      intelli<lb ed="#L" n="61" break="no"/>git. ergo neccessario intelligit alia. Ita deus volendo se 
-      <lb ed="#L" n="62"/>vult necessario. ideo necessario vult alia. sed si
-      ne<lb ed="#L" n="63" break="no"/>cessario vult alia. necessario producit alia. ergo est 
-      <lb ed="#L" n="64"/>agens de necessitate nature.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e159">
-      ⁋ Secundo probatur
-      ea<lb ed="#L" n="65" break="no"/>de pars minoris sic. quia nulla perfectio simplicitur re 
-      <lb ed="#L" n="66"/>pugnatr alteri quin se compatiatur in eodem. sed  
-      <lb ed="#L" n="67"/>posse causare est perfectio simplicitur. et similiter ne 
-      <lb ed="#L" n="68"/>cessarium est perfectio simpliciter. ergo compatiuntur se in 
-      <lb ed="#L" n="69"/>eodem. ergo aliquid est quod potest necessario causare. 
-      <lb ed="#L" n="70"/>sed nihil est tale nisi solus deus. quia omne agens creatum 
-      <lb ed="#L" n="71"/>potest impediri a causatione sua. ergo solus deus potest
-      ne<lb ed="#L" n="72" break="no"/>cessario causare. ergo neccessario causat. quia in perpetuis 
-      <lb ed="#L" n="73"/>non differt esse a posse.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e181">
-      ⁋ Preterea. deus non potest
-      fa<lb ed="#L" n="74" break="no"/>cere nisi quod rectum est fieri ab eo. sed nihil est re 
-      <lb ed="#L" n="75"/>ctum siue iustum fieri ab eo nisi quod facit. ergo nihil potest 
-      <lb ed="#L" n="76"/>facere nisi quod facit.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e191">
-      ⁋ Ad oppositum est magister 
-      <lb ed="#L" n="77"/>in littera ostendens quod deus potest facere aliqua que 
-      <lb ed="#L" n="78"/>non facit
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e198">
-      ⁋ Circa istam questionem primo supponendum 
-      <lb ed="#L" n="79"/>est quod deus est causa effectiua rerum. Secundo inquaren 
-      <lb ed="#L" n="80"/>dum est. an ratione naturali possit probari deum esse causam 
-      <lb ed="#L" n="81"/>effectiuam liberam et non naturale.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e207">
-      ⁋ Tertio an hoc sit 
-      <lb ed="#L" n="82"/>secundum veritatem fidei tenendum. Quarto ex hiis
-      di<lb ed="#L" n="83" break="no"/>cendum est ad quaestionem.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e214">
-      ⁋ Circa primum dicunt alie 
-      <lb ed="#L" n="84"/>quod sic. Et nituntur aliqui probare quod deus sit causa libera 
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e219">
-               <lb ed="#L" n="85"/>⁋ Primo sic. vniuersum habet aliquem finem: sed in 
-      <lb ed="#L" n="86"/>illum finem ordinatur primo a natura. quia natura non
-      in<lb ed="#L" n="87" break="no"/>tendit aliquid nisi quantum dirigitur a cognoscente. 
-      <lb ed="#L" n="88"/>ergo in illum finem ordinantur per voluntatem. et non nisi per 
-      <lb ed="#L" n="89"/>voluntatem diuinam. ergo deus per voluntatem ordinat
-      to<lb ed="#L" n="90" break="no"/>tum vniuersum in fine suum. et per consequens producit
-      crea<lb ed="#L" n="91" break="no"/>turas.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e237">
-      ⁋ Secundo sic. natura est determinata ad  
-      <lb ed="#L" n="92"/>vnum. et ideo natura semper facit sibi equale. nisi sit
-      pro<lb ed="#L" n="93" break="no"/>pter defectum virtutis actiue vel receptiue siue 
-      <lb ed="#L" n="94"/>passiue. sed ptans diuina non est defectiua cum sit
-      in<lb ed="#L" n="95" break="no"/>finita. ergo naturaliter non producit nisi vnum sibi
-      equa<lb ed="#L" n="96" break="no"/>le
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e251">
-      ⁋ Tertio sic. cum omne agens agat sibi simile.
-      ali<lb ed="#L" n="97" break="no"/>quomo oporet quod effectus in sua causa aliqualiter praexistat. 
-      <lb ed="#L" n="98"/>sed omne illud quod est in aliquo est in ipso per modum eius 
-      <lb ed="#L" n="99"/>ert deus est intellectus. ergo creature praexistunt in ipso
-      in<lb ed="#L" n="100" break="no"/>tellectu. sed quod est in intellectu non producitur nisi me 
-      <lb ed="#L" n="101"/>diante voluntate. ergo creature procedunt a deo per
-      vo<lb ed="#L" n="102" break="no"/>luntatem
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e267">
-      ⁋ Quarto sic. secundum philosophum. iiii. metha.
-      du<lb ed="#L" n="103" break="no"/>plex est actio. quedam consistit in ipso agente. et est 
-      <lb ed="#L" n="104"/>perfectio et actio agentis. vt intelligere velle et huc 
-      <lb ed="#L" n="105"/>usmodi. quaedam quae progreditur ab agente in passum
-      extrin<lb ed="#L" n="106" break="no"/>secum. et est perfectio et actio patientur. sicut calere
-      mo<lb ed="#L" n="107" break="no"/>uere et huiusmodi. sed actio dei non potest intelligi ad
-      mo<lb ed="#L" n="108" break="no"/>dum secunde actionis. eo quod cum sua actio sit sua essentia 
-      <lb ed="#L" n="109"/>non egreditur extra ipsam. ergo oportet quod intelligatur admodum 
-      <!--535.xml-->
-      <pb ed="#L" n="266-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>prime actionis quae non est nisi in intelligente et volet 
-      <lb ed="#L" n="2"/>te. ergo quicquid deus agit extra se. per hoc agit quod intelligit 
-      <lb ed="#L" n="3"/>et vult. ergo necessarium est dicere omnem creaturam a 
-      <lb ed="#L" n="4"/>deo processisse per voluntatem non per necessitatem nature 
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e300">
-               <lb ed="#L" n="5"/>⁋ Sed iste rationes non concludunt sicut patet intuenti. 
-      <lb ed="#L" n="6"/>nihil probant enim: nisi quod deus per voluntatem producit 
-      <lb ed="#L" n="7"/>pnes creaturas tamquam per principium agendi. sed non est
-      pro<lb ed="#L" n="8" break="no"/>batum quod omne agens per voluntatem tamquam per principium 
-      <lb ed="#L" n="9"/>agendi contingenter agit et non naturaliter. ergo per istam 
-      <lb ed="#L" n="10"/>rationem non est probatum quod deus non producit creaturas per 
-      <lb ed="#L" n="11"/>necessitatem nature
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e318">
-      ⁋ Confirmatur. quia secundum istos. vo 
-      <lb ed="#L" n="12"/>luntas habet duplice modum agendi. scilicet
-      natura<lb ed="#L" n="13" break="no"/>liter et libere. sicut necessario. et naturaliter vuli 
-      <lb ed="#L" n="14"/>finem. et contingenter et libere vult ea quae sunt ad fi 
-      <lb ed="#L" n="15"/>nem. Unde secundum istum alibi modus agendi naturalis est 
-      <lb ed="#L" n="16"/>communis agenti per cognitionem et agenti sine cognitio 
-      <lb ed="#L" n="17"/>ne. ergo ista consequentia non valet secundum istos. deus producit 
-      <lb ed="#L" n="18"/>per voluntatem. ergo non producit de necessitate
-      natu<lb ed="#L" n="19" break="no"/>re. hoc etiam patet. quia de intensione philosophorum. fuit quod
-      pri<lb ed="#L" n="20" break="no"/>ma causa ageret per intellectum et voluntatem. et tamen 
-      <lb ed="#L" n="21"/>per necessitatem nature. ergo probare quod deus producit 
-      <lb ed="#L" n="22"/>creaturas per voluntatem. non est probare quod non produ 
-      <lb ed="#L" n="23"/>cit de necessitate nature
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e347">
-      ⁋ Preterea. secundum istum. deus 
-      <lb ed="#L" n="24"/>per voluntatem producit spimtumsctm. et tamen naturaliter et 
-      <lb ed="#L" n="25"/>necessario. ergo eodem modo stant simul quod deus producat 
-      <lb ed="#L" n="26"/>per voluntatem. et tamen de necessitate nature.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e356">
-      ⁋ Ex 
-      <lb ed="#L" n="27"/>istis patet quod prima ratio non valet. quia quamuis concedatur quod 
-      <lb ed="#L" n="28"/>sola voluntas praestituat sibi finem. et finis
-      vniuer<lb ed="#L" n="29" break="no"/>si est praestitutus a voluntate. Ex hoc tamen non sequitur 
-      <lb ed="#L" n="30"/>euidenter quod ille finis sit contingentur praestitutus et 
-      <lb ed="#L" n="31"/>non neccessario: cum voluntas neccessario aliqua faciat. Et si 
-      <lb ed="#L" n="32"/>dicatur quod quamuis voluntas neccessario velit finem: tamen
-      con<lb ed="#L" n="33" break="no"/>tingenter vult illud quod est ad finem. et ita cum omnes 
-      <lb ed="#L" n="34"/>creature sunt ad finem voluntas diuina contingen 
-      <lb ed="#L" n="35"/>ter vult eas. et per consequens contingenter producit eas. 
-      <lb ed="#L" n="36"/>hoc non sufficit. quia non est probatum sufficienter quod 
-      <lb ed="#L" n="37"/>voluntas diuina contingent velit ea quae sunt ad fi 
-      <lb ed="#L" n="38"/>nem. et tamen hoc oportet probare specialiter.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e386">
-      ⁋ Secunda 
-      <lb ed="#L" n="39"/>ratio minus valet. quia quando accipit quod natura est deter 
-      <lb ed="#L" n="40"/>minata ad vnum aut intelligit quod natura est determi 
-      <lb ed="#L" n="41"/>nata ad vnum effectum. ita quod non potest plures effectus 
-      <lb ed="#L" n="42"/>producere. Aut ita est determinata ad vnum quod non 
-      <lb ed="#L" n="43"/>habet in ptante sua agere et non agere. Si secundo 
-      <lb ed="#L" n="44"/>modo. sic nihil est ad propositum. quia de hoc est quaestio 
-      <lb ed="#L" n="45"/>principalis. si primo modo sic est simpliciter falsum. quia causa 
-      <lb ed="#L" n="46"/>naturalis est frequenter productiua plurium
-      effe<lb ed="#L" n="47" break="no"/>ctuum. etiam distinctorum specie. et ordinatorum secundum
-      perfe<lb ed="#L" n="48" break="no"/>ctius et imperfectius. sic patet de sole qui producit
-      ve<lb ed="#L" n="49" break="no"/>mem: et plantam. et de multis aliis possent poni exem 
-      <lb ed="#L" n="50"/>pla manifesta. Similiter quando post accipit. natura semper 
-      <lb ed="#L" n="51"/>facit sibi equale nisi sit propter defectum virtutis actie 
-      <lb ed="#L" n="52"/>vel passiue. Istud est falsum. quia aliquando in eodem 
-      <lb ed="#L" n="53"/>passo eodem modo disposito causa naturalis imperfectior 
-      <lb ed="#L" n="54"/>producit sibi equale: et causa naturalis perfectior non
-      pro<lb ed="#L" n="55" break="no"/>ducit sibi equale sed inequale. ergo hoc non est propter de 
-      <!--535.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 266-v -->
-               <lb ed="#L" n="56"/>fectum virtutis actiue vel passiue. sed hoc est propi 
-      <lb ed="#L" n="57"/>naturam agentis. quod non est natum producere effectum 
-      <lb ed="#L" n="58"/>sibi equalem. et quia effectus equalis tali agenti non est a 
-      <lb ed="#L" n="59"/>tali agente producibilis. Sicut quare angelus non 
-      <lb ed="#L" n="60"/>facit sibi simile siue equale. sicut facit bos vel ignis 
-      <lb ed="#L" n="61"/>caus est. quia angelus non est producibilis ab angelo. Ita 
-      <lb ed="#L" n="62"/>dicerent philosophi in proposito. quod quia deus non est producibil 
-      <lb ed="#L" n="63"/>ideo deus non causat deum sibi equalem: sed alias creatu 
-      <lb ed="#L" n="64"/>ras distinctas naturaliter causat. quamuis
-      cognoscen<lb ed="#L" n="65" break="no"/>do et volendo.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e453">
-      ⁋ Similiter tertium non valet. quia si aliquid 
-      <lb ed="#L" n="66"/>probat praecise probat quod deus producit creaturas per in 
-      <lb ed="#L" n="67"/>tellectum et voluntatem. sed ex hoc non sequitur
-      euiden<lb ed="#L" n="68" break="no"/>ter quod non producit eas per necessitatem nature. Si 
-      <lb ed="#L" n="69"/>militer quarta ratio procedit ex falsa imaginatione. quia 
-      <lb ed="#L" n="70"/>quando accipit quod actio dei non est transiens. aut acci 
-      <lb ed="#L" n="71"/>pit actionem dei pro principio agendi. vel pro effe 
-      <lb ed="#L" n="72"/>ctu producto. vel pro aliquo medio. vel pro aliquo 
-      <lb ed="#L" n="73"/>aggregato ex principio agendi et effectum produ 
-      <lb ed="#L" n="74"/>cto. si primo modo. sic est verum quod actio dei non est tran 
-      <lb ed="#L" n="75"/>siens. quia principium agendi non est transiens. et isto modo 
-      <lb ed="#L" n="76"/>vniformiter accipiedo actionem dicendum est quod actio 
-      <lb ed="#L" n="77"/>ignis non est transiens quia principium agendi in igne non 
-      <lb ed="#L" n="78"/>transit plus quam principium agendi in deo. Secundo modo 
-      <lb ed="#L" n="79"/>ita transiens est actio dei sicut actio ignis. Nam 
-      <lb ed="#L" n="80"/>sicut effectus ignis non est in igne formaliter et realiter ita 
-      <lb ed="#L" n="81"/>nec effectus dei Si accipiatur actio dei tertio modo 
-      <lb ed="#L" n="82"/>vel quarto. patet manifeste quod non plus est actio ignis 
-      <lb ed="#L" n="83"/>transiens quam actio dei que est actio non transiens. 
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e495">
-               <lb ed="#L" n="84"/>⁋ Preterea actio solis vel ignis non dicitur transiens ni 
-      <lb ed="#L" n="85"/>si quia reliquit aliquid operatum extra. sed ita actio dei 
-      <lb ed="#L" n="86"/>relinquit creaturam extra sicut actio solis. ergo ita 
-      <lb ed="#L" n="87"/>est transiens.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e506">
-      ⁋ Si dicatur quod actio solis dicitur
-      transi<lb ed="#L" n="88" break="no"/>ens. quia transit in exteriorem materiam. non sic actio 
-      <lb ed="#L" n="89"/>dei.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e513">
-      ⁋ hoc non valet. quia actio dicitur transiens quia non 
-      <lb ed="#L" n="90"/>manet in agente. quia dicitur ad oppositum ad actionem
-      in<lb ed="#L" n="91" break="no"/>manentem. ergo illa actio quae non manet in agente dicitur tran 
-      <lb ed="#L" n="92"/>siens. sicut si sol non produceret formam in materia 
-      <lb ed="#L" n="93"/>sed produceret totum. scilicet materiam et formam non plus 
-      <lb ed="#L" n="94"/>maneret actio solis in sole quam modo. ergo non plus dice 
-      <lb ed="#L" n="95"/>tur actio immanens. sed diceretur actio transiens sicut 
-      <lb ed="#L" n="96"/>modo. et tamen tunc non plus transiret in exteriorem
-      mate<lb ed="#L" n="97" break="no"/>riam quam actio dei. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e533">
-      ⁋ Si dicatur aliter quod actie 
-      <lb ed="#L" n="98"/>solis dicitur transiens et non actio dei. quia sol habet
-      respe<lb ed="#L" n="99" break="no"/>ctum realem ad effectum suum. non sic deus
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e541">
-      ⁋ hoc no vnet 
-      <lb ed="#L" n="100"/>quia quaero Aut respectus realis est in agente aut in pas 
-      <lb ed="#L" n="101"/>so. Si in agente. ergo propter respectum formaliter existen 
-      <lb ed="#L" n="102"/>tem in agente magis dicitur actio immanens quam transiens. 
-      <lb ed="#L" n="103"/>Si autem sit in passo. et propter istum respectum dereli 
-      <lb ed="#L" n="104"/>ctum in passo dicatur actio transiens. multo magis 
-      <lb ed="#L" n="105"/>actio dei propter effectum absolutum derelictum dice 
-      <lb ed="#L" n="106"/>tur actio transiens. Et ideo absolute dicendum est quod 
-      <lb ed="#L" n="107"/>actio dei quae est creatio vel productio creaturarum 
-      <lb ed="#L" n="108"/>non magis substantia dei quam actio ignis. quae est generatio 
-      <lb ed="#L" n="109"/>ignis alterius est sua substantia. sed sicut productio
-      creatura<lb ed="#L" n="110" break="no"/>rum non importat nisi deum et creaturas quae non essent 
-      <!--536.xml-->
-      <pb ed="#L" n="267-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>nisi ad praesentiam dei. ita productio ignis non
-      impo<lb ed="#L" n="2" break="no"/>tat nisi ignem producente cum absolutis suis. et ignem 
-      <lb ed="#L" n="3"/>productum quae non est nisi ad praesentiam ignis illius
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e580">
-      ⁋ In hoc 
-      <lb ed="#L" n="4"/>tamen est differentia requenter quod agens creatum non tantum agit 
-      <lb ed="#L" n="5"/>per suam substantiam. sed etiam agit per qualitates accidentales 
-      <lb ed="#L" n="6"/>et ideo semper principium agendi deo est deitas. Non autem 
-      <lb ed="#L" n="7"/>semper principium agendi agenti creato est ipsa substantia. sed alia 
-      <lb ed="#L" n="8"/>qulitas accidentalis.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e593">
-      ⁋ Aliter probant aliqui eandem
-      con<lb ed="#L" n="9" break="no"/>clusionem sic. Aliquid causatur contigenter. ergo prima causa conti 
-      <lb ed="#L" n="10"/>genter causat. consequentia probatur. quia quaelibet ca secunda causat inqua 
-      <lb ed="#L" n="11"/>tum mouetur a prima. ergo si prima necessario mouet. quod 
-      <lb ed="#L" n="12"/>libet alia necessario mouetur. et per consequens quaelibet ne 
-      <lb ed="#L" n="13"/>cessario causat. ergo si aliqua causa secunda contingenter causat 
-      <lb ed="#L" n="14"/>vel mouet prima continget mouebit. quia non causat causa 
-      <lb ed="#L" n="15"/>secunda nisi in vtute prime inquantum mouetur ab ea
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e611">
-      ⁋ Si 
-      <lb ed="#L" n="16"/>militer probatur eadem consequentia sic. si prima causa necessario 
-      <lb ed="#L" n="17"/>se habetad causam proximam sibi. sit. b. b ergo necessario 
-      <lb ed="#L" n="18"/>mouetur a prima causa. b autem eodem modo quo mouetur a 
-      <lb ed="#L" n="19"/>prima causa mouet proximam sibi. ergo be necessario causat 
-      <lb ed="#L" n="20"/>mouendo. c. et c. mouendo. die. et sic in omnibus causis
-      pro<lb ed="#L" n="21" break="no"/>cedendo nihil contigentur erit si causa prima necessario 
-      <lb ed="#L" n="22"/>causat
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e629">
-      ⁋ Preterea arguit sic. ens absolutum summe 
-      <lb ed="#L" n="23"/>necessarium quantum potest cogitari aliquid esse necessarium 
-      <lb ed="#L" n="24"/>non potest non esse quocumque alio a se non existente. deus est 
-      <lb ed="#L" n="25"/>summe necessarium. ergo quocumque alio a se. non existen 
-      <lb ed="#L" n="26"/>te. non propter hoc sequitur ipsum non esse. Sed si necessariam 
-      <lb ed="#L" n="27"/>haberet habitudinem ad primum causatum illo causato tin 
-      <lb ed="#L" n="28"/>existente non esset. ergo etc. maior patet. quia ex minus impos 
-      <lb ed="#L" n="29"/>sibili non sequitur impossibilius. sicut nec ex minus falso se 
-      <lb ed="#L" n="30"/>quitur falsius.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e649">
-      ⁋ hoc probatur. quia si falsius habeat
-      di<lb ed="#L" n="31" break="no"/>plicem rationem falsitatis et minus falsum tantum vnicam. cir 
-      <lb ed="#L" n="32"/>cumscribatur ab illo falsiori ista ratio falsitatis in quae
-      ex<lb ed="#L" n="33" break="no"/>cedit minus falsum. stante alia ratione. et tunc erit
-      fal<lb ed="#L" n="34" break="no"/>sum et minus falsum non erit falsum. quia circumscripta est 
-      <lb ed="#L" n="35"/>ratio falsitatis minus falsi. ergo haec posito falsius erit fal 
-      <lb ed="#L" n="36"/>sum. et minus falsum erit verum. et tunc ex vero sequitur 
-      <lb ed="#L" n="37"/>falsum.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e668">
-      ⁋ Preterea aliquod malum fit in vniuerso. er 
-      <lb ed="#L" n="38"/>deus non necessario causat. consequentia probatur. quia agens neces 
-      <lb ed="#L" n="39"/>sario producit effectum suum in quem potest in susceptiuo 
-      <lb ed="#L" n="40"/>quantum potest in eodem produci. Effectus primi est bonitas 
-      <lb ed="#L" n="41"/>et perfectio. ergo si necessarium agit necessario
-      produ<lb ed="#L" n="42" break="no"/>cit bonitatem in quolibet inquantum potest ipsum
-      suscepti<lb ed="#L" n="43" break="no"/>uum recipere. sed habens bonitate causatam quante ipsum est ca 
-      <lb ed="#L" n="44"/>pax nullam habet maliciam. ergo.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e686">
-      ⁋ Preterea causa
-      necessa<lb ed="#L" n="45" break="no"/>rio agens agit secundum vltimum potentie sue. ergo si prima 
-      <lb ed="#L" n="46"/>causa necessario causat. quicquid potest causare causat. sed potest causare 
-      <lb ed="#L" n="47"/>ex se omne causabile. ergo nulla causa secunda causat aliquid. Ista 
-      <lb ed="#L" n="48"/>vltima consequentia probatur. quia causa prior prius naturaliter respi 
-      <lb ed="#L" n="49"/>cit causatum quam causa posterior. ergo in illo priori totaliter causat 
-      <lb ed="#L" n="50"/>et deducitur illo modo quo in praecedeti. q.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e702">
-      ⁋ Sed iste 
-      <lb ed="#L" n="51"/>rationes contusiphilosophos conquos adducuntur non concludunt. Pri 
-      <lb ed="#L" n="52"/>ma non. quia ista consequentia aliquid fit contingenter. ergo prima causa 
-      <lb ed="#L" n="53"/>contingenter causat. non potest euidenter probari. Nam dicerent 
-      <lb ed="#L" n="54"/>philosophi quod contingentia effectus dependet ex contingentia 
-      <lb ed="#L" n="55"/>actionis alicuius creature. puta voluntatis 
-      <!--536.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 267-r -->
-               <lb ed="#L" n="56"/>create. necessario requisite. et ideo cum secundum 
-      <lb ed="#L" n="57"/>eos voluntas creata necessario concurrat ad  
-      <lb ed="#L" n="58"/>multos effectus et ista simpliciter contingenter causat. 
-      <lb ed="#L" n="59"/>quantumcunque alie cause naturaliter causent. effectus 
-      <lb ed="#L" n="60"/>erit contingentur productus.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e733">
-      ⁋ Et quando dicitur. quod secunda 
-      <lb ed="#L" n="61"/>causa non causat nisi inquantum mouetur a prima. quaero 
-      <lb ed="#L" n="62"/>a te. quid est causam agere inquantum mouetur a prima 
-      <lb ed="#L" n="63"/>aut est causam secundam depedere in suo esse a prima 
-      <lb ed="#L" n="64"/>aut recipere aliquam influentiam a causa prima qua agat 
-      <lb ed="#L" n="65"/>aut non posse agere nisi prima coagat. Si detur 
-      <lb ed="#L" n="66"/>primum manifestum est quod ista consequentia no valet. causa
-      se<lb ed="#L" n="67" break="no"/>cunda non mouet nisi inquantum mouetur a prima. ergo si 
-      <lb ed="#L" n="68"/>prima causa neccessario mouet: quaelibet alia neccessario moue 
-      <lb ed="#L" n="69"/>tur. Nam si celum consuaret voluntatem in esse et neccessario 
-      <lb ed="#L" n="70"/>nihil minus ita contingenter. ageret tunc sicut modo. quod 
-      <lb ed="#L" n="71"/>patet. quia agens praecise confuans in nullo neccesitatages 
-      <lb ed="#L" n="72"/>ad agendum. vnde non plus neccstaret conseruans neccessario 
-      <lb ed="#L" n="73"/>quam cotingentur. sicut patet quod agente equaliter disposito 
-      <lb ed="#L" n="74"/>eque neccessario et contingenter agit etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e766">
-      ⁋ Confirmatur 
-      <lb ed="#L" n="75"/>qui nulla causa conseruans vel producens aliquam causam ne 
-      <lb ed="#L" n="76"/>cessitat aliam causam ad agendu magis quam causa immedia 
-      <lb ed="#L" n="77"/>te sibi cooperans. et sine qua nihil potest. et illa posi 
-      <lb ed="#L" n="78"/>ta potest in effectum. sed talis causa non neccsitat aliam causam 
-      <lb ed="#L" n="79"/>ad agendum sicut patet quod cognitio est causa naturalis 
-      <lb ed="#L" n="80"/>et sine ea voluntas non potest velle et tamen in nullo ne 
-      <lb ed="#L" n="81"/>cessitat quin voluntas contingentur velit. ergo eodem mo 
-      <lb ed="#L" n="82"/>quantumcumque deus naturaliter et neccessario consuaret
-      volun<lb ed="#L" n="83" break="no"/>tatem. non tamen neccesstaret ipsam ad agendum quin libere 
-      <lb ed="#L" n="84"/>posset agere et non agere. Si intelligatur secundo modo 
-      <lb ed="#L" n="85"/>quod causa secunda non mouet nisi inquantum mouetur a prima 
-      <lb ed="#L" n="86"/>hoc non valet. quia voluntas non recipit talem influen 
-      <lb ed="#L" n="87"/>tiam a prima. sed ipsamet est principium agendi. Nec potest 
-      <lb ed="#L" n="88"/>intelligi tertio modo. quia sic manifeste filtum. quia voluntas 
-      <lb ed="#L" n="89"/>nihil potest operari sine cognitione sicut ontensum estprius 
-      <lb ed="#L" n="90"/>et cognitio est causa naturalis. et tamen voluntas contin 
-      <lb ed="#L" n="91"/>gent agit.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e805">
-      ⁋ Per praedicta patet quod probatio secunde consequene 
-      <lb ed="#L" n="92"/>non valet. quia hoc est simpliciter fula quod causa posterior eodem 
-      <lb ed="#L" n="93"/>modo mouet quo mouetur a priori. Tum quia quandoque causa po 
-      <lb ed="#L" n="94"/>sterior mouetur naturaliter a priori. et tamen mouet contin 
-      <lb ed="#L" n="95"/>gentur. sic anima intellectiua mouetur naturaliter ab ob 
-      <lb ed="#L" n="96"/>iecto ad cognitionem. et tamen contingenter mouet se 
-      <lb ed="#L" n="97"/>ipsam ad volitionem.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e822">
-      ⁋ Preterea. secunda ratio non videtur 
-      <lb ed="#L" n="98"/>concludere. quia philosophi negarent maiorem. dicerent enim quod 
-      <lb ed="#L" n="99"/>ad negatione alicuius alterius a causa pria sequitur ne 
-      <lb ed="#L" n="100"/>gatio causae prime. sicut ad positionem causae prime sequitur 
-      <lb ed="#L" n="101"/>positio effectus. et hoc propter naturalitate causae prime in 
-      <lb ed="#L" n="102"/>agendo. et ideo si in impossibilibus sunt gradus. dicerent 
-      <lb ed="#L" n="103"/>quod ex minus impossibili sequitur magis impossibile. quia 
-      <lb ed="#L" n="104"/>aliter oporteret destruere multas regulas
-      logica<lb ed="#L" n="105" break="no"/>les de quibus est certum quod sunt simpliciter neccessarie. Ista 
-      <lb ed="#L" n="106"/>enim sic est certa quod ab vno conuertibilium ad
-      reli<lb ed="#L" n="107" break="no"/>quum est bona consequentia. vt homo non est risibilis. ergo homo 
-      <lb ed="#L" n="108"/>non est homo. et tamen consequens est impossibilius antecedente. Si 
-      <lb ed="#L" n="109"/>militer destructa conclusione destruitur principium. et 
-      <lb ed="#L" n="110"/>tamen oppositum principii. est impossibilius. Si ad illud  
-      <!--537.xml-->
-      <pb ed="#L" n="267-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>icitur quod non est ad propositum. quia conclusio non est nisi quadam 
-      <lb ed="#L" n="2"/>vitas partialis principii quod habet veritatem quasi totale. sicut 
-      <lb ed="#L" n="3"/>singulare est quadam vitas partialis respectu vniversalis. in en 
-      <lb ed="#L" n="4"/>tibus autem ens causatum non est nisi quadam entitas deper 
-      <lb ed="#L" n="5"/>dens ab etitate causae
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e870">
-      ⁋ Sed illa responsio non videtur sul 
-      <lb ed="#L" n="6"/>ficiens. Tum quia veritas conclusionis non est veritas
-      parti<lb ed="#L" n="7" break="no"/>alis principii. sed est vna veritas simpliciter distincta ab 
-      <lb ed="#L" n="8"/>ea. quia quando aliquae veritates sic se habent quod vna potest esse 
-      <lb ed="#L" n="9"/>nota alia simpliciter ignorata. et econuerso. non
-      ma<lb ed="#L" n="10" break="no"/>gis est vna partialis respectu alterius quam econuerso. sed 
-      <lb ed="#L" n="11"/>conclusio potest esse nota principio simpliciter ignorato. 
-      <lb ed="#L" n="12"/>sicut patet frequentur quod sciuntur euidenter conclusiones. et 
-      <lb ed="#L" n="13"/>postea inquiritur de pricipiis. et econuerso. ergo neutra 
-      <lb ed="#L" n="14"/>veritas est partialis respectu alterius. Tum quia vitas sit 
-      <lb ed="#L" n="15"/>gularis non est partialis respectu veritatis vniversalis. quia 
-      <lb ed="#L" n="16"/>non plues vnum singulare est pars respectu sui vniversalis quae 
-      <lb ed="#L" n="17"/>aliud singulare est pars sui vniversalis. sed aliquod singulare 
-      <lb ed="#L" n="18"/>non est pars sui vniversalis. quia mumquam verum est pars falsi. nisi ma 
-      <lb ed="#L" n="19"/>terialiter forte. de quo nihil ad propositum. sed aliquando 
-      <lb ed="#L" n="20"/>singularis est vera et vniversalis est falsa. ergo tunc illa veritas 
-      <lb ed="#L" n="21"/>singularis non est partialis respectu sui vniversalis. ergo
-      num<lb ed="#L" n="22" break="no"/>quam vitas singularis est partialis respectu su vniversalis Similiter 
-      <lb ed="#L" n="23"/>eodem modo numquam conclusio est partialis veritas respectu 
-      <lb ed="#L" n="24"/>suarum praemissatum. quia aliquando primisse sunt vere et
-      conclu<lb ed="#L" n="25" break="no"/>sio falsa. Similiter habitus principii et conclusionis sunt 
-      <lb ed="#L" n="26"/>simpliciter distincti. et neuter est partialis respectu
-      alte<lb ed="#L" n="27" break="no"/>rius. ergo eodem mnodo nec vna veritas erit partialis respe 
-      <lb ed="#L" n="28"/>ctu alterius.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e922">
-      ⁋ Preterea. tertia ratio non concludit 
-      <lb ed="#L" n="29"/>supponit enim illa ratio quod deus sit causa effectiua
-      imme<lb ed="#L" n="30" break="no"/>diata et totalis respectu cuiuslibet effectus. quia aliter 
-      <lb ed="#L" n="31"/>ratio non valeret. si enim non est causa totalis sed concurrit
-      vo<lb ed="#L" n="32" break="no"/>luntas. tunc non produceretur effectus nisi voluntate co 
-      <lb ed="#L" n="33"/>agente. ergo voluntate non agente potest esse culpa non in 
-      <lb ed="#L" n="34"/>deo sed in voluntate Similiter si non sit causa immediata. tunc 
-      <lb ed="#L" n="35"/>non plus faciet nisi quod conmsuabit voluntatem. ergo nihil 
-      <lb ed="#L" n="36"/>in creatura producet sed remanebit in ptante volunta 
-      <lb ed="#L" n="37"/>tis producere et non producere. et ita peccare vel non 
-      <lb ed="#L" n="38"/>peccare.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e946">
-      ⁋ Utima etiam ratio non concludit. quia non 
-      <lb ed="#L" n="39"/>potest ratione naturali probari conclusi philosophous. nec quod deus
-      pos<lb ed="#L" n="40" break="no"/>sit se solo causare omne causabile. nec quod immediate
-      com<lb ed="#L" n="41" break="no"/>currat ad casandum omne causabile quorum tamen vtrumque 
-      <lb ed="#L" n="42"/>oporteret probare ad probandum quod causa secunda nihil
-      a<lb ed="#L" n="43" break="no"/>git. Illa etiam deductio de prioritate prime causae in 
-      <lb ed="#L" n="44"/>agendo non valet sicut ostensum est in praecedenti. q. quia et de facto 
-      <lb ed="#L" n="45"/>modo est causa prior. et tamen in nullo instanti priori producit effe 
-      <lb ed="#L" n="46"/>ctum suum antquam causa secunda producat.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e966">
-      ⁋ Ideo quantum ad 
-      <lb ed="#L" n="47"/>istum articuliat dico quod non potest ratione naturali probari. quin 
-      <lb ed="#L" n="48"/>sicut ex perfectione soel naturaliter sequuntur effectus multi 
-      <lb ed="#L" n="49"/>ita ex perfectione entitatis diuine. sequuntur multe 
-      <lb ed="#L" n="50"/>entitates quae aliter esse non possent
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e977">
-      ⁋ Circa secundum ar 
-      <lb ed="#L" n="51"/>ticulum dico tenendum est quod deus est causa contigentur agens 
-      <lb ed="#L" n="52"/>qui tenendum est quod deus potest ista generabilia immediate et 
-      <lb ed="#L" n="53"/>totaliter causare. sed si esset causa naturalis. vel omnia
-      produ<lb ed="#L" n="54" break="no"/>ceret simul vel nulla. quorum vtrumque potest esse
-      manife<lb ed="#L" n="55" break="no"/>ste feilatum. Et ideo manifeste fecltum est deum esse causam na¬ 
-      <!--537.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 267-v -->
-               <lb ed="#L" n="56"/>turalem aliorum a se
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1000">
-      ⁋ Ex istis patet solutio quaestionis. quod 
-      <lb ed="#L" n="57"/>deus potest facere aliqua quae non facit. quia omne contingent 
-      <lb ed="#L" n="58"/>agens potest facere aliter quam facit. sed deus est huiusmodi. ergo etc. 
-      <lb ed="#L" n="59"/>Similiter deus potest producere animas in infinitum. quia nullibi 
-      <lb ed="#L" n="60"/>est standum ad certum numerum. et tamen non producet animas 
-      <lb ed="#L" n="61"/>in infinitum. sed in certo numero.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1013">
-      ⁋ Ad rationes ergo addu 
-      <lb ed="#L" n="62"/>ctas conclusi philosophos. quantumcumque conclusib sit vera. ipsi tamen 
-      <lb ed="#L" n="63"/>philosophi faciliter responderent.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1020">
-      ⁋ Ad primam responderent quod
-      volun<lb ed="#L" n="64" break="no"/>tas dirigit omnia in fine. sed tamen neccessario et naturalii 
-      <lb ed="#L" n="65"/>sicut alii dicunt quod voluntas est principium producendi spi 
-      <lb ed="#L" n="66"/>ritum sctantum. et tamen naturaliter et neccessario.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1029">
-      ⁋ Ad secundum
-      di<lb ed="#L" n="67" break="no"/>cerent aliqua eorum quod deus non produceret nisi vnum effe 
-      <lb ed="#L" n="68"/>ctum scilicet primam intelligentiam. ille tamen effectus non est equalis 
-      <lb ed="#L" n="69"/>deo. quia nullus talis effectus est producibilis.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1038">
-      ⁋ Ad tertium 
-      <lb ed="#L" n="70"/>dicerent quod deus quicquid producit producit per
-      intellectu<lb ed="#L" n="71" break="no"/>et voluntatem et tamen neccessario.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1045">
-      ⁋ Ad quartum dicerent sicut 
-      <lb ed="#L" n="72"/>dictum est quod actio dei est ita transiens sicut actio sol. opera 
-      <lb ed="#L" n="73"/>tio tamen dei quae est intelligere et velle est immanens immo 
-      <lb ed="#L" n="74"/>magis proprie debet dici quod est ipse deus.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1055">
-      ⁋ Ad primum alte 
-      <lb ed="#L" n="75"/>rius doctoris dicerent quod ista consequentia no valet. aliquid 
-      <lb ed="#L" n="76"/>fit contingenter. ergo prima causa agit contingentur. quia
-      dice<lb ed="#L" n="77" break="no"/>rent quod voluntas non mouetur immediate a deo: sed tantum 
-      <lb ed="#L" n="78"/>confuatur. et ideo potest agere contingenter deo agente necces 
-      <lb ed="#L" n="79"/>rio. sicut contingent agit cognitione neccessario coage 
-      <lb ed="#L" n="80"/>te.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1071">
-      ⁋ Per idem ad secundam probationem dicerent. quod non 
-      <lb ed="#L" n="81"/>eodem modo semper mouet secunda causa quo mouetur a primi 
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1076">
-               <lb ed="#L" n="82"/>⁋ Ad aliam dicerent quod aliquando ad non esse minus neccessr 
-      <lb ed="#L" n="83"/>sequitur non esse magis necci. et similiter ex minus
-      impossi<lb ed="#L" n="84" break="no"/>bili sequitur impossibilius. et ad minus falsum sequitur fal 
-      <lb ed="#L" n="85"/>sius.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1087">
-      ⁋ Ad probationem dico quod aliquando falsius habet 
-      <lb ed="#L" n="86"/>tantum vnam rationem falsitatis. sed illa ratio est falsior quam rtio 
-      <lb ed="#L" n="87"/>falsitatis minus falsi. Similiter posito quodhabeat duplicem 
-      <lb ed="#L" n="88"/>rationem falsitatis et aliud tantum vnam. Adhuc probatio 
-      <lb ed="#L" n="89"/>non valet. quia illa vnica ratio falsitatis minus: falsi 
-      <lb ed="#L" n="90"/>nullo modo potest circumscribi. sicut nec illud femultum potest esse 
-      <lb ed="#L" n="91"/>verum. et ideo numquam ex vero sequitur filtum.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1103">
-      ⁋ Et si dicas 
-      <lb ed="#L" n="92"/>quod potest circumscribi per intellectum. Respondeo quod si
-      circum<lb ed="#L" n="93" break="no"/>scribas per intellectum. dicendo quod non est: tua
-      circumscri<lb ed="#L" n="94" break="no"/>ptio est fmla. Si circumscribas non loquendo de illa 
-      <lb ed="#L" n="95"/>ratione falsitatis: nihilominus illud sfilum erit feculum sicut 
-      <lb ed="#L" n="96"/>prius. quia quod tum consideres vel non cosideres nihil fa 
-      <lb ed="#L" n="97"/>cit ad hoc quod sit verum vel siltum.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1119">
-      ⁋ Ad aliud dicerent 
-      <lb ed="#L" n="98"/>quod malum sit in vniuerso. quia deus non producit in re 
-      <lb ed="#L" n="99"/>ceptiuo quantum potest produci. et hoc potest habere duas causas ver 
-      <lb ed="#L" n="100"/>tatis. Uel quia nihil producit in eo. vel quia non produoi 
-      <lb ed="#L" n="101"/>nisi concurrente voluntate. quae libere concurrit et conti 
-      <lb ed="#L" n="102"/>gentur.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1133">
-      ⁋ Ad aliud dicerent quod deus non potest causare 
-      <lb ed="#L" n="103"/>omne causabile ex se. vel si dicatur quod causa prima continet
-      to<lb ed="#L" n="104" break="no"/>tam causalitatem causae secunde. non sequitur. ergo potest in illum effectum 
-      <lb ed="#L" n="105"/>se solo. quia dicerent quod non aliter continet totam causalitate 
-      <lb ed="#L" n="106"/>causae secunde nisi quia producit ipsam causam secundam totam 
-      <lb ed="#L" n="107"/>sed manifestum est quod aliquando producens naturaliter causam. 
-      <lb ed="#L" n="108"/>non potest immediate in effectum illius causae. sicut patet quod sol 
-      <lb ed="#L" n="109"/>producit vermen. et in aliquem effectum potest vermis in 
-      <lb ed="#L" n="110"/>quem non potest sol. et in multis est hoc manifestum.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1153">
-      ⁋ Ad  
-      <!--538.xml-->
-      <pb ed="#L" n="268-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>primum principale dico quod deus aliquo modo
-      intelligen<lb ed="#L" n="2" break="no"/>do se intelligit alia. qualiter tamen haec sit intelligendum no 
-      <lb ed="#L" n="3"/>est ad propositum. et ita aliquo modo sub bono
-      intelle<lb ed="#L" n="4" break="no"/>ctu volendo se vult alia. aliter tamen et aliter. quia deus intelli 
-      <lb ed="#L" n="5"/>tendo se intelligit alia necessario. sed deus volendo 
-      <lb ed="#L" n="6"/>se vult alia contigentur. et ideo non est simile.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1175">
-      ⁋ Ad secundum quod 
-      <lb ed="#L" n="7"/>nulla perfecto simpliciter quae ideo dicitur simpliciter perfectio. quia il 
-      <lb ed="#L" n="8"/>la non infert illud esse nisi imperfectum de quo
-      verifica<lb ed="#L" n="9" break="no"/>tur. si non connotaret aliquod imperfectum repugnat
-      al<lb ed="#L" n="10" break="no"/>teri quando illi duo conceptus de eodem verificentur. sed si con 
-      <lb ed="#L" n="11"/>notat aliquid imperfectum. non oportet quod vna n repugnet 
-      <lb ed="#L" n="12"/>alteri et ita est in proposito. nam posse creare importat 
-      <lb ed="#L" n="13"/>creaturam quae est simpliciter imperfecta. et ideo non oportet quod potens 
-      <lb ed="#L" n="14"/>creare possit necessario creare.
-    </p>
-            <p xml:id="wo8uy7-d1e1772-d1e1195">
-      ⁋ Ad aliud
-      di<lb ed="#L" n="15" break="no"/>co quod discursus non valet. quia quamuis deus non possit 
-      <lb ed="#L" n="16"/>facere nisi quod iustum est fieri. aliquid tamen potest esse iustum 
-      <lb ed="#L" n="17"/>fieri quod non fit a deo. et ideo talis mixtio ex possibili 
-      <lb ed="#L" n="18"/>et in esse non valet. causam tamen non oportet modo
-      discuten<lb ed="#L" n="19" break="no"/>re. quia hoc magis pertinet ad logicum. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="266-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e1772"><!-- l1d43q1 -->
+        <head xml:id="wo8uy7-d1e1772-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e1772-d1e111">
+          <lb ed="#L" n="48"/>Distinctionis. xliii. Questio prima 
+          <lb ed="#L" n="49"/>CIrca
+          distin<lb ed="#L" n="50" break="no"/>ctionem
+          quadragesimam<lb ed="#L" n="51" break="no"/>tertiam quero.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e122">
+          ⁋ Utrum 
+          <lb ed="#L" n="52"/>deus possit facere aliqua quae 
+          <lb ed="#L" n="53"/>non fecit nec faciet Quod non 
+          <lb ed="#L" n="54"/>qui causa naturalis. non impe 
+          <!--534.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 266-r -->
+          <lb ed="#L" n="55"/>dita non potest facere nisi quod facit vel
+          fa<lb ed="#L" n="56" break="no"/>ciet. sed deus est casa naturalis agens de necessitate 
+          <lb ed="#L" n="57"/>nature. et est non impedibilis. ergo etc. Maior
+          vide<lb ed="#L" n="58" break="no"/>tur manifesta.  Minor probatur quantum ad primam per 
+          <lb ed="#L" n="59"/>tem. quia sicut intelligendo se intelligit alia. Ita
+          vo<lb ed="#L" n="60" break="no"/>lendo se vult alia. sed quia deus intelligendo se
+          intelli<lb ed="#L" n="61" break="no"/>git. ergo neccessario intelligit alia. Ita deus volendo se 
+          <lb ed="#L" n="62"/>vult necessario. ideo necessario vult alia. sed si
+          ne<lb ed="#L" n="63" break="no"/>cessario vult alia. necessario producit alia. ergo est 
+          <lb ed="#L" n="64"/>agens de necessitate nature.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e159">
+          ⁋ Secundo probatur
+          ea<lb ed="#L" n="65" break="no"/>de pars minoris sic. quia nulla perfectio simplicitur re 
+          <lb ed="#L" n="66"/>pugnatr alteri quin se compatiatur in eodem. sed  
+          <lb ed="#L" n="67"/>posse causare est perfectio simplicitur. et similiter ne 
+          <lb ed="#L" n="68"/>cessarium est perfectio simpliciter. ergo compatiuntur se in 
+          <lb ed="#L" n="69"/>eodem. ergo aliquid est quod potest necessario causare. 
+          <lb ed="#L" n="70"/>sed nihil est tale nisi solus deus. quia omne agens creatum 
+          <lb ed="#L" n="71"/>potest impediri a causatione sua. ergo solus deus potest
+          ne<lb ed="#L" n="72" break="no"/>cessario causare. ergo neccessario causat. quia in perpetuis 
+          <lb ed="#L" n="73"/>non differt esse a posse.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e181">
+          ⁋ Preterea. deus non potest
+          fa<lb ed="#L" n="74" break="no"/>cere nisi quod rectum est fieri ab eo. sed nihil est re 
+          <lb ed="#L" n="75"/>ctum siue iustum fieri ab eo nisi quod facit. ergo nihil potest 
+          <lb ed="#L" n="76"/>facere nisi quod facit.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e191">
+          ⁋ Ad oppositum est magister 
+          <lb ed="#L" n="77"/>in littera ostendens quod deus potest facere aliqua que 
+          <lb ed="#L" n="78"/>non facit
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e198">
+          ⁋ Circa istam questionem primo supponendum 
+          <lb ed="#L" n="79"/>est quod deus est causa effectiua rerum. Secundo inquaren 
+          <lb ed="#L" n="80"/>dum est. an ratione naturali possit probari deum esse causam 
+          <lb ed="#L" n="81"/>effectiuam liberam et non naturale.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e207">
+          ⁋ Tertio an hoc sit 
+          <lb ed="#L" n="82"/>secundum veritatem fidei tenendum. Quarto ex hiis
+          di<lb ed="#L" n="83" break="no"/>cendum est ad quaestionem.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e214">
+          ⁋ Circa primum dicunt alie 
+          <lb ed="#L" n="84"/>quod sic. Et nituntur aliqui probare quod deus sit causa libera 
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e219">
+          <lb ed="#L" n="85"/>⁋ Primo sic. vniuersum habet aliquem finem: sed in 
+          <lb ed="#L" n="86"/>illum finem ordinatur primo a natura. quia natura non
+          in<lb ed="#L" n="87" break="no"/>tendit aliquid nisi quantum dirigitur a cognoscente. 
+          <lb ed="#L" n="88"/>ergo in illum finem ordinantur per voluntatem. et non nisi per 
+          <lb ed="#L" n="89"/>voluntatem diuinam. ergo deus per voluntatem ordinat
+          to<lb ed="#L" n="90" break="no"/>tum vniuersum in fine suum. et per consequens producit
+          crea<lb ed="#L" n="91" break="no"/>turas.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e237">
+          ⁋ Secundo sic. natura est determinata ad  
+          <lb ed="#L" n="92"/>vnum. et ideo natura semper facit sibi equale. nisi sit
+          pro<lb ed="#L" n="93" break="no"/>pter defectum virtutis actiue vel receptiue siue 
+          <lb ed="#L" n="94"/>passiue. sed ptans diuina non est defectiua cum sit
+          in<lb ed="#L" n="95" break="no"/>finita. ergo naturaliter non producit nisi vnum sibi
+          equa<lb ed="#L" n="96" break="no"/>le
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e251">
+          ⁋ Tertio sic. cum omne agens agat sibi simile.
+          ali<lb ed="#L" n="97" break="no"/>quomo oporet quod effectus in sua causa aliqualiter praexistat. 
+          <lb ed="#L" n="98"/>sed omne illud quod est in aliquo est in ipso per modum eius 
+          <lb ed="#L" n="99"/>ert deus est intellectus. ergo creature praexistunt in ipso
+          in<lb ed="#L" n="100" break="no"/>tellectu. sed quod est in intellectu non producitur nisi me 
+          <lb ed="#L" n="101"/>diante voluntate. ergo creature procedunt a deo per
+          vo<lb ed="#L" n="102" break="no"/>luntatem
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e267">
+          ⁋ Quarto sic. secundum philosophum. iiii. metha.
+          du<lb ed="#L" n="103" break="no"/>plex est actio. quedam consistit in ipso agente. et est 
+          <lb ed="#L" n="104"/>perfectio et actio agentis. vt intelligere velle et huc 
+          <lb ed="#L" n="105"/>usmodi. quaedam quae progreditur ab agente in passum
+          extrin<lb ed="#L" n="106" break="no"/>secum. et est perfectio et actio patientur. sicut calere
+          mo<lb ed="#L" n="107" break="no"/>uere et huiusmodi. sed actio dei non potest intelligi ad
+          mo<lb ed="#L" n="108" break="no"/>dum secunde actionis. eo quod cum sua actio sit sua essentia 
+          <lb ed="#L" n="109"/>non egreditur extra ipsam. ergo oportet quod intelligatur admodum 
+          <!--535.xml-->
+          <pb ed="#L" n="266-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>prime actionis quae non est nisi in intelligente et volet 
+          <lb ed="#L" n="2"/>te. ergo quicquid deus agit extra se. per hoc agit quod intelligit 
+          <lb ed="#L" n="3"/>et vult. ergo necessarium est dicere omnem creaturam a 
+          <lb ed="#L" n="4"/>deo processisse per voluntatem non per necessitatem nature 
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e300">
+          <lb ed="#L" n="5"/>⁋ Sed iste rationes non concludunt sicut patet intuenti. 
+          <lb ed="#L" n="6"/>nihil probant enim: nisi quod deus per voluntatem producit 
+          <lb ed="#L" n="7"/>pnes creaturas tamquam per principium agendi. sed non est
+          pro<lb ed="#L" n="8" break="no"/>batum quod omne agens per voluntatem tamquam per principium 
+          <lb ed="#L" n="9"/>agendi contingenter agit et non naturaliter. ergo per istam 
+          <lb ed="#L" n="10"/>rationem non est probatum quod deus non producit creaturas per 
+          <lb ed="#L" n="11"/>necessitatem nature
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e318">
+          ⁋ Confirmatur. quia secundum istos. vo 
+          <lb ed="#L" n="12"/>luntas habet duplice modum agendi. scilicet
+          natura<lb ed="#L" n="13" break="no"/>liter et libere. sicut necessario. et naturaliter vuli 
+          <lb ed="#L" n="14"/>finem. et contingenter et libere vult ea quae sunt ad fi 
+          <lb ed="#L" n="15"/>nem. Unde secundum istum alibi modus agendi naturalis est 
+          <lb ed="#L" n="16"/>communis agenti per cognitionem et agenti sine cognitio 
+          <lb ed="#L" n="17"/>ne. ergo ista consequentia non valet secundum istos. deus producit 
+          <lb ed="#L" n="18"/>per voluntatem. ergo non producit de necessitate
+          natu<lb ed="#L" n="19" break="no"/>re. hoc etiam patet. quia de intensione philosophorum. fuit quod
+          pri<lb ed="#L" n="20" break="no"/>ma causa ageret per intellectum et voluntatem. et tamen 
+          <lb ed="#L" n="21"/>per necessitatem nature. ergo probare quod deus producit 
+          <lb ed="#L" n="22"/>creaturas per voluntatem. non est probare quod non produ 
+          <lb ed="#L" n="23"/>cit de necessitate nature
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e347">
+          ⁋ Preterea. secundum istum. deus 
+          <lb ed="#L" n="24"/>per voluntatem producit spimtumsctm. et tamen naturaliter et 
+          <lb ed="#L" n="25"/>necessario. ergo eodem modo stant simul quod deus producat 
+          <lb ed="#L" n="26"/>per voluntatem. et tamen de necessitate nature.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e356">
+          ⁋ Ex 
+          <lb ed="#L" n="27"/>istis patet quod prima ratio non valet. quia quamuis concedatur quod 
+          <lb ed="#L" n="28"/>sola voluntas praestituat sibi finem. et finis
+          vniuer<lb ed="#L" n="29" break="no"/>si est praestitutus a voluntate. Ex hoc tamen non sequitur 
+          <lb ed="#L" n="30"/>euidenter quod ille finis sit contingentur praestitutus et 
+          <lb ed="#L" n="31"/>non neccessario: cum voluntas neccessario aliqua faciat. Et si 
+          <lb ed="#L" n="32"/>dicatur quod quamuis voluntas neccessario velit finem: tamen
+          con<lb ed="#L" n="33" break="no"/>tingenter vult illud quod est ad finem. et ita cum omnes 
+          <lb ed="#L" n="34"/>creature sunt ad finem voluntas diuina contingen 
+          <lb ed="#L" n="35"/>ter vult eas. et per consequens contingenter producit eas. 
+          <lb ed="#L" n="36"/>hoc non sufficit. quia non est probatum sufficienter quod 
+          <lb ed="#L" n="37"/>voluntas diuina contingent velit ea quae sunt ad fi 
+          <lb ed="#L" n="38"/>nem. et tamen hoc oportet probare specialiter.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e386">
+          ⁋ Secunda 
+          <lb ed="#L" n="39"/>ratio minus valet. quia quando accipit quod natura est deter 
+          <lb ed="#L" n="40"/>minata ad vnum aut intelligit quod natura est determi 
+          <lb ed="#L" n="41"/>nata ad vnum effectum. ita quod non potest plures effectus 
+          <lb ed="#L" n="42"/>producere. Aut ita est determinata ad vnum quod non 
+          <lb ed="#L" n="43"/>habet in ptante sua agere et non agere. Si secundo 
+          <lb ed="#L" n="44"/>modo. sic nihil est ad propositum. quia de hoc est quaestio 
+          <lb ed="#L" n="45"/>principalis. si primo modo sic est simpliciter falsum. quia causa 
+          <lb ed="#L" n="46"/>naturalis est frequenter productiua plurium
+          effe<lb ed="#L" n="47" break="no"/>ctuum. etiam distinctorum specie. et ordinatorum secundum
+          perfe<lb ed="#L" n="48" break="no"/>ctius et imperfectius. sic patet de sole qui producit
+          ve<lb ed="#L" n="49" break="no"/>mem: et plantam. et de multis aliis possent poni exem 
+          <lb ed="#L" n="50"/>pla manifesta. Similiter quando post accipit. natura semper 
+          <lb ed="#L" n="51"/>facit sibi equale nisi sit propter defectum virtutis actie 
+          <lb ed="#L" n="52"/>vel passiue. Istud est falsum. quia aliquando in eodem 
+          <lb ed="#L" n="53"/>passo eodem modo disposito causa naturalis imperfectior 
+          <lb ed="#L" n="54"/>producit sibi equale: et causa naturalis perfectior non
+          pro<lb ed="#L" n="55" break="no"/>ducit sibi equale sed inequale. ergo hoc non est propter de 
+          <!--535.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 266-v -->
+          <lb ed="#L" n="56"/>fectum virtutis actiue vel passiue. sed hoc est propi 
+          <lb ed="#L" n="57"/>naturam agentis. quod non est natum producere effectum 
+          <lb ed="#L" n="58"/>sibi equalem. et quia effectus equalis tali agenti non est a 
+          <lb ed="#L" n="59"/>tali agente producibilis. Sicut quare angelus non 
+          <lb ed="#L" n="60"/>facit sibi simile siue equale. sicut facit bos vel ignis 
+          <lb ed="#L" n="61"/>caus est. quia angelus non est producibilis ab angelo. Ita 
+          <lb ed="#L" n="62"/>dicerent philosophi in proposito. quod quia deus non est producibil 
+          <lb ed="#L" n="63"/>ideo deus non causat deum sibi equalem: sed alias creatu 
+          <lb ed="#L" n="64"/>ras distinctas naturaliter causat. quamuis
+          cognoscen<lb ed="#L" n="65" break="no"/>do et volendo.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e453">
+          ⁋ Similiter tertium non valet. quia si aliquid 
+          <lb ed="#L" n="66"/>probat praecise probat quod deus producit creaturas per in 
+          <lb ed="#L" n="67"/>tellectum et voluntatem. sed ex hoc non sequitur
+          euiden<lb ed="#L" n="68" break="no"/>ter quod non producit eas per necessitatem nature. Si 
+          <lb ed="#L" n="69"/>militer quarta ratio procedit ex falsa imaginatione. quia 
+          <lb ed="#L" n="70"/>quando accipit quod actio dei non est transiens. aut acci 
+          <lb ed="#L" n="71"/>pit actionem dei pro principio agendi. vel pro effe 
+          <lb ed="#L" n="72"/>ctu producto. vel pro aliquo medio. vel pro aliquo 
+          <lb ed="#L" n="73"/>aggregato ex principio agendi et effectum produ 
+          <lb ed="#L" n="74"/>cto. si primo modo. sic est verum quod actio dei non est tran 
+          <lb ed="#L" n="75"/>siens. quia principium agendi non est transiens. et isto modo 
+          <lb ed="#L" n="76"/>vniformiter accipiedo actionem dicendum est quod actio 
+          <lb ed="#L" n="77"/>ignis non est transiens quia principium agendi in igne non 
+          <lb ed="#L" n="78"/>transit plus quam principium agendi in deo. Secundo modo 
+          <lb ed="#L" n="79"/>ita transiens est actio dei sicut actio ignis. Nam 
+          <lb ed="#L" n="80"/>sicut effectus ignis non est in igne formaliter et realiter ita 
+          <lb ed="#L" n="81"/>nec effectus dei Si accipiatur actio dei tertio modo 
+          <lb ed="#L" n="82"/>vel quarto. patet manifeste quod non plus est actio ignis 
+          <lb ed="#L" n="83"/>transiens quam actio dei que est actio non transiens. 
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e495">
+          <lb ed="#L" n="84"/>⁋ Preterea actio solis vel ignis non dicitur transiens ni 
+          <lb ed="#L" n="85"/>si quia reliquit aliquid operatum extra. sed ita actio dei 
+          <lb ed="#L" n="86"/>relinquit creaturam extra sicut actio solis. ergo ita 
+          <lb ed="#L" n="87"/>est transiens.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e506">
+          ⁋ Si dicatur quod actio solis dicitur
+          transi<lb ed="#L" n="88" break="no"/>ens. quia transit in exteriorem materiam. non sic actio 
+          <lb ed="#L" n="89"/>dei.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e513">
+          ⁋ hoc non valet. quia actio dicitur transiens quia non 
+          <lb ed="#L" n="90"/>manet in agente. quia dicitur ad oppositum ad actionem
+          in<lb ed="#L" n="91" break="no"/>manentem. ergo illa actio quae non manet in agente dicitur tran 
+          <lb ed="#L" n="92"/>siens. sicut si sol non produceret formam in materia 
+          <lb ed="#L" n="93"/>sed produceret totum. scilicet materiam et formam non plus 
+          <lb ed="#L" n="94"/>maneret actio solis in sole quam modo. ergo non plus dice 
+          <lb ed="#L" n="95"/>tur actio immanens. sed diceretur actio transiens sicut 
+          <lb ed="#L" n="96"/>modo. et tamen tunc non plus transiret in exteriorem
+          mate<lb ed="#L" n="97" break="no"/>riam quam actio dei. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e533">
+          ⁋ Si dicatur aliter quod actie 
+          <lb ed="#L" n="98"/>solis dicitur transiens et non actio dei. quia sol habet
+          respe<lb ed="#L" n="99" break="no"/>ctum realem ad effectum suum. non sic deus
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e541">
+          ⁋ hoc no vnet 
+          <lb ed="#L" n="100"/>quia quaero Aut respectus realis est in agente aut in pas 
+          <lb ed="#L" n="101"/>so. Si in agente. ergo propter respectum formaliter existen 
+          <lb ed="#L" n="102"/>tem in agente magis dicitur actio immanens quam transiens. 
+          <lb ed="#L" n="103"/>Si autem sit in passo. et propter istum respectum dereli 
+          <lb ed="#L" n="104"/>ctum in passo dicatur actio transiens. multo magis 
+          <lb ed="#L" n="105"/>actio dei propter effectum absolutum derelictum dice 
+          <lb ed="#L" n="106"/>tur actio transiens. Et ideo absolute dicendum est quod 
+          <lb ed="#L" n="107"/>actio dei quae est creatio vel productio creaturarum 
+          <lb ed="#L" n="108"/>non magis substantia dei quam actio ignis. quae est generatio 
+          <lb ed="#L" n="109"/>ignis alterius est sua substantia. sed sicut productio
+          creatura<lb ed="#L" n="110" break="no"/>rum non importat nisi deum et creaturas quae non essent 
+          <!--536.xml-->
+          <pb ed="#L" n="267-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>nisi ad praesentiam dei. ita productio ignis non
+          impo<lb ed="#L" n="2" break="no"/>tat nisi ignem producente cum absolutis suis. et ignem 
+          <lb ed="#L" n="3"/>productum quae non est nisi ad praesentiam ignis illius
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e580">
+          ⁋ In hoc 
+          <lb ed="#L" n="4"/>tamen est differentia requenter quod agens creatum non tantum agit 
+          <lb ed="#L" n="5"/>per suam substantiam. sed etiam agit per qualitates accidentales 
+          <lb ed="#L" n="6"/>et ideo semper principium agendi deo est deitas. Non autem 
+          <lb ed="#L" n="7"/>semper principium agendi agenti creato est ipsa substantia. sed alia 
+          <lb ed="#L" n="8"/>qulitas accidentalis.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e593">
+          ⁋ Aliter probant aliqui eandem
+          con<lb ed="#L" n="9" break="no"/>clusionem sic. Aliquid causatur contigenter. ergo prima causa conti 
+          <lb ed="#L" n="10"/>genter causat. consequentia probatur. quia quaelibet ca secunda causat inqua 
+          <lb ed="#L" n="11"/>tum mouetur a prima. ergo si prima necessario mouet. quod 
+          <lb ed="#L" n="12"/>libet alia necessario mouetur. et per consequens quaelibet ne 
+          <lb ed="#L" n="13"/>cessario causat. ergo si aliqua causa secunda contingenter causat 
+          <lb ed="#L" n="14"/>vel mouet prima continget mouebit. quia non causat causa 
+          <lb ed="#L" n="15"/>secunda nisi in vtute prime inquantum mouetur ab ea
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e611">
+          ⁋ Si 
+          <lb ed="#L" n="16"/>militer probatur eadem consequentia sic. si prima causa necessario 
+          <lb ed="#L" n="17"/>se habetad causam proximam sibi. sit. b. b ergo necessario 
+          <lb ed="#L" n="18"/>mouetur a prima causa. b autem eodem modo quo mouetur a 
+          <lb ed="#L" n="19"/>prima causa mouet proximam sibi. ergo be necessario causat 
+          <lb ed="#L" n="20"/>mouendo. c. et c. mouendo. die. et sic in omnibus causis
+          pro<lb ed="#L" n="21" break="no"/>cedendo nihil contigentur erit si causa prima necessario 
+          <lb ed="#L" n="22"/>causat
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e629">
+          ⁋ Preterea arguit sic. ens absolutum summe 
+          <lb ed="#L" n="23"/>necessarium quantum potest cogitari aliquid esse necessarium 
+          <lb ed="#L" n="24"/>non potest non esse quocumque alio a se non existente. deus est 
+          <lb ed="#L" n="25"/>summe necessarium. ergo quocumque alio a se. non existen 
+          <lb ed="#L" n="26"/>te. non propter hoc sequitur ipsum non esse. Sed si necessariam 
+          <lb ed="#L" n="27"/>haberet habitudinem ad primum causatum illo causato tin 
+          <lb ed="#L" n="28"/>existente non esset. ergo etc. maior patet. quia ex minus impos 
+          <lb ed="#L" n="29"/>sibili non sequitur impossibilius. sicut nec ex minus falso se 
+          <lb ed="#L" n="30"/>quitur falsius.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e649">
+          ⁋ hoc probatur. quia si falsius habeat
+          di<lb ed="#L" n="31" break="no"/>plicem rationem falsitatis et minus falsum tantum vnicam. cir 
+          <lb ed="#L" n="32"/>cumscribatur ab illo falsiori ista ratio falsitatis in quae
+          ex<lb ed="#L" n="33" break="no"/>cedit minus falsum. stante alia ratione. et tunc erit
+          fal<lb ed="#L" n="34" break="no"/>sum et minus falsum non erit falsum. quia circumscripta est 
+          <lb ed="#L" n="35"/>ratio falsitatis minus falsi. ergo haec posito falsius erit fal 
+          <lb ed="#L" n="36"/>sum. et minus falsum erit verum. et tunc ex vero sequitur 
+          <lb ed="#L" n="37"/>falsum.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e668">
+          ⁋ Preterea aliquod malum fit in vniuerso. er 
+          <lb ed="#L" n="38"/>deus non necessario causat. consequentia probatur. quia agens neces 
+          <lb ed="#L" n="39"/>sario producit effectum suum in quem potest in susceptiuo 
+          <lb ed="#L" n="40"/>quantum potest in eodem produci. Effectus primi est bonitas 
+          <lb ed="#L" n="41"/>et perfectio. ergo si necessarium agit necessario
+          produ<lb ed="#L" n="42" break="no"/>cit bonitatem in quolibet inquantum potest ipsum
+          suscepti<lb ed="#L" n="43" break="no"/>uum recipere. sed habens bonitate causatam quante ipsum est ca 
+          <lb ed="#L" n="44"/>pax nullam habet maliciam. ergo.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e686">
+          ⁋ Preterea causa
+          necessa<lb ed="#L" n="45" break="no"/>rio agens agit secundum vltimum potentie sue. ergo si prima 
+          <lb ed="#L" n="46"/>causa necessario causat. quicquid potest causare causat. sed potest causare 
+          <lb ed="#L" n="47"/>ex se omne causabile. ergo nulla causa secunda causat aliquid. Ista 
+          <lb ed="#L" n="48"/>vltima consequentia probatur. quia causa prior prius naturaliter respi 
+          <lb ed="#L" n="49"/>cit causatum quam causa posterior. ergo in illo priori totaliter causat 
+          <lb ed="#L" n="50"/>et deducitur illo modo quo in praecedeti. q.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e702">
+          ⁋ Sed iste 
+          <lb ed="#L" n="51"/>rationes contusiphilosophos conquos adducuntur non concludunt. Pri 
+          <lb ed="#L" n="52"/>ma non. quia ista consequentia aliquid fit contingenter. ergo prima causa 
+          <lb ed="#L" n="53"/>contingenter causat. non potest euidenter probari. Nam dicerent 
+          <lb ed="#L" n="54"/>philosophi quod contingentia effectus dependet ex contingentia 
+          <lb ed="#L" n="55"/>actionis alicuius creature. puta voluntatis 
+          <!--536.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 267-r -->
+          <lb ed="#L" n="56"/>create. necessario requisite. et ideo cum secundum 
+          <lb ed="#L" n="57"/>eos voluntas creata necessario concurrat ad  
+          <lb ed="#L" n="58"/>multos effectus et ista simpliciter contingenter causat. 
+          <lb ed="#L" n="59"/>quantumcunque alie cause naturaliter causent. effectus 
+          <lb ed="#L" n="60"/>erit contingentur productus.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e733">
+          ⁋ Et quando dicitur. quod secunda 
+          <lb ed="#L" n="61"/>causa non causat nisi inquantum mouetur a prima. quaero 
+          <lb ed="#L" n="62"/>a te. quid est causam agere inquantum mouetur a prima 
+          <lb ed="#L" n="63"/>aut est causam secundam depedere in suo esse a prima 
+          <lb ed="#L" n="64"/>aut recipere aliquam influentiam a causa prima qua agat 
+          <lb ed="#L" n="65"/>aut non posse agere nisi prima coagat. Si detur 
+          <lb ed="#L" n="66"/>primum manifestum est quod ista consequentia no valet. causa
+          se<lb ed="#L" n="67" break="no"/>cunda non mouet nisi inquantum mouetur a prima. ergo si 
+          <lb ed="#L" n="68"/>prima causa neccessario mouet: quaelibet alia neccessario moue 
+          <lb ed="#L" n="69"/>tur. Nam si celum consuaret voluntatem in esse et neccessario 
+          <lb ed="#L" n="70"/>nihil minus ita contingenter. ageret tunc sicut modo. quod 
+          <lb ed="#L" n="71"/>patet. quia agens praecise confuans in nullo neccesitatages 
+          <lb ed="#L" n="72"/>ad agendum. vnde non plus neccstaret conseruans neccessario 
+          <lb ed="#L" n="73"/>quam cotingentur. sicut patet quod agente equaliter disposito 
+          <lb ed="#L" n="74"/>eque neccessario et contingenter agit etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e766">
+          ⁋ Confirmatur 
+          <lb ed="#L" n="75"/>qui nulla causa conseruans vel producens aliquam causam ne 
+          <lb ed="#L" n="76"/>cessitat aliam causam ad agendu magis quam causa immedia 
+          <lb ed="#L" n="77"/>te sibi cooperans. et sine qua nihil potest. et illa posi 
+          <lb ed="#L" n="78"/>ta potest in effectum. sed talis causa non neccsitat aliam causam 
+          <lb ed="#L" n="79"/>ad agendum sicut patet quod cognitio est causa naturalis 
+          <lb ed="#L" n="80"/>et sine ea voluntas non potest velle et tamen in nullo ne 
+          <lb ed="#L" n="81"/>cessitat quin voluntas contingentur velit. ergo eodem mo 
+          <lb ed="#L" n="82"/>quantumcumque deus naturaliter et neccessario consuaret
+          volun<lb ed="#L" n="83" break="no"/>tatem. non tamen neccesstaret ipsam ad agendum quin libere 
+          <lb ed="#L" n="84"/>posset agere et non agere. Si intelligatur secundo modo 
+          <lb ed="#L" n="85"/>quod causa secunda non mouet nisi inquantum mouetur a prima 
+          <lb ed="#L" n="86"/>hoc non valet. quia voluntas non recipit talem influen 
+          <lb ed="#L" n="87"/>tiam a prima. sed ipsamet est principium agendi. Nec potest 
+          <lb ed="#L" n="88"/>intelligi tertio modo. quia sic manifeste filtum. quia voluntas 
+          <lb ed="#L" n="89"/>nihil potest operari sine cognitione sicut ontensum estprius 
+          <lb ed="#L" n="90"/>et cognitio est causa naturalis. et tamen voluntas contin 
+          <lb ed="#L" n="91"/>gent agit.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e805">
+          ⁋ Per praedicta patet quod probatio secunde consequene 
+          <lb ed="#L" n="92"/>non valet. quia hoc est simpliciter fula quod causa posterior eodem 
+          <lb ed="#L" n="93"/>modo mouet quo mouetur a priori. Tum quia quandoque causa po 
+          <lb ed="#L" n="94"/>sterior mouetur naturaliter a priori. et tamen mouet contin 
+          <lb ed="#L" n="95"/>gentur. sic anima intellectiua mouetur naturaliter ab ob 
+          <lb ed="#L" n="96"/>iecto ad cognitionem. et tamen contingenter mouet se 
+          <lb ed="#L" n="97"/>ipsam ad volitionem.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e822">
+          ⁋ Preterea. secunda ratio non videtur 
+          <lb ed="#L" n="98"/>concludere. quia philosophi negarent maiorem. dicerent enim quod 
+          <lb ed="#L" n="99"/>ad negatione alicuius alterius a causa pria sequitur ne 
+          <lb ed="#L" n="100"/>gatio causae prime. sicut ad positionem causae prime sequitur 
+          <lb ed="#L" n="101"/>positio effectus. et hoc propter naturalitate causae prime in 
+          <lb ed="#L" n="102"/>agendo. et ideo si in impossibilibus sunt gradus. dicerent 
+          <lb ed="#L" n="103"/>quod ex minus impossibili sequitur magis impossibile. quia 
+          <lb ed="#L" n="104"/>aliter oporteret destruere multas regulas
+          logica<lb ed="#L" n="105" break="no"/>les de quibus est certum quod sunt simpliciter neccessarie. Ista 
+          <lb ed="#L" n="106"/>enim sic est certa quod ab vno conuertibilium ad
+          reli<lb ed="#L" n="107" break="no"/>quum est bona consequentia. vt homo non est risibilis. ergo homo 
+          <lb ed="#L" n="108"/>non est homo. et tamen consequens est impossibilius antecedente. Si 
+          <lb ed="#L" n="109"/>militer destructa conclusione destruitur principium. et 
+          <lb ed="#L" n="110"/>tamen oppositum principii. est impossibilius. Si ad illud  
+          <!--537.xml-->
+          <pb ed="#L" n="267-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>icitur quod non est ad propositum. quia conclusio non est nisi quadam 
+          <lb ed="#L" n="2"/>vitas partialis principii quod habet veritatem quasi totale. sicut 
+          <lb ed="#L" n="3"/>singulare est quadam vitas partialis respectu vniversalis. in en 
+          <lb ed="#L" n="4"/>tibus autem ens causatum non est nisi quadam entitas deper 
+          <lb ed="#L" n="5"/>dens ab etitate causae
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e870">
+          ⁋ Sed illa responsio non videtur sul 
+          <lb ed="#L" n="6"/>ficiens. Tum quia veritas conclusionis non est veritas
+          parti<lb ed="#L" n="7" break="no"/>alis principii. sed est vna veritas simpliciter distincta ab 
+          <lb ed="#L" n="8"/>ea. quia quando aliquae veritates sic se habent quod vna potest esse 
+          <lb ed="#L" n="9"/>nota alia simpliciter ignorata. et econuerso. non
+          ma<lb ed="#L" n="10" break="no"/>gis est vna partialis respectu alterius quam econuerso. sed 
+          <lb ed="#L" n="11"/>conclusio potest esse nota principio simpliciter ignorato. 
+          <lb ed="#L" n="12"/>sicut patet frequentur quod sciuntur euidenter conclusiones. et 
+          <lb ed="#L" n="13"/>postea inquiritur de pricipiis. et econuerso. ergo neutra 
+          <lb ed="#L" n="14"/>veritas est partialis respectu alterius. Tum quia vitas sit 
+          <lb ed="#L" n="15"/>gularis non est partialis respectu veritatis vniversalis. quia 
+          <lb ed="#L" n="16"/>non plues vnum singulare est pars respectu sui vniversalis quae 
+          <lb ed="#L" n="17"/>aliud singulare est pars sui vniversalis. sed aliquod singulare 
+          <lb ed="#L" n="18"/>non est pars sui vniversalis. quia mumquam verum est pars falsi. nisi ma 
+          <lb ed="#L" n="19"/>terialiter forte. de quo nihil ad propositum. sed aliquando 
+          <lb ed="#L" n="20"/>singularis est vera et vniversalis est falsa. ergo tunc illa veritas 
+          <lb ed="#L" n="21"/>singularis non est partialis respectu sui vniversalis. ergo
+          num<lb ed="#L" n="22" break="no"/>quam vitas singularis est partialis respectu su vniversalis Similiter 
+          <lb ed="#L" n="23"/>eodem modo numquam conclusio est partialis veritas respectu 
+          <lb ed="#L" n="24"/>suarum praemissatum. quia aliquando primisse sunt vere et
+          conclu<lb ed="#L" n="25" break="no"/>sio falsa. Similiter habitus principii et conclusionis sunt 
+          <lb ed="#L" n="26"/>simpliciter distincti. et neuter est partialis respectu
+          alte<lb ed="#L" n="27" break="no"/>rius. ergo eodem mnodo nec vna veritas erit partialis respe 
+          <lb ed="#L" n="28"/>ctu alterius.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e922">
+          ⁋ Preterea. tertia ratio non concludit 
+          <lb ed="#L" n="29"/>supponit enim illa ratio quod deus sit causa effectiua
+          imme<lb ed="#L" n="30" break="no"/>diata et totalis respectu cuiuslibet effectus. quia aliter 
+          <lb ed="#L" n="31"/>ratio non valeret. si enim non est causa totalis sed concurrit
+          vo<lb ed="#L" n="32" break="no"/>luntas. tunc non produceretur effectus nisi voluntate co 
+          <lb ed="#L" n="33"/>agente. ergo voluntate non agente potest esse culpa non in 
+          <lb ed="#L" n="34"/>deo sed in voluntate Similiter si non sit causa immediata. tunc 
+          <lb ed="#L" n="35"/>non plus faciet nisi quod conmsuabit voluntatem. ergo nihil 
+          <lb ed="#L" n="36"/>in creatura producet sed remanebit in ptante volunta 
+          <lb ed="#L" n="37"/>tis producere et non producere. et ita peccare vel non 
+          <lb ed="#L" n="38"/>peccare.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e946">
+          ⁋ Utima etiam ratio non concludit. quia non 
+          <lb ed="#L" n="39"/>potest ratione naturali probari conclusi philosophous. nec quod deus
+          pos<lb ed="#L" n="40" break="no"/>sit se solo causare omne causabile. nec quod immediate
+          com<lb ed="#L" n="41" break="no"/>currat ad casandum omne causabile quorum tamen vtrumque 
+          <lb ed="#L" n="42"/>oporteret probare ad probandum quod causa secunda nihil
+          a<lb ed="#L" n="43" break="no"/>git. Illa etiam deductio de prioritate prime causae in 
+          <lb ed="#L" n="44"/>agendo non valet sicut ostensum est in praecedenti. q. quia et de facto 
+          <lb ed="#L" n="45"/>modo est causa prior. et tamen in nullo instanti priori producit effe 
+          <lb ed="#L" n="46"/>ctum suum antquam causa secunda producat.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e966">
+          ⁋ Ideo quantum ad 
+          <lb ed="#L" n="47"/>istum articuliat dico quod non potest ratione naturali probari. quin 
+          <lb ed="#L" n="48"/>sicut ex perfectione soel naturaliter sequuntur effectus multi 
+          <lb ed="#L" n="49"/>ita ex perfectione entitatis diuine. sequuntur multe 
+          <lb ed="#L" n="50"/>entitates quae aliter esse non possent
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e977">
+          ⁋ Circa secundum ar 
+          <lb ed="#L" n="51"/>ticulum dico tenendum est quod deus est causa contigentur agens 
+          <lb ed="#L" n="52"/>qui tenendum est quod deus potest ista generabilia immediate et 
+          <lb ed="#L" n="53"/>totaliter causare. sed si esset causa naturalis. vel omnia
+          produ<lb ed="#L" n="54" break="no"/>ceret simul vel nulla. quorum vtrumque potest esse
+          manife<lb ed="#L" n="55" break="no"/>ste feilatum. Et ideo manifeste fecltum est deum esse causam na¬ 
+          <!--537.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 267-v -->
+          <lb ed="#L" n="56"/>turalem aliorum a se
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1000">
+          ⁋ Ex istis patet solutio quaestionis. quod 
+          <lb ed="#L" n="57"/>deus potest facere aliqua quae non facit. quia omne contingent 
+          <lb ed="#L" n="58"/>agens potest facere aliter quam facit. sed deus est huiusmodi. ergo etc. 
+          <lb ed="#L" n="59"/>Similiter deus potest producere animas in infinitum. quia nullibi 
+          <lb ed="#L" n="60"/>est standum ad certum numerum. et tamen non producet animas 
+          <lb ed="#L" n="61"/>in infinitum. sed in certo numero.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1013">
+          ⁋ Ad rationes ergo addu 
+          <lb ed="#L" n="62"/>ctas conclusi philosophos. quantumcumque conclusib sit vera. ipsi tamen 
+          <lb ed="#L" n="63"/>philosophi faciliter responderent.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1020">
+          ⁋ Ad primam responderent quod
+          volun<lb ed="#L" n="64" break="no"/>tas dirigit omnia in fine. sed tamen neccessario et naturalii 
+          <lb ed="#L" n="65"/>sicut alii dicunt quod voluntas est principium producendi spi 
+          <lb ed="#L" n="66"/>ritum sctantum. et tamen naturaliter et neccessario.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1029">
+          ⁋ Ad secundum
+          di<lb ed="#L" n="67" break="no"/>cerent aliqua eorum quod deus non produceret nisi vnum effe 
+          <lb ed="#L" n="68"/>ctum scilicet primam intelligentiam. ille tamen effectus non est equalis 
+          <lb ed="#L" n="69"/>deo. quia nullus talis effectus est producibilis.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1038">
+          ⁋ Ad tertium 
+          <lb ed="#L" n="70"/>dicerent quod deus quicquid producit producit per
+          intellectu<lb ed="#L" n="71" break="no"/>et voluntatem et tamen neccessario.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1045">
+          ⁋ Ad quartum dicerent sicut 
+          <lb ed="#L" n="72"/>dictum est quod actio dei est ita transiens sicut actio sol. opera 
+          <lb ed="#L" n="73"/>tio tamen dei quae est intelligere et velle est immanens immo 
+          <lb ed="#L" n="74"/>magis proprie debet dici quod est ipse deus.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1055">
+          ⁋ Ad primum alte 
+          <lb ed="#L" n="75"/>rius doctoris dicerent quod ista consequentia no valet. aliquid 
+          <lb ed="#L" n="76"/>fit contingenter. ergo prima causa agit contingentur. quia
+          dice<lb ed="#L" n="77" break="no"/>rent quod voluntas non mouetur immediate a deo: sed tantum 
+          <lb ed="#L" n="78"/>confuatur. et ideo potest agere contingenter deo agente necces 
+          <lb ed="#L" n="79"/>rio. sicut contingent agit cognitione neccessario coage 
+          <lb ed="#L" n="80"/>te.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1071">
+          ⁋ Per idem ad secundam probationem dicerent. quod non 
+          <lb ed="#L" n="81"/>eodem modo semper mouet secunda causa quo mouetur a primi 
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1076">
+          <lb ed="#L" n="82"/>⁋ Ad aliam dicerent quod aliquando ad non esse minus neccessr 
+          <lb ed="#L" n="83"/>sequitur non esse magis necci. et similiter ex minus
+          impossi<lb ed="#L" n="84" break="no"/>bili sequitur impossibilius. et ad minus falsum sequitur fal 
+          <lb ed="#L" n="85"/>sius.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1087">
+          ⁋ Ad probationem dico quod aliquando falsius habet 
+          <lb ed="#L" n="86"/>tantum vnam rationem falsitatis. sed illa ratio est falsior quam rtio 
+          <lb ed="#L" n="87"/>falsitatis minus falsi. Similiter posito quodhabeat duplicem 
+          <lb ed="#L" n="88"/>rationem falsitatis et aliud tantum vnam. Adhuc probatio 
+          <lb ed="#L" n="89"/>non valet. quia illa vnica ratio falsitatis minus: falsi 
+          <lb ed="#L" n="90"/>nullo modo potest circumscribi. sicut nec illud femultum potest esse 
+          <lb ed="#L" n="91"/>verum. et ideo numquam ex vero sequitur filtum.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1103">
+          ⁋ Et si dicas 
+          <lb ed="#L" n="92"/>quod potest circumscribi per intellectum. Respondeo quod si
+          circum<lb ed="#L" n="93" break="no"/>scribas per intellectum. dicendo quod non est: tua
+          circumscri<lb ed="#L" n="94" break="no"/>ptio est fmla. Si circumscribas non loquendo de illa 
+          <lb ed="#L" n="95"/>ratione falsitatis: nihilominus illud sfilum erit feculum sicut 
+          <lb ed="#L" n="96"/>prius. quia quod tum consideres vel non cosideres nihil fa 
+          <lb ed="#L" n="97"/>cit ad hoc quod sit verum vel siltum.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1119">
+          ⁋ Ad aliud dicerent 
+          <lb ed="#L" n="98"/>quod malum sit in vniuerso. quia deus non producit in re 
+          <lb ed="#L" n="99"/>ceptiuo quantum potest produci. et hoc potest habere duas causas ver 
+          <lb ed="#L" n="100"/>tatis. Uel quia nihil producit in eo. vel quia non produoi 
+          <lb ed="#L" n="101"/>nisi concurrente voluntate. quae libere concurrit et conti 
+          <lb ed="#L" n="102"/>gentur.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1133">
+          ⁋ Ad aliud dicerent quod deus non potest causare 
+          <lb ed="#L" n="103"/>omne causabile ex se. vel si dicatur quod causa prima continet
+          to<lb ed="#L" n="104" break="no"/>tam causalitatem causae secunde. non sequitur. ergo potest in illum effectum 
+          <lb ed="#L" n="105"/>se solo. quia dicerent quod non aliter continet totam causalitate 
+          <lb ed="#L" n="106"/>causae secunde nisi quia producit ipsam causam secundam totam 
+          <lb ed="#L" n="107"/>sed manifestum est quod aliquando producens naturaliter causam. 
+          <lb ed="#L" n="108"/>non potest immediate in effectum illius causae. sicut patet quod sol 
+          <lb ed="#L" n="109"/>producit vermen. et in aliquem effectum potest vermis in 
+          <lb ed="#L" n="110"/>quem non potest sol. et in multis est hoc manifestum.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1153">
+          ⁋ Ad  
+          <!--538.xml-->
+          <pb ed="#L" n="268-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>primum principale dico quod deus aliquo modo
+          intelligen<lb ed="#L" n="2" break="no"/>do se intelligit alia. qualiter tamen haec sit intelligendum no 
+          <lb ed="#L" n="3"/>est ad propositum. et ita aliquo modo sub bono
+          intelle<lb ed="#L" n="4" break="no"/>ctu volendo se vult alia. aliter tamen et aliter. quia deus intelli 
+          <lb ed="#L" n="5"/>tendo se intelligit alia necessario. sed deus volendo 
+          <lb ed="#L" n="6"/>se vult alia contigentur. et ideo non est simile.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1175">
+          ⁋ Ad secundum quod 
+          <lb ed="#L" n="7"/>nulla perfecto simpliciter quae ideo dicitur simpliciter perfectio. quia il 
+          <lb ed="#L" n="8"/>la non infert illud esse nisi imperfectum de quo
+          verifica<lb ed="#L" n="9" break="no"/>tur. si non connotaret aliquod imperfectum repugnat
+          al<lb ed="#L" n="10" break="no"/>teri quando illi duo conceptus de eodem verificentur. sed si con 
+          <lb ed="#L" n="11"/>notat aliquid imperfectum. non oportet quod vna n repugnet 
+          <lb ed="#L" n="12"/>alteri et ita est in proposito. nam posse creare importat 
+          <lb ed="#L" n="13"/>creaturam quae est simpliciter imperfecta. et ideo non oportet quod potens 
+          <lb ed="#L" n="14"/>creare possit necessario creare.
+        </p>
+        <p xml:id="wo8uy7-d1e1772-d1e1195">
+          ⁋ Ad aliud
+          di<lb ed="#L" n="15" break="no"/>co quod discursus non valet. quia quamuis deus non possit 
+          <lb ed="#L" n="16"/>facere nisi quod iustum est fieri. aliquid tamen potest esse iustum 
+          <lb ed="#L" n="17"/>fieri quod non fit a deo. et ideo talis mixtio ex possibili 
+          <lb ed="#L" n="18"/>et in esse non valet. causam tamen non oportet modo
+          discuten<lb ed="#L" n="19" break="no"/>re. quia hoc magis pertinet ad logicum. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

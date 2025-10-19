@@ -1,630 +1,630 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="145-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e622"><!-- l1d5q3 -->
-            <head xml:id="wo8uy7-d1e622-Hd1e108">Quaestio 3</head>
-            <p xml:id="wo8uy7-d1e622-d1e111">
-      Questio tertia. 
-      <lb ed="#L" n="39"/>gartio quero utrum 
-      <lb ed="#L" n="40"/>essentia sit terminus formalis
-      generatio<lb ed="#L" n="41" break="no"/>nis. Quod sic. terminus formalis non est 
-      <lb ed="#L" n="42"/>persona cum persona sit res totalis. nec est relatio. 
-      <lb ed="#L" n="43"/>qui tunc non esset generatio. relinquitur ergo quod sit essentia. 
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e124">
-               <lb ed="#L" n="44"/>⁋ Ad oppositum. terminus formalis generationis non 
-      <lb ed="#L" n="45"/>psupponitur in generante. sed essentia prsupponitur 
-      <lb ed="#L" n="46"/>in generante. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e133">
-      ⁋ Ad istam questione dicitur quod essen 
-      <lb ed="#L" n="47"/>tia divina est terminus formalis generationis in
-      di<lb ed="#L" n="48" break="no"/>uinis Ioh. iiii. quod pater inquit dedit mihi. maius 
-      <lb ed="#L" n="49"/>omnibus est. IMaius autem omnibus non est
-      nisi<lb ed="#L" n="50" break="no"/>aliquid infinitum. hoc non est nisi essentia. illam 
-      <lb ed="#L" n="51"/>ergo dedit. hoc etiam vult Augustinus. pv.t de 
-      <lb ed="#L" n="52"/>trinitate. c. xvi. sicut naturam praestat filio sine
-      ini<lb ed="#L" n="53" break="no"/>tio generatio. ita etiam spiritui sancto prestat essen 
-      <lb ed="#L" n="54"/>tiam sine initio spiritus sancti processio. Nunc autem 
-      <!--292.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 145-r -->
-               <lb ed="#L" n="55"/>non conceditur aliquam formam dari producto vel
-      communi<lb ed="#L" n="56" break="no"/>cari vel praestari per generatione. nisi illa forma 
-      <lb ed="#L" n="57"/>communicata sit formalis terminus talis productonis 
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e166">
-               <lb ed="#L" n="58"/>⁋ Probatur etiam illud antecedens. quia alias ista genera 
-      <lb ed="#L" n="59"/>tio non esset vniuoca. quia ratio formalis termini 
-      <lb ed="#L" n="60"/>eius non esset ratio conuenientie generantis cum ge 
-      <lb ed="#L" n="61"/>nito. consequens est inconueniens. sicut tangetur dis. vii 
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e178">
-               <lb ed="#L" n="62"/>⁋ Similiter aliter non esset ista productio
-      gene<lb ed="#L" n="63" break="no"/>ratio. sed magis esset mutatio ad relationem. quia 
-      <lb ed="#L" n="64"/>productio ponitur in specie vel genere ex suo
-      ter<lb ed="#L" n="65" break="no"/>mino formali.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e189">
-      ⁋ Sicut patet per philosophum. v. phisicorum. 
-      <lb ed="#L" n="66"/>ergo si formalis termiuus huius productionis 
-      <lb ed="#L" n="67"/>esset relatio ista dductio poneretur in genere re 
-      <lb ed="#L" n="68"/>lationis. et non esset generatio.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e198">
-      ⁋ Contra istam opi 
-      <lb ed="#L" n="69"/>nionem arguo. sicut de ratione termini totalis
-      ali<lb ed="#L" n="70" break="no"/>cuius productionis est non habere esse totale nisi 
-      <lb ed="#L" n="71"/>per productionem. ita de ratione termini formalis est 
-      <lb ed="#L" n="72"/>non habere esse formale nisi per productionem. sed essen 
-      <lb ed="#L" n="73"/>tia non habet esse formale per generationem.
-      er<lb ed="#L" n="74" break="no"/>go non est terminus formalis generationis.
-      Ma<lb ed="#L" n="75" break="no"/>ior videtur manifesta. propter hoc enim non dicitur 
-      <lb ed="#L" n="76"/>materia esse nec terminus totalis nec formalis 
-      <lb ed="#L" n="77"/>alicuius productionis. quia non habet esse per istam 
-      <lb ed="#L" n="78"/>productionem. ergo omnis terminus siue totalis si 
-      <lb ed="#L" n="79"/>ue formalis habet esse sibi conueniens per
-      pro<lb ed="#L" n="80" break="no"/>ductionem. Minor est manifesta etiam secundum eos 
-      <lb ed="#L" n="81"/>qui essentia secundum totum esse suum est in patre.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e229">
-      ⁋ Pre 
-      <lb ed="#L" n="82"/>terea. non est idem elicitiuum alicuius productionis 
-      <lb ed="#L" n="83"/>et terminus formalis eiusdem. quia idem non est prius 
-      <lb ed="#L" n="84"/>et posterius seipo. sed secundum istos principium
-      elici<lb ed="#L" n="85" break="no"/>tiuum est prius origine. terminus autem formalis est 
-      <lb ed="#L" n="86"/>posterius origine. maxime secundum eos. sed essentia 
-      <lb ed="#L" n="87"/>secundum istos est principium elicitiuum generationis. ergo 
-      <lb ed="#L" n="88"/>non est terminus formalis eiusdem.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e247">
-      ⁋ Confirmatur 
-      <lb ed="#L" n="89"/>quia secundum istos vna persona tantum vno modo habendi 
-      <lb ed="#L" n="90"/>habet essentiam. si ergo filius habeat essentiam vt 
-      <lb ed="#L" n="91"/>terminum formalem generationis. non habet eam vt 
-      <lb ed="#L" n="92"/>principium elicitiuum. cuius oppositum dicit.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e258">
-      ⁋ Si 
-      <lb ed="#L" n="93"/>dicatur quod filius non habet essentiam vt principium 
-      <lb ed="#L" n="94"/>elicitiuum sed pater. hoc non sufficit. quia saltem filius 
-      <lb ed="#L" n="95"/>haberet essentiam vt principium elicitiuum processio 
-      <lb ed="#L" n="96"/>nis spiritus sancti. et ita duobus modis habendi. hoc 
-      <lb ed="#L" n="97"/>argumentum est tamen contra hominem.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e272">
-      ⁋ Preterea. si essen 
-      <lb ed="#L" n="98"/>tia sit terminus formalis generationis. aut hoc est 
-      <lb ed="#L" n="99"/>qui simpliciter habet esse per productionem. aut quia habet 
-      <lb ed="#L" n="100"/>esse in producto per productionem. Non propter primum 
-      <lb ed="#L" n="101"/>qui essentia cum sit in patre. non habet esse simpliciter per 
-      <lb ed="#L" n="102"/>quamcumque productionem. Nec propter secundum quia si anima
-      in<lb ed="#L" n="103" break="no"/>tellectiua esset primo creata. et postea crearetur 
-      <lb ed="#L" n="104"/>materia sub anima intellectiua. non diceretur quod anima in 
-      <lb ed="#L" n="105"/>tellectiua esset terminus formalis illius productio 
-      <lb ed="#L" n="106"/>nis. et tamen caperet esse in hoc per illam productionem. 
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e294">
-               <lb ed="#L" n="107"/>⁋ Propter ista patet quod non est idem communicari et esse 
-      <lb ed="#L" n="108"/>terminum formalem alicuius productionis. quia illa anima 
-      <lb ed="#L" n="109"/>intellectiua esset communicata materie. et tamen non esset 
-      <!--293.xml-->
-      <pb ed="#L" n="145-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>terminus formalis productonis
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e312">
-      ⁋ Ideo dico alii 
-      <lb ed="#L" n="2"/>ad questionem. Primo quod aliud est communicari per pre 
-      <lb ed="#L" n="3"/>ductionem aliquam. et aliud est esse terminum
-      forma<lb ed="#L" n="4" break="no"/>lem illius productionis. patet quia aspiratio actiua 
-      <lb ed="#L" n="5"/>communicatur filio per generatione. quia quicqud habet filius 
-      <lb ed="#L" n="6"/>a patre nascendo habet a patre. ergo spirationem actiuam na 
-      <lb ed="#L" n="7"/>scendo habet a patre. et per consequens communicatur sibi per generatio 
-      <lb ed="#L" n="8"/>nem. et tamen spiratio actiua non est terminus forma 
-      <lb ed="#L" n="9"/>lis istius productonis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e332">
-      ⁋ Secundo dico quod communicari per 
-      <lb ed="#L" n="10"/>productionem accipitur multipliciter. Primo strictis 
-      <lb ed="#L" n="11"/>sime. et sic illud communicatur quod habens esse in
-      gene<lb ed="#L" n="12" break="no"/>rante: capit esse in genito per productionem et isto 
-      <lb ed="#L" n="13"/>modo tam essentia quam spiratio actiua communicatur filio 
-      <lb ed="#L" n="14"/>per generationem
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e345">
-      ⁋ Asiter accipitur large. et sic omn 
-      <lb ed="#L" n="15"/>quod habet esse in producto per ipsam productionem. 
-      <lb ed="#L" n="16"/>et non est idem omnibus modis cum productione et pre 
-      <lb ed="#L" n="17"/>ducto communicatur. et isto modo tam materia quam forma con 
-      <lb ed="#L" n="18"/>municatur producto
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e356">
-      ⁋ Aliter accipitur largissime 
-      <lb ed="#L" n="19"/>pro omni illo quod quocumque modo non habet esse 
-      <lb ed="#L" n="20"/>sine illa productione. et isto modo tam productum 
-      <lb ed="#L" n="21"/>quam productio. quam quodlibet quod est in producto 
-      <lb ed="#L" n="22"/>communicatur. sed iste est impropriissimus modus loquendi. 
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e368">
-               <lb ed="#L" n="23"/>⁋ Tertio dico quod terminus formalis productionis 
-      <lb ed="#L" n="24"/>est illud quod capit esse simpliciter per illam productionem. 
-      <lb ed="#L" n="25"/>Unde quando terminus formalis et terminus totalis 
-      <lb ed="#L" n="26"/>distinguuntur. terminus formalis est aliquid ipsius 
-      <lb ed="#L" n="27"/>termini totalis capiens simpliciter esse per illam produ 
-      <lb ed="#L" n="28"/>ctionem. et per hoc quod terminus formalis capit simpliciter 
-      <lb ed="#L" n="29"/>esse per illam productionem. terminus totalis ca 
-      <lb ed="#L" n="30"/>pit esse simpliciter per ipsam productionem. Et ex isto 
-      <lb ed="#L" n="31"/>sequitur quod non dicitur aliquid terminus formalis quia est 
-      <lb ed="#L" n="32"/>forma. Nam si deus crearet ipsam materiam per 
-      <lb ed="#L" n="33"/>se existentem. ista materia esset terminus formalis 
-      <lb ed="#L" n="34"/>et tamen non esset forma. Similiter si deus crearet materi 
-      <lb ed="#L" n="35"/>am sub forma praexistente. forma non esset terminus 
-      <lb ed="#L" n="36"/>formalis. sed ipsa materia.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e401">
-      ⁋ Si dicatur nihil potest 
-      <lb ed="#L" n="37"/>esse terminus materialis nisi materia. ergo nihil 
-      <lb ed="#L" n="38"/>potest esse terminus formalis nisi forma.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e408">
-      ⁋ Respon 
-      <lb ed="#L" n="39"/>deo quod equiuocatio est de formali. quia formale. 
-      <lb ed="#L" n="40"/>Uno modo est concretum ipsius forme et secundum
-      vo<lb ed="#L" n="41" break="no"/>cem et secundum significationem. et sic non loquuntur
-      con<lb ed="#L" n="42" break="no"/>muniter vtentes isto vocabulo. quando dicunt quod hoc 
-      <lb ed="#L" n="43"/>vel illud est terminus formalis. Alio modo dicitur
-      ter<lb ed="#L" n="44" break="no"/>minus formalis illud quod primo et secundum se totum 
-      <lb ed="#L" n="45"/>habent esse tali productione. et isto modo materia 
-      <lb ed="#L" n="46"/>potest esse terminus formalis. et ideo non est simile. 
-      <lb ed="#L" n="47"/>quia loquentes non vtuntur termino materiali. sicut 
-      <lb ed="#L" n="48"/>termino formali. Unde non est communis modus
-      lo<lb ed="#L" n="49" break="no"/>quendi. materia est terminus materialis. sed si 
-      <lb ed="#L" n="50"/>materia praecise intelligatur aliquo actu intellectus. 
-      <lb ed="#L" n="51"/>non dicimus quod materia est obiectum materiale. 
-      <lb ed="#L" n="52"/>sed dicimus quod materia est obiectum formale. 
-      <lb ed="#L" n="53"/>Similiter si aliquod totum intelligatur. et ratio terminan 
-      <lb ed="#L" n="54"/>di illam intellectionem non sit plus forma quam mate 
-      <lb ed="#L" n="55"/>riam. adhuc diceremus est obiectum formale non 
-      <!--293.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 145-v -->
-               <lb ed="#L" n="56"/>materiale. Ex istis sequitur quod quando aliquod compositum 
-      <lb ed="#L" n="57"/>creatur secundum se totum. non plus dicetur forma esse
-      ter<lb ed="#L" n="58" break="no"/>minus formalis illius creationis quam materia.
-      ni<lb ed="#L" n="59" break="no"/>si forte. quia forma est perfectior et principalior. sed illa 
-      <lb ed="#L" n="60"/>principalitas sicut patet prius non facit ad hoc quod magis 
-      <lb ed="#L" n="61"/>proprie dicatur terminus quam materia.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e467">
-      ⁋ Ex istis re 
-      <lb ed="#L" n="62"/>spondeo ad questionem primo quod essentia non est
-      ter<lb ed="#L" n="63" break="no"/>minus formalis generationis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e474">
-      ⁋ Secundo quod nec rela 
-      <lb ed="#L" n="64"/>tio est formalis terminus.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e479">
-      ⁋ Tertio quod ipsa persona 
-      <lb ed="#L" n="65"/>potest dici terminus formalis. non tamen distinguende 
-      <lb ed="#L" n="66"/>terminum formalem contrsa terminum totalem.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e487">
-      ⁋ Primum 
-      <lb ed="#L" n="67"/>patet per argumenta facta contrsi priorem opinionem. quia
-      ter<lb ed="#L" n="68" break="no"/>minus formalis est ille quai simpliciter habet esse per
-      produ<lb ed="#L" n="69" break="no"/>ctionem. sed essentia non est huiusmodi. ergo etc
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e496">
-      ⁋ Secundum ostendo 
-      <lb ed="#L" n="70"/>qui nihil vnum et idem potest esse terminus suiipsius 
-      <lb ed="#L" n="71"/>sed ipsa productio est relatio realiter et formaliter. sicut 
-      <lb ed="#L" n="72"/>post patebit. ergo relatio non potest esse terminus for 
-      <lb ed="#L" n="73"/>malis ipsius productonis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e507">
-      ⁋ Si dicatur quod licet productio 
-      <lb ed="#L" n="74"/>et relatio sit idem realiter. distinguitur tamen secundum modum 
-      <lb ed="#L" n="75"/>nostrum intelligendi. quia secundum modum nostrm
-      intellige<lb ed="#L" n="76" break="no"/>di ipsa productio est prior ipsa relatione. et propter
-      ta<lb ed="#L" n="77" break="no"/>lem prioritatem poterit ipsa relatio esse terminus 
-      <lb ed="#L" n="78"/>ipsius productionis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e520">
-      ⁋ Contra. quando dicitur quod productie 
-      <lb ed="#L" n="79"/>est prior secundum modum nonterm intelligendi. aut attri 
-      <lb ed="#L" n="80"/>buitur prioritas rei quae realiter est deus. aut tantum conce 
-      <lb ed="#L" n="81"/>ptui mentis. si rei. ergo esset ipsa res prior ipsa relatione 
-      <lb ed="#L" n="82"/>si ipsi conceptui. ergo productio quae est in deo non eritr pri 
-      <lb ed="#L" n="83"/>or. et de illa praecise est sermo. ergo praoritas conceptus 
-      <lb ed="#L" n="84"/>nihil facit ad hoc quod relatio sit terminus vel ne 
-      <lb ed="#L" n="85"/>sit terminus.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e538">
-      ⁋ Si dicatur quod ipsa res est prior. sed non 
-      <lb ed="#L" n="86"/>realiter sed tantum secundum modum nostrum intelligendi. et iti 
-      <lb ed="#L" n="87"/>nunquam est prior nisi quando intelligitur.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e545">
-      ⁋ Cotra si non 
-      <lb ed="#L" n="88"/>sit prior nisi secundum modum nostrm intelligendi. ergo modus 
-      <lb ed="#L" n="89"/>intelligendi noiter facit praecise illam prioritatem. ergo praecise 
-      <lb ed="#L" n="90"/>facit quod relatio est terminus illius productionis. 
-      <lb ed="#L" n="91"/>quod est absurdum. Similiter eo quod res est vel non est. oreto 
-      <lb ed="#L" n="92"/>est vera vel falsa. ergo si in re non sit prior. et intellectus 
-      <lb ed="#L" n="93"/>intelligit illam productionem esse porem iste
-      intelle<lb ed="#L" n="94" break="no"/>ctus erit simpliciter falsus. et ita non plus erit
-      produ<lb ed="#L" n="95" break="no"/>ctio diuina prior relatione. quam erit vnus asinus 
-      <lb ed="#L" n="96"/>qui intellectus potest intelligere vtrumque
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e568">
-      ⁋ Tertium 
-      <lb ed="#L" n="97"/>patet. quia illud potest dici terminus formalis alicuius 
-      <lb ed="#L" n="98"/>productionis quod simpliciter habet esse per productionem. et 
-      <lb ed="#L" n="99"/>non est formaliter ipsa productio. sed persona habet simpliciter 
-      <lb ed="#L" n="100"/>esse per generatione. et non est formaliter ipsa generatio. ergo 
-      <lb ed="#L" n="101"/>potest dici terminus formalis ipsius. non tamen distingue 
-      <lb ed="#L" n="102"/>do contraterminum totalem. Minor est manifesta. 
-      <lb ed="#L" n="103"/>maxime quando nihil aliud est quod habeat illas conditio 
-      <lb ed="#L" n="104"/>nes. et ita est minor vera. quia sola persona habet illas 
-      <lb ed="#L" n="105"/>conditiones: essentia enim quamuis non sit formaliter ipsuam 
-      <lb ed="#L" n="106"/>generatio. non tamen habet esse simpliciter per generationem. 
-      <lb ed="#L" n="107"/>Similiter relatio quamuis aliquo modo habeat esse per 
-      <lb ed="#L" n="108"/>generationem. sicut idem est seipo. tamen nullo
-      mo<lb ed="#L" n="109" break="no"/>do distinguitur a generatione. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e599">
-      ⁋ Ad primum alte 
-      <lb ed="#L" n="110"/>rius opinionis concedo istas auctoritates. sed dico quod 
-      <!--294.xml-->
-      <pb ed="#L" n="146-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>potest forma dari communicari siue praestari producto 
-      <lb ed="#L" n="2"/>quamuis non sit terminus formalis talis productionis. 
-      <lb ed="#L" n="3"/>licut si deus crearet materiam sub forma praexistente 
-      <lb ed="#L" n="4"/>illa forma communicaretur tali composito per illam
-      produ<lb ed="#L" n="5" break="no"/>ctionem. et tamen non esset terminus formalis talis pro 
-      <lb ed="#L" n="6"/>ductionis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e623">
-      ⁋ Ad secundum dico quod talis vniuocatio 
-      <lb ed="#L" n="7"/>qualis est in generatione diuina stat cum hoc quod 
-      <lb ed="#L" n="8"/>essentia non sit terminus formalis. quia ad illam
-      vnio<lb ed="#L" n="9" break="no"/>nem que est ibi sufficit quod generans et generatum 
-      <lb ed="#L" n="10"/>sint vna substantia. et quod illa substantia non
-      diffe<lb ed="#L" n="11" break="no"/>rat nec a generante nec a generato.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e636">
-      ⁋ Ad tertium quod 
-      <lb ed="#L" n="12"/>procedit ac si poneretur quod relatio esset terminus 
-      <lb ed="#L" n="13"/>formalis. Nunc autem hoc non est ponendum. sed ipsa persona 
-      <lb ed="#L" n="14"/>est terminus. nec est ibi alius. et quia persona ista est 
-      <lb ed="#L" n="15"/>simpliciter substantia per identitatem perfectissimam. ideo 
-      <lb ed="#L" n="16"/>ista productio nisi aliud impediat vere poterit 
-      <lb ed="#L" n="17"/>dici generatio.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e652">
-      ⁋ Ad quartum dico quod maior est falsa. 
-      <lb ed="#L" n="18"/>patet in exemplo. Si deus crearet materiam sub
-      for<lb ed="#L" n="19" break="no"/>ma praexistente. quia illa forma nec esset terminus 
-      <lb ed="#L" n="20"/>formalis. nec contenta vniversaliter in termino formali. 
-      <lb ed="#L" n="21"/>Ideo dico quod ad hoc quod forma sit habita per aliquam pr 
-      <lb ed="#L" n="22"/>ductione sufficit quod sit terminus formalis. vel 
-      <lb ed="#L" n="23"/>quod preexistat et communicetur alicui de nouo pro 
-      <lb ed="#L" n="24"/>ducto. vel quod sit idem realiter cum ipsa produ 
-      <lb ed="#L" n="25"/>ctione. quamuis non formaliter. sicut est in proposito 
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e672">
-               <lb ed="#L" n="26"/>⁋ Ad quantum dico quod philosophus intelligit quando terminus 
-      <lb ed="#L" n="27"/>formalis distinguitur a subiecto recipiente formam 
-      <lb ed="#L" n="28"/>non est sic in proposito. et ideo ista dicitur generatio. quis 
-      <lb ed="#L" n="29"/>vna res est eadem realiter cum substantia ipsius gen 
-      <lb ed="#L" n="30"/>rantis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e686">
-      ⁋ Sed circa praedicta occurrunt aliqua dubia 
-      <lb ed="#L" n="31"/>Primum quia non videtur quin essentia possit esse term 
-      <lb ed="#L" n="32"/>nus formalis. quamuis non habeat esse simpliciter per
-      pro<lb ed="#L" n="33" break="no"/>ductionem. quia sicut terminus alterationis se habet 
-      <lb ed="#L" n="34"/>ad alterationem. ita terminus productionis se habet 
-      <lb ed="#L" n="35"/>ad productionem. sed aliquid potest esse formalis
-      ter<lb ed="#L" n="36" break="no"/>minus alterationis. quamuis non habeat esse simpliciter per 
-      <lb ed="#L" n="37"/>illam alterationem. sicut si aliqua qualitas separata 
-      <lb ed="#L" n="38"/>vniretur de nouo subiecto. illud subiectum vere
-      altera<lb ed="#L" n="39" break="no"/>retur. et terminus illius alterationis esset qualitas. et tamen illa 
-      <lb ed="#L" n="40"/>qualitas non caperet esse simpliciter per illam alteratio 
-      <lb ed="#L" n="41"/>nem. ergo similiter essentia poterit esse terminus formalis 
-      <lb ed="#L" n="42"/>generationis. quamuis non caperet esse simpliciter 
-      <lb ed="#L" n="43"/>per illam generationem.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e717">
-      ⁋ Confirmatur. quia secundum philosophum 
-      <lb ed="#L" n="44"/>primo phisicorum. ad omnem rem cuiuscumque
-      predica<lb ed="#L" n="45" break="no"/>menti. vel salte absoluti est generatio. et per consequens pro 
-      <lb ed="#L" n="46"/>ductio. sed ad qualitatem non est nisi alteratio. ergo il 
-      <lb ed="#L" n="47"/>la est generatio. et tamen sicut probatum est terminus illius 
-      <lb ed="#L" n="48"/>non semper capit esse simpliciter.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e730">
-      ⁋ Secundum dubium. quia 
-      <lb ed="#L" n="49"/>videtur quod relatio sit terminus formalis. quia illud quod 
-      <lb ed="#L" n="50"/>capit esse simpliciter per productionem est terminus ipsius. 
-      <lb ed="#L" n="51"/>relatio est huiusmodi. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e739">
-      ⁋ Tertium quia videtur quod
-      perso<lb ed="#L" n="52" break="no"/>na non sit terminus formalis generationis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e744">
-      ⁋ hoc
-      pro<lb ed="#L" n="53" break="no"/>bant aliqui sic. persona constituitur formaliter per
-      ge<lb ed="#L" n="54" break="no"/>neratione. nullum autem formale attingit constitutum 
-      <lb ed="#L" n="55"/>originatiue et principiatiue. alioquin idem princi 
-      <!--294.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 146-r -->
-               <lb ed="#L" n="56"/>piaret se. cum sit quasi pars illius constituti.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e762">
-      ⁋ Preterea 
-      <lb ed="#L" n="57"/>generatio est via in ens. vt dicit philosophus. iiii. metha. sed 
-      <lb ed="#L" n="58"/>in filio non est aliquid ad quod posset esse via passiua 
-      <lb ed="#L" n="59"/>generationis. non enim filiatio. quia est idem cum ea. nec 
-      <lb ed="#L" n="60"/>essentia. quia praexistebat. nec persona. quia distinguere 
-      <lb ed="#L" n="61"/>tur realiter ab ea. via enim est a termino et in ter 
-      <lb ed="#L" n="62"/>minum. et ita persona esset via in seipsam. cum generatio 
-      <lb ed="#L" n="63"/>it aliquid eius. Nam persona constituitur formaliter 
-      <lb ed="#L" n="64"/>enerationem. Unde consequens est quod non sit ab ea 
-      <lb ed="#L" n="65"/>originaliter et principiatiue. quia impossibile est quod sit 
-      <lb ed="#L" n="66"/>ormalis terminus acquisitus in filio. in quem sit 
-      <lb ed="#L" n="67"/>via passiua generatio.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e789">
-      ⁋ Preterea non potest ne 
-      <lb ed="#L" n="68"/>negari a verbo divino quod est perfectionis et conceditur 
-      <lb ed="#L" n="69"/>de vbo nostro. sed in verbo mentis nostre non est 
-      <lb ed="#L" n="70"/>liquis formalis terminus acquisitus per formatio 
-      <lb ed="#L" n="71"/>nem passiuam ipsius. sed immediate ex formare 
-      <lb ed="#L" n="72"/>sequitur formari. quod patet si accipiatur rosa apparens 
-      <lb ed="#L" n="73"/>ex apparitione enim formali que est immediate actus 
-      <lb ed="#L" n="74"/>intelligendi. oritur apparitio obiectiua ratio se. que 
-      <lb ed="#L" n="75"/>quidem apparitione nihil facit circa rosam. nisi quod 
-      <lb ed="#L" n="76"/>cnpit esse apparens formaliter per ipsam
-      apparitio<lb ed="#L" n="77" break="no"/>nem passiuam. non autem effectiue aut principiate 
-      <lb ed="#L" n="78"/>et sic resultat vnum productum constitutum ex ipsa 
-      <lb ed="#L" n="79"/>passiua productione. que est apparitio obiectiua 
-      <lb ed="#L" n="80"/>et ex ipsa realitate indistincta ab ipsa appariti 
-      <lb ed="#L" n="81"/>one quod quidem constitutum est rosa simpliciter quan 
-      <lb ed="#L" n="82"/>ntellectus intuetur. Unde non producitur aliqua res 
-      <lb ed="#L" n="83"/>sed res et apparitio constituunt vnum simplex ap 
-      <lb ed="#L" n="84"/>parens quod in esse apparenti productum est passiua 
-      <lb ed="#L" n="85"/>apparitione formaliter non originaliter aut principiati 
-      <lb ed="#L" n="86"/>ue. ergo multo facilius in verbo diuino ad dicere 
-      <lb ed="#L" n="87"/>et generare patris. infertur dici et generari filii. sed  
-      <lb ed="#L" n="88"/>ex ipso generari vna cum divina essentia resultabit 
-      <lb ed="#L" n="89"/>vnus generatus et productus formaliter. non per modum 
-      <lb ed="#L" n="90"/>termini originati.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e841">
-      ⁋ Preterea de ratione passionis 
-      <lb ed="#L" n="91"/>non est nisi quod sit effectus illatioque actionis. ergo in 
-      <lb ed="#L" n="92"/>filio infertur generari ex generare paterno. et sic totus fili 
-      <lb ed="#L" n="93"/>us dicetur generatus generatione passiua illata a patre 
-      <lb ed="#L" n="94"/>absque hoc quod aliquid aliud acquiratur. Est ergo in 
-      <lb ed="#L" n="95"/>concusse tenendum. quod filius verissime generatur 
-      <lb ed="#L" n="96"/>tanquam constitutus ex passiua generatione et ex essen 
-      <lb ed="#L" n="97"/>tia. non autem quod essentia acquiratur per passiuam genera 
-      <lb ed="#L" n="98"/>tionem. aut filiatio. aut persona. aut aliquis alius. 
-      <lb ed="#L" n="99"/>terminus formalis. et in hoc decipiuntur omnes
-      opinan<lb ed="#L" n="100" break="no"/>tes qui querunt ibi aliquid formale. non est enim
-      ali<lb ed="#L" n="101" break="no"/>quid aliud nisi ipsamet filiatio siue generatio 
-      <lb ed="#L" n="102"/>passiua.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e870">
-      ⁋ Quartum dubium est. quia non videtur quod per 
-      <lb ed="#L" n="103"/>ona capiat esse simpliciter per generationem. quia illud 
-      <lb ed="#L" n="104"/>quod non est per generatione non capit esse per genera 
-      <lb ed="#L" n="105"/>tionem. sed persona non est per generationem. sed per 
-      <lb ed="#L" n="106"/>essentiam secundum beatum Augustinum. quia filius eo est quo 
-      <lb ed="#L" n="107"/>est deus. sed est deus essentia. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e883">
-      ⁋ Ad primum 
-      <lb ed="#L" n="108"/>dico quod aliquando in alteratione est productio et mutatio 
-      <lb ed="#L" n="109"/>et aliquando sola mutatio. et ideo concedo quod quando cum 
-      <lb ed="#L" n="110"/>alteratione est productio. tunc illud quod est terminus 
-      <!--295.xml-->
-      <pb ed="#L" n="146-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>sillius productonis habet simpliciter esse per illam. non autem 
-      <lb ed="#L" n="2"/>oportet quod illud quod est terminus alterationis 
-      <lb ed="#L" n="3"/>scilicet mutationis capiat esse per illam alterationem 
-      <lb ed="#L" n="4"/>sed sufficit quod prius ceperit esse per aliam productio e 
-      <lb ed="#L" n="5"/>nem. et ideo non est simile quantum ad capere esse
-      sim<lb ed="#L" n="6" break="no"/>pliciter. sed est simile quantum ad hoc quod sicut termi 
-      <lb ed="#L" n="7"/>nus alterationis habet esse in hoc per ipsam alteratio 
-      <lb ed="#L" n="8"/>nem. ita terminus formalis productonis habet esse 
-      <lb ed="#L" n="9"/>simpliciter per ipsam productionem. Et ideo concedo quod 
-      <lb ed="#L" n="10"/>quando qualitas praexistens de nouo vnitur subiecto. no 
-      <lb ed="#L" n="11"/>capit esse per illam alterationem. quia tunc est ibi mu 
-      <lb ed="#L" n="12"/>tatio sola sine productione saltem noua. Et si omnino 
-      <lb ed="#L" n="13"/>velis ibi habere productionem. Dicendum quod termi 
-      <lb ed="#L" n="14"/>nus formalis illius productonis nec est qualitas 
-      <lb ed="#L" n="15"/>nec subiectum. sed vnum aggregatum ex subiecto et 
-      <lb ed="#L" n="16"/>qualitate. quia de solo tali vere nunc primo dicitur quod hoc est 
-      <lb ed="#L" n="17"/>et ita idem est terminus totalis et formalis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e935">
-      ⁋ Per 
-      <lb ed="#L" n="18"/>hoc ad confirmationem dico quod secundum philosophum in omni 
-      <lb ed="#L" n="19"/>genere praedicamentali absoluto est generatio simpliciter 
-      <lb ed="#L" n="20"/>qui vera productio alicuius illius generis. non tamen sed 
-      <lb ed="#L" n="21"/>veritate oportet quod quandocumque aliquid de nouo mutatur quod 
-      <lb ed="#L" n="22"/>aliquod accidens de nouo producatur. quamuis philosophus hoc 
-      <lb ed="#L" n="23"/>diceret. quia ipse non poneret quod accidens prius tempere 
-      <lb ed="#L" n="24"/>posset produci. et postea vniri subiecto.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e953">
-      ⁋ Si
-      di<lb ed="#L" n="25" break="no"/>catur alteratio est formaliter generatio. Dico quod non 
-      <lb ed="#L" n="26"/>sed alteratio est formaliter mutatio. et ideo non 
-      <lb ed="#L" n="27"/>potest esse generatio qualitatis sine alteratione et 
-      <lb ed="#L" n="28"/>econuerso potest esse alteratio sine generatione vel
-      pro<lb ed="#L" n="29" break="no"/>ductione noua qualitatis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e967">
-      ⁋ Ad secundum dico quod ad ter 
-      <lb ed="#L" n="30"/>minum formalem requiritur aliqua nonidentitas ad 
-      <lb ed="#L" n="31"/>ipsam productionem. quando productio est vera res. hoc est 
-      <lb ed="#L" n="32"/>quod non sit idem formaliter. Nunc autem in proposito
-      ge<lb ed="#L" n="33" break="no"/>neratio et filiatio sunt idem formaliter. et ideo
-      filia<lb ed="#L" n="34" break="no"/>tio non est terminus formalis generationis. quamuis et 
-      <lb ed="#L" n="35"/>tensiue loquendo seipso capiat esse. nunc autem in 
-      <lb ed="#L" n="36"/>proposito generatio et filiatio sunt idem.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e985">
-      ⁋ Ad tertir 
-      <lb ed="#L" n="37"/>dico quod persona est terminus formalis non quidem 
-      <lb ed="#L" n="38"/>distinguendo contrsa terminum totalem. quia ibi non
-      distin<lb ed="#L" n="39" break="no"/>guitur terminus formalis a totali. Utrum autem 
-      <lb ed="#L" n="40"/>debeat proprie vocari terminus formalis vel tota 
-      <lb ed="#L" n="41"/>lis vel neutro modo est magis difficultas
-      vo<lb ed="#L" n="42" break="no"/>calis quam realis. ideo non est illi insistendum. Sed  
-      <lb ed="#L" n="43"/>dico quod persona vere est terminus originatus et est 
-      <lb ed="#L" n="44"/>terminus illius productionis salte actiue. hoc 
-      <lb ed="#L" n="45"/>patet. quia illud dicitur terminus alicuius respectu cuius ali 
-      <lb ed="#L" n="46"/>denominatur ab illo respectu. sed pater vere dicitur
-      ge<lb ed="#L" n="47" break="no"/>nerans in habitudine ad filium. quia pater vere dicitur 
-      <lb ed="#L" n="48"/>generans filium. sicut domins vere dicitur davins serui. et simile si 
-      <lb ed="#L" n="49"/>mili simile. ergo sicut senunus est terminus illius
-      respe<lb ed="#L" n="50" break="no"/>ctus. scilicet diii. ita filius vere dicetur terminus illius 
-      <lb ed="#L" n="51"/>generationis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e1020">
-      ⁋ Preterea illud quod vere refertur habet vere 
-      <lb ed="#L" n="52"/>terminum terminantem respectum illum. sed piter vere refertur 
-      <lb ed="#L" n="53"/>ad filium. ergo filius vere terminat relationem.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e1027">
-      ⁋ Ad per 
-      <lb ed="#L" n="54"/>mum argumentum in contrarium dico quod generatio passiua 
-      <lb ed="#L" n="55"/>constituit personam. Et quando dicitur quod nullum formale 
-      <!--295.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 146-v -->
-               <lb ed="#L" n="56"/>attingit illud constitutum origine et principiatiue 
-      <lb ed="#L" n="57"/>Dico quod verum est. ita quod sit principians et originans 
-      <lb ed="#L" n="58"/>et isto modo generatio passiua non principiat
-      fi<lb ed="#L" n="59" break="no"/>lium. sed solus pater. et ideo idem non principiat seipsmi 
-      <lb ed="#L" n="60"/>tamen formale costitutiuum sit intrinsece illud quo 
-      <lb ed="#L" n="61"/>aliquid dicitur principiari. non est inconueniens. et hoc 
-      <lb ed="#L" n="62"/>quando ipsa principiatio vel productio cum aliquo per se 
-      <lb ed="#L" n="63"/>constituit vnum suppositum. sicut est in proposito 
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e1058">
-               <lb ed="#L" n="64"/>⁋ Si tamen queritur an persona genita sit terminus ge 
-      <lb ed="#L" n="65"/>nerationis passiue: potest dici quod non. sed est magis 
-      <lb ed="#L" n="66"/>illud quod refertur illa generatione passiua. et termi 
-      <lb ed="#L" n="67"/>nus illius generationis est ipsemet pater. non tamen 
-      <lb ed="#L" n="68"/>pater dicitur generari illa generatione. sed dicitur 
-      <lb ed="#L" n="69"/>esse ille a quo filius generatur. sicut enim pater re 
-      <lb ed="#L" n="70"/>fertur paternitate vel generatione ad filium. et non 
-      <lb ed="#L" n="71"/>est terminus generationis actiue. sed filius est
-      ter<lb ed="#L" n="72" break="no"/>minus generationis actiue. ita econuerso filius 
-      <lb ed="#L" n="73"/>generatione passiua refertur ad patrem. et non est
-      ter<lb ed="#L" n="74" break="no"/>minus generationis passiue. sed pater. Et ideo 
-      <lb ed="#L" n="75"/>sicut pater dicitur generare filium tanquam terminum 
-      <lb ed="#L" n="76"/>generationis actiue. ita filius dicitur generari a 
-      <lb ed="#L" n="77"/>patre tanquam a termino generationis passiue. non 
-      <lb ed="#L" n="78"/>tamen generatio ipsa actiua vel passiua generat fi 
-      <lb ed="#L" n="79"/>lium proprie loquendo. sed ipsemet pater. Et ideo ar 
-      <lb ed="#L" n="80"/>gumenta predicti doctoris
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e1097">
-      ⁋ de cuius tamen dictis 
-      <lb ed="#L" n="81"/>pauca vidio que probant quod generatio passiua 
-      <lb ed="#L" n="82"/>non habet pro termino originato ipsum filium sunt 
-      <lb ed="#L" n="83"/>concedenda gratia conclusionis. quia filius non est ter 
-      <lb ed="#L" n="84"/>minus originatus ipsius generationis passiue sed 
-      <lb ed="#L" n="85"/>est relatiuum relatum generatione passiua. et ideo est 
-      <lb ed="#L" n="86"/>vere terminus originatus. ipsius generationis 
-      <lb ed="#L" n="87"/>actiue non passiue: nec est quaestio de termino
-      for<lb ed="#L" n="88" break="no"/>mali originato ipsius generationis passiue sed 
-      <lb ed="#L" n="89"/>actiue.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e1120">
-      ⁋ Ad quartum dico quod quando dicitur persona
-      ca<lb ed="#L" n="90" break="no"/>pit esse per generationem. lced per potest dicere circum 
-      <lb ed="#L" n="91"/>stantiam illius cui primo competit habere esse vel 
-      <lb ed="#L" n="92"/>non esse. et hoc est essentia. Uel circumstantiam
-      pro<lb ed="#L" n="93" break="no"/>ductionis qua aliquid producitur ab alio. et qua
-      ac<lb ed="#L" n="94" break="no"/>cipit esse ab alio. et sic intelligit Augustinus quando 
-      <lb ed="#L" n="95"/>dicit quod filius quicqud habet nascendo habet a 
-      <lb ed="#L" n="96"/>patre. et sic filius capit esse per generationem 
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e1138">
-               <lb ed="#L" n="97"/>⁋ Ad argumentum principale patet. quod persona est 
-      <lb ed="#L" n="98"/>terminus et formalis et totalis. eo modo quo est 
-      <lb ed="#L" n="99"/>ibi terminus totalis et formalis.
-    </p>
-            <p xml:id="wo8uy7-d1e622-d1e1147">
-      ⁋ Argumentum 
-      <lb ed="#L" n="100"/>ad oppositum concedo gratia conclusionis. quamuis 
-      <lb ed="#L" n="101"/>accipiat vnum falsum nisi melius intelligatur. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="145-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e622"><!-- l1d5q3 -->
+        <head xml:id="wo8uy7-d1e622-Hd1e108">Quaestio 3</head>
+        <p xml:id="wo8uy7-d1e622-d1e111">
+          Questio tertia. 
+          <lb ed="#L" n="39"/>gartio quero utrum 
+          <lb ed="#L" n="40"/>essentia sit terminus formalis
+          generatio<lb ed="#L" n="41" break="no"/>nis. Quod sic. terminus formalis non est 
+          <lb ed="#L" n="42"/>persona cum persona sit res totalis. nec est relatio. 
+          <lb ed="#L" n="43"/>qui tunc non esset generatio. relinquitur ergo quod sit essentia. 
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e124">
+          <lb ed="#L" n="44"/>⁋ Ad oppositum. terminus formalis generationis non 
+          <lb ed="#L" n="45"/>psupponitur in generante. sed essentia prsupponitur 
+          <lb ed="#L" n="46"/>in generante. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e133">
+          ⁋ Ad istam questione dicitur quod essen 
+          <lb ed="#L" n="47"/>tia divina est terminus formalis generationis in
+          di<lb ed="#L" n="48" break="no"/>uinis Ioh. iiii. quod pater inquit dedit mihi. maius 
+          <lb ed="#L" n="49"/>omnibus est. IMaius autem omnibus non est
+          nisi<lb ed="#L" n="50" break="no"/>aliquid infinitum. hoc non est nisi essentia. illam 
+          <lb ed="#L" n="51"/>ergo dedit. hoc etiam vult Augustinus. pv.t de 
+          <lb ed="#L" n="52"/>trinitate. c. xvi. sicut naturam praestat filio sine
+          ini<lb ed="#L" n="53" break="no"/>tio generatio. ita etiam spiritui sancto prestat essen 
+          <lb ed="#L" n="54"/>tiam sine initio spiritus sancti processio. Nunc autem 
+          <!--292.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 145-r -->
+          <lb ed="#L" n="55"/>non conceditur aliquam formam dari producto vel
+          communi<lb ed="#L" n="56" break="no"/>cari vel praestari per generatione. nisi illa forma 
+          <lb ed="#L" n="57"/>communicata sit formalis terminus talis productonis 
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e166">
+          <lb ed="#L" n="58"/>⁋ Probatur etiam illud antecedens. quia alias ista genera 
+          <lb ed="#L" n="59"/>tio non esset vniuoca. quia ratio formalis termini 
+          <lb ed="#L" n="60"/>eius non esset ratio conuenientie generantis cum ge 
+          <lb ed="#L" n="61"/>nito. consequens est inconueniens. sicut tangetur dis. vii 
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e178">
+          <lb ed="#L" n="62"/>⁋ Similiter aliter non esset ista productio
+          gene<lb ed="#L" n="63" break="no"/>ratio. sed magis esset mutatio ad relationem. quia 
+          <lb ed="#L" n="64"/>productio ponitur in specie vel genere ex suo
+          ter<lb ed="#L" n="65" break="no"/>mino formali.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e189">
+          ⁋ Sicut patet per philosophum. v. phisicorum. 
+          <lb ed="#L" n="66"/>ergo si formalis termiuus huius productionis 
+          <lb ed="#L" n="67"/>esset relatio ista dductio poneretur in genere re 
+          <lb ed="#L" n="68"/>lationis. et non esset generatio.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e198">
+          ⁋ Contra istam opi 
+          <lb ed="#L" n="69"/>nionem arguo. sicut de ratione termini totalis
+          ali<lb ed="#L" n="70" break="no"/>cuius productionis est non habere esse totale nisi 
+          <lb ed="#L" n="71"/>per productionem. ita de ratione termini formalis est 
+          <lb ed="#L" n="72"/>non habere esse formale nisi per productionem. sed essen 
+          <lb ed="#L" n="73"/>tia non habet esse formale per generationem.
+          er<lb ed="#L" n="74" break="no"/>go non est terminus formalis generationis.
+          Ma<lb ed="#L" n="75" break="no"/>ior videtur manifesta. propter hoc enim non dicitur 
+          <lb ed="#L" n="76"/>materia esse nec terminus totalis nec formalis 
+          <lb ed="#L" n="77"/>alicuius productionis. quia non habet esse per istam 
+          <lb ed="#L" n="78"/>productionem. ergo omnis terminus siue totalis si 
+          <lb ed="#L" n="79"/>ue formalis habet esse sibi conueniens per
+          pro<lb ed="#L" n="80" break="no"/>ductionem. Minor est manifesta etiam secundum eos 
+          <lb ed="#L" n="81"/>qui essentia secundum totum esse suum est in patre.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e229">
+          ⁋ Pre 
+          <lb ed="#L" n="82"/>terea. non est idem elicitiuum alicuius productionis 
+          <lb ed="#L" n="83"/>et terminus formalis eiusdem. quia idem non est prius 
+          <lb ed="#L" n="84"/>et posterius seipo. sed secundum istos principium
+          elici<lb ed="#L" n="85" break="no"/>tiuum est prius origine. terminus autem formalis est 
+          <lb ed="#L" n="86"/>posterius origine. maxime secundum eos. sed essentia 
+          <lb ed="#L" n="87"/>secundum istos est principium elicitiuum generationis. ergo 
+          <lb ed="#L" n="88"/>non est terminus formalis eiusdem.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e247">
+          ⁋ Confirmatur 
+          <lb ed="#L" n="89"/>quia secundum istos vna persona tantum vno modo habendi 
+          <lb ed="#L" n="90"/>habet essentiam. si ergo filius habeat essentiam vt 
+          <lb ed="#L" n="91"/>terminum formalem generationis. non habet eam vt 
+          <lb ed="#L" n="92"/>principium elicitiuum. cuius oppositum dicit.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e258">
+          ⁋ Si 
+          <lb ed="#L" n="93"/>dicatur quod filius non habet essentiam vt principium 
+          <lb ed="#L" n="94"/>elicitiuum sed pater. hoc non sufficit. quia saltem filius 
+          <lb ed="#L" n="95"/>haberet essentiam vt principium elicitiuum processio 
+          <lb ed="#L" n="96"/>nis spiritus sancti. et ita duobus modis habendi. hoc 
+          <lb ed="#L" n="97"/>argumentum est tamen contra hominem.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e272">
+          ⁋ Preterea. si essen 
+          <lb ed="#L" n="98"/>tia sit terminus formalis generationis. aut hoc est 
+          <lb ed="#L" n="99"/>qui simpliciter habet esse per productionem. aut quia habet 
+          <lb ed="#L" n="100"/>esse in producto per productionem. Non propter primum 
+          <lb ed="#L" n="101"/>qui essentia cum sit in patre. non habet esse simpliciter per 
+          <lb ed="#L" n="102"/>quamcumque productionem. Nec propter secundum quia si anima
+          in<lb ed="#L" n="103" break="no"/>tellectiua esset primo creata. et postea crearetur 
+          <lb ed="#L" n="104"/>materia sub anima intellectiua. non diceretur quod anima in 
+          <lb ed="#L" n="105"/>tellectiua esset terminus formalis illius productio 
+          <lb ed="#L" n="106"/>nis. et tamen caperet esse in hoc per illam productionem. 
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e294">
+          <lb ed="#L" n="107"/>⁋ Propter ista patet quod non est idem communicari et esse 
+          <lb ed="#L" n="108"/>terminum formalem alicuius productionis. quia illa anima 
+          <lb ed="#L" n="109"/>intellectiua esset communicata materie. et tamen non esset 
+          <!--293.xml-->
+          <pb ed="#L" n="145-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>terminus formalis productonis
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e312">
+          ⁋ Ideo dico alii 
+          <lb ed="#L" n="2"/>ad questionem. Primo quod aliud est communicari per pre 
+          <lb ed="#L" n="3"/>ductionem aliquam. et aliud est esse terminum
+          forma<lb ed="#L" n="4" break="no"/>lem illius productionis. patet quia aspiratio actiua 
+          <lb ed="#L" n="5"/>communicatur filio per generatione. quia quicqud habet filius 
+          <lb ed="#L" n="6"/>a patre nascendo habet a patre. ergo spirationem actiuam na 
+          <lb ed="#L" n="7"/>scendo habet a patre. et per consequens communicatur sibi per generatio 
+          <lb ed="#L" n="8"/>nem. et tamen spiratio actiua non est terminus forma 
+          <lb ed="#L" n="9"/>lis istius productonis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e332">
+          ⁋ Secundo dico quod communicari per 
+          <lb ed="#L" n="10"/>productionem accipitur multipliciter. Primo strictis 
+          <lb ed="#L" n="11"/>sime. et sic illud communicatur quod habens esse in
+          gene<lb ed="#L" n="12" break="no"/>rante: capit esse in genito per productionem et isto 
+          <lb ed="#L" n="13"/>modo tam essentia quam spiratio actiua communicatur filio 
+          <lb ed="#L" n="14"/>per generationem
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e345">
+          ⁋ Asiter accipitur large. et sic omn 
+          <lb ed="#L" n="15"/>quod habet esse in producto per ipsam productionem. 
+          <lb ed="#L" n="16"/>et non est idem omnibus modis cum productione et pre 
+          <lb ed="#L" n="17"/>ducto communicatur. et isto modo tam materia quam forma con 
+          <lb ed="#L" n="18"/>municatur producto
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e356">
+          ⁋ Aliter accipitur largissime 
+          <lb ed="#L" n="19"/>pro omni illo quod quocumque modo non habet esse 
+          <lb ed="#L" n="20"/>sine illa productione. et isto modo tam productum 
+          <lb ed="#L" n="21"/>quam productio. quam quodlibet quod est in producto 
+          <lb ed="#L" n="22"/>communicatur. sed iste est impropriissimus modus loquendi. 
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e368">
+          <lb ed="#L" n="23"/>⁋ Tertio dico quod terminus formalis productionis 
+          <lb ed="#L" n="24"/>est illud quod capit esse simpliciter per illam productionem. 
+          <lb ed="#L" n="25"/>Unde quando terminus formalis et terminus totalis 
+          <lb ed="#L" n="26"/>distinguuntur. terminus formalis est aliquid ipsius 
+          <lb ed="#L" n="27"/>termini totalis capiens simpliciter esse per illam produ 
+          <lb ed="#L" n="28"/>ctionem. et per hoc quod terminus formalis capit simpliciter 
+          <lb ed="#L" n="29"/>esse per illam productionem. terminus totalis ca 
+          <lb ed="#L" n="30"/>pit esse simpliciter per ipsam productionem. Et ex isto 
+          <lb ed="#L" n="31"/>sequitur quod non dicitur aliquid terminus formalis quia est 
+          <lb ed="#L" n="32"/>forma. Nam si deus crearet ipsam materiam per 
+          <lb ed="#L" n="33"/>se existentem. ista materia esset terminus formalis 
+          <lb ed="#L" n="34"/>et tamen non esset forma. Similiter si deus crearet materi 
+          <lb ed="#L" n="35"/>am sub forma praexistente. forma non esset terminus 
+          <lb ed="#L" n="36"/>formalis. sed ipsa materia.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e401">
+          ⁋ Si dicatur nihil potest 
+          <lb ed="#L" n="37"/>esse terminus materialis nisi materia. ergo nihil 
+          <lb ed="#L" n="38"/>potest esse terminus formalis nisi forma.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e408">
+          ⁋ Respon 
+          <lb ed="#L" n="39"/>deo quod equiuocatio est de formali. quia formale. 
+          <lb ed="#L" n="40"/>Uno modo est concretum ipsius forme et secundum
+          vo<lb ed="#L" n="41" break="no"/>cem et secundum significationem. et sic non loquuntur
+          con<lb ed="#L" n="42" break="no"/>muniter vtentes isto vocabulo. quando dicunt quod hoc 
+          <lb ed="#L" n="43"/>vel illud est terminus formalis. Alio modo dicitur
+          ter<lb ed="#L" n="44" break="no"/>minus formalis illud quod primo et secundum se totum 
+          <lb ed="#L" n="45"/>habent esse tali productione. et isto modo materia 
+          <lb ed="#L" n="46"/>potest esse terminus formalis. et ideo non est simile. 
+          <lb ed="#L" n="47"/>quia loquentes non vtuntur termino materiali. sicut 
+          <lb ed="#L" n="48"/>termino formali. Unde non est communis modus
+          lo<lb ed="#L" n="49" break="no"/>quendi. materia est terminus materialis. sed si 
+          <lb ed="#L" n="50"/>materia praecise intelligatur aliquo actu intellectus. 
+          <lb ed="#L" n="51"/>non dicimus quod materia est obiectum materiale. 
+          <lb ed="#L" n="52"/>sed dicimus quod materia est obiectum formale. 
+          <lb ed="#L" n="53"/>Similiter si aliquod totum intelligatur. et ratio terminan 
+          <lb ed="#L" n="54"/>di illam intellectionem non sit plus forma quam mate 
+          <lb ed="#L" n="55"/>riam. adhuc diceremus est obiectum formale non 
+          <!--293.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 145-v -->
+          <lb ed="#L" n="56"/>materiale. Ex istis sequitur quod quando aliquod compositum 
+          <lb ed="#L" n="57"/>creatur secundum se totum. non plus dicetur forma esse
+          ter<lb ed="#L" n="58" break="no"/>minus formalis illius creationis quam materia.
+          ni<lb ed="#L" n="59" break="no"/>si forte. quia forma est perfectior et principalior. sed illa 
+          <lb ed="#L" n="60"/>principalitas sicut patet prius non facit ad hoc quod magis 
+          <lb ed="#L" n="61"/>proprie dicatur terminus quam materia.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e467">
+          ⁋ Ex istis re 
+          <lb ed="#L" n="62"/>spondeo ad questionem primo quod essentia non est
+          ter<lb ed="#L" n="63" break="no"/>minus formalis generationis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e474">
+          ⁋ Secundo quod nec rela 
+          <lb ed="#L" n="64"/>tio est formalis terminus.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e479">
+          ⁋ Tertio quod ipsa persona 
+          <lb ed="#L" n="65"/>potest dici terminus formalis. non tamen distinguende 
+          <lb ed="#L" n="66"/>terminum formalem contrsa terminum totalem.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e487">
+          ⁋ Primum 
+          <lb ed="#L" n="67"/>patet per argumenta facta contrsi priorem opinionem. quia
+          ter<lb ed="#L" n="68" break="no"/>minus formalis est ille quai simpliciter habet esse per
+          produ<lb ed="#L" n="69" break="no"/>ctionem. sed essentia non est huiusmodi. ergo etc
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e496">
+          ⁋ Secundum ostendo 
+          <lb ed="#L" n="70"/>qui nihil vnum et idem potest esse terminus suiipsius 
+          <lb ed="#L" n="71"/>sed ipsa productio est relatio realiter et formaliter. sicut 
+          <lb ed="#L" n="72"/>post patebit. ergo relatio non potest esse terminus for 
+          <lb ed="#L" n="73"/>malis ipsius productonis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e507">
+          ⁋ Si dicatur quod licet productio 
+          <lb ed="#L" n="74"/>et relatio sit idem realiter. distinguitur tamen secundum modum 
+          <lb ed="#L" n="75"/>nostrum intelligendi. quia secundum modum nostrm
+          intellige<lb ed="#L" n="76" break="no"/>di ipsa productio est prior ipsa relatione. et propter
+          ta<lb ed="#L" n="77" break="no"/>lem prioritatem poterit ipsa relatio esse terminus 
+          <lb ed="#L" n="78"/>ipsius productionis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e520">
+          ⁋ Contra. quando dicitur quod productie 
+          <lb ed="#L" n="79"/>est prior secundum modum nonterm intelligendi. aut attri 
+          <lb ed="#L" n="80"/>buitur prioritas rei quae realiter est deus. aut tantum conce 
+          <lb ed="#L" n="81"/>ptui mentis. si rei. ergo esset ipsa res prior ipsa relatione 
+          <lb ed="#L" n="82"/>si ipsi conceptui. ergo productio quae est in deo non eritr pri 
+          <lb ed="#L" n="83"/>or. et de illa praecise est sermo. ergo praoritas conceptus 
+          <lb ed="#L" n="84"/>nihil facit ad hoc quod relatio sit terminus vel ne 
+          <lb ed="#L" n="85"/>sit terminus.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e538">
+          ⁋ Si dicatur quod ipsa res est prior. sed non 
+          <lb ed="#L" n="86"/>realiter sed tantum secundum modum nostrum intelligendi. et iti 
+          <lb ed="#L" n="87"/>nunquam est prior nisi quando intelligitur.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e545">
+          ⁋ Cotra si non 
+          <lb ed="#L" n="88"/>sit prior nisi secundum modum nostrm intelligendi. ergo modus 
+          <lb ed="#L" n="89"/>intelligendi noiter facit praecise illam prioritatem. ergo praecise 
+          <lb ed="#L" n="90"/>facit quod relatio est terminus illius productionis. 
+          <lb ed="#L" n="91"/>quod est absurdum. Similiter eo quod res est vel non est. oreto 
+          <lb ed="#L" n="92"/>est vera vel falsa. ergo si in re non sit prior. et intellectus 
+          <lb ed="#L" n="93"/>intelligit illam productionem esse porem iste
+          intelle<lb ed="#L" n="94" break="no"/>ctus erit simpliciter falsus. et ita non plus erit
+          produ<lb ed="#L" n="95" break="no"/>ctio diuina prior relatione. quam erit vnus asinus 
+          <lb ed="#L" n="96"/>qui intellectus potest intelligere vtrumque
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e568">
+          ⁋ Tertium 
+          <lb ed="#L" n="97"/>patet. quia illud potest dici terminus formalis alicuius 
+          <lb ed="#L" n="98"/>productionis quod simpliciter habet esse per productionem. et 
+          <lb ed="#L" n="99"/>non est formaliter ipsa productio. sed persona habet simpliciter 
+          <lb ed="#L" n="100"/>esse per generatione. et non est formaliter ipsa generatio. ergo 
+          <lb ed="#L" n="101"/>potest dici terminus formalis ipsius. non tamen distingue 
+          <lb ed="#L" n="102"/>do contraterminum totalem. Minor est manifesta. 
+          <lb ed="#L" n="103"/>maxime quando nihil aliud est quod habeat illas conditio 
+          <lb ed="#L" n="104"/>nes. et ita est minor vera. quia sola persona habet illas 
+          <lb ed="#L" n="105"/>conditiones: essentia enim quamuis non sit formaliter ipsuam 
+          <lb ed="#L" n="106"/>generatio. non tamen habet esse simpliciter per generationem. 
+          <lb ed="#L" n="107"/>Similiter relatio quamuis aliquo modo habeat esse per 
+          <lb ed="#L" n="108"/>generationem. sicut idem est seipo. tamen nullo
+          mo<lb ed="#L" n="109" break="no"/>do distinguitur a generatione. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e599">
+          ⁋ Ad primum alte 
+          <lb ed="#L" n="110"/>rius opinionis concedo istas auctoritates. sed dico quod 
+          <!--294.xml-->
+          <pb ed="#L" n="146-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>potest forma dari communicari siue praestari producto 
+          <lb ed="#L" n="2"/>quamuis non sit terminus formalis talis productionis. 
+          <lb ed="#L" n="3"/>licut si deus crearet materiam sub forma praexistente 
+          <lb ed="#L" n="4"/>illa forma communicaretur tali composito per illam
+          produ<lb ed="#L" n="5" break="no"/>ctionem. et tamen non esset terminus formalis talis pro 
+          <lb ed="#L" n="6"/>ductionis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e623">
+          ⁋ Ad secundum dico quod talis vniuocatio 
+          <lb ed="#L" n="7"/>qualis est in generatione diuina stat cum hoc quod 
+          <lb ed="#L" n="8"/>essentia non sit terminus formalis. quia ad illam
+          vnio<lb ed="#L" n="9" break="no"/>nem que est ibi sufficit quod generans et generatum 
+          <lb ed="#L" n="10"/>sint vna substantia. et quod illa substantia non
+          diffe<lb ed="#L" n="11" break="no"/>rat nec a generante nec a generato.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e636">
+          ⁋ Ad tertium quod 
+          <lb ed="#L" n="12"/>procedit ac si poneretur quod relatio esset terminus 
+          <lb ed="#L" n="13"/>formalis. Nunc autem hoc non est ponendum. sed ipsa persona 
+          <lb ed="#L" n="14"/>est terminus. nec est ibi alius. et quia persona ista est 
+          <lb ed="#L" n="15"/>simpliciter substantia per identitatem perfectissimam. ideo 
+          <lb ed="#L" n="16"/>ista productio nisi aliud impediat vere poterit 
+          <lb ed="#L" n="17"/>dici generatio.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e652">
+          ⁋ Ad quartum dico quod maior est falsa. 
+          <lb ed="#L" n="18"/>patet in exemplo. Si deus crearet materiam sub
+          for<lb ed="#L" n="19" break="no"/>ma praexistente. quia illa forma nec esset terminus 
+          <lb ed="#L" n="20"/>formalis. nec contenta vniversaliter in termino formali. 
+          <lb ed="#L" n="21"/>Ideo dico quod ad hoc quod forma sit habita per aliquam pr 
+          <lb ed="#L" n="22"/>ductione sufficit quod sit terminus formalis. vel 
+          <lb ed="#L" n="23"/>quod preexistat et communicetur alicui de nouo pro 
+          <lb ed="#L" n="24"/>ducto. vel quod sit idem realiter cum ipsa produ 
+          <lb ed="#L" n="25"/>ctione. quamuis non formaliter. sicut est in proposito 
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e672">
+          <lb ed="#L" n="26"/>⁋ Ad quantum dico quod philosophus intelligit quando terminus 
+          <lb ed="#L" n="27"/>formalis distinguitur a subiecto recipiente formam 
+          <lb ed="#L" n="28"/>non est sic in proposito. et ideo ista dicitur generatio. quis 
+          <lb ed="#L" n="29"/>vna res est eadem realiter cum substantia ipsius gen 
+          <lb ed="#L" n="30"/>rantis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e686">
+          ⁋ Sed circa praedicta occurrunt aliqua dubia 
+          <lb ed="#L" n="31"/>Primum quia non videtur quin essentia possit esse term 
+          <lb ed="#L" n="32"/>nus formalis. quamuis non habeat esse simpliciter per
+          pro<lb ed="#L" n="33" break="no"/>ductionem. quia sicut terminus alterationis se habet 
+          <lb ed="#L" n="34"/>ad alterationem. ita terminus productionis se habet 
+          <lb ed="#L" n="35"/>ad productionem. sed aliquid potest esse formalis
+          ter<lb ed="#L" n="36" break="no"/>minus alterationis. quamuis non habeat esse simpliciter per 
+          <lb ed="#L" n="37"/>illam alterationem. sicut si aliqua qualitas separata 
+          <lb ed="#L" n="38"/>vniretur de nouo subiecto. illud subiectum vere
+          altera<lb ed="#L" n="39" break="no"/>retur. et terminus illius alterationis esset qualitas. et tamen illa 
+          <lb ed="#L" n="40"/>qualitas non caperet esse simpliciter per illam alteratio 
+          <lb ed="#L" n="41"/>nem. ergo similiter essentia poterit esse terminus formalis 
+          <lb ed="#L" n="42"/>generationis. quamuis non caperet esse simpliciter 
+          <lb ed="#L" n="43"/>per illam generationem.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e717">
+          ⁋ Confirmatur. quia secundum philosophum 
+          <lb ed="#L" n="44"/>primo phisicorum. ad omnem rem cuiuscumque
+          predica<lb ed="#L" n="45" break="no"/>menti. vel salte absoluti est generatio. et per consequens pro 
+          <lb ed="#L" n="46"/>ductio. sed ad qualitatem non est nisi alteratio. ergo il 
+          <lb ed="#L" n="47"/>la est generatio. et tamen sicut probatum est terminus illius 
+          <lb ed="#L" n="48"/>non semper capit esse simpliciter.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e730">
+          ⁋ Secundum dubium. quia 
+          <lb ed="#L" n="49"/>videtur quod relatio sit terminus formalis. quia illud quod 
+          <lb ed="#L" n="50"/>capit esse simpliciter per productionem est terminus ipsius. 
+          <lb ed="#L" n="51"/>relatio est huiusmodi. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e739">
+          ⁋ Tertium quia videtur quod
+          perso<lb ed="#L" n="52" break="no"/>na non sit terminus formalis generationis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e744">
+          ⁋ hoc
+          pro<lb ed="#L" n="53" break="no"/>bant aliqui sic. persona constituitur formaliter per
+          ge<lb ed="#L" n="54" break="no"/>neratione. nullum autem formale attingit constitutum 
+          <lb ed="#L" n="55"/>originatiue et principiatiue. alioquin idem princi 
+          <!--294.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 146-r -->
+          <lb ed="#L" n="56"/>piaret se. cum sit quasi pars illius constituti.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e762">
+          ⁋ Preterea 
+          <lb ed="#L" n="57"/>generatio est via in ens. vt dicit philosophus. iiii. metha. sed 
+          <lb ed="#L" n="58"/>in filio non est aliquid ad quod posset esse via passiua 
+          <lb ed="#L" n="59"/>generationis. non enim filiatio. quia est idem cum ea. nec 
+          <lb ed="#L" n="60"/>essentia. quia praexistebat. nec persona. quia distinguere 
+          <lb ed="#L" n="61"/>tur realiter ab ea. via enim est a termino et in ter 
+          <lb ed="#L" n="62"/>minum. et ita persona esset via in seipsam. cum generatio 
+          <lb ed="#L" n="63"/>it aliquid eius. Nam persona constituitur formaliter 
+          <lb ed="#L" n="64"/>enerationem. Unde consequens est quod non sit ab ea 
+          <lb ed="#L" n="65"/>originaliter et principiatiue. quia impossibile est quod sit 
+          <lb ed="#L" n="66"/>ormalis terminus acquisitus in filio. in quem sit 
+          <lb ed="#L" n="67"/>via passiua generatio.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e789">
+          ⁋ Preterea non potest ne 
+          <lb ed="#L" n="68"/>negari a verbo divino quod est perfectionis et conceditur 
+          <lb ed="#L" n="69"/>de vbo nostro. sed in verbo mentis nostre non est 
+          <lb ed="#L" n="70"/>liquis formalis terminus acquisitus per formatio 
+          <lb ed="#L" n="71"/>nem passiuam ipsius. sed immediate ex formare 
+          <lb ed="#L" n="72"/>sequitur formari. quod patet si accipiatur rosa apparens 
+          <lb ed="#L" n="73"/>ex apparitione enim formali que est immediate actus 
+          <lb ed="#L" n="74"/>intelligendi. oritur apparitio obiectiua ratio se. que 
+          <lb ed="#L" n="75"/>quidem apparitione nihil facit circa rosam. nisi quod 
+          <lb ed="#L" n="76"/>cnpit esse apparens formaliter per ipsam
+          apparitio<lb ed="#L" n="77" break="no"/>nem passiuam. non autem effectiue aut principiate 
+          <lb ed="#L" n="78"/>et sic resultat vnum productum constitutum ex ipsa 
+          <lb ed="#L" n="79"/>passiua productione. que est apparitio obiectiua 
+          <lb ed="#L" n="80"/>et ex ipsa realitate indistincta ab ipsa appariti 
+          <lb ed="#L" n="81"/>one quod quidem constitutum est rosa simpliciter quan 
+          <lb ed="#L" n="82"/>ntellectus intuetur. Unde non producitur aliqua res 
+          <lb ed="#L" n="83"/>sed res et apparitio constituunt vnum simplex ap 
+          <lb ed="#L" n="84"/>parens quod in esse apparenti productum est passiua 
+          <lb ed="#L" n="85"/>apparitione formaliter non originaliter aut principiati 
+          <lb ed="#L" n="86"/>ue. ergo multo facilius in verbo diuino ad dicere 
+          <lb ed="#L" n="87"/>et generare patris. infertur dici et generari filii. sed  
+          <lb ed="#L" n="88"/>ex ipso generari vna cum divina essentia resultabit 
+          <lb ed="#L" n="89"/>vnus generatus et productus formaliter. non per modum 
+          <lb ed="#L" n="90"/>termini originati.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e841">
+          ⁋ Preterea de ratione passionis 
+          <lb ed="#L" n="91"/>non est nisi quod sit effectus illatioque actionis. ergo in 
+          <lb ed="#L" n="92"/>filio infertur generari ex generare paterno. et sic totus fili 
+          <lb ed="#L" n="93"/>us dicetur generatus generatione passiua illata a patre 
+          <lb ed="#L" n="94"/>absque hoc quod aliquid aliud acquiratur. Est ergo in 
+          <lb ed="#L" n="95"/>concusse tenendum. quod filius verissime generatur 
+          <lb ed="#L" n="96"/>tanquam constitutus ex passiua generatione et ex essen 
+          <lb ed="#L" n="97"/>tia. non autem quod essentia acquiratur per passiuam genera 
+          <lb ed="#L" n="98"/>tionem. aut filiatio. aut persona. aut aliquis alius. 
+          <lb ed="#L" n="99"/>terminus formalis. et in hoc decipiuntur omnes
+          opinan<lb ed="#L" n="100" break="no"/>tes qui querunt ibi aliquid formale. non est enim
+          ali<lb ed="#L" n="101" break="no"/>quid aliud nisi ipsamet filiatio siue generatio 
+          <lb ed="#L" n="102"/>passiua.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e870">
+          ⁋ Quartum dubium est. quia non videtur quod per 
+          <lb ed="#L" n="103"/>ona capiat esse simpliciter per generationem. quia illud 
+          <lb ed="#L" n="104"/>quod non est per generatione non capit esse per genera 
+          <lb ed="#L" n="105"/>tionem. sed persona non est per generationem. sed per 
+          <lb ed="#L" n="106"/>essentiam secundum beatum Augustinum. quia filius eo est quo 
+          <lb ed="#L" n="107"/>est deus. sed est deus essentia. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e883">
+          ⁋ Ad primum 
+          <lb ed="#L" n="108"/>dico quod aliquando in alteratione est productio et mutatio 
+          <lb ed="#L" n="109"/>et aliquando sola mutatio. et ideo concedo quod quando cum 
+          <lb ed="#L" n="110"/>alteratione est productio. tunc illud quod est terminus 
+          <!--295.xml-->
+          <pb ed="#L" n="146-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>sillius productonis habet simpliciter esse per illam. non autem 
+          <lb ed="#L" n="2"/>oportet quod illud quod est terminus alterationis 
+          <lb ed="#L" n="3"/>scilicet mutationis capiat esse per illam alterationem 
+          <lb ed="#L" n="4"/>sed sufficit quod prius ceperit esse per aliam productio e 
+          <lb ed="#L" n="5"/>nem. et ideo non est simile quantum ad capere esse
+          sim<lb ed="#L" n="6" break="no"/>pliciter. sed est simile quantum ad hoc quod sicut termi 
+          <lb ed="#L" n="7"/>nus alterationis habet esse in hoc per ipsam alteratio 
+          <lb ed="#L" n="8"/>nem. ita terminus formalis productonis habet esse 
+          <lb ed="#L" n="9"/>simpliciter per ipsam productionem. Et ideo concedo quod 
+          <lb ed="#L" n="10"/>quando qualitas praexistens de nouo vnitur subiecto. no 
+          <lb ed="#L" n="11"/>capit esse per illam alterationem. quia tunc est ibi mu 
+          <lb ed="#L" n="12"/>tatio sola sine productione saltem noua. Et si omnino 
+          <lb ed="#L" n="13"/>velis ibi habere productionem. Dicendum quod termi 
+          <lb ed="#L" n="14"/>nus formalis illius productonis nec est qualitas 
+          <lb ed="#L" n="15"/>nec subiectum. sed vnum aggregatum ex subiecto et 
+          <lb ed="#L" n="16"/>qualitate. quia de solo tali vere nunc primo dicitur quod hoc est 
+          <lb ed="#L" n="17"/>et ita idem est terminus totalis et formalis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e935">
+          ⁋ Per 
+          <lb ed="#L" n="18"/>hoc ad confirmationem dico quod secundum philosophum in omni 
+          <lb ed="#L" n="19"/>genere praedicamentali absoluto est generatio simpliciter 
+          <lb ed="#L" n="20"/>qui vera productio alicuius illius generis. non tamen sed 
+          <lb ed="#L" n="21"/>veritate oportet quod quandocumque aliquid de nouo mutatur quod 
+          <lb ed="#L" n="22"/>aliquod accidens de nouo producatur. quamuis philosophus hoc 
+          <lb ed="#L" n="23"/>diceret. quia ipse non poneret quod accidens prius tempere 
+          <lb ed="#L" n="24"/>posset produci. et postea vniri subiecto.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e953">
+          ⁋ Si
+          di<lb ed="#L" n="25" break="no"/>catur alteratio est formaliter generatio. Dico quod non 
+          <lb ed="#L" n="26"/>sed alteratio est formaliter mutatio. et ideo non 
+          <lb ed="#L" n="27"/>potest esse generatio qualitatis sine alteratione et 
+          <lb ed="#L" n="28"/>econuerso potest esse alteratio sine generatione vel
+          pro<lb ed="#L" n="29" break="no"/>ductione noua qualitatis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e967">
+          ⁋ Ad secundum dico quod ad ter 
+          <lb ed="#L" n="30"/>minum formalem requiritur aliqua nonidentitas ad 
+          <lb ed="#L" n="31"/>ipsam productionem. quando productio est vera res. hoc est 
+          <lb ed="#L" n="32"/>quod non sit idem formaliter. Nunc autem in proposito
+          ge<lb ed="#L" n="33" break="no"/>neratio et filiatio sunt idem formaliter. et ideo
+          filia<lb ed="#L" n="34" break="no"/>tio non est terminus formalis generationis. quamuis et 
+          <lb ed="#L" n="35"/>tensiue loquendo seipso capiat esse. nunc autem in 
+          <lb ed="#L" n="36"/>proposito generatio et filiatio sunt idem.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e985">
+          ⁋ Ad tertir 
+          <lb ed="#L" n="37"/>dico quod persona est terminus formalis non quidem 
+          <lb ed="#L" n="38"/>distinguendo contrsa terminum totalem. quia ibi non
+          distin<lb ed="#L" n="39" break="no"/>guitur terminus formalis a totali. Utrum autem 
+          <lb ed="#L" n="40"/>debeat proprie vocari terminus formalis vel tota 
+          <lb ed="#L" n="41"/>lis vel neutro modo est magis difficultas
+          vo<lb ed="#L" n="42" break="no"/>calis quam realis. ideo non est illi insistendum. Sed  
+          <lb ed="#L" n="43"/>dico quod persona vere est terminus originatus et est 
+          <lb ed="#L" n="44"/>terminus illius productionis salte actiue. hoc 
+          <lb ed="#L" n="45"/>patet. quia illud dicitur terminus alicuius respectu cuius ali 
+          <lb ed="#L" n="46"/>denominatur ab illo respectu. sed pater vere dicitur
+          ge<lb ed="#L" n="47" break="no"/>nerans in habitudine ad filium. quia pater vere dicitur 
+          <lb ed="#L" n="48"/>generans filium. sicut domins vere dicitur davins serui. et simile si 
+          <lb ed="#L" n="49"/>mili simile. ergo sicut senunus est terminus illius
+          respe<lb ed="#L" n="50" break="no"/>ctus. scilicet diii. ita filius vere dicetur terminus illius 
+          <lb ed="#L" n="51"/>generationis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e1020">
+          ⁋ Preterea illud quod vere refertur habet vere 
+          <lb ed="#L" n="52"/>terminum terminantem respectum illum. sed piter vere refertur 
+          <lb ed="#L" n="53"/>ad filium. ergo filius vere terminat relationem.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e1027">
+          ⁋ Ad per 
+          <lb ed="#L" n="54"/>mum argumentum in contrarium dico quod generatio passiua 
+          <lb ed="#L" n="55"/>constituit personam. Et quando dicitur quod nullum formale 
+          <!--295.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 146-v -->
+          <lb ed="#L" n="56"/>attingit illud constitutum origine et principiatiue 
+          <lb ed="#L" n="57"/>Dico quod verum est. ita quod sit principians et originans 
+          <lb ed="#L" n="58"/>et isto modo generatio passiua non principiat
+          fi<lb ed="#L" n="59" break="no"/>lium. sed solus pater. et ideo idem non principiat seipsmi 
+          <lb ed="#L" n="60"/>tamen formale costitutiuum sit intrinsece illud quo 
+          <lb ed="#L" n="61"/>aliquid dicitur principiari. non est inconueniens. et hoc 
+          <lb ed="#L" n="62"/>quando ipsa principiatio vel productio cum aliquo per se 
+          <lb ed="#L" n="63"/>constituit vnum suppositum. sicut est in proposito 
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e1058">
+          <lb ed="#L" n="64"/>⁋ Si tamen queritur an persona genita sit terminus ge 
+          <lb ed="#L" n="65"/>nerationis passiue: potest dici quod non. sed est magis 
+          <lb ed="#L" n="66"/>illud quod refertur illa generatione passiua. et termi 
+          <lb ed="#L" n="67"/>nus illius generationis est ipsemet pater. non tamen 
+          <lb ed="#L" n="68"/>pater dicitur generari illa generatione. sed dicitur 
+          <lb ed="#L" n="69"/>esse ille a quo filius generatur. sicut enim pater re 
+          <lb ed="#L" n="70"/>fertur paternitate vel generatione ad filium. et non 
+          <lb ed="#L" n="71"/>est terminus generationis actiue. sed filius est
+          ter<lb ed="#L" n="72" break="no"/>minus generationis actiue. ita econuerso filius 
+          <lb ed="#L" n="73"/>generatione passiua refertur ad patrem. et non est
+          ter<lb ed="#L" n="74" break="no"/>minus generationis passiue. sed pater. Et ideo 
+          <lb ed="#L" n="75"/>sicut pater dicitur generare filium tanquam terminum 
+          <lb ed="#L" n="76"/>generationis actiue. ita filius dicitur generari a 
+          <lb ed="#L" n="77"/>patre tanquam a termino generationis passiue. non 
+          <lb ed="#L" n="78"/>tamen generatio ipsa actiua vel passiua generat fi 
+          <lb ed="#L" n="79"/>lium proprie loquendo. sed ipsemet pater. Et ideo ar 
+          <lb ed="#L" n="80"/>gumenta predicti doctoris
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e1097">
+          ⁋ de cuius tamen dictis 
+          <lb ed="#L" n="81"/>pauca vidio que probant quod generatio passiua 
+          <lb ed="#L" n="82"/>non habet pro termino originato ipsum filium sunt 
+          <lb ed="#L" n="83"/>concedenda gratia conclusionis. quia filius non est ter 
+          <lb ed="#L" n="84"/>minus originatus ipsius generationis passiue sed 
+          <lb ed="#L" n="85"/>est relatiuum relatum generatione passiua. et ideo est 
+          <lb ed="#L" n="86"/>vere terminus originatus. ipsius generationis 
+          <lb ed="#L" n="87"/>actiue non passiue: nec est quaestio de termino
+          for<lb ed="#L" n="88" break="no"/>mali originato ipsius generationis passiue sed 
+          <lb ed="#L" n="89"/>actiue.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e1120">
+          ⁋ Ad quartum dico quod quando dicitur persona
+          ca<lb ed="#L" n="90" break="no"/>pit esse per generationem. lced per potest dicere circum 
+          <lb ed="#L" n="91"/>stantiam illius cui primo competit habere esse vel 
+          <lb ed="#L" n="92"/>non esse. et hoc est essentia. Uel circumstantiam
+          pro<lb ed="#L" n="93" break="no"/>ductionis qua aliquid producitur ab alio. et qua
+          ac<lb ed="#L" n="94" break="no"/>cipit esse ab alio. et sic intelligit Augustinus quando 
+          <lb ed="#L" n="95"/>dicit quod filius quicqud habet nascendo habet a 
+          <lb ed="#L" n="96"/>patre. et sic filius capit esse per generationem 
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e1138">
+          <lb ed="#L" n="97"/>⁋ Ad argumentum principale patet. quod persona est 
+          <lb ed="#L" n="98"/>terminus et formalis et totalis. eo modo quo est 
+          <lb ed="#L" n="99"/>ibi terminus totalis et formalis.
+        </p>
+        <p xml:id="wo8uy7-d1e622-d1e1147">
+          ⁋ Argumentum 
+          <lb ed="#L" n="100"/>ad oppositum concedo gratia conclusionis. quamuis 
+          <lb ed="#L" n="101"/>accipiat vnum falsum nisi melius intelligatur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

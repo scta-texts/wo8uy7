@@ -1,730 +1,730 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="140-v"/>
-            <cb ed="#L" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e598"><!-- l1d5q1 -->
-            <head xml:id="wo8uy7-d1e598-Hd1e108">Quaestio 1</head>
-            <p xml:id="wo8uy7-d1e598-d1e111">
-               <lb ed="#L" n="93"/>⁋ Distinctionis quinte. Questio prima. 
-      <lb ed="#L" n="94"/>CIrca 
-      distinctio<lb ed="#L" n="95" break="no"/>nem quantam quaero primo.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e120">
-      ⁋ Utrum 
-      <lb ed="#L" n="96"/>essentia divina generet vel gene 
-      <lb ed="#L" n="97"/>retur
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e127">
-      ⁋ Quod sic. primo sic. essentia di 
-      <lb ed="#L" n="98"/>uina est res generans vel pater
-      ge<lb ed="#L" n="99" break="no"/>nerans. et vltra. ergo essentia divina est 
-      <lb ed="#L" n="100"/>generans. et vltra. ergo essentia diuina generat. antecedens 
-      <lb ed="#L" n="101"/>verum. ergo et consequens. Prima consequentia patet per illam regulam prius 
-      <lb ed="#L" n="102"/>acceptam. quod a determinabili sumpto cum detmina 
-      <lb ed="#L" n="103"/>tione non distrahente nec diminuente ad
-      determina<lb ed="#L" n="104" break="no"/>bile absolute sumptum est bona consequentia. ergo sequitur 
-      <lb ed="#L" n="105"/>essentia divina est res generans. ergo est generans. 
-      <lb ed="#L" n="106"/>Secunda consequentia patet. quia de quocumque praedicatur participium 
-      <lb ed="#L" n="107"/>alicuius verbi. ipsum verbum praedicatur de eodem. Atecedens 
-      <lb ed="#L" n="108"/>patet. quia essentia est pater. et non est pater non generans 
-      <lb ed="#L" n="109"/>ergo est pater generans. et vltra. ergo est res gene¬ 
-      <!--284.xml-->
-      <pb ed="#L" n="141-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>rans.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e164">
-      ⁋ Secundo sic. non minus est diuina essentia 
-      <lb ed="#L" n="2"/>ratio gnerandi quam forma in creaturis est ratio agendi. 
-      <lb ed="#L" n="3"/>sed quia forma in creaturis est ratio agendi vere dicitur 
-      <lb ed="#L" n="4"/>forma esse agens. ergo eodem modo quia essentia
-      di<lb ed="#L" n="5" break="no"/>uina est ratio gnerandi. vere dicitur generans. Maior 
-      <lb ed="#L" n="6"/>videtur manifesta. quia nihil est quod possit vere esse 
-      <lb ed="#L" n="7"/>ratio generandi nisi essentia diuina. Probatio mi 
-      <lb ed="#L" n="8"/>noris. tum quia illud quo posito potest poni actio. et 
-      <lb ed="#L" n="9"/>quo non posito non potest poni actio est vere agens 
-      <lb ed="#L" n="10"/>sed posita forma potest poni actio. et ipsa amota 
-      <lb ed="#L" n="11"/>quocumque alio posito non potest poni actio. ergo 
-      <lb ed="#L" n="12"/>pria forma vere est agens. Tum quia agere conuenit 
-      <lb ed="#L" n="13"/>alicui primo et non conuenit primo subiecto. nec ag  
-      <lb ed="#L" n="14"/>gregato ex forma et subiecto. quia tunc nihil 
-      <lb ed="#L" n="15"/>posset agere nisi subiectum. vt tale aggregatum. 
-      <lb ed="#L" n="16"/>quod est manifeste falsum. quia ipsa forma sepa 
-      <lb ed="#L" n="17"/>rata poterit agere. Tum quia accidens separatum 
-      <lb ed="#L" n="18"/>vere agit. ergo quando est coiunctum vere aget. Tum quia 
-      <lb ed="#L" n="19"/>agere conuenit subiecto per formam. ergo verius
-      co<lb ed="#L" n="20" break="no"/>petet ipsi forme. Tum quia intellectus intelligit 
-      <lb ed="#L" n="21"/>ecundum beatum augustinum. ergo eadem ratione forma agit 
-      <lb ed="#L" n="22"/>Tum quia aliter pars non dicetur moueri. quia nihil 
-      <lb ed="#L" n="23"/>posset agere. nec per consequens pati nisi subiectum vel 
-      <lb ed="#L" n="24"/>compositum.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e217">
-      ⁋ Tertio sic. quandocumque aliqua sunt idem 
-      <lb ed="#L" n="25"/>omnibus modis ex natura rei. de quibuscunque dicitur 
-      <lb ed="#L" n="26"/>vnum et reliquum. sed generare et prnitas sunt idem 
-      <lb ed="#L" n="27"/>omnibus modis ex natura rei. ergo si essentia de est 
-      <lb ed="#L" n="28"/>paternitas. essentia diuina vere generat.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e228">
-      ⁋ Quarto 
-      <lb ed="#L" n="29"/>sic. essentia diuina est pater. ergo essentia divina gene 
-      <lb ed="#L" n="30"/>rat. Atecedens patet per praecedente questionem. consequentia patet 
-      <lb ed="#L" n="31"/>quia omnis pater generat vel genuit. ergo si essen 
-      <lb ed="#L" n="32"/>tia diuina est pater. vere generat vel genuit 
-      <lb ed="#L" n="33"/>Similiter si est pater. ergo est filii pater. sed non est pater filii 
-      <lb ed="#L" n="34"/>nisi quem generat. ergo generat filium.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e244">
-      ⁋ Ad
-      opposi<lb ed="#L" n="35" break="no"/>tum est magister in littera
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e249">
-      ⁋ Conclusio. in ista
-      que<lb ed="#L" n="36" break="no"/>stione est certa quod essentia divina non generat nec 
-      <lb ed="#L" n="37"/>generatur. et est determinata per ecclesiam
-      ex<lb ed="#L" n="38" break="no"/>tra de summa trini. et fide catholica. c. damna 
-      <lb ed="#L" n="39"/>mus. Sed diuerse rationes a diuersis assignantur. 
-      <lb ed="#L" n="40"/>Unde dicunt aliqui quod essentia non generat nec 
-      <lb ed="#L" n="41"/>generatur. quia essentia non potest supponere pro 
-      <lb ed="#L" n="42"/>supposito. et ideo ea que sunt propria personarum 
-      <lb ed="#L" n="43"/>quibus ab inuicem distinguuntur. non possunt essentie 
-      <lb ed="#L" n="44"/>attribui. significaret enim quod esset distinctio in est 
-      <lb ed="#L" n="45"/>sentia diuina sicut est in suppositis.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e273">
-      ⁋ Contra 
-      <lb ed="#L" n="46"/>si ista ratio esset bona. hec esset falsa. essntia est 
-      <lb ed="#L" n="47"/>paternitas. quia paternitas est ita propria ipsi
-      sup<lb ed="#L" n="48" break="no"/>posito sicut ipsum generare. et per consequens ita 
-      <lb ed="#L" n="49"/>significaretur distinctio in ipsa essentia divina sicut 
-      <lb ed="#L" n="50"/>in suppositis nisi aliud obstaret
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e286">
-      ⁋ Aliter dicitur quod haoc non 
-      <lb ed="#L" n="51"/>est concedenda quod essentia generat. et ratio logicalis 
-      <lb ed="#L" n="52"/>assignatur ista. quandocumque subiectum est abstractum 
-      <lb ed="#L" n="53"/>vltimata abstractione et praedicatum ex ratione sua 
-      <lb ed="#L" n="54"/>non potest predicari nisi formaliter. non potest 
-      <lb ed="#L" n="55"/>esse vera propositio nisi sit per se primo modo  
-      <!--284.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 141-r -->
-               <lb ed="#L" n="56"/>subiectum est hic abstractum vltiata abstractione 
-      <lb ed="#L" n="57"/>et hoc praedicatum de ratione sua non potest praedicari nisi for 
-      <lb ed="#L" n="58"/>maliter. et modo inherentis. ergo propositio non potest esse 
-      <lb ed="#L" n="59"/>vera nisi per se primo modo. sed hec non est vera primo 
-      <lb ed="#L" n="60"/>modo: quia praedicatum non est de per se intellectu subiecti 
-      <lb ed="#L" n="61"/>omne enim quod dicitur ad aliud est aliquid praeter relati 
-      <lb ed="#L" n="62"/>onem. vii. Tho. et ita relatio non est infra conceptum 
-      <lb ed="#L" n="63"/>illius absoluti. Maior declaratur. in substantiis 
-      <lb ed="#L" n="64"/>est tantum vna abstractio. scilicet quidditatis a
-      supposi<lb ed="#L" n="65" break="no"/>to proprie nature. quia substantiae non sunt nate concernere 
-      <lb ed="#L" n="66"/>aliquid alterius nature sicut humanitas abstrahitur. ex 
-      <lb ed="#L" n="67"/>ideo illud vt sic consideratum est praecise ipsum. quia cuilibet 
-      <lb ed="#L" n="68"/>alii extaneum. sicut dicit Auicenna. v. metha.
-      equi<lb ed="#L" n="69" break="no"/>nitas est tantum equinitas et nihil aliud: sed in acciden 
-      <lb ed="#L" n="70"/>tibus est abstractio a suppositis alterius
-      natu<lb ed="#L" n="71" break="no"/>re primo dicendo albedo. Secunda ab indiuiduis. di 
-      <lb ed="#L" n="72"/>cendo quidditas albedinis. In relatiuis sunt
-      plu<lb ed="#L" n="73" break="no"/>res abstractiones. et sic patet quod vltia abstractio 
-      <lb ed="#L" n="74"/>est quidditatis absolutissime sumpte ab omni eo 
-      <lb ed="#L" n="75"/>quod est quocumque modo extra rationem quidditatis.
-      Cir<lb ed="#L" n="76" break="no"/>ca alium terminum eiusdem maioris. scilicet quod praedicatum 
-      <lb ed="#L" n="77"/>de quocumque praedicatur de necessitate formaliter praedi 
-      <lb ed="#L" n="78"/>cetur. dicitur esse notandum quod substantiua possunt
-      dupli<lb ed="#L" n="79" break="no"/>citer praedicari in diuinis. quandoque formaliter. quandoque per 
-      <lb ed="#L" n="80"/>identitatem. Sed adiectiua si praedicantur. de necessi 
-      <lb ed="#L" n="81"/>tate praedicantur formaliter. et hoc quia sunt adiectiva. 
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e363">
-               <lb ed="#L" n="82"/>⁋ Nam ex hoc quod adiectiua sunt. significant formam 
-      <lb ed="#L" n="83"/>per modum informantis illud de quo videlicet
-      for<lb ed="#L" n="84" break="no"/>maliter dicuntur. talia non sunt tantum nomina adiectiua 
-      <lb ed="#L" n="85"/>sed etiam omnia participia et verba.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e374">
-      ⁋ Ex istis patet illa 
-      <lb ed="#L" n="86"/>maior. quia illud praedicatum praecise natum est praedicari 
-      <lb ed="#L" n="87"/>formalit. ideo non potest saluari veritas propter identi 
-      <lb ed="#L" n="88"/>tatem tantum. et quia subiectum summa abstractione ab 
-      <lb ed="#L" n="89"/>stractum non potest stare pro aliquo qualitercumque alio 
-      <lb ed="#L" n="90"/>a se. sed praecise pro se formaliter. et ideo oportet quod sus 
-      <lb ed="#L" n="91"/>ratio praecise formaliter esset idem illi praedicato. quod  
-      <lb ed="#L" n="92"/>non posset esse nisi ista ratio praecise includeret illud  
-      <lb ed="#L" n="93"/>praedicatum. patet ergo maior et minor. est manifesta. ideo 
-      <lb ed="#L" n="94"/>etc
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e396">
-      ⁋ Contra istam opinionem arguo quod maior
-      assum<lb ed="#L" n="95" break="no"/>pta sit simplicitur falsa
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e401">
-      ⁋ Nam ista est vera secundum istum 
-      <lb ed="#L" n="96"/>essentia diuina communicatur filio. et hoc praedicatum est 
-      <lb ed="#L" n="97"/>verbum vel participium quod non est natum praedicari
-      nisi<lb ed="#L" n="98" break="no"/>formaliter. et tamen non est per se primo modo.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e410">
-      ⁋ Preterea. 
-      <lb ed="#L" n="99"/>hec est vera. essentia diuina videtur ab
-      intelle<lb ed="#L" n="100" break="no"/>ctu creato. et subiectum est abstractum vltiata ab 
-      <lb ed="#L" n="101"/>stractione. et praedicatum non est natum predicari nisi 
-      <lb ed="#L" n="102"/>tantum formaliter. et tamen non est per se primo modo etiam secundum 
-      <lb ed="#L" n="103"/>eos.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e423">
-      ⁋ Ad ista dicitur quod communicari et similiter videri. 
-      <lb ed="#L" n="104"/>ab intellectu creato dicit praecise relationem rationis 
-      <lb ed="#L" n="105"/>super essentiam. et ideo non ponunt aliquid reale in essen 
-      <lb ed="#L" n="106"/>tia. et propter hoc non sunt praedicata distinctiua essen 
-      <lb ed="#L" n="107"/>tie. sed gnerare est aliquid reale in essentia. et reale
-      pri<lb ed="#L" n="108" break="no"/>dicatum distinctiuum illius cui conuenit ab alio. Et 
-      <lb ed="#L" n="109"/>ideo illa minor intelligitur quando praedicatum est aliquid rea 
-      <lb ed="#L" n="110"/>le distinctiuum illius cui additur non ess rationis tantum. tunc 
-      <!--285.xml-->
-      <pb ed="#L" n="141-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>arguitur sic. Nullum praedicatum quod necessario
-      praed<lb ed="#L" n="2" break="no"/>catur formaliter et est distinctiuum illius cui addi 
-      <lb ed="#L" n="3"/>tur potest praedicari de essentia in abstracto. sed
-      ge<lb ed="#L" n="4" break="no"/>nerare tantum praedicatur formaliter. et est distinctiuum illius 
-      <lb ed="#L" n="5"/>cui additur. ergo non potest praedicari de essentia in abi 
-      <lb ed="#L" n="6"/>stracto.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e461">
-      ⁋ Cotra. abstractum vltiata abstractione 
-      <lb ed="#L" n="7"/>non magis abstrahitur ab ente reali. quam ab ente 
-      <lb ed="#L" n="8"/>rationis. quia ita repugnat sibi quod sit ens rationis sicut 
-      <lb ed="#L" n="9"/>quod sit quodcumque ens reale sibi extraneum. ergo tale ab 
-      <lb ed="#L" n="10"/>stractum non magis recipit predicationem entis 
-      <lb ed="#L" n="11"/>rationis quam entis realis. ergo si propter talem abstractior 
-      <lb ed="#L" n="12"/>nem hec esset falsa. essentia generat multo
-      ma<lb ed="#L" n="13" break="no"/>gis hec esset falsa. essentia communicatur. essentia
-      vi<lb ed="#L" n="14" break="no"/>detur ab intellectu creato. si ista dicant praecise re 
-      <lb ed="#L" n="15"/>lationem rationis. quia iste relationes. rationis ita erunt ex 
-      <lb ed="#L" n="16"/>tranee sibi sicut generare reale.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e485">
-      ⁋ Confirmatur 
-      <lb ed="#L" n="17"/>qui secundum auicennam quem allegat. sicut equinitas
-      in<lb ed="#L" n="18" break="no"/>quantum equinitas non est vna nec plures: ita nec 
-      <lb ed="#L" n="19"/>est in effectu nec in intellectu nec vniversale nec
-      parti<lb ed="#L" n="20" break="no"/>culare. et tamen aliqua istorum tanmtum dicunt vltra equinitatem 
-      <lb ed="#L" n="21"/>entia rationis. ergo a tali abstracto non magis remo 
-      <lb ed="#L" n="22"/>uetur aliquid reale sibi extraneum quam ens rationis cuius 
-      <lb ed="#L" n="23"/>esse est sibi extraneum.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e503">
-      ⁋ Preterea. supposito quod 
-      <lb ed="#L" n="24"/>communicari et videri ab intellectu creato dicunt pre 
-      <lb ed="#L" n="25"/>cise relationes rationis. tamen intelligere et velle esse bo 
-      <lb ed="#L" n="26"/>num et esse sapientem et huiusmodi dicunt aliquid reale. 
-      <lb ed="#L" n="27"/>sicut et generare. sed omnes iste sunt vere essentia 
-      <lb ed="#L" n="28"/>diuina intelligit. essentia diuina vult. essentia est 
-      <lb ed="#L" n="29"/>bona. est sapines. et sic de aliis. et tamen sunt vere
-      pri<lb ed="#L" n="30" break="no"/>mo modo dicendi per se secundum istum. quia omnia ista
-      praedica<lb ed="#L" n="31" break="no"/>ta distinguntur formaliter ab essentia diuina secundum 
-      <lb ed="#L" n="32"/>eos.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e525">
-      ⁋ Preterea. hec est vera essentia diuina cre 
-      <lb ed="#L" n="33"/>at. essentia diuina distinguitur a creatura. et tamen pre 
-      <lb ed="#L" n="34"/>dicata sunt distinctiua. quia neccessario inferunt
-      esen<lb ed="#L" n="35" break="no"/>tiam diuinam distingui ab aliquo.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e534">
-      ⁋ Preterea. ratio sua 
-      <lb ed="#L" n="36"/>non concludit: quia huius deberet assignari ratio quare
-      ta<lb ed="#L" n="37" break="no"/>le praedicatum reale distinctum non praedicatur de essen 
-      <lb ed="#L" n="38"/>tia. et assignat rationem. quia subiectum est abstractum 
-      <lb ed="#L" n="39"/>vltiata abstractione. et praedicatum non est natum
-      praedi<lb ed="#L" n="40" break="no"/>cari nisi formaliter. sed ista causa est communis siue praedicatur 
-      <lb ed="#L" n="41"/>praedicatum distinctiuum siue aliud.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e550">
-      ⁋ Preterea. semper 
-      <lb ed="#L" n="42"/>stat quod non oportet istam propositionem essentia generat 
-      <lb ed="#L" n="43"/>esse veram per se primo modo. et ideo non est neganda. quia ex 
-      <lb ed="#L" n="44"/>forma praedicationis sequeretur ipsam esse veram per se
-      pri<lb ed="#L" n="45" break="no"/>mo modo. et tunc secundum eos eodem modo essent iste
-      negan<lb ed="#L" n="46" break="no"/>de essentia est bona. intelligens. volens. et huiusmodi. quia 
-      <lb ed="#L" n="47"/>non sunt per se primo modo etiam secundum eos. Sed ideo est ista 
-      <lb ed="#L" n="48"/>neganda essentia generat. quia inferret essentiam
-      di<lb ed="#L" n="49" break="no"/>stingui a genito. et hoc est ratio magistri quae melior est 
-      <lb ed="#L" n="50"/>quam alia.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e573">
-      ⁋ Secundo arguo contra praedictam maiorem. quia 
-      <lb ed="#L" n="51"/>non minus abstrahitur subiectum ab accidente. quam ab 
-      <lb ed="#L" n="52"/>stractum vltiata abstractione a talibus praedicatis 
-      <lb ed="#L" n="53"/>cuiusmodi sunt generare et spirare etc. sed non obstante 
-      <lb ed="#L" n="54"/>tali abstractione aliquod accidentale quod non est natum 
-      <lb ed="#L" n="55"/>praedicari nisi formaliter praedicatur de subiecto. et non 
-      <!--285.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 141-v -->
-               <lb ed="#L" n="56"/>per se primo modo. sicut quod homo est albus musicus 
-      <lb ed="#L" n="57"/>etc. ergo non obstante tali abstractione poterunt aliqua 
-      <lb ed="#L" n="58"/>praedicari quae non sunt nata praedicari. nisi formaliter de 
-      <lb ed="#L" n="59"/>tali abstracto. et tamen non per se primo modo. Confirmatur 
-      <lb ed="#L" n="60"/>ista ratio. quia abstractio talis non facit quod propositio sit vera 
-      <lb ed="#L" n="61"/>primo modo vel secundo. sed praecise facit quod illud abstractum 
-      <lb ed="#L" n="62"/>non potest supponere pro illo a quo abstrahitur. ergo 
-      <lb ed="#L" n="63"/>quamuis essentia sit abstractum vltimata abstractione 
-      <lb ed="#L" n="64"/>ex hoc non sequitur. quod nihil quod non est natum praedicari. 
-      <lb ed="#L" n="65"/>de ea nisi per se primo modo. sed facit quod essentia non potest 
-      <lb ed="#L" n="66"/>supponere pro persona vel supposito et de hoc est quao 
-      <lb ed="#L" n="67"/>principalis an illa essentia generet.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e619">
-      ⁋ Tertio
-      ma<lb ed="#L" n="68" break="no"/>ior sua est falsa in creatur. quia hoc est vera. equinitas 
-      <lb ed="#L" n="69"/>distinguitur a deo. equinitas est creata. et tamen predi 
-      <lb ed="#L" n="70"/>cata non sunt nata praedicari nisi formaliter. et tamen 
-      <lb ed="#L" n="71"/>sunt vere per se primo modo. Similiter hoec est v vera. humanitas 
-      <lb ed="#L" n="72"/>est vna. et tamen non est per se primo modo. Assumptum patet 
-      <lb ed="#L" n="73"/>qui sequitur. hoc humanitas est vna. ergo humanitas est vna 
-      <lb ed="#L" n="74"/>ab inferiori ad superius. et antecedens est verum. ergo et consequens 
-      <lb ed="#L" n="75"/>Preterea quod dicit quod in substantiis non est
-      abstra<lb ed="#L" n="76" break="no"/>ctio nisi a suppositis proprie nature. non est verum 
-      <lb ed="#L" n="77"/>secundum eum. quia illud quod praedicatur de alio et non in
-      abstra<lb ed="#L" n="78" break="no"/>cto. praedicatur de illo concretiue. sed substantia praedicatur de 
-      <lb ed="#L" n="79"/>aliquo supposito alterius nature. et non in abstra 
-      <lb ed="#L" n="80"/>cto. sicut hoc est vera filius dei est homo. et hoc est falsa 
-      <lb ed="#L" n="81"/>filius dei est humanitas. ergo substantia concernit aliquod
-      sup<lb ed="#L" n="82" break="no"/>positum alterius nature.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e654">
-      ⁋ Preterea sicut albedo
-      praedi<lb ed="#L" n="83" break="no"/>catur de albedibus singularibus. quamuis a supposito 
-      <lb ed="#L" n="84"/>alterius nature abstrahatur. ita humanitas praedicatur 
-      <lb ed="#L" n="85"/>de humanitatibus singularibus. Nam haec est vera. hoc 
-      <lb ed="#L" n="86"/>humanitas est humanitas. quamuis non praedicatur de
-      sup<lb ed="#L" n="87" break="no"/>posito alterius nature. ergo huanitas nonesm abstractum 
-      <lb ed="#L" n="88"/>vltiata abstractione. sicut nec albedo.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e670">
-      ⁋ Preterea 
-      <lb ed="#L" n="89"/>quod dicit quod quidditas albedinis abstrahitur a propriis 
-      <lb ed="#L" n="90"/>singularibus non est verum. quia sicut onsum est in secunda distin 
-      <lb ed="#L" n="91"/>ctione non est talis differentia in albedine. quod sit quidditas 
-      <lb ed="#L" n="92"/>vel aliquid praeter quidditatem. quod tamen requireretur ad
-      ta<lb ed="#L" n="93" break="no"/>lem abstractionem.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e683">
-      ⁋ Preterea quod dicit de secundo termino 
-      <lb ed="#L" n="94"/>non est ad propositum. quia quamuis non possit praedicari ni 
-      <lb ed="#L" n="95"/>si formaliter. tamen ex hoc non sequitur. quod si praedicatur de ali 
-      <lb ed="#L" n="96"/>quo quod non potest stare pro quocumque alio nisi praecise pro 
-      <lb ed="#L" n="97"/>seipso. et propter hoc predicatur primo modo. quia album mu 
-      <lb ed="#L" n="98"/>sicu et huiusmodi secundum rationem suam non possunt praedicari
-      nisi<lb ed="#L" n="99" break="no"/>formaliter. et homo non potest stare nisi pro seipso. Unde 
-      <lb ed="#L" n="100"/>nullo modo potest homo stare pro quocumque accidente 
-      <lb ed="#L" n="101"/>et tamen iste sunt vere homo est albus homo est musicus. homo 
-      <lb ed="#L" n="102"/>currit. et sic de aliis. Et huius ratio est. quia quamuis homo 
-      <lb ed="#L" n="103"/>non possit stare nisi pro homine. quia tamen album currens. et 
-      <lb ed="#L" n="104"/>sic de aliis adiectiuis verbis et participiis. possunt
-      sta<lb ed="#L" n="105" break="no"/>re pro homine. ideo propositiones verificantur. quamuis non sint per 
-      <lb ed="#L" n="106"/>se primo modo. et eodem modo quia in talibus propositionibus
-      equi<lb ed="#L" n="107" break="no"/>nitas creatur. equinitas distinguitur a deo. et sic de 
-      <lb ed="#L" n="108"/>aliis. ipsa praedicata possunt supponere pro ipsa equinita 
-      <lb ed="#L" n="109"/>te. ideo tales sunt vere quia subiectum et praedicatum pro
-      eisdem<lb ed="#L" n="110" break="no"/>supponunt. ergo eodem modo si generare vel generans 
-      <!--286.xml-->
-      <pb ed="#L" n="142-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>posset supponere pro ipsa essentia adhuc esset 
-      <lb ed="#L" n="2"/>vera. essentia generat. quamuis non esset per se primo 
-      <lb ed="#L" n="3"/>modo sicut hec est vera. essentia diuina est bona 
-      <lb ed="#L" n="4"/>quia praedicatum supponit pro ipsa essentia. quamuis no 
-      <lb ed="#L" n="5"/>sit per se primo modo. Unde de ratione talium praedicatorum 
-      <lb ed="#L" n="6"/>scilicet adiectiuorum. participiorum etc. est supponere
-      pro<lb ed="#L" n="7" break="no"/>aliis quam pro significatis suorum abstractorum. et ideo 
-      <lb ed="#L" n="8"/>de aliis praedicantur. immo quasi semper praedicantur de aliis. 
-      <lb ed="#L" n="9"/>scilicet de illis quae abstrabuntur ab eis
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e748">
-      ⁋ Ideo dico 
-      <lb ed="#L" n="10"/>aliter ad quaestionem quod essentia diuina nec generat 
-      <lb ed="#L" n="11"/>nec generatur. quia si aliqua talis esset vera sequeretur 
-      <lb ed="#L" n="12"/>vere essentiam distingui ab illo quod generat vel 
-      <lb ed="#L" n="13"/>generatur. sed essentia diuina a neutro
-      distingui<lb ed="#L" n="14" break="no"/>tur. et ideo non generat nec generatur.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e762">
-      ⁋ Sed quae est ratio 
-      <lb ed="#L" n="15"/>istius quare non potest dici quod essentia generat sicut 
-      <lb ed="#L" n="16"/>conceditur quod essentia est pater essentia est paterni 
-      <lb ed="#L" n="17"/>tas.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e771">
-      ⁋ Respondeo quod aliqua sunt predicata que 
-      <lb ed="#L" n="18"/>de nullo possunt praedicari: nisi de illo de quo primo et 
-      <lb ed="#L" n="19"/>immediate praedicantur. vel saltem non de aliquo
-      nisi<lb ed="#L" n="20" break="no"/>per aliquid intrinsecum sibi. et quod sit de ratione eius. si 
-      <lb ed="#L" n="21"/>cut patet quod esse idem et diuersum et huiusmodi de nul 
-      <lb ed="#L" n="22"/>lo praedicantur nisi de quo immediate dicuntur. vel 
-      <lb ed="#L" n="23"/>saltem per aliquid intrinsecum illi de quo praedicantur 
-      <lb ed="#L" n="24"/>Unde impossibile est quod aliquid distinguatur ab alio 
-      <lb ed="#L" n="25"/>nisi vel seipso vel per aliquid sibi intrinsecum. Unde 
-      <lb ed="#L" n="26"/>dicere quod sortes distinguatur a platone per iohannem 
-      <lb ed="#L" n="27"/>nihil est. Uel dicere quod materia distinguatur ab 
-      <lb ed="#L" n="28"/>angelo per formam: nihil est sed materia seipsa
-      distin<lb ed="#L" n="29" break="no"/>guitur et a forma et ab aliis. et compositum distinguitur 
-      <lb ed="#L" n="30"/>a materia per formam quae est aliquid sibi intrinsecum: et 
-      <lb ed="#L" n="31"/>ita est de multis aliis praedicatis
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e804">
-      ⁋ Aliqua autem 
-      <lb ed="#L" n="32"/>praedicata predicantur de aliquo mediante aliquo 
-      <lb ed="#L" n="33"/>sibi extrinseco. sicut ponendo quantitatem esse aliam 
-      <lb ed="#L" n="34"/>rem a substantia et a corpore. tunc homo diceretur esse al 
-      <lb ed="#L" n="35"/>bus. quia quantitas sua esset alba. Similiter ignis
-      di<lb ed="#L" n="36" break="no"/>citur calefacere. quia calor calefacit. Non sic autem potes 
-      <lb ed="#L" n="37"/>dici quod homo est in subiecto. quia albedo hominis est 
-      <lb ed="#L" n="38"/>in subiecto. Et ita est quod multa praedicata quae
-      praedi<lb ed="#L" n="39" break="no"/>causatur de accidente primo. secundario praedicantur de sumi 
-      <lb ed="#L" n="40"/>iecto accidentis. et multa quae primo praedicantur de ac 
-      <lb ed="#L" n="41"/>cidente nullo modo praedicantur de subiecto. Similiter 
-      <lb ed="#L" n="42"/>multa praedicata quae praedicantur primo de natura assum 
-      <lb ed="#L" n="43"/>pta praedicantur de verbo assumente. sicut pati mori 
-      <lb ed="#L" n="44"/>commedere bibere. et sic de aliis. et aliqua quae praedicam 
-      <lb ed="#L" n="45"/>tur de illa natura. non praedicantur de verbo. Unde 
-      <lb ed="#L" n="46"/>esse aliud a deo praedicatur de natura. non tamen de
-      ver<lb ed="#L" n="47" break="no"/>bo assumente. et ita est de multis. Nunc autem siue 
-      <lb ed="#L" n="48"/>ex proprietate istorum praedicatorum. siue ex vsu loque 
-      <lb ed="#L" n="49"/>tim ista praedicata non possunt in diuinis de aliquo
-      pri<lb ed="#L" n="50" break="no"/>dicari. nisi de quo primo et immediate praedicantur 
-      <lb ed="#L" n="51"/>Et quia non praedicantur primo et immediate nisi de 
-      <lb ed="#L" n="52"/>supposito. ideo de solo supposito et non de essentia 
-      <lb ed="#L" n="53"/>praedicantur. et ideo hec non est vera. essentia generat 
-      <lb ed="#L" n="54"/>nec essentia generatur. Si autem hoc sit ex vsu scorum 
-      <lb ed="#L" n="55"/>et loquentium. rationabiliter poterunt ad hoc mouenr. 
-      <!--286.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 142-r -->
-               <lb ed="#L" n="56"/>ne concederetur quod diuina essentia distingueretur ab 
-      <lb ed="#L" n="57"/>aliquo quod est in divinis. cum sit notum apud omnes ge 
-      <lb ed="#L" n="58"/>nerans distingui a genito. et econuerso. et ideo 
-      <lb ed="#L" n="59"/>essentia non potest generare nec generari. quia non potest
-      distin<lb ed="#L" n="60" break="no"/>gui a quocumque supposito in divinis. Et ita abstra 
-      <lb ed="#L" n="61"/>ctio non est causa quare tales non conceduntur. quia
-      abstra<lb ed="#L" n="62" break="no"/>ctio nihil facit nisi quod abstractum non potest pro illo 
-      <lb ed="#L" n="63"/>supponere a quo abstrahitur. Nec quia praedicatum 
-      <lb ed="#L" n="64"/>non potest praedicari nisi formaliter. cum tale praedicatum 
-      <lb ed="#L" n="65"/>possit praedicari non tantum primo modo
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e887">
-      ⁋ Nec quia tunc 
-      <lb ed="#L" n="66"/>sequeretur quod praedicatio esset per se primo modo. sicut 
-      <lb ed="#L" n="67"/>ostensum est conlusio aliam opinionem. sed quia ista praedicata 
-      <lb ed="#L" n="68"/>non possunt praedicari in divinis. nisi de illis de quam 
-      <lb ed="#L" n="69"/>hus primo et immediate praedicantur. et hoc quia illa pe 
-      <lb ed="#L" n="70"/>mo distinguuntur et sola illa
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e900">
-      ⁋ Contra praedicta potest 
-      <lb ed="#L" n="71"/>obiici. primo conclusio hoc quod innuitur in arguendo contra 
-      <lb ed="#L" n="72"/>primam opinionem quod de tali abstracto potest aliquio 
-      <lb ed="#L" n="73"/>praedicari. quamuis non per se primo modo.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e909">
-      ⁋ Contra. tunc 
-      <lb ed="#L" n="74"/>posset hoc concedi. humanitas est homo. et similiter 
-      <lb ed="#L" n="75"/>ista humanitas est alba quae tamen non conceduntur 
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e917">
-               <lb ed="#L" n="76"/>⁋ Preterea. paternitas et generare sunt simpliciter idem. erg 
-      <lb ed="#L" n="77"/>de quo praedicatur vnum et reliquum. sed essentia est pa 
-      <lb ed="#L" n="78"/>ternitas. ergo essentia generat.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e926">
-      ⁋ Preterea in creaturie 
-      <lb ed="#L" n="79"/>generare et generari praedicantur de aliquibus
-      medianti<lb ed="#L" n="80" break="no"/>bus aliis. ergo eadem ratione in divinis.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e933">
-      ⁋ Ad primum
-      pos<lb ed="#L" n="81" break="no"/>set responderi leuiter secundum consmen. vii. meth. commen. 
-      <lb ed="#L" n="82"/>xxi. quod quidditas hominis vno modo est homo et alio modo  
-      <lb ed="#L" n="83"/>non. quia est homo quae est forma. et non est homo qui est com 
-      <lb ed="#L" n="84"/>positus ex materia et forma. Aliter dicor quod potest hoc 
-      <lb ed="#L" n="85"/>simpliciter negari. humanitas est homo. et similiter ista. 
-      <lb ed="#L" n="86"/>humanitas currit. humanitas est alba.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e949">
-      ⁋ Ad
-      cu<lb ed="#L" n="87" break="no"/>ius intellectum sciendum quod sicut aliqua sincathego 
-      <lb ed="#L" n="88"/>reumata includunt ex vsu loquentium aliqua
-      ca<lb ed="#L" n="89" break="no"/>thegoreumata. sicut patet de hoc signo quaelibet quod 
-      <lb ed="#L" n="90"/>includit suum distribuibile per equiualentiam. Aliter 
-      <lb ed="#L" n="91"/>enim hec non esset propria quodlibet est ens. sicut nec 
-      <lb ed="#L" n="92"/>ista. omnis est ens. vel ista omne est ens et tamen hoc 
-      <lb ed="#L" n="93"/>conceditur. quia valet istam. omne ess est ens. et ita istud 
-      <lb ed="#L" n="94"/>signum quaelibet equiualet signo distributiuo et di 
-      <lb ed="#L" n="95"/>stribuibili scilicet huic quod dico omne ens. Similiter 
-      <lb ed="#L" n="96"/>dicendo. totus sortes secundum quod totus tenetur sincathe 
-      <lb ed="#L" n="97"/>goreumatice. le totus includit suum distribuibi 
-      <lb ed="#L" n="98"/>le. quia valet hoc totum quaelibet pars sortis. et ita est
-      di<lb ed="#L" n="99" break="no"/>cendum in multr aliis. Eoud modo ex communi vsu loquendi aliqua 
-      <lb ed="#L" n="100"/>cathegoreumata includunt: sincathogoreumata 
-      <lb ed="#L" n="101"/>et hoc peper breuitatem loquendi. et ita est in proposito quod ta 
-      <lb ed="#L" n="102"/>lia abstracta ex vsu aliquorum auctorumincludunt ali 
-      <lb ed="#L" n="103"/>quae sincathegoreumam sicut tnc vel per sc vel secundum quid et 
-      <lb ed="#L" n="104"/>huiusmodi. et ita ista humanitas est homo vel homo est humanitas 
-      <lb ed="#L" n="105"/>valet istam. homo neccessario est humanitas. vel homo per se est
-      huma<lb ed="#L" n="106" break="no"/>nitas. et ista humanitas est alba. vel humanitas
-      cur<lb ed="#L" n="107" break="no"/>rit. valet istam. humanitas neccessario est alba. vel
-      ne<lb ed="#L" n="108" break="no"/>cessario currit. quae omns false sunt. et ideo omnes tales 
-      <lb ed="#L" n="109"/>humanitas est ho. humanitas est alba. humanitas 
-      <lb ed="#L" n="110"/>currit. essent vere de virtute sermonis si humanitas 
-      <!--287.xml-->
-      <pb ed="#L" n="142-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>precise supponeret pro aliqua re. sicut albedo vel 
-      <lb ed="#L" n="2"/>homo vel huiusmodi. et supponunt praecise pro rebus. quia 
-      <lb ed="#L" n="3"/>non est aliqua respro qua potest supponere cui non attri 
-      <lb ed="#L" n="4"/>buuntur praedicata omni modo expresso in propositione. et hoc 
-      <lb ed="#L" n="5"/>maxime debet concedi ab illis quae negant vnitatem 
-      <lb ed="#L" n="6"/>minorem numerali et distinctione formalem. quamuis 
-      <lb ed="#L" n="7"/>alii possent facilius hoc saluare per fundamentui 
-      <lb ed="#L" n="8"/>eorum simpliciter falsum. de quo dictum est dist. ii.
-      Ue<lb ed="#L" n="9" break="no"/>rumtamen si intelligantur modo praedicto debent negari. 
-      <lb ed="#L" n="10"/>qui praedicata non attribuuntur illi neccessario pro quo hui 
-      <lb ed="#L" n="11"/>manitas supponit. et iste modus sincathegoreu 
-      <lb ed="#L" n="12"/>maticus neccessario intelligitur in illo quod supponit. 
-      <lb ed="#L" n="13"/>Unde accipiendo humanitatem secundum quod praecise super 
-      <lb ed="#L" n="14"/>ponit pro re et non includit aliquem modum
-      sincathe<lb ed="#L" n="15" break="no"/>goreumaticum. tunc omnes iste essent vere.
-      humani<lb ed="#L" n="16" break="no"/>tas est homo. humanitas currit. humanitas est 
-      <lb ed="#L" n="17"/>alba. et sic de aliis. tamen quelibet istarum esset contin 
-      <lb ed="#L" n="18"/>gens. De vltimis patet quod forent contingentes. sic iste 
-      <lb ed="#L" n="19"/>sunt contingentes. homo currit homo est albus. 
-      <lb ed="#L" n="20"/>et sic de aliis. sed de ista humanitas est homo 
-      <lb ed="#L" n="21"/>humanitas est animal et de huiusmodi dubium esset magis. 
-      <lb ed="#L" n="22"/>De quo tamen dico quod sunt contingentes. quia manentibus 
-      <lb ed="#L" n="23"/>rebus possunt esse false. Unde si non esset nisi vna
-      hu<lb ed="#L" n="24" break="no"/>manitas in mundo. et illa esset assumpta a verbo 
-      <lb ed="#L" n="25"/>hec esset falsa simpliciter. humanitas est homo. sicut hoc 
-      <lb ed="#L" n="26"/>esset falsa simpliciter. homo est humanitas. Cuius 
-      <lb ed="#L" n="27"/>ratio est. quia homo concretum supponeret nisi pro
-      suppoe<lb ed="#L" n="28" break="no"/>sito sustentante naturam humanam seu humanita 
-      <lb ed="#L" n="29"/>em. et tamen suppositum simpliciter non est humanitas 
-      <lb ed="#L" n="30"/>Si dicatur quod tunc homo non supponeret pro eodem 
-      <lb ed="#L" n="31"/>quod significat. et ita videretur esse concretum. sicut 
-      <lb ed="#L" n="32"/>album quod non est verum. Similiter tunc hec esset vera hu 
-      <lb ed="#L" n="33"/>manitas est in intellectu. est in effectu. que tamen 
-      <lb ed="#L" n="34"/>omnia negat Auicena
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e1084">
-      ⁋ Respondeo quod homo est concre 
-      <lb ed="#L" n="35"/>tum aliquo modo. non tamen sicut album et huiusmodi
-      con<lb ed="#L" n="36" break="no"/>creta accidentalia. Cuius ratio est. quia album semper suppe 
-      <lb ed="#L" n="37"/>nit pro re alia ab albedine. nisi forte supponat prao 
-      <lb ed="#L" n="38"/>ipsa albedine. quod non est de virtute sermnonis. et ideo 
-      <lb ed="#L" n="39"/>nunquam potest concedi quod albedo est alba. quia
-      diffi<lb ed="#L" n="40" break="no"/>nitio exprimens quid nominis ipsius albi est ista. aliquid 
-      <lb ed="#L" n="41"/>informatum albedine. et quia albedo nnumquam
-      infor<lb ed="#L" n="42" break="no"/>matur albedine. ideo albedo nunquam est alba. homo 
-      <lb ed="#L" n="43"/>autem et huiusmodi sunt concreta. et aliquando supponit pro re 
-      <lb ed="#L" n="44"/>alia quam sit importata per abstractum. et aliquando pro illa 
-      <lb ed="#L" n="45"/>eadem re importata per abstractum. quia diffinitio ex 
-      <lb ed="#L" n="46"/>primens quid nominis est talis quod homo est res huma 
-      <lb ed="#L" n="47"/>nitatem sustentans. vel humanitas nulli alteri
-      in<lb ed="#L" n="48" break="no"/>nitens. et ideo supponit pro omni sustentante
-      huma<lb ed="#L" n="49" break="no"/>nitatem. et tunc supponit pro re alia ab
-      humanita<lb ed="#L" n="50" break="no"/>te. et ideo praedicatio humanitatis de homine pro tali est 
-      <lb ed="#L" n="51"/>simpliciter falsa. Supponit etiam pro humanitate nulli 
-      <lb ed="#L" n="52"/>alteri innitente et solum pro tali. et si nulla
-      humani<lb ed="#L" n="53" break="no"/>tas innitatur alteri. tunc supponit praecise pro
-      huma<lb ed="#L" n="54" break="no"/>nitate. et tunc omnis homo eset humanitas. nisi
-      in<lb ed="#L" n="55" break="no"/>cluderetur aliquod spaiale sincathegoreuma modo  
-      <!--287.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 142-v -->
-               <lb ed="#L" n="56"/>exposito. et tamen illa esset contingens. quia homo numquam 
-      <lb ed="#L" n="57"/>supponit pro humanitate nisi quando alteri non innititur. 
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e1143">
-               <lb ed="#L" n="58"/>⁋ Ad secundum dico quod sicut humanitas ex vsu
-      lo<lb ed="#L" n="59" break="no"/>quentium includit aliquando hoc sincathegoreuma
-      ne<lb ed="#L" n="60" break="no"/>cessario vel per se. ita aliquando includit hoc. sincathego 
-      <lb ed="#L" n="61"/>reuma per se primo modo quod satis innuit
-      Auicen<lb ed="#L" n="62" break="no"/>na assignans rationem quare humanitas vel
-      equeni<lb ed="#L" n="63" break="no"/>tas. nec est vna nec plures. nec in effectu. nec 
-      <lb ed="#L" n="64"/>in intellectu. nec in actu. nec in potentia. quia sci 
-      <lb ed="#L" n="65"/>nullum istorum ponitur in eius diffinitione. et ideo nullum 
-      <lb ed="#L" n="66"/>istorum praedicatur de ea primo modo dicendi per se. et ideo 
-      <lb ed="#L" n="67"/>intelligit quod equinitas nec est in actu nec in
-      po<lb ed="#L" n="68" break="no"/>tentia per se primo modo quecumque tamen res importe 
-      <lb ed="#L" n="69"/>tur per equinitatem. illa veraciter vel est in actu 
-      <lb ed="#L" n="70"/>vel in potentia. et eodem modo non posset negari quod 
-      <lb ed="#L" n="71"/>equinitas esset animalitas. quia non adequate. Et ita per 
-      <lb ed="#L" n="72"/>talia sincathegoreumata de vsu loquentium
-      in<lb ed="#L" n="73" break="no"/>tellecta in talibus abstractis possunt saluari omns 
-      <lb ed="#L" n="74"/>auctoritates negantes aliqua praedicata a talibus
-      ab<lb ed="#L" n="75" break="no"/>stractis. que tamen vere dicuntur de concretis. Et hoc 
-      <lb ed="#L" n="76"/>posset confirmari per Auicennam quae ita dicit. quod animal 
-      <lb ed="#L" n="77"/>secundum quod animal. nec est in actu nec in potentia. nec 
-      <lb ed="#L" n="78"/>vnum nec plura. sicut dicit quod equinitas secundum quod
-      equi<lb ed="#L" n="79" break="no"/>nitas. nec est in actu nec in potentia etc. Et ita 
-      <lb ed="#L" n="80"/>omnia talia vere negantur a concretis cum reduplica 
-      <lb ed="#L" n="81"/>tionibus negatis vel aliis sincathegoreumatibs 
-      <lb ed="#L" n="82"/>negatis sicut abstractus.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e1201">
-      ⁋ Ad secundum dico quamuis 
-      <lb ed="#L" n="83"/>generare et paternitas sic sint simpliciter idem. secundum quod 
-      <lb ed="#L" n="84"/>generare accipitur nominaliter. sicut essentia et paternitas. et 
-      <lb ed="#L" n="85"/>ideo sicut haec est concedenda essentia est paternitas. ita et 
-      <lb ed="#L" n="86"/>illa. essentia est generare. tamen illud verbum non praedicatur de 
-      <lb ed="#L" n="87"/>essentia. dicendo essentia generat. propter causam prius dictam 
-      <lb ed="#L" n="88"/>Ad vltimum dico quod quamuis in creaturis generare 
-      <lb ed="#L" n="89"/>et generari praedicentur de aliquibus mediantibus aliis 
-      <lb ed="#L" n="90"/>sicut dicitur quod ignis generat. quamuis forte non sit verum 
-      <lb ed="#L" n="91"/>nisi quia hoc est vera. calor generat. vel aliqua talis in qua 
-      <lb ed="#L" n="92"/>affirmatur generans de forma. quae est principium agendia 
-      <lb ed="#L" n="93"/>tamen communiter loquentes non sic recipiunt talem predica 
-      <lb ed="#L" n="94"/>tionem in divinis. et hoc rationabiliter. quia in creaturis illud 
-      <lb ed="#L" n="95"/>quod sic denominatur mediate generare. quia aliud primo 
-      <lb ed="#L" n="96"/>denominatur generare est realiter distinctum a generato et prius 
-      <lb ed="#L" n="97"/>eo. non sic autem in divinis. et ideo essentia non dicitur generare. 
-      <lb ed="#L" n="98"/>qui tunc distingueretur cum secundum omns omne generans 
-      <lb ed="#L" n="99"/>distinguitur a genito.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e1240">
-      ⁋ Ad primum principale dico 
-      <lb ed="#L" n="100"/>quod essentia non est res generans. si le generans tenei 
-      <lb ed="#L" n="101"/>pure participialiter et adiectiue. sed est res non generans 
-      <lb ed="#L" n="102"/>qui essentia non generans. Et quando dicitur quod essentia est pater
-      conce<lb ed="#L" n="103" break="no"/>do. Et quando dicitur quod est pater generans vel pater non generans. Potest 
-      <lb ed="#L" n="104"/>dici quod si luo gnerans tenetur pure adiective quod neuter 
-      <lb ed="#L" n="105"/>est concedenda. Cuius ratio est. quia aliquando ad hoc quod determina 
-      <lb ed="#L" n="106"/>bile sumptum cum aliqua determinatione praedicetur de 
-      <lb ed="#L" n="107"/>aliquo. requiritur quod detminatio vere praedicetur de de 
-      <lb ed="#L" n="108"/>terminabili. et quod tam determinatio quam
-      deter<lb ed="#L" n="109" break="no"/>minabile praedicetur de principali subiecto sicut 
-      <lb ed="#L" n="110"/>ad veritatem istius. sortes est homo albus. requiritur 
-      <!--288.xml-->
-      <pb ed="#L" n="143-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>veritas istarum trium. quod sortes est homo. sortes est 
-      <lb ed="#L" n="2"/>albus. et homo est albus. et tunc esset hoc falsa. essentia est 
-      <lb ed="#L" n="3"/>pater generans. quia hoc est falsa. est essentia est generans. et 
-      <lb ed="#L" n="4"/>haec esset falsa. essentia est piater non generas. quia hec  
-      <lb ed="#L" n="5"/>falsa. pater est non generans. et ita in talibus compositir 
-      <lb ed="#L" n="6"/>non oportet quod a quo negatur aliquod tale compositum. quod vna 
-      <lb ed="#L" n="7"/>pars sumpta cum opposita contradictione alterius
-      ve<lb ed="#L" n="8" break="no"/>rificetur de eodem. sicut non sequitur. asinus non est 
-      <lb ed="#L" n="9"/>lignum album. ergo est lignum non album. et tamen non est
-      om<lb ed="#L" n="10" break="no"/>nino simile. quia nusquam inuenitur nisi in deo quod aliquid 
-      <lb ed="#L" n="11"/>praedicatur de aliquo. et de praedicato sumpto vnifor 
-      <lb ed="#L" n="12"/>miter. et secundum eandem supponem aliquid praedicetur. quin 
-      <lb ed="#L" n="13"/>praedicetur de subiecto. et ita talis modus arguendi 
-      <lb ed="#L" n="14"/>omnis pater generat. essentia est pater. ergo essentia
-      ge<lb ed="#L" n="15" break="no"/>nerat. vbi pater eodem modo supponit in vtraque
-      pro<lb ed="#L" n="16" break="no"/>pone. semper tenet. praeterque in proposito in diuinis 
-      <lb ed="#L" n="17"/>Et tota causa est. quia nusquam alibi possunt tres res.
-      qua<lb ed="#L" n="18" break="no"/>rum nulla est alia res esse vna res numero. et ita 
-      <lb ed="#L" n="19"/>ibi solum potest aliquid vere affirmari de vna
-      illa<lb ed="#L" n="20" break="no"/>rum rerum. et tamen negari ab illa re quae est ille tres res 
-      <lb ed="#L" n="21"/>propter identitatem illius rei cum illis tribus rebus 
-      <lb ed="#L" n="22"/>et propter distinctionem illarum trium rerum inter se 
-      <lb ed="#L" n="23"/>Si tamen posset haberi talis sensus illius propositionis. 
-      <lb ed="#L" n="24"/>essentia est pater. et ille pater est generans. tunc esset con 
-      <lb ed="#L" n="25"/>cedendum quod essentia est pater generans. sed tunc 
-      <lb ed="#L" n="26"/>non valet consequentia. ergo essentia est generans. sicut non sed 
-      <lb ed="#L" n="27"/>tur. pater est generans. essentia est pater. ergo essentia est 
-      <lb ed="#L" n="28"/>generans.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e1333">
-      ⁋ Ad secundum dico quod posito quod essentie 
-      <lb ed="#L" n="29"/>diuina sit ratio agendi vel generandi. et ita vere ratio 
-      <lb ed="#L" n="30"/>generandi sicut forma in creaturis est ratio agendi 
-      <lb ed="#L" n="31"/>tamen non debet concedi quod essentia generat sicut debet conce 
-      <lb ed="#L" n="32"/>di in creaturis quod forma agit vel generat. Et ratio 
-      <lb ed="#L" n="33"/>dicta est. quia essentia diuina non distinguitur a
-      ge<lb ed="#L" n="34" break="no"/>nerato. sicut forma creata distinguitur a
-      ge<lb ed="#L" n="35" break="no"/>nerato. Et ideo illas probationes quae probant quod forma 
-      <lb ed="#L" n="36"/>creata que est ratio agendi vel gnandi vere agit 
-      <lb ed="#L" n="37"/>et generat. concedo. nisi forte auctores intelligant 
-      <lb ed="#L" n="38"/>illud non agit quod est in alio. et tunc non est dispu 
-      <lb ed="#L" n="39"/>tatio nisi de modo loquendi de quo non est cura 
-      <lb ed="#L" n="40"/>ad praesens. sed intelligendo sicut intelligit philosophus. v. 
-      <lb ed="#L" n="41"/>meth. quod illud est causa ad cuius esse sequitur
-      effe<lb ed="#L" n="42" break="no"/>ctus. et quo posito potest poni effectus. et quo 
-      <lb ed="#L" n="43"/>non posito non ponitur effectus. et eodem modo pro 
-      <lb ed="#L" n="44"/>portionabiliter de agente et generante. sic dico quod 
-      <lb ed="#L" n="45"/>forma creata vere agit et vere generat et per se et 
-      <lb ed="#L" n="46"/>suppositum vel etiam compositum non generatur nec 
-      <lb ed="#L" n="47"/>agit nisi per accidens.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e1377">
-      ⁋ Secus tamen est de generato. 
-      <lb ed="#L" n="48"/>qui compositum praecise generatur. et nec forma
-      gene<lb ed="#L" n="49" break="no"/>ratur nec materia proprie loquendo. sicut alias 
-      <lb ed="#L" n="50"/>patebit. Et si dicatur quod actiones sunt
-      suppo<lb ed="#L" n="51" break="no"/>sitorum. Dico quod hec propositio non inuenitur in 
-      <lb ed="#L" n="52"/>philosophia. sed dicitur quod actiones et operatio 
-      <lb ed="#L" n="53"/>nes reales sunt singularium. quia nihil est reale ni 
-      <lb ed="#L" n="54"/>si singulare.
-    </p>
-            <p xml:id="wo8uy7-d1e598-d1e1395">
-      ⁋ Ad tertium argumentum et quartum 
-      <lb ed="#L" n="55"/>patet per predicta.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="140-v"/>
+        <cb ed="#L" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e598"><!-- l1d5q1 -->
+        <head xml:id="wo8uy7-d1e598-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e598-d1e111">
+          <lb ed="#L" n="93"/>⁋ Distinctionis quinte. Questio prima. 
+          <lb ed="#L" n="94"/>CIrca 
+          distinctio<lb ed="#L" n="95" break="no"/>nem quantam quaero primo.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e120">
+          ⁋ Utrum 
+          <lb ed="#L" n="96"/>essentia divina generet vel gene 
+          <lb ed="#L" n="97"/>retur
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e127">
+          ⁋ Quod sic. primo sic. essentia di 
+          <lb ed="#L" n="98"/>uina est res generans vel pater
+          ge<lb ed="#L" n="99" break="no"/>nerans. et vltra. ergo essentia divina est 
+          <lb ed="#L" n="100"/>generans. et vltra. ergo essentia diuina generat. antecedens 
+          <lb ed="#L" n="101"/>verum. ergo et consequens. Prima consequentia patet per illam regulam prius 
+          <lb ed="#L" n="102"/>acceptam. quod a determinabili sumpto cum detmina 
+          <lb ed="#L" n="103"/>tione non distrahente nec diminuente ad
+          determina<lb ed="#L" n="104" break="no"/>bile absolute sumptum est bona consequentia. ergo sequitur 
+          <lb ed="#L" n="105"/>essentia divina est res generans. ergo est generans. 
+          <lb ed="#L" n="106"/>Secunda consequentia patet. quia de quocumque praedicatur participium 
+          <lb ed="#L" n="107"/>alicuius verbi. ipsum verbum praedicatur de eodem. Atecedens 
+          <lb ed="#L" n="108"/>patet. quia essentia est pater. et non est pater non generans 
+          <lb ed="#L" n="109"/>ergo est pater generans. et vltra. ergo est res gene¬ 
+          <!--284.xml-->
+          <pb ed="#L" n="141-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>rans.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e164">
+          ⁋ Secundo sic. non minus est diuina essentia 
+          <lb ed="#L" n="2"/>ratio gnerandi quam forma in creaturis est ratio agendi. 
+          <lb ed="#L" n="3"/>sed quia forma in creaturis est ratio agendi vere dicitur 
+          <lb ed="#L" n="4"/>forma esse agens. ergo eodem modo quia essentia
+          di<lb ed="#L" n="5" break="no"/>uina est ratio gnerandi. vere dicitur generans. Maior 
+          <lb ed="#L" n="6"/>videtur manifesta. quia nihil est quod possit vere esse 
+          <lb ed="#L" n="7"/>ratio generandi nisi essentia diuina. Probatio mi 
+          <lb ed="#L" n="8"/>noris. tum quia illud quo posito potest poni actio. et 
+          <lb ed="#L" n="9"/>quo non posito non potest poni actio est vere agens 
+          <lb ed="#L" n="10"/>sed posita forma potest poni actio. et ipsa amota 
+          <lb ed="#L" n="11"/>quocumque alio posito non potest poni actio. ergo 
+          <lb ed="#L" n="12"/>pria forma vere est agens. Tum quia agere conuenit 
+          <lb ed="#L" n="13"/>alicui primo et non conuenit primo subiecto. nec ag  
+          <lb ed="#L" n="14"/>gregato ex forma et subiecto. quia tunc nihil 
+          <lb ed="#L" n="15"/>posset agere nisi subiectum. vt tale aggregatum. 
+          <lb ed="#L" n="16"/>quod est manifeste falsum. quia ipsa forma sepa 
+          <lb ed="#L" n="17"/>rata poterit agere. Tum quia accidens separatum 
+          <lb ed="#L" n="18"/>vere agit. ergo quando est coiunctum vere aget. Tum quia 
+          <lb ed="#L" n="19"/>agere conuenit subiecto per formam. ergo verius
+          co<lb ed="#L" n="20" break="no"/>petet ipsi forme. Tum quia intellectus intelligit 
+          <lb ed="#L" n="21"/>ecundum beatum augustinum. ergo eadem ratione forma agit 
+          <lb ed="#L" n="22"/>Tum quia aliter pars non dicetur moueri. quia nihil 
+          <lb ed="#L" n="23"/>posset agere. nec per consequens pati nisi subiectum vel 
+          <lb ed="#L" n="24"/>compositum.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e217">
+          ⁋ Tertio sic. quandocumque aliqua sunt idem 
+          <lb ed="#L" n="25"/>omnibus modis ex natura rei. de quibuscunque dicitur 
+          <lb ed="#L" n="26"/>vnum et reliquum. sed generare et prnitas sunt idem 
+          <lb ed="#L" n="27"/>omnibus modis ex natura rei. ergo si essentia de est 
+          <lb ed="#L" n="28"/>paternitas. essentia diuina vere generat.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e228">
+          ⁋ Quarto 
+          <lb ed="#L" n="29"/>sic. essentia diuina est pater. ergo essentia divina gene 
+          <lb ed="#L" n="30"/>rat. Atecedens patet per praecedente questionem. consequentia patet 
+          <lb ed="#L" n="31"/>quia omnis pater generat vel genuit. ergo si essen 
+          <lb ed="#L" n="32"/>tia diuina est pater. vere generat vel genuit 
+          <lb ed="#L" n="33"/>Similiter si est pater. ergo est filii pater. sed non est pater filii 
+          <lb ed="#L" n="34"/>nisi quem generat. ergo generat filium.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e244">
+          ⁋ Ad
+          opposi<lb ed="#L" n="35" break="no"/>tum est magister in littera
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e249">
+          ⁋ Conclusio. in ista
+          que<lb ed="#L" n="36" break="no"/>stione est certa quod essentia divina non generat nec 
+          <lb ed="#L" n="37"/>generatur. et est determinata per ecclesiam
+          ex<lb ed="#L" n="38" break="no"/>tra de summa trini. et fide catholica. c. damna 
+          <lb ed="#L" n="39"/>mus. Sed diuerse rationes a diuersis assignantur. 
+          <lb ed="#L" n="40"/>Unde dicunt aliqui quod essentia non generat nec 
+          <lb ed="#L" n="41"/>generatur. quia essentia non potest supponere pro 
+          <lb ed="#L" n="42"/>supposito. et ideo ea que sunt propria personarum 
+          <lb ed="#L" n="43"/>quibus ab inuicem distinguuntur. non possunt essentie 
+          <lb ed="#L" n="44"/>attribui. significaret enim quod esset distinctio in est 
+          <lb ed="#L" n="45"/>sentia diuina sicut est in suppositis.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e273">
+          ⁋ Contra 
+          <lb ed="#L" n="46"/>si ista ratio esset bona. hec esset falsa. essntia est 
+          <lb ed="#L" n="47"/>paternitas. quia paternitas est ita propria ipsi
+          sup<lb ed="#L" n="48" break="no"/>posito sicut ipsum generare. et per consequens ita 
+          <lb ed="#L" n="49"/>significaretur distinctio in ipsa essentia divina sicut 
+          <lb ed="#L" n="50"/>in suppositis nisi aliud obstaret
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e286">
+          ⁋ Aliter dicitur quod haoc non 
+          <lb ed="#L" n="51"/>est concedenda quod essentia generat. et ratio logicalis 
+          <lb ed="#L" n="52"/>assignatur ista. quandocumque subiectum est abstractum 
+          <lb ed="#L" n="53"/>vltimata abstractione et praedicatum ex ratione sua 
+          <lb ed="#L" n="54"/>non potest predicari nisi formaliter. non potest 
+          <lb ed="#L" n="55"/>esse vera propositio nisi sit per se primo modo  
+          <!--284.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 141-r -->
+          <lb ed="#L" n="56"/>subiectum est hic abstractum vltiata abstractione 
+          <lb ed="#L" n="57"/>et hoc praedicatum de ratione sua non potest praedicari nisi for 
+          <lb ed="#L" n="58"/>maliter. et modo inherentis. ergo propositio non potest esse 
+          <lb ed="#L" n="59"/>vera nisi per se primo modo. sed hec non est vera primo 
+          <lb ed="#L" n="60"/>modo: quia praedicatum non est de per se intellectu subiecti 
+          <lb ed="#L" n="61"/>omne enim quod dicitur ad aliud est aliquid praeter relati 
+          <lb ed="#L" n="62"/>onem. vii. Tho. et ita relatio non est infra conceptum 
+          <lb ed="#L" n="63"/>illius absoluti. Maior declaratur. in substantiis 
+          <lb ed="#L" n="64"/>est tantum vna abstractio. scilicet quidditatis a
+          supposi<lb ed="#L" n="65" break="no"/>to proprie nature. quia substantiae non sunt nate concernere 
+          <lb ed="#L" n="66"/>aliquid alterius nature sicut humanitas abstrahitur. ex 
+          <lb ed="#L" n="67"/>ideo illud vt sic consideratum est praecise ipsum. quia cuilibet 
+          <lb ed="#L" n="68"/>alii extaneum. sicut dicit Auicenna. v. metha.
+          equi<lb ed="#L" n="69" break="no"/>nitas est tantum equinitas et nihil aliud: sed in acciden 
+          <lb ed="#L" n="70"/>tibus est abstractio a suppositis alterius
+          natu<lb ed="#L" n="71" break="no"/>re primo dicendo albedo. Secunda ab indiuiduis. di 
+          <lb ed="#L" n="72"/>cendo quidditas albedinis. In relatiuis sunt
+          plu<lb ed="#L" n="73" break="no"/>res abstractiones. et sic patet quod vltia abstractio 
+          <lb ed="#L" n="74"/>est quidditatis absolutissime sumpte ab omni eo 
+          <lb ed="#L" n="75"/>quod est quocumque modo extra rationem quidditatis.
+          Cir<lb ed="#L" n="76" break="no"/>ca alium terminum eiusdem maioris. scilicet quod praedicatum 
+          <lb ed="#L" n="77"/>de quocumque praedicatur de necessitate formaliter praedi 
+          <lb ed="#L" n="78"/>cetur. dicitur esse notandum quod substantiua possunt
+          dupli<lb ed="#L" n="79" break="no"/>citer praedicari in diuinis. quandoque formaliter. quandoque per 
+          <lb ed="#L" n="80"/>identitatem. Sed adiectiua si praedicantur. de necessi 
+          <lb ed="#L" n="81"/>tate praedicantur formaliter. et hoc quia sunt adiectiva. 
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e363">
+          <lb ed="#L" n="82"/>⁋ Nam ex hoc quod adiectiua sunt. significant formam 
+          <lb ed="#L" n="83"/>per modum informantis illud de quo videlicet
+          for<lb ed="#L" n="84" break="no"/>maliter dicuntur. talia non sunt tantum nomina adiectiua 
+          <lb ed="#L" n="85"/>sed etiam omnia participia et verba.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e374">
+          ⁋ Ex istis patet illa 
+          <lb ed="#L" n="86"/>maior. quia illud praedicatum praecise natum est praedicari 
+          <lb ed="#L" n="87"/>formalit. ideo non potest saluari veritas propter identi 
+          <lb ed="#L" n="88"/>tatem tantum. et quia subiectum summa abstractione ab 
+          <lb ed="#L" n="89"/>stractum non potest stare pro aliquo qualitercumque alio 
+          <lb ed="#L" n="90"/>a se. sed praecise pro se formaliter. et ideo oportet quod sus 
+          <lb ed="#L" n="91"/>ratio praecise formaliter esset idem illi praedicato. quod  
+          <lb ed="#L" n="92"/>non posset esse nisi ista ratio praecise includeret illud  
+          <lb ed="#L" n="93"/>praedicatum. patet ergo maior et minor. est manifesta. ideo 
+          <lb ed="#L" n="94"/>etc
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e396">
+          ⁋ Contra istam opinionem arguo quod maior
+          assum<lb ed="#L" n="95" break="no"/>pta sit simplicitur falsa
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e401">
+          ⁋ Nam ista est vera secundum istum 
+          <lb ed="#L" n="96"/>essentia diuina communicatur filio. et hoc praedicatum est 
+          <lb ed="#L" n="97"/>verbum vel participium quod non est natum praedicari
+          nisi<lb ed="#L" n="98" break="no"/>formaliter. et tamen non est per se primo modo.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e410">
+          ⁋ Preterea. 
+          <lb ed="#L" n="99"/>hec est vera. essentia diuina videtur ab
+          intelle<lb ed="#L" n="100" break="no"/>ctu creato. et subiectum est abstractum vltiata ab 
+          <lb ed="#L" n="101"/>stractione. et praedicatum non est natum predicari nisi 
+          <lb ed="#L" n="102"/>tantum formaliter. et tamen non est per se primo modo etiam secundum 
+          <lb ed="#L" n="103"/>eos.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e423">
+          ⁋ Ad ista dicitur quod communicari et similiter videri. 
+          <lb ed="#L" n="104"/>ab intellectu creato dicit praecise relationem rationis 
+          <lb ed="#L" n="105"/>super essentiam. et ideo non ponunt aliquid reale in essen 
+          <lb ed="#L" n="106"/>tia. et propter hoc non sunt praedicata distinctiua essen 
+          <lb ed="#L" n="107"/>tie. sed gnerare est aliquid reale in essentia. et reale
+          pri<lb ed="#L" n="108" break="no"/>dicatum distinctiuum illius cui conuenit ab alio. Et 
+          <lb ed="#L" n="109"/>ideo illa minor intelligitur quando praedicatum est aliquid rea 
+          <lb ed="#L" n="110"/>le distinctiuum illius cui additur non ess rationis tantum. tunc 
+          <!--285.xml-->
+          <pb ed="#L" n="141-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>arguitur sic. Nullum praedicatum quod necessario
+          praed<lb ed="#L" n="2" break="no"/>catur formaliter et est distinctiuum illius cui addi 
+          <lb ed="#L" n="3"/>tur potest praedicari de essentia in abstracto. sed
+          ge<lb ed="#L" n="4" break="no"/>nerare tantum praedicatur formaliter. et est distinctiuum illius 
+          <lb ed="#L" n="5"/>cui additur. ergo non potest praedicari de essentia in abi 
+          <lb ed="#L" n="6"/>stracto.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e461">
+          ⁋ Cotra. abstractum vltiata abstractione 
+          <lb ed="#L" n="7"/>non magis abstrahitur ab ente reali. quam ab ente 
+          <lb ed="#L" n="8"/>rationis. quia ita repugnat sibi quod sit ens rationis sicut 
+          <lb ed="#L" n="9"/>quod sit quodcumque ens reale sibi extraneum. ergo tale ab 
+          <lb ed="#L" n="10"/>stractum non magis recipit predicationem entis 
+          <lb ed="#L" n="11"/>rationis quam entis realis. ergo si propter talem abstractior 
+          <lb ed="#L" n="12"/>nem hec esset falsa. essentia generat multo
+          ma<lb ed="#L" n="13" break="no"/>gis hec esset falsa. essentia communicatur. essentia
+          vi<lb ed="#L" n="14" break="no"/>detur ab intellectu creato. si ista dicant praecise re 
+          <lb ed="#L" n="15"/>lationem rationis. quia iste relationes. rationis ita erunt ex 
+          <lb ed="#L" n="16"/>tranee sibi sicut generare reale.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e485">
+          ⁋ Confirmatur 
+          <lb ed="#L" n="17"/>qui secundum auicennam quem allegat. sicut equinitas
+          in<lb ed="#L" n="18" break="no"/>quantum equinitas non est vna nec plures: ita nec 
+          <lb ed="#L" n="19"/>est in effectu nec in intellectu nec vniversale nec
+          parti<lb ed="#L" n="20" break="no"/>culare. et tamen aliqua istorum tanmtum dicunt vltra equinitatem 
+          <lb ed="#L" n="21"/>entia rationis. ergo a tali abstracto non magis remo 
+          <lb ed="#L" n="22"/>uetur aliquid reale sibi extraneum quam ens rationis cuius 
+          <lb ed="#L" n="23"/>esse est sibi extraneum.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e503">
+          ⁋ Preterea. supposito quod 
+          <lb ed="#L" n="24"/>communicari et videri ab intellectu creato dicunt pre 
+          <lb ed="#L" n="25"/>cise relationes rationis. tamen intelligere et velle esse bo 
+          <lb ed="#L" n="26"/>num et esse sapientem et huiusmodi dicunt aliquid reale. 
+          <lb ed="#L" n="27"/>sicut et generare. sed omnes iste sunt vere essentia 
+          <lb ed="#L" n="28"/>diuina intelligit. essentia diuina vult. essentia est 
+          <lb ed="#L" n="29"/>bona. est sapines. et sic de aliis. et tamen sunt vere
+          pri<lb ed="#L" n="30" break="no"/>mo modo dicendi per se secundum istum. quia omnia ista
+          praedica<lb ed="#L" n="31" break="no"/>ta distinguntur formaliter ab essentia diuina secundum 
+          <lb ed="#L" n="32"/>eos.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e525">
+          ⁋ Preterea. hec est vera essentia diuina cre 
+          <lb ed="#L" n="33"/>at. essentia diuina distinguitur a creatura. et tamen pre 
+          <lb ed="#L" n="34"/>dicata sunt distinctiua. quia neccessario inferunt
+          esen<lb ed="#L" n="35" break="no"/>tiam diuinam distingui ab aliquo.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e534">
+          ⁋ Preterea. ratio sua 
+          <lb ed="#L" n="36"/>non concludit: quia huius deberet assignari ratio quare
+          ta<lb ed="#L" n="37" break="no"/>le praedicatum reale distinctum non praedicatur de essen 
+          <lb ed="#L" n="38"/>tia. et assignat rationem. quia subiectum est abstractum 
+          <lb ed="#L" n="39"/>vltiata abstractione. et praedicatum non est natum
+          praedi<lb ed="#L" n="40" break="no"/>cari nisi formaliter. sed ista causa est communis siue praedicatur 
+          <lb ed="#L" n="41"/>praedicatum distinctiuum siue aliud.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e550">
+          ⁋ Preterea. semper 
+          <lb ed="#L" n="42"/>stat quod non oportet istam propositionem essentia generat 
+          <lb ed="#L" n="43"/>esse veram per se primo modo. et ideo non est neganda. quia ex 
+          <lb ed="#L" n="44"/>forma praedicationis sequeretur ipsam esse veram per se
+          pri<lb ed="#L" n="45" break="no"/>mo modo. et tunc secundum eos eodem modo essent iste
+          negan<lb ed="#L" n="46" break="no"/>de essentia est bona. intelligens. volens. et huiusmodi. quia 
+          <lb ed="#L" n="47"/>non sunt per se primo modo etiam secundum eos. Sed ideo est ista 
+          <lb ed="#L" n="48"/>neganda essentia generat. quia inferret essentiam
+          di<lb ed="#L" n="49" break="no"/>stingui a genito. et hoc est ratio magistri quae melior est 
+          <lb ed="#L" n="50"/>quam alia.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e573">
+          ⁋ Secundo arguo contra praedictam maiorem. quia 
+          <lb ed="#L" n="51"/>non minus abstrahitur subiectum ab accidente. quam ab 
+          <lb ed="#L" n="52"/>stractum vltiata abstractione a talibus praedicatis 
+          <lb ed="#L" n="53"/>cuiusmodi sunt generare et spirare etc. sed non obstante 
+          <lb ed="#L" n="54"/>tali abstractione aliquod accidentale quod non est natum 
+          <lb ed="#L" n="55"/>praedicari nisi formaliter praedicatur de subiecto. et non 
+          <!--285.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 141-v -->
+          <lb ed="#L" n="56"/>per se primo modo. sicut quod homo est albus musicus 
+          <lb ed="#L" n="57"/>etc. ergo non obstante tali abstractione poterunt aliqua 
+          <lb ed="#L" n="58"/>praedicari quae non sunt nata praedicari. nisi formaliter de 
+          <lb ed="#L" n="59"/>tali abstracto. et tamen non per se primo modo. Confirmatur 
+          <lb ed="#L" n="60"/>ista ratio. quia abstractio talis non facit quod propositio sit vera 
+          <lb ed="#L" n="61"/>primo modo vel secundo. sed praecise facit quod illud abstractum 
+          <lb ed="#L" n="62"/>non potest supponere pro illo a quo abstrahitur. ergo 
+          <lb ed="#L" n="63"/>quamuis essentia sit abstractum vltimata abstractione 
+          <lb ed="#L" n="64"/>ex hoc non sequitur. quod nihil quod non est natum praedicari. 
+          <lb ed="#L" n="65"/>de ea nisi per se primo modo. sed facit quod essentia non potest 
+          <lb ed="#L" n="66"/>supponere pro persona vel supposito et de hoc est quao 
+          <lb ed="#L" n="67"/>principalis an illa essentia generet.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e619">
+          ⁋ Tertio
+          ma<lb ed="#L" n="68" break="no"/>ior sua est falsa in creatur. quia hoc est vera. equinitas 
+          <lb ed="#L" n="69"/>distinguitur a deo. equinitas est creata. et tamen predi 
+          <lb ed="#L" n="70"/>cata non sunt nata praedicari nisi formaliter. et tamen 
+          <lb ed="#L" n="71"/>sunt vere per se primo modo. Similiter hoec est v vera. humanitas 
+          <lb ed="#L" n="72"/>est vna. et tamen non est per se primo modo. Assumptum patet 
+          <lb ed="#L" n="73"/>qui sequitur. hoc humanitas est vna. ergo humanitas est vna 
+          <lb ed="#L" n="74"/>ab inferiori ad superius. et antecedens est verum. ergo et consequens 
+          <lb ed="#L" n="75"/>Preterea quod dicit quod in substantiis non est
+          abstra<lb ed="#L" n="76" break="no"/>ctio nisi a suppositis proprie nature. non est verum 
+          <lb ed="#L" n="77"/>secundum eum. quia illud quod praedicatur de alio et non in
+          abstra<lb ed="#L" n="78" break="no"/>cto. praedicatur de illo concretiue. sed substantia praedicatur de 
+          <lb ed="#L" n="79"/>aliquo supposito alterius nature. et non in abstra 
+          <lb ed="#L" n="80"/>cto. sicut hoc est vera filius dei est homo. et hoc est falsa 
+          <lb ed="#L" n="81"/>filius dei est humanitas. ergo substantia concernit aliquod
+          sup<lb ed="#L" n="82" break="no"/>positum alterius nature.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e654">
+          ⁋ Preterea sicut albedo
+          praedi<lb ed="#L" n="83" break="no"/>catur de albedibus singularibus. quamuis a supposito 
+          <lb ed="#L" n="84"/>alterius nature abstrahatur. ita humanitas praedicatur 
+          <lb ed="#L" n="85"/>de humanitatibus singularibus. Nam haec est vera. hoc 
+          <lb ed="#L" n="86"/>humanitas est humanitas. quamuis non praedicatur de
+          sup<lb ed="#L" n="87" break="no"/>posito alterius nature. ergo huanitas nonesm abstractum 
+          <lb ed="#L" n="88"/>vltiata abstractione. sicut nec albedo.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e670">
+          ⁋ Preterea 
+          <lb ed="#L" n="89"/>quod dicit quod quidditas albedinis abstrahitur a propriis 
+          <lb ed="#L" n="90"/>singularibus non est verum. quia sicut onsum est in secunda distin 
+          <lb ed="#L" n="91"/>ctione non est talis differentia in albedine. quod sit quidditas 
+          <lb ed="#L" n="92"/>vel aliquid praeter quidditatem. quod tamen requireretur ad
+          ta<lb ed="#L" n="93" break="no"/>lem abstractionem.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e683">
+          ⁋ Preterea quod dicit de secundo termino 
+          <lb ed="#L" n="94"/>non est ad propositum. quia quamuis non possit praedicari ni 
+          <lb ed="#L" n="95"/>si formaliter. tamen ex hoc non sequitur. quod si praedicatur de ali 
+          <lb ed="#L" n="96"/>quo quod non potest stare pro quocumque alio nisi praecise pro 
+          <lb ed="#L" n="97"/>seipso. et propter hoc predicatur primo modo. quia album mu 
+          <lb ed="#L" n="98"/>sicu et huiusmodi secundum rationem suam non possunt praedicari
+          nisi<lb ed="#L" n="99" break="no"/>formaliter. et homo non potest stare nisi pro seipso. Unde 
+          <lb ed="#L" n="100"/>nullo modo potest homo stare pro quocumque accidente 
+          <lb ed="#L" n="101"/>et tamen iste sunt vere homo est albus homo est musicus. homo 
+          <lb ed="#L" n="102"/>currit. et sic de aliis. Et huius ratio est. quia quamuis homo 
+          <lb ed="#L" n="103"/>non possit stare nisi pro homine. quia tamen album currens. et 
+          <lb ed="#L" n="104"/>sic de aliis adiectiuis verbis et participiis. possunt
+          sta<lb ed="#L" n="105" break="no"/>re pro homine. ideo propositiones verificantur. quamuis non sint per 
+          <lb ed="#L" n="106"/>se primo modo. et eodem modo quia in talibus propositionibus
+          equi<lb ed="#L" n="107" break="no"/>nitas creatur. equinitas distinguitur a deo. et sic de 
+          <lb ed="#L" n="108"/>aliis. ipsa praedicata possunt supponere pro ipsa equinita 
+          <lb ed="#L" n="109"/>te. ideo tales sunt vere quia subiectum et praedicatum pro
+          eisdem<lb ed="#L" n="110" break="no"/>supponunt. ergo eodem modo si generare vel generans 
+          <!--286.xml-->
+          <pb ed="#L" n="142-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>posset supponere pro ipsa essentia adhuc esset 
+          <lb ed="#L" n="2"/>vera. essentia generat. quamuis non esset per se primo 
+          <lb ed="#L" n="3"/>modo sicut hec est vera. essentia diuina est bona 
+          <lb ed="#L" n="4"/>quia praedicatum supponit pro ipsa essentia. quamuis no 
+          <lb ed="#L" n="5"/>sit per se primo modo. Unde de ratione talium praedicatorum 
+          <lb ed="#L" n="6"/>scilicet adiectiuorum. participiorum etc. est supponere
+          pro<lb ed="#L" n="7" break="no"/>aliis quam pro significatis suorum abstractorum. et ideo 
+          <lb ed="#L" n="8"/>de aliis praedicantur. immo quasi semper praedicantur de aliis. 
+          <lb ed="#L" n="9"/>scilicet de illis quae abstrabuntur ab eis
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e748">
+          ⁋ Ideo dico 
+          <lb ed="#L" n="10"/>aliter ad quaestionem quod essentia diuina nec generat 
+          <lb ed="#L" n="11"/>nec generatur. quia si aliqua talis esset vera sequeretur 
+          <lb ed="#L" n="12"/>vere essentiam distingui ab illo quod generat vel 
+          <lb ed="#L" n="13"/>generatur. sed essentia diuina a neutro
+          distingui<lb ed="#L" n="14" break="no"/>tur. et ideo non generat nec generatur.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e762">
+          ⁋ Sed quae est ratio 
+          <lb ed="#L" n="15"/>istius quare non potest dici quod essentia generat sicut 
+          <lb ed="#L" n="16"/>conceditur quod essentia est pater essentia est paterni 
+          <lb ed="#L" n="17"/>tas.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e771">
+          ⁋ Respondeo quod aliqua sunt predicata que 
+          <lb ed="#L" n="18"/>de nullo possunt praedicari: nisi de illo de quo primo et 
+          <lb ed="#L" n="19"/>immediate praedicantur. vel saltem non de aliquo
+          nisi<lb ed="#L" n="20" break="no"/>per aliquid intrinsecum sibi. et quod sit de ratione eius. si 
+          <lb ed="#L" n="21"/>cut patet quod esse idem et diuersum et huiusmodi de nul 
+          <lb ed="#L" n="22"/>lo praedicantur nisi de quo immediate dicuntur. vel 
+          <lb ed="#L" n="23"/>saltem per aliquid intrinsecum illi de quo praedicantur 
+          <lb ed="#L" n="24"/>Unde impossibile est quod aliquid distinguatur ab alio 
+          <lb ed="#L" n="25"/>nisi vel seipso vel per aliquid sibi intrinsecum. Unde 
+          <lb ed="#L" n="26"/>dicere quod sortes distinguatur a platone per iohannem 
+          <lb ed="#L" n="27"/>nihil est. Uel dicere quod materia distinguatur ab 
+          <lb ed="#L" n="28"/>angelo per formam: nihil est sed materia seipsa
+          distin<lb ed="#L" n="29" break="no"/>guitur et a forma et ab aliis. et compositum distinguitur 
+          <lb ed="#L" n="30"/>a materia per formam quae est aliquid sibi intrinsecum: et 
+          <lb ed="#L" n="31"/>ita est de multis aliis praedicatis
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e804">
+          ⁋ Aliqua autem 
+          <lb ed="#L" n="32"/>praedicata predicantur de aliquo mediante aliquo 
+          <lb ed="#L" n="33"/>sibi extrinseco. sicut ponendo quantitatem esse aliam 
+          <lb ed="#L" n="34"/>rem a substantia et a corpore. tunc homo diceretur esse al 
+          <lb ed="#L" n="35"/>bus. quia quantitas sua esset alba. Similiter ignis
+          di<lb ed="#L" n="36" break="no"/>citur calefacere. quia calor calefacit. Non sic autem potes 
+          <lb ed="#L" n="37"/>dici quod homo est in subiecto. quia albedo hominis est 
+          <lb ed="#L" n="38"/>in subiecto. Et ita est quod multa praedicata quae
+          praedi<lb ed="#L" n="39" break="no"/>causatur de accidente primo. secundario praedicantur de sumi 
+          <lb ed="#L" n="40"/>iecto accidentis. et multa quae primo praedicantur de ac 
+          <lb ed="#L" n="41"/>cidente nullo modo praedicantur de subiecto. Similiter 
+          <lb ed="#L" n="42"/>multa praedicata quae praedicantur primo de natura assum 
+          <lb ed="#L" n="43"/>pta praedicantur de verbo assumente. sicut pati mori 
+          <lb ed="#L" n="44"/>commedere bibere. et sic de aliis. et aliqua quae praedicam 
+          <lb ed="#L" n="45"/>tur de illa natura. non praedicantur de verbo. Unde 
+          <lb ed="#L" n="46"/>esse aliud a deo praedicatur de natura. non tamen de
+          ver<lb ed="#L" n="47" break="no"/>bo assumente. et ita est de multis. Nunc autem siue 
+          <lb ed="#L" n="48"/>ex proprietate istorum praedicatorum. siue ex vsu loque 
+          <lb ed="#L" n="49"/>tim ista praedicata non possunt in diuinis de aliquo
+          pri<lb ed="#L" n="50" break="no"/>dicari. nisi de quo primo et immediate praedicantur 
+          <lb ed="#L" n="51"/>Et quia non praedicantur primo et immediate nisi de 
+          <lb ed="#L" n="52"/>supposito. ideo de solo supposito et non de essentia 
+          <lb ed="#L" n="53"/>praedicantur. et ideo hec non est vera. essentia generat 
+          <lb ed="#L" n="54"/>nec essentia generatur. Si autem hoc sit ex vsu scorum 
+          <lb ed="#L" n="55"/>et loquentium. rationabiliter poterunt ad hoc mouenr. 
+          <!--286.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 142-r -->
+          <lb ed="#L" n="56"/>ne concederetur quod diuina essentia distingueretur ab 
+          <lb ed="#L" n="57"/>aliquo quod est in divinis. cum sit notum apud omnes ge 
+          <lb ed="#L" n="58"/>nerans distingui a genito. et econuerso. et ideo 
+          <lb ed="#L" n="59"/>essentia non potest generare nec generari. quia non potest
+          distin<lb ed="#L" n="60" break="no"/>gui a quocumque supposito in divinis. Et ita abstra 
+          <lb ed="#L" n="61"/>ctio non est causa quare tales non conceduntur. quia
+          abstra<lb ed="#L" n="62" break="no"/>ctio nihil facit nisi quod abstractum non potest pro illo 
+          <lb ed="#L" n="63"/>supponere a quo abstrahitur. Nec quia praedicatum 
+          <lb ed="#L" n="64"/>non potest praedicari nisi formaliter. cum tale praedicatum 
+          <lb ed="#L" n="65"/>possit praedicari non tantum primo modo
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e887">
+          ⁋ Nec quia tunc 
+          <lb ed="#L" n="66"/>sequeretur quod praedicatio esset per se primo modo. sicut 
+          <lb ed="#L" n="67"/>ostensum est conlusio aliam opinionem. sed quia ista praedicata 
+          <lb ed="#L" n="68"/>non possunt praedicari in divinis. nisi de illis de quam 
+          <lb ed="#L" n="69"/>hus primo et immediate praedicantur. et hoc quia illa pe 
+          <lb ed="#L" n="70"/>mo distinguuntur et sola illa
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e900">
+          ⁋ Contra praedicta potest 
+          <lb ed="#L" n="71"/>obiici. primo conclusio hoc quod innuitur in arguendo contra 
+          <lb ed="#L" n="72"/>primam opinionem quod de tali abstracto potest aliquio 
+          <lb ed="#L" n="73"/>praedicari. quamuis non per se primo modo.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e909">
+          ⁋ Contra. tunc 
+          <lb ed="#L" n="74"/>posset hoc concedi. humanitas est homo. et similiter 
+          <lb ed="#L" n="75"/>ista humanitas est alba quae tamen non conceduntur 
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e917">
+          <lb ed="#L" n="76"/>⁋ Preterea. paternitas et generare sunt simpliciter idem. erg 
+          <lb ed="#L" n="77"/>de quo praedicatur vnum et reliquum. sed essentia est pa 
+          <lb ed="#L" n="78"/>ternitas. ergo essentia generat.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e926">
+          ⁋ Preterea in creaturie 
+          <lb ed="#L" n="79"/>generare et generari praedicantur de aliquibus
+          medianti<lb ed="#L" n="80" break="no"/>bus aliis. ergo eadem ratione in divinis.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e933">
+          ⁋ Ad primum
+          pos<lb ed="#L" n="81" break="no"/>set responderi leuiter secundum consmen. vii. meth. commen. 
+          <lb ed="#L" n="82"/>xxi. quod quidditas hominis vno modo est homo et alio modo  
+          <lb ed="#L" n="83"/>non. quia est homo quae est forma. et non est homo qui est com 
+          <lb ed="#L" n="84"/>positus ex materia et forma. Aliter dicor quod potest hoc 
+          <lb ed="#L" n="85"/>simpliciter negari. humanitas est homo. et similiter ista. 
+          <lb ed="#L" n="86"/>humanitas currit. humanitas est alba.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e949">
+          ⁋ Ad
+          cu<lb ed="#L" n="87" break="no"/>ius intellectum sciendum quod sicut aliqua sincathego 
+          <lb ed="#L" n="88"/>reumata includunt ex vsu loquentium aliqua
+          ca<lb ed="#L" n="89" break="no"/>thegoreumata. sicut patet de hoc signo quaelibet quod 
+          <lb ed="#L" n="90"/>includit suum distribuibile per equiualentiam. Aliter 
+          <lb ed="#L" n="91"/>enim hec non esset propria quodlibet est ens. sicut nec 
+          <lb ed="#L" n="92"/>ista. omnis est ens. vel ista omne est ens et tamen hoc 
+          <lb ed="#L" n="93"/>conceditur. quia valet istam. omne ess est ens. et ita istud 
+          <lb ed="#L" n="94"/>signum quaelibet equiualet signo distributiuo et di 
+          <lb ed="#L" n="95"/>stribuibili scilicet huic quod dico omne ens. Similiter 
+          <lb ed="#L" n="96"/>dicendo. totus sortes secundum quod totus tenetur sincathe 
+          <lb ed="#L" n="97"/>goreumatice. le totus includit suum distribuibi 
+          <lb ed="#L" n="98"/>le. quia valet hoc totum quaelibet pars sortis. et ita est
+          di<lb ed="#L" n="99" break="no"/>cendum in multr aliis. Eoud modo ex communi vsu loquendi aliqua 
+          <lb ed="#L" n="100"/>cathegoreumata includunt: sincathogoreumata 
+          <lb ed="#L" n="101"/>et hoc peper breuitatem loquendi. et ita est in proposito quod ta 
+          <lb ed="#L" n="102"/>lia abstracta ex vsu aliquorum auctorumincludunt ali 
+          <lb ed="#L" n="103"/>quae sincathegoreumam sicut tnc vel per sc vel secundum quid et 
+          <lb ed="#L" n="104"/>huiusmodi. et ita ista humanitas est homo vel homo est humanitas 
+          <lb ed="#L" n="105"/>valet istam. homo neccessario est humanitas. vel homo per se est
+          huma<lb ed="#L" n="106" break="no"/>nitas. et ista humanitas est alba. vel humanitas
+          cur<lb ed="#L" n="107" break="no"/>rit. valet istam. humanitas neccessario est alba. vel
+          ne<lb ed="#L" n="108" break="no"/>cessario currit. quae omns false sunt. et ideo omnes tales 
+          <lb ed="#L" n="109"/>humanitas est ho. humanitas est alba. humanitas 
+          <lb ed="#L" n="110"/>currit. essent vere de virtute sermonis si humanitas 
+          <!--287.xml-->
+          <pb ed="#L" n="142-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>precise supponeret pro aliqua re. sicut albedo vel 
+          <lb ed="#L" n="2"/>homo vel huiusmodi. et supponunt praecise pro rebus. quia 
+          <lb ed="#L" n="3"/>non est aliqua respro qua potest supponere cui non attri 
+          <lb ed="#L" n="4"/>buuntur praedicata omni modo expresso in propositione. et hoc 
+          <lb ed="#L" n="5"/>maxime debet concedi ab illis quae negant vnitatem 
+          <lb ed="#L" n="6"/>minorem numerali et distinctione formalem. quamuis 
+          <lb ed="#L" n="7"/>alii possent facilius hoc saluare per fundamentui 
+          <lb ed="#L" n="8"/>eorum simpliciter falsum. de quo dictum est dist. ii.
+          Ue<lb ed="#L" n="9" break="no"/>rumtamen si intelligantur modo praedicto debent negari. 
+          <lb ed="#L" n="10"/>qui praedicata non attribuuntur illi neccessario pro quo hui 
+          <lb ed="#L" n="11"/>manitas supponit. et iste modus sincathegoreu 
+          <lb ed="#L" n="12"/>maticus neccessario intelligitur in illo quod supponit. 
+          <lb ed="#L" n="13"/>Unde accipiendo humanitatem secundum quod praecise super 
+          <lb ed="#L" n="14"/>ponit pro re et non includit aliquem modum
+          sincathe<lb ed="#L" n="15" break="no"/>goreumaticum. tunc omnes iste essent vere.
+          humani<lb ed="#L" n="16" break="no"/>tas est homo. humanitas currit. humanitas est 
+          <lb ed="#L" n="17"/>alba. et sic de aliis. tamen quelibet istarum esset contin 
+          <lb ed="#L" n="18"/>gens. De vltimis patet quod forent contingentes. sic iste 
+          <lb ed="#L" n="19"/>sunt contingentes. homo currit homo est albus. 
+          <lb ed="#L" n="20"/>et sic de aliis. sed de ista humanitas est homo 
+          <lb ed="#L" n="21"/>humanitas est animal et de huiusmodi dubium esset magis. 
+          <lb ed="#L" n="22"/>De quo tamen dico quod sunt contingentes. quia manentibus 
+          <lb ed="#L" n="23"/>rebus possunt esse false. Unde si non esset nisi vna
+          hu<lb ed="#L" n="24" break="no"/>manitas in mundo. et illa esset assumpta a verbo 
+          <lb ed="#L" n="25"/>hec esset falsa simpliciter. humanitas est homo. sicut hoc 
+          <lb ed="#L" n="26"/>esset falsa simpliciter. homo est humanitas. Cuius 
+          <lb ed="#L" n="27"/>ratio est. quia homo concretum supponeret nisi pro
+          suppoe<lb ed="#L" n="28" break="no"/>sito sustentante naturam humanam seu humanita 
+          <lb ed="#L" n="29"/>em. et tamen suppositum simpliciter non est humanitas 
+          <lb ed="#L" n="30"/>Si dicatur quod tunc homo non supponeret pro eodem 
+          <lb ed="#L" n="31"/>quod significat. et ita videretur esse concretum. sicut 
+          <lb ed="#L" n="32"/>album quod non est verum. Similiter tunc hec esset vera hu 
+          <lb ed="#L" n="33"/>manitas est in intellectu. est in effectu. que tamen 
+          <lb ed="#L" n="34"/>omnia negat Auicena
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e1084">
+          ⁋ Respondeo quod homo est concre 
+          <lb ed="#L" n="35"/>tum aliquo modo. non tamen sicut album et huiusmodi
+          con<lb ed="#L" n="36" break="no"/>creta accidentalia. Cuius ratio est. quia album semper suppe 
+          <lb ed="#L" n="37"/>nit pro re alia ab albedine. nisi forte supponat prao 
+          <lb ed="#L" n="38"/>ipsa albedine. quod non est de virtute sermnonis. et ideo 
+          <lb ed="#L" n="39"/>nunquam potest concedi quod albedo est alba. quia
+          diffi<lb ed="#L" n="40" break="no"/>nitio exprimens quid nominis ipsius albi est ista. aliquid 
+          <lb ed="#L" n="41"/>informatum albedine. et quia albedo nnumquam
+          infor<lb ed="#L" n="42" break="no"/>matur albedine. ideo albedo nunquam est alba. homo 
+          <lb ed="#L" n="43"/>autem et huiusmodi sunt concreta. et aliquando supponit pro re 
+          <lb ed="#L" n="44"/>alia quam sit importata per abstractum. et aliquando pro illa 
+          <lb ed="#L" n="45"/>eadem re importata per abstractum. quia diffinitio ex 
+          <lb ed="#L" n="46"/>primens quid nominis est talis quod homo est res huma 
+          <lb ed="#L" n="47"/>nitatem sustentans. vel humanitas nulli alteri
+          in<lb ed="#L" n="48" break="no"/>nitens. et ideo supponit pro omni sustentante
+          huma<lb ed="#L" n="49" break="no"/>nitatem. et tunc supponit pro re alia ab
+          humanita<lb ed="#L" n="50" break="no"/>te. et ideo praedicatio humanitatis de homine pro tali est 
+          <lb ed="#L" n="51"/>simpliciter falsa. Supponit etiam pro humanitate nulli 
+          <lb ed="#L" n="52"/>alteri innitente et solum pro tali. et si nulla
+          humani<lb ed="#L" n="53" break="no"/>tas innitatur alteri. tunc supponit praecise pro
+          huma<lb ed="#L" n="54" break="no"/>nitate. et tunc omnis homo eset humanitas. nisi
+          in<lb ed="#L" n="55" break="no"/>cluderetur aliquod spaiale sincathegoreuma modo  
+          <!--287.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 142-v -->
+          <lb ed="#L" n="56"/>exposito. et tamen illa esset contingens. quia homo numquam 
+          <lb ed="#L" n="57"/>supponit pro humanitate nisi quando alteri non innititur. 
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e1143">
+          <lb ed="#L" n="58"/>⁋ Ad secundum dico quod sicut humanitas ex vsu
+          lo<lb ed="#L" n="59" break="no"/>quentium includit aliquando hoc sincathegoreuma
+          ne<lb ed="#L" n="60" break="no"/>cessario vel per se. ita aliquando includit hoc. sincathego 
+          <lb ed="#L" n="61"/>reuma per se primo modo quod satis innuit
+          Auicen<lb ed="#L" n="62" break="no"/>na assignans rationem quare humanitas vel
+          equeni<lb ed="#L" n="63" break="no"/>tas. nec est vna nec plures. nec in effectu. nec 
+          <lb ed="#L" n="64"/>in intellectu. nec in actu. nec in potentia. quia sci 
+          <lb ed="#L" n="65"/>nullum istorum ponitur in eius diffinitione. et ideo nullum 
+          <lb ed="#L" n="66"/>istorum praedicatur de ea primo modo dicendi per se. et ideo 
+          <lb ed="#L" n="67"/>intelligit quod equinitas nec est in actu nec in
+          po<lb ed="#L" n="68" break="no"/>tentia per se primo modo quecumque tamen res importe 
+          <lb ed="#L" n="69"/>tur per equinitatem. illa veraciter vel est in actu 
+          <lb ed="#L" n="70"/>vel in potentia. et eodem modo non posset negari quod 
+          <lb ed="#L" n="71"/>equinitas esset animalitas. quia non adequate. Et ita per 
+          <lb ed="#L" n="72"/>talia sincathegoreumata de vsu loquentium
+          in<lb ed="#L" n="73" break="no"/>tellecta in talibus abstractis possunt saluari omns 
+          <lb ed="#L" n="74"/>auctoritates negantes aliqua praedicata a talibus
+          ab<lb ed="#L" n="75" break="no"/>stractis. que tamen vere dicuntur de concretis. Et hoc 
+          <lb ed="#L" n="76"/>posset confirmari per Auicennam quae ita dicit. quod animal 
+          <lb ed="#L" n="77"/>secundum quod animal. nec est in actu nec in potentia. nec 
+          <lb ed="#L" n="78"/>vnum nec plura. sicut dicit quod equinitas secundum quod
+          equi<lb ed="#L" n="79" break="no"/>nitas. nec est in actu nec in potentia etc. Et ita 
+          <lb ed="#L" n="80"/>omnia talia vere negantur a concretis cum reduplica 
+          <lb ed="#L" n="81"/>tionibus negatis vel aliis sincathegoreumatibs 
+          <lb ed="#L" n="82"/>negatis sicut abstractus.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e1201">
+          ⁋ Ad secundum dico quamuis 
+          <lb ed="#L" n="83"/>generare et paternitas sic sint simpliciter idem. secundum quod 
+          <lb ed="#L" n="84"/>generare accipitur nominaliter. sicut essentia et paternitas. et 
+          <lb ed="#L" n="85"/>ideo sicut haec est concedenda essentia est paternitas. ita et 
+          <lb ed="#L" n="86"/>illa. essentia est generare. tamen illud verbum non praedicatur de 
+          <lb ed="#L" n="87"/>essentia. dicendo essentia generat. propter causam prius dictam 
+          <lb ed="#L" n="88"/>Ad vltimum dico quod quamuis in creaturis generare 
+          <lb ed="#L" n="89"/>et generari praedicentur de aliquibus mediantibus aliis 
+          <lb ed="#L" n="90"/>sicut dicitur quod ignis generat. quamuis forte non sit verum 
+          <lb ed="#L" n="91"/>nisi quia hoc est vera. calor generat. vel aliqua talis in qua 
+          <lb ed="#L" n="92"/>affirmatur generans de forma. quae est principium agendia 
+          <lb ed="#L" n="93"/>tamen communiter loquentes non sic recipiunt talem predica 
+          <lb ed="#L" n="94"/>tionem in divinis. et hoc rationabiliter. quia in creaturis illud 
+          <lb ed="#L" n="95"/>quod sic denominatur mediate generare. quia aliud primo 
+          <lb ed="#L" n="96"/>denominatur generare est realiter distinctum a generato et prius 
+          <lb ed="#L" n="97"/>eo. non sic autem in divinis. et ideo essentia non dicitur generare. 
+          <lb ed="#L" n="98"/>qui tunc distingueretur cum secundum omns omne generans 
+          <lb ed="#L" n="99"/>distinguitur a genito.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e1240">
+          ⁋ Ad primum principale dico 
+          <lb ed="#L" n="100"/>quod essentia non est res generans. si le generans tenei 
+          <lb ed="#L" n="101"/>pure participialiter et adiectiue. sed est res non generans 
+          <lb ed="#L" n="102"/>qui essentia non generans. Et quando dicitur quod essentia est pater
+          conce<lb ed="#L" n="103" break="no"/>do. Et quando dicitur quod est pater generans vel pater non generans. Potest 
+          <lb ed="#L" n="104"/>dici quod si luo gnerans tenetur pure adiective quod neuter 
+          <lb ed="#L" n="105"/>est concedenda. Cuius ratio est. quia aliquando ad hoc quod determina 
+          <lb ed="#L" n="106"/>bile sumptum cum aliqua determinatione praedicetur de 
+          <lb ed="#L" n="107"/>aliquo. requiritur quod detminatio vere praedicetur de de 
+          <lb ed="#L" n="108"/>terminabili. et quod tam determinatio quam
+          deter<lb ed="#L" n="109" break="no"/>minabile praedicetur de principali subiecto sicut 
+          <lb ed="#L" n="110"/>ad veritatem istius. sortes est homo albus. requiritur 
+          <!--288.xml-->
+          <pb ed="#L" n="143-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>veritas istarum trium. quod sortes est homo. sortes est 
+          <lb ed="#L" n="2"/>albus. et homo est albus. et tunc esset hoc falsa. essentia est 
+          <lb ed="#L" n="3"/>pater generans. quia hoc est falsa. est essentia est generans. et 
+          <lb ed="#L" n="4"/>haec esset falsa. essentia est piater non generas. quia hec  
+          <lb ed="#L" n="5"/>falsa. pater est non generans. et ita in talibus compositir 
+          <lb ed="#L" n="6"/>non oportet quod a quo negatur aliquod tale compositum. quod vna 
+          <lb ed="#L" n="7"/>pars sumpta cum opposita contradictione alterius
+          ve<lb ed="#L" n="8" break="no"/>rificetur de eodem. sicut non sequitur. asinus non est 
+          <lb ed="#L" n="9"/>lignum album. ergo est lignum non album. et tamen non est
+          om<lb ed="#L" n="10" break="no"/>nino simile. quia nusquam inuenitur nisi in deo quod aliquid 
+          <lb ed="#L" n="11"/>praedicatur de aliquo. et de praedicato sumpto vnifor 
+          <lb ed="#L" n="12"/>miter. et secundum eandem supponem aliquid praedicetur. quin 
+          <lb ed="#L" n="13"/>praedicetur de subiecto. et ita talis modus arguendi 
+          <lb ed="#L" n="14"/>omnis pater generat. essentia est pater. ergo essentia
+          ge<lb ed="#L" n="15" break="no"/>nerat. vbi pater eodem modo supponit in vtraque
+          pro<lb ed="#L" n="16" break="no"/>pone. semper tenet. praeterque in proposito in diuinis 
+          <lb ed="#L" n="17"/>Et tota causa est. quia nusquam alibi possunt tres res.
+          qua<lb ed="#L" n="18" break="no"/>rum nulla est alia res esse vna res numero. et ita 
+          <lb ed="#L" n="19"/>ibi solum potest aliquid vere affirmari de vna
+          illa<lb ed="#L" n="20" break="no"/>rum rerum. et tamen negari ab illa re quae est ille tres res 
+          <lb ed="#L" n="21"/>propter identitatem illius rei cum illis tribus rebus 
+          <lb ed="#L" n="22"/>et propter distinctionem illarum trium rerum inter se 
+          <lb ed="#L" n="23"/>Si tamen posset haberi talis sensus illius propositionis. 
+          <lb ed="#L" n="24"/>essentia est pater. et ille pater est generans. tunc esset con 
+          <lb ed="#L" n="25"/>cedendum quod essentia est pater generans. sed tunc 
+          <lb ed="#L" n="26"/>non valet consequentia. ergo essentia est generans. sicut non sed 
+          <lb ed="#L" n="27"/>tur. pater est generans. essentia est pater. ergo essentia est 
+          <lb ed="#L" n="28"/>generans.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e1333">
+          ⁋ Ad secundum dico quod posito quod essentie 
+          <lb ed="#L" n="29"/>diuina sit ratio agendi vel generandi. et ita vere ratio 
+          <lb ed="#L" n="30"/>generandi sicut forma in creaturis est ratio agendi 
+          <lb ed="#L" n="31"/>tamen non debet concedi quod essentia generat sicut debet conce 
+          <lb ed="#L" n="32"/>di in creaturis quod forma agit vel generat. Et ratio 
+          <lb ed="#L" n="33"/>dicta est. quia essentia diuina non distinguitur a
+          ge<lb ed="#L" n="34" break="no"/>nerato. sicut forma creata distinguitur a
+          ge<lb ed="#L" n="35" break="no"/>nerato. Et ideo illas probationes quae probant quod forma 
+          <lb ed="#L" n="36"/>creata que est ratio agendi vel gnandi vere agit 
+          <lb ed="#L" n="37"/>et generat. concedo. nisi forte auctores intelligant 
+          <lb ed="#L" n="38"/>illud non agit quod est in alio. et tunc non est dispu 
+          <lb ed="#L" n="39"/>tatio nisi de modo loquendi de quo non est cura 
+          <lb ed="#L" n="40"/>ad praesens. sed intelligendo sicut intelligit philosophus. v. 
+          <lb ed="#L" n="41"/>meth. quod illud est causa ad cuius esse sequitur
+          effe<lb ed="#L" n="42" break="no"/>ctus. et quo posito potest poni effectus. et quo 
+          <lb ed="#L" n="43"/>non posito non ponitur effectus. et eodem modo pro 
+          <lb ed="#L" n="44"/>portionabiliter de agente et generante. sic dico quod 
+          <lb ed="#L" n="45"/>forma creata vere agit et vere generat et per se et 
+          <lb ed="#L" n="46"/>suppositum vel etiam compositum non generatur nec 
+          <lb ed="#L" n="47"/>agit nisi per accidens.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e1377">
+          ⁋ Secus tamen est de generato. 
+          <lb ed="#L" n="48"/>qui compositum praecise generatur. et nec forma
+          gene<lb ed="#L" n="49" break="no"/>ratur nec materia proprie loquendo. sicut alias 
+          <lb ed="#L" n="50"/>patebit. Et si dicatur quod actiones sunt
+          suppo<lb ed="#L" n="51" break="no"/>sitorum. Dico quod hec propositio non inuenitur in 
+          <lb ed="#L" n="52"/>philosophia. sed dicitur quod actiones et operatio 
+          <lb ed="#L" n="53"/>nes reales sunt singularium. quia nihil est reale ni 
+          <lb ed="#L" n="54"/>si singulare.
+        </p>
+        <p xml:id="wo8uy7-d1e598-d1e1395">
+          ⁋ Ad tertium argumentum et quartum 
+          <lb ed="#L" n="55"/>patet per predicta.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

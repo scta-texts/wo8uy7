@@ -1,505 +1,505 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="172-v"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e834"><!-- l1d10q1 -->
-            <head xml:id="wo8uy7-d1e834-Hd1e108">Quaestio 1</head>
-            <p xml:id="wo8uy7-d1e834-d1e111">
-               <lb ed="#L" n="38"/>Distinctio decima. Questio prima 
-      <lb ed="#L" n="39"/>Irca distinctio 
-      <lb ed="#L" n="40"/>nem decimam quero. Utrum
-      vo<lb ed="#L" n="41" break="no"/>luntas sit principium producti 
-      <lb ed="#L" n="42"/>uum spiritussancti.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e124">
-      ⁋ Quod non. quia 
-      <lb ed="#L" n="43"/>nihil posterius potest esse
-      prin<lb ed="#L" n="44" break="no"/>cipium communicandi prius. sed
-      vo<lb ed="#L" n="45" break="no"/>luntas est aliquo modo posterius essentia.
-      er<lb ed="#L" n="46" break="no"/>go non potest esse principium communicandi essentiam 
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e135">
-               <lb ed="#L" n="47"/>⁋ Preterea. si voluntas sit principium
-      produ<lb ed="#L" n="48" break="no"/>cendi spiritumsanctum. Aut ergo inquantum
-      volun<lb ed="#L" n="49" break="no"/>tas. aut inquantum infinita. si inquantum
-      volun<lb ed="#L" n="50" break="no"/>tas. ergo omnis. voluntas. si inquantum infinita 
-      <lb ed="#L" n="51"/>ergo omne infinitum. et per consequens spiritussar 
-      <lb ed="#L" n="52"/>ctus esset principium productiuum.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e151">
-      ⁋ Preterea  
-      <lb ed="#L" n="53"/>nihil producitur actu voluntatis nisi precogni 
-      <lb ed="#L" n="54"/>itum. ergo si voluntas esset principium producti 
-      <!--347.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 172-v -->
-               <lb ed="#L" n="55"/>uum spiritus sancti: spiritus sactus esset praecognitus. 
-      <lb ed="#L" n="56"/>sed omne tale producitur per modum exemplaris. ergo 
-      <lb ed="#L" n="57"/>spirtussanctus producitur per modum exemplaris et per 
-      <lb ed="#L" n="58"/>ydeam.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e174">
-      ⁋ Ad oppositum. amor non producitur nis 
-      <lb ed="#L" n="59"/>per actum voluntatis. sed secundum beatum augustinum in d 
-      <lb ed="#L" n="60"/>uersis locis spiritus sanctus est amor. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e181">
-      ⁋ Ad 
-      <lb ed="#L" n="61"/>questionem dicitur primo quod voluntas est principium 
-      <lb ed="#L" n="62"/>productiuum. Secundo quod est principiuum productiuum al 
-      <lb ed="#L" n="63"/>terius persone ab illa que producitur per
-      intel<lb ed="#L" n="64" break="no"/>lectum. Tertio ex hiis quod tantum sunt due persone 
-      <lb ed="#L" n="65"/>ducte in diuinis.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e194">
-      ⁋ Primum declaratur sic. Prin 
-      <lb ed="#L" n="66"/>cipia productiua ex quo non dicunt de se
-      imperfecti<lb ed="#L" n="67" break="no"/>nem reducuntur ad aliquod vnum perfectum vel ad 
-      <lb ed="#L" n="68"/>aliqua perfecta in tanta paucitate ad quantam 
-      <lb ed="#L" n="69"/>reduci possunt. Non possunt autem omnia reduci 
-      <lb ed="#L" n="70"/>ad vnum principium. quia illud vnum haberet determi 
-      <lb ed="#L" n="71"/>natum modum agendi alterius istorum: scilicet nature 
-      <lb ed="#L" n="72"/>vel voluntatis. quia inter modos producendi non est 
-      <lb ed="#L" n="73"/>aliquis modus medius. ergo non possunt hec redur 
-      <lb ed="#L" n="74"/>ci ad maiorem paucitatem quam ad dualitatem. princi 
-      <lb ed="#L" n="75"/>pii scilicet producciui primi per modum nature et per mo 
-      <lb ed="#L" n="76"/>dum voluntatis. et tamen ista ad que tanquam ad perfecte 
-      <lb ed="#L" n="77"/>stat tota ista reductio principiorum vt simpliciter 
-      <lb ed="#L" n="78"/>perfecta abo ista principia sub ratione propria sua po 
-      <lb ed="#L" n="79"/>nentur in deo vt est principium producens. Ex hiis vel 
-      <lb ed="#L" n="80"/>tra. in quocumque est principium aliquod quod ex ratione sua 
-      <lb ed="#L" n="81"/>est principium productiuum. est in eo principium producem 
-      <lb ed="#L" n="82"/>di si est in eo sine imperfectione. et non
-      intelliga<lb ed="#L" n="83" break="no"/>tur praehabere aliquod productum simpliciter
-      ade<lb ed="#L" n="84" break="no"/>quatum. in deo est formaliter voluntas
-      exinatu<lb ed="#L" n="85" break="no"/>ra rei. et hoc sub ratione principii productiui libere re 
-      <lb ed="#L" n="86"/>spectu amoris. et patet quod est ibi sine imperfectio 
-      <lb ed="#L" n="87"/>ne. ergo erit in deo principium producendi amorem et hoc 
-      <lb ed="#L" n="88"/>secundum proportionem perfectionis sue. ita quod sicut vo 
-      <lb ed="#L" n="89"/>luntas creata est principium producendi amorem 
-      <lb ed="#L" n="90"/>tantum quanto amore ipsa potest amare obiectum. quae
-      di<lb ed="#L" n="91" break="no"/>citur amor adequatus. ita ista voluntas erit 
-      <lb ed="#L" n="92"/>principium producendi amorem tantum iquanto ipsa est
-      na<lb ed="#L" n="93" break="no"/>ta amare obiectum infinitum. sed nata est amare 
-      <lb ed="#L" n="94"/>obiectum amore infinito. ergo nata est esse
-      principi<lb ed="#L" n="95" break="no"/>um producendi amorem infinitum.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e262">
-      ⁋ Ex hoc sequi 
-      <lb ed="#L" n="96"/>tur secundum. quia cum principia productiua quae sunt na 
-      <lb ed="#L" n="97"/>tura et voluntas habeant oppositos modos
-      prin<lb ed="#L" n="98" break="no"/>cipiandi. non possunt eidem principio competere. 
-      <lb ed="#L" n="99"/>et per consequens cum intellectus diuinus sit perfectus 
-      <lb ed="#L" n="100"/>sicut intellectus inquantum est potentia
-      operati<lb ed="#L" n="101" break="no"/>ua natus est intelligere obiectum quantum ipsum est 
-      <lb ed="#L" n="102"/>noscibile. ita inquantum est potentia productiua no 
-      <lb ed="#L" n="103"/>titie genite natus est esse principium tante
-      noti<lb ed="#L" n="104" break="no"/>tie quanta potest esse obiecti. et cum ista principia sint 
-      <lb ed="#L" n="105"/>alterius rationis: oportet quod productiones et producta sint
-      al<lb ed="#L" n="106" break="no"/>terius rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e288">
-      ⁋ Ex istis sequitur quod tantum sunt due persone 
-      <lb ed="#L" n="107"/>producte. quia si non sunt nisi duo principia productiua 
-      <lb ed="#L" n="108"/>tantum sunt due productiones numero. probo. quia vtrumque potest 
-      <lb ed="#L" n="109"/>xipium productiuum habet productionem sibi adequa 
-      <!--348.xml-->
-      <pb ed="#L" n="173-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>tam et coeternam. ergo stante ista productione non potest ha 
-      <lb ed="#L" n="2"/>bere aliam.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e308">
-      ⁋ Contra istam opinionem arguo primo 
-      <lb ed="#L" n="3"/>quia non probatur sufficientur quod voluntas sit principium pro 
-      <lb ed="#L" n="4"/>ductium spiritus sanctus quam proposito illa accepta scilicet in quocuque 
-      <lb ed="#L" n="5"/>est principium aliquod quod ex ratione sua est principium produ 
-      <lb ed="#L" n="6"/>ctiuum. est in eo principium producendi etc. videtur esse 
-      <lb ed="#L" n="7"/>neganda secundum istum doc. quia si sic. sequeretur quod essent 
-      <lb ed="#L" n="8"/>plures persone in diuinis quam tres. probatio istius. quia 
-      <lb ed="#L" n="9"/>sicut intellectus est de se principium productiuum
-      no<lb ed="#L" n="10" break="no"/>titie. ita actus amandi est de se principium productiuum 
-      <lb ed="#L" n="11"/>amoris habitualis. ergo cum actus amandi deum sit in 
-      <lb ed="#L" n="12"/>deo sine omni imperfectione: erit in deo principium pro 
-      <lb ed="#L" n="13"/>ducendi. sed non potest esse principium producendi spiritum 
-      <lb ed="#L" n="14"/>sanctum. quia secundum istum doc. voluntas et non actus
-      volen<lb ed="#L" n="15" break="no"/>di est principium producend spiritus sanctus ergo est aliqua alia
-      perso<lb ed="#L" n="16" break="no"/>na producta a spiritusancto.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e342">
-      ⁋ Si dicatur quod actus 
-      <lb ed="#L" n="17"/>amandi non hahet ex ratione sua quod est productiuus
-      amo<lb ed="#L" n="18" break="no"/>ris habitalis. sed tantum in nobis et no vniversaliter.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e349">
-      ⁋ Contra. 
-      <lb ed="#L" n="19"/>eadem facilitate dicetur quod voluntas exratione sua non 
-      <lb ed="#L" n="20"/>habet quod sit productiua sed tantum in nobis. et ita
-      argu<lb ed="#L" n="21" break="no"/>mentum illud non concludit plus de voluntate quam de 
-      <lb ed="#L" n="22"/>actu amandi. Eodem modo modo potest argui de actu intel 
-      <lb ed="#L" n="23"/>ligendi respectu sapientie. quia actus sciendi vel actus 
-      <lb ed="#L" n="24"/>speculandi est principium productiuum sapentie. Nec 
-      <lb ed="#L" n="25"/>valet dicere: quod nullum istorum est productiuum nisi ali 
-      <lb ed="#L" n="26"/>cuius imperfecti et nihil imperfectum est in deo. et ideo non potest 
-      <lb ed="#L" n="27"/>esse productiuum alicuius ad intra. hoc non valet. quia 
-      <lb ed="#L" n="28"/>sicut intelligere est perfectio simpliciter. ita ipsa 
-      <lb ed="#L" n="29"/>essentia est perfectiosimpliciter. ergo ita poterit ali 
-      <lb ed="#L" n="30"/>quis actus intelligendi esse principium productiuum sa 
-      <lb ed="#L" n="31"/>pientie in diuinis sicut intellectus est principium 
-      <lb ed="#L" n="32"/>notitie genite
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e382">
-      ⁋ Contra istum. videtur quod posito quod 
-      <lb ed="#L" n="33"/>essent principia productiua alterius rationis quod no 
-      <lb ed="#L" n="34"/>oportet producta esse alterius rationis. quia principia al 
-      <lb ed="#L" n="35"/>terius rationis possunt concurrere ad vnum productu. igitur 
-      <lb ed="#L" n="36"/>ex pluralitate tali principiorum productiuorum non 
-      <lb ed="#L" n="37"/>potest argui pluralitas productorum. Assumptum patet. 
-      <lb ed="#L" n="38"/>qui secundum istum doctorem essentia et intellectus
-      concur<lb ed="#L" n="39" break="no"/>runt tanquam vnum principium totale ad productionem 
-      <lb ed="#L" n="40"/>verbi. et tamen ista sunt alterius rationis. Similiter si repugnet 
-      <lb ed="#L" n="41"/>intellectui diuino et voluntati divine facere vnum 
-      <lb ed="#L" n="42"/>totale principium respectu vnius persone producte 
-      <lb ed="#L" n="43"/>aut hoc est quia vnum est naturale et aliud libe 
-      <lb ed="#L" n="44"/>rum. aut quia vtrunque est de per se perfectum et in 
-      <lb ed="#L" n="45"/>finitum se solo sufficiens in ratione principii
-      pro<lb ed="#L" n="46" break="no"/>ductiui respectu sui producti. Primum non im 
-      <lb ed="#L" n="47"/>pedit. tum quia secundum eum obiectum et voluntas in 
-      <lb ed="#L" n="48"/>nobis concurrunt: tanquam due cause partiales re 
-      <lb ed="#L" n="49"/>spectu eiusdem volitionis producende. tum quia 
-      <lb ed="#L" n="50"/>ymd eundem sicut intellectus paternus habens 
-      <lb ed="#L" n="51"/>obiectum intelligibile sibi presens est
-      princi<lb ed="#L" n="52" break="no"/>pium productiuum verbi. ita voluntas habens ob 
-      <lb ed="#L" n="53"/>iectum volibile vel amabile sibi presens est
-      prin<lb ed="#L" n="54" break="no"/>cipium productium spiritus sanctus ergo sicut secundum eum essentia 
-      <lb ed="#L" n="55"/>et intellectus faciunt vnum totale principium 
-      <!--348.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 173-r -->
-               <lb ed="#L" n="56"/>verbi. ita essentia que est primum obiectum
-      vo<lb ed="#L" n="57" break="no"/>luntatis et ipsa voluntas facient vnum totale 
-      <lb ed="#L" n="58"/>principium spiritus sanctus ergo nec in deo nec in nobis est re 
-      <lb ed="#L" n="59"/>pugnantia: quin principium naturale et liberum 
-      <lb ed="#L" n="60"/>faciant vnum principium totale eiusdem producti 
-      <lb ed="#L" n="61"/>Nec secundum impedit. quia sicut dictum est per eum 
-      <lb ed="#L" n="62"/>dem. essentia diuina et intellectus non
-      obstam<lb ed="#L" n="63" break="no"/>te infinita perfectione tam essentie quam intelle 
-      <lb ed="#L" n="64"/>ctus faciunt vnum principium totale respectu 
-      <lb ed="#L" n="65"/>verbi. ergo eodem modo non obstante
-      infini<lb ed="#L" n="66" break="no"/>tate intellectus et voluntatis poterunt
-      face<lb ed="#L" n="67" break="no"/>re vnum principium totale eiusdem producti. 
-      <lb ed="#L" n="68"/>Ex isto patet quod rationes probantes quod
-      vo<lb ed="#L" n="69" break="no"/>luntas non est principiunm spiritus sanctis inquantum
-      volun<lb ed="#L" n="70" break="no"/>tas. et quod pater et filius non spirandi spiritus sanctus ini quam 
-      <lb ed="#L" n="71"/>tum diligunt se mutuo. per hoc scilicet quod
-      volun<lb ed="#L" n="72" break="no"/>tas sit prior actu volendi. et etiam vt prior
-      ta<lb ed="#L" n="73" break="no"/>li actu mutuo se diligendi. non sunt
-      sufficien<lb ed="#L" n="74" break="no"/>tes. quia posito quod esset ibi talis prioritas et di 
-      <lb ed="#L" n="75"/>stinctio non potest probari aliquod illorum esse 
-      <lb ed="#L" n="76"/>principium sufficiens sine alio respectu talis 
-      <lb ed="#L" n="77"/>persone. sicut nec potest probari: quod natura sit 
-      <lb ed="#L" n="78"/>principium sufficiens cuiuscumque persone sine ¬ 
-      <lb ed="#L" n="79"/>tellectu et voluntate.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e493">
-      ⁋ Si dicatur quod non est 
-      <lb ed="#L" n="80"/>simile. quia nulla personam produci potest in diui 
-      <lb ed="#L" n="81"/>nis nisi per medium intellectus vel
-      volunta<lb ed="#L" n="82" break="no"/>tis: et ideo natura se sola sine intellectu et
-      vo<lb ed="#L" n="83" break="no"/>luntate non potest esse principiumi totale
-      cuius<lb ed="#L" n="84" break="no"/>cunque persone.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e506">
-      ⁋ hoc non satiffacit. de hoc enim 
-      <lb ed="#L" n="85"/>est questio. An scilicet ex quo essentia est principi 
-      <lb ed="#L" n="86"/>um actiuum perfectum et infinitum ante possit esse 
-      <lb ed="#L" n="87"/>rincipium sufficiens respectu alicuius persone. 
-      <lb ed="#L" n="88"/>non concurrente intellectu et voluntate in ratio 
-      <lb ed="#L" n="89"/>ne principii productiui. sicut ponis essentiam et
-      im<lb ed="#L" n="90" break="no"/>tellectum esse principium totale persone secunde 
-      <lb ed="#L" n="91"/>sine voluntate. et posset eque rationabiliter
-      pro<lb ed="#L" n="92" break="no"/>bari vnum sicut reliquum. Ita enim videtur in
-      no<lb ed="#L" n="93" break="no"/>pis quod essentia vel natura est principium
-      pro<lb ed="#L" n="94" break="no"/>ductiuum sine intellectu et voluntate. sicut intel 
-      <lb ed="#L" n="95"/>lectus sine voluntate.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e532">
-      ⁋ Confirmatur. quia 
-      <lb ed="#L" n="96"/>essentia est prior intellectum secundum istos. ergo in illo
-      pri<lb ed="#L" n="97" break="no"/>ori poterit habere personam producta. et per con 
-      <lb ed="#L" n="98"/>sequens esset persona aliqua producta ante fi 
-      <lb ed="#L" n="99"/>lium. Ita enim arguunt quod esset aliqua personam pro 
-      <lb ed="#L" n="100"/>ducta ante spiritumsanctum si produceretur a vo 
-      <lb ed="#L" n="101"/>untate inquantum voluntas. quia voluntas ha 
-      <lb ed="#L" n="102"/>bens obiectum diligibile sibi presens est
-      pri<lb ed="#L" n="103" break="no"/>or actu volendi.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e553">
-      ⁋ Si dicatur quod non est
-      simi<lb ed="#L" n="104" break="no"/>le. quia voluntas perfecta habens obiectum diligibile 
-      <lb ed="#L" n="105"/>sibi presens in supposito conueniente est prin 
-      <lb ed="#L" n="106"/>cipium productiuum sufficiens: sed non sic 
-      <lb ed="#L" n="107"/>essentia vt ipsa prior est intellectu.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e564">
-      ⁋ hoc non 
-      <lb ed="#L" n="108"/>sufficit. primo quia hoc deberet probari: scilicet quod essen 
-      <lb ed="#L" n="109"/>tia non est sic sufficiens et quod voluntas est sic sufficiens 
-      <lb ed="#L" n="110"/>qui eadem facilitate qua tum dicis quod essentia non est 
-      <!--349.xml-->
-      <pb ed="#L" n="173-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>sufficiens sine intellectu. eadem facilitate diceret 
-      <lb ed="#L" n="2"/>aduersarius quod voluntas non est sufficiens sine 
-      <lb ed="#L" n="3"/>actu volendi. Secundo non sufficit. quia sicut ex prio 
-      <lb ed="#L" n="4"/>ritate voluntatis habentis obiectum diligibile 
-      <lb ed="#L" n="5"/>sibi praesens non potest probari quod prius sit principium spi 
-      <lb ed="#L" n="6"/>rand spiritus sanctus quam habet actum volendi. quia cum tali
-      priorita<lb ed="#L" n="7" break="no"/>tate stat etiam praoritas actus volendi respectu
-      a<lb ed="#L" n="8" break="no"/>ctus spirandi etiam secundum istos. ita ex tali prioritate 
-      <lb ed="#L" n="9"/>non potest probari quod sit principium spirandi et non actus 
-      <lb ed="#L" n="10"/>volendi. immo stat quod tam voluntas quam actus volen 
-      <lb ed="#L" n="11"/>di sit principium spirandi spiritum sanctum.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e603">
-      ⁋ Si dicatur quod non. quia 
-      <lb ed="#L" n="12"/>in nobis videmus quod ipsa sola voluntas cum
-      obie<lb ed="#L" n="13" break="no"/>cto praesente sufficit. et ideo etiam in deo sufficiet.
-      Con<lb ed="#L" n="14" break="no"/>tra. quamuis voluntas creata cum obiecto sufficiat 
-      <lb ed="#L" n="15"/>respectu producti praemi a voluntate. si tamen essent duo 
-      <lb ed="#L" n="16"/>producta a voluntate ordinata necessario vel inter 
-      <lb ed="#L" n="17"/>voluntatem et productum esset aliquod medium non produ 
-      <lb ed="#L" n="18"/>ctum a voluntate. vltimum productum necessario esset 
-      <lb ed="#L" n="19"/>a priori medio in aliquo genere principii. ergo eodem 
-      <lb ed="#L" n="20"/>modo in diuinis si actus volendi sit prior actu
-      spiran<lb ed="#L" n="21" break="no"/>di oporteat quod habeat rationem principii respectu ipsius 
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e627">
-               <lb ed="#L" n="22"/>⁋ Assumptum patet: quia secundum istos. omnis effectus
-      suffi<lb ed="#L" n="23" break="no"/>cienter dependet ex suis causis essentialibus. ergo ni 
-      <lb ed="#L" n="24"/>hil est essentialiter prius aliquo effectu nisi sit causa 
-      <lb ed="#L" n="25"/>illius in aliquo genere cause. ergo omne prius siue
-      pro<lb ed="#L" n="26" break="no"/>ductum siue non productum a voluntate respectu
-      a<lb ed="#L" n="27" break="no"/>ctus producti a voluntate. est causa ipsius actus in
-      ali<lb ed="#L" n="28" break="no"/>quo genere cause.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e645">
-      ⁋ Ex praedictis patet contra
-      ter<lb ed="#L" n="29" break="no"/>cium. quod ex dualitate principiorum productiuorum si po 
-      <lb ed="#L" n="30"/>neretur non potest probari trinitas personarum. quia non potest 
-      <lb ed="#L" n="31"/>probari dualitas personarum productarum. cum sicut 
-      <lb ed="#L" n="32"/>probatum est non potest probari quin illi principia
-      produ<lb ed="#L" n="33" break="no"/>ctiua possunt concurrere ad vnum productum.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e658">
-      ⁋
-      Preter<lb ed="#L" n="34" break="no"/>ea non potest probari quin vnum principium productiuum 
-      <lb ed="#L" n="35"/>habet diuersa producta alterius rationis. cum
-      produ<lb ed="#L" n="36" break="no"/>ctiuum vnius rationis: possit habere producta alterius 
-      <lb ed="#L" n="37"/>rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e670">
-      ⁋ Ideo dico aliter ad questionem dicen 
-      <lb ed="#L" n="38"/>do consequenter ad dicta in praecedentibus. De primo quod
-      vo<lb ed="#L" n="39" break="no"/>luntas est principium elicitiuum spirationis. Secundo quod 
-      <lb ed="#L" n="40"/>supposita productione in diuinis non potest euidenter 
-      <lb ed="#L" n="41"/>inferri esse plures productiones. Tertio quod ex
-      plu<lb ed="#L" n="42" break="no"/>ralitate productionum non potest inferri euidenter tantum 
-      <lb ed="#L" n="43"/>dualitas productionum. Quarto quod omnia ista sola 
-      <lb ed="#L" n="44"/>fide tenentur.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e688">
-      ⁋ Primum declaratur. quia secundum verita 
-      <lb ed="#L" n="45"/>tem fidem spiritus sanctus scilicet vere producitur a patre et filio. ergo si sit aliquod 
-      <lb ed="#L" n="46"/>principium productiuum illius cum illud non possit esse rela 
-      <lb ed="#L" n="47"/>tio. quia vna relatio non potest esse principium elicitiuum 
-      <lb ed="#L" n="48"/>alterius relationis correlatiue. nec sui ipsius: oportet quod 
-      <lb ed="#L" n="49"/>principium elicitiuum erit aliquod absolutum. sed
-      osten<lb ed="#L" n="50" break="no"/>sum est prius quod nihil est absolutum in diuinis
-      ni<lb ed="#L" n="51" break="no"/>si essentia diuina quae omnibus modis ex natura rei 
-      <lb ed="#L" n="52"/>est voluntas. ergo nisi aliquas modus gramaticalis 
-      <lb ed="#L" n="53"/>vel logicalis impediat sicut concedendum est de
-      es<lb ed="#L" n="54" break="no"/>sentia quod est principium elicitiuum spirationis. ita est eo 
-      <lb ed="#L" n="55"/>dem modo concedendum de voluntate. Qualiter tamen aliter 
-      <!--349.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 173-v -->
-               <lb ed="#L" n="56"/>potest hec verificari. essentia est principium spirandi. et 
-      <lb ed="#L" n="57"/>aliter ista. voluntas est principium spirandi. propter hoc 
-      <lb ed="#L" n="58"/>quod subiectum vnius aliquid connotat quod non connotat 
-      <lb ed="#L" n="59"/>subiectum alterius: potest patere in prima. q. dis. vi scilicet 
-      <lb ed="#L" n="60"/>illa quae ibi dicuntur ad ista applicentur.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e732">
-      ⁋ Preterea 
-      <lb ed="#L" n="61"/>quod voluntas sit principium spirandi patet ex auctoritas
-      san<lb ed="#L" n="62" break="no"/>ctorum. quia secundum sanctos spiritus sanctus est amor et caritas. Sed  
-      <lb ed="#L" n="63"/>talis persona producitur a voluntate tamquam a principio 
-      <lb ed="#L" n="64"/>elicitiuo. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e743">
-      ⁋ Et si quaeratur an actus volendi sit 
-      <lb ed="#L" n="65"/>principium spiritus sancti Dico quod actus volendi et actus
-      intelligen<lb ed="#L" n="66" break="no"/>di est simpliciter principium spirandi. quia est omnibus mo 
-      <lb ed="#L" n="67"/>dis idem cum divina essentia et cum divina voluntate Nec 
-      <lb ed="#L" n="68"/>ex hoc sequitur: quod ante spiritus sanctus producatur aliqua persona
-      me<lb ed="#L" n="69" break="no"/>diante sola voluntate. quia omnia talia argumenta sup 
-      <lb ed="#L" n="70"/>ponunt falsum. scilicet quod sit aliqua distinctio inter essen 
-      <lb ed="#L" n="71"/>tiam et voluntatem. vel inter voluntatem et actum
-      volen<lb ed="#L" n="72" break="no"/>di et intelligendi Si tamen esset aliqua distinctio 
-      <lb ed="#L" n="73"/>posset rationabiliter dici quod sola voluntas esset
-      princi<lb ed="#L" n="74" break="no"/>pium spiritus sanctus et eodem modo quod solus intellectus esset principium 
-      <lb ed="#L" n="75"/>elicitiuum verbi gratia cuius ratio posset assignari. quia 
-      <lb ed="#L" n="76"/>semper tanta est variatio et distinctio vel maior in re 
-      <lb ed="#L" n="77"/>lationibus: quanta est infundamentis. et ideo si
-      essen<lb ed="#L" n="78" break="no"/>tia et intellectus essent duo principia partialia et vnum 
-      <lb ed="#L" n="79"/>totale elicitiuum verbi: oporteret quod alia
-      paterni<lb ed="#L" n="80" break="no"/>tas fundaretur in essentia et alia in intellectu. et ita 
-      <lb ed="#L" n="81"/>essent due paternitates in diuinis: quod non est
-      con<lb ed="#L" n="82" break="no"/>cedendum. et hoc est maxime conclusio istos tenentes contrarium 
-      <lb ed="#L" n="83"/>qui dicunt quod in paternitate nulla est talis distinctio 
-      <lb ed="#L" n="84"/>formalis etiam quod tamen sequeretur si fundaretur immedia 
-      <lb ed="#L" n="85"/>te tam in essentia quam in intellectu.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e791">
-      ⁋ Secundum decla 
-      <lb ed="#L" n="86"/>ratur. scilicet quod ex productione diuina non potest inferri eui 
-      <lb ed="#L" n="87"/>denter esse plures productiones in diuinis. quia vbicum 
-      <lb ed="#L" n="88"/>que est vnum principium productiuum non potest inferri euidenter 
-      <lb ed="#L" n="89"/>pluralitas productionum. sed sicut frequenter osten 
-      <lb ed="#L" n="90"/>sum est in deo est praecipue vnum principium productiuum 
-      <lb ed="#L" n="91"/>qui ibi est tantum vnum absolutum omnino indistinctum. ergo non 
-      <lb ed="#L" n="92"/>potest inferri euidenter quod sunt plures productiones in 
-      <lb ed="#L" n="93"/>diuinis.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e811">
-      ⁋ Tertio dico quod ex pluralitate
-      produ<lb ed="#L" n="94" break="no"/>ctionum in diuinis non potest inferri euidentur tantum
-      dua<lb ed="#L" n="95" break="no"/>litas. quia non potest sufficienter probari quin vnum
-      produ<lb ed="#L" n="96" break="no"/>ctiuum possit esse respectu plurium productorum quam du 
-      <lb ed="#L" n="97"/>orum.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e823">
-      ⁋ Ideo dico quarto quod sola fide tenetur quod 
-      <lb ed="#L" n="98"/>tantum sunt due persone producte. et vna improducta et ideo 
-      <lb ed="#L" n="99"/>trinitas personarum sola fide tenetur.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e830">
-      ⁋ Ad primum 
-      <lb ed="#L" n="100"/>principale dico quod voluntas nullo modo est posterior 
-      <lb ed="#L" n="101"/>quam essentia. non plus quam essentia est posterior essentia 
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e837">
-               <lb ed="#L" n="102"/>⁋ Ad secundum dico: quod nec voluntas inquantum
-      volun<lb ed="#L" n="103" break="no"/>tas. nec inquantum infinita est: est principium spirandi 
-      <lb ed="#L" n="104"/>spiritus sancti sed inquantum voluntas est formaliter et omnino
-      es<lb ed="#L" n="105" break="no"/>sentia diuina. et ideo omne quod est formaliter et omnino 
-      <lb ed="#L" n="106"/>ex natura rei diuina. essentia. est principium spiran 
-      <lb ed="#L" n="107"/>di. spiritus sancti sed spiritus sanctus quamuis sit realiter et
-      perfe<lb ed="#L" n="108" break="no"/>cte diuina essentia. non tamen est formaliter
-      diui<lb ed="#L" n="109" break="no"/>na essentia. et ideo non est principium spirandi spiritus sancti 
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e857">
-               <lb ed="#L" n="110"/>⁋ Ad tertium dico: quod illa propositio. nihil produ¬ 
-      <!--350.xml-->
-      <pb ed="#L" n="174-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>citur actu voluntatis nisi praecognitum: potest intelli 
-      <lb ed="#L" n="2"/>gi dupliciter. vel quod actus voluntatis elicitus sit 
-      <lb ed="#L" n="3"/>quo voluntas producit. et sic potest concedi in creatu 
-      <lb ed="#L" n="4"/>ris. quia tale productum est volitum. et nihil est volitum 
-      <lb ed="#L" n="5"/>a. voluntatecreata nisi precognitum. tamen in deo est 
-      <lb ed="#L" n="6"/>simpliciter falsa. quia in deo actus voluntatis et 
-      <lb ed="#L" n="7"/>actus intellectus et voluntas suntomnibus
-      mo<lb ed="#L" n="8" break="no"/>dis idem. nec plus distinguitur actus voluntatis a 
-      <lb ed="#L" n="9"/>voluntate: quam distinguitur voluntas a voluntate. 
-      <lb ed="#L" n="10"/>Ueruntamen non est forte propria locutio: actus
-      volun<lb ed="#L" n="11" break="no"/>tatis diuine. sed magis proprie dicendus est actus 
-      <lb ed="#L" n="12"/>volendi vel velle quod est voluntas diuina. et ideo si 
-      <lb ed="#L" n="13"/>cut spiritus sanctus qui producitur voluntate non est
-      prie<lb ed="#L" n="14" break="no"/>cognitus ita nec spiritus sanctus qui producitur actu 
-      <lb ed="#L" n="15"/>volendi est praecognitus. Aliter potest intelligi: quod 
-      <lb ed="#L" n="16"/>quicqud producitur actu voluntatis est
-      precogni<lb ed="#L" n="17" break="no"/>tum. quia quicqud est a voluntate est praecognitum: et sic 
-      <lb ed="#L" n="18"/>est falsa. etiam in creaturis. quia volitio quae producitur 
-      <lb ed="#L" n="19"/>a voluntate non est praecognita.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e909">
-      ⁋ Et si dicatur: quod 
-      <lb ed="#L" n="20"/>voluntas est prior spiritusancto. et similiter intel 
-      <lb ed="#L" n="21"/>lectus est prior spiritusancto. et in illo priori pater 
-      <lb ed="#L" n="22"/>intelligit spiritumsanctum. ergo prius intelligit
-      ante<lb ed="#L" n="23" break="no"/>quam producat spiritumsanctum.
-    </p>
-            <p xml:id="wo8uy7-d1e834-d1e920">
-      ⁋ Dico quod pater est
-      pri<lb ed="#L" n="24" break="no"/>or. et similiter intellectus et etiam intellectio est prior 
-      <lb ed="#L" n="25"/>aliqua prioritat spiritus sanctus lud dictum est prius dis. ix 
-      <lb ed="#L" n="26"/>Et potest aliquo modo concedi quod pater intelligit spi 
-      <lb ed="#L" n="27"/>ritusanctum in illo priori. quia secundum beatum augustinum 
-      <lb ed="#L" n="28"/>iii. de trini. c. xiiii. Pater intelligit omnia in
-      se<lb ed="#L" n="29" break="no"/>ipso. igitur intelligi. spiritus sanctus in seipso. et per consequens in
-      il<lb ed="#L" n="30" break="no"/>lo pioitr spiritus sanctus et ita potest concedi aliquo modo quod pater 
-      <lb ed="#L" n="31"/>in illo priori producit spiritumsanctum. quia scilicet in
-      se<lb ed="#L" n="32" break="no"/>ipso produci spiritus sancti Uande sicut conceditur quod spirius sanctus est in 
-      <lb ed="#L" n="33"/>patre. ita potest sub bono intellectu concedi: qua spiritus sancti 
-      <lb ed="#L" n="34"/>producitur in patre. et per consequens pater produ sci spiritus sanctus  
-      <lb ed="#L" n="35"/>seipo. et per consequens produci spiritus sanctis ni illo priori. et ex hoc non 
-      <lb ed="#L" n="36"/>sequitur quod sit praecognitus. sed solum sequitur quod sit
-      cogni<lb ed="#L" n="37" break="no"/>tus in aliquo pioir spiritus sanctus et hoc est verum: sicut est verum quod 
-      <lb ed="#L" n="38"/>est in aliquo pis spiritus sanctus ea et ipre quae est pis spiritum sanctum. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="172-v"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e834"><!-- l1d10q1 -->
+        <head xml:id="wo8uy7-d1e834-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e834-d1e111">
+          <lb ed="#L" n="38"/>Distinctio decima. Questio prima 
+          <lb ed="#L" n="39"/>Irca distinctio 
+          <lb ed="#L" n="40"/>nem decimam quero. Utrum
+          vo<lb ed="#L" n="41" break="no"/>luntas sit principium producti 
+          <lb ed="#L" n="42"/>uum spiritussancti.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e124">
+          ⁋ Quod non. quia 
+          <lb ed="#L" n="43"/>nihil posterius potest esse
+          prin<lb ed="#L" n="44" break="no"/>cipium communicandi prius. sed
+          vo<lb ed="#L" n="45" break="no"/>luntas est aliquo modo posterius essentia.
+          er<lb ed="#L" n="46" break="no"/>go non potest esse principium communicandi essentiam 
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e135">
+          <lb ed="#L" n="47"/>⁋ Preterea. si voluntas sit principium
+          produ<lb ed="#L" n="48" break="no"/>cendi spiritumsanctum. Aut ergo inquantum
+          volun<lb ed="#L" n="49" break="no"/>tas. aut inquantum infinita. si inquantum
+          volun<lb ed="#L" n="50" break="no"/>tas. ergo omnis. voluntas. si inquantum infinita 
+          <lb ed="#L" n="51"/>ergo omne infinitum. et per consequens spiritussar 
+          <lb ed="#L" n="52"/>ctus esset principium productiuum.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e151">
+          ⁋ Preterea  
+          <lb ed="#L" n="53"/>nihil producitur actu voluntatis nisi precogni 
+          <lb ed="#L" n="54"/>itum. ergo si voluntas esset principium producti 
+          <!--347.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 172-v -->
+          <lb ed="#L" n="55"/>uum spiritus sancti: spiritus sactus esset praecognitus. 
+          <lb ed="#L" n="56"/>sed omne tale producitur per modum exemplaris. ergo 
+          <lb ed="#L" n="57"/>spirtussanctus producitur per modum exemplaris et per 
+          <lb ed="#L" n="58"/>ydeam.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e174">
+          ⁋ Ad oppositum. amor non producitur nis 
+          <lb ed="#L" n="59"/>per actum voluntatis. sed secundum beatum augustinum in d 
+          <lb ed="#L" n="60"/>uersis locis spiritus sanctus est amor. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e181">
+          ⁋ Ad 
+          <lb ed="#L" n="61"/>questionem dicitur primo quod voluntas est principium 
+          <lb ed="#L" n="62"/>productiuum. Secundo quod est principiuum productiuum al 
+          <lb ed="#L" n="63"/>terius persone ab illa que producitur per
+          intel<lb ed="#L" n="64" break="no"/>lectum. Tertio ex hiis quod tantum sunt due persone 
+          <lb ed="#L" n="65"/>ducte in diuinis.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e194">
+          ⁋ Primum declaratur sic. Prin 
+          <lb ed="#L" n="66"/>cipia productiua ex quo non dicunt de se
+          imperfecti<lb ed="#L" n="67" break="no"/>nem reducuntur ad aliquod vnum perfectum vel ad 
+          <lb ed="#L" n="68"/>aliqua perfecta in tanta paucitate ad quantam 
+          <lb ed="#L" n="69"/>reduci possunt. Non possunt autem omnia reduci 
+          <lb ed="#L" n="70"/>ad vnum principium. quia illud vnum haberet determi 
+          <lb ed="#L" n="71"/>natum modum agendi alterius istorum: scilicet nature 
+          <lb ed="#L" n="72"/>vel voluntatis. quia inter modos producendi non est 
+          <lb ed="#L" n="73"/>aliquis modus medius. ergo non possunt hec redur 
+          <lb ed="#L" n="74"/>ci ad maiorem paucitatem quam ad dualitatem. princi 
+          <lb ed="#L" n="75"/>pii scilicet producciui primi per modum nature et per mo 
+          <lb ed="#L" n="76"/>dum voluntatis. et tamen ista ad que tanquam ad perfecte 
+          <lb ed="#L" n="77"/>stat tota ista reductio principiorum vt simpliciter 
+          <lb ed="#L" n="78"/>perfecta abo ista principia sub ratione propria sua po 
+          <lb ed="#L" n="79"/>nentur in deo vt est principium producens. Ex hiis vel 
+          <lb ed="#L" n="80"/>tra. in quocumque est principium aliquod quod ex ratione sua 
+          <lb ed="#L" n="81"/>est principium productiuum. est in eo principium producem 
+          <lb ed="#L" n="82"/>di si est in eo sine imperfectione. et non
+          intelliga<lb ed="#L" n="83" break="no"/>tur praehabere aliquod productum simpliciter
+          ade<lb ed="#L" n="84" break="no"/>quatum. in deo est formaliter voluntas
+          exinatu<lb ed="#L" n="85" break="no"/>ra rei. et hoc sub ratione principii productiui libere re 
+          <lb ed="#L" n="86"/>spectu amoris. et patet quod est ibi sine imperfectio 
+          <lb ed="#L" n="87"/>ne. ergo erit in deo principium producendi amorem et hoc 
+          <lb ed="#L" n="88"/>secundum proportionem perfectionis sue. ita quod sicut vo 
+          <lb ed="#L" n="89"/>luntas creata est principium producendi amorem 
+          <lb ed="#L" n="90"/>tantum quanto amore ipsa potest amare obiectum. quae
+          di<lb ed="#L" n="91" break="no"/>citur amor adequatus. ita ista voluntas erit 
+          <lb ed="#L" n="92"/>principium producendi amorem tantum iquanto ipsa est
+          na<lb ed="#L" n="93" break="no"/>ta amare obiectum infinitum. sed nata est amare 
+          <lb ed="#L" n="94"/>obiectum amore infinito. ergo nata est esse
+          principi<lb ed="#L" n="95" break="no"/>um producendi amorem infinitum.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e262">
+          ⁋ Ex hoc sequi 
+          <lb ed="#L" n="96"/>tur secundum. quia cum principia productiua quae sunt na 
+          <lb ed="#L" n="97"/>tura et voluntas habeant oppositos modos
+          prin<lb ed="#L" n="98" break="no"/>cipiandi. non possunt eidem principio competere. 
+          <lb ed="#L" n="99"/>et per consequens cum intellectus diuinus sit perfectus 
+          <lb ed="#L" n="100"/>sicut intellectus inquantum est potentia
+          operati<lb ed="#L" n="101" break="no"/>ua natus est intelligere obiectum quantum ipsum est 
+          <lb ed="#L" n="102"/>noscibile. ita inquantum est potentia productiua no 
+          <lb ed="#L" n="103"/>titie genite natus est esse principium tante
+          noti<lb ed="#L" n="104" break="no"/>tie quanta potest esse obiecti. et cum ista principia sint 
+          <lb ed="#L" n="105"/>alterius rationis: oportet quod productiones et producta sint
+          al<lb ed="#L" n="106" break="no"/>terius rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e288">
+          ⁋ Ex istis sequitur quod tantum sunt due persone 
+          <lb ed="#L" n="107"/>producte. quia si non sunt nisi duo principia productiua 
+          <lb ed="#L" n="108"/>tantum sunt due productiones numero. probo. quia vtrumque potest 
+          <lb ed="#L" n="109"/>xipium productiuum habet productionem sibi adequa 
+          <!--348.xml-->
+          <pb ed="#L" n="173-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tam et coeternam. ergo stante ista productione non potest ha 
+          <lb ed="#L" n="2"/>bere aliam.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e308">
+          ⁋ Contra istam opinionem arguo primo 
+          <lb ed="#L" n="3"/>quia non probatur sufficientur quod voluntas sit principium pro 
+          <lb ed="#L" n="4"/>ductium spiritus sanctus quam proposito illa accepta scilicet in quocuque 
+          <lb ed="#L" n="5"/>est principium aliquod quod ex ratione sua est principium produ 
+          <lb ed="#L" n="6"/>ctiuum. est in eo principium producendi etc. videtur esse 
+          <lb ed="#L" n="7"/>neganda secundum istum doc. quia si sic. sequeretur quod essent 
+          <lb ed="#L" n="8"/>plures persone in diuinis quam tres. probatio istius. quia 
+          <lb ed="#L" n="9"/>sicut intellectus est de se principium productiuum
+          no<lb ed="#L" n="10" break="no"/>titie. ita actus amandi est de se principium productiuum 
+          <lb ed="#L" n="11"/>amoris habitualis. ergo cum actus amandi deum sit in 
+          <lb ed="#L" n="12"/>deo sine omni imperfectione: erit in deo principium pro 
+          <lb ed="#L" n="13"/>ducendi. sed non potest esse principium producendi spiritum 
+          <lb ed="#L" n="14"/>sanctum. quia secundum istum doc. voluntas et non actus
+          volen<lb ed="#L" n="15" break="no"/>di est principium producend spiritus sanctus ergo est aliqua alia
+          perso<lb ed="#L" n="16" break="no"/>na producta a spiritusancto.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e342">
+          ⁋ Si dicatur quod actus 
+          <lb ed="#L" n="17"/>amandi non hahet ex ratione sua quod est productiuus
+          amo<lb ed="#L" n="18" break="no"/>ris habitalis. sed tantum in nobis et no vniversaliter.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e349">
+          ⁋ Contra. 
+          <lb ed="#L" n="19"/>eadem facilitate dicetur quod voluntas exratione sua non 
+          <lb ed="#L" n="20"/>habet quod sit productiua sed tantum in nobis. et ita
+          argu<lb ed="#L" n="21" break="no"/>mentum illud non concludit plus de voluntate quam de 
+          <lb ed="#L" n="22"/>actu amandi. Eodem modo modo potest argui de actu intel 
+          <lb ed="#L" n="23"/>ligendi respectu sapientie. quia actus sciendi vel actus 
+          <lb ed="#L" n="24"/>speculandi est principium productiuum sapentie. Nec 
+          <lb ed="#L" n="25"/>valet dicere: quod nullum istorum est productiuum nisi ali 
+          <lb ed="#L" n="26"/>cuius imperfecti et nihil imperfectum est in deo. et ideo non potest 
+          <lb ed="#L" n="27"/>esse productiuum alicuius ad intra. hoc non valet. quia 
+          <lb ed="#L" n="28"/>sicut intelligere est perfectio simpliciter. ita ipsa 
+          <lb ed="#L" n="29"/>essentia est perfectiosimpliciter. ergo ita poterit ali 
+          <lb ed="#L" n="30"/>quis actus intelligendi esse principium productiuum sa 
+          <lb ed="#L" n="31"/>pientie in diuinis sicut intellectus est principium 
+          <lb ed="#L" n="32"/>notitie genite
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e382">
+          ⁋ Contra istum. videtur quod posito quod 
+          <lb ed="#L" n="33"/>essent principia productiua alterius rationis quod no 
+          <lb ed="#L" n="34"/>oportet producta esse alterius rationis. quia principia al 
+          <lb ed="#L" n="35"/>terius rationis possunt concurrere ad vnum productu. igitur 
+          <lb ed="#L" n="36"/>ex pluralitate tali principiorum productiuorum non 
+          <lb ed="#L" n="37"/>potest argui pluralitas productorum. Assumptum patet. 
+          <lb ed="#L" n="38"/>qui secundum istum doctorem essentia et intellectus
+          concur<lb ed="#L" n="39" break="no"/>runt tanquam vnum principium totale ad productionem 
+          <lb ed="#L" n="40"/>verbi. et tamen ista sunt alterius rationis. Similiter si repugnet 
+          <lb ed="#L" n="41"/>intellectui diuino et voluntati divine facere vnum 
+          <lb ed="#L" n="42"/>totale principium respectu vnius persone producte 
+          <lb ed="#L" n="43"/>aut hoc est quia vnum est naturale et aliud libe 
+          <lb ed="#L" n="44"/>rum. aut quia vtrunque est de per se perfectum et in 
+          <lb ed="#L" n="45"/>finitum se solo sufficiens in ratione principii
+          pro<lb ed="#L" n="46" break="no"/>ductiui respectu sui producti. Primum non im 
+          <lb ed="#L" n="47"/>pedit. tum quia secundum eum obiectum et voluntas in 
+          <lb ed="#L" n="48"/>nobis concurrunt: tanquam due cause partiales re 
+          <lb ed="#L" n="49"/>spectu eiusdem volitionis producende. tum quia 
+          <lb ed="#L" n="50"/>ymd eundem sicut intellectus paternus habens 
+          <lb ed="#L" n="51"/>obiectum intelligibile sibi presens est
+          princi<lb ed="#L" n="52" break="no"/>pium productiuum verbi. ita voluntas habens ob 
+          <lb ed="#L" n="53"/>iectum volibile vel amabile sibi presens est
+          prin<lb ed="#L" n="54" break="no"/>cipium productium spiritus sanctus ergo sicut secundum eum essentia 
+          <lb ed="#L" n="55"/>et intellectus faciunt vnum totale principium 
+          <!--348.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 173-r -->
+          <lb ed="#L" n="56"/>verbi. ita essentia que est primum obiectum
+          vo<lb ed="#L" n="57" break="no"/>luntatis et ipsa voluntas facient vnum totale 
+          <lb ed="#L" n="58"/>principium spiritus sanctus ergo nec in deo nec in nobis est re 
+          <lb ed="#L" n="59"/>pugnantia: quin principium naturale et liberum 
+          <lb ed="#L" n="60"/>faciant vnum principium totale eiusdem producti 
+          <lb ed="#L" n="61"/>Nec secundum impedit. quia sicut dictum est per eum 
+          <lb ed="#L" n="62"/>dem. essentia diuina et intellectus non
+          obstam<lb ed="#L" n="63" break="no"/>te infinita perfectione tam essentie quam intelle 
+          <lb ed="#L" n="64"/>ctus faciunt vnum principium totale respectu 
+          <lb ed="#L" n="65"/>verbi. ergo eodem modo non obstante
+          infini<lb ed="#L" n="66" break="no"/>tate intellectus et voluntatis poterunt
+          face<lb ed="#L" n="67" break="no"/>re vnum principium totale eiusdem producti. 
+          <lb ed="#L" n="68"/>Ex isto patet quod rationes probantes quod
+          vo<lb ed="#L" n="69" break="no"/>luntas non est principiunm spiritus sanctis inquantum
+          volun<lb ed="#L" n="70" break="no"/>tas. et quod pater et filius non spirandi spiritus sanctus ini quam 
+          <lb ed="#L" n="71"/>tum diligunt se mutuo. per hoc scilicet quod
+          volun<lb ed="#L" n="72" break="no"/>tas sit prior actu volendi. et etiam vt prior
+          ta<lb ed="#L" n="73" break="no"/>li actu mutuo se diligendi. non sunt
+          sufficien<lb ed="#L" n="74" break="no"/>tes. quia posito quod esset ibi talis prioritas et di 
+          <lb ed="#L" n="75"/>stinctio non potest probari aliquod illorum esse 
+          <lb ed="#L" n="76"/>principium sufficiens sine alio respectu talis 
+          <lb ed="#L" n="77"/>persone. sicut nec potest probari: quod natura sit 
+          <lb ed="#L" n="78"/>principium sufficiens cuiuscumque persone sine ¬ 
+          <lb ed="#L" n="79"/>tellectu et voluntate.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e493">
+          ⁋ Si dicatur quod non est 
+          <lb ed="#L" n="80"/>simile. quia nulla personam produci potest in diui 
+          <lb ed="#L" n="81"/>nis nisi per medium intellectus vel
+          volunta<lb ed="#L" n="82" break="no"/>tis: et ideo natura se sola sine intellectu et
+          vo<lb ed="#L" n="83" break="no"/>luntate non potest esse principiumi totale
+          cuius<lb ed="#L" n="84" break="no"/>cunque persone.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e506">
+          ⁋ hoc non satiffacit. de hoc enim 
+          <lb ed="#L" n="85"/>est questio. An scilicet ex quo essentia est principi 
+          <lb ed="#L" n="86"/>um actiuum perfectum et infinitum ante possit esse 
+          <lb ed="#L" n="87"/>rincipium sufficiens respectu alicuius persone. 
+          <lb ed="#L" n="88"/>non concurrente intellectu et voluntate in ratio 
+          <lb ed="#L" n="89"/>ne principii productiui. sicut ponis essentiam et
+          im<lb ed="#L" n="90" break="no"/>tellectum esse principium totale persone secunde 
+          <lb ed="#L" n="91"/>sine voluntate. et posset eque rationabiliter
+          pro<lb ed="#L" n="92" break="no"/>bari vnum sicut reliquum. Ita enim videtur in
+          no<lb ed="#L" n="93" break="no"/>pis quod essentia vel natura est principium
+          pro<lb ed="#L" n="94" break="no"/>ductiuum sine intellectu et voluntate. sicut intel 
+          <lb ed="#L" n="95"/>lectus sine voluntate.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e532">
+          ⁋ Confirmatur. quia 
+          <lb ed="#L" n="96"/>essentia est prior intellectum secundum istos. ergo in illo
+          pri<lb ed="#L" n="97" break="no"/>ori poterit habere personam producta. et per con 
+          <lb ed="#L" n="98"/>sequens esset persona aliqua producta ante fi 
+          <lb ed="#L" n="99"/>lium. Ita enim arguunt quod esset aliqua personam pro 
+          <lb ed="#L" n="100"/>ducta ante spiritumsanctum si produceretur a vo 
+          <lb ed="#L" n="101"/>untate inquantum voluntas. quia voluntas ha 
+          <lb ed="#L" n="102"/>bens obiectum diligibile sibi presens est
+          pri<lb ed="#L" n="103" break="no"/>or actu volendi.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e553">
+          ⁋ Si dicatur quod non est
+          simi<lb ed="#L" n="104" break="no"/>le. quia voluntas perfecta habens obiectum diligibile 
+          <lb ed="#L" n="105"/>sibi presens in supposito conueniente est prin 
+          <lb ed="#L" n="106"/>cipium productiuum sufficiens: sed non sic 
+          <lb ed="#L" n="107"/>essentia vt ipsa prior est intellectu.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e564">
+          ⁋ hoc non 
+          <lb ed="#L" n="108"/>sufficit. primo quia hoc deberet probari: scilicet quod essen 
+          <lb ed="#L" n="109"/>tia non est sic sufficiens et quod voluntas est sic sufficiens 
+          <lb ed="#L" n="110"/>qui eadem facilitate qua tum dicis quod essentia non est 
+          <!--349.xml-->
+          <pb ed="#L" n="173-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>sufficiens sine intellectu. eadem facilitate diceret 
+          <lb ed="#L" n="2"/>aduersarius quod voluntas non est sufficiens sine 
+          <lb ed="#L" n="3"/>actu volendi. Secundo non sufficit. quia sicut ex prio 
+          <lb ed="#L" n="4"/>ritate voluntatis habentis obiectum diligibile 
+          <lb ed="#L" n="5"/>sibi praesens non potest probari quod prius sit principium spi 
+          <lb ed="#L" n="6"/>rand spiritus sanctus quam habet actum volendi. quia cum tali
+          priorita<lb ed="#L" n="7" break="no"/>tate stat etiam praoritas actus volendi respectu
+          a<lb ed="#L" n="8" break="no"/>ctus spirandi etiam secundum istos. ita ex tali prioritate 
+          <lb ed="#L" n="9"/>non potest probari quod sit principium spirandi et non actus 
+          <lb ed="#L" n="10"/>volendi. immo stat quod tam voluntas quam actus volen 
+          <lb ed="#L" n="11"/>di sit principium spirandi spiritum sanctum.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e603">
+          ⁋ Si dicatur quod non. quia 
+          <lb ed="#L" n="12"/>in nobis videmus quod ipsa sola voluntas cum
+          obie<lb ed="#L" n="13" break="no"/>cto praesente sufficit. et ideo etiam in deo sufficiet.
+          Con<lb ed="#L" n="14" break="no"/>tra. quamuis voluntas creata cum obiecto sufficiat 
+          <lb ed="#L" n="15"/>respectu producti praemi a voluntate. si tamen essent duo 
+          <lb ed="#L" n="16"/>producta a voluntate ordinata necessario vel inter 
+          <lb ed="#L" n="17"/>voluntatem et productum esset aliquod medium non produ 
+          <lb ed="#L" n="18"/>ctum a voluntate. vltimum productum necessario esset 
+          <lb ed="#L" n="19"/>a priori medio in aliquo genere principii. ergo eodem 
+          <lb ed="#L" n="20"/>modo in diuinis si actus volendi sit prior actu
+          spiran<lb ed="#L" n="21" break="no"/>di oporteat quod habeat rationem principii respectu ipsius 
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e627">
+          <lb ed="#L" n="22"/>⁋ Assumptum patet: quia secundum istos. omnis effectus
+          suffi<lb ed="#L" n="23" break="no"/>cienter dependet ex suis causis essentialibus. ergo ni 
+          <lb ed="#L" n="24"/>hil est essentialiter prius aliquo effectu nisi sit causa 
+          <lb ed="#L" n="25"/>illius in aliquo genere cause. ergo omne prius siue
+          pro<lb ed="#L" n="26" break="no"/>ductum siue non productum a voluntate respectu
+          a<lb ed="#L" n="27" break="no"/>ctus producti a voluntate. est causa ipsius actus in
+          ali<lb ed="#L" n="28" break="no"/>quo genere cause.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e645">
+          ⁋ Ex praedictis patet contra
+          ter<lb ed="#L" n="29" break="no"/>cium. quod ex dualitate principiorum productiuorum si po 
+          <lb ed="#L" n="30"/>neretur non potest probari trinitas personarum. quia non potest 
+          <lb ed="#L" n="31"/>probari dualitas personarum productarum. cum sicut 
+          <lb ed="#L" n="32"/>probatum est non potest probari quin illi principia
+          produ<lb ed="#L" n="33" break="no"/>ctiua possunt concurrere ad vnum productum.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e658">
+          ⁋
+          Preter<lb ed="#L" n="34" break="no"/>ea non potest probari quin vnum principium productiuum 
+          <lb ed="#L" n="35"/>habet diuersa producta alterius rationis. cum
+          produ<lb ed="#L" n="36" break="no"/>ctiuum vnius rationis: possit habere producta alterius 
+          <lb ed="#L" n="37"/>rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e670">
+          ⁋ Ideo dico aliter ad questionem dicen 
+          <lb ed="#L" n="38"/>do consequenter ad dicta in praecedentibus. De primo quod
+          vo<lb ed="#L" n="39" break="no"/>luntas est principium elicitiuum spirationis. Secundo quod 
+          <lb ed="#L" n="40"/>supposita productione in diuinis non potest euidenter 
+          <lb ed="#L" n="41"/>inferri esse plures productiones. Tertio quod ex
+          plu<lb ed="#L" n="42" break="no"/>ralitate productionum non potest inferri euidenter tantum 
+          <lb ed="#L" n="43"/>dualitas productionum. Quarto quod omnia ista sola 
+          <lb ed="#L" n="44"/>fide tenentur.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e688">
+          ⁋ Primum declaratur. quia secundum verita 
+          <lb ed="#L" n="45"/>tem fidem spiritus sanctus scilicet vere producitur a patre et filio. ergo si sit aliquod 
+          <lb ed="#L" n="46"/>principium productiuum illius cum illud non possit esse rela 
+          <lb ed="#L" n="47"/>tio. quia vna relatio non potest esse principium elicitiuum 
+          <lb ed="#L" n="48"/>alterius relationis correlatiue. nec sui ipsius: oportet quod 
+          <lb ed="#L" n="49"/>principium elicitiuum erit aliquod absolutum. sed
+          osten<lb ed="#L" n="50" break="no"/>sum est prius quod nihil est absolutum in diuinis
+          ni<lb ed="#L" n="51" break="no"/>si essentia diuina quae omnibus modis ex natura rei 
+          <lb ed="#L" n="52"/>est voluntas. ergo nisi aliquas modus gramaticalis 
+          <lb ed="#L" n="53"/>vel logicalis impediat sicut concedendum est de
+          es<lb ed="#L" n="54" break="no"/>sentia quod est principium elicitiuum spirationis. ita est eo 
+          <lb ed="#L" n="55"/>dem modo concedendum de voluntate. Qualiter tamen aliter 
+          <!--349.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 173-v -->
+          <lb ed="#L" n="56"/>potest hec verificari. essentia est principium spirandi. et 
+          <lb ed="#L" n="57"/>aliter ista. voluntas est principium spirandi. propter hoc 
+          <lb ed="#L" n="58"/>quod subiectum vnius aliquid connotat quod non connotat 
+          <lb ed="#L" n="59"/>subiectum alterius: potest patere in prima. q. dis. vi scilicet 
+          <lb ed="#L" n="60"/>illa quae ibi dicuntur ad ista applicentur.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e732">
+          ⁋ Preterea 
+          <lb ed="#L" n="61"/>quod voluntas sit principium spirandi patet ex auctoritas
+          san<lb ed="#L" n="62" break="no"/>ctorum. quia secundum sanctos spiritus sanctus est amor et caritas. Sed  
+          <lb ed="#L" n="63"/>talis persona producitur a voluntate tamquam a principio 
+          <lb ed="#L" n="64"/>elicitiuo. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e743">
+          ⁋ Et si quaeratur an actus volendi sit 
+          <lb ed="#L" n="65"/>principium spiritus sancti Dico quod actus volendi et actus
+          intelligen<lb ed="#L" n="66" break="no"/>di est simpliciter principium spirandi. quia est omnibus mo 
+          <lb ed="#L" n="67"/>dis idem cum divina essentia et cum divina voluntate Nec 
+          <lb ed="#L" n="68"/>ex hoc sequitur: quod ante spiritus sanctus producatur aliqua persona
+          me<lb ed="#L" n="69" break="no"/>diante sola voluntate. quia omnia talia argumenta sup 
+          <lb ed="#L" n="70"/>ponunt falsum. scilicet quod sit aliqua distinctio inter essen 
+          <lb ed="#L" n="71"/>tiam et voluntatem. vel inter voluntatem et actum
+          volen<lb ed="#L" n="72" break="no"/>di et intelligendi Si tamen esset aliqua distinctio 
+          <lb ed="#L" n="73"/>posset rationabiliter dici quod sola voluntas esset
+          princi<lb ed="#L" n="74" break="no"/>pium spiritus sanctus et eodem modo quod solus intellectus esset principium 
+          <lb ed="#L" n="75"/>elicitiuum verbi gratia cuius ratio posset assignari. quia 
+          <lb ed="#L" n="76"/>semper tanta est variatio et distinctio vel maior in re 
+          <lb ed="#L" n="77"/>lationibus: quanta est infundamentis. et ideo si
+          essen<lb ed="#L" n="78" break="no"/>tia et intellectus essent duo principia partialia et vnum 
+          <lb ed="#L" n="79"/>totale elicitiuum verbi: oporteret quod alia
+          paterni<lb ed="#L" n="80" break="no"/>tas fundaretur in essentia et alia in intellectu. et ita 
+          <lb ed="#L" n="81"/>essent due paternitates in diuinis: quod non est
+          con<lb ed="#L" n="82" break="no"/>cedendum. et hoc est maxime conclusio istos tenentes contrarium 
+          <lb ed="#L" n="83"/>qui dicunt quod in paternitate nulla est talis distinctio 
+          <lb ed="#L" n="84"/>formalis etiam quod tamen sequeretur si fundaretur immedia 
+          <lb ed="#L" n="85"/>te tam in essentia quam in intellectu.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e791">
+          ⁋ Secundum decla 
+          <lb ed="#L" n="86"/>ratur. scilicet quod ex productione diuina non potest inferri eui 
+          <lb ed="#L" n="87"/>denter esse plures productiones in diuinis. quia vbicum 
+          <lb ed="#L" n="88"/>que est vnum principium productiuum non potest inferri euidenter 
+          <lb ed="#L" n="89"/>pluralitas productionum. sed sicut frequenter osten 
+          <lb ed="#L" n="90"/>sum est in deo est praecipue vnum principium productiuum 
+          <lb ed="#L" n="91"/>qui ibi est tantum vnum absolutum omnino indistinctum. ergo non 
+          <lb ed="#L" n="92"/>potest inferri euidenter quod sunt plures productiones in 
+          <lb ed="#L" n="93"/>diuinis.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e811">
+          ⁋ Tertio dico quod ex pluralitate
+          produ<lb ed="#L" n="94" break="no"/>ctionum in diuinis non potest inferri euidentur tantum
+          dua<lb ed="#L" n="95" break="no"/>litas. quia non potest sufficienter probari quin vnum
+          produ<lb ed="#L" n="96" break="no"/>ctiuum possit esse respectu plurium productorum quam du 
+          <lb ed="#L" n="97"/>orum.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e823">
+          ⁋ Ideo dico quarto quod sola fide tenetur quod 
+          <lb ed="#L" n="98"/>tantum sunt due persone producte. et vna improducta et ideo 
+          <lb ed="#L" n="99"/>trinitas personarum sola fide tenetur.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e830">
+          ⁋ Ad primum 
+          <lb ed="#L" n="100"/>principale dico quod voluntas nullo modo est posterior 
+          <lb ed="#L" n="101"/>quam essentia. non plus quam essentia est posterior essentia 
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e837">
+          <lb ed="#L" n="102"/>⁋ Ad secundum dico: quod nec voluntas inquantum
+          volun<lb ed="#L" n="103" break="no"/>tas. nec inquantum infinita est: est principium spirandi 
+          <lb ed="#L" n="104"/>spiritus sancti sed inquantum voluntas est formaliter et omnino
+          es<lb ed="#L" n="105" break="no"/>sentia diuina. et ideo omne quod est formaliter et omnino 
+          <lb ed="#L" n="106"/>ex natura rei diuina. essentia. est principium spiran 
+          <lb ed="#L" n="107"/>di. spiritus sancti sed spiritus sanctus quamuis sit realiter et
+          perfe<lb ed="#L" n="108" break="no"/>cte diuina essentia. non tamen est formaliter
+          diui<lb ed="#L" n="109" break="no"/>na essentia. et ideo non est principium spirandi spiritus sancti 
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e857">
+          <lb ed="#L" n="110"/>⁋ Ad tertium dico: quod illa propositio. nihil produ¬ 
+          <!--350.xml-->
+          <pb ed="#L" n="174-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>citur actu voluntatis nisi praecognitum: potest intelli 
+          <lb ed="#L" n="2"/>gi dupliciter. vel quod actus voluntatis elicitus sit 
+          <lb ed="#L" n="3"/>quo voluntas producit. et sic potest concedi in creatu 
+          <lb ed="#L" n="4"/>ris. quia tale productum est volitum. et nihil est volitum 
+          <lb ed="#L" n="5"/>a. voluntatecreata nisi precognitum. tamen in deo est 
+          <lb ed="#L" n="6"/>simpliciter falsa. quia in deo actus voluntatis et 
+          <lb ed="#L" n="7"/>actus intellectus et voluntas suntomnibus
+          mo<lb ed="#L" n="8" break="no"/>dis idem. nec plus distinguitur actus voluntatis a 
+          <lb ed="#L" n="9"/>voluntate: quam distinguitur voluntas a voluntate. 
+          <lb ed="#L" n="10"/>Ueruntamen non est forte propria locutio: actus
+          volun<lb ed="#L" n="11" break="no"/>tatis diuine. sed magis proprie dicendus est actus 
+          <lb ed="#L" n="12"/>volendi vel velle quod est voluntas diuina. et ideo si 
+          <lb ed="#L" n="13"/>cut spiritus sanctus qui producitur voluntate non est
+          prie<lb ed="#L" n="14" break="no"/>cognitus ita nec spiritus sanctus qui producitur actu 
+          <lb ed="#L" n="15"/>volendi est praecognitus. Aliter potest intelligi: quod 
+          <lb ed="#L" n="16"/>quicqud producitur actu voluntatis est
+          precogni<lb ed="#L" n="17" break="no"/>tum. quia quicqud est a voluntate est praecognitum: et sic 
+          <lb ed="#L" n="18"/>est falsa. etiam in creaturis. quia volitio quae producitur 
+          <lb ed="#L" n="19"/>a voluntate non est praecognita.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e909">
+          ⁋ Et si dicatur: quod 
+          <lb ed="#L" n="20"/>voluntas est prior spiritusancto. et similiter intel 
+          <lb ed="#L" n="21"/>lectus est prior spiritusancto. et in illo priori pater 
+          <lb ed="#L" n="22"/>intelligit spiritumsanctum. ergo prius intelligit
+          ante<lb ed="#L" n="23" break="no"/>quam producat spiritumsanctum.
+        </p>
+        <p xml:id="wo8uy7-d1e834-d1e920">
+          ⁋ Dico quod pater est
+          pri<lb ed="#L" n="24" break="no"/>or. et similiter intellectus et etiam intellectio est prior 
+          <lb ed="#L" n="25"/>aliqua prioritat spiritus sanctus lud dictum est prius dis. ix 
+          <lb ed="#L" n="26"/>Et potest aliquo modo concedi quod pater intelligit spi 
+          <lb ed="#L" n="27"/>ritusanctum in illo priori. quia secundum beatum augustinum 
+          <lb ed="#L" n="28"/>iii. de trini. c. xiiii. Pater intelligit omnia in
+          se<lb ed="#L" n="29" break="no"/>ipso. igitur intelligi. spiritus sanctus in seipso. et per consequens in
+          il<lb ed="#L" n="30" break="no"/>lo pioitr spiritus sanctus et ita potest concedi aliquo modo quod pater 
+          <lb ed="#L" n="31"/>in illo priori producit spiritumsanctum. quia scilicet in
+          se<lb ed="#L" n="32" break="no"/>ipso produci spiritus sancti Uande sicut conceditur quod spirius sanctus est in 
+          <lb ed="#L" n="33"/>patre. ita potest sub bono intellectu concedi: qua spiritus sancti 
+          <lb ed="#L" n="34"/>producitur in patre. et per consequens pater produ sci spiritus sanctus  
+          <lb ed="#L" n="35"/>seipo. et per consequens produci spiritus sanctis ni illo priori. et ex hoc non 
+          <lb ed="#L" n="36"/>sequitur quod sit praecognitus. sed solum sequitur quod sit
+          cogni<lb ed="#L" n="37" break="no"/>tus in aliquo pioir spiritus sanctus et hoc est verum: sicut est verum quod 
+          <lb ed="#L" n="38"/>est in aliquo pis spiritus sanctus ea et ipre quae est pis spiritum sanctum. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,546 +1,546 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="168-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e803"><!-- l1d9q2 -->
-            <head xml:id="wo8uy7-d1e803-Hd1e108">Quaestio 2</head>
-            <p xml:id="wo8uy7-d1e803-d1e111">
-      Questio ii. 
-      <lb ed="#L" n="16"/>Supposito quod
-      ge<lb ed="#L" n="17" break="no"/>neratio sit in diuinis. quero Utrum 
-      <lb ed="#L" n="18"/>ista generatio sit vniuoca an equiuo 
-      <lb ed="#L" n="19"/>ca
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e122">
-      ⁋ Quod sit vniuoca videtur. quia quando na 
-      <lb ed="#L" n="20"/>tura est eiusdem rationis in generante et genito: illa 
-      <lb ed="#L" n="21"/>generatio est vniuoca. sed eadem natura numero est in 
-      <lb ed="#L" n="22"/>patre et filio. ergo ista generatio est vniuoca
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e131">
-      ⁋ Ad 
-      <lb ed="#L" n="23"/>oppositum. quando generans et genitum non sunt eiusdem 
-      <lb ed="#L" n="24"/>rationis illa generatio non est vniuoca. sed pater et 
-      <lb ed="#L" n="25"/>filius non sunt eiusdem rationis in diuinis. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e140">
-      ⁋
-      Cir<lb ed="#L" n="26" break="no"/>ca istam questionem sic procedam. Primo videndum est 
-      <lb ed="#L" n="27"/>quae generatio dicitur vniuoca et quae equiuoca in
-      creatu<lb ed="#L" n="28" break="no"/>ris. Secundo quod generatio in diuinis non est proprie 
-      <lb ed="#L" n="29"/>vniuoca nec proprie equoca. Tertio quod magis assi 
-      <lb ed="#L" n="30"/>milatur generationi vniuoce. Quarto ponuntur 
-      <lb ed="#L" n="31"/>aliqua dubitationes et soluuntur.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e157">
-      ⁋ Circa primum 
-      <lb ed="#L" n="32"/>dico quod manifestum est generationem vniuocam
-      di<lb ed="#L" n="33" break="no"/>stingui a generatione equoca in creaturis. propter 
-      <lb ed="#L" n="34"/>aliquam couenientiam specialem inter generas et 
-      <lb ed="#L" n="35"/>genitum in generatione vniuoca. qualis non est in 
-      <lb ed="#L" n="36"/>ter generans et genitum in generatione equiuoca 
-      <lb ed="#L" n="37"/>nunc autem est ita: quod in generate creato et in genito 
-      <lb ed="#L" n="38"/>creato est duo cosiderare. scilicet quod et quo. et hoc est 
-      <lb ed="#L" n="39"/>verum secundum communem cursum nature in istis inferiori 
-      <lb ed="#L" n="40"/>bus et non est vniversaliter verum. quia quando angelus producit intel 
-      <lb ed="#L" n="41"/>lectionem: non oportet quod ibi sint duo a parte
-      generan<lb ed="#L" n="42" break="no"/>tis. scilicet quod et quo. et eodem modo est de anima separata. simul 
-      <lb ed="#L" n="43"/>potest idem contigere si per diuinam potentiam fiat aliquod 
-      <lb ed="#L" n="44"/>accidens actiuum separatum a suo subiecto veruntamen hoc 
-      <lb ed="#L" n="45"/>est vniversaliter a parte geniti. quia sicut patebit in secundo
-      nul<lb ed="#L" n="46" break="no"/>lum agens creatum: siue separatum siue non. potest aliquid 
-      <lb ed="#L" n="47"/>producere de nouo. nisi producendo formam in
-      sub<lb ed="#L" n="48" break="no"/>iecto
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e196">
-      ⁋ hiis dictis dico quod aliquando terminus tota 
-      <lb ed="#L" n="49"/>lis productus est per se vnus. aliquando autem est tantum vnus per
-      acci<lb ed="#L" n="50" break="no"/>dens. In primo casu est generatio substantie. in secundo 
-      <lb ed="#L" n="51"/>generatio accidentis. In secundo casu semper vocatur 
-      <lb ed="#L" n="52"/>generatio vniuoca. propter identitatem specificam 
-      <lb ed="#L" n="53"/>inter formalem terminum quae totaliter de nouo capit 
-      <lb ed="#L" n="54"/>esse et per se rationem agendi. siue distinguatur ab illo quod 
-      <!--338.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 168-r -->
-               <lb ed="#L" n="55"/>communiter vocatur quod. siue non. et ideo quando ignis
-      ealefa<lb ed="#L" n="56" break="no"/>cit lignum illa dicitur generatio caloris vniuoca. quia 
-      <lb ed="#L" n="57"/>ratio agendi est eiusdem speciei cum calore producto in
-      li<lb ed="#L" n="58" break="no"/>gno. Sed si ignis calefaceret se: sicut graue mo 
-      <lb ed="#L" n="59"/>uet se illa generatio caloris diceretur equiuoca.
-      pro<lb ed="#L" n="60" break="no"/>pter non identitatem specificam inter rationem agendi et 
-      <lb ed="#L" n="61"/>terminum formalem productum. Sed loquendo de genera 
-      <lb ed="#L" n="62"/>tione substantie quae est generatio termini vnius per se 
-      <lb ed="#L" n="63"/>sic dicitur generatio vniuoca quando generans et geuitum 
-      <lb ed="#L" n="64"/>non sunt alterius speciei. sed in ista generatione vniuoca 
-      <lb ed="#L" n="65"/>sunt multi gradus. si enim generans et genitum sint 
-      <lb ed="#L" n="66"/>eiusdem speciei. et quaelibet terminus formalis sit
-      eius<lb ed="#L" n="67" break="no"/>dem speciei cum aliqua ratione agendi et a nulla ratione
-      agen<lb ed="#L" n="68" break="no"/>di respectu sui distinguatur specie vel sit alterius 
-      <lb ed="#L" n="69"/>rationis. tunc esset generatio perfectissime
-      vniuoca<lb ed="#L" n="70" break="no"/>Uerbi gratia. si ignis generans eiusdem speciei cum 
-      <lb ed="#L" n="71"/>igne generato. et forma substantialis vniuoca in 
-      <lb ed="#L" n="72"/>igne generante sit ratio praecise agendi respectu
-      for<lb ed="#L" n="73" break="no"/>me substalis ignis generati. tunc erit perfectissime vni 
-      <lb ed="#L" n="74"/>uoca. si autem calor ignis generantis non tantum sit 
-      <lb ed="#L" n="75"/>agens respectu alicuius accidentis. sed etiam sit causa 
-      <lb ed="#L" n="76"/>immediata respectu forme ignis generati. tunc 
-      <lb ed="#L" n="77"/>non est perfectissime generatio vniuoca. propter
-      di<lb ed="#L" n="78" break="no"/>uersitatem specificam inter vnam rationem agendi. et ter 
-      <lb ed="#L" n="79"/>minum formalem. Secundus gradus generationis 
-      <lb ed="#L" n="80"/>vniuoce est: si generans et generatum essent eiusdem 
-      <lb ed="#L" n="81"/>speciei. et in vtroque essent plres forme substantiales 
-      <lb ed="#L" n="82"/>actiue et quaelibet illarum in generante concurreret 
-      <lb ed="#L" n="83"/>tamque causa partialis respectu cuiuslibet forme
-      substan<lb ed="#L" n="84" break="no"/>tialis in ipsorum generato. tunc enim generans et
-      ge<lb ed="#L" n="85" break="no"/>neratum essent eiusdam rationis. et terminus quaelibet for 
-      <lb ed="#L" n="86"/>malis esset eiusdem speciei cum aliqua ratione agendi. et 
-      <lb ed="#L" n="87"/>tamen ab aliqua esset alterius rationis et in hoc non esset ge 
-      <lb ed="#L" n="88"/>neratio perfecissime vniuoca. Tertius gradus est: quod 
-      <lb ed="#L" n="89"/>generans et generatum sint eiusdem speciei et terminus 
-      <lb ed="#L" n="90"/>formalis sit eiusdem rationis cum ratione agendi. et ali 
-      <lb ed="#L" n="91"/>quis terminus formalis cum nulla ratione agendi sit 
-      <lb ed="#L" n="92"/>eiusdem rationis. et ita est in generatione vniuoca omnium 
-      <lb ed="#L" n="93"/>animalium secundum vnam opinionem. scilicet in generatione equa 
-      <lb ed="#L" n="94"/>ab equo. bouis a boue. hominis ab homine. et sic de 
-      <lb ed="#L" n="95"/>aliis. quia secundum aliquos anima vegentatiua dicieret et est
-      al<lb ed="#L" n="96" break="no"/>terius rationis ab anima sensitiua in istis. et ipsa sola 
-      <lb ed="#L" n="97"/>anima vegentatiua est ratio producendi et agendi. quia ipsa so 
-      <lb ed="#L" n="98"/>la est potentia generatiua. et tunc generans et gene 
-      <lb ed="#L" n="99"/>ratum sunt eiusdem rationis cum anima vegentatiua in gene 
-      <lb ed="#L" n="100"/>rante quae est ratio producendi. et aliquos terminus formalis 
-      <lb ed="#L" n="101"/>puta anima sensitiua: quamuis sit eiusdem rationis cum anima 
-      <lb ed="#L" n="102"/>sensitiua generantis que non est ibi ratio
-      produ<lb ed="#L" n="103" break="no"/>cendi. non tamen est eiusdem rationis cum anima
-      vegenta<lb ed="#L" n="104" break="no"/>tiua que est ratio producendi.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e326">
-      ⁋ Aliqui alii
-      gra<lb ed="#L" n="105" break="no"/>dus generationis vniuoce possent forte
-      assigna<lb ed="#L" n="106" break="no"/>ri. sed isti sufficiant. quia ex istis possunt alii si 
-      <lb ed="#L" n="107"/>qui sint patere.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e335">
-      ⁋ Circa secundum dico: quod
-      gene<lb ed="#L" n="108" break="no"/>ratio diuina nec est simpliciter vniuoea nec simpliciter 
-      <lb ed="#L" n="109"/>equoca. Primum patet. quia in generatione vn. noca 
-      <!--339.xml-->
-      <pb ed="#L" n="168-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>generans et generatum sic sunt eiusdem rationis: quod 
-      <lb ed="#L" n="2"/>quodlibet essentiale in generato est simillimum 
-      <lb ed="#L" n="3"/>alicui in generante. ita quod sit tanta similitudo et 
-      <lb ed="#L" n="4"/>omnis modus similitudinis inter illud quod est in
-      ge<lb ed="#L" n="5" break="no"/>nerato et illud quod est in generante. quanta et qualis 
-      <lb ed="#L" n="6"/>modus est inter hanc albedinem et illam. vel inter
-      sor<lb ed="#L" n="7" break="no"/>tem et platonem. vel inter hanc animam intellectiuam et 
-      <lb ed="#L" n="8"/>illam. sed paternitas in patre quae est sibi essentialis non 
-      <lb ed="#L" n="9"/>tantum assimilatur filiationi quae est filio essentialis:
-      quan<lb ed="#L" n="10" break="no"/>tum assimilaretur si essent due paternitates in
-      di<lb ed="#L" n="11" break="no"/>uinis et accipio similitudinem largissime. et hoc 
-      <lb ed="#L" n="12"/>sufficit ad propositum. Unde etiam dicut doc. quod
-      spiritus<lb ed="#L" n="13" break="no"/>sanctus non producitur per modum similis sicut filius. ergo non 
-      <lb ed="#L" n="14"/>est generatio simpliciter vniuoca.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e379">
-      ⁋ Secundo dico quod 
-      <lb ed="#L" n="15"/>ista generatio non est simpliciter equiuoca. quia in
-      gene<lb ed="#L" n="16" break="no"/>ratione equiuoca semper est aliquid in generato quod
-      di<lb ed="#L" n="17" break="no"/>stinguitur realiter ab omni eo quod est in generante et quod 
-      <lb ed="#L" n="18"/>est alterius rationis ab omni illo sed in ista generatio 
-      <lb ed="#L" n="19"/>ne nihil est in filio producto quod distinguitur realiter 
-      <lb ed="#L" n="20"/>ab omni illo quod est in patre. quia nihil distinguitur
-      re<lb ed="#L" n="21" break="no"/>aliter ab essentia patris. Similiter in generatione 
-      <lb ed="#L" n="22"/>equiuoca generans et generatum non sunt simpliciter vna 
-      <lb ed="#L" n="23"/>res: sed pater et filius sunt vna res numero. puta vna est 
-      <lb ed="#L" n="24"/>sentia numero. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e403">
-      ⁋ Circa tertium dico: quod ista 
-      <lb ed="#L" n="25"/>generatio magis assimulatur generationi vniuoce non 
-      <lb ed="#L" n="26"/>obstante quod generans et generatum sunt alterius
-      ratio<lb ed="#L" n="27" break="no"/>nis: sicut aliquo possunt esse alterius rationis in diuinis et hoc 
-      <lb ed="#L" n="28"/>ppter identitate realem vnius essentie numero cum quo 
-      <lb ed="#L" n="29"/>libet istorum suppositorum et cum vnoquoque essentia 
-      <lb ed="#L" n="30"/>li cuiuslibet istorum suppositorum. Si tamen vocetur ge 
-      <lb ed="#L" n="31"/>neratio equiuoca quandocumque generans et generatum 
-      <lb ed="#L" n="32"/>sunt alterius rationis. illo modo quo conceditur aliqua in 
-      <lb ed="#L" n="33"/>diuinis esse alterius rationis. sicut conceditur quod pater 
-      <lb ed="#L" n="34"/>nitas et filiatio sunt alterius rationis. potest dici quod ista 
-      <lb ed="#L" n="35"/>generatio est equoca. et ita mihi viitur quod difficultas 
-      <lb ed="#L" n="36"/>istius quaestionis magis consistit in verbis quam in re.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e433">
-      ⁋
-      Con<lb ed="#L" n="37" break="no"/>tra praedicta est vna difficultas. an scilicet si constituen 
-      <lb ed="#L" n="38"/>tia aliqua sint alterius rationis: oporteat
-      necessa<lb ed="#L" n="39" break="no"/>rio constituta esse alterius rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e442">
-      ⁋ Et probatur ab ali 
-      <lb ed="#L" n="40"/>quibus quod non oportet: sed de hoc post. et ideo non scribitur hic 
-      <lb ed="#L" n="41"/>qui secundum philosophum. x. metha. diuersitas materialis
-      si<lb ed="#L" n="42" break="no"/>ue indiuidualis non variat speciem. Exemplum de ma 
-      <lb ed="#L" n="43"/>sculo et femina. et de circulo aureo et eneo. 
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e453">
-               <lb ed="#L" n="44"/>⁋ Preterea si species aliqua constituerent aliqua 
-      <lb ed="#L" n="45"/>supposita vel indiuidua. illa indiuidua essent 
-      <lb ed="#L" n="46"/>eiusdem rationis et tamen constituentia non essent eiusdem rationis 
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e462">
-               <lb ed="#L" n="47"/>⁋ Secundo potest obiici conra illud quod dicitur de secundo
-      gra<lb ed="#L" n="48" break="no"/>du et tertio generationis vniuoce. quia ex illo seque 
-      <lb ed="#L" n="49"/>retur quod vnius generationis essent plures termini for 
-      <lb ed="#L" n="50"/>males. si vnus terminus formalis est eiusdem rationis cum 
-      <lb ed="#L" n="51"/>aliqua ratione agendi et aliqua non.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e475">
-      ⁋ Tertio potest 
-      <lb ed="#L" n="52"/>obiici. quia secundum praedicta generatio hominis esset simpliciter 
-      <lb ed="#L" n="53"/>equiuoca. quia terminus formalis quae est anima intellectiua 
-      <lb ed="#L" n="54"/>simpliciter est alterius rationis ab omni ratione agendi
-      respe<lb ed="#L" n="55" break="no"/>ctu forme substantialis producende.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e486">
-      ⁋ Ad primum 
-      <!--339.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 168-v -->
-               <lb ed="#L" n="56"/>istorum dico quod impossibile est aliqua constituentia 
-      <lb ed="#L" n="57"/>esse alterius rationis: quin constituta ex illis tamquam ex im 
-      <lb ed="#L" n="58"/>trinsecis sint alterius rationis et alterius. quia sicut con 
-      <lb ed="#L" n="59"/>stituta non distinguuntur nisi per distinctionem
-      consti<lb ed="#L" n="60" break="no"/>tuentium. ita nec costituta possunt distingui tamquam
-      a<lb ed="#L" n="61" break="no"/>terius et alterius rationis. nisi per distinctionem consimilem 
-      <lb ed="#L" n="62"/>ipsorum constituentium. et ideo sicut ex distinctione const 
-      <lb ed="#L" n="63"/>tuentium contingit inferre distinctionem constitu 
-      <lb ed="#L" n="64"/>torum. ita ex distinctione constituentium tali scilicet quod sunt 
-      <lb ed="#L" n="65"/>alterius rationis contingit inferre consimilem
-      distinctio<lb ed="#L" n="66" break="no"/>nem constitutorum. aliter enim numquam posset probari quod
-      com<lb ed="#L" n="67" break="no"/>stituta essent alterius rationis. si non potest hoc probari s 
-      <lb ed="#L" n="68"/>hoc quod constituentia sunt alterius rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e524">
-      ⁋ Et si
-      di<lb ed="#L" n="69" break="no"/>ceretur quod licet ex hoc quod simpliciter constituentia sunt
-      alte<lb ed="#L" n="70" break="no"/>rius rationis non potest probari quod constituta sunt alterius 
-      <lb ed="#L" n="71"/>rationis. tamen ex hoc quod ista constituentia sunt aliquo 
-      <lb ed="#L" n="72"/>modo speciali alterius rationis. potest probari quod constiti 
-      <lb ed="#L" n="73"/>ta ex illis sunt alterius rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e537">
-      ⁋ Et posset confir 
-      <lb ed="#L" n="74"/>mari. quia ex hoc quod constituentia sunt primo diuersa 
-      <lb ed="#L" n="75"/>non potest concludi quod constituta sunt primo diuersa. ergo 
-      <lb ed="#L" n="76"/>a simili ex hoc quod costituentia sunt alterius rationis: no 
-      <lb ed="#L" n="77"/>potest concludi quod constituta sunt alterius rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e548">
-      ⁋ Ad 
-      <lb ed="#L" n="78"/>istud dico quod nisi ex hoc generaliter quod constituentia 
-      <lb ed="#L" n="79"/>sunt: alterius rationis posset probari quod constituta sunt 
-      <lb ed="#L" n="80"/>alterius rationis: numquam posset probari quod aliqua consti 
-      <lb ed="#L" n="81"/>tuta essent alterius rationis. quia eadem facilitate qua tum di 
-      <lb ed="#L" n="82"/>cis quod ex hoc quod ista constituentia sunt alterius rationis 
-      <lb ed="#L" n="83"/>non potest concludi quod constituta sunt alterius rationis. ea 
-      <lb ed="#L" n="84"/>dem facilitate dicam ego quod ex hoc quod ista constitue 
-      <lb ed="#L" n="85"/>tia quibuscumque demonstratis sic sunt alterius rationis 
-      <lb ed="#L" n="86"/>non sequitur quod costituta sunt alterius rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e570">
-      ⁋ Et si 
-      <lb ed="#L" n="87"/>dicas quod sic quia ista constituentia plus differunt quam in 
-      <lb ed="#L" n="88"/>la. et ideo ex istis potest inferri maior distinctio inter 
-      <lb ed="#L" n="89"/>constituta.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e579">
-      ⁋ Dico quod hoc non valet. Tum quia
-      posi<lb ed="#L" n="90" break="no"/>to quod posset inferri maior distinctio. ex hoc non 
-      <lb ed="#L" n="91"/>sequitur per te quod distinctio inferatur. ita quod constituta 
-      <lb ed="#L" n="92"/>sint alterius rationis. quia per te in constitutis
-      eius<lb ed="#L" n="93" break="no"/>dem rationis sunt gradus. et ita dicam ego eque faciliter quod 
-      <lb ed="#L" n="94"/>semper constituta erunt eiusdem rationis. tamen cum
-      distin<lb ed="#L" n="95" break="no"/>ctione maiori et minori constituentium. Tum quia 
-      <lb ed="#L" n="96"/>qua ratione potest inferri maior distinctio ex maio 
-      <lb ed="#L" n="97"/>ri distinctione constituentium. eadem ratione ex hoc 
-      <lb ed="#L" n="98"/>quod constituentia sunt alterius rationis: potest inferri 
-      <lb ed="#L" n="99"/>quod constituta generaliter erunt alterius rationis. vel numquam potest hoc 
-      <lb ed="#L" n="100"/>inferri
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e605">
-      ⁋ Ad confirmationem dico: quod aliqua esse primo 
-      <lb ed="#L" n="101"/>diuersa potest intelligi dupliciter. vel quia sunt 
-      <lb ed="#L" n="102"/>illa de quibus primo competit diuersitas. et isto mo 
-      <lb ed="#L" n="103"/>do numquam constituta sunt primo diuersa. quia
-      di<lb ed="#L" n="104" break="no"/>uersitas aliqua prioritate conuenit constituenti 
-      <lb ed="#L" n="105"/>bus. et mediantibus illis constitutis. Aliter potest 
-      <lb ed="#L" n="106"/>intelligi quod aliqua sunt primo diuersa. quia scilicet in 
-      <lb ed="#L" n="107"/>nullo coueniunt. et isto modo est possibile. quando scilicet omnia 
-      <lb ed="#L" n="108"/>constituentia sunt diuersa. sicut es vniversaliter in omnibus 
-      <lb ed="#L" n="109"/>indiuiduis creatis per se in genere simul existentibus. 
-      <lb ed="#L" n="110"/>saltem secundum communem cursum nature. Per hoc dicor 
-      <!--340.xml-->
-      <pb ed="#L" n="169-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>quod accipiendo primo diuersa primo modo numquam ex 
-      <lb ed="#L" n="2"/>hoc quod constituentia sunt primo diuersa potest con 
-      <lb ed="#L" n="3"/>cludi quod constituta sunt primo diuersa. sed ex hoc 
-      <lb ed="#L" n="4"/>aliquando per te quod constituentia sunt alterius rationis. 
-      <lb ed="#L" n="5"/>potest concludi quod constituta sunt alterius rationis. et 
-      <lb ed="#L" n="6"/>ideo non est simile. Sed accipiendo primo diuersa 
-      <lb ed="#L" n="7"/>secundo modo. sic non potest concludi constituta esse
-      pri<lb ed="#L" n="8" break="no"/>mo diuersa nisi ex hoc quod omnia constituentia sunt 
-      <lb ed="#L" n="9"/>primo diuersa. et ideom vniversaliter quando omnia constituentia 
-      <lb ed="#L" n="10"/>sunt primo diuersa vel etiam diuersa. potest
-      conclu<lb ed="#L" n="11" break="no"/>di quod constituta sunt primo diuersa. et ita eadem
-      ratio<lb ed="#L" n="12" break="no"/>ne qua aliquando ex hoc quod constituentia non tantum omnia 
-      <lb ed="#L" n="13"/>sed quecumque duo sunt alterius rationis: potest
-      conclu<lb ed="#L" n="14" break="no"/>di quod constituta sunt alterius rationis. viversaliter potest hoc 
-      <lb ed="#L" n="15"/>concludi si quecumque constituentia sunt alterius ratio 
-      <lb ed="#L" n="16"/>nis
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e671">
-      ⁋ Ad cuius euidentiam sciendum quod aliqua
-      pri<lb ed="#L" n="17" break="no"/>mo competentia aliquibus mediantibus illis deno 
-      <lb ed="#L" n="18"/>minant vel competunt aliis: et aliqua non: sicut ca 
-      <lb ed="#L" n="19"/>lefacere primo competit calori: et mediante
-      calo<lb ed="#L" n="20" break="no"/>re competit subiecto ipsius caloris. sicut
-      intellige<lb ed="#L" n="21" break="no"/>re primo competit anime. et mediante anima compexit ipsi 
-      <lb ed="#L" n="22"/>homini cuius anima est pars. aliqua autem
-      competen<lb ed="#L" n="23" break="no"/>tia accidenti vel subiecto vel parti vel
-      constitu<lb ed="#L" n="24" break="no"/>enti: non possunt competere alii. nec subiecto nec
-      to<lb ed="#L" n="25" break="no"/>ti nec costituto: sed per se repugnat illis. sicut
-      in<lb ed="#L" n="26" break="no"/>herere primo competit calori. nec ramen propter hoc potest 
-      <lb ed="#L" n="27"/>dici ignis inherere. similiter est de informare 
-      <lb ed="#L" n="28"/>accidentali et substantiali et sic de multis. similiter 
-      <lb ed="#L" n="29"/>componere cum alio: esse in genere per reductio 
-      <lb ed="#L" n="30"/>ne. esse prius natura toto. et multa talia compe 
-      <lb ed="#L" n="31"/>tunt parti. et tamen nullo modo mediante parte possunt compete 
-      <lb ed="#L" n="32"/>re toti. similiter esse communicabile conuenit essentie diuinem 
-      <lb ed="#L" n="33"/>et tamen non competit patri. tunc accipio istam propositionem 
-      <lb ed="#L" n="34"/>quandocumque aliquid natum est denominare aliquid
-      mediam<lb ed="#L" n="35" break="no"/>te aliquo quod primo denominat vel cui primo
-      compe<lb ed="#L" n="36" break="no"/>tit. vbicumque modo consimili inuenitur illud median 
-      <lb ed="#L" n="37"/>te quo aliud natum est aliquid denominare:
-      denomi<lb ed="#L" n="38" break="no"/>nabit illud mediante illo nisi illud mediante quo 
-      <lb ed="#L" n="39"/>sit totum in parte alterius ad cuius partis
-      denomina<lb ed="#L" n="40" break="no"/>tionem non sequitur denominatio totius ab illo me 
-      <lb ed="#L" n="41"/>diante quo. sed esse alterius rationis natum est
-      de<lb ed="#L" n="42" break="no"/>minare tota vel constituta mediantibus con 
-      <lb ed="#L" n="43"/>stitutiuis vel partibus. ergo vbicunque sunt partes 
-      <lb ed="#L" n="44"/>vel constituentia alterius rationis tota vel
-      con<lb ed="#L" n="45" break="no"/>stituta erunt alterius rationis. Si autem aliquod
-      pri<lb ed="#L" n="46" break="no"/>dicatum non sit natum denominare: vel competere 
-      <lb ed="#L" n="47"/>alicui nisi mediantibus omnibus constituentibus: 
-      <lb ed="#L" n="48"/>vel partibus. tunc oportet quod illud predicatum primo
-      compe<lb ed="#L" n="49" break="no"/>tat omnibus partibus vel costituentibus. et tunc sequi 
-      <lb ed="#L" n="50"/>tum vniversaliter necessario quod idem predicatum competit
-      to<lb ed="#L" n="51" break="no"/>tis vel constitutis. et ita est de hoc praedicato esse 
-      <lb ed="#L" n="52"/>primo diuersa. Secundo modo vniversaliter quandocumque omnia
-      con<lb ed="#L" n="53" break="no"/>stituentia vel partes sunt primo diuersa: ipsa 
-      <lb ed="#L" n="54"/>tota vel constituta erunt primo diuersa.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e756">
-      ⁋ Ad  
-      <lb ed="#L" n="55"/>primuum argumentum inquantum probat quod ista generatio 
-      <!--340.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 169-r -->
-               <lb ed="#L" n="56"/>est vniuoca. Dico quod generatio simplicitur vniuoce 
-      <lb ed="#L" n="57"/>dicitur a termino formali et totali. modo
-      exposi<lb ed="#L" n="58" break="no"/>to supra in solutione quaestionis. Et quando dicitur quod
-      ter<lb ed="#L" n="59" break="no"/>minus formalis est essentia. patet prius quod non. Sed  
-      <lb ed="#L" n="60"/>quando dicitur vltra quod hoc dato nulla generatio esset 
-      <lb ed="#L" n="61"/>vniuoca. Nego consequentiam. quia dico vniversaliter quod nunquam
-      ge<lb ed="#L" n="62" break="no"/>nitum assimilatur generanti nisi in sua forma
-      indi<lb ed="#L" n="63" break="no"/>uisibili vel in materia sua indiuisibili. quia proprie 
-      <lb ed="#L" n="64"/>loquendo non assimilatur nisi in reali aliquo. et sicu 
-      <lb ed="#L" n="65"/>patet prius. nihil est reale in composito nisi forma in 
-      <lb ed="#L" n="66"/>diuisibilis et materia indiuisibilis.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e791">
-      ⁋ Per idem 
-      <lb ed="#L" n="67"/>ad secundum dico quod per idem proprie loquendo aliquid 
-      <lb ed="#L" n="68"/>assimilatur alicui et distinguitur ab eo. et ideo genera 
-      <lb ed="#L" n="69"/>tio siue sit assimilatiua siue distinctiua est a
-      for<lb ed="#L" n="70" break="no"/>ma sub ratione qua hec forma. nec est ibi aliqua
-      ta<lb ed="#L" n="71" break="no"/>lis ratio ratione cuius sit assimilatiua perfectior
-      indi<lb ed="#L" n="72" break="no"/>uiduo. nec differentia indiuiduali. et ista cum sit
-      negati<lb ed="#L" n="73" break="no"/>ua habet duas causas veritatis. quarum vna est 
-      <lb ed="#L" n="74"/>vera. scilicet quod non est aliqua talis differentia idiuidualis sicut 
-      <lb ed="#L" n="75"/>isti ymaginantur
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e813">
-      ⁋ Ad aliud argumentum dico 
-      <lb ed="#L" n="76"/>quod diuersitas materialis de qua loquitur philosophus non 
-      <lb ed="#L" n="77"/>variat speciem in illis in quibus est illa diuersitas 
-      <lb ed="#L" n="78"/>tanquam extrinseca. Unde masculinitas et femini 
-      <lb ed="#L" n="79"/>nitas non faciunt diuersitatem specificam in homine 
-      <lb ed="#L" n="80"/>si tamen masculinitas et femininitas differrent
-      spe<lb ed="#L" n="81" break="no"/>cie. et essent de essentia hominum. illi homines essent 
-      <lb ed="#L" n="82"/>differentes specie. et ideo vniversaliter. nunquam formaliter ex
-      di<lb ed="#L" n="83" break="no"/>uersitate extrinsecorum specifica. potest argui
-      di<lb ed="#L" n="84" break="no"/>uersitas specifica illorum quibus sunt extrinseca. 
-      <lb ed="#L" n="85"/>sicut ex albedine et nigredine non potest argui quod 
-      <lb ed="#L" n="86"/>homines illi quorum vnus est albus et alius niger
-      dif<lb ed="#L" n="87" break="no"/>ferant specie: vel quod sint alterius rationis. tamen potest argui 
-      <lb ed="#L" n="88"/>quod aggregata ex istis hominibus et albedine et
-      ni<lb ed="#L" n="89" break="no"/>gredine sunt alterius rationis. sicut albedo ea
-      nigre<lb ed="#L" n="90" break="no"/>do sunt alterius rationis. et ideo si masculinitas et femi 
-      <lb ed="#L" n="91"/>ninitas sunt alterius rationis. neccessario aggregata ex 
-      <lb ed="#L" n="92"/>illis subiectis et masculinitate et femininitate 
-      <lb ed="#L" n="93"/>erunt alterius rationis. Eodem modo dico quod quamuis circu 
-      <lb ed="#L" n="94"/>lus eneus et aureus non sint alterius rationis. tamen illa
-      ag<lb ed="#L" n="95" break="no"/>gregata sunt alterius rationis
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e859">
-      ⁋ Ad aliud dico quod si 
-      <lb ed="#L" n="96"/>species. hoc est aliqua distincta specie constituerent
-      indi<lb ed="#L" n="97" break="no"/>uidua. illa indiuidua neccessario essent alterius rationis 
-      <lb ed="#L" n="98"/>Ud vniversaliter in creaturis impossibile est quod aliqua
-      al<lb ed="#L" n="99" break="no"/>terius rationis constituant aliqua indiuidua per se in genere 
-      <lb ed="#L" n="100"/>nisi illa indiuidua distingantur specie. Et si dicatur 
-      <lb ed="#L" n="101"/>quod aliquando constituta plus conueniunt quam constituentia. quia 
-      <lb ed="#L" n="102"/>in aliquo conueniunt in quo non coueniunt constituen 
-      <lb ed="#L" n="103"/>tia. ergo non requiritur tanta distinctio in constitutis 
-      <lb ed="#L" n="104"/>quanta est in costituentibus. ergo quamuis constituentia sunt 
-      <lb ed="#L" n="105"/>alterius rationis. non oportet costituta esse alterius 
-      <lb ed="#L" n="106"/>rationis. Respondeo concedendo. quod constituta possunt 
-      <lb ed="#L" n="107"/>plus conuenire quam constituentia. sed ex hoc non sequi 
-      <lb ed="#L" n="108"/>tur quod non tantum distinguntur quantum constituentia. quia 
-      <lb ed="#L" n="109"/>ista stant simul. tantum distinguntur quantum
-      con<lb ed="#L" n="110" break="no"/>stituentia. et tamen plus conueniunt. et hoc est. quia ratione 
-      <!--341.xml-->
-      <pb ed="#L" n="169-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>diuersorum conueniunt et distinguuntur. Unde per 
-      <lb ed="#L" n="2"/>sone tantum distinguuntur quantum relationes. et tamen plus 
-      <lb ed="#L" n="3"/>conueniunt aliquo modo large loquendo. Exem 
-      <lb ed="#L" n="4"/>plum huius est plus distinguuntur homo et lapis 
-      <lb ed="#L" n="5"/>quam due notitie non contrarie eiusdem obiecti. et tamen 
-      <lb ed="#L" n="6"/>plus conueniunt. quia aliquid eiusdem rationis est 
-      <lb ed="#L" n="7"/>in homine et lapide. et nihil eiusdem rationis est in 
-      <lb ed="#L" n="8"/>illis duabus notitiis specifice distinctis non 
-      <lb ed="#L" n="9"/>contrariis respectu eiusdem obiecti. Aliter potest 
-      <lb ed="#L" n="10"/>dici concedendo quod plus coueniunt et quod minus 
-      <lb ed="#L" n="11"/>distinguuntur. ex hoc tamen non sequitur quod non sint
-      al<lb ed="#L" n="12" break="no"/>terius rationis. et ideo quamuis ex distinctione
-      con<lb ed="#L" n="13" break="no"/>stituentium non possit argui tanta distinctio
-      co<lb ed="#L" n="14" break="no"/>stitutorum. tamen ex hoc quod costituentia sunt alterius 
-      <lb ed="#L" n="15"/>rationis potest argui quod constituta sunt alterius rati 
-      <lb ed="#L" n="16"/>nis.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e935">
-      ⁋ Ad illud quod secundo obiicitur dico quod
-      termi<lb ed="#L" n="17" break="no"/>nus formalis alicuius generationis duplicitur 
-      <lb ed="#L" n="18"/>accipitur. Uno modo pro omni illo quod secundum se 
-      <lb ed="#L" n="19"/>totum capit esse per generationem. et isto modo com 
-      <lb ed="#L" n="20"/>cedo quod in generatione talium sunt plures
-      termi<lb ed="#L" n="21" break="no"/>ni formales. et sicut sunt plures termini forma 
-      <lb ed="#L" n="22"/>les: ita possunt dici plures generationes. quia si 
-      <lb ed="#L" n="23"/>generatio importet respectum: sicut dicunt con 
-      <lb ed="#L" n="24"/>muniter loquentes. cum secundum eosdem respectus va 
-      <lb ed="#L" n="25"/>rientur ad variationem termini et maxime quando 
-      <lb ed="#L" n="26"/>termini non sunt eiusdem rationis. oportet quod 
-      <lb ed="#L" n="27"/>quot sunt termini tot sint respectus. et per consequens 
-      <lb ed="#L" n="28"/>tot generationes secundum eos. Si autem poneretur 
-      <lb ed="#L" n="29"/>quod generatio esset precise nomen connotatiuum 
-      <lb ed="#L" n="30"/>sequitur idem.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e969">
-      ⁋ Alio modo accipitur terminus 
-      <lb ed="#L" n="31"/>formalis pro vltimo termino. et isto modo non 
-      <lb ed="#L" n="32"/>sunt plures termini formales. sed vnus scilicet for 
-      <lb ed="#L" n="33"/>ma substantialis vltima.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e978">
-      ⁋ Ad tertium dico 
-      <lb ed="#L" n="34"/>quod generatio hominis non est simpliciter
-      equi<lb ed="#L" n="35" break="no"/>uoca. et hoc quia generans et generatum sunt 
-      <lb ed="#L" n="36"/>eiusdem speciei. Et quando dicitur: quod terminus 
-      <lb ed="#L" n="37"/>formalis scilicet anima intellectiua sit alterius ratio 
-      <lb ed="#L" n="38"/>nis ab omni ratione agendi. Dico dupliciter. 
-      <lb ed="#L" n="39"/>primo quod assumptum est falsum. propter falsam in 
-      <lb ed="#L" n="40"/>plicationem. quia implicat quod anima intellectiua sit 
-      <lb ed="#L" n="41"/>terminus formalis generationis. quod est
-      simpli<lb ed="#L" n="42" break="no"/>citer falsum. quia est terminus creationis. sed non est 
-      <lb ed="#L" n="43"/>in proposito terminus formalis generationis. 
-      <lb ed="#L" n="44"/>qui tunc educeretur de potentia materie: quod mani 
-      <lb ed="#L" n="45"/>ste est falsum. Secundo dico quod non obstante quod esset 
-      <lb ed="#L" n="46"/>terminus formalis et alterius rationis ab omni rem 
-      <lb ed="#L" n="47"/>ne agendi posset esse generatio vniuoca. sed non 
-      <lb ed="#L" n="48"/>in primo gradu generationis vniuoce.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e1013">
-      ⁋ Ad  
-      <lb ed="#L" n="49"/>rationes principales dico: quod quando natura est eadem in 
-      <lb ed="#L" n="50"/>generante et genito. et cuilibet essentiali in vno 
-      <lb ed="#L" n="51"/>est aliquid simillimum in reliquo et simplicitur eius 
-      <lb ed="#L" n="52"/>dem rationis cum eo est generatio simpliciter
-      vniuoca<lb ed="#L" n="53" break="no"/>sed sic non est in deo. quia paternitas in pre non est omni 
-      <lb ed="#L" n="54"/>non eiusdem rationis cum aliquo quod est essentialiter in 
-      <lb ed="#L" n="55"/>filio. quia non cum similitudine.
-    </p>
-            <p xml:id="wo8uy7-d1e803-d1e1031">
-      ⁋ Ad argumentum in 
-      <!--341.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 169-v -->
-               <lb ed="#L" n="56"/>oppositum dico quod non est simpliciter vniuoca
-      pro<lb ed="#L" n="57" break="no"/>pter rationem dictam. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="168-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e803"><!-- l1d9q2 -->
+        <head xml:id="wo8uy7-d1e803-Hd1e108">Quaestio 2</head>
+        <p xml:id="wo8uy7-d1e803-d1e111">
+          Questio ii. 
+          <lb ed="#L" n="16"/>Supposito quod
+          ge<lb ed="#L" n="17" break="no"/>neratio sit in diuinis. quero Utrum 
+          <lb ed="#L" n="18"/>ista generatio sit vniuoca an equiuo 
+          <lb ed="#L" n="19"/>ca
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e122">
+          ⁋ Quod sit vniuoca videtur. quia quando na 
+          <lb ed="#L" n="20"/>tura est eiusdem rationis in generante et genito: illa 
+          <lb ed="#L" n="21"/>generatio est vniuoca. sed eadem natura numero est in 
+          <lb ed="#L" n="22"/>patre et filio. ergo ista generatio est vniuoca
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e131">
+          ⁋ Ad 
+          <lb ed="#L" n="23"/>oppositum. quando generans et genitum non sunt eiusdem 
+          <lb ed="#L" n="24"/>rationis illa generatio non est vniuoca. sed pater et 
+          <lb ed="#L" n="25"/>filius non sunt eiusdem rationis in diuinis. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e140">
+          ⁋
+          Cir<lb ed="#L" n="26" break="no"/>ca istam questionem sic procedam. Primo videndum est 
+          <lb ed="#L" n="27"/>quae generatio dicitur vniuoca et quae equiuoca in
+          creatu<lb ed="#L" n="28" break="no"/>ris. Secundo quod generatio in diuinis non est proprie 
+          <lb ed="#L" n="29"/>vniuoca nec proprie equoca. Tertio quod magis assi 
+          <lb ed="#L" n="30"/>milatur generationi vniuoce. Quarto ponuntur 
+          <lb ed="#L" n="31"/>aliqua dubitationes et soluuntur.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e157">
+          ⁋ Circa primum 
+          <lb ed="#L" n="32"/>dico quod manifestum est generationem vniuocam
+          di<lb ed="#L" n="33" break="no"/>stingui a generatione equoca in creaturis. propter 
+          <lb ed="#L" n="34"/>aliquam couenientiam specialem inter generas et 
+          <lb ed="#L" n="35"/>genitum in generatione vniuoca. qualis non est in 
+          <lb ed="#L" n="36"/>ter generans et genitum in generatione equiuoca 
+          <lb ed="#L" n="37"/>nunc autem est ita: quod in generate creato et in genito 
+          <lb ed="#L" n="38"/>creato est duo cosiderare. scilicet quod et quo. et hoc est 
+          <lb ed="#L" n="39"/>verum secundum communem cursum nature in istis inferiori 
+          <lb ed="#L" n="40"/>bus et non est vniversaliter verum. quia quando angelus producit intel 
+          <lb ed="#L" n="41"/>lectionem: non oportet quod ibi sint duo a parte
+          generan<lb ed="#L" n="42" break="no"/>tis. scilicet quod et quo. et eodem modo est de anima separata. simul 
+          <lb ed="#L" n="43"/>potest idem contigere si per diuinam potentiam fiat aliquod 
+          <lb ed="#L" n="44"/>accidens actiuum separatum a suo subiecto veruntamen hoc 
+          <lb ed="#L" n="45"/>est vniversaliter a parte geniti. quia sicut patebit in secundo
+          nul<lb ed="#L" n="46" break="no"/>lum agens creatum: siue separatum siue non. potest aliquid 
+          <lb ed="#L" n="47"/>producere de nouo. nisi producendo formam in
+          sub<lb ed="#L" n="48" break="no"/>iecto
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e196">
+          ⁋ hiis dictis dico quod aliquando terminus tota 
+          <lb ed="#L" n="49"/>lis productus est per se vnus. aliquando autem est tantum vnus per
+          acci<lb ed="#L" n="50" break="no"/>dens. In primo casu est generatio substantie. in secundo 
+          <lb ed="#L" n="51"/>generatio accidentis. In secundo casu semper vocatur 
+          <lb ed="#L" n="52"/>generatio vniuoca. propter identitatem specificam 
+          <lb ed="#L" n="53"/>inter formalem terminum quae totaliter de nouo capit 
+          <lb ed="#L" n="54"/>esse et per se rationem agendi. siue distinguatur ab illo quod 
+          <!--338.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 168-r -->
+          <lb ed="#L" n="55"/>communiter vocatur quod. siue non. et ideo quando ignis
+          ealefa<lb ed="#L" n="56" break="no"/>cit lignum illa dicitur generatio caloris vniuoca. quia 
+          <lb ed="#L" n="57"/>ratio agendi est eiusdem speciei cum calore producto in
+          li<lb ed="#L" n="58" break="no"/>gno. Sed si ignis calefaceret se: sicut graue mo 
+          <lb ed="#L" n="59"/>uet se illa generatio caloris diceretur equiuoca.
+          pro<lb ed="#L" n="60" break="no"/>pter non identitatem specificam inter rationem agendi et 
+          <lb ed="#L" n="61"/>terminum formalem productum. Sed loquendo de genera 
+          <lb ed="#L" n="62"/>tione substantie quae est generatio termini vnius per se 
+          <lb ed="#L" n="63"/>sic dicitur generatio vniuoca quando generans et geuitum 
+          <lb ed="#L" n="64"/>non sunt alterius speciei. sed in ista generatione vniuoca 
+          <lb ed="#L" n="65"/>sunt multi gradus. si enim generans et genitum sint 
+          <lb ed="#L" n="66"/>eiusdem speciei. et quaelibet terminus formalis sit
+          eius<lb ed="#L" n="67" break="no"/>dem speciei cum aliqua ratione agendi et a nulla ratione
+          agen<lb ed="#L" n="68" break="no"/>di respectu sui distinguatur specie vel sit alterius 
+          <lb ed="#L" n="69"/>rationis. tunc esset generatio perfectissime
+          vniuoca<lb ed="#L" n="70" break="no"/>Uerbi gratia. si ignis generans eiusdem speciei cum 
+          <lb ed="#L" n="71"/>igne generato. et forma substantialis vniuoca in 
+          <lb ed="#L" n="72"/>igne generante sit ratio praecise agendi respectu
+          for<lb ed="#L" n="73" break="no"/>me substalis ignis generati. tunc erit perfectissime vni 
+          <lb ed="#L" n="74"/>uoca. si autem calor ignis generantis non tantum sit 
+          <lb ed="#L" n="75"/>agens respectu alicuius accidentis. sed etiam sit causa 
+          <lb ed="#L" n="76"/>immediata respectu forme ignis generati. tunc 
+          <lb ed="#L" n="77"/>non est perfectissime generatio vniuoca. propter
+          di<lb ed="#L" n="78" break="no"/>uersitatem specificam inter vnam rationem agendi. et ter 
+          <lb ed="#L" n="79"/>minum formalem. Secundus gradus generationis 
+          <lb ed="#L" n="80"/>vniuoce est: si generans et generatum essent eiusdem 
+          <lb ed="#L" n="81"/>speciei. et in vtroque essent plres forme substantiales 
+          <lb ed="#L" n="82"/>actiue et quaelibet illarum in generante concurreret 
+          <lb ed="#L" n="83"/>tamque causa partialis respectu cuiuslibet forme
+          substan<lb ed="#L" n="84" break="no"/>tialis in ipsorum generato. tunc enim generans et
+          ge<lb ed="#L" n="85" break="no"/>neratum essent eiusdam rationis. et terminus quaelibet for 
+          <lb ed="#L" n="86"/>malis esset eiusdem speciei cum aliqua ratione agendi. et 
+          <lb ed="#L" n="87"/>tamen ab aliqua esset alterius rationis et in hoc non esset ge 
+          <lb ed="#L" n="88"/>neratio perfecissime vniuoca. Tertius gradus est: quod 
+          <lb ed="#L" n="89"/>generans et generatum sint eiusdem speciei et terminus 
+          <lb ed="#L" n="90"/>formalis sit eiusdem rationis cum ratione agendi. et ali 
+          <lb ed="#L" n="91"/>quis terminus formalis cum nulla ratione agendi sit 
+          <lb ed="#L" n="92"/>eiusdem rationis. et ita est in generatione vniuoca omnium 
+          <lb ed="#L" n="93"/>animalium secundum vnam opinionem. scilicet in generatione equa 
+          <lb ed="#L" n="94"/>ab equo. bouis a boue. hominis ab homine. et sic de 
+          <lb ed="#L" n="95"/>aliis. quia secundum aliquos anima vegentatiua dicieret et est
+          al<lb ed="#L" n="96" break="no"/>terius rationis ab anima sensitiua in istis. et ipsa sola 
+          <lb ed="#L" n="97"/>anima vegentatiua est ratio producendi et agendi. quia ipsa so 
+          <lb ed="#L" n="98"/>la est potentia generatiua. et tunc generans et gene 
+          <lb ed="#L" n="99"/>ratum sunt eiusdem rationis cum anima vegentatiua in gene 
+          <lb ed="#L" n="100"/>rante quae est ratio producendi. et aliquos terminus formalis 
+          <lb ed="#L" n="101"/>puta anima sensitiua: quamuis sit eiusdem rationis cum anima 
+          <lb ed="#L" n="102"/>sensitiua generantis que non est ibi ratio
+          produ<lb ed="#L" n="103" break="no"/>cendi. non tamen est eiusdem rationis cum anima
+          vegenta<lb ed="#L" n="104" break="no"/>tiua que est ratio producendi.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e326">
+          ⁋ Aliqui alii
+          gra<lb ed="#L" n="105" break="no"/>dus generationis vniuoce possent forte
+          assigna<lb ed="#L" n="106" break="no"/>ri. sed isti sufficiant. quia ex istis possunt alii si 
+          <lb ed="#L" n="107"/>qui sint patere.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e335">
+          ⁋ Circa secundum dico: quod
+          gene<lb ed="#L" n="108" break="no"/>ratio diuina nec est simpliciter vniuoea nec simpliciter 
+          <lb ed="#L" n="109"/>equoca. Primum patet. quia in generatione vn. noca 
+          <!--339.xml-->
+          <pb ed="#L" n="168-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>generans et generatum sic sunt eiusdem rationis: quod 
+          <lb ed="#L" n="2"/>quodlibet essentiale in generato est simillimum 
+          <lb ed="#L" n="3"/>alicui in generante. ita quod sit tanta similitudo et 
+          <lb ed="#L" n="4"/>omnis modus similitudinis inter illud quod est in
+          ge<lb ed="#L" n="5" break="no"/>nerato et illud quod est in generante. quanta et qualis 
+          <lb ed="#L" n="6"/>modus est inter hanc albedinem et illam. vel inter
+          sor<lb ed="#L" n="7" break="no"/>tem et platonem. vel inter hanc animam intellectiuam et 
+          <lb ed="#L" n="8"/>illam. sed paternitas in patre quae est sibi essentialis non 
+          <lb ed="#L" n="9"/>tantum assimilatur filiationi quae est filio essentialis:
+          quan<lb ed="#L" n="10" break="no"/>tum assimilaretur si essent due paternitates in
+          di<lb ed="#L" n="11" break="no"/>uinis et accipio similitudinem largissime. et hoc 
+          <lb ed="#L" n="12"/>sufficit ad propositum. Unde etiam dicut doc. quod
+          spiritus<lb ed="#L" n="13" break="no"/>sanctus non producitur per modum similis sicut filius. ergo non 
+          <lb ed="#L" n="14"/>est generatio simpliciter vniuoca.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e379">
+          ⁋ Secundo dico quod 
+          <lb ed="#L" n="15"/>ista generatio non est simpliciter equiuoca. quia in
+          gene<lb ed="#L" n="16" break="no"/>ratione equiuoca semper est aliquid in generato quod
+          di<lb ed="#L" n="17" break="no"/>stinguitur realiter ab omni eo quod est in generante et quod 
+          <lb ed="#L" n="18"/>est alterius rationis ab omni illo sed in ista generatio 
+          <lb ed="#L" n="19"/>ne nihil est in filio producto quod distinguitur realiter 
+          <lb ed="#L" n="20"/>ab omni illo quod est in patre. quia nihil distinguitur
+          re<lb ed="#L" n="21" break="no"/>aliter ab essentia patris. Similiter in generatione 
+          <lb ed="#L" n="22"/>equiuoca generans et generatum non sunt simpliciter vna 
+          <lb ed="#L" n="23"/>res: sed pater et filius sunt vna res numero. puta vna est 
+          <lb ed="#L" n="24"/>sentia numero. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e403">
+          ⁋ Circa tertium dico: quod ista 
+          <lb ed="#L" n="25"/>generatio magis assimulatur generationi vniuoce non 
+          <lb ed="#L" n="26"/>obstante quod generans et generatum sunt alterius
+          ratio<lb ed="#L" n="27" break="no"/>nis: sicut aliquo possunt esse alterius rationis in diuinis et hoc 
+          <lb ed="#L" n="28"/>ppter identitate realem vnius essentie numero cum quo 
+          <lb ed="#L" n="29"/>libet istorum suppositorum et cum vnoquoque essentia 
+          <lb ed="#L" n="30"/>li cuiuslibet istorum suppositorum. Si tamen vocetur ge 
+          <lb ed="#L" n="31"/>neratio equiuoca quandocumque generans et generatum 
+          <lb ed="#L" n="32"/>sunt alterius rationis. illo modo quo conceditur aliqua in 
+          <lb ed="#L" n="33"/>diuinis esse alterius rationis. sicut conceditur quod pater 
+          <lb ed="#L" n="34"/>nitas et filiatio sunt alterius rationis. potest dici quod ista 
+          <lb ed="#L" n="35"/>generatio est equoca. et ita mihi viitur quod difficultas 
+          <lb ed="#L" n="36"/>istius quaestionis magis consistit in verbis quam in re.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e433">
+          ⁋
+          Con<lb ed="#L" n="37" break="no"/>tra praedicta est vna difficultas. an scilicet si constituen 
+          <lb ed="#L" n="38"/>tia aliqua sint alterius rationis: oporteat
+          necessa<lb ed="#L" n="39" break="no"/>rio constituta esse alterius rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e442">
+          ⁋ Et probatur ab ali 
+          <lb ed="#L" n="40"/>quibus quod non oportet: sed de hoc post. et ideo non scribitur hic 
+          <lb ed="#L" n="41"/>qui secundum philosophum. x. metha. diuersitas materialis
+          si<lb ed="#L" n="42" break="no"/>ue indiuidualis non variat speciem. Exemplum de ma 
+          <lb ed="#L" n="43"/>sculo et femina. et de circulo aureo et eneo. 
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e453">
+          <lb ed="#L" n="44"/>⁋ Preterea si species aliqua constituerent aliqua 
+          <lb ed="#L" n="45"/>supposita vel indiuidua. illa indiuidua essent 
+          <lb ed="#L" n="46"/>eiusdem rationis et tamen constituentia non essent eiusdem rationis 
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e462">
+          <lb ed="#L" n="47"/>⁋ Secundo potest obiici conra illud quod dicitur de secundo
+          gra<lb ed="#L" n="48" break="no"/>du et tertio generationis vniuoce. quia ex illo seque 
+          <lb ed="#L" n="49"/>retur quod vnius generationis essent plures termini for 
+          <lb ed="#L" n="50"/>males. si vnus terminus formalis est eiusdem rationis cum 
+          <lb ed="#L" n="51"/>aliqua ratione agendi et aliqua non.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e475">
+          ⁋ Tertio potest 
+          <lb ed="#L" n="52"/>obiici. quia secundum praedicta generatio hominis esset simpliciter 
+          <lb ed="#L" n="53"/>equiuoca. quia terminus formalis quae est anima intellectiua 
+          <lb ed="#L" n="54"/>simpliciter est alterius rationis ab omni ratione agendi
+          respe<lb ed="#L" n="55" break="no"/>ctu forme substantialis producende.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e486">
+          ⁋ Ad primum 
+          <!--339.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 168-v -->
+          <lb ed="#L" n="56"/>istorum dico quod impossibile est aliqua constituentia 
+          <lb ed="#L" n="57"/>esse alterius rationis: quin constituta ex illis tamquam ex im 
+          <lb ed="#L" n="58"/>trinsecis sint alterius rationis et alterius. quia sicut con 
+          <lb ed="#L" n="59"/>stituta non distinguuntur nisi per distinctionem
+          consti<lb ed="#L" n="60" break="no"/>tuentium. ita nec costituta possunt distingui tamquam
+          a<lb ed="#L" n="61" break="no"/>terius et alterius rationis. nisi per distinctionem consimilem 
+          <lb ed="#L" n="62"/>ipsorum constituentium. et ideo sicut ex distinctione const 
+          <lb ed="#L" n="63"/>tuentium contingit inferre distinctionem constitu 
+          <lb ed="#L" n="64"/>torum. ita ex distinctione constituentium tali scilicet quod sunt 
+          <lb ed="#L" n="65"/>alterius rationis contingit inferre consimilem
+          distinctio<lb ed="#L" n="66" break="no"/>nem constitutorum. aliter enim numquam posset probari quod
+          com<lb ed="#L" n="67" break="no"/>stituta essent alterius rationis. si non potest hoc probari s 
+          <lb ed="#L" n="68"/>hoc quod constituentia sunt alterius rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e524">
+          ⁋ Et si
+          di<lb ed="#L" n="69" break="no"/>ceretur quod licet ex hoc quod simpliciter constituentia sunt
+          alte<lb ed="#L" n="70" break="no"/>rius rationis non potest probari quod constituta sunt alterius 
+          <lb ed="#L" n="71"/>rationis. tamen ex hoc quod ista constituentia sunt aliquo 
+          <lb ed="#L" n="72"/>modo speciali alterius rationis. potest probari quod constiti 
+          <lb ed="#L" n="73"/>ta ex illis sunt alterius rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e537">
+          ⁋ Et posset confir 
+          <lb ed="#L" n="74"/>mari. quia ex hoc quod constituentia sunt primo diuersa 
+          <lb ed="#L" n="75"/>non potest concludi quod constituta sunt primo diuersa. ergo 
+          <lb ed="#L" n="76"/>a simili ex hoc quod costituentia sunt alterius rationis: no 
+          <lb ed="#L" n="77"/>potest concludi quod constituta sunt alterius rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e548">
+          ⁋ Ad 
+          <lb ed="#L" n="78"/>istud dico quod nisi ex hoc generaliter quod constituentia 
+          <lb ed="#L" n="79"/>sunt: alterius rationis posset probari quod constituta sunt 
+          <lb ed="#L" n="80"/>alterius rationis: numquam posset probari quod aliqua consti 
+          <lb ed="#L" n="81"/>tuta essent alterius rationis. quia eadem facilitate qua tum di 
+          <lb ed="#L" n="82"/>cis quod ex hoc quod ista constituentia sunt alterius rationis 
+          <lb ed="#L" n="83"/>non potest concludi quod constituta sunt alterius rationis. ea 
+          <lb ed="#L" n="84"/>dem facilitate dicam ego quod ex hoc quod ista constitue 
+          <lb ed="#L" n="85"/>tia quibuscumque demonstratis sic sunt alterius rationis 
+          <lb ed="#L" n="86"/>non sequitur quod costituta sunt alterius rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e570">
+          ⁋ Et si 
+          <lb ed="#L" n="87"/>dicas quod sic quia ista constituentia plus differunt quam in 
+          <lb ed="#L" n="88"/>la. et ideo ex istis potest inferri maior distinctio inter 
+          <lb ed="#L" n="89"/>constituta.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e579">
+          ⁋ Dico quod hoc non valet. Tum quia
+          posi<lb ed="#L" n="90" break="no"/>to quod posset inferri maior distinctio. ex hoc non 
+          <lb ed="#L" n="91"/>sequitur per te quod distinctio inferatur. ita quod constituta 
+          <lb ed="#L" n="92"/>sint alterius rationis. quia per te in constitutis
+          eius<lb ed="#L" n="93" break="no"/>dem rationis sunt gradus. et ita dicam ego eque faciliter quod 
+          <lb ed="#L" n="94"/>semper constituta erunt eiusdem rationis. tamen cum
+          distin<lb ed="#L" n="95" break="no"/>ctione maiori et minori constituentium. Tum quia 
+          <lb ed="#L" n="96"/>qua ratione potest inferri maior distinctio ex maio 
+          <lb ed="#L" n="97"/>ri distinctione constituentium. eadem ratione ex hoc 
+          <lb ed="#L" n="98"/>quod constituentia sunt alterius rationis: potest inferri 
+          <lb ed="#L" n="99"/>quod constituta generaliter erunt alterius rationis. vel numquam potest hoc 
+          <lb ed="#L" n="100"/>inferri
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e605">
+          ⁋ Ad confirmationem dico: quod aliqua esse primo 
+          <lb ed="#L" n="101"/>diuersa potest intelligi dupliciter. vel quia sunt 
+          <lb ed="#L" n="102"/>illa de quibus primo competit diuersitas. et isto mo 
+          <lb ed="#L" n="103"/>do numquam constituta sunt primo diuersa. quia
+          di<lb ed="#L" n="104" break="no"/>uersitas aliqua prioritate conuenit constituenti 
+          <lb ed="#L" n="105"/>bus. et mediantibus illis constitutis. Aliter potest 
+          <lb ed="#L" n="106"/>intelligi quod aliqua sunt primo diuersa. quia scilicet in 
+          <lb ed="#L" n="107"/>nullo coueniunt. et isto modo est possibile. quando scilicet omnia 
+          <lb ed="#L" n="108"/>constituentia sunt diuersa. sicut es vniversaliter in omnibus 
+          <lb ed="#L" n="109"/>indiuiduis creatis per se in genere simul existentibus. 
+          <lb ed="#L" n="110"/>saltem secundum communem cursum nature. Per hoc dicor 
+          <!--340.xml-->
+          <pb ed="#L" n="169-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quod accipiendo primo diuersa primo modo numquam ex 
+          <lb ed="#L" n="2"/>hoc quod constituentia sunt primo diuersa potest con 
+          <lb ed="#L" n="3"/>cludi quod constituta sunt primo diuersa. sed ex hoc 
+          <lb ed="#L" n="4"/>aliquando per te quod constituentia sunt alterius rationis. 
+          <lb ed="#L" n="5"/>potest concludi quod constituta sunt alterius rationis. et 
+          <lb ed="#L" n="6"/>ideo non est simile. Sed accipiendo primo diuersa 
+          <lb ed="#L" n="7"/>secundo modo. sic non potest concludi constituta esse
+          pri<lb ed="#L" n="8" break="no"/>mo diuersa nisi ex hoc quod omnia constituentia sunt 
+          <lb ed="#L" n="9"/>primo diuersa. et ideom vniversaliter quando omnia constituentia 
+          <lb ed="#L" n="10"/>sunt primo diuersa vel etiam diuersa. potest
+          conclu<lb ed="#L" n="11" break="no"/>di quod constituta sunt primo diuersa. et ita eadem
+          ratio<lb ed="#L" n="12" break="no"/>ne qua aliquando ex hoc quod constituentia non tantum omnia 
+          <lb ed="#L" n="13"/>sed quecumque duo sunt alterius rationis: potest
+          conclu<lb ed="#L" n="14" break="no"/>di quod constituta sunt alterius rationis. viversaliter potest hoc 
+          <lb ed="#L" n="15"/>concludi si quecumque constituentia sunt alterius ratio 
+          <lb ed="#L" n="16"/>nis
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e671">
+          ⁋ Ad cuius euidentiam sciendum quod aliqua
+          pri<lb ed="#L" n="17" break="no"/>mo competentia aliquibus mediantibus illis deno 
+          <lb ed="#L" n="18"/>minant vel competunt aliis: et aliqua non: sicut ca 
+          <lb ed="#L" n="19"/>lefacere primo competit calori: et mediante
+          calo<lb ed="#L" n="20" break="no"/>re competit subiecto ipsius caloris. sicut
+          intellige<lb ed="#L" n="21" break="no"/>re primo competit anime. et mediante anima compexit ipsi 
+          <lb ed="#L" n="22"/>homini cuius anima est pars. aliqua autem
+          competen<lb ed="#L" n="23" break="no"/>tia accidenti vel subiecto vel parti vel
+          constitu<lb ed="#L" n="24" break="no"/>enti: non possunt competere alii. nec subiecto nec
+          to<lb ed="#L" n="25" break="no"/>ti nec costituto: sed per se repugnat illis. sicut
+          in<lb ed="#L" n="26" break="no"/>herere primo competit calori. nec ramen propter hoc potest 
+          <lb ed="#L" n="27"/>dici ignis inherere. similiter est de informare 
+          <lb ed="#L" n="28"/>accidentali et substantiali et sic de multis. similiter 
+          <lb ed="#L" n="29"/>componere cum alio: esse in genere per reductio 
+          <lb ed="#L" n="30"/>ne. esse prius natura toto. et multa talia compe 
+          <lb ed="#L" n="31"/>tunt parti. et tamen nullo modo mediante parte possunt compete 
+          <lb ed="#L" n="32"/>re toti. similiter esse communicabile conuenit essentie diuinem 
+          <lb ed="#L" n="33"/>et tamen non competit patri. tunc accipio istam propositionem 
+          <lb ed="#L" n="34"/>quandocumque aliquid natum est denominare aliquid
+          mediam<lb ed="#L" n="35" break="no"/>te aliquo quod primo denominat vel cui primo
+          compe<lb ed="#L" n="36" break="no"/>tit. vbicumque modo consimili inuenitur illud median 
+          <lb ed="#L" n="37"/>te quo aliud natum est aliquid denominare:
+          denomi<lb ed="#L" n="38" break="no"/>nabit illud mediante illo nisi illud mediante quo 
+          <lb ed="#L" n="39"/>sit totum in parte alterius ad cuius partis
+          denomina<lb ed="#L" n="40" break="no"/>tionem non sequitur denominatio totius ab illo me 
+          <lb ed="#L" n="41"/>diante quo. sed esse alterius rationis natum est
+          de<lb ed="#L" n="42" break="no"/>minare tota vel constituta mediantibus con 
+          <lb ed="#L" n="43"/>stitutiuis vel partibus. ergo vbicunque sunt partes 
+          <lb ed="#L" n="44"/>vel constituentia alterius rationis tota vel
+          con<lb ed="#L" n="45" break="no"/>stituta erunt alterius rationis. Si autem aliquod
+          pri<lb ed="#L" n="46" break="no"/>dicatum non sit natum denominare: vel competere 
+          <lb ed="#L" n="47"/>alicui nisi mediantibus omnibus constituentibus: 
+          <lb ed="#L" n="48"/>vel partibus. tunc oportet quod illud predicatum primo
+          compe<lb ed="#L" n="49" break="no"/>tat omnibus partibus vel costituentibus. et tunc sequi 
+          <lb ed="#L" n="50"/>tum vniversaliter necessario quod idem predicatum competit
+          to<lb ed="#L" n="51" break="no"/>tis vel constitutis. et ita est de hoc praedicato esse 
+          <lb ed="#L" n="52"/>primo diuersa. Secundo modo vniversaliter quandocumque omnia
+          con<lb ed="#L" n="53" break="no"/>stituentia vel partes sunt primo diuersa: ipsa 
+          <lb ed="#L" n="54"/>tota vel constituta erunt primo diuersa.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e756">
+          ⁋ Ad  
+          <lb ed="#L" n="55"/>primuum argumentum inquantum probat quod ista generatio 
+          <!--340.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 169-r -->
+          <lb ed="#L" n="56"/>est vniuoca. Dico quod generatio simplicitur vniuoce 
+          <lb ed="#L" n="57"/>dicitur a termino formali et totali. modo
+          exposi<lb ed="#L" n="58" break="no"/>to supra in solutione quaestionis. Et quando dicitur quod
+          ter<lb ed="#L" n="59" break="no"/>minus formalis est essentia. patet prius quod non. Sed  
+          <lb ed="#L" n="60"/>quando dicitur vltra quod hoc dato nulla generatio esset 
+          <lb ed="#L" n="61"/>vniuoca. Nego consequentiam. quia dico vniversaliter quod nunquam
+          ge<lb ed="#L" n="62" break="no"/>nitum assimilatur generanti nisi in sua forma
+          indi<lb ed="#L" n="63" break="no"/>uisibili vel in materia sua indiuisibili. quia proprie 
+          <lb ed="#L" n="64"/>loquendo non assimilatur nisi in reali aliquo. et sicu 
+          <lb ed="#L" n="65"/>patet prius. nihil est reale in composito nisi forma in 
+          <lb ed="#L" n="66"/>diuisibilis et materia indiuisibilis.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e791">
+          ⁋ Per idem 
+          <lb ed="#L" n="67"/>ad secundum dico quod per idem proprie loquendo aliquid 
+          <lb ed="#L" n="68"/>assimilatur alicui et distinguitur ab eo. et ideo genera 
+          <lb ed="#L" n="69"/>tio siue sit assimilatiua siue distinctiua est a
+          for<lb ed="#L" n="70" break="no"/>ma sub ratione qua hec forma. nec est ibi aliqua
+          ta<lb ed="#L" n="71" break="no"/>lis ratio ratione cuius sit assimilatiua perfectior
+          indi<lb ed="#L" n="72" break="no"/>uiduo. nec differentia indiuiduali. et ista cum sit
+          negati<lb ed="#L" n="73" break="no"/>ua habet duas causas veritatis. quarum vna est 
+          <lb ed="#L" n="74"/>vera. scilicet quod non est aliqua talis differentia idiuidualis sicut 
+          <lb ed="#L" n="75"/>isti ymaginantur
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e813">
+          ⁋ Ad aliud argumentum dico 
+          <lb ed="#L" n="76"/>quod diuersitas materialis de qua loquitur philosophus non 
+          <lb ed="#L" n="77"/>variat speciem in illis in quibus est illa diuersitas 
+          <lb ed="#L" n="78"/>tanquam extrinseca. Unde masculinitas et femini 
+          <lb ed="#L" n="79"/>nitas non faciunt diuersitatem specificam in homine 
+          <lb ed="#L" n="80"/>si tamen masculinitas et femininitas differrent
+          spe<lb ed="#L" n="81" break="no"/>cie. et essent de essentia hominum. illi homines essent 
+          <lb ed="#L" n="82"/>differentes specie. et ideo vniversaliter. nunquam formaliter ex
+          di<lb ed="#L" n="83" break="no"/>uersitate extrinsecorum specifica. potest argui
+          di<lb ed="#L" n="84" break="no"/>uersitas specifica illorum quibus sunt extrinseca. 
+          <lb ed="#L" n="85"/>sicut ex albedine et nigredine non potest argui quod 
+          <lb ed="#L" n="86"/>homines illi quorum vnus est albus et alius niger
+          dif<lb ed="#L" n="87" break="no"/>ferant specie: vel quod sint alterius rationis. tamen potest argui 
+          <lb ed="#L" n="88"/>quod aggregata ex istis hominibus et albedine et
+          ni<lb ed="#L" n="89" break="no"/>gredine sunt alterius rationis. sicut albedo ea
+          nigre<lb ed="#L" n="90" break="no"/>do sunt alterius rationis. et ideo si masculinitas et femi 
+          <lb ed="#L" n="91"/>ninitas sunt alterius rationis. neccessario aggregata ex 
+          <lb ed="#L" n="92"/>illis subiectis et masculinitate et femininitate 
+          <lb ed="#L" n="93"/>erunt alterius rationis. Eodem modo dico quod quamuis circu 
+          <lb ed="#L" n="94"/>lus eneus et aureus non sint alterius rationis. tamen illa
+          ag<lb ed="#L" n="95" break="no"/>gregata sunt alterius rationis
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e859">
+          ⁋ Ad aliud dico quod si 
+          <lb ed="#L" n="96"/>species. hoc est aliqua distincta specie constituerent
+          indi<lb ed="#L" n="97" break="no"/>uidua. illa indiuidua neccessario essent alterius rationis 
+          <lb ed="#L" n="98"/>Ud vniversaliter in creaturis impossibile est quod aliqua
+          al<lb ed="#L" n="99" break="no"/>terius rationis constituant aliqua indiuidua per se in genere 
+          <lb ed="#L" n="100"/>nisi illa indiuidua distingantur specie. Et si dicatur 
+          <lb ed="#L" n="101"/>quod aliquando constituta plus conueniunt quam constituentia. quia 
+          <lb ed="#L" n="102"/>in aliquo conueniunt in quo non coueniunt constituen 
+          <lb ed="#L" n="103"/>tia. ergo non requiritur tanta distinctio in constitutis 
+          <lb ed="#L" n="104"/>quanta est in costituentibus. ergo quamuis constituentia sunt 
+          <lb ed="#L" n="105"/>alterius rationis. non oportet costituta esse alterius 
+          <lb ed="#L" n="106"/>rationis. Respondeo concedendo. quod constituta possunt 
+          <lb ed="#L" n="107"/>plus conuenire quam constituentia. sed ex hoc non sequi 
+          <lb ed="#L" n="108"/>tur quod non tantum distinguntur quantum constituentia. quia 
+          <lb ed="#L" n="109"/>ista stant simul. tantum distinguntur quantum
+          con<lb ed="#L" n="110" break="no"/>stituentia. et tamen plus conueniunt. et hoc est. quia ratione 
+          <!--341.xml-->
+          <pb ed="#L" n="169-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>diuersorum conueniunt et distinguuntur. Unde per 
+          <lb ed="#L" n="2"/>sone tantum distinguuntur quantum relationes. et tamen plus 
+          <lb ed="#L" n="3"/>conueniunt aliquo modo large loquendo. Exem 
+          <lb ed="#L" n="4"/>plum huius est plus distinguuntur homo et lapis 
+          <lb ed="#L" n="5"/>quam due notitie non contrarie eiusdem obiecti. et tamen 
+          <lb ed="#L" n="6"/>plus conueniunt. quia aliquid eiusdem rationis est 
+          <lb ed="#L" n="7"/>in homine et lapide. et nihil eiusdem rationis est in 
+          <lb ed="#L" n="8"/>illis duabus notitiis specifice distinctis non 
+          <lb ed="#L" n="9"/>contrariis respectu eiusdem obiecti. Aliter potest 
+          <lb ed="#L" n="10"/>dici concedendo quod plus coueniunt et quod minus 
+          <lb ed="#L" n="11"/>distinguuntur. ex hoc tamen non sequitur quod non sint
+          al<lb ed="#L" n="12" break="no"/>terius rationis. et ideo quamuis ex distinctione
+          con<lb ed="#L" n="13" break="no"/>stituentium non possit argui tanta distinctio
+          co<lb ed="#L" n="14" break="no"/>stitutorum. tamen ex hoc quod costituentia sunt alterius 
+          <lb ed="#L" n="15"/>rationis potest argui quod constituta sunt alterius rati 
+          <lb ed="#L" n="16"/>nis.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e935">
+          ⁋ Ad illud quod secundo obiicitur dico quod
+          termi<lb ed="#L" n="17" break="no"/>nus formalis alicuius generationis duplicitur 
+          <lb ed="#L" n="18"/>accipitur. Uno modo pro omni illo quod secundum se 
+          <lb ed="#L" n="19"/>totum capit esse per generationem. et isto modo com 
+          <lb ed="#L" n="20"/>cedo quod in generatione talium sunt plures
+          termi<lb ed="#L" n="21" break="no"/>ni formales. et sicut sunt plures termini forma 
+          <lb ed="#L" n="22"/>les: ita possunt dici plures generationes. quia si 
+          <lb ed="#L" n="23"/>generatio importet respectum: sicut dicunt con 
+          <lb ed="#L" n="24"/>muniter loquentes. cum secundum eosdem respectus va 
+          <lb ed="#L" n="25"/>rientur ad variationem termini et maxime quando 
+          <lb ed="#L" n="26"/>termini non sunt eiusdem rationis. oportet quod 
+          <lb ed="#L" n="27"/>quot sunt termini tot sint respectus. et per consequens 
+          <lb ed="#L" n="28"/>tot generationes secundum eos. Si autem poneretur 
+          <lb ed="#L" n="29"/>quod generatio esset precise nomen connotatiuum 
+          <lb ed="#L" n="30"/>sequitur idem.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e969">
+          ⁋ Alio modo accipitur terminus 
+          <lb ed="#L" n="31"/>formalis pro vltimo termino. et isto modo non 
+          <lb ed="#L" n="32"/>sunt plures termini formales. sed vnus scilicet for 
+          <lb ed="#L" n="33"/>ma substantialis vltima.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e978">
+          ⁋ Ad tertium dico 
+          <lb ed="#L" n="34"/>quod generatio hominis non est simpliciter
+          equi<lb ed="#L" n="35" break="no"/>uoca. et hoc quia generans et generatum sunt 
+          <lb ed="#L" n="36"/>eiusdem speciei. Et quando dicitur: quod terminus 
+          <lb ed="#L" n="37"/>formalis scilicet anima intellectiua sit alterius ratio 
+          <lb ed="#L" n="38"/>nis ab omni ratione agendi. Dico dupliciter. 
+          <lb ed="#L" n="39"/>primo quod assumptum est falsum. propter falsam in 
+          <lb ed="#L" n="40"/>plicationem. quia implicat quod anima intellectiua sit 
+          <lb ed="#L" n="41"/>terminus formalis generationis. quod est
+          simpli<lb ed="#L" n="42" break="no"/>citer falsum. quia est terminus creationis. sed non est 
+          <lb ed="#L" n="43"/>in proposito terminus formalis generationis. 
+          <lb ed="#L" n="44"/>qui tunc educeretur de potentia materie: quod mani 
+          <lb ed="#L" n="45"/>ste est falsum. Secundo dico quod non obstante quod esset 
+          <lb ed="#L" n="46"/>terminus formalis et alterius rationis ab omni rem 
+          <lb ed="#L" n="47"/>ne agendi posset esse generatio vniuoca. sed non 
+          <lb ed="#L" n="48"/>in primo gradu generationis vniuoce.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e1013">
+          ⁋ Ad  
+          <lb ed="#L" n="49"/>rationes principales dico: quod quando natura est eadem in 
+          <lb ed="#L" n="50"/>generante et genito. et cuilibet essentiali in vno 
+          <lb ed="#L" n="51"/>est aliquid simillimum in reliquo et simplicitur eius 
+          <lb ed="#L" n="52"/>dem rationis cum eo est generatio simpliciter
+          vniuoca<lb ed="#L" n="53" break="no"/>sed sic non est in deo. quia paternitas in pre non est omni 
+          <lb ed="#L" n="54"/>non eiusdem rationis cum aliquo quod est essentialiter in 
+          <lb ed="#L" n="55"/>filio. quia non cum similitudine.
+        </p>
+        <p xml:id="wo8uy7-d1e803-d1e1031">
+          ⁋ Ad argumentum in 
+          <!--341.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 169-v -->
+          <lb ed="#L" n="56"/>oppositum dico quod non est simpliciter vniuoca
+          pro<lb ed="#L" n="57" break="no"/>pter rationem dictam. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

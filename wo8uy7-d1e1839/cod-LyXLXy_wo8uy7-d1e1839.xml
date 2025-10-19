@@ -1,278 +1,278 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="270-v"/>
-            <cb ed="#L" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e1839"><!-- l1d46q1 -->
-            <head xml:id="wo8uy7-d1e1839-Hd1e108">Quaestio 1</head>
-            <p xml:id="wo8uy7-d1e1839-d1e111">
-      Dis. xlvi. quaestio prima 
-      <lb ed="#L" n="98"/>CIrca
-      distin<lb ed="#L" n="99" break="no"/>ctionem quadragesimam. 
-      <lb ed="#L" n="100"/>sextam quero.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e120">
-      ⁋ Utrum vo 
-      <lb ed="#L" n="101"/>luntas diuina per quancunque 
-      <lb ed="#L" n="102"/>potentiam creature possit 
-      <lb ed="#L" n="103"/>impediri
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e129">
-      ⁋ Quod sic. illa
-      vo<lb ed="#L" n="104" break="no"/>luntas cuius praeceptum non impletur impeditur. sed
-      prece<lb ed="#L" n="105" break="no"/>ptum dei non impletur. sicut manifeste patet. ergo
-      vo<lb ed="#L" n="106" break="no"/>luntas dei impeditur.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e138">
-      ⁋ Preterea. quicquid est 
-      <lb ed="#L" n="107"/>intellectum a diuino intellectu est volitum vel
-      no<lb ed="#L" n="108" break="no"/>litum a diuina voluntate. sed malum est intellectum 
-      <lb ed="#L" n="109"/>a diuino intellectu et non est volitum. ergo est noli¬ 
-      <!--544.xml-->
-      <pb ed="#L" n="271-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>tum. et tamen fit. ergo aliquid fiti contra volitionem
-      di<lb ed="#L" n="2" break="no"/>uinam. ergo voluntas: diuina impeditur.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e159">
-      ⁋ Preterea. 
-      <lb ed="#L" n="3"/>deus vult omns homines saluos fieri. et tamen non omns 
-      <lb ed="#L" n="4"/>saluantur. ergo voluntas diuina non semper impletur. et 
-      <lb ed="#L" n="5"/>per consequens aliquando impeditur
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e168">
-      ⁋ Ad oppositum in 
-      <lb ed="#L" n="6"/>prsalmo omnia quiecunque voluit fecit. ergo voluntas eius 
-      <lb ed="#L" n="7"/>emper impletur. et per consequens non poterit impediri.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e175">
-      ⁋ Ad  
-      <lb ed="#L" n="8"/>estione dicitur communiter quod voluntas dei est duplex. 
-      <lb ed="#L" n="9"/>scilicet voluntas benplaciti et voluntas signi. quae distin 
-      <lb ed="#L" n="10"/>guitur in quinque. prohibitionem. praeceptum. consilium. 
-      <lb ed="#L" n="11"/>impletione. et permissionem. Similiter voluntas benepla 
-      <lb ed="#L" n="12"/>citi distinguitur in voluntatem antecedentem et consequentem. 
-      <lb ed="#L" n="13"/>Contra voluntatem beneplaciti dei consequentem nihil fit 
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e191">
-               <lb ed="#L" n="14"/>⁋ Contra voluntatem autem dei antecedentem beneplaciti 
-      <lb ed="#L" n="15"/>aliquid fit. Etiam contra voluntatem signi aliquid fit 
-      <lb ed="#L" n="16"/>Et ita patet quomodo voluntas dei potest impediri et quo 
-      <lb ed="#L" n="17"/>non.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e202">
-      ⁋ Concordando cum aliis in illa responsione. Pri 
-      <lb ed="#L" n="18"/>mo videndum est de predictis distinctionibus. se es 
-      <lb ed="#L" n="19"/>cundo ad. q.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e209">
-      ⁋ Circa primum sciendum quod illa
-      distin<lb ed="#L" n="20" break="no"/>ctio non est alicuius quod est realiter in deo. quia in deo 
-      <lb ed="#L" n="21"/>non est aliquo modo multiplex voluntas. immo etiam 
-      <lb ed="#L" n="22"/>diuina voluntas nullo modo distinguitur ab
-      essen<lb ed="#L" n="23" break="no"/>tia. sed iste distinctiones sunt nominum et
-      dictio<lb ed="#L" n="24" break="no"/>uum quae significant diuinam voluntatem quae deus est nec sunt 
-      <lb ed="#L" n="25"/>ipsa voluntas dei ita. quod hoc nomen voluntas similiter hoc 
-      <lb ed="#L" n="26"/>verbum vult vel velle quando in sacra scriptura
-      ar<lb ed="#L" n="27" break="no"/>tribuitur deo diuersimode accipitur. ita quod aliquando 
-      <lb ed="#L" n="28"/>in sacra scriptura quando dicitur deus velle hoc. tota 
-      <lb ed="#L" n="29"/>propositio equiualet isti. deus praecipit hoc. Similiter quando dicitur 
-      <lb ed="#L" n="30"/>aliquando quod hoc fit contra dei voluntatem. sit idem dice 
-      <lb ed="#L" n="31"/>re quod hoc fit contra praeceptum dei. vel contra
-      prohibi<lb ed="#L" n="32" break="no"/>tionem dei. ita quod hoc nomen voluntas in sacra
-      scri<lb ed="#L" n="33" break="no"/>ptura aliquando significat idem quod hoc nomen prece 
-      <lb ed="#L" n="34"/>ptum. aliquando idem quod hoc nomen probibitio. aliquando idem 
-      <lb ed="#L" n="35"/>quod hoc nomem consilium. aliquando idem quod hoc nomen
-      per<lb ed="#L" n="36" break="no"/>missio. aliquando idem quod impletio. Similiter est de hoc verbo 
-      <lb ed="#L" n="37"/>vult. et de verbis correspondentibus praedictis quinq 
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e252">
-               <lb ed="#L" n="38"/>⁋ Et quod hoc sit verum. scilicet quod praecise hoc nomen volun 
-      <lb ed="#L" n="39"/>tas vel hoc verbum vult possit sic accipi diuer 
-      <lb ed="#L" n="40"/>simode. et ideo distinguitur de voluntate diuina: 
-      <lb ed="#L" n="41"/>patet per magistrum dis. quadragesimaquenta.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e263">
-      ⁋ Non est 
-      <lb ed="#L" n="42"/>dei voluntas diuersa. sed locutio diuersa de
-      volun<lb ed="#L" n="43" break="no"/>tate. quia non ia voluntatis diuersa accipit. et post. 
-      <lb ed="#L" n="44"/>Aliquando secundum quandam dicendi figuram voluntatis dei 
-      <lb ed="#L" n="45"/>vocatur. quod secundum proprietatem non est voluntas eius. vt praece 
-      <lb ed="#L" n="46"/>ptio. prohibitio. consilium. nec non permissio. et operatio 
-      <lb ed="#L" n="47"/>Et post pro praecepto dei atque consilio potest accipi 
-      <lb ed="#L" n="48"/>voluntas vt fiat voluntas tua sicut in celo etc. 
-      <lb ed="#L" n="49"/>Et ibi. qui facit voluntatem patris mei. Ex quibus 
-      <lb ed="#L" n="50"/>patet quod nihil est ibi multiplex nisi hoc nomen
-      vo<lb ed="#L" n="51" break="no"/>luntas vel verbum sibi correspondens.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e287">
-      ⁋ Secunda 
-      <lb ed="#L" n="52"/>distinctio est intelligenda. non quod sicut in nobis est 
-      <lb ed="#L" n="53"/>voluntas seu volitio praecedens actum. et alia consequens 
-      <lb ed="#L" n="54"/>actum quo complacet in actu. ita quod sit in deo. Nam 
-      <lb ed="#L" n="55"/>in deo non est talis multiplicitas. sed quicquid est ibi 
-      <!--544.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 271-r -->
-               <!--544.xml-->
-               <pb ed="#L" n="271-r"/>
-               <cb ed="#L" n="c"/>
-               <lb ed="#L" n="56"/>omnibus modis. vel est essentia. vel persona. vel
-      rela<lb ed="#L" n="57" break="no"/>tio. vel constitutum ex essentia et relatione. Et ideo 
-      <lb ed="#L" n="58"/>debet intelligi quod sit multiplicitas nonis ita quod 
-      <lb ed="#L" n="59"/>voluntas antetecedens equiualet isti toti propositioni
-      da<lb ed="#L" n="60" break="no"/>ri alicui antecedentia vnde potest consequi aliquid cui deus 
-      <lb ed="#L" n="61"/>erit paratus coagere si alius velit. et hoc cum praece 
-      <lb ed="#L" n="62"/>pto vel consilio exequendi. per primum excluditur instam 
-      <lb ed="#L" n="63"/>tia de abraam quod deus noluit eum immolare filium suum. 
-      <lb ed="#L" n="64"/>cui tamen dedit potentiam immolandi et etiam praeceptum im 
-      <lb ed="#L" n="65"/>molandi. non tamen deus voluit sibi coagere ad immola 
-      <lb ed="#L" n="66"/>tionem
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e335">
-      ⁋ Et si dicatur deus volebat sibi coagere si 
-      <lb ed="#L" n="67"/>ipse voluisset. potest dici quod non. vel si volebat tunc 
-      <lb ed="#L" n="68"/>supplenda est diffinitio praedicta. quod deus sibi non 
-      <lb ed="#L" n="69"/>manifestabat contrarium. cuius oppositum fecit abraam. 
-      <lb ed="#L" n="70"/>vt ista sit diffinitio exprimens quid nominis
-      volunta<lb ed="#L" n="71" break="no"/>tis antecedentis dei. voluntas antecedens dei est illa quae deus 
-      <lb ed="#L" n="72"/>dat alicui naturalia vel antecedentia quibus potest 
-      <lb ed="#L" n="73"/>aliquid consequi. cui deus erit paratus coagere si alius 
-      <lb ed="#L" n="74"/>velit. nec sibi contrarium manifestabit cum
-      prece<lb ed="#L" n="75" break="no"/>pto vel consilio exequendi. per mediam particulam ex 
-      <lb ed="#L" n="76"/>cluditur instantia de abraham. per vltimam excluditur in 
-      <lb ed="#L" n="77"/>stantia de malis. quia quantumcumque deus det alicui na 
-      <lb ed="#L" n="78"/>turalia vel antecedentia quibus potest facere malum. scilicet 
-      <lb ed="#L" n="79"/>fornicari. furari. et huiusmodi. et deus sibi non
-      manife<lb ed="#L" n="80" break="no"/>stat contrarium. scilicet se nolle sibi coagere. quia tamen non 
-      <lb ed="#L" n="81"/>praecepit nec consulit peccare. sed praecepit et consulit 
-      <lb ed="#L" n="82"/>contrarium. ideo non dicitur antecedentaliter velle malum. sicut 
-      <lb ed="#L" n="83"/>deus antecedenter dicitur velle istum mereri vel bene age 
-      <lb ed="#L" n="84"/>re vel aliquid huiusmodi. Uoluntas autem consequens est 
-      <lb ed="#L" n="85"/>illa qua deus vult efficacitur ponendo aliquid in esse. 
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e379">
-               <lb ed="#L" n="86"/>⁋ Istis distinctionibus sic intellectis dico cum 
-      <lb ed="#L" n="87"/>aliis quod contra voluntatem. dei beneplaciti nihil fit 
-      <lb ed="#L" n="88"/>sed contra voluntatem dei antecedentem vel voluntatem si 
-      <lb ed="#L" n="89"/>gni fit aliquid. primum patet. quia contra voluntatem
-      omni<lb ed="#L" n="90" break="no"/>potentem et non impedibilem volentem aliquid efficaciter 
-      <lb ed="#L" n="91"/>nihil potest fieri. sed voluntas dei est omipotens et. non 
-      <lb ed="#L" n="92"/>impedibilis. sicut ad praesens suppono. ergo.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e397">
-      ⁋ Secundum 
-      <lb ed="#L" n="93"/>patet scilicet quod aliquid fit contra voluntatem dei
-      anteceden<lb ed="#L" n="94" break="no"/>tem. nam manifestum est quod deus dat cuilibet naturalia 
-      <lb ed="#L" n="95"/>quibus potest consequi autem meritorium. et deus est paratus co 
-      <lb ed="#L" n="96"/>agere cuilibet ad actum meritorium. nec
-      manife<lb ed="#L" n="97" break="no"/>stabit sibi contrarium scilicet se nolle eum illicere actum 
-      <lb ed="#L" n="98"/>meritorium. quia numquam praecipiet sibi contrarium. et dat
-      praece<lb ed="#L" n="99" break="no"/>tum et consilium vt exequatur actum meritorium. et tamen non eust 
-      <lb ed="#L" n="100"/>libet elicit actum meritorium sed multi eliciunt actus 
-      <lb ed="#L" n="101"/>demeritorios. ergo tales faciunt conclusio voluntatem
-      diui<lb ed="#L" n="102" break="no"/>nam antecedentem.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e422">
-      ⁋ Tertium patet. scilicet quod aliquid fit conlusio vo 
-      <lb ed="#L" n="103"/>luntatem dei signi. quia multa fiunt tam conclusi pracepta quam consi 
-      <lb ed="#L" n="104"/>lia. ergo multa fiunt cona voluntatem signi.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e429">
-      ⁋ Per
-      praedi<lb ed="#L" n="105" break="no"/>cta potest responderi ad formam. q. quod voluntas dei consequens
-      in<lb ed="#L" n="106" break="no"/>pediri non potest. sed voluntas dei antecedens. similiter voluntas
-      si<lb ed="#L" n="107" break="no"/>gni potest impediri. quia hoc nihil aliud est quam dicere. quod
-      ali<lb ed="#L" n="108" break="no"/>quid sit cuius oppositum vult deus antecedenter. hoc est aliquid  
-      <lb ed="#L" n="109"/>fit ad cuius oppositum dat deus natur alia quibus potest ali 
-      <lb ed="#L" n="110"/>quis consequi illud oppositum cum praecepto vel cosilio 
-      <!--545.xml-->
-      <pb ed="#L" n="271-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>exequendi. et cuius oppositum non praecipit nec consuflit 
-      <lb ed="#L" n="2"/>Similiter voluntas signi impeditur. quia aliquid fit conconsili 
-      <lb ed="#L" n="3"/>um vel praeceptum diuinum.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e458">
-      ⁋ Sed numquid est simpliciter 
-      <lb ed="#L" n="4"/>concedendum quod diuina voluntas impeditur.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e463">
-      ⁋ Di 
-      <lb ed="#L" n="5"/>cendum quod de virtute sermonis non est concededum 
-      <lb ed="#L" n="6"/>quod diuina voluntas impeditur. sed sub tali intellectu 
-      <lb ed="#L" n="7"/>et consimilibus non fit praeceptum diuinum. vel non fit illud 
-      <lb ed="#L" n="8"/>quod deus consulit debet cocedi.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e474">
-      ⁋ Ad primum principa 
-      <lb ed="#L" n="9"/>le quomodo diuina voluntas impeditur et quomodo non.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e479">
-      ⁋ Ad  
-      <lb ed="#L" n="10"/>secundum patebit in sequenti. q.
-    </p>
-            <p xml:id="wo8uy7-d1e1839-d1e485">
-      ⁋ Ad tertium dico 
-      <lb ed="#L" n="11"/>quod deus vult antecedenter omnes saluos fieri. quia scilicet dat 
-      <lb ed="#L" n="12"/>eis antecedentia quibus possunt consequi salutem. cum praecepto 
-      <lb ed="#L" n="13"/>et consilio exequendi et numquam eis praecipiet contrarium. et 
-      <lb ed="#L" n="14"/>eis erit paratus coagere. permittens eos libere vel 
-      <lb ed="#L" n="15"/>le agere ad consecutione salutis. et per illud
-      vl<lb ed="#L" n="16" break="no"/>timum excluditur vna cauillatio quae posset fieri de 
-      <lb ed="#L" n="17"/>damnatis: quoniam deus eos non vult saluos fieri etiam 
-      <lb ed="#L" n="18"/>antecedenter.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="270-v"/>
+        <cb ed="#L" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e1839"><!-- l1d46q1 -->
+        <head xml:id="wo8uy7-d1e1839-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e1839-d1e111">
+          Dis. xlvi. quaestio prima 
+          <lb ed="#L" n="98"/>CIrca
+          distin<lb ed="#L" n="99" break="no"/>ctionem quadragesimam. 
+          <lb ed="#L" n="100"/>sextam quero.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e120">
+          ⁋ Utrum vo 
+          <lb ed="#L" n="101"/>luntas diuina per quancunque 
+          <lb ed="#L" n="102"/>potentiam creature possit 
+          <lb ed="#L" n="103"/>impediri
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e129">
+          ⁋ Quod sic. illa
+          vo<lb ed="#L" n="104" break="no"/>luntas cuius praeceptum non impletur impeditur. sed
+          prece<lb ed="#L" n="105" break="no"/>ptum dei non impletur. sicut manifeste patet. ergo
+          vo<lb ed="#L" n="106" break="no"/>luntas dei impeditur.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e138">
+          ⁋ Preterea. quicquid est 
+          <lb ed="#L" n="107"/>intellectum a diuino intellectu est volitum vel
+          no<lb ed="#L" n="108" break="no"/>litum a diuina voluntate. sed malum est intellectum 
+          <lb ed="#L" n="109"/>a diuino intellectu et non est volitum. ergo est noli¬ 
+          <!--544.xml-->
+          <pb ed="#L" n="271-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tum. et tamen fit. ergo aliquid fiti contra volitionem
+          di<lb ed="#L" n="2" break="no"/>uinam. ergo voluntas: diuina impeditur.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e159">
+          ⁋ Preterea. 
+          <lb ed="#L" n="3"/>deus vult omns homines saluos fieri. et tamen non omns 
+          <lb ed="#L" n="4"/>saluantur. ergo voluntas diuina non semper impletur. et 
+          <lb ed="#L" n="5"/>per consequens aliquando impeditur
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e168">
+          ⁋ Ad oppositum in 
+          <lb ed="#L" n="6"/>prsalmo omnia quiecunque voluit fecit. ergo voluntas eius 
+          <lb ed="#L" n="7"/>emper impletur. et per consequens non poterit impediri.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e175">
+          ⁋ Ad  
+          <lb ed="#L" n="8"/>estione dicitur communiter quod voluntas dei est duplex. 
+          <lb ed="#L" n="9"/>scilicet voluntas benplaciti et voluntas signi. quae distin 
+          <lb ed="#L" n="10"/>guitur in quinque. prohibitionem. praeceptum. consilium. 
+          <lb ed="#L" n="11"/>impletione. et permissionem. Similiter voluntas benepla 
+          <lb ed="#L" n="12"/>citi distinguitur in voluntatem antecedentem et consequentem. 
+          <lb ed="#L" n="13"/>Contra voluntatem beneplaciti dei consequentem nihil fit 
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e191">
+          <lb ed="#L" n="14"/>⁋ Contra voluntatem autem dei antecedentem beneplaciti 
+          <lb ed="#L" n="15"/>aliquid fit. Etiam contra voluntatem signi aliquid fit 
+          <lb ed="#L" n="16"/>Et ita patet quomodo voluntas dei potest impediri et quo 
+          <lb ed="#L" n="17"/>non.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e202">
+          ⁋ Concordando cum aliis in illa responsione. Pri 
+          <lb ed="#L" n="18"/>mo videndum est de predictis distinctionibus. se es 
+          <lb ed="#L" n="19"/>cundo ad. q.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e209">
+          ⁋ Circa primum sciendum quod illa
+          distin<lb ed="#L" n="20" break="no"/>ctio non est alicuius quod est realiter in deo. quia in deo 
+          <lb ed="#L" n="21"/>non est aliquo modo multiplex voluntas. immo etiam 
+          <lb ed="#L" n="22"/>diuina voluntas nullo modo distinguitur ab
+          essen<lb ed="#L" n="23" break="no"/>tia. sed iste distinctiones sunt nominum et
+          dictio<lb ed="#L" n="24" break="no"/>uum quae significant diuinam voluntatem quae deus est nec sunt 
+          <lb ed="#L" n="25"/>ipsa voluntas dei ita. quod hoc nomen voluntas similiter hoc 
+          <lb ed="#L" n="26"/>verbum vult vel velle quando in sacra scriptura
+          ar<lb ed="#L" n="27" break="no"/>tribuitur deo diuersimode accipitur. ita quod aliquando 
+          <lb ed="#L" n="28"/>in sacra scriptura quando dicitur deus velle hoc. tota 
+          <lb ed="#L" n="29"/>propositio equiualet isti. deus praecipit hoc. Similiter quando dicitur 
+          <lb ed="#L" n="30"/>aliquando quod hoc fit contra dei voluntatem. sit idem dice 
+          <lb ed="#L" n="31"/>re quod hoc fit contra praeceptum dei. vel contra
+          prohibi<lb ed="#L" n="32" break="no"/>tionem dei. ita quod hoc nomen voluntas in sacra
+          scri<lb ed="#L" n="33" break="no"/>ptura aliquando significat idem quod hoc nomen prece 
+          <lb ed="#L" n="34"/>ptum. aliquando idem quod hoc nomen probibitio. aliquando idem 
+          <lb ed="#L" n="35"/>quod hoc nomem consilium. aliquando idem quod hoc nomen
+          per<lb ed="#L" n="36" break="no"/>missio. aliquando idem quod impletio. Similiter est de hoc verbo 
+          <lb ed="#L" n="37"/>vult. et de verbis correspondentibus praedictis quinq 
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e252">
+          <lb ed="#L" n="38"/>⁋ Et quod hoc sit verum. scilicet quod praecise hoc nomen volun 
+          <lb ed="#L" n="39"/>tas vel hoc verbum vult possit sic accipi diuer 
+          <lb ed="#L" n="40"/>simode. et ideo distinguitur de voluntate diuina: 
+          <lb ed="#L" n="41"/>patet per magistrum dis. quadragesimaquenta.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e263">
+          ⁋ Non est 
+          <lb ed="#L" n="42"/>dei voluntas diuersa. sed locutio diuersa de
+          volun<lb ed="#L" n="43" break="no"/>tate. quia non ia voluntatis diuersa accipit. et post. 
+          <lb ed="#L" n="44"/>Aliquando secundum quandam dicendi figuram voluntatis dei 
+          <lb ed="#L" n="45"/>vocatur. quod secundum proprietatem non est voluntas eius. vt praece 
+          <lb ed="#L" n="46"/>ptio. prohibitio. consilium. nec non permissio. et operatio 
+          <lb ed="#L" n="47"/>Et post pro praecepto dei atque consilio potest accipi 
+          <lb ed="#L" n="48"/>voluntas vt fiat voluntas tua sicut in celo etc. 
+          <lb ed="#L" n="49"/>Et ibi. qui facit voluntatem patris mei. Ex quibus 
+          <lb ed="#L" n="50"/>patet quod nihil est ibi multiplex nisi hoc nomen
+          vo<lb ed="#L" n="51" break="no"/>luntas vel verbum sibi correspondens.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e287">
+          ⁋ Secunda 
+          <lb ed="#L" n="52"/>distinctio est intelligenda. non quod sicut in nobis est 
+          <lb ed="#L" n="53"/>voluntas seu volitio praecedens actum. et alia consequens 
+          <lb ed="#L" n="54"/>actum quo complacet in actu. ita quod sit in deo. Nam 
+          <lb ed="#L" n="55"/>in deo non est talis multiplicitas. sed quicquid est ibi 
+          <!--544.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 271-r -->
+          <!--544.xml-->
+          <pb ed="#L" n="271-r"/>
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="56"/>omnibus modis. vel est essentia. vel persona. vel
+          rela<lb ed="#L" n="57" break="no"/>tio. vel constitutum ex essentia et relatione. Et ideo 
+          <lb ed="#L" n="58"/>debet intelligi quod sit multiplicitas nonis ita quod 
+          <lb ed="#L" n="59"/>voluntas antetecedens equiualet isti toti propositioni
+          da<lb ed="#L" n="60" break="no"/>ri alicui antecedentia vnde potest consequi aliquid cui deus 
+          <lb ed="#L" n="61"/>erit paratus coagere si alius velit. et hoc cum praece 
+          <lb ed="#L" n="62"/>pto vel consilio exequendi. per primum excluditur instam 
+          <lb ed="#L" n="63"/>tia de abraam quod deus noluit eum immolare filium suum. 
+          <lb ed="#L" n="64"/>cui tamen dedit potentiam immolandi et etiam praeceptum im 
+          <lb ed="#L" n="65"/>molandi. non tamen deus voluit sibi coagere ad immola 
+          <lb ed="#L" n="66"/>tionem
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e335">
+          ⁋ Et si dicatur deus volebat sibi coagere si 
+          <lb ed="#L" n="67"/>ipse voluisset. potest dici quod non. vel si volebat tunc 
+          <lb ed="#L" n="68"/>supplenda est diffinitio praedicta. quod deus sibi non 
+          <lb ed="#L" n="69"/>manifestabat contrarium. cuius oppositum fecit abraam. 
+          <lb ed="#L" n="70"/>vt ista sit diffinitio exprimens quid nominis
+          volunta<lb ed="#L" n="71" break="no"/>tis antecedentis dei. voluntas antecedens dei est illa quae deus 
+          <lb ed="#L" n="72"/>dat alicui naturalia vel antecedentia quibus potest 
+          <lb ed="#L" n="73"/>aliquid consequi. cui deus erit paratus coagere si alius 
+          <lb ed="#L" n="74"/>velit. nec sibi contrarium manifestabit cum
+          prece<lb ed="#L" n="75" break="no"/>pto vel consilio exequendi. per mediam particulam ex 
+          <lb ed="#L" n="76"/>cluditur instantia de abraham. per vltimam excluditur in 
+          <lb ed="#L" n="77"/>stantia de malis. quia quantumcumque deus det alicui na 
+          <lb ed="#L" n="78"/>turalia vel antecedentia quibus potest facere malum. scilicet 
+          <lb ed="#L" n="79"/>fornicari. furari. et huiusmodi. et deus sibi non
+          manife<lb ed="#L" n="80" break="no"/>stat contrarium. scilicet se nolle sibi coagere. quia tamen non 
+          <lb ed="#L" n="81"/>praecepit nec consulit peccare. sed praecepit et consulit 
+          <lb ed="#L" n="82"/>contrarium. ideo non dicitur antecedentaliter velle malum. sicut 
+          <lb ed="#L" n="83"/>deus antecedenter dicitur velle istum mereri vel bene age 
+          <lb ed="#L" n="84"/>re vel aliquid huiusmodi. Uoluntas autem consequens est 
+          <lb ed="#L" n="85"/>illa qua deus vult efficacitur ponendo aliquid in esse. 
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e379">
+          <lb ed="#L" n="86"/>⁋ Istis distinctionibus sic intellectis dico cum 
+          <lb ed="#L" n="87"/>aliis quod contra voluntatem. dei beneplaciti nihil fit 
+          <lb ed="#L" n="88"/>sed contra voluntatem dei antecedentem vel voluntatem si 
+          <lb ed="#L" n="89"/>gni fit aliquid. primum patet. quia contra voluntatem
+          omni<lb ed="#L" n="90" break="no"/>potentem et non impedibilem volentem aliquid efficaciter 
+          <lb ed="#L" n="91"/>nihil potest fieri. sed voluntas dei est omipotens et. non 
+          <lb ed="#L" n="92"/>impedibilis. sicut ad praesens suppono. ergo.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e397">
+          ⁋ Secundum 
+          <lb ed="#L" n="93"/>patet scilicet quod aliquid fit contra voluntatem dei
+          anteceden<lb ed="#L" n="94" break="no"/>tem. nam manifestum est quod deus dat cuilibet naturalia 
+          <lb ed="#L" n="95"/>quibus potest consequi autem meritorium. et deus est paratus co 
+          <lb ed="#L" n="96"/>agere cuilibet ad actum meritorium. nec
+          manife<lb ed="#L" n="97" break="no"/>stabit sibi contrarium scilicet se nolle eum illicere actum 
+          <lb ed="#L" n="98"/>meritorium. quia numquam praecipiet sibi contrarium. et dat
+          praece<lb ed="#L" n="99" break="no"/>tum et consilium vt exequatur actum meritorium. et tamen non eust 
+          <lb ed="#L" n="100"/>libet elicit actum meritorium sed multi eliciunt actus 
+          <lb ed="#L" n="101"/>demeritorios. ergo tales faciunt conclusio voluntatem
+          diui<lb ed="#L" n="102" break="no"/>nam antecedentem.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e422">
+          ⁋ Tertium patet. scilicet quod aliquid fit conlusio vo 
+          <lb ed="#L" n="103"/>luntatem dei signi. quia multa fiunt tam conclusi pracepta quam consi 
+          <lb ed="#L" n="104"/>lia. ergo multa fiunt cona voluntatem signi.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e429">
+          ⁋ Per
+          praedi<lb ed="#L" n="105" break="no"/>cta potest responderi ad formam. q. quod voluntas dei consequens
+          in<lb ed="#L" n="106" break="no"/>pediri non potest. sed voluntas dei antecedens. similiter voluntas
+          si<lb ed="#L" n="107" break="no"/>gni potest impediri. quia hoc nihil aliud est quam dicere. quod
+          ali<lb ed="#L" n="108" break="no"/>quid sit cuius oppositum vult deus antecedenter. hoc est aliquid  
+          <lb ed="#L" n="109"/>fit ad cuius oppositum dat deus natur alia quibus potest ali 
+          <lb ed="#L" n="110"/>quis consequi illud oppositum cum praecepto vel cosilio 
+          <!--545.xml-->
+          <pb ed="#L" n="271-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>exequendi. et cuius oppositum non praecipit nec consuflit 
+          <lb ed="#L" n="2"/>Similiter voluntas signi impeditur. quia aliquid fit conconsili 
+          <lb ed="#L" n="3"/>um vel praeceptum diuinum.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e458">
+          ⁋ Sed numquid est simpliciter 
+          <lb ed="#L" n="4"/>concedendum quod diuina voluntas impeditur.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e463">
+          ⁋ Di 
+          <lb ed="#L" n="5"/>cendum quod de virtute sermonis non est concededum 
+          <lb ed="#L" n="6"/>quod diuina voluntas impeditur. sed sub tali intellectu 
+          <lb ed="#L" n="7"/>et consimilibus non fit praeceptum diuinum. vel non fit illud 
+          <lb ed="#L" n="8"/>quod deus consulit debet cocedi.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e474">
+          ⁋ Ad primum principa 
+          <lb ed="#L" n="9"/>le quomodo diuina voluntas impeditur et quomodo non.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e479">
+          ⁋ Ad  
+          <lb ed="#L" n="10"/>secundum patebit in sequenti. q.
+        </p>
+        <p xml:id="wo8uy7-d1e1839-d1e485">
+          ⁋ Ad tertium dico 
+          <lb ed="#L" n="11"/>quod deus vult antecedenter omnes saluos fieri. quia scilicet dat 
+          <lb ed="#L" n="12"/>eis antecedentia quibus possunt consequi salutem. cum praecepto 
+          <lb ed="#L" n="13"/>et consilio exequendi et numquam eis praecipiet contrarium. et 
+          <lb ed="#L" n="14"/>eis erit paratus coagere. permittens eos libere vel 
+          <lb ed="#L" n="15"/>le agere ad consecutione salutis. et per illud
+          vl<lb ed="#L" n="16" break="no"/>timum excluditur vna cauillatio quae posset fieri de 
+          <lb ed="#L" n="17"/>damnatis: quoniam deus eos non vult saluos fieri etiam 
+          <lb ed="#L" n="18"/>antecedenter.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

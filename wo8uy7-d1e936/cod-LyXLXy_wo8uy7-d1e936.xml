@@ -1,409 +1,409 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="183-v"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e936"><!-- l1d13q1 -->
-            <head xml:id="wo8uy7-d1e936-Hd1e108">Quaestio 1</head>
-            <p xml:id="wo8uy7-d1e936-d1e111">
-      ⁋ Distinct. xiii. Questio vnica. 
-      <lb ed="#L" n="46"/>CIrca
-      distin<lb ed="#L" n="47" break="no"/>ctionem tredecimam quero. 
-      <lb ed="#L" n="48"/>Utrum generatio filii sit spi 
-      <lb ed="#L" n="49"/>rati spiritus sanctum Uidetur quod sic quia 
-      <lb ed="#L" n="50"/>omnia sunt vnum secundum boctium 
-      <lb ed="#L" n="51"/>vbino obuiat relationis ope 
-      <lb ed="#L" n="52"/>posito. sed inter gererationem et spirationem nulla 
-      <lb ed="#L" n="53"/>est oppositio. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e131">
-      ⁋ Preterea omne productum 
-      <lb ed="#L" n="54"/>quod de substantia viua producitur vere generaturscie 
-      <!--369.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 183-v -->
-               <lb ed="#L" n="55"/>spiritussanctus vere producitur de substantia pa 
-      <lb ed="#L" n="56"/>tris. ergo vere generatur. minor patet. quia aut producitur 
-      <lb ed="#L" n="57"/>de aliquo aut de nihilo. non de nihilo. quia tunc cre 
-      <lb ed="#L" n="58"/>aretur. et non de aliquo nisi de substantia patris. 
-      <lb ed="#L" n="59"/>ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e153">
-      ⁋ Preterea si producti spiritus sanctus inon esset gene  
-      <lb ed="#L" n="60"/>ratio hoc non esset nisi quia principium ipsius est volun 
-      <lb ed="#L" n="61"/>tas. sed hoc non obstat. quia etiam in nobis illud cui 
-      <lb ed="#L" n="62"/>principium est voluntas vere generaretur. quia actus et 
-      <lb ed="#L" n="63"/>habitus ipsius voluntatis ita vere generantur sicut 
-      <lb ed="#L" n="64"/>vere actus et habitus ipsius intellectus. ergo similiter 
-      <lb ed="#L" n="65"/>in diuinis illud cuius voluntas est principium vere ge 
-      <lb ed="#L" n="66"/>neratur.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e171">
-      ⁋ Ad oppositum. si spiratio esset gene 
-      <lb ed="#L" n="67"/>ratis spiritus sanctus vere esset genitus cuius contrarium dicitur in 
-      <lb ed="#L" n="68"/>symbolo. quia spiritus sanctus a patre et filio non factus 
-      <lb ed="#L" n="69"/>nec creatus nec genitus: sed procedens.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e181">
-      ⁋ In istam in 
-      <lb ed="#L" n="70"/>questione sunt multe difficultates. Prima
-      an<lb ed="#L" n="71" break="no"/>generatio actio et spiratio actio sint idem
-      omni<lb ed="#L" n="72" break="no"/>bus modis. Secunda an generatio et spiratio pas 
-      <lb ed="#L" n="73"/>sio differuntrealiter. Tertia supposito quod distin 
-      <lb ed="#L" n="74"/>guantur realiter: per quid distinguantur. Quarta q 
-      <lb ed="#L" n="75"/>quare productis spiritus sanctus quae dicitur spiratio non potest 
-      <lb ed="#L" n="76"/>vere dici generatio sicut productio filii vere est 
-      <lb ed="#L" n="77"/>generatio. De prima difficultate patebit alias. 
-      <lb ed="#L" n="78"/>De secunda aliquid dictum est prius. De tertia et 
-      <lb ed="#L" n="79"/>quarta aliquid dicetur in ista questione: quamuis 
-      <lb ed="#L" n="80"/>de tertia pateat ex dictis in praecedentibus dif 
-      <lb ed="#L" n="81"/>ficultatibus.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e210">
-      ⁋ Et indeo omnissis multis opin 
-      <lb ed="#L" n="82"/>onibus circa illam tertiam difficultatem dico breu 
-      <lb ed="#L" n="83"/>ter: quod iste productiones seipsis formaliter distin 
-      <lb ed="#L" n="84"/>guuntur nec aliquam distinctionem sine qua non pos 
-      <lb ed="#L" n="85"/>sunt distingui presupponunt. quia si aliquam
-      praesup<lb ed="#L" n="86" break="no"/>ponerent maxime presupponerent distinctio 
-      <lb ed="#L" n="87"/>nem principiorum elicitiuorum. sed illam non presupponum 
-      <lb ed="#L" n="88"/>nec etiam coexigunt: quia non est incoueniens idem 
-      <lb ed="#L" n="89"/>principium elicitiuum esse principium elicitiuum d 
-      <lb ed="#L" n="90"/>stinctarum productionum.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e232">
-      ⁋ Circa quartum
-      ar<lb ed="#L" n="91" break="no"/>ticulum dicitur quod generatio et spiratio differum 
-      <lb ed="#L" n="92"/>per hoc quod intellectus vel natura est principium 
-      <lb ed="#L" n="93"/>productiuum actiue per impressionem et informa 
-      <lb ed="#L" n="94"/>tionem. et ideo productio talis vere dicitur
-      ge<lb ed="#L" n="95" break="no"/>neratio. sed illud quod producitur mediante
-      vo<lb ed="#L" n="96" break="no"/>luntate tanquam principio elicitiuo. non producit 
-      <lb ed="#L" n="97"/>per modum impressionis vel informationis. sed  
-      <lb ed="#L" n="98"/>quasi per quandam excussionem siue expulsionem 
-      <lb ed="#L" n="99"/>aut progressum. aut magis proprie loquendo 
-      <lb ed="#L" n="100"/>per quandam expressionem de eo de quo subiecti 
-      <lb ed="#L" n="101"/>ue producitur. et hoc ad modum quo spiritus cor 
-      <lb ed="#L" n="102"/>poralis qui est aer si in nobis non attraheretur 
-      <lb ed="#L" n="103"/>ad pulmonem per inspiratione. sed aliqua virtute 
-      <lb ed="#L" n="104"/>existente in ipso pulmone excuteretur per
-      expri<lb ed="#L" n="105" break="no"/>rationem de pulmone. et per hoc daret ei esse. et est 
-      <lb ed="#L" n="106"/>quodammodo simile. praeter hoc quod spiritus corporalis est 
-      <lb ed="#L" n="107"/>est aer spiratus tali spiratione separatur a spirante et ab 
-      <lb ed="#L" n="108"/>eode quo spiratur.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e274">
-      ⁋ Sed ista opinio non est rationabilis: 
-      <lb ed="#L" n="109"/>immo videtur contrdictionem includere. quia impossibile 
-      <!--370.xml-->
-      <pb ed="#L" n="184-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>est aliquid produci de aliquo subiectiue nisi per
-      im<lb ed="#L" n="2" break="no"/>pressione vel informatione spi spiritus sanctus producitur de
-      ali<lb ed="#L" n="3" break="no"/>quo subiectiue secundum istum. ergo etc. maior est manifesta 
-      <lb ed="#L" n="4"/>qui imprimere formam in materia non est aliud quam fa 
-      <lb ed="#L" n="5"/>cere formam esse in materia. sed omnis forma producta de 
-      <lb ed="#L" n="6"/>aliquo subiecto vel materia: necessario fit in sub 
-      <lb ed="#L" n="7"/>iecto illo vel materia. ergo necessario imprimitur. 
-      <lb ed="#L" n="8"/>et per consequens est ibi productio per modum impressionis. 
-      <lb ed="#L" n="9"/>Preterea omnis forma educta de potentia
-      ali<lb ed="#L" n="10" break="no"/>cuius subiecti vel materie informat illam materiam 
-      <lb ed="#L" n="11"/>qui sicut numquam est subiectum quando de eo producitur
-      for<lb ed="#L" n="12" break="no"/>ma nisi informetur. ita nec forma nisi informet. 
-      <lb ed="#L" n="13"/>ergo cum in producti om spiritus sanctus sit eductio alicuius de
-      ma<lb ed="#L" n="14" break="no"/>teria vel quasi materia: erit ibi productio per mo 
-      <lb ed="#L" n="15"/>dum informationis.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e318">
-      ⁋ Preterea exemplum suum est 
-      <lb ed="#L" n="16"/>ad oppositum. quia si aer vere producitur a pulmione si 
-      <lb ed="#L" n="17"/>ue intra siue extra necessario erit productio per in 
-      <lb ed="#L" n="18"/>formationem. quia cum non sit vera creatio oportet quod 
-      <lb ed="#L" n="19"/>forma producta vere infermet materiam. igitur ve 
-      <lb ed="#L" n="20"/>est ibi informatio. Si dicatur quod quamuis sit ibi in 
-      <lb ed="#L" n="21"/>formantio qua forma informat suam materiam: tamen 
-      <lb ed="#L" n="22"/>non est ibi informatio illius de quo excutitur. quia aer 
-      <lb ed="#L" n="23"/>productus non informat pulmonem de quo excuti 
-      <lb ed="#L" n="24"/>tur.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e340">
-      ⁋ Contra: quando dicitur quod ibi non est informatio
-      il<lb ed="#L" n="25" break="no"/>lius de quo excutitur. aut de ibi dicit
-      circumstan<lb ed="#L" n="26" break="no"/>tiam cause materialis. aut cause efficientis. si causa 
-      <lb ed="#L" n="27"/>materialis. sic non excutitur de pulmone. quia pulmo  
-      <lb ed="#L" n="28"/>non est materia. si causae efficientis sic sequeretur quod 
-      <lb ed="#L" n="29"/>sol et vniversaliter omne agens producens aliquid extra se et 
-      <lb ed="#L" n="30"/>non in se non produceret per modum informationis. quia 
-      <lb ed="#L" n="31"/>nihil ibi productum informaret ibi illud de quo est 
-      <lb ed="#L" n="32"/>effectiue. Ex isto patet quod numquam fit excussio alicuius 
-      <lb ed="#L" n="33"/>de aliquo secundum quod excussio distinguitur a
-      genera<lb ed="#L" n="34" break="no"/>tione. nisi quando aliquid praexistens pelliter localiter alb 
-      <lb ed="#L" n="35"/>illo cum quo prius existit. et ideo excussio talis non est 
-      <lb ed="#L" n="36"/>productio sed est motus localis. quia pulsio est species 
-      <lb ed="#L" n="37"/>motus localis. quia. philosophus. vii. phi. numerat pulsio. 
-      <lb ed="#L" n="38"/>nem inter alios motus locales.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e374">
-      ⁋ Ideo quantum ad  
-      <lb ed="#L" n="39"/>istum articulum distinguo primo de generatione 
-      <lb ed="#L" n="40"/>quod potest accipi stricte et large. Targe accipiendo 
-      <lb ed="#L" n="41"/>generatio est productio cuiuscumque non de nihilo. et isto 
-      <lb ed="#L" n="42"/>modo quando productio est non de nihilo. si in tali produ 
-      <lb ed="#L" n="43"/>ctione concurrat subiectum vel materia
-      neces<lb ed="#L" n="44" break="no"/>sario est ibi productio per informationem et impressi 
-      <lb ed="#L" n="45"/>onem. quia necessario forma imprimitur materie et
-      im<lb ed="#L" n="46" break="no"/>format eam sed quia in diuinis non est aliquod
-      subie<lb ed="#L" n="47" break="no"/>ctum vel materia. ideo nulla est ibi productio per mo 
-      <lb ed="#L" n="48"/>dum impressionis vel informationis. Aliter aeci 
-      <lb ed="#L" n="49"/>pitur generatio stricte pro productione viuentis a 
-      <lb ed="#L" n="50"/>viuente: qua viuens ratione suesprductionis produd 
-      <lb ed="#L" n="51"/>tur vt totaliter simile et eiusdem rationis cum produge 
-      <lb ed="#L" n="52"/>te. saltem quantum ad omnia. excepta ipsa sola producto 
-      <lb ed="#L" n="53"/>ne. et istud proprie dicitur nasci. Et isto modo potest ali 
-      <lb ed="#L" n="54"/>quo modo quamuis imperfecte et obscure in enigma 
-      <lb ed="#L" n="55"/>te videri distinctio inter generationem verbi et 
-      <!--370.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 184-r -->
-               <lb ed="#L" n="56"/>processione spiritus sanctus et quare procesitsi spiritus sanctus non dicatur genera 
-      <lb ed="#L" n="57"/>tio quamuis secundum beatum augustinum. iii. de tri. plene
-      di<lb ed="#L" n="58" break="no"/>stinguere inter illas processiones non est nobis pos 
-      <lb ed="#L" n="59"/>sibile pro isto statu. Quia autem mens nostra facta  
-      <lb ed="#L" n="60"/>est ad ymaginem dei. ideo ex illis quae sunt in men 
-      <lb ed="#L" n="61"/>te nostra possumus aliquo modo assurgere ad
-      com<lb ed="#L" n="62" break="no"/>cipiendum illa quae sunt in deo quamuis magis sit
-      dis<lb ed="#L" n="63" break="no"/>similitudo. Et ideo videndum est primo de mente 
-      <lb ed="#L" n="64"/>nostra. Secundo aliquo modo consimiliter est ymagi 
-      <lb ed="#L" n="65"/>nandum de deo.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e441">
-      ⁋ Circa primum sciendum est quod non ol 
-      <lb ed="#L" n="66"/>stante identitate intellectus et voluntatis. tamen actus 
-      <lb ed="#L" n="67"/>intelligendi et volendi sunt distincti. et ideo volo 
-      <lb ed="#L" n="68"/>vti intellectu et voluntate pro vt connotant istos 
-      <lb ed="#L" n="69"/>actus propter quam connotatione aliquid potest attribui 
-      <lb ed="#L" n="70"/>intellectui et a voluntate negari. secundum modum
-      ali<lb ed="#L" n="71" break="no"/>bi exponendum.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e457">
-      ⁋ Est ergo sciendum: quod intellectus noiter
-      pri<lb ed="#L" n="72" break="no"/>mo intelligit intuitiue aliquod singulare realiter 
-      <lb ed="#L" n="73"/>existens. quo intellecto potest idem intellectus
-      fin<lb ed="#L" n="74" break="no"/>gere aliquod consimile prius intellecto. sed illud sic
-      fi<lb ed="#L" n="75" break="no"/>ctum non poterit habere esse subiectiuum. sed tantum esse 
-      <lb ed="#L" n="76"/>obiectiuum. et ideo non producitur in esse subiectiuo sen 
-      <lb ed="#L" n="77"/>tantum in esse obiectiuo. et ideo illud sic fictum est tantum 
-      <lb ed="#L" n="78"/>tale quale fuit prius intelleccum in esse obiectiuo. 
-      <lb ed="#L" n="79"/>et non in esse subiectiuo. et erit quasi ymago smil 
-      <lb ed="#L" n="80"/>lima rei prius intellecte in esse obiectiuo. intantum 
-      <lb ed="#L" n="81"/>quod si intellectus haberet vim productiuam realem 
-      <lb ed="#L" n="82"/>sicut habet vim fictiuam. illud productum vere esset 
-      <lb ed="#L" n="83"/>eiusdem rationis cum illo printellecto: et ymago
-      simil<lb ed="#L" n="84" break="no"/>lima ei. sicut filius alicuius patris dicitur ymago eat 
-      <lb ed="#L" n="85"/>similitudo ipsius. et ita si intellectus intelligendo 
-      <lb ed="#L" n="86"/>seipsum haberet vim productiuam talis similis sicut 
-      <lb ed="#L" n="87"/>hahet vim fictiuam talis similis. et vere posset
-      pro<lb ed="#L" n="88" break="no"/>ducere tale de seipso tamquaem de aliquo essentiali 
-      <lb ed="#L" n="89"/>illi simili. vere haberet ipsum generare ftrietissi 
-      <lb ed="#L" n="90"/>melaccepta generatione. Sed aliter est de vo 
-      <lb ed="#L" n="91"/>lutate. quia voluntas diligendo aliquod obiectum 
-      <lb ed="#L" n="92"/>non habet virtutem productiuam alicuius
-      similitu<lb ed="#L" n="93" break="no"/>dinis. nec etiam vim fictiuam alicuius similitudi 
-      <lb ed="#L" n="94"/>nis. et ideo voluntas nostra numquam tale simile nec 
-      <lb ed="#L" n="95"/>in esse obiectiuo nec in esse subiectiuo potest
-      pro<lb ed="#L" n="96" break="no"/>ducere. sed voluntas nostra posita tali
-      dilectio<lb ed="#L" n="97" break="no"/>ne habet vim donatiuam qua potest aliquid
-      do<lb ed="#L" n="98" break="no"/>nare ipsi obiecto et si non sit aliquid praexistens quod 
-      <lb ed="#L" n="99"/>possit dare obiecto si potest producit aliquid do 
-      <lb ed="#L" n="100"/>nabile ipsi obiecto. quod quidem donabile ra 
-      <lb ed="#L" n="101"/>tione qua est donabile a voluntate non plus est 
-      <lb ed="#L" n="102"/>simile obiecto quam dimissimile. immo magis in
-      no<lb ed="#L" n="103" break="no"/>bis est dissimile quam simile. et ita voluntas nonstra 
-      <lb ed="#L" n="104"/>non habet ex se virtutem donatiuam similis 
-      <lb ed="#L" n="105"/>quin ita possit dare dissimile sicut simile. sed
-      in<lb ed="#L" n="106" break="no"/>tellectus noster necessario habet vim fictiuam 
-      <lb ed="#L" n="107"/>similis et nullo modo dissimilis. et ita
-      necessa<lb ed="#L" n="108" break="no"/>rio ex hoc ipso quod aliquid fingitur ab. intellectu 
-      <lb ed="#L" n="109"/>est simile. non autem necessario ex hoc quod aliquid donatur 
-      <lb ed="#L" n="110"/>a voluntate est simile. sed potest esse dissimile¬ 
-      <!--371.xml-->
-      <pb ed="#L" n="184-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>Istud de esse ficto dicitur secundum opinionem quae ponit fi 
-      <lb ed="#L" n="2"/>cta. secundum alias opiniones esset proportionabiliter
-      di<lb ed="#L" n="3" break="no"/>cendum de ipsa intellectione vel aliquo facto per actum 
-      <lb ed="#L" n="4"/>intellectus. Ex quo patet quod intellectus noster vniversaliter 
-      <lb ed="#L" n="5"/>intellectus creatus praehabens actum intelligendi hab 
-      <lb ed="#L" n="6"/>vim fictiuam similis. et si haberet potestatem produce 
-      <lb ed="#L" n="7"/>di realiter illud quod fingit. illud productum vere esse 
-      <lb ed="#L" n="8"/>simile obiecto praintellecto. et nullo modo posset produ 
-      <lb ed="#L" n="9"/>cere nisi simile praintellecto. voluntas autem nostra 
-      <lb ed="#L" n="10"/>non habet vim donatiuam similis plus quam dissimilis 
-      <lb ed="#L" n="11"/>immo priamato ita posset donare simile sicut dis 
-      <lb ed="#L" n="12"/>simile et econuerso. et si posset virtute illius
-      amo<lb ed="#L" n="13" break="no"/>ris amati non tantum donare aliquod donum priamato: 
-      <lb ed="#L" n="14"/>sed etiam producere illud donum. ex hoc quod produceretur 
-      <lb ed="#L" n="15"/>a voluntate virtute amoris praexistentis. non plus 
-      <lb ed="#L" n="16"/>esset simile obiecto amato quam dissimile.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e585">
-      ⁋ Ex istis 
-      <lb ed="#L" n="17"/>possumus aliquo modo licet imperfecte ymaginari. 
-      <lb ed="#L" n="18"/>in diuinis quare spirati spiritus sanctus non sit generatio. 
-      <lb ed="#L" n="19"/>quia quamuis voluntas diuina et intellectus diuinus nul 
-      <lb ed="#L" n="20"/>lo modo distinguantur. nec inter se nec ab essentia di 
-      <lb ed="#L" n="21"/>uina. tamen essentia diuina vere et realiter est non tantum
-      in<lb ed="#L" n="22" break="no"/>tellectio et volitio. sed intelligens et volens. et vere 
-      <lb ed="#L" n="23"/>intelligit seipsam et vult seipsam. et intelligendo 
-      <lb ed="#L" n="24"/>seipsam vere est principiuum productiuum filii tamquam ali 
-      <lb ed="#L" n="25"/>cuius quod est simillimum ipsi patri intellecto. non tamen
-      prtes<lb ed="#L" n="26" break="no"/>intellecto sicut est in nobis. et quia sicut productum est 
-      <lb ed="#L" n="27"/>simillimum: oportet quod distinguatur realiter ab illo quod 
-      <lb ed="#L" n="28"/>ducit. et non potest distingui in aliquo absoluto. qua 
-      <lb ed="#L" n="29"/>tunc non esset simillimum. ideo oportet quod distinguatur 
-      <lb ed="#L" n="30"/>ipsamet productione passiua. et ita productio illa est 
-      <lb ed="#L" n="31"/>productio viuentis de viuente. quia ex hoc ipso quod
-      pro<lb ed="#L" n="32" break="no"/>ducitur primo et immediate virtute intellectionis ob 
-      <lb ed="#L" n="33"/>iecti cogniti. et non est formaliter volitio nec
-      intel<lb ed="#L" n="34" break="no"/>lectio producitur vt simile obiecto cognito. scilicet ipsi
-      pro<lb ed="#L" n="35" break="no"/>ducenti. et ita vere est generatio stricte
-      accipien<lb ed="#L" n="36" break="no"/>do generationem. Sed aliter est de spiritus sancto. Nam 
-      <lb ed="#L" n="37"/>ipse spiritus sanctus producitur: virtute volitionis quae quam 
-      <lb ed="#L" n="38"/>uis sit eadem formaliter cum diuina essentia et intel 
-      <lb ed="#L" n="39"/>lectione. tamen vere potest esse principium donandi aliquid 
-      <lb ed="#L" n="40"/>dilecto. et diuina volitio non tantum potest esse
-      principi<lb ed="#L" n="41" break="no"/>um donandi aliquid dilecto. sed etiam potest esse principit 
-      <lb ed="#L" n="42"/>um producendi donum. quod quidem donum ex hoc
-      ip<lb ed="#L" n="43" break="no"/>so quod est donum non est simile. sicut declaratum est: quamuis 
-      <lb ed="#L" n="44"/>ex hoc ipsoquod producitur in eadem essentia sit simile. 
-      <lb ed="#L" n="45"/>ideo stricte accipiendo generationem. producti spiritus sancti 
-      <lb ed="#L" n="46"/>quae est donum patris et filii non est generatio. quia non e 
-      <lb ed="#L" n="47"/>hoc ipso quod est donum. productum est viuens simile viuenti 
-      <lb ed="#L" n="48"/>amato.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e657">
-      ⁋ hec sint dicta sine praeiudicio sententie 
-      <lb ed="#L" n="49"/>melioris. quia ad inuestigandum distinctionem inter 
-      <lb ed="#L" n="50"/>generationem et spirationem. et quare spiratio non 
-      <lb ed="#L" n="51"/>sit generatio. scio me totaliter insufficientem. Uerum 
-      <lb ed="#L" n="52"/>tamen quomd spiritus sanctus si donum et cui donetur. dis. xviit 
-      <lb ed="#L" n="53"/>dicetur.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e670">
-      ⁋ Per predicta dico ad questionem: quod 
-      <lb ed="#L" n="54"/>spirati spiritus sanctus non est generatio filii. quia iste productio 
-      <lb ed="#L" n="55"/>nes passiue distinguuntur sicut ipsa producta. sed iste 
-      <!--371.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 184-v -->
-               <lb ed="#L" n="56"/>persone producte realiter distinguuntur. ergo et ipse pro 
-      <lb ed="#L" n="57"/>ductiones.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e689">
-      ⁋ Ad primum principale dico quod genera 
-      <lb ed="#L" n="58"/>tio et spiratio actiue sumpta non distinguuntur
-      re<lb ed="#L" n="59" break="no"/>aliter. sed accipiendo generationem et spirationem 
-      <lb ed="#L" n="60"/>passiue. sic realiter distinguuntur. Et ad
-      proba<lb ed="#L" n="61" break="no"/>tionem dico: quod non tantum relationis opposito inter corre 
-      <lb ed="#L" n="62"/>latiua sufficit ad distinctionem realem in diuinis 
-      <lb ed="#L" n="63"/>sed etiam incompossibilitas in eadem persona sufficit 
-      <lb ed="#L" n="64"/>ad distinctionem realem. et ideo quia generatio actio et 
-      <lb ed="#L" n="65"/>spiratio actiue sumpta sunt in eadem persona non 
-      <lb ed="#L" n="66"/>distinguuntur realiter. sed generatio et spiratio passi 
-      <lb ed="#L" n="67"/>ue sumpta non compatiuntur se in eadem persona. quia
-      in<lb ed="#L" n="68" break="no"/>possibile est quod eadem persona sit generans vel
-      gene<lb ed="#L" n="69" break="no"/>rata et spirata. ideo generatio et spiratio passiue 
-      <lb ed="#L" n="70"/>sumpta non compatiutur se in eadem persona. et quia im 
-      <lb ed="#L" n="71"/>possibile est quod eadem persona sit generans vel
-      gene<lb ed="#L" n="72" break="no"/>rata et spirata. ideo generatio et spiratio passiue 
-      <lb ed="#L" n="73"/>sumpta realiter distinguuntur.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e726">
-      ⁋ Ad secundum 
-      prin<lb ed="#L" n="74" break="no"/>cipale dico quod quamuis spiritus sanctus vere 
-      produca<lb ed="#L" n="75" break="no"/>tur de substantia patris. quia tamen vere exit a patre 
-      <lb ed="#L" n="76"/>vt donum vel datus. et ideo vt sic non dicitur vere
-      ge<lb ed="#L" n="77" break="no"/>nerari: sed produci vel spirari. quia non est de ratione 
-      <lb ed="#L" n="78"/>boni esse simile obiecto amato vel dilecto. et 
-      <lb ed="#L" n="79"/>hoc est quod dicit <ref xml:id="wo8uy7-d1e936-Rffmx88" corresp="#wo8uy7-d1e936-Qfjfggg">beatus augustinus</ref>. quod <quote xml:id="wo8uy7-d1e936-Qfjfggg" source="http://scta.info/resource/adt-l5-d1e753@89-96">exit a patre 
-      <lb ed="#L" n="80"/>non quomodo natus sed quomodo datus</quote>. Et si dicatur quod quam 
-      <lb ed="#L" n="81"/>uis donum ex hoc quod donum non est simile. tamen hoc
-      do<lb ed="#L" n="82" break="no"/>num quond spiritus sanctus vere est simile obiecto dilecto. ideo
-      quam<lb ed="#L" n="83" break="no"/>uis non ratione qua donum possit dici generari. tamen 
-      <lb ed="#L" n="84"/>ratione qua hoc donum vere poterit dici
-      genera<lb ed="#L" n="85" break="no"/>ri.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e755">
-      ⁋ Respondeo quod non est assignare rationem
-      suffi<lb ed="#L" n="86" break="no"/>cientem quare producti spiritus sanctus non dicatur generatio. 
-      <lb ed="#L" n="87"/>et hoc pro statu isto. tamen hoc est credendum et
-      aliqua<lb ed="#L" n="88" break="no"/>lis ratio dicta est prius. et tenendum quod etiam ratione qua 
-      <lb ed="#L" n="89"/>hoc donum non poterit vere sua productio dici ge 
-      <lb ed="#L" n="90"/>neratio. et assurgendo a creaturis: non debemus 
-      <lb ed="#L" n="91"/>creaturam omnino excludere: quin aliquo modo
-      pro<lb ed="#L" n="92" break="no"/>portionabiliter dicamus in deo sicut videmus in 
-      <lb ed="#L" n="93"/>creaturis.
-    </p>
-            <p xml:id="wo8uy7-d1e936-d1e775">
-      ⁋ Ad tertium dico: quod accipiendo genera 
-      <lb ed="#L" n="94"/>tionem primo modo et large habitus et actus
-      ip<lb ed="#L" n="95" break="no"/>sius voluntatis vere generantur sicut habitus 
-      <lb ed="#L" n="96"/>et actus ipsius intellectus. sed secundo modo nec isti 
-      <lb ed="#L" n="97"/>nec illi generantur. quia non nascuntur. Unde
-      si<lb ed="#L" n="98" break="no"/>cut non est dicendum quod ignis ab igne nascitur. ita 
-      <lb ed="#L" n="99"/>nec est dicendum quod ignis generatur ab igne accipien 
-      <lb ed="#L" n="100"/>do generationem secundo modo.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="183-v"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e936"><!-- l1d13q1 -->
+        <head xml:id="wo8uy7-d1e936-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e936-d1e111">
+          ⁋ Distinct. xiii. Questio vnica. 
+          <lb ed="#L" n="46"/>CIrca
+          distin<lb ed="#L" n="47" break="no"/>ctionem tredecimam quero. 
+          <lb ed="#L" n="48"/>Utrum generatio filii sit spi 
+          <lb ed="#L" n="49"/>rati spiritus sanctum Uidetur quod sic quia 
+          <lb ed="#L" n="50"/>omnia sunt vnum secundum boctium 
+          <lb ed="#L" n="51"/>vbino obuiat relationis ope 
+          <lb ed="#L" n="52"/>posito. sed inter gererationem et spirationem nulla 
+          <lb ed="#L" n="53"/>est oppositio. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e131">
+          ⁋ Preterea omne productum 
+          <lb ed="#L" n="54"/>quod de substantia viua producitur vere generaturscie 
+          <!--369.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 183-v -->
+          <lb ed="#L" n="55"/>spiritussanctus vere producitur de substantia pa 
+          <lb ed="#L" n="56"/>tris. ergo vere generatur. minor patet. quia aut producitur 
+          <lb ed="#L" n="57"/>de aliquo aut de nihilo. non de nihilo. quia tunc cre 
+          <lb ed="#L" n="58"/>aretur. et non de aliquo nisi de substantia patris. 
+          <lb ed="#L" n="59"/>ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e153">
+          ⁋ Preterea si producti spiritus sanctus inon esset gene  
+          <lb ed="#L" n="60"/>ratio hoc non esset nisi quia principium ipsius est volun 
+          <lb ed="#L" n="61"/>tas. sed hoc non obstat. quia etiam in nobis illud cui 
+          <lb ed="#L" n="62"/>principium est voluntas vere generaretur. quia actus et 
+          <lb ed="#L" n="63"/>habitus ipsius voluntatis ita vere generantur sicut 
+          <lb ed="#L" n="64"/>vere actus et habitus ipsius intellectus. ergo similiter 
+          <lb ed="#L" n="65"/>in diuinis illud cuius voluntas est principium vere ge 
+          <lb ed="#L" n="66"/>neratur.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e171">
+          ⁋ Ad oppositum. si spiratio esset gene 
+          <lb ed="#L" n="67"/>ratis spiritus sanctus vere esset genitus cuius contrarium dicitur in 
+          <lb ed="#L" n="68"/>symbolo. quia spiritus sanctus a patre et filio non factus 
+          <lb ed="#L" n="69"/>nec creatus nec genitus: sed procedens.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e181">
+          ⁋ In istam in 
+          <lb ed="#L" n="70"/>questione sunt multe difficultates. Prima
+          an<lb ed="#L" n="71" break="no"/>generatio actio et spiratio actio sint idem
+          omni<lb ed="#L" n="72" break="no"/>bus modis. Secunda an generatio et spiratio pas 
+          <lb ed="#L" n="73"/>sio differuntrealiter. Tertia supposito quod distin 
+          <lb ed="#L" n="74"/>guantur realiter: per quid distinguantur. Quarta q 
+          <lb ed="#L" n="75"/>quare productis spiritus sanctus quae dicitur spiratio non potest 
+          <lb ed="#L" n="76"/>vere dici generatio sicut productio filii vere est 
+          <lb ed="#L" n="77"/>generatio. De prima difficultate patebit alias. 
+          <lb ed="#L" n="78"/>De secunda aliquid dictum est prius. De tertia et 
+          <lb ed="#L" n="79"/>quarta aliquid dicetur in ista questione: quamuis 
+          <lb ed="#L" n="80"/>de tertia pateat ex dictis in praecedentibus dif 
+          <lb ed="#L" n="81"/>ficultatibus.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e210">
+          ⁋ Et indeo omnissis multis opin 
+          <lb ed="#L" n="82"/>onibus circa illam tertiam difficultatem dico breu 
+          <lb ed="#L" n="83"/>ter: quod iste productiones seipsis formaliter distin 
+          <lb ed="#L" n="84"/>guuntur nec aliquam distinctionem sine qua non pos 
+          <lb ed="#L" n="85"/>sunt distingui presupponunt. quia si aliquam
+          praesup<lb ed="#L" n="86" break="no"/>ponerent maxime presupponerent distinctio 
+          <lb ed="#L" n="87"/>nem principiorum elicitiuorum. sed illam non presupponum 
+          <lb ed="#L" n="88"/>nec etiam coexigunt: quia non est incoueniens idem 
+          <lb ed="#L" n="89"/>principium elicitiuum esse principium elicitiuum d 
+          <lb ed="#L" n="90"/>stinctarum productionum.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e232">
+          ⁋ Circa quartum
+          ar<lb ed="#L" n="91" break="no"/>ticulum dicitur quod generatio et spiratio differum 
+          <lb ed="#L" n="92"/>per hoc quod intellectus vel natura est principium 
+          <lb ed="#L" n="93"/>productiuum actiue per impressionem et informa 
+          <lb ed="#L" n="94"/>tionem. et ideo productio talis vere dicitur
+          ge<lb ed="#L" n="95" break="no"/>neratio. sed illud quod producitur mediante
+          vo<lb ed="#L" n="96" break="no"/>luntate tanquam principio elicitiuo. non producit 
+          <lb ed="#L" n="97"/>per modum impressionis vel informationis. sed  
+          <lb ed="#L" n="98"/>quasi per quandam excussionem siue expulsionem 
+          <lb ed="#L" n="99"/>aut progressum. aut magis proprie loquendo 
+          <lb ed="#L" n="100"/>per quandam expressionem de eo de quo subiecti 
+          <lb ed="#L" n="101"/>ue producitur. et hoc ad modum quo spiritus cor 
+          <lb ed="#L" n="102"/>poralis qui est aer si in nobis non attraheretur 
+          <lb ed="#L" n="103"/>ad pulmonem per inspiratione. sed aliqua virtute 
+          <lb ed="#L" n="104"/>existente in ipso pulmone excuteretur per
+          expri<lb ed="#L" n="105" break="no"/>rationem de pulmone. et per hoc daret ei esse. et est 
+          <lb ed="#L" n="106"/>quodammodo simile. praeter hoc quod spiritus corporalis est 
+          <lb ed="#L" n="107"/>est aer spiratus tali spiratione separatur a spirante et ab 
+          <lb ed="#L" n="108"/>eode quo spiratur.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e274">
+          ⁋ Sed ista opinio non est rationabilis: 
+          <lb ed="#L" n="109"/>immo videtur contrdictionem includere. quia impossibile 
+          <!--370.xml-->
+          <pb ed="#L" n="184-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>est aliquid produci de aliquo subiectiue nisi per
+          im<lb ed="#L" n="2" break="no"/>pressione vel informatione spi spiritus sanctus producitur de
+          ali<lb ed="#L" n="3" break="no"/>quo subiectiue secundum istum. ergo etc. maior est manifesta 
+          <lb ed="#L" n="4"/>qui imprimere formam in materia non est aliud quam fa 
+          <lb ed="#L" n="5"/>cere formam esse in materia. sed omnis forma producta de 
+          <lb ed="#L" n="6"/>aliquo subiecto vel materia: necessario fit in sub 
+          <lb ed="#L" n="7"/>iecto illo vel materia. ergo necessario imprimitur. 
+          <lb ed="#L" n="8"/>et per consequens est ibi productio per modum impressionis. 
+          <lb ed="#L" n="9"/>Preterea omnis forma educta de potentia
+          ali<lb ed="#L" n="10" break="no"/>cuius subiecti vel materie informat illam materiam 
+          <lb ed="#L" n="11"/>qui sicut numquam est subiectum quando de eo producitur
+          for<lb ed="#L" n="12" break="no"/>ma nisi informetur. ita nec forma nisi informet. 
+          <lb ed="#L" n="13"/>ergo cum in producti om spiritus sanctus sit eductio alicuius de
+          ma<lb ed="#L" n="14" break="no"/>teria vel quasi materia: erit ibi productio per mo 
+          <lb ed="#L" n="15"/>dum informationis.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e318">
+          ⁋ Preterea exemplum suum est 
+          <lb ed="#L" n="16"/>ad oppositum. quia si aer vere producitur a pulmione si 
+          <lb ed="#L" n="17"/>ue intra siue extra necessario erit productio per in 
+          <lb ed="#L" n="18"/>formationem. quia cum non sit vera creatio oportet quod 
+          <lb ed="#L" n="19"/>forma producta vere infermet materiam. igitur ve 
+          <lb ed="#L" n="20"/>est ibi informatio. Si dicatur quod quamuis sit ibi in 
+          <lb ed="#L" n="21"/>formantio qua forma informat suam materiam: tamen 
+          <lb ed="#L" n="22"/>non est ibi informatio illius de quo excutitur. quia aer 
+          <lb ed="#L" n="23"/>productus non informat pulmonem de quo excuti 
+          <lb ed="#L" n="24"/>tur.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e340">
+          ⁋ Contra: quando dicitur quod ibi non est informatio
+          il<lb ed="#L" n="25" break="no"/>lius de quo excutitur. aut de ibi dicit
+          circumstan<lb ed="#L" n="26" break="no"/>tiam cause materialis. aut cause efficientis. si causa 
+          <lb ed="#L" n="27"/>materialis. sic non excutitur de pulmone. quia pulmo  
+          <lb ed="#L" n="28"/>non est materia. si causae efficientis sic sequeretur quod 
+          <lb ed="#L" n="29"/>sol et vniversaliter omne agens producens aliquid extra se et 
+          <lb ed="#L" n="30"/>non in se non produceret per modum informationis. quia 
+          <lb ed="#L" n="31"/>nihil ibi productum informaret ibi illud de quo est 
+          <lb ed="#L" n="32"/>effectiue. Ex isto patet quod numquam fit excussio alicuius 
+          <lb ed="#L" n="33"/>de aliquo secundum quod excussio distinguitur a
+          genera<lb ed="#L" n="34" break="no"/>tione. nisi quando aliquid praexistens pelliter localiter alb 
+          <lb ed="#L" n="35"/>illo cum quo prius existit. et ideo excussio talis non est 
+          <lb ed="#L" n="36"/>productio sed est motus localis. quia pulsio est species 
+          <lb ed="#L" n="37"/>motus localis. quia. philosophus. vii. phi. numerat pulsio. 
+          <lb ed="#L" n="38"/>nem inter alios motus locales.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e374">
+          ⁋ Ideo quantum ad  
+          <lb ed="#L" n="39"/>istum articulum distinguo primo de generatione 
+          <lb ed="#L" n="40"/>quod potest accipi stricte et large. Targe accipiendo 
+          <lb ed="#L" n="41"/>generatio est productio cuiuscumque non de nihilo. et isto 
+          <lb ed="#L" n="42"/>modo quando productio est non de nihilo. si in tali produ 
+          <lb ed="#L" n="43"/>ctione concurrat subiectum vel materia
+          neces<lb ed="#L" n="44" break="no"/>sario est ibi productio per informationem et impressi 
+          <lb ed="#L" n="45"/>onem. quia necessario forma imprimitur materie et
+          im<lb ed="#L" n="46" break="no"/>format eam sed quia in diuinis non est aliquod
+          subie<lb ed="#L" n="47" break="no"/>ctum vel materia. ideo nulla est ibi productio per mo 
+          <lb ed="#L" n="48"/>dum impressionis vel informationis. Aliter aeci 
+          <lb ed="#L" n="49"/>pitur generatio stricte pro productione viuentis a 
+          <lb ed="#L" n="50"/>viuente: qua viuens ratione suesprductionis produd 
+          <lb ed="#L" n="51"/>tur vt totaliter simile et eiusdem rationis cum produge 
+          <lb ed="#L" n="52"/>te. saltem quantum ad omnia. excepta ipsa sola producto 
+          <lb ed="#L" n="53"/>ne. et istud proprie dicitur nasci. Et isto modo potest ali 
+          <lb ed="#L" n="54"/>quo modo quamuis imperfecte et obscure in enigma 
+          <lb ed="#L" n="55"/>te videri distinctio inter generationem verbi et 
+          <!--370.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 184-r -->
+          <lb ed="#L" n="56"/>processione spiritus sanctus et quare procesitsi spiritus sanctus non dicatur genera 
+          <lb ed="#L" n="57"/>tio quamuis secundum beatum augustinum. iii. de tri. plene
+          di<lb ed="#L" n="58" break="no"/>stinguere inter illas processiones non est nobis pos 
+          <lb ed="#L" n="59"/>sibile pro isto statu. Quia autem mens nostra facta  
+          <lb ed="#L" n="60"/>est ad ymaginem dei. ideo ex illis quae sunt in men 
+          <lb ed="#L" n="61"/>te nostra possumus aliquo modo assurgere ad
+          com<lb ed="#L" n="62" break="no"/>cipiendum illa quae sunt in deo quamuis magis sit
+          dis<lb ed="#L" n="63" break="no"/>similitudo. Et ideo videndum est primo de mente 
+          <lb ed="#L" n="64"/>nostra. Secundo aliquo modo consimiliter est ymagi 
+          <lb ed="#L" n="65"/>nandum de deo.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e441">
+          ⁋ Circa primum sciendum est quod non ol 
+          <lb ed="#L" n="66"/>stante identitate intellectus et voluntatis. tamen actus 
+          <lb ed="#L" n="67"/>intelligendi et volendi sunt distincti. et ideo volo 
+          <lb ed="#L" n="68"/>vti intellectu et voluntate pro vt connotant istos 
+          <lb ed="#L" n="69"/>actus propter quam connotatione aliquid potest attribui 
+          <lb ed="#L" n="70"/>intellectui et a voluntate negari. secundum modum
+          ali<lb ed="#L" n="71" break="no"/>bi exponendum.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e457">
+          ⁋ Est ergo sciendum: quod intellectus noiter
+          pri<lb ed="#L" n="72" break="no"/>mo intelligit intuitiue aliquod singulare realiter 
+          <lb ed="#L" n="73"/>existens. quo intellecto potest idem intellectus
+          fin<lb ed="#L" n="74" break="no"/>gere aliquod consimile prius intellecto. sed illud sic
+          fi<lb ed="#L" n="75" break="no"/>ctum non poterit habere esse subiectiuum. sed tantum esse 
+          <lb ed="#L" n="76"/>obiectiuum. et ideo non producitur in esse subiectiuo sen 
+          <lb ed="#L" n="77"/>tantum in esse obiectiuo. et ideo illud sic fictum est tantum 
+          <lb ed="#L" n="78"/>tale quale fuit prius intelleccum in esse obiectiuo. 
+          <lb ed="#L" n="79"/>et non in esse subiectiuo. et erit quasi ymago smil 
+          <lb ed="#L" n="80"/>lima rei prius intellecte in esse obiectiuo. intantum 
+          <lb ed="#L" n="81"/>quod si intellectus haberet vim productiuam realem 
+          <lb ed="#L" n="82"/>sicut habet vim fictiuam. illud productum vere esset 
+          <lb ed="#L" n="83"/>eiusdem rationis cum illo printellecto: et ymago
+          simil<lb ed="#L" n="84" break="no"/>lima ei. sicut filius alicuius patris dicitur ymago eat 
+          <lb ed="#L" n="85"/>similitudo ipsius. et ita si intellectus intelligendo 
+          <lb ed="#L" n="86"/>seipsum haberet vim productiuam talis similis sicut 
+          <lb ed="#L" n="87"/>hahet vim fictiuam talis similis. et vere posset
+          pro<lb ed="#L" n="88" break="no"/>ducere tale de seipso tamquaem de aliquo essentiali 
+          <lb ed="#L" n="89"/>illi simili. vere haberet ipsum generare ftrietissi 
+          <lb ed="#L" n="90"/>melaccepta generatione. Sed aliter est de vo 
+          <lb ed="#L" n="91"/>lutate. quia voluntas diligendo aliquod obiectum 
+          <lb ed="#L" n="92"/>non habet virtutem productiuam alicuius
+          similitu<lb ed="#L" n="93" break="no"/>dinis. nec etiam vim fictiuam alicuius similitudi 
+          <lb ed="#L" n="94"/>nis. et ideo voluntas nostra numquam tale simile nec 
+          <lb ed="#L" n="95"/>in esse obiectiuo nec in esse subiectiuo potest
+          pro<lb ed="#L" n="96" break="no"/>ducere. sed voluntas nostra posita tali
+          dilectio<lb ed="#L" n="97" break="no"/>ne habet vim donatiuam qua potest aliquid
+          do<lb ed="#L" n="98" break="no"/>nare ipsi obiecto et si non sit aliquid praexistens quod 
+          <lb ed="#L" n="99"/>possit dare obiecto si potest producit aliquid do 
+          <lb ed="#L" n="100"/>nabile ipsi obiecto. quod quidem donabile ra 
+          <lb ed="#L" n="101"/>tione qua est donabile a voluntate non plus est 
+          <lb ed="#L" n="102"/>simile obiecto quam dimissimile. immo magis in
+          no<lb ed="#L" n="103" break="no"/>bis est dissimile quam simile. et ita voluntas nonstra 
+          <lb ed="#L" n="104"/>non habet ex se virtutem donatiuam similis 
+          <lb ed="#L" n="105"/>quin ita possit dare dissimile sicut simile. sed
+          in<lb ed="#L" n="106" break="no"/>tellectus noster necessario habet vim fictiuam 
+          <lb ed="#L" n="107"/>similis et nullo modo dissimilis. et ita
+          necessa<lb ed="#L" n="108" break="no"/>rio ex hoc ipso quod aliquid fingitur ab. intellectu 
+          <lb ed="#L" n="109"/>est simile. non autem necessario ex hoc quod aliquid donatur 
+          <lb ed="#L" n="110"/>a voluntate est simile. sed potest esse dissimile¬ 
+          <!--371.xml-->
+          <pb ed="#L" n="184-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Istud de esse ficto dicitur secundum opinionem quae ponit fi 
+          <lb ed="#L" n="2"/>cta. secundum alias opiniones esset proportionabiliter
+          di<lb ed="#L" n="3" break="no"/>cendum de ipsa intellectione vel aliquo facto per actum 
+          <lb ed="#L" n="4"/>intellectus. Ex quo patet quod intellectus noster vniversaliter 
+          <lb ed="#L" n="5"/>intellectus creatus praehabens actum intelligendi hab 
+          <lb ed="#L" n="6"/>vim fictiuam similis. et si haberet potestatem produce 
+          <lb ed="#L" n="7"/>di realiter illud quod fingit. illud productum vere esse 
+          <lb ed="#L" n="8"/>simile obiecto praintellecto. et nullo modo posset produ 
+          <lb ed="#L" n="9"/>cere nisi simile praintellecto. voluntas autem nostra 
+          <lb ed="#L" n="10"/>non habet vim donatiuam similis plus quam dissimilis 
+          <lb ed="#L" n="11"/>immo priamato ita posset donare simile sicut dis 
+          <lb ed="#L" n="12"/>simile et econuerso. et si posset virtute illius
+          amo<lb ed="#L" n="13" break="no"/>ris amati non tantum donare aliquod donum priamato: 
+          <lb ed="#L" n="14"/>sed etiam producere illud donum. ex hoc quod produceretur 
+          <lb ed="#L" n="15"/>a voluntate virtute amoris praexistentis. non plus 
+          <lb ed="#L" n="16"/>esset simile obiecto amato quam dissimile.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e585">
+          ⁋ Ex istis 
+          <lb ed="#L" n="17"/>possumus aliquo modo licet imperfecte ymaginari. 
+          <lb ed="#L" n="18"/>in diuinis quare spirati spiritus sanctus non sit generatio. 
+          <lb ed="#L" n="19"/>quia quamuis voluntas diuina et intellectus diuinus nul 
+          <lb ed="#L" n="20"/>lo modo distinguantur. nec inter se nec ab essentia di 
+          <lb ed="#L" n="21"/>uina. tamen essentia diuina vere et realiter est non tantum
+          in<lb ed="#L" n="22" break="no"/>tellectio et volitio. sed intelligens et volens. et vere 
+          <lb ed="#L" n="23"/>intelligit seipsam et vult seipsam. et intelligendo 
+          <lb ed="#L" n="24"/>seipsam vere est principiuum productiuum filii tamquam ali 
+          <lb ed="#L" n="25"/>cuius quod est simillimum ipsi patri intellecto. non tamen
+          prtes<lb ed="#L" n="26" break="no"/>intellecto sicut est in nobis. et quia sicut productum est 
+          <lb ed="#L" n="27"/>simillimum: oportet quod distinguatur realiter ab illo quod 
+          <lb ed="#L" n="28"/>ducit. et non potest distingui in aliquo absoluto. qua 
+          <lb ed="#L" n="29"/>tunc non esset simillimum. ideo oportet quod distinguatur 
+          <lb ed="#L" n="30"/>ipsamet productione passiua. et ita productio illa est 
+          <lb ed="#L" n="31"/>productio viuentis de viuente. quia ex hoc ipso quod
+          pro<lb ed="#L" n="32" break="no"/>ducitur primo et immediate virtute intellectionis ob 
+          <lb ed="#L" n="33"/>iecti cogniti. et non est formaliter volitio nec
+          intel<lb ed="#L" n="34" break="no"/>lectio producitur vt simile obiecto cognito. scilicet ipsi
+          pro<lb ed="#L" n="35" break="no"/>ducenti. et ita vere est generatio stricte
+          accipien<lb ed="#L" n="36" break="no"/>do generationem. Sed aliter est de spiritus sancto. Nam 
+          <lb ed="#L" n="37"/>ipse spiritus sanctus producitur: virtute volitionis quae quam 
+          <lb ed="#L" n="38"/>uis sit eadem formaliter cum diuina essentia et intel 
+          <lb ed="#L" n="39"/>lectione. tamen vere potest esse principium donandi aliquid 
+          <lb ed="#L" n="40"/>dilecto. et diuina volitio non tantum potest esse
+          principi<lb ed="#L" n="41" break="no"/>um donandi aliquid dilecto. sed etiam potest esse principit 
+          <lb ed="#L" n="42"/>um producendi donum. quod quidem donum ex hoc
+          ip<lb ed="#L" n="43" break="no"/>so quod est donum non est simile. sicut declaratum est: quamuis 
+          <lb ed="#L" n="44"/>ex hoc ipsoquod producitur in eadem essentia sit simile. 
+          <lb ed="#L" n="45"/>ideo stricte accipiendo generationem. producti spiritus sancti 
+          <lb ed="#L" n="46"/>quae est donum patris et filii non est generatio. quia non e 
+          <lb ed="#L" n="47"/>hoc ipso quod est donum. productum est viuens simile viuenti 
+          <lb ed="#L" n="48"/>amato.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e657">
+          ⁋ hec sint dicta sine praeiudicio sententie 
+          <lb ed="#L" n="49"/>melioris. quia ad inuestigandum distinctionem inter 
+          <lb ed="#L" n="50"/>generationem et spirationem. et quare spiratio non 
+          <lb ed="#L" n="51"/>sit generatio. scio me totaliter insufficientem. Uerum 
+          <lb ed="#L" n="52"/>tamen quomd spiritus sanctus si donum et cui donetur. dis. xviit 
+          <lb ed="#L" n="53"/>dicetur.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e670">
+          ⁋ Per predicta dico ad questionem: quod 
+          <lb ed="#L" n="54"/>spirati spiritus sanctus non est generatio filii. quia iste productio 
+          <lb ed="#L" n="55"/>nes passiue distinguuntur sicut ipsa producta. sed iste 
+          <!--371.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 184-v -->
+          <lb ed="#L" n="56"/>persone producte realiter distinguuntur. ergo et ipse pro 
+          <lb ed="#L" n="57"/>ductiones.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e689">
+          ⁋ Ad primum principale dico quod genera 
+          <lb ed="#L" n="58"/>tio et spiratio actiue sumpta non distinguuntur
+          re<lb ed="#L" n="59" break="no"/>aliter. sed accipiendo generationem et spirationem 
+          <lb ed="#L" n="60"/>passiue. sic realiter distinguuntur. Et ad
+          proba<lb ed="#L" n="61" break="no"/>tionem dico: quod non tantum relationis opposito inter corre 
+          <lb ed="#L" n="62"/>latiua sufficit ad distinctionem realem in diuinis 
+          <lb ed="#L" n="63"/>sed etiam incompossibilitas in eadem persona sufficit 
+          <lb ed="#L" n="64"/>ad distinctionem realem. et ideo quia generatio actio et 
+          <lb ed="#L" n="65"/>spiratio actiue sumpta sunt in eadem persona non 
+          <lb ed="#L" n="66"/>distinguuntur realiter. sed generatio et spiratio passi 
+          <lb ed="#L" n="67"/>ue sumpta non compatiuntur se in eadem persona. quia
+          in<lb ed="#L" n="68" break="no"/>possibile est quod eadem persona sit generans vel
+          gene<lb ed="#L" n="69" break="no"/>rata et spirata. ideo generatio et spiratio passiue 
+          <lb ed="#L" n="70"/>sumpta non compatiutur se in eadem persona. et quia im 
+          <lb ed="#L" n="71"/>possibile est quod eadem persona sit generans vel
+          gene<lb ed="#L" n="72" break="no"/>rata et spirata. ideo generatio et spiratio passiue 
+          <lb ed="#L" n="73"/>sumpta realiter distinguuntur.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e726">
+          ⁋ Ad secundum 
+          prin<lb ed="#L" n="74" break="no"/>cipale dico quod quamuis spiritus sanctus vere 
+          produca<lb ed="#L" n="75" break="no"/>tur de substantia patris. quia tamen vere exit a patre 
+          <lb ed="#L" n="76"/>vt donum vel datus. et ideo vt sic non dicitur vere
+          ge<lb ed="#L" n="77" break="no"/>nerari: sed produci vel spirari. quia non est de ratione 
+          <lb ed="#L" n="78"/>boni esse simile obiecto amato vel dilecto. et 
+          <lb ed="#L" n="79"/>hoc est quod dicit <ref xml:id="wo8uy7-d1e936-Rffmx88" corresp="#wo8uy7-d1e936-Qfjfggg">beatus augustinus</ref>. quod <quote xml:id="wo8uy7-d1e936-Qfjfggg" source="http://scta.info/resource/adt-l5-d1e753@89-96">exit a patre 
+            <lb ed="#L" n="80"/>non quomodo natus sed quomodo datus</quote>. Et si dicatur quod quam 
+          <lb ed="#L" n="81"/>uis donum ex hoc quod donum non est simile. tamen hoc
+          do<lb ed="#L" n="82" break="no"/>num quond spiritus sanctus vere est simile obiecto dilecto. ideo
+          quam<lb ed="#L" n="83" break="no"/>uis non ratione qua donum possit dici generari. tamen 
+          <lb ed="#L" n="84"/>ratione qua hoc donum vere poterit dici
+          genera<lb ed="#L" n="85" break="no"/>ri.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e755">
+          ⁋ Respondeo quod non est assignare rationem
+          suffi<lb ed="#L" n="86" break="no"/>cientem quare producti spiritus sanctus non dicatur generatio. 
+          <lb ed="#L" n="87"/>et hoc pro statu isto. tamen hoc est credendum et
+          aliqua<lb ed="#L" n="88" break="no"/>lis ratio dicta est prius. et tenendum quod etiam ratione qua 
+          <lb ed="#L" n="89"/>hoc donum non poterit vere sua productio dici ge 
+          <lb ed="#L" n="90"/>neratio. et assurgendo a creaturis: non debemus 
+          <lb ed="#L" n="91"/>creaturam omnino excludere: quin aliquo modo
+          pro<lb ed="#L" n="92" break="no"/>portionabiliter dicamus in deo sicut videmus in 
+          <lb ed="#L" n="93"/>creaturis.
+        </p>
+        <p xml:id="wo8uy7-d1e936-d1e775">
+          ⁋ Ad tertium dico: quod accipiendo genera 
+          <lb ed="#L" n="94"/>tionem primo modo et large habitus et actus
+          ip<lb ed="#L" n="95" break="no"/>sius voluntatis vere generantur sicut habitus 
+          <lb ed="#L" n="96"/>et actus ipsius intellectus. sed secundo modo nec isti 
+          <lb ed="#L" n="97"/>nec illi generantur. quia non nascuntur. Unde
+          si<lb ed="#L" n="98" break="no"/>cut non est dicendum quod ignis ab igne nascitur. ita 
+          <lb ed="#L" n="99"/>nec est dicendum quod ignis generatur ab igne accipien 
+          <lb ed="#L" n="100"/>do generationem secundo modo.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

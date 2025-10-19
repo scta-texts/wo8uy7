@@ -1,352 +1,352 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="268-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e1784"><!-- l1d43q2 -->
-            <head xml:id="wo8uy7-d1e1784-Hd1e108">Quaestio 1</head>
-            <p xml:id="wo8uy7-d1e1784-d1e111">
-      Questio secunda 
-      <lb ed="#L" n="20"/>SEcundo quero. 
-      <lb ed="#L" n="21"/>Utrum prius conueniat deo non posse 
-      <lb ed="#L" n="22"/>facere impossibile. quam impossibili non 
-      <lb ed="#L" n="23"/>posse fieri a deo.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e122">
-      ⁋ Quod prius conueniat deo non pos 
-      <lb ed="#L" n="24"/>se facere impossibile videtur. quia prius conuenit deo face 
-      <lb ed="#L" n="25"/>re possibile quam possibili posse fieri a deo. ergo
-      eo<lb ed="#L" n="26" break="no"/>demmodo prius conuenit deo non posse facere impossibile 
-      <lb ed="#L" n="27"/>quam impossibile non posse fieri a deo. anden patet. quia esse 
-      <lb ed="#L" n="28"/>quod conuenit deo prius conuenit sibi quam aliquid conue 
-      <lb ed="#L" n="29"/>niat creature. ergo quam cuicumque alteri a deo. ergo cum 
-      <lb ed="#L" n="30"/>deo conueniat posse facere possibile fieri pus hoc 
-      <lb ed="#L" n="31"/>conuenit sibi quam conueniat cuicumque alteri posse fi 
-      <lb ed="#L" n="32"/>eri a deo. consequentia patet. quia pro quocumque instanti vel siei con 
-      <lb ed="#L" n="33"/>uenit deo posse facere possibile fieri. pro eodem
-      in<lb ed="#L" n="34" break="no"/>stanti sibi couenit non posse facere impossibile fie 
-      <lb ed="#L" n="35"/>ri. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e151">
-      ⁋ Ad oppositum. nihil quod importat
-      indi<lb ed="#L" n="36" break="no"/>gnitatem conuenit primo deo sed non posse facere impossi 
-      <lb ed="#L" n="37"/>bile fieri importat indignitatem. quia importat priuatio 
-      <lb ed="#L" n="38"/>nem vel negationem. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e160">
-      ⁋ Ad. q. dicitur quod quando aliquid  
-      <lb ed="#L" n="39"/>quod attribuitur deo secundum rationem sui nonis significat 
-      <lb ed="#L" n="40"/>aliquid quod non est dignitatis simpliciter. non sed se primo 
-      <lb ed="#L" n="41"/>attribuitur deo sed quia aliquid quod non est dignitatis at 
-      <lb ed="#L" n="42"/>tribuitur crcature ex respectu eius ad deum. ideo illud 
-      <lb ed="#L" n="43"/>deo attribuitur. et huiusmodi sunt non ia quae dicunt
-      respe<lb ed="#L" n="44" break="no"/>ctum in deo ad creaturas. quae ideo deo attribuuntur. quia 
-      <lb ed="#L" n="45"/>creature habent respectum ad ipsum secundum quod deo
-      attri<lb ed="#L" n="46" break="no"/>buitur esse domin. quia ex tempore habet suum et ideo attribuitur deo 
-      <lb ed="#L" n="47"/>posse aliquid actiue super creaturam quia creatura est in 
-      <lb ed="#L" n="48"/>est possibilis accipere actionem creatoris Dicitur tamen 
-      <lb ed="#L" n="49"/>quod posse tam actiuum dei quam passiuum creature potest du 
-      <lb ed="#L" n="50"/>plicitur considerari scilicet respectu sui subiecti et respe 
-      <lb ed="#L" n="51"/>ctu sui obiecti. Si possibile dei consideratur primo 
-      <lb ed="#L" n="52"/>modo. sic est prius quam posse creature qualiturcumque
-      conside<lb ed="#L" n="53" break="no"/>retur. quia posse sic consideratum dicit dignitatem simpliciter 
-      <lb ed="#L" n="54"/>Secuno modo non dicit dignitatem simpliciter. et ideo non co¬ 
-      <!--538.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 268-r -->
-               <lb ed="#L" n="55"/>petit: nisi quia posse passiuum competit creature
-      re<lb ed="#L" n="56" break="no"/>spectu dei. ideo dicit quod absolute loquendo non est 
-      <lb ed="#L" n="57"/>posse passiuum in creatura nisi quia est posse actiuum 
-      <lb ed="#L" n="58"/>in deo. vt cum quattuor sint respectus secundum posse scilicet duo 
-      <lb ed="#L" n="59"/>secundum posse actiuum. vnus scilicet quo posse dei comparatur ad  
-      <lb ed="#L" n="60"/>deum vt cuius est. alius vt compatur ad creaturam vt 
-      <lb ed="#L" n="61"/>ad quam est. et duo secundum posse passiuum scilicet vnus quo
-      comn<lb ed="#L" n="62" break="no"/>paratur ad creaturam cuius est. alius secundum quem copratur 
-      <lb ed="#L" n="63"/>ad deum vt ad quem est. In ipsis est talis ordo quod a 
-      <lb ed="#L" n="64"/>posse dei actiue secundum se est posse passiuum in
-      crea<lb ed="#L" n="65" break="no"/>tura secundum se. quod concomitatur posse passiuum creatu 
-      <lb ed="#L" n="66"/>re respectu dei. et ex posse passiuo creature
-      re<lb ed="#L" n="67" break="no"/>pectu dei dicitur deus active posse respectu
-      crea<lb ed="#L" n="68" break="no"/>ture. Contra. istam opinionem potest argui per
-      ipsm<lb ed="#L" n="69" break="no"/>met alibi. quia sict non dicitur deum impossibile aliquid  
-      <lb ed="#L" n="70"/>facere. quia illud impossibile est fieri. sed econuerso. quia 
-      <lb ed="#L" n="71"/>impossibile est deum hoc facere. ideo impossibile est hoc 
-      <lb ed="#L" n="72"/>fieri. ita dicitur in affirmatiua. quod quia possibile est deum 
-      <lb ed="#L" n="73"/>hoc facere. ideo possibile est hoc fieri. et non econuerso. 
-      <lb ed="#L" n="74"/>quia non ideo dicitur posse deum hoc facere: quia hoc possibile 
-      <lb ed="#L" n="75"/>est fieri. Ex isto patet. quod prius competit deo posse
-      fa<lb ed="#L" n="76" break="no"/>cere respectu creature. quam competat creature
-      pos<lb ed="#L" n="77" break="no"/>se passiuum respectu dei. ergo eodem modo prius couenit 
-      <lb ed="#L" n="78"/>deo non posse facere impossibile quam impossibili non 
-      <lb ed="#L" n="79"/>posse fieri a deo. Et ex isto patet manifeste. quod ipse. 
-      <lb ed="#L" n="80"/>habet dicere quod non quodlibet quod dicit respectum ad cre 
-      <lb ed="#L" n="81"/>aturam attribuitur deo. quia creature habent respe 
-      <lb ed="#L" n="82"/>ctum ad ipsum sed magis econuerso. ideo attribuuntur cre 
-      <lb ed="#L" n="83"/>ature talia relatia. quia alia relatiua attribuuntur 
-      <lb ed="#L" n="84"/>deo.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e270">
-      ⁋ Preterea. non magis attribuitur deo aliquid quod 
-      <lb ed="#L" n="85"/>dicit respectum ad creaturam. quia creatura habet re 
-      <lb ed="#L" n="86"/>spectum ad ipsum. quam aliquid attribuitur causae create. quia 
-      <lb ed="#L" n="87"/>effectus suus habet respectu ad ipsam. sed tale quid n attri 
-      <lb ed="#L" n="88"/>buitur causae create. quia effectus eius habet respectum ad ipsum 
-      <lb ed="#L" n="89"/>ergo etc. Minor patet. quia cum causa creata secundum ipsum habeat 
-      <lb ed="#L" n="90"/>respectum realem. sequitur quod prius mutaretur causa ad
-      re<lb ed="#L" n="91" break="no"/>spectum realem quam effectus produceretur. Si dicatur quod 
-      <lb ed="#L" n="92"/>non est simile de causa creata et de deo. deus non refertur 
-      <lb ed="#L" n="93"/>realiter. sed tantum secundum rationem. sed causa creata refertur realiter. et 
-      <lb ed="#L" n="94"/>ideo non est simile. hoc non sufficit. quia non plus repugnat 
-      <lb ed="#L" n="95"/>respectui reali oriri ex alio respcum quam respectui 
-      <lb ed="#L" n="96"/>rationis. ergo non plus repugnat quod ex respectu effectus ori 
-      <lb ed="#L" n="97"/>atur respectus causae create quam dei. cum minus tam secundum 
-      <lb ed="#L" n="98"/>rem quam secundum rationem recipiat deus a creatura quam cum crea 
-      <lb ed="#L" n="99"/>tura ab effectum suo. Similiter si ex vno respectu
-      rea<lb ed="#L" n="100" break="no"/>li non oritur respectus realis sibi correspondens eadem ratione 
-      <lb ed="#L" n="101"/>ex respectu rationis non oritur respectus rationis sibi correspon 
-      <lb ed="#L" n="102"/>dens. sed respectus creature ad deum est respectus rationis. 
-      <lb ed="#L" n="103"/>quia non realis. quia illud quod non est non refertur: realiter. ergo 
-      <lb ed="#L" n="104"/>ex isto respectu non oritur respectus rationis dei ad cre 
-      <lb ed="#L" n="105"/>aturam
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e318">
-      ⁋ Preterea. contra illud quod dicitur quod posse dei 
-      <lb ed="#L" n="106"/>actiuum est prius posse creature passiuo et quod dicit 
-      <lb ed="#L" n="107"/>dignitatem simpliciter
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e325">
-      ⁋ Contra. impossibile est actiuum 
-      <lb ed="#L" n="108"/>qualitcunque consideretur dummodo sit actiuum quin respecum 
-      <lb ed="#L" n="109"/>alicuius dicatur actiuum. ergo neccessario illud posse actiuum 
-      <!--539.xml-->
-      <pb ed="#L" n="268-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>respectu alicuius est posse actiuum: sed non respectu 
-      <lb ed="#L" n="2"/>dei. quia deus non causat nec agit deum. ergo neccessari est re 
-      <lb ed="#L" n="3"/>spectu creature. ergo posse actiuum dei qualiturcumque con 
-      <lb ed="#L" n="4"/>sideretur dicitur respectu creature. ergo non couenit sibi 
-      <lb ed="#L" n="5"/>uisi quia dicitur ad ipsam. per primum dictum. ergo non dicit
-      di<lb ed="#L" n="6" break="no"/>gnitatem simpliciter per secundum dictum.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e351">
-      ⁋ Confirmatur. quia
-      di<lb ed="#L" n="7" break="no"/>cit quod sunt hic duo respectus in posse actiuo. sicut 
-      <lb ed="#L" n="8"/>sunt duo in posse passiuo. vnus scilicet respectu dei. tunc 
-      <lb ed="#L" n="9"/>quaero quo iste respectus est respectu dei. aut tamquae 
-      <lb ed="#L" n="10"/>respectu fundamenti. aut tanquam respectu termini 
-      <lb ed="#L" n="11"/>Si tanquam respectu fundamenti. ergo habet aliquem termi 
-      <lb ed="#L" n="12"/>num. et non nisi creaturam. ergo ille respectus terminatur 
-      <lb ed="#L" n="13"/>ad creaturam. ergo non primo couenit deo nec importat 
-      <lb ed="#L" n="14"/>dignitatem simpliciter. Si sit respectu dei tanquam
-      re<lb ed="#L" n="15" break="no"/>spectu termini. ergo cum actiuum dicatur ad passiuum sequi 
-      <lb ed="#L" n="16"/>tur quod deus esset passiuus. quod est impossibile. Et ita 
-      <lb ed="#L" n="17"/>manifeste patet. quod in ista propositione repugnantia 
-      <lb ed="#L" n="18"/>includitur.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e380">
-      ⁋ Alit dicitur quod prima ratio impossibilis non 
-      <lb ed="#L" n="19"/>est ex parte dei. sed quia illud est impossibile simpliciter
-      pro<lb ed="#L" n="20" break="no"/>pter repugnantiam eius vt fiat. quod declaratur sic. 
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e387">
-               <lb ed="#L" n="21"/>⁋ Impossibile simpliciter includit incompossibilia. quae 
-      <lb ed="#L" n="22"/>ex rationibus suis formalibus sunt incompossibilia: et 
-      <lb ed="#L" n="23"/>ab eo sunt principiatiue incompossibilia a quo prin 
-      <lb ed="#L" n="24"/>cipiatiue habent rationes suas formales. et ideo iste est  
-      <lb ed="#L" n="25"/>cessus. quod primo intellectus diuinus producit rem in esse 
-      <lb ed="#L" n="26"/>intelligibili in primo instanti nature. in secundo instam 
-      <lb ed="#L" n="27"/>ti nature habet seipso formaliter esse possibile. et sic sicut 
-      <lb ed="#L" n="28"/>deus suo intellectu producit possibile in esse
-      possi<lb ed="#L" n="29" break="no"/>bili. ita producit vtrumque incompossibilium quae includum 
-      <lb ed="#L" n="30"/>tur in impossibili in esse formaliter possibili. et illa pro 
-      <lb ed="#L" n="31"/>ducta seipsis formaliter sunt incompossibilia vt no 
-      <lb ed="#L" n="32"/>possint simul esse vnum nec aliquod tertium ex eis: et istam in 
-      <lb ed="#L" n="33"/>possibilitatem quam habent ex seipsis formaliter habent prin 
-      <lb ed="#L" n="34"/>cipiatiue ab eo quae ea produxit in esse possibili. et istam 
-      <lb ed="#L" n="35"/>incomnpossibilitatem eorum sequitur incompossibilitas 
-      <lb ed="#L" n="36"/>respectum cuiuscumque agentis. et ibi terminatur totus iste 
-      <lb ed="#L" n="37"/>processus. et non ad negationem possibilitatis in deo. 
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e427">
-               <lb ed="#L" n="38"/>⁋ Contra haec dicta primo potest argui. quia non videtur bene 
-      <lb ed="#L" n="39"/>dictum quod intellectus diuinus producit creaturam in esse in 
-      <lb ed="#L" n="40"/>telligibili. quia illud quod per aliquem actum nullum esse for 
-      <lb ed="#L" n="41"/>maliter recipit. sed tantum denominatur denominatione extrin 
-      <lb ed="#L" n="42"/>seca non producitur per talem actum. sed creatura per hoc quod
-      in<lb ed="#L" n="43" break="no"/>telligitur a deo nihil formaliter recipit: sed tantum denomina 
-      <lb ed="#L" n="44"/>tur quadam extrinseca denominatione. sicut obiectum
-      intelle<lb ed="#L" n="45" break="no"/>ctus creati non producitur per hoc quod intelligitur. sed tantum
-      de<lb ed="#L" n="46" break="no"/>nominatur quadam extrinseca denominatione. ergo creatura in ta 
-      <lb ed="#L" n="47"/>li esse intelligibili non producitur
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e451">
-      ⁋ Preterea. aut
-      crea<lb ed="#L" n="48" break="no"/>tura producitur in esse intelligibili: praecise quia intelligitur 
-      <lb ed="#L" n="49"/>aut quia prius nihil fuit. aut quia prius non erat intelligi 
-      <lb ed="#L" n="50"/>bile. Non propter primum. quia tunc essentia diuina vere produ 
-      <lb ed="#L" n="51"/>ceretur in esse intelligibili cum vere intelligatur. et tunc
-      quali<lb ed="#L" n="52" break="no"/>bet intelligens deum produceret ipsum in esse
-      intelligibi<lb ed="#L" n="53" break="no"/>li. Nec propter secundum quia etiam quando intelligitur creatura 
-      <lb ed="#L" n="54"/>tunc nihil est: quamuis sit intellecta. Nec propter tertium. quia 
-      <lb ed="#L" n="55"/>essentia diuina ante intellectionem suam non fuit intelligi¬ 
-      <!--539.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 268-v -->
-               <lb ed="#L" n="56"/>bilis.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e480">
-      ⁋ Preterea secundum istum numquam producitur aliquid in esse 
-      <lb ed="#L" n="57"/>telligibili nisi quia aliquid producitur in esse reali. sed secundum 
-      <lb ed="#L" n="58"/>istos creatura quando producitur per intellectum diuinum non 
-      <lb ed="#L" n="59"/>producitur nisi in esse intelligibili. ergo aliquid aliud prodi 
-      <lb ed="#L" n="60"/>citur in esse reali. sed nihil potest dari. sicut patet inductiue 
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e491">
-               <lb ed="#L" n="61"/>⁋ Preterea quod dicitur quod in primo instanti nature producitur 
-      <lb ed="#L" n="62"/>in esse intelligibili et in secundo instanti habet esse possibile. con 
-      <lb ed="#L" n="63"/>tra. accipio primum instans nature in quo intellectus pri 
-      <lb ed="#L" n="64"/>cedit in esse intelligibili creature. et quaero. Aut in illo 
-      <lb ed="#L" n="65"/>instanti creatura est possibilis. aut non est possibilis. Si 
-      <lb ed="#L" n="66"/>est possibilis. ergo est possibilis antequam producatur in esse intelligi 
-      <lb ed="#L" n="67"/>bili. Si non est possibilis. ergo sibi repugnat esse.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e509">
-      ⁋ Pre 
-      <lb ed="#L" n="68"/>terea quod dicitur quod status est in illo processu ad
-      impossibili<lb ed="#L" n="69" break="no"/>tatem respectu cuiuslibet agentis sine respectu 
-      <lb ed="#L" n="70"/>correspondente in deo. Contra. sicut in omni respectu creatu 
-      <lb ed="#L" n="71"/>re in esse possibili ad deum correspondet aliquis respectus 
-      <lb ed="#L" n="72"/>in deo ad creaturam in esse possibili. ita ad negatio 
-      <lb ed="#L" n="73"/>nem respectus correspondebit negatio respectus in deo 
-      <lb ed="#L" n="74"/>ad impossibile. ergo non est ibi status.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e527">
-      ⁋ Si dicatur quod respe 
-      <lb ed="#L" n="75"/>ctui creature in esse possibili ad deum
-      correspondetre<lb ed="#L" n="76" break="no"/>spectus in deo. Contra. aut ille respectus creature in 
-      <lb ed="#L" n="77"/>esse possibili est realis. aut est respectus rationis. Non realis. 
-      <lb ed="#L" n="78"/>qui non habet fundamentum reale. ergo est respectus rationis quai fit 
-      <lb ed="#L" n="79"/>per actum intellectus comprantis creaturam ad deum secundum istum 
-      <lb ed="#L" n="80"/>sed ita potest intellectus coprare deum ad creaturam sicut 
-      <lb ed="#L" n="81"/>econuerso. ergo ita potest esse respectus in deo ad creaturam 
-      <lb ed="#L" n="82"/>sicut econuerso. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e548">
-      ⁋ Ideo aliter dico ad. q. quod generaliter 
-      <lb ed="#L" n="83"/>omni relatiuo correspondet si conuenientur assignetur aliquod 
-      <lb ed="#L" n="84"/>correlatiuum. et in omnibus relatiuis quae vocantur relatiua 
-      <lb ed="#L" n="85"/>secundum positionem actiuam et passiuam vel causam et effectum. 
-      <lb ed="#L" n="86"/>semper correlativa sunt simul natura. et ideo quia sunt simul
-      natu<lb ed="#L" n="87" break="no"/>ra et mutuo se inferant. neutrum est magis causa alterius quam 
-      <lb ed="#L" n="88"/>econuerso. sicut quia pater et filius sunt simul natura. illo mo 
-      <lb ed="#L" n="89"/>quo loquitur philosophus in praedicamentis. c. de adaliquid de 
-      <lb ed="#L" n="90"/>simultate nature. non plus filius est filius. quia pater est pater. quam ecen 
-      <lb ed="#L" n="91"/>uerso nec etiam plus filius est quia pater est quam econuerso. nec 
-      <lb ed="#L" n="92"/>filius habet patrem quia pater habet filium. nec econuerso. Et ita 
-      <lb ed="#L" n="93"/>iviversaite quando est aliqua consequentia mutua tenens praecise per naturamn 
-      <lb ed="#L" n="94"/>correlatiuorum. non est vna propositio magis causa alterius quam 
-      <lb ed="#L" n="95"/>econuerso.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e579">
-      ⁋ Et quando quaeritur an primo conueniat deo 
-      <lb ed="#L" n="96"/>non posse facere impossibile. quam conueniat impossibi 
-      <lb ed="#L" n="97"/>li non posse fieri a deo.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e586">
-      ⁋ Dico quod non prius
-      compe<lb ed="#L" n="98" break="no"/>tit deo non posse facere quam competat impossibili non pos 
-      <lb ed="#L" n="99"/>se fieri a deo. Nec etiam prius competit impossibili ion 
-      <lb ed="#L" n="100"/>posse fieri quam deo non posse facere impossibile. Et 
-      <lb ed="#L" n="101"/>eodem modo dico de affirmatis quod non prius competit 
-      <lb ed="#L" n="102"/>deo posse facere possibile vel creaturam. quam
-      crea<lb ed="#L" n="103" break="no"/>ture posse fieri a deo. sed sunt simul natura eo modo quad 
-      <lb ed="#L" n="104"/>secundum philosophum factiuum et factibile sunt simul natura. hoc est. no 
-      <lb ed="#L" n="105"/>prius est aliquid factiuum quam aliquid est factibile nec ecom 
-      <lb ed="#L" n="106"/>uerso
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e608">
-      ⁋ Et si dicatur quod quicquid creatura habet a deo 
-      <lb ed="#L" n="107"/>habet ergo esse possibile competit sibi a deo. sed esse factiuum 
-      <lb ed="#L" n="108"/>non competit deo ab alio. sed a se. prius autem competit 
-      <lb ed="#L" n="109"/>aliquid alicui quod competit alicui a se. quam illud quod
-      con<lb ed="#L" n="110" break="no"/>petit sibi ab alio. ergo priuscompetit deo esse facti ium 
-      <!--540.xml-->
-      <pb ed="#L" n="269-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>quam creature esse factibile. ergo non simul.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e628">
-      ⁋ Dicendum quod 
-      <lb ed="#L" n="2"/>icquid creatura habet reale taquam aliquid sibi inherens 
-      <lb ed="#L" n="3"/>patet a deo tamquam a principio. sed non quicquid competit sibi in 
-      <lb ed="#L" n="4"/>praedicatione habet principatiue a deo. nisi illo modo quod 
-      <lb ed="#L" n="5"/>deus habet tales praedicationes a deo. quia tales praedicatum 
-      <lb ed="#L" n="6"/>ones quando sunt in actu et realiter tunc sunt a deo. et ideo ese 
-      <lb ed="#L" n="7"/>possibile competit creature ex se non realiter tamquam ali 
-      <lb ed="#L" n="8"/>quid sibi iheres. sed vere est possibilis ex se. sicut homo ex se est 
-      <lb ed="#L" n="9"/>non asinus. et ergo talia argumenta non valent nisi de com 
-      <lb ed="#L" n="10"/>uenienti realiter. quo totum habet partes et accidentia sua 
-      <lb ed="#L" n="11"/>nec est proprius modus loquendi dicere quod esse
-      possibi<lb ed="#L" n="12" break="no"/>le competit creature. sed magis proprie debet dici quod crea 
-      <lb ed="#L" n="13"/>tura est possibilis non propter aliquid quod sibi conueniat. 
-      <lb ed="#L" n="14"/>sed quia potest esse in rerum natura.
-    </p>
-            <p xml:id="wo8uy7-d1e1784-d1e659">
-      ⁋ Ad argumentum
-      prin<lb ed="#L" n="15" break="no"/>eipale dico quod non prius est deus factiuus quam creatura 
-      <lb ed="#L" n="16"/>est factibilis. immo ita primo est creatura factibilis si 
-      <lb ed="#L" n="17"/>cut deus est factiuus.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="268-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e1784"><!-- l1d43q2 -->
+        <head xml:id="wo8uy7-d1e1784-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e1784-d1e111">
+          Questio secunda 
+          <lb ed="#L" n="20"/>SEcundo quero. 
+          <lb ed="#L" n="21"/>Utrum prius conueniat deo non posse 
+          <lb ed="#L" n="22"/>facere impossibile. quam impossibili non 
+          <lb ed="#L" n="23"/>posse fieri a deo.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e122">
+          ⁋ Quod prius conueniat deo non pos 
+          <lb ed="#L" n="24"/>se facere impossibile videtur. quia prius conuenit deo face 
+          <lb ed="#L" n="25"/>re possibile quam possibili posse fieri a deo. ergo
+          eo<lb ed="#L" n="26" break="no"/>demmodo prius conuenit deo non posse facere impossibile 
+          <lb ed="#L" n="27"/>quam impossibile non posse fieri a deo. anden patet. quia esse 
+          <lb ed="#L" n="28"/>quod conuenit deo prius conuenit sibi quam aliquid conue 
+          <lb ed="#L" n="29"/>niat creature. ergo quam cuicumque alteri a deo. ergo cum 
+          <lb ed="#L" n="30"/>deo conueniat posse facere possibile fieri pus hoc 
+          <lb ed="#L" n="31"/>conuenit sibi quam conueniat cuicumque alteri posse fi 
+          <lb ed="#L" n="32"/>eri a deo. consequentia patet. quia pro quocumque instanti vel siei con 
+          <lb ed="#L" n="33"/>uenit deo posse facere possibile fieri. pro eodem
+          in<lb ed="#L" n="34" break="no"/>stanti sibi couenit non posse facere impossibile fie 
+          <lb ed="#L" n="35"/>ri. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e151">
+          ⁋ Ad oppositum. nihil quod importat
+          indi<lb ed="#L" n="36" break="no"/>gnitatem conuenit primo deo sed non posse facere impossi 
+          <lb ed="#L" n="37"/>bile fieri importat indignitatem. quia importat priuatio 
+          <lb ed="#L" n="38"/>nem vel negationem. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e160">
+          ⁋ Ad. q. dicitur quod quando aliquid  
+          <lb ed="#L" n="39"/>quod attribuitur deo secundum rationem sui nonis significat 
+          <lb ed="#L" n="40"/>aliquid quod non est dignitatis simpliciter. non sed se primo 
+          <lb ed="#L" n="41"/>attribuitur deo sed quia aliquid quod non est dignitatis at 
+          <lb ed="#L" n="42"/>tribuitur crcature ex respectu eius ad deum. ideo illud 
+          <lb ed="#L" n="43"/>deo attribuitur. et huiusmodi sunt non ia quae dicunt
+          respe<lb ed="#L" n="44" break="no"/>ctum in deo ad creaturas. quae ideo deo attribuuntur. quia 
+          <lb ed="#L" n="45"/>creature habent respectum ad ipsum secundum quod deo
+          attri<lb ed="#L" n="46" break="no"/>buitur esse domin. quia ex tempore habet suum et ideo attribuitur deo 
+          <lb ed="#L" n="47"/>posse aliquid actiue super creaturam quia creatura est in 
+          <lb ed="#L" n="48"/>est possibilis accipere actionem creatoris Dicitur tamen 
+          <lb ed="#L" n="49"/>quod posse tam actiuum dei quam passiuum creature potest du 
+          <lb ed="#L" n="50"/>plicitur considerari scilicet respectu sui subiecti et respe 
+          <lb ed="#L" n="51"/>ctu sui obiecti. Si possibile dei consideratur primo 
+          <lb ed="#L" n="52"/>modo. sic est prius quam posse creature qualiturcumque
+          conside<lb ed="#L" n="53" break="no"/>retur. quia posse sic consideratum dicit dignitatem simpliciter 
+          <lb ed="#L" n="54"/>Secuno modo non dicit dignitatem simpliciter. et ideo non co¬ 
+          <!--538.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 268-r -->
+          <lb ed="#L" n="55"/>petit: nisi quia posse passiuum competit creature
+          re<lb ed="#L" n="56" break="no"/>spectu dei. ideo dicit quod absolute loquendo non est 
+          <lb ed="#L" n="57"/>posse passiuum in creatura nisi quia est posse actiuum 
+          <lb ed="#L" n="58"/>in deo. vt cum quattuor sint respectus secundum posse scilicet duo 
+          <lb ed="#L" n="59"/>secundum posse actiuum. vnus scilicet quo posse dei comparatur ad  
+          <lb ed="#L" n="60"/>deum vt cuius est. alius vt compatur ad creaturam vt 
+          <lb ed="#L" n="61"/>ad quam est. et duo secundum posse passiuum scilicet vnus quo
+          comn<lb ed="#L" n="62" break="no"/>paratur ad creaturam cuius est. alius secundum quem copratur 
+          <lb ed="#L" n="63"/>ad deum vt ad quem est. In ipsis est talis ordo quod a 
+          <lb ed="#L" n="64"/>posse dei actiue secundum se est posse passiuum in
+          crea<lb ed="#L" n="65" break="no"/>tura secundum se. quod concomitatur posse passiuum creatu 
+          <lb ed="#L" n="66"/>re respectu dei. et ex posse passiuo creature
+          re<lb ed="#L" n="67" break="no"/>pectu dei dicitur deus active posse respectu
+          crea<lb ed="#L" n="68" break="no"/>ture. Contra. istam opinionem potest argui per
+          ipsm<lb ed="#L" n="69" break="no"/>met alibi. quia sict non dicitur deum impossibile aliquid  
+          <lb ed="#L" n="70"/>facere. quia illud impossibile est fieri. sed econuerso. quia 
+          <lb ed="#L" n="71"/>impossibile est deum hoc facere. ideo impossibile est hoc 
+          <lb ed="#L" n="72"/>fieri. ita dicitur in affirmatiua. quod quia possibile est deum 
+          <lb ed="#L" n="73"/>hoc facere. ideo possibile est hoc fieri. et non econuerso. 
+          <lb ed="#L" n="74"/>quia non ideo dicitur posse deum hoc facere: quia hoc possibile 
+          <lb ed="#L" n="75"/>est fieri. Ex isto patet. quod prius competit deo posse
+          fa<lb ed="#L" n="76" break="no"/>cere respectu creature. quam competat creature
+          pos<lb ed="#L" n="77" break="no"/>se passiuum respectu dei. ergo eodem modo prius couenit 
+          <lb ed="#L" n="78"/>deo non posse facere impossibile quam impossibili non 
+          <lb ed="#L" n="79"/>posse fieri a deo. Et ex isto patet manifeste. quod ipse. 
+          <lb ed="#L" n="80"/>habet dicere quod non quodlibet quod dicit respectum ad cre 
+          <lb ed="#L" n="81"/>aturam attribuitur deo. quia creature habent respe 
+          <lb ed="#L" n="82"/>ctum ad ipsum sed magis econuerso. ideo attribuuntur cre 
+          <lb ed="#L" n="83"/>ature talia relatia. quia alia relatiua attribuuntur 
+          <lb ed="#L" n="84"/>deo.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e270">
+          ⁋ Preterea. non magis attribuitur deo aliquid quod 
+          <lb ed="#L" n="85"/>dicit respectum ad creaturam. quia creatura habet re 
+          <lb ed="#L" n="86"/>spectum ad ipsum. quam aliquid attribuitur causae create. quia 
+          <lb ed="#L" n="87"/>effectus suus habet respectu ad ipsam. sed tale quid n attri 
+          <lb ed="#L" n="88"/>buitur causae create. quia effectus eius habet respectum ad ipsum 
+          <lb ed="#L" n="89"/>ergo etc. Minor patet. quia cum causa creata secundum ipsum habeat 
+          <lb ed="#L" n="90"/>respectum realem. sequitur quod prius mutaretur causa ad
+          re<lb ed="#L" n="91" break="no"/>spectum realem quam effectus produceretur. Si dicatur quod 
+          <lb ed="#L" n="92"/>non est simile de causa creata et de deo. deus non refertur 
+          <lb ed="#L" n="93"/>realiter. sed tantum secundum rationem. sed causa creata refertur realiter. et 
+          <lb ed="#L" n="94"/>ideo non est simile. hoc non sufficit. quia non plus repugnat 
+          <lb ed="#L" n="95"/>respectui reali oriri ex alio respcum quam respectui 
+          <lb ed="#L" n="96"/>rationis. ergo non plus repugnat quod ex respectu effectus ori 
+          <lb ed="#L" n="97"/>atur respectus causae create quam dei. cum minus tam secundum 
+          <lb ed="#L" n="98"/>rem quam secundum rationem recipiat deus a creatura quam cum crea 
+          <lb ed="#L" n="99"/>tura ab effectum suo. Similiter si ex vno respectu
+          rea<lb ed="#L" n="100" break="no"/>li non oritur respectus realis sibi correspondens eadem ratione 
+          <lb ed="#L" n="101"/>ex respectu rationis non oritur respectus rationis sibi correspon 
+          <lb ed="#L" n="102"/>dens. sed respectus creature ad deum est respectus rationis. 
+          <lb ed="#L" n="103"/>quia non realis. quia illud quod non est non refertur: realiter. ergo 
+          <lb ed="#L" n="104"/>ex isto respectu non oritur respectus rationis dei ad cre 
+          <lb ed="#L" n="105"/>aturam
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e318">
+          ⁋ Preterea. contra illud quod dicitur quod posse dei 
+          <lb ed="#L" n="106"/>actiuum est prius posse creature passiuo et quod dicit 
+          <lb ed="#L" n="107"/>dignitatem simpliciter
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e325">
+          ⁋ Contra. impossibile est actiuum 
+          <lb ed="#L" n="108"/>qualitcunque consideretur dummodo sit actiuum quin respecum 
+          <lb ed="#L" n="109"/>alicuius dicatur actiuum. ergo neccessario illud posse actiuum 
+          <!--539.xml-->
+          <pb ed="#L" n="268-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>respectu alicuius est posse actiuum: sed non respectu 
+          <lb ed="#L" n="2"/>dei. quia deus non causat nec agit deum. ergo neccessari est re 
+          <lb ed="#L" n="3"/>spectu creature. ergo posse actiuum dei qualiturcumque con 
+          <lb ed="#L" n="4"/>sideretur dicitur respectu creature. ergo non couenit sibi 
+          <lb ed="#L" n="5"/>uisi quia dicitur ad ipsam. per primum dictum. ergo non dicit
+          di<lb ed="#L" n="6" break="no"/>gnitatem simpliciter per secundum dictum.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e351">
+          ⁋ Confirmatur. quia
+          di<lb ed="#L" n="7" break="no"/>cit quod sunt hic duo respectus in posse actiuo. sicut 
+          <lb ed="#L" n="8"/>sunt duo in posse passiuo. vnus scilicet respectu dei. tunc 
+          <lb ed="#L" n="9"/>quaero quo iste respectus est respectu dei. aut tamquae 
+          <lb ed="#L" n="10"/>respectu fundamenti. aut tanquam respectu termini 
+          <lb ed="#L" n="11"/>Si tanquam respectu fundamenti. ergo habet aliquem termi 
+          <lb ed="#L" n="12"/>num. et non nisi creaturam. ergo ille respectus terminatur 
+          <lb ed="#L" n="13"/>ad creaturam. ergo non primo couenit deo nec importat 
+          <lb ed="#L" n="14"/>dignitatem simpliciter. Si sit respectu dei tanquam
+          re<lb ed="#L" n="15" break="no"/>spectu termini. ergo cum actiuum dicatur ad passiuum sequi 
+          <lb ed="#L" n="16"/>tur quod deus esset passiuus. quod est impossibile. Et ita 
+          <lb ed="#L" n="17"/>manifeste patet. quod in ista propositione repugnantia 
+          <lb ed="#L" n="18"/>includitur.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e380">
+          ⁋ Alit dicitur quod prima ratio impossibilis non 
+          <lb ed="#L" n="19"/>est ex parte dei. sed quia illud est impossibile simpliciter
+          pro<lb ed="#L" n="20" break="no"/>pter repugnantiam eius vt fiat. quod declaratur sic. 
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e387">
+          <lb ed="#L" n="21"/>⁋ Impossibile simpliciter includit incompossibilia. quae 
+          <lb ed="#L" n="22"/>ex rationibus suis formalibus sunt incompossibilia: et 
+          <lb ed="#L" n="23"/>ab eo sunt principiatiue incompossibilia a quo prin 
+          <lb ed="#L" n="24"/>cipiatiue habent rationes suas formales. et ideo iste est  
+          <lb ed="#L" n="25"/>cessus. quod primo intellectus diuinus producit rem in esse 
+          <lb ed="#L" n="26"/>intelligibili in primo instanti nature. in secundo instam 
+          <lb ed="#L" n="27"/>ti nature habet seipso formaliter esse possibile. et sic sicut 
+          <lb ed="#L" n="28"/>deus suo intellectu producit possibile in esse
+          possi<lb ed="#L" n="29" break="no"/>bili. ita producit vtrumque incompossibilium quae includum 
+          <lb ed="#L" n="30"/>tur in impossibili in esse formaliter possibili. et illa pro 
+          <lb ed="#L" n="31"/>ducta seipsis formaliter sunt incompossibilia vt no 
+          <lb ed="#L" n="32"/>possint simul esse vnum nec aliquod tertium ex eis: et istam in 
+          <lb ed="#L" n="33"/>possibilitatem quam habent ex seipsis formaliter habent prin 
+          <lb ed="#L" n="34"/>cipiatiue ab eo quae ea produxit in esse possibili. et istam 
+          <lb ed="#L" n="35"/>incomnpossibilitatem eorum sequitur incompossibilitas 
+          <lb ed="#L" n="36"/>respectum cuiuscumque agentis. et ibi terminatur totus iste 
+          <lb ed="#L" n="37"/>processus. et non ad negationem possibilitatis in deo. 
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e427">
+          <lb ed="#L" n="38"/>⁋ Contra haec dicta primo potest argui. quia non videtur bene 
+          <lb ed="#L" n="39"/>dictum quod intellectus diuinus producit creaturam in esse in 
+          <lb ed="#L" n="40"/>telligibili. quia illud quod per aliquem actum nullum esse for 
+          <lb ed="#L" n="41"/>maliter recipit. sed tantum denominatur denominatione extrin 
+          <lb ed="#L" n="42"/>seca non producitur per talem actum. sed creatura per hoc quod
+          in<lb ed="#L" n="43" break="no"/>telligitur a deo nihil formaliter recipit: sed tantum denomina 
+          <lb ed="#L" n="44"/>tur quadam extrinseca denominatione. sicut obiectum
+          intelle<lb ed="#L" n="45" break="no"/>ctus creati non producitur per hoc quod intelligitur. sed tantum
+          de<lb ed="#L" n="46" break="no"/>nominatur quadam extrinseca denominatione. ergo creatura in ta 
+          <lb ed="#L" n="47"/>li esse intelligibili non producitur
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e451">
+          ⁋ Preterea. aut
+          crea<lb ed="#L" n="48" break="no"/>tura producitur in esse intelligibili: praecise quia intelligitur 
+          <lb ed="#L" n="49"/>aut quia prius nihil fuit. aut quia prius non erat intelligi 
+          <lb ed="#L" n="50"/>bile. Non propter primum. quia tunc essentia diuina vere produ 
+          <lb ed="#L" n="51"/>ceretur in esse intelligibili cum vere intelligatur. et tunc
+          quali<lb ed="#L" n="52" break="no"/>bet intelligens deum produceret ipsum in esse
+          intelligibi<lb ed="#L" n="53" break="no"/>li. Nec propter secundum quia etiam quando intelligitur creatura 
+          <lb ed="#L" n="54"/>tunc nihil est: quamuis sit intellecta. Nec propter tertium. quia 
+          <lb ed="#L" n="55"/>essentia diuina ante intellectionem suam non fuit intelligi¬ 
+          <!--539.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 268-v -->
+          <lb ed="#L" n="56"/>bilis.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e480">
+          ⁋ Preterea secundum istum numquam producitur aliquid in esse 
+          <lb ed="#L" n="57"/>telligibili nisi quia aliquid producitur in esse reali. sed secundum 
+          <lb ed="#L" n="58"/>istos creatura quando producitur per intellectum diuinum non 
+          <lb ed="#L" n="59"/>producitur nisi in esse intelligibili. ergo aliquid aliud prodi 
+          <lb ed="#L" n="60"/>citur in esse reali. sed nihil potest dari. sicut patet inductiue 
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e491">
+          <lb ed="#L" n="61"/>⁋ Preterea quod dicitur quod in primo instanti nature producitur 
+          <lb ed="#L" n="62"/>in esse intelligibili et in secundo instanti habet esse possibile. con 
+          <lb ed="#L" n="63"/>tra. accipio primum instans nature in quo intellectus pri 
+          <lb ed="#L" n="64"/>cedit in esse intelligibili creature. et quaero. Aut in illo 
+          <lb ed="#L" n="65"/>instanti creatura est possibilis. aut non est possibilis. Si 
+          <lb ed="#L" n="66"/>est possibilis. ergo est possibilis antequam producatur in esse intelligi 
+          <lb ed="#L" n="67"/>bili. Si non est possibilis. ergo sibi repugnat esse.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e509">
+          ⁋ Pre 
+          <lb ed="#L" n="68"/>terea quod dicitur quod status est in illo processu ad
+          impossibili<lb ed="#L" n="69" break="no"/>tatem respectu cuiuslibet agentis sine respectu 
+          <lb ed="#L" n="70"/>correspondente in deo. Contra. sicut in omni respectu creatu 
+          <lb ed="#L" n="71"/>re in esse possibili ad deum correspondet aliquis respectus 
+          <lb ed="#L" n="72"/>in deo ad creaturam in esse possibili. ita ad negatio 
+          <lb ed="#L" n="73"/>nem respectus correspondebit negatio respectus in deo 
+          <lb ed="#L" n="74"/>ad impossibile. ergo non est ibi status.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e527">
+          ⁋ Si dicatur quod respe 
+          <lb ed="#L" n="75"/>ctui creature in esse possibili ad deum
+          correspondetre<lb ed="#L" n="76" break="no"/>spectus in deo. Contra. aut ille respectus creature in 
+          <lb ed="#L" n="77"/>esse possibili est realis. aut est respectus rationis. Non realis. 
+          <lb ed="#L" n="78"/>qui non habet fundamentum reale. ergo est respectus rationis quai fit 
+          <lb ed="#L" n="79"/>per actum intellectus comprantis creaturam ad deum secundum istum 
+          <lb ed="#L" n="80"/>sed ita potest intellectus coprare deum ad creaturam sicut 
+          <lb ed="#L" n="81"/>econuerso. ergo ita potest esse respectus in deo ad creaturam 
+          <lb ed="#L" n="82"/>sicut econuerso. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e548">
+          ⁋ Ideo aliter dico ad. q. quod generaliter 
+          <lb ed="#L" n="83"/>omni relatiuo correspondet si conuenientur assignetur aliquod 
+          <lb ed="#L" n="84"/>correlatiuum. et in omnibus relatiuis quae vocantur relatiua 
+          <lb ed="#L" n="85"/>secundum positionem actiuam et passiuam vel causam et effectum. 
+          <lb ed="#L" n="86"/>semper correlativa sunt simul natura. et ideo quia sunt simul
+          natu<lb ed="#L" n="87" break="no"/>ra et mutuo se inferant. neutrum est magis causa alterius quam 
+          <lb ed="#L" n="88"/>econuerso. sicut quia pater et filius sunt simul natura. illo mo 
+          <lb ed="#L" n="89"/>quo loquitur philosophus in praedicamentis. c. de adaliquid de 
+          <lb ed="#L" n="90"/>simultate nature. non plus filius est filius. quia pater est pater. quam ecen 
+          <lb ed="#L" n="91"/>uerso nec etiam plus filius est quia pater est quam econuerso. nec 
+          <lb ed="#L" n="92"/>filius habet patrem quia pater habet filium. nec econuerso. Et ita 
+          <lb ed="#L" n="93"/>iviversaite quando est aliqua consequentia mutua tenens praecise per naturamn 
+          <lb ed="#L" n="94"/>correlatiuorum. non est vna propositio magis causa alterius quam 
+          <lb ed="#L" n="95"/>econuerso.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e579">
+          ⁋ Et quando quaeritur an primo conueniat deo 
+          <lb ed="#L" n="96"/>non posse facere impossibile. quam conueniat impossibi 
+          <lb ed="#L" n="97"/>li non posse fieri a deo.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e586">
+          ⁋ Dico quod non prius
+          compe<lb ed="#L" n="98" break="no"/>tit deo non posse facere quam competat impossibili non pos 
+          <lb ed="#L" n="99"/>se fieri a deo. Nec etiam prius competit impossibili ion 
+          <lb ed="#L" n="100"/>posse fieri quam deo non posse facere impossibile. Et 
+          <lb ed="#L" n="101"/>eodem modo dico de affirmatis quod non prius competit 
+          <lb ed="#L" n="102"/>deo posse facere possibile vel creaturam. quam
+          crea<lb ed="#L" n="103" break="no"/>ture posse fieri a deo. sed sunt simul natura eo modo quad 
+          <lb ed="#L" n="104"/>secundum philosophum factiuum et factibile sunt simul natura. hoc est. no 
+          <lb ed="#L" n="105"/>prius est aliquid factiuum quam aliquid est factibile nec ecom 
+          <lb ed="#L" n="106"/>uerso
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e608">
+          ⁋ Et si dicatur quod quicquid creatura habet a deo 
+          <lb ed="#L" n="107"/>habet ergo esse possibile competit sibi a deo. sed esse factiuum 
+          <lb ed="#L" n="108"/>non competit deo ab alio. sed a se. prius autem competit 
+          <lb ed="#L" n="109"/>aliquid alicui quod competit alicui a se. quam illud quod
+          con<lb ed="#L" n="110" break="no"/>petit sibi ab alio. ergo priuscompetit deo esse facti ium 
+          <!--540.xml-->
+          <pb ed="#L" n="269-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quam creature esse factibile. ergo non simul.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e628">
+          ⁋ Dicendum quod 
+          <lb ed="#L" n="2"/>icquid creatura habet reale taquam aliquid sibi inherens 
+          <lb ed="#L" n="3"/>patet a deo tamquam a principio. sed non quicquid competit sibi in 
+          <lb ed="#L" n="4"/>praedicatione habet principatiue a deo. nisi illo modo quod 
+          <lb ed="#L" n="5"/>deus habet tales praedicationes a deo. quia tales praedicatum 
+          <lb ed="#L" n="6"/>ones quando sunt in actu et realiter tunc sunt a deo. et ideo ese 
+          <lb ed="#L" n="7"/>possibile competit creature ex se non realiter tamquam ali 
+          <lb ed="#L" n="8"/>quid sibi iheres. sed vere est possibilis ex se. sicut homo ex se est 
+          <lb ed="#L" n="9"/>non asinus. et ergo talia argumenta non valent nisi de com 
+          <lb ed="#L" n="10"/>uenienti realiter. quo totum habet partes et accidentia sua 
+          <lb ed="#L" n="11"/>nec est proprius modus loquendi dicere quod esse
+          possibi<lb ed="#L" n="12" break="no"/>le competit creature. sed magis proprie debet dici quod crea 
+          <lb ed="#L" n="13"/>tura est possibilis non propter aliquid quod sibi conueniat. 
+          <lb ed="#L" n="14"/>sed quia potest esse in rerum natura.
+        </p>
+        <p xml:id="wo8uy7-d1e1784-d1e659">
+          ⁋ Ad argumentum
+          prin<lb ed="#L" n="15" break="no"/>eipale dico quod non prius est deus factiuus quam creatura 
+          <lb ed="#L" n="16"/>est factibilis. immo ita primo est creatura factibilis si 
+          <lb ed="#L" n="17"/>cut deus est factiuus.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

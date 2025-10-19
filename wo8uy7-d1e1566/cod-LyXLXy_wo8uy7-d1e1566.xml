@@ -1,325 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="246-r"/>
-            <cb ed="#L" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e1566"><!-- l1d35q1 -->
-            <head xml:id="wo8uy7-d1e1566-Hd1e108">Quaestio 1</head>
-            <p xml:id="wo8uy7-d1e1566-d1e111">
-               <lb ed="#L" n="100"/>⁋ Distinctionis. xxxv. Questio prima. 
-      <lb ed="#L" n="101"/>CIrca
-      distin<lb ed="#L" n="102" break="no"/>ctionem. xxxv. quero primo 
-      <lb ed="#L" n="103"/>Utrum in deo sit scientia ex 
-      <lb ed="#L" n="104"/>natura rei.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e124">
-      ⁋ Quod non. quia 
-      <lb ed="#L" n="105"/>scientia est effectus
-      demonstra<lb ed="#L" n="106" break="no"/>tionis. sed nihil in deo est
-      effe<lb ed="#L" n="107" break="no"/>ctus cuiuscumque. ergo in deo non est scientia.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e133">
-      ⁋ Secundo. quia in 
-      <lb ed="#L" n="108"/>deo nullus est habitus. sed omnis scientia est habitus quadam. ergo 
-      <!--495.xml-->
-      <pb ed="#L" n="246-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>etc. maior patet. quia omnis habitus respicit aliquem actum 
-      <lb ed="#L" n="2"/>nobiliore se. sed nihil est nobilius quocumque quod est in 
-      <lb ed="#L" n="3"/>deo. ergo nullus habitus est in deo.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e151">
-      ⁋ Tertio. quia secundum philosophu 
-      <lb ed="#L" n="4"/>v. metha. scientia realiter refertur ad scibile. sed nihil est in 
-      <lb ed="#L" n="5"/>deo quod realiter refertur. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e159">
-      ⁋ Ad oppositum. Inte 
-      <lb ed="#L" n="6"/>ectus est in deo ex natura rei. et quia omnis intellectus vel 
-      <lb ed="#L" n="7"/>est actu sciens vel potest esse sciens. sed intellectus diuinus 
-      <lb ed="#L" n="8"/>non est in potentia. ergo est actu sciens.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e168">
-      ⁋ Ad. q. dicitur quod sic. 
-      <lb ed="#L" n="9"/>qui cognoscentia a non cognoscentibus in hoc distinguum 
-      <lb ed="#L" n="10"/>tur. quod non cognoscens nihil habet nisi suam formam tantum 
-      <lb ed="#L" n="11"/>sed cognoscens natum est habete formam alterius rei in
-      co<lb ed="#L" n="12" break="no"/>gnoscente etc. Natura autem rei non cognoscentis est 
-      <lb ed="#L" n="13"/>magis artata et limitata. sed coartatio non est
-      nisi<lb ed="#L" n="14" break="no"/>per materiam. ergo immaterialitas rei ratio est quod est cogniti 
-      <lb ed="#L" n="15"/>ua. sed deus est in summo immaterialis. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e186">
-      ⁋
-      Quan<lb ed="#L" n="16" break="no"/>uis conclusio est vera secundum bonum intellectum. tamen ista 
-      <lb ed="#L" n="17"/>ratio est insufficiens Primo quia prima propositio quam accipit 
-      <lb ed="#L" n="18"/>est falsa quia non est magis de ratione non cognoscentis no 
-      <lb ed="#L" n="19"/>habere aliud quam formam suam quam de ratione cognoscentur 
-      <lb ed="#L" n="20"/>Nam ita potest non cognoscens recipere aliquid ab alio 
-      <lb ed="#L" n="21"/>sicut cognoscens. Et si dicas quod non cognoscens 
-      <lb ed="#L" n="22"/>non recipit speciem rei. hoc non valet. quia si per
-      spe<lb ed="#L" n="23" break="no"/>ciem intelligis aliud quam cognitionem non plus recipit 
-      <lb ed="#L" n="24"/>cognosces speciem rei quam non cognosces. Tum quia si 
-      <lb ed="#L" n="25"/>cut alias ostendetur talis species non est ponenda. Tum 
-      <lb ed="#L" n="26"/>secundum istos etiam medium recipit speciem rei. Si autem per 
-      <lb ed="#L" n="27"/>speciem intelligis cognitionem hoc est petere. et nihil 
-      <lb ed="#L" n="28"/>ad propositum. Si aut dicatur quod medium non recipit 
-      <lb ed="#L" n="29"/>immaterialiter sed materialiter. Contra secundum istos. omne 
-      <lb ed="#L" n="30"/>receptum est in recipiente per modum recipientis. ergo quod 
-      <lb ed="#L" n="31"/>species recipitur immaterialiter. hoc est quia recipiens est ima 
-      <lb ed="#L" n="32"/>teriale. ergo ex immaterialitate rei deberet magis 
-      <lb ed="#L" n="33"/>concludi talis receptio quam econuerso. cuius tamen conrium 
-      <lb ed="#L" n="34"/>facit.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e230">
-      ⁋ Preterea deus est maxime cognoscens. et tamen 
-      <lb ed="#L" n="35"/>non est natus habere formam cuiuscumque alterius. nec
-      spe<lb ed="#L" n="36" break="no"/>cies rei est in deo. ergo per hoc non cognoscens non distingui 
-      <lb ed="#L" n="37"/>tur a cognoscente.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e239">
-      ⁋ Preterea quod dicit quod immater 
-      <lb ed="#L" n="38"/>alitas est causa quod aliquid sit cognitiuum est falsum quia mul 
-      <lb ed="#L" n="39"/>ta accidentia sunt immaterialia. et tamen non sunt cogni 
-      <lb ed="#L" n="40"/>tiua. Similiter secundum commen. forma celi est immaterialis et 
-      <lb ed="#L" n="41"/>tamen non est cognitiua Similiter dare esse materie non impe 
-      <lb ed="#L" n="42"/>dit cognitionem. quia numquam posset anima coniuncta siue 
-      <lb ed="#L" n="43"/>in statu vie siue patrie ita perfecte intelligere sicut 
-      <lb ed="#L" n="44"/>sempata. ergo nec aptitudo ad informandum impedit. 
-      <lb ed="#L" n="45"/>Ideo dico aliter ad. q. quod immaterialitas non est 
-      <lb ed="#L" n="46"/>ca quare aliquid est cognitiuum. quia non videtur quod includit
-      contra<lb ed="#L" n="47" break="no"/>dictionem aliquam formam nullius alterius forme sub 
-      <lb ed="#L" n="48"/>stantialis receptiuam. nec potentem informare
-      mate<lb ed="#L" n="49" break="no"/>riam posse fieri a deo illo modo quo ponit commen. quod 
-      <lb ed="#L" n="50"/>in celo non est materia. quia ipse ponit quod non est
-      composi<lb ed="#L" n="51" break="no"/>tum ex materia et forma substantiali. et tamen
-      possibi<lb ed="#L" n="52" break="no"/>le esset talem formam simpliciter esse non cognitiuam. Nec 
-      <lb ed="#L" n="53"/>potest aliqua ratio generaliter dari quare aliquid est
-      cogniti<lb ed="#L" n="54" break="no"/>uum. sed ex natura rei habet quod sit cognitiuum vel quod no 
-      <lb ed="#L" n="55"/>sit cognitiuum. Ideo primo videndum est au in deo sit 
-      <!--495.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 246-v -->
-               <lb ed="#L" n="56"/>scientia. Secundo ante possit aliquo modo a priori proba 
-      <lb ed="#L" n="57"/>ri. Tertio quomodo se habeat scientia ad diuinam 
-      <lb ed="#L" n="58"/>essentiam.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e294">
-      ⁋ Circa primum dico: quod scientia vno modo 
-      <lb ed="#L" n="59"/>accipitur pro notitia alicuius complexi. nata causari ex 
-      <lb ed="#L" n="60"/>aliquibus praemissis. de quo dictum est in prologo. Alio 
-      <lb ed="#L" n="61"/>non accipitur generaliter pro omni notitia
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e304">
-      ⁋ Primo non est 
-      <lb ed="#L" n="62"/>deo. secundo modo est in deo. quia secundum sanctos et philosophos 
-      <lb ed="#L" n="63"/>deus vere est intelligens et cognoscens.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e311">
-      ⁋ Circa secundum 
-      <lb ed="#L" n="64"/>dico quod demonstratio a priori accipitur multiplicitur 
-      <lb ed="#L" n="65"/>scilicet largissime et sic potest aliquo modo concedi quod potest 
-      <lb ed="#L" n="66"/>prbaria priori. quia quandocumque arguitur ab vna propositione 
-      <lb ed="#L" n="67"/>ad aliam formali consequentia et econuerso non est consequentia forma 
-      <lb ed="#L" n="68"/>lis. ibi potest esse probatio aliquo modo a priore. sed hoc est 
-      <lb ed="#L" n="69"/>onsequentia bona et formalis. deus est summum ens. ergo est intelli 
-      <lb ed="#L" n="70"/>gens sciens et cognoscens. et non sequitur ecouerso. ergo 
-      <lb ed="#L" n="71"/>cum propositiones sunt simpliciter necessarie aliquo modo est de 
-      <lb ed="#L" n="72"/>monstratio a priori. tamen si intellectus posset
-      compone<lb ed="#L" n="73" break="no"/>re scientiam quae est in deo cum deo. nullo modo esset talis proba 
-      <lb ed="#L" n="74"/>tio a priori. non tamen est intelligendum quod aliquid sit ratio et causa 
-      <lb ed="#L" n="75"/>quare deus sit sciens. quia nullam causam habet. sed tantum denotatur 
-      <lb ed="#L" n="76"/>quod hec propositio deus est summum bonum sit aliquo modo
-      pri<lb ed="#L" n="77" break="no"/>or ista. deus est intelligens. pro quanto hic praedicatur con 
-      <lb ed="#L" n="78"/>uertibile de conuertibili. Non autem in secunda propositione. 
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e346">
-               <lb ed="#L" n="79"/>⁋ Circa tertium dico quod scientia quae est deus est
-      rea<lb ed="#L" n="80" break="no"/>liter et ex natura rei diuina essentia. et nullo 
-      <lb ed="#L" n="81"/>modo per considerationem intellectus. quia consideratio in 
-      <lb ed="#L" n="82"/>tellectus non plus facit quod deus sit sciens: quam quod deus sit 
-      <lb ed="#L" n="83"/>essentia vel deus. Nec etiam scientia distinguitur 
-      <lb ed="#L" n="84"/>formaliter a diuina essentia. sed est tanta et omni idem 
-      <lb ed="#L" n="85"/>titate eadem diuine essentie quae essentia est eadem
-      di<lb ed="#L" n="86" break="no"/>uine essentie et hoc propter dicta superius in secunda dist 
-      <lb ed="#L" n="87"/>ctione.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e368">
-      ⁋ Sed con hoc potest argui. quia proprie dicitur de 
-      <lb ed="#L" n="88"/>deo. deus est substantia intellectualis. sed intellectu 
-      <lb ed="#L" n="89"/>non praedicatur deo in quid. sed magis praedicatur de deo per 
-      <lb ed="#L" n="90"/>modum dicere. et per consequens intellectus non est omni modo idem 
-      <lb ed="#L" n="91"/>cum essentia. et per consequens multo fortius nec essentia¬ 
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e379">
-               <lb ed="#L" n="92"/>⁋ Preterea quecumque ordinem haberent aliqua si
-      es<lb ed="#L" n="93" break="no"/>sent distincta realiter. eundem ordinem haberet vbi 
-      <lb ed="#L" n="94"/>non sunt distincta realiter. sed sunt ibi vere per identitatem. 
-      <lb ed="#L" n="95"/>ed si scientia et intellectus distinguerentur realiter in deo
-      intelle<lb ed="#L" n="96" break="no"/>ctus esset proximior. ergo etiam modo secundum rationem intellectus 
-      <lb ed="#L" n="97"/>est proximior quam scientia. et per consequens scientia non est omni modo ea 
-      <lb ed="#L" n="98"/>dem cum essentia.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e397">
-      ⁋ Ad primum illorum dico quod nec sci 
-      <lb ed="#L" n="99"/>entia nec intellectus nec aliquod tale de deo praedica 
-      <lb ed="#L" n="100"/>tur permodum dicere nec denominatiue. nisi forte quantum 
-      <lb ed="#L" n="101"/>ad vocem. sed semper per tales praedicationes oportet
-      essen<lb ed="#L" n="102" break="no"/>tiales et in quid intelligi. et ideo per istam. deus est intelle 
-      <lb ed="#L" n="103"/>ctualis debet intelligi ista. deus est intellectus. Et eo 
-      <lb ed="#L" n="104"/>dem modo per istam. deus est substantia intellectualis debet 
-      <lb ed="#L" n="105"/>intelligi ista. deus est substantia quae est intellectus. si 
-      <lb ed="#L" n="106"/>cut dicimus quod hec est creatura salis. id est. hoc est cre 
-      <lb ed="#L" n="107"/>atura quae est sal. et ita talis constructio intransitiua dieibet 
-      <lb ed="#L" n="108"/>per omns tales intelligi.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e422">
-      ⁋ Et si dicatur: quod eadem 
-      <lb ed="#L" n="109"/>ratione posset dici quod deus est intellectus
-      volun<lb ed="#L" n="110" break="no"/>tatis. quia deus est intellectus quae est voluntas. et quod sortes 
-      <!--496.xml-->
-      <pb ed="#L" n="247-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>est animal humanum. quia sortes est animal quod est homo. 
-      <lb ed="#L" n="2"/>Et tunc posset dici quod albedo est qualitas colorata. 
-      <lb ed="#L" n="3"/>qui est qualitas quaest color. et multa absurda deberent 
-      <lb ed="#L" n="4"/>concedi.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e444">
-      ⁋ Respondeo. quod multa ex vi vtentium
-      con<lb ed="#L" n="5" break="no"/>ceduntur. et tamen consimilia in aliis terminis non conceduntur 
-      <lb ed="#L" n="6"/>sicut conceditur quod hic est constructio intransitiua. crea 
-      <lb ed="#L" n="7"/>ura salis. hoc est creatura quae est sal. et talia. et tamen ista. 
-      <lb ed="#L" n="8"/>sortes est creatura hominis non conceditur et ita de mul 
-      <lb ed="#L" n="9"/>tis est ex vsu vtentium quod propter aliquam commoditatem 
-      <lb ed="#L" n="10"/>vel necessitatem conceditur aliqua determinata con 
-      <lb ed="#L" n="11"/>structio inter aliquos terminos. et tamen inter alios 
-      <lb ed="#L" n="12"/>terminos conformiter se habentes non conceditur con 
-      <lb ed="#L" n="13"/>structio consimilis. Unde dicimus quod aliquis habet album co 
-      <lb ed="#L" n="14"/>lorem et nigru colorem. similiter quod aliquid habet amarum
-      sapo<lb ed="#L" n="15" break="no"/>rem et aliquid habet dulcem saporem. et tamen quod aliquis
-      habe<lb ed="#L" n="16" break="no"/>at habitum scientem vel habitum ignorantem non dici 
-      <lb ed="#L" n="17"/>nus. et tamen scientia est per se inferius ad habitum sicut albedo 
-      <lb ed="#L" n="18"/>et nigredo ad colorem. et amaritudo et dulcedo 
-      <lb ed="#L" n="19"/>ad saporem. Similiter dicimus quod iste habet habitum scientie 
-      <lb ed="#L" n="20"/>vel habitum erroris. et tamen quod aliquid habeat colorem 
-      <lb ed="#L" n="21"/>albedinis vel nigredinis non dicimus. et ita est de 
-      <lb ed="#L" n="22"/>nultis talibus quod aliqua constructio conceditur inter ali 
-      <lb ed="#L" n="23"/>qua. et tamen inter alia consimilia non conceditur. Nec est hic 
-      <lb ed="#L" n="24"/>aliqua causa quaerenda nisi voluntas vtentium. tamen alii
-      fre<lb ed="#L" n="25" break="no"/>quenter ex aliqua commoditate vel necessitate mo 
-      <lb ed="#L" n="26"/>uentur. Que tamen sit illa in diuersis exemplis non est 
-      <lb ed="#L" n="27"/>discutiendum. Et ita est proposito quod concedimus quod de 
-      <lb ed="#L" n="28"/>us est substantia intellectualis vel vitalis vel sapiens vel
-      co<lb ed="#L" n="29" break="no"/>gnoscens volens etc. hoc est substantia quae est intellectus vita. 
-      <lb ed="#L" n="30"/>sapientia. cognito. volitio. et tamen quod homo sit animal hu 
-      <lb ed="#L" n="31"/>manum non concedimus. Similiter etiam dicimus quod deus est 
-      <lb ed="#L" n="32"/>sapiens. et tamen quod sortes est humanus non concedimus. ni 
-      <lb ed="#L" n="33"/>si equiuoce loquendo de humanus.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e509">
-      ⁋ Ad secundum di 
-      <lb ed="#L" n="34"/>co quod ista propoitioniversaliter accepta est falsa. immo dico quod 
-      <lb ed="#L" n="35"/>in creaturis e vniversaliter falsa. quia ex hoc ipso quod ponuntur idem 
-      <lb ed="#L" n="36"/>realiter nullum ordinem habent. nec secundum rem nec secundum ratio 
-      <lb ed="#L" n="37"/>nem. In deo autem falsa est. quia certe essentia divina et 
-      <lb ed="#L" n="38"/>essentia diuina si distinguerentur realiter haberent
-      or<lb ed="#L" n="39" break="no"/>dinem. et tamen essentia et essentia nullum habent ordinem 
-      <lb ed="#L" n="40"/>inter se. Similiter dico quod essentia et intellectus et scientia qo 
-      <lb ed="#L" n="41"/>sunt realiter deus nullus ordinem habent. quantumcumque haberent 
-      <lb ed="#L" n="42"/>ordinem si distinguerentur realiter. tamen inter ista nomina potest 
-      <lb ed="#L" n="43"/>aliquias ordo poni quamuis non omnis talis qualis esset inter il 
-      <lb ed="#L" n="44"/>as res realiter distinctas. Sed de ordine istorum no 
-      <lb ed="#L" n="45"/>ninum vel etiam conceptuum correspondentium nihil ad  
-      <lb ed="#L" n="46"/>ppositum. quia nec conceptus illi necinomina sunt idem re 
-      <lb ed="#L" n="47"/>aliter nec sunt in deo.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e542">
-      ⁋ Ad primum principale dico quod 
-      <lb ed="#L" n="48"/>illa scientia quae est effectus demonstrationis vel etiam quae pos 
-      <lb ed="#L" n="49"/>esse effectus demonstrationis non est in deo. et ideo illa scientia 
-      <lb ed="#L" n="50"/>quae est in deo et quae est effectus demonstrationis vel etiam quae potest 
-      <lb ed="#L" n="51"/>esse est alterius et alterius rationis. quamuis in aliquo conceptu 
-      <lb ed="#L" n="52"/>possunt vniuocari. Ueruntamen quantum ad distinctum et
-      pro<lb ed="#L" n="53" break="no"/>priissimum modum loquendi magis deberet dici: quod 
-      <lb ed="#L" n="54"/>scientia est deus vel essentia divina. quam quod in deo vel in divina est 
-      <lb ed="#L" n="55"/>sentia. nisi forte dicatur esse in deo. hoc est in persona divina. 
-      <!--496.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 247-r -->
-               <lb ed="#L" n="56"/>quodo dicimus diuinam essentiam esse in persoua diuina. sed 
-      <lb ed="#L" n="57"/>strictissime loquendo sicut non bene dicitur quod essentia 
-      <lb ed="#L" n="58"/>diuina est in essentia divina ita non bene dicitur quod scientia est 
-      <lb ed="#L" n="59"/>essentia diuina.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e577">
-      ⁋ Ad secundum dico quod vocando pri 
-      <lb ed="#L" n="60"/>cise habitum illud quod recipit actum aliquem aliquo 
-      <lb ed="#L" n="61"/>non distinctum sic diuina scientia hoc est scientia quae est deus vel 
-      <lb ed="#L" n="62"/>deitas non est habitus. Uocando autem habitum vnum 
-      <lb ed="#L" n="63"/>commune ad omnem scientiam et cognitionem. sic potest dici quod 
-      <lb ed="#L" n="64"/>diuina scientia est habitus quidam. tamen illud non est
-      propriissi<lb ed="#L" n="65" break="no"/>me dictum. et ideo melius est dicere quod non omnis scientia est ha 
-      <lb ed="#L" n="66"/>bitus. tamen non est difficultas hoc nisi denomine tantum.
-    </p>
-            <p xml:id="wo8uy7-d1e1566-d1e595">
-      ⁋ Ad  
-      <lb ed="#L" n="67"/>tertium patet per frequenter dicta. quod non est inconueniens 
-      <lb ed="#L" n="68"/>apud philosophum dicere quod scibile refertur realiter ad scientiam 
-      <lb ed="#L" n="69"/>et econuerso. quamuis scibile et scientia sint idem realiter 
-      <lb ed="#L" n="70"/>illo modo quo dicitur quod vna albedo refertur
-      re<lb ed="#L" n="71" break="no"/>aliter ad aliam.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="246-r"/>
+        <cb ed="#L" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e1566"><!-- l1d35q1 -->
+        <head xml:id="wo8uy7-d1e1566-Hd1e108">Quaestio 1</head>
+        <p xml:id="wo8uy7-d1e1566-d1e111">
+          <lb ed="#L" n="100"/>⁋ Distinctionis. xxxv. Questio prima. 
+          <lb ed="#L" n="101"/>CIrca
+          distin<lb ed="#L" n="102" break="no"/>ctionem. xxxv. quero primo 
+          <lb ed="#L" n="103"/>Utrum in deo sit scientia ex 
+          <lb ed="#L" n="104"/>natura rei.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e124">
+          ⁋ Quod non. quia 
+          <lb ed="#L" n="105"/>scientia est effectus
+          demonstra<lb ed="#L" n="106" break="no"/>tionis. sed nihil in deo est
+          effe<lb ed="#L" n="107" break="no"/>ctus cuiuscumque. ergo in deo non est scientia.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e133">
+          ⁋ Secundo. quia in 
+          <lb ed="#L" n="108"/>deo nullus est habitus. sed omnis scientia est habitus quadam. ergo 
+          <!--495.xml-->
+          <pb ed="#L" n="246-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>etc. maior patet. quia omnis habitus respicit aliquem actum 
+          <lb ed="#L" n="2"/>nobiliore se. sed nihil est nobilius quocumque quod est in 
+          <lb ed="#L" n="3"/>deo. ergo nullus habitus est in deo.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e151">
+          ⁋ Tertio. quia secundum philosophu 
+          <lb ed="#L" n="4"/>v. metha. scientia realiter refertur ad scibile. sed nihil est in 
+          <lb ed="#L" n="5"/>deo quod realiter refertur. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e159">
+          ⁋ Ad oppositum. Inte 
+          <lb ed="#L" n="6"/>ectus est in deo ex natura rei. et quia omnis intellectus vel 
+          <lb ed="#L" n="7"/>est actu sciens vel potest esse sciens. sed intellectus diuinus 
+          <lb ed="#L" n="8"/>non est in potentia. ergo est actu sciens.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e168">
+          ⁋ Ad. q. dicitur quod sic. 
+          <lb ed="#L" n="9"/>qui cognoscentia a non cognoscentibus in hoc distinguum 
+          <lb ed="#L" n="10"/>tur. quod non cognoscens nihil habet nisi suam formam tantum 
+          <lb ed="#L" n="11"/>sed cognoscens natum est habete formam alterius rei in
+          co<lb ed="#L" n="12" break="no"/>gnoscente etc. Natura autem rei non cognoscentis est 
+          <lb ed="#L" n="13"/>magis artata et limitata. sed coartatio non est
+          nisi<lb ed="#L" n="14" break="no"/>per materiam. ergo immaterialitas rei ratio est quod est cogniti 
+          <lb ed="#L" n="15"/>ua. sed deus est in summo immaterialis. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e186">
+          ⁋
+          Quan<lb ed="#L" n="16" break="no"/>uis conclusio est vera secundum bonum intellectum. tamen ista 
+          <lb ed="#L" n="17"/>ratio est insufficiens Primo quia prima propositio quam accipit 
+          <lb ed="#L" n="18"/>est falsa quia non est magis de ratione non cognoscentis no 
+          <lb ed="#L" n="19"/>habere aliud quam formam suam quam de ratione cognoscentur 
+          <lb ed="#L" n="20"/>Nam ita potest non cognoscens recipere aliquid ab alio 
+          <lb ed="#L" n="21"/>sicut cognoscens. Et si dicas quod non cognoscens 
+          <lb ed="#L" n="22"/>non recipit speciem rei. hoc non valet. quia si per
+          spe<lb ed="#L" n="23" break="no"/>ciem intelligis aliud quam cognitionem non plus recipit 
+          <lb ed="#L" n="24"/>cognosces speciem rei quam non cognosces. Tum quia si 
+          <lb ed="#L" n="25"/>cut alias ostendetur talis species non est ponenda. Tum 
+          <lb ed="#L" n="26"/>secundum istos etiam medium recipit speciem rei. Si autem per 
+          <lb ed="#L" n="27"/>speciem intelligis cognitionem hoc est petere. et nihil 
+          <lb ed="#L" n="28"/>ad propositum. Si aut dicatur quod medium non recipit 
+          <lb ed="#L" n="29"/>immaterialiter sed materialiter. Contra secundum istos. omne 
+          <lb ed="#L" n="30"/>receptum est in recipiente per modum recipientis. ergo quod 
+          <lb ed="#L" n="31"/>species recipitur immaterialiter. hoc est quia recipiens est ima 
+          <lb ed="#L" n="32"/>teriale. ergo ex immaterialitate rei deberet magis 
+          <lb ed="#L" n="33"/>concludi talis receptio quam econuerso. cuius tamen conrium 
+          <lb ed="#L" n="34"/>facit.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e230">
+          ⁋ Preterea deus est maxime cognoscens. et tamen 
+          <lb ed="#L" n="35"/>non est natus habere formam cuiuscumque alterius. nec
+          spe<lb ed="#L" n="36" break="no"/>cies rei est in deo. ergo per hoc non cognoscens non distingui 
+          <lb ed="#L" n="37"/>tur a cognoscente.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e239">
+          ⁋ Preterea quod dicit quod immater 
+          <lb ed="#L" n="38"/>alitas est causa quod aliquid sit cognitiuum est falsum quia mul 
+          <lb ed="#L" n="39"/>ta accidentia sunt immaterialia. et tamen non sunt cogni 
+          <lb ed="#L" n="40"/>tiua. Similiter secundum commen. forma celi est immaterialis et 
+          <lb ed="#L" n="41"/>tamen non est cognitiua Similiter dare esse materie non impe 
+          <lb ed="#L" n="42"/>dit cognitionem. quia numquam posset anima coniuncta siue 
+          <lb ed="#L" n="43"/>in statu vie siue patrie ita perfecte intelligere sicut 
+          <lb ed="#L" n="44"/>sempata. ergo nec aptitudo ad informandum impedit. 
+          <lb ed="#L" n="45"/>Ideo dico aliter ad. q. quod immaterialitas non est 
+          <lb ed="#L" n="46"/>ca quare aliquid est cognitiuum. quia non videtur quod includit
+          contra<lb ed="#L" n="47" break="no"/>dictionem aliquam formam nullius alterius forme sub 
+          <lb ed="#L" n="48"/>stantialis receptiuam. nec potentem informare
+          mate<lb ed="#L" n="49" break="no"/>riam posse fieri a deo illo modo quo ponit commen. quod 
+          <lb ed="#L" n="50"/>in celo non est materia. quia ipse ponit quod non est
+          composi<lb ed="#L" n="51" break="no"/>tum ex materia et forma substantiali. et tamen
+          possibi<lb ed="#L" n="52" break="no"/>le esset talem formam simpliciter esse non cognitiuam. Nec 
+          <lb ed="#L" n="53"/>potest aliqua ratio generaliter dari quare aliquid est
+          cogniti<lb ed="#L" n="54" break="no"/>uum. sed ex natura rei habet quod sit cognitiuum vel quod no 
+          <lb ed="#L" n="55"/>sit cognitiuum. Ideo primo videndum est au in deo sit 
+          <!--495.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 246-v -->
+          <lb ed="#L" n="56"/>scientia. Secundo ante possit aliquo modo a priori proba 
+          <lb ed="#L" n="57"/>ri. Tertio quomodo se habeat scientia ad diuinam 
+          <lb ed="#L" n="58"/>essentiam.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e294">
+          ⁋ Circa primum dico: quod scientia vno modo 
+          <lb ed="#L" n="59"/>accipitur pro notitia alicuius complexi. nata causari ex 
+          <lb ed="#L" n="60"/>aliquibus praemissis. de quo dictum est in prologo. Alio 
+          <lb ed="#L" n="61"/>non accipitur generaliter pro omni notitia
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e304">
+          ⁋ Primo non est 
+          <lb ed="#L" n="62"/>deo. secundo modo est in deo. quia secundum sanctos et philosophos 
+          <lb ed="#L" n="63"/>deus vere est intelligens et cognoscens.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e311">
+          ⁋ Circa secundum 
+          <lb ed="#L" n="64"/>dico quod demonstratio a priori accipitur multiplicitur 
+          <lb ed="#L" n="65"/>scilicet largissime et sic potest aliquo modo concedi quod potest 
+          <lb ed="#L" n="66"/>prbaria priori. quia quandocumque arguitur ab vna propositione 
+          <lb ed="#L" n="67"/>ad aliam formali consequentia et econuerso non est consequentia forma 
+          <lb ed="#L" n="68"/>lis. ibi potest esse probatio aliquo modo a priore. sed hoc est 
+          <lb ed="#L" n="69"/>onsequentia bona et formalis. deus est summum ens. ergo est intelli 
+          <lb ed="#L" n="70"/>gens sciens et cognoscens. et non sequitur ecouerso. ergo 
+          <lb ed="#L" n="71"/>cum propositiones sunt simpliciter necessarie aliquo modo est de 
+          <lb ed="#L" n="72"/>monstratio a priori. tamen si intellectus posset
+          compone<lb ed="#L" n="73" break="no"/>re scientiam quae est in deo cum deo. nullo modo esset talis proba 
+          <lb ed="#L" n="74"/>tio a priori. non tamen est intelligendum quod aliquid sit ratio et causa 
+          <lb ed="#L" n="75"/>quare deus sit sciens. quia nullam causam habet. sed tantum denotatur 
+          <lb ed="#L" n="76"/>quod hec propositio deus est summum bonum sit aliquo modo
+          pri<lb ed="#L" n="77" break="no"/>or ista. deus est intelligens. pro quanto hic praedicatur con 
+          <lb ed="#L" n="78"/>uertibile de conuertibili. Non autem in secunda propositione. 
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e346">
+          <lb ed="#L" n="79"/>⁋ Circa tertium dico quod scientia quae est deus est
+          rea<lb ed="#L" n="80" break="no"/>liter et ex natura rei diuina essentia. et nullo 
+          <lb ed="#L" n="81"/>modo per considerationem intellectus. quia consideratio in 
+          <lb ed="#L" n="82"/>tellectus non plus facit quod deus sit sciens: quam quod deus sit 
+          <lb ed="#L" n="83"/>essentia vel deus. Nec etiam scientia distinguitur 
+          <lb ed="#L" n="84"/>formaliter a diuina essentia. sed est tanta et omni idem 
+          <lb ed="#L" n="85"/>titate eadem diuine essentie quae essentia est eadem
+          di<lb ed="#L" n="86" break="no"/>uine essentie et hoc propter dicta superius in secunda dist 
+          <lb ed="#L" n="87"/>ctione.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e368">
+          ⁋ Sed con hoc potest argui. quia proprie dicitur de 
+          <lb ed="#L" n="88"/>deo. deus est substantia intellectualis. sed intellectu 
+          <lb ed="#L" n="89"/>non praedicatur deo in quid. sed magis praedicatur de deo per 
+          <lb ed="#L" n="90"/>modum dicere. et per consequens intellectus non est omni modo idem 
+          <lb ed="#L" n="91"/>cum essentia. et per consequens multo fortius nec essentia¬ 
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e379">
+          <lb ed="#L" n="92"/>⁋ Preterea quecumque ordinem haberent aliqua si
+          es<lb ed="#L" n="93" break="no"/>sent distincta realiter. eundem ordinem haberet vbi 
+          <lb ed="#L" n="94"/>non sunt distincta realiter. sed sunt ibi vere per identitatem. 
+          <lb ed="#L" n="95"/>ed si scientia et intellectus distinguerentur realiter in deo
+          intelle<lb ed="#L" n="96" break="no"/>ctus esset proximior. ergo etiam modo secundum rationem intellectus 
+          <lb ed="#L" n="97"/>est proximior quam scientia. et per consequens scientia non est omni modo ea 
+          <lb ed="#L" n="98"/>dem cum essentia.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e397">
+          ⁋ Ad primum illorum dico quod nec sci 
+          <lb ed="#L" n="99"/>entia nec intellectus nec aliquod tale de deo praedica 
+          <lb ed="#L" n="100"/>tur permodum dicere nec denominatiue. nisi forte quantum 
+          <lb ed="#L" n="101"/>ad vocem. sed semper per tales praedicationes oportet
+          essen<lb ed="#L" n="102" break="no"/>tiales et in quid intelligi. et ideo per istam. deus est intelle 
+          <lb ed="#L" n="103"/>ctualis debet intelligi ista. deus est intellectus. Et eo 
+          <lb ed="#L" n="104"/>dem modo per istam. deus est substantia intellectualis debet 
+          <lb ed="#L" n="105"/>intelligi ista. deus est substantia quae est intellectus. si 
+          <lb ed="#L" n="106"/>cut dicimus quod hec est creatura salis. id est. hoc est cre 
+          <lb ed="#L" n="107"/>atura quae est sal. et ita talis constructio intransitiua dieibet 
+          <lb ed="#L" n="108"/>per omns tales intelligi.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e422">
+          ⁋ Et si dicatur: quod eadem 
+          <lb ed="#L" n="109"/>ratione posset dici quod deus est intellectus
+          volun<lb ed="#L" n="110" break="no"/>tatis. quia deus est intellectus quae est voluntas. et quod sortes 
+          <!--496.xml-->
+          <pb ed="#L" n="247-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>est animal humanum. quia sortes est animal quod est homo. 
+          <lb ed="#L" n="2"/>Et tunc posset dici quod albedo est qualitas colorata. 
+          <lb ed="#L" n="3"/>qui est qualitas quaest color. et multa absurda deberent 
+          <lb ed="#L" n="4"/>concedi.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e444">
+          ⁋ Respondeo. quod multa ex vi vtentium
+          con<lb ed="#L" n="5" break="no"/>ceduntur. et tamen consimilia in aliis terminis non conceduntur 
+          <lb ed="#L" n="6"/>sicut conceditur quod hic est constructio intransitiua. crea 
+          <lb ed="#L" n="7"/>ura salis. hoc est creatura quae est sal. et talia. et tamen ista. 
+          <lb ed="#L" n="8"/>sortes est creatura hominis non conceditur et ita de mul 
+          <lb ed="#L" n="9"/>tis est ex vsu vtentium quod propter aliquam commoditatem 
+          <lb ed="#L" n="10"/>vel necessitatem conceditur aliqua determinata con 
+          <lb ed="#L" n="11"/>structio inter aliquos terminos. et tamen inter alios 
+          <lb ed="#L" n="12"/>terminos conformiter se habentes non conceditur con 
+          <lb ed="#L" n="13"/>structio consimilis. Unde dicimus quod aliquis habet album co 
+          <lb ed="#L" n="14"/>lorem et nigru colorem. similiter quod aliquid habet amarum
+          sapo<lb ed="#L" n="15" break="no"/>rem et aliquid habet dulcem saporem. et tamen quod aliquis
+          habe<lb ed="#L" n="16" break="no"/>at habitum scientem vel habitum ignorantem non dici 
+          <lb ed="#L" n="17"/>nus. et tamen scientia est per se inferius ad habitum sicut albedo 
+          <lb ed="#L" n="18"/>et nigredo ad colorem. et amaritudo et dulcedo 
+          <lb ed="#L" n="19"/>ad saporem. Similiter dicimus quod iste habet habitum scientie 
+          <lb ed="#L" n="20"/>vel habitum erroris. et tamen quod aliquid habeat colorem 
+          <lb ed="#L" n="21"/>albedinis vel nigredinis non dicimus. et ita est de 
+          <lb ed="#L" n="22"/>nultis talibus quod aliqua constructio conceditur inter ali 
+          <lb ed="#L" n="23"/>qua. et tamen inter alia consimilia non conceditur. Nec est hic 
+          <lb ed="#L" n="24"/>aliqua causa quaerenda nisi voluntas vtentium. tamen alii
+          fre<lb ed="#L" n="25" break="no"/>quenter ex aliqua commoditate vel necessitate mo 
+          <lb ed="#L" n="26"/>uentur. Que tamen sit illa in diuersis exemplis non est 
+          <lb ed="#L" n="27"/>discutiendum. Et ita est proposito quod concedimus quod de 
+          <lb ed="#L" n="28"/>us est substantia intellectualis vel vitalis vel sapiens vel
+          co<lb ed="#L" n="29" break="no"/>gnoscens volens etc. hoc est substantia quae est intellectus vita. 
+          <lb ed="#L" n="30"/>sapientia. cognito. volitio. et tamen quod homo sit animal hu 
+          <lb ed="#L" n="31"/>manum non concedimus. Similiter etiam dicimus quod deus est 
+          <lb ed="#L" n="32"/>sapiens. et tamen quod sortes est humanus non concedimus. ni 
+          <lb ed="#L" n="33"/>si equiuoce loquendo de humanus.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e509">
+          ⁋ Ad secundum di 
+          <lb ed="#L" n="34"/>co quod ista propoitioniversaliter accepta est falsa. immo dico quod 
+          <lb ed="#L" n="35"/>in creaturis e vniversaliter falsa. quia ex hoc ipso quod ponuntur idem 
+          <lb ed="#L" n="36"/>realiter nullum ordinem habent. nec secundum rem nec secundum ratio 
+          <lb ed="#L" n="37"/>nem. In deo autem falsa est. quia certe essentia divina et 
+          <lb ed="#L" n="38"/>essentia diuina si distinguerentur realiter haberent
+          or<lb ed="#L" n="39" break="no"/>dinem. et tamen essentia et essentia nullum habent ordinem 
+          <lb ed="#L" n="40"/>inter se. Similiter dico quod essentia et intellectus et scientia qo 
+          <lb ed="#L" n="41"/>sunt realiter deus nullus ordinem habent. quantumcumque haberent 
+          <lb ed="#L" n="42"/>ordinem si distinguerentur realiter. tamen inter ista nomina potest 
+          <lb ed="#L" n="43"/>aliquias ordo poni quamuis non omnis talis qualis esset inter il 
+          <lb ed="#L" n="44"/>as res realiter distinctas. Sed de ordine istorum no 
+          <lb ed="#L" n="45"/>ninum vel etiam conceptuum correspondentium nihil ad  
+          <lb ed="#L" n="46"/>ppositum. quia nec conceptus illi necinomina sunt idem re 
+          <lb ed="#L" n="47"/>aliter nec sunt in deo.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e542">
+          ⁋ Ad primum principale dico quod 
+          <lb ed="#L" n="48"/>illa scientia quae est effectus demonstrationis vel etiam quae pos 
+          <lb ed="#L" n="49"/>esse effectus demonstrationis non est in deo. et ideo illa scientia 
+          <lb ed="#L" n="50"/>quae est in deo et quae est effectus demonstrationis vel etiam quae potest 
+          <lb ed="#L" n="51"/>esse est alterius et alterius rationis. quamuis in aliquo conceptu 
+          <lb ed="#L" n="52"/>possunt vniuocari. Ueruntamen quantum ad distinctum et
+          pro<lb ed="#L" n="53" break="no"/>priissimum modum loquendi magis deberet dici: quod 
+          <lb ed="#L" n="54"/>scientia est deus vel essentia divina. quam quod in deo vel in divina est 
+          <lb ed="#L" n="55"/>sentia. nisi forte dicatur esse in deo. hoc est in persona divina. 
+          <!--496.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 247-r -->
+          <lb ed="#L" n="56"/>quodo dicimus diuinam essentiam esse in persoua diuina. sed 
+          <lb ed="#L" n="57"/>strictissime loquendo sicut non bene dicitur quod essentia 
+          <lb ed="#L" n="58"/>diuina est in essentia divina ita non bene dicitur quod scientia est 
+          <lb ed="#L" n="59"/>essentia diuina.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e577">
+          ⁋ Ad secundum dico quod vocando pri 
+          <lb ed="#L" n="60"/>cise habitum illud quod recipit actum aliquem aliquo 
+          <lb ed="#L" n="61"/>non distinctum sic diuina scientia hoc est scientia quae est deus vel 
+          <lb ed="#L" n="62"/>deitas non est habitus. Uocando autem habitum vnum 
+          <lb ed="#L" n="63"/>commune ad omnem scientiam et cognitionem. sic potest dici quod 
+          <lb ed="#L" n="64"/>diuina scientia est habitus quidam. tamen illud non est
+          propriissi<lb ed="#L" n="65" break="no"/>me dictum. et ideo melius est dicere quod non omnis scientia est ha 
+          <lb ed="#L" n="66"/>bitus. tamen non est difficultas hoc nisi denomine tantum.
+        </p>
+        <p xml:id="wo8uy7-d1e1566-d1e595">
+          ⁋ Ad  
+          <lb ed="#L" n="67"/>tertium patet per frequenter dicta. quod non est inconueniens 
+          <lb ed="#L" n="68"/>apud philosophum dicere quod scibile refertur realiter ad scientiam 
+          <lb ed="#L" n="69"/>et econuerso. quamuis scibile et scientia sint idem realiter 
+          <lb ed="#L" n="70"/>illo modo quo dicitur quod vna albedo refertur
+          re<lb ed="#L" n="71" break="no"/>aliter ad aliam.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,170 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e1851"><!-- l1d46q2 -->
-            <head xml:id="wo8uy7-d1e1851-Hd1e108">Quaestio 2</head>
-            <p xml:id="wo8uy7-d1e1851-d1e111">
-      ⁋ Questio secunda. 
-      <lb ed="#L" n="19"/>SEcundo quero. 
-      <lb ed="#L" n="20"/> Utrum per ratione naturalem posset proba 
-      <lb ed="#L" n="21"/>ri quod voluntas diuina semper impletur 
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e120">
-               <lb ed="#L" n="22"/>⁋ Quod non. quia de voluntate diuina non potest per rationem 
-      <lb ed="#L" n="23"/>naturalem dbari quod est causa omnium ergo nec quod semper
-      im<lb ed="#L" n="24" break="no"/>pletur.
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e129">
-      ⁋ Ad oppositum. potest probari naturaliter 
-      <lb ed="#L" n="25"/>quod voluntate diuina nihil est potentius. ergo non est
-      im<lb ed="#L" n="26" break="no"/>pedibilis. et per consequens quod semper impletur
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e136">
-      ⁋ Dicendum 
-      <lb ed="#L" n="27"/>est quod voluntate aliquam impleri non est aliud quam
-      effe<lb ed="#L" n="28" break="no"/>ctum voluntatis poni in esse si vult eum poni in esse. vel 
-      <lb ed="#L" n="29"/>non poni si non vult eum poni. Sed hoc potest esse du 
-      <lb ed="#L" n="30"/>plicitur. quia potest velle eum poni a se vel ab alio. et tunc 
-      <lb ed="#L" n="31"/>si ponatur a se. si vult eum poni a se. impletur. aliter non 
-      <lb ed="#L" n="32"/>Similiter si ponatur in esse ab aliquo a quo vult eum
-      po<lb ed="#L" n="33" break="no"/>ni in esse. impletur. et aliter non. Eodem modo modo
-      proportio<lb ed="#L" n="34" break="no"/>nabiliter potest dici de nolle eum poni in esse a se vel 
-      <lb ed="#L" n="35"/>ab alio etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e159">
-      ⁋ hoc viso. dicendum est quod. q. vnum
-      prai<lb ed="#L" n="36" break="no"/>supponit et aliud querit. Supponit enim quod deus 
-      <lb ed="#L" n="37"/>est volens vel nolens respectu aliquorum
-      produci<lb ed="#L" n="38" break="no"/>bilium. Et quaerit. vtrum possit probari quod talis volun 
-      <lb ed="#L" n="39"/>tas semper impletur.
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e170">
-      ⁋ Quantum ad istud suppositum 
-      <lb ed="#L" n="40"/>vtrum scilicet per rationem naturalem possit probari deum vel 
-      <lb ed="#L" n="41"/>le vel nolle alia a se est ad praesens pertranseundum. quia 
-      <lb ed="#L" n="42"/>de hoc tangetur in secundo.
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e179">
-      ⁋ Sed quantum ad quasitum dico 
-      <lb ed="#L" n="43"/>quod si possit probari quod deus vult alia a se. potest proba 
-      <lb ed="#L" n="44"/>ri quod voluntas diuina semper impletur. ita scilicet quod si 
-      <lb ed="#L" n="45"/>vult aliquid fieri a se fit a se. si vult aliquid fier 
-      <lb ed="#L" n="46"/>ab alio fit ab alio. si vult aliquid fieri tam a se quae 
-      <lb ed="#L" n="47"/>ab alio fit a se et ab alio. et eodem modo est de nolito 
-      <lb ed="#L" n="48"/>a deo Sed non potest probari quod omne volitum a deo fit 
-      <lb ed="#L" n="49"/>a deo. nec quod omne volitum a deo fit ab alio. et con 
-      <lb ed="#L" n="50"/>similiter est dicendum de nolito
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e199">
-      ⁋ Primum probatur 
-      <lb ed="#L" n="51"/>ratione naturali sic. Ille conclusiocuius voluntatem efficacem 
-      <lb ed="#L" n="52"/>potest aliquid fieri potest tristari. sed deus nullo modo potest 
-      <lb ed="#L" n="53"/>tristari. ergo impossibile est aliquid fieri contusio voluntatem 
-      <lb ed="#L" n="54"/>dei efficace. ergo quicquid deus vult fieri illo modo quo 
-      <!--545.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 271-v -->
-               <lb ed="#L" n="55"/>vult illud fieri fit. quia scilicet si vult illud fieri a se. fit 
-      <lb ed="#L" n="56"/>a se. si vult fieri ab alio fit ab alia
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e221">
-      ⁋ Et si ister 
-      <lb ed="#L" n="57"/>contra istam rationem. quod aliquid fit contra voluntatem ali 
-      <lb ed="#L" n="58"/>cuius. et tamen non tristatur. sicut aliquid fit secundum
-      deside<lb ed="#L" n="59" break="no"/>rium alicuius. et tamen non delectatur. sicut patet de
-      de<lb ed="#L" n="60" break="no"/>monibus. ergo quamuis aliquid fieret contra
-      volunta<lb ed="#L" n="61" break="no"/>tem dei. non sequeretur deum tristari.
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e234">
-      ⁋ Ista
-      instan<lb ed="#L" n="62" break="no"/>tia non valet. quia quamuis non necessario ex hoc quod ali 
-      <lb ed="#L" n="63"/>quid fit cotra voluntatem efficacem alicuius.
-      sequa<lb ed="#L" n="64" break="no"/>tur ipsum tristari. sicut ostendetur in secundo. tamen 
-      <lb ed="#L" n="65"/>ex hoc quod aliquid fit contra voluntatem efficacem. se 
-      <lb ed="#L" n="66"/>quitur ipsum posse tristari. Nunc autem deus nec 
-      <lb ed="#L" n="67"/>tristatur nec potest tristari. et per consequens nihil potest
-      fi<lb ed="#L" n="68" break="no"/>ri contra voluntatem ipsius
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e253">
-      ⁋ Secundum patet. quia nec potest 
-      <lb ed="#L" n="69"/>probari ratione naturali quod deus est causa immediata omnium 
-      <lb ed="#L" n="70"/>nec quod non est causa immediata omnium. Nec potest probari. 
-      <lb ed="#L" n="71"/>ratione naturali quod deus vlli est causa totalis. quae omnia in secundo 
-      <lb ed="#L" n="72"/>ostendentur. ergo nec probari potest naturali ratione quod omne 
-      <lb ed="#L" n="73"/>volitum a deo fit a deo nec quod omne volitum a deo 
-      <lb ed="#L" n="74"/>fit ab alio. Et eodem modo dicendum est de nolito pro 
-      <lb ed="#L" n="75"/>portionabiliter.
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e271">
-      ⁋ Ad argumentum principale
-      di<lb ed="#L" n="76" break="no"/>cendum. quod quia non potest naturali ratione probari quod de 
-      <lb ed="#L" n="77"/>est causa omnium immediata. ideo non potest naturaliratione
-      pro<lb ed="#L" n="78" break="no"/>bari quod voluntas diuina semper impletur a se vel ab 
-      <lb ed="#L" n="79"/>alio. et hoc si possit probari quod deus vult alia a se. 
-    </p>
-            <p xml:id="wo8uy7-d1e1851-d1e282">
-               <lb ed="#L" n="80"/>⁋ Ad argumentum in oppositum dicendum. quod si non 
-      <lb ed="#L" n="81"/>possit probari ratione naturali quod deus vult alia a se 
-      <lb ed="#L" n="82"/>non poest probari quod deus est potens. hoc est quod est potens causa 
-      <lb ed="#L" n="83"/>re aliquid. et per consequens non potest probari quod eius
-      volun<lb ed="#L" n="84" break="no"/>tas semper impletur. potest tamen probari quod non est
-      impe<lb ed="#L" n="85" break="no"/>dibilis. quia hec potest habere duas causas veritatis. 
-      <lb ed="#L" n="86"/>vel quia vult aliquid fieri quod impediri non potest 
-      <lb ed="#L" n="87"/>vel quia nihil vult fieri. et per consequens impediri non 
-      <lb ed="#L" n="88"/>potest. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e1851"><!-- l1d46q2 -->
+        <head xml:id="wo8uy7-d1e1851-Hd1e108">Quaestio 2</head>
+        <p xml:id="wo8uy7-d1e1851-d1e111">
+          ⁋ Questio secunda. 
+          <lb ed="#L" n="19"/>SEcundo quero. 
+          <lb ed="#L" n="20"/> Utrum per ratione naturalem posset proba 
+          <lb ed="#L" n="21"/>ri quod voluntas diuina semper impletur 
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e120">
+          <lb ed="#L" n="22"/>⁋ Quod non. quia de voluntate diuina non potest per rationem 
+          <lb ed="#L" n="23"/>naturalem dbari quod est causa omnium ergo nec quod semper
+          im<lb ed="#L" n="24" break="no"/>pletur.
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e129">
+          ⁋ Ad oppositum. potest probari naturaliter 
+          <lb ed="#L" n="25"/>quod voluntate diuina nihil est potentius. ergo non est
+          im<lb ed="#L" n="26" break="no"/>pedibilis. et per consequens quod semper impletur
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e136">
+          ⁋ Dicendum 
+          <lb ed="#L" n="27"/>est quod voluntate aliquam impleri non est aliud quam
+          effe<lb ed="#L" n="28" break="no"/>ctum voluntatis poni in esse si vult eum poni in esse. vel 
+          <lb ed="#L" n="29"/>non poni si non vult eum poni. Sed hoc potest esse du 
+          <lb ed="#L" n="30"/>plicitur. quia potest velle eum poni a se vel ab alio. et tunc 
+          <lb ed="#L" n="31"/>si ponatur a se. si vult eum poni a se. impletur. aliter non 
+          <lb ed="#L" n="32"/>Similiter si ponatur in esse ab aliquo a quo vult eum
+          po<lb ed="#L" n="33" break="no"/>ni in esse. impletur. et aliter non. Eodem modo modo
+          proportio<lb ed="#L" n="34" break="no"/>nabiliter potest dici de nolle eum poni in esse a se vel 
+          <lb ed="#L" n="35"/>ab alio etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e159">
+          ⁋ hoc viso. dicendum est quod. q. vnum
+          prai<lb ed="#L" n="36" break="no"/>supponit et aliud querit. Supponit enim quod deus 
+          <lb ed="#L" n="37"/>est volens vel nolens respectu aliquorum
+          produci<lb ed="#L" n="38" break="no"/>bilium. Et quaerit. vtrum possit probari quod talis volun 
+          <lb ed="#L" n="39"/>tas semper impletur.
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e170">
+          ⁋ Quantum ad istud suppositum 
+          <lb ed="#L" n="40"/>vtrum scilicet per rationem naturalem possit probari deum vel 
+          <lb ed="#L" n="41"/>le vel nolle alia a se est ad praesens pertranseundum. quia 
+          <lb ed="#L" n="42"/>de hoc tangetur in secundo.
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e179">
+          ⁋ Sed quantum ad quasitum dico 
+          <lb ed="#L" n="43"/>quod si possit probari quod deus vult alia a se. potest proba 
+          <lb ed="#L" n="44"/>ri quod voluntas diuina semper impletur. ita scilicet quod si 
+          <lb ed="#L" n="45"/>vult aliquid fieri a se fit a se. si vult aliquid fier 
+          <lb ed="#L" n="46"/>ab alio fit ab alio. si vult aliquid fieri tam a se quae 
+          <lb ed="#L" n="47"/>ab alio fit a se et ab alio. et eodem modo est de nolito 
+          <lb ed="#L" n="48"/>a deo Sed non potest probari quod omne volitum a deo fit 
+          <lb ed="#L" n="49"/>a deo. nec quod omne volitum a deo fit ab alio. et con 
+          <lb ed="#L" n="50"/>similiter est dicendum de nolito
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e199">
+          ⁋ Primum probatur 
+          <lb ed="#L" n="51"/>ratione naturali sic. Ille conclusiocuius voluntatem efficacem 
+          <lb ed="#L" n="52"/>potest aliquid fieri potest tristari. sed deus nullo modo potest 
+          <lb ed="#L" n="53"/>tristari. ergo impossibile est aliquid fieri contusio voluntatem 
+          <lb ed="#L" n="54"/>dei efficace. ergo quicquid deus vult fieri illo modo quo 
+          <!--545.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 271-v -->
+          <lb ed="#L" n="55"/>vult illud fieri fit. quia scilicet si vult illud fieri a se. fit 
+          <lb ed="#L" n="56"/>a se. si vult fieri ab alio fit ab alia
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e221">
+          ⁋ Et si ister 
+          <lb ed="#L" n="57"/>contra istam rationem. quod aliquid fit contra voluntatem ali 
+          <lb ed="#L" n="58"/>cuius. et tamen non tristatur. sicut aliquid fit secundum
+          deside<lb ed="#L" n="59" break="no"/>rium alicuius. et tamen non delectatur. sicut patet de
+          de<lb ed="#L" n="60" break="no"/>monibus. ergo quamuis aliquid fieret contra
+          volunta<lb ed="#L" n="61" break="no"/>tem dei. non sequeretur deum tristari.
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e234">
+          ⁋ Ista
+          instan<lb ed="#L" n="62" break="no"/>tia non valet. quia quamuis non necessario ex hoc quod ali 
+          <lb ed="#L" n="63"/>quid fit cotra voluntatem efficacem alicuius.
+          sequa<lb ed="#L" n="64" break="no"/>tur ipsum tristari. sicut ostendetur in secundo. tamen 
+          <lb ed="#L" n="65"/>ex hoc quod aliquid fit contra voluntatem efficacem. se 
+          <lb ed="#L" n="66"/>quitur ipsum posse tristari. Nunc autem deus nec 
+          <lb ed="#L" n="67"/>tristatur nec potest tristari. et per consequens nihil potest
+          fi<lb ed="#L" n="68" break="no"/>ri contra voluntatem ipsius
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e253">
+          ⁋ Secundum patet. quia nec potest 
+          <lb ed="#L" n="69"/>probari ratione naturali quod deus est causa immediata omnium 
+          <lb ed="#L" n="70"/>nec quod non est causa immediata omnium. Nec potest probari. 
+          <lb ed="#L" n="71"/>ratione naturali quod deus vlli est causa totalis. quae omnia in secundo 
+          <lb ed="#L" n="72"/>ostendentur. ergo nec probari potest naturali ratione quod omne 
+          <lb ed="#L" n="73"/>volitum a deo fit a deo nec quod omne volitum a deo 
+          <lb ed="#L" n="74"/>fit ab alio. Et eodem modo dicendum est de nolito pro 
+          <lb ed="#L" n="75"/>portionabiliter.
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e271">
+          ⁋ Ad argumentum principale
+          di<lb ed="#L" n="76" break="no"/>cendum. quod quia non potest naturali ratione probari quod de 
+          <lb ed="#L" n="77"/>est causa omnium immediata. ideo non potest naturaliratione
+          pro<lb ed="#L" n="78" break="no"/>bari quod voluntas diuina semper impletur a se vel ab 
+          <lb ed="#L" n="79"/>alio. et hoc si possit probari quod deus vult alia a se. 
+        </p>
+        <p xml:id="wo8uy7-d1e1851-d1e282">
+          <lb ed="#L" n="80"/>⁋ Ad argumentum in oppositum dicendum. quod si non 
+          <lb ed="#L" n="81"/>possit probari ratione naturali quod deus vult alia a se 
+          <lb ed="#L" n="82"/>non poest probari quod deus est potens. hoc est quod est potens causa 
+          <lb ed="#L" n="83"/>re aliquid. et per consequens non potest probari quod eius
+          volun<lb ed="#L" n="84" break="no"/>tas semper impletur. potest tamen probari quod non est
+          impe<lb ed="#L" n="85" break="no"/>dibilis. quia hec potest habere duas causas veritatis. 
+          <lb ed="#L" n="86"/>vel quia vult aliquid fieri quod impediri non potest 
+          <lb ed="#L" n="87"/>vel quia nihil vult fieri. et per consequens impediri non 
+          <lb ed="#L" n="88"/>potest. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

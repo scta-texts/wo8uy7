@@ -1,977 +1,977 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 7</title>
-            <author ref="#Ockham">Ockham</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 7</title>
-               <date when="2020-09-10">September 10, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="195-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="wo8uy7-d1e1094"><!-- l1d17q7 -->
-            <head xml:id="wo8uy7-d1e1094-Hd1e108">Quaestio 7</head>
-            <p xml:id="wo8uy7-d1e1094-d1e111">
-               <lb ed="#L" n="32"/>Distinctionis. xvii. Questio septima. 
-      <lb ed="#L" n="33"/>
-               <!--- mistaken extra line ? -->
-               <lb ed="#L" n="34"/>ITem quero utrum 
-      <lb ed="#L" n="35"/>in augmentatione charitatis illud 
-      <lb ed="#L" n="36"/>quod additur sit eiusdem speciei spalissimen 
-      <lb ed="#L" n="37"/>cum charitate precedente separata ab ea.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e129">
-      ⁋ Quod non. 
-      <lb ed="#L" n="38"/>quia secundum philosophum. vii. metha. ex duobus in actu non fit 
-      <lb ed="#L" n="39"/>tertium. ergo oportet quod vnum sit in potentia respectu al 
-      <lb ed="#L" n="40"/>terius. sed nulla charitas potest esse in potentia
-      respe<lb ed="#L" n="41" break="no"/>ctu alterius charitatis quia nulla charitas potest esse 
-      <lb ed="#L" n="42"/>subiectum alterius charitatis. ergo ex duabus non potest 
-      <lb ed="#L" n="43"/>fieri per se vnum. ergo etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e145">
-      ⁋ Preterea diuidi in partes 
-      <lb ed="#L" n="44"/>eiusdem rationis conuenit soli quanto secundum philosophum v. me 
-      <lb ed="#L" n="45"/>tha. sed charitas non est quanta. ergo non habet partes 
-      <lb ed="#L" n="46"/>eiusdem rationis quarum quaelibet potest esse hoc aliquid. 
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e154">
-               <lb ed="#L" n="47"/>⁋ Preterea duo accidentia differentia solo
-      nu<lb ed="#L" n="48" break="no"/>mero non possunt esse simul in eodem subiecto. sed ille 
-      <lb ed="#L" n="49"/>due charitates differrent solo numero. ergo etc. 
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e164">
-               <lb ed="#L" n="50"/>⁋ Ad oppositum. in augmentatione charitatis 
-      <lb ed="#L" n="51"/>aliquid additur. sed non additur aliquid alterius rationis. 
-      <lb ed="#L" n="52"/>ergo additur aliquid eiusdem rationis. Ihaior probata est 
-      <lb ed="#L" n="53"/>in praecedenti quaestione. Minor probatur. quia illud
-      ad<lb ed="#L" n="54" break="no"/>ditum alterius rationis. aut faceret per se vnum cum
-      cha<lb ed="#L" n="55" break="no"/>ritate priori. aut non. Si sic. ergo necessario varia 
-      <!--392.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 195-r -->
-               <lb ed="#L" n="56"/>ret speciem. quia quando aliqua indiuidua sic se habent 
-      <lb ed="#L" n="57"/>quod aliquid est essentiale vni eorum. et nihil eiusdem 
-      <lb ed="#L" n="58"/>rationis est essentiale alteri. illa necessario
-      distin<lb ed="#L" n="59" break="no"/>guntur specie. ergo charitas praecedens et sequens 
-      <lb ed="#L" n="60"/>specie distinguerentur. quod est manifeste falsum: 
-      <lb ed="#L" n="61"/>Si autem non facerent per se vnum cum illo. non
-      augmen<lb ed="#L" n="62" break="no"/>tarent ipsum. quia vnam indiuiduum alterius speciei ad  
-      <lb ed="#L" n="63"/>ditum non poest augmentare aliud indiuiduum
-      alte<lb ed="#L" n="64" break="no"/>rius specei.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e206">
-      ⁋ Si dicatur quod quamuis additum sit eiusdem 
-      <lb ed="#L" n="65"/>rationis cum charitate praeuia. non tamen est ab ea separabi 
-      <lb ed="#L" n="66"/>le
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e213">
-      ⁋ Contra. quando aliqua sunt eiusdem rationis et se
-      to<lb ed="#L" n="67" break="no"/>tis distincta. non est maior ratio quod vnum illorum. 
-      <lb ed="#L" n="68"/>possit esse per se quam reliquum. ergo si charitas pre 
-      <lb ed="#L" n="69"/>cedens potest separari: et sequens poterit separari. Cir  
-      <lb ed="#L" n="70"/>ca istam questionem est opinio. quod charitas et
-      que<lb ed="#L" n="71" break="no"/>libet forma augmentatur per aliquam realitate rea 
-      <lb ed="#L" n="72"/>liter distinctam a prima realitate et cum ipsa facien 
-      <lb ed="#L" n="73"/>te per se vnum. Sed dicitur quod realitas illa secundum quam 
-      <lb ed="#L" n="74"/>minor charitas perficitur et intenditur non est in 
-      <lb ed="#L" n="75"/>tegra charitas et praecisa: distincte participans
-      rea<lb ed="#L" n="76" break="no"/>litatem et rationem charitatis. sed per quandam
-      redu<lb ed="#L" n="77" break="no"/>ctionem. vt quasi posset dici concharitas. est enim 
-      <lb ed="#L" n="78"/>realitas omnino impraecisibilis tam re quam intellecti 
-      <lb ed="#L" n="79"/>Unde non est factibilis per se etiam per diuinam
-      poten<lb ed="#L" n="80" break="no"/>tiam. sic quod capiat esse praecisum et determinatum 
-      <lb ed="#L" n="81"/>nec est intuitiue intelligibilis. sed communicabilis 
-      <lb ed="#L" n="82"/>tantum. ita quod intellectus angeli non posset charita 
-      <lb ed="#L" n="83"/>tem augmentatam diuidere intuitiue in duas
-      cha<lb ed="#L" n="84" break="no"/>ritates. sed semper charitas aucta occurrit sibi 
-      <lb ed="#L" n="85"/>vt vnum cui additum est aliquid charitatis non cha 
-      <lb ed="#L" n="86"/>ritas. Et per eundem modum est intelligendum de 
-      <lb ed="#L" n="87"/>albedine et calore et omni forma que augetur
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e261">
-      ⁋ hoc 
-      <lb ed="#L" n="88"/>probatur. quia tenendum est de intensione qualitatum 
-      <lb ed="#L" n="89"/>nobis ignotarum sicut exprimitur in formis de quan 
-      <lb ed="#L" n="90"/>ta specie qualitatis nobis notis. sed linea cui 
-      <lb ed="#L" n="91"/>ua suscipit magis et minus vt fiat curuior et mi 
-      <lb ed="#L" n="92"/>nus curua. Similiter raritas et desitas. lenitas 
-      <lb ed="#L" n="93"/>et asperitas. et sic de aliis intenduntur non per
-      ad<lb ed="#L" n="94" break="no"/>uentum realitatis precise ad illam speciem pertinentis. 
-      <lb ed="#L" n="95"/>non enim aduenit alia curuitas linee vt fiat
-      cur<lb ed="#L" n="96" break="no"/>uior ratione duplicis curuitatis. nec alia raritas 
-      <lb ed="#L" n="97"/>aeri aut desitas terre. sed illud quod aduenit part 
-      <lb ed="#L" n="98"/>net ad rationem specificam impraecise. ergo similiter est 
-      <lb ed="#L" n="99"/>in aliis formis.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e290">
-      ⁋ Preterea. secundum philosophum. iii. phi. et con 
-      <lb ed="#L" n="100"/>men. ibidem comen. lxxxiii. simile est de augmento 
-      <lb ed="#L" n="101"/>qualitatis et de augmento quantitatis per
-      rarefa<lb ed="#L" n="102" break="no"/>ctionem. sed per rarefactionem crescit quantitas absque 
-      <lb ed="#L" n="103"/>hoc quod adueniat pars que sit praecise quantitas. quia 
-      <lb ed="#L" n="104"/>non potest demonstrari nec in superficie nec in profun 
-      <lb ed="#L" n="105"/>do. quia vbique reperiuntur dimesiones que fuerans 
-      <lb ed="#L" n="106"/>ante: et omnes sunt aucte. ergo similiter est in aliis 
-      <lb ed="#L" n="107"/>formis.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e310">
-      ⁋ Preterea. si esset alia charitas
-      impossibi<lb ed="#L" n="108" break="no"/>le esset quod charitas aucta haberet numeralem vni 
-      <lb ed="#L" n="109"/>tatem. consequentia patet. quia secunda non potest fieri eadem cum 
-      <lb ed="#L" n="110"/>prima secundum se totam. nec potest poni quod vniatur sibi secundum 
-      <!--393.xml-->
-      <pb ed="#L" n="195-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>aliquid sui eodem modo quo due aque secundum sua vlti 
-      <lb ed="#L" n="2"/>ma fiunt idem. quia secundum hoc charitas erit forma con 
-      <lb ed="#L" n="3"/>tinua habens partem et partem sue continuitatis in 
-      <lb ed="#L" n="4"/>suis vltimis. similiter huiusmodi partes erunt quantita 
-      <lb ed="#L" n="5"/>tiue. quia quantum est quod est diuisibile in partes quam 
-      <lb ed="#L" n="6"/>qalibet est hoc aliquid secundum philosophum. v. metha. Si ergo quae 
-      <lb ed="#L" n="7"/>libet pars charitatis auctem est charitas. et tamen cu 
-      <lb ed="#L" n="8"/>hoc omnes partes charitatis sunt vna charitas con 
-      <lb ed="#L" n="9"/>tinua. charitas aucta erit vnum quantum.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e346">
-      ⁋
-      Pre<lb ed="#L" n="10" break="no"/>terea in motu intensionis quantumcumque modico ac 
-      <lb ed="#L" n="11"/>quiruntur infinite partes in potentia. si ergo iste partes non 
-      <lb ed="#L" n="12"/>concurrant ad aliquam vnitatem formalem. non enim 
-      <lb ed="#L" n="13"/>vniuntur se totis. nec secundum vltima sua. restat vt 
-      <lb ed="#L" n="14"/>sint ibi infinite furme quarum quelibet est indiui 
-      <lb ed="#L" n="15"/>sa in se et diuisa ab alia. et per consequens naturaliter
-      infi<lb ed="#L" n="16" break="no"/>nite quod est impossibile.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e364">
-      ⁋ Preterea ille chari 
-      <lb ed="#L" n="17"/>tates non faciunt vnum vnitate compositionis qua 
-      <lb ed="#L" n="18"/>si vna sit materia et alia forma. nec vnitate com 
-      <lb ed="#L" n="19"/>tinuitatis nec vnitate hogenei. quia hogenea non 
-      <lb ed="#L" n="20"/>vniuntur nisi per continuationem. sicut aqua vnitur 
-      <lb ed="#L" n="21"/>aque. Unde anima anime non vnitur: quamuis hogena sit. nec 
-      <lb ed="#L" n="22"/>vnitate identitatis omnimode et simplicis. quia tunc 
-      <lb ed="#L" n="23"/>amitteret suas realitates. nec vnitate
-      aggre<lb ed="#L" n="24" break="no"/>gationis et cuiusdam acerui quia hoc est horribilius 
-      <lb ed="#L" n="25"/>esset enim aceruus rerum innumerabilium et multitudi 
-      <lb ed="#L" n="26"/>nis infinite. Sed manifestum est quod non potest praeter 
-      <lb ed="#L" n="27"/>istas vnitates alia assignari. ergo tales
-      charita<lb ed="#L" n="28" break="no"/>tes non faciunt vnum. et per consequens non sunt ponende 
-      <lb ed="#L" n="29"/>qista opinion ponit tres articulos quos reputo 
-      <lb ed="#L" n="30"/>fallos primus est quod illud additum in augmento
-      cha<lb ed="#L" n="31" break="no"/>ritatis non participat rationem charitatis vt vere
-      pos<lb ed="#L" n="32" break="no"/>sit dici charitas. Secundus est quod non potest per
-      diui<lb ed="#L" n="33" break="no"/>nam potentiam fieri per se sine priori
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e403">
-      ⁋ Tertius est quod 
-      <lb ed="#L" n="34"/>non potest intuitiue intelligi sine priori. Ideo arguo 
-      <lb ed="#L" n="35"/>contra eos primo conclusioprimum.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e410">
-      ⁋ Primo sic. Quero. 
-      <lb ed="#L" n="36"/>de illo addito. aut erit eiusdem rationis cum priori. aut 
-      <lb ed="#L" n="37"/>alterius. non alterius rationis. quia secundum istum. et verum est. num 
-      <lb ed="#L" n="38"/>quam aliquid augmentatur per aliquod additum alterius rationis 
-      <lb ed="#L" n="39"/>sed simile augetur suo simili. Si sit eiusdem rationis 
-      <lb ed="#L" n="40"/>tunc arguo. quandocumque aliqua sunt eiusdem rationis quico 
-      <lb ed="#L" n="41"/>quid essentialiter praedicatur de vno et in quid et per se
-      pri<lb ed="#L" n="42" break="no"/>mo modo. eodem modo praedicatur de reliquo. ergo si secundum ad  
-      <lb ed="#L" n="43"/>ditum sit eiusdem rationis cum charitate cui additur.
-      quic<lb ed="#L" n="44" break="no"/>quid praedicatur de illa charitate per se primo modo
-      praedi<lb ed="#L" n="45" break="no"/>cabitur de istogradu addito. ergo si hec sit vera. hoc 
-      <lb ed="#L" n="46"/>charitas est charitas. hec est vera. hoc est chari 
-      <lb ed="#L" n="47"/>tas demonstrato illo addito
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e439">
-      ⁋ Preterea quando
-      in<lb ed="#L" n="48" break="no"/>ter aliquas partes alicuius totius est tanta conuenien 
-      <lb ed="#L" n="49"/>tia vel maior quanta est inter partes alterius totius 
-      <lb ed="#L" n="50"/>si illud idem praedicatum quod praedicatur de alio toto
-      praedi<lb ed="#L" n="51" break="no"/>catur de qualibet parte sua. eadem ratione si aliquid
-      praedi<lb ed="#L" n="52" break="no"/>catur de primo toto per se primo modo praedicabitur de
-      quali<lb ed="#L" n="53" break="no"/>bet sui parte. sed tanta est conuenientia vel maior
-      in<lb ed="#L" n="54" break="no"/>ter duas partes vnius charitatis quanta ipsarum
-      a<lb ed="#L" n="55" break="no"/>quarum cum illa aqua tota: et quanta est inter duas partes 
-      <!--393.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 195-v -->
-               <lb ed="#L" n="56"/>albedinis loco et situ distinctas. et illarum cum
-      al<lb ed="#L" n="57" break="no"/>bedine tota: et vere dicitur quod hec pars aque est ad 
-      <lb ed="#L" n="58"/>et quod hec pars albedinis est albedo. ergo equalite 
-      <lb ed="#L" n="59"/>vel magis dicetur quod hec pars charitatis est char 
-      <lb ed="#L" n="60"/>tas.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e476">
-      ⁋ Preterea. quicqud per se praedicatur de aliquo 
-      <lb ed="#L" n="61"/>tanquam de per se suo indiuiduo. illo indiuiduo ma 
-      <lb ed="#L" n="62"/>nente et non destructo. semper praedicabitur de eodem 
-      <lb ed="#L" n="63"/>sed ante augmentationem hec est simpliciter vera. a 
-      <lb ed="#L" n="64"/>est charitas. supponendo quod a significet totam 
-      <lb ed="#L" n="65"/>charitatem praecedentem. ergo a manente non
-      destru<lb ed="#L" n="66" break="no"/>cto semper erit hec vera. a est charitas. sed post 
-      <lb ed="#L" n="67"/>augmentationem a manet et non destruitur. ergo tunc 
-      <lb ed="#L" n="68"/>hec est vera. a est charitas. ergo de parte charitatis 
-      <lb ed="#L" n="69"/>vere dicitur quod ipsa est charitas. quia a tunc est pars. 
-      <lb ed="#L" n="70"/>sed non est maior ratio quod vna pars charitatis sit cha 
-      <lb ed="#L" n="71"/>ritas quam alia. ergo quelibet pars charitatis vere 
-      <lb ed="#L" n="72"/>et realiter est charitas.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e506">
-      ⁋ Si dicatur quod non est cha 
-      <lb ed="#L" n="73"/>ritas integra. hoc non valet. quia si intelligat per 
-      <lb ed="#L" n="74"/>charitatem integram charitatem: que non est pars al 
-      <lb ed="#L" n="75"/>terius. sic manifestum est quod non est charitas inte 
-      <lb ed="#L" n="76"/>gra: et eodem modo concedendum est quod pars aque non 
-      <lb ed="#L" n="77"/>est aqua integra. quia pars aque est pars. Et sic non
-      ar<lb ed="#L" n="78" break="no"/>gueret contra opinionem quam nititur improbare. quia 
-      <lb ed="#L" n="79"/>opinio non negat: quin charitas addita vere sit pars 
-      <lb ed="#L" n="80"/>charitatis. Similiter sequeretur quod pars quantitatis 
-      <lb ed="#L" n="81"/>distincta situ ab alia parte non esset quantitas: quod 
-      <lb ed="#L" n="82"/>est manifeste falsum. et ipse negati⁋ Contra secundum 
-      <lb ed="#L" n="83"/>articulum ostendo quod per diuinam potentiam potest illa 
-      <lb ed="#L" n="84"/>charitas addita per se fieri. sic: quia quandocunque ali 
-      <lb ed="#L" n="85"/>qua sunt eiusdem rationis. si vnum illorum per se fieri 
-      <lb ed="#L" n="86"/>potest per diuinam potentiam. reliquum istorum poterit 
-      <lb ed="#L" n="87"/>fieri per se per diuinam potentiam. quia si ista sint rea 
-      <lb ed="#L" n="88"/>liter distincta: ita quod neutrum est pars alterius 
-      <lb ed="#L" n="89"/>nec intrinsecum alteri. si non includit contradictio 
-      <lb ed="#L" n="90"/>nem vnum illorum per se fieri. si sint eiusdem rationis. non 
-      <lb ed="#L" n="91"/>includit contradictionem alterum illorum per se fieri. 
-      <lb ed="#L" n="92"/>sed illud quod praecedit augmentationem charitatie 
-      <lb ed="#L" n="93"/>et illud quod additur sunt eiusdem rationis. et neutrum 
-      <lb ed="#L" n="94"/>est pars alterius. et illud quod praecedit potest fieri: per 
-      <lb ed="#L" n="95"/>se. ergo non includit contradictionem illud quod ad  
-      <lb ed="#L" n="96"/>ditur fieri per se.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e561">
-      ⁋ Si dicatur quod illud additum
-      in<lb ed="#L" n="97" break="no"/>cludit precedens. et ideo non potest fieri per se:
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e566">
-      ⁋ Con 
-      <lb ed="#L" n="98"/>tra. illud additum sed se totum est nonuum. quia accipio 
-      <lb ed="#L" n="99"/>aliquid secundum se totum additum. igitur illud additum non 
-      <lb ed="#L" n="100"/>includit praecedens. et ideo non includit contradictio 
-      <lb ed="#L" n="101"/>nem illud fieri per se
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e577">
-      ⁋ Si dicatur quod illud sequens 
-      <lb ed="#L" n="102"/>necessario praesupponit precedens. Contra. quicquid 
-      <lb ed="#L" n="103"/>potest fieri a deo potest fieri sine alio realiter
-      di<lb ed="#L" n="104" break="no"/>stincto. maxime si illa sint eiusdem rationis
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e586">
-      ⁋
-      Con<lb ed="#L" n="105" break="no"/>firmatur. quia in indiuiduis eiusdem rationis non est ordo 
-      <lb ed="#L" n="106"/>essentialis: quin quando realiter distinguitur vnum possit 
-      <lb ed="#L" n="107"/>fieri sine alio. si neutrum sit pars alterius. sed deus 
-      <lb ed="#L" n="108"/>vidit ista factibilia ab eterno. et vidit quod
-      neu<lb ed="#L" n="109" break="no"/>trum potest esse pars alterius. ergo potest facere quod 
-      <lb ed="#L" n="110"/>cumque istorum sine alio. ergo qua ratione fecit praecedens 
-      <!--394.xml-->
-      <pb ed="#L" n="196-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>sine sequente. potuit fecisse illud quod sequitur si 
-      <lb ed="#L" n="2"/>ne illo quod precessit. sed quicquid potuit fecisse ad 
-      <lb ed="#L" n="3"/>huc potest facere. ergo potest facere id quod additur non fa 
-      <lb ed="#L" n="4"/>ciendo quod precessit et hoc est propositum.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e617">
-      ⁋ Preterea 
-      <lb ed="#L" n="5"/>quandocumque sunt aliqua eiusdem rationis quorum neutrum 
-      <lb ed="#L" n="6"/>est pars alterius. et vnum illorum potest fieri sine altero 
-      <lb ed="#L" n="7"/>eadem ratione illud poterit destrui sine altero. sed il 
-      <lb ed="#L" n="8"/>lud quod praecedit et illud quod additur sunt eius 
-      <lb ed="#L" n="9"/>dem rationis. et neutrum est pars alterius et illud quod praecedit 
-      <lb ed="#L" n="10"/>potest fieri sine illo quod additur. ergo potest destrui
-      si<lb ed="#L" n="11" break="no"/>ne illo quod additur. ergo illud per se remanebit et ita 
-      <lb ed="#L" n="12"/>non includit contradictionem illam realitatem
-      addi<lb ed="#L" n="13" break="no"/>tam cum sit eiusdem rationis fieri sine realitate
-      praeceden<lb ed="#L" n="14" break="no"/>te.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e642">
-      ⁋ Contra tertium articulum arguo sic. quando aliqua 
-      <lb ed="#L" n="15"/>sunt eiusdem rationis: si vnum illorum sit intelligibile 
-      <lb ed="#L" n="16"/>intuitiue per se et reliquum. sed charitas quae praecedit et 
-      <lb ed="#L" n="17"/>illud quod sequitur sunt eiusdem rationis. et charitas pri 
-      <lb ed="#L" n="18"/>cedens intelligitur intuitiue per se. ergo et illud quod
-      ad<lb ed="#L" n="19" break="no"/>uenit.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e655">
-      ⁋ Si dicatur quod charitas praecedens quando erat 
-      <lb ed="#L" n="20"/>sine illo addito tunc erat per se intuitiue
-      intelligi<lb ed="#L" n="21" break="no"/>bilis. sed postquam facit per se vnum cum realitate sibi 
-      <lb ed="#L" n="22"/>addita non est per se intuitiue intelligibilis sed tantum. 
-      <lb ed="#L" n="23"/>cointelligitur. Contra. omnem intellectionem
-      intui<lb ed="#L" n="24" break="no"/>tiuam re manente potest deus conseruare quocumque alio 
-      <lb ed="#L" n="25"/>de nouo producto ponatur ergo quod angelus primo intel 
-      <lb ed="#L" n="26"/>ligat ante augmentationem illam charitate praexistemn 
-      <lb ed="#L" n="27"/>te. adhuc illa charitate manente potest deus conser 
-      <lb ed="#L" n="28"/>uare eam et notitiam intuitiuam. quantucumque aliquid 
-      <lb ed="#L" n="29"/>de nouo sibi addetur. sed stante eadem notitia
-      intui<lb ed="#L" n="30" break="no"/>tiua nihil potest de nouo illa notitia intuitiua
-      co<lb ed="#L" n="31" break="no"/>gnosci nisi quod participat de nouo rationem obiecti 
-      <lb ed="#L" n="32"/>illius notitie intuitiue. sed certum est quod nihil aliud po 
-      <lb ed="#L" n="33"/>terit de nouo participare eandem rationem cum eo. ergo illa 
-      <lb ed="#L" n="34"/>realitas sequens non cognoscitur illa notitia
-      intui<lb ed="#L" n="35" break="no"/>tiua conseruata per diuinam potentiam. ergo illud quod prim 
-      <lb ed="#L" n="36"/>cedit praecise cognoscitur ea. ergo est per se intelligibilis 
-      <lb ed="#L" n="37"/>et non solum cointelligibilis.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e697">
-      ⁋ Preterea notitia in 
-      <lb ed="#L" n="38"/>tuitiua causatur ex obiecto. sed deus potest coagere 
-      <lb ed="#L" n="39"/>vni rei non coagendo alteri quantumcumque facit per se 
-      <lb ed="#L" n="40"/>vnum cum ea. ergo potest coagere isti realitati non
-      coa<lb ed="#L" n="41" break="no"/>gendo alteri. et per consequens ista realitas
-      intelligere<lb ed="#L" n="42" break="no"/>tur intuitiue et non altera.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e710">
-      ⁋ Preterea vnumquodque 
-      <lb ed="#L" n="43"/>sicut se habet ad entitatem ita se habet ad
-      intel<lb ed="#L" n="44" break="no"/>ligibilitatem. sed ista realitas est realitas
-      distin<lb ed="#L" n="45" break="no"/>cta realiter ab alia. ergo habet distinctam
-      intelligibi<lb ed="#L" n="46" break="no"/>litatem secundum modum loquendi istorum. ergo non includit 
-      <lb ed="#L" n="47"/>contradictionem secundam intuitiue intelligi ab
-      in<lb ed="#L" n="48" break="no"/>tellectu creato. alia non intuitiue intellecta ab 
-      <lb ed="#L" n="49"/>eodem.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e728">
-      ⁋ Preterea non est maior contradictio
-      ali<lb ed="#L" n="50" break="no"/>quid intelligi intuitiue sine alio quam
-      abstracti<lb ed="#L" n="51" break="no"/>ue. maxime quando realiter distinguuntur sed aliquis 
-      <lb ed="#L" n="52"/>intelligens illam charitatem primam abstractiue potest 
-      <lb ed="#L" n="53"/>illam notitiam continere quantumcumque deus
-      augmen<lb ed="#L" n="54" break="no"/>taret illam charitatem. sed hoc posito non
-      intellige<lb ed="#L" n="55" break="no"/>ret aliquid nisi quod prius intellexit. ergo praecise in¬ 
-      <!--394.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 196-r -->
-               <lb ed="#L" n="56"/>telligit illud abstractiue quod prius.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e752">
-      ⁋ Preterea  
-      <lb ed="#L" n="57"/>nulla vnio cum alio impedit: quin possit intelligi in 
-      <lb ed="#L" n="58"/>tuitiue sine illo cui vnitur. patet inductiue. quia 
-      <lb ed="#L" n="59"/>forma substantialis potest intelligi intuitiue sine
-      mate<lb ed="#L" n="60" break="no"/>ria cui vnitur. similiter accidens vnitum subiecto 
-      <lb ed="#L" n="61"/>potest intelligi intuitiue sine eo. sicut potest videri. 
-      <lb ed="#L" n="62"/>oculo corporali sine eo. ita scilicet quod illud subiectum 
-      <lb ed="#L" n="63"/>non per se videtur oculo corporali. sed tantum per
-      ac<lb ed="#L" n="64" break="no"/>cidens. similiter vna aqua vnita alteri potest
-      intui<lb ed="#L" n="65" break="no"/>tiue videri sine ea. sed nihil est hic impediens 
-      <lb ed="#L" n="66"/>vnam realitatem videri sine alia: nisi forte vnio 
-      <lb ed="#L" n="67"/>vnius ad alteram. sed ista non impedit sicut nec 
-      <lb ed="#L" n="68"/>aliqua alia. igitur etc.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e782">
-      ⁋ Ideo aliter dico tenendo 
-      <lb ed="#L" n="69"/>contrarium cuiuslibet illorum trium articulorum. Et quan 
-      <lb ed="#L" n="70"/>tum ad primum illorum dico quod illa realitas
-      adue<lb ed="#L" n="71" break="no"/>niens est vera charitas. sicut pars aque est ve 
-      <lb ed="#L" n="72"/>ra aqua. et vna pars albedinis distincta loco et 
-      <lb ed="#L" n="73"/>subiecto ab alia parte albedinis est vera albedo 
-      <lb ed="#L" n="74"/>quid vniversaliter omne totum habens plures partes realiter
-      distin<lb ed="#L" n="75" break="no"/>ctas que sunt eiusdem rationis sic se habet ad eas 
-      <lb ed="#L" n="76"/>quod species spacialissima praedicatur de qualibet illarum 
-      <lb ed="#L" n="77"/>partium sicut de toto. Cuius ratio est. quia
-      praedicatio<lb ed="#L" n="78" break="no"/>nem non posset aliquid impedire: nisi vnio vel co 
-      <lb ed="#L" n="79"/>positio vnius partis cum alia. sed talis compositio vel 
-      <lb ed="#L" n="80"/>vnio non impedit. sicut patet de partibus aque
-      com<lb ed="#L" n="81" break="no"/>ponentibus aquam: et de partibus ignis
-      componenti<lb ed="#L" n="82" break="no"/>bus ignem. Nec potest dici quod non omnis vnio vel compo 
-      <lb ed="#L" n="83"/>sitio impedit talem praedicationem. sed vnio vnius
-      per<lb ed="#L" n="84" break="no"/>tis impraecise ab alia impedit. et ideo quia vna pars aqua 
-      <lb ed="#L" n="85"/>non est impraecisa ab alia. aqua vere praedicatur de per 
-      <lb ed="#L" n="86"/>te sicut de toto. hoc non valet. quia quero quomo 
-      <lb ed="#L" n="87"/>ista vna pars charitatis sit impscisa ab alia Aut quia 
-      <lb ed="#L" n="88"/>vna pars non est realiter distincta ab alia. Aut quia 
-      <lb ed="#L" n="89"/>vna pars non est vnum per se non faciens per se vnum cum 
-      <lb ed="#L" n="90"/>alia. Aut quia vna pars non distinguitur loco et subie 
-      <lb ed="#L" n="91"/>cto ab alia. Primum dici non poest. quia partes
-      chari<lb ed="#L" n="92" break="no"/>tatis realiter distinguuntur sicut partes aque. Nec 
-      <lb ed="#L" n="93"/>secundum quia illo modo vna pars aque est impraecisa ab alia. 
-      <lb ed="#L" n="94"/>Nec potest dari tertium. quia eadem facilitate qua tu 
-      <lb ed="#L" n="95"/>dicis quod vna pars componens cum alia quando non distin 
-      <lb ed="#L" n="96"/>guitur loco et subiecto ab alia non est praecisa ab 
-      <lb ed="#L" n="97"/>alia. Eadem facilitate dicam ego. quod quando vna pars
-      di<lb ed="#L" n="98" break="no"/>stinguitur loco et subiecto ab alia. si tamen faciat per 
-      <lb ed="#L" n="99"/>se vnum cum ea non est praecisa ab ea.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e852">
-      ⁋ Preterea. vnio 
-      <lb ed="#L" n="100"/>alicuius cum alio non destruit realitatem vnius neque 
-      <lb ed="#L" n="101"/>alterius. ergo non impedit praedicationem alicuius 
-      <lb ed="#L" n="102"/>praedicati importantis praecise realitatem illorum. sed cha 
-      <lb ed="#L" n="103"/>ritas non importat nisi praecise essentiam charitatis. 
-      <lb ed="#L" n="104"/>ergo vnio vnius cum alio non impedit charitatem prae 
-      <lb ed="#L" n="105"/>dicari de illo de quo prius praedicabatur. sed de ista per 
-      <lb ed="#L" n="106"/>te prius praedicabatur charitas. ergo de ista parte 
-      <lb ed="#L" n="107"/>post vnionem vere praedicatur adhuc. sed qua ratione
-      pri<lb ed="#L" n="108" break="no"/>dicatur de vna parte et de alia. ergo hec est simplici 
-      <lb ed="#L" n="109"/>ter vera. quelibet pars charitatis est charitas.
-      si<lb ed="#L" n="110" break="no"/>cut hec est vera. quelibet pars aque est aqua. et 
-      <!--395.xml-->
-      <pb ed="#L" n="196-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>quelibet pars ignis est ignis. et sic de aliis.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e887">
-      ⁋ Ex 
-      <lb ed="#L" n="2"/>praedictis patet. quod vana est opinio ponens quod isti
-      gra<lb ed="#L" n="3" break="no"/>dus sunt gradus materiales et non formales. quia 
-      <lb ed="#L" n="4"/>isti gradus sunt vere partes charitatis: quorum
-      qua<lb ed="#L" n="5" break="no"/>libet est vera charitas. Et ideo sicut non est
-      dice<lb ed="#L" n="6" break="no"/>dum quod partes aque integrales: quarum quelibet 
-      <lb ed="#L" n="7"/>est vera aqua sunt materiales et non formales. 
-      <lb ed="#L" n="8"/>ita et in proposito.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e905">
-      ⁋ Quod autem isti gradus sint vere 
-      <lb ed="#L" n="9"/>partes: quarum quelibet est vera charitas. sic osten 
-      <lb ed="#L" n="10"/>do. quia quaero de istis gradibus. aut sunt omnins
-      eius<lb ed="#L" n="11" break="no"/>dem rationis cum charitate prima. aut non si sic. ha 
-      <lb ed="#L" n="12"/>beo propositum. quia tunc ita vere quaelibet illorum
-      gra<lb ed="#L" n="13" break="no"/>duum est vera charitas sicut charitas prima. que 
-      <lb ed="#L" n="14"/>primo fuit quoddam totum: nunc autem est pars. Si 
-      <lb ed="#L" n="15"/>non. et manifestum est quod gradus sequens facit per se 
-      <lb ed="#L" n="16"/>vnum cum priori. et impossibile est aliqua duo non 
-      <lb ed="#L" n="17"/>eiusdem rationis: sed alterius et alterius rationis
-      face<lb ed="#L" n="18" break="no"/>re per se vnum: nisi vnum sit potentia et aliud actus 
-      <lb ed="#L" n="19"/>ergo hic esset vera compositio ex rebus distinctum 
-      <lb ed="#L" n="20"/>realiter. quarum vna vere informaret aliam. et per consequens 
-      <lb ed="#L" n="21"/>maior esset compositio ex partibus alterius et alte 
-      <lb ed="#L" n="22"/>rius rationis in charitate sequente quam precedente.
-      in<lb ed="#L" n="23" break="no"/>mo sequeretur vltra quod charitas sequens non esset 
-      <lb ed="#L" n="24"/>eiusdem rationis cum precedente. Tertium inconueniens 
-      <lb ed="#L" n="25"/>sequitur quod charitas indiuidua precedens non esset 
-      <lb ed="#L" n="26"/>aliquod indiuiduum per se in genere. vel in specie. 
-      <lb ed="#L" n="27"/>consequentia patet. quia nihil quod est pars essentialis ali 
-      <lb ed="#L" n="28"/>cuius per se in genere vel in specie componibilis 
-      <lb ed="#L" n="29"/>cum alia parte alterius rationis: potest esse per se in ge 
-      <lb ed="#L" n="30"/>nere vel in specie. ideo enim anima intellectiua non est 
-      <lb ed="#L" n="31"/>per se in genere vel in specie. quia est pars hominis 
-      <lb ed="#L" n="32"/>componens hominem cum corpore quod est alterius rationis 
-      <lb ed="#L" n="33"/>quam anima intellectiua. ergo si illud additum alterius 
-      <lb ed="#L" n="34"/>rationis esset componibile cum charitate praeuia. illa 
-      <lb ed="#L" n="35"/>charitas praeuia nullo modo esset indiuiduum per se in 
-      <lb ed="#L" n="36"/>genere vel in specie
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e968">
-      ⁋ Si dicatur quod illud additum 
-      <lb ed="#L" n="37"/>non est nisi differentia indiuidualis. et differentia. 
-      <lb ed="#L" n="38"/>indiuidualis non facit aliquid alterius speciei. hoc 
-      <lb ed="#L" n="39"/>non valet. quia secundum ponentes tales differentias indi 
-      <lb ed="#L" n="40"/>uiduales: differentia indiuidualis non distingui 
-      <lb ed="#L" n="41"/>tur a natura quam contrahit. ergo non potest
-      adueni<lb ed="#L" n="42" break="no"/>re de nouo nisi natura de nouo adueniat. et per 
-      <lb ed="#L" n="43"/>consequens nisi adueniat de nouo aliquod compositum ex 
-      <lb ed="#L" n="44"/>natura et differentia indiuiduali.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e988">
-      ⁋ Preterea. tunc 
-      <lb ed="#L" n="45"/>equeretur quod vnum indiuiduum haberet duas differentia 
-      <lb ed="#L" n="46"/>indiuiduales. quia certum est quod prima non deparditur. 
-      <lb ed="#L" n="47"/>ergo si aduenit vna alia erunt due.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e998">
-      ⁋ Preterea. ta 
-      <lb ed="#L" n="48"/>les differne indiuiduales non sunt ponende sicut su 
-      <lb ed="#L" n="49"/>berius est probatum
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1005">
-      ⁋ Quantum ad secundum
-      arti<lb ed="#L" n="50" break="no"/>culum dico quod nullam includit contradictionem
-      cha<lb ed="#L" n="51" break="no"/>ritatem additam per se fieri: sicut nullam includit 
-      <lb ed="#L" n="52"/>contradictionem charitatem primam per se fieri. et ideo 
-      <lb ed="#L" n="53"/>sicut deus potest realitatem illam cui est alia addita 
-      <lb ed="#L" n="54"/>que non est nisi quedam charitas: et tamen partialis per 
-      <lb ed="#L" n="55"/>se facere sine illa realitate sequente. ita potest fa¬ 
-      <!--395.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 196-v -->
-               <lb ed="#L" n="56"/>cere per se illam realitatem sequentem sine prece 
-      <lb ed="#L" n="57"/>dente. Cuius ratio est. quia numquam aliquid
-      requi<lb ed="#L" n="58" break="no"/>ritur ad aliquid aliud eiusdem rationis nisi sit 
-      <lb ed="#L" n="59"/>causa ipsius extrinseca vel intrinseca pars
-      ip<lb ed="#L" n="60" break="no"/>sius. sed in proposito realitas precedens non 
-      <lb ed="#L" n="61"/>est pars intrinseca realitatis sequentis
-      addi<lb ed="#L" n="62" break="no"/>te: quamuis sit pars intrinseca totius charitatis 
-      <lb ed="#L" n="63"/>composite ex realitate precedente et realitate 
-      <lb ed="#L" n="64"/>sequente. nec est causa extrinseca ipsius. quia 
-      <lb ed="#L" n="65"/>in nullo genere cause. patet inductiue. Et
-      posi<lb ed="#L" n="66" break="no"/>to quod esset causa extrinseca ipsius. posset deus 
-      <lb ed="#L" n="67"/>supplere causam illam extrinsecam se solo. et est ma 
-      <lb ed="#L" n="68"/>xime verum quando causa et causatum sunt eiusdem
-      rati<lb ed="#L" n="69" break="no"/>onis. potest ergo de potentia sua facere illam
-      realita<lb ed="#L" n="70" break="no"/>tem additam sine precedente.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1060">
-      ⁋ Quantum ad  
-      <lb ed="#L" n="71"/>tertium articulum dico quod per potentiam creature 
-      <lb ed="#L" n="72"/>vna illarum realitatum non potest videri intuitiue. 
-      <lb ed="#L" n="73"/>ita quod sit in potestate creature quod vna videatur 
-      <lb ed="#L" n="74"/>alia non visa. Secundo dico quod per diuinam
-      po<lb ed="#L" n="75" break="no"/>tentiam potest vna illarum videri ab intellectu cre 
-      <lb ed="#L" n="76"/>ato alia non visa.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1076">
-      ⁋ Primum patet. quia quando sunt 
-      <lb ed="#L" n="77"/>aliquem potentie naturales equaliter disposite 
-      <lb ed="#L" n="78"/>eque approximate. nullo existente impedimen 
-      <lb ed="#L" n="79"/>to. omnes ille cause agunt. et ita ponetur
-      effe<lb ed="#L" n="80" break="no"/>ctus cuiuslibet illarum causarum. sed impossibile 
-      <lb ed="#L" n="81"/>est stante vna charitate constituta ex illis
-      du<lb ed="#L" n="82" break="no"/>abus realitatibus vnam illarum realiter approxi 
-      <lb ed="#L" n="83"/>mari intellectui vt videatur intuitiue sine alia. 
-      <lb ed="#L" n="84"/>nec intel lectus esse dispositus ad videndum 
-      <lb ed="#L" n="85"/>vnam nisi eodem modo disponatur ad videndum 
-      <lb ed="#L" n="86"/>aliam. nec potest esse aliquod impedimentum natu 
-      <lb ed="#L" n="87"/>rale respectu vnius quin sit respectu alterius 
-      <lb ed="#L" n="88"/>ergo non est in potenstate creature quod vna videatur 
-      <lb ed="#L" n="89"/>sine alia.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1107">
-      ⁋ Si dicatur quod voluntas potest libere 
-      <lb ed="#L" n="90"/>impedire. hoc non valet. quia numquam potest voluntas 
-      <lb ed="#L" n="91"/>impedire notitiam intuitiuam alicuius rei nisi ad  
-      <lb ed="#L" n="92"/>uertendo potentiam vel obiectum per motum
-      loca<lb ed="#L" n="93" break="no"/>lem vel aliquid de nouo causando. sed
-      inducti<lb ed="#L" n="94" break="no"/>ue patet quod nullum illorum potest hic poni.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1120">
-      ⁋ Dico ergo 
-      <lb ed="#L" n="95"/>quod sicut si materia et forma componentia aliquod  
-      <lb ed="#L" n="96"/>totum essent eque intuitiue intelligibilia ab in 
-      <lb ed="#L" n="97"/>tellectu. ipsis componentibus illud compositum 
-      <lb ed="#L" n="98"/>non est in potestate agentis creati quod vnum illo 
-      <lb ed="#L" n="99"/>rum intuitiue videatur sine alio. sic est in
-      propo<lb ed="#L" n="100" break="no"/>sito de istis realitatibus. Et sicut si duo
-      calo<lb ed="#L" n="101" break="no"/>res approximentur eidem passo. non potest
-      na<lb ed="#L" n="102" break="no"/>turaliter vnus illorum agere in passum nisi alius 
-      <lb ed="#L" n="103"/>agat maxime si sint eque perfecti. ita est in proposito 
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1143">
-               <lb ed="#L" n="104"/>⁋ Secundum ostendo. quia ille realitates si 
-      <lb ed="#L" n="105"/>essent separate nate essent distinctis
-      intelle<lb ed="#L" n="106" break="no"/>ctionibus intuitiuis intelligi. et potest
-      indifferen<lb ed="#L" n="107" break="no"/>ter vna illarum esse sine alia. sed quamncumque rem pos 
-      <lb ed="#L" n="108"/>sibilem esse sine alia potest deus conseruare sine
-      il<lb ed="#L" n="109" break="no"/>la. quacumque mutatione facta circa aliam rem
-      lo<lb ed="#L" n="110" break="no"/>co et subiecto distinctam. ergo potest deus de potentia 
-      <!--396.xml-->
-      <pb ed="#L" n="197-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>sua absoluta conseruare notitiam intuitiuam in in 
-      <lb ed="#L" n="2"/>tellectu michaelis respectu charitatis mee prte 
-      <lb ed="#L" n="3"/>cedentis. sine notitia intuitiua charitatis vl 
-      <lb ed="#L" n="4"/>realitatis sequentis quacumque mutatione facta 
-      <lb ed="#L" n="5"/>circa me qui sum distinctus loco et subiecto a 
-      <lb ed="#L" n="6"/>michaele. ergo quamuis charitati mee addatur not 
-      <lb ed="#L" n="7"/>realitas per 
-      <lb ed="#L" n="8"/>tiuam preuiam respectu charitatis prime sine no 
-      <lb ed="#L" n="9"/>tia intuitiua illius additi
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1187">
-      ⁋ Confirmatur. quia 
-      <lb ed="#L" n="10"/>ex hoc quod aliquod absolutum producit in me non 
-      <lb ed="#L" n="11"/>necessitatur ad producendum vel corrumpendum 
-      <lb ed="#L" n="12"/>aliquod absolutum in angelo. ergo potest deus
-      augmen<lb ed="#L" n="13" break="no"/>tare in me charitatem: nulla facta mutatione 
-      <lb ed="#L" n="14"/>in angelo. et per consequens. retinebit eandem notitie 
-      <lb ed="#L" n="15"/>intuitiuam quam prius. et ita nihil intelliget int 
-      <lb ed="#L" n="16"/>tiue nisi quod prius intellexit.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1205">
-      ⁋ Si dicatur 
-      <lb ed="#L" n="17"/>eadem notitia intuitiua intelligetur illud ad  
-      <lb ed="#L" n="18"/>ditum. ex quo facit per se vnum cum illo quod illa 
-      <lb ed="#L" n="19"/>notitia intuitiua intelligitur. hoc non valet. 
-      <lb ed="#L" n="20"/>quia stante eadem notitia intuitiua non vari 
-      <lb ed="#L" n="21"/>ata impossibile est aliquid primo inte 
-      <lb ed="#L" n="22"/>tellectione. et postea non intelligi. no 
-      <lb ed="#L" n="23"/>so. sed illud additum prius non intelligebatur
-      il<lb ed="#L" n="24" break="no"/>la notitia intuitiua. ergo nec modo intelligitur il 
-      <lb ed="#L" n="25"/>la. ergo si modo intelligitur intuitiue oportet quod sit ali 
-      <lb ed="#L" n="26"/>notitia intuitiua de nouo causata.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1229">
-      ⁋  
-      <lb ed="#L" n="27"/>mum argumentum alterius opinio dico quod quantum ad 
-      <lb ed="#L" n="28"/>aliquid est simile de augmenntatione curui 
-      <lb ed="#L" n="29"/>tis. raritatis. densitatis. et talium que ponuntur 
-      <lb ed="#L" n="30"/>esse de quarta specie qualitatis. et quantum
-      a<lb ed="#L" n="31" break="no"/>aliquid est dissimile. Quantum ad hoc est simi 
-      <lb ed="#L" n="32"/>le: quia in augmentatione talium non additur pre 
-      <lb ed="#L" n="33"/>existens alicui de nouo. nec etiam aliquid po 
-      <lb ed="#L" n="34"/>nitur iuxta aliud. nec aliquid praexistens
-      segre<lb ed="#L" n="35" break="no"/>gatur ab alio. sicut quidam antiqui ponebant 
-      <lb ed="#L" n="36"/>condensationem propter compressione pororum 
-      <lb ed="#L" n="37"/>in corpore condensato. sed dissimile est de istis 
-      <lb ed="#L" n="38"/>quantum ad aliqua alia. Unde si tenetur illa 
-      <lb ed="#L" n="39"/>opinione que tenet quantitatem non esset aliam rem ab 
-      <lb ed="#L" n="40"/>solutam a substantia et qualitate sicut
-      homi<lb ed="#L" n="41" break="no"/>nes communiter ymaginantur dicetur quod in au 
-      <lb ed="#L" n="42"/>gmentatione talium nulla res absoluta noua ad 
-      <lb ed="#L" n="43"/>uenit. nec in diminutione aliqua res
-      absolu<lb ed="#L" n="44" break="no"/>ta deperditur. sed talis augmentatio fit precise 
-      <lb ed="#L" n="45"/>per motum localem sicut patet de curuitate lines 
-      <lb ed="#L" n="46"/>quia per hoc solum quod partes extreme linee
-      ma<lb ed="#L" n="47" break="no"/>gis sibi approximantur fit ipsa curuior. Unde 
-      <lb ed="#L" n="48"/>sic ponendo opiniones quod quantitas sit aliqua res ab 
-      <lb ed="#L" n="49"/>soluta. oportet ponere quod si aliqua esset quantitas 
-      <lb ed="#L" n="50"/>separata ab omni substantia et ab omni accidente 
-      <lb ed="#L" n="51"/>absoluto. adhuc possent partes extreme illius 
-      <lb ed="#L" n="52"/>quantitatis magis approximari. et per consequens
-      fie<lb ed="#L" n="53" break="no"/>ret curuior. et tamen nihil absolutum sibi adueniret. 
-      <lb ed="#L" n="54"/>ita dicerent alii: quod quando aliqua res fit curuior quam 
-      <lb ed="#L" n="55"/>prius nulla res absoluta aduenit sibi de nouo 
-      <!--396.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 197-r -->
-               <lb ed="#L" n="56"/>sed tantum partes sue localiter sibi magis
-      approxi<lb ed="#L" n="57" break="no"/>mantur. Consimiliter dicerent quod ignis vel aer
-      ra<lb ed="#L" n="58" break="no"/>refit per hoc solum: quod eedem res coexistunt
-      circum<lb ed="#L" n="59" break="no"/>scriptiue maiori loco nunc quam prius. Unde sicut 
-      <lb ed="#L" n="60"/>substantia eadem secundum omnes non variata
-      coexi<lb ed="#L" n="61" break="no"/>stit sub maiori quantitate nunc quam prius. ita
-      di<lb ed="#L" n="62" break="no"/>cerent illi quod eadem res in nullo variata nisi lo 
-      <lb ed="#L" n="63"/>caliter coexistit maiori loco nunc quam prius. et hoc 
-      <lb ed="#L" n="64"/>est rarefieri Et sicut dicerent de rarefactione 
-      <lb ed="#L" n="65"/>ita dicerent de omnibus talibus proportiona 
-      <lb ed="#L" n="66"/>biliter quod nulla res noua absoluta distincta re 
-      <lb ed="#L" n="67"/>aliter a realitate precedente acquiritur nisi for 
-      <lb ed="#L" n="68"/>te locus. Sed in augmentatione aliarum
-      qua<lb ed="#L" n="69" break="no"/>litatum. cum non sit sic nec possit esse motus lo 
-      <lb ed="#L" n="70"/>calis oportet quod aliqua res absoluta de noue 
-      <lb ed="#L" n="71"/>addita adueniat.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1335">
-      ⁋ Qui autem dicunt quantita 
-      <lb ed="#L" n="72"/>tem esse aliam rem absolutam distinctam realiter a 
-      <lb ed="#L" n="73"/>substantia et qualitate habent ponereUt dide 
-      <lb ed="#L" n="74"/>tur in rarefactione totam quantitatem preceden 
-      <lb ed="#L" n="75"/>tem corrumpi. quia si quantitas precedens ma 
-      <lb ed="#L" n="76"/>neret. aut maneret precise in eodem subiecto 
-      <lb ed="#L" n="77"/>in quo prius et secundum quanlibet sui partem aut non. 
-      <lb ed="#L" n="78"/>si sic et certum est quod illa realitas in aduentum re 
-      <lb ed="#L" n="79"/>cipitur in subiecto. ergo in eodem subiecto erunt 
-      <lb ed="#L" n="80"/>due quantitates. quod est impossibile. Si non 
-      <lb ed="#L" n="81"/>manet precise in eodem subiecto. ergo secundum aliquid 
-      <lb ed="#L" n="82"/>sui recipitur in alio subiecto. et ita accidens mi 
-      <lb ed="#L" n="83"/>graret de subiecto in subiectum. vel secundum aliquid 
-      <lb ed="#L" n="84"/>li manebit sine subiecto: quod est
-      impossibi<lb ed="#L" n="85" break="no"/>le
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1368">
-      ⁋ Si dicatur quod realitas precedens et
-      reali<lb ed="#L" n="86" break="no"/>tas addita non sunt due quantitates. sed vna 
-      <lb ed="#L" n="87"/>quantitas. Contra. realitas precedens vere 
-      <lb ed="#L" n="88"/>fuit quantitas. quia res a qua scilicet res
-      augmenta<lb ed="#L" n="89" break="no"/>ta vere ipsa fuit quanta. sed impossibile est quod 
-      <lb ed="#L" n="90"/>quantitas fiat nonquantitas nisi per corruptio 
-      <lb ed="#L" n="91"/>nem vel destructionem. ergo adhuc est quantitas. et 
-      <lb ed="#L" n="92"/>eadem ratione quantitas addita erit quantitas 
-      <lb ed="#L" n="93"/>et ita erunt ibi due quantitates in eodem
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1389">
-      ⁋ Pre 
-      <lb ed="#L" n="94"/>terea. quandocunque alique due realitates eiusdem 
-      <lb ed="#L" n="95"/>rationis possunt esse in eodem subiecto primo. 
-      <lb ed="#L" n="96"/>numquam per additionem vnius realitatis ad aliam 
-      <lb ed="#L" n="97"/>fit eadem res maior extensiue. sed tantum
-      intensi<lb ed="#L" n="98" break="no"/>ue. quia dicitur magis tale et non maius tale 
-      <lb ed="#L" n="99"/>sicut patet quod quia vna realitas charitatis potest 
-      <lb ed="#L" n="100"/>esse in eodem subiecto primo cum alia realita 
-      <lb ed="#L" n="101"/>te charitatis. ideo per additionem vnius rea 
-      <lb ed="#L" n="102"/>litatis ad aliam. illud causatum non fit maius
-      cau<lb ed="#L" n="103" break="no"/>satum extensiue et dimensionaliter. sed tantum
-      di<lb ed="#L" n="104" break="no"/>citur magis quantum intensiue. ergo si due
-      realita<lb ed="#L" n="105" break="no"/>tes quantitatis compatiuntur se in eodem sub 
-      <lb ed="#L" n="106"/>iecto primo. illud subiectum non dicetur
-      ma<lb ed="#L" n="107" break="no"/>ius quantum extensiue et dimensionaliter. sed tantum 
-      <lb ed="#L" n="108"/>dicetur magis quantum intensiue. quod est manifeste 
-      <lb ed="#L" n="109"/>falsum. Et sicut arguo de duabus realitatibus 
-      <lb ed="#L" n="110"/>quantitatum. ita arguo de duabus realitatibus rari 
-      <!--396.xml-->
-      <pb ed="#L" n="197-r"/>
-               <cb ed="#L" n="c"/>
-               <lb ed="#L" n="111"/>ISI¬ 
-      <!--397.xml-->
-      <pb ed="#L" n="197-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>tatis. quod rarius non est maius extensiue propter
-      additio<lb ed="#L" n="2" break="no"/>nem realitatum raritatis ad realitatem eiusdem rationis 
-      <lb ed="#L" n="3"/>hoc idem patet in densitate. quia ibi non est
-      addi<lb ed="#L" n="4" break="no"/>tio alicuius realitatis noue quia numquam per additionem 
-      <lb ed="#L" n="5"/>alicuius rei necessario sit aliquid minus quantum 
-      <lb ed="#L" n="6"/>et tamen si sit densius necessario est minus quantu 
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1456">
-               <lb ed="#L" n="7"/>⁋ Sic ergo dico ad argumentum quod non est simile quantum 
-      <lb ed="#L" n="8"/>ad hoc quod aliqua realitas noua additur realitati 
-      <lb ed="#L" n="9"/>praecedenti eiusdem rationis. et faciens per se vnum cum 
-      <lb ed="#L" n="10"/>ea in raritate densitate curuitate asperitate. 
-      <lb ed="#L" n="11"/>et sic de aliis. sicut est de augmentatione
-      chari<lb ed="#L" n="12" break="no"/>tatis albedinis et talium qualitatum
-      augmenta<lb ed="#L" n="13" break="no"/>bilium.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1474">
-      ⁋ Per idem ad secundum dico quod quantum ad ali 
-      <lb ed="#L" n="14"/>quid est simile in augmentatione qualitatis et 
-      <lb ed="#L" n="15"/>quantitatis. et quantum ad aliquid est dissimile. est enim in 
-      <lb ed="#L" n="16"/>hoc dissimile quod in augmentatione qualitatis est 
-      <lb ed="#L" n="17"/>aliqua res absoluta secundum se totam noua faciens per se 
-      <lb ed="#L" n="18"/>vnum cum prima. non sic in augmentatione quantitatis. 
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1487">
-               <lb ed="#L" n="19"/>⁋ Ad tertium dico quod charitas in fine
-      augmen<lb ed="#L" n="20" break="no"/>tationis est vna numeraliter et ideo partes faciunt 
-      <lb ed="#L" n="21"/>vnum numero. Et dico quod se totis faciunt vnum et 
-      <lb ed="#L" n="22"/>non secundum sua vltima. quia nohabent talia vltima. 
-      <lb ed="#L" n="23"/>Unde sicut materia et forma faciunt se totis vnum 
-      <lb ed="#L" n="24"/>per se. et non secundum sua vltima. et ita est de istis
-      reali<lb ed="#L" n="25" break="no"/>tatibus. quamuis sit dissimile quantum ad hoc quod forma 
-      <lb ed="#L" n="26"/>informat materiam vna autem realitas hic non infor 
-      <lb ed="#L" n="27"/>mat aliam. et ita idem argumentum quod facit de istis 
-      <lb ed="#L" n="28"/>duabus realitatibus potest fieri de materia et forma. 
-      <lb ed="#L" n="29"/>et ideo sicut non valet ibi: ita nec valet hic.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1513">
-      ⁋ Per 
-      <lb ed="#L" n="30"/>hoc ad aliud quod ille realitates se totis vniuntur 
-      <lb ed="#L" n="31"/>et ideo non sunt ibi infinite forme non facientes 
-      <lb ed="#L" n="32"/>vnam formam numero. sed sunt ibi infinite partes: sicut 
-      <lb ed="#L" n="33"/>in aqua sunt infinite partes
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1524">
-      ⁋ Ad aliud dico 
-      <lb ed="#L" n="34"/>quod ex illis charitatibus fit vnum. et satis potest dici 
-      <lb ed="#L" n="35"/>quod est vnum vnitate homogeneitatis. sed tunc est
-      ar<lb ed="#L" n="36" break="no"/>gumentum falsum. quod talia non faciunt vnum nisi per com 
-      <lb ed="#L" n="37"/>tinuationem. Unde argumentum est contra seipsum. quia 
-      <lb ed="#L" n="38"/>manifestum est quod iste realitates faciunt vnum. et 
-      <lb ed="#L" n="39"/>quero qua vnitate. Si dicat quod aliqua alia vni 
-      <lb ed="#L" n="40"/>tate quae nec est vnitas talis essentialis compositi 
-      <lb ed="#L" n="41"/>onis nec continuitatis nec homogeneitatis nec 
-      <lb ed="#L" n="42"/>alicuius alterius. Eadem facilitate dicam hic quod due 
-      <lb ed="#L" n="43"/>charitates faciunt vnum vna alia vnitate. Uel 
-      <lb ed="#L" n="44"/>si dicat quod iste due realitates. quia sunt eiusdem rati 
-      <lb ed="#L" n="45"/>nis faciunt vnum vnitate homogeneitatis. eadem 
-      <lb ed="#L" n="46"/>facilitate dicam quod iste due charitates. quia sunt 
-      <lb ed="#L" n="47"/>eiusdem rationis faciunt vnum vnitate homogenei 
-      <lb ed="#L" n="48"/>tatis. Sic ergo omnis difficultas quae est contra me est 
-      <lb ed="#L" n="49"/>contra ponentem duas realitates eiusdem rationis ein 
-      <lb ed="#L" n="50"/>eadem charitate. nec est quantum ad hoc aliqua differentia 
-      <lb ed="#L" n="51"/>nisi quod istas duas realitates non vult vocare 
-      <lb ed="#L" n="52"/>charitates. quarum tamen multe fuerunt charitates 
-      <lb ed="#L" n="53"/>qui in quolibet instanti praeuio fuit verum dicere ali 
-      <lb ed="#L" n="54"/>qua charitas est in anima et non pro eadem. manifestum est 
-      <lb ed="#L" n="55"/>ergo pro diuersis et iste remanet. ergo vere fuerunt cha 
-      <!--397.xml-->
-      <cb ed="#L" n="b"/>
-               <!-- 197-v -->
-               <lb ed="#L" n="56"/>ritates. Ego autem dico quod sicut fuerunt charita 
-      <lb ed="#L" n="57"/>tes ita adhuc sunt charitates sicut partes aquae sunt 
-      <lb ed="#L" n="58"/>aqua. nec maiorem compositionem pono ego in
-      cha<lb ed="#L" n="59" break="no"/>ritate quam ipse. et ita propter simplicitatem conuenien 
-      <lb ed="#L" n="60"/>tem charitati augmtentate non ortet negare plures 
-      <lb ed="#L" n="61"/>charitates. sicut non ortet negare plures
-      realita<lb ed="#L" n="62" break="no"/>tes eiusdem rationis.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1597">
-      ⁋ Sed contra praedicta potest argui 
-      <lb ed="#L" n="63"/>primo. quia tunc sequeretur quod duo accidentia
-      differen<lb ed="#L" n="64" break="no"/>tia solo numero essent in eodem subiecto quod est 
-      <lb ed="#L" n="65"/>impossibile
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1606">
-      ⁋ Ite arguit quidam doctor sic Si quod 
-      <lb ed="#L" n="66"/>mile additum simili non augmentat. patet sicut si
-      tepi<lb ed="#L" n="67" break="no"/>dum addatur tepido. non augmentatur calor. ergo
-      augmen<lb ed="#L" n="68" break="no"/>tatio non est per talem additionem.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1615">
-      ⁋ Preterea vide aua 
-      <lb ed="#L" n="69"/>tur quod forma intensior et remissior non sunt
-      eiusdem<lb ed="#L" n="70" break="no"/>rationis. et per consequens partes non sunt eiusdem rationis inter 
-      <lb ed="#L" n="71"/>se et cum toto. cuius oppositum dictum est prius.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1624">
-      ⁋ Ai 
-      <lb ed="#L" n="72"/>sumptum probatur. quia natura sub determinato gra 
-      <lb ed="#L" n="73"/>du magis vel minus est species ad indiuidua. et hoc 
-      <lb ed="#L" n="74"/>species in forma contenta sub specie nature. ergo 
-      <lb ed="#L" n="75"/>illa indiuidua contenta sub talibus speciebus
-      de<lb ed="#L" n="76" break="no"/>terminatis specie distinguuntur. anens patet. quia
-      il<lb ed="#L" n="77" break="no"/>lud quod in quid dicitur per se de indiuiduis et est per se 
-      <lb ed="#L" n="78"/>vnum: est species eorum. sed natura in determinato
-      gra<lb ed="#L" n="79" break="no"/>du tali vel tali dicitur in quid de indiuiduis et est per 
-      <lb ed="#L" n="80"/>se vnum. quia tota. et secundum hunc gradum essentialiter est 
-      <lb ed="#L" n="81"/>eorum quae habent naturam in tali gradu. et gradus ni 
-      <lb ed="#L" n="82"/>hil addit quod accidit nature. ergo natura in tali 
-      <lb ed="#L" n="83"/>gradu est species. et patet quod est minus commune quam species nature 
-      <lb ed="#L" n="84"/>ergo si est species est species inferior in ordine nature. 
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1655">
-               <lb ed="#L" n="85"/>⁋ Ad primum istorum dico quod duo accidentia differentia se 
-      <lb ed="#L" n="86"/>lo numero facientia tamen vnum accidens numero non est 
-      <lb ed="#L" n="87"/>impossibile esse in eodem. Sed duo accidentia nata 
-      <lb ed="#L" n="88"/>facere vnum esse in eodem et non facere vnum numero 
-      <lb ed="#L" n="89"/>est impossibile per naturam. et hoc intendit philosophus et non 
-      <lb ed="#L" n="90"/>aliud.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1671">
-      ⁋ Si dicatur ista accidentia differunt numero 
-      <lb ed="#L" n="91"/>ergo non faciunt vnum numero. Dico quod aliqua differre 
-      <lb ed="#L" n="92"/>solo numero duplicitur potest intelligi. Uno modo. quia 
-      <lb ed="#L" n="93"/>sunt aliqua eiusdem rationis quorum vnum non est reali 
-      <lb ed="#L" n="94"/>ter reliquum. et sic verum est quod illa quae differunt numero 
-      <lb ed="#L" n="95"/>faciunt vnum numero. et sic intelligebam prius. et isto 
-      <lb ed="#L" n="96"/>modo omnes partes eiusdem rationis differunt numero. 
-      <lb ed="#L" n="97"/>Alio modo dicuntur aliqua differre numero. quia sunt to 
-      <lb ed="#L" n="98"/>ta non constituentia vnum. et sic consequentia est bona. sed
-      nihi<lb ed="#L" n="99" break="no"/>ad propositum.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1694">
-      ⁋ Ad aliud quando repidum
-      ad<lb ed="#L" n="100" break="no"/>ditur tepido. illi parui calores remanent in
-      di<lb ed="#L" n="101" break="no"/>stinctis subiectis sicut prius. et ideo non
-      augmen<lb ed="#L" n="102" break="no"/>tant caliditatem. sed si fieret in eo subiecto pri 
-      <lb ed="#L" n="103"/>mo augmentarent.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1705">
-      ⁋ Ad tertium: quod forma inten 
-      <lb ed="#L" n="104"/>sior et remissior sunt eiusdem specieispecialissime 
-      <lb ed="#L" n="105"/>Unde nulla est species inferior albedine nec 
-      <lb ed="#L" n="106"/>nigredine nec calore. et sic de aliis.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1714">
-      ⁋ Ad proba 
-      <lb ed="#L" n="107"/>tionem dico quod natura sub determinato gradu 
-      <lb ed="#L" n="108"/>quocumque non est species. et hoc quia non est ymaginadum quod 
-      <lb ed="#L" n="109"/>natura sit sub aliquo gradu. quia nulla est natura 
-      <lb ed="#L" n="110"/>ex parterei nisi sit aliquas gradus vel indiuiduum per hoc portet 
-      <!--398.xml-->
-      <pb ed="#L" n="198-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>ad probationem quod natura in tali gradu non
-      praedica<lb ed="#L" n="2" break="no"/>tur inquid de illis pluribus.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1736">
-      ⁋ Et si dicatur quod duo 
-      <lb ed="#L" n="3"/>albedines eque intense plus conneniunt quam due al 
-      <lb ed="#L" n="4"/>bedines quarum vna est intensa et alia remissa. 
-      <lb ed="#L" n="5"/>ergo ab eis potest abstrahi aliquis conceptus communis
-      albe<lb ed="#L" n="6" break="no"/>dinibus eque intensis qui non erit communis albedini 
-      <lb ed="#L" n="7"/>intense et remisse.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1749">
-      ⁋ Confirmatur. quia dictum est prius 
-      <lb ed="#L" n="8"/>quod conceptus specieispalissime est simillimus inesse 
-      <lb ed="#L" n="9"/>obiectiuo ipsi indiuiduorinessm subiectiuo. ita
-      qua<lb ed="#L" n="10" break="no"/>le est ipsum indiuiduum extra. tale fingitur in anima. et 
-      <lb ed="#L" n="11"/>illud sic fictum non potest esse simillimum duobus non si 
-      <lb ed="#L" n="12"/>millimis. ergo duobus non simillimis non erit aliqua 
-      <lb ed="#L" n="13"/>pesspanlissima communis.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1765">
-      ⁋ Ad istud dico quamuis ali 
-      <lb ed="#L" n="14"/>quo modo plus conueniant et plus assimilentur due 
-      <lb ed="#L" n="15"/>albedines eque intense quam albedo intensa et re 
-      <lb ed="#L" n="16"/>missa. hoc tamen non sufficit ad conceptum habendum 
-      <lb ed="#L" n="17"/>praecise communem illis et non aliis. quia quando habetur conceptus 
-      <lb ed="#L" n="18"/>proprius aliquibus et non aliis. oportet quod illa alia sic se ha 
-      <lb ed="#L" n="19"/>beant quod in quolibetillorum sit aliquid cui nihil si 
-      <lb ed="#L" n="20"/>millimum inueniatur in alio. sicut in sorte est aliquid 
-      <lb ed="#L" n="21"/>et nihil sibi simillimum est in quocumque alio. sed in al 
-      <lb ed="#L" n="22"/>bedine remissa nihil potest inueniri quin sit ibi
-      si<lb ed="#L" n="23" break="no"/>millimum in albedine intensa. quia quocumque
-      demon<lb ed="#L" n="24" break="no"/>strato in albedine remissa aliquid est ibi
-      similli<lb ed="#L" n="25" break="no"/>mum in albedine intensa et ideo non continentur sub di 
-      <lb ed="#L" n="26"/>stinctis speciebusspanlissimis.
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1797">
-      ⁋ Ad confirmatio 
-      <lb ed="#L" n="27"/>nem. quod si ponatur opiniones prius posita quod conceptus est tale 
-      <lb ed="#L" n="28"/>quid fictum et sic secundum illam opinionem est dicendum quod ta 
-      <lb ed="#L" n="29"/>lis conceptus communis omnibus indiuiduis intensis et re 
-      <lb ed="#L" n="30"/>missis est simillimus eis. hoc est ita similis
-      quan<lb ed="#L" n="31" break="no"/>tum possibile est conceptum vnum naturaliter
-      abstra<lb ed="#L" n="32" break="no"/>hibilem ab eis esse similem eis in esse ficto. et talis 
-      <lb ed="#L" n="33"/>non est nisi conceptus communis omnibus. qui non est simplicier 
-      <lb ed="#L" n="34"/>simillimus eis. quia ipsa inter se non sunt sibi
-      simil<lb ed="#L" n="35" break="no"/>lima Et si dicatur quod possum fingere vnum simillimum 
-      <lb ed="#L" n="36"/>albedini intense quam video. Dico secundum istam opinio 
-      <lb ed="#L" n="37"/>quod non est possibile nisi consignificando vel addendo 
-      <lb ed="#L" n="38"/>aliquid quod non praedicatur in quid de illa albedine. sicut 
-      <lb ed="#L" n="39"/>sic dicendo. albedo habens tot gradus vel al 
-      <lb ed="#L" n="40"/>bedo ita intensa. hic ponitur aliquid quod non
-      pri<lb ed="#L" n="41" break="no"/>dicatur in quid de albedine. et ideo non est conceptus 
-      <lb ed="#L" n="42"/>quidditatiuus. Si autem teneatur alia opinioe de
-      conce<lb ed="#L" n="43" break="no"/>ptu quod sit qualitas mentis siue intetio siue ali 
-      <lb ed="#L" n="44"/>quid aliud. potest proportionabiliter responderi. 
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1839">
-               <lb ed="#L" n="45"/>⁋ Ad primum principale dico quod intentio philosophi est quod 
-      <lb ed="#L" n="46"/>ex duobus in actu alterius et alterius rationis non fit 
-      <lb ed="#L" n="47"/>vnum. et ideo quando illa componibilia sunt alterius et 
-      <lb ed="#L" n="48"/>alterius rationis non fit ex eis vnum nisi vnum sit actus et 
-      <lb ed="#L" n="49"/>aliud potentia. quando autem sunt eiusdem rationis non oportet 
-      <lb ed="#L" n="50"/>patet de partibus aque et ignis. ita est in proposito. 
-    </p>
-            <p xml:id="wo8uy7-d1e1094-d1e1855">
-               <lb ed="#L" n="51"/>⁋ Ad secundum dico quod diuidi in partes quarum vna 
-      <lb ed="#L" n="52"/>est extra aliam et distincta ab ea situ conuenit so 
-      <lb ed="#L" n="53"/>li quanto. sed charitas non est sic diuisibilis. quia 
-      <lb ed="#L" n="54"/>nulla pars charitatis distat etc. ideo charitas 
-      <lb ed="#L" n="55"/>non est quanta. Ad tertium patet prius. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7</title>
+        <author ref="#Ockham">Ockham</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7</title>
+          <date when="2020-09-10">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-LyXLXy">Lyon 1495</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="195-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wo8uy7-d1e1094"><!-- l1d17q7 -->
+        <head xml:id="wo8uy7-d1e1094-Hd1e108">Quaestio 7</head>
+        <p xml:id="wo8uy7-d1e1094-d1e111">
+          <lb ed="#L" n="32"/>Distinctionis. xvii. Questio septima. 
+          <lb ed="#L" n="33"/>
+          <!--- mistaken extra line ? -->
+          <lb ed="#L" n="34"/>ITem quero utrum 
+          <lb ed="#L" n="35"/>in augmentatione charitatis illud 
+          <lb ed="#L" n="36"/>quod additur sit eiusdem speciei spalissimen 
+          <lb ed="#L" n="37"/>cum charitate precedente separata ab ea.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e129">
+          ⁋ Quod non. 
+          <lb ed="#L" n="38"/>quia secundum philosophum. vii. metha. ex duobus in actu non fit 
+          <lb ed="#L" n="39"/>tertium. ergo oportet quod vnum sit in potentia respectu al 
+          <lb ed="#L" n="40"/>terius. sed nulla charitas potest esse in potentia
+          respe<lb ed="#L" n="41" break="no"/>ctu alterius charitatis quia nulla charitas potest esse 
+          <lb ed="#L" n="42"/>subiectum alterius charitatis. ergo ex duabus non potest 
+          <lb ed="#L" n="43"/>fieri per se vnum. ergo etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e145">
+          ⁋ Preterea diuidi in partes 
+          <lb ed="#L" n="44"/>eiusdem rationis conuenit soli quanto secundum philosophum v. me 
+          <lb ed="#L" n="45"/>tha. sed charitas non est quanta. ergo non habet partes 
+          <lb ed="#L" n="46"/>eiusdem rationis quarum quaelibet potest esse hoc aliquid. 
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e154">
+          <lb ed="#L" n="47"/>⁋ Preterea duo accidentia differentia solo
+          nu<lb ed="#L" n="48" break="no"/>mero non possunt esse simul in eodem subiecto. sed ille 
+          <lb ed="#L" n="49"/>due charitates differrent solo numero. ergo etc. 
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e164">
+          <lb ed="#L" n="50"/>⁋ Ad oppositum. in augmentatione charitatis 
+          <lb ed="#L" n="51"/>aliquid additur. sed non additur aliquid alterius rationis. 
+          <lb ed="#L" n="52"/>ergo additur aliquid eiusdem rationis. Ihaior probata est 
+          <lb ed="#L" n="53"/>in praecedenti quaestione. Minor probatur. quia illud
+          ad<lb ed="#L" n="54" break="no"/>ditum alterius rationis. aut faceret per se vnum cum
+          cha<lb ed="#L" n="55" break="no"/>ritate priori. aut non. Si sic. ergo necessario varia 
+          <!--392.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 195-r -->
+          <lb ed="#L" n="56"/>ret speciem. quia quando aliqua indiuidua sic se habent 
+          <lb ed="#L" n="57"/>quod aliquid est essentiale vni eorum. et nihil eiusdem 
+          <lb ed="#L" n="58"/>rationis est essentiale alteri. illa necessario
+          distin<lb ed="#L" n="59" break="no"/>guntur specie. ergo charitas praecedens et sequens 
+          <lb ed="#L" n="60"/>specie distinguerentur. quod est manifeste falsum: 
+          <lb ed="#L" n="61"/>Si autem non facerent per se vnum cum illo. non
+          augmen<lb ed="#L" n="62" break="no"/>tarent ipsum. quia vnam indiuiduum alterius speciei ad  
+          <lb ed="#L" n="63"/>ditum non poest augmentare aliud indiuiduum
+          alte<lb ed="#L" n="64" break="no"/>rius specei.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e206">
+          ⁋ Si dicatur quod quamuis additum sit eiusdem 
+          <lb ed="#L" n="65"/>rationis cum charitate praeuia. non tamen est ab ea separabi 
+          <lb ed="#L" n="66"/>le
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e213">
+          ⁋ Contra. quando aliqua sunt eiusdem rationis et se
+          to<lb ed="#L" n="67" break="no"/>tis distincta. non est maior ratio quod vnum illorum. 
+          <lb ed="#L" n="68"/>possit esse per se quam reliquum. ergo si charitas pre 
+          <lb ed="#L" n="69"/>cedens potest separari: et sequens poterit separari. Cir  
+          <lb ed="#L" n="70"/>ca istam questionem est opinio. quod charitas et
+          que<lb ed="#L" n="71" break="no"/>libet forma augmentatur per aliquam realitate rea 
+          <lb ed="#L" n="72"/>liter distinctam a prima realitate et cum ipsa facien 
+          <lb ed="#L" n="73"/>te per se vnum. Sed dicitur quod realitas illa secundum quam 
+          <lb ed="#L" n="74"/>minor charitas perficitur et intenditur non est in 
+          <lb ed="#L" n="75"/>tegra charitas et praecisa: distincte participans
+          rea<lb ed="#L" n="76" break="no"/>litatem et rationem charitatis. sed per quandam
+          redu<lb ed="#L" n="77" break="no"/>ctionem. vt quasi posset dici concharitas. est enim 
+          <lb ed="#L" n="78"/>realitas omnino impraecisibilis tam re quam intellecti 
+          <lb ed="#L" n="79"/>Unde non est factibilis per se etiam per diuinam
+          poten<lb ed="#L" n="80" break="no"/>tiam. sic quod capiat esse praecisum et determinatum 
+          <lb ed="#L" n="81"/>nec est intuitiue intelligibilis. sed communicabilis 
+          <lb ed="#L" n="82"/>tantum. ita quod intellectus angeli non posset charita 
+          <lb ed="#L" n="83"/>tem augmentatam diuidere intuitiue in duas
+          cha<lb ed="#L" n="84" break="no"/>ritates. sed semper charitas aucta occurrit sibi 
+          <lb ed="#L" n="85"/>vt vnum cui additum est aliquid charitatis non cha 
+          <lb ed="#L" n="86"/>ritas. Et per eundem modum est intelligendum de 
+          <lb ed="#L" n="87"/>albedine et calore et omni forma que augetur
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e261">
+          ⁋ hoc 
+          <lb ed="#L" n="88"/>probatur. quia tenendum est de intensione qualitatum 
+          <lb ed="#L" n="89"/>nobis ignotarum sicut exprimitur in formis de quan 
+          <lb ed="#L" n="90"/>ta specie qualitatis nobis notis. sed linea cui 
+          <lb ed="#L" n="91"/>ua suscipit magis et minus vt fiat curuior et mi 
+          <lb ed="#L" n="92"/>nus curua. Similiter raritas et desitas. lenitas 
+          <lb ed="#L" n="93"/>et asperitas. et sic de aliis intenduntur non per
+          ad<lb ed="#L" n="94" break="no"/>uentum realitatis precise ad illam speciem pertinentis. 
+          <lb ed="#L" n="95"/>non enim aduenit alia curuitas linee vt fiat
+          cur<lb ed="#L" n="96" break="no"/>uior ratione duplicis curuitatis. nec alia raritas 
+          <lb ed="#L" n="97"/>aeri aut desitas terre. sed illud quod aduenit part 
+          <lb ed="#L" n="98"/>net ad rationem specificam impraecise. ergo similiter est 
+          <lb ed="#L" n="99"/>in aliis formis.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e290">
+          ⁋ Preterea. secundum philosophum. iii. phi. et con 
+          <lb ed="#L" n="100"/>men. ibidem comen. lxxxiii. simile est de augmento 
+          <lb ed="#L" n="101"/>qualitatis et de augmento quantitatis per
+          rarefa<lb ed="#L" n="102" break="no"/>ctionem. sed per rarefactionem crescit quantitas absque 
+          <lb ed="#L" n="103"/>hoc quod adueniat pars que sit praecise quantitas. quia 
+          <lb ed="#L" n="104"/>non potest demonstrari nec in superficie nec in profun 
+          <lb ed="#L" n="105"/>do. quia vbique reperiuntur dimesiones que fuerans 
+          <lb ed="#L" n="106"/>ante: et omnes sunt aucte. ergo similiter est in aliis 
+          <lb ed="#L" n="107"/>formis.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e310">
+          ⁋ Preterea. si esset alia charitas
+          impossibi<lb ed="#L" n="108" break="no"/>le esset quod charitas aucta haberet numeralem vni 
+          <lb ed="#L" n="109"/>tatem. consequentia patet. quia secunda non potest fieri eadem cum 
+          <lb ed="#L" n="110"/>prima secundum se totam. nec potest poni quod vniatur sibi secundum 
+          <!--393.xml-->
+          <pb ed="#L" n="195-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>aliquid sui eodem modo quo due aque secundum sua vlti 
+          <lb ed="#L" n="2"/>ma fiunt idem. quia secundum hoc charitas erit forma con 
+          <lb ed="#L" n="3"/>tinua habens partem et partem sue continuitatis in 
+          <lb ed="#L" n="4"/>suis vltimis. similiter huiusmodi partes erunt quantita 
+          <lb ed="#L" n="5"/>tiue. quia quantum est quod est diuisibile in partes quam 
+          <lb ed="#L" n="6"/>qalibet est hoc aliquid secundum philosophum. v. metha. Si ergo quae 
+          <lb ed="#L" n="7"/>libet pars charitatis auctem est charitas. et tamen cu 
+          <lb ed="#L" n="8"/>hoc omnes partes charitatis sunt vna charitas con 
+          <lb ed="#L" n="9"/>tinua. charitas aucta erit vnum quantum.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e346">
+          ⁋
+          Pre<lb ed="#L" n="10" break="no"/>terea in motu intensionis quantumcumque modico ac 
+          <lb ed="#L" n="11"/>quiruntur infinite partes in potentia. si ergo iste partes non 
+          <lb ed="#L" n="12"/>concurrant ad aliquam vnitatem formalem. non enim 
+          <lb ed="#L" n="13"/>vniuntur se totis. nec secundum vltima sua. restat vt 
+          <lb ed="#L" n="14"/>sint ibi infinite furme quarum quelibet est indiui 
+          <lb ed="#L" n="15"/>sa in se et diuisa ab alia. et per consequens naturaliter
+          infi<lb ed="#L" n="16" break="no"/>nite quod est impossibile.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e364">
+          ⁋ Preterea ille chari 
+          <lb ed="#L" n="17"/>tates non faciunt vnum vnitate compositionis qua 
+          <lb ed="#L" n="18"/>si vna sit materia et alia forma. nec vnitate com 
+          <lb ed="#L" n="19"/>tinuitatis nec vnitate hogenei. quia hogenea non 
+          <lb ed="#L" n="20"/>vniuntur nisi per continuationem. sicut aqua vnitur 
+          <lb ed="#L" n="21"/>aque. Unde anima anime non vnitur: quamuis hogena sit. nec 
+          <lb ed="#L" n="22"/>vnitate identitatis omnimode et simplicis. quia tunc 
+          <lb ed="#L" n="23"/>amitteret suas realitates. nec vnitate
+          aggre<lb ed="#L" n="24" break="no"/>gationis et cuiusdam acerui quia hoc est horribilius 
+          <lb ed="#L" n="25"/>esset enim aceruus rerum innumerabilium et multitudi 
+          <lb ed="#L" n="26"/>nis infinite. Sed manifestum est quod non potest praeter 
+          <lb ed="#L" n="27"/>istas vnitates alia assignari. ergo tales
+          charita<lb ed="#L" n="28" break="no"/>tes non faciunt vnum. et per consequens non sunt ponende 
+          <lb ed="#L" n="29"/>qista opinion ponit tres articulos quos reputo 
+          <lb ed="#L" n="30"/>fallos primus est quod illud additum in augmento
+          cha<lb ed="#L" n="31" break="no"/>ritatis non participat rationem charitatis vt vere
+          pos<lb ed="#L" n="32" break="no"/>sit dici charitas. Secundus est quod non potest per
+          diui<lb ed="#L" n="33" break="no"/>nam potentiam fieri per se sine priori
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e403">
+          ⁋ Tertius est quod 
+          <lb ed="#L" n="34"/>non potest intuitiue intelligi sine priori. Ideo arguo 
+          <lb ed="#L" n="35"/>contra eos primo conclusioprimum.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e410">
+          ⁋ Primo sic. Quero. 
+          <lb ed="#L" n="36"/>de illo addito. aut erit eiusdem rationis cum priori. aut 
+          <lb ed="#L" n="37"/>alterius. non alterius rationis. quia secundum istum. et verum est. num 
+          <lb ed="#L" n="38"/>quam aliquid augmentatur per aliquod additum alterius rationis 
+          <lb ed="#L" n="39"/>sed simile augetur suo simili. Si sit eiusdem rationis 
+          <lb ed="#L" n="40"/>tunc arguo. quandocumque aliqua sunt eiusdem rationis quico 
+          <lb ed="#L" n="41"/>quid essentialiter praedicatur de vno et in quid et per se
+          pri<lb ed="#L" n="42" break="no"/>mo modo. eodem modo praedicatur de reliquo. ergo si secundum ad  
+          <lb ed="#L" n="43"/>ditum sit eiusdem rationis cum charitate cui additur.
+          quic<lb ed="#L" n="44" break="no"/>quid praedicatur de illa charitate per se primo modo
+          praedi<lb ed="#L" n="45" break="no"/>cabitur de istogradu addito. ergo si hec sit vera. hoc 
+          <lb ed="#L" n="46"/>charitas est charitas. hec est vera. hoc est chari 
+          <lb ed="#L" n="47"/>tas demonstrato illo addito
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e439">
+          ⁋ Preterea quando
+          in<lb ed="#L" n="48" break="no"/>ter aliquas partes alicuius totius est tanta conuenien 
+          <lb ed="#L" n="49"/>tia vel maior quanta est inter partes alterius totius 
+          <lb ed="#L" n="50"/>si illud idem praedicatum quod praedicatur de alio toto
+          praedi<lb ed="#L" n="51" break="no"/>catur de qualibet parte sua. eadem ratione si aliquid
+          praedi<lb ed="#L" n="52" break="no"/>catur de primo toto per se primo modo praedicabitur de
+          quali<lb ed="#L" n="53" break="no"/>bet sui parte. sed tanta est conuenientia vel maior
+          in<lb ed="#L" n="54" break="no"/>ter duas partes vnius charitatis quanta ipsarum
+          a<lb ed="#L" n="55" break="no"/>quarum cum illa aqua tota: et quanta est inter duas partes 
+          <!--393.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 195-v -->
+          <lb ed="#L" n="56"/>albedinis loco et situ distinctas. et illarum cum
+          al<lb ed="#L" n="57" break="no"/>bedine tota: et vere dicitur quod hec pars aque est ad 
+          <lb ed="#L" n="58"/>et quod hec pars albedinis est albedo. ergo equalite 
+          <lb ed="#L" n="59"/>vel magis dicetur quod hec pars charitatis est char 
+          <lb ed="#L" n="60"/>tas.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e476">
+          ⁋ Preterea. quicqud per se praedicatur de aliquo 
+          <lb ed="#L" n="61"/>tanquam de per se suo indiuiduo. illo indiuiduo ma 
+          <lb ed="#L" n="62"/>nente et non destructo. semper praedicabitur de eodem 
+          <lb ed="#L" n="63"/>sed ante augmentationem hec est simpliciter vera. a 
+          <lb ed="#L" n="64"/>est charitas. supponendo quod a significet totam 
+          <lb ed="#L" n="65"/>charitatem praecedentem. ergo a manente non
+          destru<lb ed="#L" n="66" break="no"/>cto semper erit hec vera. a est charitas. sed post 
+          <lb ed="#L" n="67"/>augmentationem a manet et non destruitur. ergo tunc 
+          <lb ed="#L" n="68"/>hec est vera. a est charitas. ergo de parte charitatis 
+          <lb ed="#L" n="69"/>vere dicitur quod ipsa est charitas. quia a tunc est pars. 
+          <lb ed="#L" n="70"/>sed non est maior ratio quod vna pars charitatis sit cha 
+          <lb ed="#L" n="71"/>ritas quam alia. ergo quelibet pars charitatis vere 
+          <lb ed="#L" n="72"/>et realiter est charitas.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e506">
+          ⁋ Si dicatur quod non est cha 
+          <lb ed="#L" n="73"/>ritas integra. hoc non valet. quia si intelligat per 
+          <lb ed="#L" n="74"/>charitatem integram charitatem: que non est pars al 
+          <lb ed="#L" n="75"/>terius. sic manifestum est quod non est charitas inte 
+          <lb ed="#L" n="76"/>gra: et eodem modo concedendum est quod pars aque non 
+          <lb ed="#L" n="77"/>est aqua integra. quia pars aque est pars. Et sic non
+          ar<lb ed="#L" n="78" break="no"/>gueret contra opinionem quam nititur improbare. quia 
+          <lb ed="#L" n="79"/>opinio non negat: quin charitas addita vere sit pars 
+          <lb ed="#L" n="80"/>charitatis. Similiter sequeretur quod pars quantitatis 
+          <lb ed="#L" n="81"/>distincta situ ab alia parte non esset quantitas: quod 
+          <lb ed="#L" n="82"/>est manifeste falsum. et ipse negati⁋ Contra secundum 
+          <lb ed="#L" n="83"/>articulum ostendo quod per diuinam potentiam potest illa 
+          <lb ed="#L" n="84"/>charitas addita per se fieri. sic: quia quandocunque ali 
+          <lb ed="#L" n="85"/>qua sunt eiusdem rationis. si vnum illorum per se fieri 
+          <lb ed="#L" n="86"/>potest per diuinam potentiam. reliquum istorum poterit 
+          <lb ed="#L" n="87"/>fieri per se per diuinam potentiam. quia si ista sint rea 
+          <lb ed="#L" n="88"/>liter distincta: ita quod neutrum est pars alterius 
+          <lb ed="#L" n="89"/>nec intrinsecum alteri. si non includit contradictio 
+          <lb ed="#L" n="90"/>nem vnum illorum per se fieri. si sint eiusdem rationis. non 
+          <lb ed="#L" n="91"/>includit contradictionem alterum illorum per se fieri. 
+          <lb ed="#L" n="92"/>sed illud quod praecedit augmentationem charitatie 
+          <lb ed="#L" n="93"/>et illud quod additur sunt eiusdem rationis. et neutrum 
+          <lb ed="#L" n="94"/>est pars alterius. et illud quod praecedit potest fieri: per 
+          <lb ed="#L" n="95"/>se. ergo non includit contradictionem illud quod ad  
+          <lb ed="#L" n="96"/>ditur fieri per se.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e561">
+          ⁋ Si dicatur quod illud additum
+          in<lb ed="#L" n="97" break="no"/>cludit precedens. et ideo non potest fieri per se:
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e566">
+          ⁋ Con 
+          <lb ed="#L" n="98"/>tra. illud additum sed se totum est nonuum. quia accipio 
+          <lb ed="#L" n="99"/>aliquid secundum se totum additum. igitur illud additum non 
+          <lb ed="#L" n="100"/>includit praecedens. et ideo non includit contradictio 
+          <lb ed="#L" n="101"/>nem illud fieri per se
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e577">
+          ⁋ Si dicatur quod illud sequens 
+          <lb ed="#L" n="102"/>necessario praesupponit precedens. Contra. quicquid 
+          <lb ed="#L" n="103"/>potest fieri a deo potest fieri sine alio realiter
+          di<lb ed="#L" n="104" break="no"/>stincto. maxime si illa sint eiusdem rationis
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e586">
+          ⁋
+          Con<lb ed="#L" n="105" break="no"/>firmatur. quia in indiuiduis eiusdem rationis non est ordo 
+          <lb ed="#L" n="106"/>essentialis: quin quando realiter distinguitur vnum possit 
+          <lb ed="#L" n="107"/>fieri sine alio. si neutrum sit pars alterius. sed deus 
+          <lb ed="#L" n="108"/>vidit ista factibilia ab eterno. et vidit quod
+          neu<lb ed="#L" n="109" break="no"/>trum potest esse pars alterius. ergo potest facere quod 
+          <lb ed="#L" n="110"/>cumque istorum sine alio. ergo qua ratione fecit praecedens 
+          <!--394.xml-->
+          <pb ed="#L" n="196-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>sine sequente. potuit fecisse illud quod sequitur si 
+          <lb ed="#L" n="2"/>ne illo quod precessit. sed quicquid potuit fecisse ad 
+          <lb ed="#L" n="3"/>huc potest facere. ergo potest facere id quod additur non fa 
+          <lb ed="#L" n="4"/>ciendo quod precessit et hoc est propositum.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e617">
+          ⁋ Preterea 
+          <lb ed="#L" n="5"/>quandocumque sunt aliqua eiusdem rationis quorum neutrum 
+          <lb ed="#L" n="6"/>est pars alterius. et vnum illorum potest fieri sine altero 
+          <lb ed="#L" n="7"/>eadem ratione illud poterit destrui sine altero. sed il 
+          <lb ed="#L" n="8"/>lud quod praecedit et illud quod additur sunt eius 
+          <lb ed="#L" n="9"/>dem rationis. et neutrum est pars alterius et illud quod praecedit 
+          <lb ed="#L" n="10"/>potest fieri sine illo quod additur. ergo potest destrui
+          si<lb ed="#L" n="11" break="no"/>ne illo quod additur. ergo illud per se remanebit et ita 
+          <lb ed="#L" n="12"/>non includit contradictionem illam realitatem
+          addi<lb ed="#L" n="13" break="no"/>tam cum sit eiusdem rationis fieri sine realitate
+          praeceden<lb ed="#L" n="14" break="no"/>te.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e642">
+          ⁋ Contra tertium articulum arguo sic. quando aliqua 
+          <lb ed="#L" n="15"/>sunt eiusdem rationis: si vnum illorum sit intelligibile 
+          <lb ed="#L" n="16"/>intuitiue per se et reliquum. sed charitas quae praecedit et 
+          <lb ed="#L" n="17"/>illud quod sequitur sunt eiusdem rationis. et charitas pri 
+          <lb ed="#L" n="18"/>cedens intelligitur intuitiue per se. ergo et illud quod
+          ad<lb ed="#L" n="19" break="no"/>uenit.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e655">
+          ⁋ Si dicatur quod charitas praecedens quando erat 
+          <lb ed="#L" n="20"/>sine illo addito tunc erat per se intuitiue
+          intelligi<lb ed="#L" n="21" break="no"/>bilis. sed postquam facit per se vnum cum realitate sibi 
+          <lb ed="#L" n="22"/>addita non est per se intuitiue intelligibilis sed tantum. 
+          <lb ed="#L" n="23"/>cointelligitur. Contra. omnem intellectionem
+          intui<lb ed="#L" n="24" break="no"/>tiuam re manente potest deus conseruare quocumque alio 
+          <lb ed="#L" n="25"/>de nouo producto ponatur ergo quod angelus primo intel 
+          <lb ed="#L" n="26"/>ligat ante augmentationem illam charitate praexistemn 
+          <lb ed="#L" n="27"/>te. adhuc illa charitate manente potest deus conser 
+          <lb ed="#L" n="28"/>uare eam et notitiam intuitiuam. quantucumque aliquid 
+          <lb ed="#L" n="29"/>de nouo sibi addetur. sed stante eadem notitia
+          intui<lb ed="#L" n="30" break="no"/>tiua nihil potest de nouo illa notitia intuitiua
+          co<lb ed="#L" n="31" break="no"/>gnosci nisi quod participat de nouo rationem obiecti 
+          <lb ed="#L" n="32"/>illius notitie intuitiue. sed certum est quod nihil aliud po 
+          <lb ed="#L" n="33"/>terit de nouo participare eandem rationem cum eo. ergo illa 
+          <lb ed="#L" n="34"/>realitas sequens non cognoscitur illa notitia
+          intui<lb ed="#L" n="35" break="no"/>tiua conseruata per diuinam potentiam. ergo illud quod prim 
+          <lb ed="#L" n="36"/>cedit praecise cognoscitur ea. ergo est per se intelligibilis 
+          <lb ed="#L" n="37"/>et non solum cointelligibilis.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e697">
+          ⁋ Preterea notitia in 
+          <lb ed="#L" n="38"/>tuitiua causatur ex obiecto. sed deus potest coagere 
+          <lb ed="#L" n="39"/>vni rei non coagendo alteri quantumcumque facit per se 
+          <lb ed="#L" n="40"/>vnum cum ea. ergo potest coagere isti realitati non
+          coa<lb ed="#L" n="41" break="no"/>gendo alteri. et per consequens ista realitas
+          intelligere<lb ed="#L" n="42" break="no"/>tur intuitiue et non altera.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e710">
+          ⁋ Preterea vnumquodque 
+          <lb ed="#L" n="43"/>sicut se habet ad entitatem ita se habet ad
+          intel<lb ed="#L" n="44" break="no"/>ligibilitatem. sed ista realitas est realitas
+          distin<lb ed="#L" n="45" break="no"/>cta realiter ab alia. ergo habet distinctam
+          intelligibi<lb ed="#L" n="46" break="no"/>litatem secundum modum loquendi istorum. ergo non includit 
+          <lb ed="#L" n="47"/>contradictionem secundam intuitiue intelligi ab
+          in<lb ed="#L" n="48" break="no"/>tellectu creato. alia non intuitiue intellecta ab 
+          <lb ed="#L" n="49"/>eodem.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e728">
+          ⁋ Preterea non est maior contradictio
+          ali<lb ed="#L" n="50" break="no"/>quid intelligi intuitiue sine alio quam
+          abstracti<lb ed="#L" n="51" break="no"/>ue. maxime quando realiter distinguuntur sed aliquis 
+          <lb ed="#L" n="52"/>intelligens illam charitatem primam abstractiue potest 
+          <lb ed="#L" n="53"/>illam notitiam continere quantumcumque deus
+          augmen<lb ed="#L" n="54" break="no"/>taret illam charitatem. sed hoc posito non
+          intellige<lb ed="#L" n="55" break="no"/>ret aliquid nisi quod prius intellexit. ergo praecise in¬ 
+          <!--394.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 196-r -->
+          <lb ed="#L" n="56"/>telligit illud abstractiue quod prius.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e752">
+          ⁋ Preterea  
+          <lb ed="#L" n="57"/>nulla vnio cum alio impedit: quin possit intelligi in 
+          <lb ed="#L" n="58"/>tuitiue sine illo cui vnitur. patet inductiue. quia 
+          <lb ed="#L" n="59"/>forma substantialis potest intelligi intuitiue sine
+          mate<lb ed="#L" n="60" break="no"/>ria cui vnitur. similiter accidens vnitum subiecto 
+          <lb ed="#L" n="61"/>potest intelligi intuitiue sine eo. sicut potest videri. 
+          <lb ed="#L" n="62"/>oculo corporali sine eo. ita scilicet quod illud subiectum 
+          <lb ed="#L" n="63"/>non per se videtur oculo corporali. sed tantum per
+          ac<lb ed="#L" n="64" break="no"/>cidens. similiter vna aqua vnita alteri potest
+          intui<lb ed="#L" n="65" break="no"/>tiue videri sine ea. sed nihil est hic impediens 
+          <lb ed="#L" n="66"/>vnam realitatem videri sine alia: nisi forte vnio 
+          <lb ed="#L" n="67"/>vnius ad alteram. sed ista non impedit sicut nec 
+          <lb ed="#L" n="68"/>aliqua alia. igitur etc.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e782">
+          ⁋ Ideo aliter dico tenendo 
+          <lb ed="#L" n="69"/>contrarium cuiuslibet illorum trium articulorum. Et quan 
+          <lb ed="#L" n="70"/>tum ad primum illorum dico quod illa realitas
+          adue<lb ed="#L" n="71" break="no"/>niens est vera charitas. sicut pars aque est ve 
+          <lb ed="#L" n="72"/>ra aqua. et vna pars albedinis distincta loco et 
+          <lb ed="#L" n="73"/>subiecto ab alia parte albedinis est vera albedo 
+          <lb ed="#L" n="74"/>quid vniversaliter omne totum habens plures partes realiter
+          distin<lb ed="#L" n="75" break="no"/>ctas que sunt eiusdem rationis sic se habet ad eas 
+          <lb ed="#L" n="76"/>quod species spacialissima praedicatur de qualibet illarum 
+          <lb ed="#L" n="77"/>partium sicut de toto. Cuius ratio est. quia
+          praedicatio<lb ed="#L" n="78" break="no"/>nem non posset aliquid impedire: nisi vnio vel co 
+          <lb ed="#L" n="79"/>positio vnius partis cum alia. sed talis compositio vel 
+          <lb ed="#L" n="80"/>vnio non impedit. sicut patet de partibus aque
+          com<lb ed="#L" n="81" break="no"/>ponentibus aquam: et de partibus ignis
+          componenti<lb ed="#L" n="82" break="no"/>bus ignem. Nec potest dici quod non omnis vnio vel compo 
+          <lb ed="#L" n="83"/>sitio impedit talem praedicationem. sed vnio vnius
+          per<lb ed="#L" n="84" break="no"/>tis impraecise ab alia impedit. et ideo quia vna pars aqua 
+          <lb ed="#L" n="85"/>non est impraecisa ab alia. aqua vere praedicatur de per 
+          <lb ed="#L" n="86"/>te sicut de toto. hoc non valet. quia quero quomo 
+          <lb ed="#L" n="87"/>ista vna pars charitatis sit impscisa ab alia Aut quia 
+          <lb ed="#L" n="88"/>vna pars non est realiter distincta ab alia. Aut quia 
+          <lb ed="#L" n="89"/>vna pars non est vnum per se non faciens per se vnum cum 
+          <lb ed="#L" n="90"/>alia. Aut quia vna pars non distinguitur loco et subie 
+          <lb ed="#L" n="91"/>cto ab alia. Primum dici non poest. quia partes
+          chari<lb ed="#L" n="92" break="no"/>tatis realiter distinguuntur sicut partes aque. Nec 
+          <lb ed="#L" n="93"/>secundum quia illo modo vna pars aque est impraecisa ab alia. 
+          <lb ed="#L" n="94"/>Nec potest dari tertium. quia eadem facilitate qua tu 
+          <lb ed="#L" n="95"/>dicis quod vna pars componens cum alia quando non distin 
+          <lb ed="#L" n="96"/>guitur loco et subiecto ab alia non est praecisa ab 
+          <lb ed="#L" n="97"/>alia. Eadem facilitate dicam ego. quod quando vna pars
+          di<lb ed="#L" n="98" break="no"/>stinguitur loco et subiecto ab alia. si tamen faciat per 
+          <lb ed="#L" n="99"/>se vnum cum ea non est praecisa ab ea.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e852">
+          ⁋ Preterea. vnio 
+          <lb ed="#L" n="100"/>alicuius cum alio non destruit realitatem vnius neque 
+          <lb ed="#L" n="101"/>alterius. ergo non impedit praedicationem alicuius 
+          <lb ed="#L" n="102"/>praedicati importantis praecise realitatem illorum. sed cha 
+          <lb ed="#L" n="103"/>ritas non importat nisi praecise essentiam charitatis. 
+          <lb ed="#L" n="104"/>ergo vnio vnius cum alio non impedit charitatem prae 
+          <lb ed="#L" n="105"/>dicari de illo de quo prius praedicabatur. sed de ista per 
+          <lb ed="#L" n="106"/>te prius praedicabatur charitas. ergo de ista parte 
+          <lb ed="#L" n="107"/>post vnionem vere praedicatur adhuc. sed qua ratione
+          pri<lb ed="#L" n="108" break="no"/>dicatur de vna parte et de alia. ergo hec est simplici 
+          <lb ed="#L" n="109"/>ter vera. quelibet pars charitatis est charitas.
+          si<lb ed="#L" n="110" break="no"/>cut hec est vera. quelibet pars aque est aqua. et 
+          <!--395.xml-->
+          <pb ed="#L" n="196-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quelibet pars ignis est ignis. et sic de aliis.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e887">
+          ⁋ Ex 
+          <lb ed="#L" n="2"/>praedictis patet. quod vana est opinio ponens quod isti
+          gra<lb ed="#L" n="3" break="no"/>dus sunt gradus materiales et non formales. quia 
+          <lb ed="#L" n="4"/>isti gradus sunt vere partes charitatis: quorum
+          qua<lb ed="#L" n="5" break="no"/>libet est vera charitas. Et ideo sicut non est
+          dice<lb ed="#L" n="6" break="no"/>dum quod partes aque integrales: quarum quelibet 
+          <lb ed="#L" n="7"/>est vera aqua sunt materiales et non formales. 
+          <lb ed="#L" n="8"/>ita et in proposito.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e905">
+          ⁋ Quod autem isti gradus sint vere 
+          <lb ed="#L" n="9"/>partes: quarum quelibet est vera charitas. sic osten 
+          <lb ed="#L" n="10"/>do. quia quaero de istis gradibus. aut sunt omnins
+          eius<lb ed="#L" n="11" break="no"/>dem rationis cum charitate prima. aut non si sic. ha 
+          <lb ed="#L" n="12"/>beo propositum. quia tunc ita vere quaelibet illorum
+          gra<lb ed="#L" n="13" break="no"/>duum est vera charitas sicut charitas prima. que 
+          <lb ed="#L" n="14"/>primo fuit quoddam totum: nunc autem est pars. Si 
+          <lb ed="#L" n="15"/>non. et manifestum est quod gradus sequens facit per se 
+          <lb ed="#L" n="16"/>vnum cum priori. et impossibile est aliqua duo non 
+          <lb ed="#L" n="17"/>eiusdem rationis: sed alterius et alterius rationis
+          face<lb ed="#L" n="18" break="no"/>re per se vnum: nisi vnum sit potentia et aliud actus 
+          <lb ed="#L" n="19"/>ergo hic esset vera compositio ex rebus distinctum 
+          <lb ed="#L" n="20"/>realiter. quarum vna vere informaret aliam. et per consequens 
+          <lb ed="#L" n="21"/>maior esset compositio ex partibus alterius et alte 
+          <lb ed="#L" n="22"/>rius rationis in charitate sequente quam precedente.
+          in<lb ed="#L" n="23" break="no"/>mo sequeretur vltra quod charitas sequens non esset 
+          <lb ed="#L" n="24"/>eiusdem rationis cum precedente. Tertium inconueniens 
+          <lb ed="#L" n="25"/>sequitur quod charitas indiuidua precedens non esset 
+          <lb ed="#L" n="26"/>aliquod indiuiduum per se in genere. vel in specie. 
+          <lb ed="#L" n="27"/>consequentia patet. quia nihil quod est pars essentialis ali 
+          <lb ed="#L" n="28"/>cuius per se in genere vel in specie componibilis 
+          <lb ed="#L" n="29"/>cum alia parte alterius rationis: potest esse per se in ge 
+          <lb ed="#L" n="30"/>nere vel in specie. ideo enim anima intellectiua non est 
+          <lb ed="#L" n="31"/>per se in genere vel in specie. quia est pars hominis 
+          <lb ed="#L" n="32"/>componens hominem cum corpore quod est alterius rationis 
+          <lb ed="#L" n="33"/>quam anima intellectiua. ergo si illud additum alterius 
+          <lb ed="#L" n="34"/>rationis esset componibile cum charitate praeuia. illa 
+          <lb ed="#L" n="35"/>charitas praeuia nullo modo esset indiuiduum per se in 
+          <lb ed="#L" n="36"/>genere vel in specie
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e968">
+          ⁋ Si dicatur quod illud additum 
+          <lb ed="#L" n="37"/>non est nisi differentia indiuidualis. et differentia. 
+          <lb ed="#L" n="38"/>indiuidualis non facit aliquid alterius speciei. hoc 
+          <lb ed="#L" n="39"/>non valet. quia secundum ponentes tales differentias indi 
+          <lb ed="#L" n="40"/>uiduales: differentia indiuidualis non distingui 
+          <lb ed="#L" n="41"/>tur a natura quam contrahit. ergo non potest
+          adueni<lb ed="#L" n="42" break="no"/>re de nouo nisi natura de nouo adueniat. et per 
+          <lb ed="#L" n="43"/>consequens nisi adueniat de nouo aliquod compositum ex 
+          <lb ed="#L" n="44"/>natura et differentia indiuiduali.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e988">
+          ⁋ Preterea. tunc 
+          <lb ed="#L" n="45"/>equeretur quod vnum indiuiduum haberet duas differentia 
+          <lb ed="#L" n="46"/>indiuiduales. quia certum est quod prima non deparditur. 
+          <lb ed="#L" n="47"/>ergo si aduenit vna alia erunt due.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e998">
+          ⁋ Preterea. ta 
+          <lb ed="#L" n="48"/>les differne indiuiduales non sunt ponende sicut su 
+          <lb ed="#L" n="49"/>berius est probatum
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1005">
+          ⁋ Quantum ad secundum
+          arti<lb ed="#L" n="50" break="no"/>culum dico quod nullam includit contradictionem
+          cha<lb ed="#L" n="51" break="no"/>ritatem additam per se fieri: sicut nullam includit 
+          <lb ed="#L" n="52"/>contradictionem charitatem primam per se fieri. et ideo 
+          <lb ed="#L" n="53"/>sicut deus potest realitatem illam cui est alia addita 
+          <lb ed="#L" n="54"/>que non est nisi quedam charitas: et tamen partialis per 
+          <lb ed="#L" n="55"/>se facere sine illa realitate sequente. ita potest fa¬ 
+          <!--395.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 196-v -->
+          <lb ed="#L" n="56"/>cere per se illam realitatem sequentem sine prece 
+          <lb ed="#L" n="57"/>dente. Cuius ratio est. quia numquam aliquid
+          requi<lb ed="#L" n="58" break="no"/>ritur ad aliquid aliud eiusdem rationis nisi sit 
+          <lb ed="#L" n="59"/>causa ipsius extrinseca vel intrinseca pars
+          ip<lb ed="#L" n="60" break="no"/>sius. sed in proposito realitas precedens non 
+          <lb ed="#L" n="61"/>est pars intrinseca realitatis sequentis
+          addi<lb ed="#L" n="62" break="no"/>te: quamuis sit pars intrinseca totius charitatis 
+          <lb ed="#L" n="63"/>composite ex realitate precedente et realitate 
+          <lb ed="#L" n="64"/>sequente. nec est causa extrinseca ipsius. quia 
+          <lb ed="#L" n="65"/>in nullo genere cause. patet inductiue. Et
+          posi<lb ed="#L" n="66" break="no"/>to quod esset causa extrinseca ipsius. posset deus 
+          <lb ed="#L" n="67"/>supplere causam illam extrinsecam se solo. et est ma 
+          <lb ed="#L" n="68"/>xime verum quando causa et causatum sunt eiusdem
+          rati<lb ed="#L" n="69" break="no"/>onis. potest ergo de potentia sua facere illam
+          realita<lb ed="#L" n="70" break="no"/>tem additam sine precedente.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1060">
+          ⁋ Quantum ad  
+          <lb ed="#L" n="71"/>tertium articulum dico quod per potentiam creature 
+          <lb ed="#L" n="72"/>vna illarum realitatum non potest videri intuitiue. 
+          <lb ed="#L" n="73"/>ita quod sit in potestate creature quod vna videatur 
+          <lb ed="#L" n="74"/>alia non visa. Secundo dico quod per diuinam
+          po<lb ed="#L" n="75" break="no"/>tentiam potest vna illarum videri ab intellectu cre 
+          <lb ed="#L" n="76"/>ato alia non visa.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1076">
+          ⁋ Primum patet. quia quando sunt 
+          <lb ed="#L" n="77"/>aliquem potentie naturales equaliter disposite 
+          <lb ed="#L" n="78"/>eque approximate. nullo existente impedimen 
+          <lb ed="#L" n="79"/>to. omnes ille cause agunt. et ita ponetur
+          effe<lb ed="#L" n="80" break="no"/>ctus cuiuslibet illarum causarum. sed impossibile 
+          <lb ed="#L" n="81"/>est stante vna charitate constituta ex illis
+          du<lb ed="#L" n="82" break="no"/>abus realitatibus vnam illarum realiter approxi 
+          <lb ed="#L" n="83"/>mari intellectui vt videatur intuitiue sine alia. 
+          <lb ed="#L" n="84"/>nec intel lectus esse dispositus ad videndum 
+          <lb ed="#L" n="85"/>vnam nisi eodem modo disponatur ad videndum 
+          <lb ed="#L" n="86"/>aliam. nec potest esse aliquod impedimentum natu 
+          <lb ed="#L" n="87"/>rale respectu vnius quin sit respectu alterius 
+          <lb ed="#L" n="88"/>ergo non est in potenstate creature quod vna videatur 
+          <lb ed="#L" n="89"/>sine alia.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1107">
+          ⁋ Si dicatur quod voluntas potest libere 
+          <lb ed="#L" n="90"/>impedire. hoc non valet. quia numquam potest voluntas 
+          <lb ed="#L" n="91"/>impedire notitiam intuitiuam alicuius rei nisi ad  
+          <lb ed="#L" n="92"/>uertendo potentiam vel obiectum per motum
+          loca<lb ed="#L" n="93" break="no"/>lem vel aliquid de nouo causando. sed
+          inducti<lb ed="#L" n="94" break="no"/>ue patet quod nullum illorum potest hic poni.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1120">
+          ⁋ Dico ergo 
+          <lb ed="#L" n="95"/>quod sicut si materia et forma componentia aliquod  
+          <lb ed="#L" n="96"/>totum essent eque intuitiue intelligibilia ab in 
+          <lb ed="#L" n="97"/>tellectu. ipsis componentibus illud compositum 
+          <lb ed="#L" n="98"/>non est in potestate agentis creati quod vnum illo 
+          <lb ed="#L" n="99"/>rum intuitiue videatur sine alio. sic est in
+          propo<lb ed="#L" n="100" break="no"/>sito de istis realitatibus. Et sicut si duo
+          calo<lb ed="#L" n="101" break="no"/>res approximentur eidem passo. non potest
+          na<lb ed="#L" n="102" break="no"/>turaliter vnus illorum agere in passum nisi alius 
+          <lb ed="#L" n="103"/>agat maxime si sint eque perfecti. ita est in proposito 
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1143">
+          <lb ed="#L" n="104"/>⁋ Secundum ostendo. quia ille realitates si 
+          <lb ed="#L" n="105"/>essent separate nate essent distinctis
+          intelle<lb ed="#L" n="106" break="no"/>ctionibus intuitiuis intelligi. et potest
+          indifferen<lb ed="#L" n="107" break="no"/>ter vna illarum esse sine alia. sed quamncumque rem pos 
+          <lb ed="#L" n="108"/>sibilem esse sine alia potest deus conseruare sine
+          il<lb ed="#L" n="109" break="no"/>la. quacumque mutatione facta circa aliam rem
+          lo<lb ed="#L" n="110" break="no"/>co et subiecto distinctam. ergo potest deus de potentia 
+          <!--396.xml-->
+          <pb ed="#L" n="197-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>sua absoluta conseruare notitiam intuitiuam in in 
+          <lb ed="#L" n="2"/>tellectu michaelis respectu charitatis mee prte 
+          <lb ed="#L" n="3"/>cedentis. sine notitia intuitiua charitatis vl 
+          <lb ed="#L" n="4"/>realitatis sequentis quacumque mutatione facta 
+          <lb ed="#L" n="5"/>circa me qui sum distinctus loco et subiecto a 
+          <lb ed="#L" n="6"/>michaele. ergo quamuis charitati mee addatur not 
+          <lb ed="#L" n="7"/>realitas per 
+          <lb ed="#L" n="8"/>tiuam preuiam respectu charitatis prime sine no 
+          <lb ed="#L" n="9"/>tia intuitiua illius additi
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1187">
+          ⁋ Confirmatur. quia 
+          <lb ed="#L" n="10"/>ex hoc quod aliquod absolutum producit in me non 
+          <lb ed="#L" n="11"/>necessitatur ad producendum vel corrumpendum 
+          <lb ed="#L" n="12"/>aliquod absolutum in angelo. ergo potest deus
+          augmen<lb ed="#L" n="13" break="no"/>tare in me charitatem: nulla facta mutatione 
+          <lb ed="#L" n="14"/>in angelo. et per consequens. retinebit eandem notitie 
+          <lb ed="#L" n="15"/>intuitiuam quam prius. et ita nihil intelliget int 
+          <lb ed="#L" n="16"/>tiue nisi quod prius intellexit.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1205">
+          ⁋ Si dicatur 
+          <lb ed="#L" n="17"/>eadem notitia intuitiua intelligetur illud ad  
+          <lb ed="#L" n="18"/>ditum. ex quo facit per se vnum cum illo quod illa 
+          <lb ed="#L" n="19"/>notitia intuitiua intelligitur. hoc non valet. 
+          <lb ed="#L" n="20"/>quia stante eadem notitia intuitiua non vari 
+          <lb ed="#L" n="21"/>ata impossibile est aliquid primo inte 
+          <lb ed="#L" n="22"/>tellectione. et postea non intelligi. no 
+          <lb ed="#L" n="23"/>so. sed illud additum prius non intelligebatur
+          il<lb ed="#L" n="24" break="no"/>la notitia intuitiua. ergo nec modo intelligitur il 
+          <lb ed="#L" n="25"/>la. ergo si modo intelligitur intuitiue oportet quod sit ali 
+          <lb ed="#L" n="26"/>notitia intuitiua de nouo causata.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1229">
+          ⁋  
+          <lb ed="#L" n="27"/>mum argumentum alterius opinio dico quod quantum ad 
+          <lb ed="#L" n="28"/>aliquid est simile de augmenntatione curui 
+          <lb ed="#L" n="29"/>tis. raritatis. densitatis. et talium que ponuntur 
+          <lb ed="#L" n="30"/>esse de quarta specie qualitatis. et quantum
+          a<lb ed="#L" n="31" break="no"/>aliquid est dissimile. Quantum ad hoc est simi 
+          <lb ed="#L" n="32"/>le: quia in augmentatione talium non additur pre 
+          <lb ed="#L" n="33"/>existens alicui de nouo. nec etiam aliquid po 
+          <lb ed="#L" n="34"/>nitur iuxta aliud. nec aliquid praexistens
+          segre<lb ed="#L" n="35" break="no"/>gatur ab alio. sicut quidam antiqui ponebant 
+          <lb ed="#L" n="36"/>condensationem propter compressione pororum 
+          <lb ed="#L" n="37"/>in corpore condensato. sed dissimile est de istis 
+          <lb ed="#L" n="38"/>quantum ad aliqua alia. Unde si tenetur illa 
+          <lb ed="#L" n="39"/>opinione que tenet quantitatem non esset aliam rem ab 
+          <lb ed="#L" n="40"/>solutam a substantia et qualitate sicut
+          homi<lb ed="#L" n="41" break="no"/>nes communiter ymaginantur dicetur quod in au 
+          <lb ed="#L" n="42"/>gmentatione talium nulla res absoluta noua ad 
+          <lb ed="#L" n="43"/>uenit. nec in diminutione aliqua res
+          absolu<lb ed="#L" n="44" break="no"/>ta deperditur. sed talis augmentatio fit precise 
+          <lb ed="#L" n="45"/>per motum localem sicut patet de curuitate lines 
+          <lb ed="#L" n="46"/>quia per hoc solum quod partes extreme linee
+          ma<lb ed="#L" n="47" break="no"/>gis sibi approximantur fit ipsa curuior. Unde 
+          <lb ed="#L" n="48"/>sic ponendo opiniones quod quantitas sit aliqua res ab 
+          <lb ed="#L" n="49"/>soluta. oportet ponere quod si aliqua esset quantitas 
+          <lb ed="#L" n="50"/>separata ab omni substantia et ab omni accidente 
+          <lb ed="#L" n="51"/>absoluto. adhuc possent partes extreme illius 
+          <lb ed="#L" n="52"/>quantitatis magis approximari. et per consequens
+          fie<lb ed="#L" n="53" break="no"/>ret curuior. et tamen nihil absolutum sibi adueniret. 
+          <lb ed="#L" n="54"/>ita dicerent alii: quod quando aliqua res fit curuior quam 
+          <lb ed="#L" n="55"/>prius nulla res absoluta aduenit sibi de nouo 
+          <!--396.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 197-r -->
+          <lb ed="#L" n="56"/>sed tantum partes sue localiter sibi magis
+          approxi<lb ed="#L" n="57" break="no"/>mantur. Consimiliter dicerent quod ignis vel aer
+          ra<lb ed="#L" n="58" break="no"/>refit per hoc solum: quod eedem res coexistunt
+          circum<lb ed="#L" n="59" break="no"/>scriptiue maiori loco nunc quam prius. Unde sicut 
+          <lb ed="#L" n="60"/>substantia eadem secundum omnes non variata
+          coexi<lb ed="#L" n="61" break="no"/>stit sub maiori quantitate nunc quam prius. ita
+          di<lb ed="#L" n="62" break="no"/>cerent illi quod eadem res in nullo variata nisi lo 
+          <lb ed="#L" n="63"/>caliter coexistit maiori loco nunc quam prius. et hoc 
+          <lb ed="#L" n="64"/>est rarefieri Et sicut dicerent de rarefactione 
+          <lb ed="#L" n="65"/>ita dicerent de omnibus talibus proportiona 
+          <lb ed="#L" n="66"/>biliter quod nulla res noua absoluta distincta re 
+          <lb ed="#L" n="67"/>aliter a realitate precedente acquiritur nisi for 
+          <lb ed="#L" n="68"/>te locus. Sed in augmentatione aliarum
+          qua<lb ed="#L" n="69" break="no"/>litatum. cum non sit sic nec possit esse motus lo 
+          <lb ed="#L" n="70"/>calis oportet quod aliqua res absoluta de noue 
+          <lb ed="#L" n="71"/>addita adueniat.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1335">
+          ⁋ Qui autem dicunt quantita 
+          <lb ed="#L" n="72"/>tem esse aliam rem absolutam distinctam realiter a 
+          <lb ed="#L" n="73"/>substantia et qualitate habent ponereUt dide 
+          <lb ed="#L" n="74"/>tur in rarefactione totam quantitatem preceden 
+          <lb ed="#L" n="75"/>tem corrumpi. quia si quantitas precedens ma 
+          <lb ed="#L" n="76"/>neret. aut maneret precise in eodem subiecto 
+          <lb ed="#L" n="77"/>in quo prius et secundum quanlibet sui partem aut non. 
+          <lb ed="#L" n="78"/>si sic et certum est quod illa realitas in aduentum re 
+          <lb ed="#L" n="79"/>cipitur in subiecto. ergo in eodem subiecto erunt 
+          <lb ed="#L" n="80"/>due quantitates. quod est impossibile. Si non 
+          <lb ed="#L" n="81"/>manet precise in eodem subiecto. ergo secundum aliquid 
+          <lb ed="#L" n="82"/>sui recipitur in alio subiecto. et ita accidens mi 
+          <lb ed="#L" n="83"/>graret de subiecto in subiectum. vel secundum aliquid 
+          <lb ed="#L" n="84"/>li manebit sine subiecto: quod est
+          impossibi<lb ed="#L" n="85" break="no"/>le
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1368">
+          ⁋ Si dicatur quod realitas precedens et
+          reali<lb ed="#L" n="86" break="no"/>tas addita non sunt due quantitates. sed vna 
+          <lb ed="#L" n="87"/>quantitas. Contra. realitas precedens vere 
+          <lb ed="#L" n="88"/>fuit quantitas. quia res a qua scilicet res
+          augmenta<lb ed="#L" n="89" break="no"/>ta vere ipsa fuit quanta. sed impossibile est quod 
+          <lb ed="#L" n="90"/>quantitas fiat nonquantitas nisi per corruptio 
+          <lb ed="#L" n="91"/>nem vel destructionem. ergo adhuc est quantitas. et 
+          <lb ed="#L" n="92"/>eadem ratione quantitas addita erit quantitas 
+          <lb ed="#L" n="93"/>et ita erunt ibi due quantitates in eodem
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1389">
+          ⁋ Pre 
+          <lb ed="#L" n="94"/>terea. quandocunque alique due realitates eiusdem 
+          <lb ed="#L" n="95"/>rationis possunt esse in eodem subiecto primo. 
+          <lb ed="#L" n="96"/>numquam per additionem vnius realitatis ad aliam 
+          <lb ed="#L" n="97"/>fit eadem res maior extensiue. sed tantum
+          intensi<lb ed="#L" n="98" break="no"/>ue. quia dicitur magis tale et non maius tale 
+          <lb ed="#L" n="99"/>sicut patet quod quia vna realitas charitatis potest 
+          <lb ed="#L" n="100"/>esse in eodem subiecto primo cum alia realita 
+          <lb ed="#L" n="101"/>te charitatis. ideo per additionem vnius rea 
+          <lb ed="#L" n="102"/>litatis ad aliam. illud causatum non fit maius
+          cau<lb ed="#L" n="103" break="no"/>satum extensiue et dimensionaliter. sed tantum
+          di<lb ed="#L" n="104" break="no"/>citur magis quantum intensiue. ergo si due
+          realita<lb ed="#L" n="105" break="no"/>tes quantitatis compatiuntur se in eodem sub 
+          <lb ed="#L" n="106"/>iecto primo. illud subiectum non dicetur
+          ma<lb ed="#L" n="107" break="no"/>ius quantum extensiue et dimensionaliter. sed tantum 
+          <lb ed="#L" n="108"/>dicetur magis quantum intensiue. quod est manifeste 
+          <lb ed="#L" n="109"/>falsum. Et sicut arguo de duabus realitatibus 
+          <lb ed="#L" n="110"/>quantitatum. ita arguo de duabus realitatibus rari 
+          <!--396.xml-->
+          <pb ed="#L" n="197-r"/>
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="111"/>ISI¬ 
+          <!--397.xml-->
+          <pb ed="#L" n="197-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tatis. quod rarius non est maius extensiue propter
+          additio<lb ed="#L" n="2" break="no"/>nem realitatum raritatis ad realitatem eiusdem rationis 
+          <lb ed="#L" n="3"/>hoc idem patet in densitate. quia ibi non est
+          addi<lb ed="#L" n="4" break="no"/>tio alicuius realitatis noue quia numquam per additionem 
+          <lb ed="#L" n="5"/>alicuius rei necessario sit aliquid minus quantum 
+          <lb ed="#L" n="6"/>et tamen si sit densius necessario est minus quantu 
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1456">
+          <lb ed="#L" n="7"/>⁋ Sic ergo dico ad argumentum quod non est simile quantum 
+          <lb ed="#L" n="8"/>ad hoc quod aliqua realitas noua additur realitati 
+          <lb ed="#L" n="9"/>praecedenti eiusdem rationis. et faciens per se vnum cum 
+          <lb ed="#L" n="10"/>ea in raritate densitate curuitate asperitate. 
+          <lb ed="#L" n="11"/>et sic de aliis. sicut est de augmentatione
+          chari<lb ed="#L" n="12" break="no"/>tatis albedinis et talium qualitatum
+          augmenta<lb ed="#L" n="13" break="no"/>bilium.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1474">
+          ⁋ Per idem ad secundum dico quod quantum ad ali 
+          <lb ed="#L" n="14"/>quid est simile in augmentatione qualitatis et 
+          <lb ed="#L" n="15"/>quantitatis. et quantum ad aliquid est dissimile. est enim in 
+          <lb ed="#L" n="16"/>hoc dissimile quod in augmentatione qualitatis est 
+          <lb ed="#L" n="17"/>aliqua res absoluta secundum se totam noua faciens per se 
+          <lb ed="#L" n="18"/>vnum cum prima. non sic in augmentatione quantitatis. 
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1487">
+          <lb ed="#L" n="19"/>⁋ Ad tertium dico quod charitas in fine
+          augmen<lb ed="#L" n="20" break="no"/>tationis est vna numeraliter et ideo partes faciunt 
+          <lb ed="#L" n="21"/>vnum numero. Et dico quod se totis faciunt vnum et 
+          <lb ed="#L" n="22"/>non secundum sua vltima. quia nohabent talia vltima. 
+          <lb ed="#L" n="23"/>Unde sicut materia et forma faciunt se totis vnum 
+          <lb ed="#L" n="24"/>per se. et non secundum sua vltima. et ita est de istis
+          reali<lb ed="#L" n="25" break="no"/>tatibus. quamuis sit dissimile quantum ad hoc quod forma 
+          <lb ed="#L" n="26"/>informat materiam vna autem realitas hic non infor 
+          <lb ed="#L" n="27"/>mat aliam. et ita idem argumentum quod facit de istis 
+          <lb ed="#L" n="28"/>duabus realitatibus potest fieri de materia et forma. 
+          <lb ed="#L" n="29"/>et ideo sicut non valet ibi: ita nec valet hic.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1513">
+          ⁋ Per 
+          <lb ed="#L" n="30"/>hoc ad aliud quod ille realitates se totis vniuntur 
+          <lb ed="#L" n="31"/>et ideo non sunt ibi infinite forme non facientes 
+          <lb ed="#L" n="32"/>vnam formam numero. sed sunt ibi infinite partes: sicut 
+          <lb ed="#L" n="33"/>in aqua sunt infinite partes
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1524">
+          ⁋ Ad aliud dico 
+          <lb ed="#L" n="34"/>quod ex illis charitatibus fit vnum. et satis potest dici 
+          <lb ed="#L" n="35"/>quod est vnum vnitate homogeneitatis. sed tunc est
+          ar<lb ed="#L" n="36" break="no"/>gumentum falsum. quod talia non faciunt vnum nisi per com 
+          <lb ed="#L" n="37"/>tinuationem. Unde argumentum est contra seipsum. quia 
+          <lb ed="#L" n="38"/>manifestum est quod iste realitates faciunt vnum. et 
+          <lb ed="#L" n="39"/>quero qua vnitate. Si dicat quod aliqua alia vni 
+          <lb ed="#L" n="40"/>tate quae nec est vnitas talis essentialis compositi 
+          <lb ed="#L" n="41"/>onis nec continuitatis nec homogeneitatis nec 
+          <lb ed="#L" n="42"/>alicuius alterius. Eadem facilitate dicam hic quod due 
+          <lb ed="#L" n="43"/>charitates faciunt vnum vna alia vnitate. Uel 
+          <lb ed="#L" n="44"/>si dicat quod iste due realitates. quia sunt eiusdem rati 
+          <lb ed="#L" n="45"/>nis faciunt vnum vnitate homogeneitatis. eadem 
+          <lb ed="#L" n="46"/>facilitate dicam quod iste due charitates. quia sunt 
+          <lb ed="#L" n="47"/>eiusdem rationis faciunt vnum vnitate homogenei 
+          <lb ed="#L" n="48"/>tatis. Sic ergo omnis difficultas quae est contra me est 
+          <lb ed="#L" n="49"/>contra ponentem duas realitates eiusdem rationis ein 
+          <lb ed="#L" n="50"/>eadem charitate. nec est quantum ad hoc aliqua differentia 
+          <lb ed="#L" n="51"/>nisi quod istas duas realitates non vult vocare 
+          <lb ed="#L" n="52"/>charitates. quarum tamen multe fuerunt charitates 
+          <lb ed="#L" n="53"/>qui in quolibet instanti praeuio fuit verum dicere ali 
+          <lb ed="#L" n="54"/>qua charitas est in anima et non pro eadem. manifestum est 
+          <lb ed="#L" n="55"/>ergo pro diuersis et iste remanet. ergo vere fuerunt cha 
+          <!--397.xml-->
+          <cb ed="#L" n="b"/>
+          <!-- 197-v -->
+          <lb ed="#L" n="56"/>ritates. Ego autem dico quod sicut fuerunt charita 
+          <lb ed="#L" n="57"/>tes ita adhuc sunt charitates sicut partes aquae sunt 
+          <lb ed="#L" n="58"/>aqua. nec maiorem compositionem pono ego in
+          cha<lb ed="#L" n="59" break="no"/>ritate quam ipse. et ita propter simplicitatem conuenien 
+          <lb ed="#L" n="60"/>tem charitati augmtentate non ortet negare plures 
+          <lb ed="#L" n="61"/>charitates. sicut non ortet negare plures
+          realita<lb ed="#L" n="62" break="no"/>tes eiusdem rationis.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1597">
+          ⁋ Sed contra praedicta potest argui 
+          <lb ed="#L" n="63"/>primo. quia tunc sequeretur quod duo accidentia
+          differen<lb ed="#L" n="64" break="no"/>tia solo numero essent in eodem subiecto quod est 
+          <lb ed="#L" n="65"/>impossibile
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1606">
+          ⁋ Ite arguit quidam doctor sic Si quod 
+          <lb ed="#L" n="66"/>mile additum simili non augmentat. patet sicut si
+          tepi<lb ed="#L" n="67" break="no"/>dum addatur tepido. non augmentatur calor. ergo
+          augmen<lb ed="#L" n="68" break="no"/>tatio non est per talem additionem.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1615">
+          ⁋ Preterea vide aua 
+          <lb ed="#L" n="69"/>tur quod forma intensior et remissior non sunt
+          eiusdem<lb ed="#L" n="70" break="no"/>rationis. et per consequens partes non sunt eiusdem rationis inter 
+          <lb ed="#L" n="71"/>se et cum toto. cuius oppositum dictum est prius.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1624">
+          ⁋ Ai 
+          <lb ed="#L" n="72"/>sumptum probatur. quia natura sub determinato gra 
+          <lb ed="#L" n="73"/>du magis vel minus est species ad indiuidua. et hoc 
+          <lb ed="#L" n="74"/>species in forma contenta sub specie nature. ergo 
+          <lb ed="#L" n="75"/>illa indiuidua contenta sub talibus speciebus
+          de<lb ed="#L" n="76" break="no"/>terminatis specie distinguuntur. anens patet. quia
+          il<lb ed="#L" n="77" break="no"/>lud quod in quid dicitur per se de indiuiduis et est per se 
+          <lb ed="#L" n="78"/>vnum: est species eorum. sed natura in determinato
+          gra<lb ed="#L" n="79" break="no"/>du tali vel tali dicitur in quid de indiuiduis et est per 
+          <lb ed="#L" n="80"/>se vnum. quia tota. et secundum hunc gradum essentialiter est 
+          <lb ed="#L" n="81"/>eorum quae habent naturam in tali gradu. et gradus ni 
+          <lb ed="#L" n="82"/>hil addit quod accidit nature. ergo natura in tali 
+          <lb ed="#L" n="83"/>gradu est species. et patet quod est minus commune quam species nature 
+          <lb ed="#L" n="84"/>ergo si est species est species inferior in ordine nature. 
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1655">
+          <lb ed="#L" n="85"/>⁋ Ad primum istorum dico quod duo accidentia differentia se 
+          <lb ed="#L" n="86"/>lo numero facientia tamen vnum accidens numero non est 
+          <lb ed="#L" n="87"/>impossibile esse in eodem. Sed duo accidentia nata 
+          <lb ed="#L" n="88"/>facere vnum esse in eodem et non facere vnum numero 
+          <lb ed="#L" n="89"/>est impossibile per naturam. et hoc intendit philosophus et non 
+          <lb ed="#L" n="90"/>aliud.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1671">
+          ⁋ Si dicatur ista accidentia differunt numero 
+          <lb ed="#L" n="91"/>ergo non faciunt vnum numero. Dico quod aliqua differre 
+          <lb ed="#L" n="92"/>solo numero duplicitur potest intelligi. Uno modo. quia 
+          <lb ed="#L" n="93"/>sunt aliqua eiusdem rationis quorum vnum non est reali 
+          <lb ed="#L" n="94"/>ter reliquum. et sic verum est quod illa quae differunt numero 
+          <lb ed="#L" n="95"/>faciunt vnum numero. et sic intelligebam prius. et isto 
+          <lb ed="#L" n="96"/>modo omnes partes eiusdem rationis differunt numero. 
+          <lb ed="#L" n="97"/>Alio modo dicuntur aliqua differre numero. quia sunt to 
+          <lb ed="#L" n="98"/>ta non constituentia vnum. et sic consequentia est bona. sed
+          nihi<lb ed="#L" n="99" break="no"/>ad propositum.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1694">
+          ⁋ Ad aliud quando repidum
+          ad<lb ed="#L" n="100" break="no"/>ditur tepido. illi parui calores remanent in
+          di<lb ed="#L" n="101" break="no"/>stinctis subiectis sicut prius. et ideo non
+          augmen<lb ed="#L" n="102" break="no"/>tant caliditatem. sed si fieret in eo subiecto pri 
+          <lb ed="#L" n="103"/>mo augmentarent.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1705">
+          ⁋ Ad tertium: quod forma inten 
+          <lb ed="#L" n="104"/>sior et remissior sunt eiusdem specieispecialissime 
+          <lb ed="#L" n="105"/>Unde nulla est species inferior albedine nec 
+          <lb ed="#L" n="106"/>nigredine nec calore. et sic de aliis.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1714">
+          ⁋ Ad proba 
+          <lb ed="#L" n="107"/>tionem dico quod natura sub determinato gradu 
+          <lb ed="#L" n="108"/>quocumque non est species. et hoc quia non est ymaginadum quod 
+          <lb ed="#L" n="109"/>natura sit sub aliquo gradu. quia nulla est natura 
+          <lb ed="#L" n="110"/>ex parterei nisi sit aliquas gradus vel indiuiduum per hoc portet 
+          <!--398.xml-->
+          <pb ed="#L" n="198-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ad probationem quod natura in tali gradu non
+          praedica<lb ed="#L" n="2" break="no"/>tur inquid de illis pluribus.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1736">
+          ⁋ Et si dicatur quod duo 
+          <lb ed="#L" n="3"/>albedines eque intense plus conneniunt quam due al 
+          <lb ed="#L" n="4"/>bedines quarum vna est intensa et alia remissa. 
+          <lb ed="#L" n="5"/>ergo ab eis potest abstrahi aliquis conceptus communis
+          albe<lb ed="#L" n="6" break="no"/>dinibus eque intensis qui non erit communis albedini 
+          <lb ed="#L" n="7"/>intense et remisse.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1749">
+          ⁋ Confirmatur. quia dictum est prius 
+          <lb ed="#L" n="8"/>quod conceptus specieispalissime est simillimus inesse 
+          <lb ed="#L" n="9"/>obiectiuo ipsi indiuiduorinessm subiectiuo. ita
+          qua<lb ed="#L" n="10" break="no"/>le est ipsum indiuiduum extra. tale fingitur in anima. et 
+          <lb ed="#L" n="11"/>illud sic fictum non potest esse simillimum duobus non si 
+          <lb ed="#L" n="12"/>millimis. ergo duobus non simillimis non erit aliqua 
+          <lb ed="#L" n="13"/>pesspanlissima communis.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1765">
+          ⁋ Ad istud dico quamuis ali 
+          <lb ed="#L" n="14"/>quo modo plus conueniant et plus assimilentur due 
+          <lb ed="#L" n="15"/>albedines eque intense quam albedo intensa et re 
+          <lb ed="#L" n="16"/>missa. hoc tamen non sufficit ad conceptum habendum 
+          <lb ed="#L" n="17"/>praecise communem illis et non aliis. quia quando habetur conceptus 
+          <lb ed="#L" n="18"/>proprius aliquibus et non aliis. oportet quod illa alia sic se ha 
+          <lb ed="#L" n="19"/>beant quod in quolibetillorum sit aliquid cui nihil si 
+          <lb ed="#L" n="20"/>millimum inueniatur in alio. sicut in sorte est aliquid 
+          <lb ed="#L" n="21"/>et nihil sibi simillimum est in quocumque alio. sed in al 
+          <lb ed="#L" n="22"/>bedine remissa nihil potest inueniri quin sit ibi
+          si<lb ed="#L" n="23" break="no"/>millimum in albedine intensa. quia quocumque
+          demon<lb ed="#L" n="24" break="no"/>strato in albedine remissa aliquid est ibi
+          similli<lb ed="#L" n="25" break="no"/>mum in albedine intensa et ideo non continentur sub di 
+          <lb ed="#L" n="26"/>stinctis speciebusspanlissimis.
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1797">
+          ⁋ Ad confirmatio 
+          <lb ed="#L" n="27"/>nem. quod si ponatur opiniones prius posita quod conceptus est tale 
+          <lb ed="#L" n="28"/>quid fictum et sic secundum illam opinionem est dicendum quod ta 
+          <lb ed="#L" n="29"/>lis conceptus communis omnibus indiuiduis intensis et re 
+          <lb ed="#L" n="30"/>missis est simillimus eis. hoc est ita similis
+          quan<lb ed="#L" n="31" break="no"/>tum possibile est conceptum vnum naturaliter
+          abstra<lb ed="#L" n="32" break="no"/>hibilem ab eis esse similem eis in esse ficto. et talis 
+          <lb ed="#L" n="33"/>non est nisi conceptus communis omnibus. qui non est simplicier 
+          <lb ed="#L" n="34"/>simillimus eis. quia ipsa inter se non sunt sibi
+          simil<lb ed="#L" n="35" break="no"/>lima Et si dicatur quod possum fingere vnum simillimum 
+          <lb ed="#L" n="36"/>albedini intense quam video. Dico secundum istam opinio 
+          <lb ed="#L" n="37"/>quod non est possibile nisi consignificando vel addendo 
+          <lb ed="#L" n="38"/>aliquid quod non praedicatur in quid de illa albedine. sicut 
+          <lb ed="#L" n="39"/>sic dicendo. albedo habens tot gradus vel al 
+          <lb ed="#L" n="40"/>bedo ita intensa. hic ponitur aliquid quod non
+          pri<lb ed="#L" n="41" break="no"/>dicatur in quid de albedine. et ideo non est conceptus 
+          <lb ed="#L" n="42"/>quidditatiuus. Si autem teneatur alia opinioe de
+          conce<lb ed="#L" n="43" break="no"/>ptu quod sit qualitas mentis siue intetio siue ali 
+          <lb ed="#L" n="44"/>quid aliud. potest proportionabiliter responderi. 
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1839">
+          <lb ed="#L" n="45"/>⁋ Ad primum principale dico quod intentio philosophi est quod 
+          <lb ed="#L" n="46"/>ex duobus in actu alterius et alterius rationis non fit 
+          <lb ed="#L" n="47"/>vnum. et ideo quando illa componibilia sunt alterius et 
+          <lb ed="#L" n="48"/>alterius rationis non fit ex eis vnum nisi vnum sit actus et 
+          <lb ed="#L" n="49"/>aliud potentia. quando autem sunt eiusdem rationis non oportet 
+          <lb ed="#L" n="50"/>patet de partibus aque et ignis. ita est in proposito. 
+        </p>
+        <p xml:id="wo8uy7-d1e1094-d1e1855">
+          <lb ed="#L" n="51"/>⁋ Ad secundum dico quod diuidi in partes quarum vna 
+          <lb ed="#L" n="52"/>est extra aliam et distincta ab ea situ conuenit so 
+          <lb ed="#L" n="53"/>li quanto. sed charitas non est sic diuisibilis. quia 
+          <lb ed="#L" n="54"/>nulla pars charitatis distat etc. ideo charitas 
+          <lb ed="#L" n="55"/>non est quanta. Ad tertium patet prius. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
